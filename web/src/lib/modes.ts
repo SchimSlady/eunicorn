@@ -61,7 +61,7 @@ export const MODES: ModeInfo[] = [
     rules: [
       "Five startups share something: a country, a city, a sector, a founding period or unicorn status. One doesn't.",
       "Find the impostor. You start with €10m; each wrong pick costs €4m.",
-      "Easy: 3 tries. Medium: 2 tries. Hard: 1 try, no hints.",
+      "Easy: 5 companies, 3 tries. Medium: 6 companies, 2 tries. Hard: 8 companies, a sneakier impostor, 1 try, no hints.",
     ],
   },
 ];
