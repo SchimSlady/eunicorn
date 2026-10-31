@@ -2,7 +2,7 @@ import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
 import { LAST_UPDATED } from "@/lib/legal";
 
-/** Shared frame for Impressum, Privacy and About: back link, title, readable column. */
+/** Shared frame for Privacy and About: back link, title, readable column. */
 export function LegalPage({ title, children }: { title: string; children: React.ReactNode }) {
   return (
     <main className="mx-auto max-w-2xl px-4 py-10 sm:px-6">

@@ -23,7 +23,7 @@ export default function Privacy() {
           <a href={`mailto:${CONTACT_EMAIL}`} className={link}>
             {CONTACT_EMAIL}
           </a>
-          . More in the <a href="/impressum" className={link}>Impressum</a>.
+          . More in <a href="/about" className={link}>About &amp; data</a>.
         </p>
       </Section>
 

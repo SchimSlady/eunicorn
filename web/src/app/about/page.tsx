@@ -48,6 +48,13 @@ export default function About() {
         </p>
       </Section>
 
+      <Section title="Liability">
+        <p>
+          We are not responsible for the content of external sites we link to. When we linked them, we found no
+          unlawful content; if we learn of any, we remove the link.
+        </p>
+      </Section>
+
       <Section title="Credits">
         <p>
           Fonts:{" "}

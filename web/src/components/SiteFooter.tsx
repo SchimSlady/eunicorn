@@ -5,7 +5,6 @@ import { MODES } from "@/lib/modes";
 
 const PAGES = [
   { href: "/about", label: "About & data" },
-  { href: "/impressum", label: "Impressum" },
   { href: "/privacy", label: "Privacy policy" },
 ];
 
