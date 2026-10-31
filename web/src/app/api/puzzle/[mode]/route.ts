@@ -1,6 +1,6 @@
 import type { GameMode } from "@eunicorn/schema";
 import { getPuzzle } from "@/lib/server/supabase";
-import { todayKey } from "@/lib/daily";
+import { DAILY_LOCK, todayKey } from "@/lib/daily";
 
 const MODES: GameMode[] = ["who-raised-this", "unicorn-grid", "higher-lower", "impostor"];
 
@@ -9,10 +9,13 @@ const MODES: GameMode[] = ["who-raised-this", "unicorn-grid", "higher-lower", "i
  * in Europe/Berlin, so a wrong clock on the player's device can't unlock tomorrow early.
  * 204 when there is none, so the client falls back to the files in /data.
  */
-export async function GET(_req: Request, { params }: { params: Promise<{ mode: string }> }) {
+export async function GET(req: Request, { params }: { params: Promise<{ mode: string }> }) {
   const { mode } = await params;
   if (!MODES.includes(mode as GameMode)) return new Response(null, { status: 404 });
-  const puzzle = await getPuzzle(mode as GameMode, todayKey());
+  // Test mode only (daily lock off): ?rotate=<anything> gives a freshly generated puzzle.
+  const rotate = DAILY_LOCK ? null : new URL(req.url).searchParams.get("rotate");
+  const puzzle = await getPuzzle(mode as GameMode, todayKey(), rotate ?? undefined);
   if (!puzzle) return new Response(null, { status: 204 });
-  return Response.json(puzzle, { headers: { "Cache-Control": "public, s-maxage=300, stale-while-revalidate=600" } });
+  const cache = rotate ? "no-store" : "public, s-maxage=300, stale-while-revalidate=600";
+  return Response.json(puzzle, { headers: { "Cache-Control": cache } });
 }

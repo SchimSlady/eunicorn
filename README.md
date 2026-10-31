@@ -13,7 +13,7 @@ npm run build
 ```
 Requires Node 22.6+.
 
-The once-a-day lock is **on** by default: a finished game stays finished, a reload resumes it, and the streak counts. To replay while testing, set `NEXT_PUBLIC_DAILY_LOCK=false` in `web/.env.local` (or in a Vercel Preview environment).
+The once-a-day lock is **off** while we test ("Test mode" in the header): games can be replayed and every new game gets a different generated puzzle. Turn it on for launch with `NEXT_PUBLIC_DAILY_LOCK=true` (Vercel); then a finished game stays finished, the streak counts and the puzzle is the same for everyone all day.
 
 ## Layout
 - `packages/schema`: shared TypeScript types (Company, Round, Puzzle, Hint…)

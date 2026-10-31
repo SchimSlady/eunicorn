@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Flame } from "lucide-react";
-import { RESULTS_EVENT, streak } from "@/lib/daily";
+import { DAILY_LOCK, RESULTS_EVENT, streak } from "@/lib/daily";
 import { MODES } from "@/lib/modes";
 import { Wordmark } from "./Wordmark";
 
@@ -26,15 +26,34 @@ export function SiteHeader() {
   return (
     <header className="sticky top-0 z-20 border-b border-border bg-background/90 backdrop-blur">
       <div className="mx-auto flex h-14 max-w-5xl items-center justify-between px-4 sm:px-6">
-        <Link href="/" aria-label="EUnicorn, all games" className="font-display text-xl font-bold leading-none">
+        <Link
+          href="/"
+          aria-label="EUnicorn, all games"
+          className="font-display text-xl font-bold leading-none"
+        >
           <Wordmark />
         </Link>
-        <span
-          className={`flex items-center gap-1.5 rounded-full border border-border px-3 py-1 text-sm font-semibold ${days ? "" : "text-muted"}`}
-          title="Days in a row with at least one game played"
-          aria-label={`${days} day streak`}
-        >
-          <Flame size={16} className={days ? "text-primary" : ""} aria-hidden /> {days}
+        <span className="flex items-center gap-2">
+          {!DAILY_LOCK && (
+            <span
+              className="rounded-full bg-wrong/15 px-2.5 py-1 text-xs font-semibold text-wrong"
+              title="Daily lock off: games can be replayed and puzzles rotate"
+            >
+              Test mode
+            </span>
+          )}
+          <span
+            className={`flex items-center gap-1.5 rounded-full border border-border px-3 py-1 text-sm font-semibold ${days ? "" : "text-muted"}`}
+            title="Days in a row with at least one game played"
+            aria-label={`${days} day streak`}
+          >
+            <Flame
+              size={16}
+              className={days ? "text-primary" : ""}
+              aria-hidden
+            />{" "}
+            {days}
+          </span>
         </span>
       </div>
     </header>

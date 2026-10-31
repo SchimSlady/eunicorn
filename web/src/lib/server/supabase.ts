@@ -157,7 +157,12 @@ export async function getDataset(): Promise<(Omit<Dataset, "rounds"> & { rounds:
  * wins (RLS hides drafts and future days); without one, the puzzle is generated from the
  * verified data. null only when Supabase is unavailable or the data can't support the mode.
  */
-export async function getPuzzle(mode: GameMode, date: string): Promise<Puzzle | null> {
+export async function getPuzzle(mode: GameMode, date: string, rotate?: string): Promise<Puzzle | null> {
+  // Test mode: skip the approved puzzle and generate a new one from this salt.
+  if (rotate) {
+    const data = await getDataset();
+    return data ? generatePuzzle(mode, date, data, rotate) : null;
+  }
   const rows = await select<{ payload: Puzzle }>(
     `puzzles?select=payload&mode=eq.${encodeURIComponent(mode)}&date=eq.${encodeURIComponent(date)}&limit=1`,
   );
