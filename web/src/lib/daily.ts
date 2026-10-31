@@ -13,6 +13,45 @@ export async function loadPuzzle<P extends Puzzle>(mode: GameMode, date = todayK
   return res.ok ? ((await res.json()) as P) : null;
 }
 
+/** Until the data side publishes a daily schedule, fall back to the fixture day. */
+const FIXTURE_DATE = "2026-11-01";
+
+export async function loadTodayPuzzle<P extends Puzzle>(mode: GameMode): Promise<P | null> {
+  return (await loadPuzzle<P>(mode)) ?? (await loadPuzzle<P>(mode, FIXTURE_DATE));
+}
+
+/** Milliseconds until the next puzzle unlocks (midnight Europe/Berlin). */
+export function msUntilNextPuzzle(now = new Date()): number {
+  const parts = new Intl.DateTimeFormat("en-GB", {
+    timeZone: PUZZLE_TIMEZONE,
+    hour: "numeric",
+    minute: "numeric",
+    second: "numeric",
+    hourCycle: "h23",
+  }).formatToParts(now);
+  const get = (t: string) => Number(parts.find((p) => p.type === t)?.value ?? 0);
+  const elapsed = get("hour") * 3600 + get("minute") * 60 + get("second");
+  return (86400 - elapsed) * 1000 - now.getMilliseconds();
+}
+
+/* ---------- in-progress state, so a reload doesn't reset (or re-roll) today's game ---------- */
+
+export function loadProgress<T>(mode: GameMode, date: string): T | null {
+  try {
+    return JSON.parse(localStorage.getItem(`eunicorn:${mode}:progress:${date}`) ?? "null");
+  } catch {
+    return null;
+  }
+}
+
+export function saveProgress<T>(mode: GameMode, date: string, state: T): void {
+  try {
+    localStorage.setItem(`eunicorn:${mode}:progress:${date}`, JSON.stringify(state));
+  } catch {
+    // Storage blocked; progress just won't survive a reload.
+  }
+}
+
 /* ---------- once-a-day lock + stats, device-local (no accounts) ---------- */
 
 export interface DailyResult {
