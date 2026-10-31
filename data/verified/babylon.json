@@ -1,0 +1,133 @@
+{
+  "id": "babylon",
+  "name": "Babylon",
+  "aliases": [
+    "Babylon Health"
+  ],
+  "domain": "babylonhealth.com",
+  "country": "GB",
+  "city": "London",
+  "founded": 2013,
+  "sectors": [
+    "health"
+  ],
+  "status": "defunct",
+  "unicorn": true,
+  "lastValuationEur": 1800828381,
+  "founders": [
+    "Ali Parsa"
+  ],
+  "difficulty": 3,
+  "techeuId": "B6C22904-64C5-461A-BA47-FC63003A9870",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/Babylon_Health",
+      "quote": "Headquarters London, United Kingdom"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Babylon_Health",
+      "quote": "The company was founded in 2013 by Ali Parsa"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Babylon_Health",
+      "quote": "The company was founded in 2013 by Ali Parsa"
+    },
+    {
+      "field": "sectors",
+      "url": "https://en.wikipedia.org/wiki/Babylon_Health",
+      "quote": "Industry Health care"
+    },
+    {
+      "field": "status",
+      "url": "https://en.wikipedia.org/wiki/Babylon_Health",
+      "quote": "Fate Bankruptcy and sale"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://techcrunch.com/2019/08/02/babylon-health-confirms-550m-raise-to-expand-its-ai-based-health-services-to-the-us-and-asia/",
+      "quote": "valuing Babylon Health at more than $2 billion"
+    },
+    {
+      "field": "valuation",
+      "url": "https://techcrunch.com/2019/08/02/babylon-health-confirms-550m-raise-to-expand-its-ai-based-health-services-to-the-us-and-asia/",
+      "quote": "valuing Babylon Health at more than $2 billion"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "84338e23-93ef-4c5a-dd59-08d91092c887",
+      "stage": "series-b",
+      "month": "2017-04",
+      "amountEur": 55839926,
+      "amountOriginal": 60000000,
+      "currency": "USD",
+      "investors": [
+        "NNS Holdings",
+        "Vostok New Ventures",
+        "Kinnevik"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2017/04/25/babylon-health-raises-further-60m-to-continue-building-out-ai-doctor-app/",
+          "quote": "Babylon Health raises further $60M to continue building out AI doctor app"
+        },
+        {
+          "field": "month",
+          "url": "https://en.wikipedia.org/wiki/Babylon_Health",
+          "quote": "In April 2017, it raised a further $60 million"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2017/04/25/babylon-health-raises-further-60m-to-continue-building-out-ai-doctor-app/",
+          "quote": "participation from NNS holdings, Vostok New Ventures"
+        }
+      ]
+    },
+    {
+      "techeuId": "f2384cd9-0f21-49be-dd5a-08d91092c887",
+      "stage": "series-c",
+      "month": "2019-08",
+      "amountEur": 495227805,
+      "amountOriginal": 550000000,
+      "currency": "USD",
+      "postMoneyValuationEur": 1800828381,
+      "investors": [
+        "Public Investment Fund",
+        "ERGO Fund",
+        "Kinnevik",
+        "Vostok New Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2019/08/02/babylon-health-confirms-550m-raise-to-expand-its-ai-based-health-services-to-the-us-and-asia/",
+          "quote": "It has closed a $550 million round of funding"
+        },
+        {
+          "field": "stage",
+          "url": "https://en.wikipedia.org/wiki/Babylon_Health",
+          "quote": "Babylon's series C funding in August 2019"
+        },
+        {
+          "field": "month",
+          "url": "https://en.wikipedia.org/wiki/Babylon_Health",
+          "quote": "Babylon's series C funding in August 2019"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2019/08/02/babylon-health-confirms-550m-raise-to-expand-its-ai-based-health-services-to-the-us-and-asia/",
+          "quote": "Munich Re’s ERGO Fund; and returning investors Kinnevik and Vostok New Ventures"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2019/08/02/babylon-health-confirms-550m-raise-to-expand-its-ai-based-health-services-to-the-us-and-asia/",
+          "quote": "PIF (Saudi Arabia’s Public Investment Fund)"
+        }
+      ]
+    }
+  ]
+}

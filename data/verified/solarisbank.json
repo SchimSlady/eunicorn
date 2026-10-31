@@ -1,0 +1,206 @@
+{
+  "id": "solarisbank",
+  "name": "Solaris",
+  "aliases": [
+    "Solarisbank",
+    "solarisBank",
+    "Solaris SE"
+  ],
+  "domain": "solarisgroup.com",
+  "country": "DE",
+  "city": "Berlin",
+  "founded": 2016,
+  "sectors": [
+    "fintech"
+  ],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 1400000000,
+  "founders": [
+    "Marko Wenthin",
+    "Andreas Bittner"
+  ],
+  "difficulty": 4,
+  "techeuId": "937D661B-8D58-4C11-B03F-C54D6FF509EC",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/Solaris_(credit_institution)",
+      "quote": "it is headquartered in Berlin and has branches in London"
+    },
+    {
+      "field": "founded",
+      "url": "https://de.wikipedia.org/wiki/Solarisbank",
+      "quote": "Die Solarisbank wurde im März 2016 vom deutschen Fintech -Unternehmen finleap"
+    },
+    {
+      "field": "founders",
+      "url": "https://de.wikipedia.org/wiki/Solarisbank",
+      "quote": "sowie Marko Wenthin und Andreas Bittner gegründet"
+    },
+    {
+      "field": "sectors",
+      "url": "https://newsroom.solarisgroup.com/189970-solarisbank-europe-s-leading-banking-as-a-service-platform-raises-eur-60-million-in-series-c-round-to-further-accelerate-growth",
+      "quote": "solarisBank AG, the technology company with a full banking license"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://www.handelsblatt.com/finanzen/banken-versicherungen/banken/fintech-solarisbank-steigt-zum-einhorn-auf-und-kauft-britischen-wettbewerber-contis/27453774.html",
+      "quote": "Das Berliner Fintech mit Vollbanklizenz wird dabei mit 1,4 Milliarden Euro bewertet"
+    },
+    {
+      "field": "valuation",
+      "url": "https://www.handelsblatt.com/finanzen/banken-versicherungen/banken/fintech-solarisbank-steigt-zum-einhorn-auf-und-kauft-britischen-wettbewerber-contis/27453774.html",
+      "quote": "Das Berliner Fintech mit Vollbanklizenz wird dabei mit 1,4 Milliarden Euro bewertet"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "6c53ef5b-cbc0-4cc2-8270-72cdabb59028",
+      "stage": "series-a",
+      "month": "2017-03",
+      "amountEur": 26300000,
+      "amountOriginal": 26300000,
+      "currency": "EUR",
+      "investors": [
+        "Yabeo Capital",
+        "Arvato Financial Solutions",
+        "Finleap",
+        "UniCredit",
+        "SBI Group"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://de.wikipedia.org/wiki/Solarisbank",
+          "quote": "Eine weitere Finanzierungsrunde (Series A) über 26,3 Millionen Euro wurde im März 2017 abgeschlossen."
+        },
+        {
+          "field": "stage",
+          "url": "https://de.wikipedia.org/wiki/Solarisbank",
+          "quote": "Eine weitere Finanzierungsrunde (Series A) über 26,3 Millionen Euro wurde im März 2017 abgeschlossen."
+        },
+        {
+          "field": "month",
+          "url": "https://de.wikipedia.org/wiki/Solarisbank",
+          "quote": "Eine weitere Finanzierungsrunde (Series A) über 26,3 Millionen Euro wurde im März 2017 abgeschlossen."
+        },
+        {
+          "field": "investors",
+          "url": "https://en.wikipedia.org/wiki/Solaris_(credit_institution)",
+          "quote": "In February 2017, Solaris raised €26.3 million in its series A funding round from Yabeo Capital , Arvato Financial Solutions, Finleap, Unicredit and the Japan-based SBI group ."
+        }
+      ]
+    },
+    {
+      "techeuId": "4fec8001-f34c-4c89-ea31-08d91092c887",
+      "stage": "series-b",
+      "month": "2018-03",
+      "amountEur": 56600000,
+      "amountOriginal": 56600000,
+      "currency": "EUR",
+      "investors": [
+        "Arvato Financial Solutions",
+        "SBI Group",
+        "BBVA",
+        "Visa",
+        "Lakestar",
+        "ABN AMRO Digital Impact Fund"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2018/03/07/banking-platform-solarisbank-closes-e56-6m-series-b-from-bbva-visa-lakestar-and-others/",
+          "quote": "has closed €56.6 million in Series B funding in a round that includes a number of new strategic and financial investors."
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2018/03/07/banking-platform-solarisbank-closes-e56-6m-series-b-from-bbva-visa-lakestar-and-others/",
+          "quote": "has closed €56.6 million in Series B funding in a round that includes a number of new strategic and financial investors."
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2018/03/07/banking-platform-solarisbank-closes-e56-6m-series-b-from-bbva-visa-lakestar-and-others/",
+          "quote": "March 7, 2018"
+        },
+        {
+          "field": "investors",
+          "url": "https://en.wikipedia.org/wiki/Solaris_(credit_institution)",
+          "quote": "In March 2018, Solaris raised $70 million in Series B funding from Arvato Financial Solutions, SBI Group, BBVA , Visa , Lakestar and ABN AMRO's Digital Impact Fund."
+        }
+      ]
+    },
+    {
+      "techeuId": "4cae2e9a-aea2-4512-ea32-08d91092c887",
+      "stage": "series-c",
+      "month": "2020-06",
+      "amountEur": 60000000,
+      "amountOriginal": 60000000,
+      "currency": "EUR",
+      "investors": [
+        "HV Holtzbrinck Ventures",
+        "Yabeo Capital",
+        "BBVA",
+        "SBI Group",
+        "ABN AMRO Ventures",
+        "Global Brain",
+        "Hegus",
+        "Lakestar"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://newsroom.solarisgroup.com/189970-solarisbank-europe-s-leading-banking-as-a-service-platform-raises-eur-60-million-in-series-c-round-to-further-accelerate-growth",
+          "quote": "solarisBank AG, the technology company with a full banking license, today announced a EUR 60 million series C funding."
+        },
+        {
+          "field": "stage",
+          "url": "https://newsroom.solarisgroup.com/189970-solarisbank-europe-s-leading-banking-as-a-service-platform-raises-eur-60-million-in-series-c-round-to-further-accelerate-growth",
+          "quote": "solarisBank AG, the technology company with a full banking license, today announced a EUR 60 million series C funding."
+        },
+        {
+          "field": "month",
+          "url": "https://newsroom.solarisgroup.com/189970-solarisbank-europe-s-leading-banking-as-a-service-platform-raises-eur-60-million-in-series-c-round-to-further-accelerate-growth",
+          "quote": "2020-06-30T07:10:01"
+        },
+        {
+          "field": "investors",
+          "url": "https://newsroom.solarisgroup.com/189970-solarisbank-europe-s-leading-banking-as-a-service-platform-raises-eur-60-million-in-series-c-round-to-further-accelerate-growth",
+          "quote": "The series C round will be led by HV Holtzbrinck Ventures with considerable commitment from founding investor yabeo."
+        },
+        {
+          "field": "investors",
+          "url": "https://newsroom.solarisgroup.com/189970-solarisbank-europe-s-leading-banking-as-a-service-platform-raises-eur-60-million-in-series-c-round-to-further-accelerate-growth",
+          "quote": "led by yabeo, alongside BBVA, SBI Group, ABN AMRO Ventures, Global Brain, Hegus and Lakestar."
+        }
+      ]
+    },
+    {
+      "techeuId": "f09cd2ec-3fb2-4cd9-98d3-cd3db75ba2f3",
+      "stage": "series-d",
+      "month": "2021-07",
+      "amountEur": 190000000,
+      "amountOriginal": 190000000,
+      "currency": "EUR",
+      "postMoneyValuationEur": 1400000000,
+      "investors": [],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.handelsblatt.com/finanzen/banken-versicherungen/banken/fintech-solarisbank-steigt-zum-einhorn-auf-und-kauft-britischen-wettbewerber-contis/27453774.html",
+          "quote": "Die Solarisbank hat in einer neuen Finanzierungsrunde 190 Millionen Euro eingesammelt."
+        },
+        {
+          "field": "stage",
+          "url": "https://de.wikipedia.org/wiki/Solarisbank",
+          "quote": "2021 wurde eine Finanzierungsrunde (Series D) von 190 Millionen Euro bekannt gegeben"
+        },
+        {
+          "field": "month",
+          "url": "https://www.handelsblatt.com/finanzen/banken-versicherungen/banken/fintech-solarisbank-steigt-zum-einhorn-auf-und-kauft-britischen-wettbewerber-contis/27453774.html",
+          "quote": "26.07.2021 - 17:40 Uhr"
+        }
+      ]
+    }
+  ]
+}

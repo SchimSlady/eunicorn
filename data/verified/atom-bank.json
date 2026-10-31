@@ -1,0 +1,139 @@
+{
+  "id": "atom-bank",
+  "name": "Atom Bank",
+  "aliases": [
+    "atom bank"
+  ],
+  "domain": "atom.bank",
+  "country": "GB",
+  "city": "Durham",
+  "founded": 2013,
+  "sectors": [
+    "fintech"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Anthony Thomson",
+    "Mark Mullen"
+  ],
+  "difficulty": 4,
+  "techeuId": "AD53EA85-8B12-4FC2-B2B2-238A70B0E96B",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://techcrunch.com/2018/03/07/uks-atom-bank-raises-another-206m-led-by-bbva-for-millennial-and-smb-financial-services",
+      "quote": "the startup based out of Durham, England"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Atom_Bank",
+      "quote": "Atom was founded in July 2013"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Atom_Bank",
+      "quote": "by Anthony Thomson, co-founder of Metro Bank [ 6 ] and Mark Mullen, previous CEO at First Direct"
+    },
+    {
+      "field": "sectors",
+      "url": "https://en.wikipedia.org/wiki/Atom_Bank",
+      "quote": "It is the United Kingdom's first bank built for smartphone or tablet"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "a5e9e243-42fd-464b-f660-08d91092c887",
+      "stage": "series-c",
+      "month": "2017-03",
+      "amountEur": 96114875,
+      "amountOriginal": 83000000,
+      "currency": "GBP",
+      "postMoneyValuationEur": 302240750,
+      "investors": [
+        "BBVA"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2017/03/03/atom-bank-102-million",
+          "quote": "has raised another £83 million ($102 million) in funding led by BBVA"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2017/03/03/atom-bank-102-million",
+          "quote": "March 3, 2017"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2017/03/03/atom-bank-102-million",
+          "quote": "has raised another £83 million ($102 million) in funding led by BBVA"
+        }
+      ]
+    },
+    {
+      "techeuId": "3fc13cba-3ef9-4594-f662-08d91092c887",
+      "stage": "series-d",
+      "month": "2018-03",
+      "amountEur": 165901587,
+      "amountOriginal": 206000000,
+      "currency": "USD",
+      "investors": [
+        "BBVA",
+        "Toscafund"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2018/03/07/uks-atom-bank-raises-another-206m-led-by-bbva-for-millennial-and-smb-financial-services",
+          "quote": "Atom Bank raises another $206M led by BBVA"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2018/03/07/uks-atom-bank-raises-another-206m-led-by-bbva-for-millennial-and-smb-financial-services",
+          "quote": "March 7, 2018"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2018/03/07/uks-atom-bank-raises-another-206m-led-by-bbva-for-millennial-and-smb-financial-services",
+          "quote": "this latest investment was led by BBVA, the Spanish bank"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2018/03/07/uks-atom-bank-raises-another-206m-led-by-bbva-for-millennial-and-smb-financial-services",
+          "quote": "Toscafund is investing £54.4 million"
+        }
+      ]
+    },
+    {
+      "techeuId": "bb731d28-2450-46ef-808b-93b74282ee40",
+      "stage": "series-e",
+      "month": "2022-02",
+      "amountEur": 89349535,
+      "amountOriginal": 75000000,
+      "currency": "GBP",
+      "investors": [
+        "BBVA",
+        "Toscafund",
+        "Infinity Investment Partners"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://bbva.com/en/innovation/atom-bank-closes-75-million-financing-round-led-by-bbva-toscafund-and-infinity",
+          "quote": "Atom Bank closes £75 million financing round led by BBVA, Toscafund and Infinity"
+        },
+        {
+          "field": "month",
+          "url": "https://bbva.com/en/innovation/atom-bank-closes-75-million-financing-round-led-by-bbva-toscafund-and-infinity",
+          "quote": "16-02-2022"
+        },
+        {
+          "field": "investors",
+          "url": "https://bbva.com/en/innovation/atom-bank-closes-75-million-financing-round-led-by-bbva-toscafund-and-infinity",
+          "quote": "Atom Bank closes £75 million financing round led by BBVA, Toscafund and Infinity"
+        }
+      ]
+    }
+  ]
+}

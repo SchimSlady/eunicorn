@@ -1,0 +1,171 @@
+{
+  "id": "wayflyer",
+  "name": "Wayflyer",
+  "aliases": [],
+  "domain": "wayflyer.com",
+  "country": "IE",
+  "city": "Dublin",
+  "founded": 2019,
+  "sectors": [
+    "fintech"
+  ],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 1420959147,
+  "founders": [
+    "Aidan Corbett",
+    "Jack Pierse"
+  ],
+  "difficulty": 4,
+  "techeuId": "CEB2AD22-E2D3-44BB-9090-18CAF8F5CE35",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.siliconrepublic.com/start-ups/wayflyer-unicorn-ireland-funding-financing-platform",
+      "quote": "Dublin-based Wayflyer has raised $150m in Series B funding, valuing the start-up at $1.6bn."
+    },
+    {
+      "field": "founded",
+      "url": "https://www.siliconrepublic.com/start-ups/wayflyer-unicorn-ireland-funding-financing-platform",
+      "quote": "Founded in 2019 by Aidan Corbett and Jack Pierse"
+    },
+    {
+      "field": "founders",
+      "url": "https://www.siliconrepublic.com/start-ups/wayflyer-unicorn-ireland-funding-financing-platform",
+      "quote": "Founded in 2019 by Aidan Corbett and Jack Pierse"
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.siliconrepublic.com/start-ups/wayflyer-unicorn-ireland-funding-financing-platform",
+      "quote": "Wayflyer provides e-commerce merchants with a range of financing and marketing analytics tools to help them access working capital"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://www.siliconrepublic.com/start-ups/wayflyer-unicorn-ireland-funding-financing-platform",
+      "quote": "Dublin-based Wayflyer has raised $150m in Series B funding, valuing the start-up at $1.6bn."
+    },
+    {
+      "field": "valuation",
+      "url": "https://www.siliconrepublic.com/start-ups/wayflyer-unicorn-ireland-funding-financing-platform",
+      "quote": "Dublin-based Wayflyer has raised $150m in Series B funding, valuing the start-up at $1.6bn."
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "26e0d0e1-a56e-4020-f06f-08d91092c887",
+      "stage": "seed",
+      "month": "2020-10",
+      "amountOriginal": 10200000,
+      "currency": "USD",
+      "amountEur": 8662287,
+      "investors": [
+        "QED Investors",
+        "Middlegame Ventures",
+        "Speedinvest",
+        "Fintech Growth Fund Europe"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.siliconrepublic.com/start-ups/wayflyer-funding-e-commerce",
+          "quote": "Last October, Wayflyer raised $10.2m in seed capital in a funding round led by QED Investors, with contributions from Middlegame Ventures, Speedinvest and Fintech Growth Fund Europe."
+        },
+        {
+          "field": "month",
+          "url": "https://www.siliconrepublic.com/start-ups/wayflyer-unicorn-ireland-funding-financing-platform",
+          "quote": "In October 2020, Wayflyer raised $10.2m in seed capital in a funding round led by QED."
+        },
+        {
+          "field": "stage",
+          "url": "https://www.siliconrepublic.com/start-ups/wayflyer-unicorn-ireland-funding-financing-platform",
+          "quote": "Wayflyer raised $10.2m in seed capital"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.siliconrepublic.com/start-ups/wayflyer-funding-e-commerce",
+          "quote": "Last October, Wayflyer raised $10.2m in seed capital in a funding round led by QED Investors, with contributions from Middlegame Ventures, Speedinvest and Fintech Growth Fund Europe."
+        }
+      ]
+    },
+    {
+      "techeuId": "212dfce3-e709-4bae-8fc5-04a2097c3405",
+      "stage": "series-a",
+      "month": "2021-05",
+      "amountOriginal": 76000000,
+      "currency": "USD",
+      "amountEur": 62305296,
+      "investors": [
+        "Left Lane Capital",
+        "DST Global",
+        "QED Investors",
+        "Speedinvest",
+        "Zinal Growth"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.siliconrepublic.com/start-ups/wayflyer-funding-e-commerce",
+          "quote": "has raised $76m in Series A funding in a round led by Left Lane Capital."
+        },
+        {
+          "field": "month",
+          "url": "https://www.siliconrepublic.com/start-ups/wayflyer-funding-e-commerce",
+          "quote": "27 May 2021"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.siliconrepublic.com/start-ups/wayflyer-funding-e-commerce",
+          "quote": "has raised $76m in Series A funding"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.siliconrepublic.com/start-ups/wayflyer-funding-e-commerce",
+          "quote": "Other participants in the funding round included partners of DST Global, QED Investors, Speedinvest and Zinal Growth, the family office of Guillaume Pousaz."
+        },
+        {
+          "field": "investors",
+          "url": "https://www.siliconrepublic.com/start-ups/wayflyer-funding-e-commerce",
+          "quote": "in a round led by Left Lane Capital"
+        }
+      ]
+    },
+    {
+      "techeuId": "d9e45207-f4ce-40a8-af10-134fa6a99867",
+      "stage": "series-b",
+      "month": "2022-02",
+      "amountOriginal": 150000000,
+      "currency": "USD",
+      "amountEur": 133214920,
+      "postMoneyValuationEur": 1420959147,
+      "investors": [
+        "DST Global",
+        "QED Investors",
+        "Prosus Ventures",
+        "Madrone Capital Partners",
+        "J.P. Morgan"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.siliconrepublic.com/start-ups/wayflyer-unicorn-ireland-funding-financing-platform",
+          "quote": "Dublin-based Wayflyer has raised $150m in Series B funding, valuing the start-up at $1.6bn."
+        },
+        {
+          "field": "month",
+          "url": "https://www.siliconrepublic.com/start-ups/wayflyer-unicorn-ireland-funding-financing-platform",
+          "quote": "1 Feb 2022"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.siliconrepublic.com/start-ups/wayflyer-unicorn-ireland-funding-financing-platform",
+          "quote": "has raised $150m in Series B funding"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.siliconrepublic.com/start-ups/wayflyer-unicorn-ireland-funding-financing-platform",
+          "quote": "The all-equity funding round was led by DST Global and QED Investors, joined by new investors Prosus, Madrone Capital Partners and JP Morgan."
+        }
+      ]
+    }
+  ]
+}

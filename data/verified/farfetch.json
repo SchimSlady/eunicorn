@@ -1,0 +1,81 @@
+{
+  "id": "farfetch",
+  "name": "Farfetch",
+  "aliases": [],
+  "domain": "farfetch.com",
+  "country": "GB",
+  "city": "London",
+  "founded": 2007,
+  "sectors": [
+    "consumer"
+  ],
+  "status": "acquired",
+  "unicorn": true,
+  "founders": [
+    "José Neves"
+  ],
+  "difficulty": 2,
+  "techeuId": "7A3032D6-2C1F-40C5-996C-27932DB86518",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/Farfetch",
+      "quote": "Farfetch is a global luxury marketplace headquartered in London"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Farfetch",
+      "quote": "Farfetch was founded in June 2007 as a marketplace for luxury fashion"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Jos%C3%A9_Neves",
+      "quote": "In 2008, Neves founded Farfetch"
+    },
+    {
+      "field": "sectors",
+      "url": "https://en.wikipedia.org/wiki/Farfetch",
+      "quote": "It operates as a digital marketplace that sells products from over 1,400 brands, boutiques and department stores from around the world"
+    },
+    {
+      "field": "status",
+      "url": "https://en.wikipedia.org/wiki/Farfetch",
+      "quote": "The acquisition was completed was completed on 31 January 2024"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://en.wikipedia.org/wiki/Farfetch",
+      "quote": "The IPO raised $885 million after the issue of 33.6 million new shares"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "4d200262-b155-48fe-f19c-08d91092c887",
+      "stage": "series-f+",
+      "month": "2017-06",
+      "amountEur": 356149637,
+      "amountOriginal": 397000000,
+      "currency": "USD",
+      "investors": [
+        "JD.com"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://en.wikipedia.org/wiki/Jos%C3%A9_Neves",
+          "quote": "In June 2017, Farfetch sold a minority stake to JD.com , for US$397   million"
+        },
+        {
+          "field": "month",
+          "url": "https://en.wikipedia.org/wiki/Jos%C3%A9_Neves",
+          "quote": "In June 2017, Farfetch sold a minority stake to JD.com , for US$397   million"
+        },
+        {
+          "field": "investors",
+          "url": "https://en.wikipedia.org/wiki/Jos%C3%A9_Neves",
+          "quote": "In June 2017, Farfetch sold a minority stake to JD.com"
+        }
+      ]
+    }
+  ]
+}

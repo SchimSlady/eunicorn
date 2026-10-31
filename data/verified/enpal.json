@@ -1,0 +1,165 @@
+{
+  "id": "enpal",
+  "name": "Enpal",
+  "aliases": [],
+  "domain": "enpal.de",
+  "country": "DE",
+  "city": "Berlin",
+  "founded": 2017,
+  "sectors": [
+    "climate"
+  ],
+  "status": "private",
+  "unicorn": true,
+  "founders": [
+    "Mario Kohle",
+    "Jochen Ziervogel",
+    "Viktor Wingert"
+  ],
+  "difficulty": 3,
+  "techeuId": "CE69D14E-5D8E-4466-93A6-5248824AA8C5",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/Enpal",
+      "quote": "Headquarters Berlin , Germany"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Enpal",
+      "quote": "Enpal was founded in 2017"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Enpal",
+      "quote": "Of the three founders Mario Kohle, Jochen Ziervogel, and Viktor Wingert"
+    },
+    {
+      "field": "sectors",
+      "url": "https://en.wikipedia.org/wiki/Enpal",
+      "quote": "Industry Renewable energy"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://www.startbase.com/news/enpal-sammelt-215-millionen-euro-ein",
+      "quote": "The company's valuation has now more than doubled from 950 million euros in the extended Series C round"
+    },
+    {
+      "field": "valuation",
+      "url": "https://www.startbase.com/news/enpal-sammelt-215-millionen-euro-ein",
+      "quote": "The company's valuation has now more than doubled from 950 million euros in the extended Series C round"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-c",
+      "month": "2021-07",
+      "amountEur": 100000000,
+      "amountOriginal": 100000000,
+      "currency": "EUR",
+      "techeuId": "73fc57b0-522d-477f-a582-69ca655bfaa6",
+      "investors": [
+        "HV Capital",
+        "Heliad Equity Partners",
+        "E.R. Capital",
+        "FRIBA Investment",
+        "Peter Rive",
+        "Thomas Griesel",
+        "Christopher Muhr"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://globalventuring.com/corporate/enpal-enlarges-series-c-round-to-290m/",
+          "quote": "€100m provided by HV Capital, Heliad Equity, ER Capital, Friba Investment and private investors Peter Rive, Thomas Griesel and Christopher Muhr"
+        },
+        {
+          "field": "stage",
+          "url": "https://globalventuring.com/corporate/enpal-enlarges-series-c-round-to-290m/",
+          "quote": "Enpal enlarges series C round to $290m"
+        },
+        {
+          "field": "month",
+          "url": "https://globalventuring.com/corporate/enpal-enlarges-series-c-round-to-290m/",
+          "quote": "at an $826m valuation in July this year"
+        },
+        {
+          "field": "investors",
+          "url": "https://globalventuring.com/corporate/enpal-enlarges-series-c-round-to-290m/",
+          "quote": "€100m provided by HV Capital, Heliad Equity, ER Capital, Friba Investment and private investors Peter Rive, Thomas Griesel and Christopher Muhr"
+        }
+      ]
+    },
+    {
+      "stage": "series-c",
+      "month": "2021-10",
+      "amountEur": 150000000,
+      "amountOriginal": 150000000,
+      "currency": "EUR",
+      "techeuId": "4eafa4ac-db6b-4b90-83e4-638eb6136bbd",
+      "investors": [
+        "SoftBank Vision Fund 2"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://taiyangnews.info/enpal-becomes-solar-unicorn-in-germany/",
+          "quote": "Enpal from Germany has raised €150 million from SoftBank Group"
+        },
+        {
+          "field": "stage",
+          "url": "https://taiyangnews.info/enpal-becomes-solar-unicorn-in-germany/",
+          "quote": "It closes the company's Series C financing round with €250 million"
+        },
+        {
+          "field": "month",
+          "url": "https://globalventuring.com/corporate/enpal-enlarges-series-c-round-to-290m/",
+          "quote": "Oct 18, 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://globalventuring.com/corporate/enpal-enlarges-series-c-round-to-290m/",
+          "quote": "SoftBank’s Vision Fund 2 added €150m"
+        }
+      ]
+    },
+    {
+      "stage": "series-d",
+      "month": "2023-01",
+      "amountEur": 215000000,
+      "amountOriginal": 215000000,
+      "currency": "EUR",
+      "techeuId": "cdd0c301-73ed-484d-91b4-588543a9b2e2",
+      "investors": [
+        "TPG Rise Climate",
+        "Westly Group",
+        "Activate Capital",
+        "HV Capital",
+        "SoftBank Vision Fund II",
+        "Princeville Climate Technology"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2023/01/10/solar-power-systems-provider-enpal-charges-ahead-with-another-eur215-million/",
+          "quote": "Berlin-based photovoltaic systems provider Enpal has raised €215 million in a Series D funding round."
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2023/01/10/solar-power-systems-provider-enpal-charges-ahead-with-another-eur215-million/",
+          "quote": "Berlin-based photovoltaic systems provider Enpal has raised €215 million in a Series D funding round."
+        },
+        {
+          "field": "month",
+          "url": "https://www.startbase.com/news/enpal-sammelt-215-millionen-euro-ein",
+          "quote": "Stuttgart, 10. January 2023"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2023/01/10/solar-power-systems-provider-enpal-charges-ahead-with-another-eur215-million/",
+          "quote": "PG Rise Climate led the round with Westly Group (and early backer of Tesla) and Activate Capital participating and joining existing investors including HV Capital (with support from the European Investment Bank), SoftBank Vision Fund II Capital, Princeville Climate Technology"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,195 @@
+{
+  "id": "delivery-hero",
+  "name": "Delivery Hero",
+  "aliases": [],
+  "domain": "deliveryhero.com",
+  "country": "DE",
+  "city": "Berlin",
+  "founded": 2011,
+  "sectors": [
+    "consumer"
+  ],
+  "status": "public",
+  "unicorn": true,
+  "founders": [
+    "Niklas Östberg",
+    "Kolja Hebenstreit",
+    "Markus Fuhrmann",
+    "Lukasz Gadowski"
+  ],
+  "difficulty": 1,
+  "techeuId": "D19B0543-AD85-4FC0-ACC0-DD88F5417DFF",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/Delivery_Hero",
+      "quote": "Delivery Hero Holding was founded in Berlin by Niklas Östberg, Kolja Hebenstreit, Markus Fuhrmann and Lukasz Gadowski in May 2011"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Delivery_Hero",
+      "quote": "Delivery Hero Holding was founded in Berlin by Niklas Östberg, Kolja Hebenstreit, Markus Fuhrmann and Lukasz Gadowski in May 2011"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Delivery_Hero",
+      "quote": "Delivery Hero Holding was founded in Berlin by Niklas Östberg, Kolja Hebenstreit, Markus Fuhrmann and Lukasz Gadowski in May 2011"
+    },
+    {
+      "field": "sectors",
+      "url": "https://en.wikipedia.org/wiki/Delivery_Hero",
+      "quote": "Industry Online food ordering"
+    },
+    {
+      "field": "status",
+      "url": "https://en.wikipedia.org/wiki/Delivery_Hero",
+      "quote": "Delivery Hero SE [ 3 ] is a German multinational online food ordering and food delivery company headquartered in Berlin"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://en.wikipedia.org/wiki/Delivery_Hero",
+      "quote": "Delivery Hero's valuation surpasses $5B following successful IPO"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-a",
+      "month": "2011-11",
+      "amountEur": 4000000,
+      "amountOriginal": 4000000,
+      "currency": "EUR",
+      "investors": [
+        "Team Europe",
+        "HV Capital",
+        "Tengelmann Ventures",
+        "Kite Ventures",
+        "ru-Net"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://en.wikipedia.org/wiki/Delivery_Hero",
+          "quote": "In November 2011, Delivery Hero received its first investment funding. In this financing round Team Europe, HV Capital, Tengelmann Ventures, Kite Ventures and ru-Net together invested €4 million."
+        },
+        {
+          "field": "month",
+          "url": "https://en.wikipedia.org/wiki/Delivery_Hero",
+          "quote": "In November 2011, Delivery Hero received its first investment funding."
+        },
+        {
+          "field": "investors",
+          "url": "https://en.wikipedia.org/wiki/Delivery_Hero",
+          "quote": "In this financing round Team Europe, HV Capital, Tengelmann Ventures, Kite Ventures and ru-Net together invested €4 million."
+        }
+      ]
+    },
+    {
+      "stage": "series-b",
+      "month": "2012-04",
+      "amountEur": 25000000,
+      "amountOriginal": 25000000,
+      "currency": "EUR",
+      "investors": [],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://en.wikipedia.org/wiki/Delivery_Hero",
+          "quote": "The second funding round took place in April 2012. This time the existing investors raised their investments by €25 million"
+        },
+        {
+          "field": "month",
+          "url": "https://en.wikipedia.org/wiki/Delivery_Hero",
+          "quote": "The second funding round took place in April 2012."
+        }
+      ]
+    },
+    {
+      "stage": "series-c",
+      "month": "2012-08",
+      "amountEur": 40000000,
+      "amountOriginal": 40000000,
+      "currency": "EUR",
+      "investors": [
+        "Kite Ventures",
+        "Kreos Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://en.wikipedia.org/wiki/Delivery_Hero",
+          "quote": "In August 2012 Delivery Hero received an additional €40 million funded primarily by Kite Ventures and Kreos Capital."
+        },
+        {
+          "field": "month",
+          "url": "https://en.wikipedia.org/wiki/Delivery_Hero",
+          "quote": "In August 2012 Delivery Hero received an additional €40 million"
+        },
+        {
+          "field": "investors",
+          "url": "https://en.wikipedia.org/wiki/Delivery_Hero",
+          "quote": "funded primarily by Kite Ventures and Kreos Capital."
+        }
+      ]
+    },
+    {
+      "stage": "series-e",
+      "month": "2014-01",
+      "amountEur": 64720159,
+      "amountOriginal": 88000000,
+      "currency": "USD",
+      "investors": [
+        "Insight Venture Partners"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://en.wikipedia.org/wiki/Delivery_Hero",
+          "quote": "In January 2014, Delivery Hero announced a Series E financing of $88 million led by Insight Venture Partners."
+        },
+        {
+          "field": "stage",
+          "url": "https://en.wikipedia.org/wiki/Delivery_Hero",
+          "quote": "In January 2014, Delivery Hero announced a Series E financing of $88 million led by Insight Venture Partners."
+        },
+        {
+          "field": "month",
+          "url": "https://en.wikipedia.org/wiki/Delivery_Hero",
+          "quote": "In January 2014, Delivery Hero announced a Series E financing"
+        },
+        {
+          "field": "investors",
+          "url": "https://en.wikipedia.org/wiki/Delivery_Hero",
+          "quote": "led by Insight Venture Partners."
+        }
+      ]
+    },
+    {
+      "stage": "series-f+",
+      "month": "2017-05",
+      "amountEur": 387000000,
+      "amountOriginal": 387000000,
+      "currency": "EUR",
+      "techeuId": "fef1b944-b94b-432d-e551-08d91092c887",
+      "investors": [
+        "Naspers"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://en.wikipedia.org/wiki/Delivery_Hero",
+          "quote": "invested EUR 387 million in Delivery Hero."
+        },
+        {
+          "field": "month",
+          "url": "https://en.wikipedia.org/wiki/Delivery_Hero",
+          "quote": "In May 2017, Naspers"
+        },
+        {
+          "field": "investors",
+          "url": "https://en.wikipedia.org/wiki/Delivery_Hero",
+          "quote": "In May 2017, Naspers"
+        }
+      ]
+    }
+  ]
+}

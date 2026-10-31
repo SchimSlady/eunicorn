@@ -1,0 +1,112 @@
+{
+  "id": "factorial",
+  "name": "Factorial",
+  "aliases": [
+    "Factorial HR"
+  ],
+  "domain": "factorialhr.com",
+  "country": "ES",
+  "city": "Barcelona",
+  "founded": 2016,
+  "sectors": [
+    "saas"
+  ],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 2200000000,
+  "founders": [
+    "Jordi Romero",
+    "Pau Ramon",
+    "Bernat Farrero"
+  ],
+  "difficulty": 3,
+  "techeuId": "09CAEA22-72AD-40F5-816E-8D685BDF201D",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/Factorial_(company)",
+      "quote": "Factorial is a Spanish software company based in Barcelona"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Factorial_(company)",
+      "quote": "Factorial was founded in Barcelona in 2016 by Jordi Romero, Pau Ramon and Bernat Farrero."
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Factorial_(company)",
+      "quote": "Factorial was founded in Barcelona in 2016 by Jordi Romero, Pau Ramon and Bernat Farrero."
+    },
+    {
+      "field": "sectors",
+      "url": "https://en.wikipedia.org/wiki/Factorial_(company)",
+      "quote": "develops cloud-based human resources software for small and medium-sized businesses"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://techcrunch.com/2025/03/19/factorial-snaps-up-120m-from-general-catalyst-to-boost-its-hr-sales-and-marketing/",
+      "quote": "the last round was $120 million at a $1 billion valuation back in 2022"
+    },
+    {
+      "field": "valuation",
+      "url": "https://en.ara.cat/economy/factorial-buys-german-ai-talent-management-start-up_1_5839295.html",
+      "quote": "with which it reached a valuation of 2.5 billion dollars (about 2.2 billion euros)"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "1dc42c6e-9a0a-47f9-e600-08d91092c887",
+      "stage": "series-a",
+      "month": "2020-04",
+      "amountEur": 15000000,
+      "amountOriginal": 15000000,
+      "currency": "EUR",
+      "investors": [
+        "CRV",
+        "Creandum",
+        "Point Nine Capital",
+        "K Fund"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2020/04/27/factorial-raises-16m-to-take-on-the-hr-world-with-a-platform-for-smbs/",
+          "quote": "has raised €15 ($16 million) in a Series A round of funding"
+        },
+        {
+          "field": "month",
+          "url": "https://en.wikipedia.org/wiki/Factorial_(company)",
+          "quote": "In April 2020 the company raised €15 million in a Series A round"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2020/04/27/factorial-raises-16m-to-take-on-the-hr-world-with-a-platform-for-smbs/",
+          "quote": "participation also from existing investors Creandum, Point Nine and K Fund"
+        }
+      ]
+    },
+    {
+      "techeuId": "63fb5a0c-3fb0-4b93-9a4e-4aca3a417ece",
+      "stage": "series-b",
+      "month": "2021-09",
+      "amountEur": 67716269,
+      "amountOriginal": 80000000,
+      "currency": "USD",
+      "investors": [
+        "Tiger Global"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://en.wikipedia.org/wiki/Factorial_(company)",
+          "quote": "A Series B round of $80 million led by Tiger Global"
+        },
+        {
+          "field": "month",
+          "url": "https://en.wikipedia.org/wiki/Factorial_(company)",
+          "quote": "followed in September 2021"
+        }
+      ]
+    }
+  ]
+}

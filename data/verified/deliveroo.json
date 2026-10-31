@@ -1,0 +1,206 @@
+{
+  "id": "deliveroo",
+  "name": "Deliveroo",
+  "aliases": [
+    "Roofoods"
+  ],
+  "domain": "deliveroo.co.uk",
+  "country": "GB",
+  "city": "London",
+  "founded": 2013,
+  "sectors": [
+    "consumer"
+  ],
+  "status": "acquired",
+  "unicorn": true,
+  "lastValuationEur": 5769864820,
+  "founders": [
+    "Will Shu",
+    "Greg Orlowski"
+  ],
+  "difficulty": 2,
+  "techeuId": "2935F127-EC33-4877-8998-8E659EAD701C",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/Deliveroo",
+      "quote": "Based in London"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Deliveroo",
+      "quote": "Deliveroo was founded in 2013 by Will Shu and Greg Orlowski."
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Deliveroo",
+      "quote": "Deliveroo was founded in 2013 by Will Shu and Greg Orlowski."
+    },
+    {
+      "field": "sectors",
+      "url": "https://en.wikipedia.org/wiki/Deliveroo",
+      "quote": "it worked with around 182,000 restaurants, grocers, and retailers"
+    },
+    {
+      "field": "status",
+      "url": "https://en.wikipedia.org/wiki/Deliveroo",
+      "quote": "the deal was agreed by the boards of both companies at a valuation of £2.9 billion"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://en.wikipedia.org/wiki/List_of_unicorn_startup_companies",
+      "quote": "Deliveroo Funding Round Values Firm at Over $7 Billion"
+    },
+    {
+      "field": "valuation",
+      "url": "https://en.wikipedia.org/wiki/List_of_unicorn_startup_companies",
+      "quote": "Deliveroo Funding Round Values Firm at Over $7 Billion"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "771b6815-f815-44d3-f7d3-08d91092c887",
+      "stage": "series-d",
+      "month": "2015-11",
+      "amountEur": 93144560,
+      "amountOriginal": 100000000,
+      "currency": "USD",
+      "investors": [],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://en.wikipedia.org/wiki/Deliveroo",
+          "quote": "In November 2015, Deliveroo raised $100 million in Series D Funding."
+        },
+        {
+          "field": "stage",
+          "url": "https://en.wikipedia.org/wiki/Deliveroo",
+          "quote": "In November 2015, Deliveroo raised $100 million in Series D Funding."
+        },
+        {
+          "field": "month",
+          "url": "https://en.wikipedia.org/wiki/Deliveroo",
+          "quote": "In November 2015, Deliveroo raised $100 million in Series D Funding."
+        }
+      ]
+    },
+    {
+      "techeuId": "4c3cab1a-8a84-4076-f7d4-08d91092c887",
+      "stage": "series-e",
+      "month": "2016-08",
+      "amountEur": 245278629,
+      "amountOriginal": 275000000,
+      "currency": "USD",
+      "investors": [
+        "Bridgepoint"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://en.wikipedia.org/wiki/Deliveroo",
+          "quote": "In August 2016, Deliveroo raised a Series E of $275 million from the hedge fund Bridgepoint."
+        },
+        {
+          "field": "stage",
+          "url": "https://en.wikipedia.org/wiki/Deliveroo",
+          "quote": "In August 2016, Deliveroo raised a Series E of $275 million from the hedge fund Bridgepoint."
+        },
+        {
+          "field": "month",
+          "url": "https://en.wikipedia.org/wiki/Deliveroo",
+          "quote": "In August 2016, Deliveroo raised a Series E of $275 million from the hedge fund Bridgepoint."
+        },
+        {
+          "field": "investors",
+          "url": "https://en.wikipedia.org/wiki/Deliveroo",
+          "quote": "In August 2016, Deliveroo raised a Series E of $275 million from the hedge fund Bridgepoint."
+        }
+      ]
+    },
+    {
+      "techeuId": "22e8d4b9-0423-4062-f7d5-08d91092c887",
+      "stage": "series-f+",
+      "month": "2017-09",
+      "amountEur": 323133738,
+      "amountOriginal": 385000000,
+      "currency": "USD",
+      "investors": [],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://en.wikipedia.org/wiki/Deliveroo",
+          "quote": "In September 2017, the company announced a $385 million Series F round."
+        },
+        {
+          "field": "stage",
+          "url": "https://en.wikipedia.org/wiki/Deliveroo",
+          "quote": "In September 2017, the company announced a $385 million Series F round."
+        },
+        {
+          "field": "month",
+          "url": "https://en.wikipedia.org/wiki/Deliveroo",
+          "quote": "In September 2017, the company announced a $385 million Series F round."
+        }
+      ]
+    },
+    {
+      "techeuId": "6b74107a-a0a4-4820-f7d7-08d91092c887",
+      "stage": "series-f+",
+      "month": "2019-05",
+      "amountEur": 514100162,
+      "amountOriginal": 575000000,
+      "currency": "USD",
+      "investors": [
+        "Amazon"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://en.wikipedia.org/wiki/Deliveroo",
+          "quote": "In May 2019, the company announced a $575 million Series G round led by Amazon"
+        },
+        {
+          "field": "stage",
+          "url": "https://en.wikipedia.org/wiki/Deliveroo",
+          "quote": "In May 2019, the company announced a $575 million Series G round led by Amazon"
+        },
+        {
+          "field": "month",
+          "url": "https://en.wikipedia.org/wiki/Deliveroo",
+          "quote": "In May 2019, the company announced a $575 million Series G round led by Amazon"
+        },
+        {
+          "field": "investors",
+          "url": "https://en.wikipedia.org/wiki/Deliveroo",
+          "quote": "In May 2019, the company announced a $575 million Series G round led by Amazon"
+        }
+      ]
+    },
+    {
+      "techeuId": "2bc5d12a-facc-42cf-f7d8-08d91092c887",
+      "stage": "series-f+",
+      "month": "2021-01",
+      "amountEur": 147894354,
+      "amountOriginal": 180000000,
+      "currency": "USD",
+      "investors": [],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://en.wikipedia.org/wiki/Deliveroo",
+          "quote": "In January 2021, the company announced a $180 million Series H round raised from existing investors"
+        },
+        {
+          "field": "stage",
+          "url": "https://en.wikipedia.org/wiki/Deliveroo",
+          "quote": "In January 2021, the company announced a $180 million Series H round raised from existing investors"
+        },
+        {
+          "field": "month",
+          "url": "https://en.wikipedia.org/wiki/Deliveroo",
+          "quote": "In January 2021, the company announced a $180 million Series H round raised from existing investors"
+        }
+      ]
+    }
+  ]
+}

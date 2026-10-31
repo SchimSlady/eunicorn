@@ -1,0 +1,169 @@
+{
+  "id": "getyourguide",
+  "name": "GetYourGuide",
+  "aliases": [],
+  "domain": "getyourguide.com",
+  "country": "DE",
+  "city": "Berlin",
+  "founded": 2009,
+  "sectors": [
+    "travel"
+  ],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 1869683089,
+  "founders": [
+    "Johannes Reck",
+    "Tao Tao",
+    "Tobias Rein",
+    "Martin Sieber",
+    "Pascal Mathis"
+  ],
+  "difficulty": 2,
+  "techeuId": "F465ED43-446E-4DD1-9CBF-222DF3B9DA9B",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/GetYourGuide",
+      "quote": "Headquarters Berlin , Germany"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/GetYourGuide",
+      "quote": "Founded 2009"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/GetYourGuide",
+      "quote": "Johannes Reck Tao Tao Tobias Rein Martin Sieber Pascal Mathis"
+    },
+    {
+      "field": "sectors",
+      "url": "https://en.wikipedia.org/wiki/GetYourGuide",
+      "quote": "Industry tourism"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://en.wikipedia.org/wiki/GetYourGuide",
+      "quote": "In May 2023, the company raised $194 million at a $2 billion valuation."
+    },
+    {
+      "field": "valuation",
+      "url": "https://en.wikipedia.org/wiki/GetYourGuide",
+      "quote": "In May 2023, the company raised $194 million at a $2 billion valuation."
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-d",
+      "month": "2017-11",
+      "amountEur": 64405324,
+      "amountOriginal": 75000000,
+      "currency": "USD",
+      "techeuId": "b9daa9c5-be8c-4976-f8ad-08d91092c887",
+      "investors": [
+        "Battery Ventures",
+        "KKR",
+        "Spark Capital",
+        "Highland Europe",
+        "Sunstone Capital",
+        "Nokia Growth Partners"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2017/11/02/battery-ventures-leads-75m-series-d-in-travel-activities-platform-getyourguide",
+          "quote": "GetYourGuide is announcing a $75M Series D, bringing on board new lead investor Battery Ventures"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2017/11/02/battery-ventures-leads-75m-series-d-in-travel-activities-platform-getyourguide",
+          "quote": "GetYourGuide is announcing a $75M Series D, bringing on board new lead investor Battery Ventures"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2017/11/02/battery-ventures-leads-75m-series-d-in-travel-activities-platform-getyourguide",
+          "quote": "November 2, 2017"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2017/11/02/battery-ventures-leads-75m-series-d-in-travel-activities-platform-getyourguide",
+          "quote": "new lead investor Battery Ventures, with all its existing investors also participating in the round (including KKR, Spark Capital, Highland Europe, Sunstone Capital and Nokia Growth Partners)"
+        }
+      ]
+    },
+    {
+      "stage": "series-e",
+      "month": "2019-05",
+      "amountEur": 432027136,
+      "amountOriginal": 484000000,
+      "currency": "USD",
+      "techeuId": "b966cb2b-ab2e-4d08-f8ae-08d91092c887",
+      "investors": [
+        "SoftBank Vision Fund",
+        "Temasek",
+        "Lakestar",
+        "Heartcore Capital",
+        "Swisscanto Invest"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2019/05/16/getyourguide-picks-up-484m-passes-25m-tickets-sold-through-its-tourism-activity-app",
+          "quote": "has picked up $484 million, a Series E round of funding"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2019/05/16/getyourguide-picks-up-484m-passes-25m-tickets-sold-through-its-tourism-activity-app",
+          "quote": "has picked up $484 million, a Series E round of funding"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2019/05/16/getyourguide-picks-up-484m-passes-25m-tickets-sold-through-its-tourism-activity-app",
+          "quote": "May 16, 2019"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2019/05/16/getyourguide-picks-up-484m-passes-25m-tickets-sold-through-its-tourism-activity-app",
+          "quote": "The funding is being led by SoftBank, via its Vision Fund, with Temasek, Lakestar, Heartcore Capital (formerly Sunstone Capital) and Swisscanto Invest among others also participating."
+        }
+      ]
+    },
+    {
+      "stage": "series-f+",
+      "month": "2023-06",
+      "amountEur": 79461531,
+      "amountOriginal": 85000000,
+      "currency": "USD",
+      "techeuId": "8a3b72c5-c902-4a0b-9783-4da9b36129ec",
+      "postMoneyValuationEur": 1869683089,
+      "investors": [
+        "Blue Pool Capital",
+        "KKR",
+        "Temasek"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://prnewswire.com/news-releases/travel-experience-marketplace-getyourguide-secures-194-million-to-accelerate-global-expansion-and-product-innovation-301839212.html",
+          "quote": "Blue Pool Capital led the $85 million Series F funding round, with participation from KKR and Temasek."
+        },
+        {
+          "field": "stage",
+          "url": "https://prnewswire.com/news-releases/travel-experience-marketplace-getyourguide-secures-194-million-to-accelerate-global-expansion-and-product-innovation-301839212.html",
+          "quote": "Blue Pool Capital led the $85 million Series F funding round"
+        },
+        {
+          "field": "month",
+          "url": "https://prnewswire.com/news-releases/travel-experience-marketplace-getyourguide-secures-194-million-to-accelerate-global-expansion-and-product-innovation-301839212.html",
+          "quote": "June 1, 2023"
+        },
+        {
+          "field": "investors",
+          "url": "https://prnewswire.com/news-releases/travel-experience-marketplace-getyourguide-secures-194-million-to-accelerate-global-expansion-and-product-innovation-301839212.html",
+          "quote": "Blue Pool Capital led the $85 million Series F funding round, with participation from KKR and Temasek."
+        }
+      ]
+    }
+  ]
+}

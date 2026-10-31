@@ -1,0 +1,162 @@
+{
+  "id": "isar-aerospace",
+  "name": "Isar Aerospace",
+  "aliases": [
+    "Isar Aerospace Technologies"
+  ],
+  "domain": "isaraerospace.com",
+  "country": "DE",
+  "city": "Munich",
+  "founded": 2018,
+  "sectors": [
+    "space"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Daniel Metzler",
+    "Markus Brandl",
+    "Josef Peter Fleischmann"
+  ],
+  "difficulty": 3,
+  "techeuId": "1BB3C812-D378-4381-94FD-F2AEAD5AA5B2",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://spacenews.com/space-company-isar-aerospace-secures-series-c-funding-round-of-usd-165m-to-meet-global-demand-for-access-to-space/",
+      "quote": "Isar Aerospace, based in Ottobrunn/Munich"
+    },
+    {
+      "field": "founded",
+      "url": "https://spacenews.com/space-company-isar-aerospace-secures-series-c-funding-round-of-usd-165m-to-meet-global-demand-for-access-to-space/",
+      "quote": "The company was founded in 2018 as a spin-off of Technical University Munich"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Isar_Aerospace",
+      "quote": "Daniel Metzler Markus Brandl Josef Peter Fleischmann"
+    },
+    {
+      "field": "sectors",
+      "url": "https://spacenews.com/space-company-isar-aerospace-secures-series-c-funding-round-of-usd-165m-to-meet-global-demand-for-access-to-space/",
+      "quote": "develops and builds launch vehicles for transporting small and medium-sized satellites"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "fcdf032c-ef18-40de-f38f-08d91092c887",
+      "stage": "series-b",
+      "month": "2020-12",
+      "amountEur": 75000000,
+      "amountOriginal": 75000000,
+      "currency": "EUR",
+      "investors": [
+        "Lakestar",
+        "Earlybird",
+        "Vsquared Ventures",
+        "HV Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2020/12/08/germanys-isar-aerospace-raises-91m-to-get-its-satellite-launch-vehicle-off-the-ground/",
+          "quote": "has picked up €75 million ($91 million) in funding"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2020/12/08/germanys-isar-aerospace-raises-91m-to-get-its-satellite-launch-vehicle-off-the-ground/",
+          "quote": "The round, a Series B, is being led by Lakestar"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2020/12/08/germanys-isar-aerospace-raises-91m-to-get-its-satellite-launch-vehicle-off-the-ground/",
+          "quote": "2020-12-08"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2020/12/08/germanys-isar-aerospace-raises-91m-to-get-its-satellite-launch-vehicle-off-the-ground/",
+          "quote": "is being led by Lakestar, with significant contributions also from Earlybird and Vsquared Ventures"
+        },
+        {
+          "field": "investors",
+          "url": "https://en.wikipedia.org/wiki/Isar_Aerospace",
+          "quote": "led by Lakestar and with participation of HV Capital"
+        }
+      ]
+    },
+    {
+      "techeuId": "37bee502-64eb-491a-bd36-b67c1b46fdc3",
+      "stage": "series-c",
+      "month": "2023-03",
+      "amountEur": 152199982,
+      "amountOriginal": 165000000,
+      "currency": "USD",
+      "investors": [
+        "7-Industries Holding",
+        "Bayern Kapital",
+        "Earlybird Venture Capital",
+        "HV Capital",
+        "Lakestar",
+        "Lombard Odier Investment Managers",
+        "Porsche Automobil Holding SE",
+        "UVC Partners",
+        "Vsquared Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://spacenews.com/space-company-isar-aerospace-secures-series-c-funding-round-of-usd-165m-to-meet-global-demand-for-access-to-space/",
+          "quote": "today announced the closing of its USD 165m (EUR 155m) Series C round"
+        },
+        {
+          "field": "stage",
+          "url": "https://spacenews.com/space-company-isar-aerospace-secures-series-c-funding-round-of-usd-165m-to-meet-global-demand-for-access-to-space/",
+          "quote": "today announced the closing of its USD 165m (EUR 155m) Series C round"
+        },
+        {
+          "field": "month",
+          "url": "https://spacenews.com/space-company-isar-aerospace-secures-series-c-funding-round-of-usd-165m-to-meet-global-demand-for-access-to-space/",
+          "quote": "2023-03-28"
+        },
+        {
+          "field": "investors",
+          "url": "https://spacenews.com/space-company-isar-aerospace-secures-series-c-funding-round-of-usd-165m-to-meet-global-demand-for-access-to-space/",
+          "quote": "The round is backed by 7-Industries Holding, Bayern Kapital via its Scale Up Fund Bavaria, Earlybird Venture Capital, HV Capital, Lakestar, Lombard Odier Investment Managers, Porsche Automobil Holding SE (Porsche SE), UVC Partners, and Vsquared Ventures"
+        }
+      ]
+    },
+    {
+      "techeuId": "6a4adbf7-f71b-4a55-8a8e-f11b069d0f4b",
+      "stage": "series-c",
+      "month": "2024-06",
+      "amountEur": 65304599,
+      "amountOriginal": 70000000,
+      "currency": "USD",
+      "investors": [
+        "NATO Innovation Fund"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://spacenews.com/isar-aerospace-raises-70-million/",
+          "quote": "Isar Aerospace raises $70 million"
+        },
+        {
+          "field": "stage",
+          "url": "https://spacenews.com/isar-aerospace-raises-70-million/",
+          "quote": "the extension of the Series C round it raised in March 2023"
+        },
+        {
+          "field": "month",
+          "url": "https://spacenews.com/isar-aerospace-raises-70-million/",
+          "quote": "2024-06-20"
+        },
+        {
+          "field": "investors",
+          "url": "https://spacenews.com/isar-aerospace-raises-70-million/",
+          "quote": "Among the participants in the round is the NATO Innovation Fund"
+        }
+      ]
+    }
+  ]
+}

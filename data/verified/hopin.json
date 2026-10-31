@@ -1,0 +1,193 @@
+{
+  "id": "hopin",
+  "name": "Hopin",
+  "aliases": [],
+  "domain": "hopin.com",
+  "country": "GB",
+  "city": "London",
+  "founded": 2020,
+  "sectors": [
+    "saas"
+  ],
+  "status": "acquired",
+  "unicorn": true,
+  "lastValuationEur": 6540084388,
+  "founders": [
+    "Johnny Boufarhat"
+  ],
+  "difficulty": 2,
+  "techeuId": "E7C17D50-4A01-4D90-9D7C-A7A9710ACF73",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://trainingindustry.com/press-release/remote-learning/hopin-announces-125-million-in-series-b-funding-to-power-the-surging-virtual-and-hybrid-event-industry/",
+      "quote": "LONDON — Nov. 10, 2020 — Hopin"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Hopin_(company)",
+      "quote": "Hopin was founded in 2020 by Johnny Boufarhat"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Hopin_(company)",
+      "quote": "Hopin was founded in 2020 by Johnny Boufarhat"
+    },
+    {
+      "field": "sectors",
+      "url": "https://en.wikipedia.org/wiki/Hopin_(company)",
+      "quote": "It developed a proprietary video teleconferencing online event-hosting platform."
+    },
+    {
+      "field": "status",
+      "url": "https://en.wikipedia.org/wiki/Hopin_(company)",
+      "quote": "Hopin was acquired by Bending Spoons in April 2024."
+    },
+    {
+      "field": "unicorn",
+      "url": "https://meetings.skift.com/hopin-raises-new-450m-series-d-funding",
+      "quote": "The company is now valued at a breathtaking $7.75 billion."
+    },
+    {
+      "field": "valuation",
+      "url": "https://meetings.skift.com/hopin-raises-new-450m-series-d-funding",
+      "quote": "The company is now valued at a breathtaking $7.75 billion."
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-b",
+      "month": "2020-11",
+      "amountEur": 105860434,
+      "amountOriginal": 125000000,
+      "currency": "USD",
+      "techeuId": "6ca122aa-0262-4d19-f914-08d91092c887",
+      "investors": [
+        "IVP",
+        "Tiger Global",
+        "Coatue",
+        "DFJ Growth",
+        "Accel",
+        "Northzone",
+        "Salesforce Ventures",
+        "Seedcamp"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://trainingindustry.com/press-release/remote-learning/hopin-announces-125-million-in-series-b-funding-to-power-the-surging-virtual-and-hybrid-event-industry/",
+          "quote": "announced today that it has raised $125M in Series B funding"
+        },
+        {
+          "field": "stage",
+          "url": "https://trainingindustry.com/press-release/remote-learning/hopin-announces-125-million-in-series-b-funding-to-power-the-surging-virtual-and-hybrid-event-industry/",
+          "quote": "announced today that it has raised $125M in Series B funding"
+        },
+        {
+          "field": "month",
+          "url": "https://trainingindustry.com/press-release/remote-learning/hopin-announces-125-million-in-series-b-funding-to-power-the-surging-virtual-and-hybrid-event-industry/",
+          "quote": "Nov. 10, 2020"
+        },
+        {
+          "field": "investors",
+          "url": "https://trainingindustry.com/press-release/remote-learning/hopin-announces-125-million-in-series-b-funding-to-power-the-surging-virtual-and-hybrid-event-industry/",
+          "quote": "led by existing investor IVP and new investor Tiger Global and joined by Coatue and DFJ Growth"
+        },
+        {
+          "field": "investors",
+          "url": "https://trainingindustry.com/press-release/remote-learning/hopin-announces-125-million-in-series-b-funding-to-power-the-surging-virtual-and-hybrid-event-industry/",
+          "quote": "returning investors Accel, Northzone, Salesforce Ventures, and Seedcamp"
+        }
+      ]
+    },
+    {
+      "stage": "series-c",
+      "month": "2021-03",
+      "amountEur": 332391557,
+      "amountOriginal": 400000000,
+      "currency": "USD",
+      "techeuId": "5d302a3d-b566-4ebc-f915-08d91092c887",
+      "postMoneyValuationEur": 4695030746,
+      "investors": [
+        "Andreessen Horowitz",
+        "General Catalyst",
+        "IVP"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2021/03/04/hopin-confirms-400m-raise-at-5-65b-valuation/",
+          "quote": "Hopin confirms $400M raise at $5.65B valuation"
+        },
+        {
+          "field": "stage",
+          "url": "https://meetings.skift.com/hopin-raises-new-450m-series-d-funding",
+          "quote": "This latest Series D round of funding comes after raising $400 million in Series C funding in March"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2021/03/04/hopin-confirms-400m-raise-at-5-65b-valuation/",
+          "quote": "March 4, 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2021/03/04/hopin-confirms-400m-raise-at-5-65b-valuation/",
+          "quote": "Andreessen Horowitz (a16z) and General Catalyst (GC) co-led the round"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2021/03/04/hopin-confirms-400m-raise-at-5-65b-valuation/",
+          "quote": "Prior investor IVP also took part in the round."
+        }
+      ]
+    },
+    {
+      "stage": "series-d",
+      "month": "2021-08",
+      "amountEur": 379746835,
+      "amountOriginal": 450000000,
+      "currency": "USD",
+      "techeuId": "5932c012-21fe-4d40-ad46-e2bfac11d3ac",
+      "postMoneyValuationEur": 6540084388,
+      "investors": [
+        "Arena Holdings",
+        "Altimeter Capital",
+        "Adams Street Partners",
+        "Untitled Investments",
+        "XN",
+        "Andreessen Horowitz",
+        "DFJ Growth",
+        "General Catalyst",
+        "GIC",
+        "IVP",
+        "Northzone",
+        "Salesforce Ventures",
+        "Slack Fund",
+        "Temasek",
+        "Tiger Global"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://meetings.skift.com/hopin-raises-new-450m-series-d-funding",
+          "quote": "Hopin has announced a fresh investment of $450 million in Series D funding."
+        },
+        {
+          "field": "stage",
+          "url": "https://meetings.skift.com/hopin-raises-new-450m-series-d-funding",
+          "quote": "Hopin has announced a fresh investment of $450 million in Series D funding."
+        },
+        {
+          "field": "month",
+          "url": "https://meetings.skift.com/hopin-raises-new-450m-series-d-funding",
+          "quote": "August 5th, 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://meetings.skift.com/hopin-raises-new-450m-series-d-funding",
+          "quote": "co-led by new investors Arena Holdings and Altimeter Capital with participation from new investors Adams Street Partners, Untitled Investments and XN in addition to existing investors Andreessen Horowitz, DFJ Growth, General Catalyst, GIC, IVP, Northzone, Salesforce Ventures, Slack Fund, Temasek and Tiger Global"
+        }
+      ]
+    }
+  ]
+}

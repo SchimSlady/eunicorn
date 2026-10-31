@@ -1,0 +1,95 @@
+{
+  "id": "wolt",
+  "name": "Wolt",
+  "aliases": [],
+  "domain": "wolt.com",
+  "country": "FI",
+  "city": "Helsinki",
+  "founded": 2014,
+  "sectors": [
+    "consumer",
+    "quick-commerce"
+  ],
+  "status": "acquired",
+  "unicorn": true,
+  "founders": [
+    "Miki Kuusi",
+    "Elias Aalto",
+    "Mika Matikainen",
+    "Oskari Pétas",
+    "Lauri Andler",
+    "Juhani Mykkänen"
+  ],
+  "difficulty": 2,
+  "techeuId": "FFBF5392-36EA-4D96-AEBF-D97B23A9C724",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/Wolt",
+      "quote": "Wolt is headquartered in Helsinki"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Wolt",
+      "quote": "Wolt was founded in 2014 by 6 founders"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Wolt",
+      "quote": "Founders Miki Kuusi Elias Aalto Mika Matikainen Oskari Pétas Lauri Andler Juhani Mykkänen"
+    },
+    {
+      "field": "sectors",
+      "url": "https://en.wikipedia.org/wiki/Wolt",
+      "quote": "Wolt also runs its own chain of grocery stores called Wolt Market."
+    },
+    {
+      "field": "status",
+      "url": "https://en.wikipedia.org/wiki/Wolt",
+      "quote": "In May 2022, Wolt was acquired by the American food delivery company DoorDash"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://techcrunch.com/2021/01/25/wolt-closes-530m-round-to-continue-expanding-beyond-restaurant-delivery/",
+      "quote": "we’ve previously shared that the Series D round that we raised in early 2020 valued the company at above €1 billion"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "46c30c2d-8591-4868-fd89-08d91092c887",
+      "stage": "series-a",
+      "month": "2016-04",
+      "amountEur": 9748316,
+      "amountOriginal": 11000000,
+      "currency": "USD",
+      "investors": [
+        "EQT Ventures",
+        "Niklas Zennström",
+        "Ilkka Paananen",
+        "Risto Siilasmaa"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2016/04/16/nokia-and-skype-strongmen-invest-in-finnish-food-delivery-app/",
+          "quote": "Wolt has managed to raise $11 million fresh funding"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2016/04/16/nokia-and-skype-strongmen-invest-in-finnish-food-delivery-app/",
+          "quote": "April 16, 2016"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2016/04/16/nokia-and-skype-strongmen-invest-in-finnish-food-delivery-app/",
+          "quote": "EQT Ventures led the new round with new high profile backers Niklas Zennström, the founder of Skype and Ilkka Paananen, the CEO of Supercell."
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2016/04/16/nokia-and-skype-strongmen-invest-in-finnish-food-delivery-app/",
+          "quote": "Nokia’s chairman Risto Siilasmaa who participated in the company’s previous round, was part of the illustrious investor lineup."
+        }
+      ]
+    }
+  ]
+}
