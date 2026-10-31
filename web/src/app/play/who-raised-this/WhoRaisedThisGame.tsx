@@ -13,9 +13,8 @@ import { BuiltInEuropeCard } from "@/components/BuiltInEuropeCard";
 import { GameIntro } from "@/components/GameIntro";
 import { GameHeader } from "@/components/GameHeader";
 import { Announce, NoPuzzle } from "@/components/Announce";
-import { GameFooter } from "@/components/GameFooter";
 import { HintButton, HintList } from "@/components/HintButton";
-import { ResultHeader } from "@/components/ResultHeader";
+import { ResultArea } from "@/components/ResultArea";
 import { StatsPanel } from "@/components/StatsPanel";
 import { recordFinish, recordStart } from "@/lib/stats";
 import { DealBoard, GuessPills } from "./DealBoard";
@@ -193,7 +192,7 @@ export function WhoRaisedThisGame() {
         </div>
       ) : (
         <div className="space-y-6">
-          <ResultHeader
+          <ResultArea
             score={score}
             maxScore={MAX_SCORE}
             detail={
@@ -201,14 +200,17 @@ export function WhoRaisedThisGame() {
                 ? `${wrong + 1} ${wrong === 0 ? "guess" : "guesses"}${progress.hintsUsed ? ` · ${progress.hintsUsed} ${progress.hintsUsed === 1 ? "hint" : "hints"}` : ""}`
                 : `It was ${answer.name}`
             }
-          />
-          <StatsPanel
-            mode={MODE}
-            bucket={won ? progress.guesses.length : 0}
-            scorePct={(score / MAX_SCORE) * 100}
-            order={[1, 2, 3, 4, 5, 6, 7, 8, 0]}
-            label={(b) => (b === 0 ? "X" : String(b))}
-            axis="Guesses needed"
+            share={shareText(puzzle, progress)}
+            stats={
+              <StatsPanel
+                mode={MODE}
+                bucket={won ? progress.guesses.length : 0}
+                scorePct={(score / MAX_SCORE) * 100}
+                order={[1, 2, 3, 4, 5, 6, 7, 8, 0]}
+                label={(b) => (b === 0 ? "X" : String(b))}
+                axis="Guesses needed"
+              />
+            }
           />
           <BuiltInEuropeCard company={answer} founders={founders} />
           {round?.attributionUrl && (
@@ -220,7 +222,6 @@ export function WhoRaisedThisGame() {
               (CC BY 4.0)
             </p>
           )}
-          <GameFooter share={shareText(puzzle, progress)} />
         </div>
       )}
     </div>
