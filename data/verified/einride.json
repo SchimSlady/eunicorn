@@ -1,0 +1,127 @@
+{
+  "id": "einride",
+  "name": "Einride",
+  "aliases": [],
+  "domain": "einride.tech",
+  "country": "SE",
+  "city": "Stockholm",
+  "founded": 2016,
+  "sectors": [
+    "mobility",
+    "robotics"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Robert Falck",
+    "Filip Lilja",
+    "Linnéa Kornehed"
+  ],
+  "difficulty": 3,
+  "techeuId": "B897CD6A-8521-400D-9A55-DED3D844BDCA",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/Einride",
+      "quote": "Einride AB is a Swedish transport company based in Stockholm, Sweden"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Einride",
+      "quote": "The company was founded in 2016 by Robert Falck , Filip Lilja and Linnéa Kornehed"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Einride",
+      "quote": "The company was founded in 2016 by Robert Falck , Filip Lilja and Linnéa Kornehed"
+    },
+    {
+      "field": "sectors",
+      "url": "https://tools.prnewswire.com/en-us/live/20823/release/20251001EN88741",
+      "quote": "provides digital, electric, and autonomous solutions for road freight"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-b",
+      "month": "2021-05",
+      "amountEur": 91210614,
+      "amountOriginal": 110000000,
+      "currency": "USD",
+      "investors": [
+        "Soros Fund Management",
+        "Temasek",
+        "Northzone",
+        "Maersk Growth",
+        "Build Capital",
+        "EQT Ventures",
+        "Plum Alley Investments",
+        "Ericsson",
+        "NordicNinja VC",
+        "Norrsken VC"
+      ],
+      "techeuId": "88ecd633-3398-4c83-b908-98747b4d95ec",
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://impactalpha.com/?p=90365",
+          "quote": "Einride has raised $110 million in a Series B financing round"
+        },
+        {
+          "field": "stage",
+          "url": "https://impactalpha.com/?p=90365",
+          "quote": "Einride has raised $110 million in a Series B financing round"
+        },
+        {
+          "field": "month",
+          "url": "https://impactalpha.com/?p=90365",
+          "quote": "2021-05-10T10:45:00+00:00"
+        },
+        {
+          "field": "investors",
+          "url": "https://impactalpha.com/?p=90365",
+          "quote": "New investors in the round include Soros Fund Management , Temasek , Northzone , Maersk Growth and Build Capital"
+        },
+        {
+          "field": "investors",
+          "url": "https://impactalpha.com/?p=90365",
+          "quote": "Existing investors include EQT Ventures , Plum Alley Investments , Ericsson , NordicNinja VC and Norr"
+        }
+      ]
+    },
+    {
+      "stage": "series-d",
+      "month": "2025-10",
+      "amountEur": 85295121,
+      "amountOriginal": 100000000,
+      "currency": "USD",
+      "investors": [
+        "EQT Ventures",
+        "IonQ"
+      ],
+      "techeuId": "b4efdb66-ed06-4d57-abf3-b4b05da1bde3",
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tools.prnewswire.com/en-us/live/20823/release/20251001EN88741",
+          "quote": "has raised about $100 million in funding from a mix of existing and new investors"
+        },
+        {
+          "field": "month",
+          "url": "https://finance.yahoo.com/news/self-driving-trucks-startup-einride-221355567.html",
+          "quote": "Kirsten Korosec October 2, 2025"
+        },
+        {
+          "field": "investors",
+          "url": "https://tools.prnewswire.com/en-us/live/20823/release/20251001EN88741",
+          "quote": "Investors include EQT Ventures, one of Einride's largest shareholders"
+        },
+        {
+          "field": "investors",
+          "url": "https://tools.prnewswire.com/en-us/live/20823/release/20251001EN88741",
+          "quote": "The $100 million includes an investment made earlier this year by IonQ"
+        }
+      ]
+    }
+  ]
+}

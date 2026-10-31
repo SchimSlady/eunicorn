@@ -1,0 +1,78 @@
+{
+  "id": "onefootball",
+  "name": "OneFootball",
+  "aliases": [],
+  "domain": "onefootball.com",
+  "country": "DE",
+  "city": "Berlin",
+  "founded": 2008,
+  "sectors": [
+    "consumer"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Lucas von Cranach"
+  ],
+  "difficulty": 2,
+  "techeuId": "6C561571-EA6E-4670-A3E8-98E50BC17FEE",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/OneFootball",
+      "quote": "OneFootball is a Berlin-based football media and technology company."
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/OneFootball",
+      "quote": "Founded in Bochum in 2008 by Lucas von Cranach"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/OneFootball",
+      "quote": "Founded in Bochum in 2008 by Lucas von Cranach"
+    },
+    {
+      "field": "sectors",
+      "url": "https://en.wikipedia.org/wiki/OneFootball",
+      "quote": "OneFootball is a Berlin-based football media and technology company."
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "b751bec5-ccf8-4d63-a715-f7c861879b95",
+      "stage": "series-d",
+      "month": "2022-04",
+      "amountEur": 300000000,
+      "amountOriginal": 300000000,
+      "currency": "EUR",
+      "investors": [
+        "Liberty City Ventures",
+        "Animoca Brands",
+        "Dapper Labs"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://en.wikipedia.org/wiki/OneFootball",
+          "quote": "In April 2022, the company raised €300 million in a Series D funding round led by Liberty City Ventures"
+        },
+        {
+          "field": "stage",
+          "url": "https://en.wikipedia.org/wiki/OneFootball",
+          "quote": "In April 2022, the company raised €300 million in a Series D funding round led by Liberty City Ventures"
+        },
+        {
+          "field": "month",
+          "url": "https://en.wikipedia.org/wiki/OneFootball",
+          "quote": "In April 2022, the company raised €300 million in a Series D funding round led by Liberty City Ventures"
+        },
+        {
+          "field": "investors",
+          "url": "https://en.wikipedia.org/wiki/OneFootball",
+          "quote": "led by Liberty City Ventures , with participation from Animoca Brands , Dapper Labs , and others"
+        }
+      ]
+    }
+  ]
+}

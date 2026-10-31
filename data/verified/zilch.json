@@ -1,0 +1,156 @@
+{
+  "id": "zilch",
+  "name": "Zilch",
+  "aliases": [
+    "Zilch Technology"
+  ],
+  "domain": "zilch.com",
+  "country": "GB",
+  "city": "London",
+  "founded": 2018,
+  "sectors": [
+    "fintech"
+  ],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 1730403184,
+  "founders": [
+    "Philip Belamant",
+    "Serge Belamant",
+    "Sean O’Connor"
+  ],
+  "difficulty": 3,
+  "techeuId": "B8DBCA8A-39EA-48E0-9F6C-32298EDA30DE",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.cnbc.com/2021/11/10/uk-buy-now-pay-later-start-up-zilch-raises-funds-for-us-expansion.html",
+      "quote": "London-based start-up Zilch"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Zilch_(company)",
+      "quote": "Zilch was founded by Philip Belamant, Serge Belamant, and Sean O’Connor in 2018."
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Zilch_(company)",
+      "quote": "Zilch was founded by Philip Belamant, Serge Belamant, and Sean O’Connor in 2018."
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.cnbc.com/2021/11/10/uk-buy-now-pay-later-start-up-zilch-raises-funds-for-us-expansion.html",
+      "quote": "UK buy now, pay later start-up quadruples valuation to $2 billion"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://www.cnbc.com/2021/11/10/uk-buy-now-pay-later-start-up-zilch-raises-funds-for-us-expansion.html",
+      "quote": "London-based start-up Zilch has raised $110 million in a round of funding that values it at $2 billion"
+    },
+    {
+      "field": "valuation",
+      "url": "https://www.cnbc.com/2021/11/10/uk-buy-now-pay-later-start-up-zilch-raises-funds-for-us-expansion.html",
+      "quote": "London-based start-up Zilch has raised $110 million in a round of funding that values it at $2 billion"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "0eb7acb8-9ff7-45f9-aad6-d6fbf583cd09",
+      "stage": "series-c",
+      "month": "2021-11",
+      "amountEur": 95172175,
+      "amountOriginal": 110000000,
+      "currency": "USD",
+      "postMoneyValuationEur": 1730403184,
+      "investors": [
+        "Ventura Capital",
+        "Gauss Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.cnbc.com/2021/11/10/uk-buy-now-pay-later-start-up-zilch-raises-funds-for-us-expansion.html",
+          "quote": "London-based start-up Zilch has raised $110 million in a round of funding that values it at $2 billion"
+        },
+        {
+          "field": "stage",
+          "url": "https://en.wikipedia.org/wiki/Zilch_(company)",
+          "quote": "another £82 million in Series C funding, led by Ventura Capital and Gauss Ventures"
+        },
+        {
+          "field": "month",
+          "url": "https://www.cnbc.com/2021/11/10/uk-buy-now-pay-later-start-up-zilch-raises-funds-for-us-expansion.html",
+          "quote": "Published Wed, Nov 10 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://en.wikipedia.org/wiki/Zilch_(company)",
+          "quote": "another £82 million in Series C funding, led by Ventura Capital and Gauss Ventures"
+        }
+      ]
+    },
+    {
+      "techeuId": "99ad695d-e1d1-42da-fdb9-08d91092c887",
+      "stage": "series-b",
+      "month": "2021-04",
+      "amountEur": 66412087,
+      "amountOriginal": 80000000,
+      "currency": "USD",
+      "investors": [
+        "Gauss Ventures",
+        "M&F Fund"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://globalventuring.com/corporate/zilch-fills-series-b-up-to-190m/?format=md",
+          "quote": "Zilch raised $80m in the round’s first tranche in April this year, from backers including Gauss Ventures and M&F Fund, at a valuation of more than $500m."
+        },
+        {
+          "field": "stage",
+          "url": "https://globalventuring.com/corporate/zilch-fills-series-b-up-to-190m/?format=md",
+          "quote": "Zilch raised $80m in the round’s first tranche in April this year, from backers including Gauss Ventures and M&F Fund, at a valuation of more than $500m."
+        },
+        {
+          "field": "month",
+          "url": "https://globalventuring.com/corporate/zilch-fills-series-b-up-to-190m/?format=md",
+          "quote": "Zilch raised $80m in the round’s first tranche in April this year, from backers including Gauss Ventures and M&F Fund, at a valuation of more than $500m."
+        },
+        {
+          "field": "investors",
+          "url": "https://globalventuring.com/corporate/zilch-fills-series-b-up-to-190m/?format=md",
+          "quote": "Zilch raised $80m in the round’s first tranche in April this year, from backers including Gauss Ventures and M&F Fund, at a valuation of more than $500m."
+        }
+      ]
+    },
+    {
+      "techeuId": "bf39b712-8b04-48cf-a7df-a47480232ac7",
+      "stage": "series-a",
+      "month": "2020-12",
+      "amountEur": 24764735,
+      "amountOriginal": 30000000,
+      "currency": "USD",
+      "investors": [
+        "Gauss Ventures",
+        "Simon Nixon"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://globalventuring.com/corporate/zilch-fills-series-b-up-to-190m/?format=md",
+          "quote": "The company had secured $30m in pre-series B funding from Gauss Ventures and private investor Simon Nixon in December 2020."
+        },
+        {
+          "field": "month",
+          "url": "https://globalventuring.com/corporate/zilch-fills-series-b-up-to-190m/?format=md",
+          "quote": "The company had secured $30m in pre-series B funding from Gauss Ventures and private investor Simon Nixon in December 2020."
+        },
+        {
+          "field": "investors",
+          "url": "https://globalventuring.com/corporate/zilch-fills-series-b-up-to-190m/?format=md",
+          "quote": "The company had secured $30m in pre-series B funding from Gauss Ventures and private investor Simon Nixon in December 2020."
+        }
+      ]
+    }
+  ]
+}

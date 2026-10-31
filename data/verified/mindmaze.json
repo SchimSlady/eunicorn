@@ -1,0 +1,78 @@
+{
+  "id": "mindmaze",
+  "name": "MindMaze",
+  "aliases": [
+    "MindMaze Therapeutics"
+  ],
+  "domain": "mindmazetherapeutics.com",
+  "country": "CH",
+  "city": "Lausanne",
+  "founded": 2011,
+  "sectors": [
+    "health"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Tej Tadi"
+  ],
+  "difficulty": 4,
+  "techeuId": "FC2FA012-7457-4941-801A-1B82DF7714CE",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://mindmazetherapeutics.com/",
+      "quote": "Chemin de Roseneck 5 1006 Lausanne, Switzerland"
+    },
+    {
+      "field": "founded",
+      "url": "http://www.startupticker.ch/en/news/march-2015/the-world-economic-forum-names-mindmaze-founder-tej-tadi-a-young-global-leader",
+      "quote": "Tej Tadi, a neuroscientist, founded MindMaze in 2011 to develop technologies that help patients recover from brain injuries."
+    },
+    {
+      "field": "founders",
+      "url": "http://www.startupticker.ch/en/news/march-2015/the-world-economic-forum-names-mindmaze-founder-tej-tadi-a-young-global-leader",
+      "quote": "Tej Tadi, a neuroscientist, founded MindMaze in 2011 to develop technologies that help patients recover from brain injuries."
+    },
+    {
+      "field": "sectors",
+      "url": "https://mindmazetherapeutics.com/",
+      "quote": "We are leaders in the development of innovative neurotherapeutic combinations, encompassing behavior, software, devices, and data."
+    },
+    {
+      "field": "unicorn",
+      "url": "https://techcrunch.com/2016/02/17/mindmaze-maker-of-a-neural-virtual-reality-platform-raises-100m-at-a-1b-valuation/",
+      "quote": "has raised a $100 million round of funding at a pre-money valuation of $1 billion"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "46558db9-1d14-4670-c725-08d91092c887",
+      "stage": "series-a",
+      "month": "2016-02",
+      "amountEur": 89798851,
+      "amountOriginal": 100000000,
+      "currency": "USD",
+      "investors": [
+        "Hinduja Group"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2016/02/17/mindmaze-maker-of-a-neural-virtual-reality-platform-raises-100m-at-a-1b-valuation/",
+          "quote": "has raised a $100 million round of funding at a pre-money valuation of $1 billion"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2016/02/17/mindmaze-maker-of-a-neural-virtual-reality-platform-raises-100m-at-a-1b-valuation/",
+          "quote": "February 17, 2016"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2016/02/17/mindmaze-maker-of-a-neural-virtual-reality-platform-raises-100m-at-a-1b-valuation/",
+          "quote": "It’s being led by the Hinduja Group"
+        }
+      ]
+    }
+  ]
+}

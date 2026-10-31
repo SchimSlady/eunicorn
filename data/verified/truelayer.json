@@ -1,0 +1,306 @@
+{
+  "id": "truelayer",
+  "name": "TrueLayer",
+  "aliases": [],
+  "domain": "truelayer.com",
+  "country": "GB",
+  "city": "London",
+  "founded": 2016,
+  "sectors": [
+    "fintech"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Francesco Simoneschi",
+    "Luca Martinetti"
+  ],
+  "difficulty": 3,
+  "techeuId": "ED27BCB3-D47E-4A4D-A53A-211086CBD751",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://techcrunch.com/2021/09/20/truelayer-nabs-130m-at-a-1b-valuation-as-open-banking-rises-as-a-viable-option-to-card-networks/",
+      "quote": "London-based startup"
+    },
+    {
+      "field": "founded",
+      "url": "https://siliconcanals.com/?p=18625",
+      "quote": "Founded in 2016 by Francesco Simoneschi and Luca Martinetti"
+    },
+    {
+      "field": "founders",
+      "url": "https://siliconcanals.com/?p=18625",
+      "quote": "Founded in 2016 by Francesco Simoneschi and Luca Martinetti"
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.uktech.news/news/truelayer-raises-35m-from-international-investors-20190606",
+      "quote": "the European-based provider of financial APIs"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "70a7b708-9a93-4324-fcf8-08d91092c887",
+      "stage": "series-a",
+      "month": "2017-06",
+      "amountEur": 2691307,
+      "amountOriginal": 3000000,
+      "currency": "USD",
+      "investors": [
+        "Anthemis Group",
+        "Connect Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2017/06/21/truelayer/",
+          "quote": "has raised $3 million in Series A funding"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2017/06/21/truelayer/",
+          "quote": "has raised $3 million in Series A funding"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2017/06/21/truelayer/",
+          "quote": "1:00 AM PDT · June 21, 2017"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2017/06/21/truelayer/",
+          "quote": "The round was led by Anthemis Group, with participation from existing investor Connect Ventures"
+        }
+      ]
+    },
+    {
+      "techeuId": "87859b28-b044-4d4f-fcf9-08d91092c887",
+      "stage": "series-b",
+      "month": "2018-07",
+      "amountEur": 6472213,
+      "amountOriginal": 7500000,
+      "currency": "USD",
+      "investors": [
+        "Northzone",
+        "Connect Ventures",
+        "Anthemis Group"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2018/07/19/london-based-truelayer-scores-7-5-million-to-help-developers-build-financial-apps/",
+          "quote": "has raised a $7.5 million Series B funding round"
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2018/07/19/london-based-truelayer-scores-7-5-million-to-help-developers-build-financial-apps/",
+          "quote": "has raised a $7.5 million Series B funding round"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2018/07/19/london-based-truelayer-scores-7-5-million-to-help-developers-build-financial-apps/",
+          "quote": "19 July 2018"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2018/07/19/london-based-truelayer-scores-7-5-million-to-help-developers-build-financial-apps/",
+          "quote": "The investment was led by the venture capital fund Northzone , with participation from existing investors Connect and Anthemis"
+        }
+      ]
+    },
+    {
+      "techeuId": "0a7ff080-212a-46a8-fcfa-08d91092c887",
+      "stage": "series-c",
+      "month": "2019-06",
+      "amountEur": 31066927,
+      "amountOriginal": 35000000,
+      "currency": "USD",
+      "investors": [
+        "Tencent",
+        "Temasek",
+        "Northzone",
+        "Anthemis Group"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.uktech.news/news/truelayer-raises-35m-from-international-investors-20190606",
+          "quote": "TrueLayer has signed an agreement for a $35m funding round led by Tencent and Temasek."
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2020/09/21/london-startup-truelayer-raises-another-25-million-to-boost-its-open-banking-apis/",
+          "quote": "as an extension of its Series C round"
+        },
+        {
+          "field": "month",
+          "url": "https://www.uktech.news/news/truelayer-raises-35m-from-international-investors-20190606",
+          "quote": "Thu 6 Jun 2019"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.uktech.news/news/truelayer-raises-35m-from-international-investors-20190606",
+          "quote": "Northzone and Anthemis also took part in the round"
+        }
+      ]
+    },
+    {
+      "techeuId": "db5e77fb-fe58-406f-fcfb-08d91092c887",
+      "stage": "series-c",
+      "month": "2020-09",
+      "amountEur": 21209807,
+      "amountOriginal": 25000000,
+      "currency": "USD",
+      "investors": [
+        "Tencent",
+        "Temasek",
+        "Northzone",
+        "Anthemis Group"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2020/09/21/london-startup-truelayer-raises-another-25-million-to-boost-its-open-banking-apis/",
+          "quote": "has raised $25 million in funding from existing investors as an extension of its Series C round"
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2020/09/21/london-startup-truelayer-raises-another-25-million-to-boost-its-open-banking-apis/",
+          "quote": "as an extension of its Series C round"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2020/09/21/london-startup-truelayer-raises-another-25-million-to-boost-its-open-banking-apis/",
+          "quote": "21 September 2020"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2020/09/21/london-startup-truelayer-raises-another-25-million-to-boost-its-open-banking-apis/",
+          "quote": "TrueLayer has raised funding from Tencent and Singapore’s Temasek, as well as Northzone and Anthemis"
+        }
+      ]
+    },
+    {
+      "techeuId": "dd85c0fc-649d-4c64-fcfc-08d91092c887",
+      "stage": "series-d",
+      "month": "2021-04",
+      "amountEur": 58957298,
+      "amountOriginal": 70000000,
+      "currency": "USD",
+      "investors": [
+        "Addition"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2021/04/08/truelayer-70m/",
+          "quote": "is disclosing $70 million in new funding"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2021/04/08/truelayer-70m/",
+          "quote": "The Series D round is led by new investor Addition"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2021/04/08/truelayer-70m/",
+          "quote": "12:00 AM PDT · April 8, 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2021/04/08/truelayer-70m/",
+          "quote": "The Series D round is led by new investor Addition"
+        }
+      ]
+    },
+    {
+      "techeuId": "cde876fe-e2a6-4108-9abb-60cc85d29be4",
+      "stage": "series-e",
+      "month": "2021-09",
+      "amountEur": 111006746,
+      "amountOriginal": 130000000,
+      "currency": "USD",
+      "investors": [
+        "Tiger Global Management",
+        "Stripe"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2021/09/20/truelayer-nabs-130m-at-a-1b-valuation-as-open-banking-rises-as-a-viable-option-to-card-networks/",
+          "quote": "has raised $130 million in a funding round that values the London-based startup at over $1 billion"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.orrick.com/en/news/2024/10/open-banking-truelayer-raises-an-additional-50-million-in-series-e-extension",
+          "quote": "an extension of its $130 million Series E funding round"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2021/09/20/truelayer-nabs-130m-at-a-1b-valuation-as-open-banking-rises-as-a-viable-option-to-card-networks/",
+          "quote": "4:12 PM PDT · September 20, 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2021/09/20/truelayer-nabs-130m-at-a-1b-valuation-as-open-banking-rises-as-a-viable-option-to-card-networks/",
+          "quote": "Tiger Global Management is leading the round, and notably, payments juggernaut Stripe is also participating."
+        }
+      ]
+    },
+    {
+      "techeuId": "e2cd74c6-c6bf-4570-9e55-33be676a86e5",
+      "stage": "series-e",
+      "month": "2024-10",
+      "amountEur": 45335026,
+      "amountOriginal": 50000000,
+      "currency": "USD",
+      "investors": [],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.orrick.com/en/news/2024/10/open-banking-truelayer-raises-an-additional-50-million-in-series-e-extension",
+          "quote": "has secured an additional $50 million in an extension of its $130 million Series E funding round"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.orrick.com/en/news/2024/10/open-banking-truelayer-raises-an-additional-50-million-in-series-e-extension",
+          "quote": "has secured an additional $50 million in an extension of its $130 million Series E funding round"
+        },
+        {
+          "field": "month",
+          "url": "https://www.pymnts.com/?p=2267474",
+          "quote": "October 4, 2024"
+        }
+      ]
+    },
+    {
+      "techeuId": "98ce8122-6248-4bab-a237-e88a642179a2",
+      "stage": "series-e",
+      "month": "2026-10",
+      "amountEur": 24137315,
+      "amountOriginal": 27000000,
+      "currency": "USD",
+      "investors": [
+        "CDP Venture Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2026/10/08/truelayer-captures-27m-investment-as-targets-italy-expansion/",
+          "quote": "has captured a $27m investment round"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2026/10/08/truelayer-captures-27m-investment-as-targets-italy-expansion/",
+          "quote": "08 October 2026"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2026/10/08/truelayer-captures-27m-investment-as-targets-italy-expansion/",
+          "quote": "The funding round was led by Italy's CDP Venture Capital"
+        }
+      ]
+    }
+  ]
+}

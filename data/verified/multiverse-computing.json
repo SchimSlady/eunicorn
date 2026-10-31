@@ -1,0 +1,120 @@
+{
+  "id": "multiverse-computing",
+  "name": "Multiverse Computing",
+  "aliases": [],
+  "domain": "multiversecomputing.com",
+  "country": "ES",
+  "city": "San Sebastián",
+  "founded": 2019,
+  "sectors": [
+    "ai",
+    "quantum"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Enrique Lizaso",
+    "Román Orús",
+    "Alfonso Rubio-Manzanares",
+    "Sam Mugel"
+  ],
+  "difficulty": 3,
+  "techeuId": "ED85D990-87EA-4762-B6CA-5A81B39603D8",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/Multiverse_Computing",
+      "quote": "Multiverse Computing is a software company headquartered in San Sebastián, Spain"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Multiverse_Computing",
+      "quote": "Multiverse was co-founded in 2019 by Enrique Lizaso, Román Orús , Alfonso Rubio-Manzanares and Sam Mugel."
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Multiverse_Computing",
+      "quote": "Multiverse was co-founded in 2019 by Enrique Lizaso, Román Orús , Alfonso Rubio-Manzanares and Sam Mugel."
+    },
+    {
+      "field": "sectors",
+      "url": "https://en.wikipedia.org/wiki/Multiverse_Computing",
+      "quote": "The company develops compressed AI models and quantum software."
+    },
+    {
+      "field": "unicorn",
+      "url": "https://techcrunch.com/2024/03/04/multiverse-computing/",
+      "quote": "The funding values the startup at €100 million ($108 million)"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "304d65ab-e8e2-4fcd-a2ea-1ba4e5f55bb2",
+      "stage": "series-a",
+      "month": "2024-03",
+      "amountEur": 25000000,
+      "amountOriginal": 25000000,
+      "currency": "EUR",
+      "investors": [
+        "Columbus Venture Partners"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2024/03/04/multiverse-computing/",
+          "quote": "has raised €25 million (or $27 million) in an equity funding round led by Columbus Venture Partners"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2024/03/04/multiverse-computing/",
+          "quote": "March 4, 2024"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2024/03/04/multiverse-computing/",
+          "quote": "has raised €25 million (or $27 million) in an equity funding round led by Columbus Venture Partners"
+        }
+      ]
+    },
+    {
+      "techeuId": "c5e98afd-a7fa-45b9-b8eb-25d5aa2da6de",
+      "stage": "series-b",
+      "month": "2025-06",
+      "amountEur": 189000000,
+      "amountOriginal": 189000000,
+      "currency": "EUR",
+      "investors": [
+        "Bullhound Capital",
+        "HP Tech Ventures",
+        "SETT",
+        "Forgepoint Capital International",
+        "CDP Venture Capital",
+        "Santander Climate VC",
+        "Toshiba",
+        "Capital Riesgo de Euskadi - Grupo SPRI"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2025/06/12/multiverse-computing-raises-215m-for-tech-that-could-radically-slim-ai-costs/",
+          "quote": "said it has raised an enormous Series B round of €189 million (about $215 million)"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2025/06/12/multiverse-computing-raises-215m-for-tech-that-could-radically-slim-ai-costs/",
+          "quote": "said it has raised an enormous Series B round of €189 million (about $215 million)"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2025/06/12/multiverse-computing-raises-215m-for-tech-that-could-radically-slim-ai-costs/",
+          "quote": "June 12, 2025"
+        },
+        {
+          "field": "investors",
+          "url": "https://en.wikipedia.org/wiki/Multiverse_Computing",
+          "quote": "The Series B was led by Bullhound Capital, HP Tech Ventures, SETT, Forgepoint Capital International, CDP Venture Capital, Santander Climate VC, Toshiba, and Capital Riesgo de Euskadi"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "id": "razor-group",
+  "name": "Razor Group",
+  "aliases": [
+    "Razor"
+  ],
+  "domain": "razor-group.com",
+  "country": "DE",
+  "city": "Berlin",
+  "founded": 2020,
+  "sectors": [
+    "consumer"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Tushar Ahluwalia",
+    "Christoph Gamon",
+    "Shrestha Chowdhury"
+  ],
+  "difficulty": 4,
+  "techeuId": "FE7223C7-11AE-4817-A532-FA8387BE1756",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.privateequitywire.co.uk/l-catterton-leads-70m-funding-round-razor-group/",
+      "quote": "Founded in Berlin in 2020"
+    },
+    {
+      "field": "founded",
+      "url": "https://www.privateequitywire.co.uk/l-catterton-leads-70m-funding-round-razor-group/",
+      "quote": "Founded in Berlin in 2020"
+    },
+    {
+      "field": "founders",
+      "url": "https://techcrunch.com/2021/11/08/berlins-razor-group-raises-125m-at-a-1b-valuation-for-a-platform-to-buy-and-scale-third-party-amazon-merchants/",
+      "quote": "CEO and co-founder Tushar Ahluwalia"
+    },
+    {
+      "field": "founders",
+      "url": "https://techcrunch.com/2021/11/08/berlins-razor-group-raises-125m-at-a-1b-valuation-for-a-platform-to-buy-and-scale-third-party-amazon-merchants/",
+      "quote": "Ahluwalia and another co-founder, Christoph Gamon, are both Rocket alums"
+    },
+    {
+      "field": "founders",
+      "url": "https://techcrunch.com/2021/11/08/berlins-razor-group-raises-125m-at-a-1b-valuation-for-a-platform-to-buy-and-scale-third-party-amazon-merchants/",
+      "quote": "Shrestha Chowdhury, another co-founder who is Razor's CTO"
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.privateequitywire.co.uk/l-catterton-leads-70m-funding-round-razor-group/",
+      "quote": "a global aggregator of e-commerce consumer goods"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "31862294-5512-4cdc-ae15-e969c58a9a24",
+      "stage": "series-b",
+      "month": "2021-11",
+      "amountEur": 107954055,
+      "amountOriginal": 125000000,
+      "currency": "USD",
+      "investors": [
+        "Fortress Investment Group",
+        "468 Capital",
+        "Victory Park Capital",
+        "Presight Capital",
+        "BlackRock",
+        "Jebsen Capital",
+        "Redalpine",
+        "GFC"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2021/11/08/berlins-razor-group-raises-125m-at-a-1b-valuation-for-a-platform-to-buy-and-scale-third-party-amazon-merchants/",
+          "quote": "has now raised $125 million of equity funding in a Series B round"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2021/11/08/berlins-razor-group-raises-125m-at-a-1b-valuation-for-a-platform-to-buy-and-scale-third-party-amazon-merchants/",
+          "quote": "has now raised $125 million of equity funding in a Series B round"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2021/11/08/berlins-razor-group-raises-125m-at-a-1b-valuation-for-a-platform-to-buy-and-scale-third-party-amazon-merchants/",
+          "quote": "6:49 AM PST · November 8, 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2021/11/08/berlins-razor-group-raises-125m-at-a-1b-valuation-for-a-platform-to-buy-and-scale-third-party-amazon-merchants/",
+          "quote": "including Fortress Investment Group, 468 Capital, Victory Park Capital, Presight Capital, Blackrock, Jebsen Capital, Redalpine and GFC"
+        }
+      ]
+    },
+    {
+      "techeuId": "1f2f8d2c-7163-4c8e-bc2f-ca3aecad2d22",
+      "stage": "series-c",
+      "month": "2022-12",
+      "amountEur": 65900960,
+      "amountOriginal": 70000000,
+      "currency": "USD",
+      "investors": [
+        "L Catterton",
+        "468 Capital",
+        "Presight Capital",
+        "Jebsen Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.privateequitywire.co.uk/l-catterton-leads-70m-funding-round-razor-group/",
+          "quote": "L Catterton's Latin America fund has led a $70 million funding round for Razor Group"
+        },
+        {
+          "field": "amount",
+          "url": "https://prnewswire.com/news-releases/jebsen-capital-portfolio-company-razor-completes-a-new-round-of-financing-301720084.html",
+          "quote": "USD 70mn in equity capital"
+        },
+        {
+          "field": "stage",
+          "url": "https://finanzwire.com/press-release/heliad-equity-partners-gmbh-co-kgaa-etr-hpb-heliad-equity-partners-gmbh-co-kgaa-razor-group-has-successfully-closed-their-70-million-series-c-5oKz1HOJe4T",
+          "quote": "has raised €70 million in further equity as part of its Series C financing round"
+        },
+        {
+          "field": "month",
+          "url": "https://www.privateequitywire.co.uk/l-catterton-leads-70m-funding-round-razor-group/",
+          "quote": "December 23, 2022"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.privateequitywire.co.uk/l-catterton-leads-70m-funding-round-razor-group/",
+          "quote": "Other investors participating in the investment round include 468 Capital and Presight Capital"
+        },
+        {
+          "field": "investors",
+          "url": "https://prnewswire.com/news-releases/jebsen-capital-portfolio-company-razor-completes-a-new-round-of-financing-301720084.html",
+          "quote": "Jebsen Capital also participated in this latest round led by consumer-focused investment firm L Catterton"
+        }
+      ]
+    }
+  ]
+}

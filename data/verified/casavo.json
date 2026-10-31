@@ -1,0 +1,190 @@
+{
+  "id": "casavo",
+  "name": "Casavo",
+  "aliases": [],
+  "domain": "casavo.com",
+  "country": "IT",
+  "city": "Milan",
+  "founded": 2017,
+  "sectors": [
+    "consumer"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Giorgio Tinacci"
+  ],
+  "difficulty": 3,
+  "techeuId": "972C28B5-C12E-4560-AAF2-08FB6E3743A2",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://siliconcanals.com/italian-proptech-startup-casavo-raises-e7m-series-a-to-accelerate-growth-across-several-italian-cities/",
+      "quote": "Casavo was founded in 2017 by Giorgio Tinacci in Milan."
+    },
+    {
+      "field": "founded",
+      "url": "https://siliconcanals.com/italian-proptech-startup-casavo-raises-e7m-series-a-to-accelerate-growth-across-several-italian-cities/",
+      "quote": "Casavo was founded in 2017 by Giorgio Tinacci in Milan."
+    },
+    {
+      "field": "founders",
+      "url": "https://siliconcanals.com/italian-proptech-startup-casavo-raises-e7m-series-a-to-accelerate-growth-across-several-italian-cities/",
+      "quote": "Casavo was founded in 2017 by Giorgio Tinacci in Milan."
+    },
+    {
+      "field": "sectors",
+      "url": "https://blog.casavo.com/en/articoli/a-new-capital-raise-to-change-the-way-people-sell-live-and-buy-homes-in-europe",
+      "quote": "to change the way people sell, live and buy homes in Europe"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-a",
+      "month": "2019-02",
+      "amountEur": 7000000,
+      "amountOriginal": 7000000,
+      "currency": "EUR",
+      "investors": [
+        "Project A Ventures",
+        "Kervis Asset Management",
+        "Boost Heroes",
+        "360 Capital Partners",
+        "Picus Capital"
+      ],
+      "techeuId": "085155b3-dd98-4b91-f736-08d91092c887",
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://siliconcanals.com/italian-proptech-startup-casavo-raises-e7m-series-a-to-accelerate-growth-across-several-italian-cities/",
+          "quote": "Casavo has bagged €7 million in Series A funding round led by Project A Ventures"
+        },
+        {
+          "field": "stage",
+          "url": "https://siliconcanals.com/italian-proptech-startup-casavo-raises-e7m-series-a-to-accelerate-growth-across-several-italian-cities/",
+          "quote": "Casavo has bagged €7 million in Series A funding round led by Project A Ventures"
+        },
+        {
+          "field": "month",
+          "url": "https://siliconcanals.com/italian-proptech-startup-casavo-raises-e7m-series-a-to-accelerate-growth-across-several-italian-cities/",
+          "quote": "2019-02-25T07:30:13+07:00"
+        },
+        {
+          "field": "investors",
+          "url": "https://siliconcanals.com/italian-proptech-startup-casavo-raises-e7m-series-a-to-accelerate-growth-across-several-italian-cities/",
+          "quote": "Even its existing investors such as Kervis Asset Management, Boost Heroes, 360 Capital Partners and Picus Capital"
+        }
+      ]
+    },
+    {
+      "stage": "series-b",
+      "month": "2019-10",
+      "amountEur": 20000000,
+      "amountOriginal": 20000000,
+      "currency": "EUR",
+      "investors": [
+        "Greenoaks Capital"
+      ],
+      "techeuId": "0713d8e6-dc61-483f-f737-08d91092c887",
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://casavo.com/en/blog/a-new-financing-round-to-focus-on-people-and-to-keep-growing/",
+          "quote": "50 million: 20 of which in equity and the remaining 30 as a debt financing"
+        },
+        {
+          "field": "stage",
+          "url": "https://casavo.com/en/blog/a-new-financing-round-to-focus-on-people-and-to-keep-growing/",
+          "quote": "a new funding round called “Series B”"
+        },
+        {
+          "field": "month",
+          "url": "https://www.unquote.com/southern-europe/official-record/3016785/greenoaks-leads-eur50m-series-b-for-casavo",
+          "quote": "Alessia Argentieri 10 October 2019"
+        },
+        {
+          "field": "investors",
+          "url": "https://casavo.com/en/blog/a-new-financing-round-to-focus-on-people-and-to-keep-growing/",
+          "quote": "Greenoaks Capital (main Series B investor)"
+        }
+      ]
+    },
+    {
+      "stage": "series-c",
+      "month": "2021-03",
+      "amountEur": 50000000,
+      "amountOriginal": 50000000,
+      "currency": "EUR",
+      "investors": [
+        "Exor Seeds",
+        "Greenoaks Capital",
+        "Project A Ventures",
+        "360 Capital",
+        "Picus Capital",
+        "P101",
+        "Bonsai Partners"
+      ],
+      "techeuId": "f96fc6a5-44ef-4e05-f738-08d91092c887",
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://blog.casavo.com/en/articoli/a-new-capital-raise-to-change-the-way-people-sell-live-and-buy-homes-in-europe",
+          "quote": "The new round €50 million was raised in a series C equity round"
+        },
+        {
+          "field": "stage",
+          "url": "https://blog.casavo.com/en/articoli/a-new-capital-raise-to-change-the-way-people-sell-live-and-buy-homes-in-europe",
+          "quote": "The new round €50 million was raised in a series C equity round"
+        },
+        {
+          "field": "month",
+          "url": "https://blog.casavo.com/en/articoli/a-new-capital-raise-to-change-the-way-people-sell-live-and-buy-homes-in-europe",
+          "quote": "Casavo 17/3/2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://blog.casavo.com/en/articoli/a-new-capital-raise-to-change-the-way-people-sell-live-and-buy-homes-in-europe",
+          "quote": "led by Exor Seeds"
+        },
+        {
+          "field": "investors",
+          "url": "https://blog.casavo.com/en/articoli/a-new-capital-raise-to-change-the-way-people-sell-live-and-buy-homes-in-europe",
+          "quote": "Already existing investors including Greenoaks Capital, Project A Ventures, 360 Capital , and Picus Capital continue to support us."
+        },
+        {
+          "field": "investors",
+          "url": "https://blog.casavo.com/en/articoli/a-new-capital-raise-to-change-the-way-people-sell-live-and-buy-homes-in-europe",
+          "quote": "New investors have also joined, including P101 and related funds (including ITALIA 500 from Azimut Libera Impresa), and Bonsai Partners"
+        }
+      ]
+    },
+    {
+      "stage": "series-d",
+      "month": "2022-07",
+      "amountEur": 100000000,
+      "amountOriginal": 100000000,
+      "currency": "EUR",
+      "investors": [
+        "Exor"
+      ],
+      "techeuId": "a51a81db-f54d-4df0-a9bd-145782cdf997",
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.milanofinanza.it/news/exor-guida-il-round-da-100-milioni-di-casavo-2570599",
+          "quote": "aumento di capitale da 100 milioni ha avuto come principale sottoscrittore Exor"
+        },
+        {
+          "field": "month",
+          "url": "https://www.milanofinanza.it/news/exor-guida-il-round-da-100-milioni-di-casavo-2570599",
+          "quote": "'published_time' : '19/07/2022'"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.milanofinanza.it/news/exor-guida-il-round-da-100-milioni-di-casavo-2570599",
+          "quote": "aumento di capitale da 100 milioni ha avuto come principale sottoscrittore Exor"
+        }
+      ]
+    }
+  ]
+}

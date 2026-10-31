@@ -1,0 +1,152 @@
+{
+  "id": "volta-trucks",
+  "name": "Volta Trucks",
+  "aliases": [],
+  "domain": "voltatrucks.com",
+  "country": "SE",
+  "city": "Stockholm",
+  "founded": 2019,
+  "sectors": [
+    "mobility",
+    "climate"
+  ],
+  "status": "acquired",
+  "unicorn": false,
+  "founders": [
+    "Carl-Magnus Norden",
+    "Kjell Waloen"
+  ],
+  "difficulty": 3,
+  "techeuId": "B1446FD7-8D98-4090-BA31-4313E61B3517",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/Volta_Trucks",
+      "quote": "Volta Trucks’ Head Office is in Stockholm, Sweden"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Volta_Trucks",
+      "quote": "Volta Trucks was founded in 2019 by Scandinavian entrepreneur Carl-Magnus Norden and co-founder Kjell Waloen"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Volta_Trucks",
+      "quote": "Volta Trucks was founded in 2019 by Scandinavian entrepreneur Carl-Magnus Norden and co-founder Kjell Waloen"
+    },
+    {
+      "field": "sectors",
+      "url": "https://en.wikipedia.org/wiki/Volta_Trucks",
+      "quote": "Volta Trucks manufactures and provides services for electric trucks"
+    },
+    {
+      "field": "status",
+      "url": "https://en.wikipedia.org/wiki/Volta_Trucks",
+      "quote": "was almost immediately bought out of administration by Luxor Capital Partners"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "f664b6b2-32e6-48fd-9ac5-2d645d057083",
+      "stage": "series-b",
+      "month": "2021-09",
+      "amountEur": 37000000,
+      "amountOriginal": 37000000,
+      "currency": "EUR",
+      "investors": [
+        "Luxor Capital",
+        "Proterra",
+        "Agility",
+        "Byggmästare Anders J Ahlström of Stockholm"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.automotiveworld.com/news-releases/volta-trucks-confirms-e37-million-of-series-b-funding-as-volta-zero-pre-orders-pass-2500-with-an-order-value-exceeding-e600m/",
+          "quote": "successful conclusion of its Series B funding round, with €37 million secured in new capital"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.automotiveworld.com/news-releases/volta-trucks-confirms-e37-million-of-series-b-funding-as-volta-zero-pre-orders-pass-2500-with-an-order-value-exceeding-e600m/",
+          "quote": "successful conclusion of its Series B funding round"
+        },
+        {
+          "field": "month",
+          "url": "https://www.automotiveworld.com/news-releases/volta-trucks-confirms-e37-million-of-series-b-funding-as-volta-zero-pre-orders-pass-2500-with-an-order-value-exceeding-e600m/",
+          "quote": "September 16, 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.automotiveworld.com/news-releases/volta-trucks-confirms-e37-million-of-series-b-funding-as-volta-zero-pre-orders-pass-2500-with-an-order-value-exceeding-e600m/",
+          "quote": "The funding round was led by Luxor Capital"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.automotiveworld.com/news-releases/volta-trucks-confirms-e37-million-of-series-b-funding-as-volta-zero-pre-orders-pass-2500-with-an-order-value-exceeding-e600m/",
+          "quote": "first-time investor, Proterra"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.automotiveworld.com/news-releases/volta-trucks-confirms-e37-million-of-series-b-funding-as-volta-zero-pre-orders-pass-2500-with-an-order-value-exceeding-e600m/",
+          "quote": "Agility, a leading provider of supply chain services, innovation and investment, also became a first-time investor in Volta Trucks"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.automotiveworld.com/news-releases/volta-trucks-confirms-e37-million-of-series-b-funding-as-volta-zero-pre-orders-pass-2500-with-an-order-value-exceeding-e600m/",
+          "quote": "Byggmästare Anders J Ahlström of Stockholm, added to its investment in Volta Trucks"
+        }
+      ]
+    },
+    {
+      "techeuId": "e19bd425-0763-4e39-81bc-1637daf9866a",
+      "stage": "series-c",
+      "month": "2022-02",
+      "amountEur": 230000000,
+      "amountOriginal": 230000000,
+      "currency": "EUR",
+      "investors": [
+        "Luxor Capital",
+        "Byggmästare Anders J Ahlström of Stockholm",
+        "Agility",
+        "B-FLEXION"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.heavyquipmag.com/2022/02/22/volta-trucks-confirms-e230-million-of-series-c-investments/",
+          "quote": "conclusion of its Series C funding round with a €230 million capital raise"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.heavyquipmag.com/2022/02/22/volta-trucks-confirms-e230-million-of-series-c-investments/",
+          "quote": "conclusion of its Series C funding round with a €230 million capital raise"
+        },
+        {
+          "field": "month",
+          "url": "https://www.heavyquipmag.com/2022/02/22/volta-trucks-confirms-e230-million-of-series-c-investments/",
+          "quote": "February 22, 2022"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.heavyquipmag.com/2022/02/22/volta-trucks-confirms-e230-million-of-series-c-investments/",
+          "quote": "The funding round was led by New York-based Luxor Capital"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.heavyquipmag.com/2022/02/22/volta-trucks-confirms-e230-million-of-series-c-investments/",
+          "quote": "Byggmästare Anders J Ahlström of Stockholm, added to its holding in the company"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.heavyquipmag.com/2022/02/22/volta-trucks-confirms-e230-million-of-series-c-investments/",
+          "quote": "Previous Series B investor, Agility, a leading provider of supply chain services, innovation, and investment, also joined the capital raise"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.heavyquipmag.com/2022/02/22/volta-trucks-confirms-e230-million-of-series-c-investments/",
+          "quote": "B-FLEXION, formerly Waypoint Capital, also became investors"
+        }
+      ]
+    }
+  ]
+}

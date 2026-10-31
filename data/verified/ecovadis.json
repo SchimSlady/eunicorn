@@ -1,0 +1,75 @@
+{
+  "id": "ecovadis",
+  "name": "EcoVadis",
+  "aliases": [],
+  "domain": "ecovadis.com",
+  "country": "FR",
+  "city": "Paris",
+  "founded": 2007,
+  "sectors": [
+    "saas",
+    "climate"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Frederic Trinel"
+  ],
+  "difficulty": 3,
+  "techeuId": "F885FAB8-1356-4282-86C7-9FF424048FBE",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://tech.eu/2022/06/14/france-business-sustainability-rating-provider-ecovadis-secures-500-million-investment-now-valued-at-over-1billion/",
+      "quote": "Parisian ‘seal of good earth keeping’ provider EcoVadis"
+    },
+    {
+      "field": "founded",
+      "url": "https://ecovadis.com/about-us/",
+      "quote": "Since our founding in 2007, EcoVadis has grown into a globally trusted provider of business sustainability ratings"
+    },
+    {
+      "field": "founders",
+      "url": "https://tech.eu/2022/06/14/france-business-sustainability-rating-provider-ecovadis-secures-500-million-investment-now-valued-at-over-1billion/",
+      "quote": "co-founder and co-CEO Frederic Trinel told Reuters"
+    },
+    {
+      "field": "sectors",
+      "url": "https://tech.eu/2022/06/14/france-business-sustainability-rating-provider-ecovadis-secures-500-million-investment-now-valued-at-over-1billion/",
+      "quote": "provide clients with an easy-to-use and actionable series of sustainability scorecards"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-c",
+      "month": "2022-06",
+      "amountEur": 478377344,
+      "amountOriginal": 500000000,
+      "currency": "USD",
+      "investors": [
+        "BeyondNetZero",
+        "Astorg",
+        "Princeville Capital",
+        "GIC"
+      ],
+      "techeuId": "3da76ddf-2c61-49df-a2d1-20cdae41b276",
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2022/06/14/france-business-sustainability-rating-provider-ecovadis-secures-500-million-investment-now-valued-at-over-1billion/",
+          "quote": "has raised just over $500+ million in an equity funding round led by BeyondNetZero and Astorg"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2022/06/14/france-business-sustainability-rating-provider-ecovadis-secures-500-million-investment-now-valued-at-over-1billion/",
+          "quote": "14 June 2022"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2022/06/14/france-business-sustainability-rating-provider-ecovadis-secures-500-million-investment-now-valued-at-over-1billion/",
+          "quote": "led by General Atlantic’s SDG-focused unit BeyondNetZero and private equity firm Astorg, with the Government of Singapore Investment Corporation ( GIC ) and Princeville Capital also participating in the round"
+        }
+      ]
+    }
+  ]
+}

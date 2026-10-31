@@ -1,0 +1,214 @@
+{
+  "id": "leyden-labs",
+  "name": "Leyden Labs",
+  "aliases": [
+    "Leyden Laboratories"
+  ],
+  "domain": "leydenlabs.com",
+  "country": "NL",
+  "city": "Leiden",
+  "founded": 2020,
+  "sectors": [
+    "biotech"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Koenraad Wiedhaup",
+    "Jaap Goudsmit",
+    "Ronald Brus",
+    "Dinko Valerio"
+  ],
+  "difficulty": 5,
+  "techeuId": "449AB9B2-036D-4217-B716-9425706540D6",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://leydenlabs.com/20240006-news-item-leyden-labs-raises-70m-to-advance-its-intranasal-antibody-programs",
+      "quote": "Leiden Laboratory Emmy Noetherweg 2 2333 BK Leiden The Netherlands"
+    },
+    {
+      "field": "founded",
+      "url": "https://leydenlabs.com/20250003-news-item-leyden-labs-secures-e30-million-from-european-innovation-council-fund-and-invest-nl",
+      "quote": "Founded in 2020, a clinical-stage biotechnology company based in the Netherlands."
+    },
+    {
+      "field": "founders",
+      "url": "https://leydenlabs.com/news-item-launch",
+      "quote": "said Koenraad Wiedhaup, one of the founders and CEO of Leyden Labs."
+    },
+    {
+      "field": "founders",
+      "url": "https://leydenlabs.com/news-item-launch",
+      "quote": "The other founders of Leyden Labs are the chief scientific officer Jaap Goudsmit and biotech entrepreneurs Ronald Brus and Dinko Valerio"
+    },
+    {
+      "field": "sectors",
+      "url": "https://leydenlabs.com/20250003-news-item-leyden-labs-secures-e30-million-from-european-innovation-council-fund-and-invest-nl",
+      "quote": "Founded in 2020, a clinical-stage biotechnology company based in the Netherlands."
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "ea92c483-8a35-4c9a-f9f3-08d91092c887",
+      "stage": "series-a",
+      "month": "2021-03",
+      "amountEur": 40000000,
+      "amountOriginal": 40000000,
+      "currency": "EUR",
+      "investors": [
+        "GV",
+        "F-Prime Capital",
+        "Casdin Capital",
+        "Brook Byers"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://leydenlabs.com/news-item-launch",
+          "quote": "today announced the closing of a €40 Million Series A financing led by GV (formerly Google Ventures)"
+        },
+        {
+          "field": "stage",
+          "url": "https://leydenlabs.com/news-item-launch",
+          "quote": "today announced the closing of a €40 Million Series A financing led by GV (formerly Google Ventures)"
+        },
+        {
+          "field": "month",
+          "url": "https://leydenlabs.com/news-item-launch",
+          "quote": "AMSTERDAM and BOSTON - March 25, 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://leydenlabs.com/news-item-launch",
+          "quote": "led by GV (formerly Google Ventures), with participation from F-Prime Capital, Casdin Capital, LLC and Brook Byers"
+        }
+      ]
+    },
+    {
+      "techeuId": "e43ec3ac-cb84-4864-8490-48dc09536a25",
+      "stage": "series-b",
+      "month": "2022-01",
+      "amountEur": 124245651,
+      "amountOriginal": 140000000,
+      "currency": "USD",
+      "investors": [
+        "Casdin Capital",
+        "GV",
+        "SoftBank Vision Fund 2",
+        "Invus",
+        "Bluebird Ventures",
+        "F-Prime Capital",
+        "Byers Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://leydenlabs.com/140m_seriesb_raise",
+          "quote": "today announced closing a $140M Series B financing"
+        },
+        {
+          "field": "stage",
+          "url": "https://leydenlabs.com/140m_seriesb_raise",
+          "quote": "today announced closing a $140M Series B financing"
+        },
+        {
+          "field": "month",
+          "url": "https://leydenlabs.com/140m_seriesb_raise",
+          "quote": "AMSTERDAM and BOSTON - January 25, 2022"
+        },
+        {
+          "field": "investors",
+          "url": "https://leydenlabs.com/140m_seriesb_raise",
+          "quote": "Series A investors Casdin Capital and GV (formerly Google Ventures) led the round that included incoming investors SoftBank Vision Fund 2, Invus, and Bluebird Ventures, and existing Series A investors F-Prime Capital and Byers Capital/Brook Byers."
+        }
+      ]
+    },
+    {
+      "techeuId": "adbaafe1-b1bc-447e-a5d9-7a0fd7e2f0e2",
+      "stage": "series-b",
+      "month": "2025-01",
+      "amountEur": 67928190,
+      "amountOriginal": 70000000,
+      "currency": "USD",
+      "investors": [],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://leydenlabs.com/20240006-news-item-leyden-labs-raises-70m-to-advance-its-intranasal-antibody-programs",
+          "quote": "today announced it has raised $70M in funding to advance its Mucosal Protection Platform."
+        },
+        {
+          "field": "stage",
+          "url": "https://leydenlabs.com/20250003-news-item-leyden-labs-secures-e30-million-from-european-innovation-council-fund-and-invest-nl",
+          "quote": "including our $70 million Series B announced in January"
+        },
+        {
+          "field": "month",
+          "url": "https://leydenlabs.com/20240006-news-item-leyden-labs-raises-70m-to-advance-its-intranasal-antibody-programs",
+          "quote": "LEIDEN, the Netherlands, Jan. 9, 2025"
+        }
+      ]
+    },
+    {
+      "techeuId": "807c7038-d6c3-46e8-995f-b90a9f66385c",
+      "stage": "series-c",
+      "month": "2025-10",
+      "amountEur": 30000000,
+      "amountOriginal": 30000000,
+      "currency": "EUR",
+      "investors": [
+        "European Innovation Council (EIC) Fund",
+        "Invest-NL"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://leydenlabs.com/20250003-news-item-leyden-labs-secures-e30-million-from-european-innovation-council-fund-and-invest-nl",
+          "quote": "today announced 30 million euros in new equity financing from the European Innovation Council (EIC) Fund and Invest-NL."
+        },
+        {
+          "field": "month",
+          "url": "https://leydenlabs.com/20250003-news-item-leyden-labs-secures-e30-million-from-european-innovation-council-fund-and-invest-nl",
+          "quote": "LEIDEN, the Netherlands, October 2, 2025"
+        },
+        {
+          "field": "investors",
+          "url": "https://leydenlabs.com/20250003-news-item-leyden-labs-secures-e30-million-from-european-innovation-council-fund-and-invest-nl",
+          "quote": "today announced 30 million euros in new equity financing from the European Innovation Council (EIC) Fund and Invest-NL."
+        }
+      ]
+    },
+    {
+      "techeuId": "cc72927e-daaf-4b58-b4b4-c9cbbf776fe1",
+      "stage": "series-c",
+      "month": "2026-06",
+      "amountEur": 40000000,
+      "amountOriginal": 40000000,
+      "currency": "EUR",
+      "investors": [
+        "European Innovation Council (EIC) Fund",
+        "Invest-NL",
+        "Gates Foundation",
+        "ClavystBio"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://leydenlabs.com/globally-recognized-impact-investors-back-leyden-labs-mission-to-transform-protection-against-respiratory-viruses-with-e40-million-investment",
+          "quote": "today announced a €40 million investment from the European Innovation Council (EIC) Fund, Invest-NL, Gates Foundation, ClavystBio, and others."
+        },
+        {
+          "field": "month",
+          "url": "https://leydenlabs.com/globally-recognized-impact-investors-back-leyden-labs-mission-to-transform-protection-against-respiratory-viruses-with-e40-million-investment",
+          "quote": "LEIDEN, the Netherlands. June 25, 2026"
+        },
+        {
+          "field": "investors",
+          "url": "https://leydenlabs.com/globally-recognized-impact-investors-back-leyden-labs-mission-to-transform-protection-against-respiratory-viruses-with-e40-million-investment",
+          "quote": "today announced a €40 million investment from the European Innovation Council (EIC) Fund, Invest-NL, Gates Foundation, ClavystBio, and others."
+        }
+      ]
+    }
+  ]
+}

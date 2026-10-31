@@ -1,0 +1,148 @@
+{
+  "id": "lunar",
+  "name": "Lunar",
+  "aliases": [
+    "Lunar Way"
+  ],
+  "domain": "lunar.app",
+  "country": "DK",
+  "city": "Aarhus",
+  "founded": 2015,
+  "sectors": [
+    "fintech"
+  ],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 1819836215,
+  "founders": [
+    "Ken Villum Klausen"
+  ],
+  "difficulty": 3,
+  "techeuId": "7E372371-8D64-4A67-A39B-F4F4C8BC587A",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://lunar.app/en/about",
+      "quote": "Lunar Bank A/S, Hack Kampmanns Plads 10, DK-8000 Aarhus C"
+    },
+    {
+      "field": "founded",
+      "url": "https://siliconcanals.com/?p=12802",
+      "quote": "Founded by Ken Villum Klausen in 2015"
+    },
+    {
+      "field": "founders",
+      "url": "https://siliconcanals.com/?p=12802",
+      "quote": "Founded by Ken Villum Klausen in 2015"
+    },
+    {
+      "field": "sectors",
+      "url": "https://lunar.app/en",
+      "quote": "The smarter way to bank."
+    },
+    {
+      "field": "unicorn",
+      "url": "https://fintech.global/2022/03/11/danish-neobank-lunar-adds-77m-to-series-d/",
+      "quote": "This funding round was raised at a $2bn valuation"
+    },
+    {
+      "field": "valuation",
+      "url": "https://fintech.global/2022/03/11/danish-neobank-lunar-adds-77m-to-series-d/",
+      "quote": "This funding round was raised at a $2bn valuation"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-c",
+      "month": "2020-10",
+      "amountEur": 40000000,
+      "amountOriginal": 40000000,
+      "currency": "EUR",
+      "investors": [],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.verdict.co.uk/neobank-lunar-series-d/",
+          "quote": "Lunar most recently secured €40m in Series C funding round in October last year."
+        },
+        {
+          "field": "stage",
+          "url": "https://www.verdict.co.uk/neobank-lunar-series-d/",
+          "quote": "Lunar most recently secured €40m in Series C funding round in October last year."
+        },
+        {
+          "field": "month",
+          "url": "https://www.verdict.co.uk/neobank-lunar-series-d/",
+          "quote": "Lunar most recently secured €40m in Series C funding round in October last year."
+        },
+        {
+          "field": "month",
+          "url": "https://www.verdict.co.uk/neobank-lunar-series-d/",
+          "quote": "July 12, 2021"
+        }
+      ]
+    },
+    {
+      "stage": "series-d",
+      "month": "2021-07",
+      "amountEur": 210000000,
+      "amountOriginal": 210000000,
+      "currency": "EUR",
+      "investors": [
+        "Heartland",
+        "Kinnevik",
+        "Tencent",
+        "IDC Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.verdict.co.uk/neobank-lunar-series-d/",
+          "quote": "Danish neobank Lunar raising a €210m Series D round"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.verdict.co.uk/neobank-lunar-series-d/",
+          "quote": "Danish neobank Lunar raising a €210m Series D round"
+        },
+        {
+          "field": "month",
+          "url": "https://www.verdict.co.uk/neobank-lunar-series-d/",
+          "quote": "July 12, 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://fintech.global/2022/03/11/danish-neobank-lunar-adds-77m-to-series-d/",
+          "quote": "Investors to the initial capital injection include Heartland, Kinnevik, Tencent and IDC Ventures."
+        }
+      ]
+    },
+    {
+      "techeuId": "93adae78-a1c0-406e-9ef7-6cb4c3619e44",
+      "stage": "series-d",
+      "month": "2022-03",
+      "amountEur": 70000000,
+      "amountOriginal": 70000000,
+      "currency": "EUR",
+      "postMoneyValuationEur": 1819836215,
+      "investors": [],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://coverager.com/lunar-raises-e70-million/",
+          "quote": "announced a €70 million Series D-2 funding round"
+        },
+        {
+          "field": "stage",
+          "url": "https://coverager.com/lunar-raises-e70-million/",
+          "quote": "announced a €70 million Series D-2 funding round"
+        },
+        {
+          "field": "month",
+          "url": "https://www.verdict.co.uk/neobank-lunar-raises-e70m/",
+          "quote": "March 11, 2022"
+        }
+      ]
+    }
+  ]
+}

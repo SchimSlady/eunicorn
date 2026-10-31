@@ -1,0 +1,187 @@
+{
+  "id": "collibra",
+  "name": "Collibra",
+  "aliases": [],
+  "domain": "collibra.com",
+  "country": "BE",
+  "city": "Brussels",
+  "founded": 2008,
+  "sectors": [
+    "saas"
+  ],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 4534853589,
+  "founders": [
+    "Felix Van de Maele"
+  ],
+  "difficulty": 3,
+  "techeuId": "647B3889-56D6-4706-BD80-7BD4F63BDB08",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.collibra.com/company/newsroom/press-releases/collibra-raises-250-million-in-funding-round-led-by-sequoia-capital-global-equities-and-sofina-more-than-doubling-its-valuation-to-5-25-billion",
+      "quote": "NEW YORK and BRUSSELS - Nov 9, 2021"
+    },
+    {
+      "field": "city",
+      "url": "https://techcrunch.com/2020/04/02/collibra-nabs-another-112-5m-at-a-2-3b-valuation-for-its-big-data-management-platform",
+      "quote": "Collibra was originally a spin-out from Vrije Universiteit in Brussels, Belgium"
+    },
+    {
+      "field": "founded",
+      "url": "https://www.cnbc.com/2021/11/09/collibra-doubles-valuation-as-investors-chase-next-cloud-winner.html",
+      "quote": "Founded in 2008, Collibra helps firms manage and analyze data"
+    },
+    {
+      "field": "founders",
+      "url": "https://www.collibra.com/company/newsroom/press-releases/collibra-raises-250-million-in-funding-round-led-by-sequoia-capital-global-equities-and-sofina-more-than-doubling-its-valuation-to-5-25-billion",
+      "quote": "Felix Van de Maele, founder and CEO of Collibra"
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.cnbc.com/2021/11/09/collibra-doubles-valuation-as-investors-chase-next-cloud-winner.html",
+      "quote": "Collibra helps firms manage and analyze data"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://www.collibra.com/company/newsroom/press-releases/collibra-raises-250-million-in-funding-round-led-by-sequoia-capital-global-equities-and-sofina-more-than-doubling-its-valuation-to-5-25-billion",
+      "quote": "The funding values Collibra at $5.25 billion"
+    },
+    {
+      "field": "valuation",
+      "url": "https://www.collibra.com/company/newsroom/press-releases/collibra-raises-250-million-in-funding-round-led-by-sequoia-capital-global-equities-and-sofina-more-than-doubling-its-valuation-to-5-25-billion",
+      "quote": "The funding values Collibra at $5.25 billion"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-e",
+      "month": "2019-01",
+      "amountEur": 87550341,
+      "amountOriginal": 100000000,
+      "currency": "USD",
+      "investors": [
+        "CapitalG",
+        "ICONIQ Capital",
+        "Index Ventures",
+        "Dawn Capital",
+        "Battery Ventures"
+      ],
+      "techeuId": "5fb0bcaa-cc6d-4046-e4cd-08d91092c887",
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.indexventures.com/perspectives/collibra-raises-100m-and-surpasses-1b-valuation/",
+          "quote": "today announced $100 million in series E funding at a post-money valuation of more than $1 billion"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.indexventures.com/perspectives/collibra-raises-100m-and-surpasses-1b-valuation/",
+          "quote": "today announced $100 million in series E funding"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2019/01/29/belgian-data-tech-scale-up-collibra-turns-unicorn-after-raising-100-million-from-googles-investment-arm/",
+          "quote": "2019-01-29T13:15:08+00:00"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.indexventures.com/perspectives/collibra-raises-100m-and-surpasses-1b-valuation/",
+          "quote": "CapitalG, Alphabet’s growth equity investment fund, led the round, with participation from existing investors ICONIQ Capital, Index Ventures, Dawn Capital and"
+        }
+      ]
+    },
+    {
+      "stage": "series-f+",
+      "month": "2020-04",
+      "amountEur": 103154227,
+      "amountOriginal": 112500000,
+      "currency": "USD",
+      "postMoneyValuationEur": 2108930864,
+      "investors": [
+        "ICONIQ Capital",
+        "Index Ventures",
+        "Durable Capital Partners",
+        "CapitalG",
+        "Battery Ventures",
+        "Dawn Capital"
+      ],
+      "techeuId": "de57f6b2-1d91-4a97-e4ce-08d91092c887",
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2020/04/02/collibra-nabs-another-112-5m-at-a-2-3b-valuation-for-its-big-data-management-platform",
+          "quote": "it has raised $112.5 million in funding, at a post-money valuation of $2.3 billion"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2020/04/02/collibra-nabs-another-112-5m-at-a-2-3b-valuation-for-its-big-data-management-platform",
+          "quote": "a Series F, from the looks of it"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2020/04/02/collibra-nabs-another-112-5m-at-a-2-3b-valuation-for-its-big-data-management-platform",
+          "quote": "2020-04-02T12:00:08+00:00"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2020/04/02/collibra-nabs-another-112-5m-at-a-2-3b-valuation-for-its-big-data-management-platform",
+          "quote": "This latest round was co-led by ICONIQ Capital, Index Ventures, and Durable Capital Partners LP"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2020/04/02/collibra-nabs-another-112-5m-at-a-2-3b-valuation-for-its-big-data-management-platform",
+          "quote": "with previous investors CapitalG"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2020/04/02/collibra-nabs-another-112-5m-at-a-2-3b-valuation-for-its-big-data-management-platform",
+          "quote": "Battery Ventures, and"
+        }
+      ]
+    },
+    {
+      "stage": "series-f+",
+      "month": "2021-11",
+      "amountEur": 215945409,
+      "amountOriginal": 250000000,
+      "currency": "USD",
+      "postMoneyValuationEur": 4534853589,
+      "investors": [
+        "Sequoia Capital Global Equities",
+        "Sofina",
+        "Tiger Global Management",
+        "Battery Ventures",
+        "CapitalG",
+        "Dawn Capital",
+        "Durable Capital Partners",
+        "ICONIQ Capital",
+        "Index Ventures"
+      ],
+      "techeuId": "334268ef-5fa0-4527-9de8-324d76f37da3",
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.collibra.com/company/newsroom/press-releases/collibra-raises-250-million-in-funding-round-led-by-sequoia-capital-global-equities-and-sofina-more-than-doubling-its-valuation-to-5-25-billion",
+          "quote": "today announced that it has raised $250 million in Series G funding"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.collibra.com/company/newsroom/press-releases/collibra-raises-250-million-in-funding-round-led-by-sequoia-capital-global-equities-and-sofina-more-than-doubling-its-valuation-to-5-25-billion",
+          "quote": "today announced that it has raised $250 million in Series G funding"
+        },
+        {
+          "field": "month",
+          "url": "https://www.collibra.com/company/newsroom/press-releases/collibra-raises-250-million-in-funding-round-led-by-sequoia-capital-global-equities-and-sofina-more-than-doubling-its-valuation-to-5-25-billion",
+          "quote": "NEW YORK and BRUSSELS - Nov 9, 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.collibra.com/company/newsroom/press-releases/collibra-raises-250-million-in-funding-round-led-by-sequoia-capital-global-equities-and-sofina-more-than-doubling-its-valuation-to-5-25-billion",
+          "quote": "Sequoia Capital Global Equities (SCGE) and Sofina led the round, along with participation from new investor Tiger Global Management and existing investors Battery Ventures, CapitalG, Dawn Capital, Durable Capital Partners LP, ICONIQ Capital and Index Ventures"
+        }
+      ]
+    }
+  ]
+}

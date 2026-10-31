@@ -1,0 +1,117 @@
+{
+  "id": "acronis",
+  "name": "Acronis",
+  "aliases": [],
+  "domain": "acronis.com",
+  "country": "CH",
+  "city": "Schaffhausen",
+  "founded": 2003,
+  "sectors": [
+    "cybersecurity",
+    "saas"
+  ],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 2079693869,
+  "founders": [
+    "Serguei Beloussov"
+  ],
+  "difficulty": 3,
+  "techeuId": "4B35F304-2F05-41A3-BEC8-6B114A8C1BB7",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.acronis.com/en-us/company/",
+      "quote": "Acronis is headquartered in Schaffhausen, Switzerland."
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Acronis",
+      "quote": "Acronis was founded in 2003 in Singapore by Serg Bell"
+    },
+    {
+      "field": "founders",
+      "url": "https://techcrunch.com/2019/09/18/cybersecurity-company-acronis-hits-unicorn-status-after-raising-147-million-led-by-goldman-sachs/",
+      "quote": "founder and CEO Serguei Beloussov"
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.acronis.com/en-us/company/",
+      "quote": "Acronis is a leader in AI-native cyber protection, unifying data protection, cybersecurity, IT operations and hybrid infrastructure"
+    },
+    {
+      "field": "status",
+      "url": "https://en.wikipedia.org/wiki/Acronis",
+      "quote": "In 2025, Acronis became majority-owned by EQT, a Swedish private equity firm"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://techcrunch.com/2021/05/04/acronis-raises-250m-at-a-2-5b-valuation-to-double-down-on-cyber-protection-services",
+      "quote": "The funding is being led by CVC and values Acronis at over $2.5 billion."
+    },
+    {
+      "field": "valuation",
+      "url": "https://techcrunch.com/2021/05/04/acronis-raises-250m-at-a-2-5b-valuation-to-double-down-on-cyber-protection-services",
+      "quote": "The funding is being led by CVC and values Acronis at over $2.5 billion."
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "431213a0-20aa-4947-dddd-08d91092c887",
+      "stage": "series-c",
+      "month": "2019-09",
+      "amountEur": 132995567,
+      "amountOriginal": 147000000,
+      "currency": "USD",
+      "investors": [
+        "Goldman Sachs"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2019/09/18/cybersecurity-company-acronis-hits-unicorn-status-after-raising-147-million-led-by-goldman-sachs/",
+          "quote": "Cybersecurity solutions provider Acronis announced today that it has raised $147 million in funding led by Goldman Sachs"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2019/09/18/cybersecurity-company-acronis-hits-unicorn-status-after-raising-147-million-led-by-goldman-sachs/",
+          "quote": "September 18, 2019"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2019/09/18/cybersecurity-company-acronis-hits-unicorn-status-after-raising-147-million-led-by-goldman-sachs/",
+          "quote": "Cybersecurity solutions provider Acronis announced today that it has raised $147 million in funding led by Goldman Sachs"
+        }
+      ]
+    },
+    {
+      "techeuId": "7e89d363-b7df-4928-896c-436ded41d08a",
+      "stage": "series-d",
+      "month": "2021-05",
+      "amountEur": 207969387,
+      "amountOriginal": 250000000,
+      "currency": "USD",
+      "postMoneyValuationEur": 2079693869,
+      "investors": [
+        "CVC Capital Partners"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2021/05/04/acronis-raises-250m-at-a-2-5b-valuation-to-double-down-on-cyber-protection-services",
+          "quote": "Acronis has raised $250 million in equity"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2021/05/04/acronis-raises-250m-at-a-2-5b-valuation-to-double-down-on-cyber-protection-services",
+          "quote": "May 4, 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2021/05/04/acronis-raises-250m-at-a-2-5b-valuation-to-double-down-on-cyber-protection-services",
+          "quote": "The funding is being led by CVC and values Acronis at over $2.5 billion."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "id": "vertical-aerospace",
+  "name": "Vertical Aerospace",
+  "aliases": [],
+  "domain": "vertical-aerospace.com",
+  "country": "GB",
+  "city": "Bristol",
+  "founded": 2016,
+  "sectors": [
+    "mobility"
+  ],
+  "status": "public",
+  "unicorn": false,
+  "founders": [
+    "Stephen Fitzpatrick"
+  ],
+  "difficulty": 4,
+  "techeuId": "3BB68EA2-FAAD-4C4E-9A67-C63D82CA9D61",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/Vertical_Aerospace",
+      "quote": "Headquarters Bristol, England, UK"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Vertical_Aerospace",
+      "quote": "The company was founded in 2016 by Stephen Fitzpatrick"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Vertical_Aerospace",
+      "quote": "The company was founded in 2016 by Stephen Fitzpatrick"
+    },
+    {
+      "field": "sectors",
+      "url": "https://en.wikipedia.org/wiki/Vertical_Aerospace",
+      "quote": "eVTOL aircraft"
+    },
+    {
+      "field": "status",
+      "url": "https://en.wikipedia.org/wiki/Vertical_Aerospace",
+      "quote": "Public Traded as NYSE: EVTL"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://en.wikipedia.org/wiki/Vertical_Aerospace",
+      "quote": "In June 2021, it was announced that the company would merge with Broadstone Acquisition Corp, a special-purpose acquisition company (SPAC)"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "8c9d3734-5353-428b-b2e7-f294e6f7a138",
+      "stage": "series-e",
+      "month": "2024-11",
+      "amountEur": 47519483,
+      "amountOriginal": 50000000,
+      "currency": "USD",
+      "investors": [
+        "Mudrick Capital Management"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.bbc.co.uk/news/articles/c0mz3p72d0wo",
+          "quote": "has secured a $50m (£39m) investment from the US investor, Mudrick Capital"
+        },
+        {
+          "field": "month",
+          "url": "https://www.bbc.co.uk/news/articles/c0mz3p72d0wo",
+          "quote": "Published 26 November 2024"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.bbc.co.uk/news/articles/c0mz3p72d0wo",
+          "quote": "has secured a $50m (£39m) investment from the US investor, Mudrick Capital"
+        }
+      ]
+    }
+  ]
+}

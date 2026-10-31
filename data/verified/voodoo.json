@@ -1,0 +1,114 @@
+{
+  "id": "voodoo",
+  "name": "Voodoo",
+  "aliases": [
+    "Voodoo.io"
+  ],
+  "domain": "voodoo.io",
+  "country": "FR",
+  "city": "Paris",
+  "founded": 2013,
+  "sectors": [
+    "gaming"
+  ],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 1700000000,
+  "founders": [
+    "Alexandre Yazdi",
+    "Laurent Ritter"
+  ],
+  "difficulty": 3,
+  "techeuId": "4C395706-E5D0-49CF-8C7C-9F4C92B70DC9",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/Voodoo_(company)",
+      "quote": "French developer and publisher of mobile apps and games based in Paris"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Voodoo_(company)",
+      "quote": "founded in 2013 by Alexandre Yazdi and Laurent Ritter"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Voodoo_(company)",
+      "quote": "founded in 2013 by Alexandre Yazdi and Laurent Ritter"
+    },
+    {
+      "field": "sectors",
+      "url": "https://en.wikipedia.org/wiki/Voodoo_(company)",
+      "quote": "French developer and publisher of mobile apps and games based in Paris"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://live.euronext.com/sites/default/files/Connect_20210730voodooen.pdf",
+      "quote": "EUR 1.7 billion, translating into a 16% stake for GBL."
+    },
+    {
+      "field": "valuation",
+      "url": "https://live.euronext.com/sites/default/files/Connect_20210730voodooen.pdf",
+      "quote": "EUR 1.7 billion, translating into a 16% stake for GBL."
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "e4e2c49b-41dd-47c0-cf6d-08d91092c887",
+      "stage": "series-b",
+      "month": "2018-05",
+      "amountEur": 173040318,
+      "amountOriginal": 200000000,
+      "currency": "USD",
+      "investors": [
+        "Goldman Sachs"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2020/08/17/tencent-takes-minority-stake-in-french-casual-games-maker-voodoo/",
+          "quote": "put the funding amount at about $200 million"
+        },
+        {
+          "field": "month",
+          "url": "https://en.wikipedia.org/wiki/Voodoo_(company)",
+          "quote": "In May 2018"
+        },
+        {
+          "field": "investors",
+          "url": "https://en.wikipedia.org/wiki/Voodoo_(company)",
+          "quote": "Goldman Sachs"
+        }
+      ]
+    },
+    {
+      "techeuId": "4dbeb05a-a6c0-42c2-897f-793fab644d20",
+      "stage": "series-c",
+      "month": "2021-07",
+      "amountEur": 266000000,
+      "amountOriginal": 266000000,
+      "currency": "EUR",
+      "postMoneyValuationEur": 1700000000,
+      "investors": [
+        "Groupe Bruxelles Lambert"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://live.euronext.com/sites/default/files/Connect_20210730voodooen.pdf",
+          "quote": "will invest EUR 266 million, mostly through newly-issued preferred shares at an equity value (post money) of"
+        },
+        {
+          "field": "month",
+          "url": "https://live.euronext.com/sites/default/files/Connect_20210730voodooen.pdf",
+          "quote": "Press release of July 30, 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://live.euronext.com/sites/default/files/Connect_20210730voodooen.pdf",
+          "quote": "Groupe Bruxelles Lambert (“GBL”) has signed a definitive agreement to acquire a minority stake in Voodoo"
+        }
+      ]
+    }
+  ]
+}

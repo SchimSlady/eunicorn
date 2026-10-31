@@ -1,0 +1,143 @@
+{
+  "id": "aleph-alpha",
+  "name": "Aleph Alpha",
+  "aliases": [],
+  "domain": "aleph-alpha.com",
+  "country": "DE",
+  "city": "Heidelberg",
+  "founded": 2019,
+  "sectors": [
+    "ai"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Jonas Andrulis",
+    "Samuel Weinbach"
+  ],
+  "difficulty": 3,
+  "techeuId": "613E73A5-34E9-439C-BDAE-F917A6020F4A",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/Aleph_Alpha",
+      "quote": "Headquarters Heidelberg , Germany"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Aleph_Alpha",
+      "quote": "Aleph Alpha was founded in 2019 by Jonas Andrulis and Samuel Weinbach."
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Aleph_Alpha",
+      "quote": "Aleph Alpha was founded in 2019 by Jonas Andrulis and Samuel Weinbach."
+    },
+    {
+      "field": "sectors",
+      "url": "https://en.wikipedia.org/wiki/Aleph_Alpha",
+      "quote": "is a German artificial intelligence (AI) startup developing large language models (LLMs)"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "seed",
+      "month": "2020-11",
+      "amountEur": 5300000,
+      "amountOriginal": 5300000,
+      "currency": "EUR",
+      "investors": [],
+      "techeuId": "b92b90f6-143d-49d5-f62a-08d91092c887",
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.indiskretionehrensache.de/2024/06/das-maerchen-von-der-500-millionen-finanzierungsrunde-bei-aleph-alpha/",
+          "quote": "Seed-Finanzierung über 5,3 Mill. Euro"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.indiskretionehrensache.de/2024/06/das-maerchen-von-der-500-millionen-finanzierungsrunde-bei-aleph-alpha/",
+          "quote": "Seed-Finanzierung über 5,3 Mill. Euro"
+        },
+        {
+          "field": "month",
+          "url": "https://www.indiskretionehrensache.de/2024/06/das-maerchen-von-der-500-millionen-finanzierungsrunde-bei-aleph-alpha/",
+          "quote": "Seedfinanzierung in Höhe von 5,3 Millionen Euro im November 2020"
+        }
+      ]
+    },
+    {
+      "stage": "series-a",
+      "month": "2021-07",
+      "amountEur": 23000000,
+      "amountOriginal": 23000000,
+      "currency": "EUR",
+      "investors": [
+        "Earlybird VC",
+        "Lakestar",
+        "UVC Partners",
+        "LEA Partners",
+        "468 Capital",
+        "Cavalry Ventures"
+      ],
+      "techeuId": "3eec4a43-e816-4990-a627-d009146f0e8d",
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.indiskretionehrensache.de/2024/06/das-maerchen-von-der-500-millionen-finanzierungsrunde-bei-aleph-alpha/",
+          "quote": "Juli 2021: Serie A über 23 Mill. Euro"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.indiskretionehrensache.de/2024/06/das-maerchen-von-der-500-millionen-finanzierungsrunde-bei-aleph-alpha/",
+          "quote": "Juli 2021: Serie A über 23 Mill. Euro"
+        },
+        {
+          "field": "month",
+          "url": "https://www.indiskretionehrensache.de/2024/06/das-maerchen-von-der-500-millionen-finanzierungsrunde-bei-aleph-alpha/",
+          "quote": "Juli 2021: Serie A über 23 Mill. Euro"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.indiskretionehrensache.de/2024/06/das-maerchen-von-der-500-millionen-finanzierungsrunde-bei-aleph-alpha/",
+          "quote": "Die Runde wurde angeführt von Earlybird VC, Lakestar und UVC Partners sowie den Bestandsinvestoren LEA Partners, 468 Capital und Cavalry Ventures."
+        }
+      ]
+    },
+    {
+      "stage": "series-b",
+      "month": "2023-11",
+      "amountEur": 110000000,
+      "amountOriginal": 110000000,
+      "currency": "EUR",
+      "investors": [
+        "Innovation Park Artificial Intelligence (Ipai)",
+        "Bosch Ventures",
+        "Schwarz Group"
+      ],
+      "techeuId": "86bfe919-62c8-400b-820b-b4bedb568545",
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.businessinsider.de/gruenderszene/business/exklusiv-aleph-alpha-reagiert-auf-vorwurfe/",
+          "quote": "Auf eine echte Eigenkapital-Finanzierung entfielen 110 Millionen Euro"
+        },
+        {
+          "field": "stage",
+          "url": "https://aleph-alpha.com/aleph-alpha-raises-a-total-investment-of-more-than-half-a-billion-us-dollars-from-a-consortium-of-industry-leaders-and-new-investors/",
+          "quote": "today announced the successful signing of its Series B financing round"
+        },
+        {
+          "field": "month",
+          "url": "https://aleph-alpha.com/aleph-alpha-raises-a-total-investment-of-more-than-half-a-billion-us-dollars-from-a-consortium-of-industry-leaders-and-new-investors/",
+          "quote": "6 November 2023, Berlin"
+        },
+        {
+          "field": "investors",
+          "url": "https://aleph-alpha.com/aleph-alpha-raises-a-total-investment-of-more-than-half-a-billion-us-dollars-from-a-consortium-of-industry-leaders-and-new-investors/",
+          "quote": "The consortium is led by the Innovation Park Artificial Intelligence (Ipai), Bosch Ventures and the companies of Schwarz Group"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "id": "cimeio-therapeutics",
+  "name": "Cimeio Therapeutics",
+  "aliases": [],
+  "domain": "cimeio.com",
+  "country": "CH",
+  "city": "Basel",
+  "founded": 2022,
+  "sectors": [
+    "biotech"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [],
+  "difficulty": 5,
+  "techeuId": "a6f6fadc-67fd-4d94-a6fc-d9313ba2cdb0",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.cimeio.com/news/",
+      "quote": "Basel, Switzerland, and Cambridge, MA, August 20, 2024 Cimeio Therapeutics is thrilled"
+    },
+    {
+      "field": "founded",
+      "url": "https://www.cimeio.com/news/page/2/",
+      "quote": "13 Apr, 2022 | Press Release Versant Ventures announced the debut of Cimeio Therapeutics, a biotechnology company developing a novel approach to cell therapies."
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.cimeio.com/news/page/2/",
+      "quote": "announced the debut of Cimeio Therapeutics, a biotechnology company developing a novel approach to cell therapies."
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-a",
+      "month": "2022-04",
+      "amountEur": 46185110,
+      "amountOriginal": 50000000,
+      "currency": "USD",
+      "techeuId": "0b8ad3dd-8de2-4eaa-b1c7-5fcd5144fa0c",
+      "investors": [
+        "Versant Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.cimeio.com/2022/04/13/versant-ventures-launches-cimeio-therapeutics/",
+          "quote": "Versant has made a $50 million Series A commitment to Cimeio"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.cimeio.com/2022/04/13/versant-ventures-launches-cimeio-therapeutics/",
+          "quote": "Versant has made a $50 million Series A commitment to Cimeio"
+        },
+        {
+          "field": "month",
+          "url": "https://www.cimeio.com/news/page/2/",
+          "quote": "13 Apr, 2022 | Press Release Versant Ventures announced the debut"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.cimeio.com/2022/04/13/versant-ventures-launches-cimeio-therapeutics/",
+          "quote": "Versant has made a $50 million Series A commitment to Cimeio"
+        }
+      ]
+    }
+  ]
+}

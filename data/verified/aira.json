@@ -1,0 +1,148 @@
+{
+  "id": "aira",
+  "name": "Aira",
+  "aliases": [
+    "Aira Group",
+    "Aira Home"
+  ],
+  "domain": "airahome.com",
+  "country": "SE",
+  "city": "Stockholm",
+  "founded": 2022,
+  "sectors": [
+    "climate"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [],
+  "difficulty": 3,
+  "techeuId": "A42269E0-283B-4280-B1A9-144EAD627658",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://siliconcanals.com/aira-secures-150m/",
+      "quote": "Stockholm-based Aira, a company that offers clean energy-based heating solutions"
+    },
+    {
+      "field": "founded",
+      "url": "https://siliconcanals.com/aira-secures-150m/",
+      "quote": "Founded in 2022, Aira aims to position itself"
+    },
+    {
+      "field": "sectors",
+      "url": "https://bebeez.eu/2024/10/18/swedish-startup-gains-e63-million-investment-to-combat-fossil-fuel-dependency-in-european-households/",
+      "quote": "Aira develops intelligent heat pumps"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-b",
+      "month": "2024-01",
+      "amountEur": 145000000,
+      "amountOriginal": 145000000,
+      "currency": "EUR",
+      "investors": [
+        "Altor",
+        "Kinnevik",
+        "Temasek",
+        "Burda family",
+        "Collaborative Fund",
+        "Creades",
+        "Lingotto",
+        "Nesta Impact Investments",
+        "Statkraft Ventures"
+      ],
+      "techeuId": "f98e5ecd-2c21-4242-bc15-3bcd168fa493",
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://company.airahome.com/en-gb/news/aira-raises-145-million-euro-in-series-b-financing",
+          "quote": "completion of a €145 million Series B financing round"
+        },
+        {
+          "field": "stage",
+          "url": "https://company.airahome.com/en-gb/news/aira-raises-145-million-euro-in-series-b-financing",
+          "quote": "completion of a €145 million Series B financing round"
+        },
+        {
+          "field": "month",
+          "url": "https://company.airahome.com/en-gb/news/aira-raises-145-million-euro-in-series-b-financing",
+          "quote": "Stockholm, Sweden – 16 January 2024."
+        },
+        {
+          "field": "investors",
+          "url": "https://company.airahome.com/en-gb/news/aira-raises-145-million-euro-in-series-b-financing",
+          "quote": "The Series B round was led by Altor, Kinnevik and Temasek and also includes the Burda family, Collaborative Fund, Creades, Lingotto, Nesta Impact Investments and Statkraft Ventures."
+        }
+      ]
+    },
+    {
+      "stage": "series-b",
+      "month": "2024-10",
+      "amountEur": 63000000,
+      "amountOriginal": 63000000,
+      "currency": "EUR",
+      "investors": [
+        "Temasek",
+        "Statkraft Ventures",
+        "Kinnevik",
+        "Altor"
+      ],
+      "techeuId": "d9bb7cad-e6a6-4cb8-9b3d-f741a27c702b",
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://siliconcanals.com/swedish-clean-energy-company-aira-raises-e63m/",
+          "quote": "has secured €63M in equity funding"
+        },
+        {
+          "field": "stage",
+          "url": "https://siliconcanals.com/swedish-clean-energy-company-aira-raises-e63m/",
+          "quote": "This extension is part of an upsized and oversubscribed €145M Series B round"
+        },
+        {
+          "field": "month",
+          "url": "https://siliconcanals.com/swedish-clean-energy-company-aira-raises-e63m/",
+          "quote": "2024-10-17T10:26:38+07:00"
+        },
+        {
+          "field": "investors",
+          "url": "https://siliconcanals.com/swedish-clean-energy-company-aira-raises-e63m/",
+          "quote": "The investment came from Aira’s existing investors, including Temasek, Statkraft Ventures, Kinnevik, and Altor."
+        }
+      ]
+    },
+    {
+      "stage": "series-c",
+      "month": "2025-08",
+      "amountEur": 150000000,
+      "amountOriginal": 150000000,
+      "currency": "EUR",
+      "investors": [
+        "Altor",
+        "Kallskär",
+        "Kinnevik",
+        "Lingotto",
+        "Temasek"
+      ],
+      "techeuId": "82a1da7a-5699-4937-ae2b-3240986f5877",
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://siliconcanals.com/aira-secures-150m/",
+          "quote": "has secured €150M in equity financing"
+        },
+        {
+          "field": "month",
+          "url": "https://siliconcanals.com/aira-secures-150m/",
+          "quote": "2025-08-11T09:28:34+07:00"
+        },
+        {
+          "field": "investors",
+          "url": "https://siliconcanals.com/aira-secures-150m/",
+          "quote": "The investment is secured from existing investors, including Altor, Kallskär1, Kinnevik, Lingotto, and Temasek."
+        }
+      ]
+    }
+  ]
+}

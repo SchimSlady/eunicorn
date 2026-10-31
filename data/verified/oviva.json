@@ -1,0 +1,88 @@
+{
+  "id": "oviva",
+  "name": "Oviva",
+  "aliases": [],
+  "domain": "oviva.com",
+  "country": "CH",
+  "city": "Zurich",
+  "founded": 2014,
+  "sectors": [
+    "health"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Kai Eberhardt",
+    "Manuel Baumann"
+  ],
+  "difficulty": 3,
+  "techeuId": "A1D50D3E-0604-452C-AB45-24A1C595F2F9",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.oviva.com/en/about-us/",
+      "quote": "Sihlstrasse 37"
+    },
+    {
+      "field": "founded",
+      "url": "https://www.oviva.com/en/about-us/",
+      "quote": "Founded in 2014 by Kai Eberhardt and Manuel Baumann"
+    },
+    {
+      "field": "founders",
+      "url": "https://www.oviva.com/en/about-us/",
+      "quote": "Founded in 2014 by Kai Eberhardt and Manuel Baumann"
+    },
+    {
+      "field": "sectors",
+      "url": "https://vestbee.com/insights/articles/oviva-raises-200-m",
+      "quote": "Oviva, which delivers digital therapy for weight-related and metabolic conditions"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "40df7e48-ac59-4cf4-8baa-bd834f2e94bf",
+      "stage": "series-c",
+      "month": "2021-09",
+      "amountEur": 67385445,
+      "amountOriginal": 80000000,
+      "currency": "USD",
+      "investors": [
+        "Sofina",
+        "Temasek",
+        "AlbionVC",
+        "Earlybird",
+        "Eight Roads Ventures",
+        "F-Prime Capital",
+        "MTIP"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.startbase.com/news/oviva-erhaelt-80-millionen-us-dollar/",
+          "quote": "80 million US dollars will flow into"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.startbase.com/news/oviva-erhaelt-80-millionen-us-dollar/",
+          "quote": "The Series C financing round is jointly led by the VCs Sofina and Teamsek."
+        },
+        {
+          "field": "month",
+          "url": "https://www.lw.com/news/latham-advises-on-oviva-series-c",
+          "quote": "September 3, 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.startbase.com/news/oviva-erhaelt-80-millionen-us-dollar/",
+          "quote": "The Series C financing round is jointly led by the VCs Sofina and Teamsek."
+        },
+        {
+          "field": "investors",
+          "url": "https://www.startbase.com/news/oviva-erhaelt-80-millionen-us-dollar/",
+          "quote": "The existing investors Albion, Earlybird , Eight Roads Ventures, F-Prime Capital, Mtip and several angel investors also contributed money."
+        }
+      ]
+    }
+  ]
+}

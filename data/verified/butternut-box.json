@@ -1,0 +1,111 @@
+{
+  "id": "butternut-box",
+  "name": "Butternut Box",
+  "aliases": [],
+  "domain": "butternutbox.com",
+  "country": "GB",
+  "city": "London",
+  "founded": 2016,
+  "sectors": [
+    "consumer"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "David Nolan",
+    "Kevin Glynn"
+  ],
+  "difficulty": 3,
+  "techeuId": "E665E757-36F3-4168-8D9C-8899239D6E40",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/Butternut_Box",
+      "quote": "Headquarters London , United Kingdom"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Butternut_Box",
+      "quote": "Butternut Box is a dog food subscription service founded in 2016."
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Butternut_Box",
+      "quote": "David Nolan and Kevin Glynn founded the company in 2016"
+    },
+    {
+      "field": "sectors",
+      "url": "https://en.wikipedia.org/wiki/Butternut_Box",
+      "quote": "Butternut Box is a dog food subscription service"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-a",
+      "month": "2019-04",
+      "amountEur": 17373176,
+      "amountOriginal": 15000000,
+      "currency": "GBP",
+      "investors": [
+        "Five Seasons Ventures",
+        "White Star Capital",
+        "Passion Capital",
+        "Literacy Capital"
+      ],
+      "techeuId": "f99c63f3-dc98-44ee-e435-08d91092c887",
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2019/04/26/london-based-dog-food-startup-butternut-box-raises-15-million/",
+          "quote": "has landed £15 million in a funding round led by Five Seasons Ventures and White Star Capital"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2019/04/26/london-based-dog-food-startup-butternut-box-raises-15-million/",
+          "quote": "2019-04-26T11:00:55+00:00"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2019/04/26/london-based-dog-food-startup-butternut-box-raises-15-million/",
+          "quote": "with participation from existing investors Passion Capital, Literacy Capital, and Kreos Capital"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.unquote.com/uk/official-record/3014757/five-seasons-et-al-in-eur174m-round-for-butternut-box",
+          "quote": "with Kreos Capital providing a debt package to support the transaction"
+        }
+      ]
+    },
+    {
+      "stage": "series-b",
+      "month": "2021-08",
+      "amountEur": 47299215,
+      "amountOriginal": 40000000,
+      "currency": "GBP",
+      "investors": [
+        "L Catterton",
+        "White Star Capital",
+        "Five Seasons Ventures",
+        "Passion Capital"
+      ],
+      "techeuId": "2b596082-7032-482a-9515-124e0f7b7429",
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/brief/gourmet-dog-food-maker-butternut-box-chows-down-on-40-million/",
+          "quote": "has raised £40 million in new funding round"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/brief/gourmet-dog-food-maker-butternut-box-chows-down-on-40-million/",
+          "quote": "2021-08-10T08:53:58+00:00"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/brief/gourmet-dog-food-maker-butternut-box-chows-down-on-40-million/",
+          "quote": "latest funding round was led by private equity firm L Catterton , with existing investors White Star Capital , Five Seasons Ventures , and Passion Capital also"
+        }
+      ]
+    }
+  ]
+}

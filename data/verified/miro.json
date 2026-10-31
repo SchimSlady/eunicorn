@@ -1,0 +1,172 @@
+{
+  "id": "miro",
+  "name": "Miro",
+  "aliases": [
+    "RealtimeBoard"
+  ],
+  "domain": "miro.com",
+  "country": "NL",
+  "city": "Amsterdam",
+  "founded": 2011,
+  "sectors": [
+    "saas"
+  ],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 15460729746,
+  "founders": [
+    "Andrey Khusid",
+    "Oleg Shardin"
+  ],
+  "difficulty": 2,
+  "techeuId": "8A4ED704-106D-490F-A2CE-53A33933D638",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://techcrunch.com/2022/01/05/visual-collaboration-company-miro-valued-at-17-5b-following-400m-in-new-funding/",
+      "quote": "Miro, co-headquartered in San Francisco and Amsterdam"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/RealtimeBoard",
+      "quote": "Miro was founded in 2011 under the name RealtimeBoard by Russian entrepreneurs Andrey Khusid and Oleg Shardin."
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/RealtimeBoard",
+      "quote": "Miro was founded in 2011 under the name RealtimeBoard by Russian entrepreneurs Andrey Khusid and Oleg Shardin."
+    },
+    {
+      "field": "sectors",
+      "url": "https://en.wikipedia.org/wiki/RealtimeBoard",
+      "quote": "Miro is a collaborative online platform designed to support teams in planning and execution"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://techcrunch.com/2022/01/05/visual-collaboration-company-miro-valued-at-17-5b-following-400m-in-new-funding/",
+      "quote": "$400 million in a Series C that propels its valuation to $17.5 billion"
+    },
+    {
+      "field": "valuation",
+      "url": "https://techcrunch.com/2022/01/05/visual-collaboration-company-miro-valued-at-17-5b-following-400m-in-new-funding/",
+      "quote": "$400 million in a Series C that propels its valuation to $17.5 billion"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-a",
+      "month": "2018-11",
+      "amountEur": 21883754,
+      "amountOriginal": 25000000,
+      "currency": "USD",
+      "investors": [
+        "Accel",
+        "AltaIR Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2018/11/08/realtimeboard/",
+          "quote": "has picked up $25 million in Series A funding"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2018/11/08/realtimeboard/",
+          "quote": "has picked up $25 million in Series A funding"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2018/11/08/realtimeboard/",
+          "quote": "November 8, 2018"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2018/11/08/realtimeboard/",
+          "quote": "Accel led the round, with participation from existing investor AltaIR Capital."
+        }
+      ]
+    },
+    {
+      "stage": "series-b",
+      "month": "2020-04",
+      "amountEur": 46416636,
+      "amountOriginal": 50000000,
+      "currency": "USD",
+      "investors": [
+        "Iconiq Capital",
+        "Accel"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2020/04/23/miro-lands-50m-series-b-for-digital-whiteboard-as-demand-surges/",
+          "quote": "the company announced a hefty $50 million Series B."
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2020/04/23/miro-lands-50m-series-b-for-digital-whiteboard-as-demand-surges/",
+          "quote": "the company announced a hefty $50 million Series B."
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2020/04/23/miro-lands-50m-series-b-for-digital-whiteboard-as-demand-surges/",
+          "quote": "April 23, 2020"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2020/04/23/miro-lands-50m-series-b-for-digital-whiteboard-as-demand-surges/",
+          "quote": "Iconiq Capital led the round with help from Accel and a slew of individual investors."
+        }
+      ]
+    },
+    {
+      "techeuId": "e9b47729-f821-4f02-a880-b5fd77b8da69",
+      "stage": "series-c",
+      "month": "2022-01",
+      "amountEur": 353388108,
+      "amountOriginal": 400000000,
+      "currency": "USD",
+      "postMoneyValuationEur": 15460729746,
+      "investors": [
+        "Iconiq Growth",
+        "Accel",
+        "Atlassian",
+        "Dragoneer Investment Group",
+        "GIC",
+        "Salesforce Ventures",
+        "TCV",
+        "Howie Liu",
+        "Andrew Ofstad",
+        "Frank Slootman",
+        "Dan Springer"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2022/01/05/visual-collaboration-company-miro-valued-at-17-5b-following-400m-in-new-funding/",
+          "quote": "the company announced its largest round to date, $400 million in a Series C"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2022/01/05/visual-collaboration-company-miro-valued-at-17-5b-following-400m-in-new-funding/",
+          "quote": "the company announced its largest round to date, $400 million in a Series C"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2022/01/05/visual-collaboration-company-miro-valued-at-17-5b-following-400m-in-new-funding/",
+          "quote": "January 5, 2022"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2022/01/05/visual-collaboration-company-miro-valued-at-17-5b-following-400m-in-new-funding/",
+          "quote": "Iconiq Growth is back for the Series C round and is joined by Accel, Atlassian, Dragoneer, GIC, Salesforce Ventures and TCV."
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2022/01/05/visual-collaboration-company-miro-valued-at-17-5b-following-400m-in-new-funding/",
+          "quote": "Individual investors involved include Airtable co-founders Howie Liu and Andrew Ofstad, Snowflake CEO Frank Slootman and DocuSign CEO Dan Springer."
+        }
+      ]
+    }
+  ]
+}

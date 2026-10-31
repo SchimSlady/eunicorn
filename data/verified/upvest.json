@@ -1,0 +1,264 @@
+{
+  "id": "upvest",
+  "name": "Upvest",
+  "aliases": [],
+  "domain": "upvest.co",
+  "country": "DE",
+  "city": "Berlin",
+  "founded": 2017,
+  "sectors": [
+    "fintech"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Martin Kassing"
+  ],
+  "difficulty": 4,
+  "techeuId": "3891C039-8220-47A7-BE61-D7DAA3407E90",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://tech.eu/2026/03/17/upvest-raises-125m-to-strengthen-its-api-based-investment-platform/",
+      "quote": "Founded in Berlin in 2017, Upvest is a technology company and regulated securities institution in Europe and the UK."
+    },
+    {
+      "field": "founded",
+      "url": "https://tech.eu/2026/03/17/upvest-raises-125m-to-strengthen-its-api-based-investment-platform/",
+      "quote": "Founded in Berlin in 2017, Upvest is a technology company and regulated securities institution in Europe and the UK."
+    },
+    {
+      "field": "founders",
+      "url": "https://techcrunch.com/2024/12/11/upvest-a-stock-trading-api-used-by-n26-revolut-and-others-raises-105-million/",
+      "quote": "Founded by Martin Kassing (pictured above), the Berlin-based startup builds a white-label investment platform"
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.financialit.net/node/62964",
+      "quote": "Upvest, Europe’s leading investment infrastructure provider, has raised a €100 million Series C funding round"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "4046084c-1ae7-45c9-f3a0-08d91092c887",
+      "stage": "series-a",
+      "month": "2019-12",
+      "amountEur": 7000000,
+      "amountOriginal": 7000000,
+      "currency": "EUR",
+      "investors": [
+        "Notion Capital",
+        "Partech Ventures",
+        "Holtzbrinck Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2019/12/12/upvest-7-million-fintech/",
+          "quote": "Berlin-based Upvest has raised €7 million for its fintech-ready blockchain API."
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2020/12/10/upvest-series-a-close/",
+          "quote": "follows an initial €7 million investment from Notion Capital, HV Capital and Partech"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2019/12/12/upvest-7-million-fintech/",
+          "quote": "12 December 2019"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2019/12/12/upvest-7-million-fintech/",
+          "quote": "The round was led by Notion Capital, with support from Partech Ventures and Holtzbrinck Ventures."
+        }
+      ]
+    },
+    {
+      "techeuId": "1470fa7c-7b6d-4299-f3a1-08d91092c887",
+      "stage": "series-a",
+      "month": "2020-12",
+      "amountEur": 5000000,
+      "amountOriginal": 5000000,
+      "currency": "EUR",
+      "investors": [
+        "Earlybird",
+        "Notion Capital",
+        "HV Capital",
+        "Partech"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2020/12/10/upvest-series-a-close/",
+          "quote": "has secured an additional €5 million funding, closing its Series A round"
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2020/12/10/upvest-series-a-close/",
+          "quote": "has secured an additional €5 million funding, closing its Series A round"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2020/12/10/upvest-series-a-close/",
+          "quote": "10 December 2020"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2020/12/10/upvest-series-a-close/",
+          "quote": "The latest financing wave was led by Earlybird"
+        }
+      ]
+    },
+    {
+      "techeuId": "434af24e-6ff2-4622-b5d9-42b31a935c5b",
+      "stage": "series-b",
+      "month": "2022-06",
+      "amountEur": 40384615,
+      "amountOriginal": 42000000,
+      "currency": "USD",
+      "investors": [
+        "Bessemer Venture Partners",
+        "Earlybird",
+        "ABN AMRO Ventures",
+        "Notion Capital",
+        "Partech",
+        "10x Group",
+        "Speedinvest",
+        "Maximilian Tayenthal"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2022/06/16/upvest-raises-42-million-in-bessemer-led-round-lays-the-groundwork-for-international-expansion/",
+          "quote": "this time with a $42 million Series B funding round led by Bessemer Venture Partners"
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2022/06/16/upvest-raises-42-million-in-bessemer-led-round-lays-the-groundwork-for-international-expansion/",
+          "quote": "this time with a $42 million Series B funding round led by Bessemer Venture Partners"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2022/06/16/upvest-raises-42-million-in-bessemer-led-round-lays-the-groundwork-for-international-expansion/",
+          "quote": "16 June 2022"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2022/06/16/upvest-raises-42-million-in-bessemer-led-round-lays-the-groundwork-for-international-expansion/",
+          "quote": "Bessemer Venture Partners led the $42 million Series B round with Earlybird , ABN AMRO Ventures , Notion Capital , Partech , 10x Group , Speedinvest , and Maximilian Tayenthal (N26) all participating"
+        }
+      ]
+    },
+    {
+      "techeuId": "288287b7-5fbd-4dfd-9e9d-bff0fce238fd",
+      "stage": "series-b",
+      "month": "2023-10",
+      "amountEur": 30000000,
+      "amountOriginal": 30000000,
+      "currency": "EUR",
+      "investors": [
+        "BlackRock",
+        "Bessemer Venture Partners",
+        "HV Capital",
+        "Earlybird",
+        "Notion Capital",
+        "ABN AMRO Ventures",
+        "10x Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2023/10/11/upvest-partners-with-blackrock-following-30m-funding-round/",
+          "quote": "Berlin-based fintech Upvest has secured a €30 million funding round"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2023/10/11/upvest-partners-with-blackrock-following-30m-funding-round/",
+          "quote": "11 October 2023"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2023/10/11/upvest-partners-with-blackrock-following-30m-funding-round/",
+          "quote": "Participating in the round is BlackRock alongside existing investors Bessemer Venture Partners , HV Capital , Earlybird, Notion Capital, ABN Amro Ventures, and 10x Capital"
+        }
+      ]
+    },
+    {
+      "techeuId": "09a90167-dbb1-435c-8449-dfecc753f4ff",
+      "stage": "series-c",
+      "month": "2024-12",
+      "amountEur": 100000000,
+      "amountOriginal": 100000000,
+      "currency": "EUR",
+      "investors": [
+        "Hedosophia",
+        "Sapphire Ventures",
+        "Bessemer Venture Partners",
+        "BlackRock",
+        "Earlybird",
+        "HV Capital",
+        "Motive Ventures",
+        "Notion Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2024/12/11/upvest-a-stock-trading-api-used-by-n26-revolut-and-others-raises-105-million/",
+          "quote": "Upvest is announcing a €100 million Series C round"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2024/12/11/upvest-a-stock-trading-api-used-by-n26-revolut-and-others-raises-105-million/",
+          "quote": "Upvest is announcing a €100 million Series C round"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2024/12/11/upvest-a-stock-trading-api-used-by-n26-revolut-and-others-raises-105-million/",
+          "quote": "11:00 PM PST · December 11, 2024"
+        },
+        {
+          "field": "investors",
+          "url": "https://thenextweb.com/news/upvest-which-powers-stock-trading-on-revolut-n26-bunq-secures-e100m",
+          "quote": "announced it has raised €100M in a Series C funding round led by Hedosophia and joined by Sapphire Ventures"
+        },
+        {
+          "field": "investors",
+          "url": "https://thenextweb.com/news/upvest-which-powers-stock-trading-on-revolut-n26-bunq-secures-e100m",
+          "quote": "Existing investors , Bessemer Venture Partners, BlackRock, Earlybird, HV Capital, Motive Ventures, and Notion Capital also chipped in"
+        }
+      ]
+    },
+    {
+      "techeuId": "b009c61f-f530-43ed-9a1f-7af98ac3c86e",
+      "stage": "series-d",
+      "month": "2026-03",
+      "amountEur": 78050473,
+      "amountOriginal": 90000000,
+      "currency": "USD",
+      "investors": [
+        "Sapphire Ventures",
+        "Tencent",
+        "Bessemer Venture Partners",
+        "BlackRock"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2026/03/17/upvest-raises-125m-to-strengthen-its-api-based-investment-platform/",
+          "quote": "The $90 million equity round was led by Sapphire Ventures and Tencent , with participation from existing investors including Bessemer Venture Partners and BlackRock"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2026/03/17/upvest-raises-125m-to-strengthen-its-api-based-investment-platform/",
+          "quote": "17 March 2026"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2026/03/17/upvest-raises-125m-to-strengthen-its-api-based-investment-platform/",
+          "quote": "The $90 million equity round was led by Sapphire Ventures and Tencent , with participation from existing investors including Bessemer Venture Partners and BlackRock"
+        }
+      ]
+    }
+  ]
+}

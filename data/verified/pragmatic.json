@@ -1,0 +1,87 @@
+{
+  "id": "pragmatic",
+  "name": "Pragmatic Semiconductor",
+  "aliases": [
+    "Pragmatic",
+    "PragmatIC"
+  ],
+  "domain": "pragmaticsemi.com",
+  "country": "GB",
+  "city": "Cambridge",
+  "founded": 2010,
+  "sectors": [
+    "semiconductors"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Richard Price",
+    "Scott White"
+  ],
+  "difficulty": 4,
+  "techeuId": "65B98046-FEBB-4AF2-8597-FBD69CB351D2",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/Pragmatic_Semiconductor",
+      "quote": "with its headquarters located in Cambridge , England"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Pragmatic_Semiconductor",
+      "quote": "Pragmatic was founded in 2010 by academic Richard Price and serial entrepreneur Scott White."
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Pragmatic_Semiconductor",
+      "quote": "Pragmatic was founded in 2010 by academic Richard Price and serial entrepreneur Scott White."
+    },
+    {
+      "field": "sectors",
+      "url": "https://en.wikipedia.org/wiki/Pragmatic_Semiconductor",
+      "quote": "Pragmatic Semiconductor is a UK-based flexible microchip maker"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "76f0a752-40b0-459c-b6d6-08e80c89d022",
+      "stage": "series-d",
+      "month": "2023-12",
+      "amountEur": 189230230,
+      "amountOriginal": 162000000,
+      "currency": "GBP",
+      "investors": [
+        "M&G Catalyst",
+        "UK Infrastructure Bank",
+        "Northern Gritstone",
+        "Latitude",
+        "MVolution Partners",
+        "British Patient Capital",
+        "Cambridge Innovation Capital",
+        "Prosperity7 Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.cambridgenetwork.co.uk/news/pragmatic-semiconductor-secures-ps182m-231m-investment-led-mg-and-uk-infrastructure-bank",
+          "quote": "has completed a first close of its Series D funding round, securing an investment of £162m ($206m)."
+        },
+        {
+          "field": "stage",
+          "url": "https://www.cambridgenetwork.co.uk/news/pragmatic-semiconductor-secures-ps182m-231m-investment-led-mg-and-uk-infrastructure-bank",
+          "quote": "has completed a first close of its Series D funding round"
+        },
+        {
+          "field": "month",
+          "url": "https://www.cambridgenetwork.co.uk/news/pragmatic-semiconductor-secures-ps182m-231m-investment-led-mg-and-uk-infrastructure-bank",
+          "quote": "6 December 2023"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.cambridgenetwork.co.uk/news/pragmatic-semiconductor-secures-ps182m-231m-investment-led-mg-and-uk-infrastructure-bank",
+          "quote": "Catalyst and UK Infrastructure Bank co-led the funding round with participation from new investors including Northern Gritstone, Latitude and MVolution Partners, and existing investors such as British Patient Capital, Cambridge Innovation Capital and Prosperity7 Ventures"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "id": "ppro",
+  "name": "PPRO",
+  "aliases": [],
+  "domain": "ppro.com",
+  "country": "GB",
+  "city": "London",
+  "founded": 2006,
+  "sectors": [
+    "fintech"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [],
+  "difficulty": 4,
+  "techeuId": "9CB41470-2D1C-432A-9900-6CE651D6CB7D",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.koreanewswire.co.kr/newsRead.php?no=920705",
+      "quote": "LONDON--( Business Wire / Korea Newswire )--PPRO, a leading provider of local payments infrastructure"
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.koreanewswire.co.kr/newsRead.php?no=920705",
+      "quote": "PPRO is the top global provider of local payments infrastructure"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "276792cc-07cd-4c9b-fb7f-08d91092c887",
+      "stage": "series-c",
+      "month": "2021-01",
+      "amountEur": 148050666,
+      "amountOriginal": 180000000,
+      "currency": "USD",
+      "investors": [
+        "Eurazeo Growth",
+        "Sprints Capital",
+        "Wellington Management"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.koreanewswire.co.kr/newsRead.php?no=920705",
+          "quote": "an extension of the US $180 million round from Eurazeo Growth, Sprints Capital, and Wellington Management announced just weeks ago."
+        },
+        {
+          "field": "month",
+          "url": "https://thepaypers.com/online-payments/ppro-extends-january-2021-funding-round-raises-additional-usd-90-mln--1248023",
+          "quote": "PPRO extends January 2021 funding round, raises additional USD 90 mln"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.koreanewswire.co.kr/newsRead.php?no=920705",
+          "quote": "an extension of the US $180 million round from Eurazeo Growth, Sprints Capital, and Wellington Management announced just weeks ago."
+        }
+      ]
+    },
+    {
+      "techeuId": "5838325e-b690-4276-fb80-08d91092c887",
+      "stage": "series-c",
+      "month": "2021-03",
+      "amountEur": 76258261,
+      "amountOriginal": 90000000,
+      "currency": "USD",
+      "investors": [
+        "JPMorgan Chase & Co.",
+        "Eldridge"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.americanbanker.com/payments/news/ppro-gains-investment-from-jpmorgan-chase-in-new-90-million-round",
+          "quote": "PPRO gains investment from JPMorgan Chase in new $90 million round"
+        },
+        {
+          "field": "month",
+          "url": "https://www.americanbanker.com/payments/news/ppro-gains-investment-from-jpmorgan-chase-in-new-90-million-round",
+          "quote": "\"datePublished\":\"2021-03-25T16:24:40.780Z\""
+        },
+        {
+          "field": "investors",
+          "url": "https://www.koreanewswire.co.kr/newsRead.php?no=920705",
+          "quote": "new investments today from JPMorgan Chase & Co. and Eldridge"
+        }
+      ]
+    },
+    {
+      "techeuId": "a07897b2-1dbe-43f8-aea2-40d49b61bc54",
+      "stage": "series-d",
+      "month": "2024-03",
+      "amountEur": 85000000,
+      "amountOriginal": 85000000,
+      "currency": "EUR",
+      "investors": [
+        "PayPal Ventures",
+        "Eurazeo",
+        "HPE Growth",
+        "Sprints Capital",
+        "J.P. Morgan",
+        "Citi Ventures",
+        "BlackRock"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.pymnts.com/news/investment-tracker/2024/paypal-ventures-backed-ppro-raises-93-million-for-local-payments-platform/",
+          "quote": "PPRO has raised 85 million euros ($93 million) to expand and enhance its local payments platform."
+        },
+        {
+          "field": "month",
+          "url": "https://www.pymnts.com/news/investment-tracker/2024/paypal-ventures-backed-ppro-raises-93-million-for-local-payments-platform/",
+          "quote": "\"datePublished\":\"2024-03-13T20:09:49+00:00\""
+        },
+        {
+          "field": "investors",
+          "url": "https://www.pymnts.com/news/investment-tracker/2024/paypal-ventures-backed-ppro-raises-93-million-for-local-payments-platform/",
+          "quote": "The investors in PPRO’s dual tranche funding round included PayPal Ventures , Eurazeo , HPE Growth , Sprints , J.P. Morgan , Citi Ventures and funds managed by BlackRock , according to the press release."
+        }
+      ]
+    }
+  ]
+}

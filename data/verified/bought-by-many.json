@@ -1,0 +1,126 @@
+{
+  "id": "bought-by-many",
+  "name": "Bought by Many",
+  "aliases": [
+    "ManyPets"
+  ],
+  "domain": "manypets.com",
+  "country": "GB",
+  "city": "London",
+  "founded": 2012,
+  "sectors": [
+    "fintech"
+  ],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 1922290389,
+  "founders": [
+    "Steven Mendel"
+  ],
+  "difficulty": 3,
+  "techeuId": "D10B72B4-0B9E-4F5D-B604-8904AAA200F3",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://tech.eu/2017/01/17/boughtbymany-raises-funding/",
+      "quote": "London-based Bought By Many"
+    },
+    {
+      "field": "founded",
+      "url": "https://tech.eu/2021/12/28/a-taste-of-money-the-20-biggest-european-fintech-rounds-in-2021/",
+      "quote": "Founded in 2012, Bought by Many started as a niche insurance provider"
+    },
+    {
+      "field": "founders",
+      "url": "https://tech.eu/2017/01/17/boughtbymany-raises-funding/",
+      "quote": "Steven Mendel, co-founder and CEO of Bought By Many"
+    },
+    {
+      "field": "sectors",
+      "url": "https://tech.eu/2021/12/28/a-taste-of-money-the-20-biggest-european-fintech-rounds-in-2021/",
+      "quote": "Pet insurance provider Bought by Many"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://tech.eu/2021/12/28/a-taste-of-money-the-20-biggest-european-fintech-rounds-in-2021/",
+      "quote": "which valued the company at $2 billion pre-money"
+    },
+    {
+      "field": "valuation",
+      "url": "https://tech.eu/2021/12/28/a-taste-of-money-the-20-biggest-european-fintech-rounds-in-2021/",
+      "quote": "which valued the company at $2 billion pre-money"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "8e1584d5-1e15-4bfd-e41b-08d91092c887",
+      "stage": "series-a",
+      "month": "2017-01",
+      "amountEur": 8641549,
+      "amountOriginal": 7500000,
+      "currency": "GBP",
+      "investors": [
+        "Octopus Ventures",
+        "Munich Re/HSB Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2017/01/17/boughtbymany-raises-funding/",
+          "quote": "has closed a £7.5 million Series A round"
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2017/01/17/boughtbymany-raises-funding/",
+          "quote": "has closed a £7.5 million Series A round"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2017/01/17/boughtbymany-raises-funding/",
+          "quote": "UK insurtech startup Bought By Many raises £7.5 million"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2017/01/17/boughtbymany-raises-funding/",
+          "quote": "It was led by Octopus Ventures, with Munich Re/HSB Ventures participating"
+        }
+      ]
+    },
+    {
+      "techeuId": "2f5cec18-0787-4c54-8928-283524d6d0eb",
+      "stage": "series-d",
+      "month": "2021-06",
+      "amountEur": 286298569,
+      "amountOriginal": 350000000,
+      "currency": "USD",
+      "postMoneyValuationEur": 1922290389,
+      "investors": [
+        "EQT Growth",
+        "Octopus Ventures",
+        "Munich Re"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2021/12/28/a-taste-of-money-the-20-biggest-european-fintech-rounds-in-2021/",
+          "quote": "Pet insurance provider Bought by Many landed a $350 million Series D funding round led by EQT Growth in June."
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2021/12/28/a-taste-of-money-the-20-biggest-european-fintech-rounds-in-2021/",
+          "quote": "Pet insurance provider Bought by Many landed a $350 million Series D funding round led by EQT Growth in June."
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2021/12/28/a-taste-of-money-the-20-biggest-european-fintech-rounds-in-2021/",
+          "quote": "Pet insurance provider Bought by Many landed a $350 million Series D funding round led by EQT Growth in June."
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2021/12/28/a-taste-of-money-the-20-biggest-european-fintech-rounds-in-2021/",
+          "quote": "Existing investors Octopus Ventures and Munich Re also participated in the round"
+        }
+      ]
+    }
+  ]
+}

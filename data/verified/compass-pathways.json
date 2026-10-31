@@ -1,0 +1,91 @@
+{
+  "id": "compass-pathways",
+  "name": "Compass Pathways",
+  "aliases": [
+    "COMPASS Pathways"
+  ],
+  "domain": "compasspathways.com",
+  "country": "GB",
+  "city": "London",
+  "founded": 2016,
+  "sectors": [
+    "biotech",
+    "health"
+  ],
+  "status": "public",
+  "unicorn": false,
+  "founders": [
+    "George Goldsmith",
+    "Ekaterina Malievskaia"
+  ],
+  "difficulty": 4,
+  "techeuId": "aacdc3fe-4448-4772-b0c3-9c9b65854dd4",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://tech.eu/2023/08/18/compass-pathways-psilocybin-285-million-funding",
+      "quote": "COMPASS Pathways, a London-based, Nasdaq-listed company working in the field of mental health treatment via psilocybin therapy"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Compass_Pathways",
+      "quote": "Founded June 13, 2016"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Compass_Pathways",
+      "quote": "Founder George Goldsmith; Ekaterina Malievskaia"
+    },
+    {
+      "field": "sectors",
+      "url": "https://tech.eu/2023/08/18/compass-pathways-psilocybin-285-million-funding",
+      "quote": "COMPASS Pathways, a London-based, Nasdaq-listed company working in the field of mental health treatment via psilocybin therapy"
+    },
+    {
+      "field": "status",
+      "url": "https://en.wikipedia.org/wiki/Compass_Pathways",
+      "quote": "in 2020, was the first psychedelic medicine company to be listed on the NASDAQ"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-b",
+      "month": "2020-04",
+      "amountEur": 73719130,
+      "amountOriginal": 80000000,
+      "currency": "USD",
+      "techeuId": "c498c053-e7c0-4634-e4da-08d91092c887",
+      "investors": [
+        "ATAI Life Sciences",
+        "McQuade Center for Strategic Research and Development"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2020/04/27/compass-pathways-secures-80-million-series-b-to-boost-depression-clinical-trial",
+          "quote": "closed a funding infusion of $80 million as part of a Series B investment round that included participation from existing investor"
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2020/04/27/compass-pathways-secures-80-million-series-b-to-boost-depression-clinical-trial",
+          "quote": "closed a funding infusion of $80 million as part of a Series B investment round that included participation from existing investor"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2020/04/27/compass-pathways-secures-80-million-series-b-to-boost-depression-clinical-trial",
+          "quote": "2020-04-27T19:38:08+00:00"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2020/04/27/compass-pathways-secures-80-million-series-b-to-boost-depression-clinical-trial",
+          "quote": "existing investor ATAI Life Sciences"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2020/04/27/compass-pathways-secures-80-million-series-b-to-boost-depression-clinical-trial",
+          "quote": "the McQuade Center for Strategic Research and Development LLC"
+        }
+      ]
+    }
+  ]
+}

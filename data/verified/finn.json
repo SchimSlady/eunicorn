@@ -1,0 +1,242 @@
+{
+  "id": "finn",
+  "name": "FINN",
+  "aliases": [
+    "finn.auto"
+  ],
+  "domain": "finn.com",
+  "country": "DE",
+  "city": "Munich",
+  "founded": 2019,
+  "sectors": [
+    "mobility"
+  ],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 1000000000,
+  "founders": [
+    "Max-Josef Meier",
+    "Maximilian Wühr"
+  ],
+  "difficulty": 3,
+  "techeuId": "A3E91891-A2D1-49F2-ADBB-CDB7BA988C14",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.finn.com/de-DE/presse/series-d",
+      "quote": "Das 2019 in München gegründete Unternehmen"
+    },
+    {
+      "field": "founded",
+      "url": "https://www.finn.com/de-DE/presse/series-d",
+      "quote": "Das 2019 in München gegründete Unternehmen"
+    },
+    {
+      "field": "founders",
+      "url": "https://www.finn.com/de-DE/presse/110m-series-b-finanzierung",
+      "quote": "Max-Josef Meier, CEO und Mitgründer von FINN"
+    },
+    {
+      "field": "founders",
+      "url": "https://www.finn.com/de-DE/presse/series-d",
+      "quote": "Maximilian Wühr, CEO und Co-Founder von FINN"
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.finn.com/de-DE/presse/series-d",
+      "quote": "FINN ist Deutschlands führender Anbieter für Auto Abos."
+    },
+    {
+      "field": "unicorn",
+      "url": "https://www.finn.com/de-DE/presse/series-d",
+      "quote": "FINN erreicht durch Series-D-Finanzierungsrunde mit knapp 100 Millionen Euro frischem Eigenkapital eine Bewertung von über einer Milliarde Euro."
+    },
+    {
+      "field": "valuation",
+      "url": "https://www.finn.com/de-DE/presse/series-d",
+      "quote": "FINN erreicht durch Series-D-Finanzierungsrunde mit knapp 100 Millionen Euro frischem Eigenkapital eine Bewertung von über einer Milliarde Euro."
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "c726ab2c-e439-4348-ab07-c1bd76ee1d82",
+      "stage": "series-a",
+      "month": "2020-12",
+      "amountEur": 20000000,
+      "amountOriginal": 20000000,
+      "currency": "EUR",
+      "investors": [
+        "White Star Capital",
+        "Rubin Ritter",
+        "David Schneider",
+        "Robert Gentz",
+        "HV Capital",
+        "Picus Capital",
+        "Heartcore Capital",
+        "UVC Partners"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.finn.com/de-DE/presse/finn-auto-secures-20-million-series-a",
+          "quote": "FINN secures €20m Series A"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.finn.com/de-DE/presse/finn-auto-secures-20-million-series-a",
+          "quote": "FINN secures €20m Series A"
+        },
+        {
+          "field": "month",
+          "url": "https://www.finn.com/de-DE/presse/finn-auto-secures-20-million-series-a",
+          "quote": "Munich, 7 December 2020."
+        },
+        {
+          "field": "investors",
+          "url": "https://www.finn.com/de-DE/presse/finn-auto-secures-20-million-series-a",
+          "quote": "White Star Capital and Zalando co-CEOs back the sustainability-focused car subscription platform as new investors."
+        },
+        {
+          "field": "investors",
+          "url": "https://www.finn.com/de-DE/presse/finn-auto-secures-20-million-series-a",
+          "quote": "the Zalando co-CEOs Rubin Ritter, David Schneider and Robert Gentz"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.finn.com/de-DE/presse/finn-auto-secures-20-million-series-a",
+          "quote": "HV Capital, Picus Capital, Heartcore Capital and UVC Partners"
+        }
+      ]
+    },
+    {
+      "techeuId": "af1ad635-4171-4ae3-9deb-2343a0ee2d2a",
+      "stage": "series-b",
+      "month": "2022-05",
+      "amountEur": 104235762,
+      "amountOriginal": 110000000,
+      "currency": "USD",
+      "investors": [
+        "Korelya Capital",
+        "Keen Ventures",
+        "Climb Ventures",
+        "Greentrail Capital",
+        "Waterfall Asset Management",
+        "White Star Capital",
+        "HV Capital",
+        "Heartcore Capital",
+        "UVC Partners",
+        "Picus Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.finn.com/de-DE/presse/110m-series-b-finanzierung",
+          "quote": "gibt den Abschluss seiner Serie B Finanzierung in Höhe von 110 Millionen US-Dollar bekannt"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.finn.com/de-DE/presse/110m-series-b-finanzierung",
+          "quote": "gibt den Abschluss seiner Serie B Finanzierung in Höhe von 110 Millionen US-Dollar bekannt"
+        },
+        {
+          "field": "month",
+          "url": "https://www.finn.com/de-DE/presse/110m-series-b-finanzierung",
+          "quote": "München, 11. Mai 2022"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.finn.com/de-DE/presse/110m-series-b-finanzierung",
+          "quote": "Angeführt wurde die Runde von Korelya Capital,"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.finn.com/de-DE/presse/110m-series-b-finanzierung",
+          "quote": "Keen Ventures, Climb Ventures, Greentrail Capital und Waterfall Asset Management."
+        },
+        {
+          "field": "investors",
+          "url": "https://www.finn.com/de-DE/presse/110m-series-b-finanzierung",
+          "quote": "Bestehende Investoren wie White Star Capital, HV Capital, Heartcore Capital, UVC Partners und Picus Capital beteiligten sich ebenfalls."
+        }
+      ]
+    },
+    {
+      "techeuId": "68e374ca-ac0e-4a1b-be31-a79ac8080fc0",
+      "stage": "series-c",
+      "month": "2024-01",
+      "amountEur": 100000000,
+      "amountOriginal": 100000000,
+      "currency": "EUR",
+      "investors": [
+        "Planet First Partners",
+        "HV Capital",
+        "Korelya Capital",
+        "UVC Partners",
+        "White Star Capital",
+        "Picus Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2024/01/11/finn-secures-100m-in-series-c-round/",
+          "quote": "announced the close of a €100 million Series C funding round"
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2024/01/11/finn-secures-100m-in-series-c-round/",
+          "quote": "announced the close of a €100 million Series C funding round"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2024/01/11/finn-secures-100m-in-series-c-round/",
+          "quote": "2024-01-11T07:55:08+00:00"
+        },
+        {
+          "field": "investors",
+          "url": "https://coverager.com/finn-raises-109-million/",
+          "quote": "led by Planet First Partners, with participation from HV Capital, Korelya Capital, UVC Partners, White Star Capital and Picus Capital"
+        }
+      ]
+    },
+    {
+      "techeuId": "ebd7c85e-26d2-49be-aa05-a8bb80cf005d",
+      "stage": "series-d",
+      "month": "2026-06",
+      "amountEur": 100000000,
+      "amountOriginal": 100000000,
+      "currency": "EUR",
+      "postMoneyValuationEur": 1000000000,
+      "investors": [
+        "Portage",
+        "SevenVentures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.finn.com/de-DE/presse/series-d",
+          "quote": "FINN erreicht durch Series-D-Finanzierungsrunde mit knapp 100 Millionen Euro frischem Eigenkapital eine Bewertung von über einer Milliarde Euro."
+        },
+        {
+          "field": "stage",
+          "url": "https://www.finn.com/de-DE/presse/series-d",
+          "quote": "FINN erreicht durch Series-D-Finanzierungsrunde mit knapp 100 Millionen Euro frischem Eigenkapital eine Bewertung von über einer Milliarde Euro."
+        },
+        {
+          "field": "month",
+          "url": "https://www.finn.com/de-DE/presse/series-d",
+          "quote": "München, 24. Juni 2026"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.finn.com/de-DE/presse/series-d",
+          "quote": "Angeführt wurde die Runde von Portage"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.finn.com/de-DE/presse/series-d",
+          "quote": "Auch SevenVentures, der Investment-Arm des Medienunternehmens ProSiebenSat.1, beteiligt sich über einen Media-for-Equity-Deal an der Runde."
+        }
+      ]
+    }
+  ]
+}

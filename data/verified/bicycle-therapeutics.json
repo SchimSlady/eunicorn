@@ -1,0 +1,154 @@
+{
+  "id": "bicycle-therapeutics",
+  "name": "Bicycle Therapeutics",
+  "aliases": [
+    "Bicycle Therapeutics plc"
+  ],
+  "domain": "bicycletherapeutics.com",
+  "country": "GB",
+  "city": "Cambridge",
+  "founded": 2009,
+  "sectors": [
+    "biotech"
+  ],
+  "status": "public",
+  "unicorn": false,
+  "founders": [],
+  "difficulty": 4,
+  "techeuId": "6BD8727A-CBC0-459C-9F92-656E6E823683",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://forbion.com/news-insights/news/bicycle-therapeutics-announces-555-million-private-placement-equity-financing/",
+      "quote": "CAMBRIDGE, England & BOSTON"
+    },
+    {
+      "field": "founded",
+      "url": "https://globalventuring.com/university/bicycle-therapeutics-to-go-for-a-spin-on-nasdaq/",
+      "quote": "Founded in 2009, Bicycle Therapeutics is developing treatments"
+    },
+    {
+      "field": "sectors",
+      "url": "https://forbion.com/news-insights/news/bicycle-therapeutics-announces-555-million-private-placement-equity-financing/",
+      "quote": "a pharmaceutical company pioneering a new and differentiated class of therapeutics based on its proprietary bicyclic peptide (Bicycle®) technology"
+    },
+    {
+      "field": "status",
+      "url": "https://forbion.com/news-insights/news/bicycle-therapeutics-announces-555-million-private-placement-equity-financing/",
+      "quote": "Bicycle Therapeutics plc (NASDAQ: BCYC)"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-b",
+      "month": "2017-05",
+      "amountEur": 47393365,
+      "amountOriginal": 52000000,
+      "currency": "USD",
+      "investors": [
+        "Vertex Ventures HC",
+        "SR One",
+        "Novartis Venture Fund",
+        "Longwood Fund",
+        "Atlas Venture",
+        "SV Life Sciences",
+        "Cambridge Innovation Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://globalventuring.com/university/bicycle-therapeutics-to-go-for-a-spin-on-nasdaq/",
+          "quote": "CIC took part in the company’s $52m series B1 round in May 2017"
+        },
+        {
+          "field": "stage",
+          "url": "https://globalventuring.com/university/bicycle-therapeutics-to-go-for-a-spin-on-nasdaq/",
+          "quote": "CIC took part in the company’s $52m series B1 round in May 2017"
+        },
+        {
+          "field": "month",
+          "url": "https://globalventuring.com/university/bicycle-therapeutics-to-go-for-a-spin-on-nasdaq/",
+          "quote": "CIC took part in the company’s $52m series B1 round in May 2017"
+        },
+        {
+          "field": "investors",
+          "url": "https://globalventuring.com/university/bicycle-therapeutics-squares-60-7m-ipo-circle/",
+          "quote": "The series B1 round was led by Vertex Ventures HC"
+        },
+        {
+          "field": "investors",
+          "url": "https://globalventuring.com/university/bicycle-therapeutics-squares-60-7m-ipo-circle/",
+          "quote": "Longwood Fund, Atlas Venture and SV Life Sciences filled out the series B1 round"
+        }
+      ]
+    },
+    {
+      "stage": "series-b",
+      "month": "2018-12",
+      "amountEur": 24723084,
+      "amountOriginal": 27900000,
+      "currency": "USD",
+      "investors": [
+        "Cambridge Innovation Capital",
+        "Ahren Innovation Capital",
+        "Aquila Investments",
+        "Vertex Ventures HC"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://globalventuring.com/university/bicycle-therapeutics-to-go-for-a-spin-on-nasdaq/",
+          "quote": "Bicycle subsequently received $27.9m in series B2 funding from CIC, Ahren Innovation Capital, Aquila Investments and Vertex Ventures HC in December 2018"
+        },
+        {
+          "field": "stage",
+          "url": "https://globalventuring.com/university/bicycle-therapeutics-to-go-for-a-spin-on-nasdaq/",
+          "quote": "Bicycle subsequently received $27.9m in series B2 funding from CIC, Ahren Innovation Capital, Aquila Investments and Vertex Ventures HC in December 2018"
+        },
+        {
+          "field": "month",
+          "url": "https://globalventuring.com/university/bicycle-therapeutics-to-go-for-a-spin-on-nasdaq/",
+          "quote": "Bicycle subsequently received $27.9m in series B2 funding from CIC, Ahren Innovation Capital, Aquila Investments and Vertex Ventures HC in December 2018"
+        },
+        {
+          "field": "investors",
+          "url": "https://globalventuring.com/university/bicycle-therapeutics-to-go-for-a-spin-on-nasdaq/",
+          "quote": "Bicycle subsequently received $27.9m in series B2 funding from CIC, Ahren Innovation Capital, Aquila Investments and Vertex Ventures HC in December 2018"
+        }
+      ]
+    },
+    {
+      "stage": "series-f+",
+      "month": "2024-05",
+      "amountEur": 511332228,
+      "amountOriginal": 555000000,
+      "currency": "USD",
+      "investors": [
+        "Deep Track Capital",
+        "EcoR1 Capital",
+        "Fairmount",
+        "Forbion",
+        "Perceptive Advisors",
+        "RA Capital Management"
+      ],
+      "techeuId": "67d8b87e-9406-42a0-a3ac-480a49f30579",
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://forbion.com/news-insights/news/bicycle-therapeutics-announces-555-million-private-placement-equity-financing/",
+          "quote": "Bicycle anticipates the gross proceeds from the PIPE to be approximately $555 million."
+        },
+        {
+          "field": "month",
+          "url": "https://forbion.com/news-insights/news/bicycle-therapeutics-announces-555-million-private-placement-equity-financing/",
+          "quote": "CAMBRIDGE, England & BOSTON--(BUSINESS WIRE)--May 23, 2024"
+        },
+        {
+          "field": "investors",
+          "url": "https://forbion.com/news-insights/news/bicycle-therapeutics-announces-555-million-private-placement-equity-financing/",
+          "quote": "with participation from Deep Track Capital, EcoR1 Capital, Fairmount, Forbion, Perceptive Advisors and RA Capital Management"
+        }
+      ]
+    }
+  ]
+}

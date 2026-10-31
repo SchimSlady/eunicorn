@@ -1,0 +1,164 @@
+{
+  "id": "pleo",
+  "name": "Pleo",
+  "aliases": [],
+  "domain": "pleo.io",
+  "country": "DK",
+  "city": "Copenhagen",
+  "founded": 2015,
+  "sectors": [
+    "fintech"
+  ],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 1432664756,
+  "founders": [
+    "Jeppe Rindom",
+    "Niccolo Perra"
+  ],
+  "difficulty": 3,
+  "techeuId": "5E3E4368-779C-49B1-8F7A-5569392C6146",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://tech.eu/2018/05/30/pleo-funding/",
+      "quote": "Copenhagen and London-based fintech company Pleo"
+    },
+    {
+      "field": "founded",
+      "url": "https://blog.pleo.io/en/series-c-funding",
+      "quote": "Since launching in 2015"
+    },
+    {
+      "field": "founders",
+      "url": "https://techcrunch.com/2021/07/05/pleo-raises-150m-at-a-1-7b-valuation-for-its-new-approach-to-managing-expenses-for-smbs/",
+      "quote": "Rindom, Pleo’s CEO who co-founded the company with CTO Niccolo Perra"
+    },
+    {
+      "field": "sectors",
+      "url": "https://tech.eu/2018/05/30/pleo-funding/",
+      "quote": "Pleo's solution combines smart payment cards that can easily be assigned to employees"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://techcrunch.com/2021/07/05/pleo-raises-150m-at-a-1-7b-valuation-for-its-new-approach-to-managing-expenses-for-smbs/",
+      "quote": "Pleo raises $150M at a $1.7B valuation for its new approach to managing expenses for SMBs"
+    },
+    {
+      "field": "valuation",
+      "url": "https://techcrunch.com/2021/07/05/pleo-raises-150m-at-a-1-7b-valuation-for-its-new-approach-to-managing-expenses-for-smbs/",
+      "quote": "Pleo raises $150M at a $1.7B valuation for its new approach to managing expenses for SMBs"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "246c6f87-f0a3-40fe-fb6d-08d91092c887",
+      "stage": "series-a",
+      "month": "2018-05",
+      "amountEur": 13755158,
+      "amountOriginal": 16000000,
+      "currency": "USD",
+      "investors": [
+        "Kinnevik",
+        "Creandum",
+        "Founders",
+        "Seedcamp",
+        "Vækstfonden"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2018/05/30/pleo-funding/",
+          "quote": "Copenhagen and London-based fintech company Pleo has landed $16 million in a Series A financing round led by Kinnevik and joined by Creandum, the Founders startup studio, Seedcamp and Vækstfonden."
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2018/05/30/pleo-funding/",
+          "quote": "Copenhagen and London-based fintech company Pleo has landed $16 million in a Series A financing round led by Kinnevik and joined by Creandum, the Founders startup studio, Seedcamp and Vækstfonden."
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2018/05/30/pleo-funding/",
+          "quote": "2018-05-30T08:28:27+00:00"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2018/05/30/pleo-funding/",
+          "quote": "Copenhagen and London-based fintech company Pleo has landed $16 million in a Series A financing round led by Kinnevik and joined by Creandum, the Founders startup studio, Seedcamp and Vækstfonden."
+        }
+      ]
+    },
+    {
+      "techeuId": "7f9296b4-f825-4b2b-fb6e-08d91092c887",
+      "stage": "series-b",
+      "month": "2019-05",
+      "amountEur": 49799911,
+      "amountOriginal": 56000000,
+      "currency": "USD",
+      "investors": [
+        "Stripes"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://blog.pleo.io/en/weve-just-raised-56m-to-change-how-we-buy-things-for-work",
+          "quote": "We’re excited to announce the largest Series B round in Denmark to date, led by Stripes. With $56m in fresh funding"
+        },
+        {
+          "field": "stage",
+          "url": "https://blog.pleo.io/en/weve-just-raised-56m-to-change-how-we-buy-things-for-work",
+          "quote": "We’re excited to announce the largest Series B round in Denmark to date, led by Stripes. With $56m in fresh funding"
+        },
+        {
+          "field": "month",
+          "url": "https://blog.pleo.io/en/weve-just-raised-56m-to-change-how-we-buy-things-for-work",
+          "quote": "May 13, 2019"
+        },
+        {
+          "field": "investors",
+          "url": "https://blog.pleo.io/en/weve-just-raised-56m-to-change-how-we-buy-things-for-work",
+          "quote": "We’re excited to announce the largest Series B round in Denmark to date, led by Stripes. With $56m in fresh funding"
+        }
+      ]
+    },
+    {
+      "techeuId": "fd6c1a64-f1c6-41f8-93fa-0dd775224a38",
+      "stage": "series-c",
+      "month": "2021-07",
+      "amountEur": 126411596,
+      "amountOriginal": 150000000,
+      "currency": "USD",
+      "investors": [
+        "Bain Capital Ventures",
+        "Thrive Capital",
+        "Creandum",
+        "Kinnevik",
+        "Founders",
+        "Stripes",
+        "Seedcamp"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://blog.pleo.io/en/series-c-funding",
+          "quote": "$150 million — the largest Series C raised for any Danish-headquartered company ever."
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2021/07/05/pleo-raises-150m-at-a-1-7b-valuation-for-its-new-approach-to-managing-expenses-for-smbs/",
+          "quote": "Bain Capital Ventures and Thrive Capital co-led this round, a Series C."
+        },
+        {
+          "field": "month",
+          "url": "https://blog.pleo.io/en/series-c-funding",
+          "quote": "July 5, 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2021/07/05/pleo-raises-150m-at-a-1-7b-valuation-for-its-new-approach-to-managing-expenses-for-smbs/",
+          "quote": "Bain Capital Ventures and Thrive Capital co-led this round, a Series C. Previous backers, including Creandum, Kinnevik, Founders, Stripes and Seedcamp, also participated."
+        }
+      ]
+    }
+  ]
+}

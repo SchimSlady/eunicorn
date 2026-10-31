@@ -1,0 +1,122 @@
+{
+  "id": "cequr",
+  "name": "CeQur",
+  "aliases": [],
+  "domain": "cequr.com",
+  "country": "CH",
+  "city": "Lucerne",
+  "founded": 2008,
+  "sectors": [
+    "health"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [],
+  "difficulty": 4,
+  "techeuId": "9D305D85-917D-4041-944E-B124EB233606",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://startupticker.ch/en/news/cequr-announces-100-million-series-c-financing",
+      "quote": "The Company, founded in 2008, is headquartered in Lucerne"
+    },
+    {
+      "field": "founded",
+      "url": "https://startupticker.ch/en/news/cequr-announces-100-million-series-c-financing",
+      "quote": "The Company, founded in 2008, is headquartered in Lucerne"
+    },
+    {
+      "field": "sectors",
+      "url": "https://startupticker.ch/en/news/cequr-announces-100-million-series-c-financing",
+      "quote": "a leader in simple insulin infusion for people with diabetes"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-c",
+      "month": "2015-09",
+      "amountEur": 88849400,
+      "amountOriginal": 100000000,
+      "currency": "USD",
+      "investors": [
+        "Woodford Investment Management",
+        "Arthurian Life Sciences",
+        "Endeavour Vision",
+        "Schroder & Co. Banque SA",
+        "VI Partners"
+      ],
+      "techeuId": "e01efecc-907c-4666-f73a-08d91092c887",
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://startupticker.ch/en/news/cequr-announces-100-million-series-c-financing",
+          "quote": "announced a Series C financing of $100 million"
+        },
+        {
+          "field": "stage",
+          "url": "https://startupticker.ch/en/news/cequr-announces-100-million-series-c-financing",
+          "quote": "announced a Series C financing of $100 million"
+        },
+        {
+          "field": "month",
+          "url": "https://startupticker.ch/en/news/cequr-announces-100-million-series-c-financing",
+          "quote": "02.09.2015"
+        },
+        {
+          "field": "investors",
+          "url": "https://startupticker.ch/en/news/cequr-announces-100-million-series-c-financing",
+          "quote": "Woodford Investment Management LLP and Arthurian Life Sciences led this private financing round"
+        },
+        {
+          "field": "investors",
+          "url": "https://startupticker.ch/en/news/cequr-announces-100-million-series-c-financing",
+          "quote": "Existing investors including Endeavour Vision"
+        },
+        {
+          "field": "investors",
+          "url": "https://startupticker.ch/en/news/cequr-announces-100-million-series-c-financing",
+          "quote": "Banque SA , and VI Partners also participated in the round"
+        }
+      ]
+    },
+    {
+      "stage": "series-c",
+      "month": "2021-04",
+      "amountEur": 96671150,
+      "amountOriginal": 115000000,
+      "currency": "USD",
+      "investors": [
+        "Credit Suisse Entrepreneur Capital",
+        "Endeavour Vision",
+        "Tandem Diabetes Care",
+        "Ypsomed Group",
+        "Federated Hermes Kaufmann Funds",
+        "Kingdon Capital",
+        "GMS Capital"
+      ],
+      "techeuId": "d05d9d00-43cd-41e6-f73d-08d91092c887",
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://nordic9.com/news/cequr-to-get-funded-with-115-million-from-investors-led-by-credit-suisse-entrepreneur-capital-ltd-and-endeavour-vision/",
+          "quote": "announced the completion of a $115 million capital funding round"
+        },
+        {
+          "field": "month",
+          "url": "https://nordic9.com/news/cequr-to-get-funded-with-115-million-from-investors-led-by-credit-suisse-entrepreneur-capital-ltd-and-endeavour-vision/",
+          "quote": "10 April 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://nordic9.com/news/cequr-to-get-funded-with-115-million-from-investors-led-by-credit-suisse-entrepreneur-capital-ltd-and-endeavour-vision/",
+          "quote": "led by the Switzerland-based Credit Suisse Entrepreneur Capital Ltd."
+        },
+        {
+          "field": "investors",
+          "url": "https://nordic9.com/news/cequr-to-get-funded-with-115-million-from-investors-led-by-credit-suisse-entrepreneur-capital-ltd-and-endeavour-vision/",
+          "quote": "joined by Tandem Diabetes Care, Inc., Ypsomed Group, Federated Hermes Kaufmann Funds, Kingdon Capital, and GMS Capital"
+        }
+      ]
+    }
+  ]
+}

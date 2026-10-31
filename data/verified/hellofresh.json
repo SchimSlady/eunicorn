@@ -1,0 +1,147 @@
+{
+  "id": "hellofresh",
+  "name": "HelloFresh",
+  "aliases": [],
+  "domain": "hellofresh.com",
+  "country": "DE",
+  "city": "Berlin",
+  "founded": 2011,
+  "sectors": [
+    "consumer"
+  ],
+  "status": "public",
+  "unicorn": true,
+  "lastValuationEur": 2600000000,
+  "founders": [
+    "Dominik Richter",
+    "Thomas Griesel",
+    "Jessica Nilsson"
+  ],
+  "difficulty": 2,
+  "techeuId": "FB512314-8B61-48B2-8A32-A31B56920B97",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/HelloFresh",
+      "quote": "Founders Dominik Richter Thomas Griesel Jessica Nilsson Headquarters Berlin , Germany"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/HelloFresh",
+      "quote": "HelloFresh was founded in November 2011 by Dominik Richter, Thomas Griesel, and Jessica Nilsson in Berlin."
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/HelloFresh",
+      "quote": "HelloFresh was founded in November 2011 by Dominik Richter, Thomas Griesel, and Jessica Nilsson in Berlin."
+    },
+    {
+      "field": "sectors",
+      "url": "https://en.wikipedia.org/wiki/HelloFresh",
+      "quote": "Founded in 2011, it is one of the largest meal-kit providers in the world"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://www.noerr.com/de/press/26-milliarden-euro-bewertung-noerr-berat-hello-fresh-bei-einstieg-von-baillie-gifford",
+      "quote": "Im Rahmen der Transaktion wurde Hello Fresh mit 2,6 Milliarden Euro bewertet."
+    },
+    {
+      "field": "valuation",
+      "url": "https://www.noerr.com/de/press/26-milliarden-euro-bewertung-noerr-berat-hello-fresh-bei-einstieg-von-baillie-gifford",
+      "quote": "Im Rahmen der Transaktion wurde Hello Fresh mit 2,6 Milliarden Euro bewertet."
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "840f6d2e-fb88-4d4c-8fac-08d91092c887",
+      "stage": "series-d",
+      "month": "2015-02",
+      "amountEur": 110000000,
+      "amountOriginal": 110000000,
+      "currency": "EUR",
+      "investors": [
+        "Rocket Internet",
+        "Insight Venture Partners"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.rocket-internet.com/news/2015-02-06-00-24-38",
+          "quote": "Existing shareholders of HelloFresh GmbH ('HelloFresh') agreed to invest a total amount of EUR 110.0 million in HelloFresh."
+        },
+        {
+          "field": "month",
+          "url": "https://www.rocket-internet.com/news/2015-02-06-00-24-38",
+          "quote": "Berlin, Germany, 6th February 2015"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.rocket-internet.com/news/2015-02-06-00-24-38",
+          "quote": "Rocket Internet AG ('Rocket Internet') participates with an amount of EUR 100.0 million"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.rocket-internet.com/news/2015-02-06-00-24-38",
+          "quote": "Insight Venture Partners also takes part."
+        }
+      ]
+    },
+    {
+      "techeuId": "ce82fcef-6a62-4403-8fad-08d91092c887",
+      "stage": "series-d",
+      "month": "2015-09",
+      "amountEur": 75000000,
+      "amountOriginal": 75000000,
+      "currency": "EUR",
+      "postMoneyValuationEur": 2600000000,
+      "investors": [
+        "Baillie Gifford"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.noerr.com/de/press/26-milliarden-euro-bewertung-noerr-berat-hello-fresh-bei-einstieg-von-baillie-gifford",
+          "quote": "Mit der Finanzierungsrunde investieren vom schottischen Vermögensverwalter Baillie Gifford beratene internationale Fonds 75 Millionen Euro in das rasant wachsende Berliner Unternehmen."
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/tag/hellofresh/",
+          "quote": "HelloFresh Raises Another $84.7M Mike Butcher Sep 16, 2015"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.noerr.com/de/press/26-milliarden-euro-bewertung-noerr-berat-hello-fresh-bei-einstieg-von-baillie-gifford",
+          "quote": "Mit der Finanzierungsrunde investieren vom schottischen Vermögensverwalter Baillie Gifford beratene internationale Fonds 75 Millionen Euro in das rasant wachsende Berliner Unternehmen."
+        }
+      ]
+    },
+    {
+      "techeuId": "7869ac4f-8f0c-4ba8-8fae-08d91092c887",
+      "stage": "series-d",
+      "month": "2016-12",
+      "amountEur": 85000000,
+      "amountOriginal": 85000000,
+      "currency": "EUR",
+      "investors": [
+        "Baillie Gifford"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2016/12/20/hellofresh-e85-million/",
+          "quote": "German meal delivery startup HelloFresh, a Rocket Internet company, has raised €85 million from a new unnamed investor along with previous investor Baillie Gifford."
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2016/12/20/hellofresh-e85-million/",
+          "quote": "\"datePublished\":\"2016-12-20T08:42:04+00:00"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2016/12/20/hellofresh-e85-million/",
+          "quote": "German meal delivery startup HelloFresh, a Rocket Internet company, has raised €85 million from a new unnamed investor along with previous investor Baillie Gifford."
+        }
+      ]
+    }
+  ]
+}

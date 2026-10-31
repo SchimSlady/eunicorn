@@ -1,0 +1,90 @@
+{
+  "id": "kandou",
+  "name": "Kandou",
+  "aliases": [
+    "Kandou AI",
+    "Kandou Bus"
+  ],
+  "domain": "kandou.ai",
+  "country": "CH",
+  "city": "Saint-Sulpice",
+  "founded": 2011,
+  "sectors": [
+    "semiconductors"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "lastValuationEur": 344946533,
+  "founders": [
+    "Amin Shokrollahi"
+  ],
+  "difficulty": 4,
+  "techeuId": "B986F10B-9605-4758-B86B-8A2C11C156A9",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://ggba.swiss/en/kandou-ai-raises-usd-225-million-to-solve-ais-data-movement-bottleneck/",
+      "quote": "Saint-Sulpice-based fabless semiconductor company Kandou AI"
+    },
+    {
+      "field": "founded",
+      "url": "https://thenextweb.com/news/kandou-ai-225m-copper-interconnect-ai-infrastructure",
+      "quote": "Kandou was founded in 2011"
+    },
+    {
+      "field": "founders",
+      "url": "https://actu.epfl.ch/news/ic-spinoff-kandou-ai-raises-225m-for-faster-ai-i-2/",
+      "quote": "co-founder Amin Shokrollahi"
+    },
+    {
+      "field": "sectors",
+      "url": "https://thenextweb.com/news/kandou-ai-225m-copper-interconnect-ai-infrastructure",
+      "quote": "Kandou AI, a Swiss semiconductor company that builds chip-to-chip interconnect technology"
+    },
+    {
+      "field": "valuation",
+      "url": "https://thenextweb.com/news/kandou-ai-225m-copper-interconnect-ai-infrastructure",
+      "quote": "The round values the company at $400 million."
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "a63dc430-e6c1-4ced-82d4-41f1544d129b",
+      "stage": "series-a",
+      "month": "2026-03",
+      "amountEur": 194032425,
+      "amountOriginal": 225000000,
+      "currency": "USD",
+      "postMoneyValuationEur": 344946533,
+      "investors": [
+        "Maverick Silicon",
+        "SoftBank",
+        "Alchip Technologies Limited",
+        "Synopsys",
+        "Cadence Design Systems"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://thenextweb.com/news/kandou-ai-225m-copper-interconnect-ai-infrastructure",
+          "quote": "has raised $225 million in what it calls a Series A round"
+        },
+        {
+          "field": "stage",
+          "url": "https://thenextweb.com/news/kandou-ai-225m-copper-interconnect-ai-infrastructure",
+          "quote": "has raised $225 million in what it calls a Series A round"
+        },
+        {
+          "field": "month",
+          "url": "https://thenextweb.com/news/kandou-ai-225m-copper-interconnect-ai-infrastructure",
+          "quote": "This article was published on March 28, 2026"
+        },
+        {
+          "field": "investors",
+          "url": "https://actu.epfl.ch/news/ic-spinoff-kandou-ai-raises-225m-for-faster-ai-i-2/",
+          "quote": "The investments were led by Maverick Silicon with strategic participation from SoftBank, Alchip Technologies Limited, Synopsys, and Cadence Design Systems."
+        }
+      ]
+    }
+  ]
+}

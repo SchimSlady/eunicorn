@@ -1,0 +1,155 @@
+{
+  "id": "frontier-car-group",
+  "name": "Frontier Car Group",
+  "aliases": [
+    "FCG"
+  ],
+  "domain": "frontiercargroup.com",
+  "country": "DE",
+  "city": "Berlin",
+  "founded": 2016,
+  "sectors": [
+    "mobility"
+  ],
+  "status": "acquired",
+  "unicorn": false,
+  "founders": [
+    "Sujay Tyle"
+  ],
+  "difficulty": 4,
+  "techeuId": "89B03519-D652-4FBA-B1DC-EAB84496CDD1",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.unquote.com/dach/official-record/3009734/vc-firms-back-usd58m-financing-for-frontier-car-group",
+      "quote": "The company is headquartered in Berlin"
+    },
+    {
+      "field": "founded",
+      "url": "https://tech.eu/2018/05/01/frontier-car-group-series-b/",
+      "quote": "Founded in 2016, Frontier Car Group"
+    },
+    {
+      "field": "founders",
+      "url": "https://www.autoremarketing.com/ar/global-used-car-market-builder-secures-22m-investment",
+      "quote": "FCG co-founder and chief executive officer Sujay Tyle"
+    },
+    {
+      "field": "sectors",
+      "url": "https://globalventuring.com/blog/2018/05/24/olx-reaches-frontier-with-89m-investment/",
+      "quote": "FCG runs an e-commerce marketplace that allows drivers, dealers and fleets to buy and sell cars."
+    },
+    {
+      "field": "status",
+      "url": "https://www.leadersleague.com/en/news/olx-group-expands-in-latin-america-with-frontier-car-group-merger",
+      "quote": "OLX Group, which operates a number of online trading platforms, has merged with Frontier Car Group"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "25498ca7-a6f3-4ff2-dfcf-08d91092c887",
+      "stage": "series-a",
+      "month": "2017-05",
+      "amountEur": 19649875,
+      "amountOriginal": 22000000,
+      "currency": "USD",
+      "investors": [
+        "Balderton Capital",
+        "EchoVC+",
+        "TPG/Satya",
+        "NEA",
+        "Partech Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.autoremarketing.com/ar/global-used-car-market-builder-secures-22m-investment",
+          "quote": "Global used-car market builder secures $22M investment"
+        },
+        {
+          "field": "month",
+          "url": "https://www.autoremarketing.com/ar/global-used-car-market-builder-secures-22m-investment",
+          "quote": "2017-05-26T15:04:02+00:00"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.autoremarketing.com/ar/global-used-car-market-builder-secures-22m-investment",
+          "quote": "EchoVC+, TPG/Satya, NEA and Partech Ventures"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.autoremarketing.com/ar/global-used-car-market-builder-secures-22m-investment",
+          "quote": "led by Balderton Capital"
+        }
+      ]
+    },
+    {
+      "techeuId": "5519f094-5b70-4159-dfd0-08d91092c887",
+      "stage": "series-b",
+      "month": "2018-05",
+      "amountEur": 34146748,
+      "amountOriginal": 41000000,
+      "currency": "USD",
+      "investors": [
+        "Balderton Capital",
+        "TPG Growth",
+        "Fraser McCombs Capital",
+        "AutoTech Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.unquote.com/dach/official-record/3009734/vc-firms-back-usd58m-financing-for-frontier-car-group",
+          "quote": "provided a $41m series-B equity funding"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.unquote.com/dach/official-record/3009734/vc-firms-back-usd58m-financing-for-frontier-car-group",
+          "quote": "provided a $41m series-B equity funding"
+        },
+        {
+          "field": "month",
+          "url": "https://www.unquote.com/dach/official-record/3009734/vc-firms-back-usd58m-financing-for-frontier-car-group",
+          "quote": "02 May 2018"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.unquote.com/dach/official-record/3009734/vc-firms-back-usd58m-financing-for-frontier-car-group",
+          "quote": "Balderton Capital, TPG Growth, Fraser McCombs Capital and AutoTech Ventures provided"
+        }
+      ]
+    },
+    {
+      "stage": "series-c",
+      "month": "2018-05",
+      "amountEur": 75886767,
+      "amountOriginal": 89000000,
+      "currency": "USD",
+      "investors": [
+        "OLX Group"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://globalventuring.com/blog/2018/05/24/olx-reaches-frontier-with-89m-investment/",
+          "quote": "provided $89m in series C funding"
+        },
+        {
+          "field": "stage",
+          "url": "https://globalventuring.com/blog/2018/05/24/olx-reaches-frontier-with-89m-investment/",
+          "quote": "provided $89m in series C funding"
+        },
+        {
+          "field": "month",
+          "url": "https://globalventuring.com/blog/2018/05/24/olx-reaches-frontier-with-89m-investment/",
+          "quote": "2018-05-24T12:08:23+00:00"
+        },
+        {
+          "field": "investors",
+          "url": "https://globalventuring.com/blog/2018/05/24/olx-reaches-frontier-with-89m-investment/",
+          "quote": "OLX Group, the classified listings operator owned by media and e-commerce group Naspers"
+        }
+      ]
+    }
+  ]
+}

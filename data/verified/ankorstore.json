@@ -1,0 +1,187 @@
+{
+  "id": "ankorstore",
+  "name": "Ankorstore",
+  "aliases": [],
+  "domain": "ankorstore.com",
+  "country": "FR",
+  "city": "Paris",
+  "founded": 2019,
+  "sectors": [
+    "consumer"
+  ],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 1750000000,
+  "founders": [
+    "Nicolas Cohen",
+    "Pierre-Louis Lacoste",
+    "Nicolas d’Audiffret"
+  ],
+  "difficulty": 3,
+  "techeuId": "AD63E9D9-A180-48DE-9FE0-2D4F832ED2E2",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://baincapitalventures.com/insight/ankorstore-co-founder-ceo-nicolas-daudiffret-on-going-global-from-the-get-go/",
+      "quote": "even though the company is headquartered in Paris"
+    },
+    {
+      "field": "founded",
+      "url": "https://techcrunch.com/2022/01/09/ankorstore-reaches-2-billion-valuation-two-years-after-launching-its-wholesale-marketplace/",
+      "quote": "Founded in November 2019"
+    },
+    {
+      "field": "founders",
+      "url": "https://techcrunch.com/2022/01/09/ankorstore-reaches-2-billion-valuation-two-years-after-launching-its-wholesale-marketplace/",
+      "quote": "co-founder and co-CEO Nicolas Cohen"
+    },
+    {
+      "field": "founders",
+      "url": "https://techcrunch.com/2020/11/30/ankorstore-raises-29-9-million-for-its-wholesale-marketplace/",
+      "quote": "Ankorstore co-founder Pierre-Louis Lacoste"
+    },
+    {
+      "field": "founders",
+      "url": "https://baincapitalventures.com/insight/ankorstore-co-founder-ceo-nicolas-daudiffret-on-going-global-from-the-get-go/",
+      "quote": "Ankorstore Co-Founder & CEO Nicolas d’Audiffret"
+    },
+    {
+      "field": "sectors",
+      "url": "https://baincapitalventures.com/insight/ankorstore-co-founder-ceo-nicolas-daudiffret-on-going-global-from-the-get-go/",
+      "quote": "Ankorstore has quickly grown into Europe’s leading B2B marketplace linking independent shop owners with brands"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://techcrunch.com/2022/01/09/ankorstore-reaches-2-billion-valuation-two-years-after-launching-its-wholesale-marketplace/",
+      "quote": "French startup Ankorstore has raised a $283 million Series C funding round (€250 million). Founded in November 2019, it took Ankorstore around two years to reach a post-money valuation of $2 billion (€1.75 billion)."
+    },
+    {
+      "field": "valuation",
+      "url": "https://techcrunch.com/2022/01/09/ankorstore-reaches-2-billion-valuation-two-years-after-launching-its-wholesale-marketplace/",
+      "quote": "French startup Ankorstore has raised a $283 million Series C funding round (€250 million). Founded in November 2019, it took Ankorstore around two years to reach a post-money valuation of $2 billion (€1.75 billion)."
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "84169378-f96c-403c-f2e6-08d91092c887",
+      "stage": "series-a",
+      "month": "2020-11",
+      "amountEur": 24958264,
+      "amountOriginal": 29900000,
+      "currency": "USD",
+      "investors": [
+        "Index Ventures",
+        "Global Founders Capital",
+        "Alven",
+        "Aglaé Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2020/11/30/ankorstore-raises-29-9-million-for-its-wholesale-marketplace/",
+          "quote": "French startup Ankorstore has raised a $29.9 million Series A round (€25 million)"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2020/11/30/ankorstore-raises-29-9-million-for-its-wholesale-marketplace/",
+          "quote": "French startup Ankorstore has raised a $29.9 million Series A round (€25 million)"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2020/11/30/ankorstore-raises-29-9-million-for-its-wholesale-marketplace/",
+          "quote": "November 30, 2020"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2020/11/30/ankorstore-raises-29-9-million-for-its-wholesale-marketplace/",
+          "quote": "with Index Ventures leading the round. Existing investors GFC, Alven and Aglaé are also participating."
+        }
+      ]
+    },
+    {
+      "techeuId": "f1a1d81b-1e9c-4e57-a315-0e6c2fb66387",
+      "stage": "series-b",
+      "month": "2021-05",
+      "amountEur": 83999012,
+      "amountOriginal": 102000000,
+      "currency": "USD",
+      "investors": [
+        "Tiger Global",
+        "Bain Capital Ventures",
+        "Index Ventures",
+        "Global Founders Capital",
+        "Alven",
+        "Aglaé Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2021/05/17/ankorstore-raises-another-102-million-for-its-wholesale-marketplace/",
+          "quote": "French startup Ankorstore has raised a $102 million Series B funding round (€84 million)."
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2021/05/17/ankorstore-raises-another-102-million-for-its-wholesale-marketplace/",
+          "quote": "French startup Ankorstore has raised a $102 million Series B funding round (€84 million)."
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2021/05/17/ankorstore-raises-another-102-million-for-its-wholesale-marketplace/",
+          "quote": "May 17, 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2021/05/17/ankorstore-raises-another-102-million-for-its-wholesale-marketplace/",
+          "quote": "Tiger Global and Bain Capital Ventures are leading today’s funding round with existing investors Index Ventures, GFC, Alven and Aglaé also participating."
+        }
+      ]
+    },
+    {
+      "techeuId": "1c978acb-28b8-407f-a59d-e8941c730af2",
+      "stage": "series-c",
+      "month": "2022-01",
+      "amountEur": 250000000,
+      "amountOriginal": 250000000,
+      "currency": "EUR",
+      "postMoneyValuationEur": 1750000000,
+      "investors": [
+        "Bond",
+        "Tiger Global",
+        "Eurazeo",
+        "Coatue",
+        "Index Ventures",
+        "Bain Capital Ventures",
+        "Global Founders Capital",
+        "Alven",
+        "Aglaé Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2022/01/09/ankorstore-reaches-2-billion-valuation-two-years-after-launching-its-wholesale-marketplace/",
+          "quote": "French startup Ankorstore has raised a $283 million Series C funding round (€250 million). Founded in November 2019, it took Ankorstore around two years to reach a post-money valuation of $2 billion (€1.75 billion)."
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2022/01/09/ankorstore-reaches-2-billion-valuation-two-years-after-launching-its-wholesale-marketplace/",
+          "quote": "French startup Ankorstore has raised a $283 million Series C funding round (€250 million). Founded in November 2019, it took Ankorstore around two years to reach a post-money valuation of $2 billion (€1.75 billion)."
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2022/01/09/ankorstore-reaches-2-billion-valuation-two-years-after-launching-its-wholesale-marketplace/",
+          "quote": "January 9, 2022"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2022/01/09/ankorstore-reaches-2-billion-valuation-two-years-after-launching-its-wholesale-marketplace/",
+          "quote": "Bond and Tiger Global led the Series C. Eurazeo and Coatue also participated in the round."
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2022/01/09/ankorstore-reaches-2-billion-valuation-two-years-after-launching-its-wholesale-marketplace/",
+          "quote": "Some existing investors put more money on the table, such as Index Ventures, Bain Capital Ventures, GFC, Alven and Aglae Ventures."
+        }
+      ]
+    }
+  ]
+}

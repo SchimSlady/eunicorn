@@ -1,0 +1,209 @@
+{
+  "id": "gocardless",
+  "name": "GoCardless",
+  "aliases": [],
+  "domain": "gocardless.com",
+  "country": "GB",
+  "city": "London",
+  "founded": 2011,
+  "sectors": [
+    "fintech"
+  ],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 1840813464,
+  "founders": [
+    "Hiroki Takeuchi",
+    "Matt Robinson",
+    "Tom Blomfield"
+  ],
+  "difficulty": 2,
+  "techeuId": "21E363E0-BA7D-4D47-ABEA-274DD7DAE075",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/GoCardless",
+      "quote": "GoCardless is headquartered in London."
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/GoCardless",
+      "quote": "GoCardless was founded in 2011 by Hiroki Takeuchi"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/GoCardless",
+      "quote": "Matt Robinson, and Tom Blomfield"
+    },
+    {
+      "field": "sectors",
+      "url": "https://en.wikipedia.org/wiki/GoCardless",
+      "quote": "GoCardless is a British fintech company that specialises in bank payments"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://tech.eu/2022/02/08/gocardless-enters-unicorn-club-with-312-million-funding-and-21-billion-valuation",
+      "quote": "GoCardless has secured a Series G funding round of $312 million. This makes the startup the latest European and UK tech unicorn at a valuation of $2.1 billion."
+    },
+    {
+      "field": "valuation",
+      "url": "https://tech.eu/2022/02/08/gocardless-enters-unicorn-club-with-312-million-funding-and-21-billion-valuation",
+      "quote": "GoCardless has secured a Series G funding round of $312 million. This makes the startup the latest European and UK tech unicorn at a valuation of $2.1 billion."
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "c7aa4860-c5be-468a-f3fd-08d91092c887",
+      "stage": "series-d",
+      "month": "2017-09",
+      "amountEur": 18739069,
+      "amountOriginal": 22500000,
+      "currency": "USD",
+      "investors": [
+        "Accel",
+        "Balderton Capital",
+        "Notion Capital",
+        "Passion Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.unquote.com/uk/official-record/3006657/accel-leads-usd225m-series-d-for-gocardless",
+          "quote": "VC firm Accel has led a $22.5m series-D funding round"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.unquote.com/uk/official-record/3006657/accel-leads-usd225m-series-d-for-gocardless",
+          "quote": "VC firm Accel has led a $22.5m series-D funding round"
+        },
+        {
+          "field": "month",
+          "url": "https://www.unquote.com/uk/official-record/3006657/accel-leads-usd225m-series-d-for-gocardless",
+          "quote": "20 September 2017"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.unquote.com/uk/official-record/3006657/accel-leads-usd225m-series-d-for-gocardless",
+          "quote": "Previous investors Balderton Capital, Notion Capital and Passion Capital have also taken part in the round."
+        }
+      ]
+    },
+    {
+      "techeuId": "908c462d-b69f-41e1-f3fe-08d91092c887",
+      "stage": "series-e",
+      "month": "2019-02",
+      "amountEur": 66406942,
+      "amountOriginal": 75000000,
+      "currency": "USD",
+      "investors": [
+        "Adams Street Partners",
+        "GV",
+        "Salesforce Ventures",
+        "Accel",
+        "Balderton Capital",
+        "Notion Capital",
+        "Passion Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.unquote.com/uk/official-record/3013792/adams-street-co-leads-usd75m-series-e-for-gocardless",
+          "quote": "Adams Street Partners has led a $75m series-E funding round"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.unquote.com/uk/official-record/3013792/adams-street-co-leads-usd75m-series-e-for-gocardless",
+          "quote": "Adams Street Partners has led a $75m series-E funding round"
+        },
+        {
+          "field": "month",
+          "url": "https://www.unquote.com/uk/official-record/3013792/adams-street-co-leads-usd75m-series-e-for-gocardless",
+          "quote": "19 February 2019"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.unquote.com/uk/official-record/3013792/adams-street-co-leads-usd75m-series-e-for-gocardless",
+          "quote": "alongside Google's venture arm GV and Salesforce's venture arm Salesforce Ventures."
+        },
+        {
+          "field": "investors",
+          "url": "https://www.unquote.com/uk/official-record/3013792/adams-street-co-leads-usd75m-series-e-for-gocardless",
+          "quote": "Previous investors Accel, Balderton Capital, Notion Capital and Passion Capital have also taken part in the round."
+        }
+      ]
+    },
+    {
+      "techeuId": "18734799-6af0-44eb-f3ff-08d91092c887",
+      "stage": "series-f+",
+      "month": "2020-12",
+      "amountEur": 77576351,
+      "amountOriginal": 95000000,
+      "currency": "USD",
+      "investors": [
+        "Bain Capital Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://prnewswire.co.uk/news-releases/uk-fintech-gocardless-raises-95m-funding-889157304.html",
+          "quote": "today announces it has raised $95m in a Series F funding round."
+        },
+        {
+          "field": "stage",
+          "url": "https://prnewswire.co.uk/news-releases/uk-fintech-gocardless-raises-95m-funding-889157304.html",
+          "quote": "today announces it has raised $95m in a Series F funding round."
+        },
+        {
+          "field": "month",
+          "url": "https://prnewswire.co.uk/news-releases/uk-fintech-gocardless-raises-95m-funding-889157304.html",
+          "quote": "Dec. 17, 2020"
+        },
+        {
+          "field": "investors",
+          "url": "https://prnewswire.co.uk/news-releases/uk-fintech-gocardless-raises-95m-funding-889157304.html",
+          "quote": "This latest fundraise, led by Bain Capital Ventures"
+        }
+      ]
+    },
+    {
+      "techeuId": "b23157ba-6fec-49ec-86e2-213925b95256",
+      "stage": "series-f+",
+      "month": "2022-02",
+      "amountEur": 273492286,
+      "amountOriginal": 312000000,
+      "currency": "USD",
+      "postMoneyValuationEur": 1840813464,
+      "investors": [
+        "Permira",
+        "BlackRock Private Equity Partners"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2022/02/08/gocardless-enters-unicorn-club-with-312-million-funding-and-21-billion-valuation",
+          "quote": "GoCardless has secured a Series G funding round of $312 million."
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2022/02/08/gocardless-enters-unicorn-club-with-312-million-funding-and-21-billion-valuation",
+          "quote": "GoCardless has secured a Series G funding round of $312 million."
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2022/02/08/gocardless-enters-unicorn-club-with-312-million-funding-and-21-billion-valuation",
+          "quote": "2022-02-08T13:01:40+00:00"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2022/02/08/gocardless-enters-unicorn-club-with-312-million-funding-and-21-billion-valuation",
+          "quote": "Permira, which brings significant experience in backing best-in-class payments and financial software businesses"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2022/02/08/gocardless-enters-unicorn-club-with-312-million-funding-and-21-billion-valuation",
+          "quote": "New investor BlackRock Private Equity Partners also joined the round."
+        }
+      ]
+    }
+  ]
+}

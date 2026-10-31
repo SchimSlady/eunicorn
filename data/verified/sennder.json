@@ -1,0 +1,156 @@
+{
+  "id": "sennder",
+  "name": "Sennder",
+  "aliases": [
+    "sennder"
+  ],
+  "domain": "sennder.com",
+  "country": "DE",
+  "city": "Berlin",
+  "founded": 2015,
+  "sectors": [
+    "mobility"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "David Nothacker",
+    "Julius Köhler",
+    "Nicolaus Schefenacker"
+  ],
+  "difficulty": 3,
+  "techeuId": "97016033-1501-4F47-A13B-A9677CE8EDD6",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://techcrunch.com/2019/07/22/sennder-raises-70m-on-300m-valuation-to-take-on-the-freight-forwarding-industry/",
+      "quote": "Today, a Berlin-based startup called Sennder is announcing a significant round of funding"
+    },
+    {
+      "field": "founded",
+      "url": "https://techcrunch.com/2021/01/13/digital-road-freight-forwarder-sennder-raises-160m-series-plans-european-expansion/",
+      "quote": "Since its founding in 2015 by David Nothacker, Julius Köhler and Nicolaus Schefenacker"
+    },
+    {
+      "field": "founders",
+      "url": "https://techcrunch.com/2021/01/13/digital-road-freight-forwarder-sennder-raises-160m-series-plans-european-expansion/",
+      "quote": "Since its founding in 2015 by David Nothacker, Julius Köhler and Nicolaus Schefenacker"
+    },
+    {
+      "field": "sectors",
+      "url": "https://ca.news.yahoo.com/freight-tech-startup-sennder-raises-061233729.html",
+      "quote": "Digital freight startup Sennder said on Thursday it had raised $160 million from investors"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "6ab32c3c-ab6c-42ee-fc07-08d91092c887",
+      "stage": "series-c",
+      "month": "2019-07",
+      "amountEur": 62416407,
+      "amountOriginal": 70000000,
+      "currency": "USD",
+      "investors": [
+        "Lakestar",
+        "Accel",
+        "Next47",
+        "H14",
+        "HV Holtzbrinck Ventures",
+        "Project A",
+        "Scania Growth Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2019/07/22/sennder-raises-70m-on-300m-valuation-to-take-on-the-freight-forwarding-industry/",
+          "quote": "It has raised a Series C of $70 million, with a valuation that we understand is in the region of $300 million"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2019/07/22/sennder-raises-70m-on-300m-valuation-to-take-on-the-freight-forwarding-industry/",
+          "quote": "It has raised a Series C of $70 million"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2019/07/22/sennder-raises-70m-on-300m-valuation-to-take-on-the-freight-forwarding-industry/",
+          "quote": "2:27 AM PDT · July 22, 2019"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2019/07/22/sennder-raises-70m-on-300m-valuation-to-take-on-the-freight-forwarding-industry/",
+          "quote": "The funding — led by Lakestar with participation from Accel, Next47, H14, HV Holtzbrinck Ventures, Project A and Scania Growth Capital"
+        }
+      ]
+    },
+    {
+      "techeuId": "124e6cf8-b9b4-4a0e-fc08-08d91092c887",
+      "stage": "series-d",
+      "month": "2021-01",
+      "amountEur": 131969647,
+      "amountOriginal": 160000000,
+      "currency": "USD",
+      "investors": [
+        "Accel",
+        "Lakestar",
+        "HV Capital",
+        "Project A",
+        "Scania"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2021/01/13/digital-road-freight-forwarder-sennder-raises-160m-series-plans-european-expansion/",
+          "quote": "has raised $160 million in Series D financing"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2021/01/13/digital-road-freight-forwarder-sennder-raises-160m-series-plans-european-expansion/",
+          "quote": "has raised $160 million in Series D financing"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2021/01/13/digital-road-freight-forwarder-sennder-raises-160m-series-plans-european-expansion/",
+          "quote": "7:00 PM PST · January 13, 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2021/01/13/digital-road-freight-forwarder-sennder-raises-160m-series-plans-european-expansion/",
+          "quote": "round participants included Accel, Lakestar, HV Capital, Project A and Scania"
+        }
+      ]
+    },
+    {
+      "techeuId": "ffb4eaa2-603c-4b2b-81a1-92e7ca4386e6",
+      "stage": "series-d",
+      "month": "2021-06",
+      "amountEur": 65439673,
+      "amountOriginal": 80000000,
+      "currency": "USD",
+      "investors": [
+        "Baillie Gifford"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2021/06/01/freight-forwarder-sennder-raises-80m-at-a-1b-valuation/",
+          "quote": "has raised $80 million in funding, at a valuation the company confirms is now over $1 billion"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2021/06/01/freight-forwarder-sennder-raises-80m-at-a-1b-valuation/",
+          "quote": "this $80 million is closing out its Series D"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2021/06/01/freight-forwarder-sennder-raises-80m-at-a-1b-valuation/",
+          "quote": "12:14 AM PDT · June 1, 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2021/06/01/freight-forwarder-sennder-raises-80m-at-a-1b-valuation/",
+          "quote": "Baillie Gifford led this latest Series D extension"
+        }
+      ]
+    }
+  ]
+}

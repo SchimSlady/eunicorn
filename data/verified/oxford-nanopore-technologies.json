@@ -1,0 +1,95 @@
+{
+  "id": "oxford-nanopore-technologies",
+  "name": "Oxford Nanopore Technologies",
+  "aliases": [
+    "Oxford Nanopore"
+  ],
+  "domain": "nanoporetech.com",
+  "country": "GB",
+  "city": "Oxford",
+  "founded": 2005,
+  "sectors": [
+    "biotech"
+  ],
+  "status": "public",
+  "unicorn": true,
+  "lastValuationEur": 2858130690,
+  "founders": [
+    "Hagan Bayley",
+    "Gordon Sanghera",
+    "Spike Willcocks"
+  ],
+  "difficulty": 3,
+  "techeuId": "1EB273E8-283D-422D-B56F-5E6C6E8E6B0D",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/Oxford_Nanopore_Technologies",
+      "quote": "Headquarters Oxford Science Park , Oxford , United Kingdom"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Oxford_Nanopore_Technologies",
+      "quote": "The company was founded in 2005 as a spin-out from the University of Oxford by Hagan Bayley"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Oxford_Nanopore_Technologies",
+      "quote": "Hagan Bayley , [ 9 ] Gordon Sanghera, and Spike Willcocks"
+    },
+    {
+      "field": "sectors",
+      "url": "https://en.wikipedia.org/wiki/Oxford_Nanopore_Technologies",
+      "quote": "Its platform includes sequencing devices, consumables and software used across research, applied and clinical markets."
+    },
+    {
+      "field": "unicorn",
+      "url": "https://www.uktech.news/news/biotech-unicorn-oxford-nanopore-raises-195m-ahead-of-london-ipo-valued-at-248b-20210506",
+      "quote": "the company has raised £195 million in new capital in a private transaction, valuing the company at £2.48 billion."
+    },
+    {
+      "field": "valuation",
+      "url": "https://www.uktech.news/news/biotech-unicorn-oxford-nanopore-raises-195m-ahead-of-london-ipo-valued-at-248b-20210506",
+      "quote": "the company has raised £195 million in new capital in a private transaction, valuing the company at £2.48 billion."
+    },
+    {
+      "field": "status",
+      "url": "https://en.wikipedia.org/wiki/Oxford_Nanopore_Technologies",
+      "quote": "The company made an initial public offering on the London Stock Exchange on 30 September 2021"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "21a3e4e5-288a-49bf-b0e7-83aac687b73b",
+      "stage": "series-f+",
+      "month": "2021-05",
+      "amountEur": 224732050,
+      "amountOriginal": 195000000,
+      "currency": "GBP",
+      "investors": [
+        "Temasek",
+        "Wellington Management",
+        "M&G Investments",
+        "Nikon",
+        "IP Group"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.uktech.news/news/biotech-unicorn-oxford-nanopore-raises-195m-ahead-of-london-ipo-valued-at-248b-20210506",
+          "quote": "the company has raised £195 million in new capital in a private transaction, valuing the company at £2.48 billion."
+        },
+        {
+          "field": "month",
+          "url": "https://uk.finance.yahoo.com/news/biotech-unicorn-oxford-nanopore-raises-141320839.html",
+          "quote": "2021-05-04T14:18:14Z"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.uktech.news/news/biotech-unicorn-oxford-nanopore-raises-195m-ahead-of-london-ipo-valued-at-248b-20210506",
+          "quote": "£125 million of the investment comes from new investors Temasek, Wellington Management, M&G Investments, and Nikon. Existing investors including the IP Group, contributed £70 million as well."
+        }
+      ]
+    }
+  ]
+}

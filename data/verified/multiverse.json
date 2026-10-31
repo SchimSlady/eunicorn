@@ -1,0 +1,140 @@
+{
+  "id": "multiverse",
+  "name": "Multiverse",
+  "aliases": [
+    "WhiteHat",
+    "White Hat"
+  ],
+  "domain": "multiverse.io",
+  "country": "GB",
+  "city": "London",
+  "founded": 2016,
+  "sectors": [
+    "saas"
+  ],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 1583015178,
+  "founders": [
+    "Euan Blair",
+    "Sophie Adelman"
+  ],
+  "difficulty": 2,
+  "techeuId": "E60291A2-B552-41C1-AD62-631B146ACF6F",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/Multiverse_(company)",
+      "quote": "Based in London , United Kingdom"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Multiverse_(company)",
+      "quote": "Multiverse is a British educational technology company founded in 2016 by Euan Blair and Sophie Adelman."
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Multiverse_(company)",
+      "quote": "Multiverse is a British educational technology company founded in 2016 by Euan Blair and Sophie Adelman."
+    },
+    {
+      "field": "sectors",
+      "url": "https://en.wikipedia.org/wiki/Multiverse_(company)",
+      "quote": "provides apprenticeship -based training and upskilling for early-career and experienced employees, primarily in technology and artificial intelligence roles"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://techcrunch.com/2022/06/08/multiverse-nabs-220m-at-a-1-7b-valuation-to-expand-its-tech-apprenticeship-platform/",
+      "quote": "has closed a Series D of $220 million, with its post-money valuation coming in at $1.7 billion."
+    },
+    {
+      "field": "valuation",
+      "url": "https://techcrunch.com/2022/06/08/multiverse-nabs-220m-at-a-1-7b-valuation-to-expand-its-tech-apprenticeship-platform/",
+      "quote": "has closed a Series D of $220 million, with its post-money valuation coming in at $1.7 billion."
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "fa4c214e-56d2-4c0e-a6dd-e24db6ccd5ce",
+      "stage": "series-c",
+      "month": "2021-09",
+      "amountEur": 111320432,
+      "amountOriginal": 130000000,
+      "currency": "USD",
+      "postMoneyValuationEur": 749272136,
+      "investors": [
+        "D1 Capital Partners",
+        "BOND"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2021/09/28/multiverse-the-tech-apprenticeship-startup-nabs-130m-at-an-875m-valuation/",
+          "quote": "The company today announced that it has closed $130 million in a Series C round."
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2021/09/28/multiverse-the-tech-apprenticeship-startup-nabs-130m-at-an-875m-valuation/",
+          "quote": "The company today announced that it has closed $130 million in a Series C round."
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2021/09/28/multiverse-the-tech-apprenticeship-startup-nabs-130m-at-an-875m-valuation/",
+          "quote": "September 28, 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2021/09/28/multiverse-the-tech-apprenticeship-startup-nabs-130m-at-an-875m-valuation/",
+          "quote": "D1 Capital Partners and BOND led this latest investment"
+        }
+      ]
+    },
+    {
+      "techeuId": "873270bc-cbe9-4da0-b63c-e18fc40abf4c",
+      "stage": "series-d",
+      "month": "2022-06",
+      "amountEur": 204860788,
+      "amountOriginal": 220000000,
+      "currency": "USD",
+      "postMoneyValuationEur": 1583015178,
+      "investors": [
+        "StepStone Group",
+        "Lightspeed Venture Partners",
+        "General Catalyst",
+        "Founders Circle Capital",
+        "Audacious Ventures",
+        "BOND",
+        "D1 Capital Partners",
+        "GV",
+        "Index Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2022/06/08/multiverse-nabs-220m-at-a-1-7b-valuation-to-expand-its-tech-apprenticeship-platform/",
+          "quote": "has closed a Series D of $220 million, with its post-money valuation coming in at $1.7 billion."
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2022/06/08/multiverse-nabs-220m-at-a-1-7b-valuation-to-expand-its-tech-apprenticeship-platform/",
+          "quote": "has closed a Series D of $220 million, with its post-money valuation coming in at $1.7 billion."
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2022/06/08/multiverse-nabs-220m-at-a-1-7b-valuation-to-expand-its-tech-apprenticeship-platform/",
+          "quote": "June 8, 2022"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2022/06/08/multiverse-nabs-220m-at-a-1-7b-valuation-to-expand-its-tech-apprenticeship-platform/",
+          "quote": "StepStone Group"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2022/06/08/multiverse-nabs-220m-at-a-1-7b-valuation-to-expand-its-tech-apprenticeship-platform/",
+          "quote": "Lightspeed Venture Partners and General Catalyst all co-led this round, with Founders Circle Capital and past backers Audacious Ventures, BOND, D1 Capital Partners, GV and Index Ventures all also participating."
+        }
+      ]
+    }
+  ]
+}

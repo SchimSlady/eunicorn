@@ -1,0 +1,101 @@
+{
+  "id": "ynsect",
+  "name": "Ynsect",
+  "aliases": [
+    "Ÿnsect"
+  ],
+  "domain": "ynsect.com",
+  "country": "FR",
+  "city": "Évry",
+  "founded": 2011,
+  "sectors": [
+    "climate"
+  ],
+  "status": "defunct",
+  "unicorn": false,
+  "founders": [
+    "Antoine Hubert",
+    "Jean-Gabriel Levon",
+    "Fabrice Berro",
+    "Alexis Angot"
+  ],
+  "difficulty": 3,
+  "techeuId": "C7A4A367-F399-44A3-BA3D-43D2021485A3",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/Ynsect",
+      "quote": "Headquarters Évry, Essonne, France"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Ynsect",
+      "quote": "founded in 2011 in Paris"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Ynsect",
+      "quote": "Ÿnsect was founded by four scientists and environmental activists"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Ynsect",
+      "quote": "was founded by four scientists and environmental activists: [ 2 ] Antoine Hubert"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Ynsect",
+      "quote": "Jean-Gabriel Levon"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Ynsect",
+      "quote": "Fabrice Berro"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Ynsect",
+      "quote": "Alexis Angot"
+    },
+    {
+      "field": "sectors",
+      "url": "https://en.wikipedia.org/wiki/Ynsect",
+      "quote": "Ÿnsect was a company that produces insect-based proteins and natural fertilizers"
+    },
+    {
+      "field": "status",
+      "url": "https://en.wikipedia.org/wiki/Ynsect",
+      "quote": "On December 1, 2025, the Evry commercial court ordered the company's judicial liquidation."
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "seed",
+      "month": "2014-02",
+      "amountEur": 1800000,
+      "amountOriginal": 1800000,
+      "currency": "EUR",
+      "investors": [
+        "Emertec Gestion",
+        "Demeter Partners"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://en.wikipedia.org/wiki/Ynsect",
+          "quote": "In February 2014, Ÿnsect completed its first fundraising round, raising €1.8 million"
+        },
+        {
+          "field": "month",
+          "url": "https://en.wikipedia.org/wiki/Ynsect",
+          "quote": "In February 2014, Ÿnsect completed its first fundraising round"
+        },
+        {
+          "field": "investors",
+          "url": "https://en.wikipedia.org/wiki/Ynsect",
+          "quote": "raising €1.8 million from shareholders such as Emertec Gestion and Demeter Partners"
+        }
+      ]
+    }
+  ]
+}

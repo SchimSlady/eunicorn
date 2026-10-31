@@ -1,0 +1,124 @@
+{
+  "id": "finom",
+  "name": "Finom",
+  "aliases": [],
+  "domain": "finom.co",
+  "country": "NL",
+  "city": "Amsterdam",
+  "founded": 2019,
+  "sectors": [
+    "fintech"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Kos Stiskin"
+  ],
+  "difficulty": 3,
+  "techeuId": "BC153D29-F6C0-44ED-9BC0-A1CC2F7F1B35",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.startbase.com/news/finom-sichert-sich-115-millionen-euro-in-series-c/",
+      "quote": "News by Marc Nemitz · Amsterdam, 23."
+    },
+    {
+      "field": "founded",
+      "url": "https://tech.eu/2024/02/13/dutch-sme-banking-provider-finom-bags-quite-easy-eur50m-series-b-funding-round/",
+      "quote": "Founded in 2019, Finom, which employs around 250 people, has offices in the Netherlands and Cyprus and is also hiring staff in Spain and Poland, where it also offers its services."
+    },
+    {
+      "field": "founders",
+      "url": "https://tech.eu/2024/02/13/dutch-sme-banking-provider-finom-bags-quite-easy-eur50m-series-b-funding-round/",
+      "quote": "And the co-founder and head of strategy of Finom Kos Stiskin says, not in a gloating fashion, “it was quite easy” to get the funding."
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.startbase.com/news/finom-sichert-sich-115-millionen-euro-in-series-c/",
+      "quote": "Finom , provider of a digital finance platform for small and medium-sized enterprises (SMEs)"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "7c825869-7dc6-4ca0-820f-4945af9532a6",
+      "stage": "series-b",
+      "month": "2024-02",
+      "amountEur": 50000000,
+      "amountOriginal": 50000000,
+      "currency": "EUR",
+      "investors": [
+        "Northzone",
+        "General Catalyst",
+        "Cogito Capital",
+        "Entrée Capital",
+        "FJLabs",
+        "s16vc",
+        "Target Global"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2024/02/13/dutch-sme-banking-provider-finom-bags-quite-easy-eur50m-series-b-funding-round/",
+          "quote": "But SME banking provider Finom has just landed a €50m Series B funding round co-led by existing investor General Catalyst and new backer Northzone."
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2024/02/13/dutch-sme-banking-provider-finom-bags-quite-easy-eur50m-series-b-funding-round/",
+          "quote": "But SME banking provider Finom has just landed a €50m Series B funding round co-led by existing investor General Catalyst and new backer Northzone."
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2024/02/13/dutch-sme-banking-provider-finom-bags-quite-easy-eur50m-series-b-funding-round/",
+          "quote": "John Reynolds 13 February 2024"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2024/02/13/dutch-sme-banking-provider-finom-bags-quite-easy-eur50m-series-b-funding-round/",
+          "quote": "The funding round, which brings Finom’s total raised capital to over €100 million, also saw participation from existing investors Cogito Capital, Entrée Capital, FJLabs, s16vc, and Target Global."
+        }
+      ]
+    },
+    {
+      "techeuId": "aafa6522-a67d-47ce-8fb7-5202b993b655",
+      "stage": "series-c",
+      "month": "2025-06",
+      "amountEur": 115000000,
+      "amountOriginal": 115000000,
+      "currency": "EUR",
+      "investors": [
+        "AVP",
+        "Headline Growth",
+        "General Catalyst",
+        "Northzone",
+        "Cogito Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.startbase.com/news/finom-sichert-sich-115-millionen-euro-in-series-c/",
+          "quote": "June 2025 (c) FINOM FinTech Finom , provider of a digital finance platform for small and medium-sized enterprises (SMEs), has closed a Series C financing round of 115 million euros."
+        },
+        {
+          "field": "stage",
+          "url": "https://www.startbase.com/news/finom-sichert-sich-115-millionen-euro-in-series-c/",
+          "quote": "June 2025 (c) FINOM FinTech Finom , provider of a digital finance platform for small and medium-sized enterprises (SMEs), has closed a Series C financing round of 115 million euros."
+        },
+        {
+          "field": "month",
+          "url": "https://www.startbase.com/news/finom-sichert-sich-115-millionen-euro-in-series-c/",
+          "quote": "June 2025 (c) FINOM FinTech"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.startbase.com/news/finom-sichert-sich-115-millionen-euro-in-series-c/",
+          "quote": "The round was led by AVP (formerly AXA Venture Partners)."
+        },
+        {
+          "field": "investors",
+          "url": "https://www.startbase.com/news/finom-sichert-sich-115-millionen-euro-in-series-c/",
+          "quote": "Headline Growth is a new investor, while General Catalyst, Northzone and Cogito Capital are once again providing capital."
+        }
+      ]
+    }
+  ]
+}

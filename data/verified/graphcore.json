@@ -1,0 +1,228 @@
+{
+  "id": "graphcore",
+  "name": "Graphcore",
+  "aliases": [],
+  "domain": "graphcore.ai",
+  "country": "GB",
+  "city": "Bristol",
+  "founded": 2016,
+  "sectors": [
+    "semiconductors",
+    "ai"
+  ],
+  "status": "acquired",
+  "unicorn": true,
+  "lastValuationEur": 1494242771,
+  "founders": [
+    "Simon Knowles",
+    "Nigel Toon"
+  ],
+  "difficulty": 3,
+  "techeuId": "9BFCF4DF-B5B9-4102-AE4D-EA02156AB6CB",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://techcrunch.com/2018/12/18/ai-chip-startup-graphcore-closes-200m-series-d-adds-bmw-and-microsoft-as-strategic-investors/",
+      "quote": "beef up its engineer teams at its Bristol HQ"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Graphcore",
+      "quote": "Graphcore was founded in 2016 by Simon Knowles and Nigel Toon."
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Graphcore",
+      "quote": "Graphcore was founded in 2016 by Simon Knowles and Nigel Toon."
+    },
+    {
+      "field": "sectors",
+      "url": "https://techcrunch.com/2018/12/18/ai-chip-startup-graphcore-closes-200m-series-d-adds-bmw-and-microsoft-as-strategic-investors/",
+      "quote": "building dedicated processing hardware for machine learning applications"
+    },
+    {
+      "field": "status",
+      "url": "https://en.wikipedia.org/wiki/Graphcore",
+      "quote": "In July 2024, Softbank Group agreed to acquire Graphcore for around $500 million."
+    },
+    {
+      "field": "unicorn",
+      "url": "https://techcrunch.com/2018/12/18/ai-chip-startup-graphcore-closes-200m-series-d-adds-bmw-and-microsoft-as-strategic-investors/",
+      "quote": "Graphcore says the Series D values the company at $1.7BN."
+    },
+    {
+      "field": "valuation",
+      "url": "https://techcrunch.com/2018/12/18/ai-chip-startup-graphcore-closes-200m-series-d-adds-bmw-and-microsoft-as-strategic-investors/",
+      "quote": "Graphcore says the Series D values the company at $1.7BN."
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "fd5395a8-2e2f-4376-e67a-08d91092c887",
+      "stage": "series-a",
+      "month": "2016-10",
+      "amountEur": 27407272,
+      "amountOriginal": 30000000,
+      "currency": "USD",
+      "investors": [
+        "Robert Bosch Venture Capital",
+        "Samsung",
+        "Amadeus Capital Partners",
+        "C4 Ventures",
+        "Draper Esprit",
+        "Foundation Capital",
+        "Pitango Venture Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.cnbc.com/2016/10/31/ai-chipmaker-graphcore-raises-30-million-to-take-on-intel-nvidia.html",
+          "quote": "A computer chip start-up designing hardware for artificial intelligence (AI) applications has raised $30 million"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2018/12/18/ai-chip-startup-graphcore-closes-200m-series-d-adds-bmw-and-microsoft-as-strategic-investors/",
+          "quote": "It also raised a $32M Series A in October 2016."
+        },
+        {
+          "field": "month",
+          "url": "https://www.cnbc.com/2016/10/31/ai-chipmaker-graphcore-raises-30-million-to-take-on-intel-nvidia.html",
+          "quote": "Published Mon, Oct 31 2016"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.cnbc.com/2016/10/31/ai-chipmaker-graphcore-raises-30-million-to-take-on-intel-nvidia.html",
+          "quote": "The funding round was led by Robert Bosch Venture Capital and included Samsung, as well as venture capital firms Amadeus Capital Partners, C4 Ventures, Draper Esprit, Foundation Capital and Pitango Venture Capital."
+        }
+      ]
+    },
+    {
+      "techeuId": "e4607045-42cf-4fe8-e67b-08d91092c887",
+      "stage": "series-b",
+      "month": "2017-07",
+      "amountEur": 26121027,
+      "amountOriginal": 30000000,
+      "currency": "USD",
+      "investors": [
+        "Atomico"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2018/12/18/ai-chip-startup-graphcore-closes-200m-series-d-adds-bmw-and-microsoft-as-strategic-investors/",
+          "quote": "a $30M Series B led by Atomico, in July 2017"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2018/12/18/ai-chip-startup-graphcore-closes-200m-series-d-adds-bmw-and-microsoft-as-strategic-investors/",
+          "quote": "a $30M Series B led by Atomico, in July 2017"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2018/12/18/ai-chip-startup-graphcore-closes-200m-series-d-adds-bmw-and-microsoft-as-strategic-investors/",
+          "quote": "a $30M Series B led by Atomico, in July 2017"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2018/12/18/ai-chip-startup-graphcore-closes-200m-series-d-adds-bmw-and-microsoft-as-strategic-investors/",
+          "quote": "a $30M Series B led by Atomico, in July 2017"
+        }
+      ]
+    },
+    {
+      "techeuId": "db472181-644e-485d-e67c-08d91092c887",
+      "stage": "series-c",
+      "month": "2017-11",
+      "amountEur": 42903724,
+      "amountOriginal": 50000000,
+      "currency": "USD",
+      "investors": [
+        "Sequoia Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2017/11/12/graphcore-raises-50m-amid-a-flurry-of-ai-chip-activity/",
+          "quote": "it has raised $50 million in new financing led by Sequoia Capital"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2018/12/18/ai-chip-startup-graphcore-closes-200m-series-d-adds-bmw-and-microsoft-as-strategic-investors/",
+          "quote": "bagged $50M in Series C financing a year ago, led by Sequoia Capital"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2017/11/12/graphcore-raises-50m-amid-a-flurry-of-ai-chip-activity/",
+          "quote": "November 12, 2017"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2017/11/12/graphcore-raises-50m-amid-a-flurry-of-ai-chip-activity/",
+          "quote": "it has raised $50 million in new financing led by Sequoia Capital"
+        }
+      ]
+    },
+    {
+      "techeuId": "8d714082-3027-4840-e67d-08d91092c887",
+      "stage": "series-d",
+      "month": "2018-12",
+      "amountEur": 175793267,
+      "amountOriginal": 200000000,
+      "currency": "USD",
+      "postMoneyValuationEur": 1494242771,
+      "investors": [
+        "Atomico",
+        "Sofina",
+        "Merian Chrysalis Fund",
+        "BMW",
+        "Microsoft",
+        "Amadeus Capital Partners",
+        "Robert Bosch Venture Capital",
+        "C4 Ventures",
+        "Dell Technologies Capital",
+        "Draper Esprit",
+        "Foundation Capital",
+        "Pitango",
+        "Samsung",
+        "Sequoia Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2018/12/18/ai-chip-startup-graphcore-closes-200m-series-d-adds-bmw-and-microsoft-as-strategic-investors/",
+          "quote": "UK AI chip startup Graphcore has announced a $200 million Series D round today"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2018/12/18/ai-chip-startup-graphcore-closes-200m-series-d-adds-bmw-and-microsoft-as-strategic-investors/",
+          "quote": "UK AI chip startup Graphcore has announced a $200 million Series D round today"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2018/12/18/ai-chip-startup-graphcore-closes-200m-series-d-adds-bmw-and-microsoft-as-strategic-investors/",
+          "quote": "December 18, 2018"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2018/12/18/ai-chip-startup-graphcore-closes-200m-series-d-adds-bmw-and-microsoft-as-strategic-investors/",
+          "quote": "jointly led by an existing investor, European VC Atomico, along with new investor Sofina"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2018/12/18/ai-chip-startup-graphcore-closes-200m-series-d-adds-bmw-and-microsoft-as-strategic-investors/",
+          "quote": "Also joining are two new strategic investors BMW and Microsoft"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2018/12/18/ai-chip-startup-graphcore-closes-200m-series-d-adds-bmw-and-microsoft-as-strategic-investors/",
+          "quote": "One new investor in the Series D is London-based Merian Global Investors, via their Merian Chrysalis Fund"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2018/12/18/ai-chip-startup-graphcore-closes-200m-series-d-adds-bmw-and-microsoft-as-strategic-investors/",
+          "quote": "Existing investors also contributing to the Series D include Amadeus Capital Partners, Robert Bosch Venture Capital, C4 Ventures, Dell Technologies Capital, Draper Esprit, Foundation Capital, Pitango, Samsung and Sequoia Capital."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,256 @@
+{
+  "id": "quantexa",
+  "name": "Quantexa",
+  "aliases": [],
+  "domain": "quantexa.com",
+  "country": "GB",
+  "city": "London",
+  "founded": 2016,
+  "sectors": [
+    "ai",
+    "saas"
+  ],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 2431269871,
+  "founders": [
+    "Vishal Marria",
+    "Jamie Hutton",
+    "Imam Hoque",
+    "Felix Hoddinott"
+  ],
+  "difficulty": 3,
+  "techeuId": "E65D8065-FC85-477F-B369-1F89F987175B",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/Quantexa",
+      "quote": "founded in 2016 and is headquartered in London"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Quantexa",
+      "quote": "founded in 2016 and is headquartered in London"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Quantexa",
+      "quote": "founded in London in 2016 by several co-founders, including Jamie Hutton"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Quantexa",
+      "quote": "Richard Seewald, Imam Hoque, Felix Hoddinott, and Vishal Marria"
+    },
+    {
+      "field": "sectors",
+      "url": "https://en.wikipedia.org/wiki/Quantexa",
+      "quote": "Quantexa reported a valuation of $2.6 billion"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://otpp.com/en-ca/about-us/news-and-insights/2025/quantexa-completes-175million-usd-investment-round-led-by-tvg/",
+      "quote": "The latest round values the British tech company at USD 2.6 billion"
+    },
+    {
+      "field": "valuation",
+      "url": "https://otpp.com/en-ca/about-us/news-and-insights/2025/quantexa-completes-175million-usd-investment-round-led-by-tvg/",
+      "quote": "The latest round values the British tech company at USD 2.6 billion"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "5db2abfb-3527-4993-ec8d-08d91092c887",
+      "stage": "series-b",
+      "month": "2018-08",
+      "amountEur": 20051232,
+      "amountOriginal": 22700000,
+      "currency": "USD",
+      "investors": [],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.prnewswire.com/news-releases/quantexa-raises-64-7m-in-new-series-c-funding-to-drive-hyper-growth-in-big-data-and-analytics-ecosystem-301098187.html",
+          "quote": "This new round of funding follows a $22.7 million Series B round secured in August 2018"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.prnewswire.com/news-releases/quantexa-raises-64-7m-in-new-series-c-funding-to-drive-hyper-growth-in-big-data-and-analytics-ecosystem-301098187.html",
+          "quote": "This new round of funding follows a $22.7 million Series B round secured in August 2018"
+        },
+        {
+          "field": "month",
+          "url": "https://www.prnewswire.com/news-releases/quantexa-raises-64-7m-in-new-series-c-funding-to-drive-hyper-growth-in-big-data-and-analytics-ecosystem-301098187.html",
+          "quote": "This new round of funding follows a $22.7 million Series B round secured in August 2018"
+        }
+      ]
+    },
+    {
+      "techeuId": "e85cd9a5-af43-40a0-ec8e-08d91092c887",
+      "stage": "series-c",
+      "month": "2020-07",
+      "amountEur": 55925318,
+      "amountOriginal": 64700000,
+      "currency": "USD",
+      "investors": [
+        "Evolution Equity Partners",
+        "Dawn Capital",
+        "AlbionVC",
+        "HSBC",
+        "British Patient Capital",
+        "ABN AMRO Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.prnewswire.com/news-releases/quantexa-raises-64-7m-in-new-series-c-funding-to-drive-hyper-growth-in-big-data-and-analytics-ecosystem-301098187.html",
+          "quote": "Quantexa , the contextual decision intelligence software company, today announced that it has raised $64.7 million in Series C funding. The round was led by Evolution Equity Partners"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.prnewswire.com/news-releases/quantexa-raises-64-7m-in-new-series-c-funding-to-drive-hyper-growth-in-big-data-and-analytics-ecosystem-301098187.html",
+          "quote": "Quantexa , the contextual decision intelligence software company, today announced that it has raised $64.7 million in Series C funding. The round was led by Evolution Equity Partners"
+        },
+        {
+          "field": "month",
+          "url": "https://www.prnewswire.com/news-releases/quantexa-raises-64-7m-in-new-series-c-funding-to-drive-hyper-growth-in-big-data-and-analytics-ecosystem-301098187.html",
+          "quote": "July 23, 2020"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.prnewswire.com/news-releases/quantexa-raises-64-7m-in-new-series-c-funding-to-drive-hyper-growth-in-big-data-and-analytics-ecosystem-301098187.html",
+          "quote": "Quantexa , the contextual decision intelligence software company, today announced that it has raised $64.7 million in Series C funding. The round was led by Evolution Equity Partners"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.prnewswire.com/news-releases/quantexa-raises-64-7m-in-new-series-c-funding-to-drive-hyper-growth-in-big-data-and-analytics-ecosystem-301098187.html",
+          "quote": "with major participation from existing investors Dawn Capital, AlbionVC and HSBC to fuel additional growth. New investors British Patient Capital and ABN AMRO Ventures also joined"
+        }
+      ]
+    },
+    {
+      "techeuId": "9644e1f1-b63e-4000-9f4e-655301e302f0",
+      "stage": "series-d",
+      "month": "2021-07",
+      "amountEur": 129179331,
+      "amountOriginal": 153000000,
+      "currency": "USD",
+      "investors": [
+        "Warburg Pincus",
+        "Dawn Capital",
+        "AlbionVC",
+        "Evolution Equity Partners",
+        "HSBC",
+        "ABN AMRO Ventures",
+        "British Patient Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.quantexa.com/press/quantexa-series-d-funding/",
+          "quote": "Quantexa has raised $153m in Series D funding from Warburg Pincus and a growing group of blue-chip investors."
+        },
+        {
+          "field": "stage",
+          "url": "https://www.quantexa.com/press/quantexa-series-d-funding/",
+          "quote": "Quantexa has raised $153m in Series D funding from Warburg Pincus and a growing group of blue-chip investors."
+        },
+        {
+          "field": "month",
+          "url": "https://www.quantexa.com/press/quantexa-series-d-funding/",
+          "quote": "Jul 13th, 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.quantexa.com/press/quantexa-series-d-funding/",
+          "quote": "This round was led by Warburg Pincus"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.quantexa.com/press/quantexa-series-d-funding/",
+          "quote": "Existing investors participating were Dawn Capital, AlbionVC, Evolution Equity Partners, HSBC, ABN AMRO Ventures and British Patient Capital."
+        }
+      ]
+    },
+    {
+      "techeuId": "243fa200-27ab-4e3b-bd79-437daab2f4fe",
+      "stage": "series-e",
+      "month": "2023-04",
+      "amountEur": 118337767,
+      "amountOriginal": 129000000,
+      "currency": "USD",
+      "investors": [
+        "GIC",
+        "Warburg Pincus",
+        "Dawn Capital",
+        "British Patient Capital",
+        "Evolution Equity Partners",
+        "HSBC",
+        "BNY Mellon",
+        "ABN AMRO",
+        "AlbionVC"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.quantexa.com/press/series-e-funding-round/",
+          "quote": "Quantexa has completed a $129 million Series E funding round taking the company's valuation up to $1.8 billion."
+        },
+        {
+          "field": "stage",
+          "url": "https://www.quantexa.com/press/series-e-funding-round/",
+          "quote": "Quantexa has completed a $129 million Series E funding round taking the company's valuation up to $1.8 billion."
+        },
+        {
+          "field": "month",
+          "url": "https://www.quantexa.com/press/series-e-funding-round/",
+          "quote": "Apr 4th, 2023"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.quantexa.com/press/series-e-funding-round/",
+          "quote": "The round was led by GIC , a global institutional investor, and existing investors also participated, including Warburg Pincus , Dawn Capital , British Patient Capital , Evolution Equity Partners , HSBC , BNY Mellon , ABN AMRO , and AlbionVC"
+        }
+      ]
+    },
+    {
+      "techeuId": "fa919239-9ede-4dce-9f9c-02d0854a3571",
+      "stage": "series-f+",
+      "month": "2025-03",
+      "amountEur": 163643164,
+      "amountOriginal": 175000000,
+      "currency": "USD",
+      "investors": [
+        "Teachers’ Venture Growth",
+        "British Patient Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://otpp.com/en-ca/about-us/news-and-insights/2025/quantexa-completes-175million-usd-investment-round-led-by-tvg/",
+          "quote": "announced today that it has completed a USD 175 million Series F investment round, led by Teachers’ Venture Growth"
+        },
+        {
+          "field": "stage",
+          "url": "https://otpp.com/en-ca/about-us/news-and-insights/2025/quantexa-completes-175million-usd-investment-round-led-by-tvg/",
+          "quote": "announced today that it has completed a USD 175 million Series F investment round, led by Teachers’ Venture Growth"
+        },
+        {
+          "field": "month",
+          "url": "https://otpp.com/en-ca/about-us/news-and-insights/2025/quantexa-completes-175million-usd-investment-round-led-by-tvg/",
+          "quote": "March 5, 2025"
+        },
+        {
+          "field": "investors",
+          "url": "https://otpp.com/en-ca/about-us/news-and-insights/2025/quantexa-completes-175million-usd-investment-round-led-by-tvg/",
+          "quote": "announced today that it has completed a USD 175 million Series F investment round, led by Teachers’ Venture Growth"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2025/03/05/quantexa-raises-175m-boosting-valuation-to-26bn/",
+          "quote": "with existing investors participating, including British Patient Capital"
+        }
+      ]
+    }
+  ]
+}

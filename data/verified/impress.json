@@ -1,0 +1,130 @@
+{
+  "id": "impress",
+  "name": "Impress",
+  "aliases": [
+    "Smile2Impress"
+  ],
+  "domain": "smile2impress.com",
+  "country": "ES",
+  "city": "Barcelona",
+  "founded": 2019,
+  "sectors": [
+    "health"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Khaled Kasem",
+    "Diliara Lupenko",
+    "Vladimir Lupenko"
+  ],
+  "difficulty": 3,
+  "techeuId": "31F2C99F-35CE-49EB-9D36-D96216972F3A",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.lbofrance.com/en/impress-european-leader-in-invisible-orthodontics-raises-125m-in-series-b-to-support-its-global-growth/",
+      "quote": "Barcelona, July 12, 2022"
+    },
+    {
+      "field": "founded",
+      "url": "https://www.lbofrance.com/en/impress-european-leader-in-invisible-orthodontics-raises-125m-in-series-b-to-support-its-global-growth/",
+      "quote": "Founded in Barcelona in 2019"
+    },
+    {
+      "field": "founders",
+      "url": "https://techcrunch.com/2022/07/11/barcelonas-impress-heads-towards-a-125m-series-b-round-in-its-bid-to-digitize-orthodontics",
+      "quote": "Khaled Kasem and entrepreneurs Diliara and Vladimir Lupenko"
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.lbofrance.com/en/impress-european-leader-in-invisible-orthodontics-raises-125m-in-series-b-to-support-its-global-growth/",
+      "quote": "the next-generation invisible orthodontics chain"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "b773aa3e-b49e-43cc-a4e2-74c291c34a4f",
+      "stage": "series-a",
+      "month": "2021-05",
+      "amountEur": 41260934,
+      "amountOriginal": 50000000,
+      "currency": "USD",
+      "investors": [
+        "CareCapital",
+        "Nickleby Capital",
+        "UNIQA Ventures",
+        "Michael Linse",
+        "Valentin Pitarque",
+        "Peter Schiff",
+        "Elliot Dornbusch",
+        "TA Ventures",
+        "Bynd VC"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2021/05/12/direct-to-consumer-orthodontic-startup-impress-raises-50m-to-scale-across-europe",
+          "quote": "has raised a $50 million Series A funding round led by CareCapital"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2021/05/12/direct-to-consumer-orthodontic-startup-impress-raises-50m-to-scale-across-europe",
+          "quote": "has raised a $50 million Series A funding round led by CareCapital"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2021/05/12/direct-to-consumer-orthodontic-startup-impress-raises-50m-to-scale-across-europe",
+          "quote": "May 12, 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2021/05/12/direct-to-consumer-orthodontic-startup-impress-raises-50m-to-scale-across-europe",
+          "quote": "along with Nickleby Capital, UNIQA Ventures and investors including Michael Linse, Valentin Pitarque, Peter Schiff, Elliot Dornbusch"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2021/05/12/direct-to-consumer-orthodontic-startup-impress-raises-50m-to-scale-across-europe",
+          "quote": "All existing shareholders, such as TA Ventures and Bynd VC, also participated."
+        }
+      ]
+    },
+    {
+      "techeuId": "8c439208-03f5-4587-9800-d51540601507",
+      "stage": "series-b",
+      "month": "2022-07",
+      "amountEur": 124477196,
+      "amountOriginal": 125000000,
+      "currency": "USD",
+      "investors": [
+        "LBO France",
+        "Norgine Ventures",
+        "TA Ventures",
+        "Uniqa Ventures",
+        "Nickleby Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.lbofrance.com/en/impress-european-leader-in-invisible-orthodontics-raises-125m-in-series-b-to-support-its-global-growth/",
+          "quote": "today announced a $125M Series B financing round."
+        },
+        {
+          "field": "stage",
+          "url": "https://www.lbofrance.com/en/impress-european-leader-in-invisible-orthodontics-raises-125m-in-series-b-to-support-its-global-growth/",
+          "quote": "today announced a $125M Series B financing round."
+        },
+        {
+          "field": "month",
+          "url": "https://www.lbofrance.com/en/impress-european-leader-in-invisible-orthodontics-raises-125m-in-series-b-to-support-its-global-growth/",
+          "quote": "Barcelona, July 12, 2022"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.lbofrance.com/en/impress-european-leader-in-invisible-orthodontics-raises-125m-in-series-b-to-support-its-global-growth/",
+          "quote": "The financing round was supported by LBO France, Norgine Ventures and Claret Capital Partners. Existing investors TA Ventures, Uniqa Ventures and Nickleby Capital also participated in this round."
+        }
+      ]
+    }
+  ]
+}

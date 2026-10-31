@@ -1,0 +1,128 @@
+{
+  "id": "electra",
+  "name": "Electra",
+  "aliases": [],
+  "domain": "go-electra.com",
+  "country": "FR",
+  "city": "Paris",
+  "founded": 2021,
+  "sectors": [
+    "mobility",
+    "climate"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Aurélien de Meaux",
+    "Augustin Derville",
+    "Julien Belliato"
+  ],
+  "difficulty": 3,
+  "techeuId": "BA58EC15-72DA-4AD6-B973-E85AD1EAFDC7",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://techcrunch.com/2024/01/16/ev-charging-startup-electra-secures-330-million/",
+      "quote": "Paris-based startup Electra just raised a $330 million (€304 million) Series B round."
+    },
+    {
+      "field": "founded",
+      "url": "https://dealroom.co/companies/electra/",
+      "quote": "Paris, France Founded 2021"
+    },
+    {
+      "field": "founders",
+      "url": "https://www.go-electra.com/en/newsroom/news/electra-raises-160-millions-euros/",
+      "quote": "Co-founded by Aurélien de Meaux, Augustin Derville and Julien Belliato"
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.go-electra.com/en/newsroom/news/electra-raises-160-millions-euros/",
+      "quote": "Electra offers fast charging hubs for electric vehicles."
+    },
+    {
+      "field": "sectors",
+      "url": "https://techcrunch.com/2024/01/16/ev-charging-startup-electra-secures-330-million/",
+      "quote": "Electra is an electric vehicle charging company building a network of charging stations in France and other European countries."
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "778c92e2-8f59-475d-806e-641856c71252",
+      "stage": "series-a",
+      "month": "2022-06",
+      "amountEur": 160000000,
+      "amountOriginal": 160000000,
+      "currency": "EUR",
+      "investors": [
+        "Eurazeo",
+        "RGREEN Invest",
+        "RIVE Private Investment",
+        "Serena",
+        "Chopard Group",
+        "SNCF (574 Invest)",
+        "RATP Capital Innovation"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.go-electra.com/en/newsroom/news/electra-raises-160-millions-euros/",
+          "quote": "This €160 million equity financing is the largest ever raised by a French company in the fast charging sector"
+        },
+        {
+          "field": "month",
+          "url": "https://www.go-electra.com/en/newsroom/news/electra-raises-160-millions-euros/",
+          "quote": "Jun 30, 2022"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.go-electra.com/en/newsroom/news/electra-raises-160-millions-euros/",
+          "quote": "Eurazeo, which is leading this round, RGREEN Invest, RIVE Private Investment, Serena, the Chopard Group, SNCF (574 Invest) and RATP Capital Innovation"
+        }
+      ]
+    },
+    {
+      "techeuId": "8c67e2c8-aa10-4d21-8fb9-252da3e415f2",
+      "stage": "series-b",
+      "month": "2024-01",
+      "amountEur": 304000000,
+      "amountOriginal": 304000000,
+      "currency": "EUR",
+      "investors": [
+        "PGGM",
+        "Bpifrance Large Venture fund",
+        "Eurazeo",
+        "RIVE Private Investment",
+        "SNCF",
+        "Serena"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2024/01/16/ev-charging-startup-electra-secures-330-million/",
+          "quote": "Paris-based startup Electra just raised a $330 million (€304 million) Series B round."
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2024/01/16/ev-charging-startup-electra-secures-330-million/",
+          "quote": "Paris-based startup Electra just raised a $330 million (€304 million) Series B round."
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2024/01/16/ev-charging-startup-electra-secures-330-million/",
+          "quote": "January 16, 2024"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2024/01/16/electra-raises-eur304m-in-record-breaking-equity-fundraising-for-its-ev-charging-network/",
+          "quote": "The Dutch pension fund service provider, PGGM, leads this funding round."
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2024/01/16/electra-raises-eur304m-in-record-breaking-equity-fundraising-for-its-ev-charging-network/",
+          "quote": "Historical investors, especially Eurazeo, RIVE Private Investment, the SNCF group, and Serena participate in this round."
+        }
+      ]
+    }
+  ]
+}
