@@ -7,7 +7,9 @@ export function BuiltInEuropeCard({ company, founders }: { company: Company; fou
     <div className="rounded-2xl bg-eu-blue p-5 text-white">
       <p className="text-xs font-semibold uppercase tracking-widest text-eu-yellow">Built in Europe</p>
       <div className="mt-3 flex items-center gap-3">
-        <CompanyLogo company={company} size={48} />
+        <span className="rounded-lg ring-2 ring-white/40">
+          <CompanyLogo company={company} size={48} />
+        </span>
         <div>
           <p className="text-xl font-bold">{company.name}</p>
           <p className="text-sm text-white/80">
