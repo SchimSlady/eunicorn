@@ -250,9 +250,41 @@ interface Group {
   shared: string;
   /** What sets the impostor apart: "comes from France". */
   odd: (c: Company) => string;
+  /** A near miss for Hard: outside the group but easy to mistake for a member. */
+  near: (c: Company, fit: Company[]) => boolean;
 }
 
-function impostor(base: Base, date: string, companies: Company[], rng: Rng): ImpostorPuzzle | null {
+/** Sectors people mix up, for near-miss impostors. */
+const RELATED_SECTORS: Record<string, string[]> = {
+  fintech: ["crypto", "saas"],
+  crypto: ["fintech"],
+  ai: ["saas", "semiconductors", "robotics", "quantum"],
+  saas: ["ai", "fintech", "cybersecurity"],
+  defense: ["space", "robotics"],
+  space: ["defense"],
+  health: ["biotech"],
+  biotech: ["health"],
+  mobility: ["travel", "climate"],
+  travel: ["mobility", "consumer"],
+  climate: ["mobility"],
+  consumer: ["quick-commerce", "travel"],
+  "quick-commerce": ["consumer"],
+  semiconductors: ["ai", "quantum"],
+  quantum: ["semiconductors", "ai"],
+  robotics: ["ai", "defense"],
+  cybersecurity: ["saas"],
+};
+
+/** The value most of the group shares, e.g. the majority country. */
+function majority<T>(xs: T[]): T | undefined {
+  const n = new Map<T, number>();
+  for (const x of xs) n.set(x, (n.get(x) ?? 0) + 1);
+  return [...n].sort((a, b) => b[1] - a[1])[0]?.[0];
+}
+const sharesSectorWithMost = (c: Company, fit: Company[]) =>
+  fit.filter((m) => m.sectors.some((s) => c.sectors.includes(s))).length * 2 >= fit.length;
+
+function impostor(base: Base, date: string, companies: Company[], rng: Rng): (ImpostorPuzzle & { variants: ImpostorVariants }) | null {
   const groups: Group[] = [];
   for (const code of unique(companies.map((c) => c.country))) {
     groups.push({
@@ -260,6 +292,7 @@ function impostor(base: Base, date: string, companies: Company[], rng: Rng): Imp
       prompt: `All of these come from ${countryName(code)}. Except one.`,
       shared: `come from ${countryName(code)}`,
       odd: (c) => `comes from ${countryName(c.country)}`,
+      near: sharesSectorWithMost,
     });
   }
   for (const city of unique(companies.map((c) => c.city).filter(Boolean))) {
@@ -268,6 +301,7 @@ function impostor(base: Base, date: string, companies: Company[], rng: Rng): Imp
       prompt: `All of these are based in ${city}. Except one.`,
       shared: `are based in ${city}`,
       odd: (c) => `is based in ${c.city}`,
+      near: (c, fit) => c.country === majority(fit.map((m) => m.country)),
     });
   }
   for (const sector of unique(companies.flatMap((c) => c.sectors))) {
@@ -276,6 +310,7 @@ function impostor(base: Base, date: string, companies: Company[], rng: Rng): Imp
       prompt: `All of these are ${sectorPlural(sector)}. Except one.`,
       shared: `are ${sectorPlural(sector)}`,
       odd: (c) => `is ${c.sectors.map(sectorLabel).join(" and ")}`,
+      near: (c) => c.sectors.some((s) => (RELATED_SECTORS[sector] ?? []).includes(s)),
     });
   }
   groups.push({
@@ -283,6 +318,7 @@ function impostor(base: Base, date: string, companies: Company[], rng: Rng): Imp
     prompt: "All of these are unicorns. Except one.",
     shared: "have been valued at €1bn or more",
     odd: () => "has never been valued at €1bn or more",
+    near: (c, fit) => c.country === majority(fit.map((m) => m.country)) || sharesSectorWithMost(c, fit),
   });
   for (const year of [2012, 2015, 2019]) {
     groups.push({
@@ -290,33 +326,69 @@ function impostor(base: Base, date: string, companies: Company[], rng: Rng): Imp
       prompt: `All of these were founded in ${year} or later. Except one.`,
       shared: `were founded in ${year} or later`,
       odd: (c) => `was founded in ${c.founded}`,
+      near: (c) => c.founded >= year - 3,
     });
   }
 
+  // One category per day for all levels; the level sets how many options and how close the impostor is.
   const usable = groups.filter((g) => companies.filter(g.members).length >= 4 && companies.some((c) => !g.members(c)));
   if (!usable.length) return null;
-  const g = pick(usable, rng);
-  const four = pickN(companies.filter(g.members), 4, rng);
-  const imp = pickByDifficulty(
-    companies.filter((c) => !g.members(c)),
-    date,
-    rng,
-  );
-  const ids = shuffle([...four, imp], rng).map((c) => c.id);
-  const fits = four[0];
+  const preferred = usable.filter((g) => companies.filter(g.members).length >= IMPOSTOR_LEVELS.hard.options - 1);
+  const g = pick(preferred.length ? preferred : usable, rng);
+  const members = companies.filter(g.members);
+  const outsiders = companies.filter((c) => !g.members(c));
 
-  return {
-    ...base,
-    mode: "impostor",
-    prompt: g.prompt,
-    companyIds: ids,
-    impostorId: imp.id,
-    explanation: `${imp.name} ${g.odd(imp)}. ${list(four.map((c) => c.name))} ${g.shared}.`,
-    hints: [
-      { text: `Remove one wrong option (${fits.name} fits)`, cost: 1 },
-      { text: `The impostor is based in ${imp.city}, founded in ${imp.founded}`, cost: 2 },
-    ],
-  };
+  const variants: ImpostorVariants = {};
+  for (const level of ["easy", "medium", "hard"] as const) {
+    const { options, impostor: closeness } = IMPOSTOR_LEVELS[level];
+    const fit = pickN(members, Math.min(options - 1, members.length), rng);
+    // Hard takes a near miss (as the category defines it), easy an obvious outsider; ties broken by likeness.
+    const ranked = shuffle(outsiders, rng).sort((a, b) => likeness(b, fit) - likeness(a, fit));
+    const nearOnes = ranked.filter((c) => g.near(c, fit));
+    const farOnes = ranked.filter((c) => !g.near(c, fit));
+    const third = Math.max(1, Math.ceil(ranked.length / 3));
+    const pool =
+      closeness === "near"
+        ? nearOnes.length ? nearOnes.slice(0, Math.max(3, Math.ceil(nearOnes.length / 2))) : ranked.slice(0, third)
+        : closeness === "far"
+          ? farOnes.length ? farOnes.slice(-Math.max(3, Math.ceil(farOnes.length / 2))) : ranked.slice(-third)
+          : ranked;
+    const imp = level === "medium" ? pickByDifficulty(pool, date, rng) : pick(pool, rng);
+    variants[level] = {
+      prompt: g.prompt,
+      companyIds: shuffle([...fit, imp], rng).map((c) => c.id),
+      impostorId: imp.id,
+      explanation: `${imp.name} ${g.odd(imp)}. ${list(fit.map((c) => c.name))} ${g.shared}.`,
+      hints: [
+        { text: `Remove one wrong option (${fit[0].name} fits)`, cost: 1 },
+        { text: `The impostor is based in ${imp.city}, founded in ${imp.founded}`, cost: 2 },
+      ],
+    };
+  }
+  const main = variants.medium!;
+  return { ...base, mode: "impostor", ...main, variants };
+}
+
+/** Options per level and how close the impostor is to the group. */
+const IMPOSTOR_LEVELS = {
+  easy: { options: 5, impostor: "far" },
+  medium: { options: 6, impostor: "any" },
+  hard: { options: 8, impostor: "near" },
+} as const;
+
+/** Impostor: one puzzle per level (same category for everyone that day). Web-only extra. */
+export type ImpostorVariants = Partial<
+  Record<"easy" | "medium" | "hard", Pick<ImpostorPuzzle, "prompt" | "companyIds" | "impostorId" | "explanation" | "hints">>
+>;
+
+/** How much a company resembles a group: shared country, sector, era and unicorn status, averaged. */
+function likeness(c: Company, group: Company[]): number {
+  const one = (m: Company) =>
+    (c.country === m.country ? 1 : 0) +
+    (c.sectors.some((s) => m.sectors.includes(s)) ? 1 : 0) +
+    (c.founded && m.founded && Math.abs(c.founded - m.founded) <= 3 ? 1 : 0) +
+    (c.unicorn === m.unicorn ? 0.5 : 0);
+  return group.reduce((s, m) => s + one(m), 0) / group.length;
 }
 
 /* ---------- helpers ---------- */

@@ -37,6 +37,16 @@ interface Progress {
   hintsUsed: number;
 }
 
+/** A puzzle may carry one variant per level (more options and a closer impostor on Hard). */
+type Puzzle = ImpostorPuzzle & {
+  variants?: Partial<Record<Difficulty, Pick<ImpostorPuzzle, "prompt" | "companyIds" | "impostorId" | "explanation" | "hints">>>;
+};
+
+/** The puzzle as played at this level; a hand-made puzzle without variants is the same for all. */
+function atLevel(p: Puzzle, d: Difficulty): ImpostorPuzzle {
+  return p.variants?.[d] ? { ...p, ...p.variants[d] } : p;
+}
+
 function evaluate(p: ImpostorPuzzle, progress: Progress) {
   const rules = RULES[progress.difficulty];
   const won = progress.picks.includes(p.impostorId);
@@ -60,12 +70,12 @@ function shareText(p: ImpostorPuzzle, progress: Progress): string {
 }
 
 export function ImpostorGame() {
-  const [puzzle, setPuzzle] = useState<ImpostorPuzzle | null | undefined>(undefined);
+  const [puzzle, setPuzzle] = useState<Puzzle | null | undefined>(undefined);
   const [data, setData] = useState<Dataset | null>(null);
   const [progress, setProgress] = useState<Progress | null>(null);
 
   useEffect(() => {
-    loadGame<ImpostorPuzzle>(MODE).then(({ puzzle: p, data: d }) => {
+    loadGame<Puzzle>(MODE).then(({ puzzle: p, data: d }) => {
       setData(d);
       setPuzzle(p);
       if (p) setProgress(loadProgress<Progress>(MODE, p.date));
@@ -93,11 +103,12 @@ export function ImpostorGame() {
     );
   }
 
-  const { rules, won, wrong, done, score } = evaluate(puzzle, progress);
+  const play = atLevel(puzzle, progress.difficulty);
+  const { rules, won, wrong, done, score } = evaluate(play, progress);
   const triesLeft = rules.tries - wrong;
-  const impostor = companies.get(puzzle.impostorId)!;
+  const impostor = companies.get(play.impostorId)!;
   // End card features one of the genuine companies, preferring one with a fun fact.
-  const genuine = puzzle.companyIds.filter((id) => id !== puzzle.impostorId).map((id) => companies.get(id)!);
+  const genuine = play.companyIds.filter((id) => id !== play.impostorId).map((id) => companies.get(id)!);
   const featured = genuine.find((c) => c.funFact) ?? genuine[0];
   const featuredFounders = featured.founderIds
     .map((id) => data.people.find((p) => p.id === id)?.name)
@@ -106,14 +117,15 @@ export function ImpostorGame() {
   function update(next: Progress) {
     setProgress(next);
     saveProgress(MODE, puzzle!.date, next);
-    const result = evaluate(puzzle!, next);
+    const atLvl = atLevel(puzzle!, next.difficulty);
+    const result = evaluate(atLvl, next);
     if (result.done && !getTodayResult(MODE, puzzle!.date)) {
       saveResult(MODE, {
         date: puzzle!.date,
         score: result.score,
         maxScore: MAX_SCORE,
         hintsUsed: next.hintsUsed,
-        share: shareText(puzzle!, next),
+        share: shareText(atLvl, next),
       });
       recordFinish(MODE, next.difficulty, { bucket: result.won ? next.picks.length : 0, score: result.score, maxScore: MAX_SCORE, won: result.won });
     }
@@ -136,13 +148,13 @@ export function ImpostorGame() {
       <div className="relative mx-auto aspect-square w-full max-w-[420px]">
         <span aria-hidden className="absolute inset-[13%] rounded-full border-2 border-dashed border-border" />
         <p className="absolute inset-[29%] flex items-center justify-center rounded-full bg-eu-blue p-3 text-center font-display text-sm font-bold leading-snug text-white sm:text-base">
-          {puzzle.prompt}
+          {play.prompt}
         </p>
         <ul>
-          {puzzle.companyIds.map((id, i) => {
+          {play.companyIds.map((id, i) => {
             const c = companies.get(id)!;
             const picked = progress.picks.includes(id);
-            const isImpostor = id === puzzle.impostorId;
+            const isImpostor = id === play.impostorId;
             // While playing, only wrong picks are marked. Once done, reveal the impostor.
             const state = done ? (isImpostor ? "impostor" : "genuine") : picked ? "wrong" : "open";
             const ring = {
@@ -151,13 +163,15 @@ export function ImpostorGame() {
               impostor: "animate-pop ring-correct",
               genuine: "ring-border opacity-60",
             }[state];
-            // Start at the top and go clockwise; 37% of the box from the centre.
-            const a = -Math.PI / 2 + (i * 2 * Math.PI) / puzzle.companyIds.length;
+            // Start at the top and go clockwise. Up to 6 options: big tiles 37% out; more: smaller tiles, wider ring.
+            const a = -Math.PI / 2 + (i * 2 * Math.PI) / play.companyIds.length;
+            const many = play.companyIds.length > 6;
+            const r = many ? 40 : 37;
             return (
               <li
                 key={id}
-                className="absolute w-[30%] -translate-x-1/2 -translate-y-1/2"
-                style={{ left: `${50 + 37 * Math.cos(a)}%`, top: `${50 + 37 * Math.sin(a)}%` }}
+                className={`absolute -translate-x-1/2 -translate-y-1/2 ${many ? "w-[22%]" : "w-[30%]"}`}
+                style={{ left: `${50 + r * Math.cos(a)}%`, top: `${50 + r * Math.sin(a)}%` }}
               >
                 <button
                   type="button"
@@ -167,7 +181,7 @@ export function ImpostorGame() {
                   className="group flex w-full flex-col items-center gap-1 text-center"
                 >
                   <span className={`relative rounded-[22%] ring-[3px] transition ${ring}`}>
-                    <CompanyLogo company={c} size={60} />
+                    <CompanyLogo company={c} size={many ? 46 : 60} />
                     {state !== "open" && (
                       <span
                         className={`absolute -right-2 -top-2 flex h-6 w-6 items-center justify-center rounded-full ${
@@ -195,15 +209,15 @@ export function ImpostorGame() {
         </ul>
       </div>
 
-      <HintList hints={puzzle.hints.slice(0, progress.hintsUsed)} />
+      <HintList hints={play.hints.slice(0, progress.hintsUsed)} />
 
       {!done ? (
         <div className="flex items-center justify-between text-sm">
           <span className="text-muted">
             {triesLeft} {triesLeft === 1 ? "try" : "tries"} left
           </span>
-          {rules.hints && progress.hintsUsed < puzzle.hints.length && (
-            <HintButton cost={puzzle.hints[progress.hintsUsed].cost} onClick={() => update({ ...progress, hintsUsed: progress.hintsUsed + 1 })} />
+          {rules.hints && progress.hintsUsed < play.hints.length && (
+            <HintButton cost={play.hints[progress.hintsUsed].cost} onClick={() => update({ ...progress, hintsUsed: progress.hintsUsed + 1 })} />
           )}
         </div>
       ) : (
@@ -215,7 +229,7 @@ export function ImpostorGame() {
               (won ? `${wrong + 1} ${wrong === 0 ? "try" : "tries"}` : `It was ${impostor.name}`) +
               (progress.hintsUsed ? ` · ${progress.hintsUsed} ${progress.hintsUsed === 1 ? "hint" : "hints"}` : "")
             }
-            share={shareText(puzzle, progress)}
+            share={shareText(play, progress)}
             stats={
               <StatsPanel
                 mode={MODE}
@@ -229,7 +243,7 @@ export function ImpostorGame() {
           />
           <p className="flex animate-flip-in items-start gap-2 rounded-2xl border border-border bg-surface p-4 text-sm">
             <VenetianMask size={18} className="mt-0.5 shrink-0 text-primary" aria-hidden />
-            {puzzle.explanation}
+            {play.explanation}
           </p>
           <BuiltInEuropeCard company={featured} founders={featuredFounders} />
         </div>
