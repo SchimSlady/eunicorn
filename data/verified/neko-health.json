@@ -1,0 +1,133 @@
+{
+  "id": "neko-health",
+  "name": "Neko Health",
+  "domain": "nekohealth.com",
+  "country": "SE",
+  "city": "Stockholm",
+  "founded": 2018,
+  "sectors": [
+    "health"
+  ],
+  "status": "private",
+  "unicorn": true,
+  "founders": [
+    "Daniel Ek",
+    "Hjalmar Nilsonne"
+  ],
+  "difficulty": 2,
+  "techeuId": "4a8ea748-1195-4cd7-9875-f83336727818",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.pymnts.com/news/?p=2432250",
+      "quote": "The Stockholm-based company announced Thursday (Jan. 23)"
+    },
+    {
+      "field": "founded",
+      "url": "https://thenextweb.com/news/neko-health-700m-series-c-us-expansion",
+      "quote": "Ek co-founded Neko in 2018 with Hjalmar Nilsonne"
+    },
+    {
+      "field": "founders",
+      "url": "https://hitconsultant.net/2026/07/15/neko-health-raises-700-million-series-c/",
+      "quote": "Founded by Spotify creator Daniel Ek and serial technology entrepreneur Hjalmar Nilsonne"
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.digitalhealthnews.com/spotify-co-founder-s-neko-health-secures-260-mn-hits-1-8b-valuation",
+      "quote": "Swedish healthtech startup Neko Health"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://www.pymnts.com/news/?p=2432250",
+      "quote": "values the company at approximately $1.8 billion"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-a",
+      "month": "2023-07",
+      "amountEur": 59748139,
+      "amountOriginal": 65000000,
+      "currency": "USD",
+      "investors": [],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.verdict.co.uk/newsletters/spotify-founders-start-up-neko-health-raises-65m",
+          "quote": "has raised $65m in a Series A funding round"
+        },
+        {
+          "field": "month",
+          "url": "https://www.verdict.co.uk/newsletters/spotify-founders-start-up-neko-health-raises-65m",
+          "quote": "July 05 2023"
+        }
+      ]
+    },
+    {
+      "stage": "series-b",
+      "month": "2025-01",
+      "amountEur": 248970602,
+      "amountOriginal": 260000000,
+      "currency": "USD",
+      "investors": [
+        "Lightspeed Venture Partners",
+        "General Catalyst",
+        "O.G. Venture Partners",
+        "Lakestar",
+        "Atomico"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.digitalhealthnews.com/spotify-co-founder-s-neko-health-secures-260-mn-hits-1-8b-valuation",
+          "quote": "has raised $260 million in a Series B funding round"
+        },
+        {
+          "field": "month",
+          "url": "https://fortune.com/europe/2025/01/23/daniel-ek-body-scanning-startup-valuation-100000-people-lining-up-pay-299-for-health-check/",
+          "quote": "January 23, 2025"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.digitalhealthnews.com/spotify-co-founder-s-neko-health-secures-260-mn-hits-1-8b-valuation",
+          "quote": "The funding was led by Lightspeed Venture Partners"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.digitalhealthnews.com/spotify-co-founder-s-neko-health-secures-260-mn-hits-1-8b-valuation",
+          "quote": "with participation from General Catalyst, OG Venture Partners, Rosello, Lakestar, and Atomico"
+        }
+      ]
+    },
+    {
+      "stage": "series-c",
+      "month": "2026-07",
+      "amountEur": 613712081,
+      "amountOriginal": 700000000,
+      "currency": "USD",
+      "investors": [
+        "Lightspeed Venture Partners",
+        "O.G. Venture Partners"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://hitconsultant.net/2026/07/15/neko-health-raises-700-million-series-c/",
+          "quote": "has finalized a $700M Series C funding round"
+        },
+        {
+          "field": "month",
+          "url": "https://hitconsultant.net/2026/07/15/neko-health-raises-700-million-series-c/",
+          "quote": "07/15/2026"
+        },
+        {
+          "field": "investors",
+          "url": "https://hitconsultant.net/2026/07/15/neko-health-raises-700-million-series-c/",
+          "quote": "led by Lightspeed Venture Partners and co-led by O.G. Venture Partners"
+        }
+      ]
+    }
+  ],
+  "aliases": []
+}

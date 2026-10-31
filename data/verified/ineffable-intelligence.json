@@ -1,0 +1,100 @@
+{
+  "id": "ineffable-intelligence",
+  "name": "Ineffable Intelligence",
+  "aliases": [],
+  "domain": "ineffable.ai",
+  "country": "GB",
+  "city": "London",
+  "founded": 2025,
+  "sectors": [
+    "ai"
+  ],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 4340794961,
+  "founders": [
+    "David Silver"
+  ],
+  "difficulty": 3,
+  "techeuId": "318a2013-b5ff-4a5e-8657-6c5d3ca015a4",
+  "wikidataId": null,
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://thenextweb.com/news/ineffable-intelligence-david-silver-sequoia-nvidia-5-billion",
+      "quote": "The company is based in London, a location Silver chose deliberately."
+    },
+    {
+      "field": "founded",
+      "url": "https://fortune.com/2026/01/30/google-deepmind-ai-researcher-david-silver-leaves-to-found-ai-startup-ineffable-intelligence/",
+      "quote": "Ineffable Intelligence was formed in November 2025"
+    },
+    {
+      "field": "founders",
+      "url": "https://tech.eu/2026/04/27/ineffable-intelligence-launches-with-record-breaking-11b-seed-round/",
+      "quote": "The company was founded by David Silver, the former lead of the reinforcement learning team at DeepMind"
+    },
+    {
+      "field": "sectors",
+      "url": "https://tech.eu/2026/04/27/ineffable-intelligence-launches-with-record-breaking-11b-seed-round/",
+      "quote": "Ineffable Intelligence is using Reinforcement Learning to create a"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://tech.eu/2026/04/27/ineffable-intelligence-launches-with-record-breaking-11b-seed-round/",
+      "quote": "at a valuation of $5.1 billion, according to the company"
+    },
+    {
+      "field": "valuation",
+      "url": "https://tech.eu/2026/04/27/ineffable-intelligence-launches-with-record-breaking-11b-seed-round/",
+      "quote": "at a valuation of $5.1 billion, according to the company"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "234cfe73-6bf1-4c51-be91-332e44f78f54",
+      "stage": "seed",
+      "month": "2026-04",
+      "amountEur": 936249894,
+      "amountOriginal": 1100000000,
+      "currency": "USD",
+      "postMoneyValuationEur": 4340794961,
+      "investors": [
+        "Sequoia Capital",
+        "Lightspeed Venture Partners",
+        "Nvidia",
+        "Google",
+        "DST Global",
+        "Index Ventures",
+        "British Business Bank"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2026/04/27/ineffable-intelligence-launches-with-record-breaking-11b-seed-round/",
+          "quote": "has raised $1.1 billion in Seed funding"
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2026/04/27/ineffable-intelligence-launches-with-record-breaking-11b-seed-round/",
+          "quote": "has raised $1.1 billion in Seed funding"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2026/04/27/ineffable-intelligence-launches-with-record-breaking-11b-seed-round/",
+          "quote": "27 April 2026"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2026/04/27/ineffable-intelligence-launches-with-record-breaking-11b-seed-round/",
+          "quote": "The fundraise is co-led by Sequoia (Alfred Lin & Sonya Huang) and Lightspeed (Ravi Mhatre, Raviraj Jain), with participation from NVIDIA, DST Global, Index, Google"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2026/04/27/ineffable-intelligence-launches-with-record-breaking-11b-seed-round/",
+          "quote": "The British Business Bank"
+        }
+      ]
+    }
+  ]
+}

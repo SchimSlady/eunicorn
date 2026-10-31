@@ -1,0 +1,92 @@
+{
+  "id": "advanced-machine-intelligence-ami",
+  "name": "Advanced Machine Intelligence (AMI)",
+  "aliases": [
+    "AMI Labs"
+  ],
+  "domain": "amilabs.xyz",
+  "country": "FR",
+  "city": "Paris",
+  "founded": 2025,
+  "sectors": [
+    "ai"
+  ],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 3006614552,
+  "founders": [
+    "Yann LeCun"
+  ],
+  "difficulty": 2,
+  "techeuId": "82067087-5520-4321-9afd-758712c4fb37",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://tech.eu/2026/03/10/yann-lecun-s-paris-based-ai-world-model-startup-raises-more-than-1bn/",
+      "quote": "Paris-headquartered Advanced Machine Intelligence (AMI) Labs"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Advanced_Machine_Intelligence_Labs",
+      "quote": "Founded December 15, 2025"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Advanced_Machine_Intelligence_Labs",
+      "quote": "Founder Yann LeCun"
+    },
+    {
+      "field": "sectors",
+      "url": "https://tech.eu/2026/03/10/yann-lecun-s-paris-based-ai-world-model-startup-raises-more-than-1bn/",
+      "quote": "AI world model startup"
+    },
+    {
+      "field": "valuation",
+      "url": "https://tech.eu/2026/03/10/yann-lecun-s-paris-based-ai-world-model-startup-raises-more-than-1bn/",
+      "quote": "AMI Labs raised $1.03bn at a $3.5bn valuation"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://tech.eu/2026/03/10/yann-lecun-s-paris-based-ai-world-model-startup-raises-more-than-1bn/",
+      "quote": "AMI Labs raised $1.03bn at a $3.5bn valuation"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "seed",
+      "month": "2026-03",
+      "amountEur": 884803711,
+      "amountOriginal": 1030000000,
+      "currency": "USD",
+      "investors": [
+        "Cathay Innovation",
+        "Greycroft",
+        "Hiro Capital",
+        "HV Capital",
+        "Bezos Expeditions"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2026/03/10/yann-lecun-s-paris-based-ai-world-model-startup-raises-more-than-1bn/",
+          "quote": "AMI Labs raised $1.03bn at a $3.5bn valuation, in a round co-led by"
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2026/03/10/yann-lecun-s-paris-based-ai-world-model-startup-raises-more-than-1bn/",
+          "quote": "We just completed our seed round"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2026/03/10/yann-lecun-s-paris-based-ai-world-model-startup-raises-more-than-1bn/",
+          "quote": "10 March 2026"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2026/03/10/yann-lecun-s-paris-based-ai-world-model-startup-raises-more-than-1bn/",
+          "quote": "in a round co-led by Paris-based VC firm Cathay Innovation, Greycroft, Hiro Capital, HV Capital and Jeff Bezos’ Bezos Expeditions"
+        }
+      ]
+    }
+  ]
+}

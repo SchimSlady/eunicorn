@@ -1,0 +1,199 @@
+{
+  "id": "stegra-h2-green-steel",
+  "name": "Stegra",
+  "aliases": [
+    "H2 Green Steel"
+  ],
+  "domain": "stegra.com",
+  "country": "SE",
+  "city": "Stockholm",
+  "founded": 2021,
+  "sectors": [
+    "climate"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [],
+  "difficulty": 3,
+  "techeuId": "3d3c37a1-93ae-4a84-b1cb-29b6373ec2f7",
+  "wikidataId": "Q105699248",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://stegra.com/news-and-stories/h2-green-steel-completes-strong-usd-105-million-initial-funding-round-to-accelerate-the-transition-into-green-steel-making",
+      "quote": "Norra Stationsgatan 93A 113 64 Stockholm"
+    },
+    {
+      "field": "founded",
+      "url": "https://www.h2greensteel.com/",
+      "quote": "2021.02.23 Launch of the company."
+    },
+    {
+      "field": "sectors",
+      "url": "https://stegra.com/news-and-stories/h2-green-steel-completes-strong-usd-105-million-initial-funding-round-to-accelerate-the-transition-into-green-steel-making",
+      "quote": "The Swedish green impact company H2 Green Steel"
+    },
+    {
+      "field": "status",
+      "url": "https://www.gic.com.sg/newsroom/all/h2-green-steel-raises-e1-5-billion-in-equity-to-build-the-worlds-first-green-steel-plant/",
+      "quote": "In the largest private placement in Europe this year"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "dbaa9933-d9a9-4549-8928-4edc05c21052",
+      "stage": "series-a",
+      "month": "2021-05",
+      "amountEur": 86150312,
+      "amountOriginal": 105000000,
+      "currency": "USD",
+      "investors": [
+        "Altor Fund V",
+        "Ane & Robert Maersk Uggla",
+        "Bilstein Group",
+        "EIT InnoEnergy",
+        "Exor",
+        "FAM",
+        "IMAS Foundation",
+        "Kingspan",
+        "Marcegaglia",
+        "Mercedes-Benz AG",
+        "Scania",
+        "SMS Group",
+        "Stena Metall Finans",
+        "Cristina Stenbeck",
+        "Daniel Ek",
+        "Vargas"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://stegra.com/news-and-stories/h2-green-steel-completes-strong-usd-105-million-initial-funding-round-to-accelerate-the-transition-into-green-steel-making",
+          "quote": "H2 Green Steel has raised USD 105 million in Series A equity."
+        },
+        {
+          "field": "stage",
+          "url": "https://stegra.com/news-and-stories/h2-green-steel-completes-strong-usd-105-million-initial-funding-round-to-accelerate-the-transition-into-green-steel-making",
+          "quote": "H2 Green Steel has raised USD 105 million in Series A equity."
+        },
+        {
+          "field": "month",
+          "url": "https://stegra.com/news-and-stories/h2-green-steel-completes-strong-usd-105-million-initial-funding-round-to-accelerate-the-transition-into-green-steel-making",
+          "quote": "2021.05.23"
+        },
+        {
+          "field": "investors",
+          "url": "https://stegra.com/news-and-stories/h2-green-steel-completes-strong-usd-105-million-initial-funding-round-to-accelerate-the-transition-into-green-steel-making",
+          "quote": "The Series A round investors include Altor Fund V, Ane & Robert Maersk Uggla, BILSTEIN GROUP, EIT InnoEnergy, Exor, FAM, IMAS Foundation, Kingspan, Marcegaglia, Mercedes-Benz AG, Scania, SMS Group, Stena Metall Finans, Cristina Stenbeck, Daniel Ek, and Vargas."
+        }
+      ]
+    },
+    {
+      "techeuId": "bdba2e29-2a15-4ce0-aad4-20c3204b3a6a",
+      "stage": "series-b",
+      "month": "2022-08",
+      "amountEur": 190000000,
+      "amountOriginal": 190000000,
+      "currency": "EUR",
+      "investors": [
+        "AMF",
+        "GIC",
+        "Schaeffler",
+        "Altor Fund V"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://stegra.com/news-and-stories/h2-green-steel-completes--190-million-funding-round",
+          "quote": "is securing a total of € 190 million in the first close of the series B equity financing"
+        },
+        {
+          "field": "stage",
+          "url": "https://stegra.com/news-and-stories/h2-green-steel-completes--190-million-funding-round",
+          "quote": "series B equity financing"
+        },
+        {
+          "field": "month",
+          "url": "https://stegra.com/news-and-stories/h2-green-steel-completes--190-million-funding-round",
+          "quote": "2022.08.29"
+        },
+        {
+          "field": "investors",
+          "url": "https://stegra.com/news-and-stories/h2-green-steel-completes--190-million-funding-round",
+          "quote": "The equity round was co-led by new investors AMF, GIC and Schaeffler, alongside existing investor Altor Fund V."
+        },
+        {
+          "field": "investors",
+          "url": "https://stegra.com/news-and-stories/h2-green-steel-completes--190-million-funding-round",
+          "quote": "existing shareholders Vargas, Kingspan, FAM, Marcegaglia, IMAS Foundation, Cristina Stenbeck and Daniel Ek"
+        }
+      ]
+    },
+    {
+      "techeuId": "933e0705-471c-447d-bf34-5b0c4874d072",
+      "stage": "series-b",
+      "month": "2022-10",
+      "amountEur": 70000000,
+      "amountOriginal": 70000000,
+      "currency": "EUR",
+      "investors": [
+        "Hitachi Energy",
+        "Kobe Steel",
+        "Kinnevik"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://aist.org/h2-green-steel-raises-additional-eur70-million-in-series-b-funding",
+          "quote": "H2 Green Steel Raises Additional EUR70 Million in Series B Funding"
+        },
+        {
+          "field": "stage",
+          "url": "https://aist.org/h2-green-steel-raises-additional-eur70-million-in-series-b-funding",
+          "quote": "H2 Green Steel Raises Additional EUR70 Million in Series B Funding"
+        },
+        {
+          "field": "month",
+          "url": "https://siliconcanals.com/?p=9823",
+          "quote": "Oct 19, 2022"
+        },
+        {
+          "field": "investors",
+          "url": "https://siliconcanals.com/?p=9823",
+          "quote": "The additional €70M in the final close came from new investors such as Hitachi Energy, Kobe Steel, and Kinnevik."
+        }
+      ]
+    },
+    {
+      "techeuId": "447f2fdd-e81a-4cb2-a357-83396eb8938f",
+      "stage": "series-b",
+      "month": "2023-09",
+      "amountEur": 1500000000,
+      "amountOriginal": 1500000000,
+      "currency": "EUR",
+      "investors": [
+        "Altor",
+        "GIC",
+        "Hy24",
+        "Just Climate"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.gic.com.sg/newsroom/all/h2-green-steel-raises-e1-5-billion-in-equity-to-build-the-worlds-first-green-steel-plant/",
+          "quote": "In the largest private placement in Europe this year, H2 Green Steel has raised about €1.5 billion in equity from an investor group led by Altor, GIC, Hy24 and Just Climate."
+        },
+        {
+          "field": "month",
+          "url": "https://www.gic.com.sg/newsroom/all/h2-green-steel-raises-e1-5-billion-in-equity-to-build-the-worlds-first-green-steel-plant/",
+          "quote": "Stockholm, September 7, 2023"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.gic.com.sg/newsroom/all/h2-green-steel-raises-e1-5-billion-in-equity-to-build-the-worlds-first-green-steel-plant/",
+          "quote": "from an investor group led by Altor, GIC, Hy24 and Just Climate"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "id": "verda-formerly-datacrunch",
+  "name": "Verda (formerly DataCrunch)",
+  "aliases": [
+    "DataCrunch"
+  ],
+  "domain": "verda.com",
+  "country": "FI",
+  "city": "Helsinki",
+  "founded": 2020,
+  "sectors": [
+    "ai"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Ruben Bryon"
+  ],
+  "difficulty": 4,
+  "techeuId": "1edfc840-e636-41c8-b72a-18240569fcec",
+  "wikidataId": null,
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://thenextweb.com/news/finnish-ai-cloud-company-verda-raises-189m-and-it-is-now-the-latest-unicorn-in-europe",
+      "quote": "headquartered in Helsinki"
+    },
+    {
+      "field": "founded",
+      "url": "https://tech.eu/2026/09/22/verda-raises-189m-to-advance-its-ai-cloud-and-expand-compute-capacity/",
+      "quote": "Founded in Helsinki in 2020"
+    },
+    {
+      "field": "founders",
+      "url": "https://thenextweb.com/news/finnish-ai-cloud-company-verda-raises-189m-and-it-is-now-the-latest-unicorn-in-europe",
+      "quote": "Ruben Bryon, founder and chief executive of Verda."
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-b",
+      "month": "2026-09",
+      "amountEur": 164878304,
+      "amountOriginal": 189000000,
+      "currency": "USD",
+      "investors": [
+        "Emergence Capital",
+        "MUFG Innovation Partners",
+        "Supermicro",
+        "Varma Mutual Pension Insurance Company",
+        "Lifeline Ventures",
+        "6 Degrees Capital",
+        "byFounders",
+        "Tesi",
+        "Ola Tørudbakken",
+        "Mark Saroufim"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2026/09/22/verda-raises-189m-to-advance-its-ai-cloud-and-expand-compute-capacity/",
+          "quote": "Verda has raised $189 million in new funding"
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2026/09/22/verda-raises-189m-to-advance-its-ai-cloud-and-expand-compute-capacity/",
+          "quote": "oversubscribed Series B led by Emergence Capital"
+        },
+        {
+          "field": "month",
+          "url": "https://thenextweb.com/news/finnish-ai-cloud-company-verda-raises-189m-and-it-is-now-the-latest-unicorn-in-europe",
+          "quote": "published on September 22, 2026"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2026/09/22/verda-raises-189m-to-advance-its-ai-cloud-and-expand-compute-capacity/",
+          "quote": "Participants include MUFG Innovation Partners, Supermicro, Varma Mutual Pension Insurance Company,"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2026/09/22/verda-raises-189m-to-advance-its-ai-cloud-and-expand-compute-capacity/",
+          "quote": "Lifeline Ventures, 6 Degrees Capital (6DC), byFounders and Tesi (Finnish Industry Investment Ltd)"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2026/09/22/verda-raises-189m-to-advance-its-ai-cloud-and-expand-compute-capacity/",
+          "quote": "angel investors including Ola Tørudbakken of Meta and Mark Saroufim of Core Auto and GPUMODE"
+        }
+      ]
+    }
+  ]
+}

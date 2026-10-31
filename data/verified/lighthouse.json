@@ -1,0 +1,85 @@
+{
+  "id": "lighthouse",
+  "name": "Lighthouse",
+  "aliases": [
+    "OTA Insight"
+  ],
+  "domain": "mylighthouse.com",
+  "country": "GB",
+  "city": "London",
+  "founded": 2012,
+  "sectors": [
+    "saas"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Gino Engels",
+    "Matthias Geeroms"
+  ],
+  "difficulty": 3,
+  "techeuId": "75afc3c1-487f-4f26-8532-3f01fb0cbc40",
+  "wikidataId": null,
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://thenextweb.com/news/uk-hospitality-startup-lighthouse-enters-unicorn-club-with-370m-raise",
+      "quote": "before moving its HQ to London"
+    },
+    {
+      "field": "founded",
+      "url": "https://thenextweb.com/news/uk-hospitality-startup-lighthouse-enters-unicorn-club-with-370m-raise",
+      "quote": "Gino Engels and Matthias Geeroms founded Lighthouse in 2012."
+    },
+    {
+      "field": "founders",
+      "url": "https://thenextweb.com/news/uk-hospitality-startup-lighthouse-enters-unicorn-club-with-370m-raise",
+      "quote": "Gino Engels and Matthias Geeroms founded Lighthouse in 2012."
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.lw.com/en/news/2024/11/latham-advises-lighthouse-in-us370-million-series-c-financing",
+      "quote": "the leading commercial intelligence platform for the travel and hospitality industry"
+    },
+    {
+      "field": "status",
+      "url": "https://en.wikipedia.org/wiki/Lighthouse_(company)",
+      "quote": "Type Private company"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "46d5816f-f7d4-4871-a936-afc5d4263b03",
+      "stage": "series-c",
+      "month": "2024-11",
+      "amountEur": 350312441,
+      "amountOriginal": 370000000,
+      "currency": "USD",
+      "investors": [
+        "KKR"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.lw.com/en/news/2024/11/latham-advises-lighthouse-in-us370-million-series-c-financing",
+          "quote": "its US$370 million Series C financing round led by KKR"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.lw.com/en/news/2024/11/latham-advises-lighthouse-in-us370-million-series-c-financing",
+          "quote": "its US$370 million Series C financing round led by KKR"
+        },
+        {
+          "field": "month",
+          "url": "https://thenextweb.com/news/uk-hospitality-startup-lighthouse-enters-unicorn-club-with-370m-raise",
+          "quote": "November 21, 2024"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.lw.com/en/news/2024/11/latham-advises-lighthouse-in-us370-million-series-c-financing",
+          "quote": "its US$370 million Series C financing round led by KKR"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,274 @@
+{
+  "id": "mews",
+  "name": "Mews",
+  "domain": "mews.com",
+  "country": "NL",
+  "city": "Amsterdam",
+  "founded": 2012,
+  "sectors": [
+    "travel",
+    "saas"
+  ],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 2135656928,
+  "founders": [
+    "Richard Valtr",
+    "Matthijs Welle"
+  ],
+  "difficulty": 3,
+  "techeuId": "c8baa40d-48bf-49b6-8469-dc280c48a628",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://thenextweb.com/news/mews-raises-e255m-to-accelerate-ai-and-automation-in-hospitality",
+      "quote": "Amsterdam-based hospitality tech platform Mews has raised"
+    },
+    {
+      "field": "founded",
+      "url": "https://www.mews.com/en/about",
+      "quote": "Our founder, Richard Valtr, started Mews in 2012"
+    },
+    {
+      "field": "founders",
+      "url": "https://www.mews.com/en/about",
+      "quote": "Our founder, Richard Valtr, started Mews in 2012"
+    },
+    {
+      "field": "founders",
+      "url": "https://thenextweb.com/news/mews-raises-e255m-to-accelerate-ai-and-automation-in-hospitality",
+      "quote": "Founded in 2012 by Richard Valtr and Matt Welle"
+    },
+    {
+      "field": "founders",
+      "url": "https://www.mews.com/en/about",
+      "quote": "was soon joined by our CEO, Matthijs Welle"
+    },
+    {
+      "field": "sectors",
+      "url": "https://thenextweb.com/news/mews-raises-e255m-to-accelerate-ai-and-automation-in-hospitality",
+      "quote": "Mews builds a cloud-native"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://thenextweb.com/news/mews-raises-e255m-to-accelerate-ai-and-automation-in-hospitality",
+      "quote": "The investment values the company at roughly $2.5 billion."
+    },
+    {
+      "field": "valuation",
+      "url": "https://thenextweb.com/news/mews-raises-e255m-to-accelerate-ai-and-automation-in-hospitality",
+      "quote": "The investment values the company at roughly $2.5 billion."
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-a",
+      "month": "2018-06",
+      "amountEur": 6000000,
+      "amountOriginal": 6000000,
+      "currency": "EUR",
+      "investors": [
+        "Notion Capital",
+        "HenQ",
+        "Thayer Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.hotel-online.com/news/mews-raises-6m-to-advance-hotel-automation-and-enhance-customer-experience",
+          "quote": "has announced the close of its €6m Series A funding round"
+        },
+        {
+          "field": "month",
+          "url": "https://www.hotel-online.com/news/mews-raises-6m-to-advance-hotel-automation-and-enhance-customer-experience",
+          "quote": "Jun 4, 2018"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.hotel-online.com/news/mews-raises-6m-to-advance-hotel-automation-and-enhance-customer-experience",
+          "quote": "The round was led by Notion"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.hotel-online.com/news/mews-raises-6m-to-advance-hotel-automation-and-enhance-customer-experience",
+          "quote": "with participation from HenQ and Thayer Ventures"
+        }
+      ]
+    },
+    {
+      "stage": "series-b",
+      "month": "2019-08",
+      "amountEur": 29804913,
+      "amountOriginal": 33000000,
+      "currency": "USD",
+      "investors": [
+        "Battery Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.mews.com/en/press/mews-raises-33million-seriesb",
+          "quote": "Today Mews announces that we have raised $33 million in funding."
+        },
+        {
+          "field": "month",
+          "url": "https://www.mews.com/en/press/mews-raises-33million-seriesb",
+          "quote": "Published August 29, 2019"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.mews.com/en/press/mews-raises-33million-seriesb",
+          "quote": "The Series B round was led by global investment firm Battery Ventures"
+        }
+      ]
+    },
+    {
+      "stage": "series-c",
+      "month": "2022-12",
+      "amountEur": 174561238,
+      "amountOriginal": 185000000,
+      "currency": "USD",
+      "investors": [
+        "Kinnevik",
+        "Goldman Sachs Asset Management",
+        "Revaia",
+        "Derive Ventures",
+        "Orbit Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.mews.com/en/press/series-c",
+          "quote": "closed its Series C round at $185 million"
+        },
+        {
+          "field": "month",
+          "url": "https://www.mews.com/en/press/series-c",
+          "quote": "Published December 15, 2022"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.mews.com/en/press/series-c",
+          "quote": "The equity investment was led by Kinnevik and the Growth Equity business within Goldman Sachs Asset Management"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.mews.com/en/press/series-c",
+          "quote": "with participation from Revaia"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.mews.com/en/press/series-c",
+          "quote": "Derive Ventures and Orbit Capital"
+        }
+      ]
+    },
+    {
+      "stage": "series-c",
+      "month": "2024-03",
+      "amountEur": 101419878,
+      "amountOriginal": 110000000,
+      "currency": "USD",
+      "postMoneyValuationEur": 1106398672,
+      "investors": [
+        "Kinnevik",
+        "Goldman Sachs Asset Management",
+        "Revaia",
+        "Notion Capital",
+        "LGVP"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.skift.com/2024/03/04/mews-latest-funding-values-hotel-tech-startup-at-1-2-billion",
+          "quote": "Mews has raised $110 million at a $1.2 billion valuation"
+        },
+        {
+          "field": "month",
+          "url": "https://www.skift.com/2024/03/04/mews-latest-funding-values-hotel-tech-startup-at-1-2-billion",
+          "quote": "March 4th, 2024 at 11:13 AM EST"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.skift.com/2024/03/04/mews-latest-funding-values-hotel-tech-startup-at-1-2-billion",
+          "quote": "Kinnevik, Europe's largest publicly listed startup investor, led the round."
+        },
+        {
+          "field": "investors",
+          "url": "https://www.skift.com/2024/03/04/mews-latest-funding-values-hotel-tech-startup-at-1-2-billion",
+          "quote": "Existing investors Revaia, Goldman Sachs Asset Management, and Notion Capital also participated."
+        },
+        {
+          "field": "investors",
+          "url": "https://www.skift.com/2024/03/04/mews-latest-funding-values-hotel-tech-startup-at-1-2-billion",
+          "quote": "LGVP became a new investor."
+        }
+      ]
+    },
+    {
+      "stage": "series-c",
+      "month": "2025-03",
+      "amountEur": 71042910,
+      "amountOriginal": 75000000,
+      "currency": "USD",
+      "investors": [
+        "Tiger Global"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://thenextweb.com/news/dutch-hospitality-scaleup-mews-doubles-down-on-growth-with-75m-raise",
+          "quote": "has secured $75mn in its third major cash injection of the last year."
+        },
+        {
+          "field": "month",
+          "url": "https://thenextweb.com/news/dutch-hospitality-scaleup-mews-doubles-down-on-growth-with-75m-raise",
+          "quote": "This article was published on March 4, 2025"
+        },
+        {
+          "field": "investors",
+          "url": "https://thenextweb.com/news/dutch-hospitality-scaleup-mews-doubles-down-on-growth-with-75m-raise",
+          "quote": "the main investor in this latest capital raise was American investment firm Tiger Global."
+        }
+      ]
+    },
+    {
+      "stage": "series-d",
+      "month": "2026-01",
+      "amountEur": 255000000,
+      "amountOriginal": 255000000,
+      "currency": "EUR",
+      "investors": [
+        "EQT Growth",
+        "Atomico",
+        "HarbourVest Partners",
+        "Kinnevik",
+        "Battery Ventures",
+        "Tiger Global"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://thenextweb.com/news/mews-raises-e255m-to-accelerate-ai-and-automation-in-hospitality",
+          "quote": "has raised €255 million (about $300 million) in a Series D funding round"
+        },
+        {
+          "field": "month",
+          "url": "https://thenextweb.com/news/mews-raises-e255m-to-accelerate-ai-and-automation-in-hospitality",
+          "quote": "This article was published on January 24, 2026"
+        },
+        {
+          "field": "investors",
+          "url": "https://thenextweb.com/news/mews-raises-e255m-to-accelerate-ai-and-automation-in-hospitality",
+          "quote": "The round was led by EQT Growth with new participation from Atomico and HarbourVest Partners"
+        },
+        {
+          "field": "investors",
+          "url": "https://thenextweb.com/news/mews-raises-e255m-to-accelerate-ai-and-automation-in-hospitality",
+          "quote": "alongside existing backers including Kinnevik, Battery Ventures and Tiger Global"
+        }
+      ]
+    }
+  ],
+  "aliases": []
+}

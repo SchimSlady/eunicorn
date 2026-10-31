@@ -1,0 +1,115 @@
+{
+  "id": "return",
+  "name": "Return",
+  "aliases": [],
+  "domain": "return.energy",
+  "country": "NL",
+  "city": "Amsterdam",
+  "founded": 2021,
+  "sectors": [
+    "climate"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Willem-Jan Schutte"
+  ],
+  "difficulty": 4,
+  "techeuId": "1fdc14a1-67fc-4cce-8d6a-e99cb4d5eb25",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://siliconcanals.com/amsterdams-return-raises-300m/",
+      "quote": "Amsterdam’s Return raises €300M"
+    },
+    {
+      "field": "founders",
+      "url": "https://siliconcanals.com/amsterdams-return-raises-300m/",
+      "quote": "Willem-Jan Schutte, founder and CEO of Return."
+    },
+    {
+      "field": "sectors",
+      "url": "https://return.energy/",
+      "quote": "the leading independent energy storage provider across Europe"
+    },
+    {
+      "field": "status",
+      "url": "https://assetmanagement.apg.nl/publications/apg-invests-300-million-in-return-s-battery-energy-storage-platform/",
+      "quote": "APG, on behalf of its pension fund client ABP, is investing €300 million in Return"
+    },
+    {
+      "field": "founded",
+      "url": "https://ippjournal.com/company/return-energy",
+      "quote": "Founded in 2021, Return focuses on owning and operating large-scale battery energy storage systems"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-c",
+      "month": "2023-12",
+      "amountEur": 100000000,
+      "amountOriginal": 100000000,
+      "currency": "EUR",
+      "investors": [
+        "Renard Investments",
+        "Hartenlust Group",
+        "Stijn Vos family office"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2023/12/07/dutch-renewable-energy-investor-return-secures-eur100-million-investment/",
+          "quote": "announced that it has recently closed a second €100 million growth equity investment."
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2023/12/07/dutch-renewable-energy-investor-return-secures-eur100-million-investment/",
+          "quote": "07 December 2023"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2023/12/07/dutch-renewable-energy-investor-return-secures-eur100-million-investment/",
+          "quote": "Hartenlust Group assumes the lead investor role with a minority share, reaffirming its confidence in Return."
+        },
+        {
+          "field": "investors",
+          "url": "https://startupsmagazine.co.uk/article-return-announces-second-eu100m-growth-equity-investment",
+          "quote": "Notable backers also include reputable Dutch energy transition leaders such as Renard Investments, the family office of Stijn Vos (CEO of Enstall)"
+        }
+      ]
+    },
+    {
+      "stage": "series-c",
+      "month": "2025-10",
+      "amountEur": 300000000,
+      "amountOriginal": 300000000,
+      "currency": "EUR",
+      "investors": [
+        "APG",
+        "ABP"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://assetmanagement.apg.nl/publications/apg-invests-300-million-in-return-s-battery-energy-storage-platform/",
+          "quote": "APG, on behalf of its pension fund client ABP, is investing €300 million in Return"
+        },
+        {
+          "field": "stage",
+          "url": "https://assetmanagement.apg.nl/publications/apg-invests-300-million-in-return-s-battery-energy-storage-platform/",
+          "quote": "APG, on behalf of its pension fund client ABP, is investing €300 million in Return"
+        },
+        {
+          "field": "month",
+          "url": "https://assetmanagement.apg.nl/publications/apg-invests-300-million-in-return-s-battery-energy-storage-platform/",
+          "quote": "16 October 2025"
+        },
+        {
+          "field": "investors",
+          "url": "https://assetmanagement.apg.nl/publications/apg-invests-300-million-in-return-s-battery-energy-storage-platform/",
+          "quote": "APG, on behalf of its pension fund client ABP, is investing €300 million in Return"
+        }
+      ]
+    }
+  ]
+}

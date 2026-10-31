@@ -5,7 +5,7 @@
 //
 // Run: npm run load:verified                 every file
 //      npm run load:verified -- mistral-ai   one company
-import { readFileSync, readdirSync } from "node:fs";
+import { existsSync, readFileSync, readdirSync } from "node:fs";
 import { join } from "node:path";
 import { connect } from "./db.ts";
 
@@ -49,6 +49,13 @@ const slug = (s: string) =>
   s.normalize("NFKD").replace(/[̀-ͯ]/g, "").toLowerCase().replace(/&/g, " and ")
     .replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 
+// Logo path the web app reads (companies.logo): /logos/<id>.svg|png when the file exists, else null.
+const logosDir = join(import.meta.dirname, "../../web/public/logos");
+const logoPath = (id: string) => {
+  const file = ["svg", "png"].map((ext) => `${id}.${ext}`).find((f) => existsSync(join(logosDir, f)));
+  return file ? `/logos/${file}` : null;
+};
+
 const only = process.argv[2];
 const files = readdirSync(dir).filter((f) => f.endsWith(".json") && (!only || f === `${only}.json`));
 const db = await connect();
@@ -61,9 +68,9 @@ try {
     try {
       await db.query(
         `insert into public.companies (id, name, aliases, domain, country, city, founded, sectors, status, unicorn,
-           last_valuation_eur, employees, careers_url, fun_fact, difficulty, techeu_id, wikidata_id,
+           last_valuation_eur, employees, careers_url, fun_fact, difficulty, techeu_id, wikidata_id, logo,
            verified, verified_at, verified_by)
-         values ($1, $2, $3, $4, $5, $6, $7, $8::public.sector[], $9, $10, $11, $12, $13, $14, $15, $16, $17,
+         values ($1, $2, $3, $4, $5, $6, $7, $8::public.sector[], $9, $10, $11, $12, $13, $14, $15, $16, $17, $18,
            true, now(), 'data/verified')
          on conflict (id) do update set
            name = excluded.name, aliases = excluded.aliases, domain = excluded.domain, country = excluded.country,
@@ -71,10 +78,10 @@ try {
            unicorn = excluded.unicorn, last_valuation_eur = excluded.last_valuation_eur,
            employees = excluded.employees, careers_url = excluded.careers_url, fun_fact = excluded.fun_fact,
            difficulty = excluded.difficulty, techeu_id = excluded.techeu_id, wikidata_id = excluded.wikidata_id,
-           verified = true, verified_at = now(), verified_by = excluded.verified_by`,
+           logo = excluded.logo, verified = true, verified_at = now(), verified_by = excluded.verified_by`,
         [c.id, c.name, c.aliases ?? [], c.domain, c.country, c.city, c.founded, c.sectors, c.status, c.unicorn,
          c.lastValuationEur ?? null, c.employees ?? null, c.careersUrl ?? null, c.funFact ?? null, c.difficulty,
-         c.techeuId ?? null, c.wikidataId ?? null],
+         c.techeuId ?? null, c.wikidataId ?? null, logoPath(c.id)],
       );
 
       await db.query("delete from public.company_founders where company_id = $1", [c.id]);

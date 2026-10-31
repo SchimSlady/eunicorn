@@ -1,0 +1,130 @@
+{
+  "id": "hostaway",
+  "name": "Hostaway",
+  "aliases": [],
+  "domain": "hostaway.com",
+  "country": "FI",
+  "city": "Helsinki",
+  "founded": 2015,
+  "sectors": [
+    "travel"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Marcus Rader",
+    "Saber Kordestanchi",
+    "Mikko Nurminen"
+  ],
+  "difficulty": 3,
+  "techeuId": "6d1f7180-3646-4c04-93c3-5e0a5e0d34b5",
+  "wikidataId": null,
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.generalatlantic.com/media-article/hostaway-announces-365-million-strategic-growth-investment/",
+      "quote": "HELSINKI – (December 17, 2024)"
+    },
+    {
+      "field": "founded",
+      "url": "https://tech.eu/2023/05/31/finnish-founded-hostaway-secures-175-million-to-take-its-vacation-rental-platform-global/",
+      "quote": "Founded in 2015 by Finnish entrepreneurs Marcus Rader, Saber Kordestanchi and Mikko Nurminen"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.10minhotel.com/2025/10/22/hostaway-becomes-worlds-first-short-term-rental-property-management-software-unicorn-with-new-1-billion-valuation/",
+      "quote": "co-founders Marcus Rader, Saber Kordestanchi and Mikko Nurminen"
+    },
+    {
+      "field": "sectors",
+      "url": "https://en.10minhotel.com/2025/10/22/hostaway-becomes-worlds-first-short-term-rental-property-management-software-unicorn-with-new-1-billion-valuation/",
+      "quote": "a leading vacation rental property management software"
+    },
+    {
+      "field": "status",
+      "url": "https://www.generalatlantic.com/media-article/hostaway-announces-365-million-strategic-growth-investment/",
+      "quote": "with participation from existing investor PSG Equity"
+    },
+    {
+      "field": "valuation",
+      "url": "https://en.10minhotel.com/2025/10/22/hostaway-becomes-worlds-first-short-term-rental-property-management-software-unicorn-with-new-1-billion-valuation/",
+      "quote": "with new $1 billion valuation"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "7a5fd28a-b35f-407b-8e77-8259198d4e33",
+      "stage": "series-b",
+      "month": "2023-05",
+      "amountEur": 163811663,
+      "amountOriginal": 175000000,
+      "currency": "USD",
+      "investors": [
+        "PSG"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2023/05/31/finnish-founded-hostaway-secures-175-million-to-take-its-vacation-rental-platform-global/",
+          "quote": "has secured $175 million in growth capital"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.businesswire.com/news/home/20230531005107/en/Hostaway-Announces-175-Million-Strategic-Growth-Investment-Led-By-PSG",
+          "quote": null
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2023/05/31/finnish-founded-hostaway-secures-175-million-to-take-its-vacation-rental-platform-global/",
+          "quote": "31 May 2023"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2023/05/31/finnish-founded-hostaway-secures-175-million-to-take-its-vacation-rental-platform-global/",
+          "quote": "The funding round was led by PSG"
+        }
+      ]
+    },
+    {
+      "techeuId": "450dc2fb-b803-4bee-9c08-ef8bfc69c2ed",
+      "stage": "series-c",
+      "month": "2024-12",
+      "amountEur": 347718396,
+      "amountOriginal": 365000000,
+      "currency": "USD",
+      "postMoneyValuationEur": 881204154,
+      "investors": [
+        "General Atlantic",
+        "PSG Equity"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.generalatlantic.com/media-article/hostaway-announces-365-million-strategic-growth-investment/",
+          "quote": "a $365 million strategic growth investment led by General Atlantic"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.generalatlantic.com/media-article/hostaway-announces-365-million-strategic-growth-investment/",
+          "quote": null
+        },
+        {
+          "field": "month",
+          "url": "https://www.generalatlantic.com/media-article/hostaway-announces-365-million-strategic-growth-investment/",
+          "quote": "December 17, 2024"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.generalatlantic.com/media-article/hostaway-announces-365-million-strategic-growth-investment/",
+          "quote": "with participation from existing investor PSG Equity"
+        },
+        {
+          "field": "valuation",
+          "url": "https://techcrunch.com/2024/12/17/travel-is-back-hostaway-raises-365m-at-a-925m-valuation/",
+          "quote": "post-money valuation of $925 million"
+        }
+      ]
+    }
+  ],
+  "lastValuationEur": 863036161
+}

@@ -1,0 +1,254 @@
+{
+  "id": "exein",
+  "name": "Exein",
+  "aliases": [
+    "EXEIN"
+  ],
+  "domain": "exein.io",
+  "country": "IT",
+  "city": "Rome",
+  "founded": 2018,
+  "sectors": [
+    "saas"
+  ],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 1473519979,
+  "founders": [
+    "Gianni Cuozzo"
+  ],
+  "difficulty": 3,
+  "techeuId": "ea427530-9730-4834-8171-e35229f77e97",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://exein.io/about",
+      "quote": "headquartered in Rome with offices in Germany, Taiwan, and the US"
+    },
+    {
+      "field": "founded",
+      "url": "https://exein.io/about",
+      "quote": "Founded in 2018 by CEO Gianni Cuozzo"
+    },
+    {
+      "field": "founders",
+      "url": "https://exein.io/about",
+      "quote": "Founded in 2018 by CEO Gianni Cuozzo"
+    },
+    {
+      "field": "sectors",
+      "url": "https://exein.io/about",
+      "quote": "Exein is a global leader in Physical AI cybersecurity"
+    },
+    {
+      "field": "valuation",
+      "url": "https://www.leadersleague.com/en/news/exein-raises-270-million-becoming-italian-unicorn-with-1-7-billion-valuation",
+      "quote": "Following the transaction, Exein reaches a valuation of $1.7 billion, becoming one of Italy's unicorns."
+    },
+    {
+      "field": "unicorn",
+      "url": "https://www.leadersleague.com/en/news/exein-raises-270-million-becoming-italian-unicorn-with-1-7-billion-valuation",
+      "quote": "Following the transaction, Exein reaches a valuation of $1.7 billion, becoming one of Italy's unicorns."
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-a",
+      "month": "2021-09",
+      "amountEur": 6000000,
+      "amountOriginal": 6000000,
+      "currency": "EUR",
+      "investors": [
+        "Future Industry Ventures",
+        "eCAPITAL Entrepreneurial Partners",
+        "United Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2021/09/22/roman-cybersecurity-company-exein-nets-e6-million-in-new-funding/",
+          "quote": "Rome-based IoT cybersecurity firm Exein has raised €6 Million in a Series A funding round."
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2021/09/22/roman-cybersecurity-company-exein-nets-e6-million-in-new-funding/",
+          "quote": "Rome-based IoT cybersecurity firm Exein has raised €6 Million in a Series A funding round."
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2021/09/22/roman-cybersecurity-company-exein-nets-e6-million-in-new-funding/",
+          "quote": "22 September 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2021/09/22/roman-cybersecurity-company-exein-nets-e6-million-in-new-funding/",
+          "quote": "The closing of the Series A round was co-led by manufacturing-focused fund Future Industry Ventures and deep-tech-focused eCAPITAL Entrepreneurial Partners"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2021/09/22/roman-cybersecurity-company-exein-nets-e6-million-in-new-funding/",
+          "quote": "with existing Italian digital technologies investor United Ventures following on"
+        }
+      ]
+    },
+    {
+      "stage": "series-b",
+      "month": "2024-07",
+      "amountEur": 15000000,
+      "amountOriginal": 15000000,
+      "currency": "EUR",
+      "investors": [
+        "33N Ventures",
+        "Partech",
+        "eCAPITAL",
+        "Future Industry Ventures",
+        "United Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://blog.exein.io/exein-raises-eu15m-in-series-b-funding-as-it-sets-global-standard-for-embedded-cybersecurity",
+          "quote": "has raised €15m in a Series B round"
+        },
+        {
+          "field": "stage",
+          "url": "https://blog.exein.io/exein-raises-eu15m-in-series-b-funding-as-it-sets-global-standard-for-embedded-cybersecurity",
+          "quote": "has raised €15m in a Series B round"
+        },
+        {
+          "field": "month",
+          "url": "https://blog.exein.io/exein-raises-eu15m-in-series-b-funding-as-it-sets-global-standard-for-embedded-cybersecurity",
+          "quote": "Rome, Italy, 12th July 2024"
+        },
+        {
+          "field": "investors",
+          "url": "https://blog.exein.io/exein-raises-eu15m-in-series-b-funding-as-it-sets-global-standard-for-embedded-cybersecurity",
+          "quote": "The round was led by 33N, a specialised investor in cybersecurity and infrastructure software, and joined by Partech"
+        },
+        {
+          "field": "investors",
+          "url": "https://blog.exein.io/exein-raises-eu15m-in-series-b-funding-as-it-sets-global-standard-for-embedded-cybersecurity",
+          "quote": "The round also saw continued support from existing investors United Ventures , eCAPITAL , and Future Industry Ventures"
+        }
+      ]
+    },
+    {
+      "stage": "series-c",
+      "month": "2025-07",
+      "amountEur": 70000000,
+      "amountOriginal": 70000000,
+      "currency": "EUR",
+      "investors": [
+        "Balderton Capital",
+        "Supernova Invest",
+        "Lakestar",
+        "33N Ventures",
+        "United Ventures",
+        "Partech"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.verdict.co.uk/exein-e70m-series-c-iot-security/",
+          "quote": "has raised €70m ($81.15m) in Series C funding"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.verdict.co.uk/exein-e70m-series-c-iot-security/",
+          "quote": "has raised €70m ($81.15m) in Series C funding"
+        },
+        {
+          "field": "month",
+          "url": "https://www.verdict.co.uk/exein-e70m-series-c-iot-security/",
+          "quote": "July 17, 2025"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.verdict.co.uk/exein-e70m-series-c-iot-security/",
+          "quote": "The funding round was led by Balderton"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.verdict.co.uk/exein-e70m-series-c-iot-security/",
+          "quote": "with additional participation from Supernova, Lakestar, and existing investors 33N, United Ventures, and Partech"
+        }
+      ]
+    },
+    {
+      "stage": "series-c",
+      "month": "2025-12",
+      "amountEur": 100000000,
+      "amountOriginal": 100000000,
+      "currency": "EUR",
+      "investors": [
+        "Blue Cloud Ventures",
+        "HV Capital",
+        "Intrepid Growth Partners",
+        "Geodesic"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://siliconangle.com/?p=725527",
+          "quote": "raised €100 million"
+        },
+        {
+          "field": "stage",
+          "url": "https://siliconangle.com/?p=725527",
+          "quote": null
+        },
+        {
+          "field": "month",
+          "url": "https://siliconangle.com/?p=725527",
+          "quote": "DECEMBER 18 2025"
+        },
+        {
+          "field": "investors",
+          "url": "https://bebeez.eu/2026/09/16/exein-attracts-270-million-us-dollars-round-from-headline-and-others-and-becomes-an-unicorn/",
+          "quote": "The firm attracted equity from Blue Cloud Ventures (lead investor), HV Capital, Intrepid Growth Partners, and Geodesic Capital while JP Morgan provided a revolving credit line"
+        },
+        {
+          "field": "investors",
+          "url": "https://siliconangle.com/?p=725527",
+          "quote": "The new investment was led by Blue Cloud Ventures"
+        }
+      ]
+    },
+    {
+      "stage": "series-d",
+      "month": "2026-09",
+      "amountEur": 234029643,
+      "amountOriginal": 270000000,
+      "currency": "USD",
+      "investors": [
+        "Headline",
+        "Sofina",
+        "Goldman Sachs",
+        "KfW Capital",
+        "T.Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://bebeez.eu/2026/09/16/exein-attracts-270-million-us-dollars-round-from-headline-and-others-and-becomes-an-unicorn/",
+          "quote": "attracted 270 million US Dollars on the ground of a 1.7 billion US Dollars enterprise value"
+        },
+        {
+          "field": "month",
+          "url": "https://bebeez.eu/2026/09/16/exein-attracts-270-million-us-dollars-round-from-headline-and-others-and-becomes-an-unicorn/",
+          "quote": "September 16, 2026"
+        },
+        {
+          "field": "investors",
+          "url": "https://bebeez.eu/2026/09/16/exein-attracts-270-million-us-dollars-round-from-headline-and-others-and-becomes-an-unicorn/",
+          "quote": "attracted the resources of lead investor Headline"
+        },
+        {
+          "field": "investors",
+          "url": "https://bebeez.eu/2026/09/16/exein-attracts-270-million-us-dollars-round-from-headline-and-others-and-becomes-an-unicorn/",
+          "quote": "Sofina, Goldman Sachs, BEI/ETCI, KfW Capital, and T.Capital also invested in the company"
+        }
+      ]
+    }
+  ]
+}

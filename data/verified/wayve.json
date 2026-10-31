@@ -1,0 +1,244 @@
+{
+  "id": "wayve",
+  "name": "Wayve",
+  "aliases": [],
+  "domain": "wayve.ai",
+  "country": "GB",
+  "city": "London",
+  "founded": 2017,
+  "sectors": [
+    "mobility",
+    "ai"
+  ],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 7298031229,
+  "founders": [
+    "Amar Shah",
+    "Alex Kendall"
+  ],
+  "difficulty": 2,
+  "techeuId": "a56ff562-ad50-4757-b9a8-10b6846748ad",
+  "wikidataId": "Q125820744",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://wayve.ai/about/",
+      "quote": "230-238 York Way London, N7 9AG United Kingdom"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Wayve",
+      "quote": "Wayve was founded in Cambridge , England, on 21 August 2017"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Wayve",
+      "quote": "by Amar Shah and Alex Kendall, two machine learning PhD students"
+    },
+    {
+      "field": "sectors",
+      "url": "https://wayve.ai/",
+      "quote": "Wayve supervised autonomous rides. Now on Uber."
+    },
+    {
+      "field": "sectors",
+      "url": "https://wayve.ai/",
+      "quote": "Building Embodied AI For Any Vehicle, Anywhere."
+    },
+    {
+      "field": "unicorn",
+      "url": "https://www.just-auto.com/newsletters/wayve-raises-1-2bn-series-d",
+      "quote": "UK-based autonomous driving startup Wayve has secured $1.2bn in Series D funding at post-money valuation of $8.6bn."
+    },
+    {
+      "field": "valuation",
+      "url": "https://www.just-auto.com/newsletters/wayve-raises-1-2bn-series-d",
+      "quote": "UK-based autonomous driving startup Wayve has secured $1.2bn in Series D funding at post-money valuation of $8.6bn."
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-a",
+      "month": "2019-11",
+      "amountEur": 18081548,
+      "amountOriginal": 20000000,
+      "currency": "USD",
+      "investors": [
+        "Eclipse Ventures",
+        "Balderton Capital",
+        "Compound",
+        "Fly Ventures",
+        "Firstminute Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.unquote.com/uk/official-record/3017287/eclipse-leads-usd20m-series-a-for-wayve",
+          "quote": "Eclipse Ventures has led a $20m series-A funding round"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.unquote.com/uk/official-record/3017287/eclipse-leads-usd20m-series-a-for-wayve",
+          "quote": "Eclipse Ventures has led a $20m series-A funding round"
+        },
+        {
+          "field": "month",
+          "url": "https://www.unquote.com/uk/official-record/3017287/eclipse-leads-usd20m-series-a-for-wayve",
+          "quote": "18 November 2019"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.unquote.com/uk/official-record/3017287/eclipse-leads-usd20m-series-a-for-wayve",
+          "quote": "Also joining the round were Firstminute Capital, Fly Ventures, Balderton Capital and Compound"
+        }
+      ]
+    },
+    {
+      "stage": "series-b",
+      "month": "2022-01",
+      "amountEur": 175947919,
+      "amountOriginal": 200000000,
+      "currency": "USD",
+      "investors": [
+        "Eclipse Ventures",
+        "D1 Capital Partners",
+        "Baillie Gifford",
+        "Moore Strategic Ventures",
+        "Linse Capital",
+        "Microsoft",
+        "Virgin",
+        "Compound",
+        "Balderton Capital",
+        "Ocado Group"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2022/01/18/wayve-raises-200m-series-b-led-by-eclipse-for-its-ai-for-autonomous-delivery-vehicles/",
+          "quote": "Wayve has raised a $200 million Series B funding round"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2022/01/18/wayve-raises-200m-series-b-led-by-eclipse-for-its-ai-for-autonomous-delivery-vehicles/",
+          "quote": "Wayve has raised a $200 million Series B funding round"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2022/01/18/wayve-raises-200m-series-b-led-by-eclipse-for-its-ai-for-autonomous-delivery-vehicles/",
+          "quote": "4:20 AM PST · January 18, 2022"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2022/01/18/wayve-raises-200m-series-b-led-by-eclipse-for-its-ai-for-autonomous-delivery-vehicles/",
+          "quote": "Eclipse Ventures, a previous investor, led the round."
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2022/01/18/wayve-raises-200m-series-b-led-by-eclipse-for-its-ai-for-autonomous-delivery-vehicles/",
+          "quote": "Other participating investors include D1 Capital Partners, Baillie Gifford, Moore Strategic Ventures and Linse Capital, as well as Microsoft and Virgin, and early-stage investors Compound and Balderton Capital."
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2022/01/18/wayve-raises-200m-series-b-led-by-eclipse-for-its-ai-for-autonomous-delivery-vehicles/",
+          "quote": "They join strategic investor Ocado Group"
+        }
+      ]
+    },
+    {
+      "stage": "series-c",
+      "month": "2024-05",
+      "amountEur": 975292588,
+      "amountOriginal": 1050000000,
+      "currency": "USD",
+      "investors": [
+        "SoftBank Group",
+        "Nvidia",
+        "Microsoft"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2024/05/07/exclusive-wayve/",
+          "quote": "a $1.05 billion Series C funding round led by SoftBank, Nvidia and Microsoft."
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2024/05/07/exclusive-wayve/",
+          "quote": "a $1.05 billion Series C funding round led by SoftBank, Nvidia and Microsoft."
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2024/05/07/exclusive-wayve/",
+          "quote": "May 7, 2024"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2024/05/07/exclusive-wayve/",
+          "quote": "a $1.05 billion Series C funding round led by SoftBank, Nvidia and Microsoft."
+        },
+        {
+          "field": "investors",
+          "url": "https://en.wikipedia.org/wiki/Wayve",
+          "quote": "Wayve’s Series C in May 2024 closed at $1.05 billion, led by Japan’s SoftBank Group"
+        }
+      ]
+    },
+    {
+      "stage": "series-d",
+      "month": "2026-02",
+      "amountEur": 1018329939,
+      "amountOriginal": 1200000000,
+      "currency": "USD",
+      "postMoneyValuationEur": 7298031229,
+      "investors": [
+        "Eclipse Ventures",
+        "Balderton Capital",
+        "SoftBank Vision Fund 2",
+        "Microsoft",
+        "NVIDIA",
+        "Uber",
+        "Mercedes-Benz",
+        "Nissan",
+        "Stellantis",
+        "Ontario Teachers' Pension Plan",
+        "Baillie Gifford",
+        "British Business Bank",
+        "Icehouse Ventures",
+        "Schroders Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.just-auto.com/newsletters/wayve-raises-1-2bn-series-d",
+          "quote": "UK-based autonomous driving startup Wayve has secured $1.2bn in Series D funding at post-money valuation of $8.6bn."
+        },
+        {
+          "field": "stage",
+          "url": "https://en.wikipedia.org/wiki/Wayve",
+          "quote": "announced a $1.2 billion Series D funding round"
+        },
+        {
+          "field": "month",
+          "url": "https://www.just-auto.com/newsletters/wayve-raises-1-2bn-series-d",
+          "quote": "February 25 2026"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.just-auto.com/newsletters/wayve-raises-1-2bn-series-d",
+          "quote": "The round was led by venture firms Eclipse, Balderton and SoftBank Vision Fund 2."
+        },
+        {
+          "field": "investors",
+          "url": "https://www.just-auto.com/newsletters/wayve-raises-1-2bn-series-d",
+          "quote": "Existing backers Microsoft, NVIDIA and Uber also participated, along with automotive partners Mercedes-Benz, Nissan and Stellantis."
+        },
+        {
+          "field": "investors",
+          "url": "https://www.just-auto.com/newsletters/wayve-raises-1-2bn-series-d",
+          "quote": "Additional investors include Ontario Teachers’ Pension Plan, Baillie Gifford, British Business Bank, Icehouse Ventures and Schroders Capital."
+        }
+      ]
+    }
+  ]
+}

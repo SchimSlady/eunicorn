@@ -1,0 +1,191 @@
+{
+  "id": "fever",
+  "name": "Fever",
+  "aliases": [
+    "Feverup"
+  ],
+  "domain": "feverup.com",
+  "country": "ES",
+  "city": "Madrid",
+  "founded": 2012,
+  "sectors": [
+    "consumer"
+  ],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 4500000000,
+  "founders": [
+    "Alexandre Perez Casares",
+    "Francisco Hein",
+    "Ignacio Bachiller",
+    "Pep Gomez"
+  ],
+  "difficulty": 2,
+  "techeuId": "dafe610c-c4e6-4c69-a9c2-ae1f4b8a9488",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/Fever_(app)",
+      "quote": "has offices and headquarters in Madrid, London, and New York"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Fever_(app)",
+      "quote": "Fever was founded in 2012 in New York."
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Fever_(app)",
+      "quote": "Alexandre Perez Casares, Francisco Hein, Ignacio Bachiller and Pep Gomez"
+    },
+    {
+      "field": "sectors",
+      "url": "https://en.wikipedia.org/wiki/Fever_(app)",
+      "quote": "Fever is a live entertainment ticketing platform"
+    },
+    {
+      "field": "valuation",
+      "url": "https://ecosistemastartup.com/fever-capta-us250m-y-supera-los-e4-500m-de-valoracion/",
+      "quote": "ronda actual de US$250M con valoración por encima de los 4.500 millones"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://ecosistemastartup.com/fever-capta-us250m-y-supera-los-e4-500m-de-valoracion/",
+      "quote": "ronda actual de US$250M con valoración por encima de los 4.500 millones"
+    },
+    {
+      "field": "valuation",
+      "url": "https://ga-p.com/en/news/gomez-acebo-pombo-advises-eqt-on-its-250m-investment-in-fever/",
+      "quote": "approximately $5.2 billion (€4.5 billion)"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-c",
+      "month": "2018-07",
+      "amountEur": 17080877,
+      "amountOriginal": 20000000,
+      "currency": "USD",
+      "investors": [
+        "Atresmedia",
+        "Labtech",
+        "Accel Partners",
+        "14W Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://globalventuring.com/fever-heats-up-20m-series-c",
+          "quote": "Media group Atresmedia and property developer Labtech have co-led a $20m series C round"
+        },
+        {
+          "field": "stage",
+          "url": "https://globalventuring.com/fever-heats-up-20m-series-c",
+          "quote": "Media group Atresmedia and property developer Labtech have co-led a $20m series C round"
+        },
+        {
+          "field": "month",
+          "url": "https://globalventuring.com/fever-heats-up-20m-series-c",
+          "quote": "Jul 5, 2018"
+        },
+        {
+          "field": "investors",
+          "url": "https://globalventuring.com/fever-heats-up-20m-series-c",
+          "quote": "Venture capital firms Accel and 14W Ventures joined the corporates in the round"
+        }
+      ]
+    },
+    {
+      "stage": "series-d",
+      "month": "2022-01",
+      "amountEur": 201294671,
+      "amountOriginal": 227000000,
+      "currency": "USD",
+      "investors": [
+        "Goldman Sachs Asset Management",
+        "Alignment Growth",
+        "Goodwater Capital",
+        "Smash Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://newsroom.feverup.com/en-US/209227-goldman-sachs-asset-management-leads-227m-investment-in-live-entertainment-tech-startup-fever",
+          "quote": "has raised $227m in a round led by the Growth Equity business within Goldman Sachs Asset Management"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/brief/goldman-kicks-up-the-heat-as-fever-raises-227-million-now-at-1-billion-valuation/",
+          "quote": "\"datePublished\":\"2022-01-26T09:08:47+00:00\""
+        },
+        {
+          "field": "investors",
+          "url": "https://newsroom.feverup.com/en-US/209227-goldman-sachs-asset-management-leads-227m-investment-in-live-entertainment-tech-startup-fever",
+          "quote": "New co-investors Alignment Growth, Goodwater Capital, and Smash Capital also"
+        }
+      ]
+    },
+    {
+      "stage": "series-e",
+      "month": "2025-06",
+      "amountEur": 87542677,
+      "amountOriginal": 100000000,
+      "currency": "USD",
+      "investors": [
+        "L Catterton",
+        "Point72 Private Investments"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://capital-riesgo.es/es/articles/fever-cierra-una-ronda-de-100-millones-liderada-por-l-catterton-y-point72/",
+          "quote": "Fever cierra una ronda de $100 millones liderada por L Catterton y Point72"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.mofo.com/resources/news/250616mofo-advises-fever-on-series-e-funding-round-and-acquisition-of-dice",
+          "quote": "on its Series E funding round led by L Catterton and Point72 Private Investments"
+        },
+        {
+          "field": "month",
+          "url": "https://variety.com/2025/music/news/fever-acquires-dice-securing-100-million-funding-1236419015/",
+          "quote": "Jun 5, 2025"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.mofo.com/resources/news/250616mofo-advises-fever-on-series-e-funding-round-and-acquisition-of-dice",
+          "quote": "led by L Catterton and Point72 Private Investments"
+        }
+      ]
+    },
+    {
+      "stage": "series-f+",
+      "month": "2026-09",
+      "amountEur": 218150087,
+      "amountOriginal": 250000000,
+      "currency": "USD",
+      "investors": [
+        "EQT",
+        "Point72 Private Investments",
+        "Baillie Gifford"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://ecosistemastartup.com/fever-capta-us250m-y-supera-los-e4-500m-de-valoracion/",
+          "quote": "ha cerrado una ampliación de capital de US$250M"
+        },
+        {
+          "field": "month",
+          "url": "https://ecosistemastartup.com/fever-capta-us250m-y-supera-los-e4-500m-de-valoracion/",
+          "quote": "\"datePublished\":\"2026-09-18T06:06:38-03:00\""
+        },
+        {
+          "field": "investors",
+          "url": "https://ga-p.com/en/news/gomez-acebo-pombo-advises-eqt-on-its-250m-investment-in-fever/",
+          "quote": "The capital raise was led by EQT, with participation from Point72 Private Investments, Baillie Gifford, and existing investors."
+        }
+      ]
+    }
+  ]
+}

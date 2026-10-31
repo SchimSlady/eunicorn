@@ -1,0 +1,46 @@
+# Data lessons (from batches 1–2)
+
+Read this before verifying a company. Each rule came from a real problem in the first 30 companies.
+
+## Pick the right companies
+- **Startups only.** Drop listed or acquired corporates (Polestar, Nebius, InPost, Nokia, Ubisoft), companies founded before 1995, and companies whose funding is mostly debt (ID Finance, Propel Finance). Tech.eu's "round" totals include debt and takeovers. Use equity only.
+- **Secondary sales are not rounds.** Founder or investor exits (Odoo's 2019/2021/2024 deals, Polestar's share sales, Brevo's 2025 deal) don't count unless new shares were issued. If unclear, leave the round out and say so.
+- **Check the staging exclusions** (`staging.launch_candidates.include`) before starting. Record any new exclusion there with a `note`.
+
+## Rounds
+- **Stage enum is fixed:** `pre-seed`, `seed`, `series-a` … `series-e`, `series-f+`. Labels like `growth` or `Series A2` don't exist. Map to the nearest stage and say so in the notes. Undisclosed stages are guesses: flag them.
+- **Tech.eu stage labels are unreliable** (often "Other"). Don't copy them.
+- **Amounts:** use the announced amount. EUR at the ECB reference rate for the announcement date. Keep `amountOriginal` and `currency`. Only use a Tech.eu EUR figure when it matches the announcement.
+- **Months only.** Use the announcement month, not the closing date.
+- **Undisclosed amounts:** leave the round out. Don't estimate.
+- **Investors:** full names from a source. Empty investors are allowed, but flag them.
+- **Multi-tranche rounds:** one round per announcement, not per tranche, unless the tranches were announced separately.
+
+## Sources and quotes
+- **WebFetch returns a summary, not the page.** Quotes taken from it are often paraphrases. Where possible, get the text from a search snippet or a second fetch that quotes the page. If you can only paraphrase, mark it `"quote": null` and flag it.
+- **Blocked pages (403)** are not sources.
+- **Use company press releases first,** then tech press (Sifted, TechCrunch, EU-Startups, Reuters), then Wikipedia for founders and founding year.
+- **Dealroom, Crunchbase and PitchBook pages may be read to verify a specific fact** (decision by Pablo, 2026-10-31). One page at a time, no bulk scraping or exports. Prefer a press release or news article as the cited source when one exists.
+
+## Company facts
+- **Founded:** the company's own founding year, not its parent's or the registration date of a predecessor (Yandex vs Nebius). Note any disagreement.
+- **City:** the HQ the company itself uses. If sources differ, pick the company's own statement and note the other.
+- **Founders:** only people named in a source. Leave out founders you can't quote.
+- **Unicorn:** true only if a priced funding round valued the company at €1bn+ (post-money preferred; a pre-money of €1bn+ also counts), or the company IPO'd at €1bn+. SPAC deals, acquisition prices, enterprise values and press estimates do not count. Convert to EUR at the ECB rate: "$1bn" is not a unicorn if it is under €1bn. Leave `lastValuationEur` out if undisclosed.
+
+## Logos
+- **Order:** Wikidata `P154` (Wikimedia Commons file) first, then the company's own press kit or header logo, then Wikipedia's infobox.
+- **Brandfetch Logo API prohibits programmatic downloads.** Don't use its CDN.
+- **Wikimedia Commons rate-limits** heavy API use (HTTP 429). Pause between requests.
+- **Check the file:** the logo must be the latest branding, not a wordmark from an old rebrand. Check the file is not a favicon. Prefer SVG, then large PNG.
+- **Symbol-only or small rasters** are acceptable only if no better file exists. Flag them.
+- **Save to** `web/public/logos/<id>.svg|png`. Don't add a logo source to the company file unless asked.
+
+## Process
+- **Validate before loading:** `npm run validate` and `npm run load:verified -- <id>` for each company.
+- **Loader quirks:**
+  - `company_sources.field` accepts only the listed values. A `logo` value needed a migration (applied).
+  - Round ids for `series-f+` become `series-f-plus`.
+  - Re-running the loader replaces a company's rounds and sources, so it's safe.
+- **Batches:** keep each agent to about 6–8 companies, so the work and the checks stay manageable.
+- **Keep the record:** a company that doesn't fit is marked excluded with a reason, not silently dropped.
