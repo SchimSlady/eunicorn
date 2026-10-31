@@ -1,0 +1,165 @@
+{
+  "id": "isomorphic-labs",
+  "name": "Isomorphic Labs",
+  "aliases": [],
+  "domain": "isomorphiclabs.com",
+  "country": "GB",
+  "city": "London",
+  "founded": 2021,
+  "sectors": [
+    "ai",
+    "health"
+  ],
+  "status": "private",
+  "unicorn": true,
+  "founders": [
+    "Demis Hassabis"
+  ],
+  "funFact": "Isomorphic Labs was spun out of Google DeepMind in 2021 to turn the AlphaFold protein-structure breakthrough into new medicines, and is led by Nobel Prize-winning scientist Demis Hassabis.",
+  "difficulty": 3,
+  "techeuId": "2A378DC6-1111-40D6-BC48-5AF49E2C7875",
+  "wikidataId": "Q109536010",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/Isomorphic_Labs",
+      "quote": "based in London, England."
+    },
+    {
+      "field": "city",
+      "url": "https://www.cityam.com/?p=2464276",
+      "quote": "London-based AI drug discovery firm, Isomorphic Labs"
+    },
+    {
+      "field": "founded",
+      "url": "https://tech.eu/2025/03/31/isomorphic-labs-nets-600m-in-first-external-funding-round/",
+      "quote": "was founded in 2021 as a spin-off from Google DeepMind"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Isomorphic_Labs",
+      "quote": "The company was incorporated on February 24, 2021"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Isomorphic_Labs",
+      "quote": "founded by Demis Hassabis, who is the CEO."
+    },
+    {
+      "field": "founders",
+      "url": "https://tech.eu/2025/03/31/isomorphic-labs-nets-600m-in-first-external-funding-round/",
+      "quote": "Isomorphic Labs founder and CEO Demis Hassabis"
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.isomorphiclabs.com/articles/isomorphic-labs-announces-series-b-investment-round",
+      "quote": "founded with the ambition to leverage the power of AI to reimagine and accelerate drug discovery"
+    },
+    {
+      "field": "status",
+      "url": "https://www.isomorphiclabs.com/articles/isomorphic-labs-announces-series-b-investment-round",
+      "quote": "has raised $2.1 Billion in Series B funding."
+    },
+    {
+      "field": "unicorn",
+      "url": "https://www.cityam.com/?p=2464276",
+      "quote": "$2.1bn Series B funding round in May"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://www.cityam.com/?p=2464276",
+      "quote": "roughly $17.5bn previously attached to the company"
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://www.cityam.com/?p=2464276",
+      "quote": "led by Nobel Prize-winning scientist Sir Demis Hassabis"
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://en.wikipedia.org/wiki/Isomorphic_Labs",
+      "quote": "was inspired by DeepMind's AlphaFold 2 technology"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "3874779A-CC16-4422-A06E-857A483E267B",
+      "stage": "series-a",
+      "month": "2025-03",
+      "amountEur": 554785021,
+      "amountOriginal": 600000000,
+      "currency": "USD",
+      "investors": [
+        "Thrive Capital",
+        "Alphabet",
+        "GV"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2025/03/31/isomorphic-labs-nets-600m-in-first-external-funding-round/",
+          "quote": "has raised $600 million, marking its first external funding round."
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2025/03/31/isomorphic-labs-nets-600m-in-first-external-funding-round/",
+          "quote": "has raised $600 million, marking its first external funding round."
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2025/03/31/isomorphic-labs-nets-600m-in-first-external-funding-round/",
+          "quote": "31 March 2025"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2025/03/31/isomorphic-labs-nets-600m-in-first-external-funding-round/",
+          "quote": "was led by Open AI-backer Thrive Capital with funding from Alphabet and Google’s venture arm, Google Ventures."
+        }
+      ]
+    },
+    {
+      "techeuId": "9B5270F2-C3BC-47F9-B385-5B39205806C1",
+      "stage": "series-b",
+      "month": "2026-05",
+      "amountEur": 1789061169,
+      "amountOriginal": 2100000000,
+      "currency": "USD",
+      "investors": [
+        "Thrive Capital",
+        "Alphabet",
+        "GV",
+        "MGX",
+        "Temasek",
+        "CapitalG",
+        "UK Sovereign AI Fund"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.isomorphiclabs.com/articles/isomorphic-labs-announces-series-b-investment-round",
+          "quote": "has raised $2.1 Billion in Series B funding."
+        },
+        {
+          "field": "stage",
+          "url": "https://www.isomorphiclabs.com/articles/isomorphic-labs-announces-series-b-investment-round",
+          "quote": "has raised $2.1 Billion in Series B funding."
+        },
+        {
+          "field": "month",
+          "url": "https://www.isomorphiclabs.com/articles/isomorphic-labs-announces-series-b-investment-round",
+          "quote": "May 12, 2026"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.isomorphiclabs.com/articles/isomorphic-labs-announces-series-b-investment-round",
+          "quote": "led by Thrive Capital."
+        },
+        {
+          "field": "investors",
+          "url": "https://www.isomorphiclabs.com/articles/isomorphic-labs-announces-series-b-investment-round",
+          "quote": "MGX, Temasek, CapitalG, and the UK Sovereign AI Fund."
+        }
+      ]
+    }
+  ]
+}

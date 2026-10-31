@@ -1,0 +1,280 @@
+{
+  "id": "cmr-surgical",
+  "name": "CMR Surgical",
+  "aliases": [
+    "Cambridge Medical Robotics"
+  ],
+  "domain": "cmrsurgical.com",
+  "country": "GB",
+  "city": "Cambridge",
+  "founded": 2014,
+  "sectors": [
+    "health"
+  ],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 2520000000,
+  "founders": [
+    "Luke Hares",
+    "Keith Marshall",
+    "Paul Roberts",
+    "Mark Slack",
+    "Martin Frost"
+  ],
+  "funFact": "CMR Surgical was originally called Cambridge Medical Robotics and only renamed itself in March 2018, a year before its Versius surgical robot made it a unicorn.",
+  "difficulty": 5,
+  "techeuId": "1776D92F-5E7D-47FE-8670-DBF8EDE596D0",
+  "wikidataId": "Q60775579",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/CMR_Surgical",
+      "quote": "With headquarters at Evolution Business Park, Cambridge"
+    },
+    {
+      "field": "city",
+      "url": "https://www.stryker.com/br/pt/about/news/2026/stryker-cmr-surgical-announce-strategic-alliance-advance-robotic-assisted-surgery.html",
+      "quote": "Cambridge, Reino Unido"
+    },
+    {
+      "field": "founded",
+      "url": "https://www.stryker.com/br/pt/about/news/2026/stryker-cmr-surgical-announce-strategic-alliance-advance-robotic-assisted-surgery.html",
+      "quote": "Fundada em 2014"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/CMR_Surgical",
+      "quote": "Luke Hares, Keith Marshall, Paul Roberts, Mark Slack, Martin Frost"
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.cambridgenetwork.co.uk/news/cmr-surgical-raises-100-million-series-b-financing",
+      "quote": "a private company developing the next-generation universal robotic system for minimal access surgery."
+    },
+    {
+      "field": "status",
+      "url": "https://www.cambridgenetwork.co.uk/news/cmr-surgical-raises-100-million-series-b-financing",
+      "quote": "a private company developing the next-generation universal robotic system for minimal access surgery."
+    },
+    {
+      "field": "unicorn",
+      "url": "https://en.wikipedia.org/wiki/CMR_Surgical",
+      "quote": "The company achieved Unicorn status in 2019."
+    },
+    {
+      "field": "valuation",
+      "url": "https://en.wikipedia.org/wiki/CMR_Surgical",
+      "quote": "In 2021 it received a valuation of $3 billion."
+    },
+    {
+      "field": "valuation",
+      "url": "https://siliconcanals.com/cmr-surgical-raises-600m/",
+      "quote": "CMR is now valued at $3B"
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://en.wikipedia.org/wiki/CMR_Surgical",
+      "quote": "Previously called Cambridge Medical Robotics, it changed name in March 2018."
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-a",
+      "month": "2016-07",
+      "amountEur": 18230000,
+      "amountOriginal": 20300000,
+      "currency": "USD",
+      "investors": [
+        "ABB Technology Ventures",
+        "LGT Global Invest",
+        "Cambridge Innovation Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://globalventuring.com/cambridge-medical-robotics-clears-46m-series-a",
+          "quote": "$20.3m, provided by ABB Technology Ventures, LGT Global Invest and CIC in July 2016"
+        },
+        {
+          "field": "stage",
+          "url": "https://globalventuring.com/cambridge-medical-robotics-clears-46m-series-a",
+          "quote": "$20.3m, provided by ABB Technology Ventures, LGT Global Invest and CIC in July 2016"
+        },
+        {
+          "field": "month",
+          "url": "https://globalventuring.com/cambridge-medical-robotics-clears-46m-series-a",
+          "quote": "$20.3m, provided by ABB Technology Ventures, LGT Global Invest and CIC in July 2016"
+        },
+        {
+          "field": "investors",
+          "url": "https://globalventuring.com/cambridge-medical-robotics-clears-46m-series-a",
+          "quote": "$20.3m, provided by ABB Technology Ventures, LGT Global Invest and CIC in July 2016"
+        }
+      ]
+    },
+    {
+      "stage": "series-a",
+      "month": "2017-09",
+      "amountEur": 21760000,
+      "amountOriginal": 26000000,
+      "currency": "USD",
+      "investors": [
+        "Cambridge Innovation Capital",
+        "LGT Global Invest",
+        "Escala Capital",
+        "ABB Technology Ventures",
+        "Watrium"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.cambridgenetwork.co.uk/index.php/news/cmr-surgical-closes-series-fundraise-further-26-million",
+          "quote": "raising a further $26m from existing investors Cambridge Innovation Capital, LGT Global Invest,"
+        },
+        {
+          "field": "month",
+          "url": "https://www.cambridgenetwork.co.uk/index.php/news/cmr-surgical-closes-series-fundraise-further-26-million",
+          "quote": "raising a further $26m from existing investors Cambridge Innovation Capital, LGT Global Invest,"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.cambridgenetwork.co.uk/index.php/news/cmr-surgical-closes-series-fundraise-further-26-million",
+          "quote": "raising a further $26m from existing investors Cambridge Innovation Capital, LGT Global Invest,"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.cambridgenetwork.co.uk/index.php/news/cmr-surgical-closes-series-fundraise-further-26-million",
+          "quote": "Together with the first tranche in July 2016, the Series A round has raised $46m in total."
+        },
+        {
+          "field": "investors",
+          "url": "https://www.cambridgenetwork.co.uk/index.php/news/cmr-surgical-closes-series-fundraise-further-26-million",
+          "quote": "Escala Capital and ABB Technology Ventures, and new investor Watrium"
+        }
+      ]
+    },
+    {
+      "techeuId": "07517903-D90A-480B-DDDB-08D91092C887",
+      "stage": "series-b",
+      "month": "2018-06",
+      "amountEur": 85200000,
+      "amountOriginal": 100000000,
+      "currency": "USD",
+      "investors": [
+        "Zhejiang Silk Road Fund",
+        "Escala Capital Investments",
+        "LGT",
+        "Cambridge Innovation Capital",
+        "Watrium"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.cambridgenetwork.co.uk/news/cmr-surgical-raises-100-million-series-b-financing",
+          "quote": "CMR Surgical raises $100 million in a Series B financing"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.cambridgenetwork.co.uk/news/cmr-surgical-raises-100-million-series-b-financing",
+          "quote": "CMR Surgical raises $100 million in a Series B financing"
+        },
+        {
+          "field": "month",
+          "url": "https://www.cambridgenetwork.co.uk/news/cmr-surgical-raises-100-million-series-b-financing",
+          "quote": "CMR Surgical raises $100 million in a Series B financing"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.cambridgenetwork.co.uk/news/cmr-surgical-raises-100-million-series-b-financing",
+          "quote": "Zhejiang Silk Road Fund; existing investors Escala Capital Investments, LGT, Cambridge Innovation Capital, and Watrium"
+        }
+      ]
+    },
+    {
+      "techeuId": "A1CB3F1D-99BD-4EA8-DDDC-08D91092C887",
+      "stage": "series-c",
+      "month": "2019-09",
+      "amountEur": 219560000,
+      "amountOriginal": 195000000,
+      "currency": "GBP",
+      "investors": [
+        "LGT",
+        "Cambridge Innovation Capital",
+        "Watrium",
+        "Zhejiang Silk Road Fund",
+        "Escala Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://globalventuring.com/cmr-surgical-240m-series-c",
+          "quote": "raised £195m ($240m) in series C funding today"
+        },
+        {
+          "field": "stage",
+          "url": "https://globalventuring.com/cmr-surgical-240m-series-c",
+          "quote": "raised £195m ($240m) in series C funding today"
+        },
+        {
+          "field": "month",
+          "url": "https://globalventuring.com/cmr-surgical-240m-series-c",
+          "quote": "raised £195m ($240m) in series C funding today"
+        },
+        {
+          "field": "investors",
+          "url": "https://globalventuring.com/cmr-surgical-240m-series-c",
+          "quote": "LGT, Cambridge Innovation Capital (CIC), Watrium, Zhejiang Silk Road Fund and Escala Capital"
+        }
+      ]
+    },
+    {
+      "techeuId": "85E0DCAE-FEA7-45B7-9257-B61863F6CDBF",
+      "stage": "series-d",
+      "month": "2021-06",
+      "amountEur": 504710000,
+      "amountOriginal": 600000000,
+      "currency": "USD",
+      "postMoneyValuationEur": 2520000000,
+      "investors": [
+        "SoftBank Vision Fund 2",
+        "Ally Bridge Group",
+        "RPMI Railpen",
+        "Tencent",
+        "Chimera Partners",
+        "LGT",
+        "Lightrock",
+        "Watrium",
+        "Cambridge Innovation Capital",
+        "PFM Health Sciences",
+        "GE Healthcare"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://siliconcanals.com/cmr-surgical-raises-600m/",
+          "quote": "raised $600M in its Series D round of funding"
+        },
+        {
+          "field": "stage",
+          "url": "https://siliconcanals.com/cmr-surgical-raises-600m/",
+          "quote": "raised $600M in its Series D round of funding"
+        },
+        {
+          "field": "month",
+          "url": "https://siliconcanals.com/cmr-surgical-raises-600m/",
+          "quote": "raised $600M in its Series D round of funding"
+        },
+        {
+          "field": "valuation",
+          "url": "https://siliconcanals.com/cmr-surgical-raises-600m/",
+          "quote": "CMR is now valued at $3B"
+        },
+        {
+          "field": "investors",
+          "url": "https://siliconcanals.com/cmr-surgical-raises-600m/",
+          "quote": "The round was led by SoftBank Vision Fund 2. Ally Bridge Group co-led; RPMI Railpen, Tencent, and Chimera joined; existing investors LGT and Lightrock, Watrium, Cambridge Innovation Capital, PFM Health Sciences, and GE Healthcare"
+        }
+      ]
+    }
+  ]
+}

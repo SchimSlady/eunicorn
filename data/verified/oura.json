@@ -1,0 +1,106 @@
+{
+  "id": "oura",
+  "name": "Oura",
+  "aliases": ["Ōura", "Oura Health", "Oura Ring"],
+  "domain": "ouraring.com",
+  "country": "FI",
+  "city": "Oulu",
+  "founded": 2013,
+  "sectors": ["health", "consumer"],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 9458000000,
+  "founders": ["Petteri Lahtela", "Kari Kivelä", "Markku Koskela"],
+  "funFact": "The very first Oura ring was launched to the public through a Kickstarter campaign in 2015.",
+  "difficulty": 3,
+  "techeuId": "2BC27962-D8F3-4E8F-97CC-41F9D2B19428",
+  "wikidataId": "Q65241898",
+  "sources": [
+    { "field": "city", "url": "https://en.wikipedia.org/wiki/Oura_Health", "quote": "It is headquartered in Oulu, Finland and San Francisco." },
+    { "field": "founded", "url": "https://en.wikipedia.org/wiki/Oura_Health", "quote": "Oura Health was founded in Oulu, Finland in 2013 by Petteri Lahtela, Kari Kivelä, and Markku Koskela." },
+    { "field": "founders", "url": "https://en.wikipedia.org/wiki/Oura_Health", "quote": "Oura Health was founded in Oulu, Finland in 2013 by Petteri Lahtela, Kari Kivelä, and Markku Koskela." },
+    { "field": "sectors", "url": "https://en.wikipedia.org/wiki/Oura_Health", "quote": "The company develops Ōura, a line of smart rings capable of monitoring heart rate, respiration, physical activity, and temperature." },
+    { "field": "status", "url": "https://en.wikipedia.org/wiki/Oura_Health", "quote": "The offering was postponed on September 29, with Oura Health citing uncertainty in the IPO market." },
+    { "field": "unicorn", "url": "https://techcrunch.com/2024/12/19/oura-closes-200m-round-bringing-its-valuation-to-5-2b", "quote": "has closed a $200 million Series D funding round, bringing the company's valuation to $5.2 billion" },
+    { "field": "valuation", "url": "https://www.roschier.com/newsroom/oura-raises-usd-900-million-series-e-financing-valuing-the-company-at-usd-11-billion", "quote": "The investment values ŌURA at approximately USD 11 billion." },
+    { "field": "fun_fact", "url": "https://en.wikipedia.org/wiki/Oura_Health", "quote": "In 2015, Oura introduced the first-generation ring via a Kickstarter campaign." }
+  ],
+  "rounds": [
+    {
+      "techeuId": "D4C99A97-1504-42B4-92E8-5D9FC8BF30B1",
+      "stage": "series-e",
+      "month": "2025-10",
+      "amountEur": 774000000,
+      "amountOriginal": 900000000,
+      "currency": "USD",
+      "postMoneyValuationEur": 9458000000,
+      "investors": ["Fidelity Management & Research Company", "ICONIQ", "Whale Rock Capital Management", "Atreides Management"],
+      "sources": [
+        { "field": "amount", "url": "https://newsio.com/2025/10/14/oura-reaches-11-billion-valuation-with-new-900-million-fundraise/?amp=1", "quote": "Oura said Tuesday that it raised over $900 million in a new Series E funding round" },
+        { "field": "month", "url": "https://newsio.com/2025/10/14/oura-reaches-11-billion-valuation-with-new-900-million-fundraise/?amp=1", "quote": "Oura said Tuesday that it raised over $900 million in a new Series E funding round" },
+        { "field": "stage", "url": "https://www.roschier.com/newsroom/oura-raises-usd-900-million-series-e-financing-valuing-the-company-at-usd-11-billion", "quote": "Roschier advised ŌURA, the leading smart ring manufacturer, in securing over USD 900 million in Series E financing." },
+        { "field": "investors", "url": "https://newsio.com/2025/10/14/oura-reaches-11-billion-valuation-with-new-900-million-fundraise/?amp=1", "quote": "also includes new investor ICONIQ and contributions from Whale Rock and Atreides." },
+        { "field": "investors", "url": "https://newsio.com/2025/10/14/oura-reaches-11-billion-valuation-with-new-900-million-fundraise/?amp=1", "quote": "The fundraise, led by Fidelity Management & Research Company" },
+        { "field": "valuation", "url": "https://www.roschier.com/newsroom/oura-raises-usd-900-million-series-e-financing-valuing-the-company-at-usd-11-billion", "quote": "The investment values ŌURA at approximately USD 11 billion." }
+      ]
+    },
+    {
+      "stage": "series-d",
+      "month": "2024-12",
+      "amountEur": 191000000,
+      "amountOriginal": 200000000,
+      "currency": "USD",
+      "postMoneyValuationEur": 4962000000,
+      "investors": ["Fidelity Management & Research Company", "Dexcom"],
+      "sources": [
+        { "field": "amount", "url": "https://techcrunch.com/2024/12/19/oura-closes-200m-round-bringing-its-valuation-to-5-2b", "quote": "has closed a $200 million Series D funding round" },
+        { "field": "month", "url": "https://techcrunch.com/2024/12/19/oura-closes-200m-round-bringing-its-valuation-to-5-2b", "quote": "has closed a $200 million Series D funding round" },
+        { "field": "stage", "url": "https://techcrunch.com/2024/12/19/oura-closes-200m-round-bringing-its-valuation-to-5-2b", "quote": "has closed a $200 million Series D funding round" },
+        { "field": "investors", "url": "https://techcrunch.com/2024/12/19/oura-closes-200m-round-bringing-its-valuation-to-5-2b", "quote": "The round included participation from Fidelity Management and glucose device maker Dexcom." },
+        { "field": "valuation", "url": "https://techcrunch.com/2024/12/19/oura-closes-200m-round-bringing-its-valuation-to-5-2b", "quote": "bringing the company's valuation to $5.2 billion" }
+      ]
+    },
+    {
+      "stage": "series-c",
+      "month": "2021-05",
+      "amountEur": 82000000,
+      "amountOriginal": 100000000,
+      "currency": "USD",
+      "investors": ["The Chernin Group", "Elysian Park Ventures", "Temasek", "JAZZ Venture Partners", "Square", "Eisai", "Forerunner Ventures", "MSD Capital", "Lifeline Ventures", "Marc Benioff"],
+      "sources": [
+        { "field": "amount", "url": "https://globalventuring.com/blog/2021/05/06/oura-obtains-100m-in-series-c/?format=md", "quote": "raised $100m on Tuesday in a series C round" },
+        { "field": "month", "url": "https://globalventuring.com/blog/2021/05/06/oura-obtains-100m-in-series-c/?format=md", "quote": "raised $100m on Tuesday in a series C round" },
+        { "field": "stage", "url": "https://globalventuring.com/blog/2021/05/06/oura-obtains-100m-in-series-c/?format=md", "quote": "raised $100m on Tuesday in a series C round" },
+        { "field": "investors", "url": "https://globalventuring.com/blog/2021/05/06/oura-obtains-100m-in-series-c/?format=md", "quote": "Chernin Group co-led the round with Elysian Park Ventures." }
+      ]
+    },
+    {
+      "stage": "series-b",
+      "month": "2020-03",
+      "amountEur": 25000000,
+      "amountOriginal": 28000000,
+      "currency": "USD",
+      "investors": ["Forerunner Ventures", "Square", "Gradient Ventures"],
+      "sources": [
+        { "field": "amount", "url": "https://mercomcapital.com/oura-ring-raises-28-million-in-series-b-funding/", "quote": "raised $28 million in a Series B funding from Forerunner Ventures, Square, and Gradient Ventures" },
+        { "field": "month", "url": "https://mercomcapital.com/oura-ring-raises-28-million-in-series-b-funding/", "quote": "raised $28 million in a Series B funding from Forerunner Ventures, Square, and Gradient Ventures" },
+        { "field": "stage", "url": "https://mercomcapital.com/oura-ring-raises-28-million-in-series-b-funding/", "quote": "raised $28 million in a Series B funding" },
+        { "field": "investors", "url": "https://mercomcapital.com/oura-ring-raises-28-million-in-series-b-funding/", "quote": "raised $28 million in a Series B funding from Forerunner Ventures, Square, and Gradient Ventures" }
+      ]
+    },
+    {
+      "techeuId": "DA02139B-DB85-46E0-D0F7-08D91092C887",
+      "stage": "series-a",
+      "month": "2018-07",
+      "amountEur": 5000000,
+      "amountOriginal": 5000000,
+      "currency": "EUR",
+      "investors": ["Bold Capital Partners", "Tesi"],
+      "sources": [
+        { "field": "amount", "url": "https://www.unquote.com/nordics/official-record/3010845/tesi-co-leads-eur5m-funding-round-for-oura", "quote": "Tesi co-leads €5m funding round for Oura" },
+        { "field": "month", "url": "https://www.ots.at/presseaussendung/OTE_20180712_OTE0003/oura-health-strengthens-its-position-in-the-us-market", "quote": "moved its total private funding to 12.5MEUR" },
+        { "field": "investors", "url": "https://www.unquote.com/nordics/official-record/3010845/tesi-co-leads-eur5m-funding-round-for-oura", "quote": "US-based Bold Capital Partners co-led the deal." }
+      ]
+    }
+  ]
+}

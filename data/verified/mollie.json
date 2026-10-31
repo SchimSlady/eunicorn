@@ -1,0 +1,77 @@
+{
+  "id": "mollie",
+  "name": "Mollie",
+  "aliases": [],
+  "domain": "mollie.com",
+  "country": "NL",
+  "city": "Amsterdam",
+  "founded": 2004,
+  "sectors": ["fintech"],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 5400000000,
+  "founders": ["Adriaan Mol"],
+  "funFact": "Before it became a payments company, Mollie started out selling text messages to businesses, and its telecom side was later spun off as MessageBird.",
+  "difficulty": 3,
+  "techeuId": "F4D9764C-906B-4237-8704-4C0D8C71D75C",
+  "wikidataId": "Q95552428",
+  "sources": [
+    { "field": "city", "url": "https://www.dutchnews.nl/2025/12/mollie-buys-british-gocardless-in-record-dutch-fintech-deal/", "quote": "will remain headquartered in Amsterdam" },
+    { "field": "founded", "url": "https://nl.wikipedia.org/wiki/Mollie", "quote": "Mollie is een Nederlandse payment service provider die in 2004 werd opgericht door Adriaan Mol." },
+    { "field": "founders", "url": "https://nl.wikipedia.org/wiki/Mollie", "quote": "De twintigjarige Bredase Adriaan Mol richtte Mollie in 2004 op." },
+    { "field": "status", "url": "https://www.dutchnews.nl/2025/12/mollie-buys-british-gocardless-in-record-dutch-fintech-deal/", "quote": "largely in shares plus €100 million in cash" },
+    { "field": "unicorn", "url": "https://www.unquote.com/benelux/official-record/3020933/tcv-leads-eur90m-series-b-for-mollie", "quote": "gives Mollie a valuation of around €1bn, according to press reports" },
+    { "field": "valuation", "url": "https://www.debrauw.com/matters/mollie-raises-eur-665m-in-blackstone-growth-led-series-c-funding-round", "quote": "The round values Mollie at EUR 5.4 billion" },
+    { "field": "fun_fact", "url": "https://nl.wikipedia.org/wiki/Mollie", "quote": "Het bedrijf verkocht aanvankelijk sms-jes aan zakelijke klanten." },
+    { "field": "fun_fact", "url": "https://nl.wikipedia.org/wiki/Mollie", "quote": "Later werden ook de sms- en telecomdiensten officieel afgesplitst, hierdoor ontstond MessageBird in 2011." }
+  ],
+  "rounds": [
+    {
+      "techeuId": "895CB54A-B3F7-447D-B781-002F115CF53A",
+      "stage": "series-c",
+      "month": "2021-06",
+      "amountEur": 665000000,
+      "amountOriginal": 665000000,
+      "currency": "EUR",
+      "postMoneyValuationEur": 5400000000,
+      "investors": ["Blackstone Growth", "EQT Growth", "General Atlantic", "HMI Capital", "Alkeon Capital", "TCV"],
+      "sources": [
+        { "field": "amount", "url": "https://www.debrauw.com/matters/mollie-raises-eur-665m-in-blackstone-growth-led-series-c-funding-round", "quote": "on its EUR 665 million Series C funding round" },
+        { "field": "month", "url": "https://www.unquote.com/benelux/official-record/3024271/blackstone-leads-eur665m-round-for-software-developer-mollie", "quote": "has led a $800m (€665m) series-C round" },
+        { "field": "stage", "url": "https://www.debrauw.com/matters/mollie-raises-eur-665m-in-blackstone-growth-led-series-c-funding-round", "quote": "on its EUR 665 million Series C funding round" },
+        { "field": "investors", "url": "https://www.unquote.com/benelux/official-record/3024271/blackstone-leads-eur665m-round-for-software-developer-mollie", "quote": "EQT Growth, General Atlantic, HMI Capital, Alkeon Capital and TCV also took part in the round." },
+        { "field": "valuation", "url": "https://www.debrauw.com/matters/mollie-raises-eur-665m-in-blackstone-growth-led-series-c-funding-round", "quote": "The round values Mollie at EUR 5.4 billion" }
+      ]
+    },
+    {
+      "techeuId": "AC7D96A5-54B3-4A9A-EE4D-08D91092C887",
+      "stage": "series-b",
+      "month": "2020-09",
+      "amountEur": 90000000,
+      "amountOriginal": 90000000,
+      "currency": "EUR",
+      "investors": ["TCV"],
+      "sources": [
+        { "field": "amount", "url": "https://www.unquote.com/benelux/official-record/3020933/tcv-leads-eur90m-series-b-for-mollie", "quote": "Technology Crossover Ventures (TCV) has led a €90m series-B funding round for Amsterdam-based payments startup Mollie." },
+        { "field": "month", "url": "https://www.debrauw.com/matters/mollie-raises-eur-665m-in-blackstone-growth-led-series-c-funding-round", "quote": "TCV, who led the Series B investment in September 2020, also participated in the funding round" },
+        { "field": "stage", "url": "https://www.unquote.com/benelux/official-record/3020933/tcv-leads-eur90m-series-b-for-mollie", "quote": "has led a €90m series-B funding round" },
+        { "field": "investors", "url": "https://www.unquote.com/benelux/official-record/3020933/tcv-leads-eur90m-series-b-for-mollie", "quote": "Technology Crossover Ventures (TCV) has led a €90m series-B funding round for Amsterdam-based payments startup Mollie." }
+      ]
+    },
+    {
+      "techeuId": "660190C0-E427-414A-EE4C-08D91092C887",
+      "stage": "series-a",
+      "month": "2019-07",
+      "amountEur": 25000000,
+      "amountOriginal": 25000000,
+      "currency": "EUR",
+      "investors": ["Laurence Tosi"],
+      "sources": [
+        { "field": "amount", "url": "https://www.unquote.com/benelux/official-record/3020933/tcv-leads-eur90m-series-b-for-mollie", "quote": "Mollie raised €25m in a series-A round in July 2019, from an undisclosed group of entrepreneurs." },
+        { "field": "month", "url": "https://www.unquote.com/benelux/official-record/3020933/tcv-leads-eur90m-series-b-for-mollie", "quote": "Mollie raised €25m in a series-A round in July 2019, from an undisclosed group of entrepreneurs." },
+        { "field": "stage", "url": "https://www.unquote.com/benelux/official-record/3020933/tcv-leads-eur90m-series-b-for-mollie", "quote": "Mollie raised €25m in a series-A round in July 2019" },
+        { "field": "investors", "url": "https://nl.wikipedia.org/wiki/Mollie", "quote": "geïnvesteerd door een groep individuen, bekend uit de technologie- en betalingswerelden, waaronder Airbnb CFO Laurence Tosi" }
+      ]
+    }
+  ]
+}

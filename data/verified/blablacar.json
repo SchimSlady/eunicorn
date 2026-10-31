@@ -1,0 +1,106 @@
+{
+  "id": "blablacar",
+  "name": "BlaBlaCar",
+  "aliases": ["Comuto", "Covoiturage.fr"],
+  "domain": "blablacar.com",
+  "country": "FR",
+  "city": "Paris",
+  "founded": 2006,
+  "sectors": ["mobility", "travel"],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 1400000000,
+  "founders": ["Frédéric Mazzella", "Francis Nappez", "Nicolas Brusson", "Nicolas Deroche"],
+  "funFact": "The name comes from the app's three-level scale for how chatty a driver likes to be during the ride.",
+  "difficulty": 1,
+  "techeuId": "C7F01FA6-5E4C-46FC-9617-F222FAD96B7C",
+  "wikidataId": "Q2905238",
+  "sources": [
+    { "field": "city", "url": "https://en.wikipedia.org/wiki/BlaBlaCar", "quote": "BlaBlaCar is a French ridesharing company headquartered in Paris." },
+    { "field": "founded", "url": "https://tech.eu/2015/09/16/blablacar-series-d-funding/", "quote": "Founded in 2006, BlaBlaCar has now raised approximately $311 million in total to date." },
+    { "field": "founders", "url": "https://en.wikipedia.org/wiki/BlaBlaCar", "quote": "Founders Frédéric Mazzella Francis Nappez Nicolas Brusson Nicolas Deroche" },
+    { "field": "sectors", "url": "https://en.wikipedia.org/wiki/BlaBlaCar", "quote": "BlaBlaCar is a French ridesharing company headquartered in Paris." },
+    { "field": "status", "url": "https://en.wikipedia.org/wiki/BlaBlaCar", "quote": "Privately held company" },
+    { "field": "unicorn", "url": "https://tech.eu/2015/09/16/blablacar-series-d-funding/", "quote": "Vroom vroom vroom: BlaBlaCar raises $200 million in Series D funding at a $1.6 billion valuation" },
+    { "field": "valuation", "url": "https://tech.eu/2015/09/16/blablacar-series-d-funding/", "quote": "$200 million at a higher valuation - more specifically €1.4 billion (just south of $1.6 billion) according to a source." },
+    { "field": "fun_fact", "url": "https://en.wikipedia.org/wiki/BlaBlaCar", "quote": "The service is named for its rating scale for drivers' preferred level of chattiness in the car." }
+  ],
+  "rounds": [
+    {
+      "techeuId": "1C00B86F-0368-4448-F6B2-08D91092C887",
+      "stage": "series-b",
+      "month": "2012-01",
+      "amountEur": 7750000,
+      "amountOriginal": 10000000,
+      "currency": "USD",
+      "investors": ["Accel", "ISAI", "Cabiedes & Partners"],
+      "sources": [
+        { "field": "amount", "url": "https://techcrunch.com/2012/01/16/accel-leads-10m-round-in-european-airbnb-for-car-ride-sharing-blablacar/", "quote": "has raised $10 million" },
+        { "field": "month", "url": "https://techcrunch.com/2012/01/16/accel-leads-10m-round-in-european-airbnb-for-car-ride-sharing-blablacar/", "quote": "Accel Leads $10M Round In European Airbnb For Car Ride-Sharing, BlablaCar" },
+        { "field": "investors", "url": "https://techcrunch.com/2012/01/16/accel-leads-10m-round-in-european-airbnb-for-car-ride-sharing-blablacar/", "quote": "from Accel Partners and existing investors ISAI and Cabiedes & Partners." }
+      ]
+    },
+    {
+      "techeuId": "462B18C3-8D28-4099-F6B3-08D91092C887",
+      "stage": "series-c",
+      "month": "2014-07",
+      "amountEur": 74000000,
+      "amountOriginal": 100000000,
+      "currency": "USD",
+      "investors": ["Index Ventures", "Accel", "ISAI", "Lead Edge Capital"],
+      "sources": [
+        { "field": "amount", "url": "https://www.indexventures.com/perspectives/blablacar-secures-a-100-million-round-to-transform-city-to-city-travel-around-the/", "quote": "$100 million Series C investment round" },
+        { "field": "stage", "url": "https://www.indexventures.com/perspectives/blablacar-secures-a-100-million-round-to-transform-city-to-city-travel-around-the/", "quote": "$100 million Series C investment round" },
+        { "field": "month", "url": "https://www.indexventures.com/perspectives/blablacar-secures-a-100-million-round-to-transform-city-to-city-travel-around-the/", "quote": "July 2, 2014" },
+        { "field": "investors", "url": "https://www.indexventures.com/perspectives/blablacar-secures-a-100-million-round-to-transform-city-to-city-travel-around-the/", "quote": "existing investors Accel Partners, ISAI and Lead Edge Capital" }
+      ]
+    },
+    {
+      "techeuId": "0CB8813C-BFE0-4912-F6B4-08D91092C887",
+      "stage": "series-d",
+      "month": "2015-09",
+      "amountEur": 178000000,
+      "amountOriginal": 200000000,
+      "currency": "USD",
+      "postMoneyValuationEur": 1400000000,
+      "investors": ["Insight Venture Partners", "Lead Edge Capital", "Vostok New Ventures"],
+      "sources": [
+        { "field": "amount", "url": "https://tech.eu/2015/09/16/blablacar-series-d-funding/", "quote": "Vroom vroom vroom: BlaBlaCar raises $200 million in Series D funding at a $1.6 billion valuation" },
+        { "field": "stage", "url": "https://tech.eu/2015/09/16/blablacar-series-d-funding/", "quote": "Vroom vroom vroom: BlaBlaCar raises $200 million in Series D funding at a $1.6 billion valuation" },
+        { "field": "month", "url": "https://tech.eu/2015/09/16/blablacar-series-d-funding/", "quote": "Vroom vroom vroom: BlaBlaCar raises $200 million in Series D funding at a $1.6 billion valuation" },
+        { "field": "investors", "url": "https://tech.eu/2015/09/16/blablacar-series-d-funding/", "quote": "The fresh capital comes from Insight Venture Partners and Lead Edge Capital, with the participation of Vostok New Ventures." },
+        { "field": "valuation", "url": "https://tech.eu/2015/09/16/blablacar-series-d-funding/", "quote": "$200 million at a higher valuation - more specifically €1.4 billion (just south of $1.6 billion) according to a source." }
+      ]
+    },
+    {
+      "techeuId": "80DB6ADE-AE87-49F0-F6B5-08D91092C887",
+      "stage": "series-e",
+      "month": "2016-09",
+      "amountEur": 21000000,
+      "amountOriginal": 21359000,
+      "currency": "EUR",
+      "investors": ["Baring Vostok"],
+      "sources": [
+        { "field": "amount", "url": "https://www.tourmag.com/Blablacar-leve-plus-de-21-millions-d-euros_a82533.html", "quote": "une nouvelle levée de fonds d’un montant de 21,359 millions d’euros" },
+        { "field": "month", "url": "https://www.tourmag.com/Blablacar-leve-plus-de-21-millions-d-euros_a82533.html", "quote": "le Mercredi 7 Septembre 2016 à 07:48" },
+        { "field": "investors", "url": "https://www.tourmag.com/Blablacar-leve-plus-de-21-millions-d-euros_a82533.html", "quote": "fonds russe Baring Vostok Investment - immatriculé à Chypre" },
+        { "field": "amount", "url": "https://venturebeat.com/business/russia-set-to-become-blablacars-biggest-market-in-2017", "quote": "a recent €21.3 million euro capital injection from Baring Vostok, a leading Russian private equity firm." }
+      ]
+    },
+    {
+      "techeuId": "C31C491C-A3E8-405E-F6B6-08D91092C887",
+      "stage": "series-f+",
+      "month": "2018-11",
+      "amountEur": 101000000,
+      "amountOriginal": 101000000,
+      "currency": "EUR",
+      "investors": ["SNCF", "Accel", "Insight Venture Partners", "Vostok New Ventures", "Lead Edge Capital"],
+      "sources": [
+        { "field": "amount", "url": "https://www.unquote.com/france/official-record/3012582/vc-backed-blablacar-raises-eur101m-acquires-ouibus", "quote": "BlaBlaCar also raised €101m in funding from SNCF and its existing investors." },
+        { "field": "month", "url": "https://www.unquote.com/france/official-record/3012582/vc-backed-blablacar-raises-eur101m-acquires-ouibus", "quote": "13 November 2018" },
+        { "field": "investors", "url": "https://www.unquote.com/france/official-record/3012582/vc-backed-blablacar-raises-eur101m-acquires-ouibus", "quote": "BlaBlaCar also raised €101m in funding from SNCF and its existing investors." },
+        { "field": "investors", "url": "https://www.unquote.com/france/official-record/3012582/vc-backed-blablacar-raises-eur101m-acquires-ouibus", "quote": "Accel, Insight Venture Partners, Vostok New Venture and Lead Edge Capital previously backed the business." }
+      ]
+    }
+  ]
+}

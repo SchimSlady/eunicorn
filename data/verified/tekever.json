@@ -1,0 +1,81 @@
+{
+  "id": "tekever",
+  "name": "TEKEVER",
+  "aliases": ["Tekever"],
+  "domain": "tekever.com",
+  "country": "PT",
+  "city": "Lisbon",
+  "founded": 2001,
+  "sectors": ["defense"],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 5500000000,
+  "founders": ["Pedro Sinogas", "Ricardo Mendes", "Vítor Cristina"],
+  "funFact": "TEKEVER was started in 2001 by three students from Lisbon's Instituto Superior Técnico and became Portugal's newest unicorn in May 2025.",
+  "difficulty": 4,
+  "techeuId": "E2A84332-D6E5-41E0-AC84-5FBC4F71C07B",
+  "wikidataId": "Q24293069",
+  "sources": [
+    { "field": "city", "url": "https://en.wikipedia.org/wiki/Tekever", "quote": "based in the Lisbon region and UK" },
+    { "field": "founded", "url": "https://en.wikipedia.org/wiki/Tekever", "quote": "It was founded in 2001 by former students of the IST engineering school." },
+    { "field": "founders", "url": "https://tecnico.ulisboa.pt/en/news/campus-community/tecnico-spin-off-achieves-unicorn-company-status/", "quote": "Founded by Técnico alumni Pedro Sinogas, Ricardo Mendes, and Vítor Cristina." },
+    { "field": "sectors", "url": "https://www.nif.fund/news/nato-innovation-fund-backed-tekever-becomes-europes-newest-unicorn/", "quote": "the Alliance's newest deep tech unicorn" },
+    { "field": "status", "url": "https://tech.eu/2026/09/23/tekever-raises-580m-series-d-at-6-4b-valuation/", "quote": "$580 million Series D financing" },
+    { "field": "unicorn", "url": "https://www.nif.fund/news/nato-innovation-fund-backed-tekever-becomes-europes-newest-unicorn/", "quote": "valuation above £1 Billion" },
+    { "field": "valuation", "url": "https://www.trendingtopics.eu/tekever-drones-series-d/", "quote": "a valuation of about €5.5 billion ($6.4 billion)" },
+    { "field": "fun_fact", "url": "https://tecnico.ulisboa.pt/en/news/campus-community/tecnico-spin-off-achieves-unicorn-company-status/", "quote": "Founded by Técnico alumni Pedro Sinogas, Ricardo Mendes, and Vítor Cristina." }
+  ],
+  "rounds": [
+    {
+      "techeuId": "82947331-83CA-4925-A1EA-D6719D393BAD",
+      "stage": "series-a",
+      "month": "2022-01",
+      "amountEur": 20000000,
+      "amountOriginal": 20000000,
+      "currency": "EUR",
+      "investors": ["Ventura Capital", "Iberis Capital"],
+      "sources": [
+        { "field": "amount", "url": "https://www.satelliteevolution.com/post/drone-based-intelligence-as-a-service-company-tekever-raises-20-million-for-global-expansion", "quote": "raised €20 million" },
+        { "field": "month", "url": "https://www.satelliteevolution.com/post/drone-based-intelligence-as-a-service-company-tekever-raises-20-million-for-global-expansion", "quote": "January 25, 2022" },
+        { "field": "investors", "url": "https://www.satelliteevolution.com/post/drone-based-intelligence-as-a-service-company-tekever-raises-20-million-for-global-expansion", "quote": "financial investors including Iberis Capital" },
+        { "field": "investors", "url": "https://www.satelliteevolution.com/post/drone-based-intelligence-as-a-service-company-tekever-raises-20-million-for-global-expansion", "quote": "The round was led by Ventura Capital" }
+      ]
+    },
+    {
+      "techeuId": "BD461343-80AF-4E23-9678-F31E106C667C",
+      "stage": "series-b",
+      "month": "2024-11",
+      "amountEur": 70000000,
+      "amountOriginal": 70000000,
+      "currency": "EUR",
+      "investors": ["Baillie Gifford", "NATO Innovation Fund", "National Security Strategic Investment Fund", "Crescent Cove Advisors", "Cedrus Capital"],
+      "sources": [
+        { "field": "amount", "url": "https://insideunmannedsystems.com/?p=39483", "quote": "raised 70 Million Euros" },
+        { "field": "stage", "url": "https://insideunmannedsystems.com/?p=39483", "quote": "Series B" },
+        { "field": "month", "url": "https://insideunmannedsystems.com/?p=39483", "quote": "November 21, 2024" },
+        { "field": "investors", "url": "https://insideunmannedsystems.com/?p=39483", "quote": "Baillie Gifford" },
+        { "field": "investors", "url": "https://insideunmannedsystems.com/?p=39483", "quote": "NATO Innovation Fund" },
+        { "field": "investors", "url": "https://insideunmannedsystems.com/?p=39483", "quote": "National Security Strategic Investment Fund" },
+        { "field": "investors", "url": "https://insideunmannedsystems.com/?p=39483", "quote": "Crescent Cove Advisors LP" },
+        { "field": "investors", "url": "https://insideunmannedsystems.com/?p=39483", "quote": "Cedrus Capital" }
+      ]
+    },
+    {
+      "techeuId": "B87D3EDD-EB92-46D6-AD53-236B61C73935",
+      "stage": "series-d",
+      "month": "2026-09",
+      "amountEur": 508281483,
+      "amountOriginal": 580000000,
+      "currency": "USD",
+      "postMoneyValuationEur": 5500000000,
+      "investors": ["UC Investments", "Baillie Gifford", "Merlyn Advisors", "Crescent Cove", "Ventura Capital", "Iberis Capital"],
+      "sources": [
+        { "field": "amount", "url": "https://tech.eu/2026/09/23/tekever-raises-580m-series-d-at-6-4b-valuation/", "quote": "$580 million Series D financing" },
+        { "field": "stage", "url": "https://tech.eu/2026/09/23/tekever-raises-580m-series-d-at-6-4b-valuation/", "quote": "$580 million Series D financing" },
+        { "field": "month", "url": "https://www.trendingtopics.eu/tekever-drones-series-d/", "quote": "25 September 2026" },
+        { "field": "investors", "url": "https://www.trendingtopics.eu/tekever-drones-series-d/", "quote": "Baillie Gifford and UC Investments lead the round. Merlyn Advisors, headed by former UK Defence Secretary Ben Wallace, is a new backer. Crescent Cove, Ventura Capital, and Iberis Capital are existing investors." },
+        { "field": "valuation", "url": "https://www.trendingtopics.eu/tekever-drones-series-d/", "quote": "a valuation of about €5.5 billion ($6.4 billion)" }
+      ]
+    }
+  ]
+}

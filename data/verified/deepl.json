@@ -1,0 +1,51 @@
+{
+  "id": "deepl",
+  "name": "DeepL",
+  "aliases": ["DeepL SE", "DeepL Translator"],
+  "domain": "deepl.com",
+  "country": "DE",
+  "city": "Cologne",
+  "founded": 2017,
+  "sectors": ["ai"],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 1850000000,
+  "founders": ["Jaroslaw Kutylowski"],
+  "funFact": "DeepL was first built inside the online dictionary Linguee, and when the translator launched in 2017 the parent company renamed itself after its new product.",
+  "difficulty": 1,
+  "techeuId": "C0D0ECF6-1499-4865-A9A9-299C02E28486",
+  "wikidataId": "Q131894787",
+  "sources": [
+    { "field": "city", "url": "https://en.wikipedia.org/wiki/DeepL_Translator", "quote": "In January 2023, the company reached a valuation of 1 billion euro and became the most valued startup company in Cologne." },
+    { "field": "city", "url": "https://www.deepl.com/en/press-release/deepl-announces-300-million-investment-at-2-billion-valuation-fueled-by-global-demand-for-ai-language-solutions", "quote": "COLOGNE, GERMANY, May 22, 2024—" },
+    { "field": "founded", "url": "https://www.deepl.com/en/press-release/deepl-announces-300-million-investment-at-2-billion-valuation-fueled-by-global-demand-for-ai-language-solutions", "quote": "Founded in 2017 by CEO Jaroslaw (Jarek) Kutylowski" },
+    { "field": "founders", "url": "https://www.deepl.com/en/press-release/deepl-announces-300-million-investment-at-2-billion-valuation-fueled-by-global-demand-for-ai-language-solutions", "quote": "Founded in 2017 by CEO Jaroslaw (Jarek) Kutylowski" },
+    { "field": "sectors", "url": "https://www.deepl.com/en/press-release/deepl-announces-300-million-investment-at-2-billion-valuation-fueled-by-global-demand-for-ai-language-solutions", "quote": "DeepL, a leading Language AI company, today announced $300 million of investment at a $2 billion valuation." },
+    { "field": "status", "url": "https://www.deepl.com/en/press-release/deepl-announces-300-million-investment-at-2-billion-valuation-fueled-by-global-demand-for-ai-language-solutions", "quote": "DeepL, a leading Language AI company, today announced $300 million of investment at a $2 billion valuation." },
+    { "field": "unicorn", "url": "https://en.wikipedia.org/wiki/DeepL_Translator", "quote": "In January 2023, the company reached a valuation of 1 billion euro and became the most valued startup company in Cologne." },
+    { "field": "valuation", "url": "https://www.deepl.com/en/press-release/deepl-announces-300-million-investment-at-2-billion-valuation-fueled-by-global-demand-for-ai-language-solutions", "quote": "DeepL, a leading Language AI company, today announced $300 million of investment at a $2 billion valuation." },
+    { "field": "fun_fact", "url": "https://en.wikipedia.org/wiki/DeepL_Translator", "quote": "The translating system was first developed within Linguee by a team led by Chief Technology Officer Jarosław Kutyłowski in 2016." },
+    { "field": "fun_fact", "url": "https://en.wikipedia.org/wiki/DeepL_Translator", "quote": "With the release of DeepL in 2017, Linguee's company name was changed to DeepL GmbH" }
+  ],
+  "rounds": [
+    {
+      "techeuId": "EFFF9619-92B1-4C3A-B741-DA717EDC9A59",
+      "stage": "series-c",
+      "month": "2024-05",
+      "amountEur": 277000000,
+      "amountOriginal": 300000000,
+      "currency": "USD",
+      "investors": ["Index Ventures", "ICONIQ Growth", "Teachers' Venture Growth", "IVP", "Atomico", "WiL"],
+      "postMoneyValuationEur": 1850000000,
+      "sources": [
+        { "field": "amount", "url": "https://www.deepl.com/en/press-release/deepl-announces-300-million-investment-at-2-billion-valuation-fueled-by-global-demand-for-ai-language-solutions", "quote": "DeepL, a leading Language AI company, today announced $300 million of investment at a $2 billion valuation." },
+        { "field": "month", "url": "https://www.deepl.com/en/press-release/deepl-announces-300-million-investment-at-2-billion-valuation-fueled-by-global-demand-for-ai-language-solutions", "quote": "COLOGNE, GERMANY, May 22, 2024—" },
+        { "field": "stage", "url": "https://en.wikipedia.org/wiki/DeepL_Translator", "quote": "valued at $2 billion after a Series C funding round raised $300 million in May 2024." },
+        { "field": "investors", "url": "https://www.deepl.com/en/press-release/deepl-announces-300-million-investment-at-2-billion-valuation-fueled-by-global-demand-for-ai-language-solutions", "quote": "Led by Index Ventures, the heavily oversubscribed round attracted strong support from new investors," },
+        { "field": "investors", "url": "https://www.deepl.com/en/press-release/deepl-announces-300-million-investment-at-2-billion-valuation-fueled-by-global-demand-for-ai-language-solutions", "quote": "Additional late-stage investors, including ICONIQ Growth, Teachers’ Venture Growth, and others, also participated," },
+        { "field": "investors", "url": "https://www.deepl.com/en/press-release/deepl-announces-300-million-investment-at-2-billion-valuation-fueled-by-global-demand-for-ai-language-solutions", "quote": "along with existing investors IVP, Atomico, and WiL." },
+        { "field": "valuation", "url": "https://www.deepl.com/en/press-release/deepl-announces-300-million-investment-at-2-billion-valuation-fueled-by-global-demand-for-ai-language-solutions", "quote": "DeepL, a leading Language AI company, today announced $300 million of investment at a $2 billion valuation." }
+      ]
+    }
+  ]
+}

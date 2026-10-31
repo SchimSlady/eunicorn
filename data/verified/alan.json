@@ -1,0 +1,178 @@
+{
+  "id": "alan",
+  "name": "Alan",
+  "aliases": [],
+  "domain": "alan.com",
+  "country": "FR",
+  "city": "Paris",
+  "founded": 2016,
+  "sectors": ["health", "fintech"],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 5500000000,
+  "founders": ["Jean-Charles Samuelian-Werve", "Charles Gorintin"],
+  "funFact": "When it got its licence in 2016, Alan was the first new health insurer approved in France in three decades, the previous one dating back to 1986.",
+  "difficulty": 4,
+  "techeuId": "D1ABDAA2-25CF-4C97-A7C8-64E4BF27B1DC",
+  "wikidataId": "Q54880786",
+  "sources": [
+    { "field": "city", "url": "https://tech.eu/2026/06/25/french-health-insurance-outfit-alan-agrees-eur480m-funding-round/", "quote": "Paris-based Alan has raised more than €1.2bn in total." },
+    { "field": "founded", "url": "https://www.indexventures.com/perspectives/alan-the-digital-health-insurance-company-announces-eu23m-series-a-financing/", "quote": "Founded in 2016 by Jean-Charles Samuelian and Charles Gorintin" },
+    { "field": "founders", "url": "https://www.indexventures.com/perspectives/alan-the-digital-health-insurance-company-announces-eu23m-series-a-financing/", "quote": "Founded in 2016 by Jean-Charles Samuelian and Charles Gorintin" },
+    { "field": "founders", "url": "https://fr.wikipedia.org/wiki/Alan_(entreprise)", "quote": "Alan est cofondée en 2016 par deux ingénieurs, Jean-Charles Samuelian et Charles Gorintin" },
+    { "field": "sectors", "url": "https://tech.eu/2026/06/25/french-health-insurance-outfit-alan-agrees-eur480m-funding-round/", "quote": "Digital health app Alan, founded in 2016, provides health insurance" },
+    { "field": "status", "url": "https://tech.eu/2026/06/25/french-health-insurance-outfit-alan-agrees-eur480m-funding-round/", "quote": "Alan says it has reached an agreement on a €480m funding round, valuing it at €5.5bn." },
+    { "field": "unicorn", "url": "https://tech.eu/brief/paris-based-insurtech-alan-raises-e185-million-in-series-d-round-now-valued-at-e1-4-billion/", "quote": "Healthcare app Alan has raised €185 million in a series D round, now bringing the company's valuation to €1.4 billion." },
+    { "field": "valuation", "url": "https://tech.eu/2026/06/25/french-health-insurance-outfit-alan-agrees-eur480m-funding-round/", "quote": "Alan says it has reached an agreement on a €480m funding round, valuing it at €5.5bn." },
+    { "field": "fun_fact", "url": "https://www.indexventures.com/perspectives/alan-the-digital-health-insurance-company-announces-eu23m-series-a-financing/", "quote": "In 2016, Alan became the first licensed health insurance company in France since 1986." }
+  ],
+  "rounds": [
+    {
+      "techeuId": "5D70CA87-EBB4-4A57-F624-08D91092C887",
+      "stage": "seed",
+      "month": "2016-10",
+      "amountEur": 12000000,
+      "amountOriginal": 12000000,
+      "currency": "EUR",
+      "investors": ["CNP Assurances", "Power Financial", "Partech"],
+      "sources": [
+        { "field": "amount", "url": "https://www.maddyness.com/2016/10/25/assurtech-alan-se-lance-et-leve-12-millions-euros/", "quote": "lève d'emblée 12 millions d'euros en seed pour assurer son développement" },
+        { "field": "stage", "url": "https://www.maddyness.com/2016/10/25/assurtech-alan-se-lance-et-leve-12-millions-euros/", "quote": "Alan boucle un impressionnant tour de seed de 12 millions d'euros pour redessiner l'assurance santé" },
+        { "field": "month", "url": "https://www.maddyness.com/2016/10/25/assurtech-alan-se-lance-et-leve-12-millions-euros/", "quote": "lève d'emblée 12 millions d'euros en seed pour assurer son développement" },
+        { "field": "investors", "url": "https://www.maddyness.com/2016/10/25/assurtech-alan-se-lance-et-leve-12-millions-euros/", "quote": "CNP Assurances via OpenCNP, Power Financial of Canada et Partech Ventures" }
+      ]
+    },
+    {
+      "techeuId": "4AFB42BE-4F36-46F2-F625-08D91092C887",
+      "stage": "series-a",
+      "month": "2018-04",
+      "amountEur": 23000000,
+      "amountOriginal": 23000000,
+      "currency": "EUR",
+      "investors": ["Index Ventures", "Xavier Niel", "CNP Assurances", "Partech", "Portag3 Ventures"],
+      "sources": [
+        { "field": "amount", "url": "https://www.indexventures.com/perspectives/alan-the-digital-health-insurance-company-announces-eu23m-series-a-financing/", "quote": "has raised 23 million euros ($28 million) in Series A financing" },
+        { "field": "stage", "url": "https://www.indexventures.com/perspectives/alan-the-digital-health-insurance-company-announces-eu23m-series-a-financing/", "quote": "in Series A financing led by London and San Francisco-based venture capital firm Index Ventures" },
+        { "field": "month", "url": "https://www.indexventures.com/perspectives/alan-the-digital-health-insurance-company-announces-eu23m-series-a-financing/", "quote": "April 10, 2018" },
+        { "field": "investors", "url": "https://www.indexventures.com/perspectives/alan-the-digital-health-insurance-company-announces-eu23m-series-a-financing/", "quote": "Xavier Niel also invested in the round, as well as previous investors OpenCNP, Partech and Portag3 Ventures LP." }
+      ]
+    },
+    {
+      "techeuId": "24FFCD5A-A92C-43D7-F626-08D91092C887",
+      "stage": "series-b",
+      "month": "2019-02",
+      "amountEur": 40000000,
+      "amountOriginal": 40000000,
+      "currency": "EUR",
+      "investors": ["Index Ventures", "DST Global"],
+      "sources": [
+        { "field": "amount", "url": "https://techcrunch.com/2019/02/17/alan-raises-another-45-million-for-its-health-insurance-product", "quote": "Paris-based startup Alan has raised a Series B round of funding of $45 million (€40 million)." },
+        { "field": "stage", "url": "https://techcrunch.com/2019/02/17/alan-raises-another-45-million-for-its-health-insurance-product", "quote": "Paris-based startup Alan has raised a Series B round of funding of $45 million (€40 million)." },
+        { "field": "month", "url": "https://www.unquote.com/france/official-record/3013776/index-in-eur40m-series-b-for-alan", "quote": "Index Ventures has led a €40m series-B funding round" },
+        { "field": "investors", "url": "https://techcrunch.com/2019/02/17/alan-raises-another-45-million-for-its-health-insurance-product", "quote": "Index Ventures is once again leading the round, with partners of DST Global also participating." }
+      ]
+    },
+    {
+      "techeuId": "1D8A0B0F-4D25-4ED3-F627-08D91092C887",
+      "stage": "series-c",
+      "month": "2020-04",
+      "amountEur": 50000000,
+      "amountOriginal": 50000000,
+      "currency": "EUR",
+      "investors": ["Temasek", "Index Ventures"],
+      "sources": [
+        { "field": "amount", "url": "https://techcrunch.com/2020/04/19/alan-raises-another-54-4-million-for-its-health-insurance-product/", "quote": "French startup Alan has raised a $54.4 million (€50 million) Series C funding round." },
+        { "field": "stage", "url": "https://techcrunch.com/2020/04/19/alan-raises-another-54-4-million-for-its-health-insurance-product/", "quote": "French startup Alan has raised a $54.4 million (€50 million) Series C funding round." },
+        { "field": "month", "url": "https://techcrunch.com/2020/04/19/alan-raises-another-54-4-million-for-its-health-insurance-product/", "quote": "French startup Alan has raised a $54.4 million (€50 million) Series C funding round." },
+        { "field": "investors", "url": "https://techcrunch.com/2020/04/19/alan-raises-another-54-4-million-for-its-health-insurance-product/", "quote": "Temasek is leading the round with existing investors (such as Index Ventures) also participating." }
+      ]
+    },
+    {
+      "techeuId": "6DF9D47A-7E9A-47DE-F628-08D91092C887",
+      "stage": "series-d",
+      "month": "2021-04",
+      "amountEur": 185000000,
+      "amountOriginal": 185000000,
+      "currency": "EUR",
+      "postMoneyValuationEur": 1400000000,
+      "investors": ["Coatue", "Dragoneer Investment Group", "Exor", "Index Ventures", "Ribbit Capital", "Temasek"],
+      "sources": [
+        { "field": "amount", "url": "https://tech.eu/brief/paris-based-insurtech-alan-raises-e185-million-in-series-d-round-now-valued-at-e1-4-billion/", "quote": "Healthcare app Alan has raised €185 million in a series D round, now bringing the company's valuation to €1.4 billion." },
+        { "field": "stage", "url": "https://tech.eu/brief/paris-based-insurtech-alan-raises-e185-million-in-series-d-round-now-valued-at-e1-4-billion/", "quote": "Healthcare app Alan has raised €185 million in a series D round, now bringing the company's valuation to €1.4 billion." },
+        { "field": "month", "url": "https://tech.eu/brief/paris-based-insurtech-alan-raises-e185-million-in-series-d-round-now-valued-at-e1-4-billion/", "quote": "Healthcare app Alan has raised €185 million in a series D round, now bringing the company's valuation to €1.4 billion." },
+        { "field": "investors", "url": "https://tech.eu/brief/paris-based-insurtech-alan-raises-e185-million-in-series-d-round-now-valued-at-e1-4-billion/", "quote": "The round saw participation from Coatue, Dragoneer, Exor, and existing investors" },
+        { "field": "valuation", "url": "https://tech.eu/brief/paris-based-insurtech-alan-raises-e185-million-in-series-d-round-now-valued-at-e1-4-billion/", "quote": "Healthcare app Alan has raised €185 million in a series D round, now bringing the company's valuation to €1.4 billion." }
+      ]
+    },
+    {
+      "techeuId": "ED12AE46-7D67-4E75-ABE8-26489BC59985",
+      "stage": "series-e",
+      "month": "2022-05",
+      "amountEur": 183000000,
+      "amountOriginal": 183000000,
+      "currency": "EUR",
+      "postMoneyValuationEur": 2700000000,
+      "investors": ["Teachers' Venture Growth", "Temasek", "Index Ventures", "Coatue", "Ribbit Capital", "Exor", "Dragoneer Investment Group", "Lakestar"],
+      "sources": [
+        { "field": "amount", "url": "https://otpp.com/en-ca/about-us/news-and-insights/2022/--teachers--venture-growth-leads-series-e-for-healthcare-technol/", "quote": "the €183m Series E funding round for Alan" },
+        { "field": "stage", "url": "https://otpp.com/en-ca/about-us/news-and-insights/2022/--teachers--venture-growth-leads-series-e-for-healthcare-technol/", "quote": "the €183m Series E funding round for Alan" },
+        { "field": "month", "url": "https://otpp.com/en-ca/about-us/news-and-insights/2022/--teachers--venture-growth-leads-series-e-for-healthcare-technol/", "quote": "May 5, 2022" },
+        { "field": "investors", "url": "https://www.goodwinlaw.com/en/news-and-events/news/2022/05/05_05-alan-raises-183-million", "quote": "led with participation from existing and new investors including Temasek, Index, Coatue" },
+        { "field": "valuation", "url": "https://otpp.com/en-ca/about-us/news-and-insights/2022/--teachers--venture-growth-leads-series-e-for-healthcare-technol/", "quote": "at a total valuation of €2.7bn" }
+      ]
+    },
+    {
+      "techeuId": "5148C693-9F0B-4CEA-844E-1A20D0B9B0E2",
+      "stage": "series-f+",
+      "month": "2024-09",
+      "amountEur": 173000000,
+      "amountOriginal": 173000000,
+      "currency": "EUR",
+      "postMoneyValuationEur": 4000000000,
+      "investors": ["Belfius", "Coatue", "Teachers' Venture Growth", "Temasek", "Lakestar"],
+      "sources": [
+        { "field": "amount", "url": "https://www.lw.com/en/news/2024/09/latham-advises-coatue-management-on-alans-173-million-series-f", "quote": "the €173 million Series F financing of Alan" },
+        { "field": "stage", "url": "https://www.lw.com/en/news/2024/09/latham-advises-coatue-management-on-alans-173-million-series-f", "quote": "the €173 million Series F financing of Alan" },
+        { "field": "month", "url": "https://siecledigital.fr/2024/09/20/alan-annonce-une-levee-de-fonds-record-de-173-millions-deuros-portant-sa-valorisation-a-4-milliards-deuros/", "quote": "levée de fonds significative de 173 millions d’euros" },
+        { "field": "investors", "url": "https://www.lw.com/en/news/2024/09/latham-advises-coatue-management-on-alans-173-million-series-f", "quote": "participation from existing investors Coatue Management, Ontario Teachers' Pension Plan, Temasek, and Lakestar" },
+        { "field": "investors", "url": "https://siecledigital.fr/2024/09/20/alan-annonce-une-levee-de-fonds-record-de-173-millions-deuros-portant-sa-valorisation-a-4-milliards-deuros/", "quote": "menée par Belfius" },
+        { "field": "valuation", "url": "https://www.lw.com/en/news/2024/09/latham-advises-coatue-management-on-alans-173-million-series-f", "quote": "now values Alan at €4 billion" }
+      ]
+    },
+    {
+      "techeuId": "399F3408-A6FE-4B94-B18C-5B110EB949D7",
+      "stage": "series-f+",
+      "month": "2026-03",
+      "amountEur": 100000000,
+      "amountOriginal": 100000000,
+      "currency": "EUR",
+      "postMoneyValuationEur": 5000000000,
+      "investors": ["Index Ventures", "Greenoaks", "Kaaf", "SH", "Belfius", "Tobi Lütke", "Antoine Griezmann"],
+      "sources": [
+        { "field": "amount", "url": "https://fintech.global/2026/03/12/alan-valued-at-e5b-after-e100m-funding-round/", "quote": "Parisian InsurTech Alan has reached a valuation of €5bn following a €100m funding round" },
+        { "field": "month", "url": "https://fintech.global/2026/03/12/alan-valued-at-e5b-after-e100m-funding-round/", "quote": "Parisian InsurTech Alan has reached a valuation of €5bn following a €100m funding round" },
+        { "field": "investors", "url": "https://fintech.global/2026/03/12/alan-valued-at-e5b-after-e100m-funding-round/", "quote": "The round was led by existing investor Index Ventures" },
+        { "field": "investors", "url": "https://fintech.global/2026/03/12/alan-valued-at-e5b-after-e100m-funding-round/", "quote": "included new participants Greenoaks, Kaaf, SH, and strategic partner Belfius" },
+        { "field": "valuation", "url": "https://fintech.global/2026/03/12/alan-valued-at-e5b-after-e100m-funding-round/", "quote": "Parisian InsurTech Alan has reached a valuation of €5bn following a €100m funding round" }
+      ]
+    },
+    {
+      "techeuId": "2F88D89E-5550-4566-AC97-47CF20F53F40",
+      "stage": "series-f+",
+      "month": "2026-06",
+      "amountEur": 480000000,
+      "amountOriginal": 480000000,
+      "currency": "EUR",
+      "postMoneyValuationEur": 5500000000,
+      "investors": ["Prosus", "Teachers' Venture Growth", "Index Ventures", "Dara Holdings"],
+      "sources": [
+        { "field": "amount", "url": "https://tech.eu/2026/06/25/french-health-insurance-outfit-alan-agrees-eur480m-funding-round/", "quote": "Alan says it has reached an agreement on a €480m funding round, valuing it at €5.5bn." },
+        { "field": "stage", "url": "https://tech.eu/2026/06/25/french-health-insurance-outfit-alan-agrees-eur480m-funding-round/", "quote": "The new Series G funding round follows just months after Alan announced a €100m funding round." },
+        { "field": "month", "url": "https://thenextweb.com/news/alan-480m-prosus-prevention-insurance", "quote": "This article was published on June 25, 2026." },
+        { "field": "investors", "url": "https://thenextweb.com/news/alan-480m-prosus-prevention-insurance", "quote": "Existing backers Teachers' Venture Growth and Index Ventures joined, alongside new investor Dara Holdings." },
+        { "field": "investors", "url": "https://tech.eu/2026/06/25/french-health-insurance-outfit-alan-agrees-eur480m-funding-round/", "quote": "The latest funding round is being led by tech investing giant Prosus, a new investor." },
+        { "field": "valuation", "url": "https://thenextweb.com/news/alan-480m-prosus-prevention-insurance", "quote": "The deal values the Paris firm at €5.5bn ($6.3bn)." }
+      ]
+    }
+  ]
+}

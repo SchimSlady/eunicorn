@@ -1,0 +1,96 @@
+{
+  "id": "checkout-com",
+  "name": "Checkout.com",
+  "aliases": ["Checkout", "Opus Payments"],
+  "domain": "checkout.com",
+  "country": "GB",
+  "city": "London",
+  "founded": 2012,
+  "sectors": ["fintech"],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 10228000000,
+  "founders": ["Guillaume Pousaz"],
+  "funFact": "Checkout.com took no outside investors at all until 2019, and its first-ever raise of $230M was the largest fintech Series A Europe had seen.",
+  "difficulty": 3,
+  "techeuId": "A2E99038-1E12-4557-9D37-2A464CAF55F7",
+  "wikidataId": "Q110815500",
+  "sources": [
+    { "field": "city", "url": "https://tech.eu/2025/09/26/checkout-com-launches-employee-share-buyback-at-12bn-valuation/", "quote": "The London-headquartered fintech" },
+    { "field": "city", "url": "https://www.cnbc.com/id/106873164", "quote": "Headquarters: London" },
+    { "field": "founded", "url": "https://www.cnbc.com/id/106873164", "quote": "Launched: 2012" },
+    { "field": "founders", "url": "https://www.cnbc.com/id/106873164", "quote": "Founder: Guillaume Pousaz (CEO)" },
+    { "field": "sectors", "url": "https://en.wikipedia.org/wiki/Checkout.com", "quote": "Checkout.com (legally incorporated as Checkout Ltd.) is a financial technology company" },
+    { "field": "status", "url": "https://en.wikipedia.org/wiki/Checkout.com", "quote": "Type: Private" },
+    { "field": "unicorn", "url": "https://tech.eu/2022/01/12/checkout-com-brings-in-1-billion-now-at-40-billion-valuation/", "quote": "Now valued at $40 billion." },
+    { "field": "valuation", "url": "https://tech.eu/2025/09/26/checkout-com-launches-employee-share-buyback-at-12bn-valuation/", "quote": "is undergoing an employee share sale at a $12bn valuation" },
+    { "field": "fun_fact", "url": "https://www.insightpartners.com/ideas/checkout-com-raises-230m-in-record-european-series-a/", "quote": "taking funding from outside investors for the first time in its history" },
+    { "field": "fun_fact", "url": "https://www.insightpartners.com/ideas/checkout-com-raises-230m-in-record-european-series-a/", "quote": "having raised $230m in what is Europe's largest fintech Series A round ever" }
+  ],
+  "rounds": [
+    {
+      "stage": "series-a",
+      "month": "2019-05",
+      "amountEur": 206000000,
+      "amountOriginal": 230000000,
+      "currency": "USD",
+      "investors": ["Insight Partners", "DST Global"],
+      "sources": [
+        { "field": "amount", "url": "https://www.insightpartners.com/ideas/checkout-com-raises-230m-in-record-european-series-a/", "quote": "having raised $230m in what is Europe's largest fintech Series A round ever" },
+        { "field": "month", "url": "https://www.insightpartners.com/ideas/checkout-com-raises-230m-in-record-european-series-a/", "quote": "May 02, 2019" },
+        { "field": "stage", "url": "https://www.insightpartners.com/ideas/checkout-com-raises-230m-in-record-european-series-a/", "quote": "having raised $230m in what is Europe's largest fintech Series A round ever" },
+        { "field": "investors", "url": "https://www.insightpartners.com/ideas/checkout-com-raises-230m-in-record-european-series-a/", "quote": "The record round, led by growth investors Insight Partners and DST Global," }
+      ]
+    },
+    {
+      "stage": "series-b",
+      "month": "2020-06",
+      "amountEur": 133000000,
+      "amountOriginal": 150000000,
+      "currency": "USD",
+      "investors": ["Coatue Management", "Insight Partners", "DST Global"],
+      "postMoneyValuationEur": 4887000000,
+      "sources": [
+        { "field": "amount", "url": "https://ipsnews.net/business/2020/06/22/checkout-com-the-uk-payments-startup-raises-another-150m-now-valued-at-5-5b/?amp=1", "quote": "it has raised another $150 million in funding" },
+        { "field": "month", "url": "https://ipsnews.net/business/2020/06/22/checkout-com-the-uk-payments-startup-raises-another-150m-now-valued-at-5-5b/?amp=1", "quote": "Checkout.com, the UK payments startup, raises another $150M, now valued at $5.5B (URL dated 2020/06/22)" },
+        { "field": "stage", "url": "https://ipsnews.net/business/2020/06/22/checkout-com-the-uk-payments-startup-raises-another-150m-now-valued-at-5-5b/?amp=1", "quote": "a Series B that catapults the London-based startup's valuation to $5.5 billion post-money." },
+        { "field": "valuation", "url": "https://ipsnews.net/business/2020/06/22/checkout-com-the-uk-payments-startup-raises-another-150m-now-valued-at-5-5b/?amp=1", "quote": "a Series B that catapults the London-based startup's valuation to $5.5 billion post-money." },
+        { "field": "investors", "url": "https://ipsnews.net/business/2020/06/22/checkout-com-the-uk-payments-startup-raises-another-150m-now-valued-at-5-5b/?amp=1", "quote": "The funding is being led by Coatue, and others in this round include Insight Partners, DST Global…" }
+      ]
+    },
+    {
+      "techeuId": "25DFD2BC-35EB-4D7B-F74B-08D91092C887",
+      "stage": "series-c",
+      "month": "2021-01",
+      "amountEur": 370000000,
+      "amountOriginal": 450000000,
+      "currency": "USD",
+      "investors": ["Tiger Global Management", "Greenoaks Capital", "Insight Partners", "DST Global", "Coatue Management", "Blossom Capital", "Endeavor Catalyst", "GIC"],
+      "postMoneyValuationEur": 12325000000,
+      "sources": [
+        { "field": "amount", "url": "https://fintech.global/2021/01/12/move-over-klarna-checkout-com-just-became-europes-most-valuable-fintech/", "quote": "Checkout.com has closed a $450m Series C funding round at a $15bn valuation." },
+        { "field": "month", "url": "https://fintech.global/2021/01/12/move-over-klarna-checkout-com-just-became-europes-most-valuable-fintech/", "quote": "Move over Klarna, Checkout.com just became Europe's most valuable FinTech (January 12, 2021)" },
+        { "field": "stage", "url": "https://fintech.global/2021/01/12/move-over-klarna-checkout-com-just-became-europes-most-valuable-fintech/", "quote": "Checkout.com has closed a $450m Series C funding round at a $15bn valuation." },
+        { "field": "valuation", "url": "https://fintech.global/2021/01/12/move-over-klarna-checkout-com-just-became-europes-most-valuable-fintech/", "quote": "Checkout.com has closed a $450m Series C funding round at a $15bn valuation." },
+        { "field": "investors", "url": "https://fintech.global/2021/01/12/move-over-klarna-checkout-com-just-became-europes-most-valuable-fintech/", "quote": "Greenoaks Capital, Insight Partners, DST Global, Coatue Management, Blossom Capital," }
+      ]
+    },
+    {
+      "techeuId": "92364F5A-590A-42C8-AD8D-6068606543F9",
+      "stage": "series-d",
+      "month": "2022-01",
+      "amountEur": 884000000,
+      "amountOriginal": 1000000000,
+      "currency": "USD",
+      "investors": ["Qatar Investment Authority", "Tiger Global Management", "Altimeter Capital", "Dragoneer Investment Group", "Franklin Templeton", "GIC", "Insight Partners"],
+      "postMoneyValuationEur": 35353000000,
+      "sources": [
+        { "field": "amount", "url": "https://tech.eu/2022/01/12/checkout-com-brings-in-1-billion-now-at-40-billion-valuation/", "quote": "has hauled in a $1 billion in a Series D round" },
+        { "field": "month", "url": "https://tech.eu/2022/01/12/checkout-com-brings-in-1-billion-now-at-40-billion-valuation/", "quote": "Checkout.com brings in $1 billion, now at $40 billion valuation (12 January 2022)" },
+        { "field": "stage", "url": "https://tech.eu/2022/01/12/checkout-com-brings-in-1-billion-now-at-40-billion-valuation/", "quote": "has hauled in a $1 billion in a Series D round" },
+        { "field": "valuation", "url": "https://tech.eu/2022/01/12/checkout-com-brings-in-1-billion-now-at-40-billion-valuation/", "quote": "Now valued at $40 billion." },
+        { "field": "investors", "url": "https://tech.eu/2022/01/12/checkout-com-brings-in-1-billion-now-at-40-billion-valuation/", "quote": "Altimeter, Dragoneer, Franklin Templeton, GIC, Insight Partners, the Qatar Investment Authority, Tiger Global," }
+      ]
+    }
+  ]
+}
