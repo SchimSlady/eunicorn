@@ -75,6 +75,10 @@
       "field": "fun_fact",
       "url": "https://en.wikipedia.org/wiki/CMR_Surgical",
       "quote": "Previously called Cambridge Medical Robotics, it changed name in March 2018."
+    },
+    {
+      "field": "logo",
+      "url": "https://commons.wikimedia.org/wiki/File:CMR_Surgical_logo.png"
     }
   ],
   "rounds": [

@@ -69,6 +69,10 @@
       "field": "fun_fact",
       "url": "https://en.wikipedia.org/wiki/Nscale",
       "quote": "founded in 2024 by Josh Payne"
+    },
+    {
+      "field": "logo",
+      "url": "https://commons.wikimedia.org/wiki/File:Nscale_logo.png"
     }
   ],
   "rounds": [

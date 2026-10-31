@@ -58,6 +58,10 @@
       "field": "fun_fact",
       "url": "https://en.wikipedia.org/wiki/EnduroSat",
       "quote": "EnduroSat One was the first Bulgarian CubeSat mission, deployed from the ISS in 2018."
+    },
+    {
+      "field": "logo",
+      "url": "https://www.endurosat.com/wp-content/uploads/2024/04/logo.svg"
     }
   ],
   "rounds": [

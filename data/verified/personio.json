@@ -6,25 +6,72 @@
   "country": "DE",
   "city": "Munich",
   "founded": 2015,
-  "sectors": ["saas"],
+  "sectors": [
+    "saas"
+  ],
   "status": "private",
   "unicorn": true,
   "lastValuationEur": 8045000000,
-  "founders": ["Hanno Renner", "Ignaz Forstmeier", "Roman Schumacher", "Arseniy Vershinin"],
+  "founders": [
+    "Hanno Renner",
+    "Ignaz Forstmeier",
+    "Roman Schumacher",
+    "Arseniy Vershinin"
+  ],
   "funFact": "Personio's valuation jumped roughly seventeenfold in about two and a half years, from around $500 million at its Series C in January 2020 to $8.5 billion in June 2022.",
   "difficulty": 3,
   "techeuId": "B6B485F0-F9AA-4C69-9C96-0A338D06A479",
   "wikidataId": "Q110814813",
   "sources": [
-    { "field": "city", "url": "https://en.wikipedia.org/wiki/Personio", "quote": "Personio is a European software company headquartered in Munich, Germany" },
-    { "field": "founded", "url": "https://techcrunch.com/2019/01/17/personio-series-b", "quote": "Founded in 2015, Munich-based Personio has set out to build an 'HR operating system'" },
-    { "field": "founders", "url": "https://en.wikipedia.org/wiki/Personio", "quote": "The company was founded in 2015 by Hanno Renner, Ignaz Forstmeier, Roman Schumacher and Arseniy Vershinin." },
-    { "field": "sectors", "url": "https://en.wikipedia.org/wiki/Personio", "quote": "Personio provides a cloud-based HR software platform delivered as software as a service (SaaS)." },
-    { "field": "status", "url": "https://tech.eu/2022/06/22/personio-adds-another-200-million-in-series-e-extension/", "quote": "has added $200 million via Greenoaks Capital to an already impressive initial $270 million Series E round" },
-    { "field": "unicorn", "url": "https://tech.eu/2021/01/18/personio-series-d/", "quote": "has announced $125 million of Series D funding in an investment round that values the German business at $1.7 billion." },
-    { "field": "valuation", "url": "https://tech.eu/2022/06/22/personio-adds-another-200-million-in-series-e-extension/", "quote": "valued at $8.5 billion" },
-    { "field": "fun_fact", "url": "https://techcrunch.com/2020/01/20/personio-the-german-hr-platform-for-smes-raises-75m-series-c", "quote": "I understand the investment values the company at around $500 million." },
-    { "field": "fun_fact", "url": "https://tech.eu/2022/06/22/personio-adds-another-200-million-in-series-e-extension/", "quote": "valued at $8.5 billion" }
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/Personio",
+      "quote": "Personio is a European software company headquartered in Munich, Germany"
+    },
+    {
+      "field": "founded",
+      "url": "https://techcrunch.com/2019/01/17/personio-series-b",
+      "quote": "Founded in 2015, Munich-based Personio has set out to build an 'HR operating system'"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Personio",
+      "quote": "The company was founded in 2015 by Hanno Renner, Ignaz Forstmeier, Roman Schumacher and Arseniy Vershinin."
+    },
+    {
+      "field": "sectors",
+      "url": "https://en.wikipedia.org/wiki/Personio",
+      "quote": "Personio provides a cloud-based HR software platform delivered as software as a service (SaaS)."
+    },
+    {
+      "field": "status",
+      "url": "https://tech.eu/2022/06/22/personio-adds-another-200-million-in-series-e-extension/",
+      "quote": "has added $200 million via Greenoaks Capital to an already impressive initial $270 million Series E round"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://tech.eu/2021/01/18/personio-series-d/",
+      "quote": "has announced $125 million of Series D funding in an investment round that values the German business at $1.7 billion."
+    },
+    {
+      "field": "valuation",
+      "url": "https://tech.eu/2022/06/22/personio-adds-another-200-million-in-series-e-extension/",
+      "quote": "valued at $8.5 billion"
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://techcrunch.com/2020/01/20/personio-the-german-hr-platform-for-smes-raises-75m-series-c",
+      "quote": "I understand the investment values the company at around $500 million."
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://tech.eu/2022/06/22/personio-adds-another-200-million-in-series-e-extension/",
+      "quote": "valued at $8.5 billion"
+    },
+    {
+      "field": "logo",
+      "url": "https://commons.wikimedia.org/wiki/File:Personio_logo_(2024).svg"
+    }
   ],
   "rounds": [
     {
@@ -34,13 +81,37 @@
       "amountEur": 10500000,
       "amountOriginal": 10500000,
       "currency": "EUR",
-      "investors": ["Northzone", "Global Founders Capital", "Picus Capital"],
+      "investors": [
+        "Northzone",
+        "Global Founders Capital",
+        "Picus Capital"
+      ],
       "sources": [
-        { "field": "amount", "url": "https://tech.eu/brief/personio-raises-funding", "quote": "Munich-based Personio, an HR software solution company for SMEs, has raised €10.5 million in Series A funding." },
-        { "field": "month", "url": "https://tech.eu/brief/personio-raises-funding", "quote": "03 August 2017" },
-        { "field": "investors", "url": "https://northzone.com/2017/08/03/announcing-investment-personio/", "quote": "in a $12 million (€ 10.5 million) A-round alongside GFC and Picus" },
-        { "field": "stage", "url": "https://tech.eu/brief/personio-raises-funding", "quote": "Munich-based Personio, an HR software solution company for SMEs, has raised €10.5 million in Series A funding." },
-        { "field": "investors", "url": "https://tech.eu/brief/personio-raises-funding", "quote": "The investment came from the VC Northzone, as well as previous investors Global Founders Capital and Picus Capital." }
+        {
+          "field": "amount",
+          "url": "https://tech.eu/brief/personio-raises-funding",
+          "quote": "Munich-based Personio, an HR software solution company for SMEs, has raised €10.5 million in Series A funding."
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/brief/personio-raises-funding",
+          "quote": "03 August 2017"
+        },
+        {
+          "field": "investors",
+          "url": "https://northzone.com/2017/08/03/announcing-investment-personio/",
+          "quote": "in a $12 million (€ 10.5 million) A-round alongside GFC and Picus"
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/brief/personio-raises-funding",
+          "quote": "Munich-based Personio, an HR software solution company for SMEs, has raised €10.5 million in Series A funding."
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/brief/personio-raises-funding",
+          "quote": "The investment came from the VC Northzone, as well as previous investors Global Founders Capital and Picus Capital."
+        }
       ]
     },
     {
@@ -50,12 +121,32 @@
       "amountEur": 35000000,
       "amountOriginal": 40000000,
       "currency": "USD",
-      "investors": ["Index Ventures", "Northzone", "Global Founders Capital"],
+      "investors": [
+        "Index Ventures",
+        "Northzone",
+        "Global Founders Capital"
+      ],
       "sources": [
-        { "field": "amount", "url": "https://techcrunch.com/2019/01/17/personio-series-b", "quote": "has raised $40 million in a Series B funding." },
-        { "field": "month", "url": "https://techcrunch.com/2019/01/17/personio-series-b", "quote": "German HR and recruiting platform Personio raises $40M Series B led by Index (January 17, 2019)" },
-        { "field": "stage", "url": "https://techcrunch.com/2019/01/17/personio-series-b", "quote": "has raised $40 million in a Series B funding." },
-        { "field": "investors", "url": "https://techcrunch.com/2019/01/17/personio-series-b", "quote": "with participation from existing investors Northzone and Rocket Internet's Global Founders." }
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2019/01/17/personio-series-b",
+          "quote": "has raised $40 million in a Series B funding."
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2019/01/17/personio-series-b",
+          "quote": "German HR and recruiting platform Personio raises $40M Series B led by Index (January 17, 2019)"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2019/01/17/personio-series-b",
+          "quote": "has raised $40 million in a Series B funding."
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2019/01/17/personio-series-b",
+          "quote": "with participation from existing investors Northzone and Rocket Internet's Global Founders."
+        }
       ]
     },
     {
@@ -65,15 +156,47 @@
       "amountEur": 68000000,
       "amountOriginal": 75000000,
       "currency": "USD",
-      "investors": ["Accel", "Lightspeed Venture Partners", "Lars Dalgaard", "Index Ventures", "Northzone", "Global Founders Capital", "Picus Capital"],
+      "investors": [
+        "Accel",
+        "Lightspeed Venture Partners",
+        "Lars Dalgaard",
+        "Index Ventures",
+        "Northzone",
+        "Global Founders Capital",
+        "Picus Capital"
+      ],
       "postMoneyValuationEur": 450000000,
       "sources": [
-        { "field": "amount", "url": "https://techcrunch.com/2020/01/20/personio-the-german-hr-platform-for-smes-raises-75m-series-c", "quote": "has raised $75 million in Series C funding in a round led by Accel." },
-        { "field": "month", "url": "https://techcrunch.com/2020/01/20/personio-the-german-hr-platform-for-smes-raises-75m-series-c", "quote": "Personio, the German HR platform for SMEs, raises $75M Series C (January 20, 2020)" },
-        { "field": "stage", "url": "https://techcrunch.com/2020/01/20/personio-the-german-hr-platform-for-smes-raises-75m-series-c", "quote": "has raised $75 million in Series C funding in a round led by Accel." },
-        { "field": "investors", "url": "https://techcrunch.com/2020/01/20/personio-the-german-hr-platform-for-smes-raises-75m-series-c", "quote": "Also joining is Lightspeed Venture Partners, alongside Lars Dalgaard (the founder and former CEO of SuccessFactors)." },
-        { "field": "investors", "url": "https://techcrunch.com/2020/01/20/personio-the-german-hr-platform-for-smes-raises-75m-series-c", "quote": "Existing investors Index Ventures, Northzone, Rocket Internet's Global Founders Capital, and Picus Capital followed on." },
-        { "field": "valuation", "url": "https://techcrunch.com/2020/01/20/personio-the-german-hr-platform-for-smes-raises-75m-series-c", "quote": "I understand the investment values the company at around $500 million." }
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2020/01/20/personio-the-german-hr-platform-for-smes-raises-75m-series-c",
+          "quote": "has raised $75 million in Series C funding in a round led by Accel."
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2020/01/20/personio-the-german-hr-platform-for-smes-raises-75m-series-c",
+          "quote": "Personio, the German HR platform for SMEs, raises $75M Series C (January 20, 2020)"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2020/01/20/personio-the-german-hr-platform-for-smes-raises-75m-series-c",
+          "quote": "has raised $75 million in Series C funding in a round led by Accel."
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2020/01/20/personio-the-german-hr-platform-for-smes-raises-75m-series-c",
+          "quote": "Also joining is Lightspeed Venture Partners, alongside Lars Dalgaard (the founder and former CEO of SuccessFactors)."
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2020/01/20/personio-the-german-hr-platform-for-smes-raises-75m-series-c",
+          "quote": "Existing investors Index Ventures, Northzone, Rocket Internet's Global Founders Capital, and Picus Capital followed on."
+        },
+        {
+          "field": "valuation",
+          "url": "https://techcrunch.com/2020/01/20/personio-the-german-hr-platform-for-smes-raises-75m-series-c",
+          "quote": "I understand the investment values the company at around $500 million."
+        }
       ]
     },
     {
@@ -83,16 +206,52 @@
       "amountEur": 103000000,
       "amountOriginal": 125000000,
       "currency": "USD",
-      "investors": ["Index Ventures", "Meritech Capital Partners", "Accel", "Lightspeed Venture Partners", "Northzone", "Global Founders Capital", "Picus Capital"],
+      "investors": [
+        "Index Ventures",
+        "Meritech Capital Partners",
+        "Accel",
+        "Lightspeed Venture Partners",
+        "Northzone",
+        "Global Founders Capital",
+        "Picus Capital"
+      ],
       "postMoneyValuationEur": 1397000000,
       "sources": [
-        { "field": "amount", "url": "https://tech.eu/2021/01/18/personio-series-d/", "quote": "has announced $125 million of Series D funding in an investment round that values the German business at $1.7 billion." },
-        { "field": "month", "url": "https://tech.eu/2021/01/18/personio-series-d/", "quote": "18 January 2021" },
-        { "field": "stage", "url": "https://tech.eu/2021/01/18/personio-series-d/", "quote": "has announced $125 million of Series D funding in an investment round that values the German business at $1.7 billion." },
-        { "field": "investors", "url": "https://tech.eu/2021/01/18/personio-series-d/", "quote": "The Series D round was led by existing investor Index Ventures" },
-        { "field": "investors", "url": "https://tech.eu/2021/01/18/personio-series-d/", "quote": "All of other previous backers — Accel, Lightspeed Venture Partners, Northzone, Global Founders Capital and Picus participated as well." },
-        { "field": "investors", "url": "https://tech.eu/2021/01/18/personio-series-d/", "quote": "The only reported newcomer is Meritech, the first outside investor in Salesforce." },
-        { "field": "valuation", "url": "https://tech.eu/2021/01/18/personio-series-d/", "quote": "has announced $125 million of Series D funding in an investment round that values the German business at $1.7 billion." }
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2021/01/18/personio-series-d/",
+          "quote": "has announced $125 million of Series D funding in an investment round that values the German business at $1.7 billion."
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2021/01/18/personio-series-d/",
+          "quote": "18 January 2021"
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2021/01/18/personio-series-d/",
+          "quote": "has announced $125 million of Series D funding in an investment round that values the German business at $1.7 billion."
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2021/01/18/personio-series-d/",
+          "quote": "The Series D round was led by existing investor Index Ventures"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2021/01/18/personio-series-d/",
+          "quote": "All of other previous backers — Accel, Lightspeed Venture Partners, Northzone, Global Founders Capital and Picus participated as well."
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2021/01/18/personio-series-d/",
+          "quote": "The only reported newcomer is Meritech, the first outside investor in Salesforce."
+        },
+        {
+          "field": "valuation",
+          "url": "https://tech.eu/2021/01/18/personio-series-d/",
+          "quote": "has announced $125 million of Series D funding in an investment round that values the German business at $1.7 billion."
+        }
       ]
     },
     {
@@ -102,14 +261,38 @@
       "amountEur": 233000000,
       "amountOriginal": 270000000,
       "currency": "USD",
-      "investors": ["Greenoaks Capital Partners", "Altimeter Capital", "Alkeon Capital"],
+      "investors": [
+        "Greenoaks Capital Partners",
+        "Altimeter Capital",
+        "Alkeon Capital"
+      ],
       "postMoneyValuationEur": 5430000000,
       "sources": [
-        { "field": "amount", "url": "https://tech.eu/2021/10/12/personio-raises-270-million-in-series-e-round-at-6-3-billion-valuation/", "quote": "Munich-based HR software for SME's Personio has raised $270 million in a Series E round at $6.3 billion valuation." },
-        { "field": "month", "url": "https://tech.eu/2021/10/12/personio-raises-270-million-in-series-e-round-at-6-3-billion-valuation/", "quote": "12 October 2021" },
-        { "field": "stage", "url": "https://tech.eu/2021/10/12/personio-raises-270-million-in-series-e-round-at-6-3-billion-valuation/", "quote": "Munich-based HR software for SME's Personio has raised $270 million in a Series E round at $6.3 billion valuation." },
-        { "field": "investors", "url": "https://tech.eu/2021/10/12/personio-raises-270-million-in-series-e-round-at-6-3-billion-valuation/", "quote": "Personio’s Series E round was led by Greenoaks Capital Partners, and saw participation from Altimeter Capital and Alkeon." },
-        { "field": "valuation", "url": "https://tech.eu/2021/10/12/personio-raises-270-million-in-series-e-round-at-6-3-billion-valuation/", "quote": "Munich-based HR software for SME's Personio has raised $270 million in a Series E round at $6.3 billion valuation." }
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2021/10/12/personio-raises-270-million-in-series-e-round-at-6-3-billion-valuation/",
+          "quote": "Munich-based HR software for SME's Personio has raised $270 million in a Series E round at $6.3 billion valuation."
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2021/10/12/personio-raises-270-million-in-series-e-round-at-6-3-billion-valuation/",
+          "quote": "12 October 2021"
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2021/10/12/personio-raises-270-million-in-series-e-round-at-6-3-billion-valuation/",
+          "quote": "Munich-based HR software for SME's Personio has raised $270 million in a Series E round at $6.3 billion valuation."
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2021/10/12/personio-raises-270-million-in-series-e-round-at-6-3-billion-valuation/",
+          "quote": "Personio’s Series E round was led by Greenoaks Capital Partners, and saw participation from Altimeter Capital and Alkeon."
+        },
+        {
+          "field": "valuation",
+          "url": "https://tech.eu/2021/10/12/personio-raises-270-million-in-series-e-round-at-6-3-billion-valuation/",
+          "quote": "Munich-based HR software for SME's Personio has raised $270 million in a Series E round at $6.3 billion valuation."
+        }
       ]
     },
     {
@@ -119,14 +302,36 @@
       "amountEur": 189000000,
       "amountOriginal": 200000000,
       "currency": "USD",
-      "investors": ["Greenoaks Capital Partners"],
+      "investors": [
+        "Greenoaks Capital Partners"
+      ],
       "postMoneyValuationEur": 8045000000,
       "sources": [
-        { "field": "amount", "url": "https://tech.eu/2022/06/22/personio-adds-another-200-million-in-series-e-extension/", "quote": "has added $200 million via Greenoaks Capital to an already impressive initial $270 million Series E round" },
-        { "field": "month", "url": "https://tech.eu/2022/06/22/personio-adds-another-200-million-in-series-e-extension/", "quote": "22 June 2022" },
-        { "field": "stage", "url": "https://tech.eu/2022/06/22/personio-adds-another-200-million-in-series-e-extension/", "quote": "has added $200 million via Greenoaks Capital to an already impressive initial $270 million Series E round" },
-        { "field": "investors", "url": "https://tech.eu/2022/06/22/personio-adds-another-200-million-in-series-e-extension/", "quote": "provided solely by existing investor Greenoaks Capital Partners" },
-        { "field": "valuation", "url": "https://tech.eu/2022/06/22/personio-adds-another-200-million-in-series-e-extension/", "quote": "valued at $8.5 billion" }
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2022/06/22/personio-adds-another-200-million-in-series-e-extension/",
+          "quote": "has added $200 million via Greenoaks Capital to an already impressive initial $270 million Series E round"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2022/06/22/personio-adds-another-200-million-in-series-e-extension/",
+          "quote": "22 June 2022"
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2022/06/22/personio-adds-another-200-million-in-series-e-extension/",
+          "quote": "has added $200 million via Greenoaks Capital to an already impressive initial $270 million Series E round"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2022/06/22/personio-adds-another-200-million-in-series-e-extension/",
+          "quote": "provided solely by existing investor Greenoaks Capital Partners"
+        },
+        {
+          "field": "valuation",
+          "url": "https://tech.eu/2022/06/22/personio-adds-another-200-million-in-series-e-extension/",
+          "quote": "valued at $8.5 billion"
+        }
       ]
     }
   ]

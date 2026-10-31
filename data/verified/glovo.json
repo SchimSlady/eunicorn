@@ -1,28 +1,68 @@
 {
   "id": "glovo",
   "name": "Glovo",
-  "aliases": ["GlovoApp"],
+  "aliases": [
+    "GlovoApp"
+  ],
   "domain": "glovoapp.com",
   "country": "ES",
   "city": "Barcelona",
   "founded": 2015,
-  "sectors": ["quick-commerce", "consumer"],
+  "sectors": [
+    "quick-commerce",
+    "consumer"
+  ],
   "status": "acquired",
   "unicorn": true,
   "lastValuationEur": 2300000000,
-  "founders": ["Oscar Pierre", "Sacha Michaud"],
+  "founders": [
+    "Oscar Pierre",
+    "Sacha Michaud"
+  ],
   "funFact": "Glovo's €450M Series F in 2021 was the biggest funding round any Spanish startup had raised up to that point.",
   "difficulty": 2,
   "techeuId": "AD8BA688-57C0-4D4B-80A1-5BDAD299B49C",
   "wikidataId": "Q30899488",
   "sources": [
-    { "field": "city", "url": "https://en.wikipedia.org/wiki/Glovo", "quote": "Glovo is a Spanish on-demand delivery company headquartered in Barcelona." },
-    { "field": "founded", "url": "https://en.wikipedia.org/wiki/Glovo", "quote": "Glovo was founded in 2015 by Oscar Pierre and Sacha Michaud." },
-    { "field": "founders", "url": "https://techcrunch.com/2019/04/30/glovo-the-on-demand-deliver-anything-local-app-raises-169m-series-d/", "quote": "Founded in January 2015 by Oscar Pierre and Sacha Michaud" },
-    { "field": "status", "url": "https://en.wikipedia.org/wiki/Glovo", "quote": "Since July 2022, it has been majority-owned by the German delivery company Delivery Hero." },
-    { "field": "unicorn", "url": "https://tech.eu/2019/12/19/glovo-reaches-unicorn-status-with-e150-million-series-e", "quote": "With the Series E, Glovo has become a unicorn, Spain's second company to surpass a $1 billion valuation." },
-    { "field": "valuation", "url": "https://www.euronews.com/next/2021/12/31/glovo-m-a-delivery-hero", "quote": "2.3 billion euros on a fully diluted and debt free basis before certain adjustments" },
-    { "field": "fun_fact", "url": "https://tech.eu/brief/barcelona-based-unicorn-glovo-lands-e450-million-in-series-f-funding-the-largest-in-history-for-a-spanish-startup/", "quote": "The largest funding round for a Spanish startup to date" }
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/Glovo",
+      "quote": "Glovo is a Spanish on-demand delivery company headquartered in Barcelona."
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Glovo",
+      "quote": "Glovo was founded in 2015 by Oscar Pierre and Sacha Michaud."
+    },
+    {
+      "field": "founders",
+      "url": "https://techcrunch.com/2019/04/30/glovo-the-on-demand-deliver-anything-local-app-raises-169m-series-d/",
+      "quote": "Founded in January 2015 by Oscar Pierre and Sacha Michaud"
+    },
+    {
+      "field": "status",
+      "url": "https://en.wikipedia.org/wiki/Glovo",
+      "quote": "Since July 2022, it has been majority-owned by the German delivery company Delivery Hero."
+    },
+    {
+      "field": "unicorn",
+      "url": "https://tech.eu/2019/12/19/glovo-reaches-unicorn-status-with-e150-million-series-e",
+      "quote": "With the Series E, Glovo has become a unicorn, Spain's second company to surpass a $1 billion valuation."
+    },
+    {
+      "field": "valuation",
+      "url": "https://www.euronews.com/next/2021/12/31/glovo-m-a-delivery-hero",
+      "quote": "2.3 billion euros on a fully diluted and debt free basis before certain adjustments"
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://tech.eu/brief/barcelona-based-unicorn-glovo-lands-e450-million-in-series-f-funding-the-largest-in-history-for-a-spanish-startup/",
+      "quote": "The largest funding round for a Spanish startup to date"
+    },
+    {
+      "field": "logo",
+      "url": "https://commons.wikimedia.org/wiki/File:Glovo_Logo.svg"
+    }
   ],
   "rounds": [
     {
@@ -32,14 +72,44 @@
       "amountEur": 450000000,
       "amountOriginal": 450000000,
       "currency": "EUR",
-      "investors": ["Lugard Road Capital", "Luxor Capital Group", "Delivery Hero", "Drake Enterprises", "GP Bullhound"],
+      "investors": [
+        "Lugard Road Capital",
+        "Luxor Capital Group",
+        "Delivery Hero",
+        "Drake Enterprises",
+        "GP Bullhound"
+      ],
       "sources": [
-        { "field": "amount", "url": "https://techmoran.com/2021/04/01/glovo-raises-528m-series-f-to-double-down-in-its-core-markets-in-europe-africa/", "quote": "has raised (€450M) $528M in its Series F funding round" },
-        { "field": "month", "url": "https://tech.eu/brief/barcelona-based-unicorn-glovo-lands-e450-million-in-series-f-funding-the-largest-in-history-for-a-spanish-startup/", "quote": "The largest funding round for a Spanish startup to date" },
-        { "field": "stage", "url": "https://catalonia.com/w/delivery-platform-glovo-founded-in-barcelona-raises-450-million-euros-in-a-series-f-round", "quote": "has raised €450M in its Series F funding round" },
-        { "field": "investors", "url": "https://techmoran.com/2021/04/01/glovo-raises-528m-series-f-to-double-down-in-its-core-markets-in-europe-africa/", "quote": "The funding was led by New York-based investment managers Lugard Road Capital and the Luxor Capital Group." },
-        { "field": "investors", "url": "https://globalventuring.com/blog/2021/04/01/glovo-covers-529m-funding-delivery/?format=md", "quote": "included pizza chain franchisee Drake Enterprises and food delivery service Delivery Hero" },
-        { "field": "investors", "url": "https://globalventuring.com/blog/2021/04/01/glovo-covers-529m-funding-delivery/?format=md", "quote": "it also featured technology-focused investment adviser GP Bullhound" }
+        {
+          "field": "amount",
+          "url": "https://techmoran.com/2021/04/01/glovo-raises-528m-series-f-to-double-down-in-its-core-markets-in-europe-africa/",
+          "quote": "has raised (€450M) $528M in its Series F funding round"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/brief/barcelona-based-unicorn-glovo-lands-e450-million-in-series-f-funding-the-largest-in-history-for-a-spanish-startup/",
+          "quote": "The largest funding round for a Spanish startup to date"
+        },
+        {
+          "field": "stage",
+          "url": "https://catalonia.com/w/delivery-platform-glovo-founded-in-barcelona-raises-450-million-euros-in-a-series-f-round",
+          "quote": "has raised €450M in its Series F funding round"
+        },
+        {
+          "field": "investors",
+          "url": "https://techmoran.com/2021/04/01/glovo-raises-528m-series-f-to-double-down-in-its-core-markets-in-europe-africa/",
+          "quote": "The funding was led by New York-based investment managers Lugard Road Capital and the Luxor Capital Group."
+        },
+        {
+          "field": "investors",
+          "url": "https://globalventuring.com/blog/2021/04/01/glovo-covers-529m-funding-delivery/?format=md",
+          "quote": "included pizza chain franchisee Drake Enterprises and food delivery service Delivery Hero"
+        },
+        {
+          "field": "investors",
+          "url": "https://globalventuring.com/blog/2021/04/01/glovo-covers-529m-funding-delivery/?format=md",
+          "quote": "it also featured technology-focused investment adviser GP Bullhound"
+        }
       ]
     },
     {
@@ -49,12 +119,33 @@
       "amountEur": 150000000,
       "amountOriginal": 150000000,
       "currency": "EUR",
-      "investors": ["Mubadala Investment Company", "Drake Enterprises", "Idinvest Partners", "Lakestar"],
+      "investors": [
+        "Mubadala Investment Company",
+        "Drake Enterprises",
+        "Idinvest Partners",
+        "Lakestar"
+      ],
       "sources": [
-        { "field": "amount", "url": "https://tech.eu/2019/12/19/glovo-reaches-unicorn-status-with-e150-million-series-e", "quote": "Glovo, the fast-growing on-demand delivery company from Spain, has raised €150 million in Series E funding." },
-        { "field": "month", "url": "https://techcrunch.com/2019/12/19/spains-glovo-grabs-166m-series-e-for-its-deliver-anything-app/", "quote": "in a fast-following Series E round led by Abu Dhabi state investment company, Mubadala" },
-        { "field": "stage", "url": "https://tech.eu/2019/12/19/glovo-reaches-unicorn-status-with-e150-million-series-e", "quote": "has raised €150 million in Series E funding" },
-        { "field": "investors", "url": "https://tech.eu/2019/12/19/glovo-reaches-unicorn-status-with-e150-million-series-e", "quote": "The latest round was led by Mubadala, with further support from previous investors Drake Enterprises, Idinvest and Lakestar." }
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2019/12/19/glovo-reaches-unicorn-status-with-e150-million-series-e",
+          "quote": "Glovo, the fast-growing on-demand delivery company from Spain, has raised €150 million in Series E funding."
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2019/12/19/spains-glovo-grabs-166m-series-e-for-its-deliver-anything-app/",
+          "quote": "in a fast-following Series E round led by Abu Dhabi state investment company, Mubadala"
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2019/12/19/glovo-reaches-unicorn-status-with-e150-million-series-e",
+          "quote": "has raised €150 million in Series E funding"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2019/12/19/glovo-reaches-unicorn-status-with-e150-million-series-e",
+          "quote": "The latest round was led by Mubadala, with further support from previous investors Drake Enterprises, Idinvest and Lakestar."
+        }
       ]
     },
     {
@@ -64,12 +155,33 @@
       "amountEur": 150000000,
       "amountOriginal": 150000000,
       "currency": "EUR",
-      "investors": ["Lakestar", "Drake Enterprises", "Idinvest Partners", "Korelya Capital"],
+      "investors": [
+        "Lakestar",
+        "Drake Enterprises",
+        "Idinvest Partners",
+        "Korelya Capital"
+      ],
       "sources": [
-        { "field": "amount", "url": "https://techcrunch.com/2019/04/30/glovo-the-on-demand-deliver-anything-local-app-raises-169m-series-d/", "quote": "has raised $169 million (€150m) in Series D funding" },
-        { "field": "month", "url": "https://techcrunch.com/2019/04/30/glovo-the-on-demand-deliver-anything-local-app-raises-169m-series-d/", "quote": "has raised $169 million (€150m) in Series D funding" },
-        { "field": "stage", "url": "https://techcrunch.com/2019/04/30/glovo-the-on-demand-deliver-anything-local-app-raises-169m-series-d/", "quote": "has raised $169 million (€150m) in Series D funding" },
-        { "field": "investors", "url": "https://techcrunch.com/2019/04/30/glovo-the-on-demand-deliver-anything-local-app-raises-169m-series-d/", "quote": "Idinvest Partners and Korelya Capital also participated." }
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2019/04/30/glovo-the-on-demand-deliver-anything-local-app-raises-169m-series-d/",
+          "quote": "has raised $169 million (€150m) in Series D funding"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2019/04/30/glovo-the-on-demand-deliver-anything-local-app-raises-169m-series-d/",
+          "quote": "has raised $169 million (€150m) in Series D funding"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2019/04/30/glovo-the-on-demand-deliver-anything-local-app-raises-169m-series-d/",
+          "quote": "has raised $169 million (€150m) in Series D funding"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2019/04/30/glovo-the-on-demand-deliver-anything-local-app-raises-169m-series-d/",
+          "quote": "Idinvest Partners and Korelya Capital also participated."
+        }
       ]
     },
     {
@@ -79,13 +191,40 @@
       "amountEur": 115000000,
       "amountOriginal": 115000000,
       "currency": "EUR",
-      "investors": ["Rakuten Capital", "Seaya Ventures", "Cathay Innovation", "AmRest", "Idinvest Partners", "GR Capital"],
+      "investors": [
+        "Rakuten Capital",
+        "Seaya Ventures",
+        "Cathay Innovation",
+        "AmRest",
+        "Idinvest Partners",
+        "GR Capital"
+      ],
       "sources": [
-        { "field": "amount", "url": "https://techcrunch.com/2018/07/18/glovo-gets-134m-to-beef-up-its-on-demand-delivery-business/", "quote": "has bagged a €115 million (~$134M) Series C round of funding." },
-        { "field": "month", "url": "https://techcrunch.com/2018/07/18/glovo-gets-134m-to-beef-up-its-on-demand-delivery-business/", "quote": "has bagged a €115 million (~$134M) Series C round of funding." },
-        { "field": "stage", "url": "https://www.cathaycapital.com/glovo-closes-115me-series-c-funding-round/", "quote": "115 million Euros in a Series C round" },
-        { "field": "investors", "url": "https://www.cathaycapital.com/glovo-closes-115me-series-c-funding-round/", "quote": "The firms Rakuten, Seaya and Cathay Innovation reaffirm their commitment" },
-        { "field": "investors", "url": "https://www.cathaycapital.com/glovo-closes-115me-series-c-funding-round/", "quote": "the European funds Idinvest Partners and GR Capital" }
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2018/07/18/glovo-gets-134m-to-beef-up-its-on-demand-delivery-business/",
+          "quote": "has bagged a €115 million (~$134M) Series C round of funding."
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2018/07/18/glovo-gets-134m-to-beef-up-its-on-demand-delivery-business/",
+          "quote": "has bagged a €115 million (~$134M) Series C round of funding."
+        },
+        {
+          "field": "stage",
+          "url": "https://www.cathaycapital.com/glovo-closes-115me-series-c-funding-round/",
+          "quote": "115 million Euros in a Series C round"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.cathaycapital.com/glovo-closes-115me-series-c-funding-round/",
+          "quote": "The firms Rakuten, Seaya and Cathay Innovation reaffirm their commitment"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.cathaycapital.com/glovo-closes-115me-series-c-funding-round/",
+          "quote": "the European funds Idinvest Partners and GR Capital"
+        }
       ]
     },
     {
@@ -95,12 +234,35 @@
       "amountEur": 30000000,
       "amountOriginal": 30000000,
       "currency": "EUR",
-      "investors": ["Rakuten Capital", "Cathay Innovation", "Seaya Ventures", "Entrée Capital", "Caixa Capital Risc", "Bonsai Venture Capital"],
+      "investors": [
+        "Rakuten Capital",
+        "Cathay Innovation",
+        "Seaya Ventures",
+        "Entrée Capital",
+        "Caixa Capital Risc",
+        "Bonsai Venture Capital"
+      ],
       "sources": [
-        { "field": "amount", "url": "https://www.cathaycapital.com/glovo-closes-30me-series-b-funding-round-with-investment-from-rakuten-and-cathay-innovation/", "quote": "has successfully closed its Series B funding round of €30 million led by Rakuten and Cathay." },
-        { "field": "month", "url": "https://www.cathaycapital.com/glovo-closes-30me-series-b-funding-round-with-investment-from-rakuten-and-cathay-innovation/", "quote": "Barcelona, 4th October 2017." },
-        { "field": "stage", "url": "https://techcrunch.com/2018/07/18/glovo-gets-134m-to-beef-up-its-on-demand-delivery-business/", "quote": "raised a €30M Series B last October" },
-        { "field": "investors", "url": "https://www.cathaycapital.com/glovo-closes-30me-series-b-funding-round-with-investment-from-rakuten-and-cathay-innovation/", "quote": "that also included investment from current investors, Seaya Ventures, Entreé Capital, Caixa Capital Risk" }
+        {
+          "field": "amount",
+          "url": "https://www.cathaycapital.com/glovo-closes-30me-series-b-funding-round-with-investment-from-rakuten-and-cathay-innovation/",
+          "quote": "has successfully closed its Series B funding round of €30 million led by Rakuten and Cathay."
+        },
+        {
+          "field": "month",
+          "url": "https://www.cathaycapital.com/glovo-closes-30me-series-b-funding-round-with-investment-from-rakuten-and-cathay-innovation/",
+          "quote": "Barcelona, 4th October 2017."
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2018/07/18/glovo-gets-134m-to-beef-up-its-on-demand-delivery-business/",
+          "quote": "raised a €30M Series B last October"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.cathaycapital.com/glovo-closes-30me-series-b-funding-round-with-investment-from-rakuten-and-cathay-innovation/",
+          "quote": "that also included investment from current investors, Seaya Ventures, Entreé Capital, Caixa Capital Risk"
+        }
       ]
     },
     {
@@ -110,11 +272,29 @@
       "amountEur": 5000000,
       "amountOriginal": 5000000,
       "currency": "EUR",
-      "investors": ["Seaya Ventures", "Antai Venture Builder", "Entrée Capital", "Caixa Capital Risc", "Bonsai Venture Capital"],
+      "investors": [
+        "Seaya Ventures",
+        "Antai Venture Builder",
+        "Entrée Capital",
+        "Caixa Capital Risc",
+        "Bonsai Venture Capital"
+      ],
       "sources": [
-        { "field": "amount", "url": "https://www.finsmes.com/2016/08/on-demand-delivery-startup-glovo-raises-e5m-in-series-a-funding.html", "quote": "raised €5m in Series A funding" },
-        { "field": "month", "url": "https://www.finsmes.com/2016/08/on-demand-delivery-startup-glovo-raises-e5m-in-series-a-funding.html", "quote": "raised €5m in Series A funding" },
-        { "field": "stage", "url": "https://www.finsmes.com/2016/08/on-demand-delivery-startup-glovo-raises-e5m-in-series-a-funding.html", "quote": "raised €5m in Series A funding" }
+        {
+          "field": "amount",
+          "url": "https://www.finsmes.com/2016/08/on-demand-delivery-startup-glovo-raises-e5m-in-series-a-funding.html",
+          "quote": "raised €5m in Series A funding"
+        },
+        {
+          "field": "month",
+          "url": "https://www.finsmes.com/2016/08/on-demand-delivery-startup-glovo-raises-e5m-in-series-a-funding.html",
+          "quote": "raised €5m in Series A funding"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.finsmes.com/2016/08/on-demand-delivery-startup-glovo-raises-e5m-in-series-a-funding.html",
+          "quote": "raised €5m in Series A funding"
+        }
       ]
     },
     {
@@ -124,11 +304,29 @@
       "amountEur": 2000000,
       "amountOriginal": 2000000,
       "currency": "EUR",
-      "investors": ["Antai Venture Builder", "Cube Investments", "Zaryn Dentzel", "Bernardo Hernández", "Félix Ruiz"],
+      "investors": [
+        "Antai Venture Builder",
+        "Cube Investments",
+        "Zaryn Dentzel",
+        "Bernardo Hernández",
+        "Félix Ruiz"
+      ],
       "sources": [
-        { "field": "amount", "url": "https://postandparcel.info/?p=69616", "quote": "Barcelona-based on-demand local delivery start-up company Glovo has picked up €2m in its latest funding round." },
-        { "field": "month", "url": "https://postandparcel.info/?p=69616", "quote": "Barcelona-based on-demand local delivery start-up company Glovo has picked up €2m in its latest funding round." },
-        { "field": "investors", "url": "https://postandparcel.info/?p=69616", "quote": "investors in the round include Zaryn Dentzel, Bernardo Hernandez, Felix Ruiz, Antai Venture Builder, and Cube Investments." }
+        {
+          "field": "amount",
+          "url": "https://postandparcel.info/?p=69616",
+          "quote": "Barcelona-based on-demand local delivery start-up company Glovo has picked up €2m in its latest funding round."
+        },
+        {
+          "field": "month",
+          "url": "https://postandparcel.info/?p=69616",
+          "quote": "Barcelona-based on-demand local delivery start-up company Glovo has picked up €2m in its latest funding round."
+        },
+        {
+          "field": "investors",
+          "url": "https://postandparcel.info/?p=69616",
+          "quote": "investors in the round include Zaryn Dentzel, Bernardo Hernandez, Felix Ruiz, Antai Venture Builder, and Cube Investments."
+        }
       ]
     }
   ]

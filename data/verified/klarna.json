@@ -6,23 +6,61 @@
   "country": "SE",
   "city": "Stockholm",
   "founded": 2005,
-  "sectors": ["fintech"],
+  "sectors": [
+    "fintech"
+  ],
   "status": "public",
   "unicorn": true,
   "lastValuationEur": 12871000000,
-  "founders": ["Sebastian Siemiatkowski", "Niklas Adalberth", "Victor Jacobsson"],
+  "founders": [
+    "Sebastian Siemiatkowski",
+    "Niklas Adalberth",
+    "Victor Jacobsson"
+  ],
   "funFact": "Angel investor Jane Walerud got in early by offering the three founders SEK 600,000 in exchange for a 10% stake.",
   "difficulty": 1,
   "techeuId": "0442420F-3BDA-48B1-B3DA-797DD784B1FB",
   "wikidataId": "Q1165072",
   "sources": [
-    { "field": "city", "url": "https://en.wikipedia.org/wiki/Klarna", "quote": "Founded in 2005 in Stockholm, Sweden." },
-    { "field": "founded", "url": "https://en.wikipedia.org/wiki/Klarna", "quote": "Klarna was founded in 2005 by Sebastian Siemiatkowski, Niklas Adalberth and Victor Jacobsson" },
-    { "field": "founders", "url": "https://en.wikipedia.org/wiki/Klarna", "quote": "Klarna was founded in 2005 by Sebastian Siemiatkowski, Niklas Adalberth and Victor Jacobsson" },
-    { "field": "status", "url": "https://en.wikipedia.org/wiki/Klarna", "quote": "Its ordinary shares began trading on the New York Stock Exchange on 10 September 2025 under the ticker symbol KLAR." },
-    { "field": "unicorn", "url": "https://techcrunch.com/2021/06/10/fintech-giant-klarna-raises-639m-at-a-45-6b-valuation/", "quote": "raised another $639 million at a staggering post-money valuation of $45.6 billion." },
-    { "field": "valuation", "url": "https://www.thestar.com.my/tech/tech-news/2025/09/10/klarna-prices-us-ipo-at-40-per-share-valuing-it-at-151-billion-source-says", "quote": "Klarna and some of its shareholders priced its U.S. IPO at $40 per share, valuing the company at $15.1 billion." },
-    { "field": "fun_fact", "url": "https://en.wikipedia.org/wiki/Klarna", "quote": "offering the founders SEK 600,000 for 10% of the company." }
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/Klarna",
+      "quote": "Founded in 2005 in Stockholm, Sweden."
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Klarna",
+      "quote": "Klarna was founded in 2005 by Sebastian Siemiatkowski, Niklas Adalberth and Victor Jacobsson"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Klarna",
+      "quote": "Klarna was founded in 2005 by Sebastian Siemiatkowski, Niklas Adalberth and Victor Jacobsson"
+    },
+    {
+      "field": "status",
+      "url": "https://en.wikipedia.org/wiki/Klarna",
+      "quote": "Its ordinary shares began trading on the New York Stock Exchange on 10 September 2025 under the ticker symbol KLAR."
+    },
+    {
+      "field": "unicorn",
+      "url": "https://techcrunch.com/2021/06/10/fintech-giant-klarna-raises-639m-at-a-45-6b-valuation/",
+      "quote": "raised another $639 million at a staggering post-money valuation of $45.6 billion."
+    },
+    {
+      "field": "valuation",
+      "url": "https://www.thestar.com.my/tech/tech-news/2025/09/10/klarna-prices-us-ipo-at-40-per-share-valuing-it-at-151-billion-source-says",
+      "quote": "Klarna and some of its shareholders priced its U.S. IPO at $40 per share, valuing the company at $15.1 billion."
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://en.wikipedia.org/wiki/Klarna",
+      "quote": "offering the founders SEK 600,000 for 10% of the company."
+    },
+    {
+      "field": "logo",
+      "url": "https://commons.wikimedia.org/wiki/File:Klarna_Logo_black.svg"
+    }
   ],
   "rounds": [
     {
@@ -32,11 +70,25 @@
       "amountEur": 7162564,
       "amountOriginal": 9000000,
       "currency": "USD",
-      "investors": ["Sequoia Capital"],
+      "investors": [
+        "Sequoia Capital"
+      ],
       "sources": [
-        { "field": "amount", "url": "https://techcrunch.com/2011/12/08/klarna-155-millio", "quote": "Sequoia Capital led its last $9 million round in May, 2010." },
-        { "field": "month", "url": "https://techcrunch.com/2011/12/08/klarna-155-millio", "quote": "Sequoia Capital led its last $9 million round in May, 2010." },
-        { "field": "investors", "url": "https://techcrunch.com/2011/12/08/klarna-155-millio", "quote": "Sequoia Capital led its last $9 million round in May, 2010." }
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2011/12/08/klarna-155-millio",
+          "quote": "Sequoia Capital led its last $9 million round in May, 2010."
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2011/12/08/klarna-155-millio",
+          "quote": "Sequoia Capital led its last $9 million round in May, 2010."
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2011/12/08/klarna-155-millio",
+          "quote": "Sequoia Capital led its last $9 million round in May, 2010."
+        }
       ]
     },
     {
@@ -46,11 +98,26 @@
       "amountEur": 118000000,
       "amountOriginal": 155000000,
       "currency": "USD",
-      "investors": ["General Atlantic", "DST Global"],
+      "investors": [
+        "General Atlantic",
+        "DST Global"
+      ],
       "sources": [
-        { "field": "amount", "url": "https://techcrunch.com/2011/12/08/klarna-155-millio", "quote": "European e-commerce payments provider Klarna just raised a huge, pre-IPO round of $155 million." },
-        { "field": "month", "url": "https://techcrunch.com/2011/12/08/klarna-155-millio", "quote": "European e-commerce payments provider Klarna just raised a huge, pre-IPO round of $155 million." },
-        { "field": "investors", "url": "https://techcrunch.com/2011/12/08/klarna-155-millio", "quote": "General Atlantic and Yuri Milner's DST Global led the round." }
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2011/12/08/klarna-155-millio",
+          "quote": "European e-commerce payments provider Klarna just raised a huge, pre-IPO round of $155 million."
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2011/12/08/klarna-155-millio",
+          "quote": "European e-commerce payments provider Klarna just raised a huge, pre-IPO round of $155 million."
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2011/12/08/klarna-155-millio",
+          "quote": "General Atlantic and Yuri Milner's DST Global led the round."
+        }
       ]
     },
     {
@@ -60,11 +127,27 @@
       "amountEur": 90000000,
       "amountOriginal": 90000000,
       "currency": "EUR",
-      "investors": ["Sequoia Capital", "General Atlantic", "Atomico"],
+      "investors": [
+        "Sequoia Capital",
+        "General Atlantic",
+        "Atomico"
+      ],
       "sources": [
-        { "field": "amount", "url": "https://www.mynewsdesk.com/klarna/pressreleases/klarna-raises-eu90-million-for-acquisition-of-sofort-986918", "quote": "Klarna today announced it has raised €90 million from its investors, in order to finance the acquisition of SOFORT." },
-        { "field": "month", "url": "https://www.mynewsdesk.com/klarna/pressreleases/klarna-raises-eu90-million-for-acquisition-of-sofort-986918", "quote": "14 March 2014 14:22" },
-        { "field": "investors", "url": "https://www.mynewsdesk.com/klarna/pressreleases/klarna-raises-eu90-million-for-acquisition-of-sofort-986918", "quote": "like Sequoia Capital, General Atlantic and Atomico." }
+        {
+          "field": "amount",
+          "url": "https://www.mynewsdesk.com/klarna/pressreleases/klarna-raises-eu90-million-for-acquisition-of-sofort-986918",
+          "quote": "Klarna today announced it has raised €90 million from its investors, in order to finance the acquisition of SOFORT."
+        },
+        {
+          "field": "month",
+          "url": "https://www.mynewsdesk.com/klarna/pressreleases/klarna-raises-eu90-million-for-acquisition-of-sofort-986918",
+          "quote": "14 March 2014 14:22"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.mynewsdesk.com/klarna/pressreleases/klarna-raises-eu90-million-for-acquisition-of-sofort-986918",
+          "quote": "like Sequoia Capital, General Atlantic and Atomico."
+        }
       ]
     },
     {
@@ -74,11 +157,25 @@
       "amountEur": 17000000,
       "amountOriginal": 20000000,
       "currency": "USD",
-      "investors": ["H&M"],
+      "investors": [
+        "H&M"
+      ],
       "sources": [
-        { "field": "amount", "url": "https://techcrunch.com/2018/10/08/payments-startup-klarna-raises-20m-from-hm-its-second-backer-from-the-fashion-world", "quote": "has picked up $20 million from H&M, the fashion retailer with 4,800 stores in 70 markets." },
-        { "field": "month", "url": "https://techcrunch.com/2018/10/08/payments-startup-klarna-raises-20m-from-hm-its-second-backer-from-the-fashion-world", "quote": "has picked up $20 million from H&M, the fashion retailer with 4,800 stores in 70 markets." },
-        { "field": "investors", "url": "https://techcrunch.com/2018/10/08/payments-startup-klarna-raises-20m-from-hm-its-second-backer-from-the-fashion-world", "quote": "has picked up $20 million from H&M, the fashion retailer with 4,800 stores in 70 markets." }
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2018/10/08/payments-startup-klarna-raises-20m-from-hm-its-second-backer-from-the-fashion-world",
+          "quote": "has picked up $20 million from H&M, the fashion retailer with 4,800 stores in 70 markets."
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2018/10/08/payments-startup-klarna-raises-20m-from-hm-its-second-backer-from-the-fashion-world",
+          "quote": "has picked up $20 million from H&M, the fashion retailer with 4,800 stores in 70 markets."
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2018/10/08/payments-startup-klarna-raises-20m-from-hm-its-second-backer-from-the-fashion-world",
+          "quote": "has picked up $20 million from H&M, the fashion retailer with 4,800 stores in 70 markets."
+        }
       ]
     },
     {
@@ -88,13 +185,38 @@
       "amountEur": 413000000,
       "amountOriginal": 460000000,
       "currency": "USD",
-      "investors": ["Dragoneer Investment Group", "Commonwealth Bank of Australia", "HMI Capital", "Merian Chrysalis Investment Company", "Första AP-fonden", "IPGL", "Institutional Venture Partners", "BlackRock"],
+      "investors": [
+        "Dragoneer Investment Group",
+        "Commonwealth Bank of Australia",
+        "HMI Capital",
+        "Merian Chrysalis Investment Company",
+        "Första AP-fonden",
+        "IPGL",
+        "Institutional Venture Partners",
+        "BlackRock"
+      ],
       "postMoneyValuationEur": 4943000000,
       "sources": [
-        { "field": "amount", "url": "https://prnewswire.com/news-releases/klarna-announces-460m-equity-raise-to-further-support-massive-us-growth-300897163.html", "quote": "is pleased to announce it has raised $460 million in an equity funding round, at a post money valuation of $5.5 billion." },
-        { "field": "month", "url": "https://prnewswire.com/news-releases/klarna-announces-460m-equity-raise-to-further-support-massive-us-growth-300897163.html", "quote": "NEW YORK, Aug. 6, 2019 /PRNewswire/" },
-        { "field": "investors", "url": "https://prnewswire.com/news-releases/klarna-announces-460m-equity-raise-to-further-support-massive-us-growth-300897163.html", "quote": "The funding round was led by Dragoneer Investment Group" },
-        { "field": "valuation", "url": "https://prnewswire.com/news-releases/klarna-announces-460m-equity-raise-to-further-support-massive-us-growth-300897163.html", "quote": "is pleased to announce it has raised $460 million in an equity funding round, at a post money valuation of $5.5 billion." }
+        {
+          "field": "amount",
+          "url": "https://prnewswire.com/news-releases/klarna-announces-460m-equity-raise-to-further-support-massive-us-growth-300897163.html",
+          "quote": "is pleased to announce it has raised $460 million in an equity funding round, at a post money valuation of $5.5 billion."
+        },
+        {
+          "field": "month",
+          "url": "https://prnewswire.com/news-releases/klarna-announces-460m-equity-raise-to-further-support-massive-us-growth-300897163.html",
+          "quote": "NEW YORK, Aug. 6, 2019 /PRNewswire/"
+        },
+        {
+          "field": "investors",
+          "url": "https://prnewswire.com/news-releases/klarna-announces-460m-equity-raise-to-further-support-massive-us-growth-300897163.html",
+          "quote": "The funding round was led by Dragoneer Investment Group"
+        },
+        {
+          "field": "valuation",
+          "url": "https://prnewswire.com/news-releases/klarna-announces-460m-equity-raise-to-further-support-massive-us-growth-300897163.html",
+          "quote": "is pleased to announce it has raised $460 million in an equity funding round, at a post money valuation of $5.5 billion."
+        }
       ]
     },
     {
@@ -104,13 +226,34 @@
       "amountEur": 551000000,
       "amountOriginal": 650000000,
       "currency": "USD",
-      "investors": ["Silver Lake", "GIC", "BlackRock", "HMI Capital"],
+      "investors": [
+        "Silver Lake",
+        "GIC",
+        "BlackRock",
+        "HMI Capital"
+      ],
       "postMoneyValuationEur": 9031000000,
       "sources": [
-        { "field": "amount", "url": "https://fintech.global/2020/09/15/klarna-becomes-europes-most-valuable-fintech-on-the-back-of-650m-round/", "quote": "$650m funding round pushed its valuation past the $10.65bn mark." },
-        { "field": "month", "url": "https://fintech.global/2020/09/15/klarna-becomes-europes-most-valuable-fintech-on-the-back-of-650m-round/", "quote": "$650m funding round pushed its valuation past the $10.65bn mark." },
-        { "field": "investors", "url": "https://fintech.global/2020/09/15/klarna-becomes-europes-most-valuable-fintech-on-the-back-of-650m-round/", "quote": "Silver Lake" },
-        { "field": "valuation", "url": "https://fintech.global/2020/09/15/klarna-becomes-europes-most-valuable-fintech-on-the-back-of-650m-round/", "quote": "$650m funding round pushed its valuation past the $10.65bn mark." }
+        {
+          "field": "amount",
+          "url": "https://fintech.global/2020/09/15/klarna-becomes-europes-most-valuable-fintech-on-the-back-of-650m-round/",
+          "quote": "$650m funding round pushed its valuation past the $10.65bn mark."
+        },
+        {
+          "field": "month",
+          "url": "https://fintech.global/2020/09/15/klarna-becomes-europes-most-valuable-fintech-on-the-back-of-650m-round/",
+          "quote": "$650m funding round pushed its valuation past the $10.65bn mark."
+        },
+        {
+          "field": "investors",
+          "url": "https://fintech.global/2020/09/15/klarna-becomes-europes-most-valuable-fintech-on-the-back-of-650m-round/",
+          "quote": "Silver Lake"
+        },
+        {
+          "field": "valuation",
+          "url": "https://fintech.global/2020/09/15/klarna-becomes-europes-most-valuable-fintech-on-the-back-of-650m-round/",
+          "quote": "$650m funding round pushed its valuation past the $10.65bn mark."
+        }
       ]
     },
     {
@@ -123,9 +266,21 @@
       "investors": [],
       "postMoneyValuationEur": 26052000000,
       "sources": [
-        { "field": "amount", "url": "https://techcrunch.com/2021/03/01/invest-now-sell-later/", "quote": "has raised $1 billion in new funding at a post-money valuation of $31 billion." },
-        { "field": "month", "url": "https://techcrunch.com/2021/03/01/invest-now-sell-later/", "quote": "has raised $1 billion in new funding at a post-money valuation of $31 billion." },
-        { "field": "valuation", "url": "https://techcrunch.com/2021/03/01/invest-now-sell-later/", "quote": "has raised $1 billion in new funding at a post-money valuation of $31 billion." }
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2021/03/01/invest-now-sell-later/",
+          "quote": "has raised $1 billion in new funding at a post-money valuation of $31 billion."
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2021/03/01/invest-now-sell-later/",
+          "quote": "has raised $1 billion in new funding at a post-money valuation of $31 billion."
+        },
+        {
+          "field": "valuation",
+          "url": "https://techcrunch.com/2021/03/01/invest-now-sell-later/",
+          "quote": "has raised $1 billion in new funding at a post-money valuation of $31 billion."
+        }
       ]
     },
     {
@@ -135,13 +290,34 @@
       "amountEur": 530000000,
       "amountOriginal": 639000000,
       "currency": "USD",
-      "investors": ["SoftBank Vision Fund 2", "Adit Ventures", "Honeycomb Asset Management", "WestCap Group"],
+      "investors": [
+        "SoftBank Vision Fund 2",
+        "Adit Ventures",
+        "Honeycomb Asset Management",
+        "WestCap Group"
+      ],
       "postMoneyValuationEur": 37851000000,
       "sources": [
-        { "field": "amount", "url": "https://techcrunch.com/2021/06/10/fintech-giant-klarna-raises-639m-at-a-45-6b-valuation/", "quote": "raised another $639 million at a staggering post-money valuation of $45.6 billion." },
-        { "field": "month", "url": "https://techcrunch.com/2021/06/10/fintech-giant-klarna-raises-639m-at-a-45-6b-valuation/", "quote": "raised another $639 million at a staggering post-money valuation of $45.6 billion." },
-        { "field": "investors", "url": "https://techcrunch.com/2021/06/10/fintech-giant-klarna-raises-639m-at-a-45-6b-valuation/", "quote": "SoftBank's Vision Fund 2 led the round." },
-        { "field": "valuation", "url": "https://techcrunch.com/2021/06/10/fintech-giant-klarna-raises-639m-at-a-45-6b-valuation/", "quote": "raised another $639 million at a staggering post-money valuation of $45.6 billion." }
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2021/06/10/fintech-giant-klarna-raises-639m-at-a-45-6b-valuation/",
+          "quote": "raised another $639 million at a staggering post-money valuation of $45.6 billion."
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2021/06/10/fintech-giant-klarna-raises-639m-at-a-45-6b-valuation/",
+          "quote": "raised another $639 million at a staggering post-money valuation of $45.6 billion."
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2021/06/10/fintech-giant-klarna-raises-639m-at-a-45-6b-valuation/",
+          "quote": "SoftBank's Vision Fund 2 led the round."
+        },
+        {
+          "field": "valuation",
+          "url": "https://techcrunch.com/2021/06/10/fintech-giant-klarna-raises-639m-at-a-45-6b-valuation/",
+          "quote": "raised another $639 million at a staggering post-money valuation of $45.6 billion."
+        }
       ]
     },
     {
@@ -151,14 +327,41 @@
       "amountEur": 786000000,
       "amountOriginal": 800000000,
       "currency": "USD",
-      "investors": ["Sequoia Capital", "Silver Lake", "Bestseller", "Commonwealth Bank of Australia", "Mubadala Investment Company", "CPP Investments"],
+      "investors": [
+        "Sequoia Capital",
+        "Silver Lake",
+        "Bestseller",
+        "Commonwealth Bank of Australia",
+        "Mubadala Investment Company",
+        "CPP Investments"
+      ],
       "postMoneyValuationEur": 6582000000,
       "sources": [
-        { "field": "amount", "url": "https://www.theblock.co/amp/post/156900/klarna-valuation-cut-to-6-7-billion-in-800-million-fundraise", "quote": "Klarna, the Swedish fintech company, has raised $800 million in common equity at a $6.7 billion post-money valuation" },
-        { "field": "month", "url": "https://www.theblock.co/amp/post/156900/klarna-valuation-cut-to-6-7-billion-in-800-million-fundraise", "quote": "July 11, 2022, 10:51AM EDT" },
-        { "field": "investors", "url": "https://www.verdict.co.uk/klarna-800m-growth-us/", "quote": "Existing investors, namely Sequoia, Bestseller, Silver Lake, and Commonwealth Bank of Australia," },
-        { "field": "investors", "url": "https://www.verdict.co.uk/klarna-800m-growth-us/", "quote": "new investors including UAE’s Mubadala Investment Company and Canada Pension Plan Investment Board (CPP Investments)" },
-        { "field": "valuation", "url": "https://www.theblock.co/amp/post/156900/klarna-valuation-cut-to-6-7-billion-in-800-million-fundraise", "quote": "has raised $800 million in common equity at a $6.7 billion post-money valuation" }
+        {
+          "field": "amount",
+          "url": "https://www.theblock.co/amp/post/156900/klarna-valuation-cut-to-6-7-billion-in-800-million-fundraise",
+          "quote": "Klarna, the Swedish fintech company, has raised $800 million in common equity at a $6.7 billion post-money valuation"
+        },
+        {
+          "field": "month",
+          "url": "https://www.theblock.co/amp/post/156900/klarna-valuation-cut-to-6-7-billion-in-800-million-fundraise",
+          "quote": "July 11, 2022, 10:51AM EDT"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.verdict.co.uk/klarna-800m-growth-us/",
+          "quote": "Existing investors, namely Sequoia, Bestseller, Silver Lake, and Commonwealth Bank of Australia,"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.verdict.co.uk/klarna-800m-growth-us/",
+          "quote": "new investors including UAE’s Mubadala Investment Company and Canada Pension Plan Investment Board (CPP Investments)"
+        },
+        {
+          "field": "valuation",
+          "url": "https://www.theblock.co/amp/post/156900/klarna-valuation-cut-to-6-7-billion-in-800-million-fundraise",
+          "quote": "has raised $800 million in common equity at a $6.7 billion post-money valuation"
+        }
       ]
     }
   ]
