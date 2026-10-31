@@ -52,13 +52,10 @@ function evaluate(p: ImpostorPuzzle, progress: Progress) {
 }
 
 function shareText(p: ImpostorPuzzle, progress: Progress): string {
-  const { rules, score } = evaluate(p, progress);
-  const squares = Array.from({ length: rules.tries }, (_, i) => {
-    const id = progress.picks[i];
-    if (id === undefined) return "⬜";
-    return id === p.impostorId ? "🟩" : "🟥"; // share text, not UI. taste-skill-ignore
-  });
-  return buildShareText({ number: p.number, modeTitle: TITLE, difficulty: progress.difficulty, hintsUsed: progress.hintsUsed, squares, score });
+  const { won, score } = evaluate(p, progress);
+  const squares = progress.picks.map((id) => (id === p.impostorId ? "🟩" : "🟥")); // share text, not UI. taste-skill-ignore
+  const summary = won ? `Found it on try ${progress.picks.length}` : "Missed it";
+  return buildShareText({ number: p.number, modeTitle: TITLE, difficulty: progress.difficulty, hintsUsed: progress.hintsUsed, squares, summary, score, maxScore: MAX_SCORE });
 }
 
 export function ImpostorGame() {

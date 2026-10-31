@@ -64,9 +64,10 @@ function evaluate(p: UnicornGridPuzzle, progress: Progress, companies: Map<strin
 }
 
 function shareText(p: UnicornGridPuzzle, progress: Progress, companies: Map<string, Company>): string {
-  const { score, hintsUsed } = evaluate(p, progress, companies);
+  const { score, hintsUsed, filled, maxScore } = evaluate(p, progress, companies);
   const squares = progress.cells.map((id, i) => (id ? "🟩" : "⬜") + (i % 3 === 2 && i < 8 ? "\n" : "")); // share text, not UI. taste-skill-ignore
-  return buildShareText({ number: p.number, modeTitle: TITLE, difficulty: progress.difficulty, hintsUsed, squares, score });
+  const summary = `${filled} of 9 squares`;
+  return buildShareText({ number: p.number, modeTitle: TITLE, difficulty: progress.difficulty, hintsUsed, squares, summary, score, maxScore });
 }
 
 /** Country labels carry an emoji flag in the data; the UI shows an SVG flag instead. */

@@ -60,13 +60,10 @@ function evaluate(p: WhoRaisedThisPuzzle, progress: Progress) {
 }
 
 function shareText(p: WhoRaisedThisPuzzle, progress: Progress): string {
-  const { maxGuesses, score } = evaluate(p, progress);
-  const squares = Array.from({ length: maxGuesses }, (_, i) => {
-    const id = progress.guesses[i];
-    if (id === undefined) return "⬜";
-    return id === p.answerCompanyId ? "🟩" : "🟥"; // share text, not UI. taste-skill-ignore
-  });
-  return buildShareText({ number: p.number, modeTitle: TITLE, difficulty: progress.difficulty, hintsUsed: progress.hintsUsed, squares, score });
+  const { won, score } = evaluate(p, progress);
+  const squares = progress.guesses.map((id) => (id === p.answerCompanyId ? "🟩" : "🟥")); // share text, not UI. taste-skill-ignore
+  const summary = won ? `Got it on guess ${progress.guesses.length}` : progress.gaveUp ? "Gave up" : "Missed it";
+  return buildShareText({ number: p.number, modeTitle: TITLE, difficulty: progress.difficulty, hintsUsed: progress.hintsUsed, squares, summary, score, maxScore: MAX_SCORE });
 }
 
 export function WhoRaisedThisGame() {
