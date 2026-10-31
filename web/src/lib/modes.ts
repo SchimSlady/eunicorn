@@ -25,8 +25,8 @@ export const MODES: ModeInfo[] = [
   {
     mode: "higher-lower",
     title: "Higher or Lower",
-    tagline: "Pick the bigger one",
-    description: "Which is valued higher? Your pick stays on against the next challenger.",
+    tagline: "Higher or lower than the last?",
+    description: "See one company's number, then say if the next one is higher or lower. One wrong call ends the run.",
   },
   {
     mode: "impostor",

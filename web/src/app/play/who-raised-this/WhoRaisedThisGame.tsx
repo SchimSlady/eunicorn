@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
-import { Banknote, CalendarDays, Check, Handshake, Image as ImageIcon, Lock, MapPin, Tag, Target, Users, X, type LucideIcon } from "lucide-react";
+import { Check, X } from "lucide-react";
 import type { Company, Dataset, Round, WhoRaisedThisPuzzle } from "@eunicorn/schema";
 import { indexById, loadGame } from "@/lib/data";
 import { getTodayResult, loadProgress, saveProgress, saveResult } from "@/lib/daily";
@@ -15,6 +15,7 @@ import { GameHeader } from "@/components/GameHeader";
 import { GameFooter } from "@/components/GameFooter";
 import { HintButton, HintList } from "@/components/HintButton";
 import { ResultHeader } from "@/components/ResultHeader";
+import { DealBoard, GuessPills } from "./DealBoard";
 
 const MODE = "who-raised-this";
 const TITLE = "Who Raised This?";
@@ -27,17 +28,6 @@ const RULES: Record<Difficulty, { startClues: number; maxGuesses: number; hints:
   hard: { startClues: 1, maxGuesses: 4, hints: false, logosInSearch: false },
 };
 
-
-const CLUE_ICONS: Record<WhoRaisedThisPuzzle["clues"][number]["kind"], LucideIcon> = {
-  amount: Banknote,
-  year: CalendarDays,
-  sector: Tag,
-  city: MapPin,
-  "lead-investor": Target,
-  investors: Handshake,
-  founders: Users,
-  "logo-blurred": ImageIcon,
-};
 
 interface Progress {
   difficulty: Difficulty;
@@ -113,8 +103,6 @@ export function WhoRaisedThisGame() {
   const answer = companies.get(puzzle.answerCompanyId)!;
   const { rules, maxGuesses, won, wrong, done, cluesShown, score } = evaluate(puzzle, progress);
   const guessesLeft = maxGuesses - wrong;
-  // Clues the player can still unlock: the last guess reveals nothing new.
-  const cluesLocked = Math.min(puzzle.clues.length, rules.startClues + maxGuesses - 1) - cluesShown;
 
   function update(next: Progress) {
     setProgress(next);
@@ -142,27 +130,9 @@ export function WhoRaisedThisGame() {
     <div className="space-y-6">
       <GameHeader title={TITLE} difficulty={progress.difficulty} />
 
-      <ol className="space-y-2">
-        {puzzle.clues.slice(0, cluesShown).map((clue, i) => {
-          const Icon = CLUE_ICONS[clue.kind];
-          return (
-            <li key={i} className="flex animate-flip-in items-center gap-3 rounded-2xl border border-border bg-surface p-3">
-              <Icon size={20} className="shrink-0 text-primary" aria-hidden />
-              {clue.kind === "logo-blurred" ? (
-                <CompanyLogo company={answer} size={56} blurred={!done} />
-              ) : (
-                <span className="font-medium">{clue.text}</span>
-              )}
-            </li>
-          );
-        })}
-        {!done && cluesLocked > 0 && (
-          <li className="flex items-center gap-3 rounded-2xl border border-dashed border-border p-3 text-sm text-muted">
-            <Lock size={16} aria-hidden />
-            {cluesLocked} more {cluesLocked === 1 ? "clue" : "clues"}
-          </li>
-        )}
-      </ol>
+      <DealBoard clues={puzzle.clues} cluesShown={cluesShown} done={done} answer={answer} round={round} />
+
+      <GuessPills guesses={progress.guesses} answerId={answer.id} max={maxGuesses} />
 
       <HintList hints={puzzle.hints.slice(0, progress.hintsUsed)} />
 

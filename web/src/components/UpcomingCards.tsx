@@ -1,6 +1,7 @@
 "use client";
 
-import { GripVertical, Lightbulb, Lock, Mail, MapPin } from "lucide-react";
+import { useState } from "react";
+import { Check, GripVertical, Lightbulb, Lock, MapPin, Send } from "lucide-react";
 import { CONTACT_EMAIL } from "@/lib/legal";
 import { Flag } from "./Flag";
 import { PreviewFrame } from "./ModePreview";
@@ -41,23 +42,102 @@ export function UpcomingCards() {
         </li>
       ))}
       <li>
-        <a
-          href={`mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent("Game idea for EUnicorn")}`}
-          className="flex h-full flex-col overflow-hidden rounded-2xl border-2 border-dashed border-border transition hover:-translate-y-0.5 hover:border-primary"
-        >
-          <span className="flex aspect-[4/3] flex-col items-center justify-center gap-2 text-primary">
-            <Lightbulb size={36} aria-hidden />
-            <span className="text-sm font-semibold text-foreground">Your game here?</span>
-          </span>
-          <span className="p-4">
-            <span className="block font-display text-lg font-bold leading-tight">Submit your idea</span>
-            <span className="mt-1 flex items-center gap-1.5 text-sm text-muted">
-              <Mail size={14} aria-hidden /> Pitch us a game
-            </span>
-          </span>
-        </a>
+        <IdeaCard />
       </li>
     </ul>
+  );
+}
+
+/** "Submit your idea": a text field in the card, sent by our server (/api/idea) as an email to us. */
+function IdeaCard() {
+  const [idea, setIdea] = useState("");
+  const [email, setEmail] = useState("");
+  const [website, setWebsite] = useState(""); // honeypot, hidden from people
+  const [state, setState] = useState<"idle" | "sending" | "sent" | "error">("idle");
+  const [error, setError] = useState("");
+
+  async function submit(e: React.FormEvent) {
+    e.preventDefault();
+    setState("sending");
+    const res = await fetch("/api/idea", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ idea, email, website }),
+    }).catch(() => null);
+    if (res?.ok) {
+      setState("sent");
+      return;
+    }
+    const msg = ((await res?.json().catch(() => null)) as { error?: string } | null)?.error;
+    setError(msg ?? "Couldn't send it.");
+    setState("error");
+  }
+
+  if (state === "sent") {
+    return (
+      <div className="flex h-full flex-col items-center justify-center gap-2 rounded-2xl border-2 border-dashed border-correct p-6 text-center">
+        <Check size={32} className="text-correct" aria-hidden />
+        <p className="font-display text-lg font-bold">Thanks!</p>
+        <p className="text-sm text-muted">We read every idea.</p>
+      </div>
+    );
+  }
+
+  return (
+    <form onSubmit={submit} className="flex h-full flex-col rounded-2xl border-2 border-dashed border-border p-4">
+      <p className="flex items-center gap-1.5 font-display text-lg font-bold leading-tight">
+        <Lightbulb size={18} className="text-primary" aria-hidden /> Submit your idea
+      </p>
+      <label className="sr-only" htmlFor="idea">
+        Your game idea
+      </label>
+      <textarea
+        id="idea"
+        required
+        minLength={10}
+        maxLength={2000}
+        value={idea}
+        onChange={(e) => setIdea(e.target.value)}
+        placeholder="Which game should we build next?"
+        className="mt-3 min-h-24 flex-1 resize-none rounded-xl border border-border bg-background p-3 text-sm outline-none focus:border-primary"
+      />
+      <label className="sr-only" htmlFor="idea-email">
+        Your email (optional)
+      </label>
+      <input
+        id="idea-email"
+        type="email"
+        value={email}
+        onChange={(e) => setEmail(e.target.value)}
+        placeholder="Email (optional, for a reply)"
+        className="mt-2 rounded-xl border border-border bg-background px-3 py-2 text-sm outline-none focus:border-primary"
+      />
+      <input
+        tabIndex={-1}
+        autoComplete="off"
+        aria-hidden
+        value={website}
+        onChange={(e) => setWebsite(e.target.value)}
+        name="website"
+        className="absolute -left-[9999px] h-0 w-0 opacity-0"
+      />
+      {state === "error" && (
+        <p className="mt-2 text-xs text-wrong">
+          {error} You can also write to{" "}
+          <a href={`mailto:${CONTACT_EMAIL}`} className="underline">
+            {CONTACT_EMAIL}
+          </a>
+          .
+        </p>
+      )}
+      <button
+        type="submit"
+        disabled={state === "sending" || idea.trim().length < 10}
+        className="mt-3 flex items-center justify-center gap-2 rounded-full bg-primary px-4 py-2.5 text-sm font-semibold text-on-primary transition disabled:opacity-40"
+      >
+        <Send size={16} aria-hidden /> {state === "sending" ? "Sending…" : "Send idea"}
+      </button>
+    </form>
   );
 }
 
