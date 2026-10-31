@@ -16,6 +16,8 @@ import { Announce, NoPuzzle } from "@/components/Announce";
 import { GameFooter } from "@/components/GameFooter";
 import { HintButton, HintList } from "@/components/HintButton";
 import { ResultHeader } from "@/components/ResultHeader";
+import { StatsPanel } from "@/components/StatsPanel";
+import { recordFinish, recordStart } from "@/lib/stats";
 
 const MODE = "impostor";
 const TITLE = "Impostor";
@@ -84,6 +86,7 @@ export function ImpostorGame() {
         onStart={(d) => {
           saveDifficulty(d);
           const fresh: Progress = { difficulty: d, picks: [], hintsUsed: 0 };
+          recordStart(MODE, d);
           setProgress(fresh);
           saveProgress(MODE, puzzle.date, fresh);
         }}
@@ -113,6 +116,7 @@ export function ImpostorGame() {
         hintsUsed: next.hintsUsed,
         share: shareText(puzzle!, next),
       });
+      recordFinish(MODE, next.difficulty, { bucket: result.won ? next.picks.length : 0, score: result.score, maxScore: MAX_SCORE, won: result.won });
     }
   }
 
@@ -190,6 +194,14 @@ export function ImpostorGame() {
               (won ? `${wrong + 1} ${wrong === 0 ? "try" : "tries"}` : `It was ${impostor.name}`) +
               (progress.hintsUsed ? ` · ${progress.hintsUsed} ${progress.hintsUsed === 1 ? "hint" : "hints"}` : "")
             }
+          />
+          <StatsPanel
+            mode={MODE}
+            bucket={won ? progress.picks.length : 0}
+            scorePct={(score / MAX_SCORE) * 100}
+            order={[1, 2, 3, 0]}
+            label={(b) => (b === 0 ? "X" : String(b))}
+            axis="Tries needed"
           />
           <p className="flex animate-flip-in items-start gap-2 rounded-2xl border border-border bg-surface p-4 text-sm">
             <VenetianMask size={18} className="mt-0.5 shrink-0 text-primary" aria-hidden />

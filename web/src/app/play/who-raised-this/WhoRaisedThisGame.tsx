@@ -16,6 +16,8 @@ import { Announce, NoPuzzle } from "@/components/Announce";
 import { GameFooter } from "@/components/GameFooter";
 import { HintButton, HintList } from "@/components/HintButton";
 import { ResultHeader } from "@/components/ResultHeader";
+import { StatsPanel } from "@/components/StatsPanel";
+import { recordFinish, recordStart } from "@/lib/stats";
 import { DealBoard, GuessPills } from "./DealBoard";
 import { RevealButton } from "@/components/RevealButton";
 
@@ -92,6 +94,7 @@ export function WhoRaisedThisGame() {
         onStart={(d) => {
           saveDifficulty(d);
           const fresh: Progress = { difficulty: d, guesses: [], hintsUsed: 0, gaveUp: false };
+          recordStart(MODE, d);
           setProgress(fresh);
           saveProgress(MODE, puzzle.date, fresh);
         }}
@@ -115,6 +118,7 @@ export function WhoRaisedThisGame() {
         hintsUsed: next.hintsUsed,
         share: shareText(puzzle!, next),
       });
+      recordFinish(MODE, next.difficulty, { bucket: result.won ? next.guesses.length : 0, score: result.score, maxScore: MAX_SCORE, won: result.won });
     }
   }
 
@@ -197,6 +201,14 @@ export function WhoRaisedThisGame() {
                 ? `${wrong + 1} ${wrong === 0 ? "guess" : "guesses"}${progress.hintsUsed ? ` · ${progress.hintsUsed} ${progress.hintsUsed === 1 ? "hint" : "hints"}` : ""}`
                 : `It was ${answer.name}`
             }
+          />
+          <StatsPanel
+            mode={MODE}
+            bucket={won ? progress.guesses.length : 0}
+            scorePct={(score / MAX_SCORE) * 100}
+            order={[1, 2, 3, 4, 5, 6, 7, 8, 0]}
+            label={(b) => (b === 0 ? "X" : String(b))}
+            axis="Guesses needed"
           />
           <BuiltInEuropeCard company={answer} founders={founders} />
           {round?.attributionUrl && (

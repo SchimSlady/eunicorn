@@ -170,3 +170,55 @@ export async function getPuzzle(mode: GameMode, date: string, rotate?: string): 
   const data = await getDataset();
   return data ? generatePuzzle(mode, date, data) : null;
 }
+
+/* ---------- anonymous play counter (supabase/migrations/*_play_stats.sql) ---------- */
+
+export interface PlayRow {
+  played_on: string;
+  mode: GameMode;
+  difficulty: "easy" | "medium" | "hard";
+  event: "start" | "finish";
+  bucket?: number;
+  score_pct?: number;
+  won?: boolean;
+}
+
+/** Records one start or finish. false if Supabase isn't set up or the table doesn't exist yet. */
+export async function insertPlay(row: PlayRow): Promise<boolean> {
+  const url = process.env.SUPABASE_URL;
+  const key = process.env.SUPABASE_PUBLISHABLE_KEY;
+  if (!url || !key) return false;
+  const res = await fetch(`${url}/rest/v1/plays`, {
+    method: "POST",
+    headers: { apikey: key, "Content-Type": "application/json", Prefer: "return=minimal" },
+    body: JSON.stringify(row),
+    cache: "no-store",
+  }).catch(() => null);
+  if (!res?.ok) console.error("Supabase plays insert:", res?.status, await res?.text().catch(() => ""));
+  return !!res?.ok;
+}
+
+export interface PlayStats {
+  starts: number;
+  finishes: number;
+  solved: number;
+  /** Result bucket -> players (guess number, rounds right, squares filled; 0 = missed). */
+  buckets: Record<string, number>;
+  /** Score as % of the maximum -> players. */
+  scores: Record<string, number>;
+}
+
+/** Aggregates for one day and mode, or null when unavailable. */
+export async function getPlayStats(day: string, mode: GameMode): Promise<PlayStats | null> {
+  const url = process.env.SUPABASE_URL;
+  const key = process.env.SUPABASE_PUBLISHABLE_KEY;
+  if (!url || !key) return null;
+  const res = await fetch(`${url}/rest/v1/rpc/play_stats`, {
+    method: "POST",
+    headers: { apikey: key, "Content-Type": "application/json" },
+    body: JSON.stringify({ p_day: day, p_mode: mode }),
+    cache: "no-store",
+  }).catch(() => null);
+  if (!res?.ok) return null;
+  return (await res.json()) as PlayStats;
+}
