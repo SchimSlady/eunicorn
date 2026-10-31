@@ -6,25 +6,73 @@
   "country": "FR",
   "city": "Levallois-Perret",
   "founded": 2013,
-  "sectors": ["health", "saas"],
+  "sectors": [
+    "health",
+    "saas"
+  ],
   "status": "private",
   "unicorn": true,
   "lastValuationEur": 3600000000,
-  "founders": ["Stanislas Niox-Chateau", "Jessy Bernal", "Ivan Schneider", "Steve Abou-Rjeily"],
+  "founders": [
+    "Stanislas Niox-Chateau",
+    "Jessy Bernal",
+    "Ivan Schneider",
+    "Steve Abou-Rjeily"
+  ],
   "funFact": "Its €500M raise in March 2022 at a €5.8B valuation made Doctolib the most valuable startup in France at the time.",
   "difficulty": 2,
   "techeuId": "D22DDDC3-AD2D-44CF-9459-66DDB0FD17EF",
   "wikidataId": "Q22248343",
   "sources": [
-    { "field": "city", "url": "https://fr.wikipedia.org/wiki/Doctolib", "quote": "Le siège social de l'entreprise est situé à Levallois-Perret" },
-    { "field": "founded", "url": "https://fr.wikipedia.org/wiki/Doctolib", "quote": "Doctolib est fondée en août 2013" },
-    { "field": "founded", "url": "https://www.unquote.com/france/official-record/76067/accel-leads-eur18m-series-b-for-doctolib", "quote": "Founded in 2013, Doctolib is a French booking and management software platform for doctors." },
-    { "field": "founders", "url": "https://fr.wikipedia.org/wiki/Doctolib", "quote": "par Stanislas Niox-Chateau, Jessy Bernal, Ivan Schneider et Steve Abou-Rjeily" },
-    { "field": "sectors", "url": "https://www.unquote.com/france/official-record/76067/accel-leads-eur18m-series-b-for-doctolib", "quote": "Founded in 2013, Doctolib is a French booking and management software platform for doctors." },
-    { "field": "status", "url": "https://next.ink/261549/nvidia-entre-au-capital-de-doctolib-pour-accelerer-dans-lia-en-sante/", "quote": "Doctolib était valorisée aux alentours de 3,6 milliards d’euros en avril dernier" },
-    { "field": "unicorn", "url": "https://techcrunch.com/2019/03/19/doctolib-is-now-a-unicorn-with-new-170-million-round/", "quote": "Based on this new round, Doctolib now has a post-money valuation of $1.13 billion (€1 billion)." },
-    { "field": "valuation", "url": "https://next.ink/261549/nvidia-entre-au-capital-de-doctolib-pour-accelerer-dans-lia-en-sante/", "quote": "Doctolib était valorisée aux alentours de 3,6 milliards d’euros en avril dernier" },
-    { "field": "fun_fact", "url": "https://tech.eu/2022/03/15/doctolib-raises-eur500-million-officially-frances-most-valuable-startup-at-a-eur58-billion-valuation/", "quote": "Doctolib raises €500 million, officially France’s most valuable startup at a €5.8 billion valuation" }
+    {
+      "field": "city",
+      "url": "https://fr.wikipedia.org/wiki/Doctolib",
+      "quote": "Le siège social de l'entreprise est situé à Levallois-Perret"
+    },
+    {
+      "field": "founded",
+      "url": "https://fr.wikipedia.org/wiki/Doctolib",
+      "quote": "Doctolib est fondée en août 2013"
+    },
+    {
+      "field": "founded",
+      "url": "https://www.unquote.com/france/official-record/76067/accel-leads-eur18m-series-b-for-doctolib",
+      "quote": "Founded in 2013, Doctolib is a French booking and management software platform for doctors."
+    },
+    {
+      "field": "founders",
+      "url": "https://fr.wikipedia.org/wiki/Doctolib",
+      "quote": "par Stanislas Niox-Chateau, Jessy Bernal, Ivan Schneider et Steve Abou-Rjeily"
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.unquote.com/france/official-record/76067/accel-leads-eur18m-series-b-for-doctolib",
+      "quote": "Founded in 2013, Doctolib is a French booking and management software platform for doctors."
+    },
+    {
+      "field": "status",
+      "url": "https://next.ink/261549/nvidia-entre-au-capital-de-doctolib-pour-accelerer-dans-lia-en-sante/",
+      "quote": "Doctolib était valorisée aux alentours de 3,6 milliards d’euros en avril dernier"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://techcrunch.com/2019/03/19/doctolib-is-now-a-unicorn-with-new-170-million-round/",
+      "quote": "Based on this new round, Doctolib now has a post-money valuation of $1.13 billion (€1 billion)."
+    },
+    {
+      "field": "valuation",
+      "url": "https://next.ink/261549/nvidia-entre-au-capital-de-doctolib-pour-accelerer-dans-lia-en-sante/",
+      "quote": "Doctolib était valorisée aux alentours de 3,6 milliards d’euros en avril dernier"
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://tech.eu/2022/03/15/doctolib-raises-eur500-million-officially-frances-most-valuable-startup-at-a-eur58-billion-valuation/",
+      "quote": "Doctolib raises €500 million, officially France’s most valuable startup at a €5.8 billion valuation"
+    },
+    {
+      "field": "logo",
+      "url": "https://commons.wikimedia.org/wiki/File:Logo_Doctolib.svg"
+    }
   ],
   "rounds": [
     {
@@ -34,11 +82,25 @@
       "amountEur": 1000000,
       "amountOriginal": 1000000,
       "currency": "EUR",
-      "investors": ["Kerala Ventures"],
+      "investors": [
+        "Kerala Ventures"
+      ],
       "sources": [
-        { "field": "amount", "url": "https://www.unquote.com/france/official-record/76067/accel-leads-eur18m-series-b-for-doctolib", "quote": "Doctolib first raised venture funding in January 2014, when it received a €1m investment from Kerala." },
-        { "field": "month", "url": "https://www.unquote.com/france/official-record/76067/accel-leads-eur18m-series-b-for-doctolib", "quote": "Doctolib first raised venture funding in January 2014, when it received a €1m investment from Kerala." },
-        { "field": "investors", "url": "https://www.unquote.com/france/official-record/76067/accel-leads-eur18m-series-b-for-doctolib", "quote": "Doctolib first raised venture funding in January 2014, when it received a €1m investment from Kerala." }
+        {
+          "field": "amount",
+          "url": "https://www.unquote.com/france/official-record/76067/accel-leads-eur18m-series-b-for-doctolib",
+          "quote": "Doctolib first raised venture funding in January 2014, when it received a €1m investment from Kerala."
+        },
+        {
+          "field": "month",
+          "url": "https://www.unquote.com/france/official-record/76067/accel-leads-eur18m-series-b-for-doctolib",
+          "quote": "Doctolib first raised venture funding in January 2014, when it received a €1m investment from Kerala."
+        },
+        {
+          "field": "investors",
+          "url": "https://www.unquote.com/france/official-record/76067/accel-leads-eur18m-series-b-for-doctolib",
+          "quote": "Doctolib first raised venture funding in January 2014, when it received a €1m investment from Kerala."
+        }
       ]
     },
     {
@@ -48,11 +110,25 @@
       "amountEur": 4000000,
       "amountOriginal": 4000000,
       "currency": "EUR",
-      "investors": ["Kerala Ventures"],
+      "investors": [
+        "Kerala Ventures"
+      ],
       "sources": [
-        { "field": "amount", "url": "https://www.unquote.com/france/official-record/76067/accel-leads-eur18m-series-b-for-doctolib", "quote": "A second round followed in November the same year, when Kerala injected a further €4m." },
-        { "field": "month", "url": "https://www.unquote.com/france/official-record/76067/accel-leads-eur18m-series-b-for-doctolib", "quote": "A second round followed in November the same year, when Kerala injected a further €4m." },
-        { "field": "investors", "url": "https://www.unquote.com/france/official-record/76067/accel-leads-eur18m-series-b-for-doctolib", "quote": "A second round followed in November the same year, when Kerala injected a further €4m." }
+        {
+          "field": "amount",
+          "url": "https://www.unquote.com/france/official-record/76067/accel-leads-eur18m-series-b-for-doctolib",
+          "quote": "A second round followed in November the same year, when Kerala injected a further €4m."
+        },
+        {
+          "field": "month",
+          "url": "https://www.unquote.com/france/official-record/76067/accel-leads-eur18m-series-b-for-doctolib",
+          "quote": "A second round followed in November the same year, when Kerala injected a further €4m."
+        },
+        {
+          "field": "investors",
+          "url": "https://www.unquote.com/france/official-record/76067/accel-leads-eur18m-series-b-for-doctolib",
+          "quote": "A second round followed in November the same year, when Kerala injected a further €4m."
+        }
       ]
     },
     {
@@ -62,12 +138,33 @@
       "amountEur": 18000000,
       "amountOriginal": 18000000,
       "currency": "EUR",
-      "investors": ["Accel", "Kerala Ventures", "Pierre Kosciusko-Morizet", "Bertrand Jelensperger"],
+      "investors": [
+        "Accel",
+        "Kerala Ventures",
+        "Pierre Kosciusko-Morizet",
+        "Bertrand Jelensperger"
+      ],
       "sources": [
-        { "field": "amount", "url": "https://tech.eu/2015/10/13/doctolib-funding-accel/", "quote": "has scored a €18 million Series B financing round led by Accel Partners." },
-        { "field": "stage", "url": "https://www.unquote.com/france/official-record/76067/accel-leads-eur18m-series-b-for-doctolib", "quote": "Venture firm Accel has led an €18m series-B for French doctor booking platform Doctolib alongside existing investors." },
-        { "field": "month", "url": "https://tech.eu/2015/10/13/doctolib-funding-accel/", "quote": "has scored a €18 million Series B financing round led by Accel Partners." },
-        { "field": "investors", "url": "https://www.unquote.com/france/official-record/76067/accel-leads-eur18m-series-b-for-doctolib", "quote": "The round saw participation from Kerala Ventures," }
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2015/10/13/doctolib-funding-accel/",
+          "quote": "has scored a €18 million Series B financing round led by Accel Partners."
+        },
+        {
+          "field": "stage",
+          "url": "https://www.unquote.com/france/official-record/76067/accel-leads-eur18m-series-b-for-doctolib",
+          "quote": "Venture firm Accel has led an €18m series-B for French doctor booking platform Doctolib alongside existing investors."
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2015/10/13/doctolib-funding-accel/",
+          "quote": "has scored a €18 million Series B financing round led by Accel Partners."
+        },
+        {
+          "field": "investors",
+          "url": "https://www.unquote.com/france/official-record/76067/accel-leads-eur18m-series-b-for-doctolib",
+          "quote": "The round saw participation from Kerala Ventures,"
+        }
       ]
     },
     {
@@ -77,12 +174,34 @@
       "amountEur": 26000000,
       "amountOriginal": 26000000,
       "currency": "EUR",
-      "investors": ["Bpifrance", "Accel", "Pierre Kosciusko-Morizet", "Nicolas Brusson", "Ludwig Klitzsch"],
+      "investors": [
+        "Bpifrance",
+        "Accel",
+        "Pierre Kosciusko-Morizet",
+        "Nicolas Brusson",
+        "Ludwig Klitzsch"
+      ],
       "sources": [
-        { "field": "amount", "url": "https://tech.eu/2017/01/25/doctolib-series-c/", "quote": "Doctor booking platform Doctolib raises €26 million in Series C round" },
-        { "field": "stage", "url": "https://tech.eu/2017/01/25/doctolib-series-c/", "quote": "Doctor booking platform Doctolib raises €26 million in Series C round" },
-        { "field": "month", "url": "https://tech.eu/2017/01/25/doctolib-series-c/", "quote": "Doctor booking platform Doctolib raises €26 million in Series C round" },
-        { "field": "investors", "url": "https://tech.eu/2017/01/25/doctolib-series-c/", "quote": "led by French public investment bank Bpifrance." }
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2017/01/25/doctolib-series-c/",
+          "quote": "Doctor booking platform Doctolib raises €26 million in Series C round"
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2017/01/25/doctolib-series-c/",
+          "quote": "Doctor booking platform Doctolib raises €26 million in Series C round"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2017/01/25/doctolib-series-c/",
+          "quote": "Doctor booking platform Doctolib raises €26 million in Series C round"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2017/01/25/doctolib-series-c/",
+          "quote": "led by French public investment bank Bpifrance."
+        }
       ]
     },
     {
@@ -92,11 +211,26 @@
       "amountEur": 35000000,
       "amountOriginal": 35000000,
       "currency": "EUR",
-      "investors": ["Eurazeo", "Bpifrance"],
+      "investors": [
+        "Eurazeo",
+        "Bpifrance"
+      ],
       "sources": [
-        { "field": "amount", "url": "https://tech.eu/2017/11/28/doctolib-funding/", "quote": "has raised €35 million from state-backed investment bank Bpifrance and Eurazeo" },
-        { "field": "month", "url": "https://tech.eu/2017/11/28/doctolib-funding/", "quote": "has raised €35 million from state-backed investment bank Bpifrance and Eurazeo" },
-        { "field": "investors", "url": "https://tech.eu/2017/11/28/doctolib-funding/", "quote": "has raised €35 million from state-backed investment bank Bpifrance and Eurazeo" }
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2017/11/28/doctolib-funding/",
+          "quote": "has raised €35 million from state-backed investment bank Bpifrance and Eurazeo"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2017/11/28/doctolib-funding/",
+          "quote": "has raised €35 million from state-backed investment bank Bpifrance and Eurazeo"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2017/11/28/doctolib-funding/",
+          "quote": "has raised €35 million from state-backed investment bank Bpifrance and Eurazeo"
+        }
       ]
     },
     {
@@ -107,12 +241,34 @@
       "amountOriginal": 150000000,
       "currency": "EUR",
       "postMoneyValuationEur": 1000000000,
-      "investors": ["General Atlantic", "Accel", "Eurazeo", "Kernel", "Bpifrance"],
+      "investors": [
+        "General Atlantic",
+        "Accel",
+        "Eurazeo",
+        "Kernel",
+        "Bpifrance"
+      ],
       "sources": [
-        { "field": "amount", "url": "https://techcrunch.com/2019/03/19/doctolib-is-now-a-unicorn-with-new-170-million-round/", "quote": "French startup Doctolib has raised a new round of funding of $170 million (€150 million)." },
-        { "field": "month", "url": "https://techcrunch.com/2019/03/19/doctolib-is-now-a-unicorn-with-new-170-million-round/", "quote": "French startup Doctolib has raised a new round of funding of $170 million (€150 million)." },
-        { "field": "investors", "url": "https://techcrunch.com/2019/03/19/doctolib-is-now-a-unicorn-with-new-170-million-round/", "quote": "The round is led by General Atlantic, with existing investors Accel, Eurazeo, Kernel and Bpifrance also participating." },
-        { "field": "valuation", "url": "https://techcrunch.com/2019/03/19/doctolib-is-now-a-unicorn-with-new-170-million-round/", "quote": "Based on this new round, Doctolib now has a post-money valuation of $1.13 billion (€1 billion)." }
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2019/03/19/doctolib-is-now-a-unicorn-with-new-170-million-round/",
+          "quote": "French startup Doctolib has raised a new round of funding of $170 million (€150 million)."
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2019/03/19/doctolib-is-now-a-unicorn-with-new-170-million-round/",
+          "quote": "French startup Doctolib has raised a new round of funding of $170 million (€150 million)."
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2019/03/19/doctolib-is-now-a-unicorn-with-new-170-million-round/",
+          "quote": "The round is led by General Atlantic, with existing investors Accel, Eurazeo, Kernel and Bpifrance also participating."
+        },
+        {
+          "field": "valuation",
+          "url": "https://techcrunch.com/2019/03/19/doctolib-is-now-a-unicorn-with-new-170-million-round/",
+          "quote": "Based on this new round, Doctolib now has a post-money valuation of $1.13 billion (€1 billion)."
+        }
       ]
     },
     {
@@ -123,12 +279,32 @@
       "amountOriginal": 500000000,
       "currency": "EUR",
       "postMoneyValuationEur": 5800000000,
-      "investors": ["Eurazeo", "Bpifrance", "General Atlantic"],
+      "investors": [
+        "Eurazeo",
+        "Bpifrance",
+        "General Atlantic"
+      ],
       "sources": [
-        { "field": "amount", "url": "https://tech.eu/2022/03/15/doctolib-raises-eur500-million-officially-frances-most-valuable-startup-at-a-eur58-billion-valuation/", "quote": "has raised €500 million in equity and debt funding" },
-        { "field": "month", "url": "https://tech.eu/2022/03/15/doctolib-raises-eur500-million-officially-frances-most-valuable-startup-at-a-eur58-billion-valuation/", "quote": "has raised €500 million in equity and debt funding" },
-        { "field": "investors", "url": "https://tech.eu/2022/03/15/doctolib-raises-eur500-million-officially-frances-most-valuable-startup-at-a-eur58-billion-valuation/", "quote": "existing investor Eurazeo leading the round, with previous investors Bpifrance and General Atlantic participating." },
-        { "field": "valuation", "url": "https://tech.eu/2022/03/15/doctolib-raises-eur500-million-officially-frances-most-valuable-startup-at-a-eur58-billion-valuation/", "quote": "now giving the company a valuation of €5.8 billion." }
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2022/03/15/doctolib-raises-eur500-million-officially-frances-most-valuable-startup-at-a-eur58-billion-valuation/",
+          "quote": "has raised €500 million in equity and debt funding"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2022/03/15/doctolib-raises-eur500-million-officially-frances-most-valuable-startup-at-a-eur58-billion-valuation/",
+          "quote": "has raised €500 million in equity and debt funding"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2022/03/15/doctolib-raises-eur500-million-officially-frances-most-valuable-startup-at-a-eur58-billion-valuation/",
+          "quote": "existing investor Eurazeo leading the round, with previous investors Bpifrance and General Atlantic participating."
+        },
+        {
+          "field": "valuation",
+          "url": "https://tech.eu/2022/03/15/doctolib-raises-eur500-million-officially-frances-most-valuable-startup-at-a-eur58-billion-valuation/",
+          "quote": "now giving the company a valuation of €5.8 billion."
+        }
       ]
     }
   ]

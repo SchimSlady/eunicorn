@@ -77,6 +77,10 @@
       "field": "fun_fact",
       "url": "https://www.odoo.com/ar/page/press-release-2014",
       "quote": "previously called OpenERP, rebranded as Odoo"
+    },
+    {
+      "field": "logo",
+      "url": "https://commons.wikimedia.org/wiki/File:Odoo_Official_Logo.png"
     }
   ],
   "rounds": [

@@ -1,29 +1,74 @@
 {
   "id": "bitpanda",
   "name": "Bitpanda",
-  "aliases": ["Coinimal"],
+  "aliases": [
+    "Coinimal"
+  ],
   "domain": "bitpanda.com",
   "country": "AT",
   "city": "Vienna",
   "founded": 2014,
-  "sectors": ["crypto", "fintech"],
+  "sectors": [
+    "crypto",
+    "fintech"
+  ],
   "status": "private",
   "unicorn": true,
   "lastValuationEur": 3483000000,
-  "founders": ["Eric Demuth", "Paul Klanschek", "Christian Trummer"],
+  "founders": [
+    "Eric Demuth",
+    "Paul Klanschek",
+    "Christian Trummer"
+  ],
   "funFact": "Early on, Austrians could buy Bitcoin vouchers for Bitpanda at more than 1,800 branches of the Austrian Post.",
   "difficulty": 3,
   "techeuId": "EF8BEAE4-2EE2-4C78-9C73-77453C05C4A2",
   "wikidataId": "Q109391386",
   "sources": [
-    { "field": "city", "url": "https://en.wikipedia.org/wiki/Bitpanda", "quote": "Bitpanda GmbH is an Austrian company headquartered in Vienna." },
-    { "field": "founded", "url": "https://en.wikipedia.org/wiki/Bitpanda", "quote": "The company was founded in 2014 by Eric Demuth, Paul Klanschek, and Christian Trummer." },
-    { "field": "founders", "url": "https://en.wikipedia.org/wiki/Bitpanda", "quote": "The company was founded in 2014 by Eric Demuth, Paul Klanschek, and Christian Trummer." },
-    { "field": "sectors", "url": "https://en.wikipedia.org/wiki/Bitpanda", "quote": "Bitpanda provides a cryptocurrency broker, commodities and securities trading, and ETFs via their website and mobile app." },
-    { "field": "status", "url": "https://www.theblock.co/post/385494/bitpanda-ipo-2026", "quote": "Peter Thiel-backed Bitpanda eyes IPO in first half of 2026" },
-    { "field": "unicorn", "url": "https://tech.eu/brief/bitpanda-funding", "quote": "'unicorn' valuation of $1.2 billion" },
-    { "field": "valuation", "url": "https://www.theblock.co/post/114660/crypto-bitpanda-263-million-series-c", "quote": "giving the startup a valuation of $4.1 billion" },
-    { "field": "fun_fact", "url": "https://en.wikipedia.org/wiki/Bitpanda", "quote": "From 2017 onwards, vouchers for Bitcoins could be purchased at over 1,800 locations of the Österreichische Post" }
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/Bitpanda",
+      "quote": "Bitpanda GmbH is an Austrian company headquartered in Vienna."
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Bitpanda",
+      "quote": "The company was founded in 2014 by Eric Demuth, Paul Klanschek, and Christian Trummer."
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Bitpanda",
+      "quote": "The company was founded in 2014 by Eric Demuth, Paul Klanschek, and Christian Trummer."
+    },
+    {
+      "field": "sectors",
+      "url": "https://en.wikipedia.org/wiki/Bitpanda",
+      "quote": "Bitpanda provides a cryptocurrency broker, commodities and securities trading, and ETFs via their website and mobile app."
+    },
+    {
+      "field": "status",
+      "url": "https://www.theblock.co/post/385494/bitpanda-ipo-2026",
+      "quote": "Peter Thiel-backed Bitpanda eyes IPO in first half of 2026"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://tech.eu/brief/bitpanda-funding",
+      "quote": "'unicorn' valuation of $1.2 billion"
+    },
+    {
+      "field": "valuation",
+      "url": "https://www.theblock.co/post/114660/crypto-bitpanda-263-million-series-c",
+      "quote": "giving the startup a valuation of $4.1 billion"
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://en.wikipedia.org/wiki/Bitpanda",
+      "quote": "From 2017 onwards, vouchers for Bitcoins could be purchased at over 1,800 locations of the Österreichische Post"
+    },
+    {
+      "field": "logo",
+      "url": "https://commons.wikimedia.org/wiki/File:Bitpanda.svg"
+    }
   ],
   "rounds": [
     {
@@ -34,14 +79,44 @@
       "amountOriginal": 263000000,
       "currency": "USD",
       "postMoneyValuationEur": 3483000000,
-      "investors": ["Valar Ventures", "Alan Howard", "REDO Ventures", "LeadBlock Partners", "Jump Capital"],
+      "investors": [
+        "Valar Ventures",
+        "Alan Howard",
+        "REDO Ventures",
+        "LeadBlock Partners",
+        "Jump Capital"
+      ],
       "sources": [
-        { "field": "amount", "url": "https://www.theblock.co/post/114660/crypto-bitpanda-263-million-series-c", "quote": "has closed a $263 million Series C round" },
-        { "field": "month", "url": "https://www.theblock.co/post/114660/crypto-bitpanda-263-million-series-c", "quote": "has closed a $263 million Series C round" },
-        { "field": "stage", "url": "https://www.theblock.co/post/114660/crypto-bitpanda-263-million-series-c", "quote": "has closed a $263 million Series C round" },
-        { "field": "investors", "url": "https://www.theblock.co/post/114660/crypto-bitpanda-263-million-series-c", "quote": "Peter Thiel's venture capital firm Valar Ventures led the investment" },
-        { "field": "investors", "url": "https://www.theblock.co/post/114660/crypto-bitpanda-263-million-series-c", "quote": "Alan Howard and REDO Ventures participating alongside existing backers LeadBlock Partners and Jump Capital" },
-        { "field": "valuation", "url": "https://www.theblock.co/post/114660/crypto-bitpanda-263-million-series-c", "quote": "giving the startup a valuation of $4.1 billion" }
+        {
+          "field": "amount",
+          "url": "https://www.theblock.co/post/114660/crypto-bitpanda-263-million-series-c",
+          "quote": "has closed a $263 million Series C round"
+        },
+        {
+          "field": "month",
+          "url": "https://www.theblock.co/post/114660/crypto-bitpanda-263-million-series-c",
+          "quote": "has closed a $263 million Series C round"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.theblock.co/post/114660/crypto-bitpanda-263-million-series-c",
+          "quote": "has closed a $263 million Series C round"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.theblock.co/post/114660/crypto-bitpanda-263-million-series-c",
+          "quote": "Peter Thiel's venture capital firm Valar Ventures led the investment"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.theblock.co/post/114660/crypto-bitpanda-263-million-series-c",
+          "quote": "Alan Howard and REDO Ventures participating alongside existing backers LeadBlock Partners and Jump Capital"
+        },
+        {
+          "field": "valuation",
+          "url": "https://www.theblock.co/post/114660/crypto-bitpanda-263-million-series-c",
+          "quote": "giving the startup a valuation of $4.1 billion"
+        }
       ]
     },
     {
@@ -51,11 +126,26 @@
       "amountEur": 9880000,
       "amountOriginal": 12000000,
       "currency": "USD",
-      "investors": ["Jump Capital", "Wintermute Trading"],
+      "investors": [
+        "Jump Capital",
+        "Wintermute Trading"
+      ],
       "sources": [
-        { "field": "amount", "url": "https://www.theblock.co/post/114660/crypto-bitpanda-263-million-series-c", "quote": "a fresh $12 million from Jump Capital and Wintermute Trading in May" },
-        { "field": "month", "url": "https://www.theblock.co/post/114660/crypto-bitpanda-263-million-series-c", "quote": "a fresh $12 million from Jump Capital and Wintermute Trading in May" },
-        { "field": "investors", "url": "https://www.theblock.co/post/114660/crypto-bitpanda-263-million-series-c", "quote": "a fresh $12 million from Jump Capital and Wintermute Trading in May" }
+        {
+          "field": "amount",
+          "url": "https://www.theblock.co/post/114660/crypto-bitpanda-263-million-series-c",
+          "quote": "a fresh $12 million from Jump Capital and Wintermute Trading in May"
+        },
+        {
+          "field": "month",
+          "url": "https://www.theblock.co/post/114660/crypto-bitpanda-263-million-series-c",
+          "quote": "a fresh $12 million from Jump Capital and Wintermute Trading in May"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.theblock.co/post/114660/crypto-bitpanda-263-million-series-c",
+          "quote": "a fresh $12 million from Jump Capital and Wintermute Trading in May"
+        }
       ]
     },
     {
@@ -66,14 +156,41 @@
       "amountOriginal": 170000000,
       "currency": "USD",
       "postMoneyValuationEur": 1008000000,
-      "investors": ["Valar Ventures", "DST Global"],
+      "investors": [
+        "Valar Ventures",
+        "DST Global"
+      ],
       "sources": [
-        { "field": "amount", "url": "https://www.coindesk.com/business/2021/03/16/crypto-has-another-unicorn-as-bitpanda-raises-170m-at-12b-valuation/", "quote": "has closed a Series B funding round for $170 million" },
-        { "field": "month", "url": "https://www.coindesk.com/business/2021/03/16/crypto-has-another-unicorn-as-bitpanda-raises-170m-at-12b-valuation/", "quote": "has closed a Series B funding round for $170 million" },
-        { "field": "stage", "url": "https://tech.eu/brief/bitpanda-funding", "quote": "a Series B round of $170 million" },
-        { "field": "investors", "url": "https://tech.eu/brief/bitpanda-funding", "quote": "Early investor Valar Ventures, co-founded by Peter Thiel" },
-        { "field": "investors", "url": "https://tech.eu/brief/bitpanda-funding", "quote": "Partner of investment firm DST Global also chipped in, but it's unclear who else participated in this round." },
-        { "field": "valuation", "url": "https://tech.eu/brief/bitpanda-funding", "quote": "'unicorn' valuation of $1.2 billion" }
+        {
+          "field": "amount",
+          "url": "https://www.coindesk.com/business/2021/03/16/crypto-has-another-unicorn-as-bitpanda-raises-170m-at-12b-valuation/",
+          "quote": "has closed a Series B funding round for $170 million"
+        },
+        {
+          "field": "month",
+          "url": "https://www.coindesk.com/business/2021/03/16/crypto-has-another-unicorn-as-bitpanda-raises-170m-at-12b-valuation/",
+          "quote": "has closed a Series B funding round for $170 million"
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/brief/bitpanda-funding",
+          "quote": "a Series B round of $170 million"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/brief/bitpanda-funding",
+          "quote": "Early investor Valar Ventures, co-founded by Peter Thiel"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/brief/bitpanda-funding",
+          "quote": "Partner of investment firm DST Global also chipped in, but it's unclear who else participated in this round."
+        },
+        {
+          "field": "valuation",
+          "url": "https://tech.eu/brief/bitpanda-funding",
+          "quote": "'unicorn' valuation of $1.2 billion"
+        }
       ]
     },
     {
@@ -83,12 +200,31 @@
       "amountEur": 44000000,
       "amountOriginal": 52000000,
       "currency": "USD",
-      "investors": ["Valar Ventures", "Speedinvest"],
+      "investors": [
+        "Valar Ventures",
+        "Speedinvest"
+      ],
       "sources": [
-        { "field": "amount", "url": "https://blog.bitpanda.com/en/announcing-bitpandas-52m-series-a", "quote": "Securing $52 million in a round led by Valar Ventures" },
-        { "field": "month", "url": "https://blog.bitpanda.com/en/announcing-bitpandas-52m-series-a", "quote": "Bitpanda has closed Europe’s largest Series A funding round of 2020." },
-        { "field": "stage", "url": "https://blog.bitpanda.com/en/announcing-bitpandas-52m-series-a", "quote": "Bitpanda has closed Europe’s largest Series A funding round of 2020." },
-        { "field": "investors", "url": "https://blog.bitpanda.com/en/announcing-bitpandas-52m-series-a", "quote": "other fintech investors such as Speedinvest" }
+        {
+          "field": "amount",
+          "url": "https://blog.bitpanda.com/en/announcing-bitpandas-52m-series-a",
+          "quote": "Securing $52 million in a round led by Valar Ventures"
+        },
+        {
+          "field": "month",
+          "url": "https://blog.bitpanda.com/en/announcing-bitpandas-52m-series-a",
+          "quote": "Bitpanda has closed Europe’s largest Series A funding round of 2020."
+        },
+        {
+          "field": "stage",
+          "url": "https://blog.bitpanda.com/en/announcing-bitpandas-52m-series-a",
+          "quote": "Bitpanda has closed Europe’s largest Series A funding round of 2020."
+        },
+        {
+          "field": "investors",
+          "url": "https://blog.bitpanda.com/en/announcing-bitpandas-52m-series-a",
+          "quote": "other fintech investors such as Speedinvest"
+        }
       ]
     }
   ]

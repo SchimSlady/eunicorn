@@ -76,6 +76,10 @@
       "field": "fun_fact",
       "url": "https://en.wikipedia.org/wiki/Monzo",
       "quote": "when it raised £1 million in 96 seconds via the Crowdcube investment platform"
+    },
+    {
+      "field": "logo",
+      "url": "https://commons.wikimedia.org/wiki/File:Monzo_2022_logo.svg"
     }
   ],
   "rounds": [

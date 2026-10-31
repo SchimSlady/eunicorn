@@ -6,25 +6,74 @@
   "country": "IT",
   "city": "Milan",
   "founded": 2013,
-  "sectors": ["consumer", "saas"],
+  "sectors": [
+    "consumer",
+    "saas"
+  ],
   "status": "public",
   "unicorn": true,
   "lastValuationEur": 9523809524,
-  "founders": ["Luca Ferrari", "Francesco Patarnello", "Matteo Danieli", "Luca Querella", "Tomasz Greber"],
+  "founders": [
+    "Luca Ferrari",
+    "Francesco Patarnello",
+    "Matteo Danieli",
+    "Luca Querella",
+    "Tomasz Greber"
+  ],
   "funFact": "Bending Spoons started in June 2013 with just $40,000 left over from a failed first startup, and stayed bootstrapped for almost a decade before taking outside money.",
   "difficulty": 3,
   "techeuId": "fee0e21d-1507-4977-a2f1-4a402119f7b1",
   "wikidataId": "Q96314827",
   "sources": [
-    { "field": "city", "url": "https://pulse2.com/bending-spoons-launches-ipo-with-shares-priced-at-26-to-28-range/", "quote": "Milan-based technology company" },
-    { "field": "founded", "url": "https://en.wikipedia.org/wiki/Bending_Spoons", "quote": "founded in 2013" },
-    { "field": "founders", "url": "https://en.wikipedia.org/wiki/Bending_Spoons", "quote": "Luca Ferrari, Francesco Patarnello, Matteo Danieli, Luca Querella, and Tomasz Greber" },
-    { "field": "sectors", "url": "https://tech.eu/2025/10/30/bending-spoons-raises-710m-one-day-after-buying-aol/", "quote": "Italian tech conglomerate" },
-    { "field": "status", "url": "https://www.iposcoop.com/?p=38749", "quote": "Bending Spoons of Milan Prices IPO at $29" },
-    { "field": "status", "url": "https://en.wikipedia.org/wiki/Bending_Spoons", "quote": "raised $1.68 billion, pricing shares at $29.00" },
-    { "field": "unicorn", "url": "https://tech.eu/2025/10/30/bending-spoons-raises-710m-one-day-after-buying-aol/", "quote": "$11bn valuation" },
-    { "field": "valuation", "url": "https://tech.eu/2025/10/30/bending-spoons-raises-710m-one-day-after-buying-aol/", "quote": "$11bn valuation" },
-    { "field": "fun_fact", "url": "https://en.wikipedia.org/wiki/Bending_Spoons", "quote": "left with $40,000, which became the seed capital for Bending Spoons in June 2013" }
+    {
+      "field": "city",
+      "url": "https://pulse2.com/bending-spoons-launches-ipo-with-shares-priced-at-26-to-28-range/",
+      "quote": "Milan-based technology company"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Bending_Spoons",
+      "quote": "founded in 2013"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Bending_Spoons",
+      "quote": "Luca Ferrari, Francesco Patarnello, Matteo Danieli, Luca Querella, and Tomasz Greber"
+    },
+    {
+      "field": "sectors",
+      "url": "https://tech.eu/2025/10/30/bending-spoons-raises-710m-one-day-after-buying-aol/",
+      "quote": "Italian tech conglomerate"
+    },
+    {
+      "field": "status",
+      "url": "https://www.iposcoop.com/?p=38749",
+      "quote": "Bending Spoons of Milan Prices IPO at $29"
+    },
+    {
+      "field": "status",
+      "url": "https://en.wikipedia.org/wiki/Bending_Spoons",
+      "quote": "raised $1.68 billion, pricing shares at $29.00"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://tech.eu/2025/10/30/bending-spoons-raises-710m-one-day-after-buying-aol/",
+      "quote": "$11bn valuation"
+    },
+    {
+      "field": "valuation",
+      "url": "https://tech.eu/2025/10/30/bending-spoons-raises-710m-one-day-after-buying-aol/",
+      "quote": "$11bn valuation"
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://en.wikipedia.org/wiki/Bending_Spoons",
+      "quote": "left with $40,000, which became the seed capital for Bending Spoons in June 2013"
+    },
+    {
+      "field": "logo",
+      "url": "https://commons.wikimedia.org/wiki/File:Bending_Spoons_Logo_Icon.png"
+    }
   ],
   "rounds": [
     {
@@ -34,13 +83,40 @@
       "amountOriginal": 155000000,
       "currency": "USD",
       "postMoneyValuationEur": 2373600000,
-      "investors": ["Durable Capital Partners", "Baillie Gifford", "Cox Enterprises", "NB Renaissance", "NUO Capital", "StarTIP"],
+      "investors": [
+        "Durable Capital Partners",
+        "Baillie Gifford",
+        "Cox Enterprises",
+        "NB Renaissance",
+        "NUO Capital",
+        "StarTIP"
+      ],
       "sources": [
-        { "field": "amount", "url": "https://pulse2.com/bending-spoons-155-million-raised-at-2-55-billion-post-money", "quote": "$155 million of equity" },
-        { "field": "stage", "url": "https://business.mammothtimes.com/mammothtimes/article/bizwire-2024-2-15-bending-spoons-closes-a-new-equity-financing-round-raising-155-million-at-a-255-billion-post-money-valuation", "quote": "Bending Spoons Closes a New Equity Financing Round, Raising $155 Million at a $2.55 Billion Post-Money Valuation" },
-        { "field": "month", "url": "https://pulse2.com/bending-spoons-155-million-raised-at-2-55-billion-post-money", "quote": "Feb 17, 2024" },
-        { "field": "investors", "url": "https://pulse2.com/bending-spoons-155-million-raised-at-2-55-billion-post-money", "quote": "Durable Capital Partners LP is new to the round. Existing investors include Baillie Gifford, Cox Enterprises, NB Renaissance, NUO Capital, and StarTIP." },
-        { "field": "valuation", "url": "https://pulse2.com/bending-spoons-155-million-raised-at-2-55-billion-post-money", "quote": "approximately $2.55 billion post-money" }
+        {
+          "field": "amount",
+          "url": "https://pulse2.com/bending-spoons-155-million-raised-at-2-55-billion-post-money",
+          "quote": "$155 million of equity"
+        },
+        {
+          "field": "stage",
+          "url": "https://business.mammothtimes.com/mammothtimes/article/bizwire-2024-2-15-bending-spoons-closes-a-new-equity-financing-round-raising-155-million-at-a-255-billion-post-money-valuation",
+          "quote": "Bending Spoons Closes a New Equity Financing Round, Raising $155 Million at a $2.55 Billion Post-Money Valuation"
+        },
+        {
+          "field": "month",
+          "url": "https://pulse2.com/bending-spoons-155-million-raised-at-2-55-billion-post-money",
+          "quote": "Feb 17, 2024"
+        },
+        {
+          "field": "investors",
+          "url": "https://pulse2.com/bending-spoons-155-million-raised-at-2-55-billion-post-money",
+          "quote": "Durable Capital Partners LP is new to the round. Existing investors include Baillie Gifford, Cox Enterprises, NB Renaissance, NUO Capital, and StarTIP."
+        },
+        {
+          "field": "valuation",
+          "url": "https://pulse2.com/bending-spoons-155-million-raised-at-2-55-billion-post-money",
+          "quote": "approximately $2.55 billion post-money"
+        }
       ]
     },
     {
@@ -49,12 +125,36 @@
       "amountEur": 233770000,
       "amountOriginal": 270000000,
       "currency": "USD",
-      "investors": ["T. Rowe Price", "Baillie Gifford", "Cox Enterprises", "Durable Capital Partners", "Fidelity Management & Research Company", "Foxhaven Asset Management", "Radcliff"],
+      "investors": [
+        "T. Rowe Price",
+        "Baillie Gifford",
+        "Cox Enterprises",
+        "Durable Capital Partners",
+        "Fidelity Management & Research Company",
+        "Foxhaven Asset Management",
+        "Radcliff"
+      ],
       "sources": [
-        { "field": "amount", "url": "https://tech.eu/2025/10/30/bending-spoons-raises-710m-one-day-after-buying-aol/", "quote": "comprises $270m in new funding and a $440m secondary share sale by existing investors" },
-        { "field": "stage", "url": "https://tech.eu/2025/10/30/bending-spoons-raises-710m-one-day-after-buying-aol/", "quote": "equity fundraising round" },
-        { "field": "month", "url": "https://tech.eu/2025/10/30/bending-spoons-raises-710m-one-day-after-buying-aol/", "quote": "Bending Spoons raises $710M at $11BN valuation, one day after buying AOL" },
-        { "field": "investors", "url": "https://tech.eu/2025/10/30/bending-spoons-raises-710m-one-day-after-buying-aol/", "quote": "T Rowe Price led the round. Baillie Gifford, Cox Enterprises, Durable Capital Partners, and Fidelity also participated" }
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2025/10/30/bending-spoons-raises-710m-one-day-after-buying-aol/",
+          "quote": "comprises $270m in new funding and a $440m secondary share sale by existing investors"
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2025/10/30/bending-spoons-raises-710m-one-day-after-buying-aol/",
+          "quote": "equity fundraising round"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2025/10/30/bending-spoons-raises-710m-one-day-after-buying-aol/",
+          "quote": "Bending Spoons raises $710M at $11BN valuation, one day after buying AOL"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2025/10/30/bending-spoons-raises-710m-one-day-after-buying-aol/",
+          "quote": "T Rowe Price led the round. Baillie Gifford, Cox Enterprises, Durable Capital Partners, and Fidelity also participated"
+        }
       ]
     }
   ]

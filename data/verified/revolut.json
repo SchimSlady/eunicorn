@@ -6,25 +6,70 @@
   "country": "GB",
   "city": "London",
   "founded": 2015,
-  "sectors": ["fintech"],
+  "sectors": [
+    "fintech"
+  ],
   "status": "private",
   "unicorn": true,
   "lastValuationEur": 64878000000,
-  "founders": ["Nik Storonsky", "Vlad Yatsenko"],
+  "founders": [
+    "Nik Storonsky",
+    "Vlad Yatsenko"
+  ],
   "funFact": "When Balderton Capital wrote Revolut's first big cheque in 2015, putting in £1M, the whole company was valued at only about £6.7M.",
   "difficulty": 1,
   "techeuId": "357F3846-1155-447B-A98A-DBC3E9F1F90D",
   "wikidataId": "Q22908307",
   "sources": [
-    { "field": "city", "url": "https://en.wikipedia.org/wiki/Revolut", "quote": "Revolut Group Holdings Ltd, known as Revolut, is a British multinational neobank and financial technology company ... headquartered in London, England." },
-    { "field": "founded", "url": "https://en.wikipedia.org/wiki/Revolut", "quote": "It was founded in July 2015 by Nik Storonsky and Vlad Yatsenko." },
-    { "field": "founders", "url": "https://en.wikipedia.org/wiki/Revolut", "quote": "It was founded in July 2015 by Nik Storonsky and Vlad Yatsenko." },
-    { "field": "sectors", "url": "https://en.wikipedia.org/wiki/Revolut", "quote": "a British multinational neobank and financial technology company" },
-    { "field": "status", "url": "https://www.rte.ie/news/business/2025/1124/1545556-revolut-valued-at-75-billion", "quote": "Revolut said today it had completed a secondary share sale valuing it at $75 billion" },
-    { "field": "unicorn", "url": "https://tech.eu/2018/04/26/revolut-funding/", "quote": "a $250 million funding round at a $1.7 billion valuation" },
-    { "field": "valuation", "url": "https://www.rte.ie/news/business/2025/1124/1545556-revolut-valued-at-75-billion", "quote": "Revolut said today it had completed a secondary share sale valuing it at $75 billion" },
-    { "field": "fun_fact", "url": "https://en.oninvest.com/article/hit-the-jackpot-how-investing-in-revolut-was-the-best-deal-for-a-uk-fund", "quote": "In that round, the startup raised £1.5m, of which £1m was given by Balderton, sources told the FT." },
-    { "field": "fun_fact", "url": "https://en.oninvest.com/article/hit-the-jackpot-how-investing-in-revolut-was-the-best-deal-for-a-uk-fund", "quote": "With the capital raised, Revolut was then valued at £6.7m." }
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/Revolut",
+      "quote": "Revolut Group Holdings Ltd, known as Revolut, is a British multinational neobank and financial technology company ... headquartered in London, England."
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Revolut",
+      "quote": "It was founded in July 2015 by Nik Storonsky and Vlad Yatsenko."
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Revolut",
+      "quote": "It was founded in July 2015 by Nik Storonsky and Vlad Yatsenko."
+    },
+    {
+      "field": "sectors",
+      "url": "https://en.wikipedia.org/wiki/Revolut",
+      "quote": "a British multinational neobank and financial technology company"
+    },
+    {
+      "field": "status",
+      "url": "https://www.rte.ie/news/business/2025/1124/1545556-revolut-valued-at-75-billion",
+      "quote": "Revolut said today it had completed a secondary share sale valuing it at $75 billion"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://tech.eu/2018/04/26/revolut-funding/",
+      "quote": "a $250 million funding round at a $1.7 billion valuation"
+    },
+    {
+      "field": "valuation",
+      "url": "https://www.rte.ie/news/business/2025/1124/1545556-revolut-valued-at-75-billion",
+      "quote": "Revolut said today it had completed a secondary share sale valuing it at $75 billion"
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://en.oninvest.com/article/hit-the-jackpot-how-investing-in-revolut-was-the-best-deal-for-a-uk-fund",
+      "quote": "In that round, the startup raised £1.5m, of which £1m was given by Balderton, sources told the FT."
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://en.oninvest.com/article/hit-the-jackpot-how-investing-in-revolut-was-the-best-deal-for-a-uk-fund",
+      "quote": "With the capital raised, Revolut was then valued at £6.7m."
+    },
+    {
+      "field": "logo",
+      "url": "https://commons.wikimedia.org/wiki/File:Revolut_logo.svg"
+    }
   ],
   "rounds": [
     {
@@ -34,11 +79,25 @@
       "amountEur": 2122000,
       "amountOriginal": 1500000,
       "currency": "GBP",
-      "investors": ["Balderton Capital"],
+      "investors": [
+        "Balderton Capital"
+      ],
       "sources": [
-        { "field": "amount", "url": "https://seedcamp.com/views/seedcamp-fintech-startup-revolut-closes-2-3-million-round-of-funding-from-balderton-capital/", "quote": "has just raised $2.3 million (£1.5 million) from Balderton Capital." },
-        { "field": "month", "url": "https://seedcamp.com/views/seedcamp-fintech-startup-revolut-closes-2-3-million-round-of-funding-from-balderton-capital/", "quote": "20.07.2015" },
-        { "field": "investors", "url": "https://seedcamp.com/views/seedcamp-fintech-startup-revolut-closes-2-3-million-round-of-funding-from-balderton-capital/", "quote": "has just raised $2.3 million (£1.5 million) from Balderton Capital." }
+        {
+          "field": "amount",
+          "url": "https://seedcamp.com/views/seedcamp-fintech-startup-revolut-closes-2-3-million-round-of-funding-from-balderton-capital/",
+          "quote": "has just raised $2.3 million (£1.5 million) from Balderton Capital."
+        },
+        {
+          "field": "month",
+          "url": "https://seedcamp.com/views/seedcamp-fintech-startup-revolut-closes-2-3-million-round-of-funding-from-balderton-capital/",
+          "quote": "20.07.2015"
+        },
+        {
+          "field": "investors",
+          "url": "https://seedcamp.com/views/seedcamp-fintech-startup-revolut-closes-2-3-million-round-of-funding-from-balderton-capital/",
+          "quote": "has just raised $2.3 million (£1.5 million) from Balderton Capital."
+        }
       ]
     },
     {
@@ -48,12 +107,34 @@
       "amountEur": 4327000,
       "amountOriginal": 4800000,
       "currency": "USD",
-      "investors": ["Balderton Capital", "Index Ventures", "Point Nine Capital", "Seedcamp", "Venrex"],
+      "investors": [
+        "Balderton Capital",
+        "Index Ventures",
+        "Point Nine Capital",
+        "Seedcamp",
+        "Venrex"
+      ],
       "sources": [
-        { "field": "amount", "url": "https://www.uktech.news/2016/02/04/british-startup-revolut-closes-4-8m-seed-round/", "quote": "British startup Revolut has closed a $4.8m Seed round." },
-        { "field": "month", "url": "https://www.uktech.news/2016/02/04/british-startup-revolut-closes-4-8m-seed-round/", "quote": "British startup Revolut has closed a $4.8m Seed round. (published 2016-02-04)" },
-        { "field": "stage", "url": "https://www.uktech.news/2016/02/04/british-startup-revolut-closes-4-8m-seed-round/", "quote": "British startup Revolut has closed a $4.8m Seed round." },
-        { "field": "investors", "url": "https://www.uktech.news/2016/02/04/british-startup-revolut-closes-4-8m-seed-round/", "quote": "Balderton Capital, Point Nine, Seedcamp, Venrex, Index Ventures and various angel investors participated in the round." }
+        {
+          "field": "amount",
+          "url": "https://www.uktech.news/2016/02/04/british-startup-revolut-closes-4-8m-seed-round/",
+          "quote": "British startup Revolut has closed a $4.8m Seed round."
+        },
+        {
+          "field": "month",
+          "url": "https://www.uktech.news/2016/02/04/british-startup-revolut-closes-4-8m-seed-round/",
+          "quote": "British startup Revolut has closed a $4.8m Seed round. (published 2016-02-04)"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.uktech.news/2016/02/04/british-startup-revolut-closes-4-8m-seed-round/",
+          "quote": "British startup Revolut has closed a $4.8m Seed round."
+        },
+        {
+          "field": "investors",
+          "url": "https://www.uktech.news/2016/02/04/british-startup-revolut-closes-4-8m-seed-round/",
+          "quote": "Balderton Capital, Point Nine, Seedcamp, Venrex, Index Ventures and various angel investors participated in the round."
+        }
       ]
     },
     {
@@ -63,13 +144,40 @@
       "amountEur": 8026000,
       "amountOriginal": 6750000,
       "currency": "GBP",
-      "investors": ["Balderton Capital", "Ribbit Capital", "Index Ventures", "Point Nine Capital", "Venrex", "Seedcamp"],
+      "investors": [
+        "Balderton Capital",
+        "Ribbit Capital",
+        "Index Ventures",
+        "Point Nine Capital",
+        "Venrex",
+        "Seedcamp"
+      ],
       "sources": [
-        { "field": "amount", "url": "https://www.uktech.news/2016/07/11/revolut-gets-6-5m-round-led-balderton-capital/", "quote": "Currency transfer app Revolut has landed up to £6.75m in Series A funding in a round led by Balderton Capital." },
-        { "field": "amount", "url": "https://thepaypers.com/online-payments/revolut-raises-gbp-775-mln-in-july-2016-despite-brexit--765260", "quote": "Revolut has raised GBP 6.75 million from investors including Index Ventures" },
-        { "field": "month", "url": "https://www.uktech.news/2016/07/11/revolut-gets-6-5m-round-led-balderton-capital/", "quote": "Currency transfer app Revolut has landed up to £6.75m in Series A funding (published 2016-07-11)" },
-        { "field": "stage", "url": "https://www.uktech.news/2016/07/11/revolut-gets-6-5m-round-led-balderton-capital/", "quote": "in Series A funding in a round led by Balderton Capital" },
-        { "field": "investors", "url": "https://www.uktech.news/2016/07/11/revolut-gets-6-5m-round-led-balderton-capital/", "quote": "Ribit Capital, Index Ventures, Point Nine Capital, Venrex and Seedcamp" }
+        {
+          "field": "amount",
+          "url": "https://www.uktech.news/2016/07/11/revolut-gets-6-5m-round-led-balderton-capital/",
+          "quote": "Currency transfer app Revolut has landed up to £6.75m in Series A funding in a round led by Balderton Capital."
+        },
+        {
+          "field": "amount",
+          "url": "https://thepaypers.com/online-payments/revolut-raises-gbp-775-mln-in-july-2016-despite-brexit--765260",
+          "quote": "Revolut has raised GBP 6.75 million from investors including Index Ventures"
+        },
+        {
+          "field": "month",
+          "url": "https://www.uktech.news/2016/07/11/revolut-gets-6-5m-round-led-balderton-capital/",
+          "quote": "Currency transfer app Revolut has landed up to £6.75m in Series A funding (published 2016-07-11)"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.uktech.news/2016/07/11/revolut-gets-6-5m-round-led-balderton-capital/",
+          "quote": "in Series A funding in a round led by Balderton Capital"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.uktech.news/2016/07/11/revolut-gets-6-5m-round-led-balderton-capital/",
+          "quote": "Ribit Capital, Index Ventures, Point Nine Capital, Venrex and Seedcamp"
+        }
       ]
     },
     {
@@ -79,12 +187,32 @@
       "amountEur": 57000000,
       "amountOriginal": 66000000,
       "currency": "USD",
-      "investors": ["Index Ventures", "Balderton Capital", "Ribbit Capital"],
+      "investors": [
+        "Index Ventures",
+        "Balderton Capital",
+        "Ribbit Capital"
+      ],
       "sources": [
-        { "field": "amount", "url": "https://tech.eu/2017/07/12/revolut-raises-investment/", "quote": "raised $66 million in a Series B funding round led by Index Ventures" },
-        { "field": "month", "url": "https://tech.eu/2017/07/12/revolut-raises-investment/", "quote": "UK fintech firm Revolut raises $66 million in Series B financing round (12 July 2017)" },
-        { "field": "stage", "url": "https://tech.eu/2017/07/12/revolut-raises-investment/", "quote": "raised $66 million in a Series B funding round led by Index Ventures" },
-        { "field": "investors", "url": "https://tech.eu/2017/07/12/revolut-raises-investment/", "quote": "with the participation of Balderton Capital and Ribbit Capital." }
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2017/07/12/revolut-raises-investment/",
+          "quote": "raised $66 million in a Series B funding round led by Index Ventures"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2017/07/12/revolut-raises-investment/",
+          "quote": "UK fintech firm Revolut raises $66 million in Series B financing round (12 July 2017)"
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2017/07/12/revolut-raises-investment/",
+          "quote": "raised $66 million in a Series B funding round led by Index Ventures"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2017/07/12/revolut-raises-investment/",
+          "quote": "with the participation of Balderton Capital and Ribbit Capital."
+        }
       ]
     },
     {
@@ -94,14 +222,38 @@
       "amountEur": 204000000,
       "amountOriginal": 250000000,
       "currency": "USD",
-      "investors": ["DST Global", "Index Ventures", "Ribbit Capital"],
+      "investors": [
+        "DST Global",
+        "Index Ventures",
+        "Ribbit Capital"
+      ],
       "postMoneyValuationEur": 1385000000,
       "sources": [
-        { "field": "amount", "url": "https://tech.eu/2018/04/26/revolut-funding/", "quote": "a $250 million funding round at a $1.7 billion valuation" },
-        { "field": "month", "url": "https://tech.eu/2018/04/26/revolut-funding/", "quote": "UK fintech firm Revolut raises $250 million at $1.7 billion valuation (26 April 2018)" },
-        { "field": "valuation", "url": "https://tech.eu/2018/04/26/revolut-funding/", "quote": "a $250 million funding round at a $1.7 billion valuation" },
-        { "field": "stage", "url": "https://tech.eu/2018/04/26/revolut-funding/", "quote": "Other participants in the Series C round include Index Ventures and Ribbit Capital." },
-        { "field": "investors", "url": "https://tech.eu/2018/04/26/revolut-funding/", "quote": "Other participants in the Series C round include Index Ventures and Ribbit Capital." }
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2018/04/26/revolut-funding/",
+          "quote": "a $250 million funding round at a $1.7 billion valuation"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2018/04/26/revolut-funding/",
+          "quote": "UK fintech firm Revolut raises $250 million at $1.7 billion valuation (26 April 2018)"
+        },
+        {
+          "field": "valuation",
+          "url": "https://tech.eu/2018/04/26/revolut-funding/",
+          "quote": "a $250 million funding round at a $1.7 billion valuation"
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2018/04/26/revolut-funding/",
+          "quote": "Other participants in the Series C round include Index Ventures and Ribbit Capital."
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2018/04/26/revolut-funding/",
+          "quote": "Other participants in the Series C round include Index Ventures and Ribbit Capital."
+        }
       ]
     },
     {
@@ -111,14 +263,36 @@
       "amountEur": 459000000,
       "amountOriginal": 500000000,
       "currency": "USD",
-      "investors": ["TCV"],
+      "investors": [
+        "TCV"
+      ],
       "postMoneyValuationEur": 5044000000,
       "sources": [
-        { "field": "amount", "url": "https://techcrunch.com/2020/02/24/revolut-raises-500-million-at-5-5-billion-valuation", "quote": "TCV is leading the $500 million round, valuing the company at $5.5 billion." },
-        { "field": "month", "url": "https://techcrunch.com/2020/02/24/revolut-raises-500-million-at-5-5-billion-valuation", "quote": "Fintech startup Revolut is raising a large Series D round of funding. (24 February 2020)" },
-        { "field": "stage", "url": "https://techcrunch.com/2020/02/24/revolut-raises-500-million-at-5-5-billion-valuation", "quote": "Fintech startup Revolut is raising a large Series D round of funding." },
-        { "field": "valuation", "url": "https://techcrunch.com/2020/02/24/revolut-raises-500-million-at-5-5-billion-valuation", "quote": "TCV is leading the $500 million round, valuing the company at $5.5 billion." },
-        { "field": "investors", "url": "https://techcrunch.com/2020/02/24/revolut-raises-500-million-at-5-5-billion-valuation", "quote": "TCV is leading the $500 million round, valuing the company at $5.5 billion." }
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2020/02/24/revolut-raises-500-million-at-5-5-billion-valuation",
+          "quote": "TCV is leading the $500 million round, valuing the company at $5.5 billion."
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2020/02/24/revolut-raises-500-million-at-5-5-billion-valuation",
+          "quote": "Fintech startup Revolut is raising a large Series D round of funding. (24 February 2020)"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2020/02/24/revolut-raises-500-million-at-5-5-billion-valuation",
+          "quote": "Fintech startup Revolut is raising a large Series D round of funding."
+        },
+        {
+          "field": "valuation",
+          "url": "https://techcrunch.com/2020/02/24/revolut-raises-500-million-at-5-5-billion-valuation",
+          "quote": "TCV is leading the $500 million round, valuing the company at $5.5 billion."
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2020/02/24/revolut-raises-500-million-at-5-5-billion-valuation",
+          "quote": "TCV is leading the $500 million round, valuing the company at $5.5 billion."
+        }
       ]
     },
     {
@@ -128,12 +302,30 @@
       "amountEur": 70000000,
       "amountOriginal": 80000000,
       "currency": "USD",
-      "investors": ["TSG Consumer Partners"],
+      "investors": [
+        "TSG Consumer Partners"
+      ],
       "sources": [
-        { "field": "amount", "url": "https://techcrunch.com/2020/07/24/revolut-extends-series-d-round-to-580-million-with-80-million-in-new-funding/", "quote": "has raised $80 million as part of its Series D round that it announced in February." },
-        { "field": "month", "url": "https://techcrunch.com/2020/07/24/revolut-extends-series-d-round-to-580-million-with-80-million-in-new-funding/", "quote": "Today's new funding extends that funding round to $580 million. (24 July 2020)" },
-        { "field": "stage", "url": "https://techcrunch.com/2020/07/24/revolut-extends-series-d-round-to-580-million-with-80-million-in-new-funding/", "quote": "has raised $80 million as part of its Series D round that it announced in February." },
-        { "field": "investors", "url": "https://techcrunch.com/2020/07/24/revolut-extends-series-d-round-to-580-million-with-80-million-in-new-funding/", "quote": "The new influx of funding comes from TSG Consumer Partners." }
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2020/07/24/revolut-extends-series-d-round-to-580-million-with-80-million-in-new-funding/",
+          "quote": "has raised $80 million as part of its Series D round that it announced in February."
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2020/07/24/revolut-extends-series-d-round-to-580-million-with-80-million-in-new-funding/",
+          "quote": "Today's new funding extends that funding round to $580 million. (24 July 2020)"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2020/07/24/revolut-extends-series-d-round-to-580-million-with-80-million-in-new-funding/",
+          "quote": "has raised $80 million as part of its Series D round that it announced in February."
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2020/07/24/revolut-extends-series-d-round-to-580-million-with-80-million-in-new-funding/",
+          "quote": "The new influx of funding comes from TSG Consumer Partners."
+        }
       ]
     },
     {
@@ -143,14 +335,37 @@
       "amountEur": 677000000,
       "amountOriginal": 800000000,
       "currency": "USD",
-      "investors": ["SoftBank Vision Fund 2", "Tiger Global Management"],
+      "investors": [
+        "SoftBank Vision Fund 2",
+        "Tiger Global Management"
+      ],
       "postMoneyValuationEur": 27914000000,
       "sources": [
-        { "field": "amount", "url": "https://www.coindesk.com/business/2021/07/15/revolut-valued-at-33b-in-800m-fundraising-led-by-softbank/", "quote": "The round raised $800 million, the company said in a release." },
-        { "field": "month", "url": "https://www.coindesk.com/business/2021/07/15/revolut-valued-at-33b-in-800m-fundraising-led-by-softbank/", "quote": "Published Jul 15, 2021, 5:39 a.m. EDT" },
-        { "field": "stage", "url": "https://au.finance.yahoo.com/news/revolut-confirms-fresh-800m-funding-084521886.html", "quote": "The company said that this Series E round of funding values Revolut at $33 billion." },
-        { "field": "valuation", "url": "https://au.finance.yahoo.com/news/revolut-confirms-fresh-800m-funding-084521886.html", "quote": "The company said that this Series E round of funding values Revolut at $33 billion." },
-        { "field": "investors", "url": "https://au.finance.yahoo.com/news/revolut-confirms-fresh-800m-funding-084521886.html", "quote": "This latest Series E is being co-led by Softbank Vision Fund 2 and Tiger Global" }
+        {
+          "field": "amount",
+          "url": "https://www.coindesk.com/business/2021/07/15/revolut-valued-at-33b-in-800m-fundraising-led-by-softbank/",
+          "quote": "The round raised $800 million, the company said in a release."
+        },
+        {
+          "field": "month",
+          "url": "https://www.coindesk.com/business/2021/07/15/revolut-valued-at-33b-in-800m-fundraising-led-by-softbank/",
+          "quote": "Published Jul 15, 2021, 5:39 a.m. EDT"
+        },
+        {
+          "field": "stage",
+          "url": "https://au.finance.yahoo.com/news/revolut-confirms-fresh-800m-funding-084521886.html",
+          "quote": "The company said that this Series E round of funding values Revolut at $33 billion."
+        },
+        {
+          "field": "valuation",
+          "url": "https://au.finance.yahoo.com/news/revolut-confirms-fresh-800m-funding-084521886.html",
+          "quote": "The company said that this Series E round of funding values Revolut at $33 billion."
+        },
+        {
+          "field": "investors",
+          "url": "https://au.finance.yahoo.com/news/revolut-confirms-fresh-800m-funding-084521886.html",
+          "quote": "This latest Series E is being co-led by Softbank Vision Fund 2 and Tiger Global"
+        }
       ]
     }
   ]

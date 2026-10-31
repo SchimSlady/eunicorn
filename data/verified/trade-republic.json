@@ -1,30 +1,79 @@
 {
   "id": "trade-republic",
   "name": "Trade Republic",
-  "aliases": ["Trade Republic Bank", "Neon Trading"],
+  "aliases": [
+    "Trade Republic Bank",
+    "Neon Trading"
+  ],
   "domain": "traderepublic.com",
   "country": "DE",
   "city": "Berlin",
   "founded": 2015,
-  "sectors": ["fintech"],
+  "sectors": [
+    "fintech"
+  ],
   "status": "private",
   "unicorn": true,
   "lastValuationEur": 12500000000,
-  "founders": ["Christian Hecker", "Thomas Pischke", "Marco Cancellieri"],
+  "founders": [
+    "Christian Hecker",
+    "Thomas Pischke",
+    "Marco Cancellieri"
+  ],
   "funFact": "Trade Republic began in 2015 as a startup called Neon Trading inside the incubator of German online bank Comdirect, founded by a philosopher, a physicist and a computer scientist.",
   "difficulty": 2,
   "techeuId": "051899EE-8616-4815-9991-5CCCE4822915",
   "wikidataId": "Q105475811",
   "sources": [
-    { "field": "city", "url": "https://en.wikipedia.org/wiki/Trade_Republic", "quote": "Trade Republic Bank GmbH is a German online broker and bank headquartered in Berlin." },
-    { "field": "founded", "url": "https://en.wikipedia.org/wiki/Trade_Republic", "quote": "Trade Republic was founded in Munich in 2015 under the name Neon Trading in the startup incubator of Comdirect Bank." },
-    { "field": "founders", "url": "https://en.wikipedia.org/wiki/Trade_Republic", "quote": "The company's founders are philosopher Christian Hecker, physicist Thomas Pischke and computer scientist Marco Cancellieri." },
-    { "field": "sectors", "url": "https://en.wikipedia.org/wiki/Trade_Republic", "quote": "Trade Republic Bank GmbH is a German online broker and bank headquartered in Berlin." },
-    { "field": "status", "url": "https://tech.eu/2025/12/17/trade-republic-confirms-decacorn-status-following-secondary-share-sale/", "quote": "Trade Republic is now valued at €12.5 billion, following the secondary share sale." },
-    { "field": "unicorn", "url": "https://www.cnbc.com/2021/05/20/european-robinhood-rival-trade-republic-raises-900-million-of-funding.html", "quote": "German stock-trading app Trade Republic raised $900 million in a huge funding round that values the start-up at $5.3 billion." },
-    { "field": "valuation", "url": "https://tech.eu/2025/12/17/trade-republic-confirms-decacorn-status-following-secondary-share-sale/", "quote": "Trade Republic is now valued at €12.5 billion, following the secondary share sale." },
-    { "field": "fun_fact", "url": "https://en.wikipedia.org/wiki/Trade_Republic", "quote": "Trade Republic was founded in Munich in 2015 under the name Neon Trading in the startup incubator of Comdirect Bank." },
-    { "field": "fun_fact", "url": "https://en.wikipedia.org/wiki/Trade_Republic", "quote": "The company's founders are philosopher Christian Hecker, physicist Thomas Pischke and computer scientist Marco Cancellieri." }
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/Trade_Republic",
+      "quote": "Trade Republic Bank GmbH is a German online broker and bank headquartered in Berlin."
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Trade_Republic",
+      "quote": "Trade Republic was founded in Munich in 2015 under the name Neon Trading in the startup incubator of Comdirect Bank."
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Trade_Republic",
+      "quote": "The company's founders are philosopher Christian Hecker, physicist Thomas Pischke and computer scientist Marco Cancellieri."
+    },
+    {
+      "field": "sectors",
+      "url": "https://en.wikipedia.org/wiki/Trade_Republic",
+      "quote": "Trade Republic Bank GmbH is a German online broker and bank headquartered in Berlin."
+    },
+    {
+      "field": "status",
+      "url": "https://tech.eu/2025/12/17/trade-republic-confirms-decacorn-status-following-secondary-share-sale/",
+      "quote": "Trade Republic is now valued at €12.5 billion, following the secondary share sale."
+    },
+    {
+      "field": "unicorn",
+      "url": "https://www.cnbc.com/2021/05/20/european-robinhood-rival-trade-republic-raises-900-million-of-funding.html",
+      "quote": "German stock-trading app Trade Republic raised $900 million in a huge funding round that values the start-up at $5.3 billion."
+    },
+    {
+      "field": "valuation",
+      "url": "https://tech.eu/2025/12/17/trade-republic-confirms-decacorn-status-following-secondary-share-sale/",
+      "quote": "Trade Republic is now valued at €12.5 billion, following the secondary share sale."
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://en.wikipedia.org/wiki/Trade_Republic",
+      "quote": "Trade Republic was founded in Munich in 2015 under the name Neon Trading in the startup incubator of Comdirect Bank."
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://en.wikipedia.org/wiki/Trade_Republic",
+      "quote": "The company's founders are philosopher Christian Hecker, physicist Thomas Pischke and computer scientist Marco Cancellieri."
+    },
+    {
+      "field": "logo",
+      "url": "https://commons.wikimedia.org/wiki/File:Trade_Republic_Bank_Logo.svg"
+    }
   ],
   "rounds": [
     {
@@ -33,12 +82,31 @@
       "amountEur": 10000000,
       "amountOriginal": 10000000,
       "currency": "EUR",
-      "investors": ["Creandum", "Project A Ventures"],
+      "investors": [
+        "Creandum",
+        "Project A Ventures"
+      ],
       "sources": [
-        { "field": "amount", "url": "https://www.osborneclarke.com/de/news/osborne-clarke-beraet-trade-republic-bei-investition-durch-creandum-und-project", "quote": "Die Investitionssumme beläuft sich auf EUR 10 Millionen." },
-        { "field": "month", "url": "https://www.osborneclarke.com/de/news/osborne-clarke-beraet-trade-republic-bei-investition-durch-creandum-und-project", "quote": "Veröffentlicht am 25 Juli 2019" },
-        { "field": "investors", "url": "https://www.osborneclarke.com/de/news/osborne-clarke-beraet-trade-republic-bei-investition-durch-creandum-und-project", "quote": "der schwedische Investor Creandum und der Berliner Kapitalgeber Project A beteiligt" },
-        { "field": "stage", "url": "https://tech.eu/2020/04/17/trade-republic-series-b/", "quote": "Creandum led the startup's €10 million Series A just nine months ago." }
+        {
+          "field": "amount",
+          "url": "https://www.osborneclarke.com/de/news/osborne-clarke-beraet-trade-republic-bei-investition-durch-creandum-und-project",
+          "quote": "Die Investitionssumme beläuft sich auf EUR 10 Millionen."
+        },
+        {
+          "field": "month",
+          "url": "https://www.osborneclarke.com/de/news/osborne-clarke-beraet-trade-republic-bei-investition-durch-creandum-und-project",
+          "quote": "Veröffentlicht am 25 Juli 2019"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.osborneclarke.com/de/news/osborne-clarke-beraet-trade-republic-bei-investition-durch-creandum-und-project",
+          "quote": "der schwedische Investor Creandum und der Berliner Kapitalgeber Project A beteiligt"
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2020/04/17/trade-republic-series-b/",
+          "quote": "Creandum led the startup's €10 million Series A just nine months ago."
+        }
       ]
     },
     {
@@ -48,12 +116,31 @@
       "amountEur": 62000000,
       "amountOriginal": 62000000,
       "currency": "EUR",
-      "investors": ["Accel", "Founders Fund"],
+      "investors": [
+        "Accel",
+        "Founders Fund"
+      ],
       "sources": [
-        { "field": "amount", "url": "https://tech.eu/2020/04/17/trade-republic-series-b/", "quote": "has raised a €62 million Series B round, co-led US venture capital firms Accel and Founders Fund." },
-        { "field": "month", "url": "https://tech.eu/2020/04/17/trade-republic-series-b/", "quote": "17 April 2020" },
-        { "field": "stage", "url": "https://tech.eu/2020/04/17/trade-republic-series-b/", "quote": "has raised a €62 million Series B round, co-led US venture capital firms Accel and Founders Fund." },
-        { "field": "investors", "url": "https://tech.eu/2020/04/17/trade-republic-series-b/", "quote": "has raised a €62 million Series B round, co-led US venture capital firms Accel and Founders Fund." }
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2020/04/17/trade-republic-series-b/",
+          "quote": "has raised a €62 million Series B round, co-led US venture capital firms Accel and Founders Fund."
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2020/04/17/trade-republic-series-b/",
+          "quote": "17 April 2020"
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2020/04/17/trade-republic-series-b/",
+          "quote": "has raised a €62 million Series B round, co-led US venture capital firms Accel and Founders Fund."
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2020/04/17/trade-republic-series-b/",
+          "quote": "has raised a €62 million Series B round, co-led US venture capital firms Accel and Founders Fund."
+        }
       ]
     },
     {
@@ -63,15 +150,47 @@
       "amountEur": 741000000,
       "amountOriginal": 900000000,
       "currency": "USD",
-      "investors": ["Sequoia Capital", "TCV", "Thrive Capital", "Accel", "Founders Fund", "Creandum", "Project A Ventures"],
+      "investors": [
+        "Sequoia Capital",
+        "TCV",
+        "Thrive Capital",
+        "Accel",
+        "Founders Fund",
+        "Creandum",
+        "Project A Ventures"
+      ],
       "postMoneyValuationEur": 4364000000,
       "sources": [
-        { "field": "amount", "url": "https://ffnews.com/newsarticle/trade-republic-announces-900m-investment-led-by-sequoia-to-help-close-europes-pension-gap", "quote": "a $900M Series C investment led by Sequoia" },
-        { "field": "stage", "url": "https://ffnews.com/newsarticle/trade-republic-announces-900m-investment-led-by-sequoia-to-help-close-europes-pension-gap", "quote": "a $900M Series C investment led by Sequoia" },
-        { "field": "month", "url": "https://www.cnbc.com/2021/05/20/european-robinhood-rival-trade-republic-raises-900-million-of-funding.html", "quote": "German stock-trading app Trade Republic raised $900 million in a huge funding round that values the start-up at $5.3 billion." },
-        { "field": "investors", "url": "https://ffnews.com/newsarticle/trade-republic-announces-900m-investment-led-by-sequoia-to-help-close-europes-pension-gap", "quote": "participation from new investors TCV and Thrive Capital" },
-        { "field": "investors", "url": "https://ffnews.com/newsarticle/trade-republic-announces-900m-investment-led-by-sequoia-to-help-close-europes-pension-gap", "quote": "existing investors Accel, Founders Fund, Creandum and Project A" },
-        { "field": "valuation", "url": "https://www.cnbc.com/2021/05/20/european-robinhood-rival-trade-republic-raises-900-million-of-funding.html", "quote": "German stock-trading app Trade Republic raised $900 million in a huge funding round that values the start-up at $5.3 billion." }
+        {
+          "field": "amount",
+          "url": "https://ffnews.com/newsarticle/trade-republic-announces-900m-investment-led-by-sequoia-to-help-close-europes-pension-gap",
+          "quote": "a $900M Series C investment led by Sequoia"
+        },
+        {
+          "field": "stage",
+          "url": "https://ffnews.com/newsarticle/trade-republic-announces-900m-investment-led-by-sequoia-to-help-close-europes-pension-gap",
+          "quote": "a $900M Series C investment led by Sequoia"
+        },
+        {
+          "field": "month",
+          "url": "https://www.cnbc.com/2021/05/20/european-robinhood-rival-trade-republic-raises-900-million-of-funding.html",
+          "quote": "German stock-trading app Trade Republic raised $900 million in a huge funding round that values the start-up at $5.3 billion."
+        },
+        {
+          "field": "investors",
+          "url": "https://ffnews.com/newsarticle/trade-republic-announces-900m-investment-led-by-sequoia-to-help-close-europes-pension-gap",
+          "quote": "participation from new investors TCV and Thrive Capital"
+        },
+        {
+          "field": "investors",
+          "url": "https://ffnews.com/newsarticle/trade-republic-announces-900m-investment-led-by-sequoia-to-help-close-europes-pension-gap",
+          "quote": "existing investors Accel, Founders Fund, Creandum and Project A"
+        },
+        {
+          "field": "valuation",
+          "url": "https://www.cnbc.com/2021/05/20/european-robinhood-rival-trade-republic-raises-900-million-of-funding.html",
+          "quote": "German stock-trading app Trade Republic raised $900 million in a huge funding round that values the start-up at $5.3 billion."
+        }
       ]
     },
     {
@@ -81,14 +200,36 @@
       "amountEur": 250000000,
       "amountOriginal": 250000000,
       "currency": "EUR",
-      "investors": ["Ontario Teachers' Pension Plan"],
+      "investors": [
+        "Ontario Teachers' Pension Plan"
+      ],
       "postMoneyValuationEur": 5000000000,
       "sources": [
-        { "field": "amount", "url": "https://otpp.com/en-ca/about-us/news-and-insights/2022/ontario-teachers--joins-trade-republic-on-its-mission-to-empower/", "quote": "today announces a €250M Series C extension" },
-        { "field": "month", "url": "https://otpp.com/en-ca/about-us/news-and-insights/2022/ontario-teachers--joins-trade-republic-on-its-mission-to-empower/", "quote": "June 3, 2022" },
-        { "field": "stage", "url": "https://otpp.com/en-ca/about-us/news-and-insights/2022/ontario-teachers--joins-trade-republic-on-its-mission-to-empower/", "quote": "today announces a €250M Series C extension" },
-        { "field": "investors", "url": "https://en.wikipedia.org/wiki/Trade_Republic", "quote": "In June 2022, the company raised a further €250 million in a Series C extension led by Ontario Teachers' Pension Plan Board." },
-        { "field": "valuation", "url": "https://otpp.com/en-ca/about-us/news-and-insights/2022/ontario-teachers--joins-trade-republic-on-its-mission-to-empower/", "quote": "post-money valuation uplift to €5.0B (previously €4.4B)" }
+        {
+          "field": "amount",
+          "url": "https://otpp.com/en-ca/about-us/news-and-insights/2022/ontario-teachers--joins-trade-republic-on-its-mission-to-empower/",
+          "quote": "today announces a €250M Series C extension"
+        },
+        {
+          "field": "month",
+          "url": "https://otpp.com/en-ca/about-us/news-and-insights/2022/ontario-teachers--joins-trade-republic-on-its-mission-to-empower/",
+          "quote": "June 3, 2022"
+        },
+        {
+          "field": "stage",
+          "url": "https://otpp.com/en-ca/about-us/news-and-insights/2022/ontario-teachers--joins-trade-republic-on-its-mission-to-empower/",
+          "quote": "today announces a €250M Series C extension"
+        },
+        {
+          "field": "investors",
+          "url": "https://en.wikipedia.org/wiki/Trade_Republic",
+          "quote": "In June 2022, the company raised a further €250 million in a Series C extension led by Ontario Teachers' Pension Plan Board."
+        },
+        {
+          "field": "valuation",
+          "url": "https://otpp.com/en-ca/about-us/news-and-insights/2022/ontario-teachers--joins-trade-republic-on-its-mission-to-empower/",
+          "quote": "post-money valuation uplift to €5.0B (previously €4.4B)"
+        }
       ]
     }
   ]
