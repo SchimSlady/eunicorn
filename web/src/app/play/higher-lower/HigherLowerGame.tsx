@@ -188,7 +188,7 @@ export function HigherLowerGame() {
       .filter((n): n is string => !!n);
     return (
       <div className="space-y-6">
-        <GameHeader title={TITLE} difficulty={progress.difficulty} />
+        <GameHeader title={TITLE} mode={MODE} difficulty={progress.difficulty} />
         <ResultArea
           score={score}
           maxScore={maxScore}
@@ -244,7 +244,7 @@ export function HigherLowerGame() {
 
   return (
     <div className="space-y-5">
-      <GameHeader title={TITLE} difficulty={progress.difficulty} />
+      <GameHeader title={TITLE} mode={MODE} difficulty={progress.difficulty} />
       <Announce
         text={
           reviewing
