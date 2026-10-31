@@ -1,6 +1,7 @@
 import "server-only";
 import type { Company, Dataset, GameMode, Puzzle, Round } from "@eunicorn/schema";
 import { USD_TO_EUR } from "@/lib/format";
+import { generatePuzzle } from "./generate";
 
 /**
  * Read-only access to the curated Supabase data (see supabase/migrations). Server-side only:
@@ -140,10 +141,16 @@ export async function getDataset(): Promise<(Omit<Dataset, "rounds"> & { rounds:
   };
 }
 
-/** The approved puzzle for this mode and day, or null (RLS hides drafts and future days). */
+/**
+ * The day's puzzle for this mode. Supabase is the source of truth: an approved puzzle there
+ * wins (RLS hides drafts and future days); without one, the puzzle is generated from the
+ * verified data. null only when Supabase is unavailable or the data can't support the mode.
+ */
 export async function getPuzzle(mode: GameMode, date: string): Promise<Puzzle | null> {
   const rows = await select<{ payload: Puzzle }>(
     `puzzles?select=payload&mode=eq.${encodeURIComponent(mode)}&date=eq.${encodeURIComponent(date)}&limit=1`,
   );
-  return rows?.[0]?.payload ?? null;
+  if (rows?.[0]?.payload) return rows[0].payload;
+  const data = await getDataset();
+  return data ? generatePuzzle(mode, date, data) : null;
 }
