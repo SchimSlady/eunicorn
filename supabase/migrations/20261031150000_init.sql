@@ -17,9 +17,10 @@ create type public.sector as enum (
 );
 create type public.company_status as enum ('private', 'public', 'acquired', 'defunct');
 -- Equity rounds only. Tech.eu also lists debt, grants and secondary sales; the import drops them.
+-- Its "Growth/Late" and "Series D+" labels are mapped to a series letter, never stored as-is.
 create type public.round_stage as enum (
   'pre-seed', 'seed', 'series-a', 'series-b', 'series-c', 'series-d',
-  'series-e', 'series-f+', 'growth'
+  'series-e', 'series-f+'
 );
 create type public.game_mode as enum ('who-raised-this', 'unicorn-grid', 'higher-lower', 'impostor');
 create type public.puzzle_status as enum ('draft', 'approved');
