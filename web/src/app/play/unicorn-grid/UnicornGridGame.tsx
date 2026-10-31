@@ -19,6 +19,8 @@ import { Announce, NoPuzzle } from "@/components/Announce";
 import { GameFooter } from "@/components/GameFooter";
 import { HintButton, HintList } from "@/components/HintButton";
 import { ResultHeader } from "@/components/ResultHeader";
+import { StatsPanel } from "@/components/StatsPanel";
+import { recordFinish, recordStart } from "@/lib/stats";
 
 const MODE = "unicorn-grid";
 const TITLE = "Unicorn Grid";
@@ -110,6 +112,7 @@ export function UnicornGridGame() {
         onStart={(d) => {
           saveDifficulty(d);
           const fresh: Progress = { difficulty: d, cells: Array(9).fill(null), wrong: 0, cellHints: Array(9).fill(0), gaveUp: false };
+          recordStart(MODE, d);
           setProgress(fresh);
           saveProgress(MODE, puzzle.date, fresh);
         }}
@@ -132,6 +135,7 @@ export function UnicornGridGame() {
         hintsUsed: result.hintsUsed,
         share: shareText(puzzle!, next, companies),
       });
+      recordFinish(MODE, next.difficulty, { bucket: result.filled, score: result.score, maxScore: result.maxScore, won: result.filled === 9 });
     }
   }
 
@@ -283,6 +287,14 @@ export function UnicornGridGame() {
             score={score}
             maxScore={maxScore}
             detail={`${filled} of 9 squares${hintsUsed ? ` · ${hintsUsed} ${hintsUsed === 1 ? "hint" : "hints"}` : ""}`}
+          />
+          <StatsPanel
+            mode={MODE}
+            bucket={filled}
+            scorePct={maxScore ? (score / maxScore) * 100 : 0}
+            order={[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]}
+            label={(b) => String(b)}
+            axis="Squares filled"
           />
           <BuiltInEuropeCard company={featured} founders={featuredFounders} />
           <GameFooter share={shareText(puzzle, progress, companies)} />

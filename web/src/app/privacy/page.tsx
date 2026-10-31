@@ -11,9 +11,10 @@ export default function Privacy() {
     <LegalPage title="Privacy policy">
       <Section title="In short">
         <p>
-          EUnicorn has no accounts, no cookies, no tracking, no analytics and no ads. Your game progress stays on your
-          device. The only personal data that reaches a server is what every website needs to be delivered: your IP
-          address and a few technical details, processed by our host.
+          EUnicorn has no accounts, no cookies, no tracking and no ads. Your game progress stays on your device. We count
+          anonymously how often each game is played and how it went, without your IP address or any ID. The only
+          personal data that reaches a server is what every website needs to be delivered: your IP address and a few
+          technical details, processed by our host.
         </p>
       </Section>
 
@@ -47,9 +48,36 @@ export default function Privacy() {
       <Section title="What stays on your device">
         <p>
           To remember your game for the day, your chosen difficulty, your results and your streak, EUnicorn stores them
-          in your browser&apos;s local storage. This data never leaves your device and is never sent to us. It is
-          strictly necessary to provide the games you ask for (§ 25 (2) no. 2 TDDDG), so no consent is required. You can
+          in your browser&apos;s local storage. This data stays on your device (only the anonymous count below reaches
+          us). It is strictly necessary to provide the games you ask for (§ 25 (2) no. 2 TDDDG), so no consent is required. You can
           delete it at any time by clearing your browser&apos;s site data.
+        </p>
+      </Section>
+
+      <Section title="Anonymous game counter">
+        <p>
+          When you start or finish a game, our server records the day, the game, the difficulty and, at the end, your
+          result (for example &quot;solved on guess 3&quot;, and your score as a share of the maximum). It stores no IP
+          address, no device or user ID and no cookie, so the entries can&apos;t be linked to you or to each other. We use
+          them to see how often the games are played and to show everyone today&apos;s results (&quot;better than 62% of
+          players&quot;). The data is stored with our database provider Supabase; see{" "}
+          <a href="https://supabase.com/privacy" className={link} rel="noopener">
+            Supabase&apos;s privacy policy
+          </a>
+          .
+        </p>
+      </Section>
+
+      <Section title="Game ideas">
+        <p>
+          If you send us a game idea, our server forwards the text to our mailbox by email, using the email service
+          Resend. We don&apos;t ask for your name or email address; please don&apos;t put personal data in the text. We use
+          the idea only to consider it for EUnicorn (Art. 6 (1) (f) GDPR) and delete it when we no longer need it. Resend
+          processes the message in transit; see{" "}
+          <a href="https://resend.com/legal/privacy-policy" className={link} rel="noopener">
+            Resend&apos;s privacy policy
+          </a>
+          .
         </p>
       </Section>
 

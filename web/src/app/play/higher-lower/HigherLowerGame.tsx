@@ -17,6 +17,8 @@ import { Announce, NoPuzzle } from "@/components/Announce";
 import { GameFooter } from "@/components/GameFooter";
 import { HintButton, HintList } from "@/components/HintButton";
 import { ResultHeader } from "@/components/ResultHeader";
+import { StatsPanel } from "@/components/StatsPanel";
+import { recordFinish, recordStart } from "@/lib/stats";
 
 const MODE = "higher-lower";
 const TITLE = "Higher or Lower";
@@ -142,6 +144,7 @@ export function HigherLowerGame() {
         hintsUsed: next.hintsUsed,
         share: shareText(play, next, companies),
       });
+      recordFinish(MODE, next.difficulty, { bucket: result.correct, score: result.score, maxScore: result.maxScore, won: result.correct === result.totalRounds });
     }
   }
 
@@ -165,6 +168,7 @@ export function HigherLowerGame() {
         onStart={(d) => {
           saveDifficulty(d);
           const fresh: Progress = { difficulty: d, answers: [], hintsUsed: 0 };
+          recordStart(MODE, d);
           setProgress(fresh);
           saveProgress(MODE, puzzle.date, fresh);
         }}
@@ -190,6 +194,14 @@ export function HigherLowerGame() {
           score={score}
           maxScore={maxScore}
           detail={`${correct} of ${totalRounds} right${progress.hintsUsed ? ` · ${progress.hintsUsed} ${progress.hintsUsed === 1 ? "hint" : "hints"}` : ""}`}
+        />
+        <StatsPanel
+          mode={MODE}
+          bucket={correct}
+          scorePct={maxScore ? (score / maxScore) * 100 : 0}
+          order={Array.from({ length: totalRounds + 1 }, (_, i) => i)}
+          label={(b) => String(b)}
+          axis="Rounds right"
         />
         <ul className="space-y-2">
           {rounds.map((r, i) => {
