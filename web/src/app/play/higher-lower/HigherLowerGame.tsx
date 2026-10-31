@@ -3,8 +3,8 @@
 import { useEffect, useMemo, useState } from "react";
 import { Check, Timer, X } from "lucide-react";
 import type { Company, Dataset, HigherLowerPuzzle } from "@eunicorn/schema";
-import { indexById, loadDataset } from "@/lib/data";
-import { getTodayResult, loadProgress, loadTodayPuzzle, saveProgress, saveResult } from "@/lib/daily";
+import { indexById, loadGame } from "@/lib/data";
+import { getTodayResult, loadProgress, saveProgress, saveResult } from "@/lib/daily";
 import { saveDifficulty, type Difficulty } from "@/lib/difficulty";
 import { METRIC_META, formatMetric } from "@/lib/format";
 import { shareText as buildShareText } from "@/lib/scoring";
@@ -98,7 +98,7 @@ export function HigherLowerGame() {
   const [secondsLeft, setSecondsLeft] = useState<number | null>(null);
 
   useEffect(() => {
-    Promise.all([loadTodayPuzzle<HigherLowerPuzzle>(MODE), loadDataset()]).then(([p, d]) => {
+    loadGame<HigherLowerPuzzle>(MODE).then(({ puzzle: p, data: d }) => {
       setData(d);
       setPuzzle(p);
       if (p) setProgress(loadProgress<Progress>(MODE, p.date));
