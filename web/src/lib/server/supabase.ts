@@ -81,12 +81,15 @@ export type WebRound = Round & { attributionUrl?: string };
  */
 const eurAsUsd = (eur: number | null | undefined) => (eur == null ? undefined : eur / USD_TO_EUR);
 
-/**
- * The logo path stored in Supabase wins. Until the loader writes it, use the curated file in
- * web/public/logos named after the company id (synced into logos.generated.json at build time).
- */
+/** The logo files deployed with the site (web/public/logos, listed at build time), by company id. */
 const LOGOS = new Map((logoFiles as string[]).map((f) => [f.replace(/\.(svg|png)$/, ""), `/logos/${f}`]));
-const fileLogo = (id: string) => LOGOS.get(id);
+const DEPLOYED = new Set(LOGOS.values());
+/**
+ * Supabase's path only if that file is deployed: the data side may load a company before its
+ * logo file reaches main, and a missing file would show as a broken image. Else the file
+ * named after the id, else nothing (the UI shows initials).
+ */
+const logoFor = (id: string, dbPath: string | null) => (dbPath && DEPLOYED.has(dbPath) ? dbPath : LOGOS.get(id));
 
 const ORIGINAL_CURRENCIES = ["EUR", "GBP", "SEK", "CHF"] as const;
 
@@ -107,7 +110,7 @@ export async function getDataset(): Promise<(Omit<Dataset, "rounds"> & { rounds:
         id: c.id,
         name: c.name,
         domain: c.domain,
-        logo: c.logo ?? fileLogo(c.id),
+        logo: logoFor(c.id, c.logo),
         european: true, // the database holds European companies only
         country: c.country,
         city: c.city ?? "",
