@@ -15,5 +15,5 @@ Requires Node 22.6+.
 
 ## Layout
 - `packages/schema`: shared TypeScript types (Company, Round, Puzzle, Hint…)
-- `data`: curated dataset, daily puzzles, scripts
+- `data`: curated dataset, daily puzzles, scripts ([research and pipeline plan](data/RESEARCH.md))
 - `web`: Next.js app
