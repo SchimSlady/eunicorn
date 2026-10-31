@@ -1,6 +1,6 @@
 "use client";
 
-import { useId, useState } from "react";
+import { useId, useRef, useState } from "react";
 import type { Company } from "@eunicorn/schema";
 import { searchCompanies } from "@/lib/data";
 import { CompanyLogo } from "./CompanyLogo";
@@ -29,7 +29,25 @@ export function CompanySearch({
   const [query, setQuery] = useState("");
   const [active, setActive] = useState(0);
   const [open, setOpen] = useState(true);
+  // The list opens towards the side with more room (upwards when the phone keyboard is up)
+  // and is never taller than that room, so nothing has to scroll to see it.
+  const [up, setUp] = useState(false);
+  const [maxH, setMaxH] = useState(240);
+  const inputRef = useRef<HTMLInputElement>(null);
   const listId = useId();
+
+  function measure() {
+    const el = inputRef.current;
+    if (!el) return;
+    const visible = window.visualViewport?.height ?? window.innerHeight;
+    const rect = el.getBoundingClientRect();
+    const header = 64; // the sticky site header covers the top of the page
+    const above = rect.top - header;
+    const below = visible - rect.bottom;
+    const openUp = below < 240 && above >= below;
+    setUp(openUp);
+    setMaxH(Math.max(120, Math.min(240, (openUp ? above : below) - 8)));
+  }
   const results = searchCompanies(
     companies.filter((c) => !exclude.has(c.id)),
     query,
@@ -46,6 +64,7 @@ export function CompanySearch({
   return (
     <div className="relative">
       <input
+        ref={inputRef}
         role="combobox"
         aria-expanded={expanded}
         aria-controls={listId}
@@ -57,11 +76,11 @@ export function CompanySearch({
           setQuery(e.target.value);
           setActive(0);
           setOpen(true);
+          measure();
         }}
-        onFocus={(e) => {
-          // On phones the keyboard covers the lower half: keep the input and its list in view.
-          if (matchMedia("(pointer: coarse)").matches) setTimeout(() => e.target.scrollIntoView({ block: "center", behavior: "smooth" }), 250);
-        }}
+        // The keyboard takes a moment to open; measure once it has. No forced scrolling, so the
+        // game above the input stays where it is.
+        onFocus={() => setTimeout(measure, 350)}
         onKeyDown={(e) => {
           if (e.key === "ArrowDown") setActive((a) => Math.min(a + 1, results.length - 1));
           else if (e.key === "ArrowUp") setActive((a) => Math.max(a - 1, 0));
@@ -85,7 +104,8 @@ export function CompanySearch({
           id={listId}
           role="listbox"
           aria-label="Matching companies"
-          className="absolute inset-x-0 top-full z-10 mt-1 max-h-72 overflow-y-auto rounded-2xl border border-border bg-surface shadow-lg"
+          style={{ maxHeight: maxH }}
+          className={`absolute inset-x-0 z-30 overflow-y-auto rounded-2xl border border-border bg-surface shadow-lg ${up ? "bottom-full mb-1" : "top-full mt-1"}`}
         >
           {results.map((c, i) => (
             <li
