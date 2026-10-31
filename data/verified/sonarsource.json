@@ -1,0 +1,95 @@
+{
+  "id": "sonarsource",
+  "name": "Sonar",
+  "aliases": [
+    "SonarSource"
+  ],
+  "domain": "sonarsource.com",
+  "country": "CH",
+  "city": "Geneva",
+  "founded": 2008,
+  "sectors": [
+    "saas",
+    "cybersecurity"
+  ],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 4403222784,
+  "founders": [
+    "Olivier Gaudin",
+    "Freddy Mallet",
+    "Simon Brandhof"
+  ],
+  "difficulty": 3,
+  "techeuId": "F629C828-E634-4554-B5E1-8DC0785E1544",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/SonarSource",
+      "quote": "Founded by Olivier Gaudin, Freddy Mallet, and Simon Brandhof in 2008, Sonar is headquartered in Geneva"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/SonarSource",
+      "quote": "Founded by Olivier Gaudin, Freddy Mallet, and Simon Brandhof in 2008, Sonar is headquartered in Geneva"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/SonarSource",
+      "quote": "Founded by Olivier Gaudin, Freddy Mallet, and Simon Brandhof in 2008, Sonar is headquartered in Geneva"
+    },
+    {
+      "field": "sectors",
+      "url": "https://techcrunch.com/2022/04/26/sonarsource-raises-412m-to-scan-codebases-for-bugs-and-vulnerabilities/",
+      "quote": "SonarSource, a startup developing products to scan codebases for issues and bugs"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://techcrunch.com/2022/04/26/sonarsource-raises-412m-to-scan-codebases-for-bugs-and-vulnerabilities/",
+      "quote": "SonarSource , whose technology detects reliability and vulnerability issues in code, today announced that it raised $412 million in a funding round co-led by Advent International and General Catalyst at a $4.7 billion valuation."
+    },
+    {
+      "field": "valuation",
+      "url": "https://techcrunch.com/2022/04/26/sonarsource-raises-412m-to-scan-codebases-for-bugs-and-vulnerabilities/",
+      "quote": "SonarSource , whose technology detects reliability and vulnerability issues in code, today announced that it raised $412 million in a funding round co-led by Advent International and General Catalyst at a $4.7 billion valuation."
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "c10fd8fc-3c3f-46ea-be59-20802b4c1457",
+      "stage": "series-f+",
+      "month": "2022-04",
+      "amountEur": 385984636,
+      "amountOriginal": 412000000,
+      "currency": "USD",
+      "investors": [
+        "Advent International",
+        "General Catalyst",
+        "Permira",
+        "Insight Partners"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2022/04/26/sonarsource-raises-412m-to-scan-codebases-for-bugs-and-vulnerabilities/",
+          "quote": "SonarSource , whose technology detects reliability and vulnerability issues in code, today announced that it raised $412 million in a funding round co-led by Advent International and General Catalyst at a $4.7 billion valuation."
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2022/04/26/swiss-clean-code-platform-sonarsource-raises-412-million-at-47-billion-valuation/",
+          "quote": "2022-04-26T12:01:03+00:00"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2022/04/26/sonarsource-raises-412m-to-scan-codebases-for-bugs-and-vulnerabilities/",
+          "quote": "SonarSource , whose technology detects reliability and vulnerability issues in code, today announced that it raised $412 million in a funding round co-led by Advent International and General Catalyst at a $4.7 billion valuation."
+        },
+        {
+          "field": "investors",
+          "url": "https://en.wikipedia.org/wiki/SonarSource",
+          "quote": "Permira and existing investor Insight Partners also participated in the round."
+        }
+      ]
+    }
+  ]
+}

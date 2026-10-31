@@ -1,0 +1,105 @@
+{
+  "id": "paack",
+  "name": "Paack",
+  "aliases": [],
+  "domain": "paack.co",
+  "country": "ES",
+  "city": "Barcelona",
+  "founded": 2015,
+  "sectors": [
+    "saas"
+  ],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 1000000000,
+  "founders": [
+    "Fernando Benito",
+    "Xavier Rosales",
+    "Suraj Shirvankar"
+  ],
+  "difficulty": 4,
+  "techeuId": "E2A72951-ECDD-444A-9DE7-4AEE6EC21983",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.alimarket.es/logistica/noticia_amp/344547/paack-capta-200-m-y-se-acerca-a-la-condicion-de-unicornio",
+      "quote": "Paack tiene su sede en Barcelona"
+    },
+    {
+      "field": "founded",
+      "url": "https://nordic9.com/news/paack-raised-200-million-in-a-series-d-funding-round-led-by-softbank-vision-fund-2",
+      "quote": "Paack, founded in 2015 by Fernando Benito (CEO), Xavier Rosales and Suraj Shirvankar"
+    },
+    {
+      "field": "founders",
+      "url": "https://nordic9.com/news/paack-raised-200-million-in-a-series-d-funding-round-led-by-softbank-vision-fund-2",
+      "quote": "Paack, founded in 2015 by Fernando Benito (CEO), Xavier Rosales and Suraj Shirvankar"
+    },
+    {
+      "field": "sectors",
+      "url": "https://nordic9.com/news/paack-raised-200-million-in-a-series-d-funding-round-led-by-softbank-vision-fund-2",
+      "quote": "develops SAAS for e-commerce delivery"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://www.unquote.com/southern-europe/official-record/3026030/softbank-vision-fund-leads-eur-200m-series-d-for-paack",
+      "quote": "The round values Paack at EUR 1bn."
+    },
+    {
+      "field": "valuation",
+      "url": "https://www.unquote.com/southern-europe/official-record/3026030/softbank-vision-fund-leads-eur-200m-series-d-for-paack",
+      "quote": "The round values Paack at EUR 1bn."
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "4ea401d2-47c3-416a-a53a-bf0fce2c923f",
+      "stage": "series-d",
+      "month": "2022-01",
+      "amountEur": 200000000,
+      "amountOriginal": 200000000,
+      "currency": "EUR",
+      "investors": [
+        "SoftBank Vision Fund 2",
+        "Infravia Capital Partners",
+        "First Bridge Ventures",
+        "Endeavor Catalyst",
+        "Kibo Ventures",
+        "Unbound",
+        "Big Sur Ventures",
+        "RPS Ventures",
+        "Fuse Partners",
+        "Rider Global",
+        "Castel Capital",
+        "Iñaki Berenguer"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2022/01/25/paack-pulls-in-a-225m-series-d-led-by-softbank-to-scale-its-e-commerce-delivery-platform",
+          "quote": "It’s now raised €200 million ($225 million) in a Series D funding round led by SoftBank Vision Fund 2."
+        },
+        {
+          "field": "stage",
+          "url": "https://www.unquote.com/southern-europe/official-record/3026030/softbank-vision-fund-leads-eur-200m-series-d-for-paack",
+          "quote": "Softbank has led a EUR 200m Series D round"
+        },
+        {
+          "field": "month",
+          "url": "https://nordic9.com/news/paack-raised-200-million-in-a-series-d-funding-round-led-by-softbank-vision-fund-2",
+          "quote": "24 January 2022"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.unquote.com/southern-europe/official-record/3026030/softbank-vision-fund-leads-eur-200m-series-d-for-paack",
+          "quote": "Investing alongside Softbank's Vision Fund II were new participants Infravia Capital Partners, First Bridge Ventures and Endeavor Catalyst."
+        },
+        {
+          "field": "investors",
+          "url": "https://www.unquote.com/southern-europe/official-record/3026030/softbank-vision-fund-leads-eur-200m-series-d-for-paack",
+          "quote": "Existing investors included Kibo Ventures, Unbound, Big Sur Ventures, RPS Ventures, Fuse Partners, Rider Global, Castel Capital and Iñaki Berenguer."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "id": "paddle",
+  "name": "Paddle",
+  "aliases": [
+    "Paddle.com"
+  ],
+  "domain": "paddle.com",
+  "country": "GB",
+  "city": "London",
+  "founded": 2012,
+  "sectors": [
+    "fintech",
+    "saas"
+  ],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 1326511275,
+  "founders": [
+    "Christian Owens",
+    "Harrison Rose"
+  ],
+  "difficulty": 3,
+  "techeuId": "2F0DF543-0723-4DC3-9436-A756E154D6DD",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://tech.eu/2022/05/10/paddle-pilots-200-million-to-port-at-14-billion-valuation/",
+      "quote": "London-based payments infrastructure provider Paddle"
+    },
+    {
+      "field": "founded",
+      "url": "https://businesscloud.co.uk/news/london-saas-payments-platform-paddle-raises-52m/",
+      "quote": "Paddle was founded in 2012 by British co-founders Christian Owens and Harrison Rose"
+    },
+    {
+      "field": "founders",
+      "url": "https://businesscloud.co.uk/news/london-saas-payments-platform-paddle-raises-52m/",
+      "quote": "Paddle was founded in 2012 by British co-founders Christian Owens and Harrison Rose"
+    },
+    {
+      "field": "sectors",
+      "url": "https://tech.eu/2022/05/10/paddle-pilots-200-million-to-port-at-14-billion-valuation/",
+      "quote": "London-based payments infrastructure provider Paddle"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://ftvcapital.com/2022/paddle-the-company-that-wants-to-take-on-apple-in-iap-raises-200m-at-a-1-4b-valuation-to-supercharge-saas-payments",
+      "quote": "values London-based Paddle at $1.4 billion"
+    },
+    {
+      "field": "valuation",
+      "url": "https://ftvcapital.com/2022/paddle-the-company-that-wants-to-take-on-apple-in-iap-raises-200m-at-a-1-4b-valuation-to-supercharge-saas-payments",
+      "quote": "values London-based Paddle at $1.4 billion"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "a9698048-9235-474f-f1f1-08d91092c887",
+      "stage": "series-b",
+      "month": "2017-12",
+      "amountEur": 10552976,
+      "amountOriginal": 12500000,
+      "currency": "USD",
+      "investors": [
+        "Notion Capital",
+        "BGF Ventures",
+        "Kindred Capital",
+        "MacPaw"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://fintech.global/2017/12/14/paddle-raises-12-5m-funding-led-by-notion/",
+          "quote": "Online payment solution Paddle has raised $12.5m in funding led by Notion."
+        },
+        {
+          "field": "month",
+          "url": "https://fintech.global/2017/12/14/paddle-raises-12-5m-funding-led-by-notion/",
+          "quote": "December 14, 2017"
+        },
+        {
+          "field": "investors",
+          "url": "https://fintech.global/2017/12/14/paddle-raises-12-5m-funding-led-by-notion/",
+          "quote": "Previous investors BGF Ventures and Kindred Capital committed to the investment, while new backer MacPaw also made a contribution."
+        }
+      ]
+    },
+    {
+      "techeuId": "79f405f9-d21f-4e99-f1f3-08d91092c887",
+      "stage": "series-c",
+      "month": "2020-11",
+      "amountEur": 57229423,
+      "amountOriginal": 68000000,
+      "currency": "USD",
+      "investors": [
+        "FTV Capital",
+        "Kindred Capital",
+        "Notion Capital",
+        "83North"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://businesscloud.co.uk/news/london-saas-payments-platform-paddle-raises-52m/",
+          "quote": "Paddle has raised $68m (£52 million) in Series C funding."
+        },
+        {
+          "field": "stage",
+          "url": "https://businesscloud.co.uk/news/london-saas-payments-platform-paddle-raises-52m/",
+          "quote": "Paddle has raised $68m (£52 million) in Series C funding."
+        },
+        {
+          "field": "month",
+          "url": "https://businesscloud.co.uk/news/london-saas-payments-platform-paddle-raises-52m/",
+          "quote": "2020-11-17T08:22:35+00:00"
+        },
+        {
+          "field": "investors",
+          "url": "https://businesscloud.co.uk/news/london-saas-payments-platform-paddle-raises-52m/",
+          "quote": "Investors in the latest round including FTV Capital, Kindred Capital, Notion Capital, and 83North."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "id": "black-forest-labs",
+  "name": "Black Forest Labs",
+  "aliases": [
+    "BFL"
+  ],
+  "domain": "bfl.ai",
+  "country": "DE",
+  "city": "Freiburg",
+  "founded": 2024,
+  "sectors": [
+    "ai"
+  ],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 2790657737,
+  "founders": [
+    "Robin Rombach",
+    "Andreas Blattmann",
+    "Patrick Esser"
+  ],
+  "difficulty": 3,
+  "techeuId": "88CAAD4C-E3D5-4F9B-9705-026CEE7A8A07",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://tech.eu/2025/12/01/black-forest-labs-secures-300m-series-b-at-325b-valuation/",
+      "quote": "From its headquarters in Freiburg and San Francisco, the company is hiring and inviting others to help build the future of visual intelligence."
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Black_Forest_Labs",
+      "quote": "Black Forest Labs (BFL) was founded in 2024 by Robin Rombach, Andreas Blattmann, and Patrick Esser, former employees of Stability AI,"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Black_Forest_Labs",
+      "quote": "Black Forest Labs (BFL) was founded in 2024 by Robin Rombach, Andreas Blattmann, and Patrick Esser, former employees of Stability AI,"
+    },
+    {
+      "field": "sectors",
+      "url": "https://tech.eu/2025/12/01/black-forest-labs-secures-300m-series-b-at-325b-valuation/",
+      "quote": "Today Black Forest Labs has announced a $300 million Series B round at a $3.25 billion post-money valuation."
+    },
+    {
+      "field": "unicorn",
+      "url": "https://bfl.ai/",
+      "quote": "Today, we're excited to announce our Series B of $300M at a $3.25B post-money valuation."
+    },
+    {
+      "field": "valuation",
+      "url": "https://bfl.ai/",
+      "quote": "Today, we're excited to announce our Series B of $300M at a $3.25B post-money valuation."
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "fc9ab997-1749-4453-8e65-3e3608dc100d",
+      "stage": "seed",
+      "month": "2024-08",
+      "amountEur": 28732969,
+      "amountOriginal": 31000000,
+      "currency": "USD",
+      "investors": [
+        "Andreessen Horowitz",
+        "Brendan Iribe",
+        "Michael Ovitz",
+        "Garry Tan",
+        "Timo Aila",
+        "Vladlen Koltun",
+        "General Catalyst",
+        "MätchVC"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://bfl.ai/announcements/24-08-01-bfl",
+          "quote": "We are excited to announce the successful closing of our Series Seed funding round of $31 million."
+        },
+        {
+          "field": "stage",
+          "url": "https://bfl.ai/announcements/24-08-01-bfl",
+          "quote": "We are excited to announce the successful closing of our Series Seed funding round of $31 million."
+        },
+        {
+          "field": "month",
+          "url": "https://bfl.ai/announcements/24-08-01-bfl",
+          "quote": "August 1, 2024"
+        },
+        {
+          "field": "investors",
+          "url": "https://bfl.ai/announcements/24-08-01-bfl",
+          "quote": "This round was led by our main investor, Andreessen Horowitz , including notable participation from angel investors Brendan Iribe , Michael Ovitz , Garry Tan , Timo Aila , and Vladlen Koltun , and other renowned experts in AI research and company building."
+        },
+        {
+          "field": "investors",
+          "url": "https://bfl.ai/announcements/24-08-01-bfl",
+          "quote": "We have received follow-up investments from General Catalyst and MätchVC to support us on our mission to bring state-of-the-art AI from Europe to everyone around the world."
+        }
+      ]
+    },
+    {
+      "techeuId": "1c4e2603-83cd-4537-ac9f-6a602a329056",
+      "stage": "series-b",
+      "month": "2025-12",
+      "amountEur": 257599176,
+      "amountOriginal": 300000000,
+      "currency": "USD",
+      "postMoneyValuationEur": 2790657737,
+      "investors": [
+        "Salesforce Ventures",
+        "Anjney Midha (AMP)",
+        "a16z",
+        "NVIDIA",
+        "Northzone",
+        "Creandum",
+        "Earlybird VC",
+        "BroadLight Capital",
+        "General Catalyst",
+        "Temasek",
+        "Bain Capital Ventures",
+        "Air Street Capital",
+        "Visionaries Club",
+        "Canva",
+        "Figma Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2025/12/01/black-forest-labs-secures-300m-series-b-at-325b-valuation/",
+          "quote": "Today Black Forest Labs has announced a $300 million Series B round at a $3.25 billion post-money valuation."
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2025/12/01/black-forest-labs-secures-300m-series-b-at-325b-valuation/",
+          "quote": "Today Black Forest Labs has announced a $300 million Series B round at a $3.25 billion post-money valuation."
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2025/12/01/black-forest-labs-secures-300m-series-b-at-325b-valuation/",
+          "quote": "Cate Lawrence 01 December 2025"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2025/12/01/black-forest-labs-raises-300m-at-3-25b-valuation",
+          "quote": "The round was co-led by Salesforce Ventures and Anjney Midha (AMP), and saw participation from a16z, NVIDIA, Northzone, Creandum, Earlybird VC, BroadLight Capital, General Catalyst, Temasek, Bain Capital Ventures, Air Street Capital, Visionaries Club, Canva, and Figma Ventures."
+        }
+      ]
+    }
+  ]
+}

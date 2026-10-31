@@ -1,0 +1,319 @@
+{
+  "id": "pennylane",
+  "name": "Pennylane",
+  "aliases": [],
+  "domain": "pennylane.com",
+  "country": "FR",
+  "city": "Paris",
+  "founded": 2020,
+  "sectors": [
+    "fintech",
+    "saas"
+  ],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 3500000000,
+  "founders": [
+    "Arthur Waller"
+  ],
+  "difficulty": 3,
+  "techeuId": "00CCA93B-6A5C-4DF8-8AEA-74CC3EA6870E",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.pennylane.com/en/",
+      "quote": "Paris · Berlin · Barcelona"
+    },
+    {
+      "field": "founded",
+      "url": "https://tech.eu/2025/04/07/french-unicorn-pennylane-scores-eur75m-funding-as-capial-g-joins-investor-roster/",
+      "quote": "Founded in 2020, Pennylane aims to become a key financial management and accounting platform for startups, SMEs, and their accountants."
+    },
+    {
+      "field": "founders",
+      "url": "https://fr.wikipedia.org/wiki/Pennylane",
+      "quote": "Fondateur Arthur Waller"
+    },
+    {
+      "field": "sectors",
+      "url": "https://tech.eu/2025/04/07/french-unicorn-pennylane-scores-eur75m-funding-as-capial-g-joins-investor-roster/",
+      "quote": "Founded in 2020, Pennylane aims to become a key financial management and accounting platform for startups, SMEs, and their accountants."
+    },
+    {
+      "field": "unicorn",
+      "url": "https://fr.wikipedia.org/wiki/Pennylane",
+      "quote": "Le 20 janvier 2026 , Pennylane annonce une levée de fonds de 175 millions d’euros, menée par le fonds américain TCV, portant sa valorisation à 3,5 milliards d’euros"
+    },
+    {
+      "field": "valuation",
+      "url": "https://fr.wikipedia.org/wiki/Pennylane",
+      "quote": "Le 20 janvier 2026 , Pennylane annonce une levée de fonds de 175 millions d’euros, menée par le fonds américain TCV, portant sa valorisation à 3,5 milliards d’euros"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "seed",
+      "month": "2020-05",
+      "amountEur": 4000000,
+      "amountOriginal": 4000000,
+      "currency": "EUR",
+      "investors": [
+        "Global Founders Capital",
+        "Partech Partners",
+        "Kima Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://fr.wikipedia.org/wiki/Pennylane",
+          "quote": "Le 18 mai 2020 , l'entreprise lève 4 millions d'euros auprès de Global Founders Capital , Partech Partners et Kima Ventures"
+        },
+        {
+          "field": "month",
+          "url": "https://fr.wikipedia.org/wiki/Pennylane",
+          "quote": "Le 18 mai 2020 , l'entreprise lève 4 millions d'euros auprès de Global Founders Capital , Partech Partners et Kima Ventures"
+        },
+        {
+          "field": "investors",
+          "url": "https://fr.wikipedia.org/wiki/Pennylane",
+          "quote": "Le 18 mai 2020 , l'entreprise lève 4 millions d'euros auprès de Global Founders Capital , Partech Partners et Kima Ventures"
+        }
+      ]
+    },
+    {
+      "techeuId": "eed39da0-006e-4d80-fb41-08d91092c887",
+      "stage": "series-a",
+      "month": "2021-01",
+      "amountEur": 15000000,
+      "amountOriginal": 15000000,
+      "currency": "EUR",
+      "investors": [
+        "Global Founders Capital",
+        "Partech"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://fr.wikipedia.org/wiki/Pennylane",
+          "quote": "Le 7 janvier 2021 , pour se développer en Europe, elle lève 15 millions d'euros en série A avec Global Founders Capital et Partech"
+        },
+        {
+          "field": "stage",
+          "url": "https://fr.wikipedia.org/wiki/Pennylane",
+          "quote": "Le 7 janvier 2021 , pour se développer en Europe, elle lève 15 millions d'euros en série A avec Global Founders Capital et Partech"
+        },
+        {
+          "field": "month",
+          "url": "https://fr.wikipedia.org/wiki/Pennylane",
+          "quote": "Le 7 janvier 2021 , pour se développer en Europe, elle lève 15 millions d'euros en série A avec Global Founders Capital et Partech"
+        },
+        {
+          "field": "investors",
+          "url": "https://fr.wikipedia.org/wiki/Pennylane",
+          "quote": "Le 7 janvier 2021 , pour se développer en Europe, elle lève 15 millions d'euros en série A avec Global Founders Capital et Partech"
+        }
+      ]
+    },
+    {
+      "techeuId": "9cb0408d-7058-4033-8667-78356a3eb8cf",
+      "stage": "series-a",
+      "month": "2021-06",
+      "amountEur": 15000000,
+      "amountOriginal": 15000000,
+      "currency": "EUR",
+      "investors": [
+        "Sequoia Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://fr.wikipedia.org/wiki/Pennylane",
+          "quote": "Puis une nouvelle fois, le 8 juin 2021 , pour le même montant auprès du fonds californien Sequoia Capital"
+        },
+        {
+          "field": "month",
+          "url": "https://fr.wikipedia.org/wiki/Pennylane",
+          "quote": "Puis une nouvelle fois, le 8 juin 2021 , pour le même montant auprès du fonds californien Sequoia Capital"
+        },
+        {
+          "field": "investors",
+          "url": "https://fr.wikipedia.org/wiki/Pennylane",
+          "quote": "Puis une nouvelle fois, le 8 juin 2021 , pour le même montant auprès du fonds californien Sequoia Capital"
+        }
+      ]
+    },
+    {
+      "techeuId": "a62270a0-6442-4c71-9c5b-472cbb38d457",
+      "stage": "series-b",
+      "month": "2022-01",
+      "amountEur": 50000000,
+      "amountOriginal": 50000000,
+      "currency": "EUR",
+      "investors": [
+        "Partech",
+        "Global Founders Capital",
+        "Sequoia Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://fr.wikipedia.org/wiki/Pennylane",
+          "quote": "Le 28 janvier 2022 , l'entreprise annonce un nouveau financement de 50 millions d'euros en série B par Partech, Global Founders Capital et Sequoia"
+        },
+        {
+          "field": "stage",
+          "url": "https://fr.wikipedia.org/wiki/Pennylane",
+          "quote": "Le 28 janvier 2022 , l'entreprise annonce un nouveau financement de 50 millions d'euros en série B par Partech, Global Founders Capital et Sequoia"
+        },
+        {
+          "field": "month",
+          "url": "https://fr.wikipedia.org/wiki/Pennylane",
+          "quote": "Le 28 janvier 2022 , l'entreprise annonce un nouveau financement de 50 millions d'euros en série B par Partech, Global Founders Capital et Sequoia"
+        },
+        {
+          "field": "investors",
+          "url": "https://fr.wikipedia.org/wiki/Pennylane",
+          "quote": "Le 28 janvier 2022 , l'entreprise annonce un nouveau financement de 50 millions d'euros en série B par Partech, Global Founders Capital et Sequoia"
+        }
+      ]
+    },
+    {
+      "techeuId": "280b4bcb-b5de-47be-92f5-928b646cf524",
+      "stage": "series-c",
+      "month": "2023-05",
+      "amountEur": 29500000,
+      "amountOriginal": 29500000,
+      "currency": "EUR",
+      "investors": [
+        "DST Global",
+        "Sequoia Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://fr.wikipedia.org/wiki/Pennylane",
+          "quote": "Le 2 mai 2023 , l'entreprise lève 29,5 millions d'euros en série C, dont 26,5 millions par le fonds DST Global"
+        },
+        {
+          "field": "stage",
+          "url": "https://fr.wikipedia.org/wiki/Pennylane",
+          "quote": "Le 2 mai 2023 , l'entreprise lève 29,5 millions d'euros en série C, dont 26,5 millions par le fonds DST Global"
+        },
+        {
+          "field": "month",
+          "url": "https://fr.wikipedia.org/wiki/Pennylane",
+          "quote": "Le 2 mai 2023 , l'entreprise lève 29,5 millions d'euros en série C, dont 26,5 millions par le fonds DST Global"
+        },
+        {
+          "field": "investors",
+          "url": "https://fr.wikipedia.org/wiki/Pennylane",
+          "quote": "Le 2 mai 2023 , l'entreprise lève 29,5 millions d'euros en série C, dont 26,5 millions par le fonds DST Global"
+        },
+        {
+          "field": "investors",
+          "url": "https://fr.wikipedia.org/wiki/Pennylane",
+          "quote": "et Sequoia Capital. À la suite de cette nouvelle collecte de fonds"
+        }
+      ]
+    },
+    {
+      "techeuId": "de65ad7b-1fd2-48f0-929b-e7f57a82ad14",
+      "stage": "series-c",
+      "month": "2024-02",
+      "amountEur": 40000000,
+      "amountOriginal": 40000000,
+      "currency": "EUR",
+      "investors": [
+        "Sequoia Capital",
+        "DST Global"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://fr.wikipedia.org/wiki/Pennylane",
+          "quote": "Le 8 février 2024 , elle lève 40 millions d'euros supplémentaires auprès de Sequoia Capital et de DST Global"
+        },
+        {
+          "field": "month",
+          "url": "https://fr.wikipedia.org/wiki/Pennylane",
+          "quote": "Le 8 février 2024 , elle lève 40 millions d'euros supplémentaires auprès de Sequoia Capital et de DST Global"
+        },
+        {
+          "field": "investors",
+          "url": "https://fr.wikipedia.org/wiki/Pennylane",
+          "quote": "Le 8 février 2024 , elle lève 40 millions d'euros supplémentaires auprès de Sequoia Capital et de DST Global"
+        }
+      ]
+    },
+    {
+      "techeuId": "eab725f7-4396-4c7e-ad9a-bcc60deac240",
+      "stage": "series-d",
+      "month": "2025-04",
+      "amountEur": 75000000,
+      "amountOriginal": 75000000,
+      "currency": "EUR",
+      "investors": [
+        "Sequoia Capital",
+        "CapitalG",
+        "Meritech Capital Partners",
+        "DST Global"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://fr.wikipedia.org/wiki/Pennylane",
+          "quote": "Le 7 avril 2025 , elle annonce une nouvelle levée de fonds de 75 millions d'euros"
+        },
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2025/04/07/french-unicorn-pennylane-scores-eur75m-funding-as-capial-g-joins-investor-roster/",
+          "quote": "has raised €75m in a funding round co-led by Sequoia Capital, Alphabet’s CapitalG, and Meritech Capital Partners, with DST Global also participating."
+        },
+        {
+          "field": "month",
+          "url": "https://fr.wikipedia.org/wiki/Pennylane",
+          "quote": "Le 7 avril 2025 , elle annonce une nouvelle levée de fonds de 75 millions d'euros"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2025/04/07/french-unicorn-pennylane-scores-eur75m-funding-as-capial-g-joins-investor-roster/",
+          "quote": "has raised €75m in a funding round co-led by Sequoia Capital, Alphabet’s CapitalG, and Meritech Capital Partners, with DST Global also participating."
+        }
+      ]
+    },
+    {
+      "techeuId": "9b56fc26-5187-47d9-9bfb-fce839576d31",
+      "stage": "series-e",
+      "month": "2026-01",
+      "amountEur": 175000000,
+      "amountOriginal": 175000000,
+      "currency": "EUR",
+      "investors": [
+        "TCV",
+        "Blackstone Growth"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://fr.wikipedia.org/wiki/Pennylane",
+          "quote": "Le 20 janvier 2026 , Pennylane annonce une levée de fonds de 175 millions d’euros, menée par le fonds américain TCV, portant sa valorisation à 3,5 milliards d’euros"
+        },
+        {
+          "field": "month",
+          "url": "https://fr.wikipedia.org/wiki/Pennylane",
+          "quote": "Le 20 janvier 2026 , Pennylane annonce une levée de fonds de 175 millions d’euros, menée par le fonds américain TCV, portant sa valorisation à 3,5 milliards d’euros"
+        },
+        {
+          "field": "investors",
+          "url": "https://fr.wikipedia.org/wiki/Pennylane",
+          "quote": "Le 20 janvier 2026 , Pennylane annonce une levée de fonds de 175 millions d’euros, menée par le fonds américain TCV, portant sa valorisation à 3,5 milliards d’euros"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.maddyness.com/2026/01/20/pennylane-nouvelle-levee-de-fonds-de-175-millions-deuros-pour-la-licorne-francaise/",
+          "quote": "avec le fonds américain TCV (Netflix, Airbnb, Spotify…) à la baguette et la participation de Blackstone Growth."
+        }
+      ]
+    }
+  ]
+}

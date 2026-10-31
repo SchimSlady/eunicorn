@@ -1,0 +1,215 @@
+{
+  "id": "payfit",
+  "name": "PayFit",
+  "aliases": [
+    "Payfit"
+  ],
+  "domain": "payfit.com",
+  "country": "FR",
+  "city": "Paris",
+  "founded": 2015,
+  "sectors": [
+    "saas",
+    "fintech"
+  ],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 1820000000,
+  "founders": [
+    "Firmin Zocchetto",
+    "Ghislain de Fontenay",
+    "Florian Fournier"
+  ],
+  "difficulty": 3,
+  "techeuId": "1858970E-7BBA-41D9-875D-9DB008F00546",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://tech.eu/brief/payfit-brings-it-on-home-with-e254-million-in-new-capital-now-valued-at-e1-82-billion/",
+      "quote": "Parisian SME-focused payroll and HR management solution PayFit"
+    },
+    {
+      "field": "founded",
+      "url": "https://payfit.com/payfit-becomes-a-unicorn/",
+      "quote": "Since our founding in 2015"
+    },
+    {
+      "field": "founders",
+      "url": "https://fr.wikipedia.org/wiki/PayFit",
+      "quote": "Firmin Zocchetto, Ghislain de Fontenay et Florian Fournier"
+    },
+    {
+      "field": "sectors",
+      "url": "https://tech.eu/brief/payfit-brings-it-on-home-with-e254-million-in-new-capital-now-valued-at-e1-82-billion/",
+      "quote": "Parisian SME-focused payroll and HR management solution PayFit"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://payfit.com/payfit-becomes-a-unicorn/",
+      "quote": "This round now makes us a unicorn with a valuation of €1.82 billion"
+    },
+    {
+      "field": "valuation",
+      "url": "https://payfit.com/payfit-becomes-a-unicorn/",
+      "quote": "This round now makes us a unicorn with a valuation of €1.82 billion"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "5bcc3f48-7313-4e36-fb29-08d91092c887",
+      "stage": "series-a",
+      "month": "2016-10",
+      "amountEur": 5000000,
+      "amountOriginal": 5000000,
+      "currency": "EUR",
+      "investors": [
+        "Otium Venture",
+        "Xavier Niel"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://fr.wikipedia.org/wiki/PayFit",
+          "quote": "En octobre de la même année, Payfit réalise un second tour de table de 5 millions d'euros auprès d'Otium Venture et Xavier Niel"
+        },
+        {
+          "field": "month",
+          "url": "https://fr.wikipedia.org/wiki/PayFit",
+          "quote": "Payfit lève 5 millions d'euros et vise l'Europe , Les Echos , 11 octobre 2016"
+        },
+        {
+          "field": "investors",
+          "url": "https://fr.wikipedia.org/wiki/PayFit",
+          "quote": "En octobre de la même année, Payfit réalise un second tour de table de 5 millions d'euros auprès d'Otium Venture et Xavier Niel"
+        }
+      ]
+    },
+    {
+      "techeuId": "1e50d1e1-045e-4d27-fb2a-08d91092c887",
+      "stage": "series-b",
+      "month": "2017-07",
+      "amountEur": 14000000,
+      "amountOriginal": 14000000,
+      "currency": "EUR",
+      "investors": [
+        "Accel"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://fr.wikipedia.org/wiki/PayFit",
+          "quote": "En juillet 2017 , la startup lève 14 millions d'euros auprès d' Accel"
+        },
+        {
+          "field": "month",
+          "url": "https://fr.wikipedia.org/wiki/PayFit",
+          "quote": "En juillet 2017 , la startup lève 14 millions d'euros auprès d' Accel"
+        },
+        {
+          "field": "investors",
+          "url": "https://fr.wikipedia.org/wiki/PayFit",
+          "quote": "En juillet 2017 , la startup lève 14 millions d'euros auprès d' Accel"
+        }
+      ]
+    },
+    {
+      "techeuId": "bdf6d300-9a70-4950-fb2b-08d91092c887",
+      "stage": "series-c",
+      "month": "2019-06",
+      "amountEur": 70000000,
+      "amountOriginal": 70000000,
+      "currency": "EUR",
+      "investors": [
+        "Eurazeo",
+        "Bpifrance",
+        "Accel",
+        "Kima Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://fr.wikipedia.org/wiki/PayFit",
+          "quote": "En juin 2019 , Eurazeo et BPI France rejoignent les actionnaires historiques Accel et Kima Ventures lors d'un tour de table de 70 millions d'euros"
+        },
+        {
+          "field": "month",
+          "url": "https://fr.wikipedia.org/wiki/PayFit",
+          "quote": "En juin 2019 , Eurazeo et BPI France rejoignent les actionnaires historiques Accel et Kima Ventures lors d'un tour de table de 70 millions d'euros"
+        },
+        {
+          "field": "investors",
+          "url": "https://fr.wikipedia.org/wiki/PayFit",
+          "quote": "En juin 2019 , Eurazeo et BPI France rejoignent les actionnaires historiques Accel et Kima Ventures lors d'un tour de table de 70 millions d'euros"
+        }
+      ]
+    },
+    {
+      "techeuId": "fc9eceb8-1ad7-4f18-fb2c-08d91092c887",
+      "stage": "series-d",
+      "month": "2021-03",
+      "amountEur": 90000000,
+      "amountOriginal": 90000000,
+      "currency": "EUR",
+      "investors": [
+        "Eurazeo",
+        "Bpifrance",
+        "Accel",
+        "Frst",
+        "Xavier Niel"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://fr.wikipedia.org/wiki/PayFit",
+          "quote": "En mars 2021 , Payfit réalise une cinquième levée de fonds de 90 millions d'euros auprès d'Eurazeo et Bpifrance via son fonds Large Venture, aux côtés de ses investisseurs historiques Accel, Frst et Xavier Niel"
+        },
+        {
+          "field": "month",
+          "url": "https://fr.wikipedia.org/wiki/PayFit",
+          "quote": "En mars 2021 , Payfit réalise une cinquième levée de fonds de 90 millions d'euros auprès d'Eurazeo et Bpifrance via son fonds Large Venture, aux côtés de ses investisseurs historiques Accel, Frst et Xavier Niel"
+        },
+        {
+          "field": "investors",
+          "url": "https://fr.wikipedia.org/wiki/PayFit",
+          "quote": "En mars 2021 , Payfit réalise une cinquième levée de fonds de 90 millions d'euros auprès d'Eurazeo et Bpifrance via son fonds Large Venture, aux côtés de ses investisseurs historiques Accel, Frst et Xavier Niel"
+        }
+      ]
+    },
+    {
+      "techeuId": "f59fe577-9dd3-47e9-9562-f3b15efd2405",
+      "stage": "series-e",
+      "month": "2022-01",
+      "amountEur": 254000000,
+      "amountOriginal": 254000000,
+      "currency": "EUR",
+      "investors": [
+        "General Atlantic",
+        "Eurazeo",
+        "Bpifrance",
+        "Accel"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://payfit.com/payfit-becomes-a-unicorn/",
+          "quote": "Today we announced that we have raised €254 million (£216M) in a Series E funding round"
+        },
+        {
+          "field": "stage",
+          "url": "https://payfit.com/payfit-becomes-a-unicorn/",
+          "quote": "Today we announced that we have raised €254 million (£216M) in a Series E funding round"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/brief/payfit-brings-it-on-home-with-e254-million-in-new-capital-now-valued-at-e1-82-billion/",
+          "quote": "January 2022"
+        },
+        {
+          "field": "investors",
+          "url": "https://payfit.com/payfit-becomes-a-unicorn/",
+          "quote": "General Atlantic, a leading global growth equity firm, led the round, with participation from our existing investors Eurazeo, Bpifrance and Accel Ventures."
+        }
+      ]
+    }
+  ]
+}

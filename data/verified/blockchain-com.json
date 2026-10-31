@@ -1,0 +1,172 @@
+{
+  "id": "blockchain-com",
+  "name": "Blockchain.com",
+  "aliases": [
+    "Blockchain.info"
+  ],
+  "domain": "blockchain.com",
+  "country": "GB",
+  "city": "London",
+  "founded": 2011,
+  "sectors": [
+    "crypto"
+  ],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 4397463002,
+  "founders": [
+    "Peter Smith",
+    "Benjamin Reeves",
+    "Nicolas Cary"
+  ],
+  "difficulty": 2,
+  "techeuId": "964C3AF6-0F36-4702-8569-846816B3CA99",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/Blockchain.com",
+      "quote": "Headquarters London, England , United Kingdom"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Blockchain.com",
+      "quote": "Founded August 2011"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Blockchain.com",
+      "quote": "Founder Peter Smith , Benjamin Reeves, Nicolas Cary"
+    },
+    {
+      "field": "sectors",
+      "url": "https://en.wikipedia.org/wiki/Blockchain.com",
+      "quote": "Industry Cryptocurrency"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://techcrunch.com/2021/03/24/crypto-wallet-and-exchange-company-blockchain-com-raises-300-million-at-5-2-billion-valuation/",
+      "quote": "Crypto wallet and exchange company Blockchain.com raises $300 million at $5.2 billion valuation"
+    },
+    {
+      "field": "valuation",
+      "url": "https://techcrunch.com/2021/03/24/crypto-wallet-and-exchange-company-blockchain-com-raises-300-million-at-5-2-billion-valuation/",
+      "quote": "Crypto wallet and exchange company Blockchain.com raises $300 million at $5.2 billion valuation"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-b",
+      "month": "2021-02",
+      "amountEur": 99502488,
+      "amountOriginal": 120000000,
+      "currency": "USD",
+      "investors": [
+        "Moore Strategic Ventures",
+        "Kyle Bass",
+        "Access Industries",
+        "Rovida Advisors",
+        "Lightspeed Venture Partners",
+        "GV",
+        "Lakestar",
+        "Eldridge"
+      ],
+      "techeuId": "f2e6f819-0f55-4f11-f6ca-08d91092c887",
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2021/02/17/crypto-wallet-and-exchange-company-blockchain-com-raises-120-million/",
+          "quote": "Blockchain.com has announced that it has raised a $120 million funding round."
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2021/02/17/crypto-wallet-and-exchange-company-blockchain-com-raises-120-million/",
+          "quote": "10:24 AM PST · February 17, 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2021/02/17/crypto-wallet-and-exchange-company-blockchain-com-raises-120-million/",
+          "quote": "Moore Strategic Ventures, Kyle Bass, Access Industries, Rovida Advisors, Lightspeed Venture Partners, GV, Lakestar, Eldridge and other unnamed investors participated in today’s funding round."
+        }
+      ]
+    },
+    {
+      "stage": "series-c",
+      "month": "2021-03",
+      "amountEur": 253699789,
+      "amountOriginal": 300000000,
+      "currency": "USD",
+      "postMoneyValuationEur": 4397463002,
+      "investors": [
+        "Baillie Gifford",
+        "DST Global",
+        "Lightspeed Venture Partners",
+        "VY Capital"
+      ],
+      "techeuId": "5cf0b29c-bdde-4c7a-f6cb-08d91092c887",
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2021/03/24/crypto-wallet-and-exchange-company-blockchain-com-raises-300-million-at-5-2-billion-valuation/",
+          "quote": "has raised a $300 million Series C round"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2021/03/24/crypto-wallet-and-exchange-company-blockchain-com-raises-300-million-at-5-2-billion-valuation/",
+          "quote": "has raised a $300 million Series C round"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2021/03/24/crypto-wallet-and-exchange-company-blockchain-com-raises-300-million-at-5-2-billion-valuation/",
+          "quote": "\"publish_date\":\"2021-03-24 07:11\""
+        },
+        {
+          "field": "investors",
+          "url": "https://en.wikipedia.org/wiki/Blockchain.com",
+          "quote": "One-third of the amount raised was funded by investment firm Baillie Gifford which invested $100 million."
+        },
+        {
+          "field": "investors",
+          "url": "https://en.wikipedia.org/wiki/Blockchain.com",
+          "quote": "Investors in the company include partners of DST Global , Lightspeed Venture Partners, VY Capital"
+        }
+      ]
+    },
+    {
+      "stage": "series-e",
+      "month": "2023-11",
+      "amountEur": 101214575,
+      "amountOriginal": 110000000,
+      "currency": "USD",
+      "investors": [
+        "Kingsway Capital",
+        "Baillie Gifford",
+        "Lakestar",
+        "Lightspeed Venture Partners",
+        "Coinbase Ventures"
+      ],
+      "techeuId": "3f186929-155a-4601-bf17-fb82d36b5ef4",
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://en.wikipedia.org/wiki/Blockchain.com",
+          "quote": "Blockchain.com raised $110 million in Series E funding led by Kingsway Capital."
+        },
+        {
+          "field": "stage",
+          "url": "https://en.wikipedia.org/wiki/Blockchain.com",
+          "quote": "Blockchain.com raised $110 million in Series E funding led by Kingsway Capital."
+        },
+        {
+          "field": "month",
+          "url": "https://en.wikipedia.org/wiki/Blockchain.com",
+          "quote": "In November of that same year, Blockchain.com raised $110 million in Series E funding"
+        },
+        {
+          "field": "investors",
+          "url": "https://en.wikipedia.org/wiki/Blockchain.com",
+          "quote": "The round also included investments from Baillie Gifford, Lakestar, Lightspeed Venture Partners, and Coinbase Ventures."
+        }
+      ]
+    }
+  ]
+}

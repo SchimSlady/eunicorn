@@ -1,0 +1,184 @@
+{
+  "id": "forto",
+  "name": "Forto",
+  "aliases": [
+    "FreightHub"
+  ],
+  "domain": "forto.com",
+  "country": "DE",
+  "city": "Berlin",
+  "founded": 2016,
+  "sectors": [
+    "saas"
+  ],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 1927489674,
+  "founders": [
+    "Michael Wax",
+    "Erik Muttersbach",
+    "Fabian Heilemann"
+  ],
+  "difficulty": 3,
+  "techeuId": "2B8C9AFA-D80E-4903-8262-6EF724530590",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://prnewswire.co.uk/news-releases/forto-announces-new-investment-of-250-million-to-accelerate-international-expansion-and-broadening-of-product-offering-841198955.html",
+      "quote": "Headquartered in Berlin, Germany"
+    },
+    {
+      "field": "founded",
+      "url": "https://techcrunch.com/2020/11/17/digital-freight-forwarder-forto-raises-another-50m-in-round-led-by-inven-capital",
+      "quote": "since its launch in 2016"
+    },
+    {
+      "field": "founders",
+      "url": "https://forto.com/en/press-releases/forto-the-leading-european-digital-freight-forwarder-raises-over-50-million-to-expand-internationally-and-accelerate-the-development-of-its-supply-chain-management-solutions/",
+      "quote": "Co-Founder Michael Wax, who co-leads the firm alongside Co-Founder Erik Muttersbach"
+    },
+    {
+      "field": "founders",
+      "url": "https://www.freightwaves.com/news/forto-secures-series-c-and-unicorn-status-credits-partnerships-and-culture",
+      "quote": "co-founder, Fabian Heilemann"
+    },
+    {
+      "field": "sectors",
+      "url": "https://prnewswire.co.uk/news-releases/forto-announces-new-investment-of-250-million-to-accelerate-international-expansion-and-broadening-of-product-offering-841198955.html",
+      "quote": "a leading provider of digitized freight forwarding and supply chain solutions"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://prnewswire.co.uk/news-releases/forto-announces-new-investment-of-250-million-to-accelerate-international-expansion-and-broadening-of-product-offering-841198955.html",
+      "quote": "The current round places the company valuation at $2.1 billion"
+    },
+    {
+      "field": "valuation",
+      "url": "https://prnewswire.co.uk/news-releases/forto-announces-new-investment-of-250-million-to-accelerate-international-expansion-and-broadening-of-product-offering-841198955.html",
+      "quote": "The current round places the company valuation at $2.1 billion"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "22c04ff1-fc46-45c6-f20f-08d91092c887",
+      "stage": "series-b",
+      "month": "2020-11",
+      "amountEur": 42080458,
+      "amountOriginal": 50000000,
+      "currency": "USD",
+      "investors": [
+        "Inven Capital",
+        "Maersk"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2020/11/17/digital-freight-forwarder-forto-raises-another-50m-in-round-led-by-inven-capital",
+          "quote": "Digital freight forwarder Forto raises another $50M in round led by Inven Capital"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2020/11/17/digital-freight-forwarder-forto-raises-another-50m-in-round-led-by-inven-capital",
+          "quote": "2020-11-17T08:30:25+00:00"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2020/11/17/digital-freight-forwarder-forto-raises-another-50m-in-round-led-by-inven-capital",
+          "quote": "The round was led by Inven Capital, a growth fund out of the Czech Republic."
+        },
+        {
+          "field": "investors",
+          "url": "https://forto.com/en/press-releases/forto-the-leading-european-digital-freight-forwarder-raises-over-50-million-to-expand-internationally-and-accelerate-the-development-of-its-supply-chain-management-solutions/",
+          "quote": "Also Maersk, the largest ocean carrier in the world, has significantly doubled down on their prior investment"
+        }
+      ]
+    },
+    {
+      "techeuId": "60a23f38-fa22-48cf-b079-f47d99326123",
+      "stage": "series-c",
+      "month": "2021-06",
+      "amountEur": 200820015,
+      "amountOriginal": 240000000,
+      "currency": "USD",
+      "investors": [
+        "SoftBank Vision Fund 2",
+        "Citi Ventures",
+        "G Squared",
+        "Northzone",
+        "Cherry Ventures",
+        "Unbound"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2021/06/23/forto-raises-240m-in-funding-round-led-by-softbank-taking-its-valuation-to-1-2bn",
+          "quote": "$240 million in a round led by SoftBank Vision Fund 2"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.freightwaves.com/news/forto-secures-series-c-and-unicorn-status-credits-partnerships-and-culture",
+          "quote": "Forto secures Series C and unicorn status"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2021/06/23/forto-raises-240m-in-funding-round-led-by-softbank-taking-its-valuation-to-1-2bn",
+          "quote": "2021-06-23T12:06:05+00:00"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2021/06/23/forto-raises-240m-in-funding-round-led-by-softbank-taking-its-valuation-to-1-2bn",
+          "quote": "$240 million in a round led by SoftBank Vision Fund 2"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2021/06/23/forto-raises-240m-in-funding-round-led-by-softbank-taking-its-valuation-to-1-2bn",
+          "quote": "Also participating in the round were new investors Citi Ventures and G Squared."
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2021/06/23/forto-raises-240m-in-funding-round-led-by-softbank-taking-its-valuation-to-1-2bn",
+          "quote": "Existing investors including Northzone, Cherry Ventures and Unbound also took part, Forto said."
+        }
+      ]
+    },
+    {
+      "techeuId": "78cdadf0-499b-49cd-999d-e68f96337697",
+      "stage": "series-d",
+      "month": "2022-03",
+      "amountEur": 229463056,
+      "amountOriginal": 250000000,
+      "currency": "USD",
+      "postMoneyValuationEur": 1927489674,
+      "investors": [
+        "Disruptive",
+        "SoftBank Vision Fund 2",
+        "G Squared",
+        "Northzone",
+        "Unbound",
+        "A.P. Moeller Holding"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://prnewswire.co.uk/news-releases/forto-announces-new-investment-of-250-million-to-accelerate-international-expansion-and-broadening-of-product-offering-841198955.html",
+          "quote": "Forto Announces New Investment of $250 Million to Accelerate International Expansion and Broadening of Product Offering"
+        },
+        {
+          "field": "month",
+          "url": "https://prnewswire.co.uk/news-releases/forto-announces-new-investment-of-250-million-to-accelerate-international-expansion-and-broadening-of-product-offering-841198955.html",
+          "quote": "07 Mar, 2022"
+        },
+        {
+          "field": "investors",
+          "url": "https://prnewswire.co.uk/news-releases/forto-announces-new-investment-of-250-million-to-accelerate-international-expansion-and-broadening-of-product-offering-841198955.html",
+          "quote": "Disruptive, a leading technology investment firm based in the United States"
+        },
+        {
+          "field": "investors",
+          "url": "https://prnewswire.co.uk/news-releases/forto-announces-new-investment-of-250-million-to-accelerate-international-expansion-and-broadening-of-product-offering-841198955.html",
+          "quote": "existing investors including Softbank Vision Fund 2, G Squared, Northzone, Unbound, and A.P. Moeller Holding"
+        }
+      ]
+    }
+  ]
+}

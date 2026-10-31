@@ -1,0 +1,163 @@
+{
+  "id": "cazoo",
+  "name": "Cazoo",
+  "aliases": [],
+  "domain": "cazoo.co.uk",
+  "country": "GB",
+  "city": "London",
+  "founded": 2018,
+  "sectors": [
+    "mobility",
+    "consumer"
+  ],
+  "status": "defunct",
+  "unicorn": true,
+  "lastValuationEur": 2204512637,
+  "founders": [
+    "Alex Chesterman"
+  ],
+  "difficulty": 2,
+  "techeuId": "0A2022E4-4E3E-4E7C-87D9-78A2839666C0",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/Cazoo",
+      "quote": "Headquarters London , United Kingdom"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Cazoo",
+      "quote": "Cazoo was founded in 2018 by British internet entrepreneur Alex Chesterman"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Cazoo",
+      "quote": "Cazoo was founded in 2018 by British internet entrepreneur Alex Chesterman"
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.cnbc.com/2020/10/01/uk-online-used-car-marketplace-cazoo-doubles-valuation-to-2point6-billion.html",
+      "quote": "UK online used car marketplace Cazoo"
+    },
+    {
+      "field": "status",
+      "url": "https://en.wikipedia.org/wiki/Cazoo",
+      "quote": "On 21 May 2024, Cazoo went into administration putting 208 remaining jobs at risk of redundancy."
+    },
+    {
+      "field": "unicorn",
+      "url": "https://www.cnbc.com/2020/10/01/uk-online-used-car-marketplace-cazoo-doubles-valuation-to-2point6-billion.html",
+      "quote": "has seen its valuation double to £2 billion ($2.6 billion) after raising £240 million in a bumper round of funding"
+    },
+    {
+      "field": "valuation",
+      "url": "https://www.cnbc.com/2020/10/01/uk-online-used-car-marketplace-cazoo-doubles-valuation-to-2point6-billion.html",
+      "quote": "has seen its valuation double to £2 billion ($2.6 billion) after raising £240 million in a bumper round of funding"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-b",
+      "month": "2020-03",
+      "amountEur": 107561579,
+      "amountOriginal": 100000000,
+      "currency": "GBP",
+      "investors": [
+        "DMG Ventures",
+        "General Catalyst",
+        "CNP (Groupe Frère)",
+        "Mubadala Capital",
+        "Octopus Ventures",
+        "Eight Roads Ventures",
+        "Stride.VC"
+      ],
+      "techeuId": "baf53683-57a7-413f-ef48-08d91092c887",
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/brief/cazoo-100-million/",
+          "quote": "Cazoo, the UK platform for online car sales, has raised £100 million in a round led by DMG Ventures"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/brief/cazoo-100-million/",
+          "quote": "2020-03-23T09:50:08+00:00"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/brief/cazoo-100-million/",
+          "quote": "alongside other investors including General Catalyst, CNP (Groupe Frère), Mubadala Capital, Octopus Ventures, Eight Roads Ventures and Stride.VC"
+        }
+      ]
+    },
+    {
+      "stage": "series-c",
+      "month": "2020-06",
+      "amountEur": 27584685,
+      "amountOriginal": 25000000,
+      "currency": "GBP",
+      "investors": [
+        "Draper Esprit",
+        "DMG Ventures",
+        "General Catalyst"
+      ],
+      "techeuId": "985e8852-e9d6-49d0-ef49-08d91092c887",
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2020/06/23/cazoo-funding-unicorn/",
+          "quote": "raising a little over $31 million (£25 million) at a $1 billion+ valuation"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2020/06/23/cazoo-funding-unicorn/",
+          "quote": "2020-06-23T07:39:44+00:00"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2020/06/23/cazoo-funding-unicorn/",
+          "quote": "Draper Esprit is now joining the company as a new investor, alongside DMG Ventures and General Catalyst."
+        }
+      ]
+    },
+    {
+      "stage": "series-d",
+      "month": "2020-10",
+      "amountEur": 264541516,
+      "amountOriginal": 240000000,
+      "currency": "GBP",
+      "postMoneyValuationEur": 2204512637,
+      "investors": [
+        "General Catalyst",
+        "D1 Capital Partners",
+        "Fidelity",
+        "BlackRock",
+        "L Catterton",
+        "Durable Capital Partners"
+      ],
+      "techeuId": "c6dbadbb-e51f-4f72-ef4a-08d91092c887",
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.cnbc.com/2020/10/01/uk-online-used-car-marketplace-cazoo-doubles-valuation-to-2point6-billion.html",
+          "quote": "has seen its valuation double to £2 billion ($2.6 billion) after raising £240 million in a bumper round of funding"
+        },
+        {
+          "field": "month",
+          "url": "https://www.cnbc.com/2020/10/01/uk-online-used-car-marketplace-cazoo-doubles-valuation-to-2point6-billion.html",
+          "quote": "Published Thu, Oct 1 2020 5:57 AM EDT"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.cnbc.com/2020/10/01/uk-online-used-car-marketplace-cazoo-doubles-valuation-to-2point6-billion.html",
+          "quote": "Cazoo's latest round was led by U.S. venture capital firm General Catalyst, American investor Dan Sundheim's D1 Capital Partners and funds managed by Fidelity and BlackRock."
+        },
+        {
+          "field": "investors",
+          "url": "https://www.cnbc.com/2020/10/01/uk-online-used-car-marketplace-cazoo-doubles-valuation-to-2point6-billion.html",
+          "quote": "Other backers include L Catterton, Durable Capital Partners"
+        }
+      ]
+    }
+  ]
+}

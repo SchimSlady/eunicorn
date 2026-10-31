@@ -1,0 +1,175 @@
+{
+  "id": "mathem",
+  "name": "Mathem",
+  "aliases": [
+    "MatHem"
+  ],
+  "domain": "mathem.se",
+  "country": "SE",
+  "city": "Stockholm",
+  "founded": 2006,
+  "sectors": [
+    "consumer"
+  ],
+  "status": "acquired",
+  "unicorn": false,
+  "founders": [
+    "Tomas Kull",
+    "Karolin Kull"
+  ],
+  "difficulty": 4,
+  "techeuId": "7E4A3AFF-7A24-45EF-A3EB-A1793DD8165D",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.unquote.com/nordics/official-record/3018299/kinnevik-leads-usd516m-round-for-mathem",
+      "quote": "The company is headquartered in Stockholm"
+    },
+    {
+      "field": "founded",
+      "url": "https://sv.wikipedia.org/wiki/Mathem",
+      "quote": "Grundat 2006 Grundare Tomas Kull"
+    },
+    {
+      "field": "founders",
+      "url": "https://sv.wikipedia.org/wiki/Mathem",
+      "quote": "Grundat 2006 Grundare Tomas Kull"
+    },
+    {
+      "field": "founders",
+      "url": "http://www.mynewsdesk.com/se/mathem/pressreleases/mathem-fyller-10-aar-2790320",
+      "quote": "Då bestod företaget av Karolin och Tomas Kull."
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.unquote.com/nordics/official-record/3018299/kinnevik-leads-usd516m-round-for-mathem",
+      "quote": "Mathem operates an online grocery store and delivers food to Swedish homes."
+    },
+    {
+      "field": "status",
+      "url": "https://sv.wikipedia.org/wiki/Mathem",
+      "quote": "2023 köps Mathem av sin norska motsvarighet Oda."
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-b",
+      "month": "2015-06",
+      "amountEur": 22553933,
+      "amountOriginal": 207000000,
+      "currency": "SEK",
+      "investors": [
+        "Anders Holch Povlsen"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.unquote.com/nordics/official-record/3018299/kinnevik-leads-usd516m-round-for-mathem",
+          "quote": "In June 2015, the company raised SEK 207m from Danish e-commerce investor Anders Holch Povlsen."
+        },
+        {
+          "field": "month",
+          "url": "https://www.unquote.com/nordics/official-record/3018299/kinnevik-leads-usd516m-round-for-mathem",
+          "quote": "In June 2015, the company raised SEK 207m from Danish e-commerce investor Anders Holch Povlsen."
+        },
+        {
+          "field": "investors",
+          "url": "https://www.unquote.com/nordics/official-record/3018299/kinnevik-leads-usd516m-round-for-mathem",
+          "quote": "In June 2015, the company raised SEK 207m from Danish e-commerce investor Anders Holch Povlsen."
+        }
+      ]
+    },
+    {
+      "stage": "series-c",
+      "month": "2017-01",
+      "amountEur": 16864295,
+      "amountOriginal": 160000000,
+      "currency": "SEK",
+      "investors": [
+        "Verdane",
+        "Ferd Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.unquote.com/nordics/official-record/3018299/kinnevik-leads-usd516m-round-for-mathem",
+          "quote": "In January 2017, existing investor Verdane along with Ferd Ventures invested SEK 160m in the company."
+        },
+        {
+          "field": "month",
+          "url": "https://www.unquote.com/nordics/official-record/3018299/kinnevik-leads-usd516m-round-for-mathem",
+          "quote": "In January 2017, existing investor Verdane along with Ferd Ventures invested SEK 160m in the company."
+        },
+        {
+          "field": "investors",
+          "url": "https://www.unquote.com/nordics/official-record/3018299/kinnevik-leads-usd516m-round-for-mathem",
+          "quote": "In January 2017, existing investor Verdane along with Ferd Ventures invested SEK 160m in the company."
+        }
+      ]
+    },
+    {
+      "techeuId": "60ab76fa-30f4-4cde-fa2b-08d91092c887",
+      "stage": "series-d",
+      "month": "2019-02",
+      "amountEur": 38163205,
+      "amountOriginal": 400000000,
+      "currency": "SEK",
+      "investors": [
+        "Kinnevik"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.unquote.com/nordics/official-record/3018299/kinnevik-leads-usd516m-round-for-mathem",
+          "quote": "Kinnevik invested SEK 400m in primary capital in the business, and SEK 500m through secondary share purchases."
+        },
+        {
+          "field": "month",
+          "url": "https://www.unquote.com/nordics/official-record/3018299/kinnevik-leads-usd516m-round-for-mathem",
+          "quote": "In February 2019, Verdane agreed to sell part of its stake in Mathem to Kinnevik"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.unquote.com/nordics/official-record/3018299/kinnevik-leads-usd516m-round-for-mathem",
+          "quote": "Kinnevik invested SEK 400m in primary capital in the business, and SEK 500m through secondary share purchases."
+        }
+      ]
+    },
+    {
+      "techeuId": "e23bf717-d496-4a9d-fa2c-08d91092c887",
+      "stage": "series-e",
+      "month": "2020-02",
+      "amountEur": 47623443,
+      "amountOriginal": 51600000,
+      "currency": "USD",
+      "investors": [
+        "Kinnevik",
+        "AMF",
+        "Verdane",
+        "Clas Ohlson"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.unquote.com/nordics/official-record/3018299/kinnevik-leads-usd516m-round-for-mathem",
+          "quote": "Stockholm-based investment firm Kinnevik has led a $51.6m founding round for Swedish online grocery retailer Mathem."
+        },
+        {
+          "field": "month",
+          "url": "https://www.unquote.com/nordics/official-record/3018299/kinnevik-leads-usd516m-round-for-mathem",
+          "quote": "17 February 2020"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.unquote.com/nordics/official-record/3018299/kinnevik-leads-usd516m-round-for-mathem",
+          "quote": "Stockholm-based investment firm Kinnevik has led a $51.6m founding round for Swedish online grocery retailer Mathem."
+        },
+        {
+          "field": "investors",
+          "url": "https://www.unquote.com/nordics/official-record/3018299/kinnevik-leads-usd516m-round-for-mathem",
+          "quote": "The round also saw participation from AMF, which invested $28.9m (SEK 280m) to become Mathem's third largest shareholder with a stake of 10%. Also participating were existing shareholders Verdane and Clas Ohlson."
+        }
+      ]
+    }
+  ]
+}

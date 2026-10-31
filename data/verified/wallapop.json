@@ -1,0 +1,90 @@
+{
+  "id": "wallapop",
+  "name": "Wallapop",
+  "aliases": [],
+  "domain": "wallapop.com",
+  "country": "ES",
+  "city": "Barcelona",
+  "founded": 2013,
+  "sectors": [
+    "consumer"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "lastValuationEur": 690000000,
+  "founders": [
+    "Miguel Vicente",
+    "Agustín Gómez",
+    "Gerard Olivé"
+  ],
+  "difficulty": 2,
+  "techeuId": "A5045D07-A01F-414E-88EC-8C7155CC41C4",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://techcrunch.com/2021/02/24/spains-wallapop-raises-191m-at-an-840m-valuation-for-its-classifieds-marketplace/",
+      "quote": "a virtual marketplace based out of Barcelona, Spain"
+    },
+    {
+      "field": "founded",
+      "url": "https://es.wikipedia.org/wiki/Wallapop",
+      "quote": "fundada en el año 2013"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Wallapop",
+      "quote": "Miguel Vicente, Agustín Gómez, Gerard Olivé"
+    },
+    {
+      "field": "sectors",
+      "url": "https://techcrunch.com/2021/02/24/spains-wallapop-raises-191m-at-an-840m-valuation-for-its-classifieds-marketplace/",
+      "quote": "a virtual marketplace based out of Barcelona, Spain that lets people resell their used items"
+    },
+    {
+      "field": "valuation",
+      "url": "https://techcrunch.com/2021/02/24/spains-wallapop-raises-191m-at-an-840m-valuation-for-its-classifieds-marketplace/",
+      "quote": "Wallapop has confirmed that the funding is coming at a valuation of €690 million ($840 million)"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "5b42f0ac-e28a-47ea-fd62-08d91092c887",
+      "stage": "series-d",
+      "month": "2021-02",
+      "amountEur": 157000000,
+      "amountOriginal": 157000000,
+      "currency": "EUR",
+      "postMoneyValuationEur": 690000000,
+      "investors": [
+        "Korelya Capital",
+        "Accel",
+        "Insight Partners",
+        "14W",
+        "GP Bullhound",
+        "Northzone"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2021/02/24/spains-wallapop-raises-191m-at-an-840m-valuation-for-its-classifieds-marketplace/",
+          "quote": "has raised €157 million ($191 million at current rates)"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2021/02/24/spains-wallapop-raises-191m-at-an-840m-valuation-for-its-classifieds-marketplace/",
+          "quote": "2021-02-24T23:11:01+00:00"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2021/02/24/spains-wallapop-raises-191m-at-an-840m-valuation-for-its-classifieds-marketplace/",
+          "quote": "The funding is being led by Korelya Capital"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2021/02/24/spains-wallapop-raises-191m-at-an-840m-valuation-for-its-classifieds-marketplace/",
+          "quote": "with Accel, Insight Partners, 14W, GP Bullhound and Northzone"
+        }
+      ]
+    }
+  ]
+}

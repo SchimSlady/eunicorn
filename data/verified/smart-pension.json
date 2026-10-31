@@ -1,0 +1,184 @@
+{
+  "id": "smart-pension",
+  "name": "Smart Pension",
+  "aliases": [
+    "Smart"
+  ],
+  "domain": "smartpension.co.uk",
+  "country": "GB",
+  "city": "London",
+  "founded": 2014,
+  "sectors": [
+    "fintech"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Andrew Evans",
+    "Will Wynne"
+  ],
+  "difficulty": 4,
+  "techeuId": "E741F4DB-3E8F-4DB3-8839-A565B679F842",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.uktech.news/fintech/smart-series-e-pension-20230515",
+      "quote": "Founded in 2014, the London-headquartered fintech manages more than £5bn in assets"
+    },
+    {
+      "field": "founded",
+      "url": "https://www.uktech.news/fintech/smart-series-e-pension-20230515",
+      "quote": "Founded in 2014, the London-headquartered fintech manages more than £5bn in assets"
+    },
+    {
+      "field": "founders",
+      "url": "https://www.uktech.news/fintech/smart-series-e-pension-20230515",
+      "quote": "said Andrew Evans and Will Wynne, co-founders of Smart"
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.uktech.news/fintech/smart-series-e-pension-20230515",
+      "quote": "London-headquartered digital pension provider Smart"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-a",
+      "month": "2016-06",
+      "amountEur": 4269910,
+      "amountOriginal": 3300000,
+      "currency": "GBP",
+      "investors": [
+        "Ed Asseily",
+        "Tom Valentine",
+        "William Reeve"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.uktech.news/news/smart-pension-closes-3-3m-series-a-round-20160603",
+          "quote": "Smart Pension, an automated enrolment pension provider, has closed a £3.3m Series A round"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.uktech.news/news/smart-pension-closes-3-3m-series-a-round-20160603",
+          "quote": "has closed a £3.3m Series A round"
+        },
+        {
+          "field": "month",
+          "url": "https://www.uktech.news/news/smart-pension-closes-3-3m-series-a-round-20160603",
+          "quote": "Fri 3 Jun 2016"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.uktech.news/news/smart-pension-closes-3-3m-series-a-round-20160603",
+          "quote": "angle investors including Ed Asseily, Secret Escapes co-founder Tom Valentine, and William Reeve"
+        }
+      ]
+    },
+    {
+      "stage": "series-b",
+      "month": "2017-06",
+      "amountEur": 17215655,
+      "amountOriginal": 15000000,
+      "currency": "GBP",
+      "investors": [
+        "Stensrud family"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.uktech.news/news/smart-pension-closes-15m-series-b-brings-valuation-65m-20170605",
+          "quote": "Smart Pension has closed a £15m Series B, bringing its valuation to £65m"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.uktech.news/news/smart-pension-closes-15m-series-b-brings-valuation-65m-20170605",
+          "quote": "Smart Pension has closed a £15m Series B"
+        },
+        {
+          "field": "month",
+          "url": "https://www.uktech.news/news/smart-pension-closes-15m-series-b-brings-valuation-65m-20170605",
+          "quote": "Mon 5 Jun 2017"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.uktech.news/news/smart-pension-closes-15m-series-b-brings-valuation-65m-20170605",
+          "quote": "The firm's round was led by the Stensrud family, who own Skagen"
+        }
+      ]
+    },
+    {
+      "techeuId": "06b6e59d-7c91-4073-af53-1854c24be104",
+      "stage": "series-d",
+      "month": "2021-06",
+      "amountEur": 191526407,
+      "amountOriginal": 165000000,
+      "currency": "GBP",
+      "investors": [
+        "Chrysalis Investments",
+        "DWS Group"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.uktech.news/featured/london-based-smart-ropes-in-dws-as-part-of-165m-funding-to-transform-retirement-across-the-world-20211006",
+          "quote": "has announced that DWS Group (DWS) has joined its £165 million series D funding round"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.uktech.news/featured/london-based-smart-ropes-in-dws-as-part-of-165m-funding-to-transform-retirement-across-the-world-20211006",
+          "quote": "Chrysalis Investments leads the Series D funding round with a £75m investment"
+        },
+        {
+          "field": "month",
+          "url": "https://en.wikipedia.org/wiki/Smart_Pension",
+          "quote": "In June 2021, it was announced that Chrysalis Investments was taking a £75 million stake in Smart as part of a £165 million Series D funding round."
+        },
+        {
+          "field": "investors",
+          "url": "https://www.uktech.news/featured/london-based-smart-ropes-in-dws-as-part-of-165m-funding-to-transform-retirement-across-the-world-20211006",
+          "quote": "Chrysalis Investments leads the Series D funding round with a £75m investment"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.uktech.news/featured/london-based-smart-ropes-in-dws-as-part-of-165m-funding-to-transform-retirement-across-the-world-20211006",
+          "quote": "DWS Group (DWS) has joined its £165 million series D funding round"
+        }
+      ]
+    },
+    {
+      "techeuId": "f693b3c4-54d9-44a2-aacc-971c6826f547",
+      "stage": "series-e",
+      "month": "2023-05",
+      "amountEur": 87413593,
+      "amountOriginal": 76000000,
+      "currency": "GBP",
+      "investors": [
+        "Aquiline Capital Partners"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.uktech.news/fintech/smart-series-e-pension-20230515",
+          "quote": "has secured £76m in Series E capital from UK and US investors"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.uktech.news/fintech/smart-series-e-pension-20230515",
+          "quote": "has secured £76m in Series E capital from UK and US investors"
+        },
+        {
+          "field": "month",
+          "url": "https://www.uktech.news/fintech/smart-series-e-pension-20230515",
+          "quote": "Mon 15 May 2023"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.uktech.news/fintech/smart-series-e-pension-20230515",
+          "quote": "Aquiline Capital Partners led Smart's Series E"
+        }
+      ]
+    }
+  ]
+}

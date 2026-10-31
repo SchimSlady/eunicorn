@@ -1,0 +1,87 @@
+{
+  "id": "relex-solutions",
+  "name": "RELEX Solutions",
+  "aliases": [
+    "Relex Solutions",
+    "RELEX"
+  ],
+  "domain": "relexsolutions.com",
+  "country": "FI",
+  "city": "Helsinki",
+  "founded": 2005,
+  "sectors": [
+    "saas"
+  ],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 5000000000,
+  "founders": [
+    "Mikko Kärkkäinen",
+    "Johanna Småros",
+    "Michael Falck"
+  ],
+  "difficulty": 3,
+  "techeuId": "1CA1DAB8-F637-4033-821B-B2C22F8A2755",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://retailtechinnovationhub.com/home/2022/2/17/relex-solutions-raises-500-million-at-5-billion-valuation",
+      "quote": "Headquartered in Helsinki, Finland, RELEX Solutions employs over 1,300 people globally"
+    },
+    {
+      "field": "founded",
+      "url": "https://tech.eu/2019/02/06/finnish-retail-planning-company-relex-solutions-lands-200-million-in-funding-from-tcv/",
+      "quote": "The Finnish company, which was founded in 2005, provides end-to-end retail planning solutions"
+    },
+    {
+      "field": "founders",
+      "url": "https://www.summitpartners.com/news/summit-backed-relex-raises-200-million",
+      "quote": "The company’s three founders, Mikko Kärkkäinen, Johanna Småros and Michael Falck"
+    },
+    {
+      "field": "sectors",
+      "url": "https://tech.eu/2019/02/06/finnish-retail-planning-company-relex-solutions-lands-200-million-in-funding-from-tcv/",
+      "quote": "The Finnish company, which was founded in 2005, provides end-to-end retail planning solutions"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://retailtechinnovationhub.com/home/2022/2/17/relex-solutions-raises-500-million-at-5-billion-valuation",
+      "quote": "RELEX Solutions has announced a €500 million funding round led by funds managed by Blackstone Growth (BXG), Blackstone’s growth equity investing business. This puts its valuation at €5 billion"
+    },
+    {
+      "field": "valuation",
+      "url": "https://retailtechinnovationhub.com/home/2022/2/17/relex-solutions-raises-500-million-at-5-billion-valuation",
+      "quote": "RELEX Solutions has announced a €500 million funding round led by funds managed by Blackstone Growth (BXG), Blackstone’s growth equity investing business. This puts its valuation at €5 billion"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "49d51641-9a18-4e3c-8673-adb201e00878",
+      "stage": "series-c",
+      "month": "2022-02",
+      "amountEur": 500000000,
+      "amountOriginal": 500000000,
+      "currency": "EUR",
+      "investors": [
+        "Blackstone Growth"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://retailtechinnovationhub.com/home/2022/2/17/relex-solutions-raises-500-million-at-5-billion-valuation",
+          "quote": "RELEX Solutions has announced a €500 million funding round led by funds managed by Blackstone Growth (BXG), Blackstone’s growth equity investing business. This puts its valuation at €5 billion"
+        },
+        {
+          "field": "month",
+          "url": "https://retailtechinnovationhub.com/home/2022/2/17/relex-solutions-raises-500-million-at-5-billion-valuation",
+          "quote": "17 Feb 2022"
+        },
+        {
+          "field": "investors",
+          "url": "https://retailtechinnovationhub.com/home/2022/2/17/relex-solutions-raises-500-million-at-5-billion-valuation",
+          "quote": "RELEX Solutions has announced a €500 million funding round led by funds managed by Blackstone Growth (BXG), Blackstone’s growth equity investing business. This puts its valuation at €5 billion"
+        }
+      ]
+    }
+  ]
+}

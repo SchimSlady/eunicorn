@@ -1,0 +1,137 @@
+{
+  "id": "gropyus",
+  "name": "Gropyus",
+  "aliases": [
+    "GROPYUS"
+  ],
+  "domain": "gropyus.com",
+  "country": "AT",
+  "city": "Vienna",
+  "founded": 2019,
+  "sectors": [
+    "climate"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Markus Fuhrmann",
+    "Philipp Erler",
+    "Bernd Oswald"
+  ],
+  "difficulty": 4,
+  "techeuId": "B1FF67A5-3B6D-45E6-B435-DF87F1830063",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://schoenherr.eu/content/austria-schoenherr-advises-proptech-scale-up-gropyus-on-eur-100m-financing-round",
+      "quote": "Schoenherr advised GROPYUS, the Vienna-headquartered technology-based construction company"
+    },
+    {
+      "field": "founded",
+      "url": "https://schoenherr.eu/content/austria-schoenherr-advises-proptech-scale-up-gropyus-on-eur-100m-financing-round",
+      "quote": "GROPYUS was founded in 2019 and is at the forefront of transforming the residential market by creating sustainable, affordable and smart living solutions."
+    },
+    {
+      "field": "founders",
+      "url": "https://siliconcanals.com/gropyus-raises-100m/",
+      "quote": "GROPYUS was founded in 2019 by Markus Fuhrmann (co-founder of publicly listed food delivery service Lieferheld/Delivery Hero), Philipp Erler, and Bernd Oswald, among others."
+    },
+    {
+      "field": "sectors",
+      "url": "https://siliconcanals.com/gropyus-raises-100m/",
+      "quote": "a company specialised in creating affordable and sustainable timber-hybrid buildings"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-b",
+      "month": "2023-01",
+      "amountEur": 100000000,
+      "amountOriginal": 100000000,
+      "currency": "EUR",
+      "investors": [
+        "Vonovia"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.startbase.com/news/gropyus-bekommt-100-millionen-euro",
+          "quote": "The Austrian proptech Gropyus receives 100 million euros in capital."
+        },
+        {
+          "field": "stage",
+          "url": "https://www.startbase.com/news/gropyus-bekommt-100-millionen-euro",
+          "quote": "The Series B financing round is led by German real estate group Vonovia, with other undisclosed investors also participating."
+        },
+        {
+          "field": "month",
+          "url": "https://www.startbase.com/news/gropyus-bekommt-100-millionen-euro",
+          "quote": "Stuttgart, 25. January 2023"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.startbase.com/news/gropyus-bekommt-100-millionen-euro",
+          "quote": "The Series B financing round is led by German real estate group Vonovia, with other undisclosed investors also participating."
+        }
+      ]
+    },
+    {
+      "techeuId": "29223e75-d96b-40cc-a0b8-7f36c91f3e18",
+      "stage": "series-c",
+      "month": "2024-10",
+      "amountEur": 100000000,
+      "amountOriginal": 100000000,
+      "currency": "EUR",
+      "investors": [
+        "Semapa Next",
+        "Practical Venture Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://siliconcanals.com/gropyus-raises-100m/",
+          "quote": "announced on Monday that it has secured €100M."
+        },
+        {
+          "field": "month",
+          "url": "https://siliconcanals.com/gropyus-raises-100m/",
+          "quote": "datePublished\":\"2024-10-07T16:08:59+07:00"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.gropyus.com/en/post/financing-round-secures-around-100-million-additional-growth-capital-for-the-tech-based-construction",
+          "quote": "GROPYUS was able to attract Semapa Next ( semapanext.com ), which is part of the Portuguese investment holding company Semapa Group, and the US venture capital fund Practical Venture Capital ( practicalvc.com )."
+        }
+      ]
+    },
+    {
+      "techeuId": "8058823d-a576-492a-9e7f-94a851538d55",
+      "stage": "series-d",
+      "month": "2026-03",
+      "amountEur": 100000000,
+      "amountOriginal": 100000000,
+      "currency": "EUR",
+      "investors": [
+        "Vonovia",
+        "Semapa Next"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://dealroom.co/news/126422-gropyus-secures-100m-to-factory-build-europes-missing-homes/",
+          "quote": "Vienna-based proptech startup Gropyus has closed a €100 million growth round, its third nine-figure raise."
+        },
+        {
+          "field": "month",
+          "url": "https://dealroom.co/news/126422-gropyus-secures-100m-to-factory-build-europes-missing-homes/",
+          "quote": "Fundraise Mar 3, 2026"
+        },
+        {
+          "field": "investors",
+          "url": "https://schoenherr.eu/content/austria-schoenherr-advises-proptech-scale-up-gropyus-on-eur-100m-financing-round",
+          "quote": "In this financing round, GROPYUS secured capital from existing investors Vonovia – Germany's largest residential real estate company – and Semapa Next"
+        }
+      ]
+    }
+  ]
+}

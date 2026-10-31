@@ -1,0 +1,186 @@
+{
+  "id": "axelera-ai",
+  "name": "Axelera AI",
+  "aliases": [],
+  "domain": "axelera.ai",
+  "country": "NL",
+  "city": "Eindhoven",
+  "founded": 2021,
+  "sectors": [
+    "semiconductors"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [],
+  "difficulty": 4,
+  "techeuId": "9307EA77-D889-46C3-A3FD-CA15525926E9",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://axelera.ai/news/european-ai-startup-axelera-ai-closes-27-million-series-a",
+      "quote": "Eindhoven, Netherlands – October 25, 2022 – European AI startup Axelera AI announced"
+    },
+    {
+      "field": "founded",
+      "url": "https://axelera.ai/our-story",
+      "quote": "since our founding in July 2021"
+    },
+    {
+      "field": "sectors",
+      "url": "https://axelera.ai/news/axelera-ai-secures-more-than-250-million-funding-on-global-commercial-growth",
+      "quote": "Axelera AI, the European leader in AI acceleration hardware"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "b6b6fd92-c73b-42bd-bec6-019f02923848",
+      "stage": "seed",
+      "month": "2021-09",
+      "amountEur": 10201479,
+      "amountOriginal": 12000000,
+      "currency": "USD",
+      "investors": [
+        "Innovation Industries",
+        "imec.xpand"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://axelera.ai/news/european-ai-startup-axelera-ai-closes-27-million-series-a",
+          "quote": "Two of these investors previously joined the company’s $12 million seed round last September"
+        },
+        {
+          "field": "month",
+          "url": "https://en.wikipedia.org/wiki/Axelera_AI",
+          "quote": "In 2021, the company raised approximately US$12 million in seed financing."
+        },
+        {
+          "field": "month",
+          "url": "https://axelera.ai/news/european-ai-startup-axelera-ai-closes-27-million-series-a",
+          "quote": "Two of these investors previously joined the company’s $12 million seed round last September"
+        },
+        {
+          "field": "investors",
+          "url": "https://axelera.ai/news/european-ai-startup-axelera-ai-closes-27-million-series-a",
+          "quote": "European deep tech venture capital funds Innovation Industries and imec.xpand"
+        }
+      ]
+    },
+    {
+      "techeuId": "ef9aca40-62eb-4741-ad78-46ad85d2e8a0",
+      "stage": "series-a",
+      "month": "2022-10",
+      "amountEur": 27380590,
+      "amountOriginal": 27000000,
+      "currency": "USD",
+      "investors": [
+        "Innovation Industries",
+        "imec.xpand",
+        "Federal Holding and Investment Company of Belgium (SFPIM)"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://axelera.ai/news/european-ai-startup-axelera-ai-closes-27-million-series-a",
+          "quote": "announced today the close of its $27 million Series A investment round"
+        },
+        {
+          "field": "stage",
+          "url": "https://axelera.ai/news/european-ai-startup-axelera-ai-closes-27-million-series-a",
+          "quote": "announced today the close of its $27 million Series A investment round"
+        },
+        {
+          "field": "month",
+          "url": "https://axelera.ai/news/european-ai-startup-axelera-ai-closes-27-million-series-a",
+          "quote": "October 25, 2022"
+        },
+        {
+          "field": "investors",
+          "url": "https://axelera.ai/news/european-ai-startup-axelera-ai-closes-27-million-series-a",
+          "quote": "The funding round was led by Innovation Industries and joined by imec.xpand and the Federal Holding and Investment Company of Belgium (SFPIM)."
+        }
+      ]
+    },
+    {
+      "techeuId": "d429ed1b-c22a-47eb-b27f-642eaf32e028",
+      "stage": "series-b",
+      "month": "2024-06",
+      "amountEur": 63575168,
+      "amountOriginal": 68000000,
+      "currency": "USD",
+      "investors": [
+        "Invest-NL Deep Tech Fund",
+        "European Innovation Council Fund",
+        "Innovation Industries",
+        "Samsung Catalyst Fund",
+        "Verve Ventures",
+        "Fractionelera",
+        "CDP Venture Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://axelera.ai/news/axelera-ai-raises-68-million-series-b-funding-to-accelerate-next-generation-ai",
+          "quote": "oversubscribed $68 million Series B financing round"
+        },
+        {
+          "field": "stage",
+          "url": "https://axelera.ai/news/axelera-ai-raises-68-million-series-b-funding-to-accelerate-next-generation-ai",
+          "quote": "oversubscribed $68 million Series B financing round"
+        },
+        {
+          "field": "month",
+          "url": "https://axelera.ai/news/axelera-ai-raises-68-million-series-b-funding-to-accelerate-next-generation-ai",
+          "quote": "June 27, 2024"
+        },
+        {
+          "field": "investors",
+          "url": "https://axelera.ai/news/axelera-ai-raises-68-million-series-b-funding-to-accelerate-next-generation-ai",
+          "quote": "including Invest-NL Deep Tech Fund"
+        }
+      ]
+    },
+    {
+      "techeuId": "82527a87-a11c-4e10-8280-75a102a745dd",
+      "stage": "series-c",
+      "month": "2026-02",
+      "amountEur": 212278169,
+      "amountOriginal": 250000000,
+      "currency": "USD",
+      "investors": [
+        "Innovation Industries",
+        "BlackRock",
+        "SiteGround Capital",
+        "Bitfury",
+        "CDP Venture Capital",
+        "European Innovation Council Fund",
+        "Federal Holding and Investment Company of Belgium (SFPIM)",
+        "Invest-NL",
+        "Samsung Catalyst Fund",
+        "Verve Investments"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://axelera.ai/our-story",
+          "quote": "more than $250 million in Series C, led by Innovation Industries"
+        },
+        {
+          "field": "stage",
+          "url": "https://axelera.ai/our-story",
+          "quote": "more than $250 million in Series C, led by Innovation Industries"
+        },
+        {
+          "field": "month",
+          "url": "https://axelera.ai/news/axelera-ai-secures-more-than-250-million-funding-on-global-commercial-growth",
+          "quote": "February 24, 2026"
+        },
+        {
+          "field": "investors",
+          "url": "https://axelera.ai/news/axelera-ai-secures-more-than-250-million-funding-on-global-commercial-growth",
+          "quote": "announced its latest funding round led by Innovation Industries"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "clikalia",
+  "name": "Clikalia",
+  "aliases": [],
+  "domain": "clikalia.es",
+  "country": "ES",
+  "city": "Madrid",
+  "founded": 2018,
+  "sectors": [
+    "consumer"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Alister Moreno"
+  ],
+  "difficulty": 4,
+  "techeuId": "019B28D1-166F-46FB-829E-A1A10D48ADC0",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://clikalia.es/en/sobre-nosotros",
+      "quote": "We founded Clikalia in Madrid"
+    },
+    {
+      "field": "founded",
+      "url": "https://tech.eu/2021/12/16/madrids-instant-property-buyer-clikalia-brings-in-e460-million-acquires-property-management-and-rental-management-firm-inmho",
+      "quote": "founding in 2018, Clikalia has raised approximately €922 million"
+    },
+    {
+      "field": "founders",
+      "url": "https://tech.eu/2021/12/16/madrids-instant-property-buyer-clikalia-brings-in-e460-million-acquires-property-management-and-rental-management-firm-inmho",
+      "quote": "comments Clikalia founder Alister Moreno"
+    },
+    {
+      "field": "sectors",
+      "url": "https://tech.eu/2021/12/16/madrids-instant-property-buyer-clikalia-brings-in-e460-million-acquires-property-management-and-rental-management-firm-inmho",
+      "quote": "Guaranteeing sellers an offer for their property in as fast as 24 hours and if accepted, a sale in 7 days"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-b",
+      "month": "2021-12",
+      "amountEur": 460000000,
+      "amountOriginal": 460000000,
+      "currency": "EUR",
+      "investors": [
+        "Fifth Wall",
+        "Deutsche Bank",
+        "Luxor Capital",
+        "Mouro Capital"
+      ],
+      "techeuId": "5f979a35-b01d-4748-b3f6-040af8415640",
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2021/12/16/madrids-instant-property-buyer-clikalia-brings-in-e460-million-acquires-property-management-and-rental-management-firm-inmho",
+          "quote": "Clikalia has raised €460 million in a Series B financing round"
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2021/12/16/madrids-instant-property-buyer-clikalia-brings-in-e460-million-acquires-property-management-and-rental-management-firm-inmho",
+          "quote": "Clikalia has raised €460 million in a Series B financing round"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2021/12/16/madrids-instant-property-buyer-clikalia-brings-in-e460-million-acquires-property-management-and-rental-management-firm-inmho",
+          "quote": "2021-12-16T16:08:33+00:00"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2021/12/16/madrids-instant-property-buyer-clikalia-brings-in-e460-million-acquires-property-management-and-rental-management-firm-inmho",
+          "quote": "was led by proptech focused VC firm Fifth Wall , Deutsche Bank , Luxor Capital , and Mouro Capital"
+        }
+      ]
+    }
+  ]
+}

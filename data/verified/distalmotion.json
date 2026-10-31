@@ -1,0 +1,72 @@
+{
+  "id": "distalmotion",
+  "name": "Distalmotion",
+  "aliases": [
+    "DistalMotion"
+  ],
+  "domain": "distalmotion.com",
+  "country": "CH",
+  "city": "Lausanne",
+  "founded": 2012,
+  "sectors": [
+    "robotics",
+    "health"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [],
+  "difficulty": 5,
+  "techeuId": "ada94e5e-9afa-4101-8ad9-890839222dc4",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.distalmotion.com/about-us",
+      "quote": "We are an international team headquartered in Lausanne, Switzerland."
+    },
+    {
+      "field": "founded",
+      "url": "https://www.distalmotion.com/about-us",
+      "quote": "Distalmotion was founded in 2012 as a spin-off from the Robotics Lab of the Swiss Federal Institute of Technology in Lausanne (EPFL)."
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.distalmotion.com/about-us",
+      "quote": "our mission is to empower access to the benefits of robotic surgery."
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-f+",
+      "month": "2025-11",
+      "amountEur": 129421915,
+      "amountOriginal": 150000000,
+      "currency": "USD",
+      "techeuId": "ae33faf0-4a39-4548-b2ab-1ce0b2d09f2b",
+      "investors": [
+        "Revival Healthcare Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.distalmotion.com/news/distalmotion_raises_150_million_to_accelerate_dexter_expansion",
+          "quote": "The $150M USD financing was led by Revival Healthcare Capital and included inside investor participation."
+        },
+        {
+          "field": "stage",
+          "url": "https://www.distalmotion.com/news/distalmotion_raises_150_million_to_accelerate_dexter_expansion",
+          "quote": "today announced the successful closing of its Series G financing round."
+        },
+        {
+          "field": "month",
+          "url": "https://www.distalmotion.com/news/distalmotion_raises_150_million_to_accelerate_dexter_expansion",
+          "quote": "November 18, 2025"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.distalmotion.com/news/distalmotion_raises_150_million_to_accelerate_dexter_expansion",
+          "quote": "The $150M USD financing was led by Revival Healthcare Capital and included inside investor participation."
+        }
+      ]
+    }
+  ]
+}

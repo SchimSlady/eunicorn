@@ -1,0 +1,120 @@
+{
+  "id": "vectivbio",
+  "name": "VectivBio",
+  "aliases": [
+    "VectivBio Holding AG"
+  ],
+  "domain": "vectivbio.com",
+  "country": "CH",
+  "city": "Basel",
+  "founded": 2020,
+  "sectors": [
+    "biotech",
+    "health"
+  ],
+  "status": "acquired",
+  "unicorn": false,
+  "founders": [],
+  "difficulty": 4,
+  "techeuId": "409FE652-B77D-4866-AE64-A1FAA75B9C9B",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.biospace.com/vectivbio-launches-with-35m-financing-to-bring-best-in-disease-medicines-to-patients-with-serious-rare-diseases",
+      "quote": "BASEL, Switzerland"
+    },
+    {
+      "field": "founded",
+      "url": "https://www.biospace.com/vectivbio-launches-with-35m-financing-to-bring-best-in-disease-medicines-to-patients-with-serious-rare-diseases",
+      "quote": "today announced its formation with $35 million in financing"
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.biospace.com/vectivbio-launches-with-35m-financing-to-bring-best-in-disease-medicines-to-patients-with-serious-rare-diseases",
+      "quote": "a clinical-stage biotechnology company bringing transformational medicines to patients with serious rare diseases"
+    },
+    {
+      "field": "status",
+      "url": "https://www.life-sciences-europe.com/index-term/vectivbio-forbion-investment-202305-holding-nasdaq-vect-ironwood-2001-154727.html",
+      "quote": "acquisition $1.2b cash tender offer at $17/share"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://www.life-sciences-europe.com/index-term/vectivbio-forbion-investment-202305-holding-nasdaq-vect-ironwood-2001-154727.html",
+      "quote": "acquisition $1.2b cash tender offer at $17/share"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "94168a13-65e5-4880-f06a-08d91092c887",
+      "stage": "series-a",
+      "month": "2020-01",
+      "amountEur": 31328321,
+      "amountOriginal": 35000000,
+      "currency": "USD",
+      "investors": [
+        "Versant Ventures",
+        "OrbiMed",
+        "Novo Holdings",
+        "Bpifrance",
+        "Tekla Healthcare Investors",
+        "Inserm Transfer Initiative",
+        "Cowen Healthcare Investments"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.biospace.com/vectivbio-launches-with-35m-financing-to-bring-best-in-disease-medicines-to-patients-with-serious-rare-diseases",
+          "quote": "announced its formation with $35 million in financing"
+        },
+        {
+          "field": "month",
+          "url": "https://www.biospace.com/vectivbio-launches-with-35m-financing-to-bring-best-in-disease-medicines-to-patients-with-serious-rare-diseases",
+          "quote": "Jan. 7, 2020"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.biospace.com/vectivbio-launches-with-35m-financing-to-bring-best-in-disease-medicines-to-patients-with-serious-rare-diseases",
+          "quote": "commitments by Versant Ventures, OrbiMed, Novo Holdings, BPI France, Tekla Healthcare Investors, Inserm Transfer Initiative and Cowen Healthcare Investments"
+        }
+      ]
+    },
+    {
+      "techeuId": "9ebe95e3-0233-4861-f06b-08d91092c887",
+      "stage": "series-b",
+      "month": "2020-10",
+      "amountEur": 94033168,
+      "amountOriginal": 110000000,
+      "currency": "USD",
+      "investors": [
+        "Surveyor Capital",
+        "Cormorant Capital",
+        "Eventide Asset Management",
+        "Versant Ventures",
+        "OrbiMed",
+        "Novo Holdings",
+        "Bpifrance",
+        "Tekla Healthcare Investors",
+        "Inserm Transfer Initiative",
+        "Cowen Healthcare Investments"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.startupticker.ch/en/news/vectivbio-secures-110-million-to-finance-phase-iii-clinical-trials",
+          "quote": "VectivBio closed a $110 million crossover financing from new investors"
+        },
+        {
+          "field": "month",
+          "url": "https://www.homburger.ch/en/news/homburger-advises-vectivbio-on-usd-110-m-crossover-financing/",
+          "quote": "On October 15, 2020, VectivBio AG"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.startupticker.ch/en/news/vectivbio-secures-110-million-to-finance-phase-iii-clinical-trials",
+          "quote": "Cormorant Capital and Eventide Asset Management, with participation from existing investors Versant Ventures, OrbiMed, Novo Holdings, BPI France, Tekla Healthcare Investors, Inserm Transfer Initiative and Cowen Healthcare Investments"
+        }
+      ]
+    }
+  ]
+}

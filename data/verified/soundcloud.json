@@ -1,0 +1,186 @@
+{
+  "id": "soundcloud",
+  "name": "SoundCloud",
+  "aliases": [],
+  "domain": "soundcloud.com",
+  "country": "DE",
+  "city": "Berlin",
+  "founded": 2007,
+  "sectors": [
+    "consumer"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Alexander Ljung",
+    "Eric Wahlforss"
+  ],
+  "difficulty": 2,
+  "techeuId": "47CA9728-FE57-4287-A1B5-875525A33DAB",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/SoundCloud",
+      "quote": "Headquarters Berlin , Germany"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/SoundCloud",
+      "quote": "Founded in 2007 by Alexander Ljung"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/SoundCloud",
+      "quote": "by Swedish sound designer Alexander Ljung and Swedish electronic musician Eric Wahlforss"
+    },
+    {
+      "field": "sectors",
+      "url": "https://en.wikipedia.org/wiki/SoundCloud",
+      "quote": "SoundCloud is one of the largest music streaming services in the world"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-a",
+      "month": "2009-04",
+      "amountEur": 2500000,
+      "amountOriginal": 2500000,
+      "currency": "EUR",
+      "investors": [
+        "Doughty Hanson Technology Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://en.wikipedia.org/wiki/SoundCloud",
+          "quote": "In April 2009, SoundCloud received €2.5 million Series A funding from Doughty Hanson Technology Ventures"
+        },
+        {
+          "field": "stage",
+          "url": "https://en.wikipedia.org/wiki/SoundCloud",
+          "quote": "In April 2009, SoundCloud received €2.5 million Series A funding from Doughty Hanson Technology Ventures"
+        },
+        {
+          "field": "month",
+          "url": "https://en.wikipedia.org/wiki/SoundCloud",
+          "quote": "In April 2009, SoundCloud received €2.5 million Series A funding from Doughty Hanson Technology Ventures"
+        },
+        {
+          "field": "investors",
+          "url": "https://en.wikipedia.org/wiki/SoundCloud",
+          "quote": "In April 2009, SoundCloud received €2.5 million Series A funding from Doughty Hanson Technology Ventures"
+        }
+      ]
+    },
+    {
+      "stage": "series-b",
+      "month": "2011-01",
+      "amountEur": 7491198,
+      "amountOriginal": 10000000,
+      "currency": "USD",
+      "investors": [
+        "Union Square Ventures",
+        "Index Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://en.wikipedia.org/wiki/SoundCloud",
+          "quote": "In January 2011, it was reported that SoundCloud had raised US$ 10 million Series B funding from Union Square Ventures and Index Ventures"
+        },
+        {
+          "field": "stage",
+          "url": "https://en.wikipedia.org/wiki/SoundCloud",
+          "quote": "In January 2011, it was reported that SoundCloud had raised US$ 10 million Series B funding from Union Square Ventures and Index Ventures"
+        },
+        {
+          "field": "month",
+          "url": "https://en.wikipedia.org/wiki/SoundCloud",
+          "quote": "In January 2011, it was reported that SoundCloud had raised US$ 10 million Series B funding from Union Square Ventures and Index Ventures"
+        },
+        {
+          "field": "investors",
+          "url": "https://en.wikipedia.org/wiki/SoundCloud",
+          "quote": "In January 2011, it was reported that SoundCloud had raised US$ 10 million Series B funding from Union Square Ventures and Index Ventures"
+        }
+      ]
+    },
+    {
+      "stage": "series-c",
+      "month": "2014-01",
+      "amountEur": 43837218,
+      "amountOriginal": 60000000,
+      "currency": "USD",
+      "investors": [],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.theverge.com/2014/1/24/5342300/soundcloud-pursuing-licensing-deals-with-record-labels-60-million-funding",
+          "quote": "With a fresh infusion of $60 million from venture capitalists, SoundCloud plans to pursue licensing deals with record labels"
+        },
+        {
+          "field": "month",
+          "url": "https://www.theverge.com/2014/1/24/5342300/soundcloud-pursuing-licensing-deals-with-record-labels-60-million-funding",
+          "quote": "Jan 24, 2014"
+        }
+      ]
+    },
+    {
+      "techeuId": "0bea7a72-c44c-4681-ea48-08d91092c887",
+      "stage": "series-d",
+      "month": "2017-08",
+      "amountEur": 144476645,
+      "amountOriginal": 169500000,
+      "currency": "USD",
+      "investors": [
+        "The Raine Group",
+        "Temasek"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://en.wikipedia.org/wiki/SoundCloud",
+          "quote": "In August 2017, SoundCloud announced it reached an agreement on a $169.5 million investment from The Raine Group and Temasek"
+        },
+        {
+          "field": "month",
+          "url": "https://en.wikipedia.org/wiki/SoundCloud",
+          "quote": "In August 2017, SoundCloud announced it reached an agreement on a $169.5 million investment from The Raine Group and Temasek"
+        },
+        {
+          "field": "investors",
+          "url": "https://en.wikipedia.org/wiki/SoundCloud",
+          "quote": "In August 2017, SoundCloud announced it reached an agreement on a $169.5 million investment from The Raine Group and Temasek"
+        }
+      ]
+    },
+    {
+      "techeuId": "2aa873df-86f6-4a46-ea49-08d91092c887",
+      "stage": "series-e",
+      "month": "2020-02",
+      "amountEur": 68801027,
+      "amountOriginal": 75000000,
+      "currency": "USD",
+      "investors": [
+        "SiriusXM"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2020/02/11/music-streaming-pioneer-soundcloud-raises-75m-from-pandora-owner-siriusxm/",
+          "quote": "The company has raised $75 million in funding from satellite radio giant SiriusXM"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2020/02/11/music-streaming-pioneer-soundcloud-raises-75m-from-pandora-owner-siriusxm/",
+          "quote": "5:51 AM PST · February 11, 2020"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2020/02/11/music-streaming-pioneer-soundcloud-raises-75m-from-pandora-owner-siriusxm/",
+          "quote": "The company has raised $75 million in funding from satellite radio giant SiriusXM"
+        }
+      ]
+    }
+  ]
+}

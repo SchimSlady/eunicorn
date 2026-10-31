@@ -1,0 +1,247 @@
+{
+  "id": "scalable-capital",
+  "name": "Scalable Capital",
+  "aliases": [],
+  "domain": "scalable.capital",
+  "country": "DE",
+  "city": "Munich",
+  "founded": 2014,
+  "sectors": [
+    "fintech"
+  ],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 1148011480,
+  "founders": [
+    "Erik Podzuweit",
+    "Florian Prucker",
+    "Adam French",
+    "Stefan Mittnik"
+  ],
+  "difficulty": 3,
+  "techeuId": "0D8CC02C-F9F7-48F2-85F5-4B073BD5A22A",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/Scalable_Capital",
+      "quote": "Scalable Capital was founded in Munich in 2014 by investment banker Erik Podzuweit, Florian Prucker, Adam French and Stefan Mittnik as a startup company"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Scalable_Capital",
+      "quote": "Scalable Capital was founded in Munich in 2014 by investment banker Erik Podzuweit, Florian Prucker, Adam French and Stefan Mittnik as a startup company"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Scalable_Capital",
+      "quote": "Scalable Capital was founded in Munich in 2014 by investment banker Erik Podzuweit, Florian Prucker, Adam French and Stefan Mittnik as a startup company"
+    },
+    {
+      "field": "sectors",
+      "url": "https://en.wikipedia.org/wiki/Scalable_Capital",
+      "quote": "The company launched in 2016 as a robo-advisor for automated wealth management"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://techcrunch.com/2021/06/08/european-neobroker-scalable-capital-raises-180m-at-a-1-4b-valuation/",
+      "quote": "European neobroker Scalable Capital raises $180M+ at a $1.4B valuation"
+    },
+    {
+      "field": "valuation",
+      "url": "https://techcrunch.com/2021/06/08/european-neobroker-scalable-capital-raises-180m-at-a-1-4b-valuation/",
+      "quote": "European neobroker Scalable Capital raises $180M+ at a $1.4B valuation"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "b00926fb-0346-49c9-eca8-08d91092c887",
+      "stage": "series-b",
+      "month": "2017-06",
+      "amountEur": 30000000,
+      "amountOriginal": 30000000,
+      "currency": "EUR",
+      "investors": [
+        "BlackRock",
+        "HV Holtzbrinck Ventures",
+        "Tengelmann Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2017/06/20/scalablecapital-raises-funding/",
+          "quote": "Munich and London-based financial robo-advisor Scalable Capital has raised €30 million. The investment round was led by BlackRock along with existing investors HV Holtzbrinck Ventures and Tengelmann Ventures."
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2017/06/20/scalablecapital-raises-funding/",
+          "quote": "2017-06-20T14:11:26+00:00"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2017/06/20/scalablecapital-raises-funding/",
+          "quote": "Munich and London-based financial robo-advisor Scalable Capital has raised €30 million. The investment round was led by BlackRock along with existing investors HV Holtzbrinck Ventures and Tengelmann Ventures."
+        }
+      ]
+    },
+    {
+      "techeuId": "48d0968e-d3e8-4dc8-eca9-08d91092c887",
+      "stage": "series-c",
+      "month": "2019-08",
+      "amountEur": 25000000,
+      "amountOriginal": 25000000,
+      "currency": "EUR",
+      "investors": [
+        "BlackRock",
+        "HV Holtzbrinck Ventures",
+        "Tengelmann Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://en.wikipedia.org/wiki/Scalable_Capital",
+          "quote": "In August 2019, BlackRock, HV Holtzbrinck Ventures and Tengelmann Ventures invested another €25 million in a Series C round"
+        },
+        {
+          "field": "stage",
+          "url": "https://en.wikipedia.org/wiki/Scalable_Capital",
+          "quote": "In August 2019, BlackRock, HV Holtzbrinck Ventures and Tengelmann Ventures invested another €25 million in a Series C round"
+        },
+        {
+          "field": "month",
+          "url": "https://en.wikipedia.org/wiki/Scalable_Capital",
+          "quote": "In August 2019, BlackRock, HV Holtzbrinck Ventures and Tengelmann Ventures invested another €25 million in a Series C round"
+        },
+        {
+          "field": "investors",
+          "url": "https://en.wikipedia.org/wiki/Scalable_Capital",
+          "quote": "In August 2019, BlackRock, HV Holtzbrinck Ventures and Tengelmann Ventures invested another €25 million in a Series C round"
+        }
+      ]
+    },
+    {
+      "techeuId": "6c8d1208-b85c-4e73-ecaa-08d91092c887",
+      "stage": "series-d",
+      "month": "2020-07",
+      "amountEur": 50000000,
+      "amountOriginal": 50000000,
+      "currency": "EUR",
+      "investors": [],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://en.wikipedia.org/wiki/Scalable_Capital",
+          "quote": "In July 2020, Scalable Capital raised €50 million in a Series D round"
+        },
+        {
+          "field": "stage",
+          "url": "https://en.wikipedia.org/wiki/Scalable_Capital",
+          "quote": "In July 2020, Scalable Capital raised €50 million in a Series D round"
+        },
+        {
+          "field": "month",
+          "url": "https://en.wikipedia.org/wiki/Scalable_Capital",
+          "quote": "In July 2020, Scalable Capital raised €50 million in a Series D round"
+        }
+      ]
+    },
+    {
+      "techeuId": "3ba06625-23a7-4156-8306-0e0763a6324a",
+      "stage": "series-e",
+      "month": "2021-06",
+      "amountEur": 147601476,
+      "amountOriginal": 180000000,
+      "currency": "USD",
+      "investors": [
+        "Tencent"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://at.scalable.capital/newsroom/funding-over-180-million",
+          "quote": "finalizes Series E funding of $180m (€150m). The funding round is led by China’s leading technology company Tencent, with existing shareholders participating."
+        },
+        {
+          "field": "stage",
+          "url": "https://at.scalable.capital/newsroom/funding-over-180-million",
+          "quote": "finalizes Series E funding of $180m (€150m). The funding round is led by China’s leading technology company Tencent, with existing shareholders participating."
+        },
+        {
+          "field": "month",
+          "url": "https://at.scalable.capital/newsroom/funding-over-180-million",
+          "quote": "Munich/Berlin/London, 9 June 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://at.scalable.capital/newsroom/funding-over-180-million",
+          "quote": "finalizes Series E funding of $180m (€150m). The funding round is led by China’s leading technology company Tencent, with existing shareholders participating."
+        }
+      ]
+    },
+    {
+      "techeuId": "7b36ec25-8a66-44cb-9cd1-3918aff817d4",
+      "stage": "series-e",
+      "month": "2023-12",
+      "amountEur": 60000000,
+      "amountOriginal": 60000000,
+      "currency": "EUR",
+      "investors": [
+        "Balderton Capital",
+        "HV Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2023/12/08/scalable-capital-secures-eur60m-equity-financing-for-digital-investment-expansion/",
+          "quote": "Today, Scalable Capital, a digital investment platform in Europe, announced the closing of a €60 million equity financing."
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2023/12/08/scalable-capital-secures-eur60m-equity-financing-for-digital-investment-expansion/",
+          "quote": "This extension of the series E round was led by European venture capital firm Balderton Capital with participation from HV Capital’s new growth fund and existing investors"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2023/12/08/scalable-capital-secures-eur60m-equity-financing-for-digital-investment-expansion/",
+          "quote": "2023-12-08T15:13:08+00:00"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2023/12/08/scalable-capital-secures-eur60m-equity-financing-for-digital-investment-expansion/",
+          "quote": "This extension of the series E round was led by European venture capital firm Balderton Capital with participation from HV Capital’s new growth fund and existing investors"
+        }
+      ]
+    },
+    {
+      "techeuId": "7483e367-e153-4ce5-915f-bdbdfc1911d3",
+      "stage": "series-f+",
+      "month": "2025-06",
+      "amountEur": 155000000,
+      "amountOriginal": 155000000,
+      "currency": "EUR",
+      "investors": [
+        "Sofina",
+        "Noteus Partners",
+        "Balderton Capital",
+        "Tencent",
+        "HV Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://de.scalable.capital/en/newsroom/funding-round-2025",
+          "quote": "Scalable Capital has successfully completed a funding round, raising €155 million ($175 million). This is the company’s largest funding round to date and is led by Sofina and Noteus Partners. Existing investors Balderton Capital, Tencent, and HV Capital also participated"
+        },
+        {
+          "field": "month",
+          "url": "https://de.scalable.capital/en/newsroom/funding-round-2025",
+          "quote": "Munich, June 3, 2025"
+        },
+        {
+          "field": "investors",
+          "url": "https://de.scalable.capital/en/newsroom/funding-round-2025",
+          "quote": "Scalable Capital has successfully completed a funding round, raising €155 million ($175 million). This is the company’s largest funding round to date and is led by Sofina and Noteus Partners. Existing investors Balderton Capital, Tencent, and HV Capital also participated"
+        }
+      ]
+    }
+  ]
+}

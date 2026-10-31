@@ -1,0 +1,251 @@
+{
+  "id": "aiven",
+  "name": "Aiven",
+  "aliases": [],
+  "domain": "aiven.io",
+  "country": "FI",
+  "city": "Helsinki",
+  "founded": 2016,
+  "sectors": [
+    "saas"
+  ],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 3041789065,
+  "founders": [
+    "Oskari Saarenmaa"
+  ],
+  "difficulty": 3,
+  "techeuId": "DF97B1AC-BD6B-4073-852F-C301D419AB38",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://aiven.io/about",
+      "quote": "We are a global team headquartered in Helsinki"
+    },
+    {
+      "field": "founded",
+      "url": "https://aiven.io/press/aiven-closes-8-million-series-a-round",
+      "quote": "Aiven launched its data cloud in 2016"
+    },
+    {
+      "field": "founders",
+      "url": "https://aiven.io/press/aiven-closes-8-million-series-a-round",
+      "quote": "Oskari Saarenmaa, co-founder and CEO at Aiven"
+    },
+    {
+      "field": "sectors",
+      "url": "https://aiven.io/press/aiven-raises-usd100m-series-c-to-expand-global-open-source-innovation",
+      "quote": "a software company that combines the best open source technologies with cloud infrastructure"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://www.helpnetsecurity.com/2022/05/13/aiven-series-d/",
+      "quote": "Aiven announced it raised $210M in its Series D at a pre-money valuation of $3B."
+    },
+    {
+      "field": "unicorn",
+      "url": "https://aiven.io/press/aiven-achieves-usd2b-unicorn-valuation-with-its-series-c-extension",
+      "quote": "a $60M Series C extension at a $2B valuation"
+    },
+    {
+      "field": "valuation",
+      "url": "https://www.helpnetsecurity.com/2022/05/13/aiven-series-d/",
+      "quote": "Aiven announced it raised $210M in its Series D at a pre-money valuation of $3B."
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "67b2e262-17dd-4b0d-f621-08d91092c887",
+      "stage": "series-a",
+      "month": "2019-05",
+      "amountEur": 8000000,
+      "amountOriginal": 8000000,
+      "currency": "EUR",
+      "investors": [
+        "Earlybird Venture Capital",
+        "Lifeline Ventures",
+        "Risto Siilasmaa"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://aiven.io/press/aiven-closes-8-million-series-a-round",
+          "quote": "Aiven has completed an €8 million Series A funding round"
+        },
+        {
+          "field": "stage",
+          "url": "https://aiven.io/press/aiven-closes-8-million-series-a-round",
+          "quote": "Aiven has completed an €8 million Series A funding round"
+        },
+        {
+          "field": "month",
+          "url": "https://aiven.io/press/aiven-closes-8-million-series-a-round",
+          "quote": "May 3, 2019"
+        },
+        {
+          "field": "investors",
+          "url": "https://aiven.io/press/aiven-closes-8-million-series-a-round",
+          "quote": "The round was led by Earlybird Venture Capital with participation from Lifeline Ventures and Nokia chairman Risto Siilasmaa."
+        }
+      ]
+    },
+    {
+      "techeuId": "2caefb59-a54a-4f24-f622-08d91092c887",
+      "stage": "series-b",
+      "month": "2020-02",
+      "amountEur": 36287762,
+      "amountOriginal": 40000000,
+      "currency": "USD",
+      "investors": [
+        "IVP",
+        "Earlybird Venture Capital",
+        "Lifeline Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://aiven.io/press/aiven-raises-dollar40m-series-b-to-accelerate-open-source-cloud-platform",
+          "quote": "it has raised $40 million in Series B funding"
+        },
+        {
+          "field": "stage",
+          "url": "https://aiven.io/press/aiven-raises-dollar40m-series-b-to-accelerate-open-source-cloud-platform",
+          "quote": "it has raised $40 million in Series B funding"
+        },
+        {
+          "field": "month",
+          "url": "https://aiven.io/press/aiven-raises-dollar40m-series-b-to-accelerate-open-source-cloud-platform",
+          "quote": "February 5, 2020"
+        },
+        {
+          "field": "investors",
+          "url": "https://aiven.io/press/aiven-raises-dollar40m-series-b-to-accelerate-open-source-cloud-platform",
+          "quote": "The round was led by Silicon Valley-based IVP"
+        },
+        {
+          "field": "investors",
+          "url": "https://aiven.io/press/aiven-raises-dollar40m-series-b-to-accelerate-open-source-cloud-platform",
+          "quote": "Existing investors Earlybird VC and Lifeline Ventures"
+        }
+      ]
+    },
+    {
+      "techeuId": "3d118199-2f06-4bdd-f623-08d91092c887",
+      "stage": "series-c",
+      "month": "2021-03",
+      "amountEur": 84153833,
+      "amountOriginal": 100000000,
+      "currency": "USD",
+      "investors": [
+        "Atomico",
+        "Salesforce Ventures",
+        "World Innovation Lab",
+        "Earlybird Venture Capital",
+        "IVP"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://aiven.io/press/aiven-raises-usd100m-series-c-to-expand-global-open-source-innovation",
+          "quote": "announced it raised $100M in its Series C"
+        },
+        {
+          "field": "stage",
+          "url": "https://aiven.io/press/aiven-raises-usd100m-series-c-to-expand-global-open-source-innovation",
+          "quote": "announced it raised $100M in its Series C"
+        },
+        {
+          "field": "month",
+          "url": "https://siliconangle.com/2022/05/11/aiven-raises-210m-series-d-funding-expand-open-source-expertise/",
+          "quote": "The startup raised $100 million in a Series C round back in March 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://aiven.io/press/aiven-raises-usd100m-series-c-to-expand-global-open-source-innovation",
+          "quote": "The round was led by Atomico, with participation from Salesforce Ventures and World Innovation Lab as new investors."
+        },
+        {
+          "field": "investors",
+          "url": "https://aiven.io/press/aiven-raises-usd100m-series-c-to-expand-global-open-source-innovation",
+          "quote": "Lead investors of Aiven’s Series A (Earlybird Venture Capital) and Series B (IVP) also significantly increased their capital commitments to Aiven."
+        }
+      ]
+    },
+    {
+      "techeuId": "f09b0149-cc82-4994-b399-829ad090424d",
+      "stage": "series-c",
+      "month": "2021-10",
+      "amountEur": 51480051,
+      "amountOriginal": 60000000,
+      "currency": "USD",
+      "investors": [
+        "World Innovation Lab",
+        "IVP",
+        "Atomico"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://aiven.io/press/aiven-achieves-usd2b-unicorn-valuation-with-its-series-c-extension",
+          "quote": "a $60M Series C extension at a $2B valuation"
+        },
+        {
+          "field": "stage",
+          "url": "https://aiven.io/press/aiven-achieves-usd2b-unicorn-valuation-with-its-series-c-extension",
+          "quote": "a $60M Series C extension at a $2B valuation"
+        },
+        {
+          "field": "month",
+          "url": "https://aiven.io/press/aiven-achieves-usd2b-unicorn-valuation-with-its-series-c-extension",
+          "quote": "October 19, 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://aiven.io/press/aiven-achieves-usd2b-unicorn-valuation-with-its-series-c-extension",
+          "quote": "The round was co-led by existing investors World Innovation Lab and IVP, and with participation from Atomico and others."
+        }
+      ]
+    },
+    {
+      "techeuId": "53559e87-0c49-4e85-ac1c-aca441a2912b",
+      "stage": "series-d",
+      "month": "2022-05",
+      "amountEur": 198995546,
+      "amountOriginal": 210000000,
+      "currency": "USD",
+      "postMoneyValuationEur": 3041789065,
+      "investors": [
+        "Eurazeo",
+        "BlackRock",
+        "IVP",
+        "Atomico",
+        "Earlybird",
+        "World Innovation Lab",
+        "Salesforce Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.helpnetsecurity.com/2022/05/13/aiven-series-d/",
+          "quote": "Aiven announced it raised $210M in its Series D at a pre-money valuation of $3B."
+        },
+        {
+          "field": "stage",
+          "url": "https://www.helpnetsecurity.com/2022/05/13/aiven-series-d/",
+          "quote": "Aiven announced it raised $210M in its Series D at a pre-money valuation of $3B."
+        },
+        {
+          "field": "month",
+          "url": "https://www.helpnetsecurity.com/2022/05/13/aiven-series-d/",
+          "quote": "May 13, 2022"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.helpnetsecurity.com/2022/05/13/aiven-series-d/",
+          "quote": "The round was led by Eurazeo, and joined by funds and accounts managed by BlackRock as well as existing investors IVP, Atomico, Earlybird, World Innovation Lab and Salesforce Ventures."
+        }
+      ]
+    }
+  ]
+}

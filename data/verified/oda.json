@@ -1,0 +1,114 @@
+{
+  "id": "oda",
+  "name": "Oda",
+  "aliases": [
+    "Kolonial"
+  ],
+  "domain": "oda.com",
+  "country": "NO",
+  "city": "Oslo",
+  "founded": 2013,
+  "sectors": [
+    "consumer"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "lastValuationEur": 335223355,
+  "founders": [
+    "Karl Munthe-Kaas"
+  ],
+  "difficulty": 3,
+  "techeuId": "D00C0865-BD4D-4577-81A5-A8AE3066933E",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://oda.com/no/about",
+      "quote": "\"addressLocality\":\"Oslo\",\"addressCountry\":\"NO\""
+    },
+    {
+      "field": "founded",
+      "url": "https://oda.com/no/about",
+      "quote": "Oda ble startet i 2013 av 10 gründere"
+    },
+    {
+      "field": "founders",
+      "url": "https://techcrunch.com/2022/12/06/oda-the-norwegian-grocery-delivery-startup-raises-a-fresh-151m-but-at-a-lowered-valuation-of-353m",
+      "quote": "Karl Munthe-Kaas, the CEO and co-founder, told TechCrunch"
+    },
+    {
+      "field": "sectors",
+      "url": "https://oda.com/no/about",
+      "quote": "Oda er Norges største lavpris matbutikk på nett."
+    },
+    {
+      "field": "unicorn",
+      "url": "https://techcrunch.com/2022/12/06/oda-the-norwegian-grocery-delivery-startup-raises-a-fresh-151m-but-at-a-lowered-valuation-of-353m",
+      "quote": "The investment gives Oda a post-money valuation of NOK3.5 billion, or $353 million."
+    },
+    {
+      "field": "valuation",
+      "url": "https://techcrunch.com/2022/12/06/oda-the-norwegian-grocery-delivery-startup-raises-a-fresh-151m-but-at-a-lowered-valuation-of-353m",
+      "quote": "The investment gives Oda a post-money valuation of NOK3.5 billion, or $353 million."
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "e9344a90-bad1-44ad-fad9-08d91092c887",
+      "stage": "series-c",
+      "month": "2021-04",
+      "amountEur": 219898764,
+      "amountOriginal": 265000000,
+      "currency": "USD",
+      "investors": [
+        "SoftBank Vision Fund"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2022/12/06/oda-the-norwegian-grocery-delivery-startup-raises-a-fresh-151m-but-at-a-lowered-valuation-of-353m",
+          "quote": "In April 2021 , Oda (known then as Kolonial) was valued at around $900 million when it raised $265 million from investors that included SoftBank"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2022/12/06/oda-the-norwegian-grocery-delivery-startup-raises-a-fresh-151m-but-at-a-lowered-valuation-of-353m",
+          "quote": "In April 2021 , Oda (known then as Kolonial) was valued at around $900 million when it raised $265 million from investors that included SoftBank"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2022/12/06/oda-the-norwegian-grocery-delivery-startup-raises-a-fresh-151m-but-at-a-lowered-valuation-of-353m",
+          "quote": "In April 2021 , Oda (known then as Kolonial) was valued at around $900 million when it raised $265 million from investors that included SoftBank"
+        }
+      ]
+    },
+    {
+      "techeuId": "09793a37-3d19-4e00-a79a-c236f704b976",
+      "stage": "series-d",
+      "month": "2022-12",
+      "amountEur": 143667152,
+      "amountOriginal": 1500000000,
+      "currency": "NOK",
+      "investors": [
+        "Kinnevik",
+        "Verdane",
+        "Summa Equity"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2022/12/06/oda-the-norwegian-grocery-delivery-startup-raises-a-fresh-151m-but-at-a-lowered-valuation-of-353m",
+          "quote": "today announced that it had raised 1.5 billion Norwegian crowns in equity"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2022/12/06/oda-the-norwegian-grocery-delivery-startup-raises-a-fresh-151m-but-at-a-lowered-valuation-of-353m",
+          "quote": "6:00 AM PST · December 6, 2022"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2022/12/06/oda-the-norwegian-grocery-delivery-startup-raises-a-fresh-151m-but-at-a-lowered-valuation-of-353m",
+          "quote": "In addition to the equity investment from Kinnevik, Verdane and Summa Equity"
+        }
+      ]
+    }
+  ]
+}

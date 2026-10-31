@@ -1,0 +1,166 @@
+{
+  "id": "allica-bank",
+  "name": "Allica Bank",
+  "aliases": [],
+  "domain": "allica.bank",
+  "country": "GB",
+  "city": "London",
+  "founded": 2019,
+  "sectors": [
+    "fintech"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [],
+  "difficulty": 3,
+  "techeuId": "62AF7C21-0E14-43A9-AC63-9C15A32D4669",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/Allica_Bank",
+      "quote": "Allica Bank is a British challenger bank and fintech headquartered in London and Milton Keynes"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Allica_Bank",
+      "quote": "Founded 2019"
+    },
+    {
+      "field": "sectors",
+      "url": "https://en.wikipedia.org/wiki/Allica_Bank",
+      "quote": "Allica Bank is a British challenger bank and fintech"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-a",
+      "month": "2020-09",
+      "amountEur": 28231717,
+      "amountOriginal": 26000000,
+      "currency": "GBP",
+      "investors": [
+        "Warwick Capital Partners"
+      ],
+      "techeuId": "6cac931a-287f-431f-f4ca-08d91092c887",
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://en.wikipedia.org/wiki/Allica_Bank",
+          "quote": "Warwick Capital Partners led a £26 million funding round in Allica Bank in September 2020."
+        },
+        {
+          "field": "month",
+          "url": "https://en.wikipedia.org/wiki/Allica_Bank",
+          "quote": "Warwick Capital Partners led a £26 million funding round in Allica Bank in September 2020."
+        },
+        {
+          "field": "investors",
+          "url": "https://en.wikipedia.org/wiki/Allica_Bank",
+          "quote": "Warwick Capital Partners led a £26 million funding round in Allica Bank in September 2020."
+        }
+      ]
+    },
+    {
+      "stage": "series-b",
+      "month": "2021-11",
+      "amountEur": 130494098,
+      "amountOriginal": 110000000,
+      "currency": "GBP",
+      "investors": [
+        "Atalaya Capital Management",
+        "Warwick Capital Partners"
+      ],
+      "techeuId": "8fb0b48a-48b5-40f8-bd50-5d38581f5093",
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://en.wikipedia.org/wiki/Allica_Bank",
+          "quote": "Allica Bank announced it had closed a £110 million Series B fundraise"
+        },
+        {
+          "field": "stage",
+          "url": "https://en.wikipedia.org/wiki/Allica_Bank",
+          "quote": "Allica Bank announced it had closed a £110 million Series B fundraise"
+        },
+        {
+          "field": "month",
+          "url": "https://en.wikipedia.org/wiki/Allica_Bank",
+          "quote": "In late-November 2021, Allica Bank announced it had closed a £110 million Series B fundraise"
+        },
+        {
+          "field": "investors",
+          "url": "https://en.wikipedia.org/wiki/Allica_Bank",
+          "quote": "led by new investor Atalaya Capital Management, along with existing investor, Warwick Capital Partners"
+        }
+      ]
+    },
+    {
+      "stage": "series-c",
+      "month": "2022-12",
+      "amountEur": 116164256,
+      "amountOriginal": 100000000,
+      "currency": "GBP",
+      "investors": [
+        "TCV",
+        "Warwick Capital Partners",
+        "Atalaya Capital Management"
+      ],
+      "techeuId": "e57e9fbf-5018-4b7b-ac3f-35cf71565c43",
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://en.wikipedia.org/wiki/Allica_Bank",
+          "quote": "TCV , a leading global technology investor, led a £100 million funding round in Allica Bank in December 2022"
+        },
+        {
+          "field": "month",
+          "url": "https://www.cityam.com/allica-bank-bags-100m-cash-injection-after-swing-into-profit/",
+          "quote": "'Article Publish Date': \"2022-12-05\""
+        },
+        {
+          "field": "investors",
+          "url": "https://www.cityam.com/allica-bank-bags-100m-cash-injection-after-swing-into-profit/",
+          "quote": "growth technology investor TCV had led the equity round into the firm, alongside backing from existing investors Warwick Capital Partners and Atalaya Capital Management"
+        }
+      ]
+    },
+    {
+      "stage": "series-d",
+      "month": "2026-02",
+      "amountEur": 131534284,
+      "amountOriginal": 155000000,
+      "currency": "USD",
+      "postMoneyValuationEur": 1018329939,
+      "investors": [
+        "Ventura Capital",
+        "GLG",
+        "Sona AM",
+        "TCV",
+        "Blue Owl"
+      ],
+      "techeuId": "f16d5823-1940-49b1-8358-e1b6deb773bd",
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://fintech.global/2026/02/25/uk-fintech-allica-bank-raises-155m-series-d/",
+          "quote": "UK FinTech Allica Bank raises $155m Series D"
+        },
+        {
+          "field": "stage",
+          "url": "https://fintech.global/2026/02/25/uk-fintech-allica-bank-raises-155m-series-d/",
+          "quote": "UK FinTech Allica Bank raises $155m Series D"
+        },
+        {
+          "field": "month",
+          "url": "https://fintech.global/2026/02/25/uk-fintech-allica-bank-raises-155m-series-d/",
+          "quote": "2026-02-25T12:19:20+00:00"
+        },
+        {
+          "field": "investors",
+          "url": "https://en.wikipedia.org/wiki/Allica_Bank",
+          "quote": "including investors Ventura Capital, GLG, Sona AM and existing investors TCV and Blue Owl"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "id": "everphone",
+  "name": "Everphone",
+  "aliases": [],
+  "domain": "everphone.com",
+  "country": "DE",
+  "city": "Berlin",
+  "founded": 2016,
+  "sectors": [
+    "saas"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Jan Dzulko"
+  ],
+  "difficulty": 4,
+  "techeuId": "EE38D2D4-7912-4752-A456-E6932394C148",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://tech.eu/2020/07/28/everphone-series-b/",
+      "quote": "Berlin-based Everphone raises €34 million to scale beyond Germany"
+    },
+    {
+      "field": "founded",
+      "url": "https://techcrunch.com/2020/07/28/as-remote-work-booms-everphone-grabs-40m-for-its-device-as-a-service-offer",
+      "quote": "The 2016-founded startup"
+    },
+    {
+      "field": "founders",
+      "url": "https://tech.eu/2020/07/28/everphone-series-b/",
+      "quote": "Photo: Founder Jan Dzulko"
+    },
+    {
+      "field": "sectors",
+      "url": "https://ccstartup.com/blog/2021/12/06/berlins-everphone-raises-200m-in-debt-and-series-c-equity-techcrunch/",
+      "quote": "smartphones and tablets) for enterprises customers"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "8a24c7c2-842c-4298-ecdd-08d91092c887",
+      "stage": "series-b",
+      "month": "2020-07",
+      "amountEur": 34000000,
+      "amountOriginal": 34000000,
+      "currency": "EUR",
+      "investors": [
+        "signals Venture Capital",
+        "AlleyCorp",
+        "Telekom Innovation Pool",
+        "NIBC"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2020/07/28/as-remote-work-booms-everphone-grabs-40m-for-its-device-as-a-service-offer",
+          "quote": "Everphone is announcing a €34 million Series B funding round today, led by new investor signals Venture Capital."
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2020/07/28/as-remote-work-booms-everphone-grabs-40m-for-its-device-as-a-service-offer",
+          "quote": "Everphone is announcing a €34 million Series B funding round today, led by new investor signals Venture Capital."
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2020/07/28/everphone-series-b/",
+          "quote": "2020-07-28T08:01:34+00:00"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2020/07/28/everphone-series-b/",
+          "quote": "This round was led by fellow Berlin firm signals Venture Capital, with other new investors including AlleyCorp, Telekom Innovation Pool (the investment arm of Deutsche Telekom), and the Dutch bank NIBC."
+        }
+      ]
+    },
+    {
+      "techeuId": "68d661dd-13ac-42f3-ab12-a27b4e63a4d3",
+      "stage": "series-c",
+      "month": "2021-12",
+      "amountEur": 57588376,
+      "amountOriginal": 65000000,
+      "currency": "USD",
+      "investors": [
+        "Cadence Growth Capital",
+        "Deutsche Telekom",
+        "AlleyCorp",
+        "signals Venture Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://ccstartup.com/blog/2021/12/06/berlins-everphone-raises-200m-in-debt-and-series-c-equity-techcrunch/",
+          "quote": "has topped up with $65 million in a Series C equity raise"
+        },
+        {
+          "field": "stage",
+          "url": "https://ccstartup.com/blog/2021/12/06/berlins-everphone-raises-200m-in-debt-and-series-c-equity-techcrunch/",
+          "quote": "has topped up with $65 million in a Series C equity raise"
+        },
+        {
+          "field": "month",
+          "url": "https://ccstartup.com/blog/2021/12/06/berlins-everphone-raises-200m-in-debt-and-series-c-equity-techcrunch/",
+          "quote": "2021-12-06T16:53:44+00:00"
+        },
+        {
+          "field": "investors",
+          "url": "https://ccstartup.com/blog/2021/12/06/berlins-everphone-raises-200m-in-debt-and-series-c-equity-techcrunch/",
+          "quote": "led by German private equity investor, Cadence Growth Capital (CGC)"
+        },
+        {
+          "field": "investors",
+          "url": "https://ccstartup.com/blog/2021/12/06/berlins-everphone-raises-200m-in-debt-and-series-c-equity-techcrunch/",
+          "quote": "Deutsche Telekom, AlleyCorp and signals Venture Capital also participated as returning investors."
+        }
+      ]
+    },
+    {
+      "techeuId": "448e6d8e-57ef-4abf-b455-cbfb66eca3bb",
+      "stage": "series-c",
+      "month": "2022-09",
+      "amountEur": 31987205,
+      "amountOriginal": 32000000,
+      "currency": "USD",
+      "investors": [
+        "Cadence Growth Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.startbase.com/news/everphone-erhaelt-32-millionen-us-dollar/",
+          "quote": "The Berlin-based start-up Everphone has expanded its Series C financing round and raised an additional 32 million US dollars."
+        },
+        {
+          "field": "stage",
+          "url": "https://www.startbase.com/news/everphone-erhaelt-32-millionen-us-dollar/",
+          "quote": "The Berlin-based start-up Everphone has expanded its Series C financing round and raised an additional 32 million US dollars."
+        },
+        {
+          "field": "month",
+          "url": "https://www.startbase.com/news/everphone-erhaelt-32-millionen-us-dollar/",
+          "quote": "2022-09-01T15:48:00+02:00"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.startbase.com/news/everphone-erhaelt-32-millionen-us-dollar/",
+          "quote": "Venture capital ist Cadence Growth Capital (CGC) is leading the round."
+        }
+      ]
+    }
+  ]
+}

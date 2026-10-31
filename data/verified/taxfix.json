@@ -1,0 +1,189 @@
+{
+  "id": "taxfix",
+  "name": "Taxfix",
+  "aliases": [],
+  "domain": "taxfix.de",
+  "country": "DE",
+  "city": "Berlin",
+  "founded": 2016,
+  "sectors": [
+    "fintech"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Mathis Büchi",
+    "Lino Teuteberg"
+  ],
+  "difficulty": 3,
+  "techeuId": "635382D7-34B9-438A-9038-3336D3330E2D",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://indexventures.com/perspectives/taxfix-automated-tax-accountant-raises-65-million",
+      "quote": "Taxfix is headquartered in Berlin, Germany"
+    },
+    {
+      "field": "founded",
+      "url": "https://indexventures.com/perspectives/taxfix-automated-tax-accountant-raises-65-million",
+      "quote": "Taxfix was founded in 2016 in Berlin by Mathis Büchi and Lino Teuteberg"
+    },
+    {
+      "field": "founders",
+      "url": "https://indexventures.com/perspectives/taxfix-automated-tax-accountant-raises-65-million",
+      "quote": "Taxfix was founded in 2016 in Berlin by Mathis Büchi and Lino Teuteberg"
+    },
+    {
+      "field": "sectors",
+      "url": "https://indexventures.com/perspectives/taxfix-automated-tax-accountant-raises-65-million",
+      "quote": "Taxfix, the digital tax app that reduces the painful and time consuming process of filing a tax return to a matter of minutes"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "32b0412b-8c0f-465c-eaac-08d91092c887",
+      "stage": "seed",
+      "month": "2017-09",
+      "amountEur": 1696785,
+      "amountOriginal": 2000000,
+      "currency": "USD",
+      "investors": [
+        "Creandum",
+        "Redalpine"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2017/09/26/taxfix-funding/",
+          "quote": "Germany’s Taxfix , a mobile app for filing tax returns, has raised $2 million in funding"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2017/09/26/taxfix-funding/",
+          "quote": "26 September 2017"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2017/09/26/taxfix-funding/",
+          "quote": "The funding round was led by Sweden’s Creandum and Switzerland’s Redalpine"
+        }
+      ]
+    },
+    {
+      "techeuId": "b021e259-fa15-43b7-eaad-08d91092c887",
+      "stage": "series-a",
+      "month": "2018-08",
+      "amountEur": 11213663,
+      "amountOriginal": 13000000,
+      "currency": "USD",
+      "investors": [
+        "Valar Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://taxfix.de/en/press-releases/taxfix-the-automated-tax-accountant-raises-65-million/",
+          "quote": "Valar Ventures Leading $13M Series A Round in Taxfix, the Smart Mobile Assistant for Tax Declarations"
+        },
+        {
+          "field": "stage",
+          "url": "https://taxfix.de/en/press-releases/taxfix-the-automated-tax-accountant-raises-65-million/",
+          "quote": "Valar Ventures Leading $13M Series A Round in Taxfix, the Smart Mobile Assistant for Tax Declarations"
+        },
+        {
+          "field": "month",
+          "url": "https://taxfix.de/en/press-releases/taxfix-the-automated-tax-accountant-raises-65-million/",
+          "quote": "Valar Ventures Leading $13M Series A Round in Taxfix, the Smart Mobile Assistant for Tax Declarations August 9, 2018"
+        },
+        {
+          "field": "investors",
+          "url": "https://taxfix.de/en/press-releases/taxfix-the-automated-tax-accountant-raises-65-million/",
+          "quote": "Valar Ventures Leading $13M Series A Round in Taxfix, the Smart Mobile Assistant for Tax Declarations"
+        }
+      ]
+    },
+    {
+      "techeuId": "3997b7b9-a129-4596-eaaf-08d91092c887",
+      "stage": "series-c",
+      "month": "2020-04",
+      "amountEur": 59698751,
+      "amountOriginal": 65000000,
+      "currency": "USD",
+      "investors": [
+        "Index Ventures",
+        "Valar Ventures",
+        "Creandum",
+        "Redalpine"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2020/04/15/taxfix-raises-65-million-for-its-mobile-tax-filing-app",
+          "quote": "Berlin-based startup Taxfix has raised a $65 million Series C funding round."
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2020/04/15/taxfix-raises-65-million-for-its-mobile-tax-filing-app",
+          "quote": "Berlin-based startup Taxfix has raised a $65 million Series C funding round."
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2020/04/15/taxfix-raises-65-million-for-its-mobile-tax-filing-app",
+          "quote": "9:00 PM PDT · April 15, 2020"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2020/04/15/taxfix-raises-65-million-for-its-mobile-tax-filing-app",
+          "quote": "Index Ventures is leading the round with Neil Rimer joining the board."
+        },
+        {
+          "field": "investors",
+          "url": "https://indexventures.com/perspectives/taxfix-automated-tax-accountant-raises-65-million",
+          "quote": "Existing investors Valar Ventures, Creandum and Redalpine participated in the round"
+        }
+      ]
+    },
+    {
+      "techeuId": "d182d19c-dfbb-4088-896a-857b1e53c8ca",
+      "stage": "series-d",
+      "month": "2022-04",
+      "amountEur": 209823557,
+      "amountOriginal": 220000000,
+      "currency": "USD",
+      "investors": [
+        "Teachers' Venture Growth",
+        "Index Ventures",
+        "Valar Ventures",
+        "Creandum",
+        "Redalpine"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2022/04/27/taxfix-the-berlin-based-mobile-tax-filing-app-raises-220m-at-a-1b-valuation",
+          "quote": "It has closed a Series D of $220 million at a valuation of over $1 billion"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2022/04/27/taxfix-the-berlin-based-mobile-tax-filing-app-raises-220m-at-a-1b-valuation",
+          "quote": "It has closed a Series D of $220 million at a valuation of over $1 billion"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2022/04/27/taxfix-the-berlin-based-mobile-tax-filing-app-raises-220m-at-a-1b-valuation",
+          "quote": "11:07 PM PDT · April 27, 2022"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2022/04/27/taxfix-the-berlin-based-mobile-tax-filing-app-raises-220m-at-a-1b-valuation",
+          "quote": "The funding is being led by Teachers' Venture Growth"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2022/04/27/taxfix-the-berlin-based-mobile-tax-filing-app-raises-220m-at-a-1b-valuation",
+          "quote": "with previous backers Index Ventures, Valar Ventures, Creandum and Redalpine also participating"
+        }
+      ]
+    }
+  ]
+}

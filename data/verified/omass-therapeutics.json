@@ -1,0 +1,243 @@
+{
+  "id": "omass-therapeutics",
+  "name": "OMass Therapeutics",
+  "aliases": [
+    "OMass"
+  ],
+  "domain": "omass.com",
+  "country": "GB",
+  "city": "Oxford",
+  "founded": 2016,
+  "sectors": [
+    "biotech"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Carol Robinson",
+    "Jonathan Hopper"
+  ],
+  "difficulty": 4,
+  "techeuId": "DFCFB08F-DE64-4BAE-86E0-1BD432FEBC16",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.omass.com/2022/04/28/omass-therapeutics-raises-100-million-in-series-b-financing-to-progress-drug-pipeline-in-immunology-and-rare-diseases/",
+      "quote": "Headquartered in Oxford, UK, OMass has raised over $150M"
+    },
+    {
+      "field": "founded",
+      "url": "https://www.omass.com/2018/11/21/omass-therapeutics-announces-14-million-series/",
+      "quote": "OMass Technologies was formed in 2016 as a spin-out from the University of Oxford."
+    },
+    {
+      "field": "founders",
+      "url": "https://www.omass.com/2026/10/15/omass-therapeutics-announces-310-million-series-c-financing-to-advance-portfolio-of-small-molecule-therapeutics-in-endocrinology-and-immunology/",
+      "quote": "OMass was founded as a spin-out from Professor Dame Carol Robinson’s lab at the University of Oxford"
+    },
+    {
+      "field": "founders",
+      "url": "https://www.omass.com/2018/11/21/omass-therapeutics-announces-14-million-series/",
+      "quote": "Dr Jonathan Hopper, Founder and Chief Executive Officer, OMass Therapeutics said"
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.omass.com/2022/04/28/omass-therapeutics-raises-100-million-in-series-b-financing-to-progress-drug-pipeline-in-immunology-and-rare-diseases/",
+      "quote": "a biotechnology company that identifies medicines against highly validated target ecosystems"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-a",
+      "month": "2018-11",
+      "amountEur": 15746614,
+      "amountOriginal": 14000000,
+      "currency": "GBP",
+      "investors": [
+        "Syncona",
+        "Oxford Sciences Innovation"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.omass.com/2018/11/21/omass-therapeutics-announces-14-million-series/",
+          "quote": "today announced completion of a £14 million Series A financing."
+        },
+        {
+          "field": "stage",
+          "url": "https://www.omass.com/2018/11/21/omass-therapeutics-announces-14-million-series/",
+          "quote": "today announced completion of a £14 million Series A financing."
+        },
+        {
+          "field": "month",
+          "url": "https://www.omass.com/2018/11/21/omass-therapeutics-announces-14-million-series/",
+          "quote": "Oxford, 20 November 2018"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.omass.com/2018/11/21/omass-therapeutics-announces-14-million-series/",
+          "quote": "New investor Syncona Ltd (“Syncona”) led the round, alongside Oxford Sciences Innovation (“OSI”)."
+        }
+      ]
+    },
+    {
+      "stage": "series-a",
+      "month": "2020-02",
+      "amountEur": 33037795,
+      "amountOriginal": 27500000,
+      "currency": "GBP",
+      "investors": [
+        "Syncona",
+        "Oxford Sciences Innovation",
+        "University of Oxford"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.omass.com/2020/02/17/omass-therapeutics-announces-27-5-million-extended-series-a-financing/",
+          "quote": "today announced completion of an extended Series A financing of £27.5 million"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.omass.com/2020/02/17/omass-therapeutics-announces-27-5-million-extended-series-a-financing/",
+          "quote": "today announced completion of an extended Series A financing of £27.5 million"
+        },
+        {
+          "field": "month",
+          "url": "https://www.omass.com/2020/02/17/omass-therapeutics-announces-27-5-million-extended-series-a-financing/",
+          "quote": "Oxford, 17 February 2020"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.omass.com/2020/02/17/omass-therapeutics-announces-27-5-million-extended-series-a-financing/",
+          "quote": "from existing investors Syncona Ltd (“Syncona”) and Oxford Sciences Innovation (“OSI”) who contributed"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.omass.com/2020/02/17/omass-therapeutics-announces-27-5-million-extended-series-a-financing/",
+          "quote": "They were joined in the round with £0.5 million from the University of Oxford."
+        }
+      ]
+    },
+    {
+      "techeuId": "45e4a47b-0d18-410c-bf06-5bea11932c84",
+      "stage": "series-b",
+      "month": "2022-04",
+      "amountEur": 95374344,
+      "amountOriginal": 100000000,
+      "currency": "USD",
+      "investors": [
+        "GV",
+        "Northpond Ventures",
+        "Sanofi Ventures",
+        "Syncona",
+        "Oxford Science Enterprises",
+        "University of Oxford"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.omass.com/2022/04/28/omass-therapeutics-raises-100-million-in-series-b-financing-to-progress-drug-pipeline-in-immunology-and-rare-diseases/",
+          "quote": "today announces its $100 million [1] (£75.5 million) Series B financing round."
+        },
+        {
+          "field": "stage",
+          "url": "https://www.omass.com/2022/04/28/omass-therapeutics-raises-100-million-in-series-b-financing-to-progress-drug-pipeline-in-immunology-and-rare-diseases/",
+          "quote": "today announces its $100 million [1] (£75.5 million) Series B financing round."
+        },
+        {
+          "field": "month",
+          "url": "https://www.omass.com/2022/04/28/omass-therapeutics-raises-100-million-in-series-b-financing-to-progress-drug-pipeline-in-immunology-and-rare-diseases/",
+          "quote": "Oxford, United Kingdom – 28 April 2022"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.omass.com/2022/04/28/omass-therapeutics-raises-100-million-in-series-b-financing-to-progress-drug-pipeline-in-immunology-and-rare-diseases/",
+          "quote": "led by new investors, GV, Northpond Ventures and Sanofi Ventures, with existing investors, Syncona, Oxford Science Enterprises and Oxford University also participating"
+        }
+      ]
+    },
+    {
+      "stage": "series-b",
+      "month": "2023-05",
+      "amountEur": 11501789,
+      "amountOriginal": 10000000,
+      "currency": "GBP",
+      "investors": [
+        "British Patient Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.omass.com/2023/05/15/omass-therapeutics-announces-appointment-of-new-board-chair-and-series-b-extension/",
+          "quote": "an additional investment of £10 million from new investor British Patient Capital (BPC) in a Series B extension"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.omass.com/2023/05/15/omass-therapeutics-announces-appointment-of-new-board-chair-and-series-b-extension/",
+          "quote": "an additional investment of £10 million from new investor British Patient Capital (BPC) in a Series B extension"
+        },
+        {
+          "field": "month",
+          "url": "https://www.omass.com/2023/05/15/omass-therapeutics-announces-appointment-of-new-board-chair-and-series-b-extension/",
+          "quote": "Oxford, United Kingdom – 15 May 2023"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.omass.com/2023/05/15/omass-therapeutics-announces-appointment-of-new-board-chair-and-series-b-extension/",
+          "quote": "an additional investment of £10 million from new investor British Patient Capital (BPC) in a Series B extension"
+        }
+      ]
+    },
+    {
+      "techeuId": "bc26bb6d-ef4c-446f-98d7-04075b575589",
+      "stage": "series-c",
+      "month": "2026-10",
+      "amountEur": 276588151,
+      "amountOriginal": 310000000,
+      "currency": "USD",
+      "investors": [
+        "Bain Capital Life Sciences",
+        "Forbion",
+        "Novo Holdings",
+        "Janus Henderson Investors",
+        "SV Health Investors",
+        "Jefferson Life Sciences",
+        "Syncona",
+        "Oxford Science Enterprises",
+        "GV",
+        "Northpond Ventures",
+        "Sanofi Ventures",
+        "British Business Bank",
+        "University of Oxford"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.omass.com/2026/10/15/omass-therapeutics-announces-310-million-series-c-financing-to-advance-portfolio-of-small-molecule-therapeutics-in-endocrinology-and-immunology/",
+          "quote": "today announced an oversubscribed $310 million (£230 million) Series C financing round."
+        },
+        {
+          "field": "stage",
+          "url": "https://www.omass.com/2026/10/15/omass-therapeutics-announces-310-million-series-c-financing-to-advance-portfolio-of-small-molecule-therapeutics-in-endocrinology-and-immunology/",
+          "quote": "today announced an oversubscribed $310 million (£230 million) Series C financing round."
+        },
+        {
+          "field": "month",
+          "url": "https://www.omass.com/2026/10/15/omass-therapeutics-announces-310-million-series-c-financing-to-advance-portfolio-of-small-molecule-therapeutics-in-endocrinology-and-immunology/",
+          "quote": "Oxford, United Kingdom – 15 October 2026"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.omass.com/2026/10/15/omass-therapeutics-announces-310-million-series-c-financing-to-advance-portfolio-of-small-molecule-therapeutics-in-endocrinology-and-immunology/",
+          "quote": "The round was co-led by new investors Bain Capital Life Sciences, Forbion and Novo Holdings, with additional participation from Janus Henderson Investors, SV Health Investors and Jefferson Life Sciences."
+        },
+        {
+          "field": "investors",
+          "url": "https://www.omass.com/2026/10/15/omass-therapeutics-announces-310-million-series-c-financing-to-advance-portfolio-of-small-molecule-therapeutics-in-endocrinology-and-immunology/",
+          "quote": "Each of the Company’s existing investors also participated in the round, including Syncona, Oxford Science Enterprises, GV, Northpond Ventures, Sanofi Ventures, British Business Bank and University of Oxford."
+        }
+      ]
+    }
+  ]
+}

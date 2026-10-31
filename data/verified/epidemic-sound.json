@@ -1,0 +1,93 @@
+{
+  "id": "epidemic-sound",
+  "name": "Epidemic Sound",
+  "aliases": [],
+  "domain": "epidemicsound.com",
+  "country": "SE",
+  "city": "Stockholm",
+  "founded": 2009,
+  "sectors": [
+    "consumer"
+  ],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 1169688362,
+  "founders": [
+    "Peer Åström",
+    "David Stenmarck",
+    "Oscar Höglund",
+    "Hjalmar Winbladh",
+    "Jan Zachrisson"
+  ],
+  "difficulty": 3,
+  "techeuId": "542FD724-A64D-480C-BB3E-54715ACB1FA5",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/Epidemic_Sound",
+      "quote": "Epidemic Sound is a royalty-free soundtrack hosting company based in Stockholm , Sweden."
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Epidemic_Sound",
+      "quote": "The company was established in 2009 by Peer Åström, David Stenmarck, Oscar Höglund, Hjalmar Winbladh and Jan Zachrisson."
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Epidemic_Sound",
+      "quote": "The company was established in 2009 by Peer Åström, David Stenmarck, Oscar Höglund, Hjalmar Winbladh and Jan Zachrisson."
+    },
+    {
+      "field": "sectors",
+      "url": "https://en.wikipedia.org/wiki/Epidemic_Sound",
+      "quote": "royalty-free soundtrack hosting company"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://eqtgroup.com/news/2021/epidemic-sound-brings-in-eqt-growth-and-blackstone-growth-to-support-its-next-phase-of-development/",
+      "quote": "totals USD 450 million and values Epidemic Sound at approximately USD 1.4 billion"
+    },
+    {
+      "field": "valuation",
+      "url": "https://eqtgroup.com/news/2021/epidemic-sound-brings-in-eqt-growth-and-blackstone-growth-to-support-its-next-phase-of-development/",
+      "quote": "totals USD 450 million and values Epidemic Sound at approximately USD 1.4 billion"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "b261e6af-6965-435f-f825-08d91092c887",
+      "stage": "series-c",
+      "month": "2021-03",
+      "amountEur": 375971259,
+      "amountOriginal": 450000000,
+      "currency": "USD",
+      "postMoneyValuationEur": 1169688362,
+      "investors": [
+        "EQT Growth",
+        "Blackstone Growth"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://eqtgroup.com/news/2021/epidemic-sound-brings-in-eqt-growth-and-blackstone-growth-to-support-its-next-phase-of-development/",
+          "quote": "totals USD 450 million and values Epidemic Sound at approximately USD 1.4 billion"
+        },
+        {
+          "field": "month",
+          "url": "https://eqtgroup.com/news/2021/epidemic-sound-brings-in-eqt-growth-and-blackstone-growth-to-support-its-next-phase-of-development/",
+          "quote": "2021-03-11T16:36:00Z"
+        },
+        {
+          "field": "investors",
+          "url": "https://eqtgroup.com/news/2021/epidemic-sound-brings-in-eqt-growth-and-blackstone-growth-to-support-its-next-phase-of-development/",
+          "quote": "The aggregated new investment from EQT Growth, made through EQT AB"
+        },
+        {
+          "field": "investors",
+          "url": "https://eqtgroup.com/news/2021/epidemic-sound-brings-in-eqt-growth-and-blackstone-growth-to-support-its-next-phase-of-development/",
+          "quote": "funds managed by Blackstone Growth"
+        }
+      ]
+    }
+  ]
+}

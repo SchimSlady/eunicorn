@@ -1,0 +1,152 @@
+{
+  "id": "truphone",
+  "name": "Truphone",
+  "aliases": [
+    "1GLOBAL"
+  ],
+  "domain": "1global.com",
+  "country": "GB",
+  "city": "London",
+  "founded": 2006,
+  "sectors": [
+    "consumer"
+  ],
+  "status": "acquired",
+  "unicorn": false,
+  "lastValuationEur": 438412176,
+  "founders": [
+    "James Tagg",
+    "Alexander Straub",
+    "Alistair Campbell"
+  ],
+  "difficulty": 4,
+  "techeuId": "1C528385-A9F4-4000-9D27-37434346F70F",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://techcrunch.com/2017/10/02/truphone-raises-339m-to-retire-debt-and-step-up-in-connecting-iot-devices",
+      "quote": "a mobile company based out of London"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Truphone",
+      "quote": "was founded in 2006 by James Tagg, Alexander Straub and Alistair Campbell."
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Truphone",
+      "quote": "was founded in 2006 by James Tagg, Alexander Straub and Alistair Campbell."
+    },
+    {
+      "field": "sectors",
+      "url": "https://techcrunch.com/2018/10/15/truphone-an-esim-mobile-carrier-that-works-with-apple-raises-another-71m-now-valued-at-507m/",
+      "quote": "provides global mobile voice and data services by way of an eSIM model for phones, tablets and IoT devices"
+    },
+    {
+      "field": "status",
+      "url": "https://en.wikipedia.org/wiki/Truphone",
+      "quote": "which acquired the assets of Truphone Ltd"
+    },
+    {
+      "field": "valuation",
+      "url": "https://techcrunch.com/2018/10/15/truphone-an-esim-mobile-carrier-that-works-with-apple-raises-another-71m-now-valued-at-507m/",
+      "quote": "values Truphone at £386 million"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-b",
+      "month": "2008-04",
+      "amountEur": 20581265,
+      "amountOriginal": 16500000,
+      "currency": "GBP",
+      "investors": [
+        "Burda Digital Ventures",
+        "Eden Ventures",
+        "Independent News & Media",
+        "Wellington Partners"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://web.archive.org/web/20121001111634/http://www.marketwire.com/press-release/Truphone-Raises-Pounds-Sterling-165m-327m-in-Series-B-Round-844894.htm",
+          "quote": "has raised Pounds Sterling 16.5m ($32.7m) of Series B venture capital funding"
+        },
+        {
+          "field": "stage",
+          "url": "https://web.archive.org/web/20121001111634/http://www.marketwire.com/press-release/Truphone-Raises-Pounds-Sterling-165m-327m-in-Series-B-Round-844894.htm",
+          "quote": "has raised Pounds Sterling 16.5m ($32.7m) of Series B venture capital funding"
+        },
+        {
+          "field": "month",
+          "url": "https://web.archive.org/web/20121001111634/http://www.marketwire.com/press-release/Truphone-Raises-Pounds-Sterling-165m-327m-in-Series-B-Round-844894.htm",
+          "quote": "April 17, 2008"
+        },
+        {
+          "field": "investors",
+          "url": "https://web.archive.org/web/20121001111634/http://www.marketwire.com/press-release/Truphone-Raises-Pounds-Sterling-165m-327m-in-Series-B-Round-844894.htm",
+          "quote": "The round was led by private investors, with all of Truphone's existing backers - Burda Digital Ventures , Eden Ventures , Independent News"
+        }
+      ]
+    },
+    {
+      "techeuId": "def1714c-fa9f-4895-eb10-08d91092c887",
+      "stage": "series-f+",
+      "month": "2017-10",
+      "amountEur": 288402814,
+      "amountOriginal": 255000000,
+      "currency": "GBP",
+      "investors": [
+        "Minden",
+        "Vollin Holdings"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2017/10/02/truphone-raises-339m-to-retire-debt-and-step-up-in-connecting-iot-devices",
+          "quote": "picked up a massive £255 million"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2017/10/02/truphone-raises-339m-to-retire-debt-and-step-up-in-connecting-iot-devices",
+          "quote": "Truphone raises $339M to retire debt"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2017/10/02/truphone-raises-339m-to-retire-debt-and-step-up-in-connecting-iot-devices",
+          "quote": "Minden and Vollin Holdings, two investment firms with ties to Roman Abramovich"
+        }
+      ]
+    },
+    {
+      "techeuId": "aa541b34-138f-4ef1-eb11-08d91092c887",
+      "stage": "series-f+",
+      "month": "2018-10",
+      "amountEur": 20444091,
+      "amountOriginal": 18000000,
+      "currency": "GBP",
+      "postMoneyValuationEur": 438412176,
+      "investors": [
+        "Vollin Holdings",
+        "Minden Worldwide"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2018/10/15/truphone-an-esim-mobile-carrier-that-works-with-apple-raises-another-71m-now-valued-at-507m/",
+          "quote": "raised another £18 million"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2018/10/15/truphone-an-esim-mobile-carrier-that-works-with-apple-raises-another-71m-now-valued-at-507m/",
+          "quote": "October 15, 2018"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2018/10/15/truphone-an-esim-mobile-carrier-that-works-with-apple-raises-another-71m-now-valued-at-507m/",
+          "quote": "the funding came from Vollin Holdings and Minden Worldwide"
+        }
+      ]
+    }
+  ]
+}

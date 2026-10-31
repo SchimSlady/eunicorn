@@ -1,0 +1,139 @@
+{
+  "id": "builder-ai",
+  "name": "Builder.ai",
+  "aliases": [
+    "Engineer.ai"
+  ],
+  "domain": "builder.ai",
+  "country": "GB",
+  "city": "London",
+  "founded": 2016,
+  "sectors": [
+    "saas",
+    "ai"
+  ],
+  "status": "defunct",
+  "unicorn": false,
+  "founders": [
+    "Sachin Dev Duggal"
+  ],
+  "difficulty": 2,
+  "techeuId": "FBBA9193-0E63-47F2-BAF6-B43828F07EED",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/Builder.ai",
+      "quote": "Headquarters London , United Kingdom"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Builder.ai",
+      "quote": "The company was founded in 2016 by Sachin Dev Duggal"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Builder.ai",
+      "quote": "The company was founded in 2016 by Sachin Dev Duggal"
+    },
+    {
+      "field": "sectors",
+      "url": "https://techcrunch.com/2025/05/20/once-worth-over-1b-microsoft-backed-builder-ai-is-running-out-of-money/",
+      "quote": "rose to prominence for its AI-based platform that aimed to simplify the process of building apps and websites"
+    },
+    {
+      "field": "status",
+      "url": "https://en.wikipedia.org/wiki/Builder.ai",
+      "quote": "Defunct May 2025"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-a",
+      "month": "2018-11",
+      "amountEur": 25813791,
+      "amountOriginal": 29500000,
+      "currency": "USD",
+      "investors": [
+        "Lakestar",
+        "Jungle Ventures",
+        "SoftBank DeepCore"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2018/11/06/engineer-ai-raises-29-5m-series-a-for-its-aihumans-software-building-platform/",
+          "quote": "it has raised one of Europe’s largest Series A investments at $29.5 million, led by Lakestar and Jungle Ventures, with participation from SoftBank’s DeepCore"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2018/11/06/engineer-ai-raises-29-5m-series-a-for-its-aihumans-software-building-platform/",
+          "quote": "it has raised one of Europe’s largest Series A investments at $29.5 million, led by Lakestar and Jungle Ventures, with participation from SoftBank’s DeepCore"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2018/11/06/engineer-ai-raises-29-5m-series-a-for-its-aihumans-software-building-platform/",
+          "quote": "November 6, 2018"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2018/11/06/engineer-ai-raises-29-5m-series-a-for-its-aihumans-software-building-platform/",
+          "quote": "it has raised one of Europe’s largest Series A investments at $29.5 million, led by Lakestar and Jungle Ventures, with participation from SoftBank’s DeepCore"
+        }
+      ]
+    },
+    {
+      "techeuId": "d40f94cb-002d-4bac-85b2-6c1d44d4c278",
+      "stage": "series-c",
+      "month": "2022-03",
+      "amountEur": 89879561,
+      "amountOriginal": 100000000,
+      "currency": "USD",
+      "investors": [],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://restofworld.org/2025/builderai-ai-apps-downfall/",
+          "quote": "investors poured $100 million into Builder.ai’s series C round of funding in March 2022"
+        },
+        {
+          "field": "stage",
+          "url": "https://restofworld.org/2025/builderai-ai-apps-downfall/",
+          "quote": "investors poured $100 million into Builder.ai’s series C round of funding in March 2022"
+        },
+        {
+          "field": "month",
+          "url": "https://restofworld.org/2025/builderai-ai-apps-downfall/",
+          "quote": "investors poured $100 million into Builder.ai’s series C round of funding in March 2022"
+        }
+      ]
+    },
+    {
+      "techeuId": "c81fb18b-42ce-4b27-8b07-1541d8808310",
+      "stage": "series-d",
+      "month": "2023-05",
+      "amountEur": 231932461,
+      "amountOriginal": 250000000,
+      "currency": "USD",
+      "investors": [
+        "Qatar Investment Authority"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://restofworld.org/2025/builderai-ai-apps-downfall/",
+          "quote": "Builder.ai’s biggest funding round came in May 2023, with a $250 million investment led by the Qatar Investment Authority."
+        },
+        {
+          "field": "month",
+          "url": "https://restofworld.org/2025/builderai-ai-apps-downfall/",
+          "quote": "Builder.ai’s biggest funding round came in May 2023, with a $250 million investment led by the Qatar Investment Authority."
+        },
+        {
+          "field": "investors",
+          "url": "https://restofworld.org/2025/builderai-ai-apps-downfall/",
+          "quote": "Builder.ai’s biggest funding round came in May 2023, with a $250 million investment led by the Qatar Investment Authority."
+        }
+      ]
+    }
+  ]
+}

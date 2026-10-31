@@ -1,0 +1,133 @@
+{
+  "id": "mambu",
+  "name": "Mambu",
+  "aliases": [],
+  "domain": "mambu.com",
+  "country": "NL",
+  "city": "Amsterdam",
+  "founded": 2011,
+  "sectors": [
+    "fintech",
+    "saas"
+  ],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 4900000000,
+  "founders": [
+    "Eugene Danilkis"
+  ],
+  "difficulty": 3,
+  "techeuId": "F6A820E1-0CE3-4A05-A39D-0F4B590694FC",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://mambu.com/en/imprint",
+      "quote": "Piet Heinkade 55 1019 GM Amsterdam"
+    },
+    {
+      "field": "founded",
+      "url": "https://tech.eu/2021/12/09/mambu-mambos-on-over-to-e235-million-in-new-raise-at-e4-9-billion-valuation/",
+      "quote": "Founded in 2011, Mambu counts over 800 employees"
+    },
+    {
+      "field": "founders",
+      "url": "https://tech.eu/2021/12/09/mambu-mambos-on-over-to-e235-million-in-new-raise-at-e4-9-billion-valuation/",
+      "quote": "co-founder and CEO Eugene Danilkis"
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.pymnts.com/news/investment-tracker/2021/saas-startup-mambu-closes-e235m-funding-deal-at-e4-9b-valuation/",
+      "quote": "Software-as-a-service (SaaS) banking platform Mambu raised €235 million in Series E funding round"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://tech.eu/2021/12/09/mambu-mambos-on-over-to-e235-million-in-new-raise-at-e4-9-billion-valuation/",
+      "quote": "now giving the fintech a €4.9 billion valuation"
+    },
+    {
+      "field": "valuation",
+      "url": "https://tech.eu/2021/12/09/mambu-mambos-on-over-to-e235-million-in-new-raise-at-e4-9-billion-valuation/",
+      "quote": "now giving the fintech a €4.9 billion valuation"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "ee9cc8f1-3b11-494e-fa21-08d91092c887",
+      "stage": "series-d",
+      "month": "2021-01",
+      "amountEur": 110000000,
+      "amountOriginal": 135000000,
+      "currency": "USD",
+      "postMoneyValuationEur": 1700000000,
+      "investors": [
+        "TCV",
+        "Tiger Global",
+        "Arena Holdings",
+        "Bessemer Venture Partners",
+        "Runa Capital",
+        "Acton Capital Partners"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.actoncapital.com/news/new-unicorn-from-germany-mambu-closes-135m-seriesd",
+          "quote": "Mambu has announced its latest funding round of €110 million ($135 million) in new capital"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.actoncapital.com/news/new-unicorn-from-germany-mambu-closes-135m-seriesd",
+          "quote": "Mambu closes $135m SeriesD"
+        },
+        {
+          "field": "month",
+          "url": "https://www.actoncapital.com/news/new-unicorn-from-germany-mambu-closes-135m-seriesd",
+          "quote": "January 7, 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.actoncapital.com/news/new-unicorn-from-germany-mambu-closes-135m-seriesd",
+          "quote": "The round was led by TCV"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.actoncapital.com/news/new-unicorn-from-germany-mambu-closes-135m-seriesd",
+          "quote": "Additional investment was received by Tiger Global and Arena Holdings, as well as existing investors Bessemer Venture Partners, Runa Capital and Acton Capital."
+        }
+      ]
+    },
+    {
+      "techeuId": "4f9082e9-84dc-4c65-af08-3f768fa23719",
+      "stage": "series-e",
+      "month": "2021-12",
+      "amountEur": 235000000,
+      "amountOriginal": 235000000,
+      "currency": "EUR",
+      "postMoneyValuationEur": 4900000000,
+      "investors": [
+        "EQT Growth"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2021/12/09/mambu-mambos-on-over-to-e235-million-in-new-raise-at-e4-9-billion-valuation/",
+          "quote": "Mambu has raised €235 million in a Series E funding round"
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2021/12/09/mambu-mambos-on-over-to-e235-million-in-new-raise-at-e4-9-billion-valuation/",
+          "quote": "Mambu has raised €235 million in a Series E funding round"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2021/12/09/mambu-mambos-on-over-to-e235-million-in-new-raise-at-e4-9-billion-valuation/",
+          "quote": "09 December 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2021/12/09/mambu-mambos-on-over-to-e235-million-in-new-raise-at-e4-9-billion-valuation/",
+          "quote": "Series E round was led by EQT Growth"
+        }
+      ]
+    }
+  ]
+}

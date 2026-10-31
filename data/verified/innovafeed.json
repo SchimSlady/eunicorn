@@ -1,0 +1,85 @@
+{
+  "id": "innovafeed",
+  "name": "Innovafeed",
+  "aliases": [
+    "InnovaFeed"
+  ],
+  "domain": "innovafeed.com",
+  "country": "FR",
+  "city": "Paris",
+  "founded": 2016,
+  "sectors": [
+    "climate"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Aude Guo",
+    "Bastien Oggeri",
+    "Clement Ray",
+    "Guillaume Gras"
+  ],
+  "difficulty": 4,
+  "techeuId": "73B806D9-E0ED-4E5B-A32F-39B534A37CD3",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.lejournaldesentreprises.com/article/innovafeed-leve-140-millions-deuros-et-demarre-la-production-sur-son-site-de-nesle-698393",
+      "quote": "Elle aussi basée à Paris, InnovaFeed"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.ain.ua/2020/11/25/french-biotech-startup-innovafeed-receives-167-million",
+      "quote": "Founded in 2016 by Aude Guo, Bastien Oggeri, Clement Ray, and Guillaume Gras"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.ain.ua/2020/11/25/french-biotech-startup-innovafeed-receives-167-million",
+      "quote": "Founded in 2016 by Aude Guo, Bastien Oggeri, Clement Ray, and Guillaume Gras"
+    },
+    {
+      "field": "sectors",
+      "url": "https://en.ain.ua/2020/11/25/french-biotech-startup-innovafeed-receives-167-million",
+      "quote": "produces a new source of protein from insect rearing for animal feed and aquaculture"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "6392a6df-f316-45f5-8559-4a48cea9e16c",
+      "stage": "series-d",
+      "month": "2022-09",
+      "amountEur": 252372300,
+      "amountOriginal": 250000000,
+      "currency": "USD",
+      "investors": [
+        "Qatar Investment Authority",
+        "Creadev",
+        "Temasek",
+        "ADM",
+        "Cargill"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.agtechnavigator.com/Article/2022/09/21/innovafeed-secures-250m-in-series-d-funding-to-accelerate-international-expansion",
+          "quote": "Innovafeed secures $250m in Series D funding to accelerate international expansion"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.agtechnavigator.com/Article/2022/09/21/innovafeed-secures-250m-in-series-d-funding-to-accelerate-international-expansion",
+          "quote": "Innovafeed secures $250m in Series D funding to accelerate international expansion"
+        },
+        {
+          "field": "month",
+          "url": "https://thefishsite.com/articles/innovafeed-completes-250-million-series-d-financing-round",
+          "quote": "2022-09-21T07:44:00+01:00"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.agtechnavigator.com/Article/2022/09/21/innovafeed-secures-250m-in-series-d-funding-to-accelerate-international-expansion",
+          "quote": "The Series D round for Innovafeed was led by Qatar Investment Authority (QIA), with other participants including existing investors, Creadev and Temasek, and new strategic and financial backers: ADM and Cargill"
+        }
+      ]
+    }
+  ]
+}

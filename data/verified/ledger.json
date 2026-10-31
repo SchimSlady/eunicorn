@@ -1,0 +1,145 @@
+{
+  "id": "ledger",
+  "name": "Ledger",
+  "aliases": [],
+  "domain": "ledger.com",
+  "country": "FR",
+  "city": "Paris",
+  "founded": 2014,
+  "sectors": [
+    "crypto"
+  ],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 1300000000,
+  "founders": [
+    "Éric Larchevêque"
+  ],
+  "difficulty": 2,
+  "techeuId": "08163020-52BD-4B95-A53A-C2A516DE1BC5",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.ledger.com/about",
+      "quote": "106 rue du Temple, 75003 Paris, France"
+    },
+    {
+      "field": "founded",
+      "url": "https://fr.wikipedia.org/wiki/Ledger_(entreprise)",
+      "quote": "En 2014, après avoir cofondé La Maison du Bitcoin"
+    },
+    {
+      "field": "founders",
+      "url": "https://fr.wikipedia.org/wiki/Ledger_(entreprise)",
+      "quote": "Éric Larchevêque crée Ledger avec les fondateurs de deux autres startups"
+    },
+    {
+      "field": "sectors",
+      "url": "https://decrypt.co/73231/crypto-wallet-manufacturer-ledger-hits-unicorn-status-after-380m-raise",
+      "quote": "Crypto hardware wallet manufacturer Ledger has raised $380 million in a Series C fundraising round."
+    },
+    {
+      "field": "unicorn",
+      "url": "https://www.moltenventures.com/news/molten-participates-in-series-c-extension-for-ledger",
+      "quote": "With this round, Ledger maintains its valuation of €1.3 billion."
+    },
+    {
+      "field": "valuation",
+      "url": "https://www.moltenventures.com/news/molten-participates-in-series-c-extension-for-ledger",
+      "quote": "With this round, Ledger maintains its valuation of €1.3 billion."
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "6216702f-4d1b-45f0-aa0b-3d5e33d3d6cd",
+      "stage": "series-c",
+      "month": "2021-06",
+      "amountEur": 312140628,
+      "amountOriginal": 380000000,
+      "currency": "USD",
+      "postMoneyValuationEur": 1232134056,
+      "investors": [
+        "10T Holdings",
+        "Cathay Innovation",
+        "Draper Associates",
+        "Draper Dragon",
+        "Draper Esprit",
+        "Digital Currency Group",
+        "Korelya Capital",
+        "Wicklow Capital",
+        "Tekne Capital",
+        "Uphold Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2021/06/10/ledger-raises-380-million-for-its-crypto-hardware-wallet/",
+          "quote": "French startup Ledger has raised a $380 million Series C funding round led by 10T Holdings."
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2021/06/10/ledger-raises-380-million-for-its-crypto-hardware-wallet/",
+          "quote": "French startup Ledger has raised a $380 million Series C funding round led by 10T Holdings."
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2021/06/10/ledger-raises-380-million-for-its-crypto-hardware-wallet/",
+          "quote": "June 10, 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2021/06/10/ledger-raises-380-million-for-its-crypto-hardware-wallet/",
+          "quote": "Other investors in the funding round include existing investors Cathay Innovation, Draper Associates, Draper Dragon, Draper Esprit, DCG, Korelya Capital and Wicklow Capital."
+        },
+        {
+          "field": "investors",
+          "url": "https://decrypt.co/73231/crypto-wallet-manufacturer-ledger-hits-unicorn-status-after-380m-raise",
+          "quote": "Existing investors, including Draper Associates and Digital Currency Group, also participated in the round, with a number of new backers, such as Tekne Capital and Uphold Ventures, joining the list."
+        }
+      ]
+    },
+    {
+      "techeuId": "d32499e2-0f69-4e99-8d07-e329f32bbb37",
+      "stage": "series-c",
+      "month": "2023-03",
+      "amountEur": 100000000,
+      "amountOriginal": 100000000,
+      "currency": "EUR",
+      "postMoneyValuationEur": 1300000000,
+      "investors": [
+        "10T Holdings",
+        "Cité Gestion Private Bank",
+        "Cap Horn",
+        "Morgan Creek",
+        "Cathay Innovation",
+        "Korelya Capital",
+        "True Global Ventures",
+        "Digital Finance Group",
+        "VaynerFund",
+        "Molten Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://forklog.com/en/ledger-expands-series-c-funding-round-at-e1-3bn-valuation-about-1-42bn/",
+          "quote": "attracted the bulk of the €100 million (~$109 million) planned"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.moltenventures.com/news/molten-participates-in-series-c-extension-for-ledger",
+          "quote": "has participated in an extended Series C funding round"
+        },
+        {
+          "field": "month",
+          "url": "https://www.moltenventures.com/news/molten-participates-in-series-c-extension-for-ledger",
+          "quote": "30 March 2023"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.moltenventures.com/news/molten-participates-in-series-c-extension-for-ledger",
+          "quote": "Alongside other existing investors including 10T, Cité Gestion Private Bank, Cap Horn, Morgan Creek, Cathay Innovation, Korelya Capital, the extension round was also backed by new investors with True Global Ventures, Digital Finance Group, and VaynerFund all participating."
+        }
+      ]
+    }
+  ]
+}

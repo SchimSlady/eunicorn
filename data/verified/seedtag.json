@@ -1,0 +1,84 @@
+{
+  "id": "seedtag",
+  "name": "Seedtag",
+  "aliases": [],
+  "domain": "seedtag.com",
+  "country": "ES",
+  "city": "Madrid",
+  "founded": 2014,
+  "sectors": [
+    "ai"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Albert Nieto",
+    "Jorge Poyatos"
+  ],
+  "difficulty": 3,
+  "techeuId": "E0832537-32C4-4813-A381-B555F45D105A",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://tech.eu/brief/madrids-contextual-ad-platform-seedtag-raises-40-million/",
+      "quote": "Madrid-based Seedtag has raised $40 million in a Series B funding round."
+    },
+    {
+      "field": "founded",
+      "url": "https://siliconcanals.com/seedtag-raises-33-8m/",
+      "quote": "Founded in 2014 by Albert Nieto and Jorge Poyatos"
+    },
+    {
+      "field": "founders",
+      "url": "https://siliconcanals.com/seedtag-raises-33-8m/",
+      "quote": "Founded in 2014 by Albert Nieto and Jorge Poyatos"
+    },
+    {
+      "field": "sectors",
+      "url": "https://siliconcanals.com/seedtag-raises-33-8m/",
+      "quote": "contextual advertising solutions based in Machine Learning and Artificial Intelligences"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "3a8435f4-0ae6-43fd-903f-a983275551ef",
+      "stage": "series-b",
+      "month": "2021-09",
+      "amountEur": 33858134,
+      "amountOriginal": 40000000,
+      "currency": "USD",
+      "investors": [
+        "Oakley Capital",
+        "Adara Ventures",
+        "All Iron Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://prnewswire.com/news-releases/seedtag-raises-40m-in-series-b-funding-led-by-oakley-capital-for-us-expansion-301375399.html",
+          "quote": "has announced today that it has secured $40m in Series B funding."
+        },
+        {
+          "field": "stage",
+          "url": "https://prnewswire.com/news-releases/seedtag-raises-40m-in-series-b-funding-led-by-oakley-capital-for-us-expansion-301375399.html",
+          "quote": "has announced today that it has secured $40m in Series B funding."
+        },
+        {
+          "field": "month",
+          "url": "https://siliconcanals.com/seedtag-raises-33-8m/",
+          "quote": "Sep 14, 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://prnewswire.com/news-releases/seedtag-raises-40m-in-series-b-funding-led-by-oakley-capital-for-us-expansion-301375399.html",
+          "quote": "Led by Oakley Capital"
+        },
+        {
+          "field": "investors",
+          "url": "https://prnewswire.com/news-releases/seedtag-raises-40m-in-series-b-funding-led-by-oakley-capital-for-us-expansion-301375399.html",
+          "quote": "also participated in by Adara Ventures and All Iron Ventures"
+        }
+      ]
+    }
+  ]
+}

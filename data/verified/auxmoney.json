@@ -1,0 +1,78 @@
+{
+  "id": "auxmoney",
+  "name": "Auxmoney",
+  "aliases": [],
+  "domain": "auxmoney.com",
+  "country": "DE",
+  "city": "Düsseldorf",
+  "founded": 2007,
+  "sectors": [
+    "fintech"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Raffael Johnen",
+    "Philip Kamp",
+    "Philipp Kriependorf"
+  ],
+  "difficulty": 3,
+  "techeuId": "F69C70E6-8D35-4456-9537-F0108E046B6D",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://de.wikipedia.org/wiki/Auxmoney",
+      "quote": "Auxmoney GmbH ist ein europäisches Unternehmen der Finanzindustrie mit Hauptsitz in Düsseldorf"
+    },
+    {
+      "field": "founded",
+      "url": "https://de.wikipedia.org/wiki/Auxmoney",
+      "quote": "Auxmoney wurde 2007 von Raffael Johnen, Philip Kamp und Philipp Kriependorf in Hilden gegründet"
+    },
+    {
+      "field": "founders",
+      "url": "https://de.wikipedia.org/wiki/Auxmoney",
+      "quote": "Auxmoney wurde 2007 von Raffael Johnen, Philip Kamp und Philipp Kriependorf in Hilden gegründet"
+    },
+    {
+      "field": "sectors",
+      "url": "https://de.wikipedia.org/wiki/Auxmoney",
+      "quote": "Es ist auf die Vermittlung von Verbraucherkrediten spezialisiert."
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "9295a183-a6c7-4bc4-f674-08d91092c887",
+      "stage": "series-d",
+      "month": "2020-09",
+      "amountEur": 150000000,
+      "amountOriginal": 150000000,
+      "currency": "EUR",
+      "investors": [
+        "Centerbridge Partners"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://finanzbusiness.de/nachrichten/fintech/article12384960.ece",
+          "quote": "Centerbridge Partners L.P. legt 150 Mio. Euro in die Kasse"
+        },
+        {
+          "field": "month",
+          "url": "https://finanzbusiness.de/nachrichten/fintech/article12384960.ece",
+          "quote": "2. September 2020"
+        },
+        {
+          "field": "investors",
+          "url": "https://finanzbusiness.de/nachrichten/fintech/article12384960.ece",
+          "quote": "Die US-Beteiligungsgesellschaft Centerbridge Partners L.P."
+        },
+        {
+          "field": "amount",
+          "url": "https://de.wikipedia.org/wiki/Auxmoney",
+          "quote": "2020 übernahm der US-amerikanische Private-Equity-Investor Centerbridge im Rahmen einer Kapitalerhöhung die Mehrheit an Auxmoney."
+        }
+      ]
+    }
+  ]
+}

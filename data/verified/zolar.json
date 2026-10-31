@@ -1,0 +1,161 @@
+{
+  "id": "zolar",
+  "name": "Zolar",
+  "aliases": [],
+  "domain": "zolar.de",
+  "country": "DE",
+  "city": "Berlin",
+  "founded": 2016,
+  "sectors": [
+    "climate"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Alex Melzer",
+    "Gregor Loukidis"
+  ],
+  "difficulty": 3,
+  "techeuId": "65C7A4F5-0DF5-4424-8AC2-D7C1DED5BAF8",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://tech.eu/2020/09/10/zolar-series-b/",
+      "quote": "Zolar, a Berlin-based startup that develops solar panel systems for consumers"
+    },
+    {
+      "field": "founded",
+      "url": "https://www.startbase.com/news/zolar-sammelt-100-millionen-euro-ein",
+      "quote": "Alex Melzer and Gregor Loukidis founded the start-up in 2016."
+    },
+    {
+      "field": "founders",
+      "url": "https://www.startbase.com/news/zolar-sammelt-100-millionen-euro-ein",
+      "quote": "Alex Melzer and Gregor Loukidis founded the start-up in 2016."
+    },
+    {
+      "field": "sectors",
+      "url": "https://tech.eu/2020/09/10/zolar-series-b/",
+      "quote": "Zolar, a Berlin-based startup that develops solar panel systems for consumers"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "e7c39766-4717-4f05-fdbd-08d91092c887",
+      "stage": "series-b",
+      "month": "2019-08",
+      "amountEur": 10000000,
+      "amountOriginal": 10000000,
+      "currency": "EUR",
+      "investors": [
+        "BayWa r.e. Energy Ventures",
+        "Inven Capital",
+        "Statkraft Ventures",
+        "Heartcore Capital",
+        "Partech Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://globalventuring.com/zolar-beams-in-11m",
+          "quote": "has secured €10m ($11m) in a series B round co-led by Baywa RE Energy Ventures and Inven Capital"
+        },
+        {
+          "field": "stage",
+          "url": "https://globalventuring.com/zolar-beams-in-11m",
+          "quote": "has secured €10m ($11m) in a series B round co-led by Baywa RE Energy Ventures and Inven Capital"
+        },
+        {
+          "field": "month",
+          "url": "https://globalventuring.com/zolar-beams-in-11m",
+          "quote": "Aug 30, 2019"
+        },
+        {
+          "field": "investors",
+          "url": "https://globalventuring.com/zolar-beams-in-11m",
+          "quote": "The round also featured energy company Statkraft’s strategic investment arm, Statkraft Ventures, as well as venture capital firms Heartcore Capital and Partech Ventures."
+        }
+      ]
+    },
+    {
+      "techeuId": "c046f052-f9ad-46f1-fdbe-08d91092c887",
+      "stage": "series-b",
+      "month": "2020-09",
+      "amountEur": 15000000,
+      "amountOriginal": 15000000,
+      "currency": "EUR",
+      "investors": [
+        "Inven Capital",
+        "Heartcore Capital",
+        "Statkraft Ventures",
+        "BayWa r.e. Energy Ventures",
+        "Partech"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2020/09/10/zolar-series-b/",
+          "quote": "has raised an additional €15 million to expand internationally, closing its Series B round at €25 million"
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2020/09/10/zolar-series-b/",
+          "quote": "closing its Series B round at €25 million"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2020/09/10/zolar-series-b/",
+          "quote": "2020-09-10T11:09:03+00:00"
+        },
+        {
+          "field": "investors",
+          "url": "https://partechpartners.com/news/zolar-raises-15m-to-expand-its-solar-network",
+          "quote": "This round was led by Czech venture capital fund Inven Capital"
+        },
+        {
+          "field": "investors",
+          "url": "https://partechpartners.com/news/zolar-raises-15m-to-expand-its-solar-network",
+          "quote": "BayWa r.e. Energy Ventures and Partech also reinvesting."
+        }
+      ]
+    },
+    {
+      "techeuId": "cae06661-eb6e-4414-ae20-496685e2b75d",
+      "stage": "series-c",
+      "month": "2022-05",
+      "amountEur": 100000000,
+      "amountOriginal": 100000000,
+      "currency": "EUR",
+      "investors": [
+        "Energy Impact Partners",
+        "GIC",
+        "Inven Capital",
+        "Heartcore Capital",
+        "Statkraft Ventures",
+        "Pirate Impact Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2022/05/19/berlins-zolar-announces-eur100-million-round-as-rising-energy-costs-see-surge-in-demand-for-solar-solutions",
+          "quote": "has just raised €100 million in a Series C"
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2022/05/19/berlins-zolar-announces-eur100-million-round-as-rising-energy-costs-see-surge-in-demand-for-solar-solutions",
+          "quote": "has just raised €100 million in a Series C"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2022/05/19/zolar-series-c-solar-demand",
+          "quote": "May 19, 2022"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2022/05/19/zolar-series-c-solar-demand",
+          "quote": "Its Series C round is led by U.S. investor Energy Impact Partners (EIP); and GIC, Singapore’s sovereign wealth fund. Existing investors, including Inven Capital, Heartcore Capital, Statkraft Ventures and Pirate Impact Capital, also participated."
+        }
+      ]
+    }
+  ]
+}

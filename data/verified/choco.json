@@ -1,0 +1,212 @@
+{
+  "id": "choco",
+  "name": "Choco",
+  "aliases": [],
+  "domain": "choco.com",
+  "country": "DE",
+  "city": "Berlin",
+  "founded": 2018,
+  "sectors": [
+    "saas"
+  ],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 1104870638,
+  "founders": [
+    "Daniel Khachab",
+    "Julian Hammer"
+  ],
+  "difficulty": 3,
+  "techeuId": "83fd7ab9-61ef-48b1-bc94-758efd88b882",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://tech.eu/2022/04/12/choco-chalks-up-111-million-punches-ticket-at-the-unicorn-club/",
+      "quote": "Berlin-based food supply chain management platform Choco has raised $111 million in a Series B2 funding round at a valuation of $1.2 billion."
+    },
+    {
+      "field": "founded",
+      "url": "https://www.insightpartners.com/ideas/choco-closes-100-million-series-b-to-build-a-global-connected-food-system/",
+      "quote": "Choco was founded in 2018 by serial tech entrepreneurs Daniel Khachab,Julian Hammer"
+    },
+    {
+      "field": "founders",
+      "url": "https://www.insightpartners.com/ideas/choco-closes-100-million-series-b-to-build-a-global-connected-food-system/",
+      "quote": "Choco was founded in 2018 by serial tech entrepreneurs Daniel Khachab,Julian Hammer"
+    },
+    {
+      "field": "sectors",
+      "url": "https://tech.eu/2022/04/12/choco-chalks-up-111-million-punches-ticket-at-the-unicorn-club/",
+      "quote": "Berlin-based food supply chain management platform Choco"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://choco.com/us/press/choco-achieves-unicorn-status",
+      "quote": "announced today that it has raised $111 million in Series B2 funding with a valuation of $1.2 billion."
+    },
+    {
+      "field": "valuation",
+      "url": "https://choco.com/us/press/choco-achieves-unicorn-status",
+      "quote": "announced today that it has raised $111 million in Series B2 funding with a valuation of $1.2 billion."
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-a",
+      "month": "2019-10",
+      "amountEur": 30215568,
+      "amountOriginal": 33500000,
+      "currency": "USD",
+      "techeuId": "d2c22889-02de-4fb1-e487-08d91092c887",
+      "investors": [
+        "Bessemer Venture Partners"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://pipedot.org/4TAGN",
+          "quote": "announcing that they've closed a big $33.5 million Series A led by Bessemer Venture Partners."
+        },
+        {
+          "field": "stage",
+          "url": "https://pipedot.org/4TAGN",
+          "quote": "announcing that they've closed a big $33.5 million Series A led by Bessemer Venture Partners."
+        },
+        {
+          "field": "month",
+          "url": "https://pipedot.org/4TAGN",
+          "quote": "2019-10-28 18:07"
+        },
+        {
+          "field": "investors",
+          "url": "https://pipedot.org/4TAGN",
+          "quote": "announcing that they've closed a big $33.5 million Series A led by Bessemer Venture Partners."
+        }
+      ]
+    },
+    {
+      "stage": "series-a",
+      "month": "2020-04",
+      "amountEur": 27736958,
+      "amountOriginal": 30200000,
+      "currency": "USD",
+      "techeuId": "50e79145-c073-4076-e488-08d91092c887",
+      "investors": [
+        "Coatue Management",
+        "Bessemer Venture Partners",
+        "Atlantic Labs",
+        "Target Global",
+        "Greyhound Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/brief/choco-funding/",
+          "quote": "Choco, a Berlin-based food sustainability company, has raised $30.2 million in new funding led by Coatue Management."
+        },
+        {
+          "field": "stage",
+          "url": "https://www.orrick.com/en/News/2020/05/Orrick-Advises-Coatue-Management-as-Lead-Investor-on-Series-A2-Investment-in-Berlin-based-Choco",
+          "quote": "$30.2 million Series A2 financing"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/brief/choco-funding/",
+          "quote": "2020-04-16T12:00:37+00:00"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/brief/choco-funding/",
+          "quote": "Choco, a Berlin-based food sustainability company, has raised $30.2 million in new funding led by Coatue Management."
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/brief/choco-funding/",
+          "quote": "Previous investors joined the round as well, including Bessemer Venture Partners, Atlantic Labs, Target Global and Greyhound."
+        }
+      ]
+    },
+    {
+      "stage": "series-b",
+      "month": "2021-07",
+      "amountEur": 84925690,
+      "amountOriginal": 100000000,
+      "currency": "USD",
+      "techeuId": "8e538c07-bea9-478d-89f8-2219a78d0b8b",
+      "postMoneyValuationEur": 509554140,
+      "investors": [
+        "Left Lane Capital",
+        "Insight Partners",
+        "Coatue Management",
+        "Bessemer Venture Partners"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2021/07/19/choco-bites-into-100m-series-b-at-a-600m-valuation-to-build-a-more-transparent-sustainable-food-supply-chain",
+          "quote": "Choco bites into $100M Series B, at a $600M valuation, to build a more transparent, sustainable food supply chain"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2021/07/19/choco-bites-into-100m-series-b-at-a-600m-valuation-to-build-a-more-transparent-sustainable-food-supply-chain",
+          "quote": "Choco bites into $100M Series B, at a $600M valuation, to build a more transparent, sustainable food supply chain"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2021/07/19/choco-bites-into-100m-series-b-at-a-600m-valuation-to-build-a-more-transparent-sustainable-food-supply-chain",
+          "quote": "2021-07-20T06:00:39+00:00"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2021/07/19/choco-bites-into-100m-series-b-at-a-600m-valuation-to-build-a-more-transparent-sustainable-food-supply-chain",
+          "quote": "Joining in is new investor Insight Partners and existing investors Coatue Management and Bessemer Venture Partners."
+        }
+      ]
+    },
+    {
+      "stage": "series-b",
+      "month": "2022-04",
+      "amountEur": 102200534,
+      "amountOriginal": 111000000,
+      "currency": "USD",
+      "techeuId": "5c06e617-e750-4d18-bd8d-5a11c9888537",
+      "postMoneyValuationEur": 1104870638,
+      "investors": [
+        "G Squared",
+        "Insight Partners",
+        "Bessemer Venture Partners",
+        "Coatue Management",
+        "Target Global",
+        "Atlantic Labs",
+        "Greyhound Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://choco.com/us/press/choco-achieves-unicorn-status",
+          "quote": "announced today that it has raised $111 million in Series B2 funding with a valuation of $1.2 billion."
+        },
+        {
+          "field": "stage",
+          "url": "https://choco.com/us/press/choco-achieves-unicorn-status",
+          "quote": "announced today that it has raised $111 million in Series B2 funding with a valuation of $1.2 billion."
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2022/04/12/choco-chalks-up-111-million-punches-ticket-at-the-unicorn-club/",
+          "quote": "2022-04-12T06:00:00+00:00"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2022/04/12/choco-chalks-up-111-million-punches-ticket-at-the-unicorn-club/",
+          "quote": "Choco’s $111 million internal Series B2 funding round was led by G Squared , alongside Insight Partners ."
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2022/04/12/choco-chalks-up-111-million-punches-ticket-at-the-unicorn-club/",
+          "quote": "existing investors that include Bessemer Venture Partners , Insight Partners, Coatue , Target Global , Atlantic Labs , Greyhound Capital"
+        }
+      ]
+    }
+  ]
+}

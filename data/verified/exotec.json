@@ -1,0 +1,92 @@
+{
+  "id": "exotec",
+  "name": "Exotec",
+  "aliases": [
+    "Exotech"
+  ],
+  "domain": "exotec.com",
+  "country": "FR",
+  "city": "Wasquehal",
+  "founded": 2015,
+  "sectors": [
+    "robotics"
+  ],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 1753924406,
+  "founders": [
+    "Romain Moulin",
+    "Renaud Heitz"
+  ],
+  "difficulty": 3,
+  "techeuId": "8325b0be-2ed5-422c-a55e-1dbb5adf8764",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/Exotec",
+      "quote": "Its headquarters are in Wasquehal , near Lille ."
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Exotec",
+      "quote": "Romain Moulin and Renaud Heitz founded it in 2015."
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Exotec",
+      "quote": "Romain Moulin and Renaud Heitz founded it in 2015."
+    },
+    {
+      "field": "sectors",
+      "url": "https://en.wikipedia.org/wiki/Exotec",
+      "quote": "Exotec is a French company that develops robots and software for warehouses and fulfillment centers."
+    },
+    {
+      "field": "unicorn",
+      "url": "https://tech.eu/2022/01/17/frances-exotech-raises-335-million-in-series-d-round-at-2-billion-valuation/",
+      "quote": "With this raise, the company achieves a $2 billion valuation"
+    },
+    {
+      "field": "valuation",
+      "url": "https://tech.eu/2022/01/17/frances-exotech-raises-335-million-in-series-d-round-at-2-billion-valuation/",
+      "quote": "With this raise, the company achieves a $2 billion valuation"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-d",
+      "month": "2022-01",
+      "amountEur": 293782338,
+      "amountOriginal": 335000000,
+      "currency": "USD",
+      "techeuId": "54e85b41-cbe6-4e8f-96f4-1538ef20a80f",
+      "investors": [
+        "Goldman Sachs Asset Management",
+        "Bpifrance",
+        "83North"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.exotec.com/en-gb/news/exotec-leves-335-million-dollars-and-becomes-frances-first-industrial-unicorn",
+          "quote": "announced that it has raised $335 million in a Series D financing round led by Goldman Sachs Asset Management, alongside Bpifrance, via its Large Venture fund, and 83North."
+        },
+        {
+          "field": "stage",
+          "url": "https://www.exotec.com/en-gb/news/exotec-leves-335-million-dollars-and-becomes-frances-first-industrial-unicorn",
+          "quote": "announced that it has raised $335 million in a Series D financing round led by Goldman Sachs Asset Management, alongside Bpifrance, via its Large Venture fund, and 83North."
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2022/01/17/frances-exotech-raises-335-million-in-series-d-round-at-2-billion-valuation/",
+          "quote": "2022-01-17T08:59:01+00:00"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.exotec.com/en-gb/news/exotec-leves-335-million-dollars-and-becomes-frances-first-industrial-unicorn",
+          "quote": "announced that it has raised $335 million in a Series D financing round led by Goldman Sachs Asset Management, alongside Bpifrance, via its Large Venture fund, and 83North."
+        }
+      ]
+    }
+  ]
+}

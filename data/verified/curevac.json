@@ -1,0 +1,91 @@
+{
+  "id": "curevac",
+  "name": "CureVac",
+  "aliases": [],
+  "domain": "curevac.com",
+  "country": "DE",
+  "city": "Tübingen",
+  "founded": 2000,
+  "sectors": [
+    "biotech"
+  ],
+  "status": "acquired",
+  "unicorn": true,
+  "lastValuationEur": 2370270041,
+  "founders": [
+    "Ingmar Hoerr",
+    "Steve Pascolo",
+    "Florian von der Mülbe",
+    "Günther Jung",
+    "Hans-Georg Rammensee"
+  ],
+  "difficulty": 3,
+  "techeuId": "91FF558F-2B27-4EF6-A196-D639A7B36A3C",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.foxbusiness.com/markets/coronavirus-vaccine-developer-curevac-raises-213-million-in-ipo",
+      "quote": "The Tuebingen-based company"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/CureVac",
+      "quote": "it was founded in 2000 by Ingmar Hoerr, Steve Pascolo, Florian von der Mulbe, Günther Jung, and Hans-Georg Rammensee"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/CureVac",
+      "quote": "it was founded in 2000 by Ingmar Hoerr, Steve Pascolo, Florian von der Mulbe, Günther Jung, and Hans-Georg Rammensee"
+    },
+    {
+      "field": "sectors",
+      "url": "https://en.wikipedia.org/wiki/CureVac",
+      "quote": "Clinical trials for the CureVac COVID-19 Vaccine (CVnCoV) began in June 2020"
+    },
+    {
+      "field": "status",
+      "url": "https://en.wikipedia.org/wiki/CureVac",
+      "quote": "In June 2025, BioNTech announced its intention to buy CureVac in an all-stock deal valued at US$1.25 billion."
+    },
+    {
+      "field": "unicorn",
+      "url": "https://www.foxbusiness.com/markets/coronavirus-vaccine-developer-curevac-raises-213-million-in-ipo",
+      "quote": "The IPO gives CureVac a valuation of about $2.8 billion."
+    },
+    {
+      "field": "valuation",
+      "url": "https://www.foxbusiness.com/markets/coronavirus-vaccine-developer-curevac-raises-213-million-in-ipo",
+      "quote": "The IPO gives CureVac a valuation of about $2.8 billion."
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-f+",
+      "month": "2020-06",
+      "amountEur": 300000000,
+      "amountOriginal": 300000000,
+      "currency": "EUR",
+      "investors": [
+        "KfW"
+      ],
+      "techeuId": "be54dbf0-5b51-44aa-e516-08d91092c887",
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://en.wikipedia.org/wiki/CureVac",
+          "quote": "the German Federal Government invested €300 million in CureVac"
+        },
+        {
+          "field": "month",
+          "url": "https://en.wikipedia.org/wiki/CureVac",
+          "quote": "in the same month, the German Federal Government invested €300 million in CureVac"
+        },
+        {
+          "field": "investors",
+          "url": "https://en.wikipedia.org/wiki/CureVac",
+          "quote": "KfW will hold a stake of approximately 23% in the company"
+        }
+      ]
+    }
+  ]
+}

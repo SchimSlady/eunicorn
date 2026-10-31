@@ -1,0 +1,187 @@
+{
+  "id": "alma",
+  "name": "Alma",
+  "aliases": [],
+  "domain": "almapay.com",
+  "country": "FR",
+  "city": "Neuilly-sur-Seine",
+  "founded": 2018,
+  "sectors": [
+    "fintech"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Louis Chatriot",
+    "Guillaume Desloges"
+  ],
+  "difficulty": 3,
+  "techeuId": "1AAC169E-4610-4329-A689-4A7519678732",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://almapay.com/fr-fr/mentions-legales",
+      "quote": "sise au 176 Avenue Charles de Gaulle 92200 Neuilly-sur-Seine"
+    },
+    {
+      "field": "founded",
+      "url": "https://fr.wikipedia.org/wiki/Alma_(entreprise)",
+      "quote": "Alma est fondée à Neuilly-sur-Seine en 2018 par Louis Chatriot et Guillaume Desloges"
+    },
+    {
+      "field": "founders",
+      "url": "https://fr.wikipedia.org/wiki/Alma_(entreprise)",
+      "quote": "Alma est fondée à Neuilly-sur-Seine en 2018 par Louis Chatriot et Guillaume Desloges"
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.lemondedudroit.fr/deals/73552-dechert-conseille-alma-series-b-49-millions-euros.html",
+      "quote": "fintech française fondée par Louis Chatriot et Guillaume Desloges visant à offrir des solutions de paiement fractionné et différé à destination des commerçants et des consommateurs"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "7dbc1824-11be-4869-f62e-08d91092c887",
+      "stage": "seed",
+      "month": "2019-07",
+      "amountEur": 3300000,
+      "amountOriginal": 3300000,
+      "currency": "EUR",
+      "investors": [],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.lemondedudroit.fr/deals/69031-dechert-conseille-alma.html",
+          "quote": "Cette levée de fonds, qui succède au financement Seed de 3,3 millions d’euros en juillet 2019, permettra à Alma d’accélérer son développement."
+        },
+        {
+          "field": "stage",
+          "url": "https://www.lemondedudroit.fr/deals/69031-dechert-conseille-alma.html",
+          "quote": "Cette levée de fonds, qui succède au financement Seed de 3,3 millions d’euros en juillet 2019, permettra à Alma d’accélérer son développement."
+        },
+        {
+          "field": "month",
+          "url": "https://www.lemondedudroit.fr/deals/69031-dechert-conseille-alma.html",
+          "quote": "Cette levée de fonds, qui succède au financement Seed de 3,3 millions d’euros en juillet 2019, permettra à Alma d’accélérer son développement."
+        }
+      ]
+    },
+    {
+      "techeuId": "42919dbf-b9d1-435b-f62f-08d91092c887",
+      "stage": "series-a",
+      "month": "2020-03",
+      "amountEur": 12500000,
+      "amountOriginal": 12500000,
+      "currency": "EUR",
+      "investors": [
+        "ISAI",
+        "Idinvest",
+        "Picus Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.maddyness.com/?p=568660",
+          "quote": "Alma s'en sort bien, avec une opération à 12,5 millions d'euros réalisée auprès de ses investisseurs historiques ISAI et Idinvest, rejoints par Picus Capital."
+        },
+        {
+          "field": "month",
+          "url": "https://www.maddyness.com/?p=568660",
+          "quote": "13 mars 2020"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.lemondedudroit.fr/deals/73552-dechert-conseille-alma-series-b-49-millions-euros.html",
+          "quote": "Dechert avait également accompagné Alma lors de sa series A de 12,5 millions d’euros en 2020."
+        },
+        {
+          "field": "investors",
+          "url": "https://www.maddyness.com/?p=568660",
+          "quote": "Alma s'en sort bien, avec une opération à 12,5 millions d'euros réalisée auprès de ses investisseurs historiques ISAI et Idinvest, rejoints par Picus Capital."
+        }
+      ]
+    },
+    {
+      "techeuId": "fa887f2f-744e-400c-f630-08d91092c887",
+      "stage": "series-b",
+      "month": "2021-01",
+      "amountEur": 49000000,
+      "amountOriginal": 49000000,
+      "currency": "EUR",
+      "investors": [
+        "Idinvest",
+        "Cathay Innovation",
+        "Bpifrance",
+        "Seaya Ventures",
+        "Picus Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://retailtechinnovationhub.com/home/2021/1/26/paytech-startup-alma-announces-series-b-funding-round",
+          "quote": "French buy now, pay later venture Alma has closed a €49 million Series B financing round involving Idinvest, Cathay Innovation, the French Public Investment Bank (Bpifrance), Seaya Ventures and Picus Capital."
+        },
+        {
+          "field": "stage",
+          "url": "https://retailtechinnovationhub.com/home/2021/1/26/paytech-startup-alma-announces-series-b-funding-round",
+          "quote": "French buy now, pay later venture Alma has closed a €49 million Series B financing round involving Idinvest, Cathay Innovation, the French Public Investment Bank (Bpifrance), Seaya Ventures and Picus Capital."
+        },
+        {
+          "field": "month",
+          "url": "https://retailtechinnovationhub.com/home/2021/1/26/paytech-startup-alma-announces-series-b-funding-round",
+          "quote": "26 Jan 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://retailtechinnovationhub.com/home/2021/1/26/paytech-startup-alma-announces-series-b-funding-round",
+          "quote": "French buy now, pay later venture Alma has closed a €49 million Series B financing round involving Idinvest, Cathay Innovation, the French Public Investment Bank (Bpifrance), Seaya Ventures and Picus Capital."
+        }
+      ]
+    },
+    {
+      "techeuId": "4a8a1653-11a5-4b5c-bfa3-0457edc63ec7",
+      "stage": "series-c",
+      "month": "2022-02",
+      "amountEur": 115000000,
+      "amountOriginal": 115000000,
+      "currency": "EUR",
+      "investors": [
+        "Cathay Innovation",
+        "Eurazeo",
+        "Bpifrance",
+        "Seaya Ventures",
+        "Picus Capital",
+        "Tencent",
+        "GR Capital",
+        "Roosh Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2022/02/10/another-klarna-rival-on-the-rise-french-bnpl-alma-shops-for-eur210-million-to-support-retailers-and-consumers-across-europe",
+          "quote": "The round consists of €115 million in equity and €95 million in debt funding."
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2022/02/10/another-klarna-rival-on-the-rise-french-bnpl-alma-shops-for-eur210-million-to-support-retailers-and-consumers-across-europe",
+          "quote": "Alma has just completed a €210-million Series C financing round."
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2022/02/10/another-klarna-rival-on-the-rise-french-bnpl-alma-shops-for-eur210-million-to-support-retailers-and-consumers-across-europe",
+          "quote": "datePublished\":\"2022-02-10T14:30:30+00:00"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2022/02/10/another-klarna-rival-on-the-rise-french-bnpl-alma-shops-for-eur210-million-to-support-retailers-and-consumers-across-europe",
+          "quote": "Existing investors, including Cathay Innovation, Eurazeo, Bpifrance via its Large Venture fund, Seaya Ventures, Picus Capital participated."
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2022/02/10/another-klarna-rival-on-the-rise-french-bnpl-alma-shops-for-eur210-million-to-support-retailers-and-consumers-across-europe",
+          "quote": "New investors such as Tencent, GR Capital and Roosh Ventures also joined in."
+        }
+      ]
+    }
+  ]
+}

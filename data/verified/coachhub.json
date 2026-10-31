@@ -1,0 +1,181 @@
+{
+  "id": "coachhub",
+  "name": "CoachHub",
+  "aliases": [],
+  "domain": "coachhub.com",
+  "country": "DE",
+  "city": "Berlin",
+  "founded": 2018,
+  "sectors": [
+    "saas"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Matti Niebelschuetz",
+    "Yannis Niebelschuetz"
+  ],
+  "difficulty": 3,
+  "techeuId": "6e93ff77-ee11-472e-bf5d-03c13a5cf787",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://siliconcanals.com/?p=8223",
+      "quote": "The Berlin-based coaching platform says it will use the funds"
+    },
+    {
+      "field": "founded",
+      "url": "https://siliconcanals.com/?p=8223",
+      "quote": "Matti Niebelschuetz and Yannis Niebelsch founded CoachHub in 2018"
+    },
+    {
+      "field": "founders",
+      "url": "https://siliconcanals.com/?p=8223",
+      "quote": "Matti Niebelschuetz and Yannis Niebelsch founded CoachHub in 2018"
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.coachhub.com/news-media/coachhub-raises-200m-series-c",
+      "quote": "CoachHub is the leading global talent development platform that enables organizations to create personalized, measurable and scalable coaching programs for the entire workforce"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://www.coachhub.com/news-media/coachhub-raises-200m-series-c",
+      "quote": "closed a $200M Series C funding round"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "seed",
+      "month": "2019-08",
+      "amountEur": 6000000,
+      "amountOriginal": 6000000,
+      "currency": "EUR",
+      "techeuId": "6e116d6d-9075-44c8-e1ed-08d91092c887",
+      "investors": [
+        "HV Holtzbrinck Ventures",
+        "Partech",
+        "Speedinvest"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2019/08/15/berlin-based-coachhub-raises-e6-million-to-scale-its-digital-coaching-technology",
+          "quote": "CoachHub , a startup that helps companies make coaching accessible to employees of all career levels, has raised €6 million to fuel its growth and expand its global pool of online coaches."
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2019/08/15/berlin-based-coachhub-raises-e6-million-to-scale-its-digital-coaching-technology",
+          "quote": "2019-08-15T12:00:59+00:00"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2019/08/15/berlin-based-coachhub-raises-e6-million-to-scale-its-digital-coaching-technology",
+          "quote": "HV Holtzbrinck Ventures, Partech, and Speedinvest x participated in the round."
+        }
+      ]
+    },
+    {
+      "stage": "seed",
+      "month": "2019-11",
+      "amountEur": 10000000,
+      "amountOriginal": 10000000,
+      "currency": "EUR",
+      "techeuId": "d448177b-f1bc-4e59-e1ec-08d91092c887",
+      "investors": [
+        "HV Holtzbrinck Ventures",
+        "Partech",
+        "Speedinvest",
+        "RTP Global"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2019/11/12/coachhub-doubles-up-raising-e10-million-just-after-its-e6-million-round-to-democratise-business-coaching",
+          "quote": "CoachHub, the Berlin-based digital coaching platform, has announced a €10 million round from existing investors HV Holtzbrinck Ventures, Partech, and Speedinvest, plus new investor RTP Global."
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2019/11/12/coachhub-doubles-up-raising-e10-million-just-after-its-e6-million-round-to-democratise-business-coaching",
+          "quote": "2019-11-12T12:34:59+00:00"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2019/11/12/coachhub-doubles-up-raising-e10-million-just-after-its-e6-million-round-to-democratise-business-coaching",
+          "quote": "CoachHub, the Berlin-based digital coaching platform, has announced a €10 million round from existing investors HV Holtzbrinck Ventures, Partech, and Speedinvest, plus new investor RTP Global."
+        }
+      ]
+    },
+    {
+      "stage": "series-a",
+      "month": "2020-12",
+      "amountEur": 24471817,
+      "amountOriginal": 30000000,
+      "currency": "USD",
+      "investors": [
+        "Draper Esprit",
+        "HV Capital",
+        "Partech",
+        "Speedinvest",
+        "signals Venture Capital",
+        "RTP Global"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2020/12/18/coachhub-funding",
+          "quote": "Berlin-based digital coaching platform CoachHub has secured $30 million in funding round led by new investor Draper Esprit, alongside existing investors HV Capital, Partech, Speedinvest, signals Venture Capital and RTP Global."
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2020/12/18/coachhub-funding",
+          "quote": "2020-12-18T08:00:51+00:00"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2020/12/18/coachhub-funding",
+          "quote": "Berlin-based digital coaching platform CoachHub has secured $30 million in funding round led by new investor Draper Esprit, alongside existing investors HV Capital, Partech, Speedinvest, signals Venture Capital and RTP Global."
+        }
+      ]
+    },
+    {
+      "stage": "series-c",
+      "month": "2022-06",
+      "amountEur": 191350938,
+      "amountOriginal": 200000000,
+      "currency": "USD",
+      "techeuId": "303805fa-eb80-4a45-b617-ffc8704bcc89",
+      "investors": [
+        "Sofina",
+        "SoftBank Vision Fund 2",
+        "Molten Ventures",
+        "Speedinvest",
+        "HV Capital",
+        "signals Venture Capital",
+        "Silicon Valley Bank"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.coachhub.com/news-media/coachhub-raises-200m-series-c",
+          "quote": "closed a $200M Series C funding round, led by Sofina and SoftBank Vision Fund 2."
+        },
+        {
+          "field": "stage",
+          "url": "https://www.coachhub.com/news-media/coachhub-raises-200m-series-c",
+          "quote": "closed a $200M Series C funding round, led by Sofina and SoftBank Vision Fund 2."
+        },
+        {
+          "field": "month",
+          "url": "https://www.coachhub.com/news-media/coachhub-raises-200m-series-c",
+          "quote": "New York, June, 14, 2022 - CoachHub"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.coachhub.com/news-media/coachhub-raises-200m-series-c",
+          "quote": "In addition to Sofina and SoftBank Vision Fund 2, existing investors including Molten Ventures, Speedinvest, HV Capital, Signals Venture Capital and Silicon Valley Bank/SVB Capital also participated in the round."
+        }
+      ]
+    }
+  ]
+}
