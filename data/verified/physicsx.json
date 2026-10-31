@@ -1,0 +1,217 @@
+{
+  "id": "physicsx",
+  "name": "PhysicsX",
+  "aliases": [],
+  "domain": "physicsx.ai",
+  "country": "GB",
+  "city": "London",
+  "founded": 2020,
+  "sectors": [
+    "ai"
+  ],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 2079722704,
+  "founders": [
+    "Jacomo Corbo",
+    "Robin Tuluie",
+    "Nico Haag"
+  ],
+  "difficulty": 4,
+  "techeuId": "b9e71dc0-1cff-4e03-9cdf-455298868a04",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://techround.co.uk/?p=119341",
+      "quote": "PhysicsX is a London-based scale-up"
+    },
+    {
+      "field": "founded",
+      "url": "https://siliconangle.com/?p=638683",
+      "quote": "it was launched in 2020 by its co-chief executive officers"
+    },
+    {
+      "field": "founders",
+      "url": "https://techround.co.uk/?p=119341",
+      "quote": "Founded by Robin Tuluie and Jacomo Corbo"
+    },
+    {
+      "field": "founders",
+      "url": "https://www.physicsx.ai/about",
+      "quote": "Nico Haag Co-Founder & Director of Simulation Engineering"
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.cooley.com/news/coverage/2026/2026-06-08-physicsx-raises-$300-million-series-c",
+      "quote": "the physics AI company for industrials"
+    },
+    {
+      "field": "status",
+      "url": "https://www.cooley.com/news/coverage/2026/2026-06-08-physicsx-raises-$300-million-series-c",
+      "quote": "its $300 million Series C financing at a valuation of approximately $2.4 billion."
+    },
+    {
+      "field": "unicorn",
+      "url": "https://www.cooley.com/news/coverage/2026/2026-06-08-physicsx-raises-$300-million-series-c",
+      "quote": "at a valuation of approximately $2.4 billion."
+    },
+    {
+      "field": "valuation",
+      "url": "https://www.cooley.com/news/coverage/2026/2026-06-08-physicsx-raises-$300-million-series-c",
+      "quote": "at a valuation of approximately $2.4 billion."
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-a",
+      "month": "2023-11",
+      "amountEur": 29221076,
+      "amountOriginal": 32000000,
+      "currency": "USD",
+      "investors": [
+        "General Catalyst",
+        "Standard Industries",
+        "NGP Energy",
+        "Radius Capital",
+        "Henry Kravis"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://siliconangle.com/?p=638683",
+          "quote": "closed a $32 million Series A funding round led by General Catalyst."
+        },
+        {
+          "field": "stage",
+          "url": "https://siliconangle.com/?p=638683",
+          "quote": "closed a $32 million Series A funding round"
+        },
+        {
+          "field": "month",
+          "url": "https://siliconangle.com/?p=638683",
+          "quote": "UPDATED 17:47 EST / NOVEMBER 27 2023"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.twobirds.com/en/news-and-deals/2023/global/bird-and-bird-advises-standard-industries-on-its-series-a-investment-into-ai-startup-physicsx",
+          "quote": "Standard Industries invested alongside General Catalyst, NGP Energy, Radius Capital & KKR co-founder Henry Kravis in a $32 million Series A financing round."
+        }
+      ]
+    },
+    {
+      "stage": "series-b",
+      "month": "2025-06",
+      "amountEur": 117677824,
+      "amountOriginal": 135000000,
+      "currency": "USD",
+      "investors": [
+        "Atomico",
+        "Temasek",
+        "Siemens",
+        "Applied Materials",
+        "July Fund"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.cooley.com/news/coverage/2025/2025-06-23-physicsx-raises-$135-million-series-b",
+          "quote": "on its $135 million Series B financing"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.cooley.com/news/coverage/2025/2025-06-23-physicsx-raises-$135-million-series-b",
+          "quote": "on its $135 million Series B financing"
+        },
+        {
+          "field": "month",
+          "url": "https://www.cooley.com/news/coverage/2025/2025-06-23-physicsx-raises-$135-million-series-b",
+          "quote": "June 23, 2025"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.cooley.com/news/coverage/2025/2025-06-23-physicsx-raises-$135-million-series-b",
+          "quote": "The round was led by Atomico, with participation from Temasek, Siemens, Applied Materials and July Fund"
+        }
+      ]
+    },
+    {
+      "stage": "series-b",
+      "month": "2025-11",
+      "amountEur": 17370158,
+      "amountOriginal": 20000000,
+      "currency": "USD",
+      "investors": [
+        "NVentures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.startupmag.co.uk/funding/physicsx-2025-series-b-extension-funding",
+          "quote": "has added a £15m ($20m) extension to its Series B from NVentures"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.startupmag.co.uk/funding/physicsx-2025-series-b-extension-funding",
+          "quote": "has added a £15m ($20m) extension to its Series B from NVentures"
+        },
+        {
+          "field": "month",
+          "url": "https://pulse2.com/physicsx-series-b-extended/amp/",
+          "quote": "Nov 20, 2025"
+        },
+        {
+          "field": "investors",
+          "url": "https://pulse2.com/physicsx-series-b-extended/amp/",
+          "quote": "a new investment from NVentures, the venture capital arm of NVIDIA"
+        }
+      ]
+    },
+    {
+      "stage": "series-c",
+      "month": "2026-06",
+      "amountEur": 259965338,
+      "amountOriginal": 300000000,
+      "currency": "USD",
+      "investors": [
+        "Temasek",
+        "M&G Investments",
+        "Intrepid Growth Partners",
+        "Applied Materials",
+        "Atomico",
+        "General Catalyst",
+        "July Fund",
+        "NGP",
+        "NVIDIA",
+        "Radius",
+        "Siemens"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.cooley.com/news/coverage/2026/2026-06-08-physicsx-raises-$300-million-series-c",
+          "quote": "its $300 million Series C financing at a valuation of approximately $2.4 billion."
+        },
+        {
+          "field": "stage",
+          "url": "https://www.cooley.com/news/coverage/2026/2026-06-08-physicsx-raises-$300-million-series-c",
+          "quote": "its $300 million Series C financing at a valuation of approximately $2.4 billion."
+        },
+        {
+          "field": "month",
+          "url": "https://www.cooley.com/news/coverage/2026/2026-06-08-physicsx-raises-$300-million-series-c",
+          "quote": "June 8, 2026"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.cooley.com/news/coverage/2026/2026-06-08-physicsx-raises-$300-million-series-c",
+          "quote": "The round was led by Temasek, with participation from new investors M&G Investments and Intrepid Growth Partners"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.cooley.com/news/coverage/2026/2026-06-08-physicsx-raises-$300-million-series-c",
+          "quote": "alongside existing investors including Applied Materials, Atomico, General Catalyst, July Fund, NGP, NVIDIA, Radius and Siemens"
+        }
+      ]
+    }
+  ]
+}

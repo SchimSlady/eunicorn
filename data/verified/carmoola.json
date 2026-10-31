@@ -1,0 +1,153 @@
+{
+  "id": "carmoola",
+  "name": "Carmoola",
+  "aliases": [],
+  "domain": "carmoola.co.uk",
+  "country": "GB",
+  "city": "London",
+  "founded": 2021,
+  "sectors": [
+    "fintech"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Aidan Rushby",
+    "Roman Sumnikov",
+    "Igor Gordiichuk"
+  ],
+  "difficulty": 3,
+  "techeuId": "48bc37e8-b2a1-4796-9751-d9e5b8d8448e",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/Carmoola",
+      "quote": "Carmoola was founded in London in 2021 by Movebubble co-founder, Aidan Rushby, Amy Rushby, and Ukrainian engineers Roman Sumnikov and Igor Gordiichuk"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Carmoola",
+      "quote": "Carmoola was founded in London in 2021 by Movebubble co-founder, Aidan Rushby, Amy Rushby, and Ukrainian engineers Roman Sumnikov and Igor Gordiichuk"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Carmoola",
+      "quote": "Carmoola was founded in London in 2021 by Movebubble co-founder, Aidan Rushby, Amy Rushby, and Ukrainian engineers Roman Sumnikov and Igor Gordiichuk"
+    },
+    {
+      "field": "sectors",
+      "url": "https://fintech.global/2023/02/22/car-finance-startup-carmoola-nets-over-100m-in-debt-and-equity/",
+      "quote": "UK car finance FinTech Carmoola"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "seed",
+      "month": "2022-04",
+      "amountEur": 32260762,
+      "amountOriginal": 27000000,
+      "currency": "GBP",
+      "investors": [
+        "InMotion Ventures",
+        "VentureFriends",
+        "Truesight Ventures",
+        "Clocktower Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://en.wikipedia.org/wiki/Carmoola",
+          "quote": "In April 2022, Carmoola raised £27 million in seed funding led by InMotion Ventures"
+        },
+        {
+          "field": "stage",
+          "url": "https://fintech.global/2022/04/11/carmoola-lands-27m-to-transform-car-financing/",
+          "quote": "has raised £27m in seed funding"
+        },
+        {
+          "field": "month",
+          "url": "https://en.wikipedia.org/wiki/Carmoola",
+          "quote": "In April 2022, Carmoola raised"
+        },
+        {
+          "field": "investors",
+          "url": "https://fintech.global/2022/04/11/carmoola-lands-27m-to-transform-car-financing/",
+          "quote": "The round was led by Jaguar Land Rover’s investment fund, InMotion Ventures, VentureFriends, BCI, Truesight Ventures and California-based Clocktower Ventures."
+        }
+      ]
+    },
+    {
+      "stage": "series-a",
+      "month": "2023-02",
+      "amountEur": 9665131,
+      "amountOriginal": 8500000,
+      "currency": "GBP",
+      "investors": [
+        "QED Investors"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://fintech.global/2023/02/22/car-finance-startup-carmoola-nets-over-100m-in-debt-and-equity/",
+          "quote": "UK car finance FinTech Carmoola has raised £8.5m in its Series A round"
+        },
+        {
+          "field": "stage",
+          "url": "https://fintech.global/2023/02/22/car-finance-startup-carmoola-nets-over-100m-in-debt-and-equity/",
+          "quote": "in its Series A round"
+        },
+        {
+          "field": "month",
+          "url": "https://fintech.global/2023/02/22/car-finance-startup-carmoola-nets-over-100m-in-debt-and-equity/",
+          "quote": "February 22, 2023"
+        },
+        {
+          "field": "investors",
+          "url": "https://fintech.global/2023/02/22/car-finance-startup-carmoola-nets-over-100m-in-debt-and-equity/",
+          "quote": "The round was led by US-based FinTech specialists QED Investors."
+        }
+      ]
+    },
+    {
+      "stage": "series-a",
+      "month": "2024-01",
+      "amountEur": 18006923,
+      "amountOriginal": 15500000,
+      "currency": "GBP",
+      "investors": [
+        "QED Investors",
+        "VentureFriends",
+        "InMotion Ventures",
+        "AlleyCorp",
+        "u.ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://fintech.global/2024/01/16/uk-fintech-carmoola-raises-15-5m-to-transform-car-financing/",
+          "quote": "has successfully closed a £15.5m equity round"
+        },
+        {
+          "field": "stage",
+          "url": "https://en.wikipedia.org/wiki/Carmoola",
+          "quote": "Carmoola secured a £15.5 million Series A extension from QED Investors"
+        },
+        {
+          "field": "month",
+          "url": "https://fintech.global/2024/01/16/uk-fintech-carmoola-raises-15-5m-to-transform-car-financing/",
+          "quote": "January 16, 2024"
+        },
+        {
+          "field": "investors",
+          "url": "https://fintech.global/2024/01/16/uk-fintech-carmoola-raises-15-5m-to-transform-car-financing/",
+          "quote": "include QED Investors, known for backing Remitly and NuBank"
+        },
+        {
+          "field": "investors",
+          "url": "https://fintech.global/2024/01/16/uk-fintech-carmoola-raises-15-5m-to-transform-car-financing/",
+          "quote": "VentureFriends, InMotion Ventures (part of Jaguar Land Rover), AlleyCorp, and Kyiv-based u.ventures"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "id": "open-cosmos",
+  "name": "Open Cosmos",
+  "domain": "open-cosmos.com",
+  "country": "GB",
+  "city": "Harwell",
+  "founded": 2015,
+  "sectors": [
+    "space"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Rafel Jorda Siquier"
+  ],
+  "difficulty": 3,
+  "techeuId": "32cb2fff-c379-4fe7-ad28-a9b00087b3ce",
+  "wikidataId": "Q125456828",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.startupmag.co.uk/funding/open-cosmos",
+      "quote": "a Harwell, UK-based space tech company"
+    },
+    {
+      "field": "founded",
+      "url": "https://spacenexus.us/company-profiles/open-cosmos.md",
+      "quote": "Founded: 2015"
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.startupmag.co.uk/funding/open-cosmos",
+      "quote": "a Harwell, UK-based space tech company"
+    },
+    {
+      "field": "status",
+      "url": "https://spacenexus.us/company-profiles/open-cosmos.md",
+      "quote": "Ownership: private"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-b",
+      "month": "2023-09",
+      "amountEur": 46623648,
+      "amountOriginal": 50000000,
+      "currency": "USD",
+      "investors": [
+        "ETF Partners",
+        "Trill Impact",
+        "A&G"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.startupmag.co.uk/funding/open-cosmos",
+          "quote": "raised $50 million in Series B funding"
+        },
+        {
+          "field": "month",
+          "url": "https://www.startupmag.co.uk/funding/open-cosmos",
+          "quote": "Published 11/09/2023"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.penningtonslaw.com/insights/penningtons-manches-cooper-advises-advanced-satellite-technology-company-open-cosmos-on-50-million-fundraise/",
+          "quote": "led by Trill Impact, A&G and ETF Partners"
+        }
+      ]
+    },
+    {
+      "stage": "series-c",
+      "month": "2026-09",
+      "amountEur": 300000000,
+      "amountOriginal": 300000000,
+      "currency": "EUR",
+      "investors": [
+        "ETF Partners",
+        "Lightrock",
+        "British Columbia Investment Management Corporation",
+        "Institut Català de Finances",
+        "Entrepreneurs First"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2026/09/14/open-cosmos-secures-eur300m-to-expand-satellite-intelligence-and-connectivity/",
+          "quote": "has secured €300 million in funding"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2026/09/14/open-cosmos-secures-eur300m-to-expand-satellite-intelligence-and-connectivity/",
+          "quote": "14 September 2026"
+        }
+      ]
+    }
+  ],
+  "aliases": []
+}

@@ -1,0 +1,118 @@
+{
+  "id": "olix",
+  "name": "Olix",
+  "aliases": [
+    "Flux Computing"
+  ],
+  "domain": "olix.com",
+  "country": "GB",
+  "city": "London",
+  "founded": 2024,
+  "sectors": [
+    "ai"
+  ],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 2860858257,
+  "founders": [
+    "James Dacombe"
+  ],
+  "difficulty": 4,
+  "techeuId": "7bb3b56c-4c2a-4740-a50e-967727fe3a81",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://uktech.news/ai/uk-chip-firm-olix-valued-at-more-than-2bn-after-major-investment-20260803",
+      "quote": "London-based AI hardware startup OLIX"
+    },
+    {
+      "field": "founded",
+      "url": "https://gulfnews.com/world/europe/james-dacombe-just-became-europes-youngest-self-made-billionaire-1.500643910",
+      "quote": "Founded in 2024, Olix was valued at just over $1 billion"
+    },
+    {
+      "field": "founders",
+      "url": "https://tech.eu/2026/08/03/uk-chip-startup-olix-raises-ps312m-at-ps33bn-valuation/",
+      "quote": "founded by 25-year-old entrepreneur James Dacombe"
+    },
+    {
+      "field": "sectors",
+      "url": "https://uktech.news/ai/uk-chip-firm-olix-valued-at-more-than-2bn-after-major-investment-20260803",
+      "quote": "London-based AI hardware startup OLIX"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://uktech.news/ai/uk-chip-firm-olix-valued-at-more-than-2bn-after-major-investment-20260803",
+      "quote": "securing a valuation of $3.3bn"
+    },
+    {
+      "field": "valuation",
+      "url": "https://tech.eu/2026/08/03/uk-chip-startup-olix-raises-ps312m-at-ps33bn-valuation/",
+      "quote": "The new $3.3bn valuation marks more than a tripling of its just over $1bn valuation"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-a",
+      "month": "2026-02",
+      "amountEur": 184873950,
+      "amountOriginal": 220000000,
+      "currency": "USD",
+      "investors": [
+        "Hummingbird Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.cooley.com/news/coverage/2026/2026-02-11-olix-raises-$220-million-in-financing",
+          "quote": "Cooley advised OLIX, a UK semiconductor startup, on its latest $220 million financing round."
+        },
+        {
+          "field": "month",
+          "url": "https://www.cooley.com/news/coverage/2026/2026-02-11-olix-raises-$220-million-in-financing",
+          "quote": "February 11, 2026"
+        },
+        {
+          "field": "investors",
+          "url": "https://siliconangle.com/?p=730672",
+          "quote": "the investment was led by Belgian venture capital firm Hummingbird Ventures"
+        }
+      ]
+    },
+    {
+      "stage": "series-b",
+      "month": "2026-08",
+      "amountEur": 270481144,
+      "amountOriginal": 312000000,
+      "currency": "USD",
+      "investors": [
+        "Fundomo",
+        "Arm",
+        "Hudson River Trading",
+        "Reed Hastings"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://uktech.news/ai/uk-chip-firm-olix-valued-at-more-than-2bn-after-major-investment-20260803",
+          "quote": "has raised $312m (£231.8m) in a Series B funding round"
+        },
+        {
+          "field": "month",
+          "url": "https://uktech.news/ai/uk-chip-firm-olix-valued-at-more-than-2bn-after-major-investment-20260803",
+          "quote": "Mon 3 Aug 2026"
+        },
+        {
+          "field": "investors",
+          "url": "https://uktech.news/ai/uk-chip-firm-olix-valued-at-more-than-2bn-after-major-investment-20260803",
+          "quote": "The round saw investment from Fundomo, Arm, and Hudson River Trading, alongside high-profile angel investors including Netflix co-founder Reed Hastings."
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2026/08/03/uk-chip-startup-olix-raises-ps312m-at-ps33bn-valuation/",
+          "quote": "led by New York VC Fundomo"
+        }
+      ]
+    }
+  ]
+}

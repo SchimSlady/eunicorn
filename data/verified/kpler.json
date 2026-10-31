@@ -1,0 +1,84 @@
+{
+  "id": "kpler",
+  "name": "Kpler",
+  "aliases": [],
+  "domain": "kpler.com",
+  "country": "BE",
+  "city": "Brussels",
+  "founded": 2014,
+  "sectors": [
+    "saas"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "François Cazor",
+    "Jean Maynier"
+  ],
+  "difficulty": 3,
+  "techeuId": "2af19188-170c-416a-ab98-5133463e8b24",
+  "wikidataId": "Q126709116",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.kpler.com/blog/kpler-reaches-100-million-annual-recurring-revenue-milestone",
+      "quote": "Headquartered in Brussels"
+    },
+    {
+      "field": "founded",
+      "url": "https://www.kpler.com/blog/kpler-reaches-100-million-annual-recurring-revenue-milestone",
+      "quote": "Founded in 2014 by François Cazor and Jean Maynier"
+    },
+    {
+      "field": "founders",
+      "url": "https://www.kpler.com/blog/kpler-reaches-100-million-annual-recurring-revenue-milestone",
+      "quote": "Founded in 2014 by François Cazor and Jean Maynier"
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.kpler.com/",
+      "quote": "Kpler's commodity intelligence platform"
+    },
+    {
+      "field": "status",
+      "url": "https://www.cityam.com/?p=2430363",
+      "quote": "management will remain majority owners of the business"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "0f01cf1a-4e8e-49b9-adee-abd7630ecfc5",
+      "stage": "series-b",
+      "month": "2022-04",
+      "amountEur": 184740440,
+      "amountOriginal": 200000000,
+      "currency": "USD",
+      "investors": [
+        "Insight Partners",
+        "Five Arrows"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.kpler.com/blog/kpler-attracts-over-200-million-strategic-growth-investment-led-by-insight-partners-five-arrows",
+          "quote": "The two firms will invest over $200 million in Kpler"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.kpler.com/blog/kpler-attracts-over-200-million-strategic-growth-investment-led-by-insight-partners-five-arrows",
+          "quote": "strategic growth investment led by Five Arrows and Insight Partners"
+        },
+        {
+          "field": "month",
+          "url": "https://www.kpler.com/blog/kpler-attracts-over-200-million-strategic-growth-investment-led-by-insight-partners-five-arrows",
+          "quote": "April 13, 2022"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.kpler.com/blog/kpler-attracts-over-200-million-strategic-growth-investment-led-by-insight-partners-five-arrows",
+          "quote": "strategic growth investment led by Five Arrows and Insight Partners"
+        }
+      ]
+    }
+  ]
+}

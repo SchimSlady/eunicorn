@@ -1,0 +1,127 @@
+{
+  "id": "neura-robotics",
+  "name": "Neura Robotics",
+  "domain": "neura-robotics.com",
+  "country": "DE",
+  "city": "Metzingen",
+  "founded": 2019,
+  "sectors": [
+    "ai"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "David Reger"
+  ],
+  "difficulty": 3,
+  "techeuId": "378dd509-04a2-4a4f-9ee4-9e04b350a92d",
+  "wikidataId": "Q133867186",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://neura-robotics.com/",
+      "quote": "Gutenbergstrasse 44, 72555 Metzingen, Germany"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Neura_Robotics",
+      "quote": "The company was founded in March 2019 as Han's Robot Germany GmbH by David Reger"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Neura_Robotics",
+      "quote": "The company was founded in March 2019 as Han's Robot Germany GmbH by David Reger"
+    },
+    {
+      "field": "founders",
+      "url": "https://neura-robotics.com/",
+      "quote": "Managing Director: David Reger"
+    },
+    {
+      "field": "sectors",
+      "url": "https://neura-robotics.com/",
+      "quote": "built on advanced robotics technology and artificial intelligence"
+    },
+    {
+      "field": "status",
+      "url": "https://en.wikipedia.org/wiki/Neura_Robotics",
+      "quote": "Type Private"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-b",
+      "month": "2025-01",
+      "amountEur": 120000000,
+      "amountOriginal": 120000000,
+      "currency": "EUR",
+      "investors": [
+        "Lingotto Investment Management",
+        "HV Capital",
+        "Vsquared Ventures",
+        "BlueCrest Capital Management",
+        "Volvo Cars Tech Fund",
+        "Delta Electronics",
+        "InterAlpen Partners",
+        "C4 Ventures",
+        "L-Bank"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.cleanthinking.de/?p=1062521",
+          "quote": "Das deutsche Robotik-Unternehmen NEURA Robotics hat in einer Serie-B-Finanzierungsrunde beeindruckende 120 Millionen Euro eingesammelt."
+        },
+        {
+          "field": "month",
+          "url": "https://www.cleanthinking.de/?p=1062521",
+          "quote": "18. Januar 2025"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.cleanthinking.de/?p=1062521",
+          "quote": "Die Finanzierungsrunde wurde von Lingotto Investment Management angeführt"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.cleanthinking.de/?p=1062521",
+          "quote": "mit Beteiligung von BlueCrest Capital Management, Volvo Cars Tech Fund, InterAlpen Partners, Vsquared Ventures, HV Capital, Delta Electronics, C4 Ventures, L-Bank"
+        }
+      ]
+    },
+    {
+      "stage": "series-c",
+      "month": "2026-06",
+      "amountEur": 1213276714,
+      "amountOriginal": 1400000000,
+      "currency": "USD",
+      "investors": [
+        "Tether",
+        "Amazon",
+        "Qualcomm",
+        "NVIDIA",
+        "Bosch",
+        "Schaeffler",
+        "European Investment Bank"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.trendingtopics.eu/neura-german-robotics-unicorn-secures-1-4-billion-from-tether-nvidia-amazon/",
+          "quote": "NEURA Robotics has closed a Series C funding round of up to $1.4 billion."
+        },
+        {
+          "field": "month",
+          "url": "https://www.trendingtopics.eu/neura-german-robotics-unicorn-secures-1-4-billion-from-tether-nvidia-amazon/",
+          "quote": "10. June 2026"
+        },
+        {
+          "field": "investors",
+          "url": "https://techfundingnews.com/neura-robotics-1-4b-series-c-tether-amazon-nvidia/",
+          "quote": "NEURA Robotics has wrapped up a Series C funding round of up to $1.4 billion, led by Tether. Other backers include Amazon, NVIDIA, Qualcomm, Bosch, Schaeffler, and the European Investment Bank."
+        }
+      ]
+    }
+  ],
+  "aliases": []
+}

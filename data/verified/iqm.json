@@ -1,0 +1,197 @@
+{
+  "id": "iqm",
+  "name": "IQM",
+  "aliases": [
+    "IQM Quantum Computers"
+  ],
+  "domain": "meetiqm.com",
+  "country": "FI",
+  "city": "Espoo",
+  "founded": 2018,
+  "sectors": [
+    "ai"
+  ],
+  "status": "public",
+  "unicorn": false,
+  "founders": [
+    "Jan Goetz",
+    "Juha Vartiainen",
+    "Kuan Yen Tan",
+    "Mikko Möttönen"
+  ],
+  "difficulty": 3,
+  "techeuId": "1acde332-8cfe-4a71-8ae8-aa04d46bc404",
+  "wikidataId": null,
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://thenextweb.com/news/iqm-quantum-computers-blackrock-50m-financing",
+      "quote": "The company, headquartered in Espoo"
+    },
+    {
+      "field": "founded",
+      "url": "https://thenextweb.com/news/iqm-quantum-computers-blackrock-50m-financing",
+      "quote": "IQM was founded in 2018 as a spinout from Aalto University and VTT Technical Research Centre of Finland by Jan Goetz, Mikko Möttönen, Kuan Yen Tan, and Juha Vartiainen"
+    },
+    {
+      "field": "founders",
+      "url": "https://thenextweb.com/news/iqm-quantum-computers-blackrock-50m-financing",
+      "quote": "IQM was founded in 2018 as a spinout from Aalto University and VTT Technical Research Centre of Finland by Jan Goetz, Mikko Möttönen, Kuan Yen Tan, and Juha Vartiainen"
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.meetiqm.com/",
+      "quote": null
+    },
+    {
+      "field": "status",
+      "url": "https://thequantuminsider.com/2026/07/01/iqm-completes-raaq-business-combination/",
+      "quote": "becoming a publicly traded company on the Nasdaq"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "24f5cfa4-4b47-4c07-f316-08d91092c887",
+      "stage": "seed",
+      "month": "2019-07",
+      "amountEur": 11244980,
+      "amountOriginal": 12600000,
+      "currency": "USD",
+      "investors": [
+        "Matadero QED",
+        "Maki.vc",
+        "MIG Fonds",
+        "OpenOcean",
+        "Tesi",
+        "Vito Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.devdiscourse.com/article/business/590879-iqm-aims-to-drive-disruptive-advancements-in-quantum-computing-technology",
+          "quote": "The company also just closed a USD 12.6M seed round"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.devdiscourse.com/article/business/590879-iqm-aims-to-drive-disruptive-advancements-in-quantum-computing-technology",
+          "quote": "seed round"
+        },
+        {
+          "field": "month",
+          "url": "https://nordic9.com/news/iqm-raised-13m-in-a-seed-investment-round-news0415107752",
+          "quote": "09 July 2019"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.devdiscourse.com/article/business/590879-iqm-aims-to-drive-disruptive-advancements-in-quantum-computing-technology",
+          "quote": "The funders are Matadero QED, Maki.VC, MIG Fonds, OpenOcean, Tesi (Finnish Industry Investment), and Vito Ventures"
+        }
+      ]
+    },
+    {
+      "techeuId": "88d358c3-4bcb-40b1-f317-08d91092c887",
+      "stage": "series-a",
+      "month": "2020-11",
+      "amountEur": 39000000,
+      "amountOriginal": 39000000,
+      "currency": "EUR",
+      "investors": [
+        "MIG Fonds"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://iqm.tech/press-releases/europe-is-on-its-way-to-quantum-leadership-iqm-raises-e39-m-in-series-a-funding/",
+          "quote": "IQM raises €39 M in Series A funding"
+        },
+        {
+          "field": "stage",
+          "url": "https://iqm.tech/press-releases/europe-is-on-its-way-to-quantum-leadership-iqm-raises-e39-m-in-series-a-funding/",
+          "quote": "IQM raises €39 M in Series A funding"
+        },
+        {
+          "field": "month",
+          "url": "https://iqm.tech/press-releases/europe-is-on-its-way-to-quantum-leadership-iqm-raises-e39-m-in-series-a-funding/",
+          "quote": "10 Nov 2020"
+        },
+        {
+          "field": "investors",
+          "url": "https://globalventuring.com/blog/2020/11/11/iqm-cues-up-46m/",
+          "quote": "The round was led by fund manager MIG Fonds"
+        }
+      ]
+    },
+    {
+      "techeuId": "e808bab6-c19f-4b08-be59-9bd8981d401c",
+      "stage": "series-a",
+      "month": "2022-07",
+      "amountEur": 128000000,
+      "amountOriginal": 128000000,
+      "currency": "EUR",
+      "investors": [
+        "World Fund"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://thequantuminsider.com/2022/07/22/finnish-startup-iqm-raises-e128m-in-series-a2-funding/",
+          "quote": "has raised €128 million ($128m) in Series A2 funding led by World Fund"
+        },
+        {
+          "field": "stage",
+          "url": "https://thequantuminsider.com/2022/07/22/finnish-startup-iqm-raises-e128m-in-series-a2-funding/",
+          "quote": "Series A2 Funding"
+        },
+        {
+          "field": "month",
+          "url": "https://thequantuminsider.com/2022/07/22/finnish-startup-iqm-raises-e128m-in-series-a2-funding/",
+          "quote": "July 22, 2022"
+        },
+        {
+          "field": "investors",
+          "url": "https://thequantuminsider.com/2022/07/22/finnish-startup-iqm-raises-e128m-in-series-a2-funding/",
+          "quote": "led by World Fund"
+        }
+      ]
+    },
+    {
+      "techeuId": "24ed4185-9684-45b8-87c8-d0fe9cea22b7",
+      "stage": "series-b",
+      "month": "2025-09",
+      "amountEur": 275000000,
+      "amountOriginal": 320000000,
+      "currency": "USD",
+      "investors": [
+        "Ten Eleven Ventures",
+        "Tesi"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.eenewseurope.com/en/iqm-secures-320m-funding-for-quantum-computing-growth/",
+          "quote": "has raised $320 million (€275 million) in Series B funding"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.eenewseurope.com/en/iqm-secures-320m-funding-for-quantum-computing-growth/",
+          "quote": "has raised $320 million (€275 million) in Series B funding"
+        },
+        {
+          "field": "month",
+          "url": "https://evertiq.com/news/2025-09-04-iqm-raises-275-million-in-round-led-by-ten-eleven-ventures",
+          "quote": "September 04, 2025"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.eenewseurope.com/en/iqm-secures-320m-funding-for-quantum-computing-growth/",
+          "quote": "The round was led by Ten Eleven Ventures"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.eenewseurope.com/en/iqm-secures-320m-funding-for-quantum-computing-growth/",
+          "quote": "with continued support from Finnish investment company Tesi"
+        }
+      ]
+    }
+  ]
+}

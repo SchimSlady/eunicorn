@@ -1,0 +1,80 @@
+{
+  "id": "verdiva-bio",
+  "name": "Verdiva Bio",
+  "aliases": [],
+  "domain": "verdivabio.com",
+  "country": "GB",
+  "city": "London",
+  "founded": 2025,
+  "sectors": [
+    "health"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [],
+  "difficulty": 4,
+  "techeuId": "18b3ce0e-d0a4-4b35-94a7-242fceb9ab2b",
+  "wikidataId": null,
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.bioindustry.org/resource/verdiva-bio-launches-with-over-410m-in-series-a-financing-to-advance-next-generation-therapies.html",
+      "quote": "London and San Francisco, 9 January 2025"
+    },
+    {
+      "field": "founded",
+      "url": "https://builtin.com/company/verdiva-bio",
+      "quote": "Year Founded: 2025"
+    },
+    {
+      "field": "sectors",
+      "url": "https://verdivabio.com/",
+      "quote": "Transforming lives by accelerating innovation in cardiometabolic health"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-a",
+      "month": "2025-01",
+      "amountEur": 398835517,
+      "amountOriginal": 411000000,
+      "currency": "USD",
+      "investors": [
+        "Forbion",
+        "General Atlantic",
+        "RA Capital Management",
+        "OrbiMed",
+        "Logos Capital",
+        "Lilly Asia Ventures",
+        "LYFE Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://forbion.com/news-insights/news/forbion-co-leads-over-410m-series-a-financing-to-launch-verdiva-bio-a-clinical-stage-cardiometabolic-company-advancing-next-generation-therapies/",
+          "quote": "co-led a $411 million Series A financing, alongside General Atlantic, in Verdiva Bio"
+        },
+        {
+          "field": "stage",
+          "url": "https://forbion.com/news-insights/news/forbion-co-leads-over-410m-series-a-financing-to-launch-verdiva-bio-a-clinical-stage-cardiometabolic-company-advancing-next-generation-therapies/",
+          "quote": "co-led a $411 million Series A financing, alongside General Atlantic, in Verdiva Bio"
+        },
+        {
+          "field": "month",
+          "url": "https://www.bioindustry.org/resource/verdiva-bio-launches-with-over-410m-in-series-a-financing-to-advance-next-generation-therapies.html",
+          "quote": "London and San Francisco, 9 January 2025"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.bioindustry.org/resource/verdiva-bio-launches-with-over-410m-in-series-a-financing-to-advance-next-generation-therapies.html",
+          "quote": "co-led by Forbion and General Atlantic"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.bioindustry.org/resource/verdiva-bio-launches-with-over-410m-in-series-a-financing-to-advance-next-generation-therapies.html",
+          "quote": "with additional participation from RA Capital Management, OrbiMed, Logos Capital, Lilly Asia Ventures, and LYFE Capital"
+        }
+      ]
+    }
+  ]
+}

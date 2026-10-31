@@ -1,0 +1,129 @@
+{
+  "id": "nearfield-instruments",
+  "name": "Nearfield Instruments",
+  "domain": "nearfieldinstruments.com",
+  "country": "NL",
+  "city": "Rotterdam",
+  "founded": 2016,
+  "sectors": [
+    "ai"
+  ],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 1000000000,
+  "founders": [
+    "Hamed Sadeghian",
+    "Roland van Vliet"
+  ],
+  "difficulty": 4,
+  "techeuId": "6dc11f37-7aaa-4223-9f7d-1aee65da26b1",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.lincolninternational.com/transactions/nearfield-instruments-has-raised-series-c-funding-from-walden-catalyst-temasek-mg-investments-and-existing-shareholders-innovation-industries-invest-nl-and-ing/",
+      "quote": "Nearfield is headquartered in Rotterdam"
+    },
+    {
+      "field": "founded",
+      "url": "https://siliconcanals.com/nearfield-instruments-raises-12m/",
+      "quote": "Founded by Roland van Vliet and Hamed Sadeghian in 2016"
+    },
+    {
+      "field": "founders",
+      "url": "https://siliconcanals.com/nearfield-instruments-raises-12m/",
+      "quote": "Founded by Roland van Vliet and Hamed Sadeghian"
+    },
+    {
+      "field": "founders",
+      "url": "https://siliconsemiconductor.net/article/119846/Nearfield_Instruments_secures_€135_million_in_funding_round",
+      "quote": "Dr. Hamed Sadeghian, Co-Founder and CEO of Nearfield Instruments"
+    },
+    {
+      "field": "sectors",
+      "url": "https://raising.fi/news/nearfield-instruments-b-v-series-d-june-2026",
+      "quote": "to Enhance AI Chipmaking"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://invest-nl.nl/en/news/invest-nl-participates-in-the-largest-dutch-deeptech-round-ever-330-million-for-nearfield-instruments",
+      "quote": "The round values the Rotterdam-based company at more than € 1 billion"
+    },
+    {
+      "field": "valuation",
+      "url": "https://invest-nl.nl/en/news/invest-nl-participates-in-the-largest-dutch-deeptech-round-ever-330-million-for-nearfield-instruments",
+      "quote": "The round values the Rotterdam-based company at more than € 1 billion"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-c",
+      "month": "2024-07",
+      "amountEur": 135000000,
+      "amountOriginal": 135000000,
+      "currency": "EUR",
+      "investors": [
+        "Walden Catalyst",
+        "Temasek",
+        "M&G Investments",
+        "Innovation Industries",
+        "Invest-NL",
+        "ING"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://siliconsemiconductor.net/article/119846/Nearfield_Instruments_secures_€135_million_in_funding_round",
+          "quote": "has announced the successful closure of a €135 million Series-C funding round"
+        },
+        {
+          "field": "month",
+          "url": "https://ioplus.nl/en/posts/nearfield-instruments-secures-135-million-for-semiconductor-innovation",
+          "quote": "Published on July 18, 2024"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.lincolninternational.com/transactions/nearfield-instruments-has-raised-series-c-funding-from-walden-catalyst-temasek-mg-investments-and-existing-shareholders-innovation-industries-invest-nl-and-ing/",
+          "quote": "Walden Catalyst, Temasek, M&G Investments and existing shareholders Innovation Industries, Invest-NL and ING"
+        }
+      ]
+    },
+    {
+      "stage": "series-d",
+      "month": "2026-06",
+      "amountEur": 330000000,
+      "amountOriginal": 330000000,
+      "currency": "EUR",
+      "investors": [
+        "Fidelity Management & Research Company",
+        "Walden Catalyst Ventures",
+        "Temasek",
+        "Innovation Industries",
+        "M&G Investments",
+        "Invest-NL"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://invest-nl.nl/en/news/invest-nl-participates-in-the-largest-dutch-deeptech-round-ever-330-million-for-nearfield-instruments",
+          "quote": "Nearfield Instruments has successfully completed a Series D funding round of € 330 million."
+        },
+        {
+          "field": "month",
+          "url": "https://invest-nl.nl/en/news/invest-nl-participates-in-the-largest-dutch-deeptech-round-ever-330-million-for-nearfield-instruments",
+          "quote": "June 22, 2026"
+        },
+        {
+          "field": "investors",
+          "url": "https://raising.fi/news/nearfield-instruments-b-v-series-d-june-2026",
+          "quote": "was led by Fidelity Management and Research Company"
+        },
+        {
+          "field": "investors",
+          "url": "https://raising.fi/news/nearfield-instruments-b-v-series-d-june-2026",
+          "quote": "included contributions from several prominent investors such as Walden Catalyst Ventures, Temasek, Innovation Industries, M&G, Invest-NL"
+        }
+      ]
+    }
+  ],
+  "aliases": []
+}

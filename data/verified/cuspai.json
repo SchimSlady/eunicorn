@@ -1,0 +1,174 @@
+{
+  "id": "cuspai",
+  "name": "CuspAI",
+  "aliases": [],
+  "domain": "cuspai.com",
+  "country": "GB",
+  "city": "Cambridge",
+  "founded": 2024,
+  "sectors": [
+    "ai"
+  ],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 2275511990,
+  "founders": [
+    "Chad Edwards",
+    "Max Welling"
+  ],
+  "difficulty": 3,
+  "techeuId": "a3d873c2-f146-43e9-aa34-ee04a556fd41",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://siliconangle.com/?p=710741",
+      "quote": "Cambridge-based CuspAI"
+    },
+    {
+      "field": "founded",
+      "url": "https://siliconangle.com/?p=710741",
+      "quote": "CuspAI was founded in 2024 by Dr. Chad Edwards"
+    },
+    {
+      "field": "founders",
+      "url": "https://siliconangle.com/?p=710741",
+      "quote": "CuspAI was founded in 2024 by Dr. Chad Edwards, a chemist turned technology entrepreneur who previously worked at the quantum computing firm Quantinuum Ltd., and Professor Max Welling"
+    },
+    {
+      "field": "sectors",
+      "url": "https://siliconangle.com/?p=710741",
+      "quote": "an artificial intelligence company developing a platform"
+    },
+    {
+      "field": "valuation",
+      "url": "https://www.lw.com/en/news/2026/07/latham-advises-kleiner-perkins-and-nea-on-cuspai-series-b",
+      "quote": "The round values the company at US$2.6 billion."
+    },
+    {
+      "field": "unicorn",
+      "url": "https://www.lw.com/en/news/2026/07/latham-advises-kleiner-perkins-and-nea-on-cuspai-series-b",
+      "quote": "The round values the company at US$2.6 billion."
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "seed",
+      "month": "2024-06",
+      "amountEur": 27998133,
+      "amountOriginal": 30000000,
+      "currency": "USD",
+      "investors": [
+        "Hoxton Ventures",
+        "Basis Set Ventures",
+        "Lightspeed Venture Partners"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.lw.com/en/news/2024/06/latham-advises-on-30-million-seed-fundraising-of-cuspai",
+          "quote": "the US$30 million seed financing round of CuspAI"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.lw.com/en/news/2024/06/latham-advises-on-30-million-seed-fundraising-of-cuspai",
+          "quote": "the US$30 million seed financing round of CuspAI"
+        },
+        {
+          "field": "month",
+          "url": "https://www.lw.com/en/news/2024/06/latham-advises-on-30-million-seed-fundraising-of-cuspai",
+          "quote": "June 24, 2024"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.lw.com/en/news/2024/06/latham-advises-on-30-million-seed-fundraising-of-cuspai",
+          "quote": "The round was led by Hoxton Ventures, with significant participation from Basis Set Ventures and Lightspeed Venture Partners."
+        }
+      ]
+    },
+    {
+      "stage": "series-a",
+      "month": "2025-09",
+      "amountEur": 85418980,
+      "amountOriginal": 100000000,
+      "currency": "USD",
+      "investors": [
+        "New Enterprise Associates",
+        "Temasek"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://siliconangle.com/?p=710741",
+          "quote": "has raised $100 million in an early-stage funding round"
+        },
+        {
+          "field": "stage",
+          "url": "https://siliconangle.com/?p=710741",
+          "quote": "The Series A round was co-led by U.S. fund New Enterprise Associates and Temasek"
+        },
+        {
+          "field": "month",
+          "url": "https://siliconangle.com/?p=710741",
+          "quote": "SEPTEMBER 10 2025"
+        },
+        {
+          "field": "investors",
+          "url": "https://siliconangle.com/?p=710741",
+          "quote": "The Series A round was co-led by U.S. fund New Enterprise Associates and Temasek"
+        }
+      ]
+    },
+    {
+      "stage": "series-b",
+      "month": "2026-07",
+      "amountEur": 393838613,
+      "amountOriginal": 450000000,
+      "currency": "USD",
+      "postMoneyValuationEur": 2275511990,
+      "investors": [
+        "Kleiner Perkins",
+        "New Enterprise Associates",
+        "Bezos Expeditions",
+        "Glade Brook Capital Partners",
+        "Lux Capital",
+        "AMD Ventures",
+        "Tru Arrow Partners",
+        "StepStone",
+        "Temasek",
+        "Basis Set Ventures",
+        "Giant Ventures",
+        "Touring Capital",
+        "Prosus",
+        "Phoenix Court",
+        "Northzone"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.lw.com/en/news/2026/07/latham-advises-kleiner-perkins-and-nea-on-cuspai-series-b",
+          "quote": "the US$450 million Series B funding round of CuspAI"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.lw.com/en/news/2026/07/latham-advises-kleiner-perkins-and-nea-on-cuspai-series-b",
+          "quote": "the US$450 million Series B funding round of CuspAI"
+        },
+        {
+          "field": "month",
+          "url": "https://www.lw.com/en/news/2026/07/latham-advises-kleiner-perkins-and-nea-on-cuspai-series-b",
+          "quote": "July 24, 2026"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.lw.com/en/news/2026/07/latham-advises-kleiner-perkins-and-nea-on-cuspai-series-b",
+          "quote": "The round was led by Kleiner Perkins and NEA, with participation from new investors Bezos Expeditions, Glade Brook Capital Partners, Lux Capital, AMD Ventures, Tru Arrow Partners, StepStone,"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.lw.com/en/news/2026/07/latham-advises-kleiner-perkins-and-nea-on-cuspai-series-b",
+          "quote": "existing investors Temasek, Basis Set Ventures, Giant Ventures, Touring Capital, Prosus, Phoenix Court, and Northzone"
+        }
+      ]
+    }
+  ]
+}

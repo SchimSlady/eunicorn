@@ -1,0 +1,198 @@
+{
+  "id": "parloa",
+  "name": "Parloa",
+  "domain": "parloa.com",
+  "country": "DE",
+  "city": "Berlin",
+  "founded": 2018,
+  "sectors": [
+    "ai"
+  ],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 2580867171,
+  "founders": [
+    "Malte Kosub",
+    "Stefan Ostwald"
+  ],
+  "difficulty": 3,
+  "techeuId": "a8d68c19-b5a4-4492-b561-d4ab4f9e04d1",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.parloa.com/parloa-in-the-press/parloa-raises-120m-series-c-to-reinvent-customer-service-with-agentic-ai/",
+      "quote": "Founded in 2018 by Malte Kosub and Stefan Ostwald in Berlin, Germany"
+    },
+    {
+      "field": "founded",
+      "url": "https://www.parloa.com/parloa-in-the-press/parloa-raises-120m-series-c-to-reinvent-customer-service-with-agentic-ai/",
+      "quote": "Founded in 2018 by Malte Kosub and Stefan Ostwald in Berlin, Germany"
+    },
+    {
+      "field": "founders",
+      "url": "https://www.parloa.com/about-us/",
+      "quote": "Founded by Malte Kosub and Stefan Ostwald"
+    },
+    {
+      "field": "sectors",
+      "url": "https://techcrunch.com/2026/01/15/parloa-triples-its-valuation-in-8-months-to-3b-with-350m-raise",
+      "quote": "customer service AI startup"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://techcrunch.com/2026/01/15/parloa-triples-its-valuation-in-8-months-to-3b-with-350m-raise",
+      "quote": "valuing the six-year-old customer service AI startup at $3 billion"
+    },
+    {
+      "field": "valuation",
+      "url": "https://techcrunch.com/2026/01/15/parloa-triples-its-valuation-in-8-months-to-3b-with-350m-raise",
+      "quote": "valuing the six-year-old customer service AI startup at $3 billion"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "seed",
+      "month": "2022-05",
+      "amountEur": 4000000,
+      "amountOriginal": 4000000,
+      "currency": "EUR",
+      "investors": [
+        "Newion",
+        "Senovo"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://neon.law/new-stuff/neon-advises-parloa-on-e-4-million-seed-financing-round",
+          "quote": "NEON has advised Parloa, a leading conversational AI platform for omni-channel customer service automation, in a € 4 million seed financing round."
+        },
+        {
+          "field": "month",
+          "url": "https://neon.law/new-stuff/neon-advises-parloa-on-e-4-million-seed-financing-round",
+          "quote": "12 May 2022"
+        },
+        {
+          "field": "investors",
+          "url": "https://neon.law/new-stuff/neon-advises-parloa-on-e-4-million-seed-financing-round",
+          "quote": "The round saw participation from renowned institutional venture capitalists Newion and Senovo"
+        }
+      ]
+    },
+    {
+      "stage": "series-a",
+      "month": "2023-03",
+      "amountEur": 20000000,
+      "amountOriginal": 20000000,
+      "currency": "EUR",
+      "investors": [
+        "EQT Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2023/03/30/parloa-is-putting-subpar-customer-service-to-pasture-pounces-on-eur20-million/",
+          "quote": "Berlin-based Parloa has raised €20 million in a Series A funding round."
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2023/03/30/parloa-is-putting-subpar-customer-service-to-pasture-pounces-on-eur20-million/",
+          "quote": "30 March 2023"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2023/03/30/parloa-is-putting-subpar-customer-service-to-pasture-pounces-on-eur20-million/",
+          "quote": "The Series A round was led by EQT Ventures"
+        }
+      ]
+    },
+    {
+      "stage": "series-b",
+      "month": "2024-04",
+      "amountEur": 61763054,
+      "amountOriginal": 66000000,
+      "currency": "USD",
+      "investors": [
+        "Altimeter Capital",
+        "Newion",
+        "Senovo"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://siliconangle.com/2024/04/24/parloa-nabs-66m-ai-powered-customer-service-platform",
+          "quote": "it has raised $66 million in early-stage funding"
+        },
+        {
+          "field": "month",
+          "url": "https://siliconangle.com/2024/04/24/parloa-nabs-66m-ai-powered-customer-service-platform",
+          "quote": "UPDATED 14:10 EDT / APRIL 24 2024"
+        },
+        {
+          "field": "investors",
+          "url": "https://siliconangle.com/2024/04/24/parloa-nabs-66m-ai-powered-customer-service-platform",
+          "quote": "The Series B funding round was led by Altimeter Capital, with participation from new and existing investors including EQT Ventures, Newion, Senovo, Mosaic Ventures and La Famiglia Growth."
+        }
+      ]
+    },
+    {
+      "stage": "series-c",
+      "month": "2025-05",
+      "amountEur": 105960265,
+      "amountOriginal": 120000000,
+      "currency": "USD",
+      "investors": [
+        "Durable Capital Partners",
+        "Altimeter Capital",
+        "General Catalyst"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://siliconangle.com/?p=695386",
+          "quote": "announced today that it has raised $120 million in new funding on a $1 billion valuation"
+        },
+        {
+          "field": "month",
+          "url": "https://siliconangle.com/?p=695386",
+          "quote": "UPDATED 19:24 EDT / MAY 06 2025"
+        },
+        {
+          "field": "investors",
+          "url": "https://siliconangle.com/?p=695386",
+          "quote": "The Series C funding round was led by Durable Capital Partners LP, Altimeter Capital Management LP and General Catalyst Group Management"
+        }
+      ]
+    },
+    {
+      "stage": "series-d",
+      "month": "2026-01",
+      "amountEur": 301101170,
+      "amountOriginal": 350000000,
+      "currency": "USD",
+      "investors": [
+        "General Catalyst",
+        "EQT Ventures",
+        "Altimeter Capital",
+        "Durable Capital Partners",
+        "Mosaic Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2026/01/15/parloa-triples-its-valuation-in-8-months-to-3b-with-350m-raise",
+          "quote": "Berlin-based Parloa has raised $350 million in Series D funding from existing investors"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2026/01/15/parloa-triples-its-valuation-in-8-months-to-3b-with-350m-raise",
+          "quote": "January 15, 2026"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2026/01/15/parloa-triples-its-valuation-in-8-months-to-3b-with-350m-raise",
+          "quote": "The new round was led by General Catalyst, with participation from returning backers, including EQT Ventures, Altimeter Capital, Durable Capital, and Mosaic Ventures."
+        }
+      ]
+    }
+  ]
+}

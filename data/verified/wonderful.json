@@ -1,0 +1,168 @@
+{
+  "id": "wonderful",
+  "name": "Wonderful",
+  "aliases": [],
+  "domain": "wonderful.ai",
+  "country": "NL",
+  "city": "Amsterdam",
+  "founded": 2025,
+  "sectors": [
+    "ai"
+  ],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 4318535153,
+  "founders": [
+    "Bar Winkler"
+  ],
+  "difficulty": 3,
+  "techeuId": "88d557a5-cf63-49c6-ae96-82ebd33cd7d6",
+  "wikidataId": null,
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://tech.eu/2026/09/02/netherlands-based-ai-startup-wonderful-raises-550m-at-5bn-valuation/",
+      "quote": "which was founded in Israel but is now headquartered in Amsterdam"
+    },
+    {
+      "field": "founded",
+      "url": "https://www.indexventures.com/perspectives/wonderful-secures-100m-to-drive-adoption-of-ai-agents-globally/",
+      "quote": "Founded in early 2025, Wonderful has grown at breakneck speed."
+    },
+    {
+      "field": "founders",
+      "url": "https://techcrunch.com/2026/03/12/wonderful-raises-150m-series-b-at-2b-valuation/",
+      "quote": "Bar Winkler, CEO and co-founder of Wonderful"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://tech.eu/2026/09/02/netherlands-based-ai-startup-wonderful-raises-550m-at-5bn-valuation/",
+      "quote": "$5 billion valuation"
+    },
+    {
+      "field": "valuation",
+      "url": "https://tech.eu/2026/09/02/netherlands-based-ai-startup-wonderful-raises-550m-at-5bn-valuation/",
+      "quote": "has raised around $550 million at a $5 billion valuation, it said today."
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-a",
+      "month": "2025-11",
+      "amountEur": 86393089,
+      "amountOriginal": 100000000,
+      "currency": "USD",
+      "investors": [
+        "Index Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.indexventures.com/perspectives/wonderful-secures-100m-to-drive-adoption-of-ai-agents-globally/",
+          "quote": "$100M Series A led by Index Ventures"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.indexventures.com/perspectives/wonderful-secures-100m-to-drive-adoption-of-ai-agents-globally/",
+          "quote": "$100M Series A led by Index Ventures"
+        },
+        {
+          "field": "month",
+          "url": "https://www.indexventures.com/perspectives/wonderful-secures-100m-to-drive-adoption-of-ai-agents-globally/",
+          "quote": "Published — Nov. 11, 2025"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.newswire.com/news/wonderful-secures-100m-to-drive-enterprise-adoption-of-ai-agents-globally",
+          "quote": "with participation from Insight Partners and IVP, along with existing investors Bessemer and Vine Ventures"
+        }
+      ]
+    },
+    {
+      "stage": "series-b",
+      "month": "2026-03",
+      "amountEur": 129903871,
+      "amountOriginal": 150000000,
+      "currency": "USD",
+      "postMoneyValuationEur": 1732051615,
+      "investors": [
+        "Insight Partners",
+        "Index Ventures",
+        "IVP",
+        "Bessemer Venture Partners",
+        "Vine Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2026/03/12/wonderful-raises-150m-series-b-at-2b-valuation/",
+          "quote": "has raised $150 million in a Series B funding round that values it at $2 billion"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2026/03/12/wonderful-raises-150m-series-b-at-2b-valuation/",
+          "quote": "has raised $150 million in a Series B funding round that values it at $2 billion"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2026/03/12/wonderful-raises-150m-series-b-at-2b-valuation/",
+          "quote": "Posted: 8:12 AM PDT · March 12, 2026"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2026/03/12/wonderful-raises-150m-series-b-at-2b-valuation/",
+          "quote": "The new round was led by Insight Partners"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2026/03/12/wonderful-raises-150m-series-b-at-2b-valuation/",
+          "quote": "saw participation from existing investors, including Index Ventures, IVP, Bessemer Venture Partners, and Vine Ventures"
+        }
+      ]
+    },
+    {
+      "stage": "series-c",
+      "month": "2026-09",
+      "amountEur": 475038867,
+      "amountOriginal": 550000000,
+      "currency": "USD",
+      "postMoneyValuationEur": 4318535153,
+      "investors": [
+        "Insight Partners",
+        "Salesforce",
+        "Index Ventures",
+        "IVP",
+        "Vine Ventures",
+        "9Yards",
+        "Bessemer Venture Partners"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2026/09/02/netherlands-based-ai-startup-wonderful-raises-550m-at-5bn-valuation/",
+          "quote": "has raised around $550 million at a $5 billion valuation, it said today."
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2026/09/02/netherlands-based-ai-startup-wonderful-raises-550m-at-5bn-valuation/",
+          "quote": "existing investor Insight Partners, with participation from new investor Salesforce"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2026/09/02/netherlands-based-ai-startup-wonderful-raises-550m-at-5bn-valuation/",
+          "quote": "02 September 2026"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2026/09/02/netherlands-based-ai-startup-wonderful-raises-550m-at-5bn-valuation/",
+          "quote": "with participation from new investor Salesforce"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2026/09/02/netherlands-based-ai-startup-wonderful-raises-550m-at-5bn-valuation/",
+          "quote": "other existing investors Index Ventures, IVP, Vine Ventures, 9Yards, and Bessemer Venture Partners"
+        }
+      ]
+    }
+  ]
+}

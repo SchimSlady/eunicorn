@@ -1,0 +1,98 @@
+{
+  "id": "recursive-superintelligence",
+  "name": "Recursive Superintelligence",
+  "aliases": [
+    "Recursive"
+  ],
+  "domain": "recursive.com",
+  "country": "GB",
+  "city": "London",
+  "founded": 2025,
+  "sectors": [
+    "ai"
+  ],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 3969270166,
+  "founders": [
+    "Richard Socher",
+    "Tim Rocktäschel"
+  ],
+  "difficulty": 4,
+  "techeuId": "bfab38ae-2705-4daf-a803-fc80138ed8e4",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://tech.eu/2026/05/13/recursive-superintelligence-emerges-from-stealth-with-650m-raise/",
+      "quote": "which was incorporated in London and has offices in London and San Francisco"
+    },
+    {
+      "field": "founders",
+      "url": "https://tech.eu/2026/05/13/recursive-superintelligence-emerges-from-stealth-with-650m-raise/",
+      "quote": "Richard Socher, its CEO, who was previously chief scientist at Salesforce"
+    },
+    {
+      "field": "founders",
+      "url": "https://tech.eu/2026/05/13/recursive-superintelligence-emerges-from-stealth-with-650m-raise/",
+      "quote": "Tim Rocktäschel, a professor of AI at London’s UCL"
+    },
+    {
+      "field": "sectors",
+      "url": "https://tech.eu/2026/05/13/recursive-superintelligence-emerges-from-stealth-with-650m-raise/",
+      "quote": "A London-based AI startup"
+    },
+    {
+      "field": "status",
+      "url": "https://tech.eu/2026/05/13/recursive-superintelligence-emerges-from-stealth-with-650m-raise/",
+      "quote": "having raised over $650m at a $4.65bn valuation"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://tech.eu/2026/05/13/recursive-superintelligence-emerges-from-stealth-with-650m-raise/",
+      "quote": "having raised over $650m at a $4.65bn valuation"
+    },
+    {
+      "field": "valuation",
+      "url": "https://tech.eu/2026/05/13/recursive-superintelligence-emerges-from-stealth-with-650m-raise/",
+      "quote": "having raised over $650m at a $4.65bn valuation"
+    },
+    {
+      "field": "founded",
+      "url": "https://find-and-update.company-information.service.gov.uk/search/companies?q=recursive+superintelligence",
+      "quote": "16937077 - Incorporated on 31 December 2025"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "3908c5e9-2ccd-44f6-a43f-e8cb4e1ac5b3",
+      "stage": "series-a",
+      "month": "2026-05",
+      "amountEur": 554844217,
+      "amountOriginal": 650000000,
+      "currency": "USD",
+      "investors": [
+        "GV",
+        "Greycroft",
+        "AMD",
+        "Nvidia"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2026/05/13/recursive-superintelligence-emerges-from-stealth-with-650m-raise/",
+          "quote": "having raised over $650m at a $4.65bn valuation"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2026/05/13/recursive-superintelligence-emerges-from-stealth-with-650m-raise/",
+          "quote": "13 May 2026"
+        },
+        {
+          "field": "investors",
+          "url": "https://thenextweb.com/news/recursive-superintelligence-self-improving-ai-funding",
+          "quote": "The round was led by GV, Alphabet’s venture capital arm, and Greycroft, with participation from Nvidia and AMD"
+        }
+      ]
+    }
+  ]
+}

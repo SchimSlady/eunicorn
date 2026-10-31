@@ -1,0 +1,129 @@
+{
+  "id": "stark",
+  "name": "Stark",
+  "aliases": [
+    "Stark Defence"
+  ],
+  "domain": "stark-defence.com",
+  "country": "DE",
+  "city": "Berlin",
+  "founded": 2024,
+  "sectors": [
+    "defense"
+  ],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 3500000000,
+  "founders": [
+    "Florian Seibel"
+  ],
+  "difficulty": 3,
+  "techeuId": "3d502e21-d9c5-4272-bf19-a69d4287a0b7",
+  "wikidataId": "Q135412119",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://thenextweb.com/news/stark-defence-500-million-sequoia-founders-fund-3-5-billion-valuation",
+      "quote": "the Berlin-based strike drone startup founded in 2024"
+    },
+    {
+      "field": "founded",
+      "url": "https://thenextweb.com/news/stark-defence-500-million-sequoia-founders-fund-3-5-billion-valuation",
+      "quote": "the Berlin-based strike drone startup founded in 2024"
+    },
+    {
+      "field": "founders",
+      "url": "https://thenextweb.com/news/stark-defence-500-million-sequoia-founders-fund-3-5-billion-valuation",
+      "quote": "Stark was co-founded by Florian Seibel, who previously built rival German drone company Quantum Systems, and Johannes Schaback"
+    },
+    {
+      "field": "sectors",
+      "url": "https://thenextweb.com/news/stark-defence-500-million-sequoia-founders-fund-3-5-billion-valuation",
+      "quote": "The round makes Stark one of the best-funded defence tech startups in Europe."
+    },
+    {
+      "field": "status",
+      "url": "https://thenextweb.com/news/stark-defence-500-million-sequoia-founders-fund-3-5-billion-valuation",
+      "quote": "has raised €500 million in a round led by Sequoia Capital and Peter Thiel’s Founders Fund"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://thenextweb.com/news/stark-defence-500-million-sequoia-founders-fund-3-5-billion-valuation",
+      "quote": "pushing its valuation past €3.5 billion just two years after founding"
+    },
+    {
+      "field": "valuation",
+      "url": "https://thenextweb.com/news/stark-defence-500-million-sequoia-founders-fund-3-5-billion-valuation",
+      "quote": "pushing its valuation past €3.5 billion just two years after founding"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "9c945f0d-d616-4d05-b62f-056854218507",
+      "stage": "series-b",
+      "month": "2025-08",
+      "amountEur": 53269181,
+      "amountOriginal": 62000000,
+      "currency": "USD",
+      "investors": [
+        "Sequoia Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2025/08/21/stark-raises-62m-for-weaponised-drone-systems-backed-by-sequoia-and-peter-thiel/",
+          "quote": "has raised $62 million in fresh funding, with Sequoia Capital leading the round"
+        },
+        {
+          "field": "stage",
+          "url": "https://thenextweb.com/news/stark-defence-500-million-sequoia-founders-fund-3-5-billion-valuation",
+          "quote": "Stark went from a $500 million valuation in August 2025, when Sequoia led its Series B"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2025/08/21/stark-raises-62m-for-weaponised-drone-systems-backed-by-sequoia-and-peter-thiel/",
+          "quote": "21 August 2025"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2025/08/21/stark-raises-62m-for-weaponised-drone-systems-backed-by-sequoia-and-peter-thiel/",
+          "quote": "with Sequoia Capital leading the round"
+        }
+      ]
+    },
+    {
+      "techeuId": "d6b7d52b-a9f9-46df-b2f3-053da1142570",
+      "stage": "series-c",
+      "month": "2026-06",
+      "amountEur": 500000000,
+      "amountOriginal": 500000000,
+      "currency": "EUR",
+      "investors": [
+        "Sequoia Capital",
+        "Founders Fund",
+        "NATO Innovation Fund",
+        "Döpfner Capital",
+        "Air Street Capital",
+        "201 Ventures",
+        "Project A"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://thenextweb.com/news/stark-defence-500-million-sequoia-founders-fund-3-5-billion-valuation",
+          "quote": "has raised €500 million in a round led by Sequoia Capital and Peter Thiel’s Founders Fund"
+        },
+        {
+          "field": "month",
+          "url": "https://thenextweb.com/news/stark-defence-500-million-sequoia-founders-fund-3-5-billion-valuation",
+          "quote": "June 23, 2026"
+        },
+        {
+          "field": "investors",
+          "url": "https://thenextweb.com/news/stark-defence-500-million-sequoia-founders-fund-3-5-billion-valuation",
+          "quote": "Other investors in the round include the NATO Innovation Fund, Döpfner Capital, Air Street Capital, 201 Ventures, and Project A"
+        }
+      ]
+    }
+  ]
+}

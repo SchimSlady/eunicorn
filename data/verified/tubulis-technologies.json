@@ -1,0 +1,194 @@
+{
+  "id": "tubulis-technologies",
+  "name": "Tubulis",
+  "aliases": [
+    "Tubulis Technologies"
+  ],
+  "domain": "tubulis.com",
+  "country": "DE",
+  "city": "Munich",
+  "founded": 2019,
+  "sectors": [
+    "health"
+  ],
+  "status": "acquired",
+  "unicorn": false,
+  "founders": [
+    "Christian Hackenberger",
+    "Heinrich Leonhardt",
+    "Jonas Helma-Smets"
+  ],
+  "difficulty": 4,
+  "techeuId": "7f828135-922b-4810-90e5-3bc0abf45c05",
+  "wikidataId": "Q140045596",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.biospace.com/tubulis-closes-60-million-series-b-financing-to-accelerate-its-adc-pipeline-and-expand-its-breadth-of-platform-technologies",
+      "quote": "MUNICH--( BUSINESS WIRE )-- Tubulis today announced"
+    },
+    {
+      "field": "founded",
+      "url": "https://www.bionity.com/en/news/1167319/tubulis-raises-10-7-m-series-a.html",
+      "quote": "Tubulis was spun out in 2019 from the Leibniz Research Institute in Berlin (FMP)"
+    },
+    {
+      "field": "founders",
+      "url": "https://www.bionity.com/en/news/1167319/tubulis-raises-10-7-m-series-a.html",
+      "quote": "Prof. Christian Hackenberger (FMP), Prof. Heinrich Leonhardt (LMU) and Dr. Jonas Helma-Smets, who are all co-founders of the company"
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.munich-startup.de/news/tubulis-exit",
+      "quote": "Das Münchner Biotech-Unicorn Tubulis"
+    },
+    {
+      "field": "status",
+      "url": "https://tubulis.com",
+      "quote": "Tubulis is now part of Gilead Sciences"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "d94f6000-0223-40c2-8e7e-a20a97467752",
+      "stage": "series-b",
+      "month": "2022-05",
+      "amountEur": 60000000,
+      "amountOriginal": 60000000,
+      "currency": "EUR",
+      "investors": [
+        "Andera Partners",
+        "Evotec",
+        "Fund+"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.biospace.com/tubulis-closes-60-million-series-b-financing-to-accelerate-its-adc-pipeline-and-expand-its-breadth-of-platform-technologies",
+          "quote": "announced the successful completion of a €60 million Series B financing led by Andera Partners"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.anderapartners.com/en/andera-partners-supports-tubulis-in-a-e60-million-series-b-financing-to-accelerate-the-development-of-its-adcs/",
+          "quote": "Andera Partners leads Tubulis’ €60 million Series B financing"
+        },
+        {
+          "field": "month",
+          "url": "https://www.biospace.com/tubulis-closes-60-million-series-b-financing-to-accelerate-its-adc-pipeline-and-expand-its-breadth-of-platform-technologies",
+          "quote": "May 3, 2022"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.biospace.com/tubulis-closes-60-million-series-b-financing-to-accelerate-its-adc-pipeline-and-expand-its-breadth-of-platform-technologies",
+          "quote": "led by Andera Partners with participation from new investors Evotec and Fund+."
+        }
+      ]
+    },
+    {
+      "stage": "series-b",
+      "month": "2024-03",
+      "amountEur": 128000000,
+      "amountOriginal": 128000000,
+      "currency": "EUR",
+      "investors": [
+        "EQT Life Sciences",
+        "Nextech Invest",
+        "Frazier Life Sciences",
+        "Deep Track Capital",
+        "Bayern Kapital",
+        "BioMedPartners",
+        "Coparion",
+        "High-Tech Gründerfonds",
+        "OCCIDENT",
+        "Seventure Partners"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.munich-startup.de/en/news/tubulis-raises-series-b-to-128-million-euros",
+          "quote": "The Munich-based biotech has now completed an extended and oversubscribed series B2 financing round of 128 million euros."
+        },
+        {
+          "field": "stage",
+          "url": "https://www.munich-startup.de/en/news/tubulis-raises-series-b-to-128-million-euros",
+          "quote": "series B2 financing round"
+        },
+        {
+          "field": "month",
+          "url": "https://www.munich-startup.de/en/news/tubulis-raises-series-b-to-128-million-euros",
+          "quote": "March 19, 2024"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.munich-startup.de/en/news/tubulis-raises-series-b-to-128-million-euros",
+          "quote": "EQT Life Sciences and Nextech Invest Ltd are leading Tubulis’ current financing round."
+        },
+        {
+          "field": "investors",
+          "url": "https://www.munich-startup.de/en/news/tubulis-raises-series-b-to-128-million-euros",
+          "quote": "Two new US-based capital providers are also part of the round: Frazier Life Sciences and Deep Track Capital."
+        },
+        {
+          "field": "investors",
+          "url": "https://www.munich-startup.de/en/news/tubulis-raises-series-b-to-128-million-euros",
+          "quote": "Additionally, numerous existing investors such as Bayern Kapital, Biomedpartners, Coparion, the High-Tech Gründerfonds (HTGF), Occident and Seventure Partners are participating."
+        }
+      ]
+    },
+    {
+      "techeuId": "7645e81b-bb67-4ef0-9f40-abf14cbbe200",
+      "stage": "series-c",
+      "month": "2025-11",
+      "amountEur": 344000000,
+      "amountOriginal": 344000000,
+      "currency": "EUR",
+      "investors": [
+        "Venrock Healthcare Capital Partners",
+        "Wellington Management",
+        "Ascenta Capital",
+        "Fidelity Management & Research Company",
+        "Janus Henderson Investors",
+        "Blackstone Multi-Asset Investing",
+        "EQT Life Sciences",
+        "Frazier Life Sciences"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.munich-startup.de/en/news/tubulis-raises-series-c-to-344-million-euros",
+          "quote": "to a total volume of 344 million euros."
+        },
+        {
+          "field": "stage",
+          "url": "https://www.munich-startup.de/en/news/tubulis-raises-series-c-to-344-million-euros",
+          "quote": "to a total volume of 344 million euros."
+        },
+        {
+          "field": "month",
+          "url": "https://www.munich-startup.de/en/news/tubulis-raises-series-c-to-344-million-euros",
+          "quote": "November 3, 2025"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.munich-startup.de/en/news/tubulis-raises-series-c-to-344-million-euros",
+          "quote": "The second closing brought further new investors on board: Fidelity Management & Research Company, Janus Henderson Investors, and Blackstone Multi-Asset Investing."
+        },
+        {
+          "field": "investors",
+          "url": "https://www.munich-startup.de/en/news/tubulis-raises-series-c-to-344-million-euros",
+          "quote": "They joined the consortium led by Venrock Healthcare Capital Partners."
+        },
+        {
+          "field": "investors",
+          "url": "https://www.munich-startup.de/en/news/tubulis-raises-series-c-to-344-million-euros",
+          "quote": "Wellington Management and Ascenta Capital invested."
+        },
+        {
+          "field": "investors",
+          "url": "https://www.munich-startup.de/en/news/tubulis-raises-series-c-to-344-million-euros",
+          "quote": "Existing investors who supported the series C include Nextech Invest, EQT Life Sciences, Frazier Life Sciences"
+        }
+      ]
+    }
+  ]
+}

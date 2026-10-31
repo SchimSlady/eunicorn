@@ -1,0 +1,129 @@
+{
+  "id": "fractile",
+  "name": "Fractile",
+  "aliases": [],
+  "domain": "fractile.ai",
+  "country": "GB",
+  "city": "London",
+  "founded": 2022,
+  "sectors": [
+    "ai"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Walter Goodwin"
+  ],
+  "difficulty": 4,
+  "techeuId": "b5844395-d953-4b97-8cc4-14e95ec6297f",
+  "wikidataId": null,
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.uktech.news/ai/fractile-seed-nvidia-ai-chip-20240726",
+      "quote": "Fractile, a London-based AI chip startup"
+    },
+    {
+      "field": "founded",
+      "url": "https://www.fractile.ai/",
+      "quote": "Fractile was founded in the summer of 2022"
+    },
+    {
+      "field": "founders",
+      "url": "https://fortune.com/2024/07/26/fractile-ai-chip-startup-nvidia-15-million-funding-seed-round/",
+      "quote": "Walter Goodwin, the founder and CEO of AI chip startup Fractile"
+    },
+    {
+      "field": "sectors",
+      "url": "https://fortune.com/2024/07/26/fractile-ai-chip-startup-nvidia-15-million-funding-seed-round/",
+      "quote": "AI chip startup Fractile"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": null,
+      "stage": "seed",
+      "month": "2024-07",
+      "amountEur": 13823611,
+      "amountOriginal": 15000000,
+      "currency": "USD",
+      "investors": [
+        "Kindred Capital",
+        "NATO Innovation Fund",
+        "Oxford Science Enterprises",
+        "Cocoa VC",
+        "Inovia Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://fortune.com/2024/07/26/fractile-ai-chip-startup-nvidia-15-million-funding-seed-round/",
+          "quote": "Fractile emerges from stealth with $15 million to take on Nvidia in AI chips"
+        },
+        {
+          "field": "stage",
+          "url": "https://fortune.com/2024/07/26/fractile-ai-chip-startup-nvidia-15-million-funding-seed-round/",
+          "quote": "The company has secured its investment seed round from Kindred Capital"
+        },
+        {
+          "field": "month",
+          "url": "https://fortune.com/2024/07/26/fractile-ai-chip-startup-nvidia-15-million-funding-seed-round/",
+          "quote": "July 26, 2024"
+        },
+        {
+          "field": "investors",
+          "url": "https://fortune.com/2024/07/26/fractile-ai-chip-startup-nvidia-15-million-funding-seed-round/",
+          "quote": "Oxford Science Enterprises, which led the funding"
+        },
+        {
+          "field": "investors",
+          "url": "https://fortune.com/2024/07/26/fractile-ai-chip-startup-nvidia-15-million-funding-seed-round/",
+          "quote": "Also participating are Cocoa and Innovia Capital"
+        },
+        {
+          "field": "investors",
+          "url": "https://fortune.com/2024/07/26/fractile-ai-chip-startup-nvidia-15-million-funding-seed-round/",
+          "quote": "Kindred Capital, the innovation fund of the defense alliance NATO, and Oxford Science Enterprises, which led the funding"
+        }
+      ]
+    },
+    {
+      "techeuId": null,
+      "stage": "series-b",
+      "month": "2026-05",
+      "amountEur": 187793427,
+      "amountOriginal": 220000000,
+      "currency": "USD",
+      "investors": [
+        "Accel",
+        "Founders Fund",
+        "Factorial Funds",
+        "Conviction",
+        "Felicis Ventures",
+        "8VC"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://siliconangle.com/?p=754866",
+          "quote": "closed on a $220 million Series B round of funding"
+        },
+        {
+          "field": "stage",
+          "url": "https://siliconangle.com/?p=754866",
+          "quote": "closed on a $220 million Series B round of funding"
+        },
+        {
+          "field": "month",
+          "url": "https://siliconangle.com/?p=754866",
+          "quote": "MAY 13 2026"
+        },
+        {
+          "field": "investors",
+          "url": "https://siliconangle.com/?p=754866",
+          "quote": "The round was co-led by Accel, Factorial Funds and Founders Fund, and saw the participation of Conviction, Gigascale, O1A, Felicis, Buckley Ventures, 8VC and existing backers."
+        }
+      ]
+    }
+  ]
+}
