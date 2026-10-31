@@ -11,7 +11,7 @@ import { CompanySearch } from "@/components/CompanySearch";
 import { ShareButton } from "@/components/ShareButton";
 import { Countdown } from "@/components/Countdown";
 import { BuiltInEuropeCard } from "@/components/BuiltInEuropeCard";
-import { DifficultySlider } from "@/components/DifficultySlider";
+import { DifficultyPicker } from "@/components/DifficultyPicker";
 
 const MODE = "who-raised-this";
 const MAX_SCORE = 10;
@@ -21,6 +21,12 @@ const RULES: Record<Difficulty, { startClues: number; maxGuesses: number; hints:
   easy: { startClues: 3, maxGuesses: 8, hints: true, logosInSearch: true },
   medium: { startClues: 1, maxGuesses: 8, hints: true, logosInSearch: true },
   hard: { startClues: 1, maxGuesses: 4, hints: false, logosInSearch: false },
+};
+
+const RULES_TEXT: Record<Difficulty, string> = {
+  easy: "3 clues to start · 8 guesses · hints",
+  medium: "1 clue to start · 8 guesses · hints",
+  hard: "1 clue to start · 4 guesses · no hints, no logos",
 };
 
 const CLUE_ICONS: Record<WhoRaisedThisPuzzle["clues"][number]["kind"], string> = {
@@ -84,9 +90,7 @@ export function WhoRaisedThisGame() {
       setData(d);
       setPuzzle(p);
       if (p) {
-        setProgress(
-          loadProgress<Progress>(MODE, p.date) ?? { difficulty: loadDifficulty(), guesses: [], hintsUsed: 0, gaveUp: false },
-        );
+        setProgress(loadProgress<Progress>(MODE, p.date));
       }
     });
   }, []);
@@ -94,11 +98,39 @@ export function WhoRaisedThisGame() {
   const companies = useMemo(() => (data ? indexById(data.companies) : new Map<string, Company>()), [data]);
 
   if (puzzle === undefined || !data) return <p className="text-muted">Loading…</p>;
-  if (puzzle === null || !progress) return <p className="text-muted">No puzzle today. Check back tomorrow.</p>;
+  if (puzzle === null) return <p className="text-muted">No puzzle today. Check back tomorrow.</p>;
+
+  const header = (
+    <header className="flex items-baseline justify-between">
+      <h1 className="text-2xl font-bold">Who Raised This?</h1>
+      <span className="text-sm text-muted">
+        {progress && `${DIFFICULTY_META[progress.difficulty].emoji} ${DIFFICULTY_META[progress.difficulty].label} · `}#{puzzle.number}
+      </span>
+    </header>
+  );
+
+  // No progress yet: choose the level first. The game is set up from that choice.
+  if (!progress) {
+    return (
+      <div className="space-y-6">
+        {header}
+        <p className="text-muted">Guess the European startup behind a funding round. Every wrong guess reveals a new clue.</p>
+        <DifficultyPicker
+          initial={loadDifficulty()}
+          rules={RULES_TEXT}
+          onStart={(d) => {
+            saveDifficulty(d);
+            const fresh: Progress = { difficulty: d, guesses: [], hintsUsed: 0, gaveUp: false };
+            setProgress(fresh);
+            saveProgress(MODE, puzzle.date, fresh);
+          }}
+        />
+      </div>
+    );
+  }
 
   const answer = companies.get(puzzle.answerCompanyId)!;
   const { rules, maxGuesses, won, wrong, done, cluesShown, score } = evaluate(puzzle, progress);
-  const started = progress.guesses.length > 0 || progress.hintsUsed > 0 || progress.gaveUp;
   const guessesLeft = maxGuesses - wrong;
   // Clues the player can still unlock: the last guess reveals nothing new.
   const cluesLocked = Math.min(puzzle.clues.length, rules.startClues + maxGuesses - 1) - cluesShown;
@@ -118,28 +150,13 @@ export function WhoRaisedThisGame() {
     }
   }
 
-  function setDifficulty(d: Difficulty) {
-    saveDifficulty(d);
-    update({ ...progress!, difficulty: d });
-  }
-
   const founders = answer.founderIds
     .map((id) => data.people.find((p) => p.id === id)?.name)
     .filter((n): n is string => !!n);
 
   return (
     <div className="space-y-6">
-      <header className="flex items-baseline justify-between">
-        <h1 className="text-2xl font-bold">Who Raised This?</h1>
-        <span className="text-sm text-muted">#{puzzle.number}</span>
-      </header>
-
-      {!done && (
-        <>
-          <p className="text-muted">Guess the European startup behind this funding round. Every wrong guess reveals a new clue.</p>
-          <DifficultySlider value={progress.difficulty} onChange={setDifficulty} locked={started} />
-        </>
-      )}
+      {header}
 
       <ol className="space-y-2">
         {puzzle.clues.slice(0, cluesShown).map((clue, i) => (
