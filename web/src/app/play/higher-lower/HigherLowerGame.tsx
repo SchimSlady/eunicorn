@@ -105,9 +105,10 @@ function evaluate(p: HigherLowerPuzzle, progress: Progress, companies: Map<strin
 }
 
 function shareText(p: HigherLowerPuzzle, progress: Progress, companies: Map<string, Company>): string {
-  const { rounds, score } = evaluate(p, progress, companies);
-  const squares = rounds.map((r) => (r.correct ? "🟩" : "🟥")); // share text, not UI. taste-skill-ignore
-  return buildShareText({ number: p.number, modeTitle: TITLE, difficulty: progress.difficulty, hintsUsed: progress.hintsUsed, squares, score });
+  const { rounds, score, correct, totalRounds, maxScore } = evaluate(p, progress, companies);
+  const squares = rounds.filter((r) => r.answer !== undefined).map((r) => (r.correct ? "🟩" : "🟥")); // share text, not UI. taste-skill-ignore
+  const summary = `${correct} of ${totalRounds} right`;
+  return buildShareText({ number: p.number, modeTitle: TITLE, difficulty: progress.difficulty, hintsUsed: progress.hintsUsed, squares, summary, score, maxScore });
 }
 
 export function HigherLowerGame() {
