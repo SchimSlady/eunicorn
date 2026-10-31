@@ -39,12 +39,15 @@ export function ModePreview({ mode }: { mode: GameMode }) {
   );
 }
 
-function Tile({ letter, className = "" }: { letter: string; className?: string }) {
+/** A company logo on the usual white tile (logos are shown unchanged, see About & data). */
+function Tile({ logo, size = 28, className = "" }: { logo: string; size?: number; className?: string }) {
   return (
     <span
-      className={`flex h-7 w-7 shrink-0 items-center justify-center rounded-[22%] bg-white font-display text-xs font-bold text-eu-blue ${className}`}
+      className={`flex shrink-0 items-center justify-center rounded-[22%] bg-white ${className}`}
+      style={{ width: size, height: size, padding: Math.round(size * 0.12) }}
     >
-      {letter}
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <img src={`/logos/${logo}`} alt="" className="h-full w-full object-contain" />
     </span>
   );
 }
@@ -74,7 +77,13 @@ function WhoRaisedThisPreview() {
 function UnicornGridPreview() {
   const cols = ["DE", "GB", "FR"];
   const rows = ["Fintech", "AI", "2015+"];
-  const filled: Record<string, string> = { "0-0": "N", "0-1": "R", "1-0": "D", "1-2": "M", "2-1": "E" };
+  const filled: Record<string, string> = {
+    "0-0": "n26.svg",
+    "0-1": "revolut.svg",
+    "1-0": "deepl.svg",
+    "1-2": "mistral-ai.svg",
+    "2-1": "elevenlabs.svg",
+  };
   return (
     <div className="grid grid-cols-4 gap-1 text-[11px]">
       <span className="flex h-7 w-12 items-center justify-center font-display font-bold text-eu-yellow">EU</span>
@@ -87,10 +96,10 @@ function UnicornGridPreview() {
         <div key={r} className="contents">
           <span className="flex h-10 w-12 items-center justify-center rounded-md bg-white/10 text-center font-semibold">{r}</span>
           {cols.map((_, ci) => {
-            const letter = filled[`${ri}-${ci}`];
+            const logo = filled[`${ri}-${ci}`];
             return (
               <span key={ci} className="flex h-10 w-12 items-center justify-center rounded-md border border-white/15">
-                {letter && <Tile letter={letter} />}
+                {logo && <Tile logo={logo} size={34} />}
               </span>
             );
           })}
@@ -104,7 +113,7 @@ function HigherLowerPreview() {
   return (
     <div className="w-full max-w-[220px] text-[12px]">
       <div className="flex items-center gap-2 rounded-lg border-2 border-white/80 bg-white/10 p-2">
-        <Tile letter="N" />
+        <Tile logo="n26.svg" size={32} />
         <span className="flex-1">
           <span className="block text-[11px] text-white/70">Your pick</span>
           <span className="font-semibold">N26</span>
@@ -117,7 +126,7 @@ function HigherLowerPreview() {
         <ChevronDown size={18} />
       </div>
       <div className="flex items-center gap-2 rounded-lg bg-white/10 p-2">
-        <Tile letter="P" />
+        <Tile logo="personio.svg" size={32} />
         <span className="flex-1">
           <span className="block text-[11px] text-white/70">Challenger</span>
           <span className="font-semibold">Personio</span>
@@ -130,22 +139,22 @@ function HigherLowerPreview() {
 
 function ImpostorPreview() {
   // Five tiles on a circle around the category; one is the impostor.
-  const letters = ["R", "K", "C", "B", "C"];
+  const logos = ["revolut.svg", "klarna.svg", "spotify.svg", "n26.svg", "monzo.svg"];
   return (
     <div className="relative h-36 w-36">
       <span className="absolute inset-0 m-auto flex h-14 w-20 items-center justify-center rounded-lg bg-white/10 px-1 text-center text-[11px] font-semibold leading-tight">
-        European unicorns
+        European fintechs
       </span>
-      {letters.map((l, i) => {
-        const a = -Math.PI / 2 + (i * 2 * Math.PI) / letters.length;
+      {logos.map((logo, i) => {
+        const a = -Math.PI / 2 + (i * 2 * Math.PI) / logos.length;
         const impostor = i === 2;
         return (
           <span
             key={i}
             className="absolute"
-            style={{ left: `calc(50% + ${Math.cos(a) * 58}px - 14px)`, top: `calc(50% + ${Math.sin(a) * 58}px - 14px)` }}
+            style={{ left: `calc(50% + ${Math.cos(a) * 60}px - 17px)`, top: `calc(50% + ${Math.sin(a) * 60}px - 17px)` }}
           >
-            <Tile letter={l} className={impostor ? "ring-2 ring-eu-yellow" : ""} />
+            <Tile logo={logo} size={34} className={impostor ? "ring-2 ring-eu-yellow" : ""} />
             {impostor && (
               <VenetianMask size={14} className="absolute -right-2 -top-2 rounded-full bg-eu-yellow p-0.5 text-eu-blue" />
             )}
