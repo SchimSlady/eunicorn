@@ -252,6 +252,8 @@ interface Group {
   odd: (c: Company) => string;
   /** A near miss for Hard: outside the group but easy to mistake for a member. */
   near: (c: Company, fit: Company[]) => boolean;
+  /** Yes/no traits (unicorn, young) where "only one has it" also reads as a pattern. */
+  binary?: boolean;
 }
 
 /** Sectors people mix up, for near-miss impostors. */
@@ -318,6 +320,7 @@ function impostor(base: Base, date: string, companies: Company[], rng: Rng): (Im
     prompt: "All of these are unicorns. Except one.",
     shared: "have been valued at €1bn or more",
     odd: () => "has never been valued at €1bn or more",
+    binary: true,
     near: (c, fit) => c.country === majority(fit.map((m) => m.country)) || sharesSectorWithMost(c, fit),
   });
   for (const year of [2012, 2015, 2019]) {
@@ -326,6 +329,7 @@ function impostor(base: Base, date: string, companies: Company[], rng: Rng): (Im
       prompt: `All of these were founded in ${year} or later. Except one.`,
       shared: `were founded in ${year} or later`,
       odd: (c) => `was founded in ${c.founded}`,
+      binary: true,
       near: (c) => c.founded >= year - 3,
     });
   }
@@ -340,29 +344,45 @@ function impostor(base: Base, date: string, companies: Company[], rng: Rng): (Im
 
   const variants: ImpostorVariants = {};
   for (const level of ["easy", "medium", "hard"] as const) {
-    const { options, impostor: closeness } = IMPOSTOR_LEVELS[level];
-    const fit = pickN(members, Math.min(options - 1, members.length), rng);
-    // Hard takes a near miss (as the category defines it), easy an obvious outsider; ties broken by likeness.
-    const ranked = shuffle(outsiders, rng).sort((a, b) => likeness(b, fit) - likeness(a, fit));
-    const nearOnes = ranked.filter((c) => g.near(c, fit));
-    const farOnes = ranked.filter((c) => !g.near(c, fit));
-    const third = Math.max(1, Math.ceil(ranked.length / 3));
-    const pool =
-      closeness === "near"
-        ? nearOnes.length ? nearOnes.slice(0, Math.max(3, Math.ceil(nearOnes.length / 2))) : ranked.slice(0, third)
-        : closeness === "far"
-          ? farOnes.length ? farOnes.slice(-Math.max(3, Math.ceil(farOnes.length / 2))) : ranked.slice(-third)
-          : ranked;
-    const imp = level === "medium" ? pickByDifficulty(pool, date, rng) : pick(pool, rng);
+    const { options, impostor: closeness, hidden } = IMPOSTOR_LEVELS[level];
+    // With the category hidden, the set must have only one sensible odd one out: retry until no
+    // other known category (country, city, sector, unicorn, founding period) singles out someone else.
+    let built: { fit: Company[]; imp: Company } | null = null;
+    for (let attempt = 0; attempt < (hidden ? 40 : 1) && !built; attempt++) {
+      const fit = pickN(members, Math.min(options - 1, members.length), rng);
+      // Hard takes a near miss (as the category defines it), easy an obvious outsider; ties broken by likeness.
+      const ranked = shuffle(outsiders, rng).sort((a, b) => likeness(b, fit) - likeness(a, fit));
+      const nearOnes = ranked.filter((c) => g.near(c, fit));
+      const farOnes = ranked.filter((c) => !g.near(c, fit));
+      const third = Math.max(1, Math.ceil(ranked.length / 3));
+      const pool =
+        closeness === "near"
+          ? nearOnes.length ? nearOnes.slice(0, Math.max(3, Math.ceil(nearOnes.length / 2))) : ranked.slice(0, third)
+          : closeness === "far"
+            ? farOnes.length ? farOnes.slice(-Math.max(3, Math.ceil(farOnes.length / 2))) : ranked.slice(-third)
+            : ranked;
+      const imp = level === "medium" ? pickByDifficulty(pool, date, rng) : pick(pool, rng);
+      if (!hidden || !otherOddOneOut([...fit, imp], imp, groups)) built = { fit, imp };
+    }
+    // No unambiguous set found: show the category after all, so the answer stays fair.
+    const show = !hidden || !built;
+    if (!built) {
+      const fit = pickN(members, Math.min(options - 1, members.length), rng);
+      built = { fit, imp: pick(outsiders, rng) };
+    }
+    const { fit, imp } = built;
+    const hints = [
+      { text: `Remove one wrong option (${fit[0].name} fits)`, cost: 1 },
+      { text: `The impostor is based in ${imp.city}, founded in ${imp.founded}`, cost: 2 },
+    ];
     variants[level] = {
       prompt: g.prompt,
+      hidden: !show,
       companyIds: shuffle([...fit, imp], rng).map((c) => c.id),
       impostorId: imp.id,
       explanation: `${imp.name} ${g.odd(imp)}. ${list(fit.map((c) => c.name))} ${g.shared}.`,
-      hints: [
-        { text: `Remove one wrong option (${fit[0].name} fits)`, cost: 1 },
-        { text: `The impostor is based in ${imp.city}, founded in ${imp.founded}`, cost: 2 },
-      ],
+      // Hidden category: the first hint gives it away.
+      hints: show ? hints : [{ text: `All but one ${g.shared}`, cost: 1 }, ...hints],
     };
   }
   const main = variants.medium!;
@@ -371,14 +391,38 @@ function impostor(base: Base, date: string, companies: Company[], rng: Rng): (Im
 
 /** Options per level and how close the impostor is to the group. */
 const IMPOSTOR_LEVELS = {
-  easy: { options: 5, impostor: "far" },
-  medium: { options: 6, impostor: "any" },
-  hard: { options: 8, impostor: "near" },
+  easy: { options: 5, impostor: "far", hidden: false },
+  medium: { options: 6, impostor: "any", hidden: true },
+  hard: { options: 8, impostor: "near", hidden: true },
 } as const;
+
+/**
+ * True if some other known category picks out a different company as the odd one: all but
+ * that one share it, or (for yes/no traits) only that one has it. Then a player could rightly
+ * answer differently. "Only one is from Spain" in a mixed set isn't a pattern anyone sees.
+ */
+function otherOddOneOut(set: Company[], imp: Company, groups: Group[]): boolean {
+  return groups.some((g) => {
+    const inside = set.filter(g.members);
+    const odd =
+      inside.length === set.length - 1
+        ? set.find((c) => !g.members(c))
+        : g.binary && inside.length === 1
+          ? inside[0]
+          : undefined;
+    return !!odd && odd.id !== imp.id;
+  });
+}
 
 /** Impostor: one puzzle per level (same category for everyone that day). Web-only extra. */
 export type ImpostorVariants = Partial<
-  Record<"easy" | "medium" | "hard", Pick<ImpostorPuzzle, "prompt" | "companyIds" | "impostorId" | "explanation" | "hints">>
+  Record<
+    "easy" | "medium" | "hard",
+    Pick<ImpostorPuzzle, "prompt" | "companyIds" | "impostorId" | "explanation" | "hints"> & {
+      /** Category not shown: the player finds the pattern (first hint reveals it). */
+      hidden: boolean;
+    }
+  >
 >;
 
 /** How much a company resembles a group: shared country, sector, era and unicorn status, averaged. */
