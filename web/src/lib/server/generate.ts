@@ -179,30 +179,63 @@ function gridCriteria(data: Dataset, companies: Company[]): Criterion[] {
 
 /* ---------- Higher or Lower ---------- */
 
-function higherLower(base: Base, date: string, companies: Company[], rng: Rng): HigherLowerPuzzle | null {
+/**
+ * How far apart consecutive values are, by difficulty: a ratio band (bigger / smaller).
+ * Easy: clear gaps; medium: noticeable; hard: close calls.
+ */
+const HL_BANDS: Record<"easy" | "medium" | "hard", [number, number]> = {
+  easy: [2, Infinity],
+  medium: [1.3, 2],
+  hard: [1.02, 1.3],
+};
+
+/** A Higher or Lower chain whose every step lies in the band; null if the data can't make one. */
+function hlChain(cs: Company[], metric: HigherLowerMetric, [lo, hi]: [number, number], rng: Rng, length = 7): Company[] | null {
+  const v = (c: Company) => c[metric]!;
+  const fits = (a: Company, b: Company) => {
+    const r = Math.max(v(a), v(b)) / Math.min(v(a), v(b));
+    return r >= lo && r < hi;
+  };
+  let best: Company[] = [];
+  for (let attempt = 0; attempt < 200 && best.length < length; attempt++) {
+    const chain = [pick(cs, rng)];
+    while (chain.length < length) {
+      const last = chain.at(-1)!;
+      const next = shuffle(cs, rng).find((c) => !chain.includes(c) && fits(last, c));
+      if (!next) break;
+      chain.push(next);
+    }
+    if (chain.length > best.length) best = chain;
+  }
+  return best.length >= 5 ? best : null;
+}
+
+/** Higher or Lower: one chain per difficulty (same for everyone at that level). Web-only extra. */
+export type HigherLowerVariants = Partial<Record<"easy" | "medium" | "hard", { companyIds: string[]; hints: Hint[] }>>;
+
+function higherLower(base: Base, date: string, companies: Company[], rng: Rng): (HigherLowerPuzzle & { variants: HigherLowerVariants }) | null {
   const metrics: HigherLowerMetric[] = ["totalRaisedUsd", "lastValuationUsd"];
   // Alternate the metric by day, falling back to the other one if the data is too thin.
   const start = puzzleNumber(date) % metrics.length;
   for (const metric of [metrics[start], metrics[1 - start]]) {
     const usable = companies.filter((c) => c[metric] != null && c[metric]! > 0);
-    // Distinct values only, so every round has one right answer.
-    const seen = new Set<number>();
-    const chain = shuffle(usable, rng)
-      .filter((c) => !seen.has(c[metric]!) && seen.add(c[metric]!))
-      .slice(0, 7);
-    if (chain.length < 5) continue;
-    const [a, b] = pickN(chain, 2, rng);
     const label = metric === "totalRaisedUsd" ? "has raised" : "was last valued at";
-    return {
-      ...base,
-      mode: "higher-lower",
-      metric,
-      companyIds: chain.map((c) => c.id),
-      hints: [
-        { text: `${a.name} ${label} ${formatUsdAsEur(a[metric]!)}`, cost: 1 },
-        { text: `${b.name} ${label} ${formatUsdAsEur(b[metric]!)}`, cost: 1 },
-      ],
-    };
+    const variants: HigherLowerVariants = {};
+    for (const level of ["easy", "medium", "hard"] as const) {
+      const chain = hlChain(usable, metric, HL_BANDS[level], rng);
+      if (!chain) continue;
+      const [a, b] = pickN(chain.slice(1), 2, rng);
+      variants[level] = {
+        companyIds: chain.map((c) => c.id),
+        hints: [
+          { text: `${a.name} ${label} ${formatUsdAsEur(a[metric]!)}`, cost: 1 },
+          { text: `${b.name} ${label} ${formatUsdAsEur(b[metric]!)}`, cost: 1 },
+        ],
+      };
+    }
+    const main = variants.medium ?? variants.easy ?? variants.hard;
+    if (!main) continue;
+    return { ...base, mode: "higher-lower", metric, companyIds: main.companyIds, hints: main.hints, variants };
   }
   return null;
 }

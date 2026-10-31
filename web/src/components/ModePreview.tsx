@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { Banknote, CalendarDays, ChevronDown, ChevronUp, Lock, MapPin, VenetianMask } from "lucide-react";
+import { ChevronDown, ChevronUp, Lock, VenetianMask } from "lucide-react";
 import type { GameMode } from "@eunicorn/schema";
 import { Flag } from "./Flag";
 
@@ -62,23 +62,49 @@ function Tile({ logo, size = 28, className = "" }: { logo: string; size?: number
 }
 
 function WhoRaisedThisPreview() {
-  const clues = [
-    { Icon: Banknote, text: "Raised €385m" },
-    { Icon: CalendarDays, text: "December 2023" },
-    { Icon: MapPin, text: "Paris" },
+  // A mini deal board: the round on top, clue tiles below (two open, the next one glowing).
+  const tiles: Array<{ label: string; value?: string; next?: boolean }> = [
+    { label: "Announced", value: "Dec 2023" },
+    { label: "HQ", value: "Paris" },
+    { label: "Sector", next: true },
+    { label: "Investors" },
   ];
   return (
-    <div className="w-full max-w-[220px] space-y-1 text-[12px]">
-      {clues.map(({ Icon, text }) => (
-        <div key={text} className="flex items-center gap-2 rounded-md bg-white/10 px-2 py-1.5">
-          <Icon size={13} className="text-eu-yellow" />
-          <span className="font-medium">{text}</span>
+    <div className="w-full max-w-[216px] space-y-1.5">
+      <div className="rounded-lg bg-white/10 px-2.5 py-2">
+        <div className="flex items-center justify-between">
+          <span className="text-[8px] font-semibold uppercase tracking-widest text-white/60">Funding round</span>
+          <span className="rounded-full bg-white/15 px-1.5 text-[8px] font-bold uppercase">Series A</span>
         </div>
-      ))}
-      <div className="flex items-center gap-2 rounded-md border border-dashed border-white/25 px-2 py-1.5 text-white/50">
-        <Lock size={12} /> Next clue
+        <div className="mt-0.5 flex items-end justify-between">
+          <span className="font-display text-2xl font-bold leading-none text-eu-yellow">€385m</span>
+          <span className="flex h-6 w-6 items-center justify-center rounded-md border border-dashed border-white/40 text-xs font-bold text-white/60">
+            ?
+          </span>
+        </div>
       </div>
-      <div className="mt-2 rounded-md bg-white px-2 py-1.5 font-medium text-eu-blue/60">Mistr…</div>
+      <div className="grid grid-cols-2 gap-1.5">
+        {tiles.map(({ label, value, next }) => (
+          <div
+            key={label}
+            className={`flex h-[30px] flex-col items-center justify-center rounded-md border ${
+              value ? "border-white/20 bg-white/10" : next ? "border-eu-yellow/80" : "border-white/15"
+            }`}
+          >
+            <span className={`text-[7px] font-semibold uppercase tracking-widest ${value ? "text-eu-yellow" : "text-white/50"}`}>{label}</span>
+            {value ? (
+              <span className="text-[10px] font-bold leading-tight">{value}</span>
+            ) : (
+              <Lock size={9} className={next ? "text-eu-yellow" : "text-white/40"} />
+            )}
+          </div>
+        ))}
+      </div>
+      <div className="flex justify-center gap-1 pt-0.5">
+        {["bg-wrong", "", "", "", ""].map((c, i) => (
+          <span key={i} className={`h-1.5 w-5 rounded-full ${c || "border border-eu-yellow/70"}`} />
+        ))}
+      </div>
     </div>
   );
 }
@@ -121,26 +147,30 @@ function UnicornGridPreview() {
 function HigherLowerPreview() {
   return (
     <div className="w-full max-w-[220px] text-[12px]">
-      <div className="flex items-center gap-2 rounded-lg border-2 border-white/80 bg-white/10 p-2">
-        <Tile logo="n26.svg" size={32} />
+      <div className="flex items-center gap-2 rounded-lg bg-white/10 p-2">
+        <Tile logo="n26.svg" size={30} />
         <span className="flex-1">
-          <span className="block text-[11px] text-white/70">Your pick</span>
+          <span className="block text-[10px] text-white/70">Previous</span>
           <span className="font-semibold">N26</span>
         </span>
-        <span className="font-display text-sm font-bold">€7.7bn</span>
+        <span className="font-display text-sm font-bold">€7.8bn</span>
       </div>
-      <div className="flex items-center justify-center gap-3 py-1.5 text-eu-yellow">
-        <ChevronUp size={18} />
-        <span className="text-[11px] font-semibold text-white/70">vs</span>
-        <ChevronDown size={18} />
-      </div>
-      <div className="flex items-center gap-2 rounded-lg bg-white/10 p-2">
-        <Tile logo="personio.svg" size={32} />
+      <p className="py-0.5 text-center text-[10px] font-semibold text-white/60">then</p>
+      <div className="flex items-center gap-2 rounded-lg border-2 border-white/80 bg-white/10 p-2">
+        <Tile logo="personio.svg" size={30} />
         <span className="flex-1">
-          <span className="block text-[11px] text-white/70">Challenger</span>
+          <span className="block text-[10px] text-white/70">Next</span>
           <span className="font-semibold">Personio</span>
         </span>
         <span className="font-display text-sm font-bold text-eu-yellow">?</span>
+      </div>
+      <div className="mt-2 grid grid-cols-2 gap-2">
+        <span className="flex items-center justify-center gap-1 rounded-full bg-eu-yellow py-1 text-[11px] font-bold text-eu-blue">
+          <ChevronUp size={14} /> Higher
+        </span>
+        <span className="flex items-center justify-center gap-1 rounded-full bg-eu-yellow py-1 text-[11px] font-bold text-eu-blue">
+          <ChevronDown size={14} /> Lower
+        </span>
       </div>
     </div>
   );
