@@ -132,46 +132,68 @@ export function ImpostorGame() {
         }
       />
 
-      <p className="rounded-2xl bg-eu-blue p-4 text-center font-display text-lg font-bold text-white">{puzzle.prompt}</p>
-
-      <ul className="space-y-2">
-        {puzzle.companyIds.map((id) => {
-          const c = companies.get(id)!;
-          const picked = progress.picks.includes(id);
-          const isImpostor = id === puzzle.impostorId;
-          // While playing, only wrong picks are marked. Once done, reveal the impostor.
-          const state = done ? (isImpostor ? "impostor" : "genuine") : picked ? "wrong" : "open";
-          const styles = {
-            open: "border-border bg-surface hover:border-primary",
-            wrong: "animate-shake border-wrong/50 bg-wrong/10 opacity-70",
-            impostor: "animate-pop border-correct bg-correct/10",
-            genuine: "border-border bg-surface opacity-70",
-          }[state];
-          return (
-            <li key={id}>
-              <button
-                type="button"
-                disabled={done || picked}
-                onClick={() => update({ ...progress, picks: [...progress.picks, id] })}
-                className={`flex w-full items-center gap-3 rounded-2xl border-2 p-3 text-left transition ${styles}`}
+      {/* The five companies on a circle around the category; tap the one that doesn't belong. */}
+      <div className="relative mx-auto aspect-square w-full max-w-[420px]">
+        <span aria-hidden className="absolute inset-[13%] rounded-full border-2 border-dashed border-border" />
+        <p className="absolute inset-[29%] flex items-center justify-center rounded-full bg-eu-blue p-3 text-center font-display text-sm font-bold leading-snug text-white sm:text-base">
+          {puzzle.prompt}
+        </p>
+        <ul>
+          {puzzle.companyIds.map((id, i) => {
+            const c = companies.get(id)!;
+            const picked = progress.picks.includes(id);
+            const isImpostor = id === puzzle.impostorId;
+            // While playing, only wrong picks are marked. Once done, reveal the impostor.
+            const state = done ? (isImpostor ? "impostor" : "genuine") : picked ? "wrong" : "open";
+            const ring = {
+              open: "ring-border group-hover:ring-primary",
+              wrong: "animate-shake ring-wrong opacity-60",
+              impostor: "animate-pop ring-correct",
+              genuine: "ring-border opacity-60",
+            }[state];
+            // Start at the top and go clockwise; 37% of the box from the centre.
+            const a = -Math.PI / 2 + (i * 2 * Math.PI) / puzzle.companyIds.length;
+            return (
+              <li
+                key={id}
+                className="absolute w-[30%] -translate-x-1/2 -translate-y-1/2"
+                style={{ left: `${50 + 37 * Math.cos(a)}%`, top: `${50 + 37 * Math.sin(a)}%` }}
               >
-                <CompanyLogo company={c} size={44} />
-                <span className="flex-1">
-                  <span className={`block font-semibold ${state === "wrong" ? "line-through" : ""}`}>{c.name}</span>
+                <button
+                  type="button"
+                  disabled={done || picked}
+                  onClick={() => update({ ...progress, picks: [...progress.picks, id] })}
+                  aria-label={`${c.name}${state === "wrong" ? ", not the impostor" : state === "impostor" ? ", the impostor" : ""}`}
+                  className="group flex w-full flex-col items-center gap-1 text-center"
+                >
+                  <span className={`relative rounded-[22%] ring-[3px] transition ${ring}`}>
+                    <CompanyLogo company={c} size={60} />
+                    {state !== "open" && (
+                      <span
+                        className={`absolute -right-2 -top-2 flex h-6 w-6 items-center justify-center rounded-full ${
+                          state === "wrong" ? "bg-wrong" : state === "impostor" ? "bg-correct" : "bg-border"
+                        } text-white`}
+                      >
+                        {state === "wrong" && <X size={14} aria-hidden />}
+                        {state === "impostor" && <VenetianMask size={14} aria-hidden />}
+                        {state === "genuine" && <Check size={14} aria-hidden />}
+                      </span>
+                    )}
+                  </span>
+                  <span className={`line-clamp-2 text-xs font-semibold leading-tight ${state === "wrong" ? "line-through" : ""}`}>
+                    {c.name}
+                  </span>
                   {done && (
-                    <span className="flex items-center gap-1.5 text-sm text-muted">
-                      <Flag country={c.country} size={14} /> {c.city} · {c.founded}
+                    <span className="flex items-center gap-1 text-[10px] text-muted">
+                      <Flag country={c.country} size={10} /> {c.city}
                     </span>
                   )}
-                </span>
-                {state === "wrong" && <X size={20} className="text-wrong" aria-label="Not the impostor" />}
-                {state === "impostor" && <VenetianMask size={22} className="text-correct" aria-label="The impostor" />}
-                {state === "genuine" && <Check size={20} className="text-muted" aria-label="Belongs" />}
-              </button>
-            </li>
-          );
-        })}
-      </ul>
+                </button>
+              </li>
+            );
+          })}
+        </ul>
+      </div>
 
       <HintList hints={puzzle.hints.slice(0, progress.hintsUsed)} />
 
