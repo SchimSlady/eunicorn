@@ -2,10 +2,10 @@ export type Difficulty = "easy" | "medium" | "hard";
 
 export const DIFFICULTIES: Difficulty[] = ["easy", "medium", "hard"];
 
-export const DIFFICULTY_META: Record<Difficulty, { label: string; emoji: string }> = {
-  easy: { label: "Easy", emoji: "🟢" },
-  medium: { label: "Medium", emoji: "🟡" },
-  hard: { label: "Hard", emoji: "🔴" },
+export const DIFFICULTY_META: Record<Difficulty, { label: string }> = {
+  easy: { label: "Easy" },
+  medium: { label: "Medium" },
+  hard: { label: "Hard" },
 };
 
 const KEY = "eunicorn:difficulty";

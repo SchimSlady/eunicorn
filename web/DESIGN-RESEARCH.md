@@ -1,6 +1,8 @@
 # Frontend research list
 
-Things to decide while the game screens are being built. Fill in the decisions as you go.
+Things to decide while the game screens are being built.
+
+**Decided 2026-10-31. The result is in [STYLE.md](STYLE.md).**
 
 | # | Topic | Questions | Where to look | Decision |
 |---|---|---|---|---|

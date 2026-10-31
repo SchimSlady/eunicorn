@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { Check, Share2 } from "lucide-react";
 
 /** Native share sheet on mobile, clipboard everywhere else. */
 export function ShareButton({ text }: { text: string }) {
@@ -24,9 +25,10 @@ export function ShareButton({ text }: { text: string }) {
     <button
       type="button"
       onClick={share}
-      className="w-full rounded-xl bg-primary px-4 py-3 font-semibold text-on-primary transition active:scale-[0.98]"
+      className="flex w-full items-center justify-center gap-2 rounded-xl bg-primary px-4 py-3 font-semibold text-on-primary transition active:scale-[0.98]"
     >
-      {copied ? "Copied ✓" : "Share result"}
+      {copied ? <Check size={18} aria-hidden /> : <Share2 size={18} aria-hidden />}
+      {copied ? "Copied" : "Share result"}
     </button>
   );
 }

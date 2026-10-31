@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { DIFFICULTIES, DIFFICULTY_META, type Difficulty } from "@/lib/difficulty";
+import { DifficultyBadge } from "./DifficultyBadge";
 
 /**
  * Pre-game screen: pick one level, then start. The game is built from that choice
@@ -40,7 +41,7 @@ export function DifficultyPicker({
                 />
                 <span>
                   <span className="block font-semibold">
-                    {DIFFICULTY_META[d].emoji} {DIFFICULTY_META[d].label}
+                    <DifficultyBadge level={d} />
                   </span>
                   <span className="block text-sm text-muted">{rules[d]}</span>
                 </span>

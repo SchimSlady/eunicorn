@@ -1,11 +1,24 @@
 import type { Company } from "@eunicorn/schema";
 
-/** Company logo from /logos once curated; until then an initials tile in brand colors. */
+/**
+ * Logo on a white rounded-square tile with padding and a thin border (works for wordmarks,
+ * which round crops would cut off). Until real logos are curated: initials in EU blue.
+ */
 export function CompanyLogo({ company, size = 48, blurred = false }: { company: Company; size?: number; blurred?: boolean }) {
-  const style = { width: size, height: size, filter: blurred ? `blur(${Math.round(size / 6)}px)` : undefined };
+  const tile = "inline-flex shrink-0 items-center justify-center rounded-[22%] border border-black/10 bg-white";
+  const style = {
+    width: size,
+    height: size,
+    padding: Math.round(size * 0.14),
+    filter: blurred ? `blur(${Math.round(size / 6)}px)` : undefined,
+  };
   if (company.logo) {
-    // eslint-disable-next-line @next/next/no-img-element
-    return <img src={company.logo} alt={blurred ? "" : company.name} style={style} className="rounded-lg bg-white object-contain" />;
+    return (
+      <span className={tile} style={style}>
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img src={company.logo} alt={blurred ? "" : company.name} className="h-full w-full object-contain" />
+      </span>
+    );
   }
   const initials = company.name
     .split(/\s+/)
@@ -15,8 +28,8 @@ export function CompanyLogo({ company, size = 48, blurred = false }: { company: 
     .toUpperCase();
   return (
     <span
-      style={{ ...style, fontSize: size * 0.4 }}
-      className="inline-flex shrink-0 items-center justify-center rounded-lg bg-eu-blue font-bold text-eu-yellow"
+      style={{ ...style, fontSize: size * 0.36 }}
+      className={`${tile} font-display font-bold text-eu-blue`}
       aria-label={blurred ? undefined : company.name}
     >
       {initials}

@@ -1,19 +1,23 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
-import Link from "next/link";
+import { Banknote, CalendarDays, Check, Handshake, Image as ImageIcon, Lock, MapPin, Tag, Target, Users, X, type LucideIcon } from "lucide-react";
 import type { Company, Dataset, WhoRaisedThisPuzzle } from "@eunicorn/schema";
 import { indexById, loadDataset } from "@/lib/data";
 import { getTodayResult, loadProgress, loadTodayPuzzle, saveProgress, saveResult } from "@/lib/daily";
-import { DIFFICULTY_META, loadDifficulty, saveDifficulty, type Difficulty } from "@/lib/difficulty";
+import { saveDifficulty, type Difficulty } from "@/lib/difficulty";
+import { shareText as buildShareText } from "@/lib/scoring";
 import { CompanyLogo } from "@/components/CompanyLogo";
 import { CompanySearch } from "@/components/CompanySearch";
-import { ShareButton } from "@/components/ShareButton";
-import { Countdown } from "@/components/Countdown";
 import { BuiltInEuropeCard } from "@/components/BuiltInEuropeCard";
-import { DifficultyPicker } from "@/components/DifficultyPicker";
+import { GameIntro } from "@/components/GameIntro";
+import { GameHeader } from "@/components/GameHeader";
+import { GameFooter } from "@/components/GameFooter";
+import { HintButton, HintList } from "@/components/HintButton";
+import { ResultHeader } from "@/components/ResultHeader";
 
 const MODE = "who-raised-this";
+const TITLE = "Who Raised This?";
 const MAX_SCORE = 10;
 
 /** How each difficulty changes the rules. Same puzzle for everyone; only the help differs. */
@@ -29,15 +33,15 @@ const RULES_TEXT: Record<Difficulty, string> = {
   hard: "1 clue to start · 4 guesses · no hints, no logos",
 };
 
-const CLUE_ICONS: Record<WhoRaisedThisPuzzle["clues"][number]["kind"], string> = {
-  amount: "💶",
-  year: "📅",
-  sector: "🏷️",
-  city: "📍",
-  "lead-investor": "🎯",
-  investors: "🤝",
-  founders: "👥",
-  "logo-blurred": "🖼️",
+const CLUE_ICONS: Record<WhoRaisedThisPuzzle["clues"][number]["kind"], LucideIcon> = {
+  amount: Banknote,
+  year: CalendarDays,
+  sector: Tag,
+  city: MapPin,
+  "lead-investor": Target,
+  investors: Handshake,
+  founders: Users,
+  "logo-blurred": ImageIcon,
 };
 
 interface Progress {
@@ -69,15 +73,13 @@ function evaluate(p: WhoRaisedThisPuzzle, progress: Progress) {
 }
 
 function shareText(p: WhoRaisedThisPuzzle, progress: Progress): string {
-  const { maxGuesses, won, score } = evaluate(p, progress);
+  const { maxGuesses, score } = evaluate(p, progress);
   const squares = Array.from({ length: maxGuesses }, (_, i) => {
     const id = progress.guesses[i];
     if (id === undefined) return "⬜";
     return id === p.answerCompanyId ? "🟩" : "🟥";
   });
-  const level = DIFFICULTY_META[progress.difficulty];
-  const hints = progress.hintsUsed ? ` 💡${progress.hintsUsed}` : "";
-  return `EUnicorn #${p.number} 💸 Who Raised This? ${won ? `${score}/${MAX_SCORE}` : "X"}\n${level.emoji} ${level.label}\n${squares.join("")}${hints}\neunicorn.eu`;
+  return buildShareText({ number: p.number, modeTitle: TITLE, difficulty: progress.difficulty, hintsUsed: progress.hintsUsed, squares, score });
 }
 
 export function WhoRaisedThisGame() {
@@ -89,9 +91,7 @@ export function WhoRaisedThisGame() {
     Promise.all([loadTodayPuzzle<WhoRaisedThisPuzzle>(MODE), loadDataset()]).then(([p, d]) => {
       setData(d);
       setPuzzle(p);
-      if (p) {
-        setProgress(loadProgress<Progress>(MODE, p.date));
-      }
+      if (p) setProgress(loadProgress<Progress>(MODE, p.date));
     });
   }, []);
 
@@ -100,32 +100,20 @@ export function WhoRaisedThisGame() {
   if (puzzle === undefined || !data) return <p className="text-muted">Loading…</p>;
   if (puzzle === null) return <p className="text-muted">No puzzle today. Check back tomorrow.</p>;
 
-  const header = (
-    <header className="flex items-baseline justify-between">
-      <h1 className="text-2xl font-bold">Who Raised This?</h1>
-      <span className="text-sm text-muted">
-        {progress && `${DIFFICULTY_META[progress.difficulty].emoji} ${DIFFICULTY_META[progress.difficulty].label} · `}#{puzzle.number}
-      </span>
-    </header>
-  );
-
   // No progress yet: choose the level first. The game is set up from that choice.
   if (!progress) {
     return (
-      <div className="space-y-6">
-        {header}
-        <p className="text-muted">Guess the European startup behind a funding round. Every wrong guess reveals a new clue.</p>
-        <DifficultyPicker
-          initial={loadDifficulty()}
-          rules={RULES_TEXT}
-          onStart={(d) => {
-            saveDifficulty(d);
-            const fresh: Progress = { difficulty: d, guesses: [], hintsUsed: 0, gaveUp: false };
-            setProgress(fresh);
-            saveProgress(MODE, puzzle.date, fresh);
-          }}
-        />
-      </div>
+      <GameIntro
+        mode={MODE}
+        number={puzzle.number}
+        rules={RULES_TEXT}
+        onStart={(d) => {
+          saveDifficulty(d);
+          const fresh: Progress = { difficulty: d, guesses: [], hintsUsed: 0, gaveUp: false };
+          setProgress(fresh);
+          saveProgress(MODE, puzzle.date, fresh);
+        }}
+      />
     );
   }
 
@@ -156,51 +144,49 @@ export function WhoRaisedThisGame() {
 
   return (
     <div className="space-y-6">
-      {header}
+      <GameHeader title={TITLE} number={puzzle.number} difficulty={progress.difficulty} />
 
       <ol className="space-y-2">
-        {puzzle.clues.slice(0, cluesShown).map((clue, i) => (
-          <li key={i} className="flex items-center gap-3 rounded-xl border border-border bg-surface p-3">
-            <span className="text-xl" aria-hidden>
-              {CLUE_ICONS[clue.kind]}
-            </span>
-            {clue.kind === "logo-blurred" ? (
-              <CompanyLogo company={answer} size={56} blurred={!done} />
-            ) : (
-              <span className="font-medium">{clue.text}</span>
-            )}
-          </li>
-        ))}
+        {puzzle.clues.slice(0, cluesShown).map((clue, i) => {
+          const Icon = CLUE_ICONS[clue.kind];
+          return (
+            <li key={i} className="flex animate-flip-in items-center gap-3 rounded-xl border border-border bg-surface p-3">
+              <Icon size={20} className="shrink-0 text-primary" aria-hidden />
+              {clue.kind === "logo-blurred" ? (
+                <CompanyLogo company={answer} size={56} blurred={!done} />
+              ) : (
+                <span className="font-medium">{clue.text}</span>
+              )}
+            </li>
+          );
+        })}
         {!done && cluesLocked > 0 && (
-          <li className="rounded-xl border border-dashed border-border p-3 text-sm text-muted">
-            🔒 {cluesLocked} more {cluesLocked === 1 ? "clue" : "clues"}, one per wrong guess
+          <li className="flex items-center gap-3 rounded-xl border border-dashed border-border p-3 text-sm text-muted">
+            <Lock size={16} aria-hidden />
+            {cluesLocked} more {cluesLocked === 1 ? "clue" : "clues"}, one per wrong guess
           </li>
         )}
       </ol>
 
-      {progress.hintsUsed > 0 && (
-        <ul className="space-y-2">
-          {puzzle.hints.slice(0, progress.hintsUsed).map((h, i) => (
-            <li key={i} className="rounded-xl bg-eu-yellow/20 p-3 text-sm">
-              💡 {h.text}
-            </li>
-          ))}
-        </ul>
-      )}
+      <HintList hints={puzzle.hints.slice(0, progress.hintsUsed)} />
 
       {progress.guesses.length > 0 && (
         <div className="flex flex-wrap gap-2">
-          {progress.guesses.map((id) => {
+          {progress.guesses.map((id, i) => {
             const c = companies.get(id);
             if (!c) return null;
             const right = id === answer.id;
+            const latest = i === progress.guesses.length - 1;
             return (
               <span
                 key={id}
-                className={`flex items-center gap-2 rounded-full py-1 pl-1 pr-3 text-sm font-medium ${right ? "bg-green-600 text-white" : "bg-red-600/15 text-red-700 line-through dark:text-red-300"}`}
+                className={`flex items-center gap-1.5 rounded-full py-1 pl-1 pr-3 text-sm font-medium ${
+                  right ? "bg-correct text-white" : `bg-wrong/15 text-wrong ${latest && !done ? "animate-shake" : ""}`
+                }`}
               >
                 <CompanyLogo company={c} size={22} />
-                {c.name}
+                {right ? <Check size={14} aria-label="Right" /> : <X size={14} aria-label="Wrong" />}
+                <span className={right ? "" : "line-through"}>{c.name}</span>
               </span>
             );
           })}
@@ -220,13 +206,7 @@ export function WhoRaisedThisGame() {
               {guessesLeft} {guessesLeft === 1 ? "guess" : "guesses"} left
             </span>
             {rules.hints && progress.hintsUsed < puzzle.hints.length && (
-              <button
-                type="button"
-                onClick={() => update({ ...progress, hintsUsed: progress.hintsUsed + 1 })}
-                className="rounded-full border border-border px-3 py-1 font-medium hover:border-primary"
-              >
-                💡 Hint (−{puzzle.hints[progress.hintsUsed].cost})
-              </button>
+              <HintButton next={puzzle.hints[progress.hintsUsed]} onClick={() => update({ ...progress, hintsUsed: progress.hintsUsed + 1 })} />
             )}
           </div>
           <button
@@ -238,22 +218,18 @@ export function WhoRaisedThisGame() {
           </button>
         </div>
       ) : (
-        <div className="space-y-4">
-          <div className="text-center">
-            <p className="text-3xl font-bold">{won ? `${score}/${MAX_SCORE}` : "Not this time"}</p>
-            <p className="mt-1 text-muted">
-              {won
-                ? `Solved with ${wrong + 1} ${wrong === 0 ? "guess" : "guesses"}${progress.hintsUsed ? ` and ${progress.hintsUsed} 💡` : ""}`
-                : `It was ${answer.name}.`}{" "}
-              · {DIFFICULTY_META[progress.difficulty].emoji} {DIFFICULTY_META[progress.difficulty].label}
-            </p>
-          </div>
+        <div className="space-y-6">
+          <ResultHeader
+            score={score}
+            maxScore={MAX_SCORE}
+            detail={
+              won
+                ? `${wrong + 1} ${wrong === 0 ? "guess" : "guesses"}${progress.hintsUsed ? ` · ${progress.hintsUsed} ${progress.hintsUsed === 1 ? "hint" : "hints"}` : ""}`
+                : `It was ${answer.name}`
+            }
+          />
           <BuiltInEuropeCard company={answer} founders={founders} />
-          <ShareButton text={shareText(puzzle, progress)} />
-          <Countdown />
-          <Link href="/" className="block text-center text-sm font-medium text-primary">
-            ← More games
-          </Link>
+          <GameFooter share={shareText(puzzle, progress)} />
         </div>
       )}
     </div>

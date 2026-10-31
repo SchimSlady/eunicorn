@@ -1,18 +1,23 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
-import Link from "next/link";
+import { Check, VenetianMask, X } from "lucide-react";
 import type { Company, Dataset, ImpostorPuzzle } from "@eunicorn/schema";
 import { indexById, loadDataset } from "@/lib/data";
 import { getTodayResult, loadProgress, loadTodayPuzzle, saveProgress, saveResult } from "@/lib/daily";
-import { DIFFICULTY_META, loadDifficulty, saveDifficulty, type Difficulty } from "@/lib/difficulty";
+import { saveDifficulty, type Difficulty } from "@/lib/difficulty";
+import { shareText as buildShareText } from "@/lib/scoring";
 import { CompanyLogo } from "@/components/CompanyLogo";
-import { ShareButton } from "@/components/ShareButton";
-import { Countdown } from "@/components/Countdown";
 import { BuiltInEuropeCard } from "@/components/BuiltInEuropeCard";
-import { DifficultyPicker } from "@/components/DifficultyPicker";
+import { GameIntro } from "@/components/GameIntro";
+import { Flag } from "@/components/Flag";
+import { GameHeader } from "@/components/GameHeader";
+import { GameFooter } from "@/components/GameFooter";
+import { HintButton, HintList } from "@/components/HintButton";
+import { ResultHeader } from "@/components/ResultHeader";
 
 const MODE = "impostor";
+const TITLE = "Impostor";
 const MAX_SCORE = 10;
 const WRONG_PICK_COST = 4;
 
@@ -51,15 +56,13 @@ function evaluate(p: ImpostorPuzzle, progress: Progress) {
 }
 
 function shareText(p: ImpostorPuzzle, progress: Progress): string {
-  const { rules, won, score } = evaluate(p, progress);
+  const { rules, score } = evaluate(p, progress);
   const squares = Array.from({ length: rules.tries }, (_, i) => {
     const id = progress.picks[i];
     if (id === undefined) return "⬜";
     return id === p.impostorId ? "🟩" : "🟥";
   });
-  const level = DIFFICULTY_META[progress.difficulty];
-  const hints = progress.hintsUsed ? ` 💡${progress.hintsUsed}` : "";
-  return `EUnicorn #${p.number} 🕵️ Impostor ${won ? `${score}/${MAX_SCORE}` : "X"}\n${level.emoji} ${level.label}\n${squares.join("")}${hints}\neunicorn.eu`;
+  return buildShareText({ number: p.number, modeTitle: TITLE, difficulty: progress.difficulty, hintsUsed: progress.hintsUsed, squares, score });
 }
 
 export function ImpostorGame() {
@@ -80,32 +83,20 @@ export function ImpostorGame() {
   if (puzzle === undefined || !data) return <p className="text-muted">Loading…</p>;
   if (puzzle === null) return <p className="text-muted">No puzzle today. Check back tomorrow.</p>;
 
-  const header = (
-    <header className="flex items-baseline justify-between">
-      <h1 className="text-2xl font-bold">Impostor</h1>
-      <span className="text-sm text-muted">
-        {progress && `${DIFFICULTY_META[progress.difficulty].emoji} ${DIFFICULTY_META[progress.difficulty].label} · `}#{puzzle.number}
-      </span>
-    </header>
-  );
-
   // No progress yet: choose the level first. The game is set up from that choice.
   if (!progress) {
     return (
-      <div className="space-y-6">
-        {header}
-        <p className="text-muted">Five startups, one category. One of them doesn&apos;t belong. Find the impostor.</p>
-        <DifficultyPicker
-          initial={loadDifficulty()}
-          rules={RULES_TEXT}
-          onStart={(d) => {
-            saveDifficulty(d);
-            const fresh: Progress = { difficulty: d, picks: [], hintsUsed: 0 };
-            setProgress(fresh);
-            saveProgress(MODE, puzzle.date, fresh);
-          }}
-        />
-      </div>
+      <GameIntro
+        mode={MODE}
+        number={puzzle.number}
+        rules={RULES_TEXT}
+        onStart={(d) => {
+          saveDifficulty(d);
+          const fresh: Progress = { difficulty: d, picks: [], hintsUsed: 0 };
+          setProgress(fresh);
+          saveProgress(MODE, puzzle.date, fresh);
+        }}
+      />
     );
   }
 
@@ -136,9 +127,9 @@ export function ImpostorGame() {
 
   return (
     <div className="space-y-6">
-      {header}
+      <GameHeader title={TITLE} number={puzzle.number} difficulty={progress.difficulty} />
 
-      <p className="rounded-xl bg-eu-blue p-4 text-center text-lg font-semibold text-white">{puzzle.prompt}</p>
+      <p className="rounded-xl bg-eu-blue p-4 text-center font-display text-lg font-bold text-white">{puzzle.prompt}</p>
 
       <ul className="space-y-2">
         {puzzle.companyIds.map((id) => {
@@ -149,8 +140,8 @@ export function ImpostorGame() {
           const state = done ? (isImpostor ? "impostor" : "genuine") : picked ? "wrong" : "open";
           const styles = {
             open: "border-border bg-surface hover:border-primary",
-            wrong: "border-red-600/40 bg-red-600/10 opacity-60",
-            impostor: "border-green-600 bg-green-600/10",
+            wrong: "animate-shake border-wrong/50 bg-wrong/10 opacity-70",
+            impostor: "animate-pop border-correct bg-correct/10",
             genuine: "border-border bg-surface opacity-70",
           }[state];
           return (
@@ -165,29 +156,21 @@ export function ImpostorGame() {
                 <span className="flex-1">
                   <span className={`block font-semibold ${state === "wrong" ? "line-through" : ""}`}>{c.name}</span>
                   {done && (
-                    <span className="block text-sm text-muted">
-                      {c.city} · {c.founded}
+                    <span className="flex items-center gap-1.5 text-sm text-muted">
+                      <Flag country={c.country} size={14} /> {c.city} · {c.founded}
                     </span>
                   )}
                 </span>
-                {state === "wrong" && <span aria-label="Not the impostor">❌</span>}
-                {state === "impostor" && <span aria-label="The impostor">🕵️</span>}
-                {state === "genuine" && <span aria-label="Belongs">✓</span>}
+                {state === "wrong" && <X size={20} className="text-wrong" aria-label="Not the impostor" />}
+                {state === "impostor" && <VenetianMask size={22} className="text-correct" aria-label="The impostor" />}
+                {state === "genuine" && <Check size={20} className="text-muted" aria-label="Belongs" />}
               </button>
             </li>
           );
         })}
       </ul>
 
-      {progress.hintsUsed > 0 && (
-        <ul className="space-y-2">
-          {puzzle.hints.slice(0, progress.hintsUsed).map((h, i) => (
-            <li key={i} className="rounded-xl bg-eu-yellow/20 p-3 text-sm">
-              💡 {h.text}
-            </li>
-          ))}
-        </ul>
-      )}
+      <HintList hints={puzzle.hints.slice(0, progress.hintsUsed)} />
 
       {!done ? (
         <div className="flex items-center justify-between text-sm">
@@ -195,31 +178,25 @@ export function ImpostorGame() {
             {triesLeft} {triesLeft === 1 ? "try" : "tries"} left
           </span>
           {rules.hints && progress.hintsUsed < puzzle.hints.length && (
-            <button
-              type="button"
-              onClick={() => update({ ...progress, hintsUsed: progress.hintsUsed + 1 })}
-              className="rounded-full border border-border px-3 py-1 font-medium hover:border-primary"
-            >
-              💡 Hint (−{puzzle.hints[progress.hintsUsed].cost})
-            </button>
+            <HintButton next={puzzle.hints[progress.hintsUsed]} onClick={() => update({ ...progress, hintsUsed: progress.hintsUsed + 1 })} />
           )}
         </div>
       ) : (
-        <div className="space-y-4">
-          <div className="text-center">
-            <p className="text-3xl font-bold">{won ? `${score}/${MAX_SCORE}` : "Not this time"}</p>
-            <p className="mt-1 text-muted">
-              {won ? `Found it with ${wrong + 1} ${wrong === 0 ? "try" : "tries"}` : `The impostor was ${impostor.name}.`}
-              {progress.hintsUsed ? ` and ${progress.hintsUsed} 💡` : ""}
-            </p>
-          </div>
-          <p className="rounded-xl border border-border bg-surface p-4 text-sm">🕵️ {puzzle.explanation}</p>
+        <div className="space-y-6">
+          <ResultHeader
+            score={score}
+            maxScore={MAX_SCORE}
+            detail={
+              (won ? `${wrong + 1} ${wrong === 0 ? "try" : "tries"}` : `It was ${impostor.name}`) +
+              (progress.hintsUsed ? ` · ${progress.hintsUsed} ${progress.hintsUsed === 1 ? "hint" : "hints"}` : "")
+            }
+          />
+          <p className="flex animate-flip-in items-start gap-2 rounded-xl border border-border bg-surface p-4 text-sm">
+            <VenetianMask size={18} className="mt-0.5 shrink-0 text-primary" aria-hidden />
+            {puzzle.explanation}
+          </p>
           <BuiltInEuropeCard company={featured} founders={featuredFounders} />
-          <ShareButton text={shareText(puzzle, progress)} />
-          <Countdown />
-          <Link href="/" className="block text-center text-sm font-medium text-primary">
-            ← More games
-          </Link>
+          <GameFooter share={shareText(puzzle, progress)} />
         </div>
       )}
     </div>

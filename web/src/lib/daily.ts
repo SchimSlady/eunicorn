@@ -87,9 +87,13 @@ export function saveResult(mode: GameMode, result: DailyResult): void {
   }
 }
 
-/** Consecutive days played up to and including today (or yesterday, if today isn't played yet). */
-export function streak(mode: GameMode, now = new Date()): number {
-  const played = new Set(readResults(mode).map((r) => r.date));
+/**
+ * Consecutive days played up to and including today (or yesterday, if today isn't played yet).
+ * One mode, or across all given modes (a day counts if any of them was played).
+ */
+export function streak(mode: GameMode | GameMode[], now = new Date()): number {
+  const modes = Array.isArray(mode) ? mode : [mode];
+  const played = new Set(modes.flatMap((m) => readResults(m).map((r) => r.date)));
   const day = new Date(now);
   if (!played.has(todayKey(day))) day.setDate(day.getDate() - 1);
   let n = 0;

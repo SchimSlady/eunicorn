@@ -1,19 +1,24 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
-import Link from "next/link";
+import { Check, Timer, X } from "lucide-react";
 import type { Company, Dataset, HigherLowerPuzzle } from "@eunicorn/schema";
 import { indexById, loadDataset } from "@/lib/data";
 import { getTodayResult, loadProgress, loadTodayPuzzle, saveProgress, saveResult } from "@/lib/daily";
-import { DIFFICULTY_META, loadDifficulty, saveDifficulty, type Difficulty } from "@/lib/difficulty";
+import { saveDifficulty, type Difficulty } from "@/lib/difficulty";
 import { METRIC_META, formatMetric } from "@/lib/format";
+import { shareText as buildShareText } from "@/lib/scoring";
 import { CompanyLogo } from "@/components/CompanyLogo";
-import { ShareButton } from "@/components/ShareButton";
-import { Countdown } from "@/components/Countdown";
 import { BuiltInEuropeCard } from "@/components/BuiltInEuropeCard";
-import { DifficultyPicker } from "@/components/DifficultyPicker";
+import { GameIntro } from "@/components/GameIntro";
+import { Flag } from "@/components/Flag";
+import { GameHeader } from "@/components/GameHeader";
+import { GameFooter } from "@/components/GameFooter";
+import { HintButton, HintList } from "@/components/HintButton";
+import { ResultHeader } from "@/components/ResultHeader";
 
 const MODE = "higher-lower";
+const TITLE = "Higher or Lower";
 const POINTS_PER_ROUND = 2;
 /** Recorded when the hard-mode timer runs out; always counts as wrong. */
 const TIMEOUT = "timeout";
@@ -84,11 +89,9 @@ function evaluate(p: HigherLowerPuzzle, progress: Progress, companies: Map<strin
 }
 
 function shareText(p: HigherLowerPuzzle, progress: Progress, companies: Map<string, Company>): string {
-  const { rounds, score, maxScore } = evaluate(p, progress, companies);
+  const { rounds, score } = evaluate(p, progress, companies);
   const squares = rounds.map((r) => (r.correct ? "🟩" : "🟥"));
-  const level = DIFFICULTY_META[progress.difficulty];
-  const hints = progress.hintsUsed ? ` 💡${progress.hintsUsed}` : "";
-  return `EUnicorn #${p.number} 📈 Higher or Lower ${score}/${maxScore}\n${level.emoji} ${level.label}\n${squares.join("")}${hints}\neunicorn.eu`;
+  return buildShareText({ number: p.number, modeTitle: TITLE, difficulty: progress.difficulty, hintsUsed: progress.hintsUsed, squares, score });
 }
 
 export function HigherLowerGame() {
@@ -155,48 +158,26 @@ export function HigherLowerGame() {
   if (puzzle === null) return <p className="text-muted">No puzzle today. Check back tomorrow.</p>;
 
   const meta = METRIC_META[puzzle.metric];
-  const header = (
-    <header className="flex items-baseline justify-between">
-      <h1 className="text-2xl font-bold">Higher or Lower</h1>
-      <span className="text-sm text-muted">
-        {progress && `${DIFFICULTY_META[progress.difficulty].emoji} ${DIFFICULTY_META[progress.difficulty].label} · `}#{puzzle.number}
-      </span>
-    </header>
-  );
 
   // No progress yet: choose the level first. The game is set up from that choice.
   if (!progress) {
     return (
-      <div className="space-y-6">
-        {header}
-        <p className="text-muted">
-          {meta.question} The company you pick stays on and faces the next challenger. {puzzle.companyIds.length - 1} rounds.
-        </p>
-        <DifficultyPicker
-          initial={loadDifficulty()}
-          rules={RULES_TEXT}
-          onStart={(d) => {
-            saveDifficulty(d);
-            const fresh: Progress = { difficulty: d, answers: [], hintsUsed: 0 };
-            setProgress(fresh);
-            saveProgress(MODE, puzzle.date, fresh);
-          }}
-        />
-      </div>
+      <GameIntro
+        mode={MODE}
+        number={puzzle.number}
+        rules={RULES_TEXT}
+        onStart={(d) => {
+          saveDifficulty(d);
+          const fresh: Progress = { difficulty: d, answers: [], hintsUsed: 0 };
+          setProgress(fresh);
+          saveProgress(MODE, puzzle.date, fresh);
+        }}
+      />
     );
   }
 
   const { rules, rounds, totalRounds, correct, maxScore, done, score } = evaluate(puzzle, progress, companies);
-
-  const hintsBlock = progress.hintsUsed > 0 && (
-    <ul className="space-y-2">
-      {puzzle.hints.slice(0, progress.hintsUsed).map((h, i) => (
-        <li key={i} className="rounded-xl bg-eu-yellow/20 p-3 text-sm">
-          💡 {h.text}
-        </li>
-      ))}
-    </ul>
-  );
+  const hints = puzzle.hints.slice(0, progress.hintsUsed);
 
   if (done && !reviewing) {
     const all = puzzle.companyIds.map((id) => companies.get(id)!);
@@ -206,22 +187,23 @@ export function HigherLowerGame() {
       .filter((n): n is string => !!n);
     return (
       <div className="space-y-6">
-        {header}
-        <div className="text-center">
-          <p className="text-3xl font-bold">
-            {score}/{maxScore}
-          </p>
-          <p className="mt-1 text-muted">
-            {correct} of {totalRounds} right{progress.hintsUsed ? ` · ${progress.hintsUsed} 💡` : ""}
-          </p>
-        </div>
+        <GameHeader title={TITLE} number={puzzle.number} difficulty={progress.difficulty} />
+        <ResultHeader
+          score={score}
+          maxScore={maxScore}
+          detail={`${correct} of ${totalRounds} right${progress.hintsUsed ? ` · ${progress.hintsUsed} ${progress.hintsUsed === 1 ? "hint" : "hints"}` : ""}`}
+        />
         <ul className="space-y-2">
           {rounds.map((r, i) => {
             const a = companies.get(r.champion)!;
             const b = companies.get(r.challenger)!;
             return (
               <li key={i} className="flex items-center gap-2 rounded-xl border border-border bg-surface p-3 text-sm">
-                <span aria-label={r.correct ? "Right" : "Wrong"}>{r.correct ? "✅" : "❌"}</span>
+                {r.correct ? (
+                  <Check size={18} className="shrink-0 text-correct" aria-label="Right" />
+                ) : (
+                  <X size={18} className="shrink-0 text-wrong" aria-label="Wrong" />
+                )}
                 <span className={`flex-1 ${r.higher === a.id ? "font-semibold" : "text-muted"}`}>
                   {a.name} {formatMetric(a, puzzle.metric)}
                 </span>
@@ -233,13 +215,9 @@ export function HigherLowerGame() {
             );
           })}
         </ul>
-        {hintsBlock}
+        <HintList hints={hints} />
         <BuiltInEuropeCard company={featured} founders={founders} />
-        <ShareButton text={shareText(puzzle, progress, companies)} />
-        <Countdown />
-        <Link href="/" className="block text-center text-sm font-medium text-primary">
-          ← More games
-        </Link>
+        <GameFooter share={shareText(puzzle, progress, companies)} />
       </div>
     );
   }
@@ -250,18 +228,20 @@ export function HigherLowerGame() {
 
   return (
     <div className="space-y-6">
-      {header}
+      <GameHeader title={TITLE} number={puzzle.number} difficulty={progress.difficulty} />
 
       <div className="flex items-center justify-between text-sm">
         <span className="font-semibold">
           Round {reviewing ? roundIndex : roundIndex + 1} of {totalRounds}
         </span>
         {secondsLeft !== null && (
-          <span className={`font-mono font-semibold ${secondsLeft <= 3 ? "text-red-600" : "text-muted"}`}>⏱ {secondsLeft}s</span>
+          <span className={`flex items-center gap-1 font-semibold ${secondsLeft <= 3 ? "text-wrong" : "text-muted"}`}>
+            <Timer size={16} aria-hidden /> {secondsLeft}s
+          </span>
         )}
       </div>
 
-      <p className="text-center text-lg font-semibold">{meta.question}</p>
+      <p className="text-center font-display text-lg font-bold">{meta.question}</p>
 
       <div className="space-y-2">
         {[round.champion, round.challenger].map((id, i) => {
@@ -272,9 +252,9 @@ export function HigherLowerGame() {
           const reviewStyle = !reviewing
             ? "border-border bg-surface hover:border-primary"
             : isHigher
-              ? "border-green-600 bg-green-600/10"
+              ? "border-correct bg-correct/10"
               : given === id
-                ? "border-red-600/50 bg-red-600/10"
+                ? "animate-shake border-wrong/60 bg-wrong/10"
                 : "border-border bg-surface opacity-70";
           return (
             // Keyed per round so a card that moves up doesn't animate out of last round's colors.
@@ -291,14 +271,20 @@ export function HigherLowerGame() {
                   <span className="block text-xs font-semibold uppercase tracking-wider text-muted">
                     {isChampion ? (round === rounds[0] ? "Start" : "Your pick") : "Challenger"}
                   </span>
-                  <span className="block text-lg font-bold">{c.name}</span>
-                  <span className="block text-sm text-muted">
-                    {c.city} · {c.founded}
+                  <span className="block font-display text-lg font-bold">{c.name}</span>
+                  <span className="flex items-center gap-1.5 text-sm text-muted">
+                    <Flag country={c.country} size={14} /> {c.city} · {c.founded}
                   </span>
                 </span>
                 <span className="text-right">
                   <span className="block text-xs text-muted">{meta.label}</span>
-                  <span className="block text-lg font-bold">{showValue ? formatMetric(c, puzzle.metric) : "?"}</span>
+                  {showValue ? (
+                    <span key="value" className="block animate-flip-in font-display text-lg font-bold">
+                      {formatMetric(c, puzzle.metric)}
+                    </span>
+                  ) : (
+                    <span className="block font-display text-lg font-bold">?</span>
+                  )}
                 </span>
               </button>
             </div>
@@ -306,12 +292,13 @@ export function HigherLowerGame() {
         })}
       </div>
 
-      {hintsBlock}
+      <HintList hints={hints} />
 
       {reviewing ? (
         <div className="space-y-2">
-          <p className="text-center font-semibold">
-            {round.correct ? "✅ Right" : given === TIMEOUT ? "⏱ Time's up" : "❌ Wrong"}
+          <p className={`flex items-center justify-center gap-1.5 font-semibold ${round.correct ? "text-correct" : "text-wrong"}`}>
+            {round.correct ? <Check size={18} aria-hidden /> : given === TIMEOUT ? <Timer size={18} aria-hidden /> : <X size={18} aria-hidden />}
+            {round.correct ? "Right" : given === TIMEOUT ? "Time's up" : "Wrong"}
           </p>
           {!done && (
             <p className="text-center text-sm text-muted">
@@ -329,14 +316,8 @@ export function HigherLowerGame() {
       ) : (
         rules.hints &&
         progress.hintsUsed < puzzle.hints.length && (
-          <div className="flex justify-end text-sm">
-            <button
-              type="button"
-              onClick={() => update({ ...progress, hintsUsed: progress.hintsUsed + 1 })}
-              className="rounded-full border border-border px-3 py-1 font-medium hover:border-primary"
-            >
-              💡 Hint (−{puzzle.hints[progress.hintsUsed].cost})
-            </button>
+          <div className="flex justify-end">
+            <HintButton next={puzzle.hints[progress.hintsUsed]} onClick={() => update({ ...progress, hintsUsed: progress.hintsUsed + 1 })} />
           </div>
         )
       )}
