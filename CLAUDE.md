@@ -19,4 +19,5 @@ Read `PLAN.md` first. Two people work in parallel, each with their own Claude se
 - IDs are kebab-case slugs (`mistral-ai`, `index-ventures`, `nik-storonsky`).
 - Money is stored in USD (`amountUsd`); the announced currency goes in `amountOriginal`.
 - Day boundary: midnight `Europe/Berlin` (see `web/src/lib/daily.ts`).
+- **Company logos** (trademark rules): the official logo, unmodified (no recolouring, cropping into shapes or animation beyond the tile), stored in `web/public/logos/<id>.svg|png` with its source in the dataset. Only inside the games to identify a company: never in EUnicorn branding, the share text, OG images or ads. Removal requests to the contact email are honoured promptly.
 - Every puzzle has `hints` (`{ text, cost }`), revealed in order. Unicorn Grid also has `cellHints` per cell.

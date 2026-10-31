@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { LegalPage, Section } from "@/components/LegalPage";
-import { OPERATOR } from "@/lib/legal";
+import { CONTACT_EMAIL } from "@/lib/legal";
 
 export const metadata: Metadata = { title: "Privacy · EUnicorn" };
 
@@ -19,9 +19,9 @@ export default function Privacy() {
 
       <Section title="Who is responsible">
         <p>
-          {OPERATOR.names.join(" and ")}, {OPERATOR.street}, {OPERATOR.city}, {OPERATOR.country}. Email:{" "}
-          <a href={`mailto:${OPERATOR.email}`} className={link}>
-            {OPERATOR.email}
+          The operators of EUnicorn, reachable at{" "}
+          <a href={`mailto:${CONTACT_EMAIL}`} className={link}>
+            {CONTACT_EMAIL}
           </a>
           . More in the <a href="/impressum" className={link}>Impressum</a>.
         </p>
@@ -67,10 +67,22 @@ export default function Privacy() {
         </p>
       </Section>
 
+      <Section title="Instagram">
+        <p>
+          The footer links to our Instagram profile. It is a plain link, not an embed: nothing is sent to Instagram
+          until you click it. After that, Instagram&apos;s (Meta Platforms Ireland Ltd.) privacy policy applies.
+        </p>
+      </Section>
+
       <Section title="Writing to us">
         <p>
           If you email us, we use your address and message only to reply (Art. 6 (1) (b) and (f) GDPR) and delete them
-          once your request is settled, unless we must keep them by law.
+          once your request is settled, unless we must keep them by law. Our mailbox is hosted by Gmail (Google Ireland
+          Limited, Gordon House, Barrow Street, Dublin 4, Ireland), so Google processes the emails you send us; see{" "}
+          <a href="https://policies.google.com/privacy" className={link} rel="noopener">
+            Google&apos;s privacy policy
+          </a>
+          .
         </p>
       </Section>
 
@@ -81,9 +93,10 @@ export default function Privacy() {
           address above.
         </p>
         <p>
-          You can also complain to a data protection authority, for example the one responsible for us:{" "}
-          <a href={OPERATOR.authority.url} className={link} rel="noopener">
-            {OPERATOR.authority.name}
+          You can also complain to a data protection authority, in particular the one in the EU country where you live
+          or work (Art. 77 GDPR). A list of all authorities is kept by the{" "}
+          <a href="https://www.edpb.europa.eu/about-edpb/about-edpb/members_en" className={link} rel="noopener">
+            European Data Protection Board
           </a>
           .
         </p>

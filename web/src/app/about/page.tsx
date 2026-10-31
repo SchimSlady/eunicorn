@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { LegalPage, Section } from "@/components/LegalPage";
-import { OPERATOR } from "@/lib/legal";
+import { CONTACT_EMAIL } from "@/lib/legal";
 
 export const metadata: Metadata = { title: "About & data · EUnicorn" };
 
@@ -25,8 +25,8 @@ export default function About() {
         <p>
           Valuations and rounds are often reported in US dollars; we show them in euros at an approximate rate, so
           amounts are rounded. Facts change and sources sometimes disagree. If something is wrong, tell us at{" "}
-          <a href={`mailto:${OPERATOR.email}`} className={link}>
-            {OPERATOR.email}
+          <a href={`mailto:${CONTACT_EMAIL}`} className={link}>
+            {CONTACT_EMAIL}
           </a>{" "}
           and we will fix it. Nothing here is investment advice.
         </p>
@@ -34,9 +34,17 @@ export default function About() {
 
       <Section title="Names and logos">
         <p>
-          Company names and logos are trademarks of their owners. We show them only to identify the companies in our
-          games. EUnicorn is not affiliated with, sponsored or endorsed by any of them. If you represent a company and
-          want something changed or removed, write to us.
+          Company names and logos are trademarks of their owners. We use them only to say which company a question is
+          about, the way a newspaper would. EUnicorn is not affiliated with, sponsored or endorsed by any of them.
+        </p>
+        <p>
+          We show logos unchanged and at small size, never in our own branding, advertising or share images, and we do
+          not use them to suggest a partnership. If you represent a company and want its logo or name changed or
+          removed, write to{" "}
+          <a href={`mailto:${CONTACT_EMAIL}`} className={link}>
+            {CONTACT_EMAIL}
+          </a>{" "}
+          and we will act on it promptly.
         </p>
       </Section>
 
