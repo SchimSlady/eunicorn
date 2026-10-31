@@ -57,6 +57,13 @@ export default function About() {
 
       <Section title="Credits">
         <p>
+          Funding data:{" "}
+          <a href="https://tech.eu" className={link} rel="noopener">
+            Tech.eu Funding Explorer
+          </a>{" "}
+          (CC BY 4.0), checked against company announcements before it appears in a game.
+        </p>
+        <p>
           Fonts:{" "}
           <a href="https://rsms.me/inter/" className={link} rel="noopener">
             Inter

@@ -3,8 +3,8 @@
 import { useEffect, useMemo, useState } from "react";
 import { X } from "lucide-react";
 import type { Company, Dataset, GridCriterion, UnicornGridPuzzle } from "@eunicorn/schema";
-import { indexById, loadDataset } from "@/lib/data";
-import { getTodayResult, loadProgress, loadTodayPuzzle, saveProgress, saveResult } from "@/lib/daily";
+import { indexById, loadGame } from "@/lib/data";
+import { getTodayResult, loadProgress, saveProgress, saveResult } from "@/lib/daily";
 import { saveDifficulty, type Difficulty } from "@/lib/difficulty";
 import { shareText as buildShareText } from "@/lib/scoring";
 import { CompanyLogo } from "@/components/CompanyLogo";
@@ -86,7 +86,7 @@ export function UnicornGridGame() {
   const [miss, setMiss] = useState<{ cell: number; name: string; n: number } | null>(null);
 
   useEffect(() => {
-    Promise.all([loadTodayPuzzle<UnicornGridPuzzle>(MODE), loadDataset()]).then(([p, d]) => {
+    loadGame<UnicornGridPuzzle>(MODE).then(({ puzzle: p, data: d }) => {
       setData(d);
       setPuzzle(p);
       if (p) setProgress(loadProgress<Progress>(MODE, p.date));

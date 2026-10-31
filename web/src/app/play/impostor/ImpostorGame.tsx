@@ -3,8 +3,8 @@
 import { useEffect, useMemo, useState } from "react";
 import { Check, VenetianMask, X } from "lucide-react";
 import type { Company, Dataset, ImpostorPuzzle } from "@eunicorn/schema";
-import { indexById, loadDataset } from "@/lib/data";
-import { getTodayResult, loadProgress, loadTodayPuzzle, saveProgress, saveResult } from "@/lib/daily";
+import { indexById, loadGame } from "@/lib/data";
+import { getTodayResult, loadProgress, saveProgress, saveResult } from "@/lib/daily";
 import { saveDifficulty, type Difficulty } from "@/lib/difficulty";
 import { shareText as buildShareText } from "@/lib/scoring";
 import { CompanyLogo } from "@/components/CompanyLogo";
@@ -66,7 +66,7 @@ export function ImpostorGame() {
   const [progress, setProgress] = useState<Progress | null>(null);
 
   useEffect(() => {
-    Promise.all([loadTodayPuzzle<ImpostorPuzzle>(MODE), loadDataset()]).then(([p, d]) => {
+    loadGame<ImpostorPuzzle>(MODE).then(({ puzzle: p, data: d }) => {
       setData(d);
       setPuzzle(p);
       if (p) setProgress(loadProgress<Progress>(MODE, p.date));
