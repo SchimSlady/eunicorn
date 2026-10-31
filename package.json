@@ -2,10 +2,21 @@
   "name": "eunicorn",
   "private": true,
   "type": "module",
-  "workspaces": ["web", "packages/*"],
+  "workspaces": [
+    "web",
+    "packages/*"
+  ],
   "scripts": {
     "dev": "npm run dev -w @eunicorn/web",
     "build": "npm run build -w @eunicorn/web",
-    "validate": "node data/scripts/validate.ts"
+    "validate": "tsx data/scripts/validate.ts",
+    "import:techeu": "tsx data/scripts/import-techeu.ts",
+    "select:candidates": "tsx data/scripts/select-candidates.ts",
+    "load:verified": "tsx data/scripts/load-verified.ts"
+  },
+  "devDependencies": {
+    "@types/pg": "^8.23.1",
+    "pg": "^8.23.1",
+    "tsx": "^4.23.15"
   }
 }
