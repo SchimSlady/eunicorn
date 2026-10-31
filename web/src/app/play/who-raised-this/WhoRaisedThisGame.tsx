@@ -12,10 +12,12 @@ import { CompanySearch } from "@/components/CompanySearch";
 import { BuiltInEuropeCard } from "@/components/BuiltInEuropeCard";
 import { GameIntro } from "@/components/GameIntro";
 import { GameHeader } from "@/components/GameHeader";
+import { Announce, NoPuzzle } from "@/components/Announce";
 import { GameFooter } from "@/components/GameFooter";
 import { HintButton, HintList } from "@/components/HintButton";
 import { ResultHeader } from "@/components/ResultHeader";
 import { DealBoard, GuessPills } from "./DealBoard";
+import { RevealButton } from "@/components/RevealButton";
 
 const MODE = "who-raised-this";
 const TITLE = "Who Raised This?";
@@ -83,7 +85,7 @@ export function WhoRaisedThisGame() {
   const companies = useMemo(() => (data ? indexById(data.companies) : new Map<string, Company>()), [data]);
 
   if (puzzle === undefined || !data) return <p className="text-muted">Loading…</p>;
-  if (puzzle === null) return <p className="text-muted">No puzzle today. Check back tomorrow.</p>;
+  if (puzzle === null) return <NoPuzzle />;
 
   // No progress yet: choose the level first. The game is set up from that choice.
   if (!progress) {
@@ -129,6 +131,17 @@ export function WhoRaisedThisGame() {
   return (
     <div className="space-y-6">
       <GameHeader title={TITLE} difficulty={progress.difficulty} />
+      <Announce
+        text={
+          done
+            ? won
+              ? `Right, it was ${answer.name}.`
+              : `It was ${answer.name}.`
+            : progress.guesses.length
+              ? `${companies.get(progress.guesses.at(-1)!)?.name} is not it. New clue: ${puzzle.clues[cluesShown - 1].text}`
+              : `First clue: ${puzzle.clues[0].text}`
+        }
+      />
 
       <DealBoard clues={puzzle.clues} cluesShown={cluesShown} done={done} answer={answer} round={round} />
 
@@ -172,16 +185,10 @@ export function WhoRaisedThisGame() {
               {guessesLeft} {guessesLeft === 1 ? "guess" : "guesses"} left
             </span>
             {rules.hints && progress.hintsUsed < puzzle.hints.length && (
-              <HintButton onClick={() => update({ ...progress, hintsUsed: progress.hintsUsed + 1 })} />
+              <HintButton cost={puzzle.hints[progress.hintsUsed].cost} onClick={() => update({ ...progress, hintsUsed: progress.hintsUsed + 1 })} />
             )}
           </div>
-          <button
-            type="button"
-            onClick={() => update({ ...progress, gaveUp: true })}
-            className="w-full text-center text-xs text-muted underline"
-          >
-            Reveal answer
-          </button>
+          <RevealButton label="Reveal answer" onConfirm={() => update({ ...progress, gaveUp: true })} />
         </div>
       ) : (
         <div className="space-y-6">

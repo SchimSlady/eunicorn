@@ -1,7 +1,11 @@
 import type { Metadata } from "next";
+import { MODE_INFO } from "@/lib/modes";
+import { pageMetadata } from "@/lib/seo";
 import { ImpostorGame } from "./ImpostorGame";
 
-export const metadata: Metadata = { title: "Impostor · EUnicorn" };
+const info = MODE_INFO["impostor"];
+
+export const metadata: Metadata = pageMetadata("Impostor · EUnicorn", info.description, "/play/impostor");
 
 export default function Page() {
   return (

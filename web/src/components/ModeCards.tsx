@@ -2,9 +2,9 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import { CircleCheck, Flame } from "lucide-react";
+import { CircleCheck } from "lucide-react";
 import type { GameMode } from "@eunicorn/schema";
-import { getTodayResult, loadTodayPuzzle, streak, type DailyResult } from "@/lib/daily";
+import { getTodayResult, loadTodayPuzzle, type DailyResult } from "@/lib/daily";
 import { MODES } from "@/lib/modes";
 import { formatRaised } from "@/lib/scoring";
 import { ModePreview } from "./ModePreview";
@@ -12,11 +12,9 @@ import { ModePreview } from "./ModePreview";
 /** One card per mode: illustration, PLAY, title, and a ✓ with the score once played today. */
 export function ModeCards() {
   const [results, setResults] = useState<Partial<Record<GameMode, DailyResult>>>({});
-  const [days, setDays] = useState(0);
 
   useEffect(() => {
     const playable = MODES.map((m) => m.mode);
-    setDays(streak(playable));
     Promise.all(
       playable.map(async (mode) => {
         const p = await loadTodayPuzzle(mode);
@@ -27,11 +25,6 @@ export function ModeCards() {
 
   return (
     <div className="space-y-4">
-      {days > 0 && (
-        <p className="flex items-center gap-1.5 text-sm font-semibold">
-          <Flame size={16} className="text-primary" aria-hidden /> {days} day streak
-        </p>
-      )}
       <ul className="grid grid-cols-2 gap-4 lg:grid-cols-4">
         {MODES.map((m) => {
           const result = results[m.mode];

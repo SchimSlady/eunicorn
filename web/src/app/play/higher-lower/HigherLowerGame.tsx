@@ -13,6 +13,7 @@ import { BuiltInEuropeCard } from "@/components/BuiltInEuropeCard";
 import { GameIntro } from "@/components/GameIntro";
 import { Flag } from "@/components/Flag";
 import { GameHeader } from "@/components/GameHeader";
+import { Announce, NoPuzzle } from "@/components/Announce";
 import { GameFooter } from "@/components/GameFooter";
 import { HintButton, HintList } from "@/components/HintButton";
 import { ResultHeader } from "@/components/ResultHeader";
@@ -150,7 +151,7 @@ export function HigherLowerGame() {
   }
 
   if (puzzle === undefined || !data) return <p className="text-muted">Loading…</p>;
-  if (puzzle === null) return <p className="text-muted">No puzzle today. Check back tomorrow.</p>;
+  if (puzzle === null) return <NoPuzzle />;
 
   const meta = METRIC_META[puzzle.metric];
   const phrase = PHRASE[puzzle.metric];
@@ -230,6 +231,13 @@ export function HigherLowerGame() {
   return (
     <div className="space-y-5">
       <GameHeader title={TITLE} difficulty={progress.difficulty} />
+      <Announce
+        text={
+          reviewing
+            ? `${round.correct ? "Right" : "Wrong"}. ${next.name} ${phrase.has} ${formatMetric(next, play.metric)}.`
+            : `${prev.name} ${phrase.has} ${formatMetric(prev, play.metric)}. Is ${next.name} higher or lower?`
+        }
+      />
 
       <div className="flex items-center justify-between text-sm">
         <span className="font-semibold">
@@ -306,7 +314,7 @@ export function HigherLowerGame() {
         rules.hints &&
         progress.hintsUsed < play.hints.length && (
           <div className="flex justify-end">
-            <HintButton onClick={() => update({ ...progress, hintsUsed: progress.hintsUsed + 1 })} />
+            <HintButton cost={play.hints[progress.hintsUsed].cost} onClick={() => update({ ...progress, hintsUsed: progress.hintsUsed + 1 })} />
           </div>
         )
       )}
