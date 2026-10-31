@@ -55,7 +55,7 @@ function shareText(p: ImpostorPuzzle, progress: Progress): string {
   const squares = Array.from({ length: rules.tries }, (_, i) => {
     const id = progress.picks[i];
     if (id === undefined) return "⬜";
-    return id === p.impostorId ? "🟩" : "🟥";
+    return id === p.impostorId ? "🟩" : "🟥"; // share text, not UI. taste-skill-ignore
   });
   return buildShareText({ number: p.number, modeTitle: TITLE, difficulty: progress.difficulty, hintsUsed: progress.hintsUsed, squares, score });
 }
@@ -83,7 +83,6 @@ export function ImpostorGame() {
     return (
       <GameIntro
         mode={MODE}
-        number={puzzle.number}
         onStart={(d) => {
           saveDifficulty(d);
           const fresh: Progress = { difficulty: d, picks: [], hintsUsed: 0 };
@@ -121,9 +120,9 @@ export function ImpostorGame() {
 
   return (
     <div className="space-y-6">
-      <GameHeader title={TITLE} number={puzzle.number} difficulty={progress.difficulty} />
+      <GameHeader title={TITLE} difficulty={progress.difficulty} />
 
-      <p className="rounded-xl bg-eu-blue p-4 text-center font-display text-lg font-bold text-white">{puzzle.prompt}</p>
+      <p className="rounded-2xl bg-eu-blue p-4 text-center font-display text-lg font-bold text-white">{puzzle.prompt}</p>
 
       <ul className="space-y-2">
         {puzzle.companyIds.map((id) => {
@@ -144,7 +143,7 @@ export function ImpostorGame() {
                 type="button"
                 disabled={done || picked}
                 onClick={() => update({ ...progress, picks: [...progress.picks, id] })}
-                className={`flex w-full items-center gap-3 rounded-xl border-2 p-3 text-left transition ${styles}`}
+                className={`flex w-full items-center gap-3 rounded-2xl border-2 p-3 text-left transition ${styles}`}
               >
                 <CompanyLogo company={c} size={44} />
                 <span className="flex-1">
@@ -185,7 +184,7 @@ export function ImpostorGame() {
               (progress.hintsUsed ? ` · ${progress.hintsUsed} ${progress.hintsUsed === 1 ? "hint" : "hints"}` : "")
             }
           />
-          <p className="flex animate-flip-in items-start gap-2 rounded-xl border border-border bg-surface p-4 text-sm">
+          <p className="flex animate-flip-in items-start gap-2 rounded-2xl border border-border bg-surface p-4 text-sm">
             <VenetianMask size={18} className="mt-0.5 shrink-0 text-primary" aria-hidden />
             {puzzle.explanation}
           </p>

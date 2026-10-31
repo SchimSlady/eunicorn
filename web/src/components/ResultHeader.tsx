@@ -21,7 +21,7 @@ export function ResultHeader({ score, maxScore, detail }: { score: number; maxSc
 
   return (
     <div className="animate-pop text-center">
-      <p className="text-sm font-semibold uppercase tracking-widest text-muted">{verdict(score, maxScore)}</p>
+      <p className="text-sm font-semibold text-muted">{verdict(score, maxScore)}</p>
       <p className="mt-1 font-display text-4xl font-bold">{formatRaised(score)}</p>
       <p className="mt-1 text-sm text-muted">
         of €{maxScore}M · {detail}

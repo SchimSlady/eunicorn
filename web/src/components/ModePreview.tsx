@@ -56,7 +56,7 @@ function WhoRaisedThisPreview() {
     { Icon: MapPin, text: "Paris" },
   ];
   return (
-    <div className="w-full max-w-[220px] space-y-1 text-[11px]">
+    <div className="w-full max-w-[220px] space-y-1 text-[12px]">
       {clues.map(({ Icon, text }) => (
         <div key={text} className="flex items-center gap-2 rounded-md bg-white/10 px-2 py-1.5">
           <Icon size={13} className="text-eu-yellow" />
@@ -76,7 +76,7 @@ function UnicornGridPreview() {
   const rows = ["Fintech", "AI", "2015+"];
   const filled: Record<string, string> = { "0-0": "N", "0-1": "R", "1-0": "D", "1-2": "M", "2-1": "E" };
   return (
-    <div className="grid grid-cols-4 gap-1 text-[9px]">
+    <div className="grid grid-cols-4 gap-1 text-[11px]">
       <span className="flex h-7 w-12 items-center justify-center font-display font-bold text-eu-yellow">EU</span>
       {cols.map((c) => (
         <span key={c} className="flex h-7 w-12 items-center justify-center rounded-md bg-white/10">
@@ -102,24 +102,24 @@ function UnicornGridPreview() {
 
 function HigherLowerPreview() {
   return (
-    <div className="w-full max-w-[220px] text-[11px]">
+    <div className="w-full max-w-[220px] text-[12px]">
       <div className="flex items-center gap-2 rounded-lg border-2 border-white/80 bg-white/10 p-2">
         <Tile letter="N" />
         <span className="flex-1">
-          <span className="block text-[8px] uppercase tracking-wider text-white/60">Your pick</span>
+          <span className="block text-[11px] text-white/70">Your pick</span>
           <span className="font-semibold">N26</span>
         </span>
         <span className="font-display text-sm font-bold">$9B</span>
       </div>
       <div className="flex items-center justify-center gap-3 py-1.5 text-eu-yellow">
         <ChevronUp size={18} />
-        <span className="text-[9px] font-bold uppercase tracking-widest text-white/60">vs</span>
+        <span className="text-[11px] font-semibold text-white/70">vs</span>
         <ChevronDown size={18} />
       </div>
       <div className="flex items-center gap-2 rounded-lg bg-white/10 p-2">
         <Tile letter="P" />
         <span className="flex-1">
-          <span className="block text-[8px] uppercase tracking-wider text-white/60">Challenger</span>
+          <span className="block text-[11px] text-white/70">Challenger</span>
           <span className="font-semibold">Personio</span>
         </span>
         <span className="font-display text-sm font-bold text-eu-yellow">?</span>
@@ -133,7 +133,7 @@ function ImpostorPreview() {
   const letters = ["R", "K", "C", "B", "C"];
   return (
     <div className="relative h-36 w-36">
-      <span className="absolute inset-0 m-auto flex h-14 w-20 items-center justify-center rounded-lg bg-white/10 px-1 text-center text-[9px] font-semibold leading-tight">
+      <span className="absolute inset-0 m-auto flex h-14 w-20 items-center justify-center rounded-lg bg-white/10 px-1 text-center text-[11px] font-semibold leading-tight">
         European unicorns
       </span>
       {letters.map((l, i) => {

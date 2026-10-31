@@ -32,7 +32,7 @@ export function ModeCards() {
           <Flame size={16} className="text-primary" aria-hidden /> {days} day streak
         </p>
       )}
-      <ul className="grid grid-cols-2 gap-3">
+      <ul className="grid grid-cols-2 gap-4 lg:grid-cols-4">
         {MODES.map((m) => {
           const result = results[m.mode];
           const card = (
@@ -45,12 +45,9 @@ export function ModeCards() {
                   </span>
                 )}
               </div>
-              <div className="p-3 text-center">
-                <p className="font-display text-lg font-bold uppercase tracking-wide">
-                  {result ? "Results" : "Play"}
-                </p>
-                <p className="text-sm font-semibold">{m.title}</p>
-                <p className="mt-1 text-xs text-muted">{result ? formatRaised(result.score) : m.tagline}</p>
+              <div className="p-4">
+                <p className="font-display text-lg font-bold leading-tight">{m.title}</p>
+                <p className="mt-1 text-sm text-muted">{result ? formatRaised(result.score) : m.tagline}</p>
               </div>
             </>
           );

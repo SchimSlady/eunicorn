@@ -53,10 +53,11 @@ export function CompanySearch({
         placeholder={placeholder}
         autoFocus={autoFocus}
         autoComplete="off"
-        className="w-full rounded-xl border border-border bg-surface px-4 py-3 text-base outline-none focus:border-primary"
+        className="w-full rounded-2xl border border-border bg-surface px-4 py-3 text-base outline-none focus:border-primary"
       />
       {results.length > 0 && (
-        <ul className="absolute inset-x-0 top-full z-10 mt-1 overflow-hidden rounded-xl border border-border bg-surface shadow-lg">
+        // A floating menu, so it may cast a shadow. taste-skill-ignore
+        <ul className="absolute inset-x-0 top-full z-10 mt-1 overflow-hidden rounded-2xl border border-border bg-surface shadow-lg">
           {results.map((c, i) => (
             <li key={c.id}>
               <button

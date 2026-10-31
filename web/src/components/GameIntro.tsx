@@ -9,7 +9,7 @@ import { DifficultyPicker } from "./DifficultyPicker";
 import { ModePreview } from "./ModePreview";
 
 /** Before a game: illustration, one-line description, level buttons, Start. */
-export function GameIntro({ mode, number, onStart }: { mode: GameMode; number: number; onStart: (d: Difficulty) => void }) {
+export function GameIntro({ mode, onStart }: { mode: GameMode; onStart: (d: Difficulty) => void }) {
   const info = MODE_INFO[mode];
   return (
     <div className="space-y-6">
@@ -19,10 +19,7 @@ export function GameIntro({ mode, number, onStart }: { mode: GameMode; number: n
       <div className="overflow-hidden rounded-2xl border border-border bg-surface">
         <ModePreview mode={mode} />
         <div className="space-y-5 p-5">
-          <div className="flex items-baseline justify-between gap-3">
-            <h1 className="text-2xl font-bold">{info.title}</h1>
-            <span className="text-sm text-muted">#{number}</span>
-          </div>
+          <h1 className="text-2xl font-bold">{info.title}</h1>
           <p className="text-muted">{info.description}</p>
           <DifficultyPicker initial={loadDifficulty()} onStart={onStart} />
         </div>

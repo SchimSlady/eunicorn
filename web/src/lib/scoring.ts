@@ -7,7 +7,7 @@ export function formatRaised(score: number): string {
 
 /** Slightly ironic, insider-flavoured verdict for the result screen. */
 export function verdict(score: number, maxScore: number): string {
-  if (score >= maxScore) return "Unicorn status 🦄";
+  if (score >= maxScore) return "Unicorn status";
   const ratio = score / maxScore;
   if (ratio >= 0.7) return "Series A material";
   if (ratio >= 0.4) return "Seed stage";
@@ -31,6 +31,6 @@ export function shareText(opts: {
   score: number;
 }): string {
   const head = [`EUnicorn #${opts.number}`, opts.modeTitle, DIFFICULTY_META[opts.difficulty].label];
-  if (opts.hintsUsed) head.push(`💡${opts.hintsUsed}`);
+  if (opts.hintsUsed) head.push(`💡${opts.hintsUsed}`); // share text, not UI. taste-skill-ignore
   return `${head.join(" · ")}\n${opts.squares.join("")} ${formatRaised(opts.score)}\neunicorn.eu`;
 }

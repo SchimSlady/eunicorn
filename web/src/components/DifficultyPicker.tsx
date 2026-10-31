@@ -28,7 +28,7 @@ export function DifficultyPicker({ initial, onStart }: { initial: Difficulty; on
       <button
         type="button"
         onClick={() => onStart(selected)}
-        className="w-full rounded-xl bg-eu-yellow px-4 py-3 font-display text-lg font-bold text-eu-blue transition active:scale-[0.98]"
+        className="w-full rounded-full bg-eu-yellow px-4 py-3 font-display text-lg font-bold text-eu-blue transition active:scale-[0.98]"
       >
         Start
       </button>

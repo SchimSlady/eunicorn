@@ -6,7 +6,7 @@ import { Flag } from "./Flag";
 export function BuiltInEuropeCard({ company, founders }: { company: Company; founders: string[] }) {
   return (
     <div className="animate-flip-in rounded-2xl bg-eu-blue p-5 text-white">
-      <p className="text-xs font-semibold uppercase tracking-widest text-eu-yellow">Built in Europe</p>
+      <p className="text-sm font-semibold text-eu-yellow">Built in Europe</p>
       <div className="mt-3 flex items-center gap-3">
         <CompanyLogo company={company} size={48} />
         <div>

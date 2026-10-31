@@ -19,7 +19,7 @@ export function HintList({ hints }: { hints: Hint[] }) {
   return (
     <ul className="space-y-2">
       {hints.map((h, i) => (
-        <li key={i} className="flex animate-flip-in items-start gap-2 rounded-xl bg-eu-yellow/20 p-3 text-sm">
+        <li key={i} className="flex animate-flip-in items-start gap-2 rounded-2xl bg-eu-yellow/20 p-3 text-sm">
           <Lightbulb size={16} className="mt-0.5 shrink-0" aria-hidden />
           {h.text}
         </li>

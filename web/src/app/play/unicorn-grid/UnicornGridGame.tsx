@@ -62,7 +62,7 @@ function evaluate(p: UnicornGridPuzzle, progress: Progress, companies: Map<strin
 
 function shareText(p: UnicornGridPuzzle, progress: Progress, companies: Map<string, Company>): string {
   const { score, hintsUsed } = evaluate(p, progress, companies);
-  const squares = progress.cells.map((id, i) => (id ? "🟩" : "⬜") + (i % 3 === 2 && i < 8 ? "\n" : ""));
+  const squares = progress.cells.map((id, i) => (id ? "🟩" : "⬜") + (i % 3 === 2 && i < 8 ? "\n" : "")); // share text, not UI. taste-skill-ignore
   return buildShareText({ number: p.number, modeTitle: TITLE, difficulty: progress.difficulty, hintsUsed, squares, score });
 }
 
@@ -103,7 +103,6 @@ export function UnicornGridGame() {
     return (
       <GameIntro
         mode={MODE}
-        number={puzzle.number}
         onStart={(d) => {
           saveDifficulty(d);
           const fresh: Progress = { difficulty: d, cells: Array(9).fill(null), wrong: 0, cellHints: Array(9).fill(0), gaveUp: false };
@@ -177,21 +176,21 @@ export function UnicornGridGame() {
 
   return (
     <div className="space-y-6">
-      <GameHeader title={TITLE} number={puzzle.number} difficulty={progress.difficulty} />
+      <GameHeader title={TITLE} difficulty={progress.difficulty} />
 
       <div className="grid grid-cols-4 gap-1.5">
-        <div className="flex flex-col items-center justify-center rounded-xl bg-eu-blue p-1 text-center text-white">
+        <div className="flex flex-col items-center justify-center rounded-2xl bg-eu-blue p-1 text-center text-white">
           <span className="font-display text-xl font-bold leading-none">{done ? filled : guessesLeft}</span>
-          <span className="text-[10px] uppercase tracking-wider text-white/70">{done ? "of 9" : "guesses"}</span>
+          <span className="text-xs text-white/80">{done ? "of 9" : "guesses"}</span>
         </div>
         {puzzle.cols.map((c, i) => (
-          <div key={i} className="flex aspect-square items-center justify-center rounded-xl bg-eu-blue/10 p-1">
+          <div key={i} className="flex aspect-square items-center justify-center rounded-2xl bg-eu-blue/10 p-1">
             <CriterionLabel c={c} />
           </div>
         ))}
         {puzzle.rows.map((r, ri) => (
           <div key={ri} className="contents">
-            <div className="flex aspect-square items-center justify-center rounded-xl bg-eu-blue/10 p-1">
+            <div className="flex aspect-square items-center justify-center rounded-2xl bg-eu-blue/10 p-1">
               <CriterionLabel c={r} />
             </div>
             {[0, 1, 2].map((ci) => {
@@ -212,7 +211,7 @@ export function UnicornGridGame() {
                     setMiss(null);
                   }}
                   aria-label={c ? `${c.name}` : `Square ${cell + 1}`}
-                  className={`relative flex aspect-square flex-col items-center justify-center gap-1 rounded-xl border-2 p-1 transition ${
+                  className={`relative flex aspect-square flex-col items-center justify-center gap-1 rounded-2xl border-2 p-1 transition ${
                     c
                       ? "animate-pop border-correct bg-correct/10"
                       : isSel
@@ -225,8 +224,8 @@ export function UnicornGridGame() {
                   {shown && (
                     <>
                       <CompanyLogo company={shown} size={34} />
-                      <span className="line-clamp-1 text-[10px] font-semibold leading-tight">{shown.name}</span>
-                      {c && <span className="absolute right-1 top-1 text-[9px] font-bold text-correct">€{worth(c.id)}M</span>}
+                      <span className="line-clamp-1 text-[11px] font-semibold leading-tight">{shown.name}</span>
+                      {c && <span className="absolute right-1 top-0.5 text-[11px] font-bold text-correct">€{worth(c.id)}M</span>}
                     </>
                   )}
                 </button>

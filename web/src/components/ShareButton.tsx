@@ -25,7 +25,7 @@ export function ShareButton({ text }: { text: string }) {
     <button
       type="button"
       onClick={share}
-      className="flex w-full items-center justify-center gap-2 rounded-xl bg-primary px-4 py-3 font-semibold text-on-primary transition active:scale-[0.98]"
+      className="flex w-full items-center justify-center gap-2 rounded-full bg-primary px-4 py-3 font-semibold text-on-primary transition active:scale-[0.98]"
     >
       {copied ? <Check size={18} aria-hidden /> : <Share2 size={18} aria-hidden />}
       {copied ? "Copied" : "Share result"}

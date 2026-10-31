@@ -15,9 +15,10 @@ Tokens live in [`src/app/globals.css`](src/app/globals.css); use them via Tailwi
 | `primary` | EU blue | EU yellow | Buttons, links, focus, selected state |
 | `correct` | `#4C9A2A` | `#7CC35A` | Right answers (matches 🟩 in the share text) |
 | `wrong` | `#D62F43` | `#F0566A` | Wrong answers (matches 🟥) |
-| `background` / `surface` / `border` / `muted` / `foreground` | | | Page, cards, lines, secondary text, text |
+| `background` / `surface` / `border` / `muted` / `foreground` | blue-grey `#F5F7FC` ground, white cards | true neutral `#0B0B0D` / `#151518` | Page, cards, lines, secondary text, text |
 
 Rules:
+- **Dark mode is neutral, not navy.** EU blue lives in the illustrations, the "Built in Europe" card and the accent, never the ground. Colour goes on the game, not the chrome.
 - **Yellow is brand only.** Never use it to mean "almost right" (the way Wordle does).
 - **Never color alone.** Right and wrong always come with an icon (`Check` / `X`) or a text label, for colorblind players.
 - The colors are called `correct` / `wrong`, not `right`, because Tailwind already has `text-right` (alignment).
@@ -32,6 +33,12 @@ Rules:
 - **Icons:** [Lucide](https://lucide.dev), outline, 16–20 px, `aria-hidden` unless the icon is the only label. No emojis in the UI.
 - **Flags:** [circle-flags](https://github.com/HatScripts/circle-flags) via the `Flag` component (SVG, pinned version). Emoji flags show as letters on Windows.
 - **Difficulty:** signal bars (`DifficultyBars`), 1 to 3. Not 🟢🟡🔴, because yellow isn't a rating.
+
+## Labels, radius, numbers
+- **No uppercase tracked labels** ("PLAY", "YOUR PICK"). Sentence case at 12px or more. Nothing under 11px, illustrations included.
+- **Radius is soft and decided once:** 16px (`rounded-2xl`) for cards, inputs and squares; full pills for buttons. No 12px.
+- **No puzzle number in the UI.** `#12` exists only in the share text.
+- **Titles:** 24px in games, 32px on the home page (24px on phones).
 
 ## Company logos
 - Rounded square (22% radius), **white tile**, padding of ~14% of its size, thin `black/10` border (`CompanyLogo`).

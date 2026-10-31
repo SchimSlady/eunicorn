@@ -18,7 +18,7 @@ export function GameFooter({ share }: { share: string }) {
         <button
           type="button"
           onClick={() => window.location.reload()}
-          className="flex w-full items-center justify-center gap-2 rounded-xl border-2 border-primary px-4 py-3 font-semibold text-primary transition active:scale-[0.98]"
+          className="flex w-full items-center justify-center gap-2 rounded-full border-2 border-primary px-4 py-3 font-semibold text-primary transition active:scale-[0.98]"
         >
           <RotateCcw size={18} aria-hidden /> Play again
         </button>

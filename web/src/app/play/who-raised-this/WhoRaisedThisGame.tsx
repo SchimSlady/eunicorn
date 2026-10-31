@@ -72,7 +72,7 @@ function shareText(p: WhoRaisedThisPuzzle, progress: Progress): string {
   const squares = Array.from({ length: maxGuesses }, (_, i) => {
     const id = progress.guesses[i];
     if (id === undefined) return "⬜";
-    return id === p.answerCompanyId ? "🟩" : "🟥";
+    return id === p.answerCompanyId ? "🟩" : "🟥"; // share text, not UI. taste-skill-ignore
   });
   return buildShareText({ number: p.number, modeTitle: TITLE, difficulty: progress.difficulty, hintsUsed: progress.hintsUsed, squares, score });
 }
@@ -100,7 +100,6 @@ export function WhoRaisedThisGame() {
     return (
       <GameIntro
         mode={MODE}
-        number={puzzle.number}
         onStart={(d) => {
           saveDifficulty(d);
           const fresh: Progress = { difficulty: d, guesses: [], hintsUsed: 0, gaveUp: false };
@@ -138,13 +137,13 @@ export function WhoRaisedThisGame() {
 
   return (
     <div className="space-y-6">
-      <GameHeader title={TITLE} number={puzzle.number} difficulty={progress.difficulty} />
+      <GameHeader title={TITLE} difficulty={progress.difficulty} />
 
       <ol className="space-y-2">
         {puzzle.clues.slice(0, cluesShown).map((clue, i) => {
           const Icon = CLUE_ICONS[clue.kind];
           return (
-            <li key={i} className="flex animate-flip-in items-center gap-3 rounded-xl border border-border bg-surface p-3">
+            <li key={i} className="flex animate-flip-in items-center gap-3 rounded-2xl border border-border bg-surface p-3">
               <Icon size={20} className="shrink-0 text-primary" aria-hidden />
               {clue.kind === "logo-blurred" ? (
                 <CompanyLogo company={answer} size={56} blurred={!done} />
@@ -155,7 +154,7 @@ export function WhoRaisedThisGame() {
           );
         })}
         {!done && cluesLocked > 0 && (
-          <li className="flex items-center gap-3 rounded-xl border border-dashed border-border p-3 text-sm text-muted">
+          <li className="flex items-center gap-3 rounded-2xl border border-dashed border-border p-3 text-sm text-muted">
             <Lock size={16} aria-hidden />
             {cluesLocked} more {cluesLocked === 1 ? "clue" : "clues"}
           </li>

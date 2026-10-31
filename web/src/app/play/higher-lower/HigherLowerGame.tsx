@@ -85,7 +85,7 @@ function evaluate(p: HigherLowerPuzzle, progress: Progress, companies: Map<strin
 
 function shareText(p: HigherLowerPuzzle, progress: Progress, companies: Map<string, Company>): string {
   const { rounds, score } = evaluate(p, progress, companies);
-  const squares = rounds.map((r) => (r.correct ? "🟩" : "🟥"));
+  const squares = rounds.map((r) => (r.correct ? "🟩" : "🟥")); // share text, not UI. taste-skill-ignore
   return buildShareText({ number: p.number, modeTitle: TITLE, difficulty: progress.difficulty, hintsUsed: progress.hintsUsed, squares, score });
 }
 
@@ -159,7 +159,6 @@ export function HigherLowerGame() {
     return (
       <GameIntro
         mode={MODE}
-        number={puzzle.number}
         onStart={(d) => {
           saveDifficulty(d);
           const fresh: Progress = { difficulty: d, answers: [], hintsUsed: 0 };
@@ -181,7 +180,7 @@ export function HigherLowerGame() {
       .filter((n): n is string => !!n);
     return (
       <div className="space-y-6">
-        <GameHeader title={TITLE} number={puzzle.number} difficulty={progress.difficulty} />
+        <GameHeader title={TITLE} difficulty={progress.difficulty} />
         <ResultHeader
           score={score}
           maxScore={maxScore}
@@ -192,7 +191,7 @@ export function HigherLowerGame() {
             const a = companies.get(r.champion)!;
             const b = companies.get(r.challenger)!;
             return (
-              <li key={i} className="flex items-center gap-2 rounded-xl border border-border bg-surface p-3 text-sm">
+              <li key={i} className="flex items-center gap-2 rounded-2xl border border-border bg-surface p-3 text-sm">
                 {r.correct ? (
                   <Check size={18} className="shrink-0 text-correct" aria-label="Right" />
                 ) : (
@@ -222,7 +221,7 @@ export function HigherLowerGame() {
 
   return (
     <div className="space-y-6">
-      <GameHeader title={TITLE} number={puzzle.number} difficulty={progress.difficulty} />
+      <GameHeader title={TITLE} difficulty={progress.difficulty} />
 
       <div className="flex items-center justify-between text-sm">
         <span className="font-semibold">
@@ -253,7 +252,7 @@ export function HigherLowerGame() {
           return (
             // Keyed per round so a card that moves up doesn't animate out of last round's colors.
             <div key={`${round.champion}-${round.challenger}-${id}`}>
-              {!isChampion && <p className="py-1 text-center text-xs font-semibold uppercase tracking-widest text-muted">vs</p>}
+              {!isChampion && <p className="py-1 text-center text-sm font-semibold text-muted">vs</p>}
               <button
                 type="button"
                 disabled={reviewing}
@@ -262,7 +261,7 @@ export function HigherLowerGame() {
               >
                 <CompanyLogo company={c} size={52} />
                 <span className="flex-1">
-                  <span className="block text-xs font-semibold uppercase tracking-wider text-muted">
+                  <span className="block text-xs font-medium text-muted">
                     {isChampion ? (round === rounds[0] ? "Start" : "Your pick") : "Challenger"}
                   </span>
                   <span className="block font-display text-lg font-bold">{c.name}</span>
@@ -297,7 +296,7 @@ export function HigherLowerGame() {
           <button
             type="button"
             onClick={() => setReviewing(false)}
-            className="w-full rounded-xl bg-primary px-4 py-3 font-semibold text-on-primary transition active:scale-[0.98]"
+            className="w-full rounded-full bg-primary px-4 py-3 font-semibold text-on-primary transition active:scale-[0.98]"
           >
             {done ? "See result" : "Next challenger"}
           </button>
