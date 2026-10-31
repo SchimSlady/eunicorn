@@ -16,8 +16,8 @@ export default function PlayPage({ params }: { params: Promise<{ mode: GameMode 
   return (
     <main className="mx-auto max-w-md px-4 py-12">
       <h1 className="text-2xl font-bold">{mode}</h1>
-      <p className="text-sm text-neutral-500">Today: {todayKey()}</p>
-      <pre className="mt-6 overflow-x-auto rounded-lg bg-neutral-100 p-4 text-xs dark:bg-neutral-900">
+      <p className="text-sm text-muted">Today: {todayKey()}</p>
+      <pre className="mt-6 overflow-x-auto rounded-lg border border-border bg-surface p-4 text-xs">
         {puzzle === undefined ? "Loading…" : JSON.stringify(puzzle, null, 2) ?? "No puzzle"}
       </pre>
     </main>
