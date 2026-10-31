@@ -157,10 +157,14 @@ export interface UnicornGridPuzzle extends PuzzleBase<"unicorn-grid"> {
 
 export type HigherLowerMetric = "totalRaisedUsd" | "lastValuationUsd" | "founded" | "employees";
 
+/**
+ * A chain: companyIds[0] vs companyIds[1]; the company the player picks stays on and
+ * faces the next one in the list. N companies = N-1 rounds. Right answer = higher metric
+ * value (ties count either way), computed from the dataset, so every company needs the metric.
+ */
 export interface HigherLowerPuzzle extends PuzzleBase<"higher-lower"> {
   metric: HigherLowerMetric;
-  /** Fixed for the day so everyone plays the same pairs. Answer = the company with the higher value. */
-  pairs: Array<{ a: string; b: string; higher: string }>;
+  companyIds: string[];
 }
 
 export interface ImpostorPuzzle extends PuzzleBase<"impostor"> {

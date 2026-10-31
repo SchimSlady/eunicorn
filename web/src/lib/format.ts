@@ -7,8 +7,9 @@ export function formatUsd(n: number): string {
   return `$${Math.round(n).toLocaleString("en-US")}`;
 }
 
+/** One decimal below 100 ("$13.7B" must not round to "$14B" next to a real $14B), none above. */
 function trim(n: number): string {
-  return n >= 10 ? String(Math.round(n)) : n.toFixed(1).replace(/\.0$/, "");
+  return n >= 100 ? String(Math.round(n)) : n.toFixed(1).replace(/\.0$/, "");
 }
 
 export const METRIC_META: Record<HigherLowerMetric, { question: string; label: string }> = {
