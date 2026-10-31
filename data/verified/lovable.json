@@ -1,0 +1,112 @@
+{
+  "id": "lovable",
+  "name": "Lovable",
+  "aliases": ["GPT Engineer"],
+  "domain": "lovable.dev",
+  "country": "SE",
+  "city": "Stockholm",
+  "founded": 2023,
+  "sectors": ["ai", "saas"],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 11472000000,
+  "founders": ["Anton Osika", "Fabian Hedin"],
+  "funFact": "Its $200M round in July 2025 was the largest Series A ever raised by a Swedish company and made it a unicorn roughly eight months after launch.",
+  "difficulty": 3,
+  "techeuId": "E32365F8-8CB8-49C4-ACB1-0CE5ABFB2BA9",
+  "wikidataId": "Q135998012",
+  "sources": [
+    { "field": "city", "url": "https://tech.eu/2026/08/12/lovables-valuation-doubles-to-13bn-as-raises-400m/", "quote": "Stockholm-based Lovable" },
+    { "field": "city", "url": "https://www.techzine.eu/news/devops/137429/swedish-ai-startup-lovable-triples-valuation-to-6-6-billion", "quote": "The Stockholm-based startup was valued at $1.8 billion in July after a $200 million Series A round." },
+    { "field": "founded", "url": "https://tech.eu/2025/07/17/lovable-annointed-europes-latest-unicorn-following-200m-funding-round/", "quote": "Founded in 2023, Lovable has become synonymous with what is called “vibe coding”" },
+    { "field": "founders", "url": "https://tech.eu/2024/10/07/lovable-raises-7-5m-for-gpt-engineer/", "quote": "Swedish entrepreneurs Anton Osika and Fabian Hedin" },
+    { "field": "status", "url": "https://tech.eu/2026/08/12/lovables-valuation-doubles-to-13bn-as-raises-400m/", "quote": "has raised $400m in new funding, at a $13.3bn valuation," },
+    { "field": "unicorn", "url": "https://lovable.dev/blog/200m-series-a-fundraise", "quote": "one of Europes' largest series A investments ever, $200M at a $1.8B valuation from Accel." },
+    { "field": "valuation", "url": "https://tech.eu/2026/08/12/lovables-valuation-doubles-to-13bn-as-raises-400m/", "quote": "has raised $400m in new funding, at a $13.3bn valuation," },
+    { "field": "fun_fact", "url": "https://tech.eu/2025/07/17/lovable-annointed-europes-latest-unicorn-following-200m-funding-round/", "quote": "Sweden's biggest-ever Series A funding round" },
+    { "field": "fun_fact", "url": "https://lovable.dev/blog/200m-series-a-fundraise", "quote": "Just Eight Months After Launch" }
+  ],
+  "rounds": [
+    {
+      "techeuId": "FD1CFEF1-4363-4A9B-BB8E-C5DE36A25592",
+      "stage": "pre-seed",
+      "month": "2024-10",
+      "amountEur": 6877990,
+      "amountOriginal": 7500000,
+      "currency": "USD",
+      "investors": ["Hummingbird Ventures", "byFounders", "Siavash Ghorbani", "Stefan Lindeberg"],
+      "sources": [
+        { "field": "amount", "url": "https://tech.eu/2024/10/07/lovable-raises-7-5m-for-gpt-engineer/", "quote": "has closed a $7.5M pre-Seed funding round." },
+        { "field": "month", "url": "https://tech.eu/2024/10/07/lovable-raises-7-5m-for-gpt-engineer/", "quote": "has closed a $7.5M pre-Seed funding round." },
+        { "field": "stage", "url": "https://tech.eu/2024/10/07/lovable-raises-7-5m-for-gpt-engineer/", "quote": "has closed a $7.5M pre-Seed funding round." },
+        { "field": "investors", "url": "https://tech.eu/2024/10/07/lovable-raises-7-5m-for-gpt-engineer/", "quote": "led by Hummingbird VC and byFounders VC" }
+      ]
+    },
+    {
+      "techeuId": "A266F97D-097C-4750-81A4-6B86622A682D",
+      "stage": "seed",
+      "month": "2025-02",
+      "amountEur": 14000000,
+      "amountOriginal": 15000000,
+      "currency": "USD",
+      "investors": ["Creandum", "Visionaries Club", "Charlie Songhurst", "Adam D'Angelo", "Thomas Wolf", "Eric Bernhardsson"],
+      "sources": [
+        { "field": "amount", "url": "https://techcrunch.com/2025/02/25/swedens-lovable-an-app-building-ai-platform-rakes-in-16m-after-spectacular-growth", "quote": "has now raised $15 million in a pre-Series A round led by Creandum." },
+        { "field": "month", "url": "https://techcrunch.com/2025/02/25/swedens-lovable-an-app-building-ai-platform-rakes-in-16m-after-spectacular-growth", "quote": "has now raised $15 million in a pre-Series A round led by Creandum." },
+        { "field": "stage", "url": "https://techcrunch.com/2025/02/25/swedens-lovable-an-app-building-ai-platform-rakes-in-16m-after-spectacular-growth", "quote": "has now raised $15 million in a pre-Series A round led by Creandum." },
+        { "field": "investors", "url": "https://techcrunch.com/2025/02/25/swedens-lovable-an-app-building-ai-platform-rakes-in-16m-after-spectacular-growth", "quote": "Also in the funding round were Visionaries Club, plus angel investors" }
+      ]
+    },
+    {
+      "techeuId": "581A061B-9FF7-4C1E-8336-F13A82B42D43",
+      "stage": "series-a",
+      "month": "2025-07",
+      "amountEur": 171000000,
+      "amountOriginal": 200000000,
+      "currency": "USD",
+      "investors": ["Accel", "20VC", "byFounders", "Creandum", "Hummingbird Ventures", "Visionaries Club"],
+      "postMoneyValuationEur": 1542000000,
+      "sources": [
+        { "field": "amount", "url": "https://lovable.dev/blog/200m-series-a-fundraise", "quote": "one of Europes' largest series A investments ever, $200M at a $1.8B valuation from Accel." },
+        { "field": "month", "url": "https://tech.eu/2025/07/17/lovable-annointed-europes-latest-unicorn-following-200m-funding-round/", "quote": "Sweden's biggest-ever Series A funding round" },
+        { "field": "stage", "url": "https://lovable.dev/blog/200m-series-a-fundraise", "quote": "one of Europes' largest series A investments ever, $200M at a $1.8B valuation from Accel." },
+        { "field": "investors", "url": "https://lovable.dev/blog/200m-series-a-fundraise", "quote": "with participation from 20VC, byFounders, Creandum, Hummingbird, Visionaries Club" },
+        { "field": "valuation", "url": "https://lovable.dev/blog/200m-series-a-fundraise", "quote": "one of Europes' largest series A investments ever, $200M at a $1.8B valuation from Accel." }
+      ]
+    },
+    {
+      "techeuId": "15C0ABA4-C5CF-4816-98C4-8447A57C2EAE",
+      "stage": "series-b",
+      "month": "2025-12",
+      "amountEur": 282000000,
+      "amountOriginal": 330000000,
+      "currency": "USD",
+      "investors": ["CapitalG", "Menlo Ventures", "Khosla Ventures", "Salesforce Ventures", "Databricks Ventures"],
+      "postMoneyValuationEur": 5637000000,
+      "sources": [
+        { "field": "amount", "url": "https://www.techzine.eu/news/devops/137429/swedish-ai-startup-lovable-triples-valuation-to-6-6-billion", "quote": "Lovable announced Thursday that it has raised $330 million in a Series B funding round led by CapitalG and Menlo Ventures." },
+        { "field": "month", "url": "https://www.techzine.eu/news/devops/137429/swedish-ai-startup-lovable-triples-valuation-to-6-6-billion", "quote": "Lovable announced Thursday that it has raised $330 million in a Series B funding round led by CapitalG and Menlo Ventures." },
+        { "field": "stage", "url": "https://www.techzine.eu/news/devops/137429/swedish-ai-startup-lovable-triples-valuation-to-6-6-billion", "quote": "Lovable announced Thursday that it has raised $330 million in a Series B funding round led by CapitalG and Menlo Ventures." },
+        { "field": "investors", "url": "https://www.techzine.eu/news/devops/137429/swedish-ai-startup-lovable-triples-valuation-to-6-6-billion", "quote": "Lovable announced Thursday that it has raised $330 million in a Series B funding round led by CapitalG and Menlo Ventures." },
+        { "field": "valuation", "url": "https://www.techzine.eu/news/devops/137429/swedish-ai-startup-lovable-triples-valuation-to-6-6-billion", "quote": "The AI startup has now raised $330 million at a valuation of $6.6 billion." }
+      ]
+    },
+    {
+      "techeuId": "1656B25C-4770-444B-8795-587DFBBFEAAB",
+      "stage": "series-c",
+      "month": "2026-08",
+      "amountEur": 345000000,
+      "amountOriginal": 400000000,
+      "currency": "USD",
+      "investors": ["Menlo Ventures", "Scaleup Europe Fund", "Balderton Capital", "Carmignac", "Kaszek Ventures", "LTS Growth", "Tencent", "World Innovation Lab", "Regent"],
+      "postMoneyValuationEur": 11472000000,
+      "sources": [
+        { "field": "amount", "url": "https://www.lw.com/en/news/2026/08/latham-advises-menlo-ventures-on-lovable-series-c", "quote": "Lovable has announced it has raised US$400 million in Series C round at a US$13.3 billion valuation," },
+        { "field": "month", "url": "https://tech.eu/2026/08/12/lovables-valuation-doubles-to-13bn-as-raises-400m/", "quote": "has raised $400m in new funding, at a $13.3bn valuation," },
+        { "field": "stage", "url": "https://tech.eu/2026/08/12/lovables-valuation-doubles-to-13bn-as-raises-400m/", "quote": "has raised a Series C round which was co-led by Silicon Valley investor Menlo Ventures and the Scaleup Europe Fund." },
+        { "field": "investors", "url": "https://tech.eu/2026/08/12/lovables-valuation-doubles-to-13bn-as-raises-400m/", "quote": "Other investors in the round include Europe's Balderton Capital and Carmignac." },
+        { "field": "valuation", "url": "https://www.lw.com/en/news/2026/08/latham-advises-menlo-ventures-on-lovable-series-c", "quote": "Lovable has announced it has raised US$400 million in Series C round at a US$13.3 billion valuation," }
+      ]
+    }
+  ]
+}

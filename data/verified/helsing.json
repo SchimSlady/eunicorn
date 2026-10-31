@@ -1,0 +1,114 @@
+{
+  "id": "helsing",
+  "name": "Helsing",
+  "aliases": ["Helsing AI", "Helsing SE"],
+  "domain": "helsing.ai",
+  "country": "DE",
+  "city": "Munich",
+  "founded": 2021,
+  "sectors": ["defense", "ai"],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 15765000000,
+  "founders": ["Torsten Reil", "Gundbert Scherf", "Niklas Köhler"],
+  "funFact": "Helsing co-founder Torsten Reil had previously built NaturalMotion, a video game company that was later bought by Zynga, before turning to defence AI.",
+  "difficulty": 3,
+  "techeuId": "4115E57C-92F4-4CB8-98A4-A32818677A85",
+  "wikidataId": "Q127380521",
+  "sources": [
+    { "field": "city", "url": "https://en.wikipedia.org/wiki/Helsing_(company)", "quote": "Helsing SE is a German defence technology company based in Munich." },
+    { "field": "founded", "url": "https://en.wikipedia.org/wiki/Helsing_(company)", "quote": "Founded in 2021 by Torsten Reil, Gundbert Scherf, and Niklas Köhler" },
+    { "field": "founders", "url": "https://en.wikipedia.org/wiki/Helsing_(company)", "quote": "Founded in 2021 by Torsten Reil, Gundbert Scherf, and Niklas Köhler" },
+    { "field": "sectors", "url": "https://en.wikipedia.org/wiki/Helsing_(company)", "quote": "the company develops military strike drones, underwater surveillance systems, and artificial intelligence software" },
+    { "field": "status", "url": "https://thenextweb.com/news/helsing-1-8-billion-series-e-18-billion-valuation", "quote": "On Monday Helsing said it had closed a $1.8bn Series E that values the Munich company at $18bn." },
+    { "field": "unicorn", "url": "https://thenextweb.com/news/helsing-1-8-billion-series-e-18-billion-valuation", "quote": "On Monday Helsing said it had closed a $1.8bn Series E that values the Munich company at $18bn." },
+    { "field": "valuation", "url": "https://thenextweb.com/news/helsing-1-8-billion-series-e-18-billion-valuation", "quote": "On Monday Helsing said it had closed a $1.8bn Series E that values the Munich company at $18bn." },
+    { "field": "fun_fact", "url": "https://en.wikipedia.org/wiki/Helsing_(company)", "quote": "who previously founded NaturalMotion, a gaming company later acquired by Zynga" }
+  ],
+  "rounds": [
+    {
+      "techeuId": "0AA82775-F618-41D3-8190-1B53C4481A57",
+      "stage": "series-a",
+      "month": "2021-11",
+      "amountEur": 102500000,
+      "amountOriginal": 102500000,
+      "currency": "EUR",
+      "investors": ["Prima Materia"],
+      "sources": [
+        { "field": "amount", "url": "https://www.trendingtopics.eu/spotify-ceo-steckt-100-millionen-euro-in-verteidigungs-startup-helsing/", "quote": "Das Investment von Prima Materia findet im Rahmen einer Series-A-Finanzierung von insgesamt 102,5 Millionen Euro statt." },
+        { "field": "month", "url": "https://www.trendingtopics.eu/spotify-ceo-steckt-100-millionen-euro-in-verteidigungs-startup-helsing/", "quote": "09. November 2021, 12:39" },
+        { "field": "stage", "url": "https://www.trendingtopics.eu/spotify-ceo-steckt-100-millionen-euro-in-verteidigungs-startup-helsing/", "quote": "Das Investment von Prima Materia findet im Rahmen einer Series-A-Finanzierung von insgesamt 102,5 Millionen Euro statt." },
+        { "field": "investors", "url": "https://en.wikipedia.org/wiki/Helsing_(company)", "quote": "The company's initial funding of €100 million was led by Spotify founder Daniel Ek through his investment vehicle Prima Materia in November 2021." }
+      ]
+    },
+    {
+      "techeuId": "D99265E5-C0A8-43A0-9EC0-C19463A4140C",
+      "stage": "series-b",
+      "month": "2023-09",
+      "amountEur": 209000000,
+      "amountOriginal": 209000000,
+      "currency": "EUR",
+      "investors": ["General Catalyst", "Saab"],
+      "sources": [
+        { "field": "amount", "url": "https://siliconangle.com/?p=630492", "quote": "today announced that it has raised €209 million in funding." },
+        { "field": "month", "url": "https://siliconangle.com/?p=630492", "quote": "UPDATED 17:29 EDT / SEPTEMBER 14 2023" },
+        { "field": "stage", "url": "https://siliconangle.com/?p=630492", "quote": "The Series B investment was led by General Catalyst." },
+        { "field": "investors", "url": "https://siliconangle.com/?p=630492", "quote": "Saab AB, one of Sweden's largest aerospace and defense companies, also contributed to the round." }
+      ]
+    },
+    {
+      "techeuId": "A9B8B6C9-4AF7-4A26-8CA1-19DC36DEB750",
+      "stage": "series-c",
+      "month": "2024-07",
+      "amountEur": 450000000,
+      "amountOriginal": 450000000,
+      "currency": "EUR",
+      "investors": ["General Catalyst", "Saab", "Accel", "Lightspeed Venture Partners", "Plural", "Greenoaks Capital Partners", "Elad Gil"],
+      "postMoneyValuationEur": 5000000000,
+      "sources": [
+        { "field": "amount", "url": "https://siliconangle.com/2024/07/11/defense-technology-startup-helsing-raises-e450m-reported-e5b-valuation", "quote": "Helsing GmbH today disclosed that it has raised €450 million, or about $488 million, in new funding." },
+        { "field": "month", "url": "https://siliconangle.com/2024/07/11/defense-technology-startup-helsing-raises-e450m-reported-e5b-valuation", "quote": "Defense technology startup Helsing raises €450M at reported €5B valuation (July 11, 2024)" },
+        { "field": "stage", "url": "https://siliconangle.com/2024/07/11/defense-technology-startup-helsing-raises-e450m-reported-e5b-valuation", "quote": "General Catalyst led the Series C investment." },
+        { "field": "investors", "url": "https://siliconangle.com/2024/07/11/defense-technology-startup-helsing-raises-e450m-reported-e5b-valuation", "quote": "It was joined by Saab AB, one of Sweden's largest aerospace and defense companies" },
+        { "field": "valuation", "url": "https://siliconangle.com/2024/07/11/defense-technology-startup-helsing-raises-e450m-reported-e5b-valuation", "quote": "the investment values Helsing at €5 billion, or $5.38 billion" }
+      ]
+    },
+    {
+      "techeuId": "59D55311-C953-4CF0-99CA-2A46D8BC043D",
+      "stage": "series-d",
+      "month": "2025-06",
+      "amountEur": 600000000,
+      "amountOriginal": 600000000,
+      "currency": "EUR",
+      "investors": ["Prima Materia", "Lightspeed Venture Partners", "Accel", "Plural", "General Catalyst", "Saab", "BDT & MSD Partners"],
+      "postMoneyValuationEur": 12000000000,
+      "sources": [
+        { "field": "amount", "url": "https://thenextweb.com/news/ai-warfare-push-makes-helsing-one-of-europes-5-most-valuable-tech-firms", "quote": "Helsing has raised €600mn as geopolitical tensions trigger a flood of capital into AI warfare." },
+        { "field": "month", "url": "https://thenextweb.com/news/ai-warfare-push-makes-helsing-one-of-europes-5-most-valuable-tech-firms", "quote": "This article was published on June 17, 2025" },
+        { "field": "stage", "url": "https://nordic9.com/news/helsing-in-a-600-million-series-d-funding-round-led-by-prima-materia-joined-by-lightspeed-ventures-accel-plural-general-catalyst-saab-bdt-msd/", "quote": "Helsing in a €600 million Series D funding round led by Prima Materia" },
+        { "field": "investors", "url": "https://nordic9.com/news/helsing-in-a-600-million-series-d-funding-round-led-by-prima-materia-joined-by-lightspeed-ventures-accel-plural-general-catalyst-saab-bdt-msd/", "quote": "Lightspeed Ventures, Accel, Plural, General Catalyst, SAAB, BDT & MSD" },
+        { "field": "investors", "url": "https://thenextweb.com/news/ai-warfare-push-makes-helsing-one-of-europes-5-most-valuable-tech-firms", "quote": "The large investment was led by Spotify CEO Daniel Ek's VC firm Prima Materia." },
+        { "field": "valuation", "url": "https://thenextweb.com/news/ai-warfare-push-makes-helsing-one-of-europes-5-most-valuable-tech-firms", "quote": "the unicorn company is now worth €12bn" }
+      ]
+    },
+    {
+      "techeuId": "BB783C67-AEE0-43A1-8333-CFFD8A64C701",
+      "stage": "series-e",
+      "month": "2026-07",
+      "amountEur": 1577000000,
+      "amountOriginal": 1800000000,
+      "currency": "USD",
+      "investors": ["Dragoneer Investment Group", "Lightspeed Venture Partners", "JPMorgan Chase", "Goldman Sachs Alternatives", "Canada Pension Plan Investment Board", "Prima Materia", "Accel", "Greenoaks Capital Partners"],
+      "postMoneyValuationEur": 15765000000,
+      "sources": [
+        { "field": "amount", "url": "https://thenextweb.com/news/helsing-1-8-billion-series-e-18-billion-valuation", "quote": "On Monday Helsing said it had closed a $1.8bn Series E that values the Munich company at $18bn." },
+        { "field": "month", "url": "https://thenextweb.com/news/helsing-1-8-billion-series-e-18-billion-valuation", "quote": "Helsing raises $1.8bn at an $18bn valuation, and its cap table tells a story (July 13, 2026)" },
+        { "field": "stage", "url": "https://thenextweb.com/news/helsing-1-8-billion-series-e-18-billion-valuation", "quote": "On Monday Helsing said it had closed a $1.8bn Series E that values the Munich company at $18bn." },
+        { "field": "investors", "url": "https://thenextweb.com/news/helsing-1-8-billion-series-e-18-billion-valuation", "quote": "Dragoneer led the round, with Lightspeed co-leading." },
+        { "field": "investors", "url": "https://thenextweb.com/news/helsing-1-8-billion-series-e-18-billion-valuation", "quote": "Three of the largest new cheques come from JPMorgan Chase, the growth arm of Goldman Sachs and the Canada Pension Plan." },
+        { "field": "investors", "url": "https://thenextweb.com/news/helsing-1-8-billion-series-e-18-billion-valuation", "quote": "Existing backers Prima Materia, Accel and Greenoaks all returned." },
+        { "field": "valuation", "url": "https://thenextweb.com/news/helsing-1-8-billion-series-e-18-billion-valuation", "quote": "On Monday Helsing said it had closed a $1.8bn Series E that values the Munich company at $18bn." }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "id": "voi",
+  "name": "Voi",
+  "aliases": ["Voi Technology", "VOI Scooters"],
+  "domain": "voi.com",
+  "country": "SE",
+  "city": "Stockholm",
+  "founded": 2018,
+  "sectors": ["mobility"],
+  "status": "private",
+  "unicorn": true,
+  "founders": ["Fredrik Hjelm", "Douglas Stark", "Adam Jafer", "Filip Lindvall"],
+  "funFact": "Since its 2018 launch, the Swedish e-scooter operator has handled more than half a billion rides.",
+  "difficulty": 4,
+  "techeuId": "27D011D1-111C-4400-B399-1A3F7DB76D20",
+  "wikidataId": "Q61650427",
+  "sources": [
+    { "field": "city", "url": "https://mfn.se/cis/a/voitechnology/voi-closes-financing-round-following-a-record-year-in-revenue-and-profitability-ac7aeebd", "quote": "It is headquartered in Stockholm and employs ~900 people." },
+    { "field": "founded", "url": "https://mfn.se/cis/a/voitechnology/voi-closes-financing-round-following-a-record-year-in-revenue-and-profitability-ac7aeebd", "quote": "Founded in 2018, Voi is a Swedish micromobility company" },
+    { "field": "founders", "url": "https://forbes.it/2026/10/27/voi-technology-400-milioni-cambiare-citta-monopattini", "quote": "Qualche mese dopo Hjelm e l'amico infortunato, Douglas Stark, fondavano Voi assieme ad Adam Jafer e Filip Lindvall." },
+    { "field": "status", "url": "https://forbes.it/2026/10/27/voi-technology-400-milioni-cambiare-citta-monopattini", "quote": "A maggio l'ad ha smentito voci secondo cui Uber avrebbe comprato Voi per 1,2 miliardi di dollari." },
+    { "field": "unicorn", "url": "https://tech.eu/brief/voi-keeps-a-rollin-along-brings-home-115-million-in-series-d-round/", "quote": "Voi keeps a-rollin' along, brings home $115 million in Series D round at $1 billion valuation" },
+    { "field": "unicorn", "url": "https://www.euronews.com/next/2021/12/21/voi-funding", "quote": "just over $1 billion" },
+    { "field": "fun_fact", "url": "https://forbes.it/2026/10/27/voi-technology-400-milioni-cambiare-citta-monopattini", "quote": "Era il 2018, e da allora l'azienda ha gestito più di mezzo miliardo di corse." }
+  ],
+  "rounds": [
+    {
+      "stage": "series-a",
+      "month": "2018-11",
+      "amountEur": 44000000,
+      "amountOriginal": 50000000,
+      "currency": "USD",
+      "investors": ["Balderton Capital", "LocalGlobe", "The Raine Group", "VNV Global"],
+      "sources": [
+        { "field": "amount", "url": "https://techcrunch.com/2018/11/18/hold-on-tight/", "quote": "has raised $50 million in Series A funding, confirming our earlier scoop." },
+        { "field": "month", "url": "https://techcrunch.com/2018/11/18/hold-on-tight/", "quote": "has raised $50 million in Series A funding, confirming our earlier scoop." },
+        { "field": "stage", "url": "https://techcrunch.com/2018/11/18/hold-on-tight/", "quote": "has raised $50 million in Series A funding, confirming our earlier scoop." },
+        { "field": "investors", "url": "https://www.unquote.com/nordics/official-record/3020273/vnv-global-leads-usd30m-round-for-voi-technology", "quote": "Balderton Capital led a $50m series-A funding round" }
+      ]
+    },
+    {
+      "stage": "series-a",
+      "month": "2019-03",
+      "amountEur": 27000000,
+      "amountOriginal": 30000000,
+      "currency": "USD",
+      "investors": ["Creandum", "Project A", "VNV Global", "Balderton Capital", "LocalGlobe", "The Raine Group"],
+      "sources": [
+        { "field": "amount", "url": "https://nordic9.com/news/voi-technologies-secured-30m-in-additional-funding-round-and-project-a-and-creandum-as-new-investors-news6666987781/", "quote": "announced that it secured $30M more in investment." },
+        { "field": "month", "url": "https://nordic9.com/news/voi-technologies-secured-30m-in-additional-funding-round-and-project-a-and-creandum-as-new-investors-news6666987781/", "quote": "announced that it secured $30M more in investment." },
+        { "field": "investors", "url": "https://nordic9.com/news/voi-technologies-secured-30m-in-additional-funding-round-and-project-a-and-creandum-as-new-investors-news6666987781/", "quote": "two new ones - Creandum and Project A" }
+      ]
+    },
+    {
+      "techeuId": "03AA5E61-1F3A-495C-E006-08D91092C887",
+      "stage": "series-b",
+      "month": "2019-11",
+      "amountEur": 77000000,
+      "amountOriginal": 85000000,
+      "currency": "USD",
+      "investors": ["VNV Global", "Balderton Capital", "Creandum", "Project A", "JME Ventures", "The Raine Group", "Kreos Capital", "Inbox Capital", "Rider Global", "Black Ice Capital"],
+      "sources": [
+        { "field": "amount", "url": "https://www.privateequityinternational.com/swedish-e-scooter-operator-voi-technologies-rides-off-with-85-mln/", "quote": "Voi Technology, a Swedish e-scooter operator, has raised $85 million in funding." },
+        { "field": "month", "url": "https://www.privateequityinternational.com/swedish-e-scooter-operator-voi-technologies-rides-off-with-85-mln/", "quote": "Voi Technology, a Swedish e-scooter operator, has raised $85 million in funding." },
+        { "field": "stage", "url": "https://www.unquote.com/nordics/official-record/3020273/vnv-global-leads-usd30m-round-for-voi-technology", "quote": "VNV led an $85m series-B round" },
+        { "field": "investors", "url": "https://www.privateequityinternational.com/swedish-e-scooter-operator-voi-technologies-rides-off-with-85-mln/", "quote": "Vostok New Ventures led the round with participation from other investors" }
+      ]
+    },
+    {
+      "stage": "series-c",
+      "month": "2020-12",
+      "amountEur": 131000000,
+      "amountOriginal": 160000000,
+      "currency": "USD",
+      "investors": ["The Raine Group", "VNV Global", "Balderton Capital", "Creandum", "Project A", "NordicNinja VC", "Stena Sessan"],
+      "sources": [
+        { "field": "amount", "url": "https://www.electrive.com/2020/12/02/voi-scores-more-support-with-160-million-c-round", "quote": "raise $160 million to accelerate the company's expansion" },
+        { "field": "month", "url": "https://www.electrive.com/2020/12/02/voi-scores-more-support-with-160-million-c-round", "quote": "raise $160 million to accelerate the company's expansion" },
+        { "field": "stage", "url": "https://tech.eu/2021/08/06/micromobility-platform-voi-raises-45-million-in-round-extension/", "quote": "$45 million in a Series-C round extension" },
+        { "field": "investors", "url": "https://www.electrive.com/2020/12/02/voi-scores-more-support-with-160-million-c-round", "quote": "raise $160 million to accelerate the company's expansion" }
+      ]
+    },
+    {
+      "techeuId": "54141606-2661-4C0B-8956-947D7C0A1035",
+      "stage": "series-c",
+      "month": "2021-08",
+      "amountEur": 38000000,
+      "amountOriginal": 45000000,
+      "currency": "USD",
+      "investors": ["The Raine Group", "VNV Global"],
+      "sources": [
+        { "field": "amount", "url": "https://tech.eu/2021/08/06/micromobility-platform-voi-raises-45-million-in-round-extension/", "quote": "$45 million in a Series-C round extension" },
+        { "field": "month", "url": "https://tech.eu/2021/08/06/micromobility-platform-voi-raises-45-million-in-round-extension/", "quote": "$45 million in a Series-C round extension" },
+        { "field": "stage", "url": "https://tech.eu/2021/08/06/micromobility-platform-voi-raises-45-million-in-round-extension/", "quote": "$45 million in a Series-C round extension" },
+        { "field": "investors", "url": "https://tech.eu/2021/08/06/micromobility-platform-voi-raises-45-million-in-round-extension/", "quote": "The Raine Group" }
+      ]
+    },
+    {
+      "techeuId": "A71679FA-9DBD-4B49-8F71-42618992A276",
+      "stage": "series-d",
+      "month": "2021-12",
+      "amountEur": 102000000,
+      "amountOriginal": 115000000,
+      "currency": "USD",
+      "investors": ["The Raine Group", "VNV Global", "Inbox Capital", "NordicNinja VC", "Stena Sessan", "Kreos Capital", "Ilmarinen", "Nineyards Equity", "ICT Capital"],
+      "postMoneyValuationEur": 885000000,
+      "sources": [
+        { "field": "amount", "url": "https://tech.eu/brief/voi-keeps-a-rollin-along-brings-home-115-million-in-series-d-round/", "quote": "Voi keeps a-rollin' along, brings home $115 million in Series D round at $1 billion valuation" },
+        { "field": "month", "url": "https://tech.eu/brief/voi-keeps-a-rollin-along-brings-home-115-million-in-series-d-round/", "quote": "Voi keeps a-rollin' along, brings home $115 million in Series D round at $1 billion valuation" },
+        { "field": "stage", "url": "https://tech.eu/brief/voi-keeps-a-rollin-along-brings-home-115-million-in-series-d-round/", "quote": "Voi keeps a-rollin' along, brings home $115 million in Series D round at $1 billion valuation" },
+        { "field": "investors", "url": "https://tech.eu/brief/voi-keeps-a-rollin-along-brings-home-115-million-in-series-d-round/", "quote": "Led by: The Raine Group and VNV Global" },
+        { "field": "valuation", "url": "https://tech.eu/brief/voi-keeps-a-rollin-along-brings-home-115-million-in-series-d-round/", "quote": "Voi keeps a-rollin' along, brings home $115 million in Series D round at $1 billion valuation" }
+      ]
+    },
+    {
+      "techeuId": "0342B054-537B-4C9C-B694-0FAC1094228D",
+      "stage": "series-e",
+      "month": "2024-03",
+      "amountEur": 23000000,
+      "amountOriginal": 25000000,
+      "currency": "USD",
+      "investors": ["VNV Global", "The Raine Group", "Nineyards Equity", "Balderton Capital", "Creandum", "Project A", "Stena Sessan", "Black Ice Capital"],
+      "sources": [
+        { "field": "amount", "url": "https://mfn.se/cis/a/voitechnology/voi-closes-financing-round-following-a-record-year-in-revenue-and-profitability-ac7aeebd", "quote": "has successfully raised $25 million in an oversubscribed financing round." },
+        { "field": "month", "url": "https://tech.eu/2024/03/12/micromobility-operator-voi-raises-25m-in-oversubscribed-round/", "quote": "Today, micromobility operator Voi announced that it had raised $25 million in an oversubscribed financing round." },
+        { "field": "investors", "url": "https://tech.eu/2024/03/12/micromobility-operator-voi-raises-25m-in-oversubscribed-round/", "quote": "Today, micromobility operator Voi announced that it had raised $25 million in an oversubscribed financing round." }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "id": "pld-space",
+  "name": "PLD Space",
+  "aliases": [],
+  "domain": "pldspace.com",
+  "country": "ES",
+  "city": "Elche",
+  "founded": 2011,
+  "sectors": ["space"],
+  "status": "private",
+  "unicorn": false,
+  "founders": ["Raúl Torres", "Raúl Verdú", "José Enrique Martínez"],
+  "funFact": "PLD Space was founded in 2011 in Elche, Spain, and is described as the first private Spanish rocket company.",
+  "difficulty": 3,
+  "techeuId": "7b66cf61-388a-4c13-a5fc-390bba38b438",
+  "wikidataId": "Q21076153",
+  "sources": [
+    { "field": "city", "url": "https://en.wikipedia.org/wiki/PLD_Space", "quote": "PLD Space has its headquarters and main factory in Elche, Spain." },
+    { "field": "founded", "url": "https://en.wikipedia.org/wiki/PLD_Space", "quote": "PLD Space was founded in 2011 by Raúl Torres, Raúl Verdú and José E. Martínez in Elche, Spain." },
+    { "field": "founders", "url": "https://en.wikipedia.org/wiki/PLD_Space", "quote": "PLD Space was founded in 2011 by Raúl Torres, Raúl Verdú and José E. Martínez in Elche, Spain." },
+    { "field": "sectors", "url": "https://tech.eu/2021/12/27/spains-pld-space-prepares-for-liftoff-with-28-million-in-new-funding", "quote": "Spain's PLD Space prepares for liftoff" },
+    { "field": "status", "url": "https://thenextweb.com/news/pld-space-raises-e180m-series-c-to-scale-europes-commercial-launch-capabilities", "quote": "€180 million in Series C funding" },
+    { "field": "unicorn", "url": "https://thenextweb.com/news/pld-space-raises-e180m-series-c-to-scale-europes-commercial-launch-capabilities", "quote": "PLD Space has not disclosed its post-money valuation." },
+    { "field": "fun_fact", "url": "https://spaceflightnow.com/2026/03/05/spanish-launch-startup-pld-space-raises-209-million-to-scale-its-rocket-production", "quote": "first private Spanish rocket company" }
+  ],
+  "rounds": [
+    {
+      "stage": "series-a",
+      "month": "2018-06",
+      "amountEur": 9000000,
+      "amountOriginal": 9000000,
+      "currency": "EUR",
+      "investors": ["Aciturri", "JME Venture Capital", "GMV"],
+      "sources": [
+        { "field": "amount", "url": "https://novobrief.com/space-reusable-rockets/", "quote": "a €17 million Series A investment round" },
+        { "field": "amount", "url": "https://capital-riesgo.es/en/articles/pld-space-completes-its-17-millions-investment-round-/", "quote": "second investment tranche of 9 million euros, comprised of 7.1 million euros of private investment and 1.9 million euros of public investment" },
+        { "field": "stage", "url": "https://novobrief.com/space-reusable-rockets/", "quote": "a €17 million Series A investment round" },
+        { "field": "month", "url": "https://novobrief.com/space-reusable-rockets/", "quote": "June 11, 2018" },
+        { "field": "investors", "url": "https://novobrief.com/space-reusable-rockets/", "quote": "Spanish investment fund JME Venture Capital, led by José Manuel Entrecanales" }
+      ]
+    },
+    {
+      "techeuId": "632b3f2c-5af0-4fd0-9a52-3b35ea60d799",
+      "stage": "series-b",
+      "month": "2021-12",
+      "amountEur": 24750000,
+      "amountOriginal": 28000000,
+      "currency": "USD",
+      "investors": ["Arcano Partners", "Aciturri", "CDTI Innvierte"],
+      "sources": [
+        { "field": "amount", "url": "https://tech.eu/2021/12/27/spains-pld-space-prepares-for-liftoff-with-28-million-in-new-funding", "quote": "$28 million" },
+        { "field": "stage", "url": "https://tech.eu/2021/12/27/spains-pld-space-prepares-for-liftoff-with-28-million-in-new-funding", "quote": "Series B" },
+        { "field": "month", "url": "https://tech.eu/2021/12/27/spains-pld-space-prepares-for-liftoff-with-28-million-in-new-funding", "quote": "27 December 2021" },
+        { "field": "investors", "url": "https://tech.eu/2021/12/27/spains-pld-space-prepares-for-liftoff-with-28-million-in-new-funding", "quote": "led by Arcano Partners, Aciturri and the Centre for the Development of Industrial Technology (CDTI) through the co-investment initiative of the INNVIERTE" }
+      ]
+    },
+    {
+      "techeuId": "33d28a1e-e0ca-4aba-99ea-a63cc45ad894",
+      "stage": "series-c",
+      "month": "2026-03",
+      "amountEur": 180000000,
+      "amountOriginal": 180000000,
+      "currency": "EUR",
+      "investors": ["Mitsubishi Electric Corporation", "CDTI Innvierte", "COFIDES", "Nazca Capital"],
+      "sources": [
+        { "field": "amount", "url": "https://thenextweb.com/news/pld-space-raises-e180m-series-c-to-scale-europes-commercial-launch-capabilities", "quote": "€180 million in Series C funding" },
+        { "field": "stage", "url": "https://thenextweb.com/news/pld-space-raises-e180m-series-c-to-scale-europes-commercial-launch-capabilities", "quote": "€180 million in Series C funding" },
+        { "field": "month", "url": "https://thenextweb.com/news/pld-space-raises-e180m-series-c-to-scale-europes-commercial-launch-capabilities", "quote": "This article was published on March 4, 2026" },
+        { "field": "investors", "url": "https://thenextweb.com/news/pld-space-raises-e180m-series-c-to-scale-europes-commercial-launch-capabilities", "quote": "Mitsubishi Electric alongside public and private investors such as CDTI Innvierte, COFIDES, and Nazca Capital" }
+      ]
+    },
+    {
+      "techeuId": "a816f6b9-2a89-45f2-87f5-1724cddd8e1f",
+      "stage": "series-c",
+      "month": "2026-09",
+      "amountEur": 108000000,
+      "amountOriginal": 108000000,
+      "currency": "EUR",
+      "investors": ["Mitsubishi Electric Corporation", "COFIDES", "Endeavor Catalyst", "Spain Oman Private Equity Fund"],
+      "sources": [
+        { "field": "amount", "url": "https://pulse2.com/pld-space-extends-series-c-to-e288-million-with-additional-e108-million-tranche/", "quote": "an additional €108 million" },
+        { "field": "stage", "url": "https://pulse2.com/pld-space-extends-series-c-to-e288-million-with-additional-e108-million-tranche/", "quote": "PLD Space Extends Series C To €288 Million With Additional €108 Million Tranche" },
+        { "field": "month", "url": "https://pulse2.com/pld-space-extends-series-c-to-e288-million-with-additional-e108-million-tranche/", "quote": "September 9, 2026" },
+        { "field": "investors", "url": "https://pulse2.com/pld-space-extends-series-c-to-e288-million-with-additional-e108-million-tranche/", "quote": "Mitsubishi Electric Corporation led the extension ... New investors were Endeavor Catalyst and the Spain Oman Private Equity Fund" }
+      ]
+    }
+  ]
+}

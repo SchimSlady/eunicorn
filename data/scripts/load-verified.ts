@@ -93,8 +93,9 @@ try {
       await db.query("delete from public.rounds where company_id = $1", [c.id]);
       const ids = new Set<string>();
       for (const r of c.rounds) {
-        let id = `${c.id}-${r.stage}-${r.month.slice(0, 4)}`;
-        for (let n = 2; ids.has(id); n++) id = `${c.id}-${r.stage}-${r.month.slice(0, 4)}-${n}`;
+        const base = `${c.id}-${r.stage.replace("+", "-plus")}-${r.month.slice(0, 4)}`; // series-f+ -> series-f-plus
+        let id = base;
+        for (let n = 2; ids.has(id); n++) id = `${base}-${n}`;
         ids.add(id);
         // Insert unverified first: the trigger only allows verified once the sources exist.
         await db.query(

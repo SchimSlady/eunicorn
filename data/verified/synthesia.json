@@ -1,0 +1,126 @@
+{
+  "id": "synthesia",
+  "name": "Synthesia",
+  "aliases": [],
+  "domain": "synthesia.io",
+  "country": "GB",
+  "city": "London",
+  "founded": 2017,
+  "sectors": ["ai", "saas"],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 3408000000,
+  "founders": ["Victor Riparbelli", "Steffen Tjerrild", "Lourdes Agapito", "Matthias Niessner"],
+  "funFact": "Synthesia first showed off its tech in 2018 on the BBC show Click, making newsreader Matthew Amroliwala appear to speak Spanish, Mandarin and Hindi.",
+  "difficulty": 3,
+  "techeuId": "F2A12CB1-DA0C-4DA8-A61E-0BE151CD4456",
+  "wikidataId": "Q117322900",
+  "sources": [
+    { "field": "city", "url": "https://tech.eu/2026/01/26/synthesia-doubles-valuation-to-4bn-in-12-months-following-200m-funding-round/", "quote": "Headquartered in London, Synthesia also has offices in New York, Munich and Zurich." },
+    { "field": "founded", "url": "https://mmc.vc/latest/synthesia-the-ai-video-generation-platform-raises-12-5-million-series-a", "quote": "Founded in 2017." },
+    { "field": "founders", "url": "https://tech.eu/2023/06/13/uks-synthesia-raises-90-million-valuing-the-ai-video-creation-platform-at-1-billion/", "quote": "Synthesia founders Steffen Tjerrild, Prof. Lourdes Agapito, Prof. Matthias Niessner and Victor Riparbelli." },
+    { "field": "sectors", "url": "https://en.wikipedia.org/wiki/Synthesia_(company)", "quote": "Synthesia Limited is a British multinational artificial intelligence company based in London, United Kingdom." },
+    { "field": "status", "url": "https://en.wikipedia.org/wiki/Synthesia_(company)", "quote": "Synthesia subsequently rejected a $3 billion acquisition offer from Adobe, choosing to remain independent." },
+    { "field": "unicorn", "url": "https://tech.eu/2023/06/13/uks-synthesia-raises-90-million-valuing-the-ai-video-creation-platform-at-1-billion/", "quote": "values the company at $1 billion." },
+    { "field": "valuation", "url": "https://www.lw.com/en/news/2026/01/latham-watkins-advises-synthesia-on-us200-million-series-e-and-secondary-transaction", "quote": "raised a US$200 million Series E funding round at a US$4 billion valuation" },
+    { "field": "fun_fact", "url": "https://en.wikipedia.org/wiki/Synthesia_(company)", "quote": "In 2018, the company first demonstrated the software's capabilities on the BBC programme Click" },
+    { "field": "fun_fact", "url": "https://en.wikipedia.org/wiki/Synthesia_(company)", "quote": "when it presented a digitization of Matthew Amroliwala speaking Spanish, Mandarin, and Hindi" }
+  ],
+  "rounds": [
+    {
+      "techeuId": "66F0E3A9-0751-46E6-FCB0-08D91092C887",
+      "stage": "seed",
+      "month": "2019-04",
+      "amountEur": 2758000,
+      "amountOriginal": 3100000,
+      "currency": "USD",
+      "investors": ["LDV Capital", "Mark Cuban", "MMC Ventures", "VAS Ventures", "Taavet Hinrikus", "Nigel Morris"],
+      "sources": [
+        { "field": "amount", "url": "https://seedcamp.com/views/synthesia-raises-3-1-million-to-deliver-the-first-ai-video-synthesis-platform-to-customers/", "quote": "as part of their $3.1m round led by LDV Capital and early investor Mark Cuban" },
+        { "field": "month", "url": "https://seedcamp.com/views/synthesia-raises-3-1-million-to-deliver-the-first-ai-video-synthesis-platform-to-customers/", "quote": "25.04.2019" },
+        { "field": "investors", "url": "https://seedcamp.com/views/synthesia-raises-3-1-million-to-deliver-the-first-ai-video-synthesis-platform-to-customers/", "quote": "joined by new investors MMC Ventures, Martin Varsavsky's VAS Ventures, TransferWise co-founder Taavet Hinrikus" }
+      ]
+    },
+    {
+      "techeuId": "68E72E7D-02AF-4F44-FCB1-08D91092C887",
+      "stage": "series-a",
+      "month": "2021-04",
+      "amountEur": 10000000,
+      "amountOriginal": 12500000,
+      "currency": "USD",
+      "investors": ["FirstMark Capital", "MMC Ventures"],
+      "sources": [
+        { "field": "amount", "url": "https://mmc.vc/latest/synthesia-the-ai-video-generation-platform-raises-12-5-million-series-a", "quote": "the $12.5 million funding round is the largest investment in the AI video space to date." },
+        { "field": "month", "url": "https://mmc.vc/latest/synthesia-the-ai-video-generation-platform-raises-12-5-million-series-a", "quote": "20.04.21" },
+        { "field": "stage", "url": "https://techcrunch.com/2021/12/08/synthesia-raises-50m-to-leverage-synthetic-avatars-for-corporate-training-and-more/", "quote": "Since raising a $12.5 million Series A in April" },
+        { "field": "investors", "url": "https://mmc.vc/latest/synthesia-the-ai-video-generation-platform-raises-12-5-million-series-a", "quote": "Led by First Mark Capital" }
+      ]
+    },
+    {
+      "techeuId": "DE830CDC-F35A-4FA6-B292-9D0DD8EDDC74",
+      "stage": "series-b",
+      "month": "2021-12",
+      "amountEur": 44000000,
+      "amountOriginal": 50000000,
+      "currency": "USD",
+      "investors": ["Kleiner Perkins", "GV", "FirstMark Capital", "LDV Capital", "Seedcamp", "MMC Ventures"],
+      "sources": [
+        { "field": "amount", "url": "https://techcrunch.com/2021/12/08/synthesia-raises-50m-to-leverage-synthetic-avatars-for-corporate-training-and-more/", "quote": "it announced the close of a $50 million Series B funding round led by Kleiner Perkins" },
+        { "field": "month", "url": "https://techcrunch.com/2021/12/08/synthesia-raises-50m-to-leverage-synthetic-avatars-for-corporate-training-and-more/", "quote": "Synthesia raises $50M to leverage synthetic avatars for corporate training and more (December 8, 2021)" },
+        { "field": "stage", "url": "https://techcrunch.com/2021/12/08/synthesia-raises-50m-to-leverage-synthetic-avatars-for-corporate-training-and-more/", "quote": "it announced the close of a $50 million Series B funding round led by Kleiner Perkins" },
+        { "field": "investors", "url": "https://techcrunch.com/2021/12/08/synthesia-raises-50m-to-leverage-synthetic-avatars-for-corporate-training-and-more/", "quote": "with participation from GV and existing investors Firstmark Capital, LDV Capital, Seedcamp and MMC Ventures." }
+      ]
+    },
+    {
+      "techeuId": "EA4A9681-105B-42C7-B573-41407E147742",
+      "stage": "series-c",
+      "month": "2023-06",
+      "amountEur": 83000000,
+      "amountOriginal": 90000000,
+      "currency": "USD",
+      "investors": ["Accel", "NVentures", "Kleiner Perkins", "GV", "FirstMark Capital"],
+      "postMoneyValuationEur": 923000000,
+      "sources": [
+        { "field": "amount", "url": "https://tech.eu/2023/06/13/uks-synthesia-raises-90-million-valuing-the-ai-video-creation-platform-at-1-billion/", "quote": "has raised $90 million in Series C funding round" },
+        { "field": "month", "url": "https://tech.eu/2023/06/13/uks-synthesia-raises-90-million-valuing-the-ai-video-creation-platform-at-1-billion/", "quote": "UK's Synthesia raises $90 million valuing the AI video creation platform at $1 billion (13 June 2023)" },
+        { "field": "stage", "url": "https://tech.eu/2023/06/13/uks-synthesia-raises-90-million-valuing-the-ai-video-creation-platform-at-1-billion/", "quote": "has raised $90 million in Series C funding round" },
+        { "field": "valuation", "url": "https://tech.eu/2023/06/13/uks-synthesia-raises-90-million-valuing-the-ai-video-creation-platform-at-1-billion/", "quote": "values the company at $1 billion." },
+        { "field": "investors", "url": "https://tech.eu/2023/06/13/uks-synthesia-raises-90-million-valuing-the-ai-video-creation-platform-at-1-billion/", "quote": "includes existing investors Kleiner Perkins, GV and Firstmark Capital." }
+      ]
+    },
+    {
+      "techeuId": "3374FEDE-2904-4A7D-A59D-8CD12C83CBC0",
+      "stage": "series-d",
+      "month": "2025-01",
+      "amountEur": 174000000,
+      "amountOriginal": 180000000,
+      "currency": "USD",
+      "investors": ["NEA", "World Innovation Lab", "Atlassian Ventures", "PSP Growth", "GV", "MMC Ventures"],
+      "postMoneyValuationEur": 2028000000,
+      "sources": [
+        { "field": "amount", "url": "https://www.mondaq.com/pressrelease/156368/synthesia-secures-$180m-in-series-d-funding", "quote": "on their respective investments in Synthesia's $180 million Series D financing." },
+        { "field": "month", "url": "https://www.mondaq.com/pressrelease/156368/synthesia-secures-$180m-in-series-d-funding", "quote": "21 January 2025" },
+        { "field": "stage", "url": "https://www.mondaq.com/pressrelease/156368/synthesia-secures-$180m-in-series-d-funding", "quote": "on their respective investments in Synthesia's $180 million Series D financing." },
+        { "field": "valuation", "url": "https://www.mondaq.com/pressrelease/156368/synthesia-secures-$180m-in-series-d-funding", "quote": "valuing the company at $2.1 billion" },
+        { "field": "investors", "url": "https://www.mondaq.com/pressrelease/156368/synthesia-secures-$180m-in-series-d-funding", "quote": "Atlassian Ventures, and PSP Growth, plus previous backers GV and MMC Ventures." }
+      ]
+    },
+    {
+      "techeuId": "A4C9FB81-4976-4185-9246-ABDC98FAEADE",
+      "stage": "series-e",
+      "month": "2026-01",
+      "amountEur": 170000000,
+      "amountOriginal": 200000000,
+      "currency": "USD",
+      "investors": ["GV", "Evantic", "Hedosophia", "NVentures", "Accel", "Kleiner Perkins", "NEA", "PSP Growth", "Air Street Capital", "FirstMark Capital"],
+      "postMoneyValuationEur": 3408000000,
+      "sources": [
+        { "field": "amount", "url": "https://www.lw.com/en/news/2026/01/latham-watkins-advises-synthesia-on-us200-million-series-e-and-secondary-transaction", "quote": "raised a US$200 million Series E funding round at a US$4 billion valuation" },
+        { "field": "month", "url": "https://tech.eu/2026/01/26/synthesia-doubles-valuation-to-4bn-in-12-months-following-200m-funding-round/", "quote": "The $200m Series E funding round in Synthesia was led by existing investor Google Ventures (26 January 2026)" },
+        { "field": "stage", "url": "https://tech.eu/2026/01/26/synthesia-doubles-valuation-to-4bn-in-12-months-following-200m-funding-round/", "quote": "The $200m Series E funding round in Synthesia was led by existing investor Google Ventures" },
+        { "field": "valuation", "url": "https://www.lw.com/en/news/2026/01/latham-watkins-advises-synthesia-on-us200-million-series-e-and-secondary-transaction", "quote": "raised a US$200 million Series E funding round at a US$4 billion valuation" },
+        { "field": "investors", "url": "https://tech.eu/2026/01/26/synthesia-doubles-valuation-to-4bn-in-12-months-following-200m-funding-round/", "quote": "Other existing investors NVentures, Nvidia's VC arm, Accel, Kleiner Perkins, New Enterprise Associates (NEA)," }
+      ]
+    }
+  ]
+}

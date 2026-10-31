@@ -1,0 +1,228 @@
+{
+  "id": "nscale",
+  "name": "Nscale",
+  "aliases": [],
+  "domain": "nscale.com",
+  "country": "GB",
+  "city": "London",
+  "founded": 2024,
+  "sectors": [
+    "ai"
+  ],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 12635222847,
+  "founders": [
+    "Josh Payne"
+  ],
+  "funFact": "Nscale was founded in 2024 and, by its own account, raised the largest Series B in UK and European history ($1.1 billion) in September 2025.",
+  "difficulty": 4,
+  "techeuId": "3F360049-F898-4750-8B3A-D65A2939B24E",
+  "wikidataId": "Q132721548",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/Nscale",
+      "quote": "Headquartered in London."
+    },
+    {
+      "field": "city",
+      "url": "https://siliconangle.com/2024/12/09/ai-data-center-builder-nscale-nabs-155m-investment",
+      "quote": "a London startup"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Nscale",
+      "quote": "founded in 2024 by Josh Payne"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Nscale",
+      "quote": "founded in 2024 by Josh Payne"
+    },
+    {
+      "field": "sectors",
+      "url": "https://siliconangle.com/2024/12/09/ai-data-center-builder-nscale-nabs-155m-investment",
+      "quote": "AI data center builder Nscale nabs $155M investment"
+    },
+    {
+      "field": "status",
+      "url": "https://en.wikipedia.org/wiki/Nscale",
+      "quote": "Private"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://thenextweb.com/news/nscale-raises-2bn-series-c-at-14-6bn-valuation",
+      "quote": "Nscale raises $2bn Series C at $14.6bn valuation"
+    },
+    {
+      "field": "valuation",
+      "url": "https://thenextweb.com/news/nscale-raises-2bn-series-c-at-14-6bn-valuation",
+      "quote": "Nscale raises $2bn Series C at $14.6bn valuation"
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://nscale.com/press-releases/nscale-series-b",
+      "quote": "Nscale Raises the Largest Series B in European History, at $1.1 billion"
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://en.wikipedia.org/wiki/Nscale",
+      "quote": "founded in 2024 by Josh Payne"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "D2E0BA20-5593-439E-8AA5-465A53574846",
+      "stage": "series-a",
+      "month": "2024-12",
+      "amountEur": 146669190,
+      "amountOriginal": 155000000,
+      "currency": "USD",
+      "investors": [
+        "Sandton Capital Partners",
+        "Kestrel 0x1",
+        "Blue Sky Capital Managers",
+        "Florence Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://siliconangle.com/2024/12/09/ai-data-center-builder-nscale-nabs-155m-investment",
+          "quote": "has raised $155 million to grow its infrastructure footprint."
+        },
+        {
+          "field": "stage",
+          "url": "https://siliconangle.com/2024/12/09/ai-data-center-builder-nscale-nabs-155m-investment",
+          "quote": "The Series A round was announced this morning."
+        },
+        {
+          "field": "month",
+          "url": "https://siliconangle.com/2024/12/09/ai-data-center-builder-nscale-nabs-155m-investment",
+          "quote": "UPDATED 15:01 EDT / DECEMBER 09 2024"
+        },
+        {
+          "field": "investors",
+          "url": "https://siliconangle.com/2024/12/09/ai-data-center-builder-nscale-nabs-155m-investment",
+          "quote": "Sandton Capital Partners led the investment."
+        },
+        {
+          "field": "investors",
+          "url": "https://siliconangle.com/2024/12/09/ai-data-center-builder-nscale-nabs-155m-investment",
+          "quote": "Kestrel 0x1, Blue Sky Capital Managers, and Florence Capital"
+        }
+      ]
+    },
+    {
+      "techeuId": "DC9B1333-5668-42D2-8306-5C795959A11A",
+      "stage": "series-b",
+      "month": "2025-09",
+      "amountEur": 937047449,
+      "amountOriginal": 1100000000,
+      "currency": "USD",
+      "investors": [
+        "Aker ASA",
+        "Sandton Capital Partners",
+        "Blue Owl",
+        "Dell",
+        "Fidelity Management & Research Company",
+        "G Squared",
+        "Nokia",
+        "NVIDIA",
+        "Point72",
+        "T.Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://nscale.com/press-releases/nscale-series-b",
+          "quote": "USD $1.1 billion"
+        },
+        {
+          "field": "stage",
+          "url": "https://nscale.com/press-releases/nscale-series-b",
+          "quote": "Nscale Raises the Largest Series B in European History, at $1.1 billion"
+        },
+        {
+          "field": "month",
+          "url": "https://nscale.com/press-releases/nscale-series-b",
+          "quote": "September 25, 2025"
+        },
+        {
+          "field": "investors",
+          "url": "https://nscale.com/press-releases/nscale-series-b",
+          "quote": "The financing was led by Aker ASA."
+        },
+        {
+          "field": "investors",
+          "url": "https://nscale.com/press-releases/nscale-series-b",
+          "quote": "Sandton Capital, Blue Owl Managed Funds, Dell, Fidelity Management & Research Company, G Squared, Nokia, NVIDIA, Point72, and T.Capital"
+        }
+      ]
+    },
+    {
+      "techeuId": "88DC0B81-B772-40C6-9476-AEAF3DC9787C",
+      "stage": "series-c",
+      "month": "2026-03",
+      "amountEur": 1730852445,
+      "amountOriginal": 2000000000,
+      "currency": "USD",
+      "postMoneyValuationEur": 12635222847,
+      "investors": [
+        "Aker ASA",
+        "8090 Industries",
+        "Astra Capital Management",
+        "Citadel",
+        "Dell",
+        "Jane Street",
+        "Lenovo",
+        "Linden Advisors",
+        "Nokia",
+        "NVIDIA",
+        "Point72"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://thenextweb.com/news/nscale-raises-2bn-series-c-at-14-6bn-valuation",
+          "quote": "Nscale raises $2bn Series C at $14.6bn valuation."
+        },
+        {
+          "field": "amount",
+          "url": "https://thenextweb.com/news/nscale-raises-2bn-series-c-at-14-6bn-valuation",
+          "quote": "inclusive of the pre-Series C SAFE that Nscale closed in October 2025"
+        },
+        {
+          "field": "stage",
+          "url": "https://thenextweb.com/news/nscale-raises-2bn-series-c-at-14-6bn-valuation",
+          "quote": "Nscale raises $2bn Series C at $14.6bn valuation"
+        },
+        {
+          "field": "month",
+          "url": "https://thenextweb.com/news/nscale-raises-2bn-series-c-at-14-6bn-valuation",
+          "quote": "March 9, 2026"
+        },
+        {
+          "field": "investors",
+          "url": "https://thenextweb.com/news/nscale-raises-2bn-series-c-at-14-6bn-valuation",
+          "quote": "led jointly by Aker ASA, the Norwegian industrial conglomerate"
+        },
+        {
+          "field": "investors",
+          "url": "https://thenextweb.com/news/nscale-raises-2bn-series-c-at-14-6bn-valuation",
+          "quote": "Dallas-based industrial tech fund 8090 Industries"
+        },
+        {
+          "field": "investors",
+          "url": "https://thenextweb.com/news/nscale-raises-2bn-series-c-at-14-6bn-valuation",
+          "quote": "Astra Capital Management, Citadel, Dell, Jane Street, Lenovo, Linden Advisors, Nokia, NVIDIA, and Point72"
+        },
+        {
+          "field": "valuation",
+          "url": "https://thenextweb.com/news/nscale-raises-2bn-series-c-at-14-6bn-valuation",
+          "quote": "Nscale raises $2bn Series C at $14.6bn valuation"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "id": "qonto",
+  "name": "Qonto",
+  "aliases": [],
+  "domain": "qonto.com",
+  "country": "FR",
+  "city": "Paris",
+  "founded": 2016,
+  "sectors": ["fintech"],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 4400000000,
+  "founders": ["Alexandre Prot", "Steve Anavi"],
+  "funFact": "Co-founder and CEO Alexandre Prot is the son of Baudouin Prot, who used to chair BNP Paribas, one of the very banks Qonto set out to challenge.",
+  "difficulty": 3,
+  "techeuId": "83F013A4-72F8-4E04-BBDA-9682974C7E98",
+  "wikidataId": "Q56319259",
+  "sources": [
+    { "field": "city", "url": "https://tech.eu/2022/01/11/frances-qonto-raises-e486-million-at-record-breaking-valuation-of-e4-4-billion", "quote": "Paris-based Qonto" },
+    { "field": "founded", "url": "https://en.wikipedia.org/wiki/Qonto", "quote": "Qonto was established in 2016 and launched its services in France in July 2017." },
+    { "field": "founders", "url": "https://en.wikipedia.org/wiki/Qonto", "quote": "The company was co-founded by Steve Anavi and Alexandre Prot." },
+    { "field": "sectors", "url": "https://en.wikipedia.org/wiki/Qonto", "quote": "Qonto is a French financial technology company that provides financial and accounting services to freelancers and SMEs." },
+    { "field": "status", "url": "https://tech.eu/2025/07/03/qonto-applies-for-french-banking-licence-tops-600000-customers/", "quote": "The Tiger Global-backed neobank" },
+    { "field": "unicorn", "url": "https://tech.eu/2022/01/11/frances-qonto-raises-e486-million-at-record-breaking-valuation-of-e4-4-billion", "quote": "now providing the company with a €4.4 billion valuation" },
+    { "field": "valuation", "url": "https://tech.eu/2022/01/11/frances-qonto-raises-e486-million-at-record-breaking-valuation-of-e4-4-billion", "quote": "now providing the company with a €4.4 billion valuation" },
+    { "field": "fun_fact", "url": "https://en.wikipedia.org/wiki/Qonto", "quote": "Alexandre Prot is the son of Baudouin Prot, the former chairman of BNP Paribas." }
+  ],
+  "rounds": [
+    {
+      "techeuId": "9F7963C7-8E65-4C14-E947-08D91092C887",
+      "stage": "series-a",
+      "month": "2017-07",
+      "amountEur": 10000000,
+      "amountOriginal": 10000000,
+      "currency": "EUR",
+      "investors": ["Valar Ventures", "Alven"],
+      "sources": [
+        { "field": "amount", "url": "https://tech.eu/2017/07/03/qonto-raises-investment/", "quote": "has raised €10 million" },
+        { "field": "month", "url": "https://tech.eu/2017/07/03/qonto-raises-investment/", "quote": "French fintech firm Qonto receives €10 million from Valar Ventures and Alven Capital" },
+        { "field": "investors", "url": "https://tech.eu/2017/07/03/qonto-raises-investment/", "quote": "French fintech firm Qonto receives €10 million from Valar Ventures and Alven Capital" }
+      ]
+    },
+    {
+      "techeuId": "5C995061-2467-48CA-E948-08D91092C887",
+      "stage": "series-b",
+      "month": "2018-09",
+      "amountEur": 20000000,
+      "amountOriginal": 20000000,
+      "currency": "EUR",
+      "investors": ["Valar Ventures", "Alven", "European Investment Bank"],
+      "sources": [
+        { "field": "amount", "url": "https://tech.eu/2018/09/24/paris-based-sme-banking-startup-qonto-raises-e20-million/", "quote": "has raised €20 million in a round led by its existing investors Valar Ventures and Alven" },
+        { "field": "month", "url": "https://tech.eu/2018/09/24/paris-based-sme-banking-startup-qonto-raises-e20-million/", "quote": "has raised €20 million in a round led by its existing investors Valar Ventures and Alven" },
+        { "field": "investors", "url": "https://tech.eu/2018/09/24/paris-based-sme-banking-startup-qonto-raises-e20-million/", "quote": "with participation from the European Investment Bank Group" },
+        { "field": "stage", "url": "https://fintech.global/2018/09/25/french-challenger-bank-qonto-collects-e20m-series-b/", "quote": "French challenger bank Qonto collects €20m Series B" }
+      ]
+    },
+    {
+      "techeuId": "5A2B1D2C-4CC2-44B2-E949-08D91092C887",
+      "stage": "series-c",
+      "month": "2020-01",
+      "amountEur": 104000000,
+      "amountOriginal": 104000000,
+      "currency": "EUR",
+      "investors": ["Tencent", "DST Global", "Valar Ventures", "Alven", "Taavet Hinrikus", "Ingo Uytdehaage"],
+      "sources": [
+        { "field": "amount", "url": "https://globalventuring.com/qonto-115m-in-series-c-round/", "quote": "€104m ($115m) series C round" },
+        { "field": "stage", "url": "https://qonto.com/en/blog/trend-news/qonto-news/raising-our-ambitions", "quote": "We announced last week that we raised €104m Series C" },
+        { "field": "month", "url": "https://globalventuring.com/qonto-115m-in-series-c-round/", "quote": "Internet group Tencent has co-led a €104m ($115m) series C round for France-based business banking platform Qonto with investment firm DST Global." },
+        { "field": "investors", "url": "https://globalventuring.com/qonto-115m-in-series-c-round/", "quote": "Venture capital fund Valar Ventures, VC firm Alven and private investors" },
+        { "field": "investors", "url": "https://qonto.com/en/blog/trend-news/qonto-news/raising-our-ambitions", "quote": "We announced last week that we raised €104m Series C" }
+      ]
+    },
+    {
+      "techeuId": "1D4EAF76-9427-43D3-B420-2C39EC8A035B",
+      "stage": "series-d",
+      "month": "2022-01",
+      "amountEur": 486000000,
+      "amountOriginal": 486000000,
+      "currency": "EUR",
+      "postMoneyValuationEur": 4400000000,
+      "investors": ["Tiger Global", "TCV", "Alkeon Capital", "Eurazeo", "KKR", "Insight Partners", "Exor Seeds", "Valar Ventures", "Alven", "DST Global"],
+      "sources": [
+        { "field": "amount", "url": "https://tech.eu/2022/01/11/frances-qonto-raises-e486-million-at-record-breaking-valuation-of-e4-4-billion", "quote": "has raised €486 million in a Series D funding round" },
+        { "field": "stage", "url": "https://tech.eu/2022/01/11/frances-qonto-raises-e486-million-at-record-breaking-valuation-of-e4-4-billion", "quote": "has raised €486 million in a Series D funding round" },
+        { "field": "month", "url": "https://tech.eu/2022/01/11/frances-qonto-raises-e486-million-at-record-breaking-valuation-of-e4-4-billion", "quote": "has raised €486 million in a Series D funding round" },
+        { "field": "investors", "url": "https://tech.eu/2022/01/11/frances-qonto-raises-e486-million-at-record-breaking-valuation-of-e4-4-billion", "quote": "was led by new investors Tiger Global and TCV" },
+        { "field": "investors", "url": "https://tech.eu/2022/01/11/frances-qonto-raises-e486-million-at-record-breaking-valuation-of-e4-4-billion", "quote": "Existing investors Valar, Alven, DST Global, and Tencent all followed on" },
+        { "field": "valuation", "url": "https://tech.eu/2022/01/11/frances-qonto-raises-e486-million-at-record-breaking-valuation-of-e4-4-billion", "quote": "now providing the company with a €4.4 billion valuation" }
+      ]
+    }
+  ]
+}

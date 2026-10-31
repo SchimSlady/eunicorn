@@ -1,0 +1,108 @@
+{
+  "id": "back-market",
+  "name": "Back Market",
+  "aliases": ["Backmarket"],
+  "domain": "backmarket.com",
+  "country": "FR",
+  "city": "Paris",
+  "founded": 2014,
+  "sectors": ["consumer", "climate"],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 5038000000,
+  "founders": ["Thibaud Hug de Larauze", "Vianney Vaute", "Quentin Le Brouster"],
+  "funFact": "Its January 2022 raise made the refurbished-electronics marketplace the most highly valued startup in France at the time.",
+  "difficulty": 3,
+  "techeuId": "28795230-94FC-4A45-BF7F-EDF87C373230",
+  "wikidataId": "Q56316472",
+  "sources": [
+    { "field": "city", "url": "https://sacra.com/c/back-market/", "quote": "Paris, France" },
+    { "field": "founded", "url": "https://www.frenchweb.fr/back-market-leve-7-millions-deuros-pour-reconditionner-les-produits-electroniques-dans-toute-leurope/290977", "quote": "Lancée en 2014 par Thibaud Hug de Larauze, Vianney Vaute et Quentin Le Brouster" },
+    { "field": "founders", "url": "https://www.lemondeinformatique.fr/actualites/lire-back-market-leve-450-meteuro-et-devient-licorne-francaise-85406.html", "quote": "Fondé en 2014 par Thibaud Hug de Larauze, Vianney Vaute et Quentin Le Brouster" },
+    { "field": "status", "url": "https://sacra.com/c/back-market/", "quote": "no new funding round is expected in the near term" },
+    { "field": "unicorn", "url": "https://techcrunch.com/2021/05/17/back-market-raises-another-335-million-for-its-refurbished-device-marketplace/", "quote": "at $3.2 billion, the company said." },
+    { "field": "valuation", "url": "https://techcrunch.com/2022/01/11/back-market-reaches-5-7b-valuation-for-its-refurbished-device-marketplace/", "quote": "Today, the company is announcing a $510 million Series E round, which values the company at $5.7 billion." },
+    { "field": "fun_fact", "url": "https://www.lemondeinformatique.fr/actualites/lire-back-market-leve-450-meteuro-et-devient-licorne-francaise-85406.html", "quote": "la mieux valorisée avec 5,1 milliards d’euros" }
+  ],
+  "rounds": [
+    {
+      "techeuId": "67963BB5-6529-465D-E3B9-08D91092C887",
+      "stage": "series-a",
+      "month": "2017-05",
+      "amountEur": 7000000,
+      "amountOriginal": 7000000,
+      "currency": "EUR",
+      "investors": ["Daphni", "Aglaé Ventures"],
+      "sources": [
+        { "field": "amount", "url": "https://www.frenchweb.fr/back-market-leve-7-millions-deuros-pour-reconditionner-les-produits-electroniques-dans-toute-leurope/290977", "quote": "a bouclé un tour de table de 7 millions d’euros" },
+        { "field": "month", "url": "https://globalventuring.com/blog/2018/06/14/back-market-opens-series-b-stall/", "quote": "Aglaé Ventures and Daphni previously took part in a €7m ($7.6m) series A round in May 2017." },
+        { "field": "stage", "url": "https://globalventuring.com/blog/2018/06/14/back-market-opens-series-b-stall/", "quote": "Aglaé Ventures and Daphni previously took part in a €7m ($7.6m) series A round in May 2017." },
+        { "field": "investors", "url": "https://www.frenchweb.fr/back-market-leve-7-millions-deuros-pour-reconditionner-les-produits-electroniques-dans-toute-leurope/290977", "quote": "Daphni, le fonds de Marie Ekeland, Aglaé Ventures et des business angels" }
+      ]
+    },
+    {
+      "techeuId": "89A2173B-E35B-43B8-E3BA-08D91092C887",
+      "stage": "series-b",
+      "month": "2018-06",
+      "amountEur": 41000000,
+      "amountOriginal": 41000000,
+      "currency": "EUR",
+      "investors": ["Eurazeo", "Groupe Arnault", "Aglaé Ventures", "Daphni", "Thierry Petit"],
+      "sources": [
+        { "field": "amount", "url": "https://www.frenchweb.fr/41-millions-deuros-pour-back-market-qui-veut-faire-face-a-recommerce-et-lallemand-lallemand-rebuy/328044", "quote": "Back Market vient de boucler un second tour de table de 41 millions d'euros auprès d'Eurazeo," },
+        { "field": "month", "url": "https://www.retaildetail.eu/news/electronics/lvmhs-bernard-arnault-invests-refurbished-phones/", "quote": "has secured a 41 million euro investment" },
+        { "field": "stage", "url": "https://globalventuring.com/blog/2018/06/14/back-market-opens-series-b-stall/", "quote": "raised $48m in a series B round yesterday from investors including Groupe Arnault" },
+        { "field": "investors", "url": "https://www.frenchweb.fr/41-millions-deuros-pour-back-market-qui-veut-faire-face-a-recommerce-et-lallemand-lallemand-rebuy/328044", "quote": "Les investisseurs du 1er tour (Daphni, Aglaé Ventures et Thierry Petit) participent également à ce financement." }
+      ]
+    },
+    {
+      "techeuId": "D76AAA86-8908-47A1-E3BB-08D91092C887",
+      "stage": "series-c",
+      "month": "2020-05",
+      "amountEur": 110000000,
+      "amountOriginal": 120000000,
+      "currency": "USD",
+      "investors": ["Goldman Sachs", "Aglaé Ventures", "Eurazeo"],
+      "sources": [
+        { "field": "amount", "url": "https://tech.eu/2020/05/05/back-market-funding", "quote": "has raised $120 million from Goldman Sachs, Aglaé Ventures (the venture arm of Groupe Arnault), and Eurazeo Growth." },
+        { "field": "month", "url": "https://tech.eu/2020/05/05/back-market-funding", "quote": "has raised $120 million from Goldman Sachs, Aglaé Ventures (the venture arm of Groupe Arnault), and Eurazeo Growth." },
+        { "field": "investors", "url": "https://tech.eu/2020/05/05/back-market-funding", "quote": "has raised $120 million from Goldman Sachs, Aglaé Ventures (the venture arm of Groupe Arnault), and Eurazeo Growth." },
+        { "field": "stage", "url": "https://www.unquote.com/france/official-record/3019245/french-startup-back-market-raises-eur110m-series-c", "quote": "has raised a €110m series-C from Goldman Sachs, Aglaé Ventures (the venture arm of Groupe Arnault) and Eurazeo Growth." }
+      ]
+    },
+    {
+      "techeuId": "E2CC07D7-4C72-4D52-AAF0-D9FBF69C8E0A",
+      "stage": "series-d",
+      "month": "2021-05",
+      "amountEur": 276000000,
+      "amountOriginal": 335000000,
+      "currency": "USD",
+      "investors": ["General Atlantic", "Generation Investment Management", "Goldman Sachs Growth Equity", "Aglaé Ventures", "Eurazeo", "Daphni"],
+      "postMoneyValuationEur": 2635000000,
+      "sources": [
+        { "field": "amount", "url": "https://techcrunch.com/2021/05/17/back-market-raises-another-335-million-for-its-refurbished-device-marketplace/", "quote": "has raised a $335 million Series D funding round led by General Atlantic." },
+        { "field": "month", "url": "https://techcrunch.com/2021/05/17/back-market-raises-another-335-million-for-its-refurbished-device-marketplace/", "quote": "has raised a $335 million Series D funding round led by General Atlantic." },
+        { "field": "stage", "url": "https://techcrunch.com/2021/05/17/back-market-raises-another-335-million-for-its-refurbished-device-marketplace/", "quote": "has raised a $335 million Series D funding round led by General Atlantic." },
+        { "field": "investors", "url": "https://techcrunch.com/2021/05/17/back-market-raises-another-335-million-for-its-refurbished-device-marketplace/", "quote": "existing investors Goldman Sachs Growth Equity, Aglaé Ventures, Eurazeo and daphni." },
+        { "field": "valuation", "url": "https://techcrunch.com/2021/05/17/back-market-raises-another-335-million-for-its-refurbished-device-marketplace/", "quote": "at $3.2 billion, the company said." }
+      ]
+    },
+    {
+      "techeuId": "F1F3CE98-AD71-451C-8BA3-01DD55D65B3B",
+      "stage": "series-e",
+      "month": "2022-01",
+      "amountEur": 451000000,
+      "amountOriginal": 510000000,
+      "currency": "USD",
+      "investors": ["Sprints Capital", "Eurazeo", "Aglaé Ventures", "General Atlantic", "Generation Investment Management"],
+      "postMoneyValuationEur": 5038000000,
+      "sources": [
+        { "field": "amount", "url": "https://techcrunch.com/2022/01/11/back-market-reaches-5-7b-valuation-for-its-refurbished-device-marketplace/", "quote": "Today, the company is announcing a $510 million Series E round, which values the company at $5.7 billion." },
+        { "field": "month", "url": "https://techcrunch.com/2022/01/11/back-market-reaches-5-7b-valuation-for-its-refurbished-device-marketplace/", "quote": "Today, the company is announcing a $510 million Series E round, which values the company at $5.7 billion." },
+        { "field": "stage", "url": "https://techcrunch.com/2022/01/11/back-market-reaches-5-7b-valuation-for-its-refurbished-device-marketplace/", "quote": "Today, the company is announcing a $510 million Series E round, which values the company at $5.7 billion." },
+        { "field": "investors", "url": "https://techcrunch.com/2022/01/11/back-market-reaches-5-7b-valuation-for-its-refurbished-device-marketplace/", "quote": "Sprints Capital is leading today's funding round" },
+        { "field": "valuation", "url": "https://techcrunch.com/2022/01/11/back-market-reaches-5-7b-valuation-for-its-refurbished-device-marketplace/", "quote": "Today, the company is announcing a $510 million Series E round, which values the company at $5.7 billion." }
+      ]
+    }
+  ]
+}

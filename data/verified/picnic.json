@@ -1,0 +1,102 @@
+{
+  "id": "picnic",
+  "name": "Picnic",
+  "aliases": [],
+  "domain": "picnic.app",
+  "country": "NL",
+  "city": "Amsterdam",
+  "founded": 2015,
+  "sectors": ["consumer"],
+  "status": "private",
+  "unicorn": true,
+  "founders": ["Michiel Muller", "Joris Beckers", "Frederik Nieuwenhuys", "Bas Verheijen"],
+  "funFact": "Picnic delivers groceries for free using small purpose-built electric vans made by the French manufacturer Goupil.",
+  "difficulty": 3,
+  "techeuId": "94590C48-53F5-4CFF-BB77-9E0DFF7BCB7D",
+  "wikidataId": "Q32414703",
+  "sources": [
+    { "field": "city", "url": "https://nl.wikipedia.org/wiki/Picnic_(supermarkt)", "quote": "Het hoofdkantoor van Picnic bevindt zich in Amsterdam-Duivendrecht." },
+    { "field": "founded", "url": "https://www.dutchnews.nl/2021/09/online-supermarket-picnic-raises-e600m-to-fund-european-expansion", "quote": "Picnic was founded in 2015" },
+    { "field": "founders", "url": "https://nl.wikipedia.org/wiki/Picnic_(supermarkt)", "quote": "Het bedrijf werd in 2015 opgericht door Michiel Muller, Bas Verheijen en internetondernemers Joris Beckers en Frederik Nieuwenhuys" },
+    { "field": "status", "url": "https://tech.eu/2025/11/21/dutch-online-grocery-store-picnic-raises-430m/", "quote": "€430 million from existing investors" },
+    { "field": "unicorn", "url": "https://www.failory.com/startups/the-netherlands-unicorns", "quote": "The Remaining Unicorn Founded in The Netherlands" },
+    { "field": "sectors", "url": "https://nl.wikipedia.org/wiki/Picnic_(supermarkt)", "quote": "Picnic is een Nederlandse online-supermarkt die levensmiddelen via een mobiele app verkoopt en rechtstreeks aan huishoudens bezorgt." },
+    { "field": "fun_fact", "url": "https://nl.wikipedia.org/wiki/Picnic_(supermarkt)", "quote": "Voor de bezorging maakt Picnic gebruik van speciaal ontwikkelde elektrische voertuigen, die worden geproduceerd door de Franse fabrikant Goupil." }
+  ],
+  "rounds": [
+    {
+      "techeuId": "A8A453AA-E3EF-4726-83FB-839D21F3964F",
+      "stage": "series-f+",
+      "month": "2025-11",
+      "amountEur": 430000000,
+      "amountOriginal": 430000000,
+      "currency": "EUR",
+      "investors": ["Edeka", "Bill & Melinda Gates Foundation Trust", "Hoyberg", "NPM Capital"],
+      "sources": [
+        { "field": "amount", "url": "https://www.freshplaza.com/article/9788024/online-supermarket-picnic-raises-eur430-million-to-accelerate-growth-in-germany/", "quote": "Online supermarket Picnic has raised 430 million euros in a new round of funding from existing investors." },
+        { "field": "month", "url": "https://tech.eu/2025/11/21/dutch-online-grocery-store-picnic-raises-430m/", "quote": "€430 million from existing investors" },
+        { "field": "investors", "url": "https://www.retaildetail.eu/news/food/edeka-strengthening-its-hold-on-online-supermarket-picnic/", "quote": "These include Dutch investment companies Hoyberg and NPM Capital and the Bill and Melinda Gates Foundation." },
+        { "field": "investors", "url": "https://www.retaildetail.eu/news/food/edeka-strengthening-its-hold-on-online-supermarket-picnic/", "quote": "Edeka increased its stake in Picnic from 28% to more than 32%" }
+      ]
+    },
+    {
+      "techeuId": "35743D38-4324-4BF9-82C8-31EB1023297D",
+      "stage": "series-e",
+      "month": "2024-01",
+      "amountEur": 355000000,
+      "amountOriginal": 355000000,
+      "currency": "EUR",
+      "investors": ["Edeka", "Bill & Melinda Gates Foundation Trust"],
+      "sources": [
+        { "field": "amount", "url": "https://nltimes.nl/2024/01/09/online-supermarket-picnic-gets-eu355-million-capital-injection-shareholders", "quote": "Picnic has received a capital injection of 355 million euros from its shareholders." },
+        { "field": "month", "url": "https://tech.eu/2024/01/10/picnics-eur355-million-raise-edeka-and-gates-foundation-trust-among-investors", "quote": "raised €355 million in investor capital" },
+        { "field": "investors", "url": "https://tech.eu/2024/01/10/picnics-eur355-million-raise-edeka-and-gates-foundation-trust-among-investors", "quote": "Investors in the latest fundraising include Germany's largest supermarket group, Edeka," }
+      ]
+    },
+    {
+      "techeuId": "0EFC3E85-45B4-4C30-9CD2-105C722B5524",
+      "stage": "series-d",
+      "month": "2021-09",
+      "amountEur": 600000000,
+      "amountOriginal": 600000000,
+      "currency": "EUR",
+      "investors": ["Bill & Melinda Gates Foundation Trust"],
+      "sources": [
+        { "field": "amount", "url": "https://www.dutchnews.nl/2021/09/online-supermarket-picnic-raises-e600m-to-fund-european-expansion", "quote": "has raised €600m from a variety of investors, including the Bill & Melinda Gates Foundation" },
+        { "field": "month", "url": "https://www.dutchnews.nl/2021/09/online-supermarket-picnic-raises-e600m-to-fund-european-expansion", "quote": "has raised €600m from a variety of investors, including the Bill & Melinda Gates Foundation" },
+        { "field": "stage", "url": "https://tech.eu/2025/11/21/dutch-online-grocery-store-picnic-raises-430m/", "quote": "In 2022, it raised €600 million in its Series D round." },
+        { "field": "investors", "url": "https://www.dutchnews.nl/2021/09/online-supermarket-picnic-raises-e600m-to-fund-european-expansion", "quote": "from a variety of investors, including the Bill & Melinda Gates Foundation" }
+      ]
+    },
+    {
+      "techeuId": "BABB7813-2654-4054-E082-08D91092C887",
+      "stage": "series-c",
+      "month": "2019-11",
+      "amountEur": 200000000,
+      "amountOriginal": 200000000,
+      "currency": "EUR",
+      "investors": ["NPM Capital", "De Hoge Dennen", "Hoyberg", "Finci"],
+      "sources": [
+        { "field": "amount", "url": "https://www.unquote.com/benelux/official-record/3017456/npm-capital-et-al-in-eur250m-series-c-for-picnic", "quote": "Picnic, a Dutch online supermarket operator, has raised €250m in a series-C funding round" },
+        { "field": "amount", "url": "https://www.unquote.com/benelux/official-record/3017456/npm-capital-et-al-in-eur250m-series-c-for-picnic", "quote": "Dutch bank ABN Amro provided Picnic with a €50m loan." },
+        { "field": "month", "url": "https://retailtechinnovationhub.com/home/2019/11/27/picnic-lands-major-funding-for-automated-dc", "quote": "has raised €250 million to build a 42,000 square metre automated distribution centre" },
+        { "field": "stage", "url": "https://www.unquote.com/benelux/official-record/3017456/npm-capital-et-al-in-eur250m-series-c-for-picnic", "quote": "has raised €250m in a series-C funding round" },
+        { "field": "investors", "url": "https://www.unquote.com/benelux/official-record/3017456/npm-capital-et-al-in-eur250m-series-c-for-picnic", "quote": "from its existing shareholders, NPM Capital, De Hoge Dennen, Hoyberg and Finci" }
+      ]
+    },
+    {
+      "techeuId": "334F0C91-CC83-4830-E081-08D91092C887",
+      "stage": "series-b",
+      "month": "2017-03",
+      "amountEur": 100000000,
+      "amountOriginal": 100000000,
+      "currency": "EUR",
+      "investors": ["NPM Capital", "De Hoge Dennen", "Hoyberg", "Finci"],
+      "sources": [
+        { "field": "amount", "url": "https://ecommercenews.eu/dutch-online-supermarket-picnic-raises-e100-million/", "quote": "has raised 100 million euros in funding from NPM Capital, De Hoge Dennen, Hoyberg and Finci." },
+        { "field": "month", "url": "https://nl.wikipedia.org/wiki/Picnic_(supermarkt)", "quote": "Investeerders stopten in maart 2017 honderd miljoen euro in het bedrijf om de uitbreiding te versnellen." },
+        { "field": "investors", "url": "https://ecommercenews.eu/dutch-online-supermarket-picnic-raises-e100-million/", "quote": "has raised 100 million euros in funding from NPM Capital, De Hoge Dennen, Hoyberg and Finci." }
+      ]
+    }
+  ]
+}

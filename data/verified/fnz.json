@@ -1,0 +1,248 @@
+{
+  "id": "fnz",
+  "name": "FNZ",
+  "aliases": [
+    "FNZ Group"
+  ],
+  "domain": "fnz.com",
+  "country": "GB",
+  "city": "London",
+  "founded": 2003,
+  "sectors": [
+    "fintech"
+  ],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 17520000000,
+  "founders": [
+    "Adrian Durham"
+  ],
+  "funFact": "FNZ began as a business unit inside the New Zealand branch of Credit Suisse before growing into a wealth-management platform valued at over US$20 billion.",
+  "difficulty": 5,
+  "techeuId": "AB9C1CE5-A9DD-440B-AA00-9EDACA114966",
+  "wikidataId": "Q5426794",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/FNZ_(company)",
+      "quote": "London, United Kingdom"
+    },
+    {
+      "field": "founded",
+      "url": "https://fnz.com/news/fnz-raises-usdollar14bn-in-new-capital-from-cpp-investments-and-motive-partners-to-accelerate-transformation-in-the-global-wealth-industry",
+      "quote": "Since its foundation in 2003 in New Zealand."
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/FNZ_(company)",
+      "quote": "FNZ was founded in 2003 by its former Group CEO, Adrian Durham."
+    },
+    {
+      "field": "sectors",
+      "url": "https://fnz.com/news/fnz-raises-us450-million-from-existing-institutional-shareholders",
+      "quote": "FNZ, the global wealth-management platform, has secured US$450 million in new equity funding"
+    },
+    {
+      "field": "status",
+      "url": "https://fnz.com/news/fnz-raises-us450-million-from-existing-institutional-shareholders",
+      "quote": "secured US$450 million in new equity funding from its existing long-term institutional shareholders."
+    },
+    {
+      "field": "unicorn",
+      "url": "https://fnz.com/news/fnz-raises-usdollar14bn-in-new-capital-from-cpp-investments-and-motive-partners-to-accelerate-transformation-in-the-global-wealth-industry",
+      "quote": "values FNZ at over US$20 billion"
+    },
+    {
+      "field": "valuation",
+      "url": "https://fnz.com/news/fnz-raises-usdollar14bn-in-new-capital-from-cpp-investments-and-motive-partners-to-accelerate-transformation-in-the-global-wealth-industry",
+      "quote": "values FNZ at over US$20 billion"
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://en.wikipedia.org/wiki/FNZ_(company)",
+      "quote": "It began as a business unit within the New Zealand branch of investment bank Credit Suisse."
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://fnz.com/news/fnz-raises-usdollar14bn-in-new-capital-from-cpp-investments-and-motive-partners-to-accelerate-transformation-in-the-global-wealth-industry",
+      "quote": "values FNZ at over US$20 billion"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "growth",
+      "month": "2022-02",
+      "amountEur": 1226260000,
+      "amountOriginal": 1400000000,
+      "currency": "USD",
+      "postMoneyValuationEur": 17520000000,
+      "investors": [
+        "CPP Investments",
+        "Motive Partners"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://fnz.com/news/fnz-raises-usdollar14bn-in-new-capital-from-cpp-investments-and-motive-partners-to-accelerate-transformation-in-the-global-wealth-industry",
+          "quote": "US$1.4 billion in new equity funding"
+        },
+        {
+          "field": "stage",
+          "url": "https://fnz.com/news/fnz-raises-usdollar14bn-in-new-capital-from-cpp-investments-and-motive-partners-to-accelerate-transformation-in-the-global-wealth-industry",
+          "quote": "US$1.4 billion in new equity funding"
+        },
+        {
+          "field": "month",
+          "url": "https://fnz.com/news/fnz-raises-usdollar14bn-in-new-capital-from-cpp-investments-and-motive-partners-to-accelerate-transformation-in-the-global-wealth-industry",
+          "quote": "February 11, 2022"
+        },
+        {
+          "field": "investors",
+          "url": "https://fnz.com/news/fnz-raises-usdollar14bn-in-new-capital-from-cpp-investments-and-motive-partners-to-accelerate-transformation-in-the-global-wealth-industry",
+          "quote": "CPP Investments is investing a total of US$1.1 billion."
+        },
+        {
+          "field": "valuation",
+          "url": "https://fnz.com/news/fnz-raises-usdollar14bn-in-new-capital-from-cpp-investments-and-motive-partners-to-accelerate-transformation-in-the-global-wealth-industry",
+          "quote": "values FNZ at over US$20 billion"
+        }
+      ]
+    },
+    {
+      "stage": "growth",
+      "month": "2024-08",
+      "amountEur": 899520000,
+      "amountOriginal": 1000000000,
+      "currency": "USD",
+      "investors": [],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://fnz.com/news/fnz-announces-executive-leadership-transition",
+          "quote": "FNZ's existing shareholders, including some of the world's largest institutional investors, have committed $1bn of capital."
+        },
+        {
+          "field": "stage",
+          "url": "https://fnz.com/news/fnz-announces-executive-leadership-transition",
+          "quote": "FNZ's existing shareholders, including some of the world's largest institutional investors, have committed $1bn of capital."
+        },
+        {
+          "field": "investors",
+          "url": "https://fnz.com/news/fnz-announces-executive-leadership-transition",
+          "quote": "FNZ's existing shareholders, including some of the world's largest institutional investors, have committed $1bn of capital."
+        },
+        {
+          "field": "month",
+          "url": "https://fnz.com/news/fnz-announces-executive-leadership-transition",
+          "quote": "August 28, 2024"
+        }
+      ]
+    },
+    {
+      "stage": "growth",
+      "month": "2025-04",
+      "amountEur": 455900000,
+      "amountOriginal": 500000000,
+      "currency": "USD",
+      "investors": [],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.digit.fyi/wealth-tech-fnz-raises-500-million-in-new-capital/",
+          "quote": "$500 million (£391.1m) in new equity funding"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.digit.fyi/wealth-tech-fnz-raises-500-million-in-new-capital/",
+          "quote": "$500 million (£391.1m) in new equity funding"
+        },
+        {
+          "field": "month",
+          "url": "https://www.digit.fyi/wealth-tech-fnz-raises-500-million-in-new-capital/",
+          "quote": "08 April 2025"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.wealthbriefing.com/html/article.php/fnz-secures-%24500-million-in-equity-funding",
+          "quote": "long-term institutional investors"
+        }
+      ]
+    },
+    {
+      "stage": "growth",
+      "month": "2025-11",
+      "amountEur": 561500000,
+      "amountOriginal": 650000000,
+      "currency": "USD",
+      "investors": [
+        "La Caisse",
+        "Generation Investment Management",
+        "CPP Investments",
+        "Motive Partners",
+        "Aberdeen Group",
+        "Aviva",
+        "FirstCape",
+        "Ninety One",
+        "Nucleus Financial Platforms"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://financialit.net/node/68203",
+          "quote": "secured US$650 million in new equity funding from its institutional shareholders"
+        },
+        {
+          "field": "stage",
+          "url": "https://financialit.net/node/68203",
+          "quote": "secured US$650 million in new equity funding from its institutional shareholders"
+        },
+        {
+          "field": "month",
+          "url": "https://financialit.net/node/68203",
+          "quote": "12.11.2025"
+        },
+        {
+          "field": "investors",
+          "url": "https://financialit.net/node/68203",
+          "quote": "La Caisse, Generation Investment Management, Canada Pension Plan Investment Board (CPP Investments), and Motive Partners; clients Aberdeen Group PLC, Aviva PLC, FirstCape, Ninety One, and Nucleus Financial Platforms"
+        }
+      ]
+    },
+    {
+      "techeuId": "8994821E-841E-43F9-B68C-13C591F48B07",
+      "stage": "growth",
+      "month": "2026-09",
+      "amountEur": 388260000,
+      "amountOriginal": 450000000,
+      "currency": "USD",
+      "investors": [
+        "La Caisse",
+        "CPP Investments",
+        "Generation Investment Management",
+        "Motive Partners"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://fnz.com/news/fnz-raises-us450-million-from-existing-institutional-shareholders",
+          "quote": "secured US$450 million in new equity funding from its existing long-term institutional shareholders"
+        },
+        {
+          "field": "stage",
+          "url": "https://fnz.com/news/fnz-raises-us450-million-from-existing-institutional-shareholders",
+          "quote": "secured US$450 million in new equity funding from its existing long-term institutional shareholders"
+        },
+        {
+          "field": "month",
+          "url": "https://fnz.com/news/fnz-raises-us450-million-from-existing-institutional-shareholders",
+          "quote": "September 1, 2026"
+        },
+        {
+          "field": "investors",
+          "url": "https://fnz.com/news/fnz-raises-us450-million-from-existing-institutional-shareholders",
+          "quote": "La Caisse, Canada Pension Plan Investment Board (CPP Investments), Generation Investment Management, and Motive Partners"
+        }
+      ]
+    }
+  ]
+}

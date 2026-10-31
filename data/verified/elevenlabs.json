@@ -1,0 +1,291 @@
+{
+  "id": "elevenlabs",
+  "name": "ElevenLabs",
+  "aliases": [
+    "Eleven Labs",
+    "11Labs"
+  ],
+  "domain": "elevenlabs.io",
+  "country": "GB",
+  "city": "London",
+  "founded": 2022,
+  "sectors": [
+    "ai"
+  ],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 19108000000,
+  "founders": [
+    "Mati Staniszewski",
+    "Piotr Dąbkowski"
+  ],
+  "funFact": "ElevenLabs' two Polish co-founders, childhood friends, were inspired to build AI voices by the poor voiceovers on the American films they watched growing up in Poland.",
+  "difficulty": 2,
+  "techeuId": "2EF5247E-AA9A-4AA5-85AB-E28B8A09E6F9",
+  "wikidataId": "Q116798355",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://elevenlabs.io/blog/elevenlabs-raises-2m-pre-seed-and-announces-ai-speech-platform-promising-to-revolutionize-audio-storytelling",
+      "quote": "2023-01-23, London, UK"
+    },
+    {
+      "field": "city",
+      "url": "https://www.maginative.com/article/elevenlabs-becomes-first-voice-ai-unicorn-with-80-million-series-b/",
+      "quote": "London-based voice AI startup ElevenLabs announced today it has raised $80 million in a Series B funding round."
+    },
+    {
+      "field": "founded",
+      "url": "https://elevenlabs.io/blog/elevenlabs-raises-2m-pre-seed-and-announces-ai-speech-platform-promising-to-revolutionize-audio-storytelling",
+      "quote": "ElevenLabs was founded in 2022 by Piotr, an ex-Google machine learning engineer"
+    },
+    {
+      "field": "founders",
+      "url": "https://elevenlabs.io/blog/elevenlabs-launches-new-generative-voice-ai-products-and-announces-19m-series-a-round-led-by-nat-friedman-daniel-gross-and-andreessen-horowitz",
+      "quote": "The company was founded by childhood friends Mati Staniszewski and Piotr Dabkowski."
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.maginative.com/article/elevenlabs-becomes-first-voice-ai-unicorn-with-80-million-series-b/",
+      "quote": "London-based voice AI startup ElevenLabs announced today it has raised $80 million in a Series B funding round."
+    },
+    {
+      "field": "status",
+      "url": "https://tech.eu/2026/09/30/elelvenlabs-doubles-valuation-to-22bn-with-300m-employee-tender-offer/",
+      "quote": "has doubled to $22bn in less than a year, it said today, as it completed a $300m employee tender offer."
+    },
+    {
+      "field": "unicorn",
+      "url": "https://www.maginative.com/article/elevenlabs-becomes-first-voice-ai-unicorn-with-80-million-series-b/",
+      "quote": "puts its valuation at an impressive $1.1 billion"
+    },
+    {
+      "field": "valuation",
+      "url": "https://tech.eu/2026/09/30/elelvenlabs-doubles-valuation-to-22bn-with-300m-employee-tender-offer/",
+      "quote": "has doubled to $22bn in less than a year, it said today, as it completed a $300m employee tender offer."
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://elevenlabs.io/blog/elevenlabs-launches-new-generative-voice-ai-products-and-announces-19m-series-a-round-led-by-nat-friedman-daniel-gross-and-andreessen-horowitz",
+      "quote": "Inspired by the poor voiceovers of American movies they watched growing up in their native Poland"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "7ED19D91-3B10-4371-A7F2-5913D2DFF282",
+      "stage": "pre-seed",
+      "month": "2023-01",
+      "amountEur": 1857000,
+      "amountOriginal": 2000000,
+      "currency": "USD",
+      "investors": [
+        "Credo Ventures",
+        "Concept Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://elevenlabs.io/blog/elevenlabs-raises-2m-pre-seed-and-announces-ai-speech-platform-promising-to-revolutionize-audio-storytelling",
+          "quote": "ElevenLabs Raises $2M and Announces AI Speech Platform Promising to Revolutionize Audio Storytelling"
+        },
+        {
+          "field": "month",
+          "url": "https://elevenlabs.io/blog/elevenlabs-raises-2m-pre-seed-and-announces-ai-speech-platform-promising-to-revolutionize-audio-storytelling",
+          "quote": "2023-01-23, London, UK"
+        },
+        {
+          "field": "stage",
+          "url": "https://elevenlabs.io/blog/elevenlabs-raises-2m-pre-seed-and-announces-ai-speech-platform-promising-to-revolutionize-audio-storytelling",
+          "quote": "The pre-seed funding round was led by Credo Ventures, with Concept Ventures and individual investors also participating."
+        },
+        {
+          "field": "investors",
+          "url": "https://elevenlabs.io/blog/elevenlabs-raises-2m-pre-seed-and-announces-ai-speech-platform-promising-to-revolutionize-audio-storytelling",
+          "quote": "The pre-seed funding round was led by Credo Ventures, with Concept Ventures and individual investors also participating."
+        }
+      ]
+    },
+    {
+      "techeuId": "1CB99473-0359-4847-9E8F-3E2DB1F56EC0",
+      "stage": "series-a",
+      "month": "2023-06",
+      "amountEur": 18000000,
+      "amountOriginal": 19000000,
+      "currency": "USD",
+      "investors": [
+        "Andreessen Horowitz",
+        "Nat Friedman",
+        "Daniel Gross",
+        "Credo Ventures",
+        "Concept Ventures",
+        "Embark Studios",
+        "Storytel",
+        "TheSoul Publishing"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://elevenlabs.io/blog/elevenlabs-launches-new-generative-voice-ai-products-and-announces-19m-series-a-round-led-by-nat-friedman-daniel-gross-and-andreessen-horowitz",
+          "quote": "has raised a $19m Series A round led by Nat Friedman, Daniel Gross, and Andreessen Horowitz"
+        },
+        {
+          "field": "month",
+          "url": "https://elevenlabs.io/blog/elevenlabs-launches-new-generative-voice-ai-products-and-announces-19m-series-a-round-led-by-nat-friedman-daniel-gross-and-andreessen-horowitz",
+          "quote": "Jun 20, 2023"
+        },
+        {
+          "field": "stage",
+          "url": "https://elevenlabs.io/blog/elevenlabs-launches-new-generative-voice-ai-products-and-announces-19m-series-a-round-led-by-nat-friedman-daniel-gross-and-andreessen-horowitz",
+          "quote": "has raised a $19m Series A round led by Nat Friedman, Daniel Gross, and Andreessen Horowitz"
+        },
+        {
+          "field": "investors",
+          "url": "https://elevenlabs.io/blog/elevenlabs-launches-new-generative-voice-ai-products-and-announces-19m-series-a-round-led-by-nat-friedman-daniel-gross-and-andreessen-horowitz",
+          "quote": "with further participation from Credo Ventures, Concept Ventures, and an array of strategic angel investors"
+        },
+        {
+          "field": "investors",
+          "url": "https://elevenlabs.io/blog/elevenlabs-launches-new-generative-voice-ai-products-and-announces-19m-series-a-round-led-by-nat-friedman-daniel-gross-and-andreessen-horowitz",
+          "quote": "Embark Studios, Storytel and TheSoul Publishing also join this round as investors."
+        }
+      ]
+    },
+    {
+      "techeuId": "1106828E-47E7-4F73-A06B-6DBC27B4C514",
+      "stage": "series-b",
+      "month": "2024-01",
+      "amountEur": 73000000,
+      "amountOriginal": 80000000,
+      "currency": "USD",
+      "investors": [
+        "Andreessen Horowitz",
+        "Nat Friedman",
+        "Daniel Gross",
+        "Sequoia Capital"
+      ],
+      "postMoneyValuationEur": 1009000000,
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.maginative.com/article/elevenlabs-becomes-first-voice-ai-unicorn-with-80-million-series-b/",
+          "quote": "London-based voice AI startup ElevenLabs announced today it has raised $80 million in a Series B funding round."
+        },
+        {
+          "field": "month",
+          "url": "https://www.maginative.com/article/elevenlabs-becomes-first-voice-ai-unicorn-with-80-million-series-b/",
+          "quote": "January 22, 2024"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.maginative.com/article/elevenlabs-becomes-first-voice-ai-unicorn-with-80-million-series-b/",
+          "quote": "London-based voice AI startup ElevenLabs announced today it has raised $80 million in a Series B funding round."
+        },
+        {
+          "field": "valuation",
+          "url": "https://www.maginative.com/article/elevenlabs-becomes-first-voice-ai-unicorn-with-80-million-series-b/",
+          "quote": "puts its valuation at an impressive $1.1 billion"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.maginative.com/article/elevenlabs-becomes-first-voice-ai-unicorn-with-80-million-series-b/",
+          "quote": "The sizable round was co-led by prominent venture capital firm Andreessen Horowitz."
+        }
+      ]
+    },
+    {
+      "techeuId": "B0F7E2CD-7357-48DD-8DF0-877C03CFE9BE",
+      "stage": "series-c",
+      "month": "2025-01",
+      "amountEur": 174000000,
+      "amountOriginal": 180000000,
+      "currency": "USD",
+      "investors": [
+        "Andreessen Horowitz",
+        "ICONIQ Growth",
+        "NEA",
+        "World Innovation Lab",
+        "Valor Capital Group",
+        "Lunate",
+        "Endeavor Catalyst",
+        "Sequoia Capital"
+      ],
+      "postMoneyValuationEur": 3187000000,
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://elevenlabs.io/blog/series-c",
+          "quote": "ElevenLabs has raised $180 million in a Series C funding round to make speech the new standard for digital interaction."
+        },
+        {
+          "field": "month",
+          "url": "https://elevenlabs.io/blog/series-c",
+          "quote": "30 January 2025, Global"
+        },
+        {
+          "field": "stage",
+          "url": "https://elevenlabs.io/blog/series-c",
+          "quote": "ElevenLabs has raised $180 million in a Series C funding round to make speech the new standard for digital interaction."
+        },
+        {
+          "field": "valuation",
+          "url": "https://www.maginative.com/article/elevenlabs-raises-180m-series-c-triples-valuation-to-3-3b/",
+          "quote": "AI audio pioneer ElevenLabs has secured $180 million in Series C funding, valuing the company at $3.3 billion."
+        },
+        {
+          "field": "investors",
+          "url": "https://elevenlabs.io/blog/series-c",
+          "quote": "The round was co-led by a16z and ICONIQ Growth,"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.maginative.com/article/elevenlabs-raises-180m-series-c-triples-valuation-to-3-3b/",
+          "quote": "The investment round attracted notable new investors including NEA, World Innovation Lab, and Lunate,"
+        }
+      ]
+    },
+    {
+      "techeuId": "D6A6FFD4-5810-4076-9A6D-A05C6A10AAB0",
+      "stage": "series-d",
+      "month": "2026-02",
+      "amountEur": 423000000,
+      "amountOriginal": 500000000,
+      "currency": "USD",
+      "investors": [
+        "Sequoia Capital",
+        "Andreessen Horowitz",
+        "ICONIQ",
+        "Lightspeed Venture Partners",
+        "Evantic",
+        "Bond"
+      ],
+      "postMoneyValuationEur": 9303000000,
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2026/02/04/elevenlabs-raises-500m-says-building-towards-ipo/",
+          "quote": "ElevenLabs has raised $500m in a Series D funding round, valuing it at $11bn."
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2026/02/04/elevenlabs-raises-500m-says-building-towards-ipo/",
+          "quote": "ElevenLabs raises $500M, says building towards IPO (04 February 2026)"
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2026/02/04/elevenlabs-raises-500m-says-building-towards-ipo/",
+          "quote": "ElevenLabs has raised $500m in a Series D funding round, valuing it at $11bn."
+        },
+        {
+          "field": "valuation",
+          "url": "https://tech.eu/2026/02/04/elevenlabs-raises-500m-says-building-towards-ipo/",
+          "quote": "ElevenLabs has raised $500m in a Series D funding round, valuing it at $11bn."
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2026/02/04/elevenlabs-raises-500m-says-building-towards-ipo/",
+          "quote": "Sequoia led the Series D with other investors in the round being existing investors Andreessen Horowitz and ICONIQ."
+        }
+      ]
+    }
+  ]
+}

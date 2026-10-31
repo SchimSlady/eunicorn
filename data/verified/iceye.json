@@ -1,0 +1,141 @@
+{
+  "id": "iceye",
+  "name": "ICEYE",
+  "aliases": ["Iceye"],
+  "domain": "iceye.com",
+  "country": "FI",
+  "city": "Espoo",
+  "founded": 2014,
+  "sectors": ["space", "defense"],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 10000000000,
+  "founders": ["Rafał Modrzewski", "Pekka Laurila"],
+  "funFact": "ICEYE's first satellite, launched in January 2018, was the first satellite under 100 kg to carry a synthetic-aperture radar and Finland's first commercial satellite.",
+  "difficulty": 4,
+  "techeuId": "9414CFF2-B4C7-4CD4-AA77-17E2830B8031",
+  "wikidataId": "Q31086161",
+  "sources": [
+    { "field": "city", "url": "https://en.wikipedia.org/wiki/ICEYE", "quote": "the company is originally a spin-off of Aalto University's University Radio Technology Department, and is based in Espoo." },
+    { "field": "founded", "url": "https://en.wikipedia.org/wiki/ICEYE", "quote": "ICEYE was founded in 2014 and is now the world's largest synthetic aperture imaging radar constellation." },
+    { "field": "founders", "url": "https://en.wikipedia.org/wiki/ICEYE", "quote": "Founded by Rafał Modrzewski and Pekka Laurila" },
+    { "field": "sectors", "url": "https://en.wikipedia.org/wiki/ICEYE", "quote": "ICEYE Ltd. (natively ICEYE Oy) is a Finnish microsatellite manufacturer and operator." },
+    { "field": "status", "url": "https://iceye.com/newsroom/press-releases/iceye-leads-a-new-era-of-sovereign-intelligence-from-space-with-1b-funding-round", "quote": "has raised EUR 450 million (USD 520 million) in a primary Series F funding round" },
+    { "field": "unicorn", "url": "https://www.iceye.com/newsroom/press-releases/iceye-and-general-catalyst-partner-to-redefine-space-based-intelligence-in-europe", "quote": "valuing the company at EUR 2.4 billion (USD 2.8 billion)" },
+    { "field": "valuation", "url": "https://iceye.com/newsroom/press-releases/iceye-leads-a-new-era-of-sovereign-intelligence-from-space-with-1b-funding-round", "quote": "at a valuation of over EUR 10 billion (USD 12 billion)" },
+    { "field": "fun_fact", "url": "https://en.wikipedia.org/wiki/ICEYE", "quote": "was the first satellite under 100 kg (220 lb) to carry a synthetic-aperture radar, and was the first Finnish commercial satellite." }
+  ],
+  "rounds": [
+    {
+      "techeuId": "2602D1CD-61FA-4B72-B7B1-82EC292BC19F",
+      "stage": "series-f+",
+      "month": "2026-06",
+      "amountEur": 450000000,
+      "amountOriginal": 450000000,
+      "currency": "EUR",
+      "postMoneyValuationEur": 10000000000,
+      "investors": ["General Atlantic", "Solidium", "Tesi", "Varma", "Ilmarinen", "Lifeline Ventures", "Nokia", "Qatar Investment Authority", "TCV"],
+      "sources": [
+        { "field": "amount", "url": "https://iceye.com/newsroom/press-releases/iceye-leads-a-new-era-of-sovereign-intelligence-from-space-with-1b-funding-round", "quote": "has raised EUR 450 million (USD 520 million) in a primary Series F funding round" },
+        { "field": "month", "url": "https://iceye.com/newsroom/press-releases/iceye-leads-a-new-era-of-sovereign-intelligence-from-space-with-1b-funding-round", "quote": "Helsinki, Finland – June 9, 2026" },
+        { "field": "stage", "url": "https://iceye.com/newsroom/press-releases/iceye-leads-a-new-era-of-sovereign-intelligence-from-space-with-1b-funding-round", "quote": "in a primary Series F funding round led by General Atlantic" },
+        { "field": "investors", "url": "https://iceye.com/newsroom/press-releases/iceye-leads-a-new-era-of-sovereign-intelligence-from-space-with-1b-funding-round", "quote": "Additional investors include Solidium, Tesi, Varma, Ilmarinen, Lifeline Ventures, as well as Nokia," },
+        { "field": "investors", "url": "https://iceye.com/newsroom/press-releases/iceye-leads-a-new-era-of-sovereign-intelligence-from-space-with-1b-funding-round", "quote": "from Finland, Qatar Investment Authority (QIA) and TCV." },
+        { "field": "valuation", "url": "https://iceye.com/newsroom/press-releases/iceye-leads-a-new-era-of-sovereign-intelligence-from-space-with-1b-funding-round", "quote": "at a valuation of over EUR 10 billion (USD 12 billion)" }
+      ]
+    },
+    {
+      "techeuId": "EF20187A-025F-4EF6-A864-903469FF5A57",
+      "stage": "series-e",
+      "month": "2025-12",
+      "amountEur": 150000000,
+      "amountOriginal": 150000000,
+      "currency": "EUR",
+      "postMoneyValuationEur": 2400000000,
+      "investors": ["General Catalyst", "A.P. Moller Holding", "Bpifrance", "Vinci (BGK Group)", "RiO Family Office", "Solidium", "Ilmarinen", "Keva", "Lifeline Ventures", "Tesi"],
+      "sources": [
+        { "field": "amount", "url": "https://www.iceye.com/newsroom/press-releases/iceye-and-general-catalyst-partner-to-redefine-space-based-intelligence-in-europe", "quote": "ICEYE has secured EUR 150 million in new funding" },
+        { "field": "month", "url": "https://www.iceye.com/newsroom/press-releases/iceye-and-general-catalyst-partner-to-redefine-space-based-intelligence-in-europe", "quote": "December 5th, 2025" },
+        { "field": "stage", "url": "https://www.iceye.com/newsroom/press-releases/iceye-and-general-catalyst-partner-to-redefine-space-based-intelligence-in-europe", "quote": "The Series E round was led by General Catalyst" },
+        { "field": "investors", "url": "https://www.iceye.com/newsroom/press-releases/iceye-and-general-catalyst-partner-to-redefine-space-based-intelligence-in-europe", "quote": "including A.P. Moller Holding in Denmark, Bpifrance in France, Vinci (BGK Group) and RiO Family Office from Poland" },
+        { "field": "investors", "url": "https://www.iceye.com/newsroom/press-releases/iceye-and-general-catalyst-partner-to-redefine-space-based-intelligence-in-europe", "quote": "as well as Finnish investors Solidium, Ilmarinen, European Tech Collective, Keva, Lifeline Ventures," },
+        { "field": "investors", "url": "https://www.iceye.com/newsroom/press-releases/iceye-and-general-catalyst-partner-to-redefine-space-based-intelligence-in-europe", "quote": "Tesi, Varma Mutual Pension Insurance Company, and Peter Sarlin." },
+        { "field": "valuation", "url": "https://www.iceye.com/newsroom/press-releases/iceye-and-general-catalyst-partner-to-redefine-space-based-intelligence-in-europe", "quote": "valuing the company at EUR 2.4 billion (USD 2.8 billion)" }
+      ]
+    },
+    {
+      "techeuId": "5D2ED355-2C6A-4014-96E2-48ACA960D14B",
+      "stage": "series-d",
+      "month": "2022-02",
+      "amountEur": 120000000,
+      "amountOriginal": 136000000,
+      "currency": "USD",
+      "investors": ["Seraphim Space", "BAE Systems", "Kajima Ventures", "Molten Ventures", "OTB Ventures", "True Ventures", "C16 Ventures", "National Security Strategic Investment Fund", "Space Capital", "Promus Ventures"],
+      "sources": [
+        { "field": "amount", "url": "https://iceye.com/press/press-releases/iceye-raises-usd-136m-in-series-d-funding-round", "quote": "today announced the closing of a $136M Series D funding round, led by long-standing investor Seraphim Space." },
+        { "field": "month", "url": "https://iceye.com/press/press-releases/iceye-raises-usd-136m-in-series-d-funding-round", "quote": "today announced the closing of a $136M Series D funding round, led by long-standing investor Seraphim Space." },
+        { "field": "stage", "url": "https://iceye.com/press/press-releases/iceye-raises-usd-136m-in-series-d-funding-round", "quote": "today announced the closing of a $136M Series D funding round" },
+        { "field": "investors", "url": "https://iceye.com/press/press-releases/iceye-raises-usd-136m-in-series-d-funding-round", "quote": "New strategic investors to ICEYE also include BAE Systems and Kajima Ventures." }
+      ]
+    },
+    {
+      "techeuId": "10A0C443-EAB5-414A-EEF8-08D91092C887",
+      "stage": "series-c",
+      "month": "2020-09",
+      "amountEur": 74000000,
+      "amountOriginal": 87000000,
+      "currency": "USD",
+      "investors": ["True Ventures", "OTB Ventures"],
+      "sources": [
+        { "field": "amount", "url": "https://techcrunch.com/2020/09/22/satellite-radar-startup-iceye-raises-87-million-to-continue-to-grow-its-operational-constellation/embed/", "quote": "has raised an $87 million Series C round of financing" },
+        { "field": "month", "url": "https://techcrunch.com/2020/09/22/satellite-radar-startup-iceye-raises-87-million-to-continue-to-grow-its-operational-constellation/embed/", "quote": "has raised an $87 million Series C round of financing" },
+        { "field": "stage", "url": "https://techcrunch.com/2020/09/22/satellite-radar-startup-iceye-raises-87-million-to-continue-to-grow-its-operational-constellation/embed/", "quote": "has raised an $87 million Series C round of financing" },
+        { "field": "investors", "url": "https://techcrunch.com/2020/09/22/satellite-radar-startup-iceye-raises-87-million-to-continue-to-grow-its-operational-constellation/embed/", "quote": "This round of funding was led by existing investor True Ventures, and includes participation by OTB Ventures." }
+      ]
+    },
+    {
+      "techeuId": "DDCD4B32-4BA2-4320-EEF6-08D91092C887",
+      "stage": "series-b",
+      "month": "2018-05",
+      "amountEur": 29000000,
+      "amountOriginal": 34000000,
+      "currency": "USD",
+      "investors": ["True Ventures", "Draper Nexus", "Draper Associates", "Seraphim Capital", "Space Angels", "OTB Ventures", "Tesi", "Draper Esprit", "Promus Ventures"],
+      "sources": [
+        { "field": "amount", "url": "https://en.wikipedia.org/wiki/ICEYE", "quote": "On 24 May 2018, ICEYE raised $34M in Series B led by return investor True Ventures" },
+        { "field": "amount", "url": "https://www.unquote.com/nordics/official-record/3010093/true-ventures-leads-eur29m-series-b-for-iceye", "quote": "Palo Alto-based VC firm True Ventures has led a €29m series-B funding round for Finnish startup Iceye." },
+        { "field": "month", "url": "https://en.wikipedia.org/wiki/ICEYE", "quote": "On 24 May 2018, ICEYE raised $34M in Series B led by return investor True Ventures" },
+        { "field": "stage", "url": "https://www.unquote.com/nordics/official-record/3010093/true-ventures-leads-eur29m-series-b-for-iceye", "quote": "True Ventures has led a €29m series-B funding round" },
+        { "field": "investors", "url": "https://www.unquote.com/nordics/official-record/3010093/true-ventures-leads-eur29m-series-b-for-iceye", "quote": "In addition, the funding round included new investors OTB, Tesi, Draper Esprit and Promus Ventures." }
+      ]
+    },
+    {
+      "techeuId": "A139A221-EED5-4054-EEF5-08D91092C887",
+      "stage": "series-a",
+      "month": "2017-08",
+      "amountEur": 7199000,
+      "amountOriginal": 8500000,
+      "currency": "USD",
+      "investors": ["Draper Nexus", "True Ventures", "Lifeline Ventures", "Space Angels", "Draper Associates"],
+      "sources": [
+        { "field": "amount", "url": "https://www.iceye.com/newsroom/press-releases/iceye-raises-usd-13m-additional-financing-to-develop-sar-microsatellite-constellation", "quote": "today announced $13M in new funding, including an $8.5M financing round led by Draper Nexus." },
+        { "field": "month", "url": "https://www.iceye.com/newsroom/press-releases/iceye-raises-usd-13m-additional-financing-to-develop-sar-microsatellite-constellation", "quote": "Helsinki, FINLAND – August 23, 2017 –" },
+        { "field": "investors", "url": "https://www.iceye.com/newsroom/press-releases/iceye-raises-usd-13m-additional-financing-to-develop-sar-microsatellite-constellation", "quote": "This $8.5M round also included participation from True Ventures, Lifeline Ventures, Space Angels, and Draper Associates." }
+      ]
+    },
+    {
+      "techeuId": "196216FA-B3A6-4A3E-EEF3-08D91092C887",
+      "stage": "series-a",
+      "month": "2015-11",
+      "amountEur": 2608000,
+      "amountOriginal": 2800000,
+      "currency": "USD",
+      "investors": ["True Ventures", "Lifeline Ventures", "Founder.org"],
+      "sources": [
+        { "field": "amount", "url": "https://www.unquote.com/nordics/official-record/3010093/true-ventures-leads-eur29m-series-b-for-iceye", "quote": "The funding amounted to $2.8m." },
+        { "field": "month", "url": "https://www.unquote.com/nordics/official-record/3010093/true-ventures-leads-eur29m-series-b-for-iceye", "quote": "Lifeline Ventures, True Ventures and Founder.org structured an early-stage round for the business in November 2015." },
+        { "field": "investors", "url": "https://www.unquote.com/nordics/official-record/3010093/true-ventures-leads-eur29m-series-b-for-iceye", "quote": "Lifeline Ventures, True Ventures and Founder.org structured an early-stage round for the business in November 2015." }
+      ]
+    }
+  ]
+}

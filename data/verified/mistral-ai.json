@@ -1,0 +1,118 @@
+{
+  "id": "mistral-ai",
+  "name": "Mistral AI",
+  "aliases": ["Mistral"],
+  "domain": "mistral.ai",
+  "country": "FR",
+  "city": "Paris",
+  "founded": 2023,
+  "sectors": ["ai"],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 21000000000,
+  "founders": ["Arthur Mensch", "Guillaume Lample", "Timothée Lacroix"],
+  "funFact": "Barely a month after it was set up, Mistral AI closed a €105M seed round, at the time the largest seed round ever raised in Europe.",
+  "difficulty": 1,
+  "techeuId": "A8B90FA5-6579-4A05-9CA3-82149E78C592",
+  "wikidataId": "Q119718658",
+  "sources": [
+    { "field": "city", "url": "https://en.wikipedia.org/wiki/Mistral_AI", "quote": "a French artificial intelligence (AI) company headquartered in Paris." },
+    { "field": "founded", "url": "https://en.wikipedia.org/wiki/Mistral_AI", "quote": "Mistral AI was established in April 2023 by three French AI researchers." },
+    { "field": "founders", "url": "https://en.wikipedia.org/wiki/Mistral_AI", "quote": "Arthur Mensch, Guillaume Lample and Timothée Lacroix." },
+    { "field": "sectors", "url": "https://en.wikipedia.org/wiki/Mistral_AI", "quote": "a French artificial intelligence (AI) company headquartered in Paris." },
+    { "field": "status", "url": "https://www.orrick.com/en/news/2026/09/orrick-advises-mistral-in-its-3b-series-d-at-21b-post-money-valuation", "quote": "Mistral AI raised €3 billion in its latest Series D round, reaching a post-money valuation of more than €21 billion," },
+    { "field": "unicorn", "url": "https://siecledigital.fr/2023/12/11/mistral-ai-boucle-un-tour-de-table-record-et-devient-une-licorne/", "quote": "Grâce à ce deuxième financement, Mistral AI devient la trentième licorne de la French Tech." },
+    { "field": "valuation", "url": "https://www.orrick.com/en/news/2026/09/orrick-advises-mistral-in-its-3b-series-d-at-21b-post-money-valuation", "quote": "Mistral AI raised €3 billion in its latest Series D round, reaching a post-money valuation of more than €21 billion," },
+    { "field": "fun_fact", "url": "https://tech.eu/2023/06/14/fantastique-french-start-up-mistral-ai-raises-a-105-million-seed-round-in-its-first-month-of-existence", "quote": "secured a Seed round of €105 million" },
+    { "field": "fun_fact", "url": "https://thenextweb.com/news/mistral-ai-secures-105m-europes-largest-ever-seed-round", "quote": "secured €105mn in what is reportedly Europe's largest-ever seed round." }
+  ],
+  "rounds": [
+    {
+      "techeuId": "D92F2EB1-EAB0-40D7-9F3F-6E3C9F355B8C",
+      "stage": "seed",
+      "month": "2023-06",
+      "amountEur": 105000000,
+      "amountOriginal": 105000000,
+      "currency": "EUR",
+      "postMoneyValuationEur": 240000000,
+      "investors": ["Lightspeed Venture Partners", "Eric Schmidt", "Xavier Niel", "Rodolphe Saadé", "JCDecaux Holding", "Exor Ventures", "Sofina", "Bpifrance"],
+      "sources": [
+        { "field": "amount", "url": "https://tech.eu/2023/06/14/fantastique-french-start-up-mistral-ai-raises-a-105-million-seed-round-in-its-first-month-of-existence", "quote": "secured a Seed round of €105 million" },
+        { "field": "month", "url": "https://tech.eu/2023/06/14/fantastique-french-start-up-mistral-ai-raises-a-105-million-seed-round-in-its-first-month-of-existence", "quote": "secured a Seed round of €105 million" },
+        { "field": "stage", "url": "https://tech.eu/2023/06/14/fantastique-french-start-up-mistral-ai-raises-a-105-million-seed-round-in-its-first-month-of-existence", "quote": "secured a Seed round of €105 million" },
+        { "field": "investors", "url": "https://tech.eu/2023/06/14/fantastique-french-start-up-mistral-ai-raises-a-105-million-seed-round-in-its-first-month-of-existence", "quote": "The round was led by Lightspeed Venture Partners" },
+        { "field": "investors", "url": "https://tech.eu/2023/06/14/fantastique-french-start-up-mistral-ai-raises-a-105-million-seed-round-in-its-first-month-of-existence", "quote": "includes JCDecaux Holding, Italy's Exor Ventures, Belgium's Sofina" },
+        { "field": "valuation", "url": "https://www.irishtimes.com/technology/2023/06/14/four-week-old-ai-start-up-raises-record-105m-in-european-push", "quote": "Mistral AI’s first round of financing values the Paris-based concern at €240 million, including the funds raised" }
+      ]
+    },
+    {
+      "techeuId": "99C9D596-C92F-48B4-A15B-CA174AAEE7B9",
+      "stage": "series-a",
+      "month": "2023-12",
+      "amountEur": 385000000,
+      "amountOriginal": 385000000,
+      "currency": "EUR",
+      "investors": ["Andreessen Horowitz", "Lightspeed Venture Partners", "Salesforce", "Bpifrance", "CMA CGM", "Elad Gil", "Eric Schmidt"],
+      "sources": [
+        { "field": "amount", "url": "https://siecledigital.fr/2023/12/11/mistral-ai-boucle-un-tour-de-table-record-et-devient-une-licorne/", "quote": "avoir levé 385 millions d’euros dans le cadre d’un tour de table en série A record" },
+        { "field": "stage", "url": "https://siecledigital.fr/2023/12/11/mistral-ai-boucle-un-tour-de-table-record-et-devient-une-licorne/", "quote": "avoir levé 385 millions d’euros dans le cadre d’un tour de table en série A record" },
+        { "field": "month", "url": "https://pulse2.com/mistral-ai-generative-ai-company-raises-e385-million/", "quote": "recently announced it raised €385 million" },
+        { "field": "investors", "url": "https://pulse2.com/mistral-ai-generative-ai-company-raises-e385-million/", "quote": "Other investors who joined this round include Salesforce, Bpifrance, CMA-CGM, Elad Gil, and Eric Schmidt." },
+        { "field": "investors", "url": "https://pulse2.com/mistral-ai-generative-ai-company-raises-e385-million/", "quote": "Lightspeed Venture Partners also invested in Mistral again in this round." }
+      ]
+    },
+    {
+      "techeuId": "74C5546A-CE28-4A8C-9612-E1211DDD0C2F",
+      "stage": "series-b",
+      "month": "2024-06",
+      "amountEur": 468000000,
+      "amountOriginal": 468000000,
+      "currency": "EUR",
+      "postMoneyValuationEur": 5800000000,
+      "investors": ["DST Global", "General Catalyst"],
+      "sources": [
+        { "field": "amount", "url": "https://thenextweb.com/news/french-ai-mistral-reportedly-almost-triples-valuation", "quote": "has raised a €468mn equity funding round, led by DST global and existing investor General Catalyst." },
+        { "field": "month", "url": "https://thenextweb.com/news/french-ai-mistral-reportedly-almost-triples-valuation", "quote": "This article was published on June 11, 2024" },
+        { "field": "investors", "url": "https://thenextweb.com/news/french-ai-mistral-reportedly-almost-triples-valuation", "quote": "has raised a €468mn equity funding round, led by DST global and existing investor General Catalyst." },
+        { "field": "valuation", "url": "https://thenextweb.com/news/french-ai-mistral-reportedly-almost-triples-valuation", "quote": "has reportedly almost tripled its valuation, reaching €5.8bn." }
+      ]
+    },
+    {
+      "techeuId": "EA421337-E56F-4749-B774-BCFB8F454452",
+      "stage": "series-c",
+      "month": "2025-09",
+      "amountEur": 1700000000,
+      "amountOriginal": 1700000000,
+      "currency": "EUR",
+      "postMoneyValuationEur": 11700000000,
+      "investors": ["ASML", "DST Global", "Andreessen Horowitz", "Bpifrance", "General Catalyst", "Index Ventures", "Lightspeed Venture Partners", "Nvidia"],
+      "sources": [
+        { "field": "amount", "url": "https://mistral.ai/news/mistral-ai-raises-1-7-b-to-accelerate-technological-progress-with-ai", "quote": "We are announcing a Series C funding round of 1.7B€ at a 11.7B€ post-money valuation." },
+        { "field": "stage", "url": "https://mistral.ai/news/mistral-ai-raises-1-7-b-to-accelerate-technological-progress-with-ai", "quote": "We are announcing a Series C funding round of 1.7B€ at a 11.7B€ post-money valuation." },
+        { "field": "month", "url": "https://mistral.ai/news/mistral-ai-raises-1-7-b-to-accelerate-technological-progress-with-ai", "quote": "September 9, 2025" },
+        { "field": "investors", "url": "https://mistral.ai/news/mistral-ai-raises-1-7-b-to-accelerate-technological-progress-with-ai", "quote": "The Series C funding round is led by leading semiconductor equipment manufacturer, ASML Holding NV (ASML)." },
+        { "field": "investors", "url": "https://mistral.ai/news/mistral-ai-raises-1-7-b-to-accelerate-technological-progress-with-ai", "quote": "It includes participation from existing investors: DST Global, Andreessen Horowitz, Bpifrance," },
+        { "field": "valuation", "url": "https://mistral.ai/news/mistral-ai-raises-1-7-b-to-accelerate-technological-progress-with-ai", "quote": "We are announcing a Series C funding round of 1.7B€ at a 11.7B€ post-money valuation." }
+      ]
+    },
+    {
+      "techeuId": "B2577001-7D87-4B7F-AB31-FF4FE7C48E1A",
+      "stage": "series-d",
+      "month": "2026-09",
+      "amountEur": 3000000000,
+      "amountOriginal": 3000000000,
+      "currency": "EUR",
+      "postMoneyValuationEur": 21000000000,
+      "investors": ["Samsung Electronics", "Scaleup Europe Fund", "PSG Equity", "Advent", "BlackRock", "Grand Duchy of Luxembourg", "ASML", "Nvidia", "Andreessen Horowitz", "General Catalyst"],
+      "sources": [
+        { "field": "amount", "url": "https://www.orrick.com/en/news/2026/09/orrick-advises-mistral-in-its-3b-series-d-at-21b-post-money-valuation", "quote": "Mistral AI raised €3 billion in its latest Series D round, reaching a post-money valuation of more than €21 billion," },
+        { "field": "stage", "url": "https://www.orrick.com/en/news/2026/09/orrick-advises-mistral-in-its-3b-series-d-at-21b-post-money-valuation", "quote": "Mistral AI raised €3 billion in its latest Series D round, reaching a post-money valuation of more than €21 billion," },
+        { "field": "month", "url": "https://www.euronews.com/2026/09/08/mistral-ai-raises-record-3-billion-in-samsung-led-funding-round", "quote": "has raised €3 billion in a round led by Samsung Electronics." },
+        { "field": "investors", "url": "https://www.orrick.com/en/news/2026/09/orrick-advises-mistral-in-its-3b-series-d-at-21b-post-money-valuation", "quote": "Samsung Electronics led the round, joined by co-leads Scaleup Europe Fund, managed by EQT, and existing investor PSG Equity." },
+        { "field": "investors", "url": "https://pulse2.com/mistral-raises-e3-billion-series-d-at-more-than-e21-billion-valuation-led-by-samsung/", "quote": "New investors included Advent, funds and accounts managed by BlackRock, and the Grand Duchy of Luxembourg." },
+        { "field": "investors", "url": "https://pulse2.com/mistral-raises-e3-billion-series-d-at-more-than-e21-billion-valuation-led-by-samsung/", "quote": "Existing investors participating in the round included Andreessen Horowitz, ASML, Belfius, BNP Paribas CIB, Bpifrance," },
+        { "field": "valuation", "url": "https://www.orrick.com/en/news/2026/09/orrick-advises-mistral-in-its-3b-series-d-at-21b-post-money-valuation", "quote": "Mistral AI raised €3 billion in its latest Series D round, reaching a post-money valuation of more than €21 billion," }
+      ]
+    }
+  ]
+}

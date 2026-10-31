@@ -1,0 +1,93 @@
+{
+  "id": "spotify",
+  "name": "Spotify",
+  "aliases": [],
+  "domain": "spotify.com",
+  "country": "SE",
+  "city": "Stockholm",
+  "founded": 2006,
+  "sectors": ["consumer"],
+  "status": "public",
+  "unicorn": true,
+  "founders": ["Daniel Ek", "Martin Lorentzon"],
+  "funFact": "The name was an accident: Daniel Ek misheard a word Martin Lorentzon shouted across the room, and the 'spot + identify' explanation was invented afterwards.",
+  "difficulty": 1,
+  "techeuId": "3C7FFE61-1934-4132-8038-F6147D1DBD7F",
+  "wikidataId": "Q689141",
+  "sources": [
+    { "field": "city", "url": "https://en.wikipedia.org/wiki/Spotify", "quote": "and headquartered in Stockholm, Sweden, with offices in 16 countries around the world." },
+    { "field": "founded", "url": "https://en.wikipedia.org/wiki/Spotify", "quote": "Spotify was founded in April 2006 in Stockholm, Sweden, by Daniel Ek and Martin Lorentzon." },
+    { "field": "founders", "url": "https://en.wikipedia.org/wiki/Spotify", "quote": "Spotify was founded in April 2006 in Stockholm, Sweden, by Daniel Ek and Martin Lorentzon." },
+    { "field": "status", "url": "https://en.wikipedia.org/wiki/Spotify", "quote": "It became publicly traded on the New York Stock Exchange in April 2018 through a direct public offering." },
+    { "field": "unicorn", "url": "https://thenextweb.com/news/spotify-closes-100-million-from-high-profile-investors-at-1-billion-valuation", "quote": "The funding round gives Europe’s favorite streaming music service a valuation of $1 billion." },
+    { "field": "fun_fact", "url": "https://www.howtogeek.com/821019/why-is-it-called-spotify/", "quote": "As they were shouting names across rooms, Martin said a name that Daniel misheard as \"Spotify.\"" }
+  ],
+  "rounds": [
+    {
+      "techeuId": "B6D54F50-ACB5-4FEB-FC55-08D91092C887",
+      "stage": "series-d",
+      "month": "2011-06",
+      "amountEur": 70000000,
+      "amountOriginal": 100000000,
+      "currency": "USD",
+      "investors": ["DST Global", "Accel", "Kleiner Perkins"],
+      "postMoneyValuationEur": 695000000,
+      "sources": [
+        { "field": "amount", "url": "https://thenextweb.com/news/spotify-closes-100-million-from-high-profile-investors-at-1-billion-valuation", "quote": "Spotify‘s $100 million funding round, which began in February, was just officially reported as final by AllThingsD." },
+        { "field": "month", "url": "https://thenextweb.com/news/spotify-closes-100-million-from-high-profile-investors-at-1-billion-valuation", "quote": "Spotify‘s $100 million funding round, which began in February, was just officially reported as final by AllThingsD." },
+        { "field": "investors", "url": "https://thenextweb.com/news/spotify-closes-100-million-from-high-profile-investors-at-1-billion-valuation", "quote": "The investment round included DST Global, the Russian investment firm" },
+        { "field": "valuation", "url": "https://thenextweb.com/news/spotify-closes-100-million-from-high-profile-investors-at-1-billion-valuation", "quote": "The funding round gives Europe’s favorite streaming music service a valuation of $1 billion." }
+      ]
+    },
+    {
+      "techeuId": "FA2BBF5D-F799-477F-FC56-08D91092C887",
+      "stage": "series-e",
+      "month": "2012-11",
+      "amountEur": 78000000,
+      "amountOriginal": 100000000,
+      "currency": "USD",
+      "investors": ["Goldman Sachs", "Fidelity Investments", "Coca-Cola"],
+      "postMoneyValuationEur": 2339000000,
+      "sources": [
+        { "field": "amount", "url": "https://thenextweb.com/news/spotifys-new-investor-lineup-goldman-sachs-fidelity-investments-and-coke", "quote": "Spotify's investors in its fresh $100 million round of funding include Goldman Sachs, Fidelity Investments, and Coca-Cola." },
+        { "field": "month", "url": "https://thenextweb.com/news/spotifys-new-investor-lineup-goldman-sachs-fidelity-investments-and-coke", "quote": "Spotify's investors in its fresh $100 million round of funding include Goldman Sachs, Fidelity Investments, and Coca-Cola." },
+        { "field": "investors", "url": "https://thenextweb.com/news/spotifys-new-investor-lineup-goldman-sachs-fidelity-investments-and-coke", "quote": "Spotify's investors in its fresh $100 million round of funding include Goldman Sachs, Fidelity Investments, and Coca-Cola." },
+        { "field": "stage", "url": "https://techcrunch.com/?p=698341", "quote": "This would be Spotify's fifth big round." },
+        { "field": "valuation", "url": "https://techcrunch.com/?p=698341", "quote": "$3 billion valuation" }
+      ]
+    },
+    {
+      "techeuId": "B9F56C36-0881-441E-FC57-08D91092C887",
+      "stage": "series-f+",
+      "month": "2013-11",
+      "amountEur": 185000000,
+      "amountOriginal": 250000000,
+      "currency": "USD",
+      "investors": ["Technology Crossover Ventures"],
+      "sources": [
+        { "field": "amount", "url": "https://techcrunch.com/2013/11/21/technology-crossover-ventures-spotify/", "quote": "the entirety of Spotify new $250 million round" },
+        { "field": "month", "url": "https://techcrunch.com/2013/11/21/technology-crossover-ventures-spotify/", "quote": "the entirety of Spotify new $250 million round" },
+        { "field": "investors", "url": "https://techcrunch.com/2013/11/21/technology-crossover-ventures-spotify/", "quote": "It put up all the money." },
+        { "field": "valuation", "url": "https://techcrunch.com/2013/11/21/technology-crossover-ventures-spotify/", "quote": "raising the round at a valuation above $4 billion is right" }
+      ]
+    },
+    {
+      "techeuId": "AA4E93C8-4820-48B0-FC5A-08D91092C887",
+      "stage": "series-f+",
+      "month": "2015-06",
+      "amountEur": 469000000,
+      "amountOriginal": 526000000,
+      "currency": "USD",
+      "investors": ["TeliaSonera", "Goldman Sachs", "Baillie Gifford", "Lansdowne Partners", "Senvest Capital", "Rinkelberg Capital", "Halcyon Asset Management", "GSV Capital", "D. E. Shaw & Co.", "Technology Crossover Ventures"],
+      "postMoneyValuationEur": 7607000000,
+      "sources": [
+        { "field": "amount", "url": "https://globalventuring.com/blog/2015/06/10/spotify-streams-526m-series-g/", "quote": "the full round is worth $526m and values Spotify at $8.53bn" },
+        { "field": "month", "url": "https://globalventuring.com/blog/2015/06/10/spotify-streams-526m-series-g/", "quote": "the full round is worth $526m and values Spotify at $8.53bn" },
+        { "field": "stage", "url": "https://globalventuring.com/blog/2015/06/10/spotify-streams-526m-series-g/", "quote": "Spotify streams $526m series G" },
+        { "field": "investors", "url": "https://globalventuring.com/blog/2015/06/10/spotify-streams-526m-series-g/", "quote": "Goldman Sachs, and Baillie Gifford, Landsdowne Partners, Rinkelberg Capital, Senvest Capital" },
+        { "field": "investors", "url": "https://globalventuring.com/blog/2015/06/10/spotify-streams-526m-series-g/", "quote": "attracted a $115m investment from landline and mobile phone network operator TeliaSonera in return for a 1.4% stake." },
+        { "field": "valuation", "url": "https://globalventuring.com/blog/2015/06/10/spotify-streams-526m-series-g/", "quote": "the full round is worth $526m and values Spotify at $8.53bn" }
+      ]
+    }
+  ]
+}

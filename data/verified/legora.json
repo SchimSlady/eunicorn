@@ -1,0 +1,426 @@
+{
+  "id": "legora",
+  "name": "Legora",
+  "aliases": [
+    "Leya"
+  ],
+  "domain": "legora.com",
+  "country": "SE",
+  "city": "Stockholm",
+  "founded": 2023,
+  "sectors": [
+    "saas",
+    "ai"
+  ],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 7833363005,
+  "founders": [
+    "Max Junestrand",
+    "Sigge Labor",
+    "August Erséus"
+  ],
+  "funFact": "Legora was founded in Stockholm in 2023 under the name Leya and went from inception to a Series B in under two years.",
+  "difficulty": 5,
+  "techeuId": "67D8AC75-8238-445C-81AD-999DF047FC00",
+  "wikidataId": "Q138654085",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/Legora",
+      "quote": "The infobox lists the headquarters as Stockholm, Sweden."
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Legora",
+      "quote": "Founded in Stockholm in 2023 under the name Leya"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Legora",
+      "quote": "Max Junestrand, Sigge Labor and August Erséus founded the company in 2023."
+    },
+    {
+      "field": "sectors",
+      "url": "https://vestbee.com/insights/articles/legora-raises-550-m",
+      "quote": "Legora has raised $550 million in a Series E funding round"
+    },
+    {
+      "field": "sectors",
+      "url": "https://legaltechnology.com/legora-raises-150m-series-c-at-1-8bn-valuation/",
+      "quote": "Legora raises $150m Series C at $1.8bn valuation"
+    },
+    {
+      "field": "status",
+      "url": "https://en.wikipedia.org/wiki/Legora",
+      "quote": "A $550 million round led by Accel in March 2026 valued it at $5.55 billion."
+    },
+    {
+      "field": "unicorn",
+      "url": "https://legaltechnology.com/legora-raises-150m-series-c-at-1-8bn-valuation/",
+      "quote": "a Series C round of $150m at a $1.8bn valuation"
+    },
+    {
+      "field": "valuation",
+      "url": "https://vestbee.com/insights/articles/legora-raises-550-m",
+      "quote": "an $8.8 billion post-money valuation"
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://www.artificiallawyer.com/2025/05/21/legora-bags-80m-at-675m-valuation/",
+      "quote": "from inception to Series B in under two years"
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://en.wikipedia.org/wiki/Legora",
+      "quote": "Founded in Stockholm in 2023 under the name Leya"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "seed",
+      "month": "2024-05",
+      "amountEur": 9663170,
+      "amountOriginal": 10500000,
+      "currency": "USD",
+      "investors": [
+        "Benchmark",
+        "Hummingbird Ventures",
+        "SV Angel",
+        "Y Combinator"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.artificiallawyer.com/2024/05/16/leya-ai-assistant-bags-10-5m-seed-funding-for-qa-review-drafting/",
+          "quote": "has raised $10.5m in a Seed round."
+        },
+        {
+          "field": "stage",
+          "url": "https://www.artificiallawyer.com/2024/05/16/leya-ai-assistant-bags-10-5m-seed-funding-for-qa-review-drafting/",
+          "quote": "has raised $10.5m in a Seed round."
+        },
+        {
+          "field": "month",
+          "url": "https://www.artificiallawyer.com/2024/05/16/leya-ai-assistant-bags-10-5m-seed-funding-for-qa-review-drafting/",
+          "quote": "16th May 2024"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.artificiallawyer.com/2024/05/16/leya-ai-assistant-bags-10-5m-seed-funding-for-qa-review-drafting/",
+          "quote": "led by Benchmark's Chetan Puttagunta"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.artificiallawyer.com/2024/05/16/leya-ai-assistant-bags-10-5m-seed-funding-for-qa-review-drafting/",
+          "quote": "Hummingbird, SV Angel and Y-Combinator also invested."
+        }
+      ]
+    },
+    {
+      "stage": "series-a",
+      "month": "2024-07",
+      "amountEur": 22864459,
+      "amountOriginal": 25000000,
+      "currency": "USD",
+      "investors": [
+        "Redpoint Ventures",
+        "Benchmark",
+        "Y Combinator",
+        "Wayfinder Ventures",
+        "Alt Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://law.com/legaltechnews/2024/07/17/swedish-startup-leya-announces-25m-investment-two-months-after-10-5m-seed-round",
+          "quote": "$25 million Series A funding round led by Redpoint Ventures"
+        },
+        {
+          "field": "stage",
+          "url": "https://law.com/legaltechnews/2024/07/17/swedish-startup-leya-announces-25m-investment-two-months-after-10-5m-seed-round",
+          "quote": "$25 million Series A funding round led by Redpoint Ventures"
+        },
+        {
+          "field": "month",
+          "url": "https://law.com/legaltechnews/2024/07/17/swedish-startup-leya-announces-25m-investment-two-months-after-10-5m-seed-round",
+          "quote": "July 17, 2024"
+        },
+        {
+          "field": "investors",
+          "url": "https://law.com/legaltechnews/2024/07/17/swedish-startup-leya-announces-25m-investment-two-months-after-10-5m-seed-round",
+          "quote": "participation from Benchmark, Y Combinator, Wayfinder Ventures and Alt Capital"
+        }
+      ]
+    },
+    {
+      "techeuId": "F2F5DA22-E697-4919-8825-7409513ED7D3",
+      "stage": "series-b",
+      "month": "2025-05",
+      "amountEur": 70665136,
+      "amountOriginal": 80000000,
+      "currency": "USD",
+      "postMoneyValuationEur": 596237082,
+      "investors": [
+        "ICONIQ",
+        "General Catalyst",
+        "Redpoint Ventures",
+        "Benchmark",
+        "Y Combinator"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.artificiallawyer.com/2025/05/21/legora-bags-80m-at-675m-valuation/",
+          "quote": "Legora has bagged an $80 million Series B funding round"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.artificiallawyer.com/2025/05/21/legora-bags-80m-at-675m-valuation/",
+          "quote": "Legora has bagged an $80 million Series B funding round"
+        },
+        {
+          "field": "month",
+          "url": "https://www.artificiallawyer.com/2025/05/21/legora-bags-80m-at-675m-valuation/",
+          "quote": "21st May 2025"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.artificiallawyer.com/2025/05/21/legora-bags-80m-at-675m-valuation/",
+          "quote": "The round was led by ICONIQ and General Catalyst"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.artificiallawyer.com/2025/05/21/legora-bags-80m-at-675m-valuation/",
+          "quote": "Redpoint Ventures, Benchmark, and Y Combinator"
+        },
+        {
+          "field": "valuation",
+          "url": "https://www.artificiallawyer.com/2025/05/21/legora-bags-80m-at-675m-valuation/",
+          "quote": "$675m"
+        }
+      ]
+    },
+    {
+      "techeuId": "93C9DF2E-08F4-490C-9243-D4EB1ED9C685",
+      "stage": "series-c",
+      "month": "2025-10",
+      "amountEur": 129870130,
+      "amountOriginal": 150000000,
+      "currency": "USD",
+      "postMoneyValuationEur": 1558441558,
+      "investors": [
+        "Bessemer Venture Partners",
+        "ICONIQ",
+        "General Catalyst",
+        "Redpoint Ventures",
+        "Benchmark",
+        "Y Combinator"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://legaltechnology.com/legora-raises-150m-series-c-at-1-8bn-valuation/",
+          "quote": "a Series C round of $150m"
+        },
+        {
+          "field": "stage",
+          "url": "https://legaltechnology.com/legora-raises-150m-series-c-at-1-8bn-valuation/",
+          "quote": "a Series C round of $150m"
+        },
+        {
+          "field": "month",
+          "url": "https://legaltechnology.com/legora-raises-150m-series-c-at-1-8bn-valuation/",
+          "quote": "today (30 October)"
+        },
+        {
+          "field": "investors",
+          "url": "https://legaltechnology.com/legora-raises-150m-series-c-at-1-8bn-valuation/",
+          "quote": "led by Bessemer Venture Partners"
+        },
+        {
+          "field": "investors",
+          "url": "https://legaltechnology.com/legora-raises-150m-series-c-at-1-8bn-valuation/",
+          "quote": "Existing backers ICONIQ, General Catalyst, Redpoint Ventures, Benchmark, and Y Combinator also put in money."
+        },
+        {
+          "field": "valuation",
+          "url": "https://legaltechnology.com/legora-raises-150m-series-c-at-1-8bn-valuation/",
+          "quote": "at a $1.8bn valuation"
+        }
+      ]
+    },
+    {
+      "techeuId": "33E17735-2158-423E-98A5-4A48E0203857",
+      "stage": "series-d",
+      "month": "2026-03",
+      "amountEur": 472468001,
+      "amountOriginal": 550000000,
+      "currency": "USD",
+      "postMoneyValuationEur": 4767631647,
+      "investors": [
+        "Accel",
+        "Benchmark",
+        "Bessemer Venture Partners",
+        "General Catalyst",
+        "ICONIQ",
+        "Redpoint Ventures",
+        "Y Combinator",
+        "Alkeon Capital",
+        "Bain Capital",
+        "FirstMark Capital",
+        "Menlo Ventures",
+        "Sands Capital",
+        "Starwood Capital",
+        "Salesforce Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://legora.com/newsroom/legora-raises-550-million-series-d-to-fuel-us-growth",
+          "quote": "raised $550 million at a $5.55 billion valuation in a Series D funding round."
+        },
+        {
+          "field": "stage",
+          "url": "https://legora.com/newsroom/legora-raises-550-million-series-d-to-fuel-us-growth",
+          "quote": "raised $550 million at a $5.55 billion valuation in a Series D funding round."
+        },
+        {
+          "field": "month",
+          "url": "https://legora.com/newsroom/legora-raises-550-million-series-d-to-fuel-us-growth",
+          "quote": "NEW YORK, March 10, 2026."
+        },
+        {
+          "field": "investors",
+          "url": "https://legora.com/newsroom/legora-raises-550-million-series-d-to-fuel-us-growth",
+          "quote": "The round was led by Accel."
+        },
+        {
+          "field": "investors",
+          "url": "https://legora.com/newsroom/legora-raises-550-million-series-d-to-fuel-us-growth",
+          "quote": "Benchmark, Bessemer Venture Partners, General Catalyst, ICONIQ, Redpoint Ventures, Y Combinator, Alkeon Capital, Bain Capital, Firstmark Capital, Menlo Ventures, Sands Capital, Starwood Capital, and Salesforce Ventures"
+        },
+        {
+          "field": "valuation",
+          "url": "https://legora.com/newsroom/legora-raises-550-million-series-d-to-fuel-us-growth",
+          "quote": "raised $550 million at a $5.55 billion valuation in a Series D funding round."
+        }
+      ]
+    },
+    {
+      "techeuId": "83479882-4CF9-45B0-B75A-1EF9F0B8CA99",
+      "stage": "series-d",
+      "month": "2026-04",
+      "amountEur": 42727739,
+      "amountOriginal": 50000000,
+      "currency": "USD",
+      "postMoneyValuationEur": 4785506751,
+      "investors": [
+        "Atlassian",
+        "NVentures",
+        "Airtree",
+        "Barclays",
+        "Geodesic Capital",
+        "Insight Partners",
+        "Liberty Global",
+        "Nikesh Arora"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://legora.com/newsroom/legora-extends-series-d-with-additional-50-million-welcomes-atlassian-and-nventures-as-investors",
+          "quote": "$50 million extension of its previously announced Series D financing"
+        },
+        {
+          "field": "stage",
+          "url": "https://legora.com/newsroom/legora-extends-series-d-with-additional-50-million-welcomes-atlassian-and-nventures-as-investors",
+          "quote": "bringing the total round to $600 million in equity"
+        },
+        {
+          "field": "month",
+          "url": "https://legora.com/newsroom/legora-extends-series-d-with-additional-50-million-welcomes-atlassian-and-nventures-as-investors",
+          "quote": "Apr 30, 2026"
+        },
+        {
+          "field": "investors",
+          "url": "https://legora.com/newsroom/legora-extends-series-d-with-additional-50-million-welcomes-atlassian-and-nventures-as-investors",
+          "quote": "Atlassian and NVentures (NVIDIA’s venture capital arm)"
+        },
+        {
+          "field": "investors",
+          "url": "https://legora.com/newsroom/legora-extends-series-d-with-additional-50-million-welcomes-atlassian-and-nventures-as-investors",
+          "quote": "Airtree, Barclays, Geodesic, Insight, Liberty Global and Nikesh Arora"
+        },
+        {
+          "field": "valuation",
+          "url": "https://legora.com/newsroom/legora-extends-series-d-with-additional-50-million-welcomes-atlassian-and-nventures-as-investors",
+          "quote": "valuing the company at $5.6 billion post-money"
+        }
+      ]
+    },
+    {
+      "techeuId": "2DD2FAFF-29DB-474B-A673-291EB43E7700",
+      "stage": "series-e",
+      "month": "2026-10",
+      "amountEur": 489585188,
+      "amountOriginal": 550000000,
+      "currency": "USD",
+      "postMoneyValuationEur": 7833363005,
+      "investors": [
+        "Atreides Management",
+        "Baron Capital",
+        "Capital Group",
+        "Fidelity Management & Research Company",
+        "Glade Brook Capital Partners",
+        "J.P. Morgan",
+        "Accel",
+        "Benchmark",
+        "Bessemer Venture Partners",
+        "General Catalyst",
+        "ICONIQ",
+        "Insight Venture Partners",
+        "Menlo Ventures",
+        "Redpoint Ventures",
+        "Salesforce Ventures",
+        "Sands Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://vestbee.com/insights/articles/legora-raises-550-m",
+          "quote": "has raised $550 million in a Series E funding round"
+        },
+        {
+          "field": "stage",
+          "url": "https://vestbee.com/insights/articles/legora-raises-550-m",
+          "quote": "has raised $550 million in a Series E funding round"
+        },
+        {
+          "field": "month",
+          "url": "https://vestbee.com/insights/articles/legora-raises-550-m",
+          "quote": "October 22, 2026"
+        },
+        {
+          "field": "investors",
+          "url": "https://vestbee.com/insights/articles/legora-raises-550-m",
+          "quote": "The round was led by Atreides Management"
+        },
+        {
+          "field": "investors",
+          "url": "https://vestbee.com/insights/articles/legora-raises-550-m",
+          "quote": "New investors are Baron Capital, Capital Group, Fidelity Management & Research Company, Glade Brook Capital Partners, and J.P. Morgan."
+        },
+        {
+          "field": "investors",
+          "url": "https://vestbee.com/insights/articles/legora-raises-550-m",
+          "quote": "Existing backers include Accel, Benchmark, Bessemer Venture Partners, General Catalyst, ICONIQ, Insight Venture Partners, Menlo Ventures, Redpoint Ventures, Salesforce Ventures, and Sands Capital."
+        },
+        {
+          "field": "valuation",
+          "url": "https://vestbee.com/insights/articles/legora-raises-550-m",
+          "quote": "an $8.8 billion post-money valuation"
+        }
+      ]
+    }
+  ]
+}

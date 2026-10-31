@@ -1,0 +1,74 @@
+{
+  "id": "brevo",
+  "name": "Brevo",
+  "aliases": ["Sendinblue"],
+  "domain": "brevo.com",
+  "country": "FR",
+  "city": "Paris",
+  "founded": 2012,
+  "sectors": ["saas"],
+  "status": "private",
+  "unicorn": true,
+  "founders": ["Armand Thiberge", "Kapil Sharma"],
+  "funFact": "Brevo was known as Sendinblue until it rebranded in 2023, and its 2025 round made it a unicorn while Partech, an investor since 2017, fully exited.",
+  "difficulty": 4,
+  "techeuId": "3F6D4968-6F54-419E-9F9B-416CE79F6800",
+  "wikidataId": "Q28484549",
+  "sources": [
+    { "field": "city", "url": "https://prnewswire.com/news-releases/sendinblue-secures-36-million-in-funding-to-meet-growing-demand-for-digital-marketing-software-for-small-businesses-300517473.html", "quote": "Headquartered in Paris" },
+    { "field": "city", "url": "https://en.wikipedia.org/wiki/Brevo", "quote": "The headquarters are located in the Paris office." },
+    { "field": "founded", "url": "https://prnewswire.com/news-releases/sendinblue-secures-36-million-in-funding-to-meet-growing-demand-for-digital-marketing-software-for-small-businesses-300517473.html", "quote": "founded in 2012 by Armand Thiberge and Kapil Sharma" },
+    { "field": "founded", "url": "https://en.wikipedia.org/wiki/Brevo", "quote": "founded in 2012 in Paris, France" },
+    { "field": "founders", "url": "https://prnewswire.com/news-releases/sendinblue-secures-36-million-in-funding-to-meet-growing-demand-for-digital-marketing-software-for-small-businesses-300517473.html", "quote": "founded in 2012 by Armand Thiberge and Kapil Sharma" },
+    { "field": "sectors", "url": "https://www.clipperton.com/news-transaction/sendinblue-secures-a-160m-growth-financing-round-led-by-bridgepoint-together-with-bpifrance-and-blackrock-to-fuel-its-global-expansion", "quote": "In 2012, Armand Thiberge founded Sendinblue, an email marketing platform." },
+    { "field": "status", "url": "https://www.generalatlantic.com/media-article/brevo-europes-leading-customer-engagement-platform-becomes-a-unicorn-following-a-new-e500-million-funding-round/", "quote": "Paris, December 4th 2025" },
+    { "field": "unicorn", "url": "https://www.generalatlantic.com/media-article/brevo-europes-leading-customer-engagement-platform-becomes-a-unicorn-following-a-new-e500-million-funding-round/", "quote": "officially becoming a unicorn" },
+    { "field": "fun_fact", "url": "https://www.brevo.com/press/brevo-500-million-funding-round/", "quote": "Sendinblue Rebrands as Brevo" },
+    { "field": "fun_fact", "url": "https://www.generalatlantic.com/media-article/brevo-europes-leading-customer-engagement-platform-becomes-a-unicorn-following-a-new-e500-million-funding-round/", "quote": "fully exiting its stake" }
+  ],
+  "rounds": [
+    {
+      "stage": "series-a",
+      "month": "2017-09",
+      "amountEur": 30000000,
+      "amountOriginal": 36000000,
+      "currency": "USD",
+      "investors": ["Partech Ventures"],
+      "sources": [
+        { "field": "amount", "url": "https://tech.eu/2017/09/12/sendinblue-funding/", "quote": "has raised €30 million" },
+        { "field": "stage", "url": "https://prnewswire.com/news-releases/sendinblue-secures-36-million-in-funding-to-meet-growing-demand-for-digital-marketing-software-for-small-businesses-300517473.html", "quote": "Series A round" },
+        { "field": "month", "url": "https://prnewswire.com/news-releases/sendinblue-secures-36-million-in-funding-to-meet-growing-demand-for-digital-marketing-software-for-small-businesses-300517473.html", "quote": "Sept. 12, 2017" },
+        { "field": "investors", "url": "https://prnewswire.com/news-releases/sendinblue-secures-36-million-in-funding-to-meet-growing-demand-for-digital-marketing-software-for-small-businesses-300517473.html", "quote": "Partech Ventures" }
+      ]
+    },
+    {
+      "stage": "series-b",
+      "month": "2020-10",
+      "amountEur": 140000000,
+      "amountOriginal": 160000000,
+      "currency": "USD",
+      "investors": ["Bridgepoint", "Bpifrance", "BlackRock", "Partech"],
+      "sources": [
+        { "field": "amount", "url": "https://www.clipperton.com/news-transaction/sendinblue-secures-a-160m-growth-financing-round-led-by-bridgepoint-together-with-bpifrance-and-blackrock-to-fuel-its-global-expansion", "quote": "$160 million (€140 million) Private Placement" },
+        { "field": "stage", "url": "https://martechvibe.com/article/sendinblue-raises-160m-in-series-b-funding-largest-amount-by-any-all-in-one-digital-marketing-platform", "quote": "Sendinblue Raises $160M in Series B Funding" },
+        { "field": "month", "url": "https://www.clipperton.com/news-transaction/sendinblue-secures-a-160m-growth-financing-round-led-by-bridgepoint-together-with-bpifrance-and-blackrock-to-fuel-its-global-expansion", "quote": "October 1, 2020" },
+        { "field": "investors", "url": "https://techcrunch.com/2020/09/30/frances-sendinblue-an-all-in-one-digital-marketing-platform-raises-160m", "quote": "Bridgepoint, Bpifrance, Blackrock and previous investor Partech" }
+      ]
+    },
+    {
+      "techeuId": "2884C746-2EC5-484A-9A2D-7CB571A81A31",
+      "stage": "series-c",
+      "month": "2025-12",
+      "amountEur": 500000000,
+      "amountOriginal": 500000000,
+      "currency": "EUR",
+      "investors": ["General Atlantic", "Oakley Capital", "Bpifrance", "Bridgepoint"],
+      "sources": [
+        { "field": "amount", "url": "https://www.generalatlantic.com/media-article/brevo-europes-leading-customer-engagement-platform-becomes-a-unicorn-following-a-new-e500-million-funding-round/", "quote": "closed its latest €500 million financing round" },
+        { "field": "stage", "url": "https://www.generalatlantic.com/media-article/brevo-europes-leading-customer-engagement-platform-becomes-a-unicorn-following-a-new-e500-million-funding-round/", "quote": "closed its latest €500 million financing round" },
+        { "field": "month", "url": "https://www.generalatlantic.com/media-article/brevo-europes-leading-customer-engagement-platform-becomes-a-unicorn-following-a-new-e500-million-funding-round/", "quote": "Paris, December 4th 2025" },
+        { "field": "investors", "url": "https://www.generalatlantic.com/media-article/brevo-europes-leading-customer-engagement-platform-becomes-a-unicorn-following-a-new-e500-million-funding-round/", "quote": "General Atlantic and Oakley Capital are joining the Company's shareholders, while Bpifrance and Bridgepoint remain minority investors." }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "id": "n26",
+  "name": "N26",
+  "aliases": ["Number26", "N26 Bank", "Papayer"],
+  "domain": "n26.com",
+  "country": "DE",
+  "city": "Berlin",
+  "founded": 2013,
+  "sectors": ["fintech"],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 7758000000,
+  "founders": ["Valentin Stalf", "Maximilian Tayenthal"],
+  "funFact": "Before becoming a full bank, N26 started life as Papayer, a prepaid card app for teenagers, and only later switched to everyday accounts under the name Number26.",
+  "difficulty": 2,
+  "techeuId": "374EBD6F-8FE2-46AF-B86C-4B56DF2C99F5",
+  "wikidataId": "Q27479372",
+  "sources": [
+    { "field": "city", "url": "https://n26.com/en-eu/press/press-release/n26-announces-landmark-series-e-funding-round", "quote": "The company is headquartered in Berlin." },
+    { "field": "founded", "url": "https://n26.com/en-eu/press/press-release/n26-announces-landmark-series-e-funding-round", "quote": "Founded by Valentin Stalf and Maximilian Tayenthal in 2013" },
+    { "field": "founders", "url": "https://n26.com/en-eu/press/press-release/n26-announces-landmark-series-e-funding-round", "quote": "Founded by Valentin Stalf and Maximilian Tayenthal in 2013" },
+    { "field": "sectors", "url": "https://en.wikipedia.org/wiki/N26", "quote": "is a multinational German fintech and neobank company based in Berlin." },
+    { "field": "status", "url": "https://n26.com/en-eu/press/press-release/n26-announces-landmark-series-e-funding-round", "quote": "record-breaking $900+ million Series E funding round" },
+    { "field": "unicorn", "url": "https://n26.com/en-eu/press/press-release/n26-announces-landmark-series-e-funding-round", "quote": "The recent funding increases the company's valuation to more than $9 billion." },
+    { "field": "valuation", "url": "https://techcrunch.com/2021/10/18/challenger-bank-n26-raises-900-million-at-9-billion-valuation/", "quote": "Fintech startup N26 has raised a $900 million Series E round at a $9 billion valuation." },
+    { "field": "fun_fact", "url": "https://en.wikipedia.org/wiki/N26", "quote": "N26 initially offered a prepaid Mastercard financial management solution aimed at teenagers, which was launched in February 2014." },
+    { "field": "fun_fact", "url": "https://en.wikipedia.org/wiki/N26", "quote": "the company changed its name to Number26 and discontinued the teenage finance product to launch a general-purpose transaction account." }
+  ],
+  "rounds": [
+    {
+      "stage": "series-a",
+      "month": "2015-04",
+      "amountEur": 10000000,
+      "amountOriginal": 10000000,
+      "currency": "EUR",
+      "investors": ["Valar Ventures", "Earlybird Venture Capital", "Redalpine", "Daniel S. Aegerter"],
+      "sources": [
+        { "field": "amount", "url": "https://ffnews.com/newsarticle/berlin-based-banking-startup-number26-just-raised-e10-million/", "quote": "Valar Ventures just led the €10 million Series A investment round" },
+        { "field": "stage", "url": "https://ffnews.com/newsarticle/berlin-based-banking-startup-number26-just-raised-e10-million/", "quote": "Valar Ventures just led the €10 million Series A investment round" },
+        { "field": "month", "url": "https://dataconomy.com/2015/04/16/europes-most-modern-bank-account-number26-raises-10-6-million", "quote": "Berlin based banking startup Number26 just raised a $10.6M Series A round courtesy of Peter Thiel's Valar Ventures." },
+        { "field": "investors", "url": "https://dataconomy.com/2015/04/16/europes-most-modern-bank-account-number26-raises-10-6-million", "quote": "Berlin based banking startup Number26 just raised a $10.6M Series A round courtesy of Peter Thiel's Valar Ventures." }
+      ]
+    },
+    {
+      "stage": "series-b",
+      "month": "2016-06",
+      "amountEur": 36000000,
+      "amountOriginal": 40000000,
+      "currency": "USD",
+      "investors": ["Horizons Ventures", "Battery Ventures", "Valar Ventures", "Earlybird Venture Capital", "Redalpine", "Robert Gentz", "David Schneider", "Rubin Ritter"],
+      "sources": [
+        { "field": "amount", "url": "https://venturebeat.com/technology/peter-thiel-backed-banking-startup-number26-raises-40-million-to-grow-into-new-markets", "quote": "has raised $40 million in a Series B round led by Horizons Ventures." },
+        { "field": "month", "url": "https://venturebeat.com/technology/peter-thiel-backed-banking-startup-number26-raises-40-million-to-grow-into-new-markets", "quote": "June 21, 2016" },
+        { "field": "stage", "url": "https://venturebeat.com/technology/peter-thiel-backed-banking-startup-number26-raises-40-million-to-grow-into-new-markets", "quote": "has raised $40 million in a Series B round led by Horizons Ventures." },
+        { "field": "investors", "url": "https://venturebeat.com/technology/peter-thiel-backed-banking-startup-number26-raises-40-million-to-grow-into-new-markets", "quote": "Battery Ventures, Robert Gentz, David Schneider, and Rubin Ritter also joined the round as new investors." }
+      ]
+    },
+    {
+      "techeuId": "AEDC2880-44BD-4AB1-FA96-08D91092C887",
+      "stage": "series-c",
+      "month": "2018-03",
+      "amountEur": 130000000,
+      "amountOriginal": 160000000,
+      "currency": "USD",
+      "investors": ["Allianz X", "Tencent"],
+      "sources": [
+        { "field": "amount", "url": "https://n26.com/en-eu/press/press-release/n26-raises-160-m", "quote": "has raised $160 million in a Series C Funding round co-led by Allianz X" },
+        { "field": "month", "url": "https://n26.com/en-eu/press/press-release/n26-raises-160-m", "quote": "MARCH 20, 2018" },
+        { "field": "stage", "url": "https://n26.com/en-eu/press/press-release/n26-raises-160-m", "quote": "has raised $160 million in a Series C Funding round co-led by Allianz X" },
+        { "field": "investors", "url": "https://n26.com/en-eu/press/press-release/n26-raises-160-m", "quote": "co-led by Allianz X, the digital investment unit of Allianz Group, and Tencent Holdings Ltd." }
+      ]
+    },
+    {
+      "techeuId": "7185E18C-DEBC-46C9-FA97-08D91092C887",
+      "stage": "series-d",
+      "month": "2019-01",
+      "amountEur": 263000000,
+      "amountOriginal": 300000000,
+      "currency": "USD",
+      "investors": ["Insight Venture Partners", "GIC", "Tencent", "Allianz X", "Valar Ventures", "Horizons Ventures", "Earlybird Venture Capital", "Redalpine", "Greyhound Capital"],
+      "postMoneyValuationEur": 2365000000,
+      "sources": [
+        { "field": "amount", "url": "https://n26.com/en-eu/press/press-release/n26-announces-series-d-funding-round", "quote": "$300 million Series D funding round" },
+        { "field": "month", "url": "https://n26.com/en-eu/press/press-release/n26-announces-series-d-funding-round", "quote": "JANUARY 10, 2019" },
+        { "field": "stage", "url": "https://n26.com/en-eu/press/press-release/n26-announces-series-d-funding-round", "quote": "$300 million Series D funding round" },
+        { "field": "investors", "url": "https://news.crunchbase.com/news/german-fintech-startup-n26-nabs-300m-series-d-at-2-7b-valuation", "quote": "New York-based Insight Venture Partners is leading the latest round, which also includes participation from Singapore's GIC." },
+        { "field": "valuation", "url": "https://news.crunchbase.com/news/german-fintech-startup-n26-nabs-300m-series-d-at-2-7b-valuation", "quote": "brings the company’s post-money valuation to $2.7 billion." }
+      ]
+    },
+    {
+      "techeuId": "5EA47354-B2F2-4022-FA98-08D91092C887",
+      "stage": "series-d",
+      "month": "2019-07",
+      "amountEur": 152000000,
+      "amountOriginal": 170000000,
+      "currency": "USD",
+      "investors": ["Insight Venture Partners", "GIC", "Tencent", "Allianz X", "Valar Ventures", "Earlybird Venture Capital", "Greyhound Capital"],
+      "postMoneyValuationEur": 3120000000,
+      "sources": [
+        { "field": "amount", "url": "https://techcrunch.com/2019/07/17/banking-startup-n26-raises-another-170-million-at-3-5-billion-valuation/", "quote": "Fintech startup N26 is raising $170 million a few months after raising $300 million." },
+        { "field": "month", "url": "https://techcrunch.com/2019/07/17/banking-startup-n26-raises-another-170-million-at-3-5-billion-valuation/", "quote": "Banking startup N26 raises another $170 million at $3.5 billion valuation (July 17, 2019)" },
+        { "field": "stage", "url": "https://techcrunch.com/2019/07/17/banking-startup-n26-raises-another-170-million-at-3-5-billion-valuation/", "quote": "an extension of the Series D round" },
+        { "field": "investors", "url": "https://techcrunch.com/2019/07/17/banking-startup-n26-raises-another-170-million-at-3-5-billion-valuation/", "quote": "Insight Venture Partners, GIC (Singapore's sovereign wealth fund), Tencent, Allianz X, Peter Thiel's Valar Ventures," },
+        { "field": "valuation", "url": "https://techcrunch.com/2019/07/17/banking-startup-n26-raises-another-170-million-at-3-5-billion-valuation/", "quote": "With this new influx of funding, N26 has now reached a post-money valuation of $3.5 billion." }
+      ]
+    },
+    {
+      "techeuId": "3C0134C0-A85E-4E32-FA99-08D91092C887",
+      "stage": "series-d",
+      "month": "2020-05",
+      "amountEur": 92000000,
+      "amountOriginal": 100000000,
+      "currency": "USD",
+      "investors": [],
+      "postMoneyValuationEur": 3210000000,
+      "sources": [
+        { "field": "amount", "url": "https://techcrunch.com/2020/05/05/n26-raises-another-100-million-in-series-d-extension/", "quote": "has extended its Series D round with another $100 million of funding" },
+        { "field": "month", "url": "https://techcrunch.com/2020/05/05/n26-raises-another-100-million-in-series-d-extension/", "quote": "N26 raises another $100M in Series D extension (May 5, 2020)" },
+        { "field": "stage", "url": "https://techcrunch.com/2020/05/05/n26-raises-another-100-million-in-series-d-extension/", "quote": "has extended its Series D round with another $100 million of funding" },
+        { "field": "valuation", "url": "https://techcrunch.com/2020/05/05/n26-raises-another-100-million-in-series-d-extension/", "quote": "at the same valuation of $3.5 billion" }
+      ]
+    },
+    {
+      "techeuId": "8629799E-6B4E-4546-8847-72219F2A7B88",
+      "stage": "series-e",
+      "month": "2021-10",
+      "amountEur": 776000000,
+      "amountOriginal": 900000000,
+      "currency": "USD",
+      "investors": ["Third Point Ventures", "Coatue Management", "Dragoneer Investment Group"],
+      "postMoneyValuationEur": 7758000000,
+      "sources": [
+        { "field": "amount", "url": "https://n26.com/en-eu/press/press-release/n26-announces-landmark-series-e-funding-round", "quote": "record-breaking $900+ million Series E funding round" },
+        { "field": "month", "url": "https://n26.com/en-eu/press/press-release/n26-announces-landmark-series-e-funding-round", "quote": "OCTOBER 18, 2021" },
+        { "field": "stage", "url": "https://n26.com/en-eu/press/press-release/n26-announces-landmark-series-e-funding-round", "quote": "record-breaking $900+ million Series E funding round" },
+        { "field": "investors", "url": "https://n26.com/en-eu/press/press-release/n26-announces-landmark-series-e-funding-round", "quote": "The round was led by renowned New York-based tech investors Third Point Ventures and Coatue Management." },
+        { "field": "investors", "url": "https://techcrunch.com/2021/10/18/challenger-bank-n26-raises-900-million-at-9-billion-valuation/", "quote": "led by Third Point Ventures and Coatue Management, and joined by Dragoneer Investment Group, as well as N26's existing investors." },
+        { "field": "valuation", "url": "https://techcrunch.com/2021/10/18/challenger-bank-n26-raises-900-million-at-9-billion-valuation/", "quote": "Fintech startup N26 has raised a $900 million Series E round at a $9 billion valuation." }
+      ]
+    }
+  ]
+}

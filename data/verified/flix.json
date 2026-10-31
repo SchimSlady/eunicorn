@@ -1,0 +1,63 @@
+{
+  "id": "flix",
+  "name": "Flix",
+  "aliases": ["Flix SE", "FlixBus", "FlixMobility", "FlixTrain"],
+  "domain": "flixbus.com",
+  "country": "DE",
+  "city": "Munich",
+  "founded": 2011,
+  "sectors": ["mobility", "travel"],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 3000000000,
+  "founders": ["André Schwämmlein", "Jochen Engert", "Daniel Krauss"],
+  "funFact": "The three founders began sketching the FlixBus idea back in 2009, betting on Germany opening up its long-distance coach market, which until then was largely closed to intercity buses.",
+  "difficulty": 2,
+  "techeuId": "1AFA964C-2CDB-470A-9421-F18DE116A690",
+  "wikidataId": "Q1881378",
+  "sources": [
+    { "field": "city", "url": "https://en.wikipedia.org/wiki/Flix_SE", "quote": "FlixBus was founded in 2011 in Munich by Daniel Krauss, Jochen Engert and André Schwämmlein." },
+    { "field": "city", "url": "https://www.uamr.de/wem-gehoert-flixbus/", "quote": "Flixbus gehört der Flix SE, einer Europäischen Aktiengesellschaft mit Sitz in München, die nicht börsennotiert ist." },
+    { "field": "founded", "url": "https://en.wikipedia.org/wiki/Flix_SE", "quote": "FlixBus was founded in 2011 in Munich by Daniel Krauss, Jochen Engert and André Schwämmlein." },
+    { "field": "founders", "url": "https://en.wikipedia.org/wiki/Flix_SE", "quote": "FlixBus was founded in 2011 in Munich by Daniel Krauss, Jochen Engert and André Schwämmlein." },
+    { "field": "sectors", "url": "https://www.flixbus.com/company/press-room/flixmobility-raises-new-funding-2021", "quote": "more than $650M in new funding, based on a mix of equity and debt, valuing the business at $3B" },
+    { "field": "status", "url": "https://www.uamr.de/wem-gehoert-flixbus/", "quote": "Ein Börsengang steht 2026 nicht auf der Agenda;" },
+    { "field": "unicorn", "url": "https://www.flixbus.com/company/press-room/flixmobility-raises-new-funding-2021", "quote": "more than $650M in new funding, based on a mix of equity and debt, valuing the business at $3B" },
+    { "field": "valuation", "url": "https://siliconcanals.com/eqt-kuhne-holding-to-acquire-35-stake-in-flix/", "quote": "This investment values the company at over €3B" },
+    { "field": "fun_fact", "url": "https://www.uamr.de/wem-gehoert-flixbus/", "quote": "Die Idee zu Flixbus entstand 2009, als André Schwämmlein mit Daniel Krauss und Jochen Engert über die bevorstehende Öffnung des deutschen Fernbusmarktes diskutierte." }
+  ],
+  "rounds": [
+    {
+      "techeuId": "7BFB56E1-CF5D-4600-DD39-08D91092C887",
+      "stage": "series-f+",
+      "month": "2019-07",
+      "amountEur": 500000000,
+      "amountOriginal": 500000000,
+      "currency": "EUR",
+      "investors": ["TCV", "Permira", "HV Capital", "European Investment Bank"],
+      "sources": [
+        { "field": "amount", "url": "https://globalventuring.com/university/flixmobility-books-561m-series-f/", "quote": "scored a series F round sized, according to Reuters, at €500m ($561m)." },
+        { "field": "stage", "url": "https://globalventuring.com/university/flixmobility-books-561m-series-f/", "quote": "FlixMobility books $561m series F" },
+        { "field": "month", "url": "https://www.permira.com/news-and-insights/announcements/flixmobility-completes-new-funding-round-led-by-tcv-and-permira", "quote": "July 18, 2019" },
+        { "field": "investors", "url": "https://globalventuring.com/university/flixmobility-books-561m-series-f/", "quote": "Growth equity firms TCV and Permira co-led the round, which also featured firm HV Holtzbrinck Ventures and European Investment Bank." }
+      ]
+    },
+    {
+      "techeuId": "135AC7E7-7815-4D6F-92DE-51FDB6E1A881",
+      "stage": "series-f+",
+      "month": "2021-06",
+      "amountEur": 540000000,
+      "amountOriginal": 650000000,
+      "currency": "USD",
+      "postMoneyValuationEur": 2490000000,
+      "investors": ["Canyon Partners", "General Atlantic", "Permira", "TCV", "HV Capital", "BlackRock", "Baillie Gifford", "Silver Lake"],
+      "sources": [
+        { "field": "amount", "url": "https://www.flixbus.com/company/press-room/flixmobility-raises-new-funding-2021", "quote": "more than $650M in new funding, based on a mix of equity and debt, valuing the business at $3B" },
+        { "field": "stage", "url": "https://www.flixbus.com/company/press-room/flixmobility-raises-new-funding-2021", "quote": "The oversubscribed Series G funding round includes new investor Canyon Partners" },
+        { "field": "month", "url": "https://www.flixbus.com/company/press-room/flixmobility-raises-new-funding-2021", "quote": "Munich, June 2, 2021" },
+        { "field": "investors", "url": "https://www.flixbus.com/company/press-room/flixmobility-raises-new-funding-2021", "quote": "Existing investors include General Atlantic, Permira, TCV, HV Capital, Blackrock, Baillie Gifford and SilverLake" },
+        { "field": "valuation", "url": "https://www.flixbus.com/company/press-room/flixmobility-raises-new-funding-2021", "quote": "more than $650M in new funding, based on a mix of equity and debt, valuing the business at $3B" }
+      ]
+    }
+  ]
+}

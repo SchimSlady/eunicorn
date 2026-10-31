@@ -1,0 +1,90 @@
+{
+  "id": "the-exploration-company",
+  "name": "The Exploration Company",
+  "aliases": ["TEC"],
+  "domain": "exploration.space",
+  "country": "DE",
+  "city": "Munich",
+  "founded": 2021,
+  "sectors": ["space"],
+  "status": "private",
+  "unicorn": false,
+  "founders": ["Hélène Huby"],
+  "funFact": "Its $450 million Series C in September 2026 was described as the largest Series C ever announced by a European space company.",
+  "difficulty": 3,
+  "techeuId": "0cf21d0d-d453-4912-8c4c-0106bf29d423",
+  "wikidataId": "Q121291156",
+  "sources": [
+    { "field": "city", "url": "https://thenextweb.com/news/exploration-company-300m-raise-spacex-rival", "quote": "Munich-based startup" },
+    { "field": "city", "url": "https://en.wikipedia.org/wiki/The_Exploration_Company", "quote": "the Munich area (Gauting and Oberpfaffenhofen) and the Bordeaux area (Le Haillan and Mérignac)" },
+    { "field": "founded", "url": "https://en.wikipedia.org/wiki/The_Exploration_Company", "quote": "TEC was founded in July 2021 by Hélène Huby" },
+    { "field": "founders", "url": "https://tech.eu/2024/11/18/the-exploration-company-raises-160m-series-b-for-reusable-spacecraft-development/", "quote": "Hélène Huby, co-founder and CEO" },
+    { "field": "sectors", "url": "https://tech.eu/2024/11/18/the-exploration-company-raises-160m-series-b-for-reusable-spacecraft-development/", "quote": "reusable spacecraft development" },
+    { "field": "status", "url": "https://pulse2.com/the-exploration-company-raises-450-million-series-c-co-led-by-bessemer-atomico-and-scaleup-europe-fund/", "quote": "$450 million in Series C funding" },
+    { "field": "unicorn", "url": "https://www.frenchweb.fr/the-exploration-company-annonce-une-levee-de-387-millions-deuros-pour-nyx-et-storm/463327", "quote": "Sa valorisation n'est pas précisée." },
+    { "field": "fun_fact", "url": "https://pulse2.com/the-exploration-company-raises-450-million-series-c-co-led-by-bessemer-atomico-and-scaleup-europe-fund/", "quote": "the largest Series C ever announced by a European space company" }
+  ],
+  "rounds": [
+    {
+      "techeuId": "84ba79bf-92f0-4687-b979-cec361c9e006",
+      "stage": "seed",
+      "month": "2021-11",
+      "amountEur": 5300000,
+      "amountOriginal": 5300000,
+      "currency": "EUR",
+      "investors": ["Promus Ventures", "Vsquared Ventures", "Cherry Ventures"],
+      "sources": [
+        { "field": "amount", "url": "https://nordic9.com/news/the-exploration-company-raised-53-million-in-a-seed-round-led-by-promus-ventures-and-joined-by-vsquared-and-cherry-ventures/", "quote": "completed a €5.3 million ($6.1M) equity fundraising round" },
+        { "field": "stage", "url": "https://nordic9.com/news/the-exploration-company-raised-53-million-in-a-seed-round-led-by-promus-ventures-and-joined-by-vsquared-and-cherry-ventures/", "quote": "The Exploration Company raised €5.3 million in a seed round" },
+        { "field": "month", "url": "https://nordic9.com/news/the-exploration-company-raised-53-million-in-a-seed-round-led-by-promus-ventures-and-joined-by-vsquared-and-cherry-ventures/", "quote": "16 November 2021" },
+        { "field": "investors", "url": "https://nordic9.com/news/the-exploration-company-raised-53-million-in-a-seed-round-led-by-promus-ventures-and-joined-by-vsquared-and-cherry-ventures/", "quote": "investors led by Promus Ventures" }
+      ]
+    },
+    {
+      "techeuId": "a966bb84-5992-4d53-818b-3baddecf1e5e",
+      "stage": "series-a",
+      "month": "2023-02",
+      "amountEur": 40500000,
+      "amountOriginal": 40500000,
+      "currency": "EUR",
+      "investors": ["EQT Ventures", "Red River West", "Promus Ventures", "Cherry Ventures", "Vsquared Ventures", "Omnes Capital", "July Fund", "Partech", "Habert Dassault Finance", "Schlumberger", "WMA", "Possible Ventures", "Rymdkapital", "Sista Fund"],
+      "sources": [
+        { "field": "amount", "url": "https://www.marketscreener.com/quote/stock/SCHLUMBERGER-LIMITED-14411/news/The-Exploration-Company-GmbH-announced-that-it-has-received-128-40-5-million-in-funding-from-a-gro-42878820/", "quote": "The Exploration Company GmbH announced that it has received €40.5 million in funding" },
+        { "field": "stage", "url": "https://hlc.com/en/news/hogan-lovells-beraet-investoren-bei-40-mio-euro-finanzierungsrunde-von-the-exploration-company", "quote": "record €40 million Series A round of funding" },
+        { "field": "month", "url": "https://hlc.com/en/news/hogan-lovells-beraet-investoren-bei-40-mio-euro-finanzierungsrunde-von-the-exploration-company", "quote": "8 February 2023" },
+        { "field": "investors", "url": "https://hlc.com/en/news/hogan-lovells-beraet-investoren-bei-40-mio-euro-finanzierungsrunde-von-the-exploration-company", "quote": "Red River West and EQT Ventures ... Promus Ventures, Cherry Ventures, Vsquared, Omnes Capital, July Fund, Partech, Habert Dassault Finance, Schlumberger, WMA, Possible Ventures, Rymdkapital, and Sista Fund" }
+      ]
+    },
+    {
+      "techeuId": "4bec0bd5-ea04-49c8-8bf9-f6668e05449f",
+      "stage": "series-b",
+      "month": "2024-11",
+      "amountEur": 151630000,
+      "amountOriginal": 160000000,
+      "currency": "USD",
+      "investors": ["Balderton Capital", "Plural", "Bessemer Venture Partners", "NGP Capital", "French Tech Souveraineté", "DeepTech & Climate Fonds", "Bayern Kapital", "EQT Ventures", "Red River West", "Cherry Ventures", "Promus Ventures", "Omnes Real Tech Fund"],
+      "sources": [
+        { "field": "amount", "url": "https://tech.eu/2024/11/18/the-exploration-company-raises-160m-series-b-for-reusable-spacecraft-development/", "quote": "$160 million in Series B funding" },
+        { "field": "stage", "url": "https://tech.eu/2024/11/18/the-exploration-company-raises-160m-series-b-for-reusable-spacecraft-development/", "quote": "$160 million in Series B funding" },
+        { "field": "month", "url": "https://tech.eu/2024/11/18/the-exploration-company-raises-160m-series-b-for-reusable-spacecraft-development/", "quote": "The Exploration Company raises $160M Series B for reusable spacecraft development" },
+        { "field": "investors", "url": "https://tech.eu/2024/11/18/the-exploration-company-raises-160m-series-b-for-reusable-spacecraft-development/", "quote": "Balderton Capital and Plural co-led the round. Other participants were Bessemer Venture Partners, NGP Capital, French Tech Souveraineté, DeepTech & Climate Fonds (DTCF), and Bayern Kapital." }
+      ]
+    },
+    {
+      "techeuId": "8143a974-b348-4a7b-8c6a-76140e63c594",
+      "stage": "series-c",
+      "month": "2026-09",
+      "amountEur": 387000000,
+      "amountOriginal": 387000000,
+      "currency": "EUR",
+      "investors": ["Bessemer Venture Partners", "Atomico", "Scaleup Europe Fund", "Balderton Capital", "Plural", "Cherry Ventures", "Red River West"],
+      "sources": [
+        { "field": "amount", "url": "https://www.frenchweb.fr/the-exploration-company-annonce-une-levee-de-387-millions-deuros-pour-nyx-et-storm/463327", "quote": "environ 387 millions d’euros" },
+        { "field": "stage", "url": "https://pulse2.com/the-exploration-company-raises-450-million-series-c-co-led-by-bessemer-atomico-and-scaleup-europe-fund/", "quote": "$450 million in Series C funding" },
+        { "field": "month", "url": "https://pulse2.com/the-exploration-company-raises-450-million-series-c-co-led-by-bessemer-atomico-and-scaleup-europe-fund/", "quote": "September 8, 2026" },
+        { "field": "investors", "url": "https://pulse2.com/the-exploration-company-raises-450-million-series-c-co-led-by-bessemer-atomico-and-scaleup-europe-fund/", "quote": "co-led by Bessemer Venture Partners, Atomico and the Scaleup Europe Fund managed by EQT" },
+        { "field": "investors", "url": "https://www.frenchweb.fr/the-exploration-company-annonce-une-levee-de-387-millions-deuros-pour-nyx-et-storm/463327", "quote": "Balderton, Plural, Cherry et Red River West y participent également" }
+      ]
+    }
+  ]
+}
