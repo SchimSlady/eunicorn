@@ -15,10 +15,10 @@ Tokens live in [`src/app/globals.css`](src/app/globals.css); use them via Tailwi
 | `primary` | EU blue | EU yellow | Buttons, links, focus, selected state |
 | `correct` | `#4C9A2A` | `#7CC35A` | Right answers (matches 🟩 in the share text) |
 | `wrong` | `#D62F43` | `#F0566A` | Wrong answers (matches 🟥) |
-| `background` / `surface` / `border` / `muted` / `foreground` | blue-grey `#F5F7FC` ground, white cards | true neutral `#0B0B0D` / `#151518` | Page, cards, lines, secondary text, text |
+| `background` / `surface` / `border` / `muted` / `foreground` | blue-grey `#F5F7FC` ground, white cards | soft charcoal `#202227` / `#2B2D33` | Page, cards, lines, secondary text, text |
 
 Rules:
-- **Dark mode is neutral, not navy.** EU blue lives in the illustrations, the "Built in Europe" card and the accent, never the ground. Colour goes on the game, not the chrome.
+- **Dark mode is soft charcoal: not black, not navy.** EU blue lives in the illustrations, the "Built in Europe" card and the accent, never the ground. Colour goes on the game, not the chrome.
 - **Yellow is brand only.** Never use it to mean "almost right" (the way Wordle does).
 - **Never color alone.** Right and wrong always come with an icon (`Check` / `X`) or a text label, for colorblind players.
 - The colors are called `correct` / `wrong`, not `right`, because Tailwind already has `text-right` (alignment).
