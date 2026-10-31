@@ -6,6 +6,7 @@ import type { GameMode } from "@eunicorn/schema";
 import { loadDifficulty, type Difficulty } from "@/lib/difficulty";
 import { MODE_INFO } from "@/lib/modes";
 import { DifficultyPicker } from "./DifficultyPicker";
+import { HowToPlay } from "./HowToPlay";
 import { ModePreview } from "./ModePreview";
 
 /** Before a game: illustration, one-line description, level buttons, Start. */
@@ -19,7 +20,10 @@ export function GameIntro({ mode, onStart }: { mode: GameMode; onStart: (d: Diff
       <div className="overflow-hidden rounded-2xl border border-border bg-surface">
         <ModePreview mode={mode} />
         <div className="space-y-5 p-5">
-          <h1 className="text-2xl font-bold">{info.title}</h1>
+          <div className="flex items-center justify-between gap-3">
+            <h1 className="text-2xl font-bold">{info.title}</h1>
+            <HowToPlay mode={mode} />
+          </div>
           <p className="text-muted">{info.description}</p>
           <DifficultyPicker initial={loadDifficulty()} onStart={onStart} />
         </div>

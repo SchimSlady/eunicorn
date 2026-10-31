@@ -176,7 +176,7 @@ export function UnicornGridGame() {
 
   return (
     <div className="space-y-6">
-      <GameHeader title={TITLE} difficulty={progress.difficulty} />
+      <GameHeader title={TITLE} mode={MODE} difficulty={progress.difficulty} />
       <Announce text={miss ? `${miss.name} doesn't fit that square.` : `${used.size} of 9 squares filled.`} />
 
       <div className="grid grid-cols-4 gap-1.5">

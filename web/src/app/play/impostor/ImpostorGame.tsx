@@ -121,7 +121,7 @@ export function ImpostorGame() {
 
   return (
     <div className="space-y-6">
-      <GameHeader title={TITLE} difficulty={progress.difficulty} />
+      <GameHeader title={TITLE} mode={MODE} difficulty={progress.difficulty} />
       <Announce
         text={
           won
