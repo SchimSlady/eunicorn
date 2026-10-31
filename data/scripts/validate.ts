@@ -69,12 +69,10 @@ function checkPuzzle(where: string, p: Puzzle) {
       break;
     }
     case "higher-lower":
-      for (const { a, b, higher } of p.pairs) {
-        if (!known(a) || !known(b)) continue;
-        const va = companies.get(a)![p.metric], vb = companies.get(b)![p.metric];
-        if (va == null || vb == null) { fail(where, `${a}/${b} missing ${p.metric}`); continue; }
-        const actual = va > vb ? a : b;
-        if (actual !== higher) fail(where, `${a} vs ${b}: higher should be ${actual}`);
+      if (p.companyIds.length < 2) fail(where, "needs at least 2 companies");
+      if (new Set(p.companyIds).size !== p.companyIds.length) fail(where, "companyIds must be unique");
+      for (const id of p.companyIds) {
+        if (known(id) && companies.get(id)![p.metric] == null) fail(where, `${id} missing ${p.metric}`);
       }
       break;
     case "impostor":

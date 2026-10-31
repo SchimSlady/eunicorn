@@ -1,30 +1,25 @@
 @import "tailwindcss";
 
-/* Brand: the colors of the EU flag. Reflex Blue #003399 + Yellow #FFCC00. */
+/* Brand and UI tokens. See STYLE.md for the reasoning behind each. */
 :root {
+  /* The colors of the EU flag: Reflex Blue + Yellow. Yellow is brand only, never "almost right". */
   --eu-blue: #003399;
   --eu-yellow: #ffcc00;
 
-  --background: #f5f7fc;
-  --surface: #ffffff;
-  --foreground: #0b1b3f;
-  --muted: #5b6785;
-  --border: #dce3f2;
-  /* Primary action color; flips to yellow on dark backgrounds for contrast. */
-  --primary: var(--eu-blue);
-  --on-primary: #ffffff;
-}
+  /* One theme only: soft charcoal, not black and not navy. EU blue lives in the illustrations. */
+  color-scheme: dark;
+  --background: #202227;
+  --surface: #2b2d33;
+  --foreground: #f5f5f7;
+  --muted: #b0b2b9;
+  --border: #3a3c43;
+  /* Primary action color: EU yellow, which reads on charcoal. */
+  --primary: var(--eu-yellow);
+  --on-primary: #001a4d;
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #001a4d;
-    --surface: #00246b;
-    --foreground: #f2f5fc;
-    --muted: #a8b5d6;
-    --border: #1a3a7a;
-    --primary: var(--eu-yellow);
-    --on-primary: #001a4d;
-  }
+  /* Right / wrong, matched to the 🟩 🟥 emojis in the share text. Always paired with ✓ / ✗. */
+  --correct: #7cc35a;
+  --wrong: #f0566a;
 }
 
 @theme inline {
@@ -37,12 +32,48 @@
   --color-border: var(--border);
   --color-primary: var(--primary);
   --color-on-primary: var(--on-primary);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-correct: var(--correct);
+  --color-wrong: var(--wrong);
+  --font-sans: var(--font-inter);
+  --font-display: var(--font-space-grotesk);
+
+  --animate-shake: shake 0.4s ease-in-out;
+  --animate-flip-in: flip-in 0.45s ease-out both;
+  --animate-pop: pop 0.25s ease-out;
+
+  @keyframes shake {
+    0%, 100% { transform: translateX(0); }
+    20%, 60% { transform: translateX(-6px); }
+    40%, 80% { transform: translateX(6px); }
+  }
+  @keyframes flip-in {
+    from { transform: perspective(600px) rotateX(-90deg); opacity: 0; }
+    to { transform: perspective(600px) rotateX(0); opacity: 1; }
+  }
+  @keyframes pop {
+    0% { transform: scale(0.96); }
+    60% { transform: scale(1.03); }
+    100% { transform: scale(1); }
+  }
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: var(--font-sans), system-ui, sans-serif;
+  font-family: var(--font-inter), system-ui, sans-serif;
+  /* Inter's tabular figures: amounts like €11.8bn line up in lists. */
+  font-variant-numeric: tabular-nums;
+}
+
+h1, h2, h3 {
+  font-family: var(--font-space-grotesk), var(--font-inter), sans-serif;
+  letter-spacing: -0.02em;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
 }

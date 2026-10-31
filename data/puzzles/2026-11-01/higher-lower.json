@@ -3,15 +3,9 @@
   "date": "2026-11-01",
   "number": 1,
   "metric": "lastValuationUsd",
-  "pairs": [
-    { "a": "revolut", "b": "n26", "higher": "revolut" },
-    { "a": "elevenlabs", "b": "synthesia", "higher": "elevenlabs" },
-    { "a": "personio", "b": "helsing", "higher": "helsing" },
-    { "a": "lovable", "b": "deepl", "higher": "deepl" },
-    { "a": "celonis", "b": "mistral-ai", "higher": "mistral-ai" }
-  ],
+  "companyIds": ["n26", "personio", "helsing", "celonis", "mistral-ai", "deepl"],
   "hints": [
-    { "text": "Pair 3: one of them raised €600M in 2025", "cost": 1 },
-    { "text": "Pair 5: the gap is less than $1B", "cost": 1 }
+    { "text": "Helsing raised €600m in 2025", "cost": 1 },
+    { "text": "Celonis and Mistral AI are less than €1bn apart", "cost": 1 }
   ]
 }
