@@ -12,43 +12,15 @@
 //      npm run import:techeu -- backfill 3        at most 3 pages (for testing)
 import type pg from "pg";
 import { connect } from "./db.ts";
+import { techeuGet } from "./techeu-api.ts";
 
 type Feed = "rounds" | "companies";
-const API = "https://funding.tech.eu/api/v1";
 const START = "2000-01-01";
-// Tech.eu allows 120 requests/minute, 600/hour and 2,000/day per IP. Stay under the hourly limit.
-const MIN_INTERVAL_MS = 6_500;
-
-const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
-let lastRequest = 0;
 
 interface Page {
   data: any[];
   removed?: { id: string; reason?: string }[];
   nextCursor: string | null;
-}
-
-async function get(path: string, params: Record<string, string | undefined>): Promise<Page> {
-  const qs = new URLSearchParams(Object.entries(params).filter((e): e is [string, string] => e[1] != null));
-  for (let attempt = 1; ; attempt++) {
-    await sleep(Math.max(0, lastRequest + MIN_INTERVAL_MS - Date.now()));
-    lastRequest = Date.now();
-    try {
-      const res = await fetch(`${API}${path}?${qs}`);
-      if (res.status === 429) {
-        const wait = Number(res.headers.get("retry-after") ?? 60);
-        console.log(`  rate limited, waiting ${wait}s`);
-        await sleep(wait * 1000);
-        continue;
-      }
-      if (!res.ok) throw new Error(`HTTP ${res.status}: ${(await res.text()).slice(0, 200)}`);
-      return (await res.json()) as Page;
-    } catch (e) {
-      if (attempt >= 5) throw e;
-      console.log(`  ${(e as Error).message}, retry ${attempt}/4`);
-      await sleep(attempt * 10_000);
-    }
-  }
 }
 
 const UPSERT_ROUNDS = `
@@ -94,7 +66,7 @@ async function backfill(db: pg.Client, maxPages: number) {
   console.log(`backfill: ${cursor ? `resuming after ${cursor}` : "starting from the newest round"}`);
   let pages = 0, rows = 0;
   while (pages < maxPages) {
-    const page = await get("/rounds", { limit: "100", after: cursor });
+    const page = await techeuGet<Page>("/rounds", { limit: "100", after: cursor });
     pages++;
     await db.query("begin");
     if (page.data.length) {
@@ -120,7 +92,7 @@ async function sync(db: pg.Client, feed: Feed, maxPages: number) {
   console.log(`${feed}: ${saved ? `changes after ${saved}` : `changes since ${START}`}`);
   let pages = 0, rows = 0, removed = 0;
   while (pages < maxPages) {
-    const page = await get("/changes", { type: feed, since, limit: "100", after: cursor });
+    const page = await techeuGet<Page>("/changes", { type: feed, since, limit: "100", after: cursor });
     pages++;
     await db.query("begin");
     if (pages === 1 && page.removed?.length) {
