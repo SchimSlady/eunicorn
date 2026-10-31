@@ -9,7 +9,8 @@
   "city": "Cambridge",
   "founded": 2014,
   "sectors": [
-    "health"
+    "health",
+    "robotics"
   ],
   "status": "private",
   "unicorn": true,

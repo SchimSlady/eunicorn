@@ -1,0 +1,140 @@
+{
+  "id": "oxford-quantum-circuits",
+  "name": "Oxford Quantum Circuits",
+  "aliases": [
+    "OQC"
+  ],
+  "domain": "oqc.tech",
+  "country": "GB",
+  "city": "Reading",
+  "founded": 2017,
+  "sectors": [
+    "quantum"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Ilana Wisby",
+    "Peter Leek"
+  ],
+  "difficulty": 4,
+  "techeuId": "18f64331-41ba-4a77-b718-ed7400c4db55",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://tech.eu/2022/07/05/oqc-rakes-in-46-million-to-put-quantum-computers-at-the-fingertips-of-businesses",
+      "quote": "Reading-based Oxford Quantum Circuits (OQC) has raised $46.4 million in funding"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Oxford_Quantum_Circuits",
+      "quote": "It was founded in 2017 by the physicist Peter Leek as a spin-out from the Department of Physics at the University of Oxford"
+    },
+    {
+      "field": "founders",
+      "url": "https://tech.eu/2022/07/05/oqc-rakes-in-46-million-to-put-quantum-computers-at-the-fingertips-of-businesses",
+      "quote": "Founded in 2017 by Ilana Wisby"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Oxford_Quantum_Circuits",
+      "quote": "Founder Peter Leek"
+    },
+    {
+      "field": "status",
+      "url": "https://oqc.tech/",
+      "quote": "OQC raises $350m in Europe’s largest ever private quantum computing funding round"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-a",
+      "month": "2022-07",
+      "amountEur": 45092323,
+      "amountOriginal": 46400000,
+      "currency": "USD",
+      "investors": [
+        "Lansdowne Partners",
+        "University of Tokyo Edge Capital Partners"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2022/07/05/oqc-rakes-in-46-million-to-put-quantum-computers-at-the-fingertips-of-businesses",
+          "quote": "Reading-based Oxford Quantum Circuits (OQC) has raised $46.4 million in funding"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2022/07/05/oqc-rakes-in-46-million-to-put-quantum-computers-at-the-fingertips-of-businesses",
+          "quote": "05 July 2022"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2022/07/05/oqc-rakes-in-46-million-to-put-quantum-computers-at-the-fingertips-of-businesses",
+          "quote": "The round was led by Lansdowne Partners and Asian deeptech fund University of Tokyo Edge Capital Partners"
+        }
+      ]
+    },
+    {
+      "stage": "series-b",
+      "month": "2023-11",
+      "amountEur": 91315862,
+      "amountOriginal": 100000000,
+      "currency": "USD",
+      "investors": [
+        "SBI Investment",
+        "Oxford Science Enterprises",
+        "Lansdowne Partners"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://nordic9.com/news/oxford-quantum-circuits-raised-a-100-million-series-b-round-led-by-sbi-investment/",
+          "quote": "Oxford Quantum Circuits raised a $100 million Series B round led by SBI Investment"
+        },
+        {
+          "field": "month",
+          "url": "https://thequantuminsider.com/2023/11/27/oqc-announces-100-million-series-b-availability-of-oqc-toshiko/",
+          "quote": "November 27, 2023"
+        },
+        {
+          "field": "investors",
+          "url": "https://nordic9.com/news/oxford-quantum-circuits-raised-a-100-million-series-b-round-led-by-sbi-investment/",
+          "quote": "Oxford Quantum Circuits raised a $100 million Series B round led by SBI Investment"
+        },
+        {
+          "field": "investors",
+          "url": "https://thequantuminsider.com/2023/11/27/oqc-announces-100-million-series-b-availability-of-oqc-toshiko/",
+          "quote": "Oxford Science Enterprises (OSE), University of Tokyo Edge Capital (UTEC), Lansdowne Partners"
+        }
+      ]
+    },
+    {
+      "stage": "series-c",
+      "month": "2026-06",
+      "amountEur": 301360427,
+      "amountOriginal": 350000000,
+      "currency": "USD",
+      "investors": [
+        "Bullhound Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://oqc.tech/",
+          "quote": "OQC raises $350m in Europe’s largest ever private quantum computing funding round"
+        },
+        {
+          "field": "month",
+          "url": "https://bullhoundcapital.com/articles/bullhound-capital-leads-europes-largest-quantum-computing-funding-round/",
+          "quote": "3 June 2026"
+        },
+        {
+          "field": "investors",
+          "url": "https://bullhoundcapital.com/articles/bullhound-capital-leads-europes-largest-quantum-computing-funding-round/",
+          "quote": "Bullhound Capital leads Europe’s largest ever private quantum computing funding round"
+        }
+      ]
+    }
+  ]
+}

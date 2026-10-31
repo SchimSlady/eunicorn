@@ -20,7 +20,13 @@ export type Sector =
   | "gaming"
   | "travel"
   | "crypto"
-  | "quick-commerce";
+  | "quick-commerce"
+  | "space"
+  | "quantum"
+  | "semiconductors"
+  | "robotics"
+  | "cybersecurity"
+  | "biotech";
 
 export type CompanyStatus = "private" | "public" | "acquired" | "defunct";
 
