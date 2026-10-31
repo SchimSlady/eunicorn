@@ -1,0 +1,153 @@
+{
+  "id": "rohlik",
+  "name": "Rohlik",
+  "aliases": [
+    "Rohlik Group",
+    "Rohlik.cz"
+  ],
+  "domain": "rohlik.cz",
+  "country": "CZ",
+  "city": "Prague",
+  "founded": 2014,
+  "sectors": [
+    "quick-commerce"
+  ],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 1650000000,
+  "founders": [
+    "Tomáš Čupr"
+  ],
+  "difficulty": 3,
+  "techeuId": "155FA5D4-CF08-4611-B76F-3BF1B94D3C85",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://cs.wikipedia.org/wiki/Rohlik.cz",
+      "quote": "Adresa sídla Sokolovská 100/94, Praha"
+    },
+    {
+      "field": "founded",
+      "url": "https://cs.wikipedia.org/wiki/Rohlik.cz",
+      "quote": "Firma byla založena v roce 2014."
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Rohlik.cz",
+      "quote": "was launched in Prague in 2014 by entrepreneur Tomáš Čupr"
+    },
+    {
+      "field": "sectors",
+      "url": "https://cs.wikipedia.org/wiki/Rohlik.cz",
+      "quote": "Oblast činnosti online grocer"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://cs.wikipedia.org/wiki/Rohlik.cz",
+      "quote": "Valuace skupiny při tomto kole dosáhla 1,65 miliardy EUR."
+    },
+    {
+      "field": "valuation",
+      "url": "https://cs.wikipedia.org/wiki/Rohlik.cz",
+      "quote": "Valuace skupiny při tomto kole dosáhla 1,65 miliardy EUR."
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-b",
+      "month": "2021-03",
+      "amountEur": 100000000,
+      "amountOriginal": 100000000,
+      "currency": "EUR",
+      "investors": [
+        "Index Ventures",
+        "Quadrille Capital",
+        "European Bank for Reconstruction and Development"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://cs.wikipedia.org/wiki/Rohlik.cz",
+          "quote": "V březnu 2021 uzavřela investiční kolo Série B ve výši 100 milionů EUR"
+        },
+        {
+          "field": "stage",
+          "url": "https://cs.wikipedia.org/wiki/Rohlik.cz",
+          "quote": "V březnu 2021 uzavřela investiční kolo Série B ve výši 100 milionů EUR"
+        },
+        {
+          "field": "month",
+          "url": "https://cs.wikipedia.org/wiki/Rohlik.cz",
+          "quote": "V březnu 2021 uzavřela investiční kolo Série B ve výši 100 milionů EUR"
+        },
+        {
+          "field": "investors",
+          "url": "https://cs.wikipedia.org/wiki/Rohlik.cz",
+          "quote": "vedené fondy Index Ventures a Quadrille Capital, s účastí EBRD"
+        }
+      ]
+    },
+    {
+      "techeuId": "eb5cd9e6-eca7-47bd-8d27-f5cd83cf4042",
+      "stage": "series-d",
+      "month": "2022-06",
+      "amountEur": 220000000,
+      "amountOriginal": 220000000,
+      "currency": "EUR",
+      "investors": [
+        "Sofina"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://cs.wikipedia.org/wiki/Rohlik.cz",
+          "quote": "V červnu 2022 následovalo kolo Série D ve výši 220 milionů EUR"
+        },
+        {
+          "field": "stage",
+          "url": "https://cs.wikipedia.org/wiki/Rohlik.cz",
+          "quote": "V červnu 2022 následovalo kolo Série D ve výši 220 milionů EUR"
+        },
+        {
+          "field": "month",
+          "url": "https://cs.wikipedia.org/wiki/Rohlik.cz",
+          "quote": "V červnu 2022 následovalo kolo Série D ve výši 220 milionů EUR"
+        },
+        {
+          "field": "investors",
+          "url": "https://cs.wikipedia.org/wiki/Rohlik.cz",
+          "quote": "za účasti belgické investiční společnosti Sofina"
+        }
+      ]
+    },
+    {
+      "techeuId": "f35141ab-a652-4625-8350-c2246e96af59",
+      "stage": "series-e",
+      "month": "2024-06",
+      "amountEur": 158804297,
+      "amountOriginal": 170000000,
+      "currency": "USD",
+      "postMoneyValuationEur": 1650000000,
+      "investors": [
+        "European Investment Bank"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://cs.wikipedia.org/wiki/Rohlik.cz",
+          "quote": "V červnu 2024 společnost získala dalších 170 milionů USD (160 milionů EUR)"
+        },
+        {
+          "field": "month",
+          "url": "https://cs.wikipedia.org/wiki/Rohlik.cz",
+          "quote": "V červnu 2024 společnost získala dalších 170 milionů USD (160 milionů EUR)"
+        },
+        {
+          "field": "investors",
+          "url": "https://cs.wikipedia.org/wiki/Rohlik.cz",
+          "quote": "s účastí Evropské investiční banky"
+        }
+      ]
+    }
+  ]
+}

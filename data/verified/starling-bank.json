@@ -1,0 +1,129 @@
+{
+  "id": "starling-bank",
+  "name": "Starling Bank",
+  "aliases": [
+    "Starling"
+  ],
+  "domain": "starlingbank.com",
+  "country": "GB",
+  "city": "London",
+  "founded": 2014,
+  "sectors": [
+    "fintech"
+  ],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 1283128033,
+  "founders": [
+    "Anne Boden"
+  ],
+  "difficulty": 2,
+  "techeuId": "87937504-1B63-4BD4-AA75-83AF56876025",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://starlingbank.com/news/starling-announces-272m-funding-round-march-2021",
+      "quote": "Headquartered in London"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Starling_Bank",
+      "quote": "founded by former Allied Irish Banks COO , Anne Boden , in January 2014"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Starling_Bank",
+      "quote": "founded by former Allied Irish Banks COO , Anne Boden , in January 2014"
+    },
+    {
+      "field": "sectors",
+      "url": "https://starlingbank.com/news/starling-announces-272m-funding-round-march-2021",
+      "quote": "Starling, the leading UK digital bank"
+    },
+    {
+      "field": "status",
+      "url": "https://en.wikipedia.org/wiki/Starling_Bank",
+      "quote": "Type Private"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://starlingbank.com/news/starling-announces-272m-funding-round-march-2021",
+      "quote": "The new investment values the company at £1.1 billion pre-money."
+    },
+    {
+      "field": "valuation",
+      "url": "https://starlingbank.com/news/starling-announces-272m-funding-round-march-2021",
+      "quote": "The new investment values the company at £1.1 billion pre-money."
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "feabf0c0-7565-4a2c-fc6a-08d91092c887",
+      "stage": "series-c",
+      "month": "2019-02",
+      "amountEur": 85596896,
+      "amountOriginal": 75000000,
+      "currency": "GBP",
+      "investors": [
+        "Merian Global Investors"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://en.wikipedia.org/wiki/Starling_Bank",
+          "quote": "In February 2019, Starling raised £75m from Merian Global Investors"
+        },
+        {
+          "field": "month",
+          "url": "https://en.wikipedia.org/wiki/Starling_Bank",
+          "quote": "In February 2019, Starling raised £75m from Merian Global Investors"
+        },
+        {
+          "field": "investors",
+          "url": "https://en.wikipedia.org/wiki/Starling_Bank",
+          "quote": "In February 2019, Starling raised £75m from Merian Global Investors"
+        }
+      ]
+    },
+    {
+      "techeuId": "0dcb749d-a9ea-49d0-fc6e-08d91092c887",
+      "stage": "series-d",
+      "month": "2021-03",
+      "amountEur": 317282568,
+      "amountOriginal": 272000000,
+      "currency": "GBP",
+      "investors": [
+        "Fidelity Management and Research Company",
+        "Qatar Investment Authority",
+        "Millennium Management"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://starlingbank.com/news/starling-announces-272m-funding-round-march-2021",
+          "quote": "announces a £272 million Series D funding round led by Fidel"
+        },
+        {
+          "field": "stage",
+          "url": "https://starlingbank.com/news/starling-announces-272m-funding-round-march-2021",
+          "quote": "announces a £272 million Series D funding round led by Fidel"
+        },
+        {
+          "field": "month",
+          "url": "https://starlingbank.com/news/starling-announces-272m-funding-round-march-2021",
+          "quote": "London, 8 March 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2021/03/08/starling-bank-confirms-272-million-in-new-funding-claims-unicorn-status/",
+          "quote": "Led by Fidelity Management and Research"
+        },
+        {
+          "field": "investors",
+          "url": "https://en.wikipedia.org/wiki/Starling_Bank",
+          "quote": "with investors including Fidelity , the Qatar Investment Authority and Millennium Management"
+        }
+      ]
+    }
+  ]
+}

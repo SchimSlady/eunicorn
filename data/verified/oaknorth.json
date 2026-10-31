@@ -1,0 +1,87 @@
+{
+  "id": "oaknorth",
+  "name": "OakNorth",
+  "aliases": [
+    "OakNorth Bank"
+  ],
+  "domain": "oaknorth.com",
+  "country": "GB",
+  "city": "London",
+  "founded": 2015,
+  "sectors": [
+    "fintech"
+  ],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 2475904147,
+  "founders": [
+    "Rishi Khosla",
+    "Joel Perlman"
+  ],
+  "difficulty": 4,
+  "techeuId": "076A4FC8-6ECC-4CED-9120-0911B9D0A16F",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/OakNorth_Bank",
+      "quote": "Headquarters London , United Kingdom"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/OakNorth_Bank",
+      "quote": "Founded September 2015"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/OakNorth_Bank",
+      "quote": "was founded by entrepreneurs Rishi Khosla and Joel Perlman"
+    },
+    {
+      "field": "sectors",
+      "url": "https://en.wikipedia.org/wiki/OakNorth_Bank",
+      "quote": "Industry Banking"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://www.latribune.fr/entreprises-finance/banques-finance/qui-est-oaknorth-la-fintech-au-record-de-levee-de-fonds-en-europe-806805.html",
+      "quote": "L’opération valorise cette banque en ligne pour entrepreneurs, méconnue du grand public, à 2,8 milliards de dollars."
+    },
+    {
+      "field": "valuation",
+      "url": "https://www.latribune.fr/entreprises-finance/banques-finance/qui-est-oaknorth-la-fintech-au-record-de-levee-de-fonds-en-europe-806805.html",
+      "quote": "L’opération valorise cette banque en ligne pour entrepreneurs, méconnue du grand public, à 2,8 milliards de dollars."
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "ccb113b0-b852-46c8-f1ed-08d91092c887",
+      "stage": "series-d",
+      "month": "2019-02",
+      "amountEur": 389070652,
+      "amountOriginal": 440000000,
+      "currency": "USD",
+      "postMoneyValuationEur": 2475904147,
+      "investors": [
+        "SoftBank Vision Fund",
+        "Clermont Group"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.latribune.fr/entreprises-finance/banques-finance/qui-est-oaknorth-la-fintech-au-record-de-levee-de-fonds-en-europe-806805.html",
+          "quote": "vient de décrocher un financement de 440 millions de dollars"
+        },
+        {
+          "field": "month",
+          "url": "https://www.latribune.fr/entreprises-finance/banques-finance/qui-est-oaknorth-la-fintech-au-record-de-levee-de-fonds-en-europe-806805.html",
+          "quote": "Publié le 11 février 2019"
+        },
+        {
+          "field": "investors",
+          "url": "https://en.wikipedia.org/wiki/OakNorth_Bank",
+          "quote": "In 2019, OakNorth raised $440 million from Softbank Vision Fund and Clermont Group"
+        }
+      ]
+    }
+  ]
+}

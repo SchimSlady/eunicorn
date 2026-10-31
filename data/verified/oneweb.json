@@ -1,0 +1,110 @@
+{
+  "id": "oneweb",
+  "name": "OneWeb",
+  "aliases": [
+    "Eutelsat OneWeb",
+    "WorldVu"
+  ],
+  "domain": "oneweb.net",
+  "country": "GB",
+  "city": "London",
+  "founded": 2012,
+  "sectors": [
+    "space"
+  ],
+  "status": "acquired",
+  "unicorn": false,
+  "founders": [
+    "Greg Wyler"
+  ],
+  "difficulty": 3,
+  "techeuId": "EEAC6264-C8AE-4A39-B271-6CCD839ADCD6",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/Eutelsat_OneWeb",
+      "quote": "The company has offices in Paris (France), London (UK) and Virginia (US)"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Eutelsat_OneWeb",
+      "quote": "The company was founded as WorldVu by Greg Wyler in 2012"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Eutelsat_OneWeb",
+      "quote": "The company was founded as WorldVu by Greg Wyler in 2012"
+    },
+    {
+      "field": "sectors",
+      "url": "https://en.wikipedia.org/wiki/Eutelsat_OneWeb",
+      "quote": "Industry Satellite Internet access"
+    },
+    {
+      "field": "status",
+      "url": "https://en.wikipedia.org/wiki/Eutelsat_OneWeb",
+      "quote": "In September 2023, Eutelsat announced the completion of its merger with OneWeb"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "ad2b20d6-da76-4af4-fae7-08d91092c887",
+      "stage": "series-a",
+      "month": "2015-06",
+      "amountEur": 446348866,
+      "amountOriginal": 500000000,
+      "currency": "USD",
+      "investors": [
+        "Bharti Enterprises",
+        "Airbus Group",
+        "Virgin Group",
+        "Qualcomm"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.advanced-television.com/2015/06/26/oneweb-raises-500m-funding/",
+          "quote": "OneWeb raises $500m funding"
+        },
+        {
+          "field": "month",
+          "url": "https://www.advanced-television.com/2015/06/26/oneweb-raises-500m-funding/",
+          "quote": "June 26, 2015"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.advanced-television.com/2015/06/26/oneweb-raises-500m-funding/",
+          "quote": "Sunil Bharti Mittal, Founder and Chairman of Bharti Enterprises and Tom Enders, CEO of Airbus Group, will be joining Sir Richard Branson, founder of the Virgin Group, Dr. Paul Jacobs, Executive Chairman of Qualcomm Incorporated"
+        }
+      ]
+    },
+    {
+      "techeuId": "7b26660b-df67-4f11-b7ad-885d4feef82e",
+      "stage": "series-f+",
+      "month": "2021-08",
+      "amountEur": 254950285,
+      "amountOriginal": 300000000,
+      "currency": "USD",
+      "investors": [
+        "Hanwha Systems"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://en.wikipedia.org/wiki/Eutelsat_OneWeb",
+          "quote": "In August 2021, Hanwha Systems invested $300 million to purchase an 8.8% share in OneWeb"
+        },
+        {
+          "field": "month",
+          "url": "https://en.wikipedia.org/wiki/Eutelsat_OneWeb",
+          "quote": "In August 2021, Hanwha Systems invested $300 million to purchase an 8.8% share in OneWeb"
+        },
+        {
+          "field": "investors",
+          "url": "https://en.wikipedia.org/wiki/Eutelsat_OneWeb",
+          "quote": "In August 2021, Hanwha Systems invested $300 million to purchase an 8.8% share in OneWeb"
+        }
+      ]
+    }
+  ]
+}

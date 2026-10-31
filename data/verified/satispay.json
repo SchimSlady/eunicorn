@@ -1,0 +1,114 @@
+{
+  "id": "satispay",
+  "name": "Satispay",
+  "aliases": [],
+  "domain": "satispay.com",
+  "country": "IT",
+  "city": "Milan",
+  "founded": 2013,
+  "sectors": [
+    "fintech"
+  ],
+  "status": "private",
+  "unicorn": true,
+  "founders": [
+    "Alberto Dalmasso",
+    "Dario Brignone",
+    "Samuele Pinta"
+  ],
+  "difficulty": 3,
+  "techeuId": "3AA54703-A22A-4229-8D5F-6FB2431CE23A",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://it.wikipedia.org/wiki/Satispay",
+      "quote": "Sede principale Milano"
+    },
+    {
+      "field": "founded",
+      "url": "https://it.wikipedia.org/wiki/Satispay",
+      "quote": "Fondata nel 2013"
+    },
+    {
+      "field": "founders",
+      "url": "https://it.wikipedia.org/wiki/Satispay",
+      "quote": "quando Alberto Dalmasso, Dario Brignone e Samuele Pinta rilevano"
+    },
+    {
+      "field": "sectors",
+      "url": "https://it.wikipedia.org/wiki/Satispay",
+      "quote": "Aziende del settore della tecnofinanza"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://it.wikipedia.org/wiki/Satispay",
+      "quote": "superando la valutazione di 1 miliardo di euro"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "6e93c182-71c7-450d-f1e3-08d91092c887",
+      "stage": "series-c",
+      "month": "2020-11",
+      "amountEur": 93000000,
+      "amountOriginal": 93000000,
+      "currency": "EUR",
+      "investors": [
+        "TIM Ventures",
+        "Square",
+        "Tencent",
+        "LGT Lightstone"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://it.wikipedia.org/wiki/Satispay",
+          "quote": "Nello stesso anno Satispay raccoglie 93 milioni di euro in un round di finanziamento"
+        },
+        {
+          "field": "month",
+          "url": "https://it.wikipedia.org/wiki/Satispay",
+          "quote": "URL consultato il 19 novembre 2020"
+        },
+        {
+          "field": "investors",
+          "url": "https://it.wikipedia.org/wiki/Satispay",
+          "quote": "con la partecipazione di investitori come TIM Ventures , Square, Tencent e Lgt Lightstone"
+        }
+      ]
+    },
+    {
+      "techeuId": "82781d50-c495-4861-bbcb-dee26cf4ffee",
+      "stage": "series-d",
+      "month": "2022-09",
+      "amountEur": 320000000,
+      "amountOriginal": 320000000,
+      "currency": "EUR",
+      "investors": [
+        "Addition"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://it.wikipedia.org/wiki/Satispay",
+          "quote": "Satispay con un round da 320 milioni diventa un unicorno: vale oltre 1 miliardo"
+        },
+        {
+          "field": "stage",
+          "url": "https://it.wikipedia.org/wiki/Satispay",
+          "quote": "round Serie D"
+        },
+        {
+          "field": "month",
+          "url": "https://it.wikipedia.org/wiki/Satispay",
+          "quote": "28 settembre 2022"
+        },
+        {
+          "field": "investors",
+          "url": "https://it.wikipedia.org/wiki/Satispay",
+          "quote": "guidato da Addition"
+        }
+      ]
+    }
+  ]
+}

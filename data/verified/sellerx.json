@@ -1,0 +1,86 @@
+{
+  "id": "sellerx",
+  "name": "SellerX",
+  "aliases": [],
+  "domain": "sellerx.com",
+  "country": "DE",
+  "city": "Berlin",
+  "founded": 2020,
+  "sectors": [
+    "consumer"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Malte Horeyseck",
+    "Philipp Triebel"
+  ],
+  "difficulty": 4,
+  "techeuId": "A36F6686-C3E5-447E-861E-8EEC04C051A9",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://tech.eu/2021/08/12/berlins-sellerx-throws-another-e100-million-in-the-trolley-keeps-on-shopping/",
+      "quote": "Berlin’s SellerX has announced the close of"
+    },
+    {
+      "field": "founded",
+      "url": "https://prnewswire.com/news-releases/largest-equity-funding-round-for-a-european-fba-aggregator-announced-as-sellerx-raises-100-118-million-led-by-l-cattertons-growth-fund-301354225.html",
+      "quote": "SellerX was founded in September 2020"
+    },
+    {
+      "field": "founders",
+      "url": "https://prnewswire.com/news-releases/largest-equity-funding-round-for-a-european-fba-aggregator-announced-as-sellerx-raises-100-118-million-led-by-l-cattertons-growth-fund-301354225.html",
+      "quote": "founded in September 2020 by Harvard Business School graduates Malte Horeyseck and Philipp Triebel"
+    },
+    {
+      "field": "sectors",
+      "url": "https://prnewswire.com/news-releases/largest-equity-funding-round-for-a-european-fba-aggregator-announced-as-sellerx-raises-100-118-million-led-by-l-cattertons-growth-fund-301354225.html",
+      "quote": "Europe's leading aggregator of third-party e-commerce businesses"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "78b20d93-6600-4f85-879f-7a4e583c883c",
+      "stage": "series-b",
+      "month": "2021-08",
+      "amountEur": 100000000,
+      "amountOriginal": 100000000,
+      "currency": "EUR",
+      "investors": [
+        "L Catterton",
+        "Sofina",
+        "Cherry Ventures",
+        "Felix Capital",
+        "83North"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://prnewswire.com/news-releases/largest-equity-funding-round-for-a-european-fba-aggregator-announced-as-sellerx-raises-100-118-million-led-by-l-cattertons-growth-fund-301354225.html",
+          "quote": "raised €100 ($118) million in primary equity funding"
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2021/08/12/berlins-sellerx-throws-another-e100-million-in-the-trolley-keeps-on-shopping/",
+          "quote": "SellerX’s Series B round was led by the Growth Fund of L Catterton"
+        },
+        {
+          "field": "month",
+          "url": "https://prnewswire.com/news-releases/largest-equity-funding-round-for-a-european-fba-aggregator-announced-as-sellerx-raises-100-118-million-led-by-l-cattertons-growth-fund-301354225.html",
+          "quote": "12, 2021 /PRNewswire/"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2021/08/12/berlins-sellerx-throws-another-e100-million-in-the-trolley-keeps-on-shopping/",
+          "quote": "SellerX’s Series B round was led by the Growth Fund of L Catterton , with Sofina also participating"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2021/08/12/berlins-sellerx-throws-another-e100-million-in-the-trolley-keeps-on-shopping/",
+          "quote": "Existing investors Cherry Ventures , Felix Capital , and 83North all followed on"
+        }
+      ]
+    }
+  ]
+}

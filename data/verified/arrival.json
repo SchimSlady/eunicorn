@@ -1,0 +1,117 @@
+{
+  "id": "arrival",
+  "name": "Arrival",
+  "aliases": [],
+  "domain": "arrival.com",
+  "country": "GB",
+  "city": "London",
+  "founded": 2015,
+  "sectors": [
+    "mobility"
+  ],
+  "status": "defunct",
+  "unicorn": true,
+  "lastValuationEur": 3000000000,
+  "founders": [
+    "Denis Sverdlov"
+  ],
+  "difficulty": 3,
+  "techeuId": "C0C976C8-2E1B-44C0-9089-685B09D178F7",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/Arrival_(company)",
+      "quote": "A global company headquartered in Kensington, London and Charlotte, North Carolina"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Arrival_(company)",
+      "quote": "The company was founded in 2015 by Russian businessman and telecom billionaire Denis Sverdlov"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Arrival_(company)",
+      "quote": "The company was founded in 2015 by Russian businessman and telecom billionaire Denis Sverdlov"
+    },
+    {
+      "field": "sectors",
+      "url": "https://en.wikipedia.org/wiki/Arrival_(company)",
+      "quote": "Arrival was a British electric vehicle manufacturer"
+    },
+    {
+      "field": "status",
+      "url": "https://en.wikipedia.org/wiki/Arrival_(company)",
+      "quote": "its UK division went into administration in February 2024"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://www.cnbc.com/2020/01/16/uk-electric-vehicle-start-up-arrival-values-itself-at-3point3-billion.html",
+      "quote": "According to Arrival, the investment values the company, which was established in 2015, at a staggering 3 billion euros"
+    },
+    {
+      "field": "valuation",
+      "url": "https://www.cnbc.com/2020/01/16/uk-electric-vehicle-start-up-arrival-values-itself-at-3point3-billion.html",
+      "quote": "According to Arrival, the investment values the company, which was established in 2015, at a staggering 3 billion euros"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "2da37f9a-74d2-48b3-efe1-08d91092c887",
+      "stage": "series-b",
+      "month": "2020-01",
+      "amountEur": 100000000,
+      "amountOriginal": 100000000,
+      "currency": "EUR",
+      "postMoneyValuationEur": 3000000000,
+      "investors": [
+        "Hyundai Motor Company",
+        "Kia Motors Corporation"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://newswire.ca/news-releases/hyundai-and-kia-make-strategic-investment-in-arrival-to-co-develop-electric-commercial-vehicles-842068993.html",
+          "quote": "announced a strategic investment of €100 million"
+        },
+        {
+          "field": "month",
+          "url": "https://www.cnbc.com/2020/01/16/uk-electric-vehicle-start-up-arrival-values-itself-at-3point3-billion.html",
+          "quote": "Published Thu, Jan 16 2020 8:07 AM EST"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.cnbc.com/2020/01/16/uk-electric-vehicle-start-up-arrival-values-itself-at-3point3-billion.html",
+          "quote": "Hyundai will invest 80 million euros in Arrival, with Kia contributing 20 million"
+        }
+      ]
+    },
+    {
+      "techeuId": "f733fbe9-cd93-4db8-efe2-08d91092c887",
+      "stage": "series-c",
+      "month": "2020-10",
+      "amountEur": 100871944,
+      "amountOriginal": 118000000,
+      "currency": "USD",
+      "investors": [
+        "BlackRock"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.just-auto.com/news/blackrock-puts-118m-into-uk-electric-vehicle-startup",
+          "quote": "Arrival reportedly said it had raised $118 million"
+        },
+        {
+          "field": "month",
+          "url": "https://www.just-auto.com/news/blackrock-puts-118m-into-uk-electric-vehicle-startup",
+          "quote": "October 15, 2020"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.just-auto.com/news/blackrock-puts-118m-into-uk-electric-vehicle-startup",
+          "quote": "funds manager BlackRock."
+        }
+      ]
+    }
+  ]
+}

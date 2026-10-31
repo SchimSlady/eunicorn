@@ -1,0 +1,109 @@
+{
+  "id": "wise",
+  "name": "Wise",
+  "aliases": [
+    "TransferWise"
+  ],
+  "domain": "wise.com",
+  "country": "GB",
+  "city": "London",
+  "founded": 2011,
+  "sectors": [
+    "fintech"
+  ],
+  "status": "public",
+  "unicorn": true,
+  "founders": [
+    "Kristo Käärmann",
+    "Taavet Hinrikus"
+  ],
+  "difficulty": 2,
+  "techeuId": "35D52A84-6044-4156-B6A7-EBE61D9DDC99",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/Wise_(company)",
+      "quote": "Headquartered in London , it was founded by Kristo Käärmann and Taavet Hinrikus in January 2011."
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Wise_(company)",
+      "quote": "Headquartered in London , it was founded by Kristo Käärmann and Taavet Hinrikus in January 2011."
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Wise_(company)",
+      "quote": "it was founded by Kristo Käärmann and Taavet Hinrikus in January 2011."
+    },
+    {
+      "field": "sectors",
+      "url": "https://en.wikipedia.org/wiki/Wise_(company)",
+      "quote": "is a British financial technology company focused on global money transfers"
+    },
+    {
+      "field": "status",
+      "url": "https://en.wikipedia.org/wiki/Wise_(company)",
+      "quote": "On 7 July 2021, Wise went public with a direct listing on the London Stock Exchange and was valued at $11 billion."
+    },
+    {
+      "field": "unicorn",
+      "url": "https://en.wikipedia.org/wiki/Wise_(company)",
+      "quote": "On 7 July 2021, Wise went public with a direct listing on the London Stock Exchange and was valued at $11 billion."
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-c",
+      "month": "2015-01",
+      "amountOriginal": 58000000,
+      "currency": "USD",
+      "amountEur": 49908215,
+      "investors": [
+        "Andreessen Horowitz"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://en.wikipedia.org/wiki/Wise_(company)",
+          "quote": "In January 2015, it was announced that Wise had raised a $58 million Series C round, led by investors Andreessen Horowitz"
+        },
+        {
+          "field": "month",
+          "url": "https://en.wikipedia.org/wiki/Wise_(company)",
+          "quote": "In January 2015, it was announced that Wise had raised a $58 million Series C round"
+        },
+        {
+          "field": "stage",
+          "url": "https://en.wikipedia.org/wiki/Wise_(company)",
+          "quote": "$58 million Series C round"
+        },
+        {
+          "field": "investors",
+          "url": "https://en.wikipedia.org/wiki/Wise_(company)",
+          "quote": "led by investors Andreessen Horowitz"
+        }
+      ]
+    },
+    {
+      "techeuId": "6a82704c-5f2d-42e2-ed0e-08d91092c887",
+      "stage": "series-d",
+      "month": "2016-05",
+      "amountOriginal": 26000000,
+      "currency": "USD",
+      "amountEur": 23326754,
+      "investors": [],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2016/05/25/money-transfer-company-transferwise-raises-further-26m-at-1-1b-valuation/",
+          "quote": "Money transfer company TransferWise raises further $26M at a $1.1B valuation"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2016/05/25/money-transfer-company-transferwise-raises-further-26m-at-1-1b-valuation/",
+          "quote": "May 25, 2016"
+        }
+      ]
+    }
+  ]
+}

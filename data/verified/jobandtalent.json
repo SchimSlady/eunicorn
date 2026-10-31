@@ -1,0 +1,128 @@
+{
+  "id": "jobandtalent",
+  "name": "Jobandtalent",
+  "aliases": [],
+  "domain": "jobandtalent.com",
+  "country": "ES",
+  "city": "Madrid",
+  "founded": 2009,
+  "sectors": [
+    "saas"
+  ],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 2077072653,
+  "founders": [
+    "Juan Urdiales",
+    "Felipe Navio"
+  ],
+  "difficulty": 3,
+  "techeuId": "61C07E62-7CDD-4440-8867-7428720E35AA",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://siliconcanals.com/jobandtalent-bags-441m-funding/",
+      "quote": "a Madrid-based workforce marketplace"
+    },
+    {
+      "field": "founded",
+      "url": "https://siliconcanals.com/jobandtalent-bags-441m-funding/",
+      "quote": "Founded by Juan Urdiales and Felipe Navio in 2009"
+    },
+    {
+      "field": "founders",
+      "url": "https://siliconcanals.com/jobandtalent-bags-441m-funding/",
+      "quote": "Founded by Juan Urdiales and Felipe Navio in 2009"
+    },
+    {
+      "field": "sectors",
+      "url": "https://techcrunch.com/?p=2122830",
+      "quote": "a digital temp staffing agency startup which operates a dual-sided platform that matches temps with employers needing casual labor"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://siliconcanals.com/jobandtalent-bags-441m-funding/",
+      "quote": "This investment boosted Jobandtalent valuation to $2.35B (approx €2B)."
+    },
+    {
+      "field": "valuation",
+      "url": "https://siliconcanals.com/jobandtalent-bags-441m-funding/",
+      "quote": "This investment boosted Jobandtalent valuation to $2.35B (approx €2B)."
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "296df4e6-5679-4e1f-f976-08d91092c887",
+      "stage": "series-d",
+      "month": "2021-03",
+      "amountEur": 100000000,
+      "amountOriginal": 100000000,
+      "currency": "EUR",
+      "investors": [
+        "SoftBank Vision Fund 2"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/?p=2122830",
+          "quote": "has grabbed €100 million (~$120M) in Series D funding from SoftBank’s Vision Fund 2"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/?p=2122830",
+          "quote": "has grabbed €100 million (~$120M) in Series D funding from SoftBank’s Vision Fund 2"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/?p=2122830",
+          "quote": "March 9, 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/?p=2122830",
+          "quote": "has grabbed €100 million (~$120M) in Series D funding from SoftBank’s Vision Fund 2"
+        }
+      ]
+    },
+    {
+      "techeuId": "5e7cc31e-4a62-47f7-be74-158313ecdafe",
+      "stage": "series-e",
+      "month": "2021-12",
+      "amountEur": 441930352,
+      "amountOriginal": 500000000,
+      "currency": "USD",
+      "postMoneyValuationEur": 2077072653,
+      "investors": [
+        "Kinnevik",
+        "SoftBank Vision Fund 2",
+        "Atomico",
+        "DN Capital",
+        "InfraVia",
+        "Kibo Ventures",
+        "Quadrille Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://siliconcanals.com/jobandtalent-bags-441m-funding/",
+          "quote": "announced that it has raised $500M (approx €441M) in equity investment in a Series E round from Kinnevik and SoftBank Vision Fund 2."
+        },
+        {
+          "field": "stage",
+          "url": "https://siliconcanals.com/jobandtalent-bags-441m-funding/",
+          "quote": "in a Series E round from Kinnevik and SoftBank Vision Fund 2."
+        },
+        {
+          "field": "month",
+          "url": "https://siliconcanals.com/jobandtalent-bags-441m-funding/",
+          "quote": "Published Dec 1, 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://siliconcanals.com/jobandtalent-bags-441m-funding/",
+          "quote": "Existing investors Atomico, DN, Infravia, Kibo, and Quadrille also participated in the round."
+        }
+      ]
+    }
+  ]
+}

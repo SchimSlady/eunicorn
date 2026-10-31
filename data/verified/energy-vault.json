@@ -1,0 +1,136 @@
+{
+  "id": "energy-vault",
+  "name": "Energy Vault",
+  "aliases": [],
+  "domain": "energyvault.com",
+  "country": "CH",
+  "city": "Lugano",
+  "founded": 2017,
+  "sectors": [
+    "climate"
+  ],
+  "status": "public",
+  "unicorn": false,
+  "founders": [
+    "Robert Piconi",
+    "Bill Gross",
+    "Andrea Pedretti"
+  ],
+  "difficulty": 3,
+  "techeuId": "57410D62-906B-49E7-BF8D-F0D0DE36B3E3",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/Energy_Vault",
+      "quote": "Headquarters Lugano"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Energy_Vault",
+      "quote": "Founded 2017"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Energy_Vault",
+      "quote": "Founders Robert Piconi, Bill Gross, Andrea Pedretti"
+    },
+    {
+      "field": "sectors",
+      "url": "https://en.wikipedia.org/wiki/Energy_Vault",
+      "quote": "Industry Energy Storage"
+    },
+    {
+      "field": "status",
+      "url": "https://en.wikipedia.org/wiki/Energy_Vault",
+      "quote": "Type Public company"
+    },
+    {
+      "field": "status",
+      "url": "https://en.wikipedia.org/wiki/Energy_Vault",
+      "quote": "In February 2022, Energy Vault Holdings, Inc. began trading on the New York Stock Exchange following the business combination with Novus Capital Corporation II"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-b",
+      "month": "2019-08",
+      "amountEur": 98319628,
+      "amountOriginal": 110000000,
+      "currency": "USD",
+      "techeuId": "ec5d8ce6-d4ae-4ea8-ddd0-08d91092c887",
+      "investors": [
+        "SoftBank Vision Fund"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.energyvault.com/newsroom/energy-vault-closes-series-b-funding-with-110-million-investment-from-softbank-vision-fund",
+          "quote": "today announced it has completed a $110 million Series B funding round"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.energyvault.com/newsroom/energy-vault-closes-series-b-funding-with-110-million-investment-from-softbank-vision-fund",
+          "quote": "today announced it has completed a $110 million Series B funding round"
+        },
+        {
+          "field": "month",
+          "url": "https://www.energyvault.com/newsroom/energy-vault-closes-series-b-funding-with-110-million-investment-from-softbank-vision-fund",
+          "quote": "14 August 2019"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.energyvault.com/newsroom/energy-vault-closes-series-b-funding-with-110-million-investment-from-softbank-vision-fund",
+          "quote": "to partner with SoftBank Vision Fund as we expand our global presence"
+        }
+      ]
+    },
+    {
+      "stage": "series-c",
+      "month": "2021-08",
+      "amountEur": 85207907,
+      "amountOriginal": 100000000,
+      "currency": "USD",
+      "techeuId": "9918702a-7d93-46e0-afb8-303f7ff269eb",
+      "investors": [
+        "Prime Movers Lab",
+        "SoftBank Vision Fund",
+        "Saudi Aramco Energy Ventures",
+        "Helena",
+        "Idealab X",
+        "Pickering Energy Partners",
+        "SailingStone Global Energy Transition",
+        "A.T. Gekko",
+        "Crexa Capital Advisors",
+        "Green Storage Solutions Venture I",
+        "Gordon Crawford"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.saurenergy.com/solar-energy-news/gravity-based-energy-storage-startup-energy-vault-announces-100-million-funding",
+          "quote": "today announced $100 million in Series C funding."
+        },
+        {
+          "field": "stage",
+          "url": "https://www.saurenergy.com/solar-energy-news/gravity-based-energy-storage-startup-energy-vault-announces-100-million-funding",
+          "quote": "today announced $100 million in Series C funding."
+        },
+        {
+          "field": "month",
+          "url": "https://www.saurenergy.com/solar-energy-news/gravity-based-energy-storage-startup-energy-vault-announces-100-million-funding",
+          "quote": "25 Aug 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.saurenergy.com/solar-energy-news/gravity-based-energy-storage-startup-energy-vault-announces-100-million-funding",
+          "quote": "The newest investment round is being led by existing investor Prime Movers Lab, with additional participation from other existing investors including SoftBank Vision Fund, Saudi Aramco Energy Ventures, Helena, and Idealab X."
+        },
+        {
+          "field": "investors",
+          "url": "https://www.saurenergy.com/solar-energy-news/gravity-based-energy-storage-startup-energy-vault-announces-100-million-funding",
+          "quote": "the Series C funding is supported by new investors, including Pickering Energy Partners through its Energy Equity Opportunity Fund, SailingStone Global Energy Transition, A.T. Gekko, Crexa Capital Advisors LLC, Green Storage Solutions Venture I LLC, and Gordon Crawford"
+        }
+      ]
+    }
+  ]
+}

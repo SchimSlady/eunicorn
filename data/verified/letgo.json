@@ -1,0 +1,188 @@
+{
+  "id": "letgo",
+  "name": "Letgo",
+  "aliases": [],
+  "domain": "letgo.com",
+  "country": "ES",
+  "city": "Barcelona",
+  "founded": 2015,
+  "sectors": [
+    "consumer"
+  ],
+  "status": "acquired",
+  "unicorn": true,
+  "lastValuationEur": 1293884240,
+  "founders": [
+    "Alec Oxenford",
+    "Jordi Castello",
+    "Enrique Linares"
+  ],
+  "difficulty": 3,
+  "techeuId": "1B1A5A0F-AC06-4FB9-93D9-7A9F0C4E05DF",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/Letgo",
+      "quote": "Headquarters New York City and Barcelona"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Letgo",
+      "quote": "Founded January 2015"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Letgo",
+      "quote": "Founders Alec Oxenford Jordi Castello Enrique Linares"
+    },
+    {
+      "field": "sectors",
+      "url": "https://en.wikipedia.org/wiki/Letgo",
+      "quote": "Mobile classifieds app"
+    },
+    {
+      "field": "status",
+      "url": "https://en.wikipedia.org/wiki/Letgo",
+      "quote": "OfferUp announced they would be acquiring Letgo, with the acquisition being official on September 21, 2020."
+    },
+    {
+      "field": "unicorn",
+      "url": "https://en.wikipedia.org/wiki/Letgo",
+      "quote": "raises another $500M at over a $1.5B valuation"
+    },
+    {
+      "field": "valuation",
+      "url": "https://en.wikipedia.org/wiki/Letgo",
+      "quote": "raises another $500M at over a $1.5B valuation"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "a48f68d4-bb3b-4eed-d1d6-08d91092c887",
+      "stage": "series-a",
+      "month": "2015-09",
+      "amountEur": 88339223,
+      "amountOriginal": 100000000,
+      "currency": "USD",
+      "investors": [
+        "Naspers"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://globalventuring.com/blog/2017/01/18/letgo-releases-details-of-175m-round/",
+          "quote": "Naspers had initially invested $100m in Letgo in September 2015."
+        },
+        {
+          "field": "stage",
+          "url": "https://globalventuring.com/blog/2018/08/09/letgo-nabs-500m-from-naspers/",
+          "quote": "Naspers initially provided $100m in series A funding for Letgo in 2015"
+        },
+        {
+          "field": "month",
+          "url": "https://globalventuring.com/blog/2017/01/18/letgo-releases-details-of-175m-round/",
+          "quote": "Naspers had initially invested $100m in Letgo in September 2015."
+        },
+        {
+          "field": "investors",
+          "url": "https://globalventuring.com/blog/2017/01/18/letgo-releases-details-of-175m-round/",
+          "quote": "Naspers had initially invested $100m in Letgo in September 2015."
+        }
+      ]
+    },
+    {
+      "techeuId": "d2b8e460-8c9e-4847-d1d7-08d91092c887",
+      "stage": "series-b",
+      "month": "2016-05",
+      "amountEur": 87912088,
+      "amountOriginal": 100000000,
+      "currency": "USD",
+      "investors": [
+        "Naspers"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://globalventuring.com/blog/2017/01/18/letgo-releases-details-of-175m-round/",
+          "quote": "when it raised $100m in May 2016"
+        },
+        {
+          "field": "month",
+          "url": "https://globalventuring.com/blog/2017/01/18/letgo-releases-details-of-175m-round/",
+          "quote": "when it raised $100m in May 2016"
+        },
+        {
+          "field": "investors",
+          "url": "https://globalventuring.com/blog/2017/01/18/letgo-releases-details-of-175m-round/",
+          "quote": "Naspers also took part in the 2016 round"
+        }
+      ]
+    },
+    {
+      "techeuId": "418c7b90-d9f8-4132-d1d8-08d91092c887",
+      "stage": "series-c",
+      "month": "2017-01",
+      "amountEur": 163796331,
+      "amountOriginal": 175000000,
+      "currency": "USD",
+      "investors": [
+        "Naspers",
+        "Accel",
+        "Insight Venture Partners",
+        "New Enterprise Associates",
+        "14W"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://globalventuring.com/blog/2017/01/18/letgo-releases-details-of-175m-round/",
+          "quote": "US-based e-commerce app operator Letgo raised $175m yesterday from investors including media and e-commerce group Naspers."
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2017/01/17/letgo-raises-whopping-175-million-financing-for-its-used-goods-marketplace",
+          "quote": "remains intact, for the Series C investment."
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2017/01/17/letgo-raises-whopping-175-million-financing-for-its-used-goods-marketplace",
+          "quote": "January 17, 2017"
+        },
+        {
+          "field": "investors",
+          "url": "https://globalventuring.com/blog/2017/01/18/letgo-releases-details-of-175m-round/",
+          "quote": "Naspers was joined in the round by investors including venture capital firms Accel, Insight Venture Partners and New Enterprise Associates, and commerce-focused VC fund 14W."
+        }
+      ]
+    },
+    {
+      "techeuId": "db880e94-de80-4574-d1d9-08d91092c887",
+      "stage": "series-e",
+      "month": "2018-08",
+      "amountEur": 431294747,
+      "amountOriginal": 500000000,
+      "currency": "USD",
+      "postMoneyValuationEur": 1293884240,
+      "investors": [
+        "Naspers"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://en.wikipedia.org/wiki/Letgo",
+          "quote": "In August 2018, it raised $500 million from Naspers"
+        },
+        {
+          "field": "month",
+          "url": "https://globalventuring.com/blog/2018/08/09/letgo-nabs-500m-from-naspers/",
+          "quote": "Aug 9, 2018"
+        },
+        {
+          "field": "investors",
+          "url": "https://en.wikipedia.org/wiki/Letgo",
+          "quote": "In August 2018, it raised $500 million from Naspers"
+        }
+      ]
+    }
+  ]
+}

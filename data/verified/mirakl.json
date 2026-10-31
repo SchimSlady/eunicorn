@@ -1,0 +1,130 @@
+{
+  "id": "mirakl",
+  "name": "Mirakl",
+  "aliases": [],
+  "domain": "mirakl.com",
+  "country": "FR",
+  "city": "Paris",
+  "founded": 2011,
+  "sectors": [
+    "saas"
+  ],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 2981768615,
+  "founders": [
+    "Philippe Corrot",
+    "Adrien Nussenbaum"
+  ],
+  "difficulty": 4,
+  "techeuId": "CD3AE2FC-A5B3-4947-A98E-7FB0FFB1D87E",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/Mirakl",
+      "quote": "Founded 2011 Founder Philippe Corrot Adrien Nussenbaum Headquarters Paris and Boston"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Mirakl",
+      "quote": "Founded 2011 Founder Philippe Corrot Adrien Nussenbaum Headquarters Paris and Boston"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Mirakl",
+      "quote": "Founded 2011 Founder Philippe Corrot Adrien Nussenbaum Headquarters Paris and Boston"
+    },
+    {
+      "field": "sectors",
+      "url": "https://en.wikipedia.org/wiki/Mirakl",
+      "quote": "It provides online marketplace software to retailers, manufacturers and wholesalers."
+    },
+    {
+      "field": "unicorn",
+      "url": "https://www.mirakl.com/news/mirakl-announces-555-million-series-e-funding-2",
+      "quote": "The new funding increases the company’s valuation to more than $3.5 billion."
+    },
+    {
+      "field": "valuation",
+      "url": "https://www.mirakl.com/news/mirakl-announces-555-million-series-e-funding-2",
+      "quote": "The new funding increases the company’s valuation to more than $3.5 billion."
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "1a227d42-b384-4d37-ef21-08d91092c887",
+      "stage": "series-d",
+      "month": "2020-09",
+      "amountEur": 255536627,
+      "amountOriginal": 300000000,
+      "currency": "USD",
+      "investors": [
+        "Permira",
+        "83North",
+        "Bain Capital Ventures",
+        "Elaia Partners",
+        "Felix Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.mirakl.com/news/mirakl-raises-300m-to-enable-the-future-of-commerce",
+          "quote": "today announced that it has raised $300 million led by Permira"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.mirakl.com/news/mirakl-announces-555-million-series-e-funding-2",
+          "quote": "its $300 million Series D funding round announced on September 22, 2020"
+        },
+        {
+          "field": "month",
+          "url": "https://www.mirakl.com/news/mirakl-raises-300m-to-enable-the-future-of-commerce",
+          "quote": "September 22, 2020"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.mirakl.com/news/mirakl-raises-300m-to-enable-the-future-of-commerce",
+          "quote": "today announced that it has raised $300 million led by Permira, with participation from long term investors 83North (Laurel Bowden), Bain Capital Ventures (Scott Friend), Elaia Partners (Xavier Lazarus), and Felix Capital (Frederic Court)"
+        }
+      ]
+    },
+    {
+      "techeuId": "f5b4fc7d-8efb-4990-8ca8-cb02ba3f4152",
+      "stage": "series-e",
+      "month": "2021-09",
+      "amountEur": 472823309,
+      "amountOriginal": 555000000,
+      "currency": "USD",
+      "postMoneyValuationEur": 2981768615,
+      "investors": [
+        "Silver Lake",
+        "83North",
+        "Elaia Partners",
+        "Felix Capital",
+        "Permira"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.mirakl.com/news/mirakl-announces-555-million-series-e-funding-2",
+          "quote": "Mirakl Announces $555 Million Series E Funding"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.mirakl.com/news/mirakl-announces-555-million-series-e-funding-2",
+          "quote": "Mirakl Announces $555 Million Series E Funding"
+        },
+        {
+          "field": "month",
+          "url": "https://www.mirakl.com/news/mirakl-announces-555-million-series-e-funding-2",
+          "quote": "PARIS & BOSTON (September 21, 2021)"
+        },
+        {
+          "field": "investors",
+          "url": "https://siliconangle.com/2021/09/21/french-marketplace-software-firm-mirakl-raises-555m-late-stage-funding",
+          "quote": "The Series E round was led by Silver Lake and also saw participation from existing investors 83North, Elaia Partners, Felix Capital and Permira."
+        }
+      ]
+    }
+  ]
+}

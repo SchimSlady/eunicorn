@@ -1,0 +1,123 @@
+{
+  "id": "improbable",
+  "name": "Improbable",
+  "aliases": [],
+  "domain": "improbable.io",
+  "country": "GB",
+  "city": "London",
+  "founded": 2012,
+  "sectors": [
+    "gaming"
+  ],
+  "status": "private",
+  "unicorn": true,
+  "founders": [
+    "Herman Narula",
+    "Rob Whitehead",
+    "Peter Lipka"
+  ],
+  "difficulty": 3,
+  "techeuId": "762534F1-332A-4CA2-AADA-AA3CEA5E9DF5",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://gamedeveloper.com/business/improbable-nets-20m-to-keep-developing-virtual-world-tech",
+      "quote": "London-based startup Improbable"
+    },
+    {
+      "field": "founded",
+      "url": "https://globalventuring.com/university/cambridge-spin-out-holds-improbable-20m-round/",
+      "quote": "Launched in 2012"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Improbable_(company)",
+      "quote": "Co-founders Herman Narula and Rob Whitehead"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Improbable_(company)",
+      "quote": "The third co-founder Peter Lipka"
+    },
+    {
+      "field": "sectors",
+      "url": "https://gamedeveloper.com/business/improbable-nets-20m-to-keep-developing-virtual-world-tech",
+      "quote": "develop better technology for creating and operating virtual worlds"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://globalventuring.com/blog/2017/05/12/softbank-makes-improbable-investment-in-502m-round/",
+      "quote": "valued the company at more than $1bn"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "38534db0-dd84-4e3d-d189-08d91092c887",
+      "stage": "series-a",
+      "month": "2015-03",
+      "amountEur": 18264840,
+      "amountOriginal": 20000000,
+      "currency": "USD",
+      "investors": [
+        "Andreessen Horowitz"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://gamedeveloper.com/business/improbable-nets-20m-to-keep-developing-virtual-world-tech",
+          "quote": "has managed to raise $20 million from investment firm Andreesen Horowitz"
+        },
+        {
+          "field": "stage",
+          "url": "https://globalventuring.com/university/cambridge-spin-out-holds-improbable-20m-round/",
+          "quote": "has raised $20m in series A backing from investment firm Andreessen Horowitz"
+        },
+        {
+          "field": "month",
+          "url": "https://gamedeveloper.com/business/improbable-nets-20m-to-keep-developing-virtual-world-tech",
+          "quote": "March 24, 2015"
+        },
+        {
+          "field": "investors",
+          "url": "https://globalventuring.com/university/cambridge-spin-out-holds-improbable-20m-round/",
+          "quote": "has raised $20m in series A backing from investment firm Andreessen Horowitz"
+        }
+      ]
+    },
+    {
+      "techeuId": "18608125-36ef-455b-d18b-08d91092c887",
+      "stage": "series-b",
+      "month": "2017-05",
+      "amountEur": 462246777,
+      "amountOriginal": 502000000,
+      "currency": "USD",
+      "investors": [
+        "SoftBank",
+        "Andreessen Horowitz",
+        "Horizons Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2017/05/11/improbable-grabs-502m-led-by-softbank-at-a-1b-valuation-for-its-virtual-world-spatial-os",
+          "quote": "has raised $502 million in funding led by SoftBank, with previous investors Andreessen Horowitz and Horizons Ventures also participating."
+        },
+        {
+          "field": "stage",
+          "url": "https://globalventuring.com/blog/2017/05/12/softbank-makes-improbable-investment-in-502m-round/",
+          "quote": "led a $502m series B round"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2017/05/11/improbable-grabs-502m-led-by-softbank-at-a-1b-valuation-for-its-virtual-world-spatial-os",
+          "quote": "May 11, 2017"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2017/05/11/improbable-grabs-502m-led-by-softbank-at-a-1b-valuation-for-its-virtual-world-spatial-os",
+          "quote": "has raised $502 million in funding led by SoftBank, with previous investors Andreessen Horowitz and Horizons Ventures also participating."
+        }
+      ]
+    }
+  ]
+}

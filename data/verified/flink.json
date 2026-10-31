@@ -1,0 +1,93 @@
+{
+  "id": "flink",
+  "name": "Flink",
+  "aliases": [],
+  "domain": "goflink.com",
+  "country": "DE",
+  "city": "Berlin",
+  "founded": 2020,
+  "sectors": [
+    "quick-commerce"
+  ],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 2528164641,
+  "founders": [
+    "Christoph Cordes",
+    "Oliver Merkel",
+    "Julian Dames",
+    "Saad Saeed",
+    "Nikolas Bullwinkel"
+  ],
+  "difficulty": 3,
+  "techeuId": "B93FF549-70ED-4800-A136-901847760160",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/Flink_SE",
+      "quote": "Flink was founded at the end of 2020 in Berlin by Christoph Cordes, Oliver Merkel Julian Dames, Saad Saeed and Nikolas Bullwinkel"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Flink_SE",
+      "quote": "Flink was founded at the end of 2020 in Berlin by Christoph Cordes, Oliver Merkel Julian Dames, Saad Saeed and Nikolas Bullwinkel"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Flink_SE",
+      "quote": "Flink was founded at the end of 2020 in Berlin by Christoph Cordes, Oliver Merkel Julian Dames, Saad Saeed and Nikolas Bullwinkel"
+    },
+    {
+      "field": "sectors",
+      "url": "https://en.wikipedia.org/wiki/Flink_SE",
+      "quote": "Flink SE is a German on-demand delivery service that delivers everyday items directly to consumers"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://techcrunch.com/2021/12/09/flink-the-berlin-based-instant-grocery-startup-is-now-valued-at-2-85b-after-raising-750m-in-a-round-led-by-doordash",
+      "quote": "pre-money valuation of $2.1 billion ($2.85 billion post-money)"
+    },
+    {
+      "field": "valuation",
+      "url": "https://techcrunch.com/2021/12/09/flink-the-berlin-based-instant-grocery-startup-is-now-valued-at-2-85b-after-raising-750m-in-a-round-led-by-doordash",
+      "quote": "pre-money valuation of $2.1 billion ($2.85 billion post-money)"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-b",
+      "month": "2021-12",
+      "amountEur": 665306485,
+      "amountOriginal": 750000000,
+      "currency": "USD",
+      "techeuId": "35c88efa-eb01-4d04-9f29-e23c89b28bb9",
+      "postMoneyValuationEur": 2528164641,
+      "investors": [
+        "DoorDash",
+        "Mubadala Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2021/12/10/flink-brings-in-750-million-at-the-till-now-at-2-1-billion-valuation/",
+          "quote": "German online grocer Flink has raised $750 million in a Series B funding round"
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2021/12/10/flink-brings-in-750-million-at-the-till-now-at-2-1-billion-valuation/",
+          "quote": "German online grocer Flink has raised $750 million in a Series B funding round"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2021/12/10/flink-brings-in-750-million-at-the-till-now-at-2-1-billion-valuation/",
+          "quote": "10 December 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2021/12/10/flink-brings-in-750-million-at-the-till-now-at-2-1-billion-valuation/",
+          "quote": "The whopping $750 million funding round was led by US-based Doordash and existing investor Mubadala Capital"
+        }
+      ]
+    }
+  ]
+}

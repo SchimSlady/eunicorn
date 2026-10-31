@@ -1,0 +1,94 @@
+{
+  "id": "contentsquare",
+  "name": "Contentsquare",
+  "aliases": [],
+  "domain": "contentsquare.com",
+  "country": "FR",
+  "city": "Paris",
+  "founded": 2012,
+  "sectors": [
+    "saas"
+  ],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 2283105023,
+  "founders": [
+    "Jonathan Cherki"
+  ],
+  "difficulty": 4,
+  "techeuId": "09EF5C99-C081-4C2F-849D-C20C358AC76E",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://contentsquare.com/blog/contentsquare-500m-series-e-investment/",
+      "quote": "Founded in Paris in 2012"
+    },
+    {
+      "field": "founded",
+      "url": "https://contentsquare.com/blog/contentsquare-500m-series-e-investment/",
+      "quote": "Founded in Paris in 2012"
+    },
+    {
+      "field": "founders",
+      "url": "https://contentsquare.com/blog/contentsquare-500m-series-e-investment/",
+      "quote": "Jonathan Cherki, CEO and Founder of Contentsquare"
+    },
+    {
+      "field": "sectors",
+      "url": "https://contentsquare.com/blog/contentsquare-500m-series-e-investment/",
+      "quote": "Discover the experience analytics platform"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://contentsquare.com/blog/contentsquare-500m-series-e-investment/",
+      "quote": "valuing Contentsquare at $2.8 Billion"
+    },
+    {
+      "field": "valuation",
+      "url": "https://contentsquare.com/blog/contentsquare-500m-series-e-investment/",
+      "quote": "valuing Contentsquare at $2.8 Billion"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "5b581250-a32d-4c8a-b3ea-0cbcac89e847",
+      "stage": "series-e",
+      "month": "2021-05",
+      "amountEur": 407697326,
+      "amountOriginal": 500000000,
+      "currency": "USD",
+      "postMoneyValuationEur": 2283105023,
+      "investors": [
+        "SoftBank Vision Fund 2",
+        "Eurazeo",
+        "Bpifrance",
+        "KKR",
+        "Canaan",
+        "Highland Europe",
+        "BlackRock"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://contentsquare.com/blog/contentsquare-500m-series-e-investment/",
+          "quote": "Contentsquare Lands $500M Series E Led by SoftBank Vision Fund 2"
+        },
+        {
+          "field": "stage",
+          "url": "https://contentsquare.com/blog/contentsquare-500m-series-e-investment/",
+          "quote": "Contentsquare Lands $500M Series E Led by SoftBank Vision Fund 2"
+        },
+        {
+          "field": "month",
+          "url": "https://contentsquare.com/blog/contentsquare-500m-series-e-investment/",
+          "quote": "May 25, 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://contentsquare.com/blog/contentsquare-500m-series-e-investment/",
+          "quote": "The investment is led by SoftBank Vision Fund 2, which joins existing investors Eurazeo, Bpifrance, KKR, Canaan, Highland Europe, and funds and accounts managed by BlackRock"
+        }
+      ]
+    }
+  ]
+}

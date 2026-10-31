@@ -1,0 +1,238 @@
+{
+  "id": "pigment",
+  "name": "Pigment",
+  "aliases": [],
+  "domain": "gopigment.com",
+  "country": "FR",
+  "city": "Paris",
+  "founded": 2019,
+  "sectors": [
+    "saas"
+  ],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 2047356240,
+  "founders": [
+    "Eléonore Crespo",
+    "Romain Niccoli"
+  ],
+  "difficulty": 3,
+  "techeuId": "01DF2EB1-B2E9-4680-828C-C2F88142F2B4",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.gopigment.com/newsroom/pigment-raises-65m-to-expand-into-us-enterprise-market",
+      "quote": "PARIS - September 29, 2022 - Pigment, the integrated business planning platform"
+    },
+    {
+      "field": "founded",
+      "url": "https://www.gopigment.com/newsroom/pigment-series-b",
+      "quote": "Pigment was founded in 2019 by Eléonore Crespo"
+    },
+    {
+      "field": "founders",
+      "url": "https://www.gopigment.com/newsroom/pigment-series-b",
+      "quote": "Pigment was founded in 2019 by Eléonore Crespo, a former data analyst at Google and investor at preeminent European venture capital firm Index Ventures, and Romain Niccoli"
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.gopigment.com/newsroom/pigment-raises-250m-series-e",
+      "quote": "the AI business planning and performance management platform"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://www.gopigment.com/newsroom/pigment-raises-250m-series-e",
+      "quote": "announced a $250 million Series E funding round at a $2.3 billion valuation"
+    },
+    {
+      "field": "valuation",
+      "url": "https://www.gopigment.com/newsroom/pigment-raises-250m-series-e",
+      "quote": "announced a $250 million Series E funding round at a $2.3 billion valuation"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "55de62ef-325a-4193-b23b-d4b3ca7913b0",
+      "stage": "series-b",
+      "month": "2021-11",
+      "amountEur": 63788885,
+      "amountOriginal": 73000000,
+      "currency": "USD",
+      "investors": [
+        "Greenoaks",
+        "FirstMark Capital",
+        "Blossom Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.gopigment.com/newsroom/pigment-series-b",
+          "quote": "Pigment has announced a $73 million Series B"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.gopigment.com/newsroom/pigment-series-b",
+          "quote": "Pigment has announced a $73 million Series B"
+        },
+        {
+          "field": "month",
+          "url": "https://www.gopigment.com/newsroom/pigment-series-b",
+          "quote": "Nov 15, 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.gopigment.com/newsroom/pigment-series-b",
+          "quote": "The investment was led by US heavyweight Greenoaks with Series A investors participating, including New York-based FirstMark Capital and Blossom Capital."
+        }
+      ]
+    },
+    {
+      "techeuId": "4955e442-b68a-4e36-9c93-d6ec5d09756d",
+      "stage": "series-b",
+      "month": "2022-09",
+      "amountEur": 66968885,
+      "amountOriginal": 65000000,
+      "currency": "USD",
+      "investors": [
+        "IVP",
+        "Meritech Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.gopigment.com/newsroom/pigment-raises-65m-to-expand-into-us-enterprise-market",
+          "quote": "announces $65 million in Series B+ funding"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.gopigment.com/newsroom/pigment-raises-65m-to-expand-into-us-enterprise-market",
+          "quote": "announces $65 million in Series B+ funding"
+        },
+        {
+          "field": "month",
+          "url": "https://www.gopigment.com/newsroom/pigment-raises-65m-to-expand-into-us-enterprise-market",
+          "quote": "September 29, 2022"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.gopigment.com/newsroom/pigment-raises-65m-to-expand-into-us-enterprise-market",
+          "quote": "IVP and Meritech Capital led the round of this latest funding"
+        }
+      ]
+    },
+    {
+      "techeuId": "437e0a5d-b2e8-46a9-8334-8554d50acd29",
+      "stage": "series-c",
+      "month": "2023-06",
+      "amountEur": 81959579,
+      "amountOriginal": 88000000,
+      "currency": "USD",
+      "investors": [
+        "ICONIQ Growth",
+        "Felix Capital",
+        "Meritech Capital",
+        "IVP",
+        "FirstMark Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.gopigment.com/newsroom/pigment-announces-88m-series-c",
+          "quote": "today announced an $88 million Series C funding round led by ICONIQ Growth"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.gopigment.com/newsroom/pigment-announces-88m-series-c",
+          "quote": "today announced an $88 million Series C funding round led by ICONIQ Growth"
+        },
+        {
+          "field": "month",
+          "url": "https://www.gopigment.com/newsroom/pigment-announces-88m-series-c",
+          "quote": "June 8, 2023"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.gopigment.com/newsroom/pigment-announces-88m-series-c",
+          "quote": "Felix Capital, as well as previous investors Meritech, IVP and FirstMark have also joined the round."
+        }
+      ]
+    },
+    {
+      "techeuId": "6b526b4c-dd01-4d62-964b-a72a5c7316e3",
+      "stage": "series-d",
+      "month": "2024-04",
+      "amountEur": 133615923,
+      "amountOriginal": 145000000,
+      "currency": "USD",
+      "investors": [
+        "ICONIQ Growth",
+        "Sandberg Bernthal Venture Partners",
+        "IVP",
+        "Meritech Capital",
+        "Greenoaks",
+        "Felix Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.gopigment.com/newsroom/pigment-announces-145m-series-d",
+          "quote": "Pigment announces $145 million series D led by ICONIQ Growth"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.gopigment.com/newsroom/pigment-announces-145m-series-d",
+          "quote": "Pigment announces $145 million series D led by ICONIQ Growth"
+        },
+        {
+          "field": "month",
+          "url": "https://www.gopigment.com/newsroom/pigment-announces-145m-series-d",
+          "quote": "Apr 4, 2024"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.gopigment.com/newsroom/pigment-announces-145m-series-d",
+          "quote": "Sandberg Bernthal Venture Partners as well as several other existing investors including IVP, Meritech, Greenoaks and Felix Capital have also participated in the round"
+        }
+      ]
+    },
+    {
+      "techeuId": "d3f69344-100b-4741-9073-e5420b132dbb",
+      "stage": "series-e",
+      "month": "2026-10",
+      "amountEur": 222538722,
+      "amountOriginal": 250000000,
+      "currency": "USD",
+      "postMoneyValuationEur": 2047356240,
+      "investors": [
+        "Scaleup Europe Fund",
+        "World Innovation Lab",
+        "Greenoaks",
+        "ICONIQ",
+        "IVP",
+        "Meritech Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.gopigment.com/newsroom/pigment-raises-250m-series-e",
+          "quote": "announced a $250 million Series E funding round at a $2.3 billion valuation"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.gopigment.com/newsroom/pigment-raises-250m-series-e",
+          "quote": "announced a $250 million Series E funding round at a $2.3 billion valuation"
+        },
+        {
+          "field": "month",
+          "url": "https://www.gopigment.com/newsroom/pigment-raises-250m-series-e",
+          "quote": "Oct 21, 2026"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.gopigment.com/newsroom/pigment-raises-250m-series-e",
+          "quote": "The round was led by Scaleup Europe Fund , managed by EQT , with participation from WIL (World Innovation Lab), existing investors including Greenoaks, ICONIQ , IVP , and Meritech"
+        }
+      ]
+    }
+  ]
+}

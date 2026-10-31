@@ -1,0 +1,146 @@
+{
+  "id": "zopa",
+  "name": "Zopa",
+  "aliases": [
+    "Zopa Bank"
+  ],
+  "domain": "zopa.com",
+  "country": "GB",
+  "city": "London",
+  "founded": 2005,
+  "sectors": [
+    "fintech"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Richard Duvall",
+    "James Alexander",
+    "Giles Andrews",
+    "David Nicholson",
+    "Tim Parlett"
+  ],
+  "difficulty": 3,
+  "techeuId": "432FF4A9-4636-48DA-9294-8537B7136E92",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://zopa.com",
+      "quote": "Zopa Bank, Level 12, 20 Water Street, Canary Wharf, London E14 5GX."
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Zopa",
+      "quote": "Founded March 2005"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Zopa",
+      "quote": "Founders Richard Duvall James Alexander Giles Andrews David Nicholson Tim Parlett"
+    },
+    {
+      "field": "sectors",
+      "url": "https://techcrunch.com/2021/10/18/zopa-raises-300m-at-a-1b-valuation-to-expand-its-p2p-lending-and-savings-neobank-in-the-uk/",
+      "quote": "a neobank with some 500,000 users"
+    },
+    {
+      "field": "status",
+      "url": "https://techcrunch.com/2021/10/18/zopa-raises-300m-at-a-1b-valuation-to-expand-its-p2p-lending-and-savings-neobank-in-the-uk/",
+      "quote": "Zopa describes this as a “pre-IPO” round"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "2d6ff612-6330-4919-a4d7-1617d5479e8d",
+      "stage": "series-e",
+      "month": "2021-10",
+      "amountEur": 258531541,
+      "amountOriginal": 300000000,
+      "currency": "USD",
+      "postMoneyValuationEur": 888225680,
+      "investors": [
+        "SoftBank Vision Fund 2",
+        "Chimera Capital",
+        "IAG Silverstripe",
+        "Davidson Kempner Capital Management LP",
+        "Northzone",
+        "Augmentum Fintech"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2021/10/18/zopa-raises-300m-at-a-1b-valuation-to-expand-its-p2p-lending-and-savings-neobank-in-the-uk/",
+          "quote": "has raised $300 million, at a valuation that we’ve confirmed to be $1 billion (£750 million) post-money"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2021/10/18/zopa-raises-300m-at-a-1b-valuation-to-expand-its-p2p-lending-and-savings-neobank-in-the-uk/",
+          "quote": "October 18, 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2021/10/18/zopa-raises-300m-at-a-1b-valuation-to-expand-its-p2p-lending-and-savings-neobank-in-the-uk/",
+          "quote": "Softbank Vision Fund 2 led the round with participation also from Chimera Capital, with existing investors IAG Silverstripe, Davidson Kempner Capital Management LP, NorthZone and Augmentum Fintech all also participating."
+        }
+      ]
+    },
+    {
+      "techeuId": "59ea22ab-bceb-45ee-895d-4f66c871682f",
+      "stage": "series-f+",
+      "month": "2023-02",
+      "amountEur": 84829154,
+      "amountOriginal": 75000000,
+      "currency": "GBP",
+      "investors": [
+        "IAG Silverstripe",
+        "Augmentum Fintech",
+        "Davidson Kempner Capital Management LP"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2023/02/01/zopa-the-uk-neobank-raises-93m-more-at-a-1b-valuation/",
+          "quote": "has raised £75 million (around $93 million), an all-equity investment"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2023/02/01/zopa-the-uk-neobank-raises-93m-more-at-a-1b-valuation/",
+          "quote": "February 1, 2023"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2023/02/01/zopa-the-uk-neobank-raises-93m-more-at-a-1b-valuation/",
+          "quote": "led by IAG Silverstripe, it also included Augmentum and Davidson Kempner Capital Management LP"
+        }
+      ]
+    },
+    {
+      "techeuId": "f86c499b-1da9-442a-8640-d442b66ced9e",
+      "stage": "series-f+",
+      "month": "2024-12",
+      "amountEur": 82000000,
+      "amountOriginal": 82000000,
+      "currency": "EUR",
+      "investors": [
+        "A.P. Moller Holding"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2024/12/05/zopa-the-uk-neobank-snaps-up-85m-at-a-1b-valuation-eschewing-the-ipo-route/",
+          "quote": "has raised €82 million ($86.8 million based on current exchange rates) in equity funding"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2024/12/05/zopa-the-uk-neobank-snaps-up-85m-at-a-1b-valuation-eschewing-the-ipo-route/",
+          "quote": "December 5, 2024"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2024/12/05/zopa-the-uk-neobank-snaps-up-85m-at-a-1b-valuation-eschewing-the-ipo-route/",
+          "quote": "The lead investor in this round is an interesting one: it’s A.P. Moller Holding"
+        }
+      ]
+    }
+  ]
+}

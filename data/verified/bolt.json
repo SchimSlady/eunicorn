@@ -1,0 +1,135 @@
+{
+  "id": "bolt",
+  "name": "Bolt",
+  "aliases": [
+    "Taxify"
+  ],
+  "domain": "bolt.eu",
+  "country": "EE",
+  "city": "Tallinn",
+  "founded": 2013,
+  "sectors": [
+    "mobility"
+  ],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 7400000000,
+  "founders": [
+    "Markus Villig"
+  ],
+  "difficulty": 2,
+  "techeuId": "772A91D6-FFF7-4BC4-90AD-E6246E03B547",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/Bolt_(company)",
+      "quote": "The company is headquartered in Tallinn"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Bolt_(company)",
+      "quote": "The company was founded in 2013 as Taxify by Markus Villig"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Bolt_(company)",
+      "quote": "The company was founded in 2013 as Taxify by Markus Villig"
+    },
+    {
+      "field": "sectors",
+      "url": "https://siliconrepublic.com/?p=937661",
+      "quote": "the Estonian mobility company says it plans to push into the grocery delivery market"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://www.rte.ie/news/business/2022/0111/1272952-bolt-raises-628m-at-valuation-of-over-7-4-billion",
+      "quote": "taking its valuation to €7.4 billion"
+    },
+    {
+      "field": "valuation",
+      "url": "https://www.rte.ie/news/business/2022/0111/1272952-bolt-raises-628m-at-valuation-of-over-7-4-billion",
+      "quote": "taking its valuation to €7.4 billion"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "46a620f3-8ac8-4e47-b4a7-e00b5ab22033",
+      "stage": "series-e",
+      "month": "2021-08",
+      "amountEur": 600000000,
+      "amountOriginal": 600000000,
+      "currency": "EUR",
+      "investors": [
+        "Sequoia Capital",
+        "Tekne Capital",
+        "Ghisallo",
+        "G Squared",
+        "D1 Capital Partners",
+        "Naya Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://siliconrepublic.com/?p=937661",
+          "quote": "Bolt raises €600m in round led by Sequoia Capital"
+        },
+        {
+          "field": "month",
+          "url": "https://siliconrepublic.com/?p=937661",
+          "quote": "3 Aug 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://siliconrepublic.com/?p=937661",
+          "quote": "Bolt raises €600m in round led by Sequoia Capital"
+        },
+        {
+          "field": "investors",
+          "url": "https://siliconrepublic.com/?p=937661",
+          "quote": "Other new investors that participated in the round included Tekne and Ghisallo, while G Squared, D1 Capital and Naya all returned to increase their investments."
+        }
+      ]
+    },
+    {
+      "techeuId": "7e18cd03-0fca-4643-bf67-8ccc314c9ffb",
+      "stage": "series-f+",
+      "month": "2022-01",
+      "amountEur": 628000000,
+      "amountOriginal": 628000000,
+      "currency": "EUR",
+      "postMoneyValuationEur": 7400000000,
+      "investors": [
+        "Sequoia Capital",
+        "Fidelity Management and Research Company",
+        "Whale Rock Capital",
+        "Owl Rock",
+        "D1 Capital Partners",
+        "G Squared",
+        "Tekne Capital",
+        "Ghisallo"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.rte.ie/news/business/2022/0111/1272952-bolt-raises-628m-at-valuation-of-over-7-4-billion",
+          "quote": "Estonian startup Bolt said today it had raised €628m from investors led by Sequoia Capital and Fidelity Management and Research"
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/brief/bolt-kicks-off-the-new-year-with-jaw-dropping-e628-million-raise-at-e7-4-billion-valuation/",
+          "quote": "Tallinn-based Bolt has raised €628 million in a Series F funding round."
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/brief/bolt-kicks-off-the-new-year-with-jaw-dropping-e628-million-raise-at-e7-4-billion-valuation/",
+          "quote": "11 January 2022"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/brief/bolt-kicks-off-the-new-year-with-jaw-dropping-e628-million-raise-at-e7-4-billion-valuation/",
+          "quote": "Bolt’s latest funding round was led by ​​ Sequoia Capital and Fidelity Management and Research with participation from Whale Rock , Owl Rock (a division of Blue Owl ), D1 , G Squared , Tekne , Ghisallo, and others."
+        }
+      ]
+    }
+  ]
+}

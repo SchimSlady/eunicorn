@@ -1,0 +1,108 @@
+{
+  "id": "climeworks",
+  "name": "Climeworks",
+  "aliases": [],
+  "domain": "climeworks.com",
+  "country": "CH",
+  "city": "Zurich",
+  "founded": 2009,
+  "sectors": [
+    "climate"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Jan Wurzbacher",
+    "Christoph Gebald"
+  ],
+  "difficulty": 3,
+  "techeuId": "CC721983-0768-4A4D-A202-F648627230CA",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/Climeworks",
+      "quote": "Manufacturing companies based in Zurich"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Climeworks",
+      "quote": "Climeworks was founded in 2009 by the mechanical engineers Jan Wurzbacher and Christoph Gebald"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Climeworks",
+      "quote": "Climeworks was founded in 2009 by the mechanical engineers Jan Wurzbacher and Christoph Gebald"
+    },
+    {
+      "field": "sectors",
+      "url": "https://esgpost.com/climeworks-secures-162-million-in-largest-carbon-removal-investment-of-2025/",
+      "quote": "Climeworks, a Swiss-based pioneer in direct air capture (DAC) technology"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "6ffe0e4e-1020-4e03-9172-2f2e27822754",
+      "stage": "series-e",
+      "month": "2022-04",
+      "amountEur": 591657627,
+      "amountOriginal": 600000000,
+      "currency": "CHF",
+      "investors": [
+        "Partners Group",
+        "GIC",
+        "Swiss Re"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://globalventuring.com/corporate/climeworks-clasps-646m/",
+          "quote": "agreed to raise CHF600m ($646m) of equity funding from investors including reinsurance firm Swiss Re"
+        },
+        {
+          "field": "month",
+          "url": "https://globalventuring.com/corporate/climeworks-clasps-646m/",
+          "quote": "Apr 6, 2022"
+        },
+        {
+          "field": "investors",
+          "url": "https://coverager.com/climeworks-raises-650-million/",
+          "quote": "raised $650 million co-led by Partners Group and GIC"
+        },
+        {
+          "field": "investors",
+          "url": "https://globalventuring.com/corporate/climeworks-clasps-646m/",
+          "quote": "agreed to raise CHF600m ($646m) of equity funding from investors including reinsurance firm Swiss Re"
+        }
+      ]
+    },
+    {
+      "techeuId": "0e90d218-7070-43e2-a3c5-d5c917e3ed9e",
+      "stage": "series-f+",
+      "month": "2025-07",
+      "amountEur": 137813696,
+      "amountOriginal": 162000000,
+      "currency": "USD",
+      "investors": [
+        "BigPoint Holding",
+        "Partners Group"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://esgpost.com/climeworks-secures-162-million-in-largest-carbon-removal-investment-of-2025/",
+          "quote": "has raised $162 million in additional equity funding"
+        },
+        {
+          "field": "month",
+          "url": "https://esgpost.com/climeworks-secures-162-million-in-largest-carbon-removal-investment-of-2025/",
+          "quote": "02 July 2025"
+        },
+        {
+          "field": "investors",
+          "url": "https://esgpost.com/climeworks-secures-162-million-in-largest-carbon-removal-investment-of-2025/",
+          "quote": "The financing round was led by BigPoint Holding and Partners Group"
+        }
+      ]
+    }
+  ]
+}

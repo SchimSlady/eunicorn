@@ -1,0 +1,82 @@
+{
+  "id": "sunfire",
+  "name": "Sunfire",
+  "aliases": [],
+  "domain": "sunfire.de",
+  "country": "DE",
+  "city": "Dresden",
+  "founded": 2010,
+  "sectors": [
+    "climate"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [],
+  "difficulty": 4,
+  "techeuId": "7C7AFE2F-34DE-4EFA-82D6-95E6FE9362EC",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://sunfire.de/en/news/sunfire-secures-more-than-eur-500-million-to-accelerate-its-growth/",
+      "quote": "Dresden, March 5, 2024 | Sunfire announces"
+    },
+    {
+      "field": "founded",
+      "url": "https://sunfire.de/en/about-us",
+      "quote": "2010 Founding of Sunfire"
+    },
+    {
+      "field": "sectors",
+      "url": "https://sunfire.de/en/news/sunfire-secures-more-than-eur-500-million-to-accelerate-its-growth/",
+      "quote": "Sunfire is a global leader in the manufacture of industrial electrolysers"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "d687ba92-7b30-4d7e-88ef-e43f73c811b0",
+      "stage": "series-e",
+      "month": "2024-03",
+      "amountEur": 215000000,
+      "amountOriginal": 215000000,
+      "currency": "EUR",
+      "investors": [
+        "LGT Private Banking",
+        "GIC",
+        "Ahren Innovation Capital",
+        "Carbon Equity",
+        "Lightrock",
+        "Planet First Partners",
+        "Carbon Direct Capital",
+        "Amazon Climate Pledge Fund",
+        "Blue Earth Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://sunfire.de/en/news/sunfire-secures-more-than-eur-500-million-to-accelerate-its-growth/",
+          "quote": "raising EUR 215 million in equity capital"
+        },
+        {
+          "field": "stage",
+          "url": "https://sunfire.de/en/news/sunfire-secures-more-than-eur-500-million-to-accelerate-its-growth/",
+          "quote": "successful completion of a substantial Series E financing round"
+        },
+        {
+          "field": "month",
+          "url": "https://sunfire.de/en/news/sunfire-secures-more-than-eur-500-million-to-accelerate-its-growth/",
+          "quote": "Dresden, March 5, 2024"
+        },
+        {
+          "field": "investors",
+          "url": "https://sunfire.de/en/news/sunfire-secures-more-than-eur-500-million-to-accelerate-its-growth/",
+          "quote": "Sunfire welcomes LGT Private Banking, GIC, Ahren Innovation Capital, and Carbon Equity as new investors"
+        },
+        {
+          "field": "investors",
+          "url": "https://sunfire.de/en/news/sunfire-secures-more-than-eur-500-million-to-accelerate-its-growth/",
+          "quote": "existing shareholders have increased their investment in Sunfire – among them Lightrock, Planet First Partners, Carbon Direct Capital, the Amazon Climate Pledge Fund, and Blue E"
+        }
+      ]
+    }
+  ]
+}

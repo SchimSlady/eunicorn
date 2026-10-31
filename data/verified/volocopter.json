@@ -1,0 +1,180 @@
+{
+  "id": "volocopter",
+  "name": "Volocopter",
+  "aliases": [],
+  "domain": "volocopter.com",
+  "country": "DE",
+  "city": "Bruchsal",
+  "founded": 2011,
+  "sectors": [
+    "mobility"
+  ],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 1555494556,
+  "founders": [
+    "Alexander Zosel",
+    "Stephan Wolf"
+  ],
+  "difficulty": 3,
+  "funFact": "Volocopter filed for insolvency on 30 December 2024 after raising rounds at a pre-money valuation of $1.7 billion.",
+  "techeuId": "1C10D232-D509-41E2-A1CB-DB98AFB49FC1",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/Volocopter",
+      "quote": "is a German aircraft manufacturer based in Bruchsal (near Karlsruhe )"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Volocopter",
+      "quote": "Founded 2011"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Volocopter",
+      "quote": "founded by Alexander Zosel and Stephan Wolf"
+    },
+    {
+      "field": "sectors",
+      "url": "https://en.wikipedia.org/wiki/Volocopter",
+      "quote": "Industry Aerospace , Advanced Air Mobility"
+    },
+    {
+      "field": "sectors",
+      "url": "https://en.wikipedia.org/wiki/Volocopter",
+      "quote": "designed for air taxi use"
+    },
+    {
+      "field": "status",
+      "url": "https://en.wikipedia.org/wiki/Volocopter",
+      "quote": "On 30 December 2024, Volocopter filed for insolvency"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://kyodonewsprwire.jp/release/202203048245",
+      "quote": "at a pre-money valuation of USD 1.7 billion"
+    },
+    {
+      "field": "valuation",
+      "url": "https://kyodonewsprwire.jp/release/202203048245",
+      "quote": "at a pre-money valuation of USD 1.7 billion"
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://en.wikipedia.org/wiki/Volocopter",
+      "quote": "On 30 December 2024, Volocopter filed for insolvency"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "7ef0c3ea-dda5-4f9d-fd47-08d91092c887",
+      "stage": "series-c",
+      "month": "2019-09",
+      "amountEur": 49850449,
+      "amountOriginal": 55000000,
+      "currency": "USD",
+      "investors": [
+        "Geely"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://en.wikipedia.org/wiki/Volocopter",
+          "quote": "led a round of funding that raised $55 million in private investments for Volocopter"
+        },
+        {
+          "field": "month",
+          "url": "https://en.wikipedia.org/wiki/Volocopter",
+          "quote": "On 9 September 2019"
+        },
+        {
+          "field": "investors",
+          "url": "https://en.wikipedia.org/wiki/Volocopter",
+          "quote": "On 9 September 2019, Geely"
+        }
+      ]
+    },
+    {
+      "techeuId": "3026ef16-306d-48c5-926a-d8bb4247fa4b",
+      "stage": "series-e",
+      "month": "2022-03",
+      "amountEur": 155549456,
+      "amountOriginal": 170000000,
+      "currency": "USD",
+      "investors": [
+        "WP Investment",
+        "Honeywell",
+        "Atlantia",
+        "Whysol",
+        "btov Partners"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://kyodonewsprwire.jp/release/202203048245",
+          "quote": "has raised USD 170 million in the initial signing of its Series E funding round"
+        },
+        {
+          "field": "stage",
+          "url": "https://kyodonewsprwire.jp/release/202203048245",
+          "quote": "initial signing of its Series E funding round"
+        },
+        {
+          "field": "month",
+          "url": "https://kyodonewsprwire.jp/release/202203048245",
+          "quote": "BRUCHSAL, Germany, March 4, 2022"
+        },
+        {
+          "field": "investors",
+          "url": "https://kyodonewsprwire.jp/release/202203048245",
+          "quote": "led by South Korean investor WP Investment"
+        },
+        {
+          "field": "investors",
+          "url": "https://kyodonewsprwire.jp/release/202203048245",
+          "quote": "New investors in Volocopter include WP Investment and Honeywell, amongst others."
+        },
+        {
+          "field": "investors",
+          "url": "https://kyodonewsprwire.jp/release/202203048245",
+          "quote": "Many existing investors including Atlantia, Whysol, and btov Partners, have also reinvested in this round."
+        }
+      ]
+    },
+    {
+      "techeuId": "aec3b411-8873-4a0f-98e0-bd3c0500136e",
+      "stage": "series-e",
+      "month": "2022-11",
+      "amountEur": 182969740,
+      "amountOriginal": 182000000,
+      "currency": "USD",
+      "investors": [
+        "NEOM",
+        "GLy Capital Management"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://kyodonewsprwire.jp/index.php/release/202211019117",
+          "quote": "has raised an additional USD 182 million in the second signing of its Series E funding round"
+        },
+        {
+          "field": "stage",
+          "url": "https://kyodonewsprwire.jp/index.php/release/202211019117",
+          "quote": "second signing of its Series E funding round"
+        },
+        {
+          "field": "month",
+          "url": "https://kyodonewsprwire.jp/index.php/release/202211019117",
+          "quote": "BRUCHSAL, Germany, Nov. 1, 2022"
+        },
+        {
+          "field": "investors",
+          "url": "https://kyodonewsprwire.jp/index.php/release/202211019117",
+          "quote": "NEOM – the Red Sea's smart, cognitive region project – and GLy Capital Management of Hong Kong have joined Volocopter's diverse investor base."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "id": "messagebird",
+  "name": "MessageBird",
+  "aliases": [
+    "Bird"
+  ],
+  "domain": "messagebird.com",
+  "country": "NL",
+  "city": "Amsterdam",
+  "founded": 2011,
+  "sectors": [
+    "saas"
+  ],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 3148301574,
+  "founders": [],
+  "difficulty": 3,
+  "techeuId": "DE34BA9F-8C55-4B9D-8616-4981EF5AA7BA",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.telecomtv.com/content/digital-platforms-services/messagebird-is-worth-3-billion-who-knew-39878/",
+      "quote": "founded in a garage in Amsterdam back in 2011"
+    },
+    {
+      "field": "founded",
+      "url": "https://www.telecomtv.com/content/digital-platforms-services/messagebird-is-worth-3-billion-who-knew-39878/",
+      "quote": "founded in a garage in Amsterdam back in 2011"
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.telecomtv.com/content/digital-platforms-services/messagebird-is-worth-3-billion-who-knew-39878/",
+      "quote": "Cloud messaging platform"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://www.cnbc.com/2021/04/28/messagebird-acquires-us-email-startup-sparkpost-to-take-on-twilio.html",
+      "quote": "gives the company a valuation of $3.8 billion."
+    },
+    {
+      "field": "valuation",
+      "url": "https://www.cnbc.com/2021/04/28/messagebird-acquires-us-email-startup-sparkpost-to-take-on-twilio.html",
+      "quote": "gives the company a valuation of $3.8 billion."
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "0385fe25-047f-4197-efa7-08d91092c887",
+      "stage": "series-c",
+      "month": "2020-10",
+      "amountEur": 169563374,
+      "amountOriginal": 200000000,
+      "currency": "USD",
+      "investors": [
+        "Spark Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.telecomtv.com/content/digital-platforms-services/messagebird-is-worth-3-billion-who-knew-39878/",
+          "quote": "MessageBird has raised US$200 million in a new funding round led by US venture capital firm Spark Capital"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.telecomtv.com/content/digital-platforms-services/messagebird-is-worth-3-billion-who-knew-39878/",
+          "quote": "have all shared details of the Series C funding round"
+        },
+        {
+          "field": "month",
+          "url": "https://www.telecomtv.com/content/digital-platforms-services/messagebird-is-worth-3-billion-who-knew-39878/",
+          "quote": "Oct 9, 2020"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.telecomtv.com/content/digital-platforms-services/messagebird-is-worth-3-billion-who-knew-39878/",
+          "quote": "led by US venture capital firm Spark Capital"
+        }
+      ]
+    },
+    {
+      "techeuId": "d99b0a93-8c08-4b96-843a-4b66c229bd8f",
+      "stage": "series-c",
+      "month": "2021-04",
+      "amountEur": 579950290,
+      "amountOriginal": 700000000,
+      "currency": "USD",
+      "postMoneyValuationEur": 3148301574,
+      "investors": [
+        "Eurazeo",
+        "Tiger Global",
+        "BlackRock",
+        "Owl Rock",
+        "Atomico",
+        "Accel",
+        "Spark Capital",
+        "Y Combinator"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.cnbc.com/2021/04/28/messagebird-acquires-us-email-startup-sparkpost-to-take-on-twilio.html",
+          "quote": "The deal, led by Eurazeo, comprised $700 million in fresh equity and $300 million in debt."
+        },
+        {
+          "field": "stage",
+          "url": "https://www.cnbc.com/2021/04/28/messagebird-acquires-us-email-startup-sparkpost-to-take-on-twilio.html",
+          "quote": "says it raised a total of $1 billion in a Series C funding round"
+        },
+        {
+          "field": "month",
+          "url": "https://www.cnbc.com/2021/04/28/messagebird-acquires-us-email-startup-sparkpost-to-take-on-twilio.html",
+          "quote": "Published Wed, Apr 28 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2021/04/28/amsterdams-messagebird-extends-series-c-round-raises-1-billion-snaps-up-us-based-sparkpost-for-600-million/",
+          "quote": "The transaction was financed by Eurazeo , Tiger Global , BlackRock , and Owl Rock . Existing investors including Atomico , Accel , Spark Capital , and Y Combinator all participated."
+        }
+      ]
+    }
+  ]
+}

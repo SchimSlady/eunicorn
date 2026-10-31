@@ -1,0 +1,147 @@
+{
+  "id": "gorillas",
+  "name": "Gorillas",
+  "aliases": [],
+  "domain": "gorillas.io",
+  "country": "DE",
+  "city": "Berlin",
+  "founded": 2020,
+  "sectors": [
+    "quick-commerce"
+  ],
+  "status": "acquired",
+  "unicorn": true,
+  "lastValuationEur": 2659802660,
+  "founders": [
+    "Kağan Sümer",
+    "Jörg Kattner",
+    "Jeff Hester",
+    "Ronny Shibley"
+  ],
+  "difficulty": 2,
+  "techeuId": "EAD35C22-A5C7-4C3D-86D7-7E30484028C7",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/Gorillas_(company)",
+      "quote": "Headquarters Berlin , Germany"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Gorillas_(company)",
+      "quote": "The company was founded in May 2020 by Kağan Sümer, Jörg Kattner, Jeff Hester, and Ronny Shibley in Berlin."
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Gorillas_(company)",
+      "quote": "The company was founded in May 2020 by Kağan Sümer, Jörg Kattner, Jeff Hester, and Ronny Shibley in Berlin."
+    },
+    {
+      "field": "sectors",
+      "url": "https://en.wikipedia.org/wiki/Gorillas_(company)",
+      "quote": "Gorillas was a German ultrafast grocery delivery company"
+    },
+    {
+      "field": "status",
+      "url": "https://en.wikipedia.org/wiki/Gorillas_(company)",
+      "quote": "In December 2022, the company was acquired by Getir"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://globalventuring.com/corporate/gorillas-roars-to-1bn-series-c/",
+      "quote": "valuing it at $3.1bn post-money"
+    },
+    {
+      "field": "valuation",
+      "url": "https://globalventuring.com/corporate/gorillas-roars-to-1bn-series-c/",
+      "quote": "valuing it at $3.1bn post-money"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-b",
+      "month": "2021-03",
+      "amountEur": 245721064,
+      "amountOriginal": 290000000,
+      "currency": "USD",
+      "techeuId": "515a6c3f-2681-4718-f8d2-08d91092c887",
+      "investors": [
+        "Coatue Management",
+        "DST Global",
+        "Tencent",
+        "Greenoaks",
+        "Fifth Wall",
+        "Dragoneer",
+        "Atlantic Food Labs"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2021/03/25/gorillacorn",
+          "quote": "has raised $290 million in Series B funding, at a valuation that surpasses $1 billion."
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2021/03/25/gorillacorn",
+          "quote": "has raised $290 million in Series B funding"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2021/03/25/gorillacorn",
+          "quote": "March 25, 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2021/03/25/gorillacorn",
+          "quote": "is led by Coatue Management, DST Global and Tencent, with participation from Green Oaks, Fifth Wall and Dragoneer. Previous backer Atlantic Food Labs also followed on."
+        }
+      ]
+    },
+    {
+      "stage": "series-c",
+      "month": "2021-10",
+      "amountEur": 858000858,
+      "amountOriginal": 1000000000,
+      "currency": "USD",
+      "techeuId": "3c9ca4e8-ffe8-48a2-b5fa-f9499c8cbfc5",
+      "postMoneyValuationEur": 2659802660,
+      "investors": [
+        "Delivery Hero",
+        "Tencent",
+        "Coatue Management",
+        "DST Global",
+        "Dragoneer",
+        "Atlantic Food Labs",
+        "Greenoaks",
+        "Fifth Wall"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://globalventuring.com/corporate/gorillas-roars-to-1bn-series-c/",
+          "quote": "to lead a series C round for Germany-based on-demand grocery shopping platform Gorillas sized at almost $1bn"
+        },
+        {
+          "field": "stage",
+          "url": "https://globalventuring.com/corporate/gorillas-roars-to-1bn-series-c/",
+          "quote": "to lead a series C round for Germany-based on-demand grocery shopping platform Gorillas sized at almost $1bn"
+        },
+        {
+          "field": "month",
+          "url": "https://globalventuring.com/corporate/gorillas-roars-to-1bn-series-c/",
+          "quote": "Oct 19, 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://globalventuring.com/corporate/gorillas-roars-to-1bn-series-c/",
+          "quote": "Delivery Hero acquired an 8% stake in Gorillas through the round, which included internet technology group Tencent as well as investors including Coatue Management, DST Global and Dragoneer"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.grocerygazette.co.uk/2021/10/21/gorillas-raises-almost-1-billion-in-series-c-funding",
+          "quote": "additional contributions from Atlantic Food Labs, Greenoaks, Tencent, Fifth Wall, Coatue Management, DST Global"
+        }
+      ]
+    }
+  ]
+}

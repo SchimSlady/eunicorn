@@ -1,0 +1,78 @@
+{
+  "id": "tier-mobility",
+  "name": "Tier Mobility",
+  "aliases": [
+    "TIER",
+    "Dott"
+  ],
+  "domain": "ridedott.com",
+  "country": "DE",
+  "city": "Berlin",
+  "founded": 2018,
+  "sectors": [
+    "mobility"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Lawrence Leuschner",
+    "Matthias Laug",
+    "Julian Blessin"
+  ],
+  "difficulty": 2,
+  "techeuId": "F5135DB9-1B4B-46B0-9FE1-EAC8FEA2C144",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://ridedott.com/press-release/tier-dott-micromobility/",
+      "quote": "Founded in 2018 by Lawrence Leuschner, Matthias Laug and Julian Blessin, TIER is headquartered in Berlin"
+    },
+    {
+      "field": "founded",
+      "url": "https://ridedott.com/press-release/tier-dott-micromobility/",
+      "quote": "Founded in 2018 by Lawrence Leuschner, Matthias Laug and Julian Blessin, TIER is headquartered in Berlin"
+    },
+    {
+      "field": "founders",
+      "url": "https://ridedott.com/press-release/tier-dott-micromobility/",
+      "quote": "Founded in 2018 by Lawrence Leuschner, Matthias Laug and Julian Blessin"
+    },
+    {
+      "field": "sectors",
+      "url": "https://ridedott.com/press-release/tier-dott-micromobility/",
+      "quote": "form Europe’s leading micro-mobility operator"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "170e1bb1-c267-4dd4-f173-08d91092c887",
+      "stage": "series-a",
+      "month": "2018-10",
+      "amountEur": 25000000,
+      "amountOriginal": 25000000,
+      "currency": "EUR",
+      "investors": [
+        "Northzone",
+        "Speedinvest",
+        "Point Nine Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.manager-magazin.de/digitales/it/e-scooter-in-deutschland-start-up-tier-mobility-bekommt-millionen-a-1234662.html",
+          "quote": "Investoren pumpen 25 Millionen Euro in das Berliner Start-up Tier Mobility."
+        },
+        {
+          "field": "month",
+          "url": "https://www.manager-magazin.de/digitales/it/e-scooter-in-deutschland-start-up-tier-mobility-bekommt-millionen-a-1234662.html",
+          "quote": "23.10.2018"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.manager-magazin.de/digitales/it/e-scooter-in-deutschland-start-up-tier-mobility-bekommt-millionen-a-1234662.html",
+          "quote": "Investiert haben die Wagniskapitalgeber Northzone aus Schweden, Speedinvest aus Österreich und Point Nine aus Berlin."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "id": "lilium",
+  "name": "Lilium",
+  "aliases": [
+    "Lilium GmbH",
+    "Lilium N.V."
+  ],
+  "domain": "lilium.com",
+  "country": "DE",
+  "city": "Weßling",
+  "founded": 2015,
+  "sectors": [
+    "mobility"
+  ],
+  "status": "defunct",
+  "unicorn": false,
+  "founders": [
+    "Daniel Wiegand",
+    "Sebastian Born",
+    "Matthias Meiner",
+    "Patrick Nathen"
+  ],
+  "difficulty": 3,
+  "techeuId": "EDD8A205-6528-47FB-9DFF-B13E6C1A4E50",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/Lilium_GmbH",
+      "quote": "the registered office of Lilium GmbH was in Weßling (Wessling)"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Lilium_GmbH",
+      "quote": "Lilium was founded in 2015 by four engineers and PhD students at the Technical University of Munich"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Lilium_GmbH",
+      "quote": "Daniel Wiegand, Sebastian Born, Matthias Meiner and Patrick Nathen"
+    },
+    {
+      "field": "sectors",
+      "url": "https://roboticsandautomationnews.com/2020/06/09/electric-air-taxi-startup-lilium-raises-another-35-million-to-take-total-investment-to-375-million/32908",
+      "quote": "the Munich-based aviation company developing an all-electric, vertical take-off and landing aircraft for regional air mobility"
+    },
+    {
+      "field": "status",
+      "url": "https://en.wikipedia.org/wiki/Lilium_GmbH",
+      "quote": "On February 21, 2025, Severin Tatarczyk announced in internal communications that the company had filed for insolvency."
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "198e0126-96e5-415f-e785-08d91092c887",
+      "stage": "series-c",
+      "month": "2020-03",
+      "amountEur": 224000000,
+      "amountOriginal": 224000000,
+      "currency": "EUR",
+      "investors": [
+        "Tencent",
+        "Atomico",
+        "Freigeist Capital",
+        "LGT"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.climate-kic.org/news/lilium-completes-funding-round-worth-over-e224-million/",
+          "quote": "announced the completion of an internal funding round worth over €224 million"
+        },
+        {
+          "field": "month",
+          "url": "https://www.climate-kic.org/news/lilium-completes-funding-round-worth-over-e224-million/",
+          "quote": "25 Mar 2020"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.climate-kic.org/news/lilium-completes-funding-round-worth-over-e224-million/",
+          "quote": "The round was led by Tencent, with participation from other existing investors including Atomico, Freigeist and LGT."
+        }
+      ]
+    },
+    {
+      "techeuId": "9edf2992-3821-4918-e786-08d91092c887",
+      "stage": "series-c",
+      "month": "2020-06",
+      "amountEur": 30989906,
+      "amountOriginal": 35000000,
+      "currency": "USD",
+      "investors": [
+        "Baillie Gifford"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://roboticsandautomationnews.com/2020/06/09/electric-air-taxi-startup-lilium-raises-another-35-million-to-take-total-investment-to-375-million/32908",
+          "quote": "Baillie Gifford has invested $35m in Lilium, extending the startup’s current funding round to more than $275 million"
+        },
+        {
+          "field": "month",
+          "url": "https://roboticsandautomationnews.com/2020/06/09/electric-air-taxi-startup-lilium-raises-another-35-million-to-take-total-investment-to-375-million/32908",
+          "quote": "June 9, 2020"
+        },
+        {
+          "field": "investors",
+          "url": "https://roboticsandautomationnews.com/2020/06/09/electric-air-taxi-startup-lilium-raises-another-35-million-to-take-total-investment-to-375-million/32908",
+          "quote": "Baillie Gifford has invested $35m in Lilium"
+        }
+      ]
+    }
+  ]
+}

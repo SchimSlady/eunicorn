@@ -1,0 +1,284 @@
+{
+  "id": "uipath",
+  "name": "UiPath",
+  "aliases": [],
+  "domain": "uipath.com",
+  "country": "RO",
+  "city": "Bucharest",
+  "founded": 2005,
+  "sectors": [
+    "saas",
+    "ai"
+  ],
+  "status": "public",
+  "unicorn": true,
+  "lastValuationEur": 28963919232,
+  "founders": [
+    "Daniel Dines",
+    "Marius Tîrcă"
+  ],
+  "difficulty": 3,
+  "techeuId": "26FEA1C0-5D36-4ED0-8D92-6E685FDD65F4",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/UiPath",
+      "quote": "Founded in 2005 in Bucharest , Romania, by Daniel Dines and Marius Tîrcă"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/UiPath",
+      "quote": "UiPath was founded in 2005 in Bucharest, Romania as DeskOver"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/UiPath",
+      "quote": "by Romanian entrepreneurs Daniel Dines and Marius Tîrcă"
+    },
+    {
+      "field": "sectors",
+      "url": "https://en.wikipedia.org/wiki/UiPath",
+      "quote": "develops artificial intelligence (AI) and agentic automation and orchestration software"
+    },
+    {
+      "field": "status",
+      "url": "https://en.wikipedia.org/wiki/UiPath",
+      "quote": "In April 2021, UiPath raised $1.3 billion in an initial public offering on the New York Stock Exchange"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://www.prnewswire.com/in/news-releases/uipath-raises-568-million-series-d-funding-round-899445223.html",
+      "quote": "At the $7 Billion valuation, UiPath is one of the fastest growing and highest-valued AI enterprise software companies worldwide."
+    },
+    {
+      "field": "unicorn",
+      "url": "https://en.wikipedia.org/wiki/UiPath",
+      "quote": "In April 2021, UiPath raised $1.3 billion in an initial public offering on the New York Stock Exchange"
+    },
+    {
+      "field": "valuation",
+      "url": "https://en.wikipedia.org/wiki/UiPath",
+      "quote": "$750 million $35 billion (post-money valuation) Series F funding."
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "4cecd59d-0710-44ae-fd0e-08d91092c887",
+      "stage": "series-a",
+      "month": "2017-04",
+      "amountOriginal": 30000000,
+      "currency": "USD",
+      "amountEur": 27978115,
+      "investors": [
+        "Accel"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://en.wikipedia.org/wiki/UiPath",
+          "quote": "April 2017 $30 million investment One of the biggest Series A rounds of funding in Europe, led by Accel"
+        },
+        {
+          "field": "month",
+          "url": "https://en.wikipedia.org/wiki/UiPath",
+          "quote": "April 2017 $30 million investment"
+        },
+        {
+          "field": "stage",
+          "url": "https://en.wikipedia.org/wiki/UiPath",
+          "quote": "One of the biggest Series A rounds of funding in Europe"
+        },
+        {
+          "field": "investors",
+          "url": "https://en.wikipedia.org/wiki/UiPath",
+          "quote": "led by Accel"
+        }
+      ]
+    },
+    {
+      "techeuId": "14631261-aeaf-46c2-fd0f-08d91092c887",
+      "stage": "series-b",
+      "month": "2018-03",
+      "amountOriginal": 153000000,
+      "currency": "USD",
+      "amountEur": 123277737,
+      "investors": [
+        "Accel",
+        "CapitalG",
+        "Kleiner Perkins"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://en.wikipedia.org/wiki/UiPath",
+          "quote": "March 6, 2018 $153 million investment $1.1 billion from Accel, CapitalG , and Kleiner Perkins Caufield"
+        },
+        {
+          "field": "month",
+          "url": "https://en.wikipedia.org/wiki/UiPath",
+          "quote": "March 6, 2018 $153 million investment"
+        },
+        {
+          "field": "stage",
+          "url": "https://ir.uipath.com/news/detail/118/correcting-and-replacing-uipath-raises-225-million-series-c-led-by-capitalg-and-sequoia",
+          "quote": "Accel , which led both UiPath Series A and B rounds"
+        },
+        {
+          "field": "investors",
+          "url": "https://en.wikipedia.org/wiki/UiPath",
+          "quote": "from Accel, CapitalG , and Kleiner Perkins Caufield"
+        }
+      ]
+    },
+    {
+      "techeuId": "37244599-fd31-478c-a870-8ebeb8d5645d",
+      "stage": "series-c",
+      "month": "2018-09",
+      "amountOriginal": 225000000,
+      "currency": "USD",
+      "amountEur": 192357015,
+      "investors": [
+        "CapitalG",
+        "Sequoia Capital",
+        "Accel"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://ir.uipath.com/news/detail/118/correcting-and-replacing-uipath-raises-225-million-series-c-led-by-capitalg-and-sequoia",
+          "quote": "UiPath Raises $225 Million Series C, Led by CapitalG and Sequoia"
+        },
+        {
+          "field": "month",
+          "url": "https://ir.uipath.com/news/detail/118/correcting-and-replacing-uipath-raises-225-million-series-c-led-by-capitalg-and-sequoia",
+          "quote": "September 18, 2018"
+        },
+        {
+          "field": "stage",
+          "url": "https://ir.uipath.com/news/detail/118/correcting-and-replacing-uipath-raises-225-million-series-c-led-by-capitalg-and-sequoia",
+          "quote": "UiPath Raises $225 Million Series C"
+        },
+        {
+          "field": "investors",
+          "url": "https://ir.uipath.com/news/detail/118/correcting-and-replacing-uipath-raises-225-million-series-c-led-by-capitalg-and-sequoia",
+          "quote": "The round was co-led by existing investor CapitalG and new investor Sequoia Capital ."
+        },
+        {
+          "field": "investors",
+          "url": "https://ir.uipath.com/news/detail/118/correcting-and-replacing-uipath-raises-225-million-series-c-led-by-capitalg-and-sequoia",
+          "quote": "Accel , which led both UiPath Series A and B rounds, also participated in this round."
+        }
+      ]
+    },
+    {
+      "techeuId": "104d55ab-cbe3-4b8e-fd10-08d91092c887",
+      "stage": "series-d",
+      "month": "2019-04",
+      "amountOriginal": 568000000,
+      "currency": "USD",
+      "amountEur": 506329114,
+      "postMoneyValuationEur": 6239971474,
+      "investors": [
+        "Coatue Management",
+        "CapitalG",
+        "Sequoia Capital",
+        "Accel",
+        "Madrona Venture Group",
+        "IVP",
+        "Dragoneer",
+        "Wellington Management",
+        "Sands Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.prnewswire.com/in/news-releases/uipath-raises-568-million-series-d-funding-round-899445223.html",
+          "quote": "UiPath Raises $568 Million Series D Funding Round"
+        },
+        {
+          "field": "month",
+          "url": "https://en.wikipedia.org/wiki/UiPath",
+          "quote": "April 30, 2019 $568 million"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.prnewswire.com/in/news-releases/uipath-raises-568-million-series-d-funding-round-899445223.html",
+          "quote": "UiPath Raises $568 Million Series D Funding Round"
+        },
+        {
+          "field": "investors",
+          "url": "https://en.wikipedia.org/wiki/UiPath",
+          "quote": "Series D round of funding led by hedge fund Coatue Management , with participation from Alphabet's CapitalG, Sequoia, Accel, Madrona Venture Group, IVP, Dragoneer , Wellington, Sands Capital"
+        }
+      ]
+    },
+    {
+      "techeuId": "40843b86-955f-4888-fd11-08d91092c887",
+      "stage": "series-e",
+      "month": "2020-07",
+      "amountOriginal": 225000000,
+      "currency": "USD",
+      "amountEur": 198605349,
+      "investors": [
+        "Alkeon Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://ir.uipath.com/news/detail/36/uipath-raises-225-million-series-e-funding-round",
+          "quote": "UiPath Raises $225 Million Series E Funding Round"
+        },
+        {
+          "field": "month",
+          "url": "https://ir.uipath.com/news/detail/36/uipath-raises-225-million-series-e-funding-round",
+          "quote": "July 13, 2020"
+        },
+        {
+          "field": "stage",
+          "url": "https://ir.uipath.com/news/detail/36/uipath-raises-225-million-series-e-funding-round",
+          "quote": "UiPath Raises $225 Million Series E Funding Round"
+        },
+        {
+          "field": "investors",
+          "url": "https://ir.uipath.com/news/detail/36/uipath-raises-225-million-series-e-funding-round",
+          "quote": "The round was led by Alkeon."
+        }
+      ]
+    },
+    {
+      "techeuId": "132701d7-7aab-4212-fd12-08d91092c887",
+      "stage": "series-f+",
+      "month": "2021-02",
+      "amountOriginal": 750000000,
+      "currency": "USD",
+      "amountEur": 620655412,
+      "postMoneyValuationEur": 28963919232,
+      "investors": [
+        "Alkeon Capital",
+        "Coatue Management"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.uipath.com/newsroom/uipath-closes-750-million-series-f-funding",
+          "quote": "UiPath Closes $750 Million in Series F Funding"
+        },
+        {
+          "field": "month",
+          "url": "https://www.uipath.com/newsroom/uipath-closes-750-million-series-f-funding",
+          "quote": "February 1, 2021"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.uipath.com/newsroom/uipath-closes-750-million-series-f-funding",
+          "quote": "UiPath Closes $750 Million in Series F Funding"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.uipath.com/newsroom/uipath-closes-750-million-series-f-funding",
+          "quote": "The round was co-led by existing investors Alkeon Capital and Coatue."
+        }
+      ]
+    }
+  ]
+}
