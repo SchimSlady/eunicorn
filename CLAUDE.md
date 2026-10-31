@@ -8,7 +8,7 @@ Read `PLAN.md` first. Two people work in parallel, each with their own Claude se
 - `packages/schema/src/index.ts` is the contract between the two areas. Change it only on its own branch/PR, and tell the other person.
 
 ## Workflow
-- Never commit to `main` directly. Branch as `data/<topic>` or `web/<topic>`, open a PR, the other person merges.
+- Never commit to `main` directly. Branch as `data/<topic>` or `web/<topic>`, open a PR. Either person may merge their own PR once its checks pass.
 - Before committing data: `npm run validate` must pass.
 - Before committing web: `npm run build` must pass.
 - Puzzle files: `data/puzzles/<YYYY-MM-DD>/<mode>.json`, where mode ∈ `who-raised-this | unicorn-grid | higher-lower | impostor`.
