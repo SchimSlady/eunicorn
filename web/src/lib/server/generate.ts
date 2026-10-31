@@ -24,8 +24,9 @@ import { distinctAnswers } from "../grid";
 /** Day 1 of EUnicorn: puzzle numbers count from here. */
 const FIRST_DAY = "2026-11-01";
 
-export function generatePuzzle(mode: GameMode, date: string, data: Dataset): Puzzle | null {
-  const rng = seeded(`${date}:${mode}`);
+export function generatePuzzle(mode: GameMode, date: string, data: Dataset, salt?: string): Puzzle | null {
+  // salt (test mode only) varies the puzzle within a day; without it the day decides alone.
+  const rng = seeded(salt ? `${date}:${mode}:${salt}` : `${date}:${mode}`);
   const base = { date, number: puzzleNumber(date), hints: [] as Hint[] };
   const companies = data.companies.filter((c) => c.european);
   switch (mode) {

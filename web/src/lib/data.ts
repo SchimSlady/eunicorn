@@ -1,5 +1,5 @@
 import type { Company, Dataset, GameMode, Puzzle } from "@eunicorn/schema";
-import { loadFilePuzzle } from "./daily";
+import { loadFilePuzzle, puzzleUrl } from "./daily";
 
 async function fetchJson<T>(url: string): Promise<T | null> {
   const res = await fetch(url).catch(() => null);
@@ -12,7 +12,7 @@ async function fetchJson<T>(url: string): Promise<T | null> {
  * synced from /data. Mixing them would break: file puzzles name companies the database lacks.
  */
 export async function loadGame<P extends Puzzle>(mode: GameMode): Promise<{ puzzle: P | null; data: Dataset }> {
-  const live = await fetchJson<P>(`/api/puzzle/${mode}`);
+  const live = await fetchJson<P>(puzzleUrl(mode));
   if (live) {
     const data = await fetchJson<Dataset>("/api/dataset");
     if (data) return { puzzle: live, data };

@@ -1,11 +1,18 @@
 import type { GameMode, Puzzle } from "@eunicorn/schema";
 
 /**
- * Once-a-day lock: on unless explicitly turned off, so production can't ship without it.
- * A finished game stays finished, a reload resumes it, and streaks count. To replay while
- * testing, set NEXT_PUBLIC_DAILY_LOCK=false (e.g. in web/.env.local or a Vercel Preview env).
+ * Once-a-day lock. OFF while we test (TODO before launch: turn it back on, e.g. with
+ * NEXT_PUBLIC_DAILY_LOCK=true in Vercel, or make it the default again).
+ * Off = test mode: every game can be replayed, and each new game gets a different generated
+ * puzzle (see ROTATE). On = a finished game stays finished, a reload resumes it, streaks count,
+ * and the puzzle is the same for everyone all day.
  */
-export const DAILY_LOCK = process.env.NEXT_PUBLIC_DAILY_LOCK !== "false";
+export const DAILY_LOCK = process.env.NEXT_PUBLIC_DAILY_LOCK === "true";
+
+/** Test mode: ask the server for a fresh puzzle per game instead of the day's puzzle. */
+export function puzzleUrl(mode: GameMode): string {
+  return DAILY_LOCK ? `/api/puzzle/${mode}` : `/api/puzzle/${mode}?rotate=${Math.random().toString(36).slice(2, 10)}`;
+}
 
 /** Puzzles flip at midnight Central European Time for everyone, wherever they are. */
 export const PUZZLE_TIMEZONE = "Europe/Berlin";
@@ -30,7 +37,7 @@ export async function loadFilePuzzle<P extends Puzzle>(mode: GameMode): Promise<
 
 /** Today's puzzle from wherever it lives (Supabase first), e.g. to read its date on the home page. */
 export async function loadTodayPuzzle<P extends Puzzle>(mode: GameMode): Promise<P | null> {
-  const live = await fetch(`/api/puzzle/${mode}`).catch(() => null);
+  const live = await fetch(puzzleUrl(mode)).catch(() => null);
   if (live?.status === 200) return (await live.json()) as P;
   return loadFilePuzzle<P>(mode);
 }
