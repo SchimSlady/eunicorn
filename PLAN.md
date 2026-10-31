@@ -52,7 +52,14 @@ Puzzles are static JSON. `web` copies `/data` into `public/data` on dev and buil
 2. **Week 2:** generators for Grid + Who Raised This, a 30-day schedule, share cards, deploy to a preview URL.
 3. **Week 3:** soft launch with friends, students and the startup community; tune difficulty.
 
+## Brand (decided 2026-10-31: EUnicorn)
+Availability check on 2026-10-31. Nothing is registered yet.
+- **Domain:** primary `eunicorn.eu` (free), backup `eunicorn.app` (free). `eunicorn.com` is parked at Afternic and for sale (price unknown). `.de` is parked at Sedo. `.io` was registered by someone in 04/2026.
+- **Handle:** `playeunicorn` on Instagram, X and TikTok (all free). `@eunicorn` is taken on all three.
+- **LinkedIn:** company page "EUnicorn" (`/company/eunicorn` is free).
+- **Trademark:** no exact "EUNICORN" match in TMview. The closest is "BEUNICORN" (Intesa Sanpaolo, Italy, classes 35/36/41); look at this in the legal check.
+
 ## Open
-- Domain (eunicorn.com / .eu / .app?)
-- Branding and logo
-- Legal check: logos, trademark "EUnicorn"
+- Register the domains and handles
+- Logo and visual identity
+- Legal check: logos of the companies shown, trademark "EUnicorn" vs "BEUNICORN"
