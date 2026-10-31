@@ -4,7 +4,7 @@ How EUnicorn looks, sounds and moves. Decisions come from [DESIGN-RESEARCH.md](D
 Tokens live in [`src/app/globals.css`](src/app/globals.css); use them via Tailwind classes, never hard-coded hex values.
 
 ## Brand
-- **Name:** EUnicorn, written with "EU" in the primary color (`<span className="text-primary">EU</span>nicorn`). No logo for now, text only.
+- **Name:** EUnicorn, written with "EU" in the primary color (`<span className="text-primary">EU</span>nicorn`). Next to it the unicorn mascot (`public/brand/unicorn.svg`, also the favicon) via `Wordmark`. Never recolour or crop the mascot.
 - **Line:** "Go build in Europe." It closes every "Built in Europe" card.
 
 ## Color
