@@ -2,6 +2,7 @@ import "server-only";
 import type { Company, Dataset, GameMode, Puzzle, Round } from "@eunicorn/schema";
 import { USD_TO_EUR } from "@/lib/format";
 import { generatePuzzle } from "./generate";
+import logoFiles from "./logos.generated.json";
 
 /**
  * Read-only access to the curated Supabase data (see supabase/migrations). Server-side only:
@@ -80,6 +81,13 @@ export type WebRound = Round & { attributionUrl?: string };
  */
 const eurAsUsd = (eur: number | null | undefined) => (eur == null ? undefined : eur / USD_TO_EUR);
 
+/**
+ * The logo path stored in Supabase wins. Until the loader writes it, use the curated file in
+ * web/public/logos named after the company id (synced into logos.generated.json at build time).
+ */
+const LOGOS = new Map((logoFiles as string[]).map((f) => [f.replace(/\.(svg|png)$/, ""), `/logos/${f}`]));
+const fileLogo = (id: string) => LOGOS.get(id);
+
 const ORIGINAL_CURRENCIES = ["EUR", "GBP", "SEK", "CHF"] as const;
 
 export async function getDataset(): Promise<(Omit<Dataset, "rounds"> & { rounds: WebRound[] }) | null> {
@@ -99,7 +107,7 @@ export async function getDataset(): Promise<(Omit<Dataset, "rounds"> & { rounds:
         id: c.id,
         name: c.name,
         domain: c.domain,
-        logo: c.logo ?? undefined,
+        logo: c.logo ?? fileLogo(c.id),
         european: true, // the database holds European companies only
         country: c.country,
         city: c.city ?? "",
