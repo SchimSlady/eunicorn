@@ -1,4 +1,5 @@
 import { ModeCards } from "@/components/ModeCards";
+import { UpcomingCards } from "@/components/UpcomingCards";
 import { Wordmark } from "@/components/Wordmark";
 
 export default function Home() {
@@ -12,10 +13,9 @@ export default function Home() {
       <div className="mt-8">
         <ModeCards />
       </div>
-      <section className="mt-4 rounded-2xl border-2 border-dashed border-border p-5">
-        <h2 className="text-lg font-bold">More games coming soon</h2>
-        <p className="mt-1 text-sm text-muted">Connections, Mafia Link, Top 10 and Pin the HQ are in the works.</p>
-      </section>
+      <div className="mt-4">
+        <UpcomingCards />
+      </div>
     </main>
   );
 }

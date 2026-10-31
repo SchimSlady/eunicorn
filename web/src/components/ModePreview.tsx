@@ -15,6 +15,15 @@ const CANVAS_H = 180;
  */
 export function ModePreview({ mode }: { mode: GameMode }) {
   const Preview = PREVIEWS[mode];
+  return (
+    <PreviewFrame>
+      <Preview />
+    </PreviewFrame>
+  );
+}
+
+/** The blue card canvas the previews are drawn on, scaled to the card's width. */
+export function PreviewFrame({ children }: { children: React.ReactNode }) {
   const ref = useRef<HTMLDivElement>(null);
   // null until measured, so the unscaled canvas never flashes on first paint.
   const [scale, setScale] = useState<number | null>(null);
@@ -33,7 +42,7 @@ export function ModePreview({ mode }: { mode: GameMode }) {
         className="absolute left-0 top-0 flex origin-top-left items-center justify-center p-3"
         style={{ width: CANVAS_W, height: CANVAS_H, transform: `scale(${scale ?? 1})`, opacity: scale === null ? 0 : 1 }}
       >
-        <Preview />
+        {children}
       </div>
     </div>
   );
