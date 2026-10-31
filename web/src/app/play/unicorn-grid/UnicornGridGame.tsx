@@ -8,6 +8,7 @@ import { getTodayResult, loadProgress, saveProgress, saveResult } from "@/lib/da
 import { saveDifficulty, type Difficulty } from "@/lib/difficulty";
 import { shareText as buildShareText } from "@/lib/scoring";
 import { CompanyLogo } from "@/components/CompanyLogo";
+import { distinctAnswers } from "@/lib/grid";
 import { CompanySearch } from "@/components/CompanySearch";
 import { BuiltInEuropeCard } from "@/components/BuiltInEuropeCard";
 import { Flag } from "@/components/Flag";
@@ -144,20 +145,13 @@ export function UnicornGridGame() {
     }
   }
 
-  // Answers shown in squares the player left empty: the best-known valid one that isn't
-  // already on the board, so (like the player) every company appears only once if possible.
-  const revealed: (Company | null)[] = [];
-  const taken = new Set(used);
-  for (let cell = 0; cell < 9; cell++) {
-    if (progress.cells[cell]) {
-      revealed.push(null);
-      continue;
-    }
-    const options = [...puzzle.validAnswers[cell]].sort((a, b) => worth(a) - worth(b));
-    const id = options.find((o) => !taken.has(o)) ?? options[0];
-    taken.add(id);
-    revealed.push(companies.get(id)!);
-  }
+  // Answers shown in squares the player left empty: the best-known valid ones such that, like
+  // for the player, every company appears only once on the board.
+  const byWorth = (_: number, ids: string[]) => [...ids].sort((a, b) => worth(a) - worth(b));
+  const fill = distinctAnswers(puzzle.validAnswers, progress.cells, byWorth);
+  const revealed: (Company | null)[] = progress.cells.map((placed, cell) =>
+    placed ? null : companies.get(fill?.[cell] ?? byWorth(cell, puzzle.validAnswers[cell])[0])!,
+  );
   const reveal = (cell: number) => revealed[cell] ?? companies.get(puzzle.validAnswers[cell][0])!;
 
   const sel = selected !== null && !done ? selected : null;
@@ -211,7 +205,7 @@ export function UnicornGridGame() {
                     setMiss(null);
                   }}
                   aria-label={c ? `${c.name}` : `Square ${cell + 1}`}
-                  className={`relative flex aspect-square flex-col items-center justify-center gap-1 rounded-2xl border-2 p-1 transition ${
+                  className={`relative flex aspect-square flex-col items-stretch justify-center gap-1 rounded-2xl border-2 p-1 transition ${
                     c
                       ? "animate-pop border-correct bg-correct/10"
                       : isSel
@@ -223,9 +217,14 @@ export function UnicornGridGame() {
                 >
                   {shown && (
                     <>
-                      <CompanyLogo company={shown} size={34} />
-                      <span className="line-clamp-1 text-[11px] font-semibold leading-tight">{shown.name}</span>
-                      {c && <span className="absolute right-1 top-0.5 text-[11px] font-bold text-correct">€{worth(c.id)}m</span>}
+                      {/* The logo fills the square; white behind it because many logos are dark. */}
+                      <div className="min-h-0 flex-1">
+                        <CompanyLogo company={shown} fill />
+                      </div>
+                      <div className="flex items-baseline justify-between gap-1 px-0.5 text-[11px] leading-tight">
+                        <span className="truncate font-semibold">{shown.name}</span>
+                        {c && <span className="shrink-0 font-bold text-correct">€{worth(c.id)}m</span>}
+                      </div>
                     </>
                   )}
                 </button>
