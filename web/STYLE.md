@@ -8,17 +8,17 @@ Tokens live in [`src/app/globals.css`](src/app/globals.css); use them via Tailwi
 - **Line:** "Go build in Europe." It closes every "Built in Europe" card.
 
 ## Color
-| Token | Light | Dark | Use |
-|---|---|---|---|
-| `eu-blue` | `#003399` | same | Brand, illustrations, "Built in Europe" card |
-| `eu-yellow` | `#FFCC00` | same | Brand accent, hints background (`bg-eu-yellow/20`) |
-| `primary` | EU blue | EU yellow | Buttons, links, focus, selected state |
-| `correct` | `#4C9A2A` | `#7CC35A` | Right answers (matches 🟩 in the share text) |
-| `wrong` | `#D62F43` | `#F0566A` | Wrong answers (matches 🟥) |
-| `background` / `surface` / `border` / `muted` / `foreground` | blue-grey `#F5F7FC` ground, white cards | soft charcoal `#202227` / `#2B2D33` | Page, cards, lines, secondary text, text |
+| Token | Value | Use |
+|---|---|---|
+| `eu-blue` | `#003399` | Brand, illustrations, "Built in Europe" card |
+| `eu-yellow` | `#FFCC00` | Brand accent, primary action, hints background (`bg-eu-yellow/20`) |
+| `primary` | EU yellow | Buttons, links, focus, selected state |
+| `correct` | `#7CC35A` | Right answers (matches 🟩 in the share text) |
+| `wrong` | `#F0566A` | Wrong answers (matches 🟥) |
+| `background` / `surface` / `border` / `muted` / `foreground` | `#202227` / `#2B2D33` / `#3A3C43` / `#B0B2B9` / `#F5F5F7` | Page, cards, lines, secondary text, text |
 
 Rules:
-- **Dark mode is soft charcoal: not black, not navy.** EU blue lives in the illustrations, the "Built in Europe" card and the accent, never the ground. Colour goes on the game, not the chrome.
+- **One theme only: soft charcoal.** No light mode, not black, not navy. EU blue lives in the illustrations, the "Built in Europe" card and the accent, never the ground. Colour goes on the game, not the chrome.
 - **Yellow is brand only.** Never use it to mean "almost right" (the way Wordle does).
 - **Never color alone.** Right and wrong always come with an icon (`Check` / `X`) or a text label, for colorblind players.
 - The colors are called `correct` / `wrong`, not `right`, because Tailwind already has `text-right` (alignment).

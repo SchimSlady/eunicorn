@@ -6,33 +6,20 @@
   --eu-blue: #003399;
   --eu-yellow: #ffcc00;
 
-  --background: #f5f7fc;
-  --surface: #ffffff;
-  --foreground: #0b1b3f;
-  --muted: #5b6785;
-  --border: #dce3f2;
-  /* Primary action color; flips to yellow on dark backgrounds for contrast. */
-  --primary: var(--eu-blue);
-  --on-primary: #ffffff;
+  /* One theme only: soft charcoal, not black and not navy. EU blue lives in the illustrations. */
+  color-scheme: dark;
+  --background: #202227;
+  --surface: #2b2d33;
+  --foreground: #f5f5f7;
+  --muted: #b0b2b9;
+  --border: #3a3c43;
+  /* Primary action color: EU yellow, which reads on charcoal. */
+  --primary: var(--eu-yellow);
+  --on-primary: #001a4d;
 
   /* Right / wrong, matched to the 🟩 🟥 emojis in the share text. Always paired with ✓ / ✗. */
-  --correct: #4c9a2a;
-  --wrong: #d62f43;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    /* Soft charcoal, not black and not navy: EU blue lives in the illustrations and the accent. */
-    --background: #202227;
-    --surface: #2b2d33;
-    --foreground: #f5f5f7;
-    --muted: #b0b2b9;
-    --border: #3a3c43;
-    --primary: var(--eu-yellow);
-    --on-primary: #001a4d;
-    --correct: #7cc35a;
-    --wrong: #f0566a;
-  }
+  --correct: #7cc35a;
+  --wrong: #f0566a;
 }
 
 @theme inline {
