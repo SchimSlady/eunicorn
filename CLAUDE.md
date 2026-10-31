@@ -3,7 +3,7 @@
 Read `PLAN.md` first. Two people work in parallel, each with their own Claude session.
 
 ## Ownership (do not edit outside your area)
-- **Data session:** `/data/**`, `packages/schema/**`, `web/public/logos/**`
+- **Data session:** `/data/**`, `/supabase/**`, `packages/schema/**`, `web/public/logos/**`
 - **Web session:** `/web/**` (except `web/public/logos`)
 - `packages/schema/src/index.ts` is the contract between the two areas. Change it only on its own branch/PR, and tell the other person.
 
