@@ -2,6 +2,7 @@ import Link from "next/link";
 import { Mail } from "lucide-react";
 import { CONTACT_EMAIL, INSTAGRAM } from "@/lib/legal";
 import { MODES } from "@/lib/modes";
+import { Wordmark } from "@/components/Wordmark";
 
 const PAGES = [
   { href: "/about", label: "About & data" },
@@ -28,7 +29,7 @@ export function SiteFooter() {
       <div className="mx-auto grid max-w-5xl gap-10 px-4 py-12 sm:px-6 md:grid-cols-[1.4fr_1fr_1fr]">
         <div className="space-y-4">
           <p className="font-display text-2xl font-bold leading-none">
-            <span className="text-primary">EU</span>nicorn
+            <Wordmark />
           </p>
           <p className="text-sm">Daily games about the European startup ecosystem. Go build in Europe.</p>
           <p className="text-sm text-muted">
