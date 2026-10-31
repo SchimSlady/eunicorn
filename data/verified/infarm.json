@@ -1,0 +1,120 @@
+{
+  "id": "infarm",
+  "name": "Infarm",
+  "aliases": [],
+  "domain": "infarm.com",
+  "country": "DE",
+  "city": "Berlin",
+  "founded": 2013,
+  "sectors": [
+    "climate"
+  ],
+  "status": "defunct",
+  "unicorn": false,
+  "founders": [
+    "Guy Galonska",
+    "Erez Galonska",
+    "Osnat Michaeli"
+  ],
+  "difficulty": 3,
+  "techeuId": "8E0D8C1A-BB31-4586-8F96-5214E589C041",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://de.wikipedia.org/wiki/Infarm",
+      "quote": "Infarm ist ein im Jahr 2013 in Berlin gegründetes Start-up-Unternehmen"
+    },
+    {
+      "field": "founded",
+      "url": "https://de.wikipedia.org/wiki/Infarm",
+      "quote": "Infarm ist ein im Jahr 2013 in Berlin gegründetes Start-up-Unternehmen"
+    },
+    {
+      "field": "founders",
+      "url": "https://de.wikipedia.org/wiki/Infarm",
+      "quote": "Das Unternehmen wurde im August 2013 von Guy Galonska, Erez Galonska und Osnat Michaeli"
+    },
+    {
+      "field": "sectors",
+      "url": "https://techcrunch.com/2021/12/16/vertical-farming-startup-infarm-raises-200m-for-international-expansion/",
+      "quote": "Europe-based vertical farming firm Infarm"
+    },
+    {
+      "field": "status",
+      "url": "https://de.wikipedia.org/wiki/Infarm",
+      "quote": "Im September 2023 meldete die niederländische Muttergesellschaft Insolvenz an"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "1f5b2459-9c6a-465d-f93b-08d91092c887",
+      "stage": "series-a",
+      "month": "2018-02",
+      "amountEur": 20096463,
+      "amountOriginal": 25000000,
+      "currency": "USD",
+      "investors": [
+        "Balderton Capital",
+        "Mons Investments",
+        "Cherry Ventures",
+        "QUADIA",
+        "LocalGlobe"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2018/02/05/balderton-backs-infarm/",
+          "quote": "has raised $25 million in Series A funding"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2018/02/05/balderton-backs-infarm/",
+          "quote": "has raised $25 million in Series A funding"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2018/02/05/balderton-backs-infarm/",
+          "quote": "2018-02-05"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2018/02/05/balderton-backs-infarm/",
+          "quote": "The round is led by London-based VC firm Balderton Capital , with participation from TriplePoint Capital, Mons Investments, and previous investors Cherry Ventures, QUADIA and LocalGlobe"
+        }
+      ]
+    },
+    {
+      "techeuId": "559dc619-5952-4693-a826-b0693d6199ad",
+      "stage": "series-d",
+      "month": "2021-12",
+      "amountEur": 176429076,
+      "amountOriginal": 200000000,
+      "currency": "USD",
+      "investors": [
+        "Qatar Investment Authority"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2021/12/16/vertical-farming-startup-infarm-raises-200m-for-international-expansion/",
+          "quote": "this week announced a $200 million Series D"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2021/12/16/vertical-farming-startup-infarm-raises-200m-for-international-expansion/",
+          "quote": "this week announced a $200 million Series D"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2021/12/16/vertical-farming-startup-infarm-raises-200m-for-international-expansion/",
+          "quote": "2021-12-16"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2021/12/16/vertical-farming-startup-infarm-raises-200m-for-international-expansion/",
+          "quote": "The round, led by the Qatar Investment Authority (QIA)"
+        }
+      ]
+    }
+  ]
+}

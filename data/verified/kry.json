@@ -1,0 +1,216 @@
+{
+  "id": "kry",
+  "name": "Kry",
+  "aliases": [
+    "Livi"
+  ],
+  "domain": "kry.se",
+  "country": "SE",
+  "city": "Stockholm",
+  "founded": 2014,
+  "sectors": [
+    "health"
+  ],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 1676479000,
+  "founders": [
+    "Johannes Schildt",
+    "Fredrik Jung Abbou",
+    "Josefin Landgård",
+    "Joachim Hedenius"
+  ],
+  "difficulty": 3,
+  "techeuId": "FBFA7057-DD21-4E12-A8F1-28264101D3E9",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://sv.wikipedia.org/wiki/Kry",
+      "quote": "Huvudkontor Bonnierhuset , Stockholm , Sverige"
+    },
+    {
+      "field": "founded",
+      "url": "https://sv.wikipedia.org/wiki/Kry",
+      "quote": "Kry grundades i juli 2014 av"
+    },
+    {
+      "field": "founders",
+      "url": "https://sv.wikipedia.org/wiki/Kry",
+      "quote": "Kry grundades i juli 2014 av Johannes Schildt , Fredrik Jung Abbou, Josefin Landgård och Joachim Hedenius"
+    },
+    {
+      "field": "sectors",
+      "url": "https://techcrunch.com/2021/04/27/kry-closes-312m-series-d-after-use-of-its-telehealth-tools-surged-100-yoy/",
+      "quote": "which offers a telehealth service (and software tools) to connect clinicians with patients for remote consultations"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://sv.wikipedia.org/wiki/Kry",
+      "quote": "vid en finansieringsrunda 2021 värderades bolaget till 17 miljarder kronor"
+    },
+    {
+      "field": "valuation",
+      "url": "https://sv.wikipedia.org/wiki/Kry",
+      "quote": "vid en finansieringsrunda 2021 värderades bolaget till 17 miljarder kronor"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "0e7a6324-0d9c-46fc-e757-08d91092c887",
+      "stage": "series-a",
+      "month": "2017-06",
+      "amountEur": 20000000,
+      "amountOriginal": 20000000,
+      "currency": "EUR",
+      "investors": [
+        "Accel",
+        "Index Ventures",
+        "Creandum",
+        "Project A"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2017/06/29/accel-leads-22-8m-series-a-in-swedish-telehealth-startup-kry/",
+          "quote": "has closed a €20 million ($22.8M) Series A round of funding"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2017/06/29/accel-leads-22-8m-series-a-in-swedish-telehealth-startup-kry/",
+          "quote": "has closed a €20 million ($22.8M) Series A round of funding"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2017/06/29/accel-leads-22-8m-series-a-in-swedish-telehealth-startup-kry/",
+          "quote": "2017-06-29"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2017/06/29/accel-leads-22-8m-series-a-in-swedish-telehealth-startup-kry/",
+          "quote": "Existing investors Index Ventures, Creandum and Project A also participated in the round"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2017/06/29/accel-leads-22-8m-series-a-in-swedish-telehealth-startup-kry/",
+          "quote": "Accel leads $22.8M Series A"
+        }
+      ]
+    },
+    {
+      "techeuId": "21dd350a-371e-4fed-e759-08d91092c887",
+      "stage": "series-b",
+      "month": "2018-06",
+      "amountEur": 55989141,
+      "amountOriginal": 66000000,
+      "currency": "USD",
+      "investors": [
+        "Index Ventures",
+        "Accel",
+        "Creandum",
+        "Project A"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2018/06/12/kry-bags-66m-to-launch-its-video-call-a-doctor-service-in-more-european-markets/",
+          "quote": "has closed a $66 million Series B funding round led by Index Ventures"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2018/06/12/kry-bags-66m-to-launch-its-video-call-a-doctor-service-in-more-european-markets/",
+          "quote": "has closed a $66 million Series B funding round led by Index Ventures"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2018/06/12/kry-bags-66m-to-launch-its-video-call-a-doctor-service-in-more-european-markets/",
+          "quote": "2018-06-12"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2018/06/12/kry-bags-66m-to-launch-its-video-call-a-doctor-service-in-more-european-markets/",
+          "quote": "led by Index Ventures, with participation from existing investors Accel, Creandum, and Project A"
+        }
+      ]
+    },
+    {
+      "techeuId": "af73ea6a-4249-406e-e75a-08d91092c887",
+      "stage": "series-c",
+      "month": "2020-01",
+      "amountEur": 140000000,
+      "amountOriginal": 140000000,
+      "currency": "EUR",
+      "investors": [],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2021/04/27/kry-closes-312m-series-d-after-use-of-its-telehealth-tools-surged-100-yoy/",
+          "quote": "netting a €140M Series C in January 2020"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2021/04/27/kry-closes-312m-series-d-after-use-of-its-telehealth-tools-surged-100-yoy/",
+          "quote": "netting a €140M Series C in January 2020"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2021/04/27/kry-closes-312m-series-d-after-use-of-its-telehealth-tools-surged-100-yoy/",
+          "quote": "netting a €140M Series C in January 2020"
+        }
+      ]
+    },
+    {
+      "techeuId": "5ea66462-3a4a-4cc0-9da3-bcebc5d95b6f",
+      "stage": "series-d",
+      "month": "2021-04",
+      "amountEur": 262000000,
+      "amountOriginal": 312000000,
+      "currency": "USD",
+      "investors": [
+        "CPP Investments",
+        "Fidelity Management & Research",
+        "Ontario Teachers' Pension Plan",
+        "Index Ventures",
+        "Accel",
+        "Creandum",
+        "Project A"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2021/04/27/kry-closes-312m-series-d-after-use-of-its-telehealth-tools-surged-100-yoy/",
+          "quote": "The Series D raise clocks in at $312M (€262M)"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2021/04/27/kry-closes-312m-series-d-after-use-of-its-telehealth-tools-surged-100-yoy/",
+          "quote": "The Series D raise clocks in at $312M (€262M)"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2021/04/27/kry-closes-312m-series-d-after-use-of-its-telehealth-tools-surged-100-yoy/",
+          "quote": "2021-04-27"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2021/04/27/kry-closes-312m-series-d-after-use-of-its-telehealth-tools-surged-100-yoy/",
+          "quote": "The Series D is led by CPP Investments (aka, the Canadian Pension Plan Investment Board)"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2021/04/27/kry-closes-312m-series-d-after-use-of-its-telehealth-tools-surged-100-yoy/",
+          "quote": "Fidelity Management"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2021/04/27/kry-closes-312m-series-d-after-use-of-its-telehealth-tools-surged-100-yoy/",
+          "quote": "participation from existing investors including The Ontario Teachers"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2021/04/27/kry-closes-312m-series-d-after-use-of-its-telehealth-tools-surged-100-yoy/",
+          "quote": "Index Ventures, Accel, Creandum and Project A"
+        }
+      ]
+    }
+  ]
+}

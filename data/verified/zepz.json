@@ -1,0 +1,125 @@
+{
+  "id": "zepz",
+  "name": "Zepz",
+  "aliases": [
+    "WorldRemit"
+  ],
+  "domain": "zepz.io",
+  "country": "GB",
+  "city": "London",
+  "founded": 2010,
+  "sectors": [
+    "fintech"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Ismail Ahmed",
+    "Catherine Wines",
+    "Richard Igoe"
+  ],
+  "difficulty": 3,
+  "techeuId": "9E1B34F6-BC9F-4AFF-8E4E-D6A4CF83EB47",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/WorldRemit",
+      "quote": "Headquarters London , United Kingdom"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/WorldRemit",
+      "quote": "WorldRemit was founded in 2010 by Ismail Ahmed"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/WorldRemit",
+      "quote": "It was founded in 2010 by Ismail Ahmed , Catherine Wines, and Richard Igoe."
+    },
+    {
+      "field": "sectors",
+      "url": "https://en.wikipedia.org/wiki/WorldRemit",
+      "quote": "WorldRemit is a digital cross border remittance business"
+    },
+    {
+      "field": "status",
+      "url": "https://en.wikipedia.org/wiki/WorldRemit",
+      "quote": "It is owned by Zepz, which also owns Sendwave ."
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-b",
+      "month": "2015-02",
+      "amountEur": 87604030,
+      "amountOriginal": 100000000,
+      "currency": "USD",
+      "investors": [
+        "Technology Crossover Ventures",
+        "Accel"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2015/02/17/worldremit/",
+          "quote": "has raised another $100 million"
+        },
+        {
+          "field": "stage",
+          "url": "https://en.wikipedia.org/wiki/WorldRemit",
+          "quote": "In February 2015, the firm announced a $100m Series B funding round led by TCV."
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2015/02/17/worldremit/",
+          "quote": "February 17, 2015"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2015/02/17/worldremit/",
+          "quote": "The funding comes from new investor Technology Crossover Ventures"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2015/02/17/worldremit/",
+          "quote": "existing investor Accel"
+        }
+      ]
+    },
+    {
+      "techeuId": "ad58fc82-b9b1-4792-db75-08d91092c887",
+      "stage": "series-d",
+      "month": "2019-06",
+      "amountEur": 156459544,
+      "amountOriginal": 175000000,
+      "currency": "USD",
+      "investors": [
+        "TCV",
+        "Accel",
+        "LeapFrog Investments"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2019/06/03/worldremit-raises-175m-to-help-users-send-money-to-contacts-in-emerging-markets/",
+          "quote": "has raised $175 million in a Series D round of funding from TCV, Accel and Leapfrog"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2019/06/03/worldremit-raises-175m-to-help-users-send-money-to-contacts-in-emerging-markets/",
+          "quote": "has raised $175 million in a Series D round"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2019/06/03/worldremit-raises-175m-to-help-users-send-money-to-contacts-in-emerging-markets/",
+          "quote": "June 3, 2019"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2019/06/03/worldremit-raises-175m-to-help-users-send-money-to-contacts-in-emerging-markets/",
+          "quote": "has raised $175 million in a Series D round of funding from TCV, Accel and Leapfrog"
+        }
+      ]
+    }
+  ]
+}

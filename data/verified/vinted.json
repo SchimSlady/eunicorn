@@ -1,0 +1,126 @@
+{
+  "id": "vinted",
+  "name": "Vinted",
+  "aliases": [],
+  "domain": "vinted.com",
+  "country": "LT",
+  "city": "Vilnius",
+  "founded": 2008,
+  "sectors": [
+    "consumer"
+  ],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 3500000000,
+  "founders": [
+    "Milda Mitkute",
+    "Justas Janauskas"
+  ],
+  "difficulty": 1,
+  "techeuId": "A45DCB28-961E-4FB0-B71D-03D0E73E0B95",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/Vinted",
+      "quote": "Headquartered in Vilnius , Lithuania"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Vinted",
+      "quote": "Vinted was co-founded in 2008 by Milda Mitkute and Justas Janauskas in Vilnius, Lithuania."
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Vinted",
+      "quote": "Vinted was co-founded in 2008 by Milda Mitkute and Justas Janauskas in Vilnius, Lithuania."
+    },
+    {
+      "field": "sectors",
+      "url": "https://siliconcanals.com/vinted-raises-250m/",
+      "quote": "a consumer-to-consumer second-hand fashion platform"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://siliconcanals.com/crowdfunding/vinted-used-clothes-marketplace-pockets-e128m-at-e1b-valuation/",
+      "quote": "The online retailer has pocketed a massive €128 million in an equity funding round, valuing the company at over €1 billion."
+    },
+    {
+      "field": "valuation",
+      "url": "https://siliconcanals.com/vinted-raises-250m/",
+      "quote": "has raised €250M in its Series F round of funding at a pre-money valuation of €3.5B"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "6707132d-e7d0-4736-e02b-08d91092c887",
+      "stage": "series-d",
+      "month": "2019-11",
+      "amountOriginal": 128000000,
+      "currency": "EUR",
+      "amountEur": 128000000,
+      "postMoneyValuationEur": 1000000000,
+      "investors": [
+        "Lightspeed Venture Partners",
+        "Sprints Capital",
+        "Insight Venture Partners",
+        "Accel",
+        "Burda Principal Investments"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://siliconcanals.com/crowdfunding/vinted-used-clothes-marketplace-pockets-e128m-at-e1b-valuation/",
+          "quote": "The online retailer has pocketed a massive €128 million in an equity funding round, valuing the company at over €1 billion."
+        },
+        {
+          "field": "month",
+          "url": "https://siliconcanals.com/crowdfunding/vinted-used-clothes-marketplace-pockets-e128m-at-e1b-valuation/",
+          "quote": "Nov 29, 2019"
+        },
+        {
+          "field": "investors",
+          "url": "https://siliconcanals.com/crowdfunding/vinted-used-clothes-marketplace-pockets-e128m-at-e1b-valuation/",
+          "quote": "The round was led by new investor Lightspeed Venture Partners , with participation from existing backers including Sprints Capital, Insight Venture Partners, Accel and Burda Principal Investments."
+        }
+      ]
+    },
+    {
+      "techeuId": "f5badbf4-fa20-4e1f-963c-3ae5e71a22b4",
+      "stage": "series-f+",
+      "month": "2021-05",
+      "amountOriginal": 250000000,
+      "currency": "EUR",
+      "amountEur": 250000000,
+      "investors": [
+        "EQT Growth",
+        "Accel",
+        "Burda Principal Investments",
+        "Insight Partners",
+        "Lightspeed Venture Partners",
+        "Sprints Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://siliconcanals.com/vinted-raises-250m/",
+          "quote": "has raised €250M in its Series F round of funding at a pre-money valuation of €3.5B"
+        },
+        {
+          "field": "month",
+          "url": "https://siliconcanals.com/vinted-raises-250m/",
+          "quote": "May 12, 2021"
+        },
+        {
+          "field": "stage",
+          "url": "https://siliconcanals.com/vinted-raises-250m/",
+          "quote": "Series F round"
+        },
+        {
+          "field": "investors",
+          "url": "https://siliconcanals.com/vinted-raises-250m/",
+          "quote": "Besides EQT Growth, the round also saw participation from existing investors including Accel, Burda Principal Investments, Insight Partners, Lightspeed Venture Partners, and Sprints Capital."
+        }
+      ]
+    }
+  ]
+}

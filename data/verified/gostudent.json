@@ -1,0 +1,207 @@
+{
+  "id": "gostudent",
+  "name": "GoStudent",
+  "aliases": [],
+  "domain": "gostudent.org",
+  "country": "AT",
+  "city": "Vienna",
+  "founded": 2016,
+  "sectors": [
+    "consumer"
+  ],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 1400000000,
+  "founders": [
+    "Felix Ohswald"
+  ],
+  "difficulty": 3,
+  "techeuId": "A5EC9808-6BD0-48DF-A3A7-EE290A6FA3A1",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://techcrunch.com/2021/03/30/tutor-marketplace-gostudent-raises-e70m-series-b-round-led-by-new-us-investor-coatue/",
+      "quote": "Vienna-based GoStudent, which connects students to tutors on a virtual learning platform"
+    },
+    {
+      "field": "founded",
+      "url": "https://techcrunch.com/2022/01/11/gostudent-raises-340m-series-d-funding-round-as-it-pushes-into-international-markets/",
+      "quote": "since GoStudent was founded in Vienna in 2016"
+    },
+    {
+      "field": "founders",
+      "url": "https://techcrunch.com/2020/11/18/tutor-marketplace-gostudent-takes-its-series-a-to-e13-3m-with-left-lane-capital-and-dn-capital/",
+      "quote": "CEO and co-founder Felix Ohswald"
+    },
+    {
+      "field": "sectors",
+      "url": "https://techcrunch.com/2021/03/30/tutor-marketplace-gostudent-raises-e70m-series-b-round-led-by-new-us-investor-coatue/",
+      "quote": "which connects students to tutors on a virtual learning platform"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://techcrunch.com/2021/06/21/viennas-gostudent-raises-244m-at-a-1-7b-valuation-for-its-online-tutor-marketplace/",
+      "quote": "in a Series C round that values the company at €1.4 billion"
+    },
+    {
+      "field": "valuation",
+      "url": "https://techcrunch.com/2021/06/21/viennas-gostudent-raises-244m-at-a-1-7b-valuation-for-its-online-tutor-marketplace/",
+      "quote": "in a Series C round that values the company at €1.4 billion"
+    },
+    {
+      "field": "valuation",
+      "url": "https://techcrunch.com/2022/01/11/gostudent-raises-340m-series-d-funding-round-as-it-pushes-into-international-markets/",
+      "quote": "giving it a notional $3.5 billion / €3 billion valuation"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "6832896d-abf3-41fb-f8d5-08d91092c887",
+      "stage": "series-a",
+      "month": "2020-11",
+      "amountEur": 5000000,
+      "amountOriginal": 5000000,
+      "currency": "EUR",
+      "investors": [
+        "Left Lane Capital",
+        "DN Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2020/11/18/tutor-marketplace-gostudent-takes-its-series-a-to-e13-3m-with-left-lane-capital-and-dn-capital/",
+          "quote": "adding €5 million this week in a round led by Left Lane Capital and DN Capital"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2020/11/18/tutor-marketplace-gostudent-takes-its-series-a-to-e13-3m-with-left-lane-capital-and-dn-capital/",
+          "quote": "increased the Series A round it raised earlier this year"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2020/11/18/tutor-marketplace-gostudent-takes-its-series-a-to-e13-3m-with-left-lane-capital-and-dn-capital/",
+          "quote": "2020-11-18"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2020/11/18/tutor-marketplace-gostudent-takes-its-series-a-to-e13-3m-with-left-lane-capital-and-dn-capital/",
+          "quote": "adding €5 million this week in a round led by Left Lane Capital and DN Capital"
+        }
+      ]
+    },
+    {
+      "techeuId": "55f9a18e-ad31-4b4f-f8d6-08d91092c887",
+      "stage": "series-b",
+      "month": "2021-03",
+      "amountEur": 70000000,
+      "amountOriginal": 70000000,
+      "currency": "EUR",
+      "investors": [
+        "Coatue",
+        "Left Lane Capital",
+        "DN Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2021/03/30/tutor-marketplace-gostudent-raises-e70m-series-b-round-led-by-new-us-investor-coatue/",
+          "quote": "has raised a €70 million Series B funding round led by new U.S. investor Coatue"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2021/03/30/tutor-marketplace-gostudent-raises-e70m-series-b-round-led-by-new-us-investor-coatue/",
+          "quote": "has raised a €70 million Series B funding round"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2021/03/30/tutor-marketplace-gostudent-raises-e70m-series-b-round-led-by-new-us-investor-coatue/",
+          "quote": "2021-03-30"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2021/03/30/tutor-marketplace-gostudent-raises-e70m-series-b-round-led-by-new-us-investor-coatue/",
+          "quote": "It was joined by existing investors Left Lane Capital and DN Capital"
+        }
+      ]
+    },
+    {
+      "techeuId": "14a04cf4-0bb8-4b1a-a3f3-c4a93ffec79a",
+      "stage": "series-c",
+      "month": "2021-06",
+      "amountEur": 205000000,
+      "amountOriginal": 205000000,
+      "currency": "EUR",
+      "postMoneyValuationEur": 1400000000,
+      "investors": [
+        "DST Global",
+        "SoftBank Vision Fund 2",
+        "Tencent",
+        "Dragoneer",
+        "Coatue",
+        "Left Lane Capital",
+        "DN Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2021/06/21/viennas-gostudent-raises-244m-at-a-1-7b-valuation-for-its-online-tutor-marketplace/",
+          "quote": "has raised €205 million ($244 million) in a Series C round"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2021/06/21/viennas-gostudent-raises-244m-at-a-1-7b-valuation-for-its-online-tutor-marketplace/",
+          "quote": "has raised €205 million ($244 million) in a Series C round"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2021/06/21/viennas-gostudent-raises-244m-at-a-1-7b-valuation-for-its-online-tutor-marketplace/",
+          "quote": "2021-06-21"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2021/06/21/viennas-gostudent-raises-244m-at-a-1-7b-valuation-for-its-online-tutor-marketplace/",
+          "quote": "DST Global is leading the round, with SoftBank (via its Vision Fund 2), Tencent, Dragoneer and previous backers Coatue, Left Lane Capital and DN Capital also participating"
+        }
+      ]
+    },
+    {
+      "techeuId": "014dd040-7daa-43a3-add6-1e761c5f7b3c",
+      "stage": "series-d",
+      "month": "2022-01",
+      "amountEur": 299929428,
+      "amountOriginal": 340000000,
+      "currency": "USD",
+      "investors": [
+        "Prosus Ventures",
+        "Deutsche Telekom",
+        "SoftBank Vision Fund 2",
+        "Tencent",
+        "Dragoneer",
+        "Left Lane Capital",
+        "Coatue"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2022/01/11/gostudent-raises-340m-series-d-funding-round-as-it-pushes-into-international-markets/",
+          "quote": "has now raised a $340 million Series D round led by new investor Prosus"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2022/01/11/gostudent-raises-340m-series-d-funding-round-as-it-pushes-into-international-markets/",
+          "quote": "has now raised a $340 million Series D round"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2022/01/11/gostudent-raises-340m-series-d-funding-round-as-it-pushes-into-international-markets/",
+          "quote": "2022-01-11"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2022/01/11/gostudent-raises-340m-series-d-funding-round-as-it-pushes-into-international-markets/",
+          "quote": "Also participating was Deutsche Telekom, SoftBank Vision Fund 2, Tencent, Dragoneer, Left Lane Capital and Coatue."
+        }
+      ]
+    }
+  ]
+}

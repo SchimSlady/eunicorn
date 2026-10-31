@@ -28,6 +28,14 @@ Read this before verifying a company. Each rule came from a real problem in the 
 - **Founders:** only people named in a source. Leave out founders you can't quote.
 - **Unicorn:** true only if a priced funding round valued the company at €1bn+ (post-money preferred; a pre-money of €1bn+ also counts), or the company IPO'd at €1bn+. SPAC deals, acquisition prices, enterprise values and press estimates do not count. Convert to EUR at the ECB rate: "$1bn" is not a unicorn if it is under €1bn. Leave `lastValuationEur` out if undisclosed.
 
+## File format traps (batch 2)
+- **Round `techeuId` is the Tech.eu ROUND id**, never the company id, and never the same id on two rounds. If you can't match a round, leave `techeuId` out.
+- **Allowed `sources[].field` values for the company:** city, founded, founders, sectors, status, unicorn, valuation, employees, fun_fact, logo. Nothing else (no "domain", "country", "name"); the loader rejects them.
+- **A verified company needs** city, founded and at least one sector, or the database rejects it.
+- **Sectors:** fintech, ai, mobility, climate, health, defense, consumer, saas, gaming, travel, crypto, quick-commerce, space, quantum, semiconductors, robotics, cybersecurity, biotech. Don't file chips, quantum, robots, security or drug developers under "ai".
+- **Quotes are checked from the start:** fetch page text with curl, copy the sentence, confirm with `grep -F`. WebFetch output is a summary and is not a quote.
+- **Listed or defunct companies are fine if they started as startups** (Spotify, UiPath, Northvolt). Exclude corporates, subsidiaries, research institutes and companies founded before 1995.
+
 ## Logos
 - **Order:** Wikidata `P154` (Wikimedia Commons file) first, then the company's own press kit or header logo, then Wikipedia's infobox.
 - **Brandfetch Logo API prohibits programmatic downloads.** Don't use its CDN.

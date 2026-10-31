@@ -1,0 +1,209 @@
+{
+  "id": "sorare",
+  "name": "Sorare",
+  "aliases": [],
+  "domain": "sorare.com",
+  "country": "FR",
+  "city": "Paris",
+  "founded": 2018,
+  "sectors": [
+    "gaming",
+    "crypto"
+  ],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 3671761592,
+  "founders": [
+    "Nicolas Julia",
+    "Adrien Montfort"
+  ],
+  "difficulty": 2,
+  "techeuId": "659104EF-EFE4-454E-859C-D34CF74DADAD",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.businessinsider.com/andre-schurrle-football-soccer-startup-sorare-funding-2020-7",
+      "quote": "Founded in 2018, Paris-based Sorare"
+    },
+    {
+      "field": "founded",
+      "url": "https://www.businessinsider.com/andre-schurrle-football-soccer-startup-sorare-funding-2020-7",
+      "quote": "Founded in 2018, Paris-based Sorare"
+    },
+    {
+      "field": "founders",
+      "url": "https://fr.wikipedia.org/wiki/Sorare",
+      "quote": "Le jeu, lancé en 2019 par Nicolas Julia et Adrien Montfort"
+    },
+    {
+      "field": "sectors",
+      "url": "https://fr.wikipedia.org/wiki/Sorare",
+      "quote": "Sorare est un jeu de fantasy sports en ligne développé par une start-up française fondée en 2018"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://techcrunch.com/2021/09/20/sorare-raises-680-million-for-its-fantasy-sports-nft-game/",
+      "quote": "which values the company at $4.3 billion."
+    },
+    {
+      "field": "valuation",
+      "url": "https://techcrunch.com/2021/09/20/sorare-raises-680-million-for-its-fantasy-sports-nft-game/",
+      "quote": "which values the company at $4.3 billion."
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "c687b1c0-8a05-454e-fc46-08d91092c887",
+      "stage": "pre-seed",
+      "month": "2019-05",
+      "amountEur": 550000,
+      "amountOriginal": 550000,
+      "currency": "EUR",
+      "investors": [
+        "Xavier Niel",
+        "Kima Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://fr.wikipedia.org/wiki/Sorare",
+          "quote": "En mai 2019 , Sorare réalise un tour de financement de pré-amorçage de 550 000 €"
+        },
+        {
+          "field": "stage",
+          "url": "https://fr.wikipedia.org/wiki/Sorare",
+          "quote": "En mai 2019 , Sorare réalise un tour de financement de pré-amorçage de 550 000 €"
+        },
+        {
+          "field": "month",
+          "url": "https://fr.wikipedia.org/wiki/Sorare",
+          "quote": "En mai 2019 , Sorare réalise un tour de financement de pré-amorçage de 550 000 €"
+        },
+        {
+          "field": "investors",
+          "url": "https://fr.wikipedia.org/wiki/Sorare",
+          "quote": "notamment auprès de l’entrepreneur Xavier Niel et de son fonds Kima Ventures"
+        }
+      ]
+    },
+    {
+      "techeuId": "8910ee4c-7634-4df4-fc47-08d91092c887",
+      "stage": "seed",
+      "month": "2020-07",
+      "amountEur": 3504468,
+      "amountOriginal": 4000000,
+      "currency": "USD",
+      "investors": [
+        "Seedcamp",
+        "André Schürrle",
+        "Fabric Ventures",
+        "e.ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.businessinsider.com/andre-schurrle-football-soccer-startup-sorare-funding-2020-7",
+          "quote": "Fantasy soccer startup Sorare just raised $4 million in a funding round backed by Seedcamp and German striker Andre Schurrle."
+        },
+        {
+          "field": "month",
+          "url": "https://www.businessinsider.com/andre-schurrle-football-soccer-startup-sorare-funding-2020-7",
+          "quote": "2020-07-16"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.businessinsider.com/andre-schurrle-football-soccer-startup-sorare-funding-2020-7",
+          "quote": "which was also backed by Fabric Ventures and e.ventures"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.businessinsider.com/andre-schurrle-football-soccer-startup-sorare-funding-2020-7",
+          "quote": "backed by Seedcamp and German striker Andre Schurrle"
+        }
+      ]
+    },
+    {
+      "techeuId": "8ebee94f-5325-42d8-fc49-08d91092c887",
+      "stage": "series-a",
+      "month": "2021-02",
+      "amountEur": 40000000,
+      "amountOriginal": 40000000,
+      "currency": "EUR",
+      "investors": [
+        "Antoine Griezmann",
+        "Alexis Ohanian",
+        "Gerard Piqué"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://fr.wikipedia.org/wiki/Sorare",
+          "quote": "Le 25 février 2021 , Sorare annonce une levée de fonds de 40 millions d’euros"
+        },
+        {
+          "field": "month",
+          "url": "https://fr.wikipedia.org/wiki/Sorare",
+          "quote": "Le 25 février 2021 , Sorare annonce une levée de fonds de 40 millions d’euros"
+        },
+        {
+          "field": "investors",
+          "url": "https://fr.wikipedia.org/wiki/Sorare",
+          "quote": "dont Antoine Griezmann et Alexis Ohanian"
+        },
+        {
+          "field": "investors",
+          "url": "https://fr.wikipedia.org/wiki/Sorare",
+          "quote": "Gerard Piqué rejoint également le capital de l’entreprise."
+        }
+      ]
+    },
+    {
+      "techeuId": "0578a503-10ad-469a-b162-ced365f6a498",
+      "stage": "series-b",
+      "month": "2021-09",
+      "amountEur": 580650670,
+      "amountOriginal": 680000000,
+      "currency": "USD",
+      "postMoneyValuationEur": 3671761592,
+      "investors": [
+        "SoftBank Vision Fund 2",
+        "Atomico",
+        "Bessemer Venture Partners",
+        "D1 Capital Partners",
+        "Eurazeo",
+        "IVP",
+        "LionTree",
+        "Benchmark",
+        "Accel",
+        "Headline"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2021/09/20/sorare-raises-680-million-for-its-fantasy-sports-nft-game/",
+          "quote": "has led a $680 million Series B round, which values the company at $4.3 billion."
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2021/09/20/sorare-raises-680-million-for-its-fantasy-sports-nft-game/",
+          "quote": "has led a $680 million Series B round, which values the company at $4.3 billion."
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2021/09/20/sorare-raises-680-million-for-its-fantasy-sports-nft-game/",
+          "quote": "September 20, 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2021/09/20/sorare-raises-680-million-for-its-fantasy-sports-nft-game/",
+          "quote": "Atomico, Bessemer Ventures, D1 Capital, Eurazeo, IVP and Liontree are also participating in the round."
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2021/09/20/sorare-raises-680-million-for-its-fantasy-sports-nft-game/",
+          "quote": "such as Benchmark, Accel, Headline and various business angels."
+        }
+      ]
+    }
+  ]
+}

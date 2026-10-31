@@ -1,0 +1,157 @@
+{
+  "id": "verkor",
+  "name": "Verkor",
+  "aliases": [],
+  "domain": "verkor.com",
+  "country": "FR",
+  "city": "Grenoble",
+  "founded": 2020,
+  "sectors": [
+    "climate",
+    "mobility"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Benoit Lemaignan",
+    "Christophe Mille",
+    "Sylvain Paineau",
+    "Philippe Chain",
+    "Gilles Moreau",
+    "Olivier Dufour"
+  ],
+  "difficulty": 4,
+  "techeuId": "D3ADA5D9-AABB-4A3A-B590-BFAB6FC590EE",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://siliconcanals.com/verkor-raises-100m/",
+      "quote": "a French industrial company based in Grenoble"
+    },
+    {
+      "field": "founded",
+      "url": "https://siliconcanals.com/verkor-raises-100m/",
+      "quote": "The company was founded in July 2020 by Benoit Lemaignan, Christophe Mille, Sylvain Paineau, Philippe Chain, Gilles Moreau, and Olivier Dufour."
+    },
+    {
+      "field": "founders",
+      "url": "https://siliconcanals.com/verkor-raises-100m/",
+      "quote": "The company was founded in July 2020 by Benoit Lemaignan, Christophe Mille, Sylvain Paineau, Philippe Chain, Gilles Moreau, and Olivier Dufour."
+    },
+    {
+      "field": "sectors",
+      "url": "https://siliconcanals.com/verkor-raises-100m/",
+      "quote": "founded with a mission to fast-track low‑carbon battery production in France"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "308708c7-227c-4ff7-b6a9-6879f2e7574a",
+      "stage": "series-a",
+      "month": "2021-07",
+      "amountOriginal": 100000000,
+      "currency": "EUR",
+      "amountEur": 100000000,
+      "investors": [
+        "EQT Ventures",
+        "Renault Group",
+        "EIT InnoEnergy",
+        "Groupe IDEC",
+        "Schneider Electric",
+        "Capgemini",
+        "Arkema",
+        "Tokai COBEX",
+        "Demeter"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://siliconcanals.com/verkor-raises-100m/",
+          "quote": "Less than a year after its launch, France’s Verkor raises €100M"
+        },
+        {
+          "field": "month",
+          "url": "https://siliconcanals.com/verkor-raises-100m/",
+          "quote": "Jul 7, 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://siliconcanals.com/verkor-raises-100m/",
+          "quote": "The round was co-led by EQT Ventures and Renault Group"
+        },
+        {
+          "field": "investors",
+          "url": "https://siliconcanals.com/verkor-raises-100m/",
+          "quote": "the investment also saw participation from EIT InnoEnergy, Groupe IDEC, Schneider Electric, Capgemini, Arkema, Tokai COBEX, and the Fund for Ecological Modernisation of Transport (FMET) managed by Demeter"
+        }
+      ]
+    },
+    {
+      "techeuId": "0ad405e8-f16a-489b-837d-0a4a2aff7d7d",
+      "stage": "series-c",
+      "month": "2023-09",
+      "amountOriginal": 850000000,
+      "currency": "EUR",
+      "amountEur": 850000000,
+      "investors": [
+        "Macquarie Asset Management",
+        "Meridiam",
+        "Renault Group",
+        "EQT Ventures",
+        "EIT InnoEnergy",
+        "Sibanye-Stillwater",
+        "Bpifrance",
+        "Crédit Agricole Assurances",
+        "Fonds Stratégique de Participations",
+        "CMA CGM"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://verkor.com/en/verkor-secures-more-than-e2-billion-to-launch-high-performance-battery-gigafactory-in-france-and-accelerate-future-sustainable-mobility/",
+          "quote": "The round size, which is subject to customary regulatory approvals, is a minimum of €850 million and could increase in the following weeks."
+        },
+        {
+          "field": "month",
+          "url": "https://verkor.com/en/verkor-secures-more-than-e2-billion-to-launch-high-performance-battery-gigafactory-in-france-and-accelerate-future-sustainable-mobility/",
+          "quote": "14 September 2023"
+        },
+        {
+          "field": "stage",
+          "url": "https://verkor.com/en/verkor-secures-more-than-e2-billion-to-launch-high-performance-battery-gigafactory-in-france-and-accelerate-future-sustainable-mobility/",
+          "quote": "becomes lead investor in Verkor’s Series C funding round"
+        },
+        {
+          "field": "investors",
+          "url": "https://verkor.com/en/verkor-secures-more-than-e2-billion-to-launch-high-performance-battery-gigafactory-in-france-and-accelerate-future-sustainable-mobility/",
+          "quote": "Macquarie Asset Management, via its Energy Transition Solutions Fund, becomes lead investor in Verkor’s Series C funding round."
+        },
+        {
+          "field": "investors",
+          "url": "https://verkor.com/en/verkor-secures-more-than-e2-billion-to-launch-high-performance-battery-gigafactory-in-france-and-accelerate-future-sustainable-mobility/",
+          "quote": "Also joining in the round are Verkor’s original key industrial and financial partners such as Renault Group, EQT Ventures, EIT InnoEnergy and Sibanye-Stillwater."
+        },
+        {
+          "field": "investors",
+          "url": "https://verkor.com/en/verkor-secures-more-than-e2-billion-to-launch-high-performance-battery-gigafactory-in-france-and-accelerate-future-sustainable-mobility/",
+          "quote": "Meridiam, an independent investment Benefit Corporation and asset manager is taking a significant stake in the round"
+        },
+        {
+          "field": "investors",
+          "url": "https://verkor.com/en/verkor-secures-more-than-e2-billion-to-launch-high-performance-battery-gigafactory-in-france-and-accelerate-future-sustainable-mobility/",
+          "quote": "significant investment from Crédit Agricole Assurances and the Fonds Stratégique de Participations (FSP), operated by ISALT"
+        },
+        {
+          "field": "investors",
+          "url": "https://verkor.com/en/verkor-secures-more-than-e2-billion-to-launch-high-performance-battery-gigafactory-in-france-and-accelerate-future-sustainable-mobility/",
+          "quote": "PULSE, the CMA CGM Energy Fund, contributed to the fundraising"
+        },
+        {
+          "field": "investors",
+          "url": "https://verkor.com/en/verkor-secures-more-than-e2-billion-to-launch-high-performance-battery-gigafactory-in-france-and-accelerate-future-sustainable-mobility/",
+          "quote": "The SPI investment fund (Société de projets industriels) which is operated by Bpifrance (the French public investment bank) is increasing its investment in this round"
+        }
+      ]
+    }
+  ]
+}

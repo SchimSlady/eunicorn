@@ -1,0 +1,158 @@
+{
+  "id": "scalapay",
+  "name": "Scalapay",
+  "aliases": [],
+  "domain": "scalapay.com",
+  "country": "IT",
+  "city": "Milan",
+  "founded": 2019,
+  "sectors": [
+    "fintech"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Simone Mancini",
+    "Johnny Mitrevski",
+    "Raffaele Terrone",
+    "Daniele Tessari"
+  ],
+  "difficulty": 3,
+  "techeuId": "A0785B6E-BEF7-4C90-A0CE-C8F282DAAB2F",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://techcrunch.com/2021/01/28/scalapay-raises-48m-to-scale-its-buy-now-pay-later-service-in-europe/",
+      "quote": "The Milan, Italy-based startup"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Scalapay",
+      "quote": "It was founded in 2019 by Simone Mancini, Johnny Mitrevski, Raffaele Terrone and Daniele Tessari."
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Scalapay",
+      "quote": "It was founded in 2019 by Simone Mancini, Johnny Mitrevski, Raffaele Terrone and Daniele Tessari."
+    },
+    {
+      "field": "sectors",
+      "url": "https://techcrunch.com/2021/09/09/scalapay-raises-155m-at-a-700m-valuation-as-buy-now-pay-later-services-continue-to-boom/",
+      "quote": "Scalapay , a buy now, pay later (BNPL) technology provider"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "c10581fd-4657-4f81-fbed-08d91092c887",
+      "stage": "seed",
+      "month": "2021-01",
+      "amountEur": 39698950,
+      "amountOriginal": 48000000,
+      "currency": "USD",
+      "investors": [
+        "Fasanara Capital",
+        "Baleen Capital",
+        "Ithaca Investments"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2021/01/28/scalapay-raises-48m-to-scale-its-buy-now-pay-later-service-in-europe/",
+          "quote": "has picked up $48 million in funding"
+        },
+        {
+          "field": "stage",
+          "url": "https://en.wikipedia.org/wiki/Scalapay",
+          "quote": "In January 2021, Scalapay raised $48 million in a seed round led by Fasanara Capital"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2021/01/28/scalapay-raises-48m-to-scale-its-buy-now-pay-later-service-in-europe/",
+          "quote": "January 28, 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2021/01/28/scalapay-raises-48m-to-scale-its-buy-now-pay-later-service-in-europe/",
+          "quote": "The round was led by Fasanara Capital and also included Baleen Capital and Italian family office Ithaca Investments."
+        }
+      ]
+    },
+    {
+      "techeuId": "a4760158-4038-4c74-b3b6-020b3e602575",
+      "stage": "series-a",
+      "month": "2021-09",
+      "amountEur": 130934279,
+      "amountOriginal": 155000000,
+      "currency": "USD",
+      "investors": [
+        "Tiger Global Management",
+        "Baleen Capital",
+        "Woodson Capital",
+        "Fasanara Capital",
+        "Ithaca Investments"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2021/09/09/scalapay-raises-155m-at-a-700m-valuation-as-buy-now-pay-later-services-continue-to-boom/",
+          "quote": "The startup has raised $155 million at a $700 million valuation."
+        },
+        {
+          "field": "stage",
+          "url": "https://en.wikipedia.org/wiki/Scalapay",
+          "quote": "followed by a $155 million Series A investment led by Tiger Global Management in September 2021"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2021/09/09/scalapay-raises-155m-at-a-700m-valuation-as-buy-now-pay-later-services-continue-to-boom/",
+          "quote": "September 9, 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2021/09/09/scalapay-raises-155m-at-a-700m-valuation-as-buy-now-pay-later-services-continue-to-boom/",
+          "quote": "Tiger Global is leading this round, with new backers Baleen Capital and Woodson Capital also participating, alongside Fasanara Capital and Ithaca Investments"
+        }
+      ]
+    },
+    {
+      "techeuId": "a0cf6566-3d1d-4b8a-a272-9a1bc2cba823",
+      "stage": "series-b",
+      "month": "2022-02",
+      "amountEur": 438117066,
+      "amountOriginal": 497000000,
+      "currency": "USD",
+      "investors": [
+        "Tencent",
+        "Tiger Global Management",
+        "Willoughby Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.businessinsider.com/buy-now-pay-later-startup-scalapay-raises-497m-from-tencent-2022-2",
+          "quote": "used to raise $497 million from Tencent"
+        },
+        {
+          "field": "stage",
+          "url": "https://en.wikipedia.org/wiki/Scalapay",
+          "quote": "In February 2022, Scalapay raised $497 million in a Series B round led by Tencent"
+        },
+        {
+          "field": "month",
+          "url": "https://www.businessinsider.com/buy-now-pay-later-startup-scalapay-raises-497m-from-tencent-2022-2",
+          "quote": "2022-02-23T15:45:18.000Z"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.businessinsider.com/buy-now-pay-later-startup-scalapay-raises-497m-from-tencent-2022-2",
+          "quote": "Tiger Global also backed the Series B round."
+        },
+        {
+          "field": "investors",
+          "url": "https://en.wikipedia.org/wiki/Scalapay",
+          "quote": "In February 2022, Scalapay raised $497 million in a Series B round led by Tencent and Willoughby Capital"
+        }
+      ]
+    }
+  ]
+}

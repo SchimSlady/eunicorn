@@ -1,0 +1,93 @@
+{
+  "id": "rimac-automobili",
+  "name": "Rimac Automobili",
+  "aliases": [
+    "Rimac"
+  ],
+  "domain": "rimac-automobili.com",
+  "country": "HR",
+  "city": "Sveta Nedelja",
+  "founded": 2009,
+  "sectors": [
+    "mobility"
+  ],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 2000000000,
+  "founders": [
+    "Mate Rimac"
+  ],
+  "difficulty": 2,
+  "techeuId": "2D2D7FD3-2502-4B26-AF10-65BF0AF636B5",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/Rimac_Automobili",
+      "quote": "headquartered in Sveta Nedelja , Croatia"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Rimac_Automobili",
+      "quote": "The company was founded in 2009 by Mate Rimac"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Rimac_Automobili",
+      "quote": "The company was founded in 2009 by Mate Rimac"
+    },
+    {
+      "field": "sectors",
+      "url": "https://en.wikipedia.org/wiki/Rimac_Automobili",
+      "quote": "develops and produces electric sports cars"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://www.rimac-newsroom.com/press-releases/rimac-group/rimac-group-raises-eur-500-million-in-series-d-investment-round-led-by-softbank-v",
+      "quote": "valuing the Company at over EUR 2bn"
+    },
+    {
+      "field": "valuation",
+      "url": "https://www.rimac-newsroom.com/press-releases/rimac-group/rimac-group-raises-eur-500-million-in-series-d-investment-round-led-by-softbank-v",
+      "quote": "valuing the Company at over EUR 2bn"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "0bf70929-6c5b-4e66-a85b-4597651c9a24",
+      "stage": "series-d",
+      "month": "2022-06",
+      "amountEur": 500000000,
+      "amountOriginal": 500000000,
+      "currency": "EUR",
+      "postMoneyValuationEur": 2000000000,
+      "investors": [
+        "SoftBank Vision Fund 2",
+        "Goldman Sachs Asset Management",
+        "Porsche",
+        "InvestIndustrial"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.rimac-newsroom.com/press-releases/rimac-group/rimac-group-raises-eur-500-million-in-series-d-investment-round-led-by-softbank-v",
+          "quote": "raised EUR 500 million in its Series D"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.rimac-newsroom.com/press-releases/rimac-group/rimac-group-raises-eur-500-million-in-series-d-investment-round-led-by-softbank-v",
+          "quote": "raised EUR 500 million in its Series D"
+        },
+        {
+          "field": "month",
+          "url": "https://www.rimac-newsroom.com/press-releases/rimac-group/rimac-group-raises-eur-500-million-in-series-d-investment-round-led-by-softbank-v",
+          "quote": "1 June, 2022, Zagreb"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.rimac-newsroom.com/press-releases/rimac-group/rimac-group-raises-eur-500-million-in-series-d-investment-round-led-by-softbank-v",
+          "quote": "The fundraising was led by SoftBank Vision Fund 2 and the Private Equity business within Goldman Sachs Asset Management, with participation from existing Rimac shareholders, including Porsche and InvestIndustrial"
+        }
+      ]
+    }
+  ]
+}

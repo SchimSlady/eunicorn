@@ -1,0 +1,108 @@
+{
+  "id": "newcleo",
+  "name": "newcleo",
+  "aliases": [
+    "Newcleo"
+  ],
+  "domain": "newcleo.com",
+  "country": "FR",
+  "city": "Paris",
+  "founded": 2021,
+  "sectors": [
+    "climate"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Stefano Buono",
+    "Luciano Cinotti",
+    "Elisabeth Rizzotti"
+  ],
+  "difficulty": 4,
+  "techeuId": "20FF3F19-B70B-48D9-92F4-0F59F50874B7",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/Newcleo",
+      "quote": "Headquartered in Paris and founded in 2021"
+    },
+    {
+      "field": "city",
+      "url": "https://www.world-nuclear-news.org/articles/Newcleo-focus-on-Europe-with-HQ-move-from-UK-to-France",
+      "quote": "has relocated its headquarters from London to Paris"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Newcleo",
+      "quote": "In September 2021, Stefano Buono, Luciano Cinotti, and Elisabeth Rizzotti founded newcleo."
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Newcleo",
+      "quote": "In September 2021, Stefano Buono, Luciano Cinotti, and Elisabeth Rizzotti founded newcleo."
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.world-nuclear-news.org/articles/Newcleo-focus-on-Europe-with-HQ-move-from-UK-to-France",
+      "quote": "the developer of small modular lead-cooled fast reactors"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "50553260-8e15-469d-a186-837365da62f9",
+      "stage": "seed",
+      "month": "2021-08",
+      "amountEur": 99712692,
+      "amountOriginal": 118000000,
+      "currency": "USD",
+      "investors": [
+        "Exor Seeds",
+        "LIFTT",
+        "Club degli Investitori"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.nuclearpowerdaily.com/reports/newcleo_powers_up_with_founding_capital_round_and_acquisition_of_Hydromine_Nuclear_Energy_999.html",
+          "quote": "closing of a USD 118 million initial capital raising"
+        },
+        {
+          "field": "month",
+          "url": "https://www.nuclearpowerdaily.com/reports/newcleo_powers_up_with_founding_capital_round_and_acquisition_of_Hydromine_Nuclear_Energy_999.html",
+          "quote": "Published August 31, 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.nuclearpowerdaily.com/reports/newcleo_powers_up_with_founding_capital_round_and_acquisition_of_Hydromine_Nuclear_Energy_999.html",
+          "quote": "including New York-based Exor Seeds, and Turin-based LIFTT and Club degli Investitori"
+        }
+      ]
+    },
+    {
+      "techeuId": "8736ea0e-7676-4903-9237-53efe8382638",
+      "stage": "series-a",
+      "month": "2024-09",
+      "amountEur": 135000000,
+      "amountOriginal": 135000000,
+      "currency": "EUR",
+      "investors": [],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.world-nuclear-news.org/articles/Newcleo-focus-on-Europe-with-HQ-move-from-UK-to-France",
+          "quote": "of which EUR135 million has been subscribed and paid from the UK Series A tranche"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.world-nuclear-news.org/articles/Newcleo-focus-on-Europe-with-HQ-move-from-UK-to-France",
+          "quote": "UK phase of its Series A capital raise"
+        },
+        {
+          "field": "month",
+          "url": "https://www.world-nuclear-news.org/articles/Newcleo-focus-on-Europe-with-HQ-move-from-UK-to-France",
+          "quote": "\"datePublished\": \"2024-09-30T11:28:21\""
+        }
+      ]
+    }
+  ]
+}

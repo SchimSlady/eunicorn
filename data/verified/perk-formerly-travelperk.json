@@ -1,0 +1,204 @@
+{
+  "id": "perk-formerly-travelperk",
+  "name": "Perk (formerly TravelPerk)",
+  "aliases": [
+    "TravelPerk",
+    "Perk"
+  ],
+  "domain": "perk.com",
+  "country": "ES",
+  "city": "Barcelona",
+  "founded": 2015,
+  "sectors": [
+    "travel"
+  ],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 2590922176,
+  "founders": [
+    "Avi Meir",
+    "Javier Suarez",
+    "Ron Levin"
+  ],
+  "difficulty": 3,
+  "techeuId": "9CF4B55D-1B96-4F25-98F0-A9CE82DA594D",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://techcrunch.com/2022/01/12/travelperk-series-d-unicorn/",
+      "quote": "the Barcelona-based startup is sounding more confident"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/TravelPerk",
+      "quote": "TravelPerk was founded in 2015 by Avi Meir"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/TravelPerk",
+      "quote": "TravelPerk was founded in 2015 by Avi Meir (founder of Hotel Ninjas, acquired by Booking.com ), Javier Suarez, and Ron Levin."
+    },
+    {
+      "field": "sectors",
+      "url": "https://techcrunch.com/2022/01/12/travelperk-series-d-unicorn/",
+      "quote": "SME-focused business travel booking platform TravelPerk"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://techcrunch.com/2022/01/12/travelperk-series-d-unicorn/",
+      "quote": "TravelPerk said its business is now being valued at $1.3 billion"
+    },
+    {
+      "field": "valuation",
+      "url": "https://thenextweb.com/news/travelperk-raises-200m-buys-expenses-startup-yokoy",
+      "quote": "The investment values TravelPerk at $2.7bn"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "70116f94-0fb6-4a91-dd2f-08d91092c887",
+      "stage": "series-c",
+      "month": "2018-10",
+      "amountEur": 37993265,
+      "amountOriginal": 44000000,
+      "currency": "USD",
+      "investors": [
+        "Kinnevik",
+        "Yuri Milner",
+        "Tom Stafford"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2018/10/15/travelperk-grabs-44m-to-take-its-pain-free-saas-for-business-travel-global/",
+          "quote": "TravelPerk has announced a $44 million Series C"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2018/10/15/travelperk-grabs-44m-to-take-its-pain-free-saas-for-business-travel-global/",
+          "quote": "TravelPerk has announced a $44 million Series C"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2018/10/15/travelperk-grabs-44m-to-take-its-pain-free-saas-for-business-travel-global/",
+          "quote": "October 15, 2018"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2018/10/15/travelperk-grabs-44m-to-take-its-pain-free-saas-for-business-travel-global/",
+          "quote": "Investors in the new round include Sweden’s Kinnevik, Russian billionaire and DST Global founder Yuri Milner and Tom Stafford, also of DST."
+        }
+      ]
+    },
+    {
+      "techeuId": "df92754c-0fe3-4300-dd30-08d91092c887",
+      "stage": "series-c",
+      "month": "2019-07",
+      "amountEur": 53495007,
+      "amountOriginal": 60000000,
+      "currency": "USD",
+      "investors": [
+        "Kinnevik",
+        "DST Global",
+        "Target Global",
+        "Felix Capital",
+        "Sunstone Capital",
+        "LocalGlobe"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2019/07/18/travelperk-is-taking-business-places-with-new-funding-at-104-million",
+          "quote": "has raised an extra $60 million as an extension to its Series C"
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2019/07/18/travelperk-is-taking-business-places-with-new-funding-at-104-million",
+          "quote": "as an extension to its Series C"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2019/07/18/travelperk-is-taking-business-places-with-new-funding-at-104-million",
+          "quote": "18 July 2019"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2019/07/18/travelperk-is-taking-business-places-with-new-funding-at-104-million",
+          "quote": "the recent funding has been raised from existing investors: Kinnevik, individual partners of DST Global, Target Global, Felix Capital, Sunstone, and LocalGlobe."
+        }
+      ]
+    },
+    {
+      "techeuId": "10334328-216e-4045-a1ab-18811f479f82",
+      "stage": "series-d",
+      "month": "2022-01",
+      "amountEur": 101143360,
+      "amountOriginal": 115000000,
+      "currency": "USD",
+      "investors": [
+        "General Catalyst",
+        "Kinnevik"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2022/01/12/travelperk-series-d-unicorn/",
+          "quote": "with an additional $115 million"
+        },
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2022/01/12/travelperk-series-d-unicorn/",
+          "quote": "100% equity"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2022/01/12/travelperk-series-d-unicorn/",
+          "quote": "TravelPerk adds $115M to equity and debt Series D"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2022/01/12/travelperk-series-d-unicorn/",
+          "quote": "January 12, 2022"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2022/01/12/travelperk-series-d-unicorn/",
+          "quote": "The final tranche of the D round was led by U.S. VC firm General Catalyst, a new investor in the business, along with existing backer Kinnevik."
+        }
+      ]
+    },
+    {
+      "techeuId": "18f784e2-77aa-45cd-b2ea-5df34a3ed2f6",
+      "stage": "series-e",
+      "month": "2025-01",
+      "amountEur": 191920161,
+      "amountOriginal": 200000000,
+      "currency": "USD",
+      "investors": [
+        "Atomico"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://thenextweb.com/news/travelperk-raises-200m-buys-expenses-startup-yokoy",
+          "quote": "TravelPerk has raised $200mn at a $2.7bn valuation"
+        },
+        {
+          "field": "stage",
+          "url": "https://thenextweb.com/news/travelperk-raises-200m-buys-expenses-startup-yokoy",
+          "quote": "European VC firm Atomico led the Series E investment."
+        },
+        {
+          "field": "month",
+          "url": "https://thenextweb.com/news/travelperk-raises-200m-buys-expenses-startup-yokoy",
+          "quote": "January 28, 2025"
+        },
+        {
+          "field": "investors",
+          "url": "https://thenextweb.com/news/travelperk-raises-200m-buys-expenses-startup-yokoy",
+          "quote": "European VC firm Atomico led the Series E investment."
+        }
+      ]
+    }
+  ]
+}

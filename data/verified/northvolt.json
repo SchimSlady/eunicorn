@@ -1,0 +1,94 @@
+{
+  "id": "northvolt",
+  "name": "Northvolt",
+  "aliases": [],
+  "domain": "northvolt.com",
+  "country": "SE",
+  "city": "Stockholm",
+  "founded": 2015,
+  "sectors": [
+    "climate",
+    "mobility"
+  ],
+  "status": "defunct",
+  "unicorn": false,
+  "founders": [
+    "Peter Carlsson",
+    "Paolo Cerruti"
+  ],
+  "difficulty": 2,
+  "techeuId": "F10674BA-AE7A-4A77-B808-106068951967",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/Northvolt",
+      "quote": "the headquarters were located in Stockholm, Sweden"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Northvolt",
+      "quote": "Founded in 2015 by two former Tesla executives"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Northvolt",
+      "quote": "founded as SGF Energy in 2015 by Peter Carlsson and Paolo Cerruti"
+    },
+    {
+      "field": "sectors",
+      "url": "https://en.wikipedia.org/wiki/Northvolt",
+      "quote": "supply the automotive industry with electric vehicle batteries"
+    },
+    {
+      "field": "status",
+      "url": "https://en.wikipedia.org/wiki/Northvolt",
+      "quote": "It subsequently filed for bankruptcy in Sweden on March 12, 2025."
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-f+",
+      "month": "2022-07",
+      "amountEur": 1082357572,
+      "amountOriginal": 1100000000,
+      "currency": "USD",
+      "investors": [
+        "AMF",
+        "AP1",
+        "AP2",
+        "AP3",
+        "AP4",
+        "ATP",
+        "Ava Investors",
+        "Baillie Gifford",
+        "Fondaco Growth",
+        "Folksam Group",
+        "Goldman Sachs Asset Management",
+        "IMAS Foundation",
+        "Olympia Group",
+        "OMERS Capital Markets",
+        "PCS Holding",
+        "Swedbank Robur",
+        "TM Capital",
+        "Volkswagen Group"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.eenewseurope.com/en/northvolt-raises-1-1bn-as-volkswagen-breaks-ground-on-battery-cell-gigafactory",
+          "quote": "Northvolt has raised another $1.1bn (€1.1bn) to expand battery cell and cathode material production in Europe"
+        },
+        {
+          "field": "month",
+          "url": "https://www.eenewseurope.com/en/northvolt-raises-1-1bn-as-volkswagen-breaks-ground-on-battery-cell-gigafactory",
+          "quote": "July 8, 2022"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.eenewseurope.com/en/northvolt-raises-1-1bn-as-volkswagen-breaks-ground-on-battery-cell-gigafactory",
+          "quote": "Investors in NorthVolt’s capital raise were AMF, AP funds 1-4, ATP, Ava Investors, Baillie Gifford, Compagnia di San Paolo through Fondaco Growth, Folksam Group, Goldman Sachs Asset Management, IMAS Foundation, Olympia Group, OMERS Capital Markets, PCS Holding, Swedbank Robur, TM Capital and Volkswagen Group."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "id": "manomano",
+  "name": "ManoMano",
+  "aliases": [],
+  "domain": "manomano.fr",
+  "country": "FR",
+  "city": "Paris",
+  "founded": 2012,
+  "sectors": [
+    "consumer"
+  ],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 2191134333,
+  "founders": [
+    "Christian Raisson",
+    "Philippe de Chanville"
+  ],
+  "difficulty": 3,
+  "techeuId": "01A78446-4FC9-4660-AFE9-F8A1AA006DEC",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://fr.wikipedia.org/wiki/ManoMano",
+      "quote": "52 rue Bayen"
+    },
+    {
+      "field": "founded",
+      "url": "https://fr.wikipedia.org/wiki/ManoMano",
+      "quote": "L'entreprise est cofondée en juillet 2012"
+    },
+    {
+      "field": "founders",
+      "url": "https://fr.wikipedia.org/wiki/ManoMano",
+      "quote": "par Christian Raisson et Philippe de Chanville"
+    },
+    {
+      "field": "sectors",
+      "url": "https://techcrunch.com/2021/07/05/manomano-raises-355-million-for-its-home-improvement-e-commerce-platform/",
+      "quote": "The company operates an e-commerce platform focused on DIY, home improvement and gardening products"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://techcrunch.com/2021/07/05/manomano-raises-355-million-for-its-home-improvement-e-commerce-platform/",
+      "quote": "the company has reached a valuation of $2.6 billion"
+    },
+    {
+      "field": "valuation",
+      "url": "https://techcrunch.com/2021/07/05/manomano-raises-355-million-for-its-home-improvement-e-commerce-platform/",
+      "quote": "the company has reached a valuation of $2.6 billion"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "ad6ec116-abdc-4f04-e7bc-08d91092c887",
+      "stage": "series-b",
+      "month": "2016-03",
+      "amountEur": 13000000,
+      "amountOriginal": 13000000,
+      "currency": "EUR",
+      "investors": [
+        "Partech Ventures",
+        "Piton Capital",
+        "CM-CIC Capital Privé",
+        "Bpifrance"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://fr.wikipedia.org/wiki/ManoMano",
+          "quote": "En mars 2016 , ManoMano lève 13 millions d'euros"
+        },
+        {
+          "field": "month",
+          "url": "https://fr.wikipedia.org/wiki/ManoMano",
+          "quote": "En mars 2016 , ManoMano lève 13 millions d'euros"
+        },
+        {
+          "field": "investors",
+          "url": "https://fr.wikipedia.org/wiki/ManoMano",
+          "quote": "auprès de Partech Ventures , Piton Capital, CM-CIC Capital Privé et du Fonds Ambition Numérique de Bpifrance"
+        }
+      ]
+    },
+    {
+      "techeuId": "ace75555-8099-47fc-e7c0-08d91092c887",
+      "stage": "series-c",
+      "month": "2017-09",
+      "amountEur": 60000000,
+      "amountOriginal": 60000000,
+      "currency": "EUR",
+      "investors": [
+        "General Atlantic"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://fr.wikipedia.org/wiki/ManoMano",
+          "quote": "En septembre 2017 , ManoMano lève 60 millions d'euros"
+        },
+        {
+          "field": "month",
+          "url": "https://fr.wikipedia.org/wiki/ManoMano",
+          "quote": "En septembre 2017 , ManoMano lève 60 millions d'euros"
+        },
+        {
+          "field": "investors",
+          "url": "https://fr.wikipedia.org/wiki/ManoMano",
+          "quote": "En septembre 2017 , ManoMano lève 60 millions d'euros"
+        }
+      ]
+    },
+    {
+      "techeuId": "ba2deeb2-d429-4ce8-e7c1-08d91092c887",
+      "stage": "series-d",
+      "month": "2019-04",
+      "amountEur": 111249555,
+      "amountOriginal": 125000000,
+      "currency": "USD",
+      "investors": [
+        "Eurazeo Growth",
+        "Aglaé Ventures",
+        "Bpifrance"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2019/04/01/manomano-raises-125-million-for-its-home-improvement-e-commerce-platform/",
+          "quote": "ManoMano is raising a new funding round of $125 million (€110 million)"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2019/04/01/manomano-raises-125-million-for-its-home-improvement-e-commerce-platform/",
+          "quote": "2019-04-01"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2019/04/01/manomano-raises-125-million-for-its-home-improvement-e-commerce-platform/",
+          "quote": "Eurazeo Growth, Aglaé Ventures and Bpifrance are participating in today"
+        }
+      ]
+    },
+    {
+      "techeuId": "6c9a50d7-db37-4175-e7c2-08d91092c887",
+      "stage": "series-e",
+      "month": "2020-01",
+      "amountEur": 126077098,
+      "amountOriginal": 139000000,
+      "currency": "USD",
+      "investors": [
+        "Temasek",
+        "General Atlantic",
+        "Eurazeo",
+        "Piton Capital",
+        "Bpifrance",
+        "Kismet Holdings"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2020/01/27/manomano-raises-139-million-for-its-home-improvement-e-commerce-platform/",
+          "quote": "ManoMano is raising $139 million (€125 million), with Temasek leading the round"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2020/01/27/manomano-raises-139-million-for-its-home-improvement-e-commerce-platform/",
+          "quote": "2020-01-27"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2020/01/27/manomano-raises-139-million-for-its-home-improvement-e-commerce-platform/",
+          "quote": "General Atlantic, Eurazeo, Piton Capital, Bpifrance and Kismet Holdings are also participating"
+        }
+      ]
+    },
+    {
+      "techeuId": "a5549381-d432-48c7-873d-fa5702618c5e",
+      "stage": "series-f+",
+      "month": "2021-07",
+      "amountEur": 299174111,
+      "amountOriginal": 355000000,
+      "currency": "USD",
+      "postMoneyValuationEur": 2191134333,
+      "investors": [
+        "Dragoneer Investment Group"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2021/07/05/manomano-raises-355-million-for-its-home-improvement-e-commerce-platform/",
+          "quote": "has raised a Series F funding round of $355 million led by Dragoneer Investment Group"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2021/07/05/manomano-raises-355-million-for-its-home-improvement-e-commerce-platform/",
+          "quote": "has raised a Series F funding round of $355 million"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2021/07/05/manomano-raises-355-million-for-its-home-improvement-e-commerce-platform/",
+          "quote": "2021-07-05"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2021/07/05/manomano-raises-355-million-for-its-home-improvement-e-commerce-platform/",
+          "quote": "led by Dragoneer Investment Group"
+        }
+      ]
+    }
+  ]
+}

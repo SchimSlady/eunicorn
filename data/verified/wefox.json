@@ -1,0 +1,142 @@
+{
+  "id": "wefox",
+  "name": "wefox",
+  "aliases": [
+    "Wefox",
+    "FinanceFox"
+  ],
+  "domain": "wefox.com",
+  "country": "DE",
+  "city": "Berlin",
+  "founded": 2014,
+  "sectors": [
+    "fintech"
+  ],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 2453987730,
+  "founders": [
+    "Julian Teicke",
+    "Fabian Wesemann",
+    "Dario Fazlic"
+  ],
+  "difficulty": 3,
+  "techeuId": "7F534AE7-3ED4-4D4B-8816-B3F828C3826A",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.reinsurancene.ws/wefox-closes-400m-series-d-round-taking-valuation-to-4-5bn/",
+      "quote": "wefox, the Berlin-based digital insurer"
+    },
+    {
+      "field": "founded",
+      "url": "https://media.wefox.com/171720-wefox-group-raises-125m-in-series-b-round-led-by-mubadala",
+      "quote": "The company, which was founded in 2014"
+    },
+    {
+      "field": "founders",
+      "url": "https://www.financemagnates.com/fintech/news/german-company-wefox-raises-650-million/",
+      "quote": "Founded in 2015 by Julian Teicke, Fabian Wesemann and Dario Fazlic"
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.financemagnates.com/fintech/news/german-company-wefox-raises-650-million/",
+      "quote": "The company has digitized the insurance process through the use of financial technology."
+    },
+    {
+      "field": "unicorn",
+      "url": "https://www.financemagnates.com/fintech/news/german-company-wefox-raises-650-million/",
+      "quote": "The fintech company has received a valuation of $3 billion."
+    },
+    {
+      "field": "valuation",
+      "url": "https://www.financemagnates.com/fintech/news/german-company-wefox-raises-650-million/",
+      "quote": "The fintech company has received a valuation of $3 billion."
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "57c7a4e1-b256-4811-f49f-08d91092c887",
+      "stage": "series-b",
+      "month": "2019-03",
+      "amountOriginal": 125000000,
+      "currency": "USD",
+      "amountEur": 110904090,
+      "investors": [
+        "Mubadala Investment Company"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://media.wefox.com/171720-wefox-group-raises-125m-in-series-b-round-led-by-mubadala",
+          "quote": "wefox Group announces $125million Series B"
+        },
+        {
+          "field": "month",
+          "url": "https://media.wefox.com/171720-wefox-group-raises-125m-in-series-b-round-led-by-mubadala",
+          "quote": "March 7, 2019"
+        },
+        {
+          "field": "stage",
+          "url": "https://media.wefox.com/171720-wefox-group-raises-125m-in-series-b-round-led-by-mubadala",
+          "quote": "wefox Group announces $125million Series B"
+        },
+        {
+          "field": "investors",
+          "url": "https://media.wefox.com/171720-wefox-group-raises-125m-in-series-b-round-led-by-mubadala",
+          "quote": "Funding round was led by Mubadala Investment Company"
+        }
+      ]
+    },
+    {
+      "techeuId": "88da3a19-2a31-4710-8fad-46f9eea3f1e6",
+      "stage": "series-c",
+      "month": "2021-06",
+      "amountOriginal": 650000000,
+      "currency": "USD",
+      "amountEur": 531697342,
+      "postMoneyValuationEur": 2453987730,
+      "investors": [
+        "Target Global",
+        "OMERS Ventures",
+        "G Squared",
+        "Merian Chrysalis",
+        "Horizons Ventures",
+        "Eurazeo",
+        "Mubadala",
+        "CreditEase",
+        "Salesforce Ventures",
+        "Speedinvest",
+        "Alma Mundi Ventures",
+        "Victory Park Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.financemagnates.com/fintech/news/german-company-wefox-raises-650-million/",
+          "quote": "announced today that it has raised $650 million in a Series C Funding Round"
+        },
+        {
+          "field": "month",
+          "url": "https://www.financemagnates.com/fintech/news/german-company-wefox-raises-650-million/",
+          "quote": "2021-06-01"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.financemagnates.com/fintech/news/german-company-wefox-raises-650-million/",
+          "quote": "raised $650 million in a Series C Funding Round"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.financemagnates.com/fintech/news/german-company-wefox-raises-650-million/",
+          "quote": "the latest funding round was led by Target Global"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.financemagnates.com/fintech/news/german-company-wefox-raises-650-million/",
+          "quote": "Several other prominent investors including OMERS Ventures, Gsquared, Merian, Horizons Ventures, Eurazeo, Mubadala, CreditEase, Salesforce Ventures, Speedinvest, Alma Mundi Ventures and Victory Park Capital participated in the latest funding round."
+        }
+      ]
+    }
+  ]
+}

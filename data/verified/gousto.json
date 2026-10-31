@@ -1,0 +1,174 @@
+{
+  "id": "gousto",
+  "name": "Gousto",
+  "aliases": [],
+  "domain": "gousto.co.uk",
+  "country": "GB",
+  "city": "London",
+  "founded": 2012,
+  "sectors": [
+    "consumer"
+  ],
+  "status": "private",
+  "unicorn": true,
+  "founders": [
+    "Timo Boldt",
+    "James Carter"
+  ],
+  "difficulty": 3,
+  "techeuId": "34DB3869-E59D-4DC2-97F5-CB8AB2050ECF",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/Gousto",
+      "quote": "British meal kit retailer, headquartered in Shepherd's Bush , London"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Gousto",
+      "quote": "Founded 12 April 2012"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Gousto",
+      "quote": "founded by Timo Boldt and James Carter"
+    },
+    {
+      "field": "sectors",
+      "url": "https://en.wikipedia.org/wiki/Gousto",
+      "quote": "is a British meal kit retailer"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://en.wikipedia.org/wiki/Gousto",
+      "quote": "from its valuation of £1.4bn in 2022"
+    },
+    {
+      "field": "valuation",
+      "url": "https://en.wikipedia.org/wiki/Gousto",
+      "quote": "from its valuation of £1.4bn in 2022"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "de7bb2c0-dd8d-4dbe-f138-08d91092c887",
+      "stage": "series-a",
+      "month": "2015-12",
+      "amountEur": 12410370,
+      "amountOriginal": 9000000,
+      "currency": "GBP",
+      "investors": [
+        "Business Growth Fund",
+        "MMC Ventures",
+        "Unilever Ventures",
+        "Angel CoFund"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://en.wikipedia.org/wiki/Gousto",
+          "quote": "In December 2015, Gousto raised £9m in funding from the Business Growth Fund"
+        },
+        {
+          "field": "month",
+          "url": "https://en.wikipedia.org/wiki/Gousto",
+          "quote": "In December 2015, Gousto raised £9m in funding"
+        },
+        {
+          "field": "investors",
+          "url": "https://en.wikipedia.org/wiki/Gousto",
+          "quote": "from the Business Growth Fund , MMC Ventures, Unilever and the Angel Co-Fund"
+        }
+      ]
+    },
+    {
+      "techeuId": "7505b52c-3dc1-4e02-f13b-08d91092c887",
+      "stage": "series-c",
+      "month": "2019-01",
+      "amountEur": 20002667,
+      "amountOriginal": 18000000,
+      "currency": "GBP",
+      "investors": [
+        "Unilever Ventures",
+        "Hargreave Hale",
+        "MMC Ventures",
+        "Angel CoFund"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://en.wikipedia.org/wiki/Gousto",
+          "quote": "In January 2019, Gousto raised £18m in funding"
+        },
+        {
+          "field": "month",
+          "url": "https://en.wikipedia.org/wiki/Gousto",
+          "quote": "In January 2019, Gousto raised £18m in funding"
+        },
+        {
+          "field": "investors",
+          "url": "https://en.wikipedia.org/wiki/Gousto",
+          "quote": "from Unilever Ventures , Hargreave Hale, MMC Ventures, the Angel CoFund"
+        }
+      ]
+    },
+    {
+      "techeuId": "f3fe77dc-e1c9-48c1-f13c-08d91092c887",
+      "stage": "series-d",
+      "month": "2019-07",
+      "amountEur": 33380437,
+      "amountOriginal": 30000000,
+      "currency": "GBP",
+      "investors": [
+        "Perwyn"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://en.wikipedia.org/wiki/Gousto",
+          "quote": "In July 2019, Gousto raised £30m in funding from private equity firm Perwyn"
+        },
+        {
+          "field": "month",
+          "url": "https://en.wikipedia.org/wiki/Gousto",
+          "quote": "In July 2019, Gousto raised £30m in funding from private equity firm Perwyn"
+        },
+        {
+          "field": "investors",
+          "url": "https://en.wikipedia.org/wiki/Gousto",
+          "quote": "In July 2019, Gousto raised £30m in funding from private equity firm Perwyn"
+        }
+      ]
+    },
+    {
+      "techeuId": "3e96a6a0-09da-4a49-f13d-08d91092c887",
+      "stage": "series-e",
+      "month": "2020-04",
+      "amountEur": 37763918,
+      "amountOriginal": 33000000,
+      "currency": "GBP",
+      "investors": [
+        "Perwyn",
+        "BGF Ventures",
+        "MMC Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2020/04/15/gousto-a-uk-meal-kit-service-raises-another-41m-as-business-booms-under-lockdown/",
+          "quote": "has closed £33 million ($41 million) in funding"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2020/04/15/gousto-a-uk-meal-kit-service-raises-another-41m-as-business-booms-under-lockdown/",
+          "quote": "2020-04-15"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2020/04/15/gousto-a-uk-meal-kit-service-raises-another-41m-as-business-booms-under-lockdown/",
+          "quote": "is being led by Perwyn, with participation also from BGF, MMC Ventures"
+        }
+      ]
+    }
+  ]
+}

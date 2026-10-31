@@ -1,0 +1,134 @@
+{
+  "id": "1komma5",
+  "name": "1Komma5°",
+  "aliases": [
+    "1KOMMA5°"
+  ],
+  "domain": "1komma5.com",
+  "country": "DE",
+  "city": "Hamburg",
+  "founded": 2021,
+  "sectors": [
+    "climate"
+  ],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 1000000000,
+  "founders": [
+    "Philipp Schröder"
+  ],
+  "difficulty": 4,
+  "techeuId": "BB1E78EC-58F1-49B7-863B-05719B912506",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://nordic9.com/news/1komma5-in-a-200-million-funding-round-backed-by-ecapital-btov-ventures-porsche-ventures-french-eurazeo-eparf-and-blue-elephant-ventures/",
+      "quote": "Hamburg, Germany-based provider of solar power, energy storage and e-mobility solutions"
+    },
+    {
+      "field": "founded",
+      "url": "https://nordic9.com/news/1komma5-in-a-200-million-funding-round-backed-by-ecapital-btov-ventures-porsche-ventures-french-eurazeo-eparf-and-blue-elephant-ventures/",
+      "quote": "founded in 2021 by CEO Philipp Schroeder"
+    },
+    {
+      "field": "founders",
+      "url": "https://thenextweb.com/news/german-startup-raises-e430m-to-create-virtual-power-plant-for-your-home",
+      "quote": "Founder and CEO Philipp Schröder"
+    },
+    {
+      "field": "sectors",
+      "url": "https://nordic9.com/news/1komma5-in-a-200-million-funding-round-backed-by-ecapital-btov-ventures-porsche-ventures-french-eurazeo-eparf-and-blue-elephant-ventures/",
+      "quote": "provider of solar power, energy storage and e-mobility solutions"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://www.saurenergy.com/solar-energy-news/german-solar-focused-startup-1komma5-turns-unicorn-with-e430m-funding-round",
+      "quote": "The German startup has raised €430M in a Series B round that helped it reach a valuation of €1B in just 23 months since launch"
+    },
+    {
+      "field": "valuation",
+      "url": "https://www.saurenergy.com/solar-energy-news/german-solar-focused-startup-1komma5-turns-unicorn-with-e430m-funding-round",
+      "quote": "The German startup has raised €430M in a Series B round that helped it reach a valuation of €1B in just 23 months since launch"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "70592cfc-88c1-4d2e-b8f6-54ed57061fbe",
+      "stage": "series-a",
+      "month": "2022-04",
+      "amountEur": 200000000,
+      "amountOriginal": 200000000,
+      "currency": "EUR",
+      "investors": [
+        "Porsche Ventures",
+        "btov Partners",
+        "eCapital",
+        "Eurazeo",
+        "Haniel family",
+        "Schürfeld Group",
+        "Jan Klatten"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.startbase.com/news/1komma5-erhaelt-200-millionen-euro",
+          "quote": "The climate start-up 1Komma5 has raised 200 million euros in a Series A financing round."
+        },
+        {
+          "field": "stage",
+          "url": "https://www.startbase.com/news/1komma5-erhaelt-200-millionen-euro",
+          "quote": "The climate start-up 1Komma5 has raised 200 million euros in a Series A financing round."
+        },
+        {
+          "field": "month",
+          "url": "https://globallegalchronicle.com/1komma5s-series-a-financing-round/",
+          "quote": "April 14, 2022"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.startbase.com/news/1komma5-erhaelt-200-millionen-euro",
+          "quote": "According to information from Gründerszene Porsche Ventures , Btov Partners , eCapital and Eurazeo jointly led the round."
+        },
+        {
+          "field": "investors",
+          "url": "https://www.startbase.com/news/1komma5-erhaelt-200-millionen-euro",
+          "quote": "The Haniel family, the Schürfeld Group and Jan Klatten also invested."
+        }
+      ]
+    },
+    {
+      "techeuId": "5186cb40-d733-4520-a62a-a7cc8127fdee",
+      "stage": "series-b",
+      "month": "2023-06",
+      "amountEur": 215000000,
+      "amountOriginal": 215000000,
+      "currency": "EUR",
+      "postMoneyValuationEur": 1000000000,
+      "investors": [
+        "G2 Venture Partners"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.saurenergy.com/solar-energy-news/german-solar-focused-startup-1komma5-turns-unicorn-with-e430m-funding-round",
+          "quote": "ended up raising € 215 million"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.saurenergy.com/solar-energy-news/german-solar-focused-startup-1komma5-turns-unicorn-with-e430m-funding-round",
+          "quote": "The German startup has raised €430M in a Series B round"
+        },
+        {
+          "field": "month",
+          "url": "https://thenextweb.com/news/german-startup-raises-e430m-to-create-virtual-power-plant-for-your-home",
+          "quote": "June 26, 2023"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.saurenergy.com/solar-energy-news/german-solar-focused-startup-1komma5-turns-unicorn-with-e430m-funding-round",
+          "quote": "G2VP as its new lead investor"
+        }
+      ]
+    }
+  ]
+}

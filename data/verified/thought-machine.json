@@ -1,0 +1,165 @@
+{
+  "id": "thought-machine",
+  "name": "Thought Machine",
+  "aliases": [],
+  "domain": "thoughtmachine.net",
+  "country": "GB",
+  "city": "London",
+  "founded": 2014,
+  "sectors": [
+    "fintech",
+    "saas"
+  ],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 2565320665,
+  "founders": [
+    "Paul Taylor"
+  ],
+  "difficulty": 4,
+  "techeuId": "1BE9C076-1B5F-459D-A6B3-6B8C53531AD9",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/Thought_Machine",
+      "quote": "Thought Machine is a London-based cloud banking technology company that was founded in 2014 by Paul Taylor."
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Thought_Machine",
+      "quote": "Thought Machine is a London-based cloud banking technology company that was founded in 2014 by Paul Taylor."
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Thought_Machine",
+      "quote": "Thought Machine is a London-based cloud banking technology company that was founded in 2014 by Paul Taylor."
+    },
+    {
+      "field": "sectors",
+      "url": "https://en.wikipedia.org/wiki/Thought_Machine",
+      "quote": "Thought Machine is a London-based cloud banking technology company"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://tech.eu/2022/05/19/thought-machine-dreams-big-with-160-million-in-temasek-led-round/",
+      "quote": "Thought Machine is now valued at $2.7 billion"
+    },
+    {
+      "field": "valuation",
+      "url": "https://tech.eu/2022/05/19/thought-machine-dreams-big-with-160-million-in-temasek-led-round/",
+      "quote": "Thought Machine is now valued at $2.7 billion"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "a5ac35cb-e668-40e6-ecec-08d91092c887",
+      "stage": "series-b",
+      "month": "2020-03",
+      "amountEur": 74626866,
+      "amountOriginal": 83000000,
+      "currency": "USD",
+      "investors": [
+        "Draper Esprit"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://nordic9.com/news/thought-machine-completes-a-83-million-funding-round-led-by-draper-esprit-news7640607720/",
+          "quote": "Thought Machine completes a $83 million funding round led by Draper Esprit"
+        },
+        {
+          "field": "month",
+          "url": "https://nordic9.com/news/thought-machine-completes-a-83-million-funding-round-led-by-draper-esprit-news7640607720/",
+          "quote": "02 March 2020"
+        },
+        {
+          "field": "investors",
+          "url": "https://nordic9.com/news/thought-machine-completes-a-83-million-funding-round-led-by-draper-esprit-news7640607720/",
+          "quote": "Thought Machine completes a $83 million funding round led by Draper Esprit"
+        }
+      ]
+    },
+    {
+      "techeuId": "0d6a41dc-98d9-40c5-bf40-eb2e32ba7510",
+      "stage": "series-c",
+      "month": "2021-11",
+      "amountEur": 177367861,
+      "amountOriginal": 200000000,
+      "currency": "USD",
+      "investors": [
+        "Nyca Partners",
+        "ING Ventures",
+        "JPMorgan Chase Strategic Investments",
+        "Standard Chartered Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2021/11/29/thought-machine-series-c-unicorn/",
+          "quote": "has closed a $200 million Series C round"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2021/11/29/thought-machine-series-c-unicorn/",
+          "quote": "has closed a $200 million Series C round"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2021/11/29/thought-machine-series-c-unicorn/",
+          "quote": "November 29, 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2021/11/29/thought-machine-series-c-unicorn/",
+          "quote": "The Series C is led by New York- and San Francisco-based Nyca Partners, with other new investors including ING Ventures, JPMorgan Chase Strategic Investments and Standard Chartered Ventures"
+        }
+      ]
+    },
+    {
+      "techeuId": "979c3e05-2cb1-43ae-b5a0-56ff3316d525",
+      "stage": "series-d",
+      "month": "2022-05",
+      "amountEur": 152019002,
+      "amountOriginal": 160000000,
+      "currency": "USD",
+      "postMoneyValuationEur": 2565320665,
+      "investors": [
+        "Temasek",
+        "Intesa Sanpaolo",
+        "Morgan Stanley",
+        "Eurazeo",
+        "ING",
+        "JPMorgan Chase",
+        "Lloyds Banking Group",
+        "SEB"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2022/05/19/thought-machine-dreams-big-with-160-million-in-temasek-led-round/",
+          "quote": "Thought Machine has raised $160 million in a Series D funding round led by Temasek"
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2022/05/19/thought-machine-dreams-big-with-160-million-in-temasek-led-round/",
+          "quote": "Thought Machine has raised $160 million in a Series D funding round led by Temasek"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2022/05/19/thought-machine-dreams-big-with-160-million-in-temasek-led-round/",
+          "quote": "19 May 2022"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2022/05/19/thought-machine-dreams-big-with-160-million-in-temasek-led-round/",
+          "quote": "the round saw participation from Intesa Sanpaolo and Morgan Stanley"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2022/05/19/thought-machine-dreams-big-with-160-million-in-temasek-led-round/",
+          "quote": "including Eurazeo , ING , JPMorgan Chase , Lloyds Banking Group , and SEB"
+        }
+      ]
+    }
+  ]
+}

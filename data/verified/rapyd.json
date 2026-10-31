@@ -1,0 +1,132 @@
+{
+  "id": "rapyd",
+  "name": "Rapyd",
+  "aliases": [],
+  "domain": "rapyd.net",
+  "country": "GB",
+  "city": "London",
+  "founded": 2016,
+  "sectors": [
+    "fintech"
+  ],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 2054907118,
+  "founders": [
+    "Arik Shtilman"
+  ],
+  "difficulty": 3,
+  "techeuId": "CFE30E70-BCF7-4ACC-8FB0-7201347DFA86",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://techcrunch.com/2019/12/03/rapyd-which-offers-fintech-as-a-service-via-a-single-api-adds-20m-more-to-its-coffers-at-a-1-2b-valuation/",
+      "quote": "a London-based startup"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Rapyd",
+      "quote": "founded in Tel Aviv in 2016"
+    },
+    {
+      "field": "founders",
+      "url": "https://techcrunch.com/2021/01/13/rapyd-raises-300m-on-a-2-5b-valuation-to-boost-its-fintech-as-a-service-api/",
+      "quote": "CEO and co-founder Arik Shtilman"
+    },
+    {
+      "field": "sectors",
+      "url": "https://techcrunch.com/2021/01/13/rapyd-raises-300m-on-a-2-5b-valuation-to-boost-its-fintech-as-a-service-api/",
+      "quote": "which provides an API-based “fintech-as-a-service” platform covering payments, banking services, fraud protection and more"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://techcrunch.com/2021/01/13/rapyd-raises-300m-on-a-2-5b-valuation-to-boost-its-fintech-as-a-service-api/",
+      "quote": "The funding is coming at a $2.5 billion post-money valuation"
+    },
+    {
+      "field": "valuation",
+      "url": "https://techcrunch.com/2021/01/13/rapyd-raises-300m-on-a-2-5b-valuation-to-boost-its-fintech-as-a-service-api/",
+      "quote": "The funding is coming at a $2.5 billion post-money valuation"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "c0883ed4-e3e8-4961-fba8-08d91092c887",
+      "stage": "series-c",
+      "month": "2019-12",
+      "amountEur": 18065215,
+      "amountOriginal": 20000000,
+      "currency": "USD",
+      "investors": [
+        "Durable Capital Partners"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2019/12/03/rapyd-which-offers-fintech-as-a-service-via-a-single-api-adds-20m-more-to-its-coffers-at-a-1-2b-valuation/",
+          "quote": "has picked up an additional $20 million"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2019/12/03/rapyd-which-offers-fintech-as-a-service-via-a-single-api-adds-20m-more-to-its-coffers-at-a-1-2b-valuation/",
+          "quote": "December 3, 2019"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2019/12/03/rapyd-which-offers-fintech-as-a-service-via-a-single-api-adds-20m-more-to-its-coffers-at-a-1-2b-valuation/",
+          "quote": "The $20 million comes from new investment firm Durable Capital Partners."
+        }
+      ]
+    },
+    {
+      "techeuId": "01ca0cc0-b8c6-478c-fba9-08d91092c887",
+      "stage": "series-d",
+      "month": "2021-01",
+      "amountEur": 246588854,
+      "amountOriginal": 300000000,
+      "currency": "USD",
+      "postMoneyValuationEur": 2054907118,
+      "investors": [
+        "Coatue",
+        "Spark Capital",
+        "Avid Ventures",
+        "FJ Labs",
+        "Latitude",
+        "General Catalyst",
+        "Oak HC/FT",
+        "Tiger Global",
+        "Target Global",
+        "Durable Capital Partners",
+        "Tal Capital",
+        "Entrée Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2021/01/13/rapyd-raises-300m-on-a-2-5b-valuation-to-boost-its-fintech-as-a-service-api/",
+          "quote": "funding that CEO and co-founder Arik Shtilman said in an interview"
+        },
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2021/01/13/rapyd-raises-300m-on-a-2-5b-valuation-to-boost-its-fintech-as-a-service-api/",
+          "quote": "has raised $300 million"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2021/01/13/rapyd-raises-300m-on-a-2-5b-valuation-to-boost-its-fintech-as-a-service-api/",
+          "quote": "The round is a Series D and is being led by prolific growth-round VC Coatue"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2021/01/13/rapyd-raises-300m-on-a-2-5b-valuation-to-boost-its-fintech-as-a-service-api/",
+          "quote": "January 13, 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2021/01/13/rapyd-raises-300m-on-a-2-5b-valuation-to-boost-its-fintech-as-a-service-api/",
+          "quote": "The round is a Series D and is being led by prolific growth-round VC Coatue, with Spark Capital, Avid Ventures, FJ Labs and Latitude (all new backers), as well as General Catalyst, Oak HC/FT, Tiger Global, Target Global, Durable Capital, Tal Capital and Entrée Capital (all previous backers) also participating."
+        }
+      ]
+    }
+  ]
+}
