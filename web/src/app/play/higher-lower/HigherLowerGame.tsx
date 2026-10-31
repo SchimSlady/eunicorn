@@ -306,7 +306,7 @@ export function HigherLowerGame() {
         rules.hints &&
         progress.hintsUsed < puzzle.hints.length && (
           <div className="flex justify-end">
-            <HintButton next={puzzle.hints[progress.hintsUsed]} onClick={() => update({ ...progress, hintsUsed: progress.hintsUsed + 1 })} />
+            <HintButton onClick={() => update({ ...progress, hintsUsed: progress.hintsUsed + 1 })} />
           </div>
         )
       )}

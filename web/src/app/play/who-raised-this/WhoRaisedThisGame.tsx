@@ -200,7 +200,7 @@ export function WhoRaisedThisGame() {
               {guessesLeft} {guessesLeft === 1 ? "guess" : "guesses"} left
             </span>
             {rules.hints && progress.hintsUsed < puzzle.hints.length && (
-              <HintButton next={puzzle.hints[progress.hintsUsed]} onClick={() => update({ ...progress, hintsUsed: progress.hintsUsed + 1 })} />
+              <HintButton onClick={() => update({ ...progress, hintsUsed: progress.hintsUsed + 1 })} />
             )}
           </div>
           <button

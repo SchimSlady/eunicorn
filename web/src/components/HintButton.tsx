@@ -1,7 +1,7 @@
 import { Lightbulb } from "lucide-react";
 import type { Hint } from "@eunicorn/schema";
 
-export function HintButton({ next, onClick }: { next: Hint; onClick: () => void }) {
+export function HintButton({ onClick }: { onClick: () => void }) {
   return (
     <button
       type="button"
@@ -9,7 +9,7 @@ export function HintButton({ next, onClick }: { next: Hint; onClick: () => void 
       className="inline-flex items-center gap-1.5 rounded-full border border-border bg-surface px-3 py-1 text-sm font-medium hover:border-primary"
     >
       <Lightbulb size={16} aria-hidden />
-      Hint <span className="text-muted">(−€{next.cost}M)</span>
+      Hint
     </button>
   );
 }

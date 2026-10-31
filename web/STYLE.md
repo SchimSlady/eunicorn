@@ -49,7 +49,7 @@ Rules:
 All motion is switched off under `prefers-reduced-motion` (globals.css, and `disableForReducedMotion` for confetti).
 
 ## Score and tone
-- **Score = money raised:** points are shown as `€8M raised` (out of `€10M`). Hint costs are shown the same way: `Hint (−€1M)`.
+- **Score = money raised:** points are shown as `€8M raised` (out of `€10M`). Hints cost €M off the score, but the button just says "Hint"; the cost shows up in the result.
   - ⚠️ To test: in Higher or Lower, the answers are also amounts ($B), which could be confusing.
 - **Verdicts** (`lib/scoring.ts`): Unicorn status 🦄 (perfect) · Series A material (≥70%) · Seed stage (≥40%) · Pre-seed vibes (>0) · Back to the garage (0).
 - **Language:** English only. Short, slightly ironic, insider terms welcome ("Pre-seed vibes", "Series A material"). Don't explain jokes.

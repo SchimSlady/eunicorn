@@ -260,7 +260,6 @@ export function UnicornGridGame() {
               {rules.hints && progress.cellHints[sel] < puzzle.cellHints[sel].length && (
                 <div className="flex justify-end">
                   <HintButton
-                    next={puzzle.cellHints[sel][progress.cellHints[sel]]}
                     onClick={() => {
                       const cellHints = [...progress.cellHints];
                       cellHints[sel] += 1;
