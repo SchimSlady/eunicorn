@@ -1,22 +1,25 @@
 "use client";
 
-import { Lock, MapPin } from "lucide-react";
+import { GripVertical, Lightbulb, Lock, Mail, MapPin } from "lucide-react";
+import { CONTACT_EMAIL } from "@/lib/legal";
+import { Flag } from "./Flag";
 import { PreviewFrame } from "./ModePreview";
 
 /**
  * Games that are planned but not playable yet: the same cards as the live modes, greyed out
- * with a "Coming soon" badge, and not links.
+ * with a "Coming soon" badge, and not links. Only games our data (companies, rounds, investors,
+ * founders) can actually support. Last card: send us your own idea.
  */
 const UPCOMING = [
   { id: "connections", title: "Connections", tagline: "Four groups of four", Preview: ConnectionsPreview },
-  { id: "mafia-link", title: "Mafia Link", tagline: "Who worked where first", Preview: MafiaLinkPreview },
   { id: "top-10", title: "Top 10", tagline: "Name the ten biggest", Preview: Top10Preview },
   { id: "pin-the-hq", title: "Pin the HQ", tagline: "Find it on the map", Preview: PinTheHqPreview },
+  { id: "rank-it", title: "Rank It", tagline: "Put them in order", Preview: RankItPreview },
 ];
 
 export function UpcomingCards() {
   return (
-    <ul className="grid grid-cols-2 gap-4 lg:grid-cols-4">
+    <ul className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-5">
       {UPCOMING.map(({ id, title, tagline, Preview }) => (
         <li key={id} className="h-full overflow-hidden rounded-2xl border border-border bg-surface">
           <div className="relative">
@@ -37,6 +40,23 @@ export function UpcomingCards() {
           </div>
         </li>
       ))}
+      <li>
+        <a
+          href={`mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent("Game idea for EUnicorn")}`}
+          className="flex h-full flex-col overflow-hidden rounded-2xl border-2 border-dashed border-border transition hover:-translate-y-0.5 hover:border-primary"
+        >
+          <span className="flex aspect-[4/3] flex-col items-center justify-center gap-2 text-primary">
+            <Lightbulb size={36} aria-hidden />
+            <span className="text-sm font-semibold text-foreground">Your game here?</span>
+          </span>
+          <span className="p-4">
+            <span className="block font-display text-lg font-bold leading-tight">Submit your idea</span>
+            <span className="mt-1 flex items-center gap-1.5 text-sm text-muted">
+              <Mail size={14} aria-hidden /> Pitch us a game
+            </span>
+          </span>
+        </a>
+      </li>
     </ul>
   );
 }
@@ -54,12 +74,13 @@ function Logo({ file, size = 28 }: { file: string; size?: number }) {
 }
 
 function ConnectionsPreview() {
-  const words = ["Klarna", "DeepL", "Qonto", "Monzo", "Celonis", "Alan", "Picnic", "Glovo", "Mollie", "Flix", "Brevo", "Helsing"];
+  // All from the verified dataset; the solved group is real (Munich).
+  const words = ["DeepL", "Qonto", "Mollie", "Alan", "Oura", "Glovo", "Picnic", "Brevo", "ICEYE", "N26", "Bitpanda", "Legora"];
   return (
     <div className="w-full max-w-[220px] space-y-1 text-[10px] font-semibold">
       <div className="rounded-md bg-eu-yellow px-2 py-1.5 text-center text-eu-blue">
-        <span className="block text-[9px] uppercase tracking-wide">Founded in Berlin</span>
-        N26 · Trade Republic · Flink · Raisin
+        <span className="block text-[9px] uppercase tracking-wide">Based in Munich</span>
+        Celonis · Personio · Helsing · Flix
       </div>
       <div className="grid grid-cols-4 gap-1">
         {words.map((w) => (
@@ -72,43 +93,13 @@ function ConnectionsPreview() {
   );
 }
 
-function MafiaLinkPreview() {
-  // Alumni around the company they all left, linked to it.
-  const people = ["NS", "VY", "AK", "MP", "LT"];
-  return (
-    <div className="relative h-36 w-44">
-      <svg className="absolute inset-0 h-full w-full" viewBox="0 0 176 144">
-        {people.map((_, i) => {
-          const a = -Math.PI / 2 + (i * 2 * Math.PI) / people.length;
-          return <line key={i} x1="88" y1="72" x2={88 + Math.cos(a) * 60} y2={72 + Math.sin(a) * 56} stroke="white" strokeOpacity=".35" strokeWidth="1.5" />;
-        })}
-      </svg>
-      <span className="absolute left-1/2 top-1/2 flex -translate-x-1/2 -translate-y-1/2 flex-col items-center gap-0.5">
-        <Logo file="revolut.svg" size={36} />
-        <span className="rounded bg-eu-blue px-1 text-[9px] font-semibold text-eu-yellow">alumni</span>
-      </span>
-      {people.map((p, i) => {
-        const a = -Math.PI / 2 + (i * 2 * Math.PI) / people.length;
-        return (
-          <span
-            key={p}
-            className="absolute flex h-7 w-7 items-center justify-center rounded-full border-2 border-white/70 bg-white/15 text-[10px] font-bold"
-            style={{ left: `calc(50% + ${Math.cos(a) * 60}px - 14px)`, top: `calc(50% + ${Math.sin(a) * 56}px - 14px)` }}
-          >
-            {p}
-          </span>
-        );
-      })}
-    </div>
-  );
-}
-
 function Top10Preview() {
   const rows: Array<{ n: number; logo?: string; name?: string }> = [
-    { n: 1, logo: "revolut.svg", name: "Revolut" },
-    { n: 2, logo: "klarna.svg", name: "Klarna" },
+    // Order as in the verified dataset (last valuation): Trade Republic, N26, Alan, Mollie, Qonto.
+    { n: 1, logo: "trade-republic.svg", name: "Trade Republic" },
+    { n: 2, logo: "n26.svg", name: "N26" },
     { n: 3 },
-    { n: 4, logo: "n26.svg", name: "N26" },
+    { n: 4, logo: "mollie.png", name: "Mollie" },
     { n: 5 },
   ];
   return (
@@ -144,6 +135,34 @@ function PinTheHqPreview() {
           <span key={`${x}-${y}`} className="absolute h-1.5 w-1.5 rounded-full bg-white/35" style={{ left: x * 13 + 4, top: y * 11 + 4 }} />
         ))}
         <MapPin size={26} className="absolute fill-eu-yellow text-eu-blue" style={{ left: 52, top: 50 }} />
+      </div>
+    </div>
+  );
+}
+
+function RankItPreview() {
+  // Countries to drag into order; the first two are already placed.
+  const rows: Array<{ code: string; name: string; placed: boolean }> = [
+    { code: "GB", name: "UK", placed: true },
+    { code: "DE", name: "Germany", placed: true },
+    { code: "FR", name: "France", placed: false },
+    { code: "SE", name: "Sweden", placed: false },
+  ];
+  return (
+    <div className="w-full max-w-[200px] text-[11px]">
+      <p className="mb-1.5 text-center text-[10px] font-semibold uppercase tracking-wide text-eu-yellow">Most unicorns</p>
+      <div className="space-y-1">
+        {rows.map(({ code, name, placed }, i) => (
+          <div
+            key={code}
+            className={`flex h-7 items-center gap-2 rounded-md px-1.5 ${placed ? "bg-white/15" : "border border-dashed border-white/30"}`}
+          >
+            <span className="w-3 text-right font-display font-bold text-eu-yellow">{i + 1}</span>
+            <Flag country={code} size={16} />
+            <span className="flex-1 font-semibold">{name}</span>
+            <GripVertical size={14} className="text-white/50" />
+          </div>
+        ))}
       </div>
     </div>
   );
