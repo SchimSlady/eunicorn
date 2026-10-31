@@ -2,7 +2,7 @@ import { CONTACT_EMAIL } from "@/lib/legal";
 
 /**
  * "Submit your idea" from the home page: emails the idea to the contact address via Resend.
- * Needs RESEND_API_KEY (server env). Without it the route answers 503 and the form says so.
+ * Needs RESEND_API_KEY (or RESEND_KEY) as a server env. Without it the route answers 503 and the form says so.
  * Spam guards: a hidden honeypot field, length limits, and a small per-IP rate limit.
  */
 
@@ -31,7 +31,7 @@ export async function POST(req: Request) {
   if (hits.length >= 5) return Response.json({ error: "Too many ideas at once. Try again later." }, { status: 429 });
   recent.set(ip, [...hits, now]);
 
-  const key = process.env.RESEND_API_KEY;
+  const key = process.env.RESEND_API_KEY ?? process.env.RESEND_KEY;
   if (!key) return Response.json({ error: "Ideas can't be sent right now." }, { status: 503 });
 
   const res = await fetch("https://api.resend.com/emails", {
