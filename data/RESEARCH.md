@@ -60,17 +60,17 @@ Research as of 2026-10-31. Goal: a curated dataset of EU/UK startups that is acc
  Tech.eu API          filter                  enrich                   verify                 publish
  ───────────          ──────                  ──────                   ──────                 ───────
  companies, rounds → drop debt, grants,    → Wikidata (founded,     → LLM reads source     → human review → Supabase
- investors (raw,      crowdfunding,          founders, HQ)            link: date, lead,      (verified,      → puzzle generators
- /changes sync)       secondaries, €0,     + Wikipedia unicorn list   stage, city, equity?   sources[])      → validate.ts
+ investors (raw,      crowdfunding,          founders, HQ)            link: month, stage,    (verified,      → puzzle generators
+ /changes sync)       secondaries, €0,     + Wikipedia unicorn list   investors, city       sources[])      → validate.ts
                       confidence != high   + Brandfetch logo        + 2nd source / SH01
 ```
 
 1. **Import** (`import-techeu.ts`): pull companies, rounds and investors into raw tables, unchanged, with the Tech.eu id and page URL on every row. Keep it in sync with `/changes`.
-2. **Filter:** drop stages `Debt`, `Grant`, `Crowdfunding`, secondary sales, rounds with no amount, and `confidence` other than `high`. Flag rounds by public companies.
+2. **Filter:** keep **equity rounds only** (pre-seed, seed, Series A, B, C… and growth equity). Drop debt, grants, crowdfunding, secondary sales, rounds with no amount, and `confidence` other than `high`. Flag rounds by public companies.
 3. **Select** the ~300 companies people recognise (Wikipedia unicorns + hand-picked), plus ~30 non-European decoys for Impostor.
 4. **Enrich** company identity from Wikidata and registries, valuation from the Wikipedia unicorn list, logos from Brandfetch.
-5. **Verify** (`verify-rounds.ts`): an LLM reads the round's source link and a second source, and returns exact date, lead investor(s), stage, whether it was equity, and a quote backing each field. A person approves → `verified: true`, `sources: [...]`. Only verified records appear in live puzzles.
-6. **Compute** totals ourselves from verified equity rounds; never use Tech.eu's `totalEur` (it includes debt and grants).
+5. **Verify** (`verify-rounds.ts`): an LLM reads the round's source link and a second source, and returns the announcement **month** (we store months only, never exact days), stage, the investors (no lead flag), whether it was really an equity round, and a quote backing each field. Amount and month must each have a source before a round can be verified. A person approves → `verified: true`, `sources: [...]`. Only verified records appear in live puzzles.
+6. **Compute** totals ourselves from verified rounds; never use Tech.eu's `totalEur` (it includes debt and grants).
 7. **Generate puzzles:** one generator per mode, respecting the Mon→Sun difficulty curve and avoiding repeats within N days. `validate.ts` checks everything.
 
 **Attribution in the app:** "Funding data: Tech.eu Funding Explorer (CC BY 4.0), curated and corrected by EUnicorn", with a link to the Tech.eu page for each round shown.
@@ -98,13 +98,13 @@ Method: 20 rounds drawn at random (12 countries, 2015–2026, small and large) a
 
 **Structural stats (~1,180 rounds; ≥ €20M in brackets):** stage "Other" 41% (38%), no investors 13% (12%), amount missing 6% (0%), day-of-month = 01 (likely month-only) 24% (31%), confidence high 73% (77%), broken characters in names or cities ("D√ºsseldorf") 2%.
 
-**Conclusion:** trust Tech.eu for existence, amount, currency, year and "who participated". Verify date, lead, stage, city and equity-vs-debt before anything goes live.
+**Conclusion:** trust Tech.eu for existence, amount, currency, year and "who participated". Verify month, stage, investors, city and that it is an equity round before anything goes live. Lead investors are out of scope: we only list investors.
 
 ## 5. Schema additions this implies
 - `Company.externalIds?: { techeu?: string; wikidata?: string; gbCompanyNumber?: string; frSiren?: string }`, for re-syncing.
 - `Company.aliases?: string[]` ("Mistral" / "Mistral AI") for **answer matching** in the guessing games.
 - `Round.sourceQuotes?: Record<string, string>`: the sentence backing each field, which speeds up review.
-- `Round.kind?: "equity" | "debt" | "grant" | "secondary"`, so filtered-out events stay visible in review.
+- `Round.date` becomes a month (`"2023-12"`); `RoundStage` drops `secondary` and `ipo` (equity rounds only); `leadInvestorIds` is removed, only `investorIds` stays.
 - An attribution URL per round (the Tech.eu page) for the CC BY credit.
 
 (These change `packages/schema`, so they go through a PR you both review.)

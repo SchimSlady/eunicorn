@@ -16,22 +16,16 @@ create type public.sector as enum (
   'consumer', 'saas', 'gaming', 'travel', 'crypto', 'quick-commerce'
 );
 create type public.company_status as enum ('private', 'public', 'acquired', 'defunct');
+-- Equity rounds only. Tech.eu also lists debt, grants and secondary sales; the import drops them.
 create type public.round_stage as enum (
   'pre-seed', 'seed', 'series-a', 'series-b', 'series-c', 'series-d',
-  'series-e', 'series-f+', 'growth', 'secondary', 'ipo'
+  'series-e', 'series-f+', 'growth'
 );
--- Tech.eu stores debt, grants and secondary sales as rounds; we keep them but only equity counts.
-create type public.round_kind as enum ('equity', 'debt', 'grant', 'secondary');
--- Many sources only give the month; never show a day we don't know.
-create type public.date_precision as enum ('day', 'month', 'year');
 create type public.game_mode as enum ('who-raised-this', 'unicorn-grid', 'higher-lower', 'impostor');
 create type public.puzzle_status as enum ('draft', 'approved');
 
 create domain public.slug as text check (value ~ '^[a-z0-9]+(-[a-z0-9]+)*$');
--- Facts must cite a public source, never a licensed database.
-create domain public.source_url as text check (
-  value ~ '^https?://' and value !~* '(crunchbase|pitchbook|dealroom)\.(com|co)'
-);
+create domain public.source_url as text check (value ~ '^https?://');
 
 create function public.touch_updated_at() returns trigger language plpgsql as $$
 begin
@@ -129,10 +123,9 @@ create table public.company_sources (
 create table public.rounds (
   id public.slug primary key, -- "<company-id>-<stage>-<year>"
   company_id public.slug not null references public.companies on delete cascade,
-  kind public.round_kind not null default 'equity',
   stage public.round_stage,
-  announced_on date,
-  date_precision public.date_precision not null default 'month',
+  -- Month of the announcement, stored as its first day (2023-12-01 = December 2023). No exact days.
+  announced_month date check (extract(day from announced_month) = 1),
   amount_usd bigint check (amount_usd > 0),
   amount_original numeric(18, 2) check (amount_original > 0), -- as announced
   currency char(3) check (currency ~ '^[A-Z]{3}$'),
@@ -145,7 +138,7 @@ create table public.rounds (
   created_at timestamptz not null default now(),
   updated_at timestamptz not null default now(),
   constraint verified_round_is_complete check (
-    not verified or (stage is not null and announced_on is not null and amount_usd is not null)
+    not verified or (stage is not null and announced_month is not null and amount_usd is not null)
   )
 );
 create index rounds_company_idx on public.rounds (company_id);
@@ -155,7 +148,6 @@ create trigger rounds_touch before update on public.rounds
 create table public.round_investors (
   round_id public.slug not null references public.rounds on delete cascade,
   investor_id public.slug not null references public.investors on delete cascade,
-  is_lead boolean not null default false,
   primary key (round_id, investor_id)
 );
 create index round_investors_investor_idx on public.round_investors (investor_id);
@@ -163,20 +155,19 @@ create index round_investors_investor_idx on public.round_investors (investor_id
 create table public.round_sources (
   id bigint generated always as identity primary key,
   round_id public.slug not null references public.rounds on delete cascade,
-  field text not null check (field in ('amount', 'date', 'stage', 'kind', 'lead', 'investors', 'valuation')),
+  field text not null check (field in ('amount', 'month', 'stage', 'investors', 'valuation')),
   url public.source_url not null,
   quote text,
   unique (round_id, field, url)
 );
 
--- A round can only be verified once amount and date are each backed by a source.
--- (Lead is not required: some rounds have no disclosed lead.)
+-- A round can only be verified once amount and month are each backed by a source.
 create function public.check_round_sources() returns trigger language plpgsql as $$
 declare missing text[];
 begin
   if new.verified and not coalesce(old.verified, false) then
     select array_agg(f) into missing
-    from unnest(array['amount', 'date']) f
+    from unnest(array['amount', 'month']) f
     where not exists (select 1 from public.round_sources s where s.round_id = new.id and s.field = f);
     if missing is not null then
       raise exception 'round % cannot be verified: no source for %', new.id, array_to_string(missing, ', ');
@@ -188,14 +179,14 @@ end $$;
 create trigger rounds_require_sources before insert or update of verified on public.rounds
   for each row execute function public.check_round_sources();
 
--- Totals are computed from verified equity rounds only (Tech.eu's totals include debt and grants).
+-- Totals are computed from verified rounds (Tech.eu's totals include debt and grants).
 create view public.company_totals with (security_invoker = true) as
 select company_id,
        sum(amount_usd) as total_raised_usd,
        count(*) as rounds_count,
-       max(announced_on) as last_round_on
+       max(announced_month) as last_round_month
 from public.rounds
-where verified and kind = 'equity'
+where verified
 group by company_id;
 
 -- ---------- puzzles ----------
