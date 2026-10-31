@@ -1,5 +1,11 @@
 import type { GameMode, Puzzle } from "@eunicorn/schema";
 
+/**
+ * Once-a-day lock. Off while testing: every visit starts fresh and finished games can be
+ * replayed. Turn on for launch with NEXT_PUBLIC_DAILY_LOCK=true (e.g. in .env.local or Vercel).
+ */
+export const DAILY_LOCK = process.env.NEXT_PUBLIC_DAILY_LOCK === "true";
+
 /** Puzzles flip at midnight Central European Time for everyone, wherever they are. */
 export const PUZZLE_TIMEZONE = "Europe/Berlin";
 
@@ -37,6 +43,7 @@ export function msUntilNextPuzzle(now = new Date()): number {
 /* ---------- in-progress state, so a reload doesn't reset (or re-roll) today's game ---------- */
 
 export function loadProgress<T>(mode: GameMode, date: string): T | null {
+  if (!DAILY_LOCK) return null;
   try {
     return JSON.parse(localStorage.getItem(`eunicorn:${mode}:progress:${date}`) ?? "null");
   } catch {
@@ -75,6 +82,7 @@ function readResults(mode: GameMode): DailyResult[] {
 
 /** The stored result if the player already finished today's puzzle for this mode. */
 export function getTodayResult(mode: GameMode, date = todayKey()): DailyResult | null {
+  if (!DAILY_LOCK) return null;
   return readResults(mode).find((r) => r.date === date) ?? null;
 }
 
