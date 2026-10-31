@@ -9,7 +9,8 @@
   "city": "London",
   "founded": 2012,
   "sectors": [
-    "saas"
+    "saas",
+    "travel"
   ],
   "status": "private",
   "unicorn": false,
