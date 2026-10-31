@@ -3,19 +3,8 @@
 import { useState } from "react";
 import { DIFFICULTIES, DIFFICULTY_META, type Difficulty } from "@/lib/difficulty";
 
-/**
- * Three buttons (Easy · Medium · Hard), one line on what the selected level changes, and Start.
- * The level is fixed once the game starts.
- */
-export function DifficultyPicker({
-  initial,
-  levels,
-  onStart,
-}: {
-  initial: Difficulty;
-  levels?: Record<Difficulty, string>;
-  onStart: (d: Difficulty) => void;
-}) {
+/** Three buttons (Easy · Medium · Hard) and Start. The level is fixed once the game starts. */
+export function DifficultyPicker({ initial, onStart }: { initial: Difficulty; onStart: (d: Difficulty) => void }) {
   const [selected, setSelected] = useState<Difficulty>(initial);
 
   return (
@@ -36,11 +25,6 @@ export function DifficultyPicker({
           </button>
         ))}
       </div>
-      {levels && (
-        <p className="text-center text-sm text-muted" aria-live="polite">
-          {levels[selected]}
-        </p>
-      )}
       <button
         type="button"
         onClick={() => onStart(selected)}
