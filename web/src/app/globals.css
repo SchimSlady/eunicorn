@@ -114,3 +114,12 @@ h1, h2, h3 {
     transition-duration: 0.01ms !important;
   }
 }
+
+/*
+ * Keyboard focus, visible everywhere. Unlayered on purpose: it then beats Tailwind's layered
+ * utilities (e.g. outline-none on inputs), so no component can hide where the focus is.
+ */
+:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 2px;
+}

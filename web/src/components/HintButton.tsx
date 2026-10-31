@@ -1,15 +1,16 @@
 import { Lightbulb } from "lucide-react";
 import type { Hint } from "@eunicorn/schema";
 
-export function HintButton({ onClick }: { onClick: () => void }) {
+/** The next hint, with its price on the button, so nobody pays a cost they couldn't see. */
+export function HintButton({ onClick, cost }: { onClick: () => void; cost: number }) {
   return (
     <button
       type="button"
       onClick={onClick}
-      className="inline-flex items-center gap-1.5 rounded-full border border-border bg-surface px-3 py-1 text-sm font-medium hover:border-primary"
+      className="inline-flex min-h-11 items-center gap-1.5 rounded-full border border-border bg-surface px-4 text-sm font-medium hover:border-primary"
     >
       <Lightbulb size={16} aria-hidden />
-      Hint
+      Hint <span className="text-muted">−€{cost}m</span>
     </button>
   );
 }

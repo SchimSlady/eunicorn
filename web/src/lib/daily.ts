@@ -95,6 +95,9 @@ export function getTodayResult(mode: GameMode, date = todayKey()): DailyResult |
   return readResults(mode).find((r) => r.date === date) ?? null;
 }
 
+/** Fired on window after a result is saved, so e.g. the streak in the header updates. */
+export const RESULTS_EVENT = "eunicorn:results";
+
 export function saveResult(mode: GameMode, result: DailyResult): void {
   const results = readResults(mode).filter((r) => r.date !== result.date);
   try {
@@ -102,6 +105,7 @@ export function saveResult(mode: GameMode, result: DailyResult): void {
   } catch {
     // Storage blocked (private mode); the game still works, it just won't lock.
   }
+  window.dispatchEvent(new Event(RESULTS_EVENT));
 }
 
 /**

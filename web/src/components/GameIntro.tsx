@@ -21,7 +21,7 @@ export function GameIntro({ mode, onStart }: { mode: GameMode; onStart: (d: Diff
         <div className="space-y-5 p-5">
           <h1 className="text-2xl font-bold">{info.title}</h1>
           <p className="text-muted">{info.description}</p>
-          <DifficultyPicker initial={loadDifficulty()} onStart={onStart} />
+          <DifficultyPicker initial={loadDifficulty()} levels={info.levels} onStart={onStart} />
         </div>
       </div>
     </div>

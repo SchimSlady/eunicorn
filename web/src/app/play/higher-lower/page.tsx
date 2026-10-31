@@ -1,7 +1,11 @@
 import type { Metadata } from "next";
+import { MODE_INFO } from "@/lib/modes";
+import { pageMetadata } from "@/lib/seo";
 import { HigherLowerGame } from "./HigherLowerGame";
 
-export const metadata: Metadata = { title: "Higher or Lower · EUnicorn" };
+const info = MODE_INFO["higher-lower"];
+
+export const metadata: Metadata = pageMetadata("Higher or Lower · EUnicorn", info.description, "/play/higher-lower");
 
 export default function Page() {
   return (

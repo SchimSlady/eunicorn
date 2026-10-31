@@ -12,6 +12,7 @@ import { BuiltInEuropeCard } from "@/components/BuiltInEuropeCard";
 import { GameIntro } from "@/components/GameIntro";
 import { Flag } from "@/components/Flag";
 import { GameHeader } from "@/components/GameHeader";
+import { Announce, NoPuzzle } from "@/components/Announce";
 import { GameFooter } from "@/components/GameFooter";
 import { HintButton, HintList } from "@/components/HintButton";
 import { ResultHeader } from "@/components/ResultHeader";
@@ -76,7 +77,7 @@ export function ImpostorGame() {
   const companies = useMemo(() => (data ? indexById(data.companies) : new Map<string, Company>()), [data]);
 
   if (puzzle === undefined || !data) return <p className="text-muted">Loading…</p>;
-  if (puzzle === null) return <p className="text-muted">No puzzle today. Check back tomorrow.</p>;
+  if (puzzle === null) return <NoPuzzle />;
 
   // No progress yet: choose the level first. The game is set up from that choice.
   if (!progress) {
@@ -121,6 +122,15 @@ export function ImpostorGame() {
   return (
     <div className="space-y-6">
       <GameHeader title={TITLE} difficulty={progress.difficulty} />
+      <Announce
+        text={
+          won
+            ? "Right, that's the impostor."
+            : progress.picks.length
+              ? `${companies.get(progress.picks.at(-1)!)?.name} belongs. ${triesLeft} ${triesLeft === 1 ? "try" : "tries"} left.`
+              : ""
+        }
+      />
 
       <p className="rounded-2xl bg-eu-blue p-4 text-center font-display text-lg font-bold text-white">{puzzle.prompt}</p>
 
@@ -171,7 +181,7 @@ export function ImpostorGame() {
             {triesLeft} {triesLeft === 1 ? "try" : "tries"} left
           </span>
           {rules.hints && progress.hintsUsed < puzzle.hints.length && (
-            <HintButton onClick={() => update({ ...progress, hintsUsed: progress.hintsUsed + 1 })} />
+            <HintButton cost={puzzle.hints[progress.hintsUsed].cost} onClick={() => update({ ...progress, hintsUsed: progress.hintsUsed + 1 })} />
           )}
         </div>
       ) : (

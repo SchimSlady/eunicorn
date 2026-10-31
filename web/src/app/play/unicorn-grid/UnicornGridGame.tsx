@@ -9,11 +9,13 @@ import { saveDifficulty, type Difficulty } from "@/lib/difficulty";
 import { shareText as buildShareText } from "@/lib/scoring";
 import { CompanyLogo } from "@/components/CompanyLogo";
 import { distinctAnswers } from "@/lib/grid";
+import { RevealButton } from "@/components/RevealButton";
 import { CompanySearch } from "@/components/CompanySearch";
 import { BuiltInEuropeCard } from "@/components/BuiltInEuropeCard";
 import { Flag } from "@/components/Flag";
 import { GameIntro } from "@/components/GameIntro";
 import { GameHeader } from "@/components/GameHeader";
+import { Announce, NoPuzzle } from "@/components/Announce";
 import { GameFooter } from "@/components/GameFooter";
 import { HintButton, HintList } from "@/components/HintButton";
 import { ResultHeader } from "@/components/ResultHeader";
@@ -97,7 +99,7 @@ export function UnicornGridGame() {
   const companies = useMemo(() => (data ? indexById(data.companies) : new Map<string, Company>()), [data]);
 
   if (puzzle === undefined || !data) return <p className="text-muted">Loading…</p>;
-  if (puzzle === null) return <p className="text-muted">No puzzle today. Check back tomorrow.</p>;
+  if (puzzle === null) return <NoPuzzle />;
 
   // No progress yet: show the intro and choose the level. The game is set up from that choice.
   if (!progress) {
@@ -171,6 +173,7 @@ export function UnicornGridGame() {
   return (
     <div className="space-y-6">
       <GameHeader title={TITLE} difficulty={progress.difficulty} />
+      <Announce text={miss ? `${miss.name} doesn't fit that square.` : `${used.size} of 9 squares filled.`} />
 
       <div className="grid grid-cols-4 gap-1.5">
         <div className="flex flex-col items-center justify-center rounded-2xl bg-eu-blue p-1 text-center text-white">
@@ -258,6 +261,7 @@ export function UnicornGridGame() {
               {rules.hints && progress.cellHints[sel] < puzzle.cellHints[sel].length && (
                 <div className="flex justify-end">
                   <HintButton
+                    cost={puzzle.cellHints[sel][progress.cellHints[sel]].cost}
                     onClick={() => {
                       const cellHints = [...progress.cellHints];
                       cellHints[sel] += 1;
@@ -270,13 +274,7 @@ export function UnicornGridGame() {
           ) : (
             <p className="text-center text-sm text-muted">Tap a square to start.</p>
           )}
-          <button
-            type="button"
-            onClick={() => update({ ...progress, gaveUp: true })}
-            className="w-full text-center text-xs text-muted underline"
-          >
-            Show answers
-          </button>
+          <RevealButton label="Show answers" onConfirm={() => update({ ...progress, gaveUp: true })} />
         </div>
       ) : (
         <div className="space-y-6">
