@@ -16,9 +16,8 @@ import { Flag } from "@/components/Flag";
 import { GameIntro } from "@/components/GameIntro";
 import { GameHeader } from "@/components/GameHeader";
 import { Announce, NoPuzzle } from "@/components/Announce";
-import { GameFooter } from "@/components/GameFooter";
 import { HintButton, HintList } from "@/components/HintButton";
-import { ResultHeader } from "@/components/ResultHeader";
+import { ResultArea } from "@/components/ResultArea";
 import { StatsPanel } from "@/components/StatsPanel";
 import { recordFinish, recordStart } from "@/lib/stats";
 
@@ -283,21 +282,23 @@ export function UnicornGridGame() {
         </div>
       ) : (
         <div className="space-y-6">
-          <ResultHeader
+          <ResultArea
             score={score}
             maxScore={maxScore}
             detail={`${filled} of 9 squares${hintsUsed ? ` · ${hintsUsed} ${hintsUsed === 1 ? "hint" : "hints"}` : ""}`}
-          />
-          <StatsPanel
-            mode={MODE}
-            bucket={filled}
-            scorePct={maxScore ? (score / maxScore) * 100 : 0}
-            order={[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]}
-            label={(b) => String(b)}
-            axis="Squares filled"
+            share={shareText(puzzle, progress, companies)}
+            stats={
+              <StatsPanel
+                mode={MODE}
+                bucket={filled}
+                scorePct={maxScore ? (score / maxScore) * 100 : 0}
+                order={[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]}
+                label={(b) => String(b)}
+                axis="Squares filled"
+              />
+            }
           />
           <BuiltInEuropeCard company={featured} founders={featuredFounders} />
-          <GameFooter share={shareText(puzzle, progress, companies)} />
         </div>
       )}
     </div>

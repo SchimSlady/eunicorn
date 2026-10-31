@@ -14,9 +14,8 @@ import { GameIntro } from "@/components/GameIntro";
 import { Flag } from "@/components/Flag";
 import { GameHeader } from "@/components/GameHeader";
 import { Announce, NoPuzzle } from "@/components/Announce";
-import { GameFooter } from "@/components/GameFooter";
 import { HintButton, HintList } from "@/components/HintButton";
-import { ResultHeader } from "@/components/ResultHeader";
+import { ResultArea } from "@/components/ResultArea";
 import { StatsPanel } from "@/components/StatsPanel";
 import { recordFinish, recordStart } from "@/lib/stats";
 
@@ -190,18 +189,21 @@ export function HigherLowerGame() {
     return (
       <div className="space-y-6">
         <GameHeader title={TITLE} difficulty={progress.difficulty} />
-        <ResultHeader
+        <ResultArea
           score={score}
           maxScore={maxScore}
           detail={`${correct} of ${totalRounds} right${progress.hintsUsed ? ` · ${progress.hintsUsed} ${progress.hintsUsed === 1 ? "hint" : "hints"}` : ""}`}
-        />
-        <StatsPanel
-          mode={MODE}
-          bucket={correct}
-          scorePct={maxScore ? (score / maxScore) * 100 : 0}
-          order={Array.from({ length: totalRounds + 1 }, (_, i) => i)}
-          label={(b) => String(b)}
-          axis="Rounds right"
+          share={shareText(play, progress, companies)}
+          stats={
+            <StatsPanel
+              mode={MODE}
+              bucket={correct}
+              scorePct={maxScore ? (score / maxScore) * 100 : 0}
+              order={Array.from({ length: totalRounds + 1 }, (_, i) => i)}
+              label={(b) => String(b)}
+              axis="Rounds right"
+            />
+          }
         />
         <ul className="space-y-2">
           {rounds.map((r, i) => {
@@ -231,7 +233,6 @@ export function HigherLowerGame() {
         </ul>
         <HintList hints={hints} />
         <BuiltInEuropeCard company={featured} founders={founders} />
-        <GameFooter share={shareText(play, progress, companies)} />
       </div>
     );
   }

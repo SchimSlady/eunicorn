@@ -13,9 +13,8 @@ import { GameIntro } from "@/components/GameIntro";
 import { Flag } from "@/components/Flag";
 import { GameHeader } from "@/components/GameHeader";
 import { Announce, NoPuzzle } from "@/components/Announce";
-import { GameFooter } from "@/components/GameFooter";
 import { HintButton, HintList } from "@/components/HintButton";
-import { ResultHeader } from "@/components/ResultHeader";
+import { ResultArea } from "@/components/ResultArea";
 import { StatsPanel } from "@/components/StatsPanel";
 import { recordFinish, recordStart } from "@/lib/stats";
 
@@ -187,28 +186,30 @@ export function ImpostorGame() {
         </div>
       ) : (
         <div className="space-y-6">
-          <ResultHeader
+          <ResultArea
             score={score}
             maxScore={MAX_SCORE}
             detail={
               (won ? `${wrong + 1} ${wrong === 0 ? "try" : "tries"}` : `It was ${impostor.name}`) +
               (progress.hintsUsed ? ` · ${progress.hintsUsed} ${progress.hintsUsed === 1 ? "hint" : "hints"}` : "")
             }
-          />
-          <StatsPanel
-            mode={MODE}
-            bucket={won ? progress.picks.length : 0}
-            scorePct={(score / MAX_SCORE) * 100}
-            order={[1, 2, 3, 0]}
-            label={(b) => (b === 0 ? "X" : String(b))}
-            axis="Tries needed"
+            share={shareText(puzzle, progress)}
+            stats={
+              <StatsPanel
+                mode={MODE}
+                bucket={won ? progress.picks.length : 0}
+                scorePct={(score / MAX_SCORE) * 100}
+                order={[1, 2, 3, 0]}
+                label={(b) => (b === 0 ? "X" : String(b))}
+                axis="Tries needed"
+              />
+            }
           />
           <p className="flex animate-flip-in items-start gap-2 rounded-2xl border border-border bg-surface p-4 text-sm">
             <VenetianMask size={18} className="mt-0.5 shrink-0 text-primary" aria-hidden />
             {puzzle.explanation}
           </p>
           <BuiltInEuropeCard company={featured} founders={featuredFounders} />
-          <GameFooter share={shareText(puzzle, progress)} />
         </div>
       )}
     </div>
