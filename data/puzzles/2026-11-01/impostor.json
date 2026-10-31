@@ -1,0 +1,13 @@
+{
+  "mode": "impostor",
+  "date": "2026-11-01",
+  "number": 1,
+  "prompt": "All of these are European unicorns. Except one.",
+  "companyIds": ["revolut", "klarna", "canva", "bolt", "celonis"],
+  "impostorId": "canva",
+  "explanation": "Canva was founded in Perth and is based in Sydney, Australia. The other four come from London, Stockholm, Tallinn and Munich.",
+  "hints": [
+    { "text": "Remove one wrong option (Revolut is European)", "cost": 1 },
+    { "text": "The impostor is a design tool", "cost": 2 }
+  ]
+}

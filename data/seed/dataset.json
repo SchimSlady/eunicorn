@@ -1,0 +1,1173 @@
+{
+  "_note": "Hand-seeded starter set. Every figure is approximate and verified=false until checked against a source. /data owner: verify, add sources, extend to 300+.",
+  "companies": [
+    {
+      "id": "revolut",
+      "name": "Revolut",
+      "domain": "revolut.com",
+      "european": true,
+      "country": "GB",
+      "city": "London",
+      "founded": 2015,
+      "sectors": [
+        "fintech"
+      ],
+      "status": "private",
+      "unicorn": true,
+      "founderIds": [
+        "nik-storonsky",
+        "vlad-yatsenko"
+      ],
+      "lastValuationUsd": 75000000000,
+      "difficulty": 1,
+      "verified": false
+    },
+    {
+      "id": "klarna",
+      "name": "Klarna",
+      "domain": "klarna.com",
+      "european": true,
+      "country": "SE",
+      "city": "Stockholm",
+      "founded": 2005,
+      "sectors": [
+        "fintech"
+      ],
+      "status": "public",
+      "unicorn": true,
+      "founderIds": [
+        "sebastian-siemiatkowski",
+        "niklas-adalberth",
+        "victor-jacobsson"
+      ],
+      "lastValuationUsd": 45600000000,
+      "difficulty": 1,
+      "verified": false
+    },
+    {
+      "id": "spotify",
+      "name": "Spotify",
+      "domain": "spotify.com",
+      "european": true,
+      "country": "SE",
+      "city": "Stockholm",
+      "founded": 2006,
+      "sectors": [
+        "consumer"
+      ],
+      "status": "public",
+      "unicorn": true,
+      "founderIds": [
+        "daniel-ek",
+        "martin-lorentzon"
+      ],
+      "difficulty": 1,
+      "verified": false
+    },
+    {
+      "id": "mistral-ai",
+      "name": "Mistral AI",
+      "domain": "mistral.ai",
+      "european": true,
+      "country": "FR",
+      "city": "Paris",
+      "founded": 2023,
+      "sectors": [
+        "ai"
+      ],
+      "status": "private",
+      "unicorn": true,
+      "founderIds": [
+        "arthur-mensch",
+        "guillaume-lample",
+        "timothee-lacroix"
+      ],
+      "lastValuationUsd": 13700000000,
+      "funFact": "Became a unicorn less than a year after it was founded.",
+      "difficulty": 1,
+      "verified": false
+    },
+    {
+      "id": "n26",
+      "name": "N26",
+      "domain": "n26.com",
+      "european": true,
+      "country": "DE",
+      "city": "Berlin",
+      "founded": 2013,
+      "sectors": [
+        "fintech"
+      ],
+      "status": "private",
+      "unicorn": true,
+      "founderIds": [
+        "valentin-stalf",
+        "maximilian-tayenthal"
+      ],
+      "lastValuationUsd": 9000000000,
+      "difficulty": 2,
+      "verified": false
+    },
+    {
+      "id": "celonis",
+      "name": "Celonis",
+      "domain": "celonis.com",
+      "european": true,
+      "country": "DE",
+      "city": "Munich",
+      "founded": 2011,
+      "sectors": [
+        "saas"
+      ],
+      "status": "private",
+      "unicorn": true,
+      "founderIds": [
+        "alexander-rinke",
+        "bastian-nominacher",
+        "martin-klenk"
+      ],
+      "lastValuationUsd": 13000000000,
+      "funFact": "Started by three students at TU Munich.",
+      "difficulty": 2,
+      "verified": false
+    },
+    {
+      "id": "personio",
+      "name": "Personio",
+      "domain": "personio.com",
+      "european": true,
+      "country": "DE",
+      "city": "Munich",
+      "founded": 2015,
+      "sectors": [
+        "saas"
+      ],
+      "status": "private",
+      "unicorn": true,
+      "founderIds": [
+        "hanno-renner",
+        "roman-schumacher",
+        "arseniy-vershinin",
+        "ignaz-forstmeier"
+      ],
+      "lastValuationUsd": 8500000000,
+      "difficulty": 2,
+      "verified": false
+    },
+    {
+      "id": "wise",
+      "name": "Wise",
+      "domain": "wise.com",
+      "european": true,
+      "country": "GB",
+      "city": "London",
+      "founded": 2011,
+      "sectors": [
+        "fintech"
+      ],
+      "status": "public",
+      "unicorn": true,
+      "founderIds": [
+        "kristo-kaarmann",
+        "taavet-hinrikus"
+      ],
+      "funFact": "Co-founder Taavet Hinrikus was Skype's first employee.",
+      "difficulty": 1,
+      "verified": false
+    },
+    {
+      "id": "bolt",
+      "name": "Bolt",
+      "domain": "bolt.eu",
+      "european": true,
+      "country": "EE",
+      "city": "Tallinn",
+      "founded": 2013,
+      "sectors": [
+        "mobility"
+      ],
+      "status": "private",
+      "unicorn": true,
+      "founderIds": [
+        "markus-villig"
+      ],
+      "funFact": "Markus Villig started it at 19.",
+      "difficulty": 2,
+      "verified": false
+    },
+    {
+      "id": "monzo",
+      "name": "Monzo",
+      "domain": "monzo.com",
+      "european": true,
+      "country": "GB",
+      "city": "London",
+      "founded": 2015,
+      "sectors": [
+        "fintech"
+      ],
+      "status": "private",
+      "unicorn": true,
+      "founderIds": [
+        "tom-blomfield",
+        "jonas-huckestein",
+        "jason-bates",
+        "paul-rippon",
+        "gary-dolman"
+      ],
+      "difficulty": 2,
+      "verified": false
+    },
+    {
+      "id": "northvolt",
+      "name": "Northvolt",
+      "domain": "northvolt.com",
+      "european": true,
+      "country": "SE",
+      "city": "Stockholm",
+      "founded": 2016,
+      "sectors": [
+        "climate"
+      ],
+      "status": "defunct",
+      "unicorn": true,
+      "founderIds": [
+        "peter-carlsson",
+        "paolo-cerruti"
+      ],
+      "difficulty": 3,
+      "verified": false
+    },
+    {
+      "id": "trade-republic",
+      "name": "Trade Republic",
+      "domain": "traderepublic.com",
+      "european": true,
+      "country": "DE",
+      "city": "Berlin",
+      "founded": 2015,
+      "sectors": [
+        "fintech"
+      ],
+      "status": "private",
+      "unicorn": true,
+      "founderIds": [
+        "christian-hecker",
+        "thomas-pischke",
+        "marco-cancellieri"
+      ],
+      "difficulty": 2,
+      "verified": false
+    },
+    {
+      "id": "doctolib",
+      "name": "Doctolib",
+      "domain": "doctolib.fr",
+      "european": true,
+      "country": "FR",
+      "city": "Paris",
+      "founded": 2013,
+      "sectors": [
+        "health"
+      ],
+      "status": "private",
+      "unicorn": true,
+      "founderIds": [
+        "stanislas-niox-chateau"
+      ],
+      "difficulty": 2,
+      "verified": false
+    },
+    {
+      "id": "blablacar",
+      "name": "BlaBlaCar",
+      "domain": "blablacar.com",
+      "european": true,
+      "country": "FR",
+      "city": "Paris",
+      "founded": 2006,
+      "sectors": [
+        "mobility"
+      ],
+      "status": "private",
+      "unicorn": true,
+      "founderIds": [
+        "frederic-mazzella"
+      ],
+      "difficulty": 2,
+      "verified": false
+    },
+    {
+      "id": "gorillas",
+      "name": "Gorillas",
+      "domain": "gorillas.io",
+      "european": true,
+      "country": "DE",
+      "city": "Berlin",
+      "founded": 2020,
+      "sectors": [
+        "quick-commerce"
+      ],
+      "status": "acquired",
+      "unicorn": true,
+      "founderIds": [
+        "kagan-sumer",
+        "jorg-kattner"
+      ],
+      "funFact": "Reached unicorn status in about 9 months.",
+      "difficulty": 3,
+      "verified": false
+    },
+    {
+      "id": "deepl",
+      "name": "DeepL",
+      "domain": "deepl.com",
+      "european": true,
+      "country": "DE",
+      "city": "Cologne",
+      "founded": 2017,
+      "sectors": [
+        "ai"
+      ],
+      "status": "private",
+      "unicorn": true,
+      "founderIds": [
+        "jaroslaw-kutylowski"
+      ],
+      "lastValuationUsd": 2000000000,
+      "difficulty": 2,
+      "verified": false
+    },
+    {
+      "id": "helsing",
+      "name": "Helsing",
+      "domain": "helsing.ai",
+      "european": true,
+      "country": "DE",
+      "city": "Munich",
+      "founded": 2021,
+      "sectors": [
+        "defense",
+        "ai"
+      ],
+      "status": "private",
+      "unicorn": true,
+      "founderIds": [
+        "torsten-reil",
+        "niklas-koehler",
+        "gundbert-scherf"
+      ],
+      "lastValuationUsd": 14000000000,
+      "difficulty": 3,
+      "verified": false
+    },
+    {
+      "id": "synthesia",
+      "name": "Synthesia",
+      "domain": "synthesia.io",
+      "european": true,
+      "country": "GB",
+      "city": "London",
+      "founded": 2017,
+      "sectors": [
+        "ai"
+      ],
+      "status": "private",
+      "unicorn": true,
+      "founderIds": [
+        "victor-riparbelli",
+        "steffen-tjerrild",
+        "lourdes-agapito",
+        "matthias-niessner"
+      ],
+      "lastValuationUsd": 2100000000,
+      "difficulty": 3,
+      "verified": false
+    },
+    {
+      "id": "elevenlabs",
+      "name": "ElevenLabs",
+      "domain": "elevenlabs.io",
+      "european": true,
+      "country": "GB",
+      "city": "London",
+      "founded": 2022,
+      "sectors": [
+        "ai"
+      ],
+      "status": "private",
+      "unicorn": true,
+      "founderIds": [
+        "mati-staniszewski",
+        "piotr-dabkowski"
+      ],
+      "lastValuationUsd": 3300000000,
+      "funFact": "Both founders grew up in Poland.",
+      "difficulty": 2,
+      "verified": false
+    },
+    {
+      "id": "lovable",
+      "name": "Lovable",
+      "domain": "lovable.dev",
+      "european": true,
+      "country": "SE",
+      "city": "Stockholm",
+      "founded": 2023,
+      "sectors": [
+        "ai"
+      ],
+      "status": "private",
+      "unicorn": true,
+      "founderIds": [
+        "anton-osika",
+        "fabian-hedin"
+      ],
+      "lastValuationUsd": 1800000000,
+      "difficulty": 2,
+      "verified": false
+    },
+    {
+      "id": "adyen",
+      "name": "Adyen",
+      "domain": "adyen.com",
+      "european": true,
+      "country": "NL",
+      "city": "Amsterdam",
+      "founded": 2006,
+      "sectors": [
+        "fintech"
+      ],
+      "status": "public",
+      "unicorn": true,
+      "founderIds": [
+        "pieter-van-der-does",
+        "arnout-schuijff"
+      ],
+      "difficulty": 3,
+      "verified": false
+    },
+    {
+      "id": "wolt",
+      "name": "Wolt",
+      "domain": "wolt.com",
+      "european": true,
+      "country": "FI",
+      "city": "Helsinki",
+      "founded": 2014,
+      "sectors": [
+        "quick-commerce"
+      ],
+      "status": "acquired",
+      "unicorn": true,
+      "founderIds": [
+        "miki-kuusi"
+      ],
+      "difficulty": 3,
+      "verified": false
+    },
+    {
+      "id": "supercell",
+      "name": "Supercell",
+      "domain": "supercell.com",
+      "european": true,
+      "country": "FI",
+      "city": "Helsinki",
+      "founded": 2010,
+      "sectors": [
+        "gaming"
+      ],
+      "status": "acquired",
+      "unicorn": true,
+      "founderIds": [
+        "ilkka-paananen"
+      ],
+      "difficulty": 2,
+      "verified": false
+    },
+    {
+      "id": "bitpanda",
+      "name": "Bitpanda",
+      "domain": "bitpanda.com",
+      "european": true,
+      "country": "AT",
+      "city": "Vienna",
+      "founded": 2014,
+      "sectors": [
+        "crypto",
+        "fintech"
+      ],
+      "status": "private",
+      "unicorn": true,
+      "founderIds": [
+        "eric-demuth",
+        "paul-klanschek",
+        "christian-trummer"
+      ],
+      "difficulty": 3,
+      "verified": false
+    },
+    {
+      "id": "qonto",
+      "name": "Qonto",
+      "domain": "qonto.com",
+      "european": true,
+      "country": "FR",
+      "city": "Paris",
+      "founded": 2016,
+      "sectors": [
+        "fintech"
+      ],
+      "status": "private",
+      "unicorn": true,
+      "founderIds": [
+        "alexandre-prot",
+        "steve-anavi"
+      ],
+      "lastValuationUsd": 5000000000,
+      "difficulty": 3,
+      "verified": false
+    },
+    {
+      "id": "getyourguide",
+      "name": "GetYourGuide",
+      "domain": "getyourguide.com",
+      "european": true,
+      "country": "DE",
+      "city": "Berlin",
+      "founded": 2009,
+      "sectors": [
+        "travel"
+      ],
+      "status": "private",
+      "unicorn": true,
+      "founderIds": [],
+      "funFact": "Founded by ETH Zurich students before moving HQ to Berlin.",
+      "difficulty": 3,
+      "verified": false
+    },
+    {
+      "id": "canva",
+      "name": "Canva",
+      "domain": "canva.com",
+      "european": false,
+      "country": "AU",
+      "city": "Sydney",
+      "founded": 2012,
+      "sectors": [
+        "saas"
+      ],
+      "status": "private",
+      "unicorn": true,
+      "founderIds": [],
+      "difficulty": 1,
+      "verified": false
+    },
+    {
+      "id": "nubank",
+      "name": "Nubank",
+      "domain": "nubank.com.br",
+      "european": false,
+      "country": "BR",
+      "city": "São Paulo",
+      "founded": 2013,
+      "sectors": [
+        "fintech"
+      ],
+      "status": "public",
+      "unicorn": true,
+      "founderIds": [],
+      "difficulty": 2,
+      "verified": false
+    },
+    {
+      "id": "grab",
+      "name": "Grab",
+      "domain": "grab.com",
+      "european": false,
+      "country": "SG",
+      "city": "Singapore",
+      "founded": 2012,
+      "sectors": [
+        "mobility"
+      ],
+      "status": "public",
+      "unicorn": true,
+      "founderIds": [],
+      "difficulty": 2,
+      "verified": false
+    }
+  ],
+  "rounds": [
+    {
+      "id": "mistral-ai-seed-2023",
+      "companyId": "mistral-ai",
+      "stage": "seed",
+      "date": "2023-06-01",
+      "amountUsd": 113000000,
+      "amountOriginal": {
+        "value": 105000000,
+        "currency": "EUR"
+      },
+      "leadInvestorIds": [
+        "lightspeed"
+      ],
+      "investorIds": [
+        "lightspeed"
+      ],
+      "sources": [],
+      "verified": false
+    },
+    {
+      "id": "mistral-ai-series-a-2023",
+      "companyId": "mistral-ai",
+      "stage": "series-a",
+      "date": "2023-12-01",
+      "amountUsd": 415000000,
+      "amountOriginal": {
+        "value": 385000000,
+        "currency": "EUR"
+      },
+      "postMoneyValuationUsd": 2000000000,
+      "leadInvestorIds": [
+        "a16z"
+      ],
+      "investorIds": [
+        "a16z",
+        "lightspeed",
+        "nvidia",
+        "salesforce-ventures"
+      ],
+      "sources": [],
+      "verified": false
+    },
+    {
+      "id": "mistral-ai-series-c-2025",
+      "companyId": "mistral-ai",
+      "stage": "series-c",
+      "date": "2025-09-01",
+      "amountUsd": 2000000000,
+      "amountOriginal": {
+        "value": 1700000000,
+        "currency": "EUR"
+      },
+      "postMoneyValuationUsd": 13700000000,
+      "leadInvestorIds": [
+        "asml"
+      ],
+      "investorIds": [
+        "asml"
+      ],
+      "sources": [],
+      "verified": false
+    },
+    {
+      "id": "revolut-series-e-2021",
+      "companyId": "revolut",
+      "stage": "series-e",
+      "date": "2021-07-01",
+      "amountUsd": 800000000,
+      "postMoneyValuationUsd": 33000000000,
+      "leadInvestorIds": [
+        "softbank-vision-fund",
+        "tiger-global"
+      ],
+      "investorIds": [
+        "softbank-vision-fund",
+        "tiger-global"
+      ],
+      "sources": [],
+      "verified": false
+    },
+    {
+      "id": "klarna-growth-2021",
+      "companyId": "klarna",
+      "stage": "growth",
+      "date": "2021-06-01",
+      "amountUsd": 639000000,
+      "postMoneyValuationUsd": 45600000000,
+      "leadInvestorIds": [
+        "softbank-vision-fund"
+      ],
+      "investorIds": [
+        "softbank-vision-fund"
+      ],
+      "sources": [],
+      "verified": false
+    },
+    {
+      "id": "n26-series-e-2021",
+      "companyId": "n26",
+      "stage": "series-e",
+      "date": "2021-10-01",
+      "amountUsd": 900000000,
+      "postMoneyValuationUsd": 9000000000,
+      "leadInvestorIds": [
+        "third-point",
+        "coatue"
+      ],
+      "investorIds": [
+        "third-point",
+        "coatue"
+      ],
+      "sources": [],
+      "verified": false
+    },
+    {
+      "id": "celonis-series-d-2022",
+      "companyId": "celonis",
+      "stage": "series-d",
+      "date": "2022-08-01",
+      "amountUsd": 1000000000,
+      "postMoneyValuationUsd": 13000000000,
+      "leadInvestorIds": [
+        "qatar-investment-authority"
+      ],
+      "investorIds": [
+        "qatar-investment-authority"
+      ],
+      "sources": [],
+      "verified": false
+    },
+    {
+      "id": "personio-series-e-2022",
+      "companyId": "personio",
+      "stage": "series-e",
+      "date": "2022-06-01",
+      "amountUsd": 200000000,
+      "postMoneyValuationUsd": 8500000000,
+      "leadInvestorIds": [
+        "greenoaks"
+      ],
+      "investorIds": [
+        "greenoaks"
+      ],
+      "sources": [],
+      "verified": false
+    },
+    {
+      "id": "deepl-growth-2024",
+      "companyId": "deepl",
+      "stage": "growth",
+      "date": "2024-05-01",
+      "amountUsd": 300000000,
+      "postMoneyValuationUsd": 2000000000,
+      "leadInvestorIds": [
+        "index-ventures"
+      ],
+      "investorIds": [
+        "index-ventures"
+      ],
+      "sources": [],
+      "verified": false
+    },
+    {
+      "id": "helsing-series-d-2025",
+      "companyId": "helsing",
+      "stage": "series-d",
+      "date": "2025-06-01",
+      "amountUsd": 690000000,
+      "amountOriginal": {
+        "value": 600000000,
+        "currency": "EUR"
+      },
+      "postMoneyValuationUsd": 14000000000,
+      "leadInvestorIds": [
+        "prima-materia"
+      ],
+      "investorIds": [
+        "prima-materia"
+      ],
+      "sources": [],
+      "verified": false
+    },
+    {
+      "id": "lovable-series-a-2025",
+      "companyId": "lovable",
+      "stage": "series-a",
+      "date": "2025-07-01",
+      "amountUsd": 200000000,
+      "postMoneyValuationUsd": 1800000000,
+      "leadInvestorIds": [
+        "accel"
+      ],
+      "investorIds": [
+        "accel"
+      ],
+      "sources": [],
+      "verified": false
+    },
+    {
+      "id": "elevenlabs-series-c-2025",
+      "companyId": "elevenlabs",
+      "stage": "series-c",
+      "date": "2025-01-01",
+      "amountUsd": 180000000,
+      "postMoneyValuationUsd": 3300000000,
+      "leadInvestorIds": [
+        "a16z",
+        "iconiq"
+      ],
+      "investorIds": [
+        "a16z",
+        "iconiq"
+      ],
+      "sources": [],
+      "verified": false
+    },
+    {
+      "id": "synthesia-series-d-2025",
+      "companyId": "synthesia",
+      "stage": "series-d",
+      "date": "2025-01-01",
+      "amountUsd": 180000000,
+      "postMoneyValuationUsd": 2100000000,
+      "leadInvestorIds": [
+        "nea"
+      ],
+      "investorIds": [
+        "nea"
+      ],
+      "sources": [],
+      "verified": false
+    },
+    {
+      "id": "qonto-series-d-2022",
+      "companyId": "qonto",
+      "stage": "series-d",
+      "date": "2022-01-01",
+      "amountUsd": 552000000,
+      "amountOriginal": {
+        "value": 486000000,
+        "currency": "EUR"
+      },
+      "postMoneyValuationUsd": 5000000000,
+      "leadInvestorIds": [
+        "tiger-global",
+        "tcv"
+      ],
+      "investorIds": [
+        "tiger-global",
+        "tcv"
+      ],
+      "sources": [],
+      "verified": false
+    }
+  ],
+  "investors": [
+    {
+      "id": "a16z",
+      "name": "Andreessen Horowitz",
+      "domain": "a16z.com"
+    },
+    {
+      "id": "lightspeed",
+      "name": "Lightspeed Venture Partners",
+      "domain": "lsvp.com"
+    },
+    {
+      "id": "nvidia",
+      "name": "Nvidia",
+      "domain": "nvidia.com"
+    },
+    {
+      "id": "salesforce-ventures",
+      "name": "Salesforce Ventures",
+      "domain": "salesforceventures.com"
+    },
+    {
+      "id": "asml",
+      "name": "ASML",
+      "domain": "asml.com"
+    },
+    {
+      "id": "softbank-vision-fund",
+      "name": "SoftBank Vision Fund",
+      "domain": "visionfund.com"
+    },
+    {
+      "id": "tiger-global",
+      "name": "Tiger Global",
+      "domain": "tigerglobal.com"
+    },
+    {
+      "id": "third-point",
+      "name": "Third Point",
+      "domain": "thirdpoint.com"
+    },
+    {
+      "id": "coatue",
+      "name": "Coatue",
+      "domain": "coatue.com"
+    },
+    {
+      "id": "qatar-investment-authority",
+      "name": "Qatar Investment Authority",
+      "domain": "qia.qa"
+    },
+    {
+      "id": "greenoaks",
+      "name": "Greenoaks",
+      "domain": "greenoaks.com"
+    },
+    {
+      "id": "index-ventures",
+      "name": "Index Ventures",
+      "domain": "indexventures.com"
+    },
+    {
+      "id": "prima-materia",
+      "name": "Prima Materia"
+    },
+    {
+      "id": "accel",
+      "name": "Accel",
+      "domain": "accel.com"
+    },
+    {
+      "id": "iconiq",
+      "name": "ICONIQ",
+      "domain": "iconiq.com"
+    },
+    {
+      "id": "nea",
+      "name": "NEA",
+      "domain": "nea.com"
+    },
+    {
+      "id": "tcv",
+      "name": "TCV",
+      "domain": "tcv.com"
+    }
+  ],
+  "people": [
+    {
+      "id": "alexander-rinke",
+      "name": "Alexander Rinke"
+    },
+    {
+      "id": "alexandre-prot",
+      "name": "Alexandre Prot"
+    },
+    {
+      "id": "anton-osika",
+      "name": "Anton Osika"
+    },
+    {
+      "id": "arnout-schuijff",
+      "name": "Arnout Schuijff"
+    },
+    {
+      "id": "arseniy-vershinin",
+      "name": "Arseniy Vershinin"
+    },
+    {
+      "id": "arthur-mensch",
+      "name": "Arthur Mensch"
+    },
+    {
+      "id": "bastian-nominacher",
+      "name": "Bastian Nominacher"
+    },
+    {
+      "id": "christian-hecker",
+      "name": "Christian Hecker"
+    },
+    {
+      "id": "christian-trummer",
+      "name": "Christian Trummer"
+    },
+    {
+      "id": "daniel-ek",
+      "name": "Daniel Ek"
+    },
+    {
+      "id": "eric-demuth",
+      "name": "Eric Demuth"
+    },
+    {
+      "id": "fabian-hedin",
+      "name": "Fabian Hedin"
+    },
+    {
+      "id": "frederic-mazzella",
+      "name": "Frédéric Mazzella"
+    },
+    {
+      "id": "gary-dolman",
+      "name": "Gary Dolman"
+    },
+    {
+      "id": "guillaume-lample",
+      "name": "Guillaume Lample"
+    },
+    {
+      "id": "gundbert-scherf",
+      "name": "Gundbert Scherf"
+    },
+    {
+      "id": "hanno-renner",
+      "name": "Hanno Renner"
+    },
+    {
+      "id": "ignaz-forstmeier",
+      "name": "Ignaz Forstmeier"
+    },
+    {
+      "id": "ilkka-paananen",
+      "name": "Ilkka Paananen"
+    },
+    {
+      "id": "jaroslaw-kutylowski",
+      "name": "Jaroslaw Kutylowski"
+    },
+    {
+      "id": "jason-bates",
+      "name": "Jason Bates"
+    },
+    {
+      "id": "jonas-huckestein",
+      "name": "Jonas Huckestein"
+    },
+    {
+      "id": "jorg-kattner",
+      "name": "Jörg Kattner"
+    },
+    {
+      "id": "kagan-sumer",
+      "name": "Kağan Sümer"
+    },
+    {
+      "id": "kristo-kaarmann",
+      "name": "Kristo Käärmann"
+    },
+    {
+      "id": "lourdes-agapito",
+      "name": "Lourdes Agapito"
+    },
+    {
+      "id": "marco-cancellieri",
+      "name": "Marco Cancellieri"
+    },
+    {
+      "id": "markus-villig",
+      "name": "Markus Villig"
+    },
+    {
+      "id": "martin-klenk",
+      "name": "Martin Klenk"
+    },
+    {
+      "id": "martin-lorentzon",
+      "name": "Martin Lorentzon"
+    },
+    {
+      "id": "mati-staniszewski",
+      "name": "Mati Staniszewski"
+    },
+    {
+      "id": "matthias-niessner",
+      "name": "Matthias Niessner"
+    },
+    {
+      "id": "maximilian-tayenthal",
+      "name": "Maximilian Tayenthal"
+    },
+    {
+      "id": "miki-kuusi",
+      "name": "Miki Kuusi"
+    },
+    {
+      "id": "nik-storonsky",
+      "name": "Nik Storonsky"
+    },
+    {
+      "id": "niklas-adalberth",
+      "name": "Niklas Adalberth"
+    },
+    {
+      "id": "niklas-koehler",
+      "name": "Niklas Köhler"
+    },
+    {
+      "id": "paolo-cerruti",
+      "name": "Paolo Cerruti"
+    },
+    {
+      "id": "paul-klanschek",
+      "name": "Paul Klanschek"
+    },
+    {
+      "id": "paul-rippon",
+      "name": "Paul Rippon"
+    },
+    {
+      "id": "peter-carlsson",
+      "name": "Peter Carlsson"
+    },
+    {
+      "id": "pieter-van-der-does",
+      "name": "Pieter van der Does"
+    },
+    {
+      "id": "piotr-dabkowski",
+      "name": "Piotr Dąbkowski"
+    },
+    {
+      "id": "roman-schumacher",
+      "name": "Roman Schumacher"
+    },
+    {
+      "id": "sebastian-siemiatkowski",
+      "name": "Sebastian Siemiatkowski"
+    },
+    {
+      "id": "stanislas-niox-chateau",
+      "name": "Stanislas Niox-Chateau"
+    },
+    {
+      "id": "steffen-tjerrild",
+      "name": "Steffen Tjerrild"
+    },
+    {
+      "id": "steve-anavi",
+      "name": "Steve Anavi"
+    },
+    {
+      "id": "taavet-hinrikus",
+      "name": "Taavet Hinrikus"
+    },
+    {
+      "id": "thomas-pischke",
+      "name": "Thomas Pischke"
+    },
+    {
+      "id": "timothee-lacroix",
+      "name": "Timothée Lacroix"
+    },
+    {
+      "id": "tom-blomfield",
+      "name": "Tom Blomfield"
+    },
+    {
+      "id": "torsten-reil",
+      "name": "Torsten Reil"
+    },
+    {
+      "id": "valentin-stalf",
+      "name": "Valentin Stalf"
+    },
+    {
+      "id": "victor-jacobsson",
+      "name": "Victor Jacobsson"
+    },
+    {
+      "id": "victor-riparbelli",
+      "name": "Victor Riparbelli"
+    },
+    {
+      "id": "vlad-yatsenko",
+      "name": "Vlad Yatsenko"
+    }
+  ]
+}

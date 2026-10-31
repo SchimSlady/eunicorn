@@ -1,0 +1,22 @@
+{
+  "mode": "who-raised-this",
+  "date": "2026-11-01",
+  "number": 1,
+  "answerCompanyId": "mistral-ai",
+  "roundId": "mistral-ai-series-a-2023",
+  "clues": [
+    { "kind": "amount", "text": "Raised €385M (~$415M)" },
+    { "kind": "year", "text": "December 2023" },
+    { "kind": "sector", "text": "AI: foundation models" },
+    { "kind": "city", "text": "Paris" },
+    { "kind": "lead-investor", "text": "Led by Andreessen Horowitz" },
+    { "kind": "investors", "text": "Also: Lightspeed, Nvidia, Salesforce Ventures" },
+    { "kind": "founders", "text": "Founded by ex-Google DeepMind and Meta researchers" },
+    { "kind": "logo-blurred", "text": "mistral-ai" }
+  ],
+  "hints": [
+    { "text": "The name has two words", "cost": 1 },
+    { "text": "Starts with an M", "cost": 2 },
+    { "text": "Named after a cold wind in southern France", "cost": 3 }
+  ]
+}

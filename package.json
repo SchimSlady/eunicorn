@@ -1,0 +1,11 @@
+{
+  "name": "eunicorn",
+  "private": true,
+  "type": "module",
+  "workspaces": ["web", "packages/*"],
+  "scripts": {
+    "dev": "npm run dev -w @eunicorn/web",
+    "build": "npm run build -w @eunicorn/web",
+    "validate": "node data/scripts/validate.ts"
+  }
+}

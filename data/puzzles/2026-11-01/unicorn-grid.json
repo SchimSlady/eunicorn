@@ -1,0 +1,38 @@
+{
+  "mode": "unicorn-grid",
+  "date": "2026-11-01",
+  "number": 1,
+  "rows": [
+    { "kind": "country", "value": "DE", "label": "🇩🇪 Germany" },
+    { "kind": "country", "value": "GB", "label": "🇬🇧 UK" },
+    { "kind": "country", "value": "FR", "label": "🇫🇷 France" }
+  ],
+  "cols": [
+    { "kind": "sector", "value": "fintech", "label": "Fintech" },
+    { "kind": "sector", "value": "ai", "label": "AI" },
+    { "kind": "founded-after", "value": 2014, "label": "Founded 2015+" }
+  ],
+  "validAnswers": [
+    ["n26", "trade-republic"],
+    ["deepl", "helsing"],
+    ["personio", "trade-republic", "gorillas", "deepl", "helsing"],
+    ["revolut", "wise", "monzo"],
+    ["synthesia", "elevenlabs"],
+    ["revolut", "monzo", "synthesia", "elevenlabs"],
+    ["qonto"],
+    ["mistral-ai"],
+    ["qonto", "mistral-ai"]
+  ],
+  "cellHints": [
+    [{ "text": "One answer is a neobank founded by two Austrians", "cost": 1 }, { "text": "Starts with N", "cost": 2 }],
+    [{ "text": "One answer is a translation tool from Cologne", "cost": 1 }, { "text": "Starts with D", "cost": 2 }],
+    [{ "text": "One answer is HR software from Munich", "cost": 1 }, { "text": "Starts with P", "cost": 2 }],
+    [{ "text": "One answer has a coral-coloured card", "cost": 1 }, { "text": "Starts with M", "cost": 2 }],
+    [{ "text": "One answer makes AI voices", "cost": 1 }, { "text": "Starts with E", "cost": 2 }],
+    [{ "text": "One answer is the most valuable private fintech in Europe", "cost": 1 }, { "text": "Starts with R", "cost": 2 }],
+    [{ "text": "Business banking for SMEs", "cost": 1 }, { "text": "Starts with Q", "cost": 2 }],
+    [{ "text": "Open-weight LLMs", "cost": 1 }, { "text": "Starts with M", "cost": 2 }],
+    [{ "text": "Either of the other two French answers works", "cost": 1 }, { "text": "Starts with Q or M", "cost": 2 }]
+  ],
+  "hints": []
+}

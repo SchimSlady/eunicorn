@@ -1,0 +1,17 @@
+{
+  "mode": "higher-lower",
+  "date": "2026-11-01",
+  "number": 1,
+  "metric": "lastValuationUsd",
+  "pairs": [
+    { "a": "revolut", "b": "n26", "higher": "revolut" },
+    { "a": "elevenlabs", "b": "synthesia", "higher": "elevenlabs" },
+    { "a": "personio", "b": "helsing", "higher": "helsing" },
+    { "a": "lovable", "b": "deepl", "higher": "deepl" },
+    { "a": "celonis", "b": "mistral-ai", "higher": "mistral-ai" }
+  ],
+  "hints": [
+    { "text": "Pair 3: one of them raised €600M in 2025", "cost": 1 },
+    { "text": "Pair 5: the gap is less than $1B", "cost": 1 }
+  ]
+}
