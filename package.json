@@ -11,7 +11,8 @@
     "build": "npm run build -w @eunicorn/web",
     "validate": "tsx data/scripts/validate.ts",
     "import:techeu": "tsx data/scripts/import-techeu.ts",
-    "select:candidates": "tsx data/scripts/select-candidates.ts"
+    "select:candidates": "tsx data/scripts/select-candidates.ts",
+    "load:verified": "tsx data/scripts/load-verified.ts"
   },
   "devDependencies": {
     "@types/pg": "^8.23.1",

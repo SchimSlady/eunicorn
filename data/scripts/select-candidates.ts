@@ -1,19 +1,21 @@
 // Builds staging.launch_candidates: European companies with at least MIN_EQUITY of equity funding,
 // ranked by fame (number of Wikipedia language editions with an article, via Wikidata, CC0).
 //   1. Sum each European company's equity rounds from staging (classification: techeu-map.ts).
-//   2. Fetch the full Tech.eu profile (website, city) for candidates that only have the short record.
-//      Rate-limited (~550/hour); re-run to continue if it stops.
-//   3. Match each candidate to Wikidata by name, confirmed by its website, and count its Wikipedias.
-// Your `include` and `note` decisions survive re-runs. Review the result in staging.launch_ranking.
+//   2. Fetch the full Tech.eu profile (website, city) for candidates that only have the short record,
+//      at most MAX_PROFILES per run, biggest raisers first. Rate-limited (~550/hour).
+//   3. Match each candidate to Wikidata by name, confirmed by its website, count its Wikipedias and
+//      read its founding year. staging.launch_ranking leaves out companies founded before 1995.
+// Your `include` and `note` decisions survive re-runs.
 //
-// Run: npm run select:candidates                 companies with >= €25M equity
-//      npm run select:candidates -- 50           companies with >= €50M equity
+// Run: npm run select:candidates                 companies with >= €100M equity, <= 500 profile requests
+//      npm run select:candidates -- 50 800       companies with >= €50M equity, <= 800 profile requests
 import type pg from "pg";
 import { connect } from "./db.ts";
 import { techeuGet } from "./techeu-api.ts";
 import { classify, toMonth } from "./techeu-map.ts";
 
-const MIN_EQUITY = Number(process.argv[2] ?? 25) * 1e6;
+const MIN_EQUITY = Number(process.argv[2] ?? 100) * 1e6;
+const MAX_PROFILES = Number(process.argv[3] ?? 500);
 const WIKIDATA = "https://www.wikidata.org/w/api.php";
 const UA = { "User-Agent": "EUnicorn/0.1 (https://github.com/SchimSlady/eunicorn)" };
 
@@ -56,8 +58,10 @@ async function equityByCompany(db: pg.Client): Promise<Candidate[]> {
 
 /** Step 2: full Tech.eu profiles for candidates that only have the short record embedded in rounds. */
 async function fetchProfiles(db: pg.Client, ids: string[]) {
-  const { rows } = await db.query(
-    `select id from staging.techeu_companies where id = any($1::uuid[]) and not payload ? 'website'`, [ids]);
+  const missing = new Set((await db.query(
+    `select id from staging.techeu_companies where id = any($1::uuid[]) and not payload ? 'website'`, [ids],
+  )).rows.map((r) => r.id.toUpperCase()));
+  const rows = ids.filter((id) => missing.has(id.toUpperCase())).slice(0, MAX_PROFILES).map((id) => ({ id }));
   if (rows.length) console.log(`profiles: fetching ${rows.length} from Tech.eu (~${Math.ceil(rows.length / 550)}h)`);
   for (const [i, { id }] of rows.entries()) {
     const profile = await techeuGet(`/companies/${id.toUpperCase()}`);
@@ -86,7 +90,7 @@ async function matchWikidata(name: string, website: string | null, country: stri
   const plainName = name.replace(/\s*\(.*\)$/, "").toLowerCase(); // "Stegra (H2 Green Steel)" -> "stegra"
   const search = await wikidata({ action: "wbsearchentities", search: name, language: "en", type: "item", limit: "7" });
   const hits: any[] = search.search ?? [];
-  if (!hits.length) return { id: null, languages: 0 };
+  if (!hits.length) return { id: null, languages: 0, founded: null };
   const { entities } = await wikidata({ action: "wbgetentities", ids: hits.map((h) => h.id).join("|"), props: "claims|sitelinks" });
   const items = hits.map((h) => ({ ...entities[h.id], label: String(h.label ?? "").toLowerCase() })).filter((e) => e.id);
   const sites = (e: any) => (e.claims?.P856 ?? []).map((c: any) => hostOf(c.mainsnak.datavalue?.value)).filter(Boolean);
@@ -96,10 +100,12 @@ async function matchWikidata(name: string, website: string | null, country: stri
   const match = (host && items.find((e) => sites(e).includes(host))) ||
     (host && items.find((e) => inCountry(e) && sites(e).some((s: string) => coreOf(s) === coreOf(host)))) ||
     items.find((e) => inCountry(e) && e.label === plainName);
-  if (!match) return { id: null, languages: 0 };
+  if (!match) return { id: null, languages: 0, founded: null };
   const special = /^(commons|species|meta|wikidata|mediawiki|sources|outreach|wikimania|incubator)wiki$/;
   const languages = Object.keys(match.sitelinks ?? {}).filter((k) => k.endsWith("wiki") && !special.test(k)).length;
-  return { id: match.id as string, languages };
+  // P571 = inception, e.g. "+2015-07-01T00:00:00Z"
+  const inception = match.claims?.P571?.[0]?.mainsnak.datavalue?.value.time as string | undefined;
+  return { id: match.id as string, languages, founded: inception ? Number(inception.slice(1, 5)) : null };
 }
 
 /** Rough start for the Mon→Sun curve; adjust by hand. */
@@ -110,13 +116,14 @@ const db = await connect();
 try {
   const candidates = await equityByCompany(db);
   console.log(`candidates: ${candidates.length} European companies with >= €${MIN_EQUITY / 1e6}M equity`);
+  candidates.sort((a, b) => b.equityEur - a.equityEur);
   await fetchProfiles(db, candidates.map((c) => c.id));
 
   const { rows: profiles } = await db.query(
     `select id, payload from staging.techeu_companies where id = any($1::uuid[])`, [candidates.map((c) => c.id)]);
   const profile = new Map(profiles.map((p) => [p.id.toUpperCase(), p.payload]));
   const { rows: done } = await db.query(
-    `select techeu_id from staging.launch_candidates where wikidata_id is not null`); // retry misses each run
+    `select techeu_id from staging.launch_candidates where wikidata_id is not null and founded is not null`); // retry misses
   const looked = new Set(done.map((d) => d.techeu_id.toUpperCase()));
 
   let matched = 0;
@@ -126,8 +133,8 @@ try {
     if (wd?.id) matched++;
     await db.query(
       `insert into staging.launch_candidates as lc (techeu_id, name, country, city, website, sectors, equity_eur,
-         equity_rounds, last_round_month, wikidata_id, wikipedia_languages, suggested_difficulty)
-       values ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12)
+         equity_rounds, last_round_month, wikidata_id, wikipedia_languages, suggested_difficulty, founded)
+       values ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13)
        on conflict (techeu_id) do update set
          name = excluded.name, country = excluded.country, city = excluded.city, website = excluded.website,
          sectors = excluded.sectors, equity_eur = excluded.equity_eur, equity_rounds = excluded.equity_rounds,
@@ -135,15 +142,17 @@ try {
          wikidata_id = coalesce(excluded.wikidata_id, lc.wikidata_id),
          wikipedia_languages = coalesce(excluded.wikipedia_languages, lc.wikipedia_languages),
          suggested_difficulty = coalesce(excluded.suggested_difficulty, lc.suggested_difficulty),
+         founded = coalesce(excluded.founded, lc.founded),
          updated_at = now()`,
       [c.id, c.name, c.country, p.city ?? null, p.website ?? null, p.sectors ?? [], Math.round(c.equityEur),
-       c.rounds, c.lastMonth, wd?.id ?? null, wd ? wd.languages : null, wd ? difficulty(wd.languages) : null],
+       c.rounds, c.lastMonth, wd?.id ?? null, wd ? wd.languages : null, wd ? difficulty(wd.languages) : null,
+       wd?.founded ?? null],
     );
     if ((i + 1) % 100 === 0) console.log(`  wikidata: ${i + 1}/${candidates.length}, ${matched} new matches`);
   }
   const { rows: top } = await db.query(
-    `select rank, name, country, round(equity_eur / 1e6) as eq_m, wikipedia_languages as wp
-     from staging.launch_ranking order by rank limit 25`);
+    `select rank, name, country, founded, round(equity_eur / 1e6) as eq_m, wikipedia_languages as wp
+     from staging.launch_ranking order by rank limit 40`);
   console.table(top);
 } finally {
   await db.end();

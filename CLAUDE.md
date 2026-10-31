@@ -17,6 +17,7 @@ Read `PLAN.md` first. Two people work in parallel, each with their own Claude se
 
 ## Conventions
 - IDs are kebab-case slugs (`mistral-ai`, `index-ventures`, `nik-storonsky`).
-- Money is stored in USD (`amountUsd`); the announced currency goes in `amountOriginal`.
+- Money is stored in EUR (`amount_eur`, converted at the ECB rate of the round date); the announced amount and currency go in `amount_original` / `currency`.
+- Round dates are months only (`announced_month`, stored as the 1st). Equity rounds only, no lead investors.
 - Day boundary: midnight `Europe/Berlin` (see `web/src/lib/daily.ts`).
 - Every puzzle has `hints` (`{ text, cost }`), revealed in order. Unicorn Grid also has `cellHints` per cell.
