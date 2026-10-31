@@ -9,6 +9,7 @@
   "city": "London",
   "founded": 2024,
   "sectors": [
+    "semiconductors",
     "ai"
   ],
   "status": "private",
