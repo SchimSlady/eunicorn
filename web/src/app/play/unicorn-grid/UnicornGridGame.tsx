@@ -225,7 +225,7 @@ export function UnicornGridGame() {
                     <>
                       <CompanyLogo company={shown} size={34} />
                       <span className="line-clamp-1 text-[11px] font-semibold leading-tight">{shown.name}</span>
-                      {c && <span className="absolute right-1 top-0.5 text-[11px] font-bold text-correct">€{worth(c.id)}M</span>}
+                      {c && <span className="absolute right-1 top-0.5 text-[11px] font-bold text-correct">€{worth(c.id)}m</span>}
                     </>
                   )}
                 </button>

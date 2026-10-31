@@ -1,8 +1,8 @@
 import { DIFFICULTY_META, type Difficulty } from "./difficulty";
 
-/** Points are shown as money raised: 8 points = "€8M raised". */
+/** Points are shown as money raised: 8 points = "€8m raised". */
 export function formatRaised(score: number): string {
-  return `€${score}M raised`;
+  return `€${score}m raised`;
 }
 
 /** Slightly ironic, insider-flavoured verdict for the result screen. */
@@ -18,7 +18,7 @@ export function verdict(score: number, maxScore: number): string {
 /**
  * Wordle-style share text:
  *   EUnicorn #12 · Who Raised This? · Hard · 💡1
- *   🟥🟩⬜⬜ €9M raised
+ *   🟥🟩⬜⬜ €9m raised
  *   eunicorn.eu
  * No flag emojis: they render as letters on Windows.
  */

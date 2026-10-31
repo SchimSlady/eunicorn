@@ -5,7 +5,7 @@
   "answerCompanyId": "mistral-ai",
   "roundId": "mistral-ai-series-a-2023",
   "clues": [
-    { "kind": "amount", "text": "Raised €385M (~$415M)" },
+    { "kind": "amount", "text": "Raised €385m" },
     { "kind": "year", "text": "December 2023" },
     { "kind": "sector", "text": "AI: foundation models" },
     { "kind": "city", "text": "Paris" },

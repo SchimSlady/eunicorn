@@ -4,7 +4,7 @@ import { useEffect } from "react";
 import confetti from "canvas-confetti";
 import { formatRaised, verdict } from "@/lib/scoring";
 
-/** Score as "€8M raised" plus a verdict. Confetti only for a perfect round. */
+/** Score as "€8m raised" plus a verdict. Confetti only for a perfect round. */
 export function ResultHeader({ score, maxScore, detail }: { score: number; maxScore: number; detail: string }) {
   const perfect = score >= maxScore;
 
@@ -24,7 +24,7 @@ export function ResultHeader({ score, maxScore, detail }: { score: number; maxSc
       <p className="text-sm font-semibold text-muted">{verdict(score, maxScore)}</p>
       <p className="mt-1 font-display text-4xl font-bold">{formatRaised(score)}</p>
       <p className="mt-1 text-sm text-muted">
-        of €{maxScore}M · {detail}
+        of €{maxScore}m · {detail}
       </p>
     </div>
   );

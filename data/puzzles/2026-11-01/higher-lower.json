@@ -5,7 +5,7 @@
   "metric": "lastValuationUsd",
   "companyIds": ["n26", "personio", "helsing", "celonis", "mistral-ai", "deepl"],
   "hints": [
-    { "text": "Helsing raised €600M in 2025", "cost": 1 },
-    { "text": "Celonis and Mistral AI are less than $1B apart", "cost": 1 }
+    { "text": "Helsing raised €600m in 2025", "cost": 1 },
+    { "text": "Celonis and Mistral AI are less than €1bn apart", "cost": 1 }
   ]
 }

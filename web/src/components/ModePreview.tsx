@@ -51,7 +51,7 @@ function Tile({ letter, className = "" }: { letter: string; className?: string }
 
 function WhoRaisedThisPreview() {
   const clues = [
-    { Icon: Banknote, text: "Raised €385M" },
+    { Icon: Banknote, text: "Raised €385m" },
     { Icon: CalendarDays, text: "December 2023" },
     { Icon: MapPin, text: "Paris" },
   ];
@@ -109,7 +109,7 @@ function HigherLowerPreview() {
           <span className="block text-[11px] text-white/70">Your pick</span>
           <span className="font-semibold">N26</span>
         </span>
-        <span className="font-display text-sm font-bold">$9B</span>
+        <span className="font-display text-sm font-bold">€7.7bn</span>
       </div>
       <div className="flex items-center justify-center gap-3 py-1.5 text-eu-yellow">
         <ChevronUp size={18} />

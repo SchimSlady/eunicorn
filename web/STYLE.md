@@ -27,7 +27,8 @@ Rules:
 - **Headings:** Space Grotesk 500/700 (Florian Karsten, Prague) → `font-display`, applied to `h1–h3` automatically.
 - **Text:** Inter (Rasmus Andersson, Sweden) → default `font-sans`.
 - **Numbers:** tabular figures everywhere (`font-variant-numeric: tabular-nums` on `body`), so amounts line up.
-- Money: `$13.7B`, `$850M`. One decimal below 100, so close values never look tied (`lib/format.ts`).
+- **European formats only, no US notation** (`lib/format.ts`): euros (`€11.8bn`, `€385m`), day before month (`31.10.2026`), 24-hour clock, thousands grouped with a thin space (`1 200`). One decimal below 100, so close values never look tied.
+- The data still stores most amounts in USD; display converts with one rate (`USD_TO_EUR`). The data side should move to storing EUR.
 
 ## Icons and flags
 - **Icons:** [Lucide](https://lucide.dev), outline, 16–20 px, `aria-hidden` unless the icon is the only label. No emojis in the UI.
@@ -56,7 +57,7 @@ Rules:
 All motion is switched off under `prefers-reduced-motion` (globals.css, and `disableForReducedMotion` for confetti).
 
 ## Score and tone
-- **Score = money raised:** points are shown as `€8M raised` (out of `€10M`). Hints cost €M off the score, but the button just says "Hint"; the cost shows up in the result.
+- **Score = money raised:** points are shown as `€8m raised` (out of `€10m`). Hints cost €m off the score, but the button just says "Hint"; the cost shows up in the result.
   - ⚠️ To test: in Higher or Lower, the answers are also amounts ($B), which could be confusing.
 - **Verdicts** (`lib/scoring.ts`): Unicorn status 🦄 (perfect) · Series A material (≥70%) · Seed stage (≥40%) · Pre-seed vibes (>0) · Back to the garage (0).
 - **Language:** English only. Short, slightly ironic, insider terms welcome ("Pre-seed vibes", "Series A material"). Don't explain jokes.
@@ -66,7 +67,7 @@ All motion is switched off under `prefers-reduced-motion` (globals.css, and `dis
 Wordle pattern, built by `shareText()` in `lib/scoring.ts`:
 ```
 EUnicorn #12 · Who Raised This? · Hard · 💡1
-🟥🟩⬜⬜ €9M raised
+🟥🟩⬜⬜ €9m raised
 eunicorn.eu
 ```
 No flag emojis (Windows). Later: an OG image (Next `ImageResponse`) so the link unfurls as a card.
