@@ -30,11 +30,6 @@ const RULES: Record<Difficulty, { showChampionValue: boolean; hints: boolean; se
   hard: { showChampionValue: false, hints: false, secondsPerRound: 10 },
 };
 
-const RULES_TEXT: Record<Difficulty, string> = {
-  easy: "See the current company's number · hints",
-  medium: "No numbers until you answer · hints",
-  hard: "No numbers · no hints · 10 seconds per round",
-};
 
 interface Progress {
   difficulty: Difficulty;
@@ -165,7 +160,6 @@ export function HigherLowerGame() {
       <GameIntro
         mode={MODE}
         number={puzzle.number}
-        rules={RULES_TEXT}
         onStart={(d) => {
           saveDifficulty(d);
           const fresh: Progress = { difficulty: d, answers: [], hintsUsed: 0 };
@@ -300,11 +294,6 @@ export function HigherLowerGame() {
             {round.correct ? <Check size={18} aria-hidden /> : given === TIMEOUT ? <Timer size={18} aria-hidden /> : <X size={18} aria-hidden />}
             {round.correct ? "Right" : given === TIMEOUT ? "Time's up" : "Wrong"}
           </p>
-          {!done && (
-            <p className="text-center text-sm text-muted">
-              {companies.get(given === TIMEOUT ? round.higher : given!)!.name} stays on for the next round.
-            </p>
-          )}
           <button
             type="button"
             onClick={() => setReviewing(false)}

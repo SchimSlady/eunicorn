@@ -53,6 +53,7 @@ All motion is switched off under `prefers-reduced-motion` (globals.css, and `dis
   - ⚠️ To test: in Higher or Lower, the answers are also amounts ($B), which could be confusing.
 - **Verdicts** (`lib/scoring.ts`): Unicorn status 🦄 (perfect) · Series A material (≥70%) · Seed stage (≥40%) · Pre-seed vibes (>0) · Back to the garage (0).
 - **Language:** English only. Short, slightly ironic, insider terms welcome ("Pre-seed vibes", "Series A material"). Don't explain jokes.
+- **Keep it short.** No rule lists, no helper subheadings. One line of description; the game explains itself.
 
 ## Share text
 Wordle pattern, built by `shareText()` in `lib/scoring.ts`:
@@ -66,7 +67,7 @@ No flag emojis (Windows). Later: an OG image (Next `ImageResponse`) so the link 
 ## Layout
 - Mobile first, content max 28rem (`max-w-md`) in games, 42rem on the home page.
 - **Home:** one card per mode: illustration (`ModePreview`) → PLAY / RESULTS / SOON → title → tagline or score. Streak above the cards. No bottom nav.
-- **Before a game:** an intro screen (`GameIntro`): illustration, description, rules, level choice, start.
+- **Before a game:** an intro screen (`GameIntro`): illustration, one-line description, three level buttons (Easy · Medium · Hard), Start. Nothing more.
 - **During a game:** `GameHeader` (back link, title, level, puzzle number).
 - **After a game:** `ResultHeader` → mode-specific review → "Built in Europe" card → `GameFooter` (share, countdown, back).
 

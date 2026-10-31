@@ -27,11 +27,6 @@ const RULES: Record<Difficulty, { startClues: number; maxGuesses: number; hints:
   hard: { startClues: 1, maxGuesses: 4, hints: false, logosInSearch: false },
 };
 
-const RULES_TEXT: Record<Difficulty, string> = {
-  easy: "3 clues to start · 8 guesses · hints",
-  medium: "1 clue to start · 8 guesses · hints",
-  hard: "1 clue to start · 4 guesses · no hints, no logos",
-};
 
 const CLUE_ICONS: Record<WhoRaisedThisPuzzle["clues"][number]["kind"], LucideIcon> = {
   amount: Banknote,
@@ -106,7 +101,6 @@ export function WhoRaisedThisGame() {
       <GameIntro
         mode={MODE}
         number={puzzle.number}
-        rules={RULES_TEXT}
         onStart={(d) => {
           saveDifficulty(d);
           const fresh: Progress = { difficulty: d, guesses: [], hintsUsed: 0, gaveUp: false };
@@ -163,7 +157,7 @@ export function WhoRaisedThisGame() {
         {!done && cluesLocked > 0 && (
           <li className="flex items-center gap-3 rounded-xl border border-dashed border-border p-3 text-sm text-muted">
             <Lock size={16} aria-hidden />
-            {cluesLocked} more {cluesLocked === 1 ? "clue" : "clues"}, one per wrong guess
+            {cluesLocked} more {cluesLocked === 1 ? "clue" : "clues"}
           </li>
         )}
       </ol>

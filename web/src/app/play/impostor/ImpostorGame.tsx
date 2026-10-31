@@ -28,11 +28,6 @@ const RULES: Record<Difficulty, { tries: number; hints: boolean }> = {
   hard: { tries: 1, hints: false },
 };
 
-const RULES_TEXT: Record<Difficulty, string> = {
-  easy: "3 tries · hints",
-  medium: "2 tries · hints",
-  hard: "1 try · no hints",
-};
 
 interface Progress {
   difficulty: Difficulty;
@@ -89,7 +84,6 @@ export function ImpostorGame() {
       <GameIntro
         mode={MODE}
         number={puzzle.number}
-        rules={RULES_TEXT}
         onStart={(d) => {
           saveDifficulty(d);
           const fresh: Progress = { difficulty: d, picks: [], hintsUsed: 0 };

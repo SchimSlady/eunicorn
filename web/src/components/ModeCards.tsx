@@ -15,7 +15,7 @@ export function ModeCards() {
   const [days, setDays] = useState(0);
 
   useEffect(() => {
-    const playable = MODES.filter((m) => !m.comingSoon).map((m) => m.mode);
+    const playable = MODES.map((m) => m.mode);
     setDays(streak(playable));
     Promise.all(
       playable.map(async (mode) => {
@@ -47,7 +47,7 @@ export function ModeCards() {
               </div>
               <div className="p-3 text-center">
                 <p className="font-display text-lg font-bold uppercase tracking-wide">
-                  {m.comingSoon ? "Soon" : result ? "Results" : "Play"}
+                  {result ? "Results" : "Play"}
                 </p>
                 <p className="text-sm font-semibold">{m.title}</p>
                 <p className="mt-1 text-xs text-muted">{result ? formatRaised(result.score) : m.tagline}</p>
@@ -57,15 +57,9 @@ export function ModeCards() {
           const base = "block h-full overflow-hidden rounded-2xl border border-border bg-surface";
           return (
             <li key={m.mode}>
-              {m.comingSoon ? (
-                <div className={`${base} opacity-60`} aria-disabled>
-                  {card}
-                </div>
-              ) : (
-                <Link href={`/play/${m.mode}`} className={`${base} transition hover:-translate-y-0.5 hover:border-primary`}>
-                  {card}
-                </Link>
-              )}
+              <Link href={`/play/${m.mode}`} className={`${base} transition hover:-translate-y-0.5 hover:border-primary`}>
+                {card}
+              </Link>
             </li>
           );
         })}

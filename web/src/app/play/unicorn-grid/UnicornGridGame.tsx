@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
-import { Check, X } from "lucide-react";
+import { X } from "lucide-react";
 import type { Company, Dataset, GridCriterion, UnicornGridPuzzle } from "@eunicorn/schema";
 import { indexById, loadDataset } from "@/lib/data";
 import { getTodayResult, loadProgress, loadTodayPuzzle, saveProgress, saveResult } from "@/lib/daily";
@@ -27,11 +27,6 @@ const RULES: Record<Difficulty, { guesses: number; hints: boolean; logosInSearch
   hard: { guesses: 9, hints: false, logosInSearch: false },
 };
 
-const RULES_TEXT: Record<Difficulty, string> = {
-  easy: "12 guesses for 9 squares · hints",
-  medium: "9 guesses, one per square · hints",
-  hard: "9 guesses · no hints, no logos",
-};
 
 interface Progress {
   difficulty: Difficulty;
@@ -109,7 +104,6 @@ export function UnicornGridGame() {
       <GameIntro
         mode={MODE}
         number={puzzle.number}
-        rules={RULES_TEXT}
         onStart={(d) => {
           saveDifficulty(d);
           const fresh: Progress = { difficulty: d, cells: Array(9).fill(null), wrong: 0, cellHints: Array(9).fill(0), gaveUp: false };
@@ -277,14 +271,14 @@ export function UnicornGridGame() {
               )}
             </>
           ) : (
-            <p className="text-center text-sm text-muted">Tap a square, then name a European startup that fits its row and column.</p>
+            <p className="text-center text-sm text-muted">Tap a square to start.</p>
           )}
           <button
             type="button"
             onClick={() => update({ ...progress, gaveUp: true })}
             className="w-full text-center text-xs text-muted underline"
           >
-            Finish and show answers
+            Show answers
           </button>
         </div>
       ) : (
@@ -294,9 +288,6 @@ export function UnicornGridGame() {
             maxScore={maxScore}
             detail={`${filled} of 9 squares${hintsUsed ? ` · ${hintsUsed} ${hintsUsed === 1 ? "hint" : "hints"}` : ""}`}
           />
-          <p className="flex items-center justify-center gap-1.5 text-center text-sm text-muted">
-            <Check size={16} className="text-correct" aria-hidden /> Lesser-known answers raise more. Faded squares show an answer you missed.
-          </p>
           <BuiltInEuropeCard company={featured} founders={featuredFounders} />
           <GameFooter share={shareText(puzzle, progress, companies)} />
         </div>
