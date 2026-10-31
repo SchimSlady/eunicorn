@@ -38,12 +38,14 @@ interface Progress {
 }
 
 /** A puzzle may carry one variant per level (more options and a closer impostor on Hard). */
-type Puzzle = ImpostorPuzzle & {
-  variants?: Partial<Record<Difficulty, Pick<ImpostorPuzzle, "prompt" | "companyIds" | "impostorId" | "explanation" | "hints">>>;
+type Variant = Pick<ImpostorPuzzle, "prompt" | "companyIds" | "impostorId" | "explanation" | "hints"> & {
+  /** Category not shown until the end (Medium/Hard): the player finds the pattern. */
+  hidden?: boolean;
 };
+type Puzzle = ImpostorPuzzle & Variant & { variants?: Partial<Record<Difficulty, Variant>> };
 
 /** The puzzle as played at this level; a hand-made puzzle without variants is the same for all. */
-function atLevel(p: Puzzle, d: Difficulty): ImpostorPuzzle {
+function atLevel(p: Puzzle, d: Difficulty): ImpostorPuzzle & Variant {
   return p.variants?.[d] ? { ...p, ...p.variants[d] } : p;
 }
 
@@ -148,7 +150,7 @@ export function ImpostorGame() {
       <div className="relative mx-auto aspect-square w-full max-w-[420px]">
         <span aria-hidden className="absolute inset-[13%] rounded-full border-2 border-dashed border-border" />
         <p className="absolute inset-[29%] flex items-center justify-center rounded-full bg-eu-blue p-3 text-center font-display text-sm font-bold leading-snug text-white sm:text-base">
-          {play.prompt}
+          {play.hidden && !done ? "One of these doesn't belong. Which one?" : play.prompt}
         </p>
         <ul>
           {play.companyIds.map((id, i) => {
