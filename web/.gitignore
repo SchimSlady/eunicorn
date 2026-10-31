@@ -40,4 +40,5 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 /public/data
+/src/lib/server/logos.generated.json
 /public/flags
