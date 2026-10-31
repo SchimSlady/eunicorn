@@ -1,10 +1,11 @@
 import type { GameMode, Puzzle } from "@eunicorn/schema";
 
 /**
- * Once-a-day lock. Off while testing: every visit starts fresh and finished games can be
- * replayed. Turn on for launch with NEXT_PUBLIC_DAILY_LOCK=true (e.g. in .env.local or Vercel).
+ * Once-a-day lock: on unless explicitly turned off, so production can't ship without it.
+ * A finished game stays finished, a reload resumes it, and streaks count. To replay while
+ * testing, set NEXT_PUBLIC_DAILY_LOCK=false (e.g. in web/.env.local or a Vercel Preview env).
  */
-export const DAILY_LOCK = process.env.NEXT_PUBLIC_DAILY_LOCK === "true";
+export const DAILY_LOCK = process.env.NEXT_PUBLIC_DAILY_LOCK !== "false";
 
 /** Puzzles flip at midnight Central European Time for everyone, wherever they are. */
 export const PUZZLE_TIMEZONE = "Europe/Berlin";
