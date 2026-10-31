@@ -1,12 +1,13 @@
 /**
- * Round country flag (circle-flags, SVG). Emoji flags render as letters on Windows,
- * so the UI uses these; the share text leaves flags out entirely.
+ * Round country flag (circle-flags, MIT, SVG), served from our own domain (copied in by
+ * scripts/sync-data.mjs). Emoji flags render as letters on Windows, so the UI uses these;
+ * the share text leaves flags out entirely.
  */
 export function Flag({ country, size = 16 }: { country: string; size?: number }) {
   return (
     // eslint-disable-next-line @next/next/no-img-element
     <img
-      src={`https://cdn.jsdelivr.net/gh/HatScripts/circle-flags@2.7.0/flags/${country.toLowerCase()}.svg`}
+      src={`/flags/${country.toLowerCase()}.svg`}
       alt={country}
       width={size}
       height={size}
