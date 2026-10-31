@@ -3,7 +3,7 @@ export function Wordmark({ className = "" }: { className?: string }) {
   return (
     <span className={`inline-flex items-center gap-[0.25em] ${className}`}>
       {/* eslint-disable-next-line @next/next/no-img-element */}
-      <img src="/brand/unicorn.svg" alt="" className="h-[1.6em] w-[1.6em] shrink-0" />
+      <img src="/brand/unicorn.png" alt="" className="h-[1.6em] w-[1.6em] shrink-0" />
       <span>
         <span className="text-primary">EU</span>nicorn
       </span>
