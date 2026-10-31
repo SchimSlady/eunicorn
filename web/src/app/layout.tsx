@@ -1,19 +1,10 @@
 import type { Metadata } from "next";
-import { Inter, Space_Grotesk } from "next/font/google";
 import "./globals.css";
 import { SiteFooter } from "@/components/SiteFooter";
 
 // Space Grotesk (Florian Karsten, Prague) for headings, Inter (Rasmus Andersson, Sweden) for text.
-const spaceGrotesk = Space_Grotesk({
-  variable: "--font-space-grotesk",
-  subsets: ["latin"],
-  weight: ["500", "700"],
-});
-
-const inter = Inter({
-  variable: "--font-inter",
-  subsets: ["latin", "latin-ext"],
-});
+// Both are self-hosted from public/fonts (see the @font-face rules in globals.css): no request to
+// Google, and no font download at build time, which made Vercel builds fail intermittently.
 
 export const metadata: Metadata = {
   title: "EUnicorn",
@@ -27,7 +18,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${spaceGrotesk.variable} ${inter.variable} antialiased`}>
+      <head>
+        <link rel="preload" href="/fonts/inter-latin-wght-normal.woff2" as="font" type="font/woff2" crossOrigin="" />
+        <link rel="preload" href="/fonts/space-grotesk-latin-wght-normal.woff2" as="font" type="font/woff2" crossOrigin="" />
+      </head>
+      <body className="antialiased">
         {children}
         <SiteFooter />
       </body>
