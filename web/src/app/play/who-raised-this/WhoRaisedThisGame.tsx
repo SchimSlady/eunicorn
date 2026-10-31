@@ -2,9 +2,9 @@
 
 import { useEffect, useMemo, useState } from "react";
 import { Banknote, CalendarDays, Check, Handshake, Image as ImageIcon, Lock, MapPin, Tag, Target, Users, X, type LucideIcon } from "lucide-react";
-import type { Company, Dataset, WhoRaisedThisPuzzle } from "@eunicorn/schema";
-import { indexById, loadDataset } from "@/lib/data";
-import { getTodayResult, loadProgress, loadTodayPuzzle, saveProgress, saveResult } from "@/lib/daily";
+import type { Company, Dataset, Round, WhoRaisedThisPuzzle } from "@eunicorn/schema";
+import { indexById, loadGame } from "@/lib/data";
+import { getTodayResult, loadProgress, saveProgress, saveResult } from "@/lib/daily";
 import { saveDifficulty, type Difficulty } from "@/lib/difficulty";
 import { shareText as buildShareText } from "@/lib/scoring";
 import { CompanyLogo } from "@/components/CompanyLogo";
@@ -83,7 +83,7 @@ export function WhoRaisedThisGame() {
   const [progress, setProgress] = useState<Progress | null>(null);
 
   useEffect(() => {
-    Promise.all([loadTodayPuzzle<WhoRaisedThisPuzzle>(MODE), loadDataset()]).then(([p, d]) => {
+    loadGame<WhoRaisedThisPuzzle>(MODE).then(({ puzzle: p, data: d }) => {
       setData(d);
       setPuzzle(p);
       if (p) setProgress(loadProgress<Progress>(MODE, p.date));
@@ -130,6 +130,9 @@ export function WhoRaisedThisGame() {
       });
     }
   }
+
+  // CC BY 4.0: rounds from the Tech.eu Funding Explorer must credit it, linked to the deal.
+  const round = data.rounds.find((r) => r.id === puzzle.roundId) as (Round & { attributionUrl?: string }) | undefined;
 
   const founders = answer.founderIds
     .map((id) => data.people.find((p) => p.id === id)?.name)
@@ -222,6 +225,15 @@ export function WhoRaisedThisGame() {
             }
           />
           <BuiltInEuropeCard company={answer} founders={founders} />
+          {round?.attributionUrl && (
+            <p className="text-center text-sm text-muted">
+              Funding data:{" "}
+              <a href={round.attributionUrl} rel="noopener" className="text-primary underline">
+                Tech.eu Funding Explorer
+              </a>{" "}
+              (CC BY 4.0)
+            </p>
+          )}
           <GameFooter share={shareText(puzzle, progress)} />
         </div>
       )}

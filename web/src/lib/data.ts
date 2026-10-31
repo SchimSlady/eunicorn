@@ -1,11 +1,24 @@
-import type { Company, Dataset } from "@eunicorn/schema";
+import type { Company, Dataset, GameMode, Puzzle } from "@eunicorn/schema";
+import { loadFilePuzzle } from "./daily";
 
-let datasetPromise: Promise<Dataset> | null = null;
+async function fetchJson<T>(url: string): Promise<T | null> {
+  const res = await fetch(url).catch(() => null);
+  return res?.status === 200 ? ((await res.json()) as T) : null;
+}
 
-/** The curated dataset, synced from /data into public/data. Fetched once per page load. */
-export function loadDataset(): Promise<Dataset> {
-  datasetPromise ??= fetch("/data/dataset.json").then((r) => r.json() as Promise<Dataset>);
-  return datasetPromise;
+/**
+ * Today's puzzle and the dataset it refers to, always from the same source: Supabase
+ * (/api/puzzle + /api/dataset) when it has an approved puzzle for today, otherwise the files
+ * synced from /data. Mixing them would break: file puzzles name companies the database lacks.
+ */
+export async function loadGame<P extends Puzzle>(mode: GameMode): Promise<{ puzzle: P | null; data: Dataset }> {
+  const live = await fetchJson<P>(`/api/puzzle/${mode}`);
+  if (live) {
+    const data = await fetchJson<Dataset>("/api/dataset");
+    if (data) return { puzzle: live, data };
+  }
+  const [puzzle, data] = await Promise.all([loadFilePuzzle<P>(mode), fetchJson<Dataset>("/data/dataset.json")]);
+  return { puzzle, data: data! };
 }
 
 export function indexById<T extends { id: string }>(items: T[]): Map<string, T> {

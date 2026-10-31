@@ -22,8 +22,16 @@ export async function loadPuzzle<P extends Puzzle>(mode: GameMode, date = todayK
 /** Until the data side publishes a daily schedule, fall back to the fixture day. */
 const FIXTURE_DATE = "2026-11-01";
 
-export async function loadTodayPuzzle<P extends Puzzle>(mode: GameMode): Promise<P | null> {
+/** Today's puzzle from the files in /data, or the fixture day when today has none. */
+export async function loadFilePuzzle<P extends Puzzle>(mode: GameMode): Promise<P | null> {
   return (await loadPuzzle<P>(mode)) ?? (await loadPuzzle<P>(mode, FIXTURE_DATE));
+}
+
+/** Today's puzzle from wherever it lives (Supabase first), e.g. to read its date on the home page. */
+export async function loadTodayPuzzle<P extends Puzzle>(mode: GameMode): Promise<P | null> {
+  const live = await fetch(`/api/puzzle/${mode}`).catch(() => null);
+  if (live?.status === 200) return (await live.json()) as P;
+  return loadFilePuzzle<P>(mode);
 }
 
 /** Milliseconds until the next puzzle unlocks (midnight Europe/Berlin). */
