@@ -12,6 +12,7 @@ import type {
   WhoRaisedThisPuzzle,
 } from "@eunicorn/schema";
 import { formatUsdAsEur } from "../format";
+import { distinctAnswers } from "../grid";
 
 /**
  * Builds the day's puzzle from the verified Supabase dataset when no approved puzzle exists
@@ -108,7 +109,7 @@ function unicornGrid(base: Base, data: Dataset, companies: Company[], rng: Rng):
     side.filter((p) => p.group === "investor").length <= 1 &&
     side.filter((p) => p.c.kind === "city").length <= 1;
 
-  for (let attempt = 0; attempt < 4000; attempt++) {
+  for (let attempt = 0; attempt < 40000; attempt++) {
     const rowGroup = pick(["place", "place", "sector"] as const, rng);
     const rows = pickN(pool.filter((p) => p.group === rowGroup), 3, rng);
     const cols = pickN(pool.filter((p) => p.group !== rowGroup), 3, rng);
@@ -116,6 +117,8 @@ function unicornGrid(base: Base, data: Dataset, companies: Company[], rng: Rng):
 
     const cells = rows.flatMap((r) => cols.map((col) => companies.filter((co) => r.test(co) && col.test(co)).map((co) => co.id)));
     if (cells.some((ids) => ids.length === 0)) continue;
+    // The whole board must be fillable with nine different companies.
+    if (!distinctAnswers(cells)) continue;
 
     // Prefer grids where squares have a few answers but no square takes almost anything.
     const score = cells.reduce((s, ids) => s + Math.min(ids.length, 3) - (ids.length > 6 ? 2 : 0), 0) + rng() * 0.5;
@@ -124,18 +127,16 @@ function unicornGrid(base: Base, data: Dataset, companies: Company[], rng: Rng):
   if (!best) return null;
 
   const byId = new Map(companies.map((c) => [c.id, c]));
-  const hinted = new Set<string>();
+  // Hints point at one complete board of nine different companies, one per square.
+  const plan = distinctAnswers(best.cells, undefined, (_, ids) => shuffle(ids, rng))!;
   return {
     ...base,
     mode: "unicorn-grid",
     rows: best.rows.map((r) => r.c) as UnicornGridPuzzle["rows"],
     cols: best.cols.map((c) => c.c) as UnicornGridPuzzle["cols"],
     validAnswers: best.cells,
-    cellHints: best.cells.map((ids) => {
-      // A different company per square where possible, so the hints don't repeat.
-      const fresh = ids.filter((id) => !hinted.has(id));
-      const one = byId.get(pick(fresh.length ? fresh : ids, rng))!;
-      hinted.add(one.id);
+    cellHints: plan.map((id) => {
+      const one = byId.get(id)!;
       return [
         { text: `One answer: ${one.sectors.map(sectorLabel).join(", ")} from ${one.city}`, cost: 1 },
         { text: `One answer starts with ${one.name[0].toUpperCase()}`, cost: 2 },
