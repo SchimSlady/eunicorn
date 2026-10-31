@@ -12,6 +12,7 @@ export function CompanySearch({
   onPick,
   placeholder = "Type a company…",
   showLogos = true,
+  autoFocus = false,
 }: {
   companies: Company[];
   exclude: Set<string>;
@@ -19,6 +20,7 @@ export function CompanySearch({
   placeholder?: string;
   /** Hard mode hides logos so the suggestion list doesn't give the answer away. */
   showLogos?: boolean;
+  autoFocus?: boolean;
 }) {
   const [query, setQuery] = useState("");
   const [active, setActive] = useState(0);
@@ -49,6 +51,7 @@ export function CompanySearch({
           e.preventDefault();
         }}
         placeholder={placeholder}
+        autoFocus={autoFocus}
         autoComplete="off"
         className="w-full rounded-xl border border-border bg-surface px-4 py-3 text-base outline-none focus:border-primary"
       />

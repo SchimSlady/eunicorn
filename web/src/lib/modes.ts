@@ -30,8 +30,11 @@ export const MODES: ModeInfo[] = [
     title: "Unicorn Grid",
     tagline: "Fill the 3×3 grid with European startups",
     description: "Each square needs a startup that matches both its row and its column, like Germany × AI.",
-    howTo: ["Nine squares, one company each.", "Rare answers are worth more.", "Every company only once."],
-    comingSoon: true,
+    howTo: [
+      "Tap a square, then name a startup that matches its row and column.",
+      "Lesser-known answers raise more: up to €5M per square.",
+      "Every company only once. Wrong guesses cost a guess.",
+    ],
   },
   {
     mode: "higher-lower",
