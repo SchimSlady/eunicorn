@@ -57,24 +57,23 @@ Rules:
 All motion is switched off under `prefers-reduced-motion` (globals.css, and `disableForReducedMotion` for confetti).
 
 ## Score and tone
-- **Score = money raised:** points are shown as `€8m raised` (out of `€10m`). Hints cost €m off the score, but the button just says "Hint"; the cost shows up in the result.
-  - ⚠️ To test: in Higher or Lower, the answers are also amounts ($B), which could be confusing.
-- **Verdicts** (`lib/scoring.ts`): Unicorn status 🦄 (perfect) · Series A material (≥70%) · Seed stage (≥40%) · Pre-seed vibes (>0) · Back to the garage (0).
-- **Language:** English only. Short, slightly ironic, insider terms welcome ("Pre-seed vibes", "Series A material"). Don't explain jokes.
+- **No money, no score shown.** A result says what you did ("7 of 10 found, 1 hint"); the stats panel says where you rank today ("better than 62% of players"). Points still exist underneath (wrong answers and hints cost them) but are never shown or priced.
+- **Language:** English only. Short, slightly dry, insider terms welcome. Don't explain jokes.
 - **Keep it short.** No rule lists, no helper subheadings. One line of description; the game explains itself.
 
 ## Share text
 Wordle pattern, built by `shareText()` in `lib/scoring.ts`:
 ```
-EUnicorn #12 · Who Raised This? · Hard · 💡1
-🟥🟩⬜⬜ €9m raised
+EUnicorn #12 🦄 Top 10
+🟩🟥🟩 7 of 10 found · 1 hint
+Medium
 eunicorn.eu
 ```
 No flag emojis (Windows). Later: an OG image (Next `ImageResponse`) so the link unfurls as a card.
 
 ## Layout
 - Mobile first, content max 28rem (`max-w-md`) in games, 42rem on the home page.
-- **Home:** one card per mode: illustration (`ModePreview`) → PLAY / RESULTS / SOON → title → tagline or score. Streak above the cards. No bottom nav.
+- **Home:** one card per mode: illustration (`ModePreview`) → title (and a "Played" mark once done). No taglines. Streak above the cards. No bottom nav.
 - **Before a game:** an intro screen (`GameIntro`): illustration, one-line description, three level buttons (Easy · Medium · Hard), Start. Nothing more.
 - **During a game:** `GameHeader` (back link, title, level, puzzle number).
 - **After a game:** `ResultHeader` → mode-specific review → "Built in Europe" card → `GameFooter` (share, countdown, back).

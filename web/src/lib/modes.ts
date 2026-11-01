@@ -36,7 +36,7 @@ export const MODES: ModeInfo[] = [
   {
     mode: "unicorn-grid",
     title: "Unicorn Grid",
-    description: "Name a startup for each square that fits its row and column. Lesser-known answers raise more.",
+    description: "Name a startup for each square that fits its row and column.",
     rules: [
       "Fill each square with a startup that fits both its row and its column.",
       "Each company can be used only once.",
@@ -59,9 +59,9 @@ export const MODES: ModeInfo[] = [
   {
     mode: "impostor",
     title: "Impostor",
-    description: "Six startups, one category. Find the one that doesn't belong.",
+    description: "Six startups, one category. Find the ones that don't belong.",
     rules: [
-      "All but one of the startups share something: a country, a city, a sector, a founding period or unicorn status.",
+      "Most of the startups share something: a country, a city, a sector, a founding period or unicorn status.",
       "Usually one doesn't belong, sometimes two or three: the prompt says how many. Find them all.",
       "Each wrong pick costs points, and so do hints. Pick as often as you like.",
       "Easy, Medium and Hard play the same. The level sets how well known the startups are, and how many hints you get: all on Easy, half on Medium, none on Hard.",
