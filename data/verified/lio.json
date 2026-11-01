@@ -1,0 +1,90 @@
+{
+  "id": "lio",
+  "name": "Lio",
+  "aliases": [
+    "askLio",
+    "Lio Technologies"
+  ],
+  "domain": "lio.ai",
+  "country": "DE",
+  "city": "Munich",
+  "founded": 2023,
+  "sectors": [
+    "ai",
+    "saas"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Vladimir Keil",
+    "Lukas Heinzmann",
+    "Till Wagner"
+  ],
+  "difficulty": 5,
+  "techeuId": "A90D0921-C5C2-445F-BEED-79B969DF4446",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.munich-startup.de/en/news/lio-raises-25-7-million-euros",
+      "quote": "for Munich-based startup Lio"
+    },
+    {
+      "field": "founded",
+      "url": "https://techcrunch.com/2026/03/05/lio-ai-series-a-a16z-30m-raise-automate-enterprise-procurement/",
+      "quote": "in 2023, the trio launched Lio"
+    },
+    {
+      "field": "founders",
+      "url": "https://techcrunch.com/2026/03/05/lio-ai-series-a-a16z-30m-raise-automate-enterprise-procurement/",
+      "quote": "He teamed up with friends Lukas Heinzmann and Till Wagner"
+    },
+    {
+      "field": "founders",
+      "url": "https://techcrunch.com/2026/03/05/lio-ai-series-a-a16z-30m-raise-automate-enterprise-procurement/",
+      "quote": "Vladimir Keil, the company"
+    },
+    {
+      "field": "sectors",
+      "url": "https://techcrunch.com/2026/03/05/lio-ai-series-a-a16z-30m-raise-automate-enterprise-procurement/",
+      "quote": "Lio operates an AI-native platform with agentic infrastructure that completes the entire procurement process."
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "D2ABCE67-D7D0-4169-84A4-71E182956F9E",
+      "stage": "series-a",
+      "month": "2026-03",
+      "amountEur": 25822000,
+      "amountOriginal": 30000000,
+      "currency": "USD",
+      "investors": [
+        "Andreessen Horowitz",
+        "SV Angels",
+        "Harry Stebbings",
+        "Y Combinator"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2026/03/05/lio-ai-series-a-a16z-30m-raise-automate-enterprise-procurement/",
+          "quote": "announced a $30 million Series A in a round led by Andreessen Horowitz"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2026/03/05/lio-ai-series-a-a16z-30m-raise-automate-enterprise-procurement/",
+          "quote": "announced a $30 million Series A in a round led by Andreessen Horowitz"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2026/03/05/lio-ai-series-a-a16z-30m-raise-automate-enterprise-procurement/",
+          "quote": "SV Angels, Harry Stebbings, and YC also partook in the round"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2026/03/05/lio-ai-series-a-a16z-30m-raise-automate-enterprise-procurement/",
+          "quote": "March 5, 2026"
+        }
+      ]
+    }
+  ]
+}

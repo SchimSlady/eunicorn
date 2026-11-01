@@ -1,0 +1,199 @@
+{
+  "id": "ororatech",
+  "name": "OroraTech",
+  "domain": "ororatech.com",
+  "country": "DE",
+  "city": "Munich",
+  "founded": 2018,
+  "sectors": [
+    "space",
+    "climate"
+  ],
+  "founders": [
+    "Thomas Grübler"
+  ],
+  "funFact": "OroraTech began as a university spin-off at the Technical University of Munich, with its core idea developed during the MOVE-II CubeSat project.",
+  "difficulty": 4,
+  "techeuId": "E533C383-FCEE-4837-9525-6F8AEA1663B8",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://ororatech.com/resources/news-blog/ororatech-successfully-closes-e5-8m-series-a-to-launch-first-satellites-to-tackle-global-wildfire-and-climate-crisis",
+      "quote": "Munich, June 1st, 2021"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/OroraTech",
+      "quote": "It was founded in 2018 as a"
+    },
+    {
+      "field": "founders",
+      "url": "https://ororatech.com/resources/news-blog/ororatech-successfully-closes-e5-8m-series-a-to-launch-first-satellites-to-tackle-global-wildfire-and-climate-crisis",
+      "quote": "says Thomas Grübler, CEO and Co-founder"
+    },
+    {
+      "field": "sectors",
+      "url": "https://en.wikipedia.org/wiki/OroraTech",
+      "quote": "OroraTech is a German aerospace start-up company providing wildfire monitoring with a network of around 35 thermal imaging satellites ."
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://en.wikipedia.org/wiki/OroraTech",
+      "quote": "OroraTech's key idea had been developed during the MOVE-II CubeSat project and WARR at the Technical University of Munich (TUM)."
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "52372417-BBD9-43B5-917C-73C6F18630D8",
+      "stage": "series-a",
+      "month": "2021-06",
+      "amountEur": 5800000,
+      "amountOriginal": 5800000,
+      "currency": "EUR",
+      "investors": [
+        "Findus Venture",
+        "Ananda Impact Ventures",
+        "APEX Ventures",
+        "Bayern Kapital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://ororatech.com/resources/news-blog/ororatech-successfully-closes-e5-8m-series-a-to-launch-first-satellites-to-tackle-global-wildfire-and-climate-crisis",
+          "quote": "The latest €5.8 million Series A funding round is led by Findus Venture and Ananda Impact Ventures"
+        },
+        {
+          "field": "month",
+          "url": "https://ororatech.com/resources/news-blog/ororatech-successfully-closes-e5-8m-series-a-to-launch-first-satellites-to-tackle-global-wildfire-and-climate-crisis",
+          "quote": "Munich, June 1st, 2021"
+        },
+        {
+          "field": "stage",
+          "url": "https://ororatech.com/resources/news-blog/ororatech-successfully-closes-e5-8m-series-a-to-launch-first-satellites-to-tackle-global-wildfire-and-climate-crisis",
+          "quote": "The latest €5.8 million Series A funding round is led by Findus Venture and Ananda Impact Ventures"
+        },
+        {
+          "field": "investors",
+          "url": "https://ororatech.com/resources/news-blog/ororatech-successfully-closes-e5-8m-series-a-to-launch-first-satellites-to-tackle-global-wildfire-and-climate-crisis",
+          "quote": "with contributions from APEX Ventures, BayernKapital"
+        }
+      ]
+    },
+    {
+      "techeuId": "940A837D-B8D1-4145-964D-355B06BEA29D",
+      "stage": "series-a",
+      "month": "2022-11",
+      "amountEur": 15000000,
+      "amountOriginal": 15000000,
+      "currency": "EUR",
+      "investors": [
+        "Edaphon",
+        "Findus Venture",
+        "Ananda Impact Ventures",
+        "Wachstumsfonds Bayern 2",
+        "ConActivity",
+        "APEX Ventures",
+        "SpaceTec Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://ororatech.com/ororatech-raises-15-million-euro-to-launch-second-thermal-infrared-camera/",
+          "quote": "has extended its Series A round with €15M from private investors and public sector co-funding."
+        },
+        {
+          "field": "month",
+          "url": "https://ororatech.com/ororatech-raises-15-million-euro-to-launch-second-thermal-infrared-camera/",
+          "quote": "November 30, 2022, Munich, Germany"
+        },
+        {
+          "field": "stage",
+          "url": "https://ororatech.com/ororatech-raises-15-million-euro-to-launch-second-thermal-infrared-camera/",
+          "quote": "The Series A extension was led by Belgium-based climate impact fund, Edaphon alongside existing investors and industry experts."
+        },
+        {
+          "field": "investors",
+          "url": "https://ororatech.com/ororatech-raises-15-million-euro-to-launch-second-thermal-infrared-camera/",
+          "quote": "The investment round was led by Edaphon, a Belgium-based climate impact fund, alongside existing investors Findus Venture, Ananda Impact Ventures, Wachstumsfonds Bayern 2, ConActivity, APEX Ventures, SpaceTec Capital"
+        }
+      ]
+    },
+    {
+      "techeuId": "54110A16-28A0-47D7-93ED-7E2482DB3BE6",
+      "stage": "series-b",
+      "month": "2024-10",
+      "amountEur": 25000000,
+      "amountOriginal": 25000000,
+      "currency": "EUR",
+      "investors": [
+        "Korys",
+        "European Circular Bioeconomy Fund",
+        "Bayern Kapital",
+        "Edaphon",
+        "Ananda Impact Ventures",
+        "ConActivity",
+        "Findus Venture"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2024/10/16/ororatechs-space-based-wildfire-detection-brings-in-25m-to-put-more-imaging-satellites-in-orbit",
+          "quote": "This €25 million (about $27 million) Series B round was led by Korys, the European Circular Bioeconomy Fund, and Bayern Kapital"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2024/10/16/ororatechs-space-based-wildfire-detection-brings-in-25m-to-put-more-imaging-satellites-in-orbit",
+          "quote": "This €25 million (about $27 million) Series B round was led by Korys, the European Circular Bioeconomy Fund, and Bayern Kapital"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2024/10/16/ororatechs-space-based-wildfire-detection-brings-in-25m-to-put-more-imaging-satellites-in-orbit",
+          "quote": "with participation by Edaphone Private Impact Fund, Ananda Impact Ventures, ConActivity KG, and Findus Venture"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2024/10/16/ororatechs-space-based-wildfire-detection-brings-in-25m-to-put-more-imaging-satellites-in-orbit",
+          "quote": "October 16, 2024"
+        }
+      ]
+    },
+    {
+      "techeuId": "35053242-AE9A-4CCE-B061-1FC8626C2981",
+      "stage": "series-b",
+      "month": "2025-05",
+      "amountEur": 12000000,
+      "amountOriginal": 12000000,
+      "currency": "EUR",
+      "investors": [
+        "BNP Paribas Solar Impulse Venture Fund",
+        "Rabo Ventures",
+        "Bayern Kapital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://spacenews.com/european-banks-help-ororatech-raise-more-funds-for-wildfire-monitoring-constellation/",
+          "quote": "OroraTech has secured an extra 12 million euros ($13.3 million) in Series B venture funding"
+        },
+        {
+          "field": "month",
+          "url": "https://spacenews.com/european-banks-help-ororatech-raise-more-funds-for-wildfire-monitoring-constellation/",
+          "quote": "the German satellite operator announced May 14."
+        },
+        {
+          "field": "stage",
+          "url": "https://spacenews.com/european-banks-help-ororatech-raise-more-funds-for-wildfire-monitoring-constellation/",
+          "quote": "OroraTech has secured an extra 12 million euros ($13.3 million) in Series B venture funding"
+        },
+        {
+          "field": "investors",
+          "url": "https://spaceinsider.tech/?p=30220",
+          "quote": "backed by BNP Paribas Solar Impulse Venture Fund and Rabo Ventures."
+        }
+      ]
+    }
+  ],
+  "aliases": [],
+  "status": "private",
+  "unicorn": false
+}

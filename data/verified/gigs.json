@@ -1,0 +1,120 @@
+{
+  "id": "gigs",
+  "name": "Gigs",
+  "aliases": [],
+  "domain": "gigs.com",
+  "country": "DE",
+  "city": "Berlin",
+  "founded": 2020,
+  "sectors": [
+    "telecom",
+    "devtools"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Hermann Frank",
+    "Dennis Bauer"
+  ],
+  "difficulty": 5,
+  "techeuId": "57938A2A-2571-4F64-B731-C0D92BAFC19D",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.deutsche-startups.de/2022/03/08/neue-startups-anymove-gigs/",
+      "quote": "Zum Konzept des Berliner Startups"
+    },
+    {
+      "field": "founded",
+      "url": "https://tech.eu/2024/12/12/gigs-raises-73m-in-series-b/",
+      "quote": "Gigs was founded by Hermann Frank and Dennis Bauer in 2020"
+    },
+    {
+      "field": "founders",
+      "url": "https://tech.eu/2024/12/12/gigs-raises-73m-in-series-b/",
+      "quote": "Gigs was founded by Hermann Frank and Dennis Bauer in 2020"
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.deutsche-startups.de/2022/03/08/neue-startups-anymove-gigs/",
+      "quote": "positioniert sich als „Telecom as a Service“-Dienst"
+    },
+    {
+      "field": "status",
+      "url": "https://tech.eu/2024/12/12/gigs-raises-73m-in-series-b/",
+      "quote": "it has raised a $73 million Series B led by Ribbit Capital"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "9A3322BA-BF16-4D14-8F17-FD102DEEBF72",
+      "stage": "series-a",
+      "month": "2022-09",
+      "amountEur": 20189784,
+      "amountOriginal": 20000000,
+      "currency": "USD",
+      "investors": [
+        "Gradient",
+        "YC Continuity",
+        "Crane Venture Partners",
+        "Speedinvest",
+        "BoxGroup"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.leadersnet.de/news/62683,n26-gruender-uber-ceo-und-google-investieren-in-berliner.html",
+          "quote": "hat am Mittwoch eine Series-A-Finanzierungsrunde in Höhe von 20 Millionen US-Dollar bekanntgegeben"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.leadersnet.de/news/62683,n26-gruender-uber-ceo-und-google-investieren-in-berliner.html",
+          "quote": "hat am Mittwoch eine Series-A-Finanzierungsrunde in Höhe von 20 Millionen US-Dollar bekanntgegeben"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.leadersnet.de/news/62683,n26-gruender-uber-ceo-und-google-investieren-in-berliner.html",
+          "quote": "Angeführt wurde die Runde von Gradient, dem Early-Stage-Venture-Fonds von Google. YC Continuity, Crane Venture Partners, Speedinvest, BoxGroup"
+        },
+        {
+          "field": "month",
+          "url": "https://www.leadersnet.de/news/62683,n26-gruender-uber-ceo-und-google-investieren-in-berliner.html",
+          "quote": "22.09.2022"
+        }
+      ]
+    },
+    {
+      "techeuId": "5FAAB34E-119D-4974-9F45-A811DE3913D3",
+      "stage": "series-b",
+      "month": "2024-12",
+      "amountEur": 69583452,
+      "amountOriginal": 73000000,
+      "currency": "USD",
+      "investors": [
+        "Ribbit Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2024/12/12/gigs-raises-73m-in-series-b/",
+          "quote": "it has raised a $73 million Series B led by Ribbit Capital"
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2024/12/12/gigs-raises-73m-in-series-b/",
+          "quote": "it has raised a $73 million Series B led by Ribbit Capital"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2024/12/12/gigs-raises-73m-in-series-b/",
+          "quote": "it has raised a $73 million Series B led by Ribbit Capital"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2024/12/12/gigs-raises-73m-in-series-b/",
+          "quote": "12 December 2024"
+        }
+      ]
+    }
+  ]
+}

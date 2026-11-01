@@ -1,0 +1,122 @@
+{
+  "id": "synthflow",
+  "name": "Synthflow",
+  "aliases": [
+    "Synthflow AI"
+  ],
+  "domain": "synthflow.ai",
+  "country": "DE",
+  "city": "Berlin",
+  "founded": 2023,
+  "sectors": [
+    "ai",
+    "saas"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Albert Astabatsyan",
+    "Hakob Astabatsyan",
+    "Sassun Mirzakhan-Saky"
+  ],
+  "difficulty": 5,
+  "techeuId": "4ADD3A6A-CE4C-4DED-B4B2-81CB7E65B01E",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.startbase.com/news/synthflow-ai-erhaelt-20-millionen-us-dollar/",
+      "quote": "The Berlin-based AI start-up Synthflow AI has raised 20 million US dollars in a Series A financing round."
+    },
+    {
+      "field": "founded",
+      "url": "https://synthflow.ai/news/synthflow-raises-20m-series-a",
+      "quote": "Founded in 2023 by serial entrepreneurs Albert Astabatsyan, Hakob Astabatsyan, and Sassun Mirzakhan-Saky"
+    },
+    {
+      "field": "founders",
+      "url": "https://synthflow.ai/news/synthflow-raises-20m-series-a",
+      "quote": "Founded in 2023 by serial entrepreneurs Albert Astabatsyan, Hakob Astabatsyan, and Sassun Mirzakhan-Saky"
+    },
+    {
+      "field": "sectors",
+      "url": "https://tech.eu/2025/06/24/synthflow-ai-raises-20m-to-transform-the-global-conversational-ai-market/",
+      "quote": "no-code platform that lets enterprises easily create, deploy and scale natural-sounding, cost-effective voice agents"
+    },
+    {
+      "field": "status",
+      "url": "https://tech.eu/2025/06/24/synthflow-ai-raises-20m-to-transform-the-global-conversational-ai-market/",
+      "quote": "has closed a $20 million Series A investment round"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://tech.eu/2025/06/24/synthflow-ai-raises-20m-to-transform-the-global-conversational-ai-market/",
+      "quote": "bringing the total funding to $30 million"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "4B142808-C0B4-4578-A42D-E2C234C1A914",
+      "stage": "seed",
+      "month": "2024-06",
+      "amountEur": 6918474,
+      "amountOriginal": 7400000,
+      "currency": "USD",
+      "investors": [
+        "Singular",
+        "Atlantic Labs"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2024/06/27/synthflow-raises-7-4m-seed-for-ai-generated-phone-calls/",
+          "quote": "today announced $7.4M in seed funding, led by Singular"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2024/06/27/synthflow-raises-7-4m-seed-for-ai-generated-phone-calls/",
+          "quote": "today announced $7.4M in seed funding, led by Singular"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2024/06/27/synthflow-raises-7-4m-seed-for-ai-generated-phone-calls/",
+          "quote": "with participation from existing investor Atlantic Labs and investors including the founders of Krisp AI"
+        }
+      ]
+    },
+    {
+      "techeuId": "DB60015D-5507-4351-A5BF-71A9A552FF11",
+      "stage": "series-a",
+      "month": "2025-06",
+      "amountEur": 17244352,
+      "amountOriginal": 20000000,
+      "currency": "USD",
+      "investors": [
+        "Accel",
+        "Atlantic Labs",
+        "Singular"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.startbase.com/news/synthflow-ai-erhaelt-20-millionen-us-dollar/",
+          "quote": "has raised 20 million US dollars in a Series A financing round"
+        },
+        {
+          "field": "month",
+          "url": "https://synthflow.ai/news/synthflow-raises-20m-series-a",
+          "quote": "Berlin, Germany – June 25, 2025"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2025/06/24/synthflow-ai-raises-20m-to-transform-the-global-conversational-ai-market/",
+          "quote": "This follows the company’s seed round last year"
+        },
+        {
+          "field": "stage",
+          "url": "https://synthflow.ai/news/synthflow-raises-20m-series-a",
+          "quote": "today announced a $20M Series A investment round"
+        }
+      ]
+    }
+  ]
+}

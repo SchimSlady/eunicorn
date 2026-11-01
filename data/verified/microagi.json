@@ -1,0 +1,89 @@
+{
+  "id": "microagi",
+  "name": "microagi",
+  "aliases": [
+    "MicroAGI"
+  ],
+  "domain": "microagi.ai",
+  "country": "DE",
+  "city": "Munich",
+  "founded": 2025,
+  "sectors": [
+    "robotics",
+    "ai"
+  ],
+  "founders": [
+    "Bercan Kilic"
+  ],
+  "funFact": "microagi was founded by former Formula 1 engineers and raised what it says is the largest seed round in German startup history.",
+  "difficulty": 5,
+  "techeuId": "CBA2B082-E5B3-4D81-A979-F36D911B8ACC",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.osborneclarke.com/news/osborne-clarke-advises-redalpine-germanys-largest-seed-funding-round-date-usd-55-million",
+      "quote": "in addition to its headquarters in Munich"
+    },
+    {
+      "field": "founded",
+      "url": "https://skill-sprinters.de/blog/news/microagi-muenchen-groesste-ki-seed-runde-2026/",
+      "quote": "microagi wurde 2025 gegründet"
+    },
+    {
+      "field": "founders",
+      "url": "https://www.osborneclarke.com/news/osborne-clarke-advises-redalpine-germanys-largest-seed-funding-round-date-usd-55-million",
+      "quote": "including former Red Bull Racing engineer Bercan Kilic"
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.osborneclarke.com/news/osborne-clarke-advises-redalpine-germanys-largest-seed-funding-round-date-usd-55-million",
+      "quote": "a company specialised in the fast and safe deployment of industrial robots"
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://www.osborneclarke.com/news/osborne-clarke-advises-redalpine-germanys-largest-seed-funding-round-date-usd-55-million",
+      "quote": "MicroAGI was founded only around ten months ago by former Formula 1 engineers"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "2092538E-2322-4890-A213-FB012712C658",
+      "stage": "seed",
+      "month": "2026-07",
+      "amountEur": 47963722,
+      "amountOriginal": 55000000,
+      "currency": "USD",
+      "investors": [
+        "Hummingbird",
+        "Northzone",
+        "LocalGlobe",
+        "Village Global",
+        "redalpine"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.osborneclarke.com/news/osborne-clarke-advises-redalpine-germanys-largest-seed-funding-round-date-usd-55-million",
+          "quote": "raised USD 55 million in the round"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.osborneclarke.com/news/osborne-clarke-advises-redalpine-germanys-largest-seed-funding-round-date-usd-55-million",
+          "quote": "Osborne Clarke has provided legal advice to redalpine"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.osborneclarke.com/news/osborne-clarke-advises-redalpine-germanys-largest-seed-funding-round-date-usd-55-million",
+          "quote": "Lead investor was international VC Hummingbird; further funds came from Northzone, LocalGlobe and Village Global, alongside redalpine."
+        },
+        {
+          "field": "month",
+          "url": "https://www.osborneclarke.com/news/osborne-clarke-advises-redalpine-germanys-largest-seed-funding-round-date-usd-55-million",
+          "quote": "17 July 2026"
+        }
+      ]
+    }
+  ],
+  "status": "private",
+  "unicorn": false
+}

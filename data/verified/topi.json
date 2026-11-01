@@ -1,0 +1,130 @@
+{
+  "id": "topi",
+  "name": "Topi",
+  "aliases": [
+    "topi"
+  ],
+  "domain": "topi.eu",
+  "country": "DE",
+  "city": "Berlin",
+  "founded": 2021,
+  "sectors": [
+    "fintech",
+    "ecommerce"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Estelle Merle",
+    "Charlotte Pallua"
+  ],
+  "difficulty": 5,
+  "techeuId": "67B86249-7512-4A01-9B00-770E255DB693",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://tech.eu/2021/12/14/topi-emerges-from-stealth-announces-4-5-million-in-pre-seed-funding-via-index-ventures-and-creandum/",
+      "quote": "Berlin has a new fintech player in"
+    },
+    {
+      "field": "founded",
+      "url": "https://www.deutsche-startups.de/2022/08/31/dealmonitor-topi-justhome/?amp=1",
+      "quote": "das 2021 von Estelle Merle und Charlotte Pallua gegründet wurde"
+    },
+    {
+      "field": "founders",
+      "url": "https://www.deutsche-startups.de/2022/08/31/dealmonitor-topi-justhome/?amp=1",
+      "quote": "das 2021 von Estelle Merle und Charlotte Pallua gegründet wurde"
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.deutsche-startups.de/2022/08/31/dealmonitor-topi-justhome/?amp=1",
+      "quote": "entwickelt eine Payment-Lösung für Unternehmen"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://www.trendingtopics.eu/topi-45-mio-dollar-fuer-berliner-abo-fintech-oesterreicher-mit-an-bord/",
+      "quote": "Mit so genanntem Hardware as a Service will das Startup als B2B-Partner im E-Commerce fungieren"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "C1FABF21-0364-4744-B751-A1AB65777F75",
+      "stage": "pre-seed",
+      "month": "2021-12",
+      "amountEur": 3979132,
+      "amountOriginal": 4500000,
+      "currency": "USD",
+      "investors": [
+        "Index Ventures",
+        "Creandum",
+        "Max Tayenthal",
+        "Thijn Lamers",
+        "Fabian Wesemann",
+        "Dominik Richter"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2021/12/14/topi-emerges-from-stealth-announces-4-5-million-in-pre-seed-funding-via-index-ventures-and-creandum/",
+          "quote": "announced a raise of $4.5 million in pre-seed funding"
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2021/12/14/topi-emerges-from-stealth-announces-4-5-million-in-pre-seed-funding-via-index-ventures-and-creandum/",
+          "quote": "announced a raise of $4.5 million in pre-seed funding"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2021/12/14/topi-emerges-from-stealth-announces-4-5-million-in-pre-seed-funding-via-index-ventures-and-creandum/",
+          "quote": "The startup has emerged from stealth today"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2021/12/14/topi-emerges-from-stealth-announces-4-5-million-in-pre-seed-funding-via-index-ventures-and-creandum/",
+          "quote": "round is co-led by"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2021/12/14/topi-emerges-from-stealth-announces-4-5-million-in-pre-seed-funding-via-index-ventures-and-creandum/",
+          "quote": "including HelloFresh founder"
+        }
+      ]
+    },
+    {
+      "techeuId": "8D5C396D-333F-42E8-9B49-E0D05D34EB86",
+      "stage": "series-a",
+      "month": "2022-08",
+      "amountEur": 14949000,
+      "amountOriginal": 15000000,
+      "currency": "USD",
+      "investors": [
+        "Index Ventures",
+        "Creandum",
+        "TriplePoint Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.trendingtopics.eu/topi-45-mio-dollar-fuer-berliner-abo-fintech-oesterreicher-mit-an-bord/",
+          "quote": "45 Mio. US-Dollar, davon 15 Mio. US-Dollar Eigenkapital"
+        },
+        {
+          "field": "stage",
+          "url": "https://startupintros.com/news/2022-08-01-topi-series-a",
+          "quote": "Topi - $15M Series A"
+        },
+        {
+          "field": "month",
+          "url": "https://www.deutsche-startups.de/2022/08/31/dealmonitor-topi-justhome/?amp=1",
+          "quote": "Topi sammelt 45 Millionen ein"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.deutsche-startups.de/2022/08/31/dealmonitor-topi-justhome/?amp=1",
+          "quote": "Creandum, Index Ventures und Triple Point Capital investieren 45 Millionen Euro in die Jungfirma"
+        }
+      ]
+    }
+  ]
+}

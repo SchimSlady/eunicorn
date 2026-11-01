@@ -1,0 +1,185 @@
+{
+  "id": "fernride",
+  "name": "Fernride",
+  "aliases": [
+    "FERNRIDE"
+  ],
+  "domain": "fernride.com",
+  "country": "DE",
+  "city": "Munich",
+  "founded": 2019,
+  "sectors": [
+    "logistics",
+    "robotics",
+    "mobility"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Hendrik Kramer",
+    "Maximilian Fisser",
+    "Jean-Michael Georg"
+  ],
+  "difficulty": 5,
+  "techeuId": "2D4D31E9-2388-4CA7-A169-080869AE3674",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://en.ain.ua/2023/06/13/speedinvest-joins-31m-round-for-fernride",
+      "quote": "The Munich-based autonomous, electric trucking company, FERNRIDE"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.ain.ua/2023/06/13/speedinvest-joins-31m-round-for-fernride",
+      "quote": "Founded in 2019 by Hendrik Kramer, Dr. Maximilian Fisser, and Jean-Michael Georg,"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.ain.ua/2023/06/13/speedinvest-joins-31m-round-for-fernride",
+      "quote": "Founded in 2019 by Hendrik Kramer, Dr. Maximilian Fisser, and Jean-Michael Georg,"
+    },
+    {
+      "field": "sectors",
+      "url": "https://en.ain.ua/2023/06/13/speedinvest-joins-31m-round-for-fernride",
+      "quote": "offers scalable automation solutions for yard trucking"
+    },
+    {
+      "field": "status",
+      "url": "https://www.munich-startup.de/en/news/fernride-secures-additional-18-million-euros",
+      "quote": "The Munich startup"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://www.munich-startup.de/en/news/fernride-secures-additional-18-million-euros",
+      "quote": "The Munich startup"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "279A1EFF-EB1F-4EE2-ACDB-644A512ACBAC",
+      "stage": "seed",
+      "month": "2021-07",
+      "amountEur": 7100000,
+      "amountOriginal": 7100000,
+      "currency": "EUR",
+      "investors": [
+        "Speedinvest",
+        "Fly Ventures",
+        "10x Group",
+        "Promus Ventures",
+        "UnternehmerTUM"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.startbase.com/news/zehn-millionen-euro-fuer-fahrerlose-lkw/",
+          "quote": "Fernride receives 7.1 million euros in its Series A financing round."
+        },
+        {
+          "field": "month",
+          "url": "https://www.startbase.com/news/zehn-millionen-euro-fuer-fahrerlose-lkw/",
+          "quote": "Stuttgart, 07. July 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.startbase.com/news/zehn-millionen-euro-fuer-fahrerlose-lkw/",
+          "quote": "The Munich VC 10x Group, "
+        }
+      ]
+    },
+    {
+      "techeuId": "E37C22DC-6A41-4FF2-953D-D968713F57D5",
+      "stage": "series-a",
+      "month": "2023-06",
+      "amountEur": 28722320,
+      "amountOriginal": 31000000,
+      "currency": "USD",
+      "investors": [
+        "10x Founders",
+        "Promus Ventures",
+        "Fly Ventures",
+        "Speedinvest",
+        "Krone",
+        "DB Schenker"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://en.ain.ua/2023/06/13/speedinvest-joins-31m-round-for-fernride",
+          "quote": "$31 million in Series A funding"
+        },
+        {
+          "field": "month",
+          "url": "https://en.ain.ua/2023/06/13/speedinvest-joins-31m-round-for-fernride",
+          "quote": "13 June, 2023"
+        },
+        {
+          "field": "investors",
+          "url": "https://en.ain.ua/2023/06/13/speedinvest-joins-31m-round-for-fernride",
+          "quote": "The investment was received by 10x Founders, Promus Ventures, Fly Ventures, Speedinvest, and others."
+        }
+      ]
+    },
+    {
+      "techeuId": "ED131EC6-35F3-4DA3-A30F-45B693F7B4F2",
+      "stage": "series-a",
+      "month": "2023-09",
+      "amountEur": 17753691,
+      "amountOriginal": 19000000,
+      "currency": "USD",
+      "investors": [
+        "Deep Tech and Climate Fonds",
+        "ERP special fund",
+        "Munich Re Ventures",
+        "Bayern Kapital",
+        "Klaus Kleinfeld"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://fernride.com/news/series-a-50m",
+          "quote": "has closed a further $19M in its Series A funding, pushing the total round amount to $50M"
+        },
+        {
+          "field": "month",
+          "url": "https://fernride.com/news/series-a-50m",
+          "quote": "Munich, September 20, 2023"
+        },
+        {
+          "field": "investors",
+          "url": "https://fernride.com/news/series-a-50m",
+          "quote": "alongside San Francisco-based Munich Re Ventures, Bayern Kapital, and Klaus Kleinfeld"
+        }
+      ]
+    },
+    {
+      "techeuId": "A92FA1CC-587B-4D32-B72E-47E8EFDB3DB4",
+      "stage": "series-a",
+      "month": "2025-09",
+      "amountEur": 18000000,
+      "amountOriginal": 18000000,
+      "currency": "EUR",
+      "investors": [
+        "Helantic",
+        "Thomas Müller"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.munich-startup.de/en/news/fernride-secures-additional-18-million-euros",
+          "quote": "has expanded its Series A financing round by 18 million euros"
+        },
+        {
+          "field": "month",
+          "url": "https://www.munich-startup.de/en/news/fernride-secures-additional-18-million-euros",
+          "quote": "September 10, 2025"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.munich-startup.de/en/news/fernride-secures-additional-18-million-euros",
+          "quote": "The financing is led by Helantic."
+        }
+      ]
+    }
+  ]
+}

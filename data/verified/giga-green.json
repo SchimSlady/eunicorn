@@ -1,0 +1,85 @@
+{
+  "id": "giga-green",
+  "name": "Giga.Green",
+  "aliases": [
+    "GIGA.GREEN"
+  ],
+  "domain": "giga.green",
+  "country": "DE",
+  "city": "Berlin",
+  "founded": 2018,
+  "sectors": [
+    "climate"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Sebastian Schmidt",
+    "Wolfgang Röbig"
+  ],
+  "funFact": "Giga.Green's stated mission is to save one gigaton (one billion tons) of CO2, which is where its name comes from.",
+  "difficulty": 5,
+  "techeuId": "8378A948-7550-44C2-8B54-F8CE60957B77",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.giga.green/en/news/giga-green-growth-financing",
+      "quote": "Berlin, 11th July, 2024"
+    },
+    {
+      "field": "founded",
+      "url": "https://www.giga.green/en/news/giga-green-growth-financing",
+      "quote": "Founded in 2018 by Sebastian Schmidt and Wolfgang Röbig, GIGA.GREEN is a leading German renewable energy solutions provider for commercial clients."
+    },
+    {
+      "field": "founders",
+      "url": "https://www.giga.green/en/news/giga-green-growth-financing",
+      "quote": "Founded in 2018 by Sebastian Schmidt and Wolfgang Röbig"
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.giga.green/en/news/giga-green-growth-financing",
+      "quote": "GIGA.GREEN designs, develops, and operates commercial solar energy systems, battery storage, and charging infrastructure in Germany."
+    },
+    {
+      "field": "status",
+      "url": "https://www.giga.green/en/news/giga-green-growth-financing",
+      "quote": "GIGA.GREEN has successfully completed a strategic growth financing round, securing EUR 25 million in equity from Ichigo Inc."
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://www.giga.green/en/news/giga-green-growth-financing",
+      "quote": "Giga.green's mission is to partner with its customers to save one gigaton (one billion tons) of CO2."
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "D212B6E3-EA5D-4DDF-9977-9A181D2627B3",
+      "stage": "series-b",
+      "month": "2024-07",
+      "amountEur": 25000000,
+      "amountOriginal": 25000000,
+      "currency": "EUR",
+      "investors": [
+        "Ichigo Inc."
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.giga.green/en/news/giga-green-growth-financing",
+          "quote": "GIGA.GREEN has successfully completed a strategic growth financing round, securing EUR 25 million in equity from Ichigo Inc."
+        },
+        {
+          "field": "month",
+          "url": "https://www.giga.green/en/news/giga-green-growth-financing",
+          "quote": "Berlin, 11th July, 2024"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.giga.green/en/news/giga-green-growth-financing",
+          "quote": "securing EUR 25 million in equity from Ichigo Inc., a leading Japanese sustainable infrastructure company"
+        }
+      ]
+    }
+  ]
+}

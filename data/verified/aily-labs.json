@@ -1,0 +1,108 @@
+{
+  "id": "aily-labs",
+  "name": "Aily Labs",
+  "aliases": [],
+  "domain": "ailylabs.com",
+  "country": "DE",
+  "city": "Munich",
+  "founded": 2020,
+  "sectors": [
+    "ai"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Bianca Anghelina",
+    "Sara Bisbe",
+    "Christoph Schmitt"
+  ],
+  "difficulty": 5,
+  "techeuId": "B1749976-A312-4F60-B6BA-6D4C20FFAA8F",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.munich-startup.de/en/news/aily-labs-kooperiert-mit-google-cloud",
+      "quote": "Munich-based AI startup Aily Labs"
+    },
+    {
+      "field": "founded",
+      "url": "https://www.munich-startup.de/en/news/aily-labs-kooperiert-mit-google-cloud",
+      "quote": "Aily Labs was founded in 2020."
+    },
+    {
+      "field": "founders",
+      "url": "https://www.munich-startup.de/en/93867/aily-labs-series-a/",
+      "quote": "Founded in 2020 by Bianca Anghelina, Sara Bisbe, and Christoph Schmitt"
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.adnkronos.com/immediapress/eng/aily-labs-raises-80-million-to-scale-ai-that-drives-performance-across-fortune-500-companies_3sSrznrREDbLXCrBxr9oJG",
+      "quote": "creator of the first AI-native Decision Intelligence platform for global enterprises"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "DF6417A7-D08A-4BEB-A876-B8252094E654",
+      "stage": "series-a",
+      "month": "2023-08",
+      "amountEur": 19000000,
+      "amountOriginal": 19000000,
+      "currency": "EUR",
+      "investors": [
+        "Insight Partners"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.munich-startup.de/en/93867/aily-labs-series-a/",
+          "quote": "has successfully completed its Series A financing round and raised 19 million euros"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.munich-startup.de/en/93867/aily-labs-series-a/",
+          "quote": "has successfully completed its Series A financing round and raised 19 million euros"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.munich-startup.de/en/93867/aily-labs-series-a/",
+          "quote": "Lead investor is Insight Partners."
+        },
+        {
+          "field": "month",
+          "url": "https://www.munich-startup.de/en/93867/aily-labs-series-a/",
+          "quote": "August 28, 2023"
+        }
+      ]
+    },
+    {
+      "techeuId": "05AF506E-8A04-437F-A672-E96558C49DD4",
+      "stage": "series-b",
+      "month": "2025-11",
+      "amountEur": 69366167,
+      "amountOriginal": 80000000,
+      "currency": "USD",
+      "investors": [
+        "FPV Ventures",
+        "Insight Partners",
+        "J.P. Morgan"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.adnkronos.com/immediapress/eng/aily-labs-raises-80-million-to-scale-ai-that-drives-performance-across-fortune-500-companies_3sSrznrREDbLXCrBxr9oJG",
+          "quote": "today announced it has raised $80 million in funding"
+        },
+        {
+          "field": "month",
+          "url": "https://www.adnkronos.com/immediapress/eng/aily-labs-raises-80-million-to-scale-ai-that-drives-performance-across-fortune-500-companies_3sSrznrREDbLXCrBxr9oJG",
+          "quote": "NEW YORK, Nov. 6, 2025 /PRNewswire/"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.adnkronos.com/immediapress/eng/aily-labs-raises-80-million-to-scale-ai-that-drives-performance-across-fortune-500-companies_3sSrznrREDbLXCrBxr9oJG",
+          "quote": "led by FPV Ventures with participation from existing investor Insight Partners, J.P. Morgan, and other strategic investors"
+        }
+      ]
+    }
+  ]
+}

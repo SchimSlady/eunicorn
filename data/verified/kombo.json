@@ -1,0 +1,89 @@
+{
+  "id": "kombo",
+  "name": "Kombo",
+  "aliases": [],
+  "domain": "kombo.dev",
+  "country": "DE",
+  "city": "Berlin",
+  "founded": 2022,
+  "sectors": [
+    "hrtech",
+    "saas",
+    "devtools"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Alexander Kübel",
+    "Niklas Higi",
+    "Aike Hillbrands",
+    "Fabian Rothfuß"
+  ],
+  "difficulty": 5,
+  "techeuId": "83A77D6E-1919-482E-B35D-F2D9F5E01447",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.kombo.dev/careers",
+      "quote": "We're on-site by default from our offices in Berlin & New York."
+    },
+    {
+      "field": "founded",
+      "url": "https://www.preqin.com/data/profile/asset/kombo-technologies-gmbh/522453",
+      "quote": "founded in 2022 by its CEO Alexander Kübel and co-founders Niklas Higi, Aike Hillbrands, and Fabian Rothfuß"
+    },
+    {
+      "field": "founders",
+      "url": "https://www.preqin.com/data/profile/asset/kombo-technologies-gmbh/522453",
+      "quote": "founded in 2022 by its CEO Alexander Kübel and co-founders Niklas Higi, Aike Hillbrands, and Fabian Rothfuß"
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.invest-in.berlin/n/kombo-raises-25m-to-fix-hr-data-fragmentation/",
+      "quote": "Think of it as a universal translator for workforce data."
+    },
+    {
+      "field": "unicorn",
+      "url": "https://www.invest-in.berlin/n/kombo-raises-25m-to-fix-hr-data-fragmentation/",
+      "quote": "That brings total funding to $30M since the company launched in 2022."
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "7CCCF5CC-723C-42A6-9A3B-2A6AC68C37B6",
+      "stage": "series-a",
+      "month": "2026-02",
+      "amountEur": 21105000,
+      "amountOriginal": 25000000,
+      "currency": "USD",
+      "investors": [
+        "Volition Capital",
+        "468 Capital",
+        "Acadian Ventures",
+        "Y Combinator"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.invest-in.berlin/n/kombo-raises-25m-to-fix-hr-data-fragmentation/",
+          "quote": "Kombo has closed a $25M Series A round led by Volition Capital"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.invest-in.berlin/n/kombo-raises-25m-to-fix-hr-data-fragmentation/",
+          "quote": "Kombo has closed a $25M Series A round led by Volition Capital"
+        },
+        {
+          "field": "month",
+          "url": "https://www.trysignalbase.com/news/funding/kombo-secures-25m",
+          "quote": "Kombo Secures $25M"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.invest-in.berlin/n/kombo-raises-25m-to-fix-hr-data-fragmentation/",
+          "quote": "with continued backing from Acadian Ventures, 468 Capital, and Y Combinator"
+        }
+      ]
+    }
+  ]
+}

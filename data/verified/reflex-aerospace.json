@@ -1,0 +1,144 @@
+{
+  "id": "reflex-aerospace",
+  "name": "Reflex Aerospace",
+  "aliases": [],
+  "domain": "reflexaerospace.com",
+  "country": "DE",
+  "city": "Berlin",
+  "founded": 2021,
+  "sectors": [
+    "space"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Walter Ballheimer",
+    "Alexander Genzel"
+  ],
+  "difficulty": 5,
+  "techeuId": "05ED547E-233E-46E8-916D-68903CDE3859",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.startbase.de/news/reflex-aerospace-erhaelt-sieben-millionen-euro/",
+      "quote": "in Berlin sowie München ansässige Start-up"
+    },
+    {
+      "field": "founded",
+      "url": "https://www.startbase.de/news/reflex-aerospace-erhaelt-sieben-millionen-euro/",
+      "quote": "Das 2021 gegründete und in Berlin sowie München ansässige Start-up"
+    },
+    {
+      "field": "founders",
+      "url": "https://www.munich-startup.de/en/news/50-million-euros-for-reflex-aerospace",
+      "quote": "Reflex co-founders Walter Ballheimer (l.) and Alexander Genzel (r.)"
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.munich-startup.de/en/news/50-million-euros-for-reflex-aerospace",
+      "quote": "develops and produces"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://www.munich-startup.de/en/news/50-million-euros-for-reflex-aerospace",
+      "quote": "It is the largest series A to date in the European"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "9EB93C91-916E-44E7-A0A3-A2E624DF6401",
+      "stage": "seed",
+      "month": "2022-12",
+      "amountEur": 7000000,
+      "amountOriginal": 7000000,
+      "currency": "EUR",
+      "investors": [
+        "Alpine Space Ventures",
+        "High-Tech Gründerfonds",
+        "Mynaric"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.startbase.de/news/reflex-aerospace-erhaelt-sieben-millionen-euro/",
+          "quote": "sieben Millionen Euro eingenommen"
+        },
+        {
+          "field": "month",
+          "url": "https://www.startbase.de/news/reflex-aerospace-erhaelt-sieben-millionen-euro/",
+          "quote": "Reflex Aerospace erhält sieben Millionen Euro"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.startbase.de/news/reflex-aerospace-erhaelt-sieben-millionen-euro/",
+          "quote": "Zu den aktuellen Investoren zählen der auf Raumfahrt spezialisierte Investmentfonds Alpine Space Ventures aus München"
+        }
+      ]
+    },
+    {
+      "techeuId": "208ADB9E-1E6B-416B-99E2-AED4D07928DD",
+      "stage": "seed",
+      "month": "2023-05",
+      "amountEur": 1750000,
+      "amountOriginal": 1750000,
+      "currency": "EUR",
+      "investors": [
+        "Bayern Kapital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.munich-startup.de/en/news/reflex-aerospace-expands-seed-round-by-e1-75-million",
+          "quote": "Reflex Aerospace expands its seed round by €1.75 million"
+        },
+        {
+          "field": "month",
+          "url": "https://www.munich-startup.de/en/news/reflex-aerospace-expands-seed-round-by-e1-75-million",
+          "quote": "Reflex Aerospace expands seed round by €1.75 million"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.munich-startup.de/en/news/reflex-aerospace-expands-seed-round-by-e1-75-million",
+          "quote": "Bayern Kapital is joining the Munich and Berlin-based startup as a new investor"
+        }
+      ]
+    },
+    {
+      "techeuId": "9E44C207-BB4C-44B0-B72E-28BDFD290C4F",
+      "stage": "series-a",
+      "month": "2025-11",
+      "amountEur": 50000000,
+      "amountOriginal": 50000000,
+      "currency": "EUR",
+      "investors": [
+        "Human Element",
+        "Alpine Space Ventures",
+        "Bayern Kapital",
+        "High-Tech Gründerfonds",
+        "Renovatio Financial Investments"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.munich-startup.de/en/news/50-million-euros-for-reflex-aerospace",
+          "quote": "has raised 50 million euros in a funding round"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.munich-startup.de/en/news/50-million-euros-for-reflex-aerospace",
+          "quote": "It is the largest series A to date in the European"
+        },
+        {
+          "field": "month",
+          "url": "https://www.munich-startup.de/en/news/50-million-euros-for-reflex-aerospace",
+          "quote": "Reflex Aerospace secures 50 million euros in the largest series A round of the European new-space sector."
+        },
+        {
+          "field": "investors",
+          "url": "https://www.munich-startup.de/en/news/50-million-euros-for-reflex-aerospace",
+          "quote": "Other investors include Alpine Space Ventures, Bayern Kapital, the High-Tech Gründerfonds (HTGF), and Renovatio Financial Investments."
+        }
+      ]
+    }
+  ]
+}

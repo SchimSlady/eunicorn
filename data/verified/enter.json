@@ -1,0 +1,128 @@
+{
+  "id": "enter",
+  "name": "Enter",
+  "aliases": [
+    "baupal"
+  ],
+  "domain": "enter.de",
+  "country": "DE",
+  "city": "Berlin",
+  "founded": 2020,
+  "sectors": [
+    "proptech",
+    "climate"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Max Schroeren",
+    "Justus Menten",
+    "Alex Müller"
+  ],
+  "difficulty": 5,
+  "techeuId": "C9A3B691-42A1-4E4B-8F0F-0F5069BB0972",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.startbase.com/news/enter-schliesst-series-a-mit-194-millionen-euro-ab/",
+      "quote": "ENTER is a Berlin-based company founded in 2020 by Max Schroeren, Justus Menten and Alex Müller."
+    },
+    {
+      "field": "founded",
+      "url": "https://www.startbase.com/news/enter-schliesst-series-a-mit-194-millionen-euro-ab/",
+      "quote": "ENTER is a Berlin-based company founded in 2020 by Max Schroeren, Justus Menten and Alex Müller."
+    },
+    {
+      "field": "founders",
+      "url": "https://www.startbase.com/news/enter-schliesst-series-a-mit-194-millionen-euro-ab/",
+      "quote": "ENTER is a Berlin-based company founded in 2020 by Max Schroeren, Justus Menten and Alex Müller."
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.startuphub.ai/news/enter-secures-20-million-series-b-funding",
+      "quote": "providing a comprehensive platform for energy efficiency renovations in the real estate sector"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://www.startuphub.ai/news/enter-secures-20-million-series-b-funding",
+      "quote": "The €20 million Series B brings Enter's total investment since 2022 to over €40 million."
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "F34B0E02-56EA-400D-8D2C-B50A4028006A",
+      "stage": "series-a",
+      "month": "2023-04",
+      "amountEur": 19400000,
+      "amountOriginal": 19400000,
+      "currency": "EUR",
+      "investors": [
+        "Target Global",
+        "Coatue",
+        "Partech",
+        "Foundamental",
+        "AO PropTech"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.startbase.com/news/enter-schliesst-series-a-mit-194-millionen-euro-ab/",
+          "quote": "baupal has closed its financing round with 19.4 million euros and is renaming itself ENTER with immediate effect."
+        },
+        {
+          "field": "stage",
+          "url": "https://www.startbase.com/news/enter-schliesst-series-a-mit-194-millionen-euro-ab/",
+          "quote": "ENTER closes Series A with 19.4 million euros"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.cleanthinking.de/enter-energetische-sanierung-digitalisieren/",
+          "quote": "Zu den Investoren des 2020 gegründeten Cleantech-Startups zählen VC-Gesellschaften wie COATUE, Foundamental, Target Global, A/O Proptech und Partech."
+        },
+        {
+          "field": "month",
+          "url": "https://www.startbase.com/news/enter-schliesst-series-a-mit-194-millionen-euro-ab/",
+          "quote": "21. April 2023"
+        }
+      ]
+    },
+    {
+      "techeuId": "EC4E9F1B-11FD-48E5-82E1-18B65281FDFF",
+      "stage": "series-b",
+      "month": "2025-06",
+      "amountEur": 20000000,
+      "amountOriginal": 20000000,
+      "currency": "EUR",
+      "investors": [
+        "SE Ventures",
+        "Partech",
+        "Coatue",
+        "noa",
+        "Target Global",
+        "Foundamental"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2025/06/24/enter-lands-eur20m-to-green-european-homes/",
+          "quote": "has raised €20 million in Series B funding."
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2025/06/24/enter-lands-eur20m-to-green-european-homes/",
+          "quote": "has raised €20 million in Series B funding."
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2025/06/24/enter-lands-eur20m-to-green-european-homes/",
+          "quote": "Enter lands €20M to green European homes"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.startuphub.ai/news/enter-secures-20-million-series-b-funding",
+          "quote": "The round was led by SE Ventures, the venture arm of Schneider Electric."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "id": "ostrom",
+  "name": "Ostrom",
+  "aliases": [],
+  "domain": "ostrom.de",
+  "country": "DE",
+  "city": "Berlin",
+  "founded": 2021,
+  "sectors": [
+    "climate"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Matthias Martensen",
+    "Karl Villanueva"
+  ],
+  "difficulty": 5,
+  "techeuId": "52E77C1C-7FD0-4266-9AB2-7A5B46ED835A",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.ostrom.de/en/press",
+      "quote": "Location : Berlin, Deutschland"
+    },
+    {
+      "field": "founded",
+      "url": "https://invest-in.berlin/n/ostrom-raises-eur20m-series-b-for-smart-energy-platform/",
+      "quote": "Founded in 2021, Ostrom has positioned itself as a disruptor in Germany's energy market"
+    },
+    {
+      "field": "founders",
+      "url": "https://www.ostrom.de/en/press",
+      "quote": "Founders Matthias Martensen & Karl Villanueva"
+    },
+    {
+      "field": "sectors",
+      "url": "https://invest-in.berlin/n/ostrom-raises-eur20m-series-b-for-smart-energy-platform/",
+      "quote": "Founded in 2021, Ostrom has positioned itself as a disruptor in Germany's energy market by offering transparent, monthly cancellable contracts with 100% certified green electricity."
+    },
+    {
+      "field": "status",
+      "url": "https://invest-in.berlin/n/ostrom-raises-eur20m-series-b-for-smart-energy-platform/",
+      "quote": "Berlin-based digital energy provider Ostrom has closed a €20 million Series B funding round"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "D952FB7C-2AE3-4D8D-A047-82D19803CDD0",
+      "stage": "pre-seed",
+      "month": "2022-01",
+      "amountEur": 4400000,
+      "amountOriginal": 4400000,
+      "currency": "EUR",
+      "investors": [],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.ostrom.de/en/press",
+          "quote": "Ostrom raises €4.4m for its goal to make the switch to green energy easy"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.ostrom.de/en/press",
+          "quote": "German GreenTech startup Ostrom raises Euro 4.4 million in pre-seed"
+        },
+        {
+          "field": "month",
+          "url": "https://www.ostrom.de/en/press",
+          "quote": "January 2022"
+        }
+      ]
+    },
+    {
+      "techeuId": "ED7F775F-C723-433E-92C9-ADB161072FB0",
+      "stage": "series-a",
+      "month": "2022-12",
+      "amountEur": 9300000,
+      "amountOriginal": 9300000,
+      "currency": "EUR",
+      "investors": [
+        "Adjacent",
+        "Union Square Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.ostrom.de/en/press",
+          "quote": "Ostrom raises 9.3€ million Series A to help consumers use less electricity"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.ostrom.de/en/press",
+          "quote": "Series A investment from US investors Adjacent and Union Square Ventures in December 2022"
+        },
+        {
+          "field": "month",
+          "url": "https://www.ostrom.de/en/press",
+          "quote": "December 2022"
+        }
+      ]
+    },
+    {
+      "techeuId": "4F1BD7CF-535C-4AB8-B99F-805A1263B173",
+      "stage": "series-a",
+      "month": "2023-09",
+      "amountEur": 7500000,
+      "amountOriginal": 8000000,
+      "currency": "USD",
+      "investors": [
+        "SE Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.ostrom.de/en/press",
+          "quote": "Berlin-based Ostrom picks up extra €7.5 million in order to advance"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.ostrom.de/en/press",
+          "quote": "an additional $8 million from SE Ventures in September 2023"
+        },
+        {
+          "field": "month",
+          "url": "https://www.ostrom.de/en/press",
+          "quote": "September 2023"
+        }
+      ]
+    },
+    {
+      "techeuId": "692568CF-E5D8-48DB-AC2E-A08ADCEF0A33",
+      "stage": "series-b",
+      "month": "2025-06",
+      "amountEur": 20000000,
+      "amountOriginal": 20000000,
+      "currency": "EUR",
+      "investors": [
+        "Eneco Ventures",
+        "SE Ventures",
+        "Union Square Ventures",
+        "468 Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://invest-in.berlin/n/ostrom-raises-eur20m-series-b-for-smart-energy-platform/",
+          "quote": "closed a €20 million Series B funding round led by Eneco Ventures"
+        },
+        {
+          "field": "investors",
+          "url": "https://invest-in.berlin/n/ostrom-raises-eur20m-series-b-for-smart-energy-platform/",
+          "quote": "Eneco Ventures, the venture capital arm of Dutch sustainable energy leader Eneco, led the round with participation from returning investors including SE Ventures, Union Square Ventures, and 468 Capital."
+        },
+        {
+          "field": "month",
+          "url": "https://invest-in.berlin/n/ostrom-raises-eur20m-series-b-for-smart-energy-platform/",
+          "quote": "23.06.2025"
+        }
+      ]
+    }
+  ]
+}

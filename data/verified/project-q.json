@@ -1,0 +1,115 @@
+{
+  "id": "project-q",
+  "name": "Project Q",
+  "aliases": [],
+  "domain": "project-q.ai",
+  "country": "DE",
+  "city": "Munich",
+  "founded": 2024,
+  "sectors": [
+    "defense"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Leonard Wessendorff",
+    "Frank Christian Sprengel"
+  ],
+  "difficulty": 5,
+  "techeuId": "E4E17A78-5A15-4D67-A64D-3C07C72D4BBA",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://munich-startup.de/news/project-q-series-a",
+      "quote": "Das Münchner Defencetech Project Q"
+    },
+    {
+      "field": "founded",
+      "url": "https://munich-startup.de/news/project-q-series-a",
+      "quote": "Project Q gründeten Leonard Wessendorff und Frank Christian Sprengel im Jahr 2024."
+    },
+    {
+      "field": "founders",
+      "url": "https://munich-startup.de/news/project-q-series-a",
+      "quote": "Project Q gründeten Leonard Wessendorff und Frank Christian Sprengel im Jahr 2024."
+    },
+    {
+      "field": "sectors",
+      "url": "https://munich-startup.de/news/project-q-series-a",
+      "quote": "Project Q entwickelt technologische Lösungen für den Verteidigungs- und Sicherheitsbereich."
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "F2657FF7-A542-4B38-8A3A-D2447D93527A",
+      "stage": "seed",
+      "month": "2025-07",
+      "amountEur": 7500000,
+      "amountOriginal": 7500000,
+      "currency": "EUR",
+      "investors": [
+        "Project A",
+        "Expeditions Fund",
+        "Superangel"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://munich-startup.de/news/project-q-seed",
+          "quote": "Project Q hat in einer Seed-Finanzierungsrunde 7,5 Millionen Euro eingesammelt."
+        },
+        {
+          "field": "stage",
+          "url": "https://munich-startup.de/news/project-q-seed",
+          "quote": "Project Q hat in einer Seed-Finanzierungsrunde 7,5 Millionen Euro eingesammelt."
+        },
+        {
+          "field": "month",
+          "url": "https://munich-startup.de/news/project-q-seed",
+          "quote": "30. Juli 2025"
+        },
+        {
+          "field": "investors",
+          "url": "https://munich-startup.de/news/project-q-seed",
+          "quote": "Ebenfalls beteiligt sind der Expeditions Fund aus Warschau sowie Superangel aus Estland."
+        }
+      ]
+    },
+    {
+      "techeuId": "D10E975A-74B3-4517-A176-88499E6E181C",
+      "stage": "series-a",
+      "month": "2026-07",
+      "amountEur": 15000000,
+      "amountOriginal": 15000000,
+      "currency": "EUR",
+      "investors": [
+        "Expeditions",
+        "Project A",
+        "Hensoldt",
+        "Heliad"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://munich-startup.de/news/project-q-series-a",
+          "quote": "hat eine Series-A-Finanzierungsrunde über 15 Millionen Euro abgeschlossen"
+        },
+        {
+          "field": "stage",
+          "url": "https://munich-startup.de/news/project-q-series-a",
+          "quote": "hat eine Series-A-Finanzierungsrunde über 15 Millionen Euro abgeschlossen"
+        },
+        {
+          "field": "month",
+          "url": "https://munich-startup.de/news/project-q-series-a",
+          "quote": "16. Juli 2026"
+        },
+        {
+          "field": "investors",
+          "url": "https://munich-startup.de/news/project-q-series-a",
+          "quote": "Neu hinzu kommen der börsennotierte Rüstungskonzern Hensoldt sowie der Venture-Capital-Investor Heliad."
+        }
+      ]
+    }
+  ]
+}

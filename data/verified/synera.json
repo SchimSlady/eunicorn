@@ -1,0 +1,98 @@
+{
+  "id": "synera",
+  "name": "Synera",
+  "aliases": [
+    "ELISE"
+  ],
+  "domain": "synera.ai",
+  "country": "DE",
+  "city": "Bremen",
+  "founded": 2018,
+  "sectors": [
+    "ai",
+    "saas"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Moritz Maier",
+    "Sebastian Möller-Lafore",
+    "Daniel Siegel"
+  ],
+  "difficulty": 5,
+  "techeuId": "DD2E389F-095B-4E78-AD83-DB0E60E45D3A",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://synera.io/press/synera-raises-40m-series-b-to-scale-agentic-ai-engineering-for-global-manufacturers",
+      "quote": "Founded in 2018 in Bremen, Germany, by Dr. Moritz Maier, Sebastian Möller-Lafore, and Daniel Siegel"
+    },
+    {
+      "field": "founded",
+      "url": "https://synera.io/press/synera-raises-40m-series-b-to-scale-agentic-ai-engineering-for-global-manufacturers",
+      "quote": "Founded in 2018 in Bremen, Germany, by Dr. Moritz Maier, Sebastian Möller-Lafore, and Daniel Siegel"
+    },
+    {
+      "field": "founders",
+      "url": "https://synera.io/press/synera-raises-40m-series-b-to-scale-agentic-ai-engineering-for-global-manufacturers",
+      "quote": "Founded in 2018 in Bremen, Germany, by Dr. Moritz Maier, Sebastian Möller-Lafore, and Daniel Siegel"
+    },
+    {
+      "field": "sectors",
+      "url": "https://synera.io/press/synera-raises-40m-series-b-to-scale-agentic-ai-engineering-for-global-manufacturers",
+      "quote": "the agentic AI platform orchestrating the full industrial engineering value chain"
+    },
+    {
+      "field": "status",
+      "url": "https://thenextweb.com/news/synera-40m-series-b-agentic-ai-engineering",
+      "quote": "the Bremen-based agentic AI platform for industrial engineering"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://thenextweb.com/news/synera-40m-series-b-agentic-ai-engineering",
+      "quote": "The Series B brings total funding to approximately $58 million."
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "E01B782F-476F-4C8B-A236-5BDC74C56116",
+      "stage": "series-b",
+      "month": "2026-04",
+      "amountEur": 33918426,
+      "amountOriginal": 40000000,
+      "currency": "USD",
+      "investors": [
+        "Revaia",
+        "Capgemini",
+        "ISAI Cap Venture",
+        "UVC Partners",
+        "BMW iVentures",
+        "Cherry Ventures",
+        "Venture Stars",
+        "Spark Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://synera.io/press/synera-raises-40m-series-b-to-scale-agentic-ai-engineering-for-global-manufacturers",
+          "quote": "today announced a $40 million (€35M) Series B round led by Revaia"
+        },
+        {
+          "field": "stage",
+          "url": "https://synera.io/press/synera-raises-40m-series-b-to-scale-agentic-ai-engineering-for-global-manufacturers",
+          "quote": "today announced a $40 million (€35M) Series B round led by Revaia"
+        },
+        {
+          "field": "month",
+          "url": "https://synera.io/press/synera-raises-40m-series-b-to-scale-agentic-ai-engineering-for-global-manufacturers",
+          "quote": "today announced a $40 million (€35M) Series B round led by Revaia"
+        },
+        {
+          "field": "investors",
+          "url": "https://synera.io/press/synera-raises-40m-series-b-to-scale-agentic-ai-engineering-for-global-manufacturers",
+          "quote": "with participation from Capgemini through ISAI Cap Venture"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "id": "mirelo",
+  "name": "Mirelo",
+  "aliases": [
+    "Mirelo AI"
+  ],
+  "domain": "mirelo.ai",
+  "country": "DE",
+  "city": "Berlin",
+  "founded": 2023,
+  "sectors": [
+    "ai"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "CJ Simon-Gabriel",
+    "Florian Wenzel"
+  ],
+  "funFact": "Mirelo was founded by a pair of former musicians who met as AI researchers at Amazon.",
+  "difficulty": 5,
+  "techeuId": "944F4D9E-CCC1-40D1-A950-1EFA92C2F16B",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://tech.eu/2025/12/15/ai-sound-generator-startup-mirelo-grabs-41m-seed-round-led-by-index-and-a16z/",
+      "quote": "A Berlin-based audio startup, which leverages its own AI models to let users generate synced sound for video"
+    },
+    {
+      "field": "founded",
+      "url": "https://tech.eu/2025/12/15/ai-sound-generator-startup-mirelo-grabs-41m-seed-round-led-by-index-and-a16z/",
+      "quote": "Mirelo, founded in 2023, has developed its own AI models for sound in video."
+    },
+    {
+      "field": "founders",
+      "url": "https://tech.eu/2025/12/15/ai-sound-generator-startup-mirelo-grabs-41m-seed-round-led-by-index-and-a16z/",
+      "quote": "was founded by a pair of former musicians, CJ Simon-Gabriel, and Florian Wenzel"
+    },
+    {
+      "field": "sectors",
+      "url": "https://tech.eu/2025/12/15/ai-sound-generator-startup-mirelo-grabs-41m-seed-round-led-by-index-and-a16z/",
+      "quote": "Mirelo, founded in 2023, has developed its own AI models for sound in video."
+    },
+    {
+      "field": "status",
+      "url": "https://tech.eu/2025/12/15/ai-sound-generator-startup-mirelo-grabs-41m-seed-round-led-by-index-and-a16z/",
+      "quote": "Mirelo, which has a 10-strong team"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://tech.eu/2025/12/15/ai-sound-generator-startup-mirelo-grabs-41m-seed-round-led-by-index-and-a16z/",
+      "quote": "has raised $41m in a seed round"
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://tech.eu/2025/12/15/ai-sound-generator-startup-mirelo-grabs-41m-seed-round-led-by-index-and-a16z/",
+      "quote": "who met as AI researchers at Amazon"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "557208E0-8DBF-4C40-831A-8CC4434F4116",
+      "stage": "seed",
+      "month": "2025-12",
+      "amountEur": 34884710,
+      "amountOriginal": 41000000,
+      "currency": "USD",
+      "investors": [
+        "Index Ventures",
+        "Andreessen Horowitz",
+        "Atlantic",
+        "TriplePoint Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2025/12/15/ai-sound-generator-startup-mirelo-grabs-41m-seed-round-led-by-index-and-a16z/",
+          "quote": "has raised $41m in a seed round, led by Index Ventures and Andreessen Horowitz"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2025/12/15/ai-sound-generator-startup-mirelo-grabs-41m-seed-round-led-by-index-and-a16z/",
+          "quote": "has raised $41m in a seed round, led by Index Ventures and Andreessen Horowitz"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.musicbusinessworldwide.com/berlin-startup-mirelo-raises-41m-in-seed-funding-for-ai-generated-video-sound",
+          "quote": "The round saw investment from Index Ventures and Andreessen Horowitz (a16z), with participation from"
+        }
+      ]
+    }
+  ]
+}

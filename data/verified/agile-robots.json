@@ -1,0 +1,127 @@
+{
+  "id": "agile-robots",
+  "name": "Agile Robots",
+  "aliases": [
+    "Agile Robots AG",
+    "Agile Robots SE"
+  ],
+  "domain": "agile-robots.com",
+  "country": "DE",
+  "city": "Munich",
+  "founded": 2018,
+  "sectors": [
+    "robotics",
+    "ai"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Zhaopeng Chen",
+    "Peter Meusel"
+  ],
+  "funFact": "Agile Robots was spun out of the German Aerospace Center's Institute of Robotics and Mechatronics, and in 2023 it bought insolvent robot maker Franka Emika.",
+  "difficulty": 4,
+  "techeuId": "F8DC2BCE-D5E8-4D97-881F-3666E1EB6456",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/Agile_Robots",
+      "quote": "Agile Robots was founded in Munich in 2018 by researchers from the German Aerospace Center"
+    },
+    {
+      "field": "founded",
+      "url": "https://www.therobotreport.com/agile-robots-closes-220m-series-c-funding/",
+      "quote": "The company was founded in 2018, with its headquarters both in Munich, Germany and Beijing, China."
+    },
+    {
+      "field": "founders",
+      "url": "https://siliconcanals.com/agile-robots-receives-27-9m/",
+      "quote": "Founded in 2018 by Peter Meusel and Zhaopeng Chen"
+    },
+    {
+      "field": "sectors",
+      "url": "https://en.wikipedia.org/wiki/Agile_Robots",
+      "quote": "Agile Robots SE is a German robotics and artificial intelligence company based in Munich , Germany."
+    },
+    {
+      "field": "status",
+      "url": "https://en.wikipedia.org/wiki/Agile_Robots",
+      "quote": "Agile Robots SE is a German robotics and artificial intelligence company"
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://en.wikipedia.org/wiki/Agile_Robots",
+      "quote": "In November 2023 Agile Robots acquired the Munich-based robotics company Franka Emika, which had filed for insolvency earlier that year."
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "2A0DEF89-C58E-40C0-8B34-DE9D1DE63D19",
+      "stage": "series-c",
+      "month": "2021-09",
+      "amountEur": 185842203,
+      "amountOriginal": 220000000,
+      "currency": "USD",
+      "investors": [
+        "SoftBank Vision Fund 2",
+        "Chimera Investments",
+        "GL Ventures",
+        "Sequoia China",
+        "Linear Capital",
+        "Xiaomi Group",
+        "Foxconn Industrial Internet",
+        "Hillhouse"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.therobotreport.com/agile-robots-closes-220m-series-c-funding/",
+          "quote": "announces the completion of a Series C financing with a total investment of US$220 million"
+        },
+        {
+          "field": "month",
+          "url": "https://en.wikipedia.org/wiki/Agile_Robots",
+          "quote": "In September 2021 the company raised $220 million in venture capital in a Series C funding round led by SoftBank Vision Fund 2."
+        },
+        {
+          "field": "investors",
+          "url": "https://www.therobotreport.com/agile-robots-closes-220m-series-c-funding/",
+          "quote": "The financing round is led by SoftBank Vision Fund 2*, followed by financial investors including but not limited to Chimera Investments under Abu Dhabi Royal Group, GL Ventures, Sequoia China and Linear Capital"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.therobotreport.com/agile-robots-closes-220m-series-c-funding/",
+          "quote": "announces the completion of a Series C financing"
+        }
+      ]
+    },
+    {
+      "techeuId": "7AF3A6BD-F36C-474C-9A18-2A8C00DD434F",
+      "stage": "series-c",
+      "month": "2022-04",
+      "amountEur": 27578599,
+      "amountOriginal": 30000000,
+      "currency": "USD",
+      "investors": [
+        "Foxconn Industrial Internet"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://siliconcanals.com/agile-robots-receives-27-9m/",
+          "quote": "announced that it has raised $30M (approximately €27.94M) in funding from China’s Foxconn Industrial Internet (FII)."
+        },
+        {
+          "field": "month",
+          "url": "https://siliconcanals.com/agile-robots-receives-27-9m/",
+          "quote": "SoftBank-backed robotics unicorn Agile Robots receives €27.9M funding from Foxconn Industrial Internet"
+        },
+        {
+          "field": "investors",
+          "url": "https://siliconcanals.com/agile-robots-receives-27-9m/",
+          "quote": "This is FII’s second strategic investment in Agile Robots."
+        }
+      ]
+    }
+  ]
+}

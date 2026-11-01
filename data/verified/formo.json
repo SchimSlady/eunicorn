@@ -1,0 +1,142 @@
+{
+  "id": "formo",
+  "name": "Formo",
+  "aliases": [
+    "Legendairy Foods"
+  ],
+  "domain": "formo.bio",
+  "country": "DE",
+  "city": "Berlin",
+  "founded": 2018,
+  "sectors": [
+    "foodtech"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Britta Winterberg",
+    "Raffael Wohlgensinger"
+  ],
+  "funFact": "Formo started life as Legendairy Foods and rebranded in 2021, on its way to making animal-free cheese with fermentation.",
+  "difficulty": 5,
+  "techeuId": "AC336CFD-3270-4783-8C46-9EF5DB6DA2C0",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://agfundernews.com/formo-nets-50m-for-animal-free-cheese-fermented-from-microbes",
+      "quote": "the Berlin-based startup move into a new headquarters"
+    },
+    {
+      "field": "founded",
+      "url": "https://agfundernews.com/formo-nets-50m-for-animal-free-cheese-fermented-from-microbes",
+      "quote": "Founded in 2018, it was originally named Legendairy Foods before a rebranding exercise earlier this year."
+    },
+    {
+      "field": "founders",
+      "url": "https://agfundernews.com/formo-nets-50m-for-animal-free-cheese-fermented-from-microbes",
+      "quote": "Co-founders Britta Winterberg and Raffael Wohlgensinger"
+    },
+    {
+      "field": "sectors",
+      "url": "https://agfundernews.com/formo-nets-50m-for-animal-free-cheese-fermented-from-microbes",
+      "quote": "German alt-dairy startup Formo has raised $50 million in Series A funding"
+    },
+    {
+      "field": "status",
+      "url": "https://www.investegate.co.uk/announcement/rns/agronomics-limited--anic/formo-closes-a-us-61-million-series-b-round/8407817",
+      "quote": "portfolio company Formo Bio GmbH (\"Formo\") has announced it secured US$ 61 million in its Series B funding round"
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://agfundernews.com/formo-nets-50m-for-animal-free-cheese-fermented-from-microbes",
+      "quote": "Founded in 2018, it was originally named Legendairy Foods before a rebranding exercise earlier this year."
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "968F69EB-86D4-4500-9295-AF754D7F9975",
+      "stage": "series-a",
+      "month": "2021-09",
+      "amountEur": 42444822,
+      "amountOriginal": 50000000,
+      "currency": "USD",
+      "investors": [
+        "EQT Ventures",
+        "Elevat3 Capital",
+        "Lionheart Ventures",
+        "Lowercarbon Capital",
+        "Happiness Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://agfundernews.com/formo-nets-50m-for-animal-free-cheese-fermented-from-microbes",
+          "quote": "German alt-dairy startup Formo has raised $50 million in Series A funding"
+        },
+        {
+          "field": "stage",
+          "url": "https://agfundernews.com/formo-nets-50m-for-animal-free-cheese-fermented-from-microbes",
+          "quote": "German alt-dairy startup Formo has raised $50 million in Series A funding"
+        },
+        {
+          "field": "investors",
+          "url": "https://agfundernews.com/formo-nets-50m-for-animal-free-cheese-fermented-from-microbes",
+          "quote": "The Series A round was led by Sweden's EQT Ventures , with Elevat3 Capital"
+        },
+        {
+          "field": "month",
+          "url": "https://agfundernews.com/formo-nets-50m-for-animal-free-cheese-fermented-from-microbes",
+          "quote": "September 13, 2021"
+        }
+      ]
+    },
+    {
+      "techeuId": "320FCEAD-642C-44F4-ACFD-1A172FA33450",
+      "stage": "series-b",
+      "month": "2024-09",
+      "amountEur": 55298704,
+      "amountOriginal": 61000000,
+      "currency": "USD",
+      "investors": [
+        "Foodlabs",
+        "EQT Ventures",
+        "Lowercarbon Capital",
+        "Happiness Capital",
+        "Elevat3 Capital",
+        "Grazia Capital",
+        "Sazaby League",
+        "Seven Ventures",
+        "Woodline Partners",
+        "The Nature Conservancy",
+        "REWE Group"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.investegate.co.uk/announcement/rns/agronomics-limited--anic/formo-closes-a-us-61-million-series-b-round/8407817",
+          "quote": "has announced it secured US$ 61 million in its Series B funding round"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.investegate.co.uk/announcement/rns/agronomics-limited--anic/formo-closes-a-us-61-million-series-b-round/8407817",
+          "quote": "has announced it secured US$ 61 million in its Series B funding round"
+        },
+        {
+          "field": "month",
+          "url": "https://www.investegate.co.uk/announcement/rns/agronomics-limited--anic/formo-closes-a-us-61-million-series-b-round/8407817",
+          "quote": "10 September 2024"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.investegate.co.uk/announcement/rns/agronomics-limited--anic/formo-closes-a-us-61-million-series-b-round/8407817",
+          "quote": "The funding round included existing investors Foodlabs, EQT Ventures, Lowercarbon Capital, Happiness Capital, Elevat3 Capital and Grazia Capital."
+        },
+        {
+          "field": "investors",
+          "url": "https://www.investegate.co.uk/announcement/rns/agronomics-limited--anic/formo-closes-a-us-61-million-series-b-round/8407817",
+          "quote": "Formo also welcomes new investors Sazaby League, Seven Ventures, Woodline Partners, The Nature Conservancy as well as the REWE Group"
+        }
+      ]
+    }
+  ]
+}

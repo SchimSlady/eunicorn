@@ -1,0 +1,159 @@
+{
+  "id": "kertos",
+  "name": "Kertos",
+  "aliases": [],
+  "domain": "kertos.io",
+  "country": "DE",
+  "city": "Munich",
+  "founded": 2021,
+  "sectors": [
+    "saas",
+    "legaltech"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Kilian Schmidt",
+    "Johannes Hussak",
+    "Alexander Prams"
+  ],
+  "difficulty": 5,
+  "techeuId": "707250F1-5DE5-41AB-A865-DA7D2C1701AC",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.munich-startup.de/en/news/kertos-secures-14-million-euros",
+      "quote": "Munich-based startup Kertos has completed a Series A funding round of 14 million euros."
+    },
+    {
+      "field": "founded",
+      "url": "https://www.munich-startup.de/91065/kertos-sichert-sich-4-millionen-euro-in-seed-runde/",
+      "quote": "Kertos wurde im November 2021 von Kilian Schmidt, Johannes Hussak and Alexander Prams gegründet."
+    },
+    {
+      "field": "founders",
+      "url": "https://www.munich-startup.de/91065/kertos-sichert-sich-4-millionen-euro-in-seed-runde/",
+      "quote": "Kertos wurde im November 2021 von Kilian Schmidt, Johannes Hussak and Alexander Prams gegründet."
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.munich-startup.de/en/news/kertos-secures-14-million-euros",
+      "quote": "Kertos develops an AI-native platform that automates the entire compliance process"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "60452C84-26EF-4C25-8A74-735783452F17",
+      "stage": "pre-seed",
+      "month": "2022-05",
+      "amountEur": 1000000,
+      "amountOriginal": 1000000,
+      "currency": "EUR",
+      "investors": [
+        "10x Founders",
+        "xdeck",
+        "Superlyst",
+        "Fabian Wesemann",
+        "Ronny Shibley",
+        "Sebastian Schaal"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.startbase.com/news/exklusiv-kertos-erhaelt-eine-million-euro/",
+          "quote": "was able to raise one million euros"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.startbase.com/news/exklusiv-kertos-erhaelt-eine-million-euro/",
+          "quote": "The data protection start-up has thus successfully completed its pre-seed financing round."
+        },
+        {
+          "field": "investors",
+          "url": "https://www.startbase.com/news/exklusiv-kertos-erhaelt-eine-million-euro/",
+          "quote": "10x Founders led the financing round."
+        },
+        {
+          "field": "month",
+          "url": "https://www.startbase.com/news/exklusiv-kertos-erhaelt-eine-million-euro/",
+          "quote": "10. May 2022"
+        }
+      ]
+    },
+    {
+      "techeuId": "49E84FDA-DE73-4E3A-B7AF-930387716F48",
+      "stage": "seed",
+      "month": "2023-05",
+      "amountEur": 4000000,
+      "amountOriginal": 4000000,
+      "currency": "EUR",
+      "investors": [
+        "Redstone / VR Ventures",
+        "Seed + Speed",
+        "Pi Labs",
+        "10x Founders",
+        "Superlyst",
+        "xdeck"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.munich-startup.de/91065/kertos-sichert-sich-4-millionen-euro-in-seed-runde/",
+          "quote": "sichert sich 4 Millionen Euro von alten und neuen Investoren"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.munich-startup.de/91065/kertos-sichert-sich-4-millionen-euro-in-seed-runde/",
+          "quote": "Das Startup hat seine Seed-Runde abgeschlossen"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.munich-startup.de/91065/kertos-sichert-sich-4-millionen-euro-in-seed-runde/",
+          "quote": "Der Berliner VC Redstone / VR Ventures führt die Seed-Runde von Kertos an."
+        },
+        {
+          "field": "month",
+          "url": "https://www.munich-startup.de/91065/kertos-sichert-sich-4-millionen-euro-in-seed-runde/",
+          "quote": "4. Mai 2023"
+        }
+      ]
+    },
+    {
+      "techeuId": "3481D607-54A0-4373-98BA-D272CBB3BF82",
+      "stage": "series-a",
+      "month": "2025-09",
+      "amountEur": 14000000,
+      "amountOriginal": 14000000,
+      "currency": "EUR",
+      "investors": [
+        "Portage",
+        "Pi Labs",
+        "Redstone",
+        "10x Founders",
+        "Seed + Speed Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.munich-startup.de/en/news/kertos-secures-14-million-euros",
+          "quote": "Munich-based startup Kertos has completed a Series A funding round of 14 million euros."
+        },
+        {
+          "field": "stage",
+          "url": "https://www.munich-startup.de/en/news/kertos-secures-14-million-euros",
+          "quote": "Munich-based startup Kertos has completed a Series A funding round of 14 million euros."
+        },
+        {
+          "field": "investors",
+          "url": "https://www.munich-startup.de/en/news/kertos-secures-14-million-euros",
+          "quote": "The round was led by global fintech investor Portage. Existing investors Pi Labs, Redstone, 10x Founders, and Seed + Speed Ventures also participated again."
+        },
+        {
+          "field": "month",
+          "url": "https://www.munich-startup.de/en/news/kertos-secures-14-million-euros",
+          "quote": "September 17, 2025"
+        }
+      ]
+    }
+  ]
+}

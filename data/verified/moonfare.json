@@ -1,0 +1,152 @@
+{
+  "id": "moonfare",
+  "name": "Moonfare",
+  "aliases": [],
+  "domain": "moonfare.com",
+  "country": "DE",
+  "city": "Berlin",
+  "founded": 2016,
+  "sectors": [
+    "fintech"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Steffen Pauls",
+    "Heinrich von Liechtenstein",
+    "Alexander Argyros"
+  ],
+  "funFact": "Moonfare doubled its assets under management to more than €1 billion in only eight months in 2021.",
+  "difficulty": 5,
+  "techeuId": "295B3840-17F7-4AFA-A705-3EBB6851F59D",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.prnewswire.com/news-releases/moonfare-raises-125m-in-series-c-led-by-insight-partners-to-accelerate-global-growth-301413603.html",
+      "quote": "BERLIN , Nov. 2, 2021 /PRNewswire/ -- Moonfare, the leading digital private equity investment platform for individual investors"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Moonfare",
+      "quote": "Moonfare was founded in 2016 by Dr. Steffen Pauls, Heinrich von Liechtenstein, and Alexander Argyros."
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Moonfare",
+      "quote": "Moonfare was founded in 2016 by Dr. Steffen Pauls, Heinrich von Liechtenstein, and Alexander Argyros."
+    },
+    {
+      "field": "sectors",
+      "url": "https://en.wikipedia.org/wiki/Moonfare",
+      "quote": "Moonfare is a digital investment platform that secures allocations in private equity and venture capital funds"
+    },
+    {
+      "field": "status",
+      "url": "https://www.moonfare.com/blog/vitruvian-joins-moonfare-shareholder-partner",
+      "quote": "Headquartered in Berlin, the company operates in 22 countries"
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://www.prnewswire.com/news-releases/moonfare-raises-125m-in-series-c-led-by-insight-partners-to-accelerate-global-growth-301413603.html",
+      "quote": "In September, Moonfare exceeded €1 billion assets under management, doubling its assets in only 8 months."
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "1BD1FAC3-C7AA-484B-8B25-3195BEF5A919",
+      "stage": "series-c",
+      "month": "2021-11",
+      "amountEur": 107730759,
+      "amountOriginal": 125000000,
+      "currency": "USD",
+      "investors": [
+        "Insight Partners",
+        "Fidelity International Strategic Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.prnewswire.com/news-releases/moonfare-raises-125m-in-series-c-led-by-insight-partners-to-accelerate-global-growth-301413603.html",
+          "quote": "announced today that it has raised $125 million in Series C funding, led by New York-based global private equity and venture capital firm Insight Partners."
+        },
+        {
+          "field": "month",
+          "url": "https://www.prnewswire.com/news-releases/moonfare-raises-125m-in-series-c-led-by-insight-partners-to-accelerate-global-growth-301413603.html",
+          "quote": "BERLIN , Nov. 2, 2021 /PRNewswire/"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.prnewswire.com/news-releases/moonfare-raises-125m-in-series-c-led-by-insight-partners-to-accelerate-global-growth-301413603.html",
+          "quote": "Moonfare's last financing round was in March of this year and was led by Fidelity International Strategic Ventures, which also participated in the current round."
+        },
+        {
+          "field": "stage",
+          "url": "https://www.prnewswire.com/news-releases/moonfare-raises-125m-in-series-c-led-by-insight-partners-to-accelerate-global-growth-301413603.html",
+          "quote": "announced today that it has raised $125 million in Series C funding"
+        }
+      ]
+    },
+    {
+      "techeuId": "56B39B1C-0F92-4F2D-9208-1AC23DA8090C",
+      "stage": "series-c",
+      "month": "2022-03",
+      "amountEur": 31574199,
+      "amountOriginal": 35000000,
+      "currency": "USD",
+      "investors": [
+        "Vitruvian Partners"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.moonfare.com/blog/vitruvian-joins-moonfare-shareholder-partner",
+          "quote": "Vitruvian Partners (“Vitruvian”) is partnering with Moonfare, investing $35 million in the company's unique business model."
+        },
+        {
+          "field": "month",
+          "url": "https://www.moonfare.com/blog/vitruvian-joins-moonfare-shareholder-partner",
+          "quote": "Moonfare’s Assets under Management as of March 2022 are €1.6 billion"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.moonfare.com/blog/vitruvian-joins-moonfare-shareholder-partner",
+          "quote": "Vitruvian Partners (“Vitruvian”) is partnering with Moonfare, investing $35 million in the company's unique business model."
+        }
+      ]
+    },
+    {
+      "techeuId": "AFB632FD-DF75-42D5-8145-F64CA5AC0D7C",
+      "stage": "series-c",
+      "month": "2023-02",
+      "amountEur": 13972986,
+      "amountOriginal": 15000000,
+      "currency": "USD",
+      "investors": [
+        "Insight Partners",
+        "7 Global Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.finsmes.com/2023/02/moonfare-raises-15m-extension-of-series-c-financing.html",
+          "quote": "has capped the extension of its Series C financing round at c.a. $15m."
+        },
+        {
+          "field": "month",
+          "url": "https://www.finsmes.com/2023/02/moonfare-raises-15m-extension-of-series-c-financing.html",
+          "quote": "Moonfare Raises $15M Extension of Series C Financing"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.finsmes.com/2023/02/moonfare-raises-15m-extension-of-series-c-financing.html",
+          "quote": "With the extension of the Series C financing round, 7 Global Capital joined as an investor."
+        },
+        {
+          "field": "stage",
+          "url": "https://www.finsmes.com/2023/02/moonfare-raises-15m-extension-of-series-c-financing.html",
+          "quote": "Moonfare Raises $15M Extension of Series C Financing"
+        }
+      ]
+    }
+  ]
+}

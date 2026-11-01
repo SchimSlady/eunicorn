@@ -1,0 +1,95 @@
+{
+  "id": "langdock",
+  "name": "Langdock",
+  "aliases": [],
+  "domain": "langdock.com",
+  "country": "DE",
+  "city": "Berlin",
+  "founded": 2023,
+  "sectors": [
+    "ai",
+    "saas"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Lennard Schmidt",
+    "Jonas Beisswenger",
+    "Tobias Kemkes"
+  ],
+  "difficulty": 5,
+  "techeuId": "FBA2128F-F4E2-4286-A8E5-CB07B281D136",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://siliconangle.com/2024/04/19/langdock-reels-3m-llm-agnostic-enterprise-chatbot/",
+      "quote": "Berlin-based Langdock provides a chatbot platform of the same name for business users."
+    },
+    {
+      "field": "founded",
+      "url": "https://tech.eu/2025/03/21/german-ai-startup-langdock-mulls-us-move/",
+      "quote": "Founded in 2023,"
+    },
+    {
+      "field": "founders",
+      "url": "https://tech.eu/2025/03/21/german-ai-startup-langdock-mulls-us-move/",
+      "quote": "Schmidt, who along with his co-founders Jonas Beisswenger and Tobias Kemkes, attended"
+    },
+    {
+      "field": "sectors",
+      "url": "https://siliconangle.com/2024/04/19/langdock-reels-3m-llm-agnostic-enterprise-chatbot/",
+      "quote": "Berlin-based Langdock provides a chatbot platform of the same name for business users."
+    },
+    {
+      "field": "status",
+      "url": "https://tech.eu/2025/03/21/german-ai-startup-langdock-mulls-us-move/",
+      "quote": "Langdock has an office in Berlin"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://siliconangle.com/2024/04/19/langdock-reels-3m-llm-agnostic-enterprise-chatbot/",
+      "quote": "has raised $3 million in seed funding"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "1C335048-D641-41D6-B052-AC8244B012F1",
+      "stage": "seed",
+      "month": "2024-04",
+      "amountEur": 2816108,
+      "amountOriginal": 3000000,
+      "currency": "USD",
+      "investors": [
+        "General Catalyst",
+        "La Famiglia",
+        "Y Combinator",
+        "Rolf Schrömgens",
+        "Hanno Renner",
+        "Johannes Reck",
+        "Erik Muttersbach"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://siliconangle.com/2024/04/19/langdock-reels-3m-llm-agnostic-enterprise-chatbot/",
+          "quote": "has raised $3 million in seed funding to support its growth efforts"
+        },
+        {
+          "field": "month",
+          "url": "https://siliconangle.com/2024/04/19/langdock-reels-3m-llm-agnostic-enterprise-chatbot/",
+          "quote": "has raised $3 million in seed funding to support its growth efforts"
+        },
+        {
+          "field": "investors",
+          "url": "https://siliconangle.com/2024/04/19/langdock-reels-3m-llm-agnostic-enterprise-chatbot/",
+          "quote": "General Catalyst and La Famiglia led the round with contributions from about two dozen other backers."
+        },
+        {
+          "field": "investors",
+          "url": "https://codelabsacademy.com/en/news/langdock-secures-dollar3m-funding-to-improve-ai-usage-in-the-corporate-world-2024-4-24",
+          "quote": "raised seed money recently from Y Combinator, La Famiglia, and a number of well-known German businessmen, including Rolf Schrömgens (Trivago) and Hanno Renner (Personio)"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "id": "black-semiconductor",
+  "name": "Black Semiconductor",
+  "aliases": [],
+  "domain": "blacksemi.com",
+  "country": "DE",
+  "city": "Aachen",
+  "founded": 2020,
+  "sectors": [
+    "semiconductors"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Daniel Schall",
+    "Sebastian Schall"
+  ],
+  "difficulty": 5,
+  "techeuId": "84938A50-E3C7-4735-B51E-FB49744C899B",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://siliconcanals.com/black-semiconductor-secures-254-4m/",
+      "quote": "Aachen, Germany-based Black Semiconductor"
+    },
+    {
+      "field": "founded",
+      "url": "https://siliconcanals.com/black-semiconductor-secures-254-4m/",
+      "quote": "Founded in 2020 by Dr. Daniel Schall and Sebastian Schall"
+    },
+    {
+      "field": "founders",
+      "url": "https://siliconcanals.com/black-semiconductor-secures-254-4m/",
+      "quote": "Founded in 2020 by Dr. Daniel Schall and Sebastian Schall"
+    },
+    {
+      "field": "sectors",
+      "url": "https://siliconcanals.com/black-semiconductor-secures-254-4m/",
+      "quote": "Black Semiconductor is a deep tech company developing a new generation of chip technology through graphene technology."
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "DB70C592-94AA-4625-B690-BAF5446CCB4A",
+      "stage": "series-a",
+      "month": "2024-06",
+      "amountEur": 25700000,
+      "amountOriginal": 25700000,
+      "currency": "EUR",
+      "investors": [
+        "Porsche Ventures",
+        "Project A Ventures",
+        "Scania Growth Capital",
+        "Capnamic",
+        "Tech Vision Fonds",
+        "NRW.BANK",
+        "Vsquared Ventures",
+        "Cambium Capital",
+        "Onsight Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://siliconcanals.com/black-semiconductor-secures-254-4m/",
+          "quote": "the German company has secured an additional €25.7M in equity funding"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2024/06/12/germanys-black-semiconductor-raises-273m-for-graphene-based-chip-tech",
+          "quote": "The funding, a Series A, is important not just for its size"
+        },
+        {
+          "field": "month",
+          "url": "https://siliconcanals.com/black-semiconductor-secures-254-4m/",
+          "quote": "announced on Wednesday that it has secured €254.4M in a Series A funding round"
+        },
+        {
+          "field": "investors",
+          "url": "https://siliconcanals.com/black-semiconductor-secures-254-4m/",
+          "quote": "The round was led by Porsche Ventures and Project A Ventures"
+        }
+      ]
+    }
+  ]
+}

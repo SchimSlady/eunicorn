@@ -54,6 +54,13 @@ Read this before verifying a company. Each rule came from a real problem in the 
 - **Excluded with a reason:** Gymshark (no source says General Atlantic's 2020 stake was new shares), Mojang (bootstrapped, no equity round), Talkdesk (no source for where it was founded), Intercom (founded in California), Smartly.io (only a secondary sale), Idealista (buyouts only).
 - **Companies with no rounds are allowed** when the company facts are sourced but no round amount is (Zalando, DeepMind). They work in company-level games, not round-based puzzles.
 
+## German batch (2026-11-01)
+- **Every round needs an `amount` and a `month` source,** or the loader refuses it. Agents often forget the month. Quote a visible date line ("Berlin, April 6th, 2021", "24. März 2022"), not a date from a sidebar, a "related articles" list or JSON metadata.
+- **Tech.eu often converts USD as if it were EUR** (Qdrant $7.5M as €7.5M, Synthflow $20M as €20M, Omio $150M as €150M). Check the currency in the announcement.
+- **Headline amounts often include debt or grants.** Topi's $45M was $15M equity; Black Semiconductor's €254M was €25.7M equity plus public funding; Andercore's Series B was equity plus debt with no split, so Andercore was excluded. Use the equity part when it is given; otherwise leave the round out.
+- **Founding city may differ from the HQ Tech.eu lists:** Synera was founded in Bremen (not Berlin), planqc is in Garching (not Munich), and Gigs was founded in Berlin (now San Francisco).
+- **Brand-kit SVGs can be preview cards** (a logo on a large padded tile). Use the header logo instead.
+
 ## Logos
 - **Order:** Wikidata `P154` (Wikimedia Commons file) first, then the company's own press kit or header logo, then Wikipedia's infobox.
 - **Brandfetch Logo API prohibits programmatic downloads.** Don't use its CDN.

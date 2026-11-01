@@ -1,0 +1,220 @@
+{
+  "id": "omio",
+  "name": "Omio",
+  "aliases": [
+    "GoEuro"
+  ],
+  "domain": "omio.com",
+  "country": "DE",
+  "city": "Berlin",
+  "founded": 2013,
+  "sectors": [
+    "travel",
+    "mobility"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Naren Shaam"
+  ],
+  "funFact": "Omio started as GoEuro and only took the name Omio in 2019 when it expanded beyond Europe.",
+  "difficulty": 4,
+  "techeuId": "E3BA4E2A-4649-4BAC-96B2-D3E6C7C83019",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/Omio",
+      "quote": "Omio is a German online travel agency and multimodal travel booking platform headquartered in Berlin ."
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Omio",
+      "quote": "founded the company in 2013 under the name GoEuro"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Omio",
+      "quote": "Founded by Naren Shaam and launched as GoEuro"
+    },
+    {
+      "field": "sectors",
+      "url": "https://en.wikipedia.org/wiki/Omio",
+      "quote": "it enables users to search, compare and book rail , bus and coach , air and ferry travel."
+    },
+    {
+      "field": "status",
+      "url": "https://techcrunch.com/2022/06/20/omio-series-e/",
+      "quote": "It’s been a tough few years for Omio , the Berlin-based travel search and booking platform"
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://en.wikipedia.org/wiki/Omio",
+      "quote": "The company adopted the Omio name in 2019 as part of an expansion beyond its original European market."
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "24F6C6F7-755C-4BFB-D3F0-08D91092C887",
+      "stage": "series-b",
+      "month": "2015-12",
+      "amountEur": 41129696,
+      "amountOriginal": 45000000,
+      "currency": "USD",
+      "investors": [
+        "Goldman Sachs",
+        "Atomico",
+        "Yuri Milner",
+        "Tom Stafford",
+        "Sebastian Siemiatkowski",
+        "Ilkka Paananen"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2015/12/09/goeuro-series-b-2/",
+          "quote": "GoEuro has today announced a $45 million Series B round, led by Goldman Sachs."
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2015/12/09/goeuro-series-b-2/",
+          "quote": "GoEuro has today announced a $45 million Series B round"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2015/12/09/goeuro-series-b-2/",
+          "quote": "Other new investors in this round include Atomico, Yuri Milner and Tom Stafford, Sebastian Siemiatkowski ( Klarna ) and Ilkka Paananen (Supercell)."
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2015/12/09/goeuro-series-b-2/",
+          "quote": "GoEuro has today announced a $45 million Series B round"
+        }
+      ]
+    },
+    {
+      "techeuId": "C6D2B211-D196-4A08-D3F1-08D91092C887",
+      "stage": "series-c",
+      "month": "2016-10",
+      "amountEur": 62718394,
+      "amountOriginal": 70000000,
+      "currency": "USD",
+      "investors": [
+        "Silver Lake Kraftwerk",
+        "Kleiner Perkins Caufield & Byers",
+        "Atomico"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2016/10/04/goeuro-funding/",
+          "quote": "has raised $70 million in funding from Silver Lake Kraftwerk, Kleiner Perkins Caufield & Byers, Atomico and other investors."
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2016/10/04/goeuro-funding/",
+          "quote": "Berlin-based GoEuro scores $70 million to bolster its travel booking platform"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2016/10/04/goeuro-funding/",
+          "quote": "has raised $70 million in funding from Silver Lake Kraftwerk, Kleiner Perkins Caufield & Byers, Atomico and other investors."
+        }
+      ]
+    },
+    {
+      "techeuId": "62AE5AFD-B065-4E88-D3F2-08D91092C887",
+      "stage": "series-d",
+      "month": "2018-10",
+      "amountEur": 130684788,
+      "amountOriginal": 150000000,
+      "currency": "USD",
+      "investors": [
+        "Kinnevik",
+        "Temasek",
+        "Hillhouse Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2018/10/23/berlin-based-transportation-booking-platform-goeuro-raises-150-million/",
+          "quote": "GoEuro has landed a whopping $150 million funding round led by Kinnevik AB and Temasek, with participation from Hillhouse Capital."
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2018/10/23/berlin-based-transportation-booking-platform-goeuro-raises-150-million/",
+          "quote": "Berlin-based transportation booking platform GoEuro raises $150 million"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2018/10/23/berlin-based-transportation-booking-platform-goeuro-raises-150-million/",
+          "quote": "led by Kinnevik AB and Temasek, with participation from Hillhouse Capital."
+        }
+      ]
+    },
+    {
+      "techeuId": "6B3108AB-0E96-4242-AD04-24FE31326B2C",
+      "stage": "series-e",
+      "month": "2022-06",
+      "amountEur": 76067320,
+      "amountOriginal": 80000000,
+      "currency": "USD",
+      "investors": [
+        "Stack Capital Group",
+        "Lazard Asset Management",
+        "NEA",
+        "Temasek",
+        "Goldman Sachs Asset Management"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2022/06/20/omio-series-e/",
+          "quote": "It’s also announcing close of an $80 million Series E."
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2022/06/20/omio-series-e/",
+          "quote": "It’s also announcing close of an $80 million Series E."
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2022/06/20/omio-series-e/",
+          "quote": "The E round includes backing from some new investors, including Lazard Asset Management and Stack Capital Group. Existing investors reupping their support for the almost decade-old business include NEA and Temasek, and funds managed by Goldman Sachs Asset Management, amongst others."
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2022/06/20/omio-series-e/",
+          "quote": "It’s also announcing close of an $80 million Series E."
+        }
+      ]
+    },
+    {
+      "techeuId": "E31F2281-C5D8-4A8F-A716-0F30A220C5EA",
+      "stage": "series-f+",
+      "month": "2026-07",
+      "amountEur": 8778090,
+      "amountOriginal": 10000000,
+      "currency": "USD",
+      "investors": [
+        "Granite-Integral"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.prnewswire.co.uk/news-releases/omio-welcomes-10m-investment-from-granite-integral-to-fuel-expansion-in-japan-and-southeast-asia-302833261.html",
+          "quote": "has announced a $10m strategic investment from Granite-Integral"
+        },
+        {
+          "field": "month",
+          "url": "https://www.prnewswire.co.uk/news-releases/omio-welcomes-10m-investment-from-granite-integral-to-fuel-expansion-in-japan-and-southeast-asia-302833261.html",
+          "quote": "BERLIN , July 23, 2026 /PRNewswire/"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.prnewswire.co.uk/news-releases/omio-welcomes-10m-investment-from-granite-integral-to-fuel-expansion-in-japan-and-southeast-asia-302833261.html",
+          "quote": "has announced a $10m strategic investment from Granite-Integral"
+        }
+      ]
+    }
+  ]
+}

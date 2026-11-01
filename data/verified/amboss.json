@@ -1,0 +1,127 @@
+{
+  "id": "amboss",
+  "name": "AMBOSS",
+  "aliases": [
+    "Amboss"
+  ],
+  "domain": "amboss.com",
+  "country": "DE",
+  "city": "Berlin",
+  "founded": 2012,
+  "sectors": [
+    "health",
+    "edtech"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Madjid Salimi",
+    "Benedikt Hochkirchen",
+    "Nawid Salimi",
+    "Sievert Weiss"
+  ],
+  "funFact": "AMBOSS was founded by a team of physicians and now has more than 150 physicians on its team.",
+  "difficulty": 5,
+  "techeuId": "1F726E0D-8400-46C9-B6FD-29E4BCB7028D",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://siliconcanals.com/amboss-bags-e240m/",
+      "quote": "Berlin-based AMBOSS , a medical education and clinical decision-making platform"
+    },
+    {
+      "field": "founded",
+      "url": "https://siliconcanals.com/amboss-bags-e240m/",
+      "quote": "Founded in 2012 by physicians Dr. Madjid Salimi and Benedikt Hochkirchen"
+    },
+    {
+      "field": "founders",
+      "url": "https://techfundingnews.com/amboss-raises-e240m-eyeing-ipo-can-this-digital-co-pilot-for-physicians-redefine-medical-knoweledge/",
+      "quote": "AMBOSS was founded in 2012 by a team of physicians: Nawid Salimi , Madjid Salimi , Benedikt Hochkirchen , and Sievert Weiss ."
+    },
+    {
+      "field": "sectors",
+      "url": "https://siliconcanals.com/amboss-bags-e240m/",
+      "quote": "AMBOSS is a medical technology company that provides medical knowledge for students and clinicians."
+    },
+    {
+      "field": "status",
+      "url": "https://siliconcanals.com/amboss-bags-e240m/",
+      "quote": "AMBOSS has changed its legal structure to a European stock corporation (SE)"
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://siliconcanals.com/amboss-bags-e240m/",
+      "quote": "AMBOSS serves over 1 million professionals in 180 countries and has a team of more than 500 employees, including scientists, software engineers, and over 150 physicians."
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "F76DA448-D619-4B04-DDEE-08D91092C887",
+      "stage": "series-b",
+      "month": "2019-09",
+      "amountEur": 30000000,
+      "amountOriginal": 30000000,
+      "currency": "EUR",
+      "investors": [
+        "Partech",
+        "Target Global",
+        "Cherry Ventures",
+        "Wellington Partners",
+        "Holtzbrinck Digital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2019/09/30/amboss-gets-e30-million-series-b-to-share-medical-knowledge-around-the-world/",
+          "quote": "has raised a €30 M Series B to fuel its international rollout and app development."
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2019/09/30/amboss-gets-e30-million-series-b-to-share-medical-knowledge-around-the-world/",
+          "quote": "AMBOSS gets €30 million Series B to share medical knowledge around the world"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2019/09/30/amboss-gets-e30-million-series-b-to-share-medical-knowledge-around-the-world/",
+          "quote": "Investment firms Partech and Target Global led the round, with support from existing investors Cherry Ventures, Wellington Partners, and Holtzbrinck Digital."
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2019/09/30/amboss-gets-e30-million-series-b-to-share-medical-knowledge-around-the-world/",
+          "quote": "AMBOSS gets €30 million Series B to share medical knowledge around the world"
+        }
+      ]
+    },
+    {
+      "techeuId": "1385D6AE-67A7-459E-ADA4-B1C8ECB01B59",
+      "stage": "series-c",
+      "month": "2025-03",
+      "amountEur": 240000000,
+      "amountOriginal": 240000000,
+      "currency": "EUR",
+      "investors": [
+        "KIRKBI",
+        "M&G Investments",
+        "Lightrock"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://siliconcanals.com/amboss-bags-e240m/",
+          "quote": "has closed a €240M financing round."
+        },
+        {
+          "field": "month",
+          "url": "https://www.finsmes.com/2025/03/amboss-raises-e240m-in-funding.html",
+          "quote": "AMBOSS Raises €240M in Funding"
+        },
+        {
+          "field": "investors",
+          "url": "https://siliconcanals.com/amboss-bags-e240m/",
+          "quote": "KIRKBI, M&G Investments, and Lightrock led the financing round, with support from existing shareholders."
+        }
+      ]
+    }
+  ]
+}
