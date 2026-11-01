@@ -11,12 +11,6 @@ export interface ModeInfo {
   rules: string[];
 }
 
-/** Said for every mode, under its own rules. */
-export const COMMON_RULES = [
-  "One puzzle per game per day, new at midnight (Berlin time). Everyone gets the same one.",
-  "Your score is a valuation from €0 to €1bn: a perfect game makes you a unicorn. Hints cost what their button says.",
-];
-
 /** Every mode the web app can run (Who Raised This? is parked but its page still works). */
 export const MODES: ModeInfo[] = [
   {
