@@ -15,7 +15,7 @@ import { ModePreview } from "./ModePreview";
 export function GameIntro({ mode, onStart }: { mode: PlayMode; onStart: (d: Difficulty) => void }) {
   const info = MODE_INFO[mode];
   return (
-    <div className="space-y-6">
+    <div className="mx-auto max-w-md space-y-6">
       <Link href="/" className="inline-flex items-center gap-1 text-sm font-medium text-muted hover:text-primary">
         <ArrowLeft size={16} aria-hidden /> All games
       </Link>

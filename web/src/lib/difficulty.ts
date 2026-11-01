@@ -23,6 +23,12 @@ export const FAME_TIERS: Record<Difficulty, { min: number; max: number }> = {
   hard: { min: 1, max: 5 },
 };
 
+/**
+ * How obscure an investor may be in a level's Unicorn Grid ("Backed by ..."): the investor's own
+ * `difficulty`, 1 = very well known to 3 = very hard to guess. Cumulative, like the company tiers.
+ */
+export const INVESTOR_TIER_MAX: Record<Difficulty, 1 | 2 | 3> = { easy: 1, medium: 2, hard: 3 };
+
 /** Easy offers every hint, Medium half of them (rounded up), Hard none. */
 export function hintLimit(d: Difficulty, total: number): number {
   return d === "easy" ? total : d === "medium" ? Math.ceil(total / 2) : 0;

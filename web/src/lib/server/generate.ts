@@ -1,7 +1,7 @@
 import type { AnyPuzzle, PlayMode, Top10Metric, Top10Puzzle, Top10Round } from "@/lib/top10";
 import type { Company, Dataset, GridCriterion, Hint, HigherLowerMetric, HigherLowerPuzzle, ImpostorPuzzle, UnicornGridPuzzle, WhoRaisedThisPuzzle } from "@eunicorn/schema";
-import { DIFFICULTIES, FAME_TIERS, type Difficulty } from "../difficulty";
-import { formatUsdAsEur } from "../format";
+import { DIFFICULTIES, FAME_TIERS, INVESTOR_TIER_MAX, type Difficulty } from "../difficulty";
+import { formatUsdAsEur, sectorLabel } from "../format";
 import { distinctAnswers } from "../grid";
 
 /**
@@ -202,6 +202,8 @@ interface Criterion {
   /** Criteria in the same group can't share a cell sensibly (e.g. two countries). */
   group: "place" | "sector" | "founded" | "investor";
   test: (co: Company) => boolean;
+  /** Investors only: 1 = very well known, 3 = very hard to guess. */
+  tier?: number;
 }
 
 export type UnicornGridVariants = Partial<Record<Difficulty, Pick<UnicornGridPuzzle, "rows" | "cols" | "validAnswers" | "cellHints">>>;
@@ -218,7 +220,9 @@ function unicornGrid(
 
   const variants: UnicornGridVariants = {};
   for (const level of DIFFICULTIES) {
-    const built = forLevel(level, companies, (pool, tier) => gridFor(criteria, members, byId, new Set(pool.map((c) => c.id)), tier, rng));
+    // Investor squares by level: Easy only the best-known investors, Hard also the obscure ones.
+    const allowed = criteria.filter((k) => k.group !== "investor" || (k.tier ?? 3) <= INVESTOR_TIER_MAX[level]);
+    const built = forLevel(level, companies, (pool, tier) => gridFor(allowed, members, byId, new Set(pool.map((c) => c.id)), tier, rng));
     if (built) variants[level] = built;
   }
   const main = mainOf(variants);
@@ -298,6 +302,14 @@ function gridFor(
   };
 }
 
+/**
+ * An investor's tier until the data has its own `difficulty`: the more of our companies it backed,
+ * the better known it is (14 or more: tier 1, 6 to 13: tier 2, fewer: tier 3).
+ */
+function investorTier(backedCompanies: number): number {
+  return backedCompanies >= 14 ? 1 : backedCompanies >= 6 ? 2 : 3;
+}
+
 function gridCriteria(data: Dataset, companies: Company[]): Criterion[] {
   const out: Criterion[] = [];
   const count = (test: (c: Company) => boolean) => companies.filter(test).length;
@@ -321,11 +333,13 @@ function gridCriteria(data: Dataset, companies: Company[]): Criterion[] {
     if (count(before) >= 3) out.push({ group: "founded", test: before, c: { kind: "founded-before", value: year + 1, label: `Founded ${year} or earlier` } });
   }
   const names = new Map(data.investors.map((i) => [i.id, i.name]));
+  const set = new Map(data.investors.map((i) => [i.id, (i as { difficulty?: number }).difficulty]));
   const backed = new Map<string, Set<string>>();
   for (const r of data.rounds) for (const id of r.investorIds) (backed.get(id) ?? backed.set(id, new Set()).get(id)!).add(r.companyId);
   for (const [id, cos] of backed) {
     const test = (c: Company) => cos.has(c.id);
-    if (names.has(id) && count(test) >= 3) out.push({ group: "investor", test, c: { kind: "investor", value: id, label: `Backed by ${names.get(id)}` } });
+    if (names.has(id) && count(test) >= 3)
+      out.push({ group: "investor", test, tier: set.get(id) ?? investorTier(cos.size), c: { kind: "investor", value: id, label: `Backed by ${names.get(id)}` } });
   }
   return out;
 }
@@ -390,6 +404,7 @@ function higherLower(base: Base, date: string, companies: Company[], rng: Rng): 
 
 interface Group {
   members: (c: Company) => boolean;
+  /** The sentence before "Except two.": "All of these come from Germany". */
   prompt: string;
   /** What the others have in common, for the explanation: "are German companies". */
   shared: string;
@@ -400,14 +415,24 @@ interface Group {
 /** Companies per puzzle: one impostor among five that fit. */
 const IMPOSTOR_OPTIONS = 6;
 
-export type ImpostorVariants = Partial<Record<Difficulty, Pick<ImpostorPuzzle, "prompt" | "companyIds" | "impostorId" | "explanation" | "hints">>>;
+/** `impostorIds` lists every company that doesn't belong (usually one, sometimes two or three); `impostorId` is the first. */
+export type ImpostorVariants = Partial<
+  Record<Difficulty, Pick<ImpostorPuzzle, "prompt" | "companyIds" | "impostorId" | "explanation" | "hints"> & { impostorIds: string[] }>
+>;
+
+/** How many impostors: mostly one, now and then two or three. */
+function impostorCount(rng: Rng): number {
+  const r = rng();
+  return r < 0.6 ? 1 : r < 0.9 ? 2 : 3;
+}
+const COUNT_WORD = ["", "one", "two", "three"];
 
 function impostor(base: Base, companies: Company[], rng: Rng): (ImpostorPuzzle & { variants: ImpostorVariants }) | null {
   const groups: Group[] = [];
   for (const code of unique(companies.map((c) => c.country))) {
     groups.push({
       members: (c) => c.country === code,
-      prompt: `All of these come from ${countryName(code)}. Except one.`,
+      prompt: `All of these come from ${countryName(code)}`,
       shared: `come from ${countryName(code)}`,
       odd: (c) => `comes from ${countryName(c.country)}`,
     });
@@ -415,7 +440,7 @@ function impostor(base: Base, companies: Company[], rng: Rng): (ImpostorPuzzle &
   for (const city of unique(companies.map((c) => c.city).filter(Boolean))) {
     groups.push({
       members: (c) => c.city === city,
-      prompt: `All of these are based in ${city}. Except one.`,
+      prompt: `All of these are based in ${city}`,
       shared: `are based in ${city}`,
       odd: (c) => `is based in ${c.city}`,
     });
@@ -423,21 +448,21 @@ function impostor(base: Base, companies: Company[], rng: Rng): (ImpostorPuzzle &
   for (const sector of unique(companies.flatMap((c) => c.sectors))) {
     groups.push({
       members: (c) => c.sectors.includes(sector),
-      prompt: `All of these are ${sectorPlural(sector)}. Except one.`,
+      prompt: `All of these are ${sectorPlural(sector)}`,
       shared: `are ${sectorPlural(sector)}`,
       odd: (c) => `is ${c.sectors.map(sectorLabel).join(" and ")}`,
     });
   }
   groups.push({
     members: (c) => c.unicorn,
-    prompt: "All of these are unicorns. Except one.",
+    prompt: "All of these are unicorns",
     shared: "have been valued at €1bn or more",
     odd: () => "has never been valued at €1bn or more",
   });
   for (const year of [2012, 2015, 2019]) {
     groups.push({
       members: (c) => c.founded >= year,
-      prompt: `All of these were founded in ${year} or later. Except one.`,
+      prompt: `All of these were founded in ${year} or later`,
       shared: `were founded in ${year} or later`,
       odd: (c) => `was founded in ${c.founded}`,
     });
@@ -447,23 +472,26 @@ function impostor(base: Base, companies: Company[], rng: Rng): (ImpostorPuzzle &
   for (const level of DIFFICULTIES) {
     const built = forLevel(level, companies, (pool) => {
       // A category of the day for this level: enough members in the tier, and someone who doesn't belong.
+      const n = impostorCount(rng);
       for (const g of shuffle(groups, rng)) {
         const fits = pool.filter(g.members);
-        if (fits.length < IMPOSTOR_OPTIONS - 1) continue;
-        // The impostor is from the tier too; a category the whole tier shares (e.g. all unicorns) takes anyone else.
+        if (fits.length < IMPOSTOR_OPTIONS - n) continue;
+        // The impostors are from the tier too; a category the whole tier shares (e.g. all unicorns) takes anyone else.
         const inTier = pool.filter((c) => !g.members(c));
-        const outsiders = inTier.length ? inTier : companies.filter((c) => !g.members(c));
-        if (!outsiders.length) continue;
-        const fit = pickN(fits, IMPOSTOR_OPTIONS - 1, rng);
-        const imp = pick(outsiders, rng);
+        const outsiders = inTier.length >= n ? inTier : companies.filter((c) => !g.members(c));
+        if (outsiders.length < n) continue;
+        const fit = pickN(fits, IMPOSTOR_OPTIONS - n, rng);
+        const imps = pickN(outsiders, n, rng);
+        const first = imps[0];
         return {
-          prompt: g.prompt,
-          companyIds: shuffle([...fit, imp], rng).map((c) => c.id),
-          impostorId: imp.id,
-          explanation: `${imp.name} ${g.odd(imp)}. ${list(fit.map((c) => c.name))} ${g.shared}.`,
+          prompt: `${g.prompt}. Except ${COUNT_WORD[n]}.`,
+          companyIds: shuffle([...fit, ...imps], rng).map((c) => c.id),
+          impostorId: first.id,
+          impostorIds: imps.map((c) => c.id),
+          explanation: `${list(imps.map((c) => `${c.name} ${g.odd(c)}`))}. ${list(fit.map((c) => c.name))} ${g.shared}.`,
           hints: [
             { text: `Remove one wrong option (${fit[0].name} fits)`, cost: 1 },
-            { text: `The impostor is based in ${imp.city}, founded in ${imp.founded}`, cost: 2 },
+            { text: `${n === 1 ? "The impostor is" : "One impostor is"} based in ${first.city}, founded in ${first.founded}`, cost: 2 },
           ],
         };
       }
@@ -476,30 +504,6 @@ function impostor(base: Base, companies: Company[], rng: Rng): (ImpostorPuzzle &
 }
 
 /* ---------- helpers ---------- */
-
-const SECTOR_LABEL: Record<string, string> = {
-  fintech: "Fintech",
-  ai: "AI",
-  mobility: "Mobility",
-  climate: "Climate",
-  health: "Health",
-  defense: "Defence",
-  consumer: "Consumer",
-  saas: "SaaS",
-  gaming: "Gaming",
-  travel: "Travel",
-  crypto: "Crypto",
-  "quick-commerce": "Quick commerce",
-  space: "Space",
-  semiconductors: "Semiconductors",
-  biotech: "Biotech",
-  robotics: "Robotics",
-  quantum: "Quantum",
-  cybersecurity: "Cybersecurity",
-  edtech: "Edtech",
-  proptech: "Proptech",
-  telecom: "Telecom",
-};
 
 const SECTOR_PLURAL: Record<string, string> = { fintech: "fintechs", saas: "SaaS companies", ai: "AI companies" };
 
@@ -516,10 +520,6 @@ const STAGE_LABEL: Record<string, string> = {
   secondary: "secondary",
   ipo: "IPO",
 };
-
-function sectorLabel(s: string): string {
-  return SECTOR_LABEL[s] ?? s;
-}
 
 function sectorPlural(s: string): string {
   return SECTOR_PLURAL[s] ?? `${sectorLabel(s).toLowerCase()} companies`;

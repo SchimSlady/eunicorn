@@ -5,7 +5,7 @@ import { ArrowDown, ArrowUp, Check, X } from "lucide-react";
 import type { Company, Dataset, HigherLowerPuzzle } from "@eunicorn/schema";
 import { indexById, loadGame } from "@/lib/data";
 import { getTodayResult, loadProgress, saveProgress, saveResult } from "@/lib/daily";
-import { hintLimit, saveDifficulty, type Difficulty } from "@/lib/difficulty";
+import { saveDifficulty, type Difficulty } from "@/lib/difficulty";
 import { METRIC_META, formatMetric } from "@/lib/format";
 import { shareText as buildShareText } from "@/lib/scoring";
 import { CompanyLogo } from "@/components/CompanyLogo";
@@ -14,7 +14,7 @@ import { GameIntro } from "@/components/GameIntro";
 import { Flag } from "@/components/Flag";
 import { GameHeader } from "@/components/GameHeader";
 import { Announce, GameSkeleton, NoPuzzle } from "@/components/Announce";
-import { HintButton, HintList } from "@/components/HintButton";
+import { Hints, hintState } from "@/components/Hints";
 import { ResultArea } from "@/components/ResultArea";
 import { StatsPanel } from "@/components/StatsPanel";
 import { recordFinish, recordStart } from "@/lib/stats";
@@ -78,7 +78,7 @@ function playRounds(p: HigherLowerPuzzle, answers: string[], companies: Map<stri
     const answer = answers[i - 1];
     const correct = (answer === "higher" && b >= a) || (answer === "lower" && b <= a);
     rounds.push({ previous, next, answer, correct, truth: b >= a ? "higher" : "lower" });
-    if (answer === undefined || !correct) break; // unanswered, or the wrong answer that ended it
+    if (answer === undefined) break; // not answered yet
   }
   return rounds;
 }
@@ -93,8 +93,7 @@ function evaluate(p: HigherLowerPuzzle, progress: Progress, companies: Map<strin
     totalRounds,
     correct,
     maxScore: totalRounds * POINTS_PER_ROUND,
-    // Sudden death: the first wrong answer ends the game.
-    done: progress.answers.length >= totalRounds || rounds.some((r) => r.answer !== undefined && !r.correct),
+    done: progress.answers.length >= totalRounds,
     score: Math.max(0, correct * POINTS_PER_ROUND - hintCost),
   };
 }
@@ -171,14 +170,13 @@ export function HigherLowerGame() {
 
   const play = atLevel(puzzle, progress.difficulty);
   const { rounds, totalRounds, correct, maxScore, done, score } = evaluate(play, progress, companies);
-  const hints = play.hints.slice(0, progress.hintsUsed);
   const roundIndex = progress.answers.length;
 
   if (done && !reviewing) {
-    // The company that ended the run; with every call right, the last one in the chain.
+    // The first company you got wrong; with every call right, the last one in the chain.
     const missed = rounds.find((r) => r.answer !== undefined && !r.correct);
     const featured = companies.get(missed ? missed.next : play.companyIds.at(-1)!)!;
-    const reason = missed ? "The one that ended your run" : "The last one in the chain";
+    const reason = missed ? "The first one you missed" : "The last one in the chain";
     const founders = featured.founderIds
       .map((id) => data.people.find((p) => p.id === id)?.name)
       .filter((n): n is string => !!n);
@@ -227,7 +225,6 @@ export function HigherLowerGame() {
             );
           })}
         </ul>
-        <HintList hints={hints} />
         <BuiltInEuropeCard company={featured} founders={founders} reason={reason} />
       </div>
     );
@@ -310,8 +307,6 @@ export function HigherLowerGame() {
 
       <p className="text-center text-xs text-muted">{meta.label}, in euros</p>
 
-      <HintList hints={hints} />
-
       {reviewing ? (
         <button
           type="button"
@@ -321,11 +316,13 @@ export function HigherLowerGame() {
           {done ? "See result" : "Next company"}
         </button>
       ) : (
-        progress.hintsUsed < hintLimit(progress.difficulty, play.hints.length) && (
-          <div className="flex justify-end">
-            <HintButton maxScore={maxScore} cost={play.hints[progress.hintsUsed].cost} onClick={() => update({ ...progress, hintsUsed: progress.hintsUsed + 1 })} />
-          </div>
-        )
+        <div className="flex justify-end">
+          <Hints
+            {...hintState(progress.difficulty, play.hints, progress.hintsUsed)}
+            maxScore={maxScore}
+            onReveal={() => update({ ...progress, hintsUsed: progress.hintsUsed + 1 })}
+          />
+        </div>
       )}
     </div>
   );

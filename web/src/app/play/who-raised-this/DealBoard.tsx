@@ -146,16 +146,3 @@ export function DealBoard({
     </div>
   );
 }
-
-/** One pill per allowed guess: green = right, red = wrong, outlined = still open. */
-export function GuessPills({ guesses, answerId, max }: { guesses: string[]; answerId: string; max: number }) {
-  return (
-    <div className="flex justify-center gap-2" aria-label={`${guesses.length} of ${max} guesses used`}>
-      {Array.from({ length: max }, (_, i) => {
-        const g = guesses[i];
-        const cls = g === undefined ? "border-2 border-primary/60" : g === answerId ? "bg-correct" : "bg-wrong";
-        return <span key={i} className={`h-3 w-8 rounded-full ${cls}`} />;
-      })}
-    </div>
-  );
-}

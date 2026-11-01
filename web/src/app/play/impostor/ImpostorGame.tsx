@@ -5,7 +5,7 @@ import { Check, VenetianMask, X } from "lucide-react";
 import type { Company, Dataset, ImpostorPuzzle } from "@eunicorn/schema";
 import { indexById, loadGame } from "@/lib/data";
 import { getTodayResult, loadProgress, saveProgress, saveResult } from "@/lib/daily";
-import { hintLimit, saveDifficulty, type Difficulty } from "@/lib/difficulty";
+import { saveDifficulty, type Difficulty } from "@/lib/difficulty";
 import { shareText as buildShareText } from "@/lib/scoring";
 import { CompanyLogo } from "@/components/CompanyLogo";
 import { BuiltInEuropeCard } from "@/components/BuiltInEuropeCard";
@@ -13,7 +13,7 @@ import { GameIntro } from "@/components/GameIntro";
 import { Flag } from "@/components/Flag";
 import { GameHeader } from "@/components/GameHeader";
 import { Announce, GameSkeleton, NoPuzzle } from "@/components/Announce";
-import { HintButton, HintList } from "@/components/HintButton";
+import { Hints, hintState } from "@/components/Hints";
 import { ResultArea } from "@/components/ResultArea";
 import { StatsPanel } from "@/components/StatsPanel";
 import { recordFinish, recordStart } from "@/lib/stats";
@@ -21,10 +21,7 @@ import { recordFinish, recordStart } from "@/lib/stats";
 const MODE = "impostor";
 const TITLE = "Impostor";
 const MAX_SCORE = 10;
-const WRONG_PICK_COST = 4;
-
-/** The same at every level: a level only changes how well known the six startups are and how many hints are on offer. */
-const TRIES = 2;
+const WRONG_PICK_COST = 2;
 
 
 interface Progress {
@@ -34,31 +31,41 @@ interface Progress {
 }
 
 /** A puzzle may carry one variant per level (the startups' fame differs). */
-type Variant = Pick<ImpostorPuzzle, "prompt" | "companyIds" | "impostorId" | "explanation" | "hints">;
-type Puzzle = ImpostorPuzzle & { variants?: Partial<Record<Difficulty, Variant>> };
+type Variant = Pick<ImpostorPuzzle, "prompt" | "companyIds" | "impostorId" | "explanation" | "hints"> & {
+  /** Every company that doesn't belong, when there is more than one. */
+  impostorIds?: string[];
+};
+type Puzzle = ImpostorPuzzle & Variant & { variants?: Partial<Record<Difficulty, Variant>> };
+type Play = ImpostorPuzzle & { impostorIds?: string[] };
+
+const impostorsOf = (p: Play) => p.impostorIds ?? [p.impostorId];
 
 /** The puzzle as played at this level; a hand-made puzzle without variants is the same for all. */
-function atLevel(p: Puzzle, d: Difficulty): ImpostorPuzzle {
+function atLevel(p: Puzzle, d: Difficulty): Play {
   return p.variants?.[d] ? { ...p, ...p.variants[d] } : p;
 }
 
-function evaluate(p: ImpostorPuzzle, progress: Progress) {
-  const won = progress.picks.includes(p.impostorId);
-  const wrong = progress.picks.filter((id) => id !== p.impostorId).length;
-  const done = won || wrong >= TRIES;
+function evaluate(p: Play, progress: Progress) {
+  const impostors = impostorsOf(p);
+  const found = progress.picks.filter((id) => impostors.includes(id)).length;
+  const wrong = progress.picks.length - found;
+  const won = found === impostors.length;
+  const done = won; // no limit on picks: a wrong pick costs score, the game ends when you have found every impostor
   const hintCost = p.hints.slice(0, progress.hintsUsed).reduce((s, h) => s + h.cost, 0);
   return {
     won,
+    found,
     wrong,
     done,
     score: won ? Math.max(1, MAX_SCORE - wrong * WRONG_PICK_COST - hintCost) : 0,
   };
 }
 
-function shareText(p: ImpostorPuzzle, progress: Progress): string {
+function shareText(p: Play, progress: Progress): string {
   const { won, score } = evaluate(p, progress);
-  const squares = progress.picks.map((id) => (id === p.impostorId ? "🟩" : "🟥")); // share text, not UI. taste-skill-ignore
-  const summary = won ? `Found it on try ${progress.picks.length}` : "Missed it";
+  const squares = progress.picks.map((id) => (impostorsOf(p).includes(id) ? "🟩" : "🟥")); // share text, not UI. taste-skill-ignore
+  const many = impostorsOf(p).length > 1;
+  const summary = won ? `Found ${many ? `all ${impostorsOf(p).length}` : "it"} in ${progress.picks.length} ${progress.picks.length === 1 ? "pick" : "picks"}` : "Missed it";
   return buildShareText({ number: p.number, modeTitle: TITLE, difficulty: progress.difficulty, hintsUsed: progress.hintsUsed, squares, summary, score, maxScore: MAX_SCORE });
 }
 
@@ -97,8 +104,8 @@ export function ImpostorGame() {
   }
 
   const play = atLevel(puzzle, progress.difficulty);
-  const { won, wrong, done, score } = evaluate(play, progress);
-  const triesLeft = TRIES - wrong;
+  const impostors = impostorsOf(play);
+  const { won, found, wrong, done, score } = evaluate(play, progress);
   const impostor = companies.get(play.impostorId)!;
   // End card: the impostor, the company the whole puzzle was about.
   const featured = impostor;
@@ -129,9 +136,13 @@ export function ImpostorGame() {
       <Announce
         text={
           won
-            ? "Right, that's the impostor."
+            ? impostors.length > 1
+              ? "Right, those are the impostors."
+              : "Right, that's the impostor."
             : progress.picks.length
-              ? `${companies.get(progress.picks.at(-1)!)?.name} belongs. ${triesLeft} ${triesLeft === 1 ? "try" : "tries"} left.`
+              ? impostors.includes(progress.picks.at(-1)!)
+                ? `${companies.get(progress.picks.at(-1)!)?.name} doesn't belong. ${impostors.length - found} to go.`
+                : `${companies.get(progress.picks.at(-1)!)?.name} belongs.`
               : ""
         }
       />
@@ -146,9 +157,9 @@ export function ImpostorGame() {
           {play.companyIds.map((id, i) => {
             const c = companies.get(id)!;
             const picked = progress.picks.includes(id);
-            const isImpostor = id === play.impostorId;
-            // While playing, only wrong picks are marked. Once done, reveal the impostor.
-            const state = done ? (isImpostor ? "impostor" : "genuine") : picked ? "wrong" : "open";
+            const isImpostor = impostors.includes(id);
+            // While playing, picks are marked as found or wrong. Once done, reveal the impostors.
+            const state = done ? (isImpostor ? "impostor" : "genuine") : picked ? (isImpostor ? "impostor" : "wrong") : "open";
             const ring = {
               open: "ring-border group-hover:ring-primary",
               wrong: "animate-shake ring-wrong opacity-60",
@@ -201,16 +212,17 @@ export function ImpostorGame() {
         </ul>
       </div>
 
-      <HintList hints={play.hints.slice(0, progress.hintsUsed)} />
-
       {!done ? (
         <div className="flex items-center justify-between text-sm">
           <span className="text-muted">
-            {triesLeft} {triesLeft === 1 ? "try" : "tries"} left
+            {impostors.length > 1 && `${found} of ${impostors.length} found · `}
+            {wrong === 0 ? "No wrong picks yet" : `${wrong} wrong`}
           </span>
-          {progress.hintsUsed < hintLimit(progress.difficulty, play.hints.length) && (
-            <HintButton maxScore={MAX_SCORE} cost={play.hints[progress.hintsUsed].cost} onClick={() => update({ ...progress, hintsUsed: progress.hintsUsed + 1 })} />
-          )}
+          <Hints
+            {...hintState(progress.difficulty, play.hints, progress.hintsUsed)}
+            maxScore={MAX_SCORE}
+            onReveal={() => update({ ...progress, hintsUsed: progress.hintsUsed + 1 })}
+          />
         </div>
       ) : (
         <div className="space-y-6">
@@ -218,7 +230,7 @@ export function ImpostorGame() {
             score={score}
             maxScore={MAX_SCORE}
             detail={
-              (won ? `${wrong + 1} ${wrong === 0 ? "try" : "tries"}` : `It was ${impostor.name}`) +
+              (won ? `${progress.picks.length} ${progress.picks.length === 1 ? "pick" : "picks"}` : `It was ${impostor.name}`) +
               (progress.hintsUsed ? ` · ${progress.hintsUsed} ${progress.hintsUsed === 1 ? "hint" : "hints"}` : "")
             }
             share={shareText(play, progress)}
@@ -227,9 +239,9 @@ export function ImpostorGame() {
                 mode={MODE}
                 bucket={won ? progress.picks.length : 0}
                 scorePct={(score / MAX_SCORE) * 100}
-                order={[1, 2, 3, 0]}
+                order={[1, 2, 3, 4, 5, 6]}
                 label={(b) => (b === 0 ? "X" : String(b))}
-                axis="Tries needed"
+                axis="Picks needed"
               />
             }
           />
@@ -237,7 +249,7 @@ export function ImpostorGame() {
             <VenetianMask size={18} className="mt-0.5 shrink-0 text-primary" aria-hidden />
             {play.explanation}
           </p>
-          <BuiltInEuropeCard company={featured} founders={featuredFounders} reason="The impostor" />
+          <BuiltInEuropeCard company={featured} founders={featuredFounders} reason={impostors.length > 1 ? "One of the impostors" : "The impostor"} />
         </div>
       )}
     </div>

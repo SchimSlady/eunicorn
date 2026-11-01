@@ -52,3 +52,38 @@ export function formatMetric(c: Company, metric: HigherLowerMetric): string {
   if (metric === "employees") return groupThousands(v);
   return formatUsdAsEur(v);
 }
+
+/** Display name of a sector id ("defense" -> "Defence"). */
+const SECTOR_LABEL: Record<string, string> = {
+  fintech: "Fintech",
+  ai: "AI",
+  mobility: "Mobility",
+  climate: "Climate",
+  health: "Health",
+  defense: "Defence",
+  consumer: "Consumer",
+  saas: "SaaS",
+  gaming: "Gaming",
+  travel: "Travel",
+  crypto: "Crypto",
+  "quick-commerce": "Quick commerce",
+  space: "Space",
+  semiconductors: "Semiconductors",
+  biotech: "Biotech",
+  robotics: "Robotics",
+  quantum: "Quantum",
+  cybersecurity: "Cybersecurity",
+  edtech: "Edtech",
+  proptech: "Proptech",
+  telecom: "Telecom",
+  hrtech: "HR tech",
+  legaltech: "Legal tech",
+  foodtech: "Food tech",
+  logistics: "Logistics",
+  ecommerce: "E-commerce",
+  devtools: "Dev tools",
+};
+
+export function sectorLabel(s: string): string {
+  return SECTOR_LABEL[s] ?? s;
+}
