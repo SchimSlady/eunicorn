@@ -31,7 +31,7 @@ export function SiteFooter() {
           <p className="font-display text-2xl font-bold leading-none">
             <Wordmark />
           </p>
-          <p className="text-sm">Daily games about the European startup ecosystem. Go build in Europe.</p>
+          <p className="text-sm">Daily games about the European startup ecosystem.</p>
           <p className="text-sm text-muted">
             EUnicorn shows company names and logos only to identify the companies in its games. They belong to their
             owners, who are not affiliated with us. Nothing here is investment advice.

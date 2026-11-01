@@ -205,32 +205,13 @@ export function HigherLowerGame() {
             />
           }
         />
-        <ul className="space-y-2">
-          {rounds.map((r, i) => {
-            const a = companies.get(r.previous)!;
-            const b = companies.get(r.next)!;
-            return (
-              <li key={i} className="flex items-center gap-2 rounded-2xl border border-border bg-surface p-3 text-sm">
-                {r.correct ? (
-                  <Check size={18} className="shrink-0 text-correct" aria-label="Right" />
-                ) : (
-                  <X size={18} className="shrink-0 text-wrong" aria-label="Wrong" />
-                )}
-                <span className="flex-1 text-muted">
-                  {a.name} {formatMetric(a, play.metric)}
-                </span>
-                {r.truth === "higher" ? (
-                  <ArrowUp size={16} className="shrink-0 text-muted" aria-label={phrase.higher} />
-                ) : (
-                  <ArrowDown size={16} className="shrink-0 text-muted" aria-label={phrase.lower} />
-                )}
-                <span className="flex-1 text-right font-semibold">
-                  {b.name} {formatMetric(b, play.metric)}
-                </span>
-              </li>
-            );
-          })}
-        </ul>
+        <LastRound
+          round={missed ?? rounds.filter((r) => r.answer !== undefined).at(-1)!}
+          ended={!!missed}
+          companies={companies}
+          metric={play.metric}
+          phrase={phrase}
+        />
         <BuiltInEuropeCard company={featured} founders={founders} reason={reason} />
       </div>
     );
@@ -354,5 +335,54 @@ function Panel({ company, tone, phone, children }: { company: Company; tone: str
       </span>
       {children}
     </div>
+  );
+}
+
+/**
+ * After the game, just the round that decided it (the miss, or the last round of a perfect run):
+ * both companies with logo and value, which way it went and what the player said. A list of every
+ * round got long and unreadable after a good run.
+ */
+function LastRound({
+  round,
+  ended,
+  companies,
+  metric,
+  phrase,
+}: {
+  round: Round;
+  ended: boolean;
+  companies: Map<string, Company>;
+  metric: Puzzle["metric"];
+  phrase: (typeof PHRASE)[keyof typeof PHRASE];
+}) {
+  const a = companies.get(round.previous)!;
+  const b = companies.get(round.next)!;
+  const said = round.answer === "higher" ? phrase.higher : phrase.lower;
+  const truth = round.truth === "higher" ? phrase.higher : phrase.lower;
+  const side = (c: Company, strong: boolean) => (
+    <div className="flex min-w-0 flex-col items-center gap-1.5 text-center">
+      <CompanyLogo company={c} size={44} />
+      <span className="max-w-full truncate text-sm font-semibold">{c.name}</span>
+      <span className={`font-display text-xl font-bold ${strong ? "text-primary" : "text-muted"}`}>{formatMetric(c, metric)}</span>
+    </div>
+  );
+  return (
+    <section className="rounded-2xl border border-border bg-surface p-4" aria-label={ended ? "Where it ended" : "The last round"}>
+      <p className="text-xs font-semibold uppercase tracking-widest text-muted">{ended ? "Where it ended" : "The last round"}</p>
+      <div className="mt-3 grid grid-cols-[1fr_auto_1fr] items-center gap-3">
+        {side(a, false)}
+        <span
+          className={`flex h-10 w-10 items-center justify-center rounded-full ${round.correct ? "bg-correct" : "bg-wrong"} text-white`}
+          aria-label={round.correct ? "Right" : "Wrong"}
+        >
+          {round.correct ? <Check size={20} aria-hidden /> : <X size={20} aria-hidden />}
+        </span>
+        {side(b, true)}
+      </div>
+      <p className="mt-3 text-center text-sm text-muted">
+        You said {said}. {b.name} was {truth}.
+      </p>
+    </section>
   );
 }

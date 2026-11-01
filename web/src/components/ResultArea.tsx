@@ -39,7 +39,7 @@ export function ResultArea({
           onClick={() => setOpen(true)}
           className="flex min-h-11 items-center gap-1.5 rounded-full border border-border px-4 text-sm font-semibold hover:border-primary"
         >
-          <BarChart3 size={16} aria-hidden /> Results
+          <BarChart3 size={16} aria-hidden /> <span className="sr-only sm:not-sr-only">Results</span>
         </button>
         <ShareButton text={share} score={score} maxScore={maxScore} compact />
       </div>

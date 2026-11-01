@@ -5,7 +5,6 @@ Tokens live in [`src/app/globals.css`](src/app/globals.css); use them via Tailwi
 
 ## Brand
 - **Name:** EUnicorn, written with "EU" in the primary color (`<span className="text-primary">EU</span>nicorn`). Next to it the unicorn mascot (`public/brand/unicorn.png`, trimmed to its visible pixels, transparent; the favicon is the untrimmed `app/icon.png`) via `Wordmark`: as tall as the capitals and on the baseline. Never recolour it.
-- **Line:** "Go build in Europe." It closes every "Built in Europe" card.
 
 ## Color
 | Token | Value | Use |
