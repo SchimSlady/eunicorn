@@ -30,7 +30,7 @@
     {
       "field": "city",
       "url": "https://en.wikipedia.org/wiki/Brevo",
-      "quote": "The headquarters are located in the Paris office."
+      "quote": "The headquarters are located in the Paris office"
     },
     {
       "field": "founded",
@@ -50,7 +50,7 @@
     {
       "field": "sectors",
       "url": "https://www.clipperton.com/news-transaction/sendinblue-secures-a-160m-growth-financing-round-led-by-bridgepoint-together-with-bpifrance-and-blackrock-to-fuel-its-global-expansion",
-      "quote": "In 2012, Armand Thiberge founded Sendinblue, an email marketing platform."
+      "quote": "In 2012, Armand Thiberge founded Sendinblue, an email marketing platform, mostly addressing small & medium business needs."
     },
     {
       "field": "status",
@@ -74,7 +74,8 @@
     },
     {
       "field": "logo",
-      "url": "https://commons.wikimedia.org/wiki/File:Brevo-Logo.png"
+      "url": "https://commons.wikimedia.org/wiki/File:Brevo-Logo.png",
+      "quote": "File:Brevo-Logo.png - Wikimedia Commons"
     }
   ],
   "rounds": [
@@ -136,7 +137,7 @@
         {
           "field": "month",
           "url": "https://www.clipperton.com/news-transaction/sendinblue-secures-a-160m-growth-financing-round-led-by-bridgepoint-together-with-bpifrance-and-blackrock-to-fuel-its-global-expansion",
-          "quote": "October 1, 2020"
+          "quote": "October 1st, 2020"
         },
         {
           "field": "investors",
@@ -177,7 +178,7 @@
         {
           "field": "investors",
           "url": "https://www.generalatlantic.com/media-article/brevo-europes-leading-customer-engagement-platform-becomes-a-unicorn-following-a-new-e500-million-funding-round/",
-          "quote": "General Atlantic and Oakley Capital are joining the Company's shareholders, while Bpifrance and Bridgepoint remain minority investors."
+          "quote": "General Atlantic, a leading global investor, and Oakley Capital, a leading, pan-European mid-market investor, are joining the Company’s shareholders"
         }
       ]
     }

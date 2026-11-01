@@ -25,7 +25,7 @@
     {
       "field": "city",
       "url": "https://nl.wikipedia.org/wiki/Picnic_(supermarkt)",
-      "quote": "Het hoofdkantoor van Picnic bevindt zich in Amsterdam-Duivendrecht."
+      "quote": "Het hoofdkantoor van Picnic bevindt zich in Amsterdam-Duivendrecht"
     },
     {
       "field": "founded",
@@ -35,7 +35,7 @@
     {
       "field": "founders",
       "url": "https://nl.wikipedia.org/wiki/Picnic_(supermarkt)",
-      "quote": "Het bedrijf werd in 2015 opgericht door Michiel Muller, Bas Verheijen en internetondernemers Joris Beckers en Frederik Nieuwenhuys"
+      "quote": "Het bedrijf werd in 2015 opgericht door Michiel Muller , Bas Verheijen en internetondernemers Joris Beckers en Frederik Nieuwenhuys"
     },
     {
       "field": "status",
@@ -50,7 +50,7 @@
     {
       "field": "sectors",
       "url": "https://nl.wikipedia.org/wiki/Picnic_(supermarkt)",
-      "quote": "Picnic is een Nederlandse online-supermarkt die levensmiddelen via een mobiele app verkoopt en rechtstreeks aan huishoudens bezorgt."
+      "quote": "Picnic is een Nederlandse online- supermarkt die levensmiddelen via een mobiele app verkoopt en rechtstreeks aan huishoudens bezorgt."
     },
     {
       "field": "fun_fact",
@@ -59,7 +59,8 @@
     },
     {
       "field": "logo",
-      "url": "https://commons.wikimedia.org/wiki/File:Picnic_logo.svg"
+      "url": "https://commons.wikimedia.org/wiki/File:Picnic_logo.svg",
+      "quote": "File:Picnic logo.svg"
     }
   ],
   "rounds": [
@@ -113,8 +114,8 @@
       "sources": [
         {
           "field": "amount",
-          "url": "https://nltimes.nl/2024/01/09/online-supermarket-picnic-gets-eu355-million-capital-injection-shareholders",
-          "quote": "Picnic has received a capital injection of 355 million euros from its shareholders."
+          "url": "https://tech.eu/2024/01/10/picnics-eur355-million-raise-edeka-and-gates-foundation-trust-among-investors",
+          "quote": "raised €355 million in investor capital"
         },
         {
           "field": "month",

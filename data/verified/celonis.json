@@ -27,12 +27,12 @@
     {
       "field": "city",
       "url": "https://en.wikipedia.org/wiki/Celonis",
-      "quote": "It is headquartered in Munich, Germany with a secondary headquarters New York, United States."
+      "quote": "It is headquartered in Munich, Germany with a secondary"
     },
     {
       "field": "founded",
       "url": "https://en.wikipedia.org/wiki/Celonis",
-      "quote": "Celonis was founded in 2011 by Alex Rinke, Bastian Nominacher, and Martin Klenk as a spin-off from the Technical University of Munich (TUM)."
+      "quote": "Celonis was founded in 2011 by Alex Rinke, Bastian Nominacher, and Martin Klenk as a spin-off from the Technical University of Munich"
     },
     {
       "field": "founded",
@@ -42,12 +42,12 @@
     {
       "field": "founders",
       "url": "https://en.wikipedia.org/wiki/Celonis",
-      "quote": "Celonis was founded in 2011 by Alex Rinke, Bastian Nominacher, and Martin Klenk as a spin-off from the Technical University of Munich (TUM)."
+      "quote": "Celonis was founded in 2011 by Alex Rinke, Bastian Nominacher, and Martin Klenk as a spin-off from the Technical University of Munich"
     },
     {
       "field": "sectors",
       "url": "https://en.wikipedia.org/wiki/Celonis",
-      "quote": "Celonis SE is a German data processing company that offers software as a service (SaaS) to improve business processes."
+      "quote": "Celonis SE is a German data processing company that offers software as a service"
     },
     {
       "field": "status",
@@ -56,8 +56,8 @@
     },
     {
       "field": "unicorn",
-      "url": "https://news.crunchbase.com/startups/a-new-unicorn-rises-celonis-raises-50m-at-1b-valuation-to-improve-business-processes",
-      "quote": "This latest round brings its known aggregate funds raised to $77.5 million and its valuation up to $1 billion."
+      "url": "https://en.wikipedia.org/wiki/Celonis",
+      "quote": "bringing the company's valuation to around US$13 billion."
     },
     {
       "field": "valuation",
@@ -71,7 +71,8 @@
     },
     {
       "field": "logo",
-      "url": "https://commons.wikimedia.org/wiki/File:Celonis_Logo.png"
+      "url": "https://commons.wikimedia.org/wiki/File:Celonis_Logo.png",
+      "quote": "File:Celonis Logo.png - Wikimedia Commons"
     }
   ],
   "rounds": [
@@ -105,7 +106,7 @@
         {
           "field": "stage",
           "url": "https://en.wikipedia.org/wiki/Celonis",
-          "quote": "In June 2016, Celonis received $27.5m in series A funding led by 83North and Accel."
+          "quote": "In June 2016, Celonis received $27.5m in series A funding led by 83North and Accel"
         }
       ]
     },
@@ -125,7 +126,7 @@
         {
           "field": "amount",
           "url": "https://news.crunchbase.com/startups/a-new-unicorn-rises-celonis-raises-50m-at-1b-valuation-to-improve-business-processes",
-          "quote": "Celonis, a process mining software company, has raised a $50 million Series B led by Accel and 83North."
+          "quote": "has raised a $50 million Series B led by Accel and 83North"
         },
         {
           "field": "month",
@@ -135,12 +136,12 @@
         {
           "field": "stage",
           "url": "https://news.crunchbase.com/startups/a-new-unicorn-rises-celonis-raises-50m-at-1b-valuation-to-improve-business-processes",
-          "quote": "Celonis, a process mining software company, has raised a $50 million Series B led by Accel and 83North."
+          "quote": "has raised a $50 million Series B led by Accel and 83North"
         },
         {
           "field": "investors",
           "url": "https://www.celonis.com/de/news/press/celonis-raises-50-million-series-b-funding-from-accel-and-83north-at-1-billion-valuation",
-          "quote": "Celonis hat im Rahmen einer Serie-B-Finanzierung 50 Millionen Dollar von den bestehenden Investoren Accel und 83North"
+          "quote": "Celonis erhält Serie-B-Finanzierungsrunde in Höhe von 50 Millionen Dollar von Accel und 83North"
         },
         {
           "field": "valuation",
@@ -165,33 +166,33 @@
       "sources": [
         {
           "field": "amount",
-          "url": "https://venturebeat.com/ai/celonis-raises-290-million-for-ai-powered-process-mining-at-2-5-billion-valuation",
-          "quote": "closed a $290 million series C round"
+          "url": "https://www.celonis.com/news/press/venture-beat-celonis-raises-290-million-for-ai-powered-process-mining-at-2-5-billion-valuation",
+          "quote": "Celonis today closed a $290 million series C round"
         },
         {
           "field": "month",
-          "url": "https://venturebeat.com/ai/celonis-raises-290-million-for-ai-powered-process-mining-at-2-5-billion-valuation",
-          "quote": "5:00 am, PT, November 21, 2019"
+          "url": "https://www.munich-startup.de/en/55229/celonis-290-million/",
+          "quote": "22. November 2019 2 Min. Lesezeit"
         },
         {
           "field": "stage",
-          "url": "https://venturebeat.com/ai/celonis-raises-290-million-for-ai-powered-process-mining-at-2-5-billion-valuation",
-          "quote": "closed a $290 million series C round"
+          "url": "https://www.celonis.com/news/press/venture-beat-celonis-raises-290-million-for-ai-powered-process-mining-at-2-5-billion-valuation",
+          "quote": "Celonis today closed a $290 million series C round"
         },
         {
           "field": "investors",
-          "url": "https://venturebeat.com/ai/celonis-raises-290-million-for-ai-powered-process-mining-at-2-5-billion-valuation",
-          "quote": "led by Arena Holdings"
+          "url": "https://www.celonis.com/news/press/venture-beat-celonis-raises-290-million-for-ai-powered-process-mining-at-2-5-billion-valuation",
+          "quote": "The $290 million funding round was led by Arena Holdings"
         },
         {
           "field": "investors",
-          "url": "https://venturebeat.com/ai/celonis-raises-290-million-for-ai-powered-process-mining-at-2-5-billion-valuation",
+          "url": "https://www.celonis.com/news/press/venture-beat-celonis-raises-290-million-for-ai-powered-process-mining-at-2-5-billion-valuation",
           "quote": "Qualtrics CEO Ryan Smith and Procore founder Tooey Courtemanche"
         },
         {
           "field": "valuation",
-          "url": "https://venturebeat.com/ai/celonis-raises-290-million-for-ai-powered-process-mining-at-2-5-billion-valuation",
-          "quote": "raised the company's valuation to $2.5 billion"
+          "url": "https://www.celonis.com/news/press/venture-beat-celonis-raises-290-million-for-ai-powered-process-mining-at-2-5-billion-valuation",
+          "quote": "This round raised the company’s valuation to $2.5 billion"
         }
       ]
     },
@@ -210,13 +211,13 @@
       "sources": [
         {
           "field": "amount",
-          "url": "https://www.euronews.com/2021/06/02/uk-celonis-funding",
-          "quote": "Celonis has raised $1 billion from investors to give the company a post-fundraising valuation of more than $11 billion"
+          "url": "https://tech.eu/2021/06/02/german-management-software-giant-celonis-raises-1-billion-at-11-billion-valuation",
+          "quote": "has announced a monster $1 billion Series D round"
         },
         {
           "field": "month",
-          "url": "https://www.euronews.com/2021/06/02/uk-celonis-funding",
-          "quote": "Published on 2 June 2021"
+          "url": "https://tech.eu/2021/06/02/german-management-software-giant-celonis-raises-1-billion-at-11-billion-valuation",
+          "quote": "Robin Wauters 02 June 2021"
         },
         {
           "field": "stage",
@@ -225,13 +226,13 @@
         },
         {
           "field": "investors",
-          "url": "https://www.euronews.com/2021/06/02/uk-celonis-funding",
-          "quote": "New Celonis investors Durable Capital Partners LP and T. Rowe Price Associates co-led the round."
+          "url": "https://tech.eu/2021/06/02/german-management-software-giant-celonis-raises-1-billion-at-11-billion-valuation",
+          "quote": "The round, which was led by new backers Durable Capital Partners and T. Rowe Price Associates"
         },
         {
           "field": "valuation",
-          "url": "https://www.euronews.com/2021/06/02/uk-celonis-funding",
-          "quote": "Celonis has raised $1 billion from investors to give the company a post-fundraising valuation of more than $11 billion"
+          "url": "https://tech.eu/2021/06/02/german-management-software-giant-celonis-raises-1-billion-at-11-billion-valuation",
+          "quote": "giving it a post-money valuation north of $11 billion"
         }
       ]
     },

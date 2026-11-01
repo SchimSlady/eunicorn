@@ -26,8 +26,8 @@
   "sources": [
     {
       "field": "city",
-      "url": "https://proximafusion.com/press-news/proxima-fusion-raises-eu411-million-to-build-europes-commercial-fusion-champion",
-      "quote": "Headquartered in Munich, with offices in Zurich and Oxford."
+      "url": "https://en.wikipedia.org/wiki/Proxima_Fusion",
+      "quote": "Headquarters Munich , Germany"
     },
     {
       "field": "founded",
@@ -37,7 +37,7 @@
     {
       "field": "founded",
       "url": "https://en.wikipedia.org/wiki/Proxima_Fusion",
-      "quote": "founded in 2023 in Munich, Germany, as the first research spin-off"
+      "quote": "Proxima Fusion is a European fusion energy company founded in 2023 in Munich"
     },
     {
       "field": "founders",
@@ -46,33 +46,33 @@
     },
     {
       "field": "founders",
-      "url": "https://www.startupbusiness.it/en/proxima-fusion-e130m-series-a-round-closed/146306/",
-      "quote": "co-founders Francesco Sciortino, Jorrit Lion, Jonathan Schilling, Martin Kubie, and Lucio Milanese"
+      "url": "https://en.wikipedia.org/wiki/Proxima_Fusion",
+      "quote": "Founders Francesco Sciortino Lucio Milanese Jorrit Lion Jonathan Schilling Martin Kubie"
     },
     {
       "field": "sectors",
       "url": "https://www.redalpine.com/post/a-truly-stellar-investment-redalpine-leads-20m-seed-funding-in-nuclear-fusion-pioneers-proxima-fu",
-      "quote": "building the first generation of fusion power plants using quasi-isodynamic stellarators with high-temperature superconductors"
+      "quote": "Proxima Fusion is building the first generation of fusion power plants based on quasi-isodynamic (QI) stellarators with high-temperature superconductors"
     },
     {
       "field": "status",
       "url": "https://proximafusion.com/press-news/proxima-fusion-raises-eu411-million-to-build-europes-commercial-fusion-champion",
-      "quote": "financing round of €411 million ($468 million)"
+      "quote": "Proxima Fusion today announced a €411 million ($468 million) financing round"
     },
     {
       "field": "unicorn",
       "url": "https://proximafusion.com/press-news/proxima-fusion-raises-eu411-million-to-build-europes-commercial-fusion-champion",
-      "quote": "€2.4 billion ($2.7 billion)"
+      "quote": "bringing the company’s valuation to €2.4 billion ($2.7 billion)"
     },
     {
       "field": "valuation",
       "url": "https://proximafusion.com/press-news/proxima-fusion-raises-eu411-million-to-build-europes-commercial-fusion-champion",
-      "quote": "€2.4 billion ($2.7 billion)"
+      "quote": "bringing the company’s valuation to €2.4 billion ($2.7 billion)"
     },
     {
       "field": "fun_fact",
       "url": "https://www.redalpine.com/post/a-truly-stellar-investment-redalpine-leads-20m-seed-funding-in-nuclear-fusion-pioneers-proxima-fu",
-      "quote": "The first and only spin-out company from the Max Planck Institute of Physics."
+      "quote": "The first and only spin-out company from the Max Planck Institute of Physics"
     },
     {
       "field": "fun_fact",
@@ -81,7 +81,8 @@
     },
     {
       "field": "logo",
-      "url": "https://commons.wikimedia.org/wiki/File:Logo_Proxima_Fusion.svg"
+      "url": "https://commons.wikimedia.org/wiki/File:Logo_Proxima_Fusion.svg",
+      "quote": "File:Logo Proxima Fusion.svg - Wikimedia Commons"
     }
   ],
   "rounds": [
@@ -158,7 +159,7 @@
         {
           "field": "investors",
           "url": "https://www.redalpine.com/post/a-truly-stellar-investment-redalpine-leads-20m-seed-funding-in-nuclear-fusion-pioneers-proxima-fu",
-          "quote": "Existing investors also participated: Plural, UVC Partners, High-Tech Gründerfonds, Wilbe, and Visionaries Club."
+          "quote": "alongside existing investors, including Plural, UVC Partners, High-Tech Gründerfonds, Wilbe, and Visionaries Club"
         }
       ]
     },
@@ -195,17 +196,17 @@
         {
           "field": "stage",
           "url": "https://www.startupbusiness.it/en/proxima-fusion-e130m-series-a-round-closed/146306/",
-          "quote": "The Series A financing is led by Cherry Ventures and Balderton Capital."
+          "quote": "The Series A financing is led by Cherry Ventures and Balderton Capital"
         },
         {
           "field": "month",
           "url": "https://www.startupbusiness.it/en/proxima-fusion-e130m-series-a-round-closed/146306/",
-          "quote": "11 June 2025"
+          "quote": "Funding News 11 Jun 2025"
         },
         {
           "field": "investors",
           "url": "https://www.startupbusiness.it/en/proxima-fusion-e130m-series-a-round-closed/146306/",
-          "quote": "UVC Partners, DeepTech & Climate Fonds (DTCF), Plural, Leitmotif, Lightspeed, Bayern Kapital, HTGF, Investors Club, OMNES Capital, Elaia Partners, Visionaries Tomorrow, Wilbe, and Redalpine"
+          "quote": "with participation from UVC Partners, DeepTech & Climate Fonds (DTCF), Plural, Leitmotif, Lightspeed, Bayern Kapital, HTGF, Investors Club, OMNES Capital, Elaia Partners, Visionaries Tomorrow, Wilbe and Redalpine"
         }
       ]
     },
@@ -225,7 +226,7 @@
         {
           "field": "amount",
           "url": "https://www.proximafusion.com/press-news/proxima-fusion-extends-series-a-to-200m-total-funding-as-it-accelerates-into-hardware-execution",
-          "quote": "The €15 million Series A extension brings the company’s total funding to €200 million ($230M)."
+          "quote": "The €15 million Series A extension brings the company’s total funding to €200 million"
         },
         {
           "field": "stage",
@@ -240,7 +241,7 @@
         {
           "field": "investors",
           "url": "https://www.proximafusion.com/press-news/proxima-fusion-extends-series-a-to-200m-total-funding-as-it-accelerates-into-hardware-execution",
-          "quote": "CDP Venture Capital, the European Innovation Council Fund (EICF), and Brevan Howard Macro Venture Fund"
+          "quote": "new funding from CDP Venture Capital (Cassa Depositi e Prestiti Group), Italy's largest venture capital operator, the European Innovation Council Fund (EICF), and Brevan Howard Macro Venture Fund"
         }
       ]
     },
@@ -279,7 +280,7 @@
         {
           "field": "amount",
           "url": "https://proximafusion.com/press-news/proxima-fusion-raises-eu411-million-to-build-europes-commercial-fusion-champion",
-          "quote": "€411 million ($468 million) financing round"
+          "quote": "announced a €411 million ($468 million) financing round"
         },
         {
           "field": "stage",
@@ -299,12 +300,12 @@
         {
           "field": "investors",
           "url": "https://www.munich-startup.de/en/news/e411-million-proxima-fusion-becomes-europes-most-valuable-fusion-company",
-          "quote": "KfW Capital, SPRIND, Burda Principal Investments, and existing backers including Plural, UVC Partners, Balderton, Cherry Ventures, DST Global, Brevan Howard Macro Venture, Lightspeed, DTCF, redalpine, Leitmotif, Elaia, CDP Venture Capital, Bayern Kapital, and the EIC Fund"
+          "quote": "Additionally participating are KfW Capital, SPRIND, Burda Principal Investments and existing investors such as Plural, UVC Partners, Balderton, Cherry Ventures, DST Global, Brevan Howard Macro Venture, Lightspeed, DTCF, redalpine, Leitmotif, Elaia, CDP Venture Capital, Bayern Kapital and the EIC Fund"
         },
         {
           "field": "valuation",
           "url": "https://proximafusion.com/press-news/proxima-fusion-raises-eu411-million-to-build-europes-commercial-fusion-champion",
-          "quote": "€2.4 billion ($2.7 billion)"
+          "quote": "bringing the company’s valuation to €2.4 billion ($2.7 billion)"
         }
       ]
     }

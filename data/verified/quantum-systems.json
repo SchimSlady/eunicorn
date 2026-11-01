@@ -1,33 +1,83 @@
 {
   "id": "quantum-systems",
   "name": "Quantum Systems",
-  "aliases": ["Quantum-Systems"],
+  "aliases": [
+    "Quantum-Systems"
+  ],
   "domain": "quantum-systems.com",
   "country": "DE",
   "city": "Munich",
   "founded": 2015,
-  "sectors": ["defense"],
+  "sectors": [
+    "defense"
+  ],
   "status": "private",
   "unicorn": true,
   "lastValuationEur": 7000000000,
-  "founders": ["Florian Seibel", "Armin Busse"],
+  "founders": [
+    "Florian Seibel",
+    "Armin Busse"
+  ],
   "funFact": "In May 2025 Quantum Systems became Europe's first dual-use unicorn, and it was the third defence unicorn in Europe after Helsing and Tekever.",
   "difficulty": 3,
   "techeuId": "C4DFAE04-0D55-4B7C-8549-6C9BFF5F2233",
   "wikidataId": "Q106298593",
   "sources": [
-    { "field": "city", "url": "https://www.munich-startup.de/en/104874/quantum-systems-series-b-expansion/", "quote": "The Munich-based drone manufacturer Quantum Systems" },
-    { "field": "city", "url": "https://en.wikipedia.org/wiki/Quantum-Systems", "quote": "headquartered in Gilching" },
-    { "field": "founded", "url": "https://en.wikipedia.org/wiki/Quantum-Systems", "quote": "The company was founded by former Bundeswehr officer Florian Seibel in January 2015." },
-    { "field": "founders", "url": "https://www.munich-startup.de/en/83141/quantum-systems-series-a/", "quote": "Florian Seibel (CEO) and Armin Busse (COO), both listed as Co-Founder in the photo caption" },
-    { "field": "founders", "url": "https://en.wikipedia.org/wiki/Quantum-Systems", "quote": "The company was founded by former Bundeswehr officer Florian Seibel in January 2015." },
-    { "field": "sectors", "url": "https://thenextweb.com/news/german-dual-use-drone-maker-becomes-unicorn-defence-tech-boom", "quote": "Europe's latest defence tech unicorn" },
-    { "field": "status", "url": "https://www.grosswald.org/quantum-systems-1-2-billion-series-d-8-billion-valuation-armed-drones/", "quote": "closed a USD 1.2 billion Series D" },
-    { "field": "unicorn", "url": "https://thenextweb.com/news/german-dual-use-drone-maker-becomes-unicorn-defence-tech-boom", "quote": "has raised €160mn at a valuation north of €1bn" },
-    { "field": "unicorn", "url": "https://en.wikipedia.org/wiki/Quantum-Systems", "quote": "In May 2025, Quantum Systems became Europe's first dual-use unicorn and third defense unicorn" },
-    { "field": "valuation", "url": "https://insights.munich-startup.de/news/note/quantum-systems-raises-1b-series-d-at-7b-valuation-as-blackstone-doubles-down-on-european-defence-tech", "quote": "Quantum Systems raises €1B Series D at €7B valuation as Blackstone doubles down on European defence tech" },
-    { "field": "valuation", "url": "https://www.grosswald.org/quantum-systems-1-2-billion-series-d-8-billion-valuation-armed-drones/", "quote": "at a post-money valuation of about USD 8 billion" },
-    { "field": "fun_fact", "url": "https://en.wikipedia.org/wiki/Quantum-Systems", "quote": "In May 2025, Quantum Systems became Europe's first dual-use unicorn and third defense unicorn" }
+    {
+      "field": "city",
+      "url": "https://www.munich-startup.de/en/104874/quantum-systems-series-b-expansion/",
+      "quote": "The Munich-based drone manufacturer Quantum Systems"
+    },
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/Quantum-Systems",
+      "quote": "headquartered in Gilching"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Quantum-Systems",
+      "quote": "The company was founded by former Bundeswehr officer Florian Seibel in January 2015."
+    },
+    {
+      "field": "founders",
+      "url": "https://www.munich-startup.de/en/83141/quantum-systems-series-a/",
+      "quote": "Co-Founder und CEO Florian Seibel und Co-Founder und COO Armin Busse"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Quantum-Systems",
+      "quote": "The company was founded by former Bundeswehr officer Florian Seibel in January 2015."
+    },
+    {
+      "field": "sectors",
+      "url": "https://thenextweb.com/news/german-dual-use-drone-maker-becomes-unicorn-defence-tech-boom",
+      "quote": "Europe's latest defence tech unicorn"
+    },
+    {
+      "field": "status",
+      "url": "https://www.grosswald.org/quantum-systems-1-2-billion-series-d-8-billion-valuation-armed-drones/",
+      "quote": "closed a USD 1.2 billion Series D"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://thenextweb.com/news/german-dual-use-drone-maker-becomes-unicorn-defence-tech-boom",
+      "quote": "has raised €160mn at a valuation north of €1bn"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://en.wikipedia.org/wiki/Quantum-Systems",
+      "quote": "In May 2025, Quantum Systems became Europe's first dual-use unicorn and third defense unicorn"
+    },
+    {
+      "field": "valuation",
+      "url": "https://www.grosswald.org/quantum-systems-1-2-billion-series-d-8-billion-valuation-armed-drones/",
+      "quote": "closed a USD 1.2 billion Series D at a post-money valuation of about USD 8 billion"
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://en.wikipedia.org/wiki/Quantum-Systems",
+      "quote": "In May 2025, Quantum Systems became Europe's first dual-use unicorn and third defense unicorn"
+    }
   ],
   "rounds": [
     {
@@ -37,12 +87,33 @@
       "amountEur": 17970000,
       "amountOriginal": 17500000,
       "currency": "USD",
-      "investors": ["Peter Thiel", "Project A Ventures", "Sanno Capital", "Bayern Kapital"],
+      "investors": [
+        "Peter Thiel",
+        "Project A Ventures",
+        "Sanno Capital",
+        "Bayern Kapital"
+      ],
       "sources": [
-        { "field": "amount", "url": "https://nordic9.com/news/quantum-systems-announced-a-175-million-equity-round-backed-by-project-a-ventures-and-sanno-capital/", "quote": "$17.5 million" },
-        { "field": "stage", "url": "https://nordic9.com/news/quantum-systems-announced-a-175-million-equity-round-backed-by-project-a-ventures-and-sanno-capital/", "quote": "equity round backed by Project A Ventures and Sanno Capital" },
-        { "field": "month", "url": "https://nordic9.com/news/quantum-systems-announced-a-175-million-equity-round-backed-by-project-a-ventures-and-sanno-capital/", "quote": "12 October 2022" },
-        { "field": "investors", "url": "https://edacafe.com/nbc/articles/1/1961612/Peter-Thiel-Project-Sanno-Capital-invest-German-Drone-Robotics-Leader-Quantum-Systems", "quote": "closing of a financing round with new investors Peter Thiel, Project A" }
+        {
+          "field": "amount",
+          "url": "https://nordic9.com/news/quantum-systems-announced-a-175-million-equity-round-backed-by-project-a-ventures-and-sanno-capital/",
+          "quote": "$17.5 million"
+        },
+        {
+          "field": "stage",
+          "url": "https://nordic9.com/news/quantum-systems-announced-a-175-million-equity-round-backed-by-project-a-ventures-and-sanno-capital/",
+          "quote": "equity round backed by Project A Ventures and Sanno Capital"
+        },
+        {
+          "field": "month",
+          "url": "https://nordic9.com/news/quantum-systems-announced-a-175-million-equity-round-backed-by-project-a-ventures-and-sanno-capital/",
+          "quote": "12 October 2022"
+        },
+        {
+          "field": "investors",
+          "url": "https://nordic9.com/news/quantum-systems-announced-a-175-million-equity-round-backed-by-project-a-ventures-and-sanno-capital/",
+          "quote": "Round investors: 10x Group Bayern Kapital Peter Thiel Project A Ventures Sanno Capital"
+        }
       ]
     },
     {
@@ -52,13 +123,41 @@
       "amountEur": 63600000,
       "amountOriginal": 63600000,
       "currency": "EUR",
-      "investors": ["HV Capital", "DTCP", "Project A Ventures", "Thiel Capital", "ScaleUp Fonds Bayern", "Omnes Capital", "Airbus Ventures"],
+      "investors": [
+        "HV Capital",
+        "DTCP",
+        "Project A Ventures",
+        "Thiel Capital",
+        "ScaleUp Fonds Bayern",
+        "Omnes Capital",
+        "Airbus Ventures"
+      ],
       "sources": [
-        { "field": "amount", "url": "https://munich-startup.de/news/quantum-systems-sichert-sich-636-millionen-euro", "quote": "63,6 Millionen Euro" },
-        { "field": "stage", "url": "https://munich-startup.de/news/quantum-systems-sichert-sich-636-millionen-euro", "quote": "Series-B-Finanzierungsrunde" },
-        { "field": "month", "url": "https://munich-startup.de/news/quantum-systems-sichert-sich-636-millionen-euro", "quote": "26. Oktober 2023" },
-        { "field": "investors", "url": "https://munich-startup.de/news/quantum-systems-sichert-sich-636-millionen-euro", "quote": "Angeführt wird das Investment von HV Capital und DTCP" },
-        { "field": "investors", "url": "https://munich-startup.de/news/quantum-systems-sichert-sich-636-millionen-euro", "quote": "gefolgt von Project A, Thiel Capital, ScaleUp Fonds Bayern, Omnes Capital und Airbus Ventures" }
+        {
+          "field": "amount",
+          "url": "https://munich-startup.de/news/quantum-systems-sichert-sich-636-millionen-euro",
+          "quote": "63,6 Millionen Euro"
+        },
+        {
+          "field": "stage",
+          "url": "https://munich-startup.de/news/quantum-systems-sichert-sich-636-millionen-euro",
+          "quote": "Series-B-Finanzierungsrunde"
+        },
+        {
+          "field": "month",
+          "url": "https://munich-startup.de/news/quantum-systems-sichert-sich-636-millionen-euro",
+          "quote": "26. Oktober 2023"
+        },
+        {
+          "field": "investors",
+          "url": "https://munich-startup.de/news/quantum-systems-sichert-sich-636-millionen-euro",
+          "quote": "Angeführt wird das Investment von HV Capital und DTCP"
+        },
+        {
+          "field": "investors",
+          "url": "https://munich-startup.de/news/quantum-systems-sichert-sich-636-millionen-euro",
+          "quote": "gefolgt von Project A, Thiel Capital, ScaleUp Fonds Bayern, Omnes Capital und Airbus Ventures"
+        }
       ]
     },
     {
@@ -68,12 +167,31 @@
       "amountEur": 36400000,
       "amountOriginal": 36400000,
       "currency": "EUR",
-      "investors": ["Notion Capital", "Porsche SE"],
+      "investors": [
+        "Notion Capital",
+        "Porsche SE"
+      ],
       "sources": [
-        { "field": "amount", "url": "https://www.munich-startup.de/en/104874/quantum-systems-series-b-expansion/", "quote": "The total amount of the round thus increases to 100 million euros." },
-        { "field": "stage", "url": "https://www.munich-startup.de/en/104874/quantum-systems-series-b-expansion/", "quote": "The total amount of the round thus increases to 100 million euros." },
-        { "field": "month", "url": "https://www.munich-startup.de/en/104874/quantum-systems-series-b-expansion/", "quote": "September 26, 2024" },
-        { "field": "investors", "url": "https://www.munich-startup.de/en/104874/quantum-systems-series-b-expansion/", "quote": "Notion Capital and Porsche SE are the new lead investors." }
+        {
+          "field": "amount",
+          "url": "https://www.munich-startup.de/en/104874/quantum-systems-series-b-expansion/",
+          "quote": "The total amount of the round thus increases to 100 million euros."
+        },
+        {
+          "field": "stage",
+          "url": "https://www.munich-startup.de/en/104874/quantum-systems-series-b-expansion/",
+          "quote": "The total amount of the round thus increases to 100 million euros."
+        },
+        {
+          "field": "month",
+          "url": "https://www.munich-startup.de/en/104874/quantum-systems-series-b-expansion/",
+          "quote": "September 26, 2024"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.munich-startup.de/en/104874/quantum-systems-series-b-expansion/",
+          "quote": "The new lead investors include Notion Capital and Porsche SE."
+        }
       ]
     },
     {
@@ -83,14 +201,52 @@
       "amountEur": 160000000,
       "amountOriginal": 160000000,
       "currency": "EUR",
-      "investors": ["Balderton Capital", "Hensoldt", "Airbus Defence and Space", "Bullhound Capital", "LP&E AG", "HV Capital", "Project A Ventures", "Peter Thiel", "DTCP", "Omnes Capital", "Airbus Ventures", "Porsche SE", "Notion Capital"],
+      "investors": [
+        "Balderton Capital",
+        "Hensoldt",
+        "Airbus Defence and Space",
+        "Bullhound Capital",
+        "LP&E AG",
+        "HV Capital",
+        "Project A Ventures",
+        "Peter Thiel",
+        "DTCP",
+        "Omnes Capital",
+        "Airbus Ventures",
+        "Porsche SE",
+        "Notion Capital"
+      ],
       "sources": [
-        { "field": "amount", "url": "https://www.munich-startup.de/en/109502/quantum-systems-becomes-new-munich-unicorn/", "quote": "Series C financing round of €160 million" },
-        { "field": "stage", "url": "https://www.munich-startup.de/en/109502/quantum-systems-becomes-new-munich-unicorn/", "quote": "The Series C round was led by Balderton Capital." },
-        { "field": "month", "url": "https://thenextweb.com/news/german-dual-use-drone-maker-becomes-unicorn-defence-tech-boom", "quote": "This article was published on May 6, 2025" },
-        { "field": "investors", "url": "https://www.munich-startup.de/en/109502/quantum-systems-becomes-new-munich-unicorn/", "quote": "Hensoldt, Airbus Defence and Space, Bullhound Capital, and LP&E AG." },
-        { "field": "investors", "url": "https://www.munich-startup.de/en/109502/quantum-systems-becomes-new-munich-unicorn/", "quote": "HV Capital, Project A, Peter Thiel, DTCP, Omnes Capital, Notion, and Porsche SE have also participated again." },
-        { "field": "valuation", "url": "https://thenextweb.com/news/german-dual-use-drone-maker-becomes-unicorn-defence-tech-boom", "quote": "has raised €160mn at a valuation north of €1bn" }
+        {
+          "field": "amount",
+          "url": "https://www.munich-startup.de/en/109502/quantum-systems-becomes-new-munich-unicorn/",
+          "quote": "Series C financing round of €160 million"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.munich-startup.de/en/109502/quantum-systems-becomes-new-munich-unicorn/",
+          "quote": "The Series C round was led by Balderton Capital."
+        },
+        {
+          "field": "month",
+          "url": "https://thenextweb.com/news/german-dual-use-drone-maker-becomes-unicorn-defence-tech-boom",
+          "quote": "This article was published on May 6, 2025"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.munich-startup.de/en/109502/quantum-systems-becomes-new-munich-unicorn/",
+          "quote": "Hensoldt, Airbus Defence and Space, Bullhound Capital, and LP&E AG."
+        },
+        {
+          "field": "investors",
+          "url": "https://www.munich-startup.de/en/109502/quantum-systems-becomes-new-munich-unicorn/",
+          "quote": "HV Capital, Project A, Peter Thiel, DTCP, Omnes Capital, Notion, and Porsche SE have also participated again."
+        },
+        {
+          "field": "valuation",
+          "url": "https://thenextweb.com/news/german-dual-use-drone-maker-becomes-unicorn-defence-tech-boom",
+          "quote": "has raised €160mn at a valuation north of €1bn"
+        }
       ]
     },
     {
@@ -100,13 +256,35 @@
       "amountEur": 180000000,
       "amountOriginal": 180000000,
       "currency": "EUR",
-      "investors": ["Balderton Capital"],
+      "investors": [
+        "Balderton Capital"
+      ],
       "sources": [
-        { "field": "amount", "url": "https://pulse2.com/quantum-systems-180-million-funding/amp/", "quote": "€180 million" },
-        { "field": "stage", "url": "https://pulse2.com/quantum-systems-180-million-funding/amp/", "quote": "Series C Extension" },
-        { "field": "month", "url": "https://pulse2.com/quantum-systems-180-million-funding/amp/", "quote": "Nov 30, 2025" },
-        { "field": "investors", "url": "https://www.munich-startup.de/en/news/e340-million-quantum-systems-expands-series-c", "quote": "led by Balderton Capital" },
-        { "field": "valuation", "url": "https://pulse2.com/quantum-systems-180-million-funding/amp/", "quote": "tripling its valuation to more than €3 billion" }
+        {
+          "field": "amount",
+          "url": "https://pulse2.com/quantum-systems-180-million-funding/amp/",
+          "quote": "€180 million"
+        },
+        {
+          "field": "stage",
+          "url": "https://pulse2.com/quantum-systems-180-million-funding/amp/",
+          "quote": "Series C Extension"
+        },
+        {
+          "field": "month",
+          "url": "https://pulse2.com/quantum-systems-180-million-funding/amp/",
+          "quote": "Nov 30, 2025"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.munich-startup.de/en/news/e340-million-quantum-systems-expands-series-c",
+          "quote": "led by Balderton Capital"
+        },
+        {
+          "field": "valuation",
+          "url": "https://pulse2.com/quantum-systems-180-million-funding/amp/",
+          "quote": "tripling its valuation to more than €3 billion"
+        }
       ]
     },
     {
@@ -117,13 +295,45 @@
       "amountOriginal": 1200000000,
       "currency": "USD",
       "postMoneyValuationEur": 7000000000,
-      "investors": ["Blackstone", "Noteus Partners", "Airbus Ventures", "Advent", "Bond", "Fidelity Management & Research Company", "Wellington Management", "A.P. Moller Holding", "Elephant Lake Ventures", "Balderton Capital", "HV Capital"],
+      "investors": [
+        "Blackstone",
+        "Noteus Partners",
+        "Airbus Ventures",
+        "Advent",
+        "Bond",
+        "Fidelity Management & Research Company",
+        "Wellington Management",
+        "A.P. Moller Holding",
+        "Elephant Lake Ventures",
+        "Balderton Capital",
+        "HV Capital"
+      ],
       "sources": [
-        { "field": "amount", "url": "https://www.grosswald.org/quantum-systems-1-2-billion-series-d-8-billion-valuation-armed-drones/", "quote": "closed a USD 1.2 billion Series D" },
-        { "field": "stage", "url": "https://www.trendingtopics.eu/quantum-systems-holt-12-milliarden-dollar-in-einer-der-groessten-defensetech-runden/", "quote": "eine Series-D-Runde über 1,2 Milliarden US-Dollar unterzeichnet" },
-        { "field": "month", "url": "https://www.grosswald.org/quantum-systems-1-2-billion-series-d-8-billion-valuation-armed-drones/", "quote": "Munich, 2 July 2026" },
-        { "field": "investors", "url": "https://www.trendingtopics.eu/quantum-systems-holt-12-milliarden-dollar-in-einer-der-groessten-defensetech-runden/", "quote": "Angeführt wird die Runde gemeinsam von Blackstone, Noteus, Airbus und Advent." },
-        { "field": "valuation", "url": "https://insights.munich-startup.de/news/note/quantum-systems-raises-1b-series-d-at-7b-valuation-as-blackstone-doubles-down-on-european-defence-tech", "quote": "Quantum Systems raises €1B Series D at €7B valuation as Blackstone doubles down on European defence tech" }
+        {
+          "field": "amount",
+          "url": "https://www.grosswald.org/quantum-systems-1-2-billion-series-d-8-billion-valuation-armed-drones/",
+          "quote": "closed a USD 1.2 billion Series D"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.trendingtopics.eu/quantum-systems-holt-12-milliarden-dollar-in-einer-der-groessten-defensetech-runden/",
+          "quote": "eine Series-D-Runde über 1,2 Milliarden US-Dollar unterzeichnet"
+        },
+        {
+          "field": "month",
+          "url": "https://www.grosswald.org/quantum-systems-1-2-billion-series-d-8-billion-valuation-armed-drones/",
+          "quote": "Munich, 2 July 2026"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.trendingtopics.eu/quantum-systems-holt-12-milliarden-dollar-in-einer-der-groessten-defensetech-runden/",
+          "quote": "Angeführt wird die Runde gemeinsam von Blackstone, Noteus, Airbus und Advent."
+        },
+        {
+          "field": "valuation",
+          "url": "https://www.grosswald.org/quantum-systems-1-2-billion-series-d-8-billion-valuation-armed-drones/",
+          "quote": "closed a USD 1.2 billion Series D at a post-money valuation of about USD 8 billion"
+        }
       ]
     }
   ]

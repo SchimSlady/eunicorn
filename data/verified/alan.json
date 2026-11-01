@@ -69,7 +69,8 @@
     },
     {
       "field": "logo",
-      "url": "https://commons.wikimedia.org/wiki/File:Alan-logo-green.svg"
+      "url": "https://commons.wikimedia.org/wiki/File:Alan-logo-green.svg",
+      "quote": "File:Alan-logo-green.svg"
     }
   ],
   "rounds": [
@@ -169,8 +170,8 @@
         },
         {
           "field": "month",
-          "url": "https://www.unquote.com/france/official-record/3013776/index-in-eur40m-series-b-for-alan",
-          "quote": "Index Ventures has led a €40m series-B funding round"
+          "url": "https://techcrunch.com/2019/02/17/alan-raises-another-45-million-for-its-health-insurance-product",
+          "quote": "February 17, 2019"
         },
         {
           "field": "investors",
@@ -209,7 +210,7 @@
         {
           "field": "investors",
           "url": "https://techcrunch.com/2020/04/19/alan-raises-another-54-4-million-for-its-health-insurance-product/",
-          "quote": "Temasek is leading the round with existing investors (such as Index Ventures) also participating."
+          "quote": "Temasek is leading the round with existing investors (such as Index Ventures ) also participating."
         }
       ]
     },
@@ -248,7 +249,7 @@
         {
           "field": "investors",
           "url": "https://tech.eu/brief/paris-based-insurtech-alan-raises-e185-million-in-series-d-round-now-valued-at-e1-4-billion/",
-          "quote": "The round saw participation from Coatue, Dragoneer, Exor, and existing investors"
+          "quote": "The round saw participation from Coatue , Dragoneer , Exor , and existing investors Index Ventures , Ribbit Capital , and Temasek ."
         },
         {
           "field": "valuation",
@@ -419,12 +420,12 @@
         {
           "field": "stage",
           "url": "https://tech.eu/2026/06/25/french-health-insurance-outfit-alan-agrees-eur480m-funding-round/",
-          "quote": "The new Series G funding round follows just months after Alan announced a €100m funding round."
+          "quote": "The new Series G funding round follows just months after Alan announced a €100m funding round at a €5bn valuation."
         },
         {
           "field": "month",
-          "url": "https://thenextweb.com/news/alan-480m-prosus-prevention-insurance",
-          "quote": "This article was published on June 25, 2026."
+          "url": "https://tech.eu/2026/06/25/french-health-insurance-outfit-alan-agrees-eur480m-funding-round/",
+          "quote": "25 June 2026"
         },
         {
           "field": "investors",
@@ -434,7 +435,7 @@
         {
           "field": "investors",
           "url": "https://tech.eu/2026/06/25/french-health-insurance-outfit-alan-agrees-eur480m-funding-round/",
-          "quote": "The latest funding round is being led by tech investing giant Prosus, a new investor."
+          "quote": "The latest funding round is being led by tech investing giant Prosus, a new investor, alongside existing shareholders Teachers’ Venture Growth (TVG) and Index Ventures"
         },
         {
           "field": "valuation",

@@ -7,12 +7,11 @@
   "city": "Levallois-Perret",
   "founded": 2013,
   "sectors": [
-    "health",
-    "saas"
+    "health"
   ],
   "status": "private",
   "unicorn": true,
-  "lastValuationEur": 3600000000,
+  "lastValuationEur": 5800000000,
   "founders": [
     "Stanislas Niox-Chateau",
     "Jessy Bernal",
@@ -42,7 +41,7 @@
     {
       "field": "founders",
       "url": "https://fr.wikipedia.org/wiki/Doctolib",
-      "quote": "par Stanislas Niox-Chateau, Jessy Bernal, Ivan Schneider et Steve Abou-Rjeily"
+      "quote": "Fondateurs Stanislas Niox-Chateau , Steve Abou Rjeily, Jessy Bernal, Ivan Schneider"
     },
     {
       "field": "sectors",
@@ -51,18 +50,18 @@
     },
     {
       "field": "status",
-      "url": "https://next.ink/261549/nvidia-entre-au-capital-de-doctolib-pour-accelerer-dans-lia-en-sante/",
-      "quote": "Doctolib était valorisée aux alentours de 3,6 milliards d’euros en avril dernier"
+      "url": "https://fr.wikipedia.org/wiki/Doctolib",
+      "quote": "Actionnaires Bpifrance , General Atlantic , Eurazeo , Accel Partners"
     },
     {
       "field": "unicorn",
-      "url": "https://techcrunch.com/2019/03/19/doctolib-is-now-a-unicorn-with-new-170-million-round/",
-      "quote": "Based on this new round, Doctolib now has a post-money valuation of $1.13 billion (€1 billion)."
+      "url": "https://tech.eu/2022/03/15/doctolib-raises-eur500-million-officially-frances-most-valuable-startup-at-a-eur58-billion-valuation/",
+      "quote": "now giving the company a valuation of €5.8 billion"
     },
     {
       "field": "valuation",
-      "url": "https://next.ink/261549/nvidia-entre-au-capital-de-doctolib-pour-accelerer-dans-lia-en-sante/",
-      "quote": "Doctolib était valorisée aux alentours de 3,6 milliards d’euros en avril dernier"
+      "url": "https://tech.eu/2022/03/15/doctolib-raises-eur500-million-officially-frances-most-valuable-startup-at-a-eur58-billion-valuation/",
+      "quote": "now giving the company a valuation of €5.8 billion"
     },
     {
       "field": "fun_fact",
@@ -71,7 +70,8 @@
     },
     {
       "field": "logo",
-      "url": "https://commons.wikimedia.org/wiki/File:Logo_Doctolib.svg"
+      "url": "https://commons.wikimedia.org/wiki/File:Logo_Doctolib.svg",
+      "quote": "File:Logo Doctolib.svg - Wikimedia Commons"
     }
   ],
   "rounds": [
@@ -148,7 +148,7 @@
         {
           "field": "amount",
           "url": "https://tech.eu/2015/10/13/doctolib-funding-accel/",
-          "quote": "has scored a €18 million Series B financing round led by Accel Partners."
+          "quote": "has scored a €18 million Series B financing round led by Accel Partners"
         },
         {
           "field": "stage",
@@ -158,7 +158,7 @@
         {
           "field": "month",
           "url": "https://tech.eu/2015/10/13/doctolib-funding-accel/",
-          "quote": "has scored a €18 million Series B financing round led by Accel Partners."
+          "quote": "Robin Wauters 13 October 2015"
         },
         {
           "field": "investors",
@@ -200,7 +200,7 @@
         {
           "field": "investors",
           "url": "https://tech.eu/2017/01/25/doctolib-series-c/",
-          "quote": "led by French public investment bank Bpifrance."
+          "quote": "Nicolas Dufourcq of Bpifrance, the lead investor in the round"
         }
       ]
     },
@@ -262,48 +262,12 @@
         {
           "field": "investors",
           "url": "https://techcrunch.com/2019/03/19/doctolib-is-now-a-unicorn-with-new-170-million-round/",
-          "quote": "The round is led by General Atlantic, with existing investors Accel, Eurazeo, Kernel and Bpifrance also participating."
+          "quote": "The round is led by General Atlantic , with existing investors Accel, Eurazeo, Kernel and Bpifrance also participating."
         },
         {
           "field": "valuation",
           "url": "https://techcrunch.com/2019/03/19/doctolib-is-now-a-unicorn-with-new-170-million-round/",
           "quote": "Based on this new round, Doctolib now has a post-money valuation of $1.13 billion (€1 billion)."
-        }
-      ]
-    },
-    {
-      "techeuId": "5C526266-8DCA-41AB-9D03-A2D05B1090DE",
-      "stage": "series-f+",
-      "month": "2022-03",
-      "amountEur": 500000000,
-      "amountOriginal": 500000000,
-      "currency": "EUR",
-      "postMoneyValuationEur": 5800000000,
-      "investors": [
-        "Eurazeo",
-        "Bpifrance",
-        "General Atlantic"
-      ],
-      "sources": [
-        {
-          "field": "amount",
-          "url": "https://tech.eu/2022/03/15/doctolib-raises-eur500-million-officially-frances-most-valuable-startup-at-a-eur58-billion-valuation/",
-          "quote": "has raised €500 million in equity and debt funding"
-        },
-        {
-          "field": "month",
-          "url": "https://tech.eu/2022/03/15/doctolib-raises-eur500-million-officially-frances-most-valuable-startup-at-a-eur58-billion-valuation/",
-          "quote": "has raised €500 million in equity and debt funding"
-        },
-        {
-          "field": "investors",
-          "url": "https://tech.eu/2022/03/15/doctolib-raises-eur500-million-officially-frances-most-valuable-startup-at-a-eur58-billion-valuation/",
-          "quote": "existing investor Eurazeo leading the round, with previous investors Bpifrance and General Atlantic participating."
-        },
-        {
-          "field": "valuation",
-          "url": "https://tech.eu/2022/03/15/doctolib-raises-eur500-million-officially-frances-most-valuable-startup-at-a-eur58-billion-valuation/",
-          "quote": "now giving the company a valuation of €5.8 billion."
         }
       ]
     }

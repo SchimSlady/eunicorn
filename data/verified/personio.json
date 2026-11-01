@@ -7,7 +7,7 @@
   "city": "Munich",
   "founded": 2015,
   "sectors": [
-    "saas"
+    "hrtech"
   ],
   "status": "private",
   "unicorn": true,
@@ -26,12 +26,12 @@
     {
       "field": "city",
       "url": "https://en.wikipedia.org/wiki/Personio",
-      "quote": "Personio is a European software company headquartered in Munich, Germany"
+      "quote": "Personio is a European software company headquartered in Munich , Germany"
     },
     {
       "field": "founded",
       "url": "https://techcrunch.com/2019/01/17/personio-series-b",
-      "quote": "Founded in 2015, Munich-based Personio has set out to build an 'HR operating system'"
+      "quote": "Founded in 2015, Munich-based Personio has set out to build an \"HR operating system\""
     },
     {
       "field": "founders",
@@ -70,7 +70,8 @@
     },
     {
       "field": "logo",
-      "url": "https://commons.wikimedia.org/wiki/File:Personio_logo_(2024).svg"
+      "url": "https://commons.wikimedia.org/wiki/File:Personio_logo_(2024).svg",
+      "quote": "File:Personio logo (2024).svg"
     }
   ],
   "rounds": [
@@ -135,7 +136,7 @@
         {
           "field": "month",
           "url": "https://techcrunch.com/2019/01/17/personio-series-b",
-          "quote": "German HR and recruiting platform Personio raises $40M Series B led by Index (January 17, 2019)"
+          "quote": "January 17, 2019"
         },
         {
           "field": "stage",
@@ -175,7 +176,7 @@
         {
           "field": "month",
           "url": "https://techcrunch.com/2020/01/20/personio-the-german-hr-platform-for-smes-raises-75m-series-c",
-          "quote": "Personio, the German HR platform for SMEs, raises $75M Series C (January 20, 2020)"
+          "quote": "January 20, 2020"
         },
         {
           "field": "stage",
@@ -240,7 +241,7 @@
         {
           "field": "investors",
           "url": "https://tech.eu/2021/01/18/personio-series-d/",
-          "quote": "All of other previous backers — Accel, Lightspeed Venture Partners, Northzone, Global Founders Capital and Picus participated as well."
+          "quote": "Accel, Lightspeed Venture Partners, Northzone, Global Founders Capital and Picus"
         },
         {
           "field": "investors",
@@ -286,7 +287,7 @@
         {
           "field": "investors",
           "url": "https://tech.eu/2021/10/12/personio-raises-270-million-in-series-e-round-at-6-3-billion-valuation/",
-          "quote": "Personio’s Series E round was led by Greenoaks Capital Partners, and saw participation from Altimeter Capital and Alkeon."
+          "quote": "Series E round was led by Greenoaks Capital Partners , and saw participation from Altimeter Capital and Alkeon"
         },
         {
           "field": "valuation",

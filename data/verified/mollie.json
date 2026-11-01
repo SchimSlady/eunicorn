@@ -28,7 +28,7 @@
     {
       "field": "founded",
       "url": "https://nl.wikipedia.org/wiki/Mollie",
-      "quote": "Mollie is een Nederlandse payment service provider die in 2004 werd opgericht door Adriaan Mol."
+      "quote": "Mollie is een Nederlandse payment service provider die in 2004 werd opgericht door Adriaan Mol ."
     },
     {
       "field": "founders",
@@ -53,7 +53,7 @@
     {
       "field": "fun_fact",
       "url": "https://nl.wikipedia.org/wiki/Mollie",
-      "quote": "Het bedrijf verkocht aanvankelijk sms-jes aan zakelijke klanten."
+      "quote": "Het bedrijf verkocht aanvankelijk sms -jes aan zakelijke klanten."
     },
     {
       "field": "fun_fact",
@@ -62,7 +62,8 @@
     },
     {
       "field": "logo",
-      "url": "https://commons.wikimedia.org/wiki/File:Mollie-Logo-Black-2023.png"
+      "url": "https://commons.wikimedia.org/wiki/File:Mollie-Logo-Black-2023.png",
+      "quote": "File:Mollie-Logo-Black-2023.png - Wikimedia Commons"
     }
   ],
   "rounds": [
@@ -101,7 +102,7 @@
         {
           "field": "investors",
           "url": "https://www.unquote.com/benelux/official-record/3024271/blackstone-leads-eur665m-round-for-software-developer-mollie",
-          "quote": "EQT Growth, General Atlantic, HMI Capital, Alkeon Capital and TCV also took part in the round."
+          "quote": "EQT Growth, General Atlantic, HMI Capital, Alkeon Capital and TCV also took part in the round"
         },
         {
           "field": "valuation",

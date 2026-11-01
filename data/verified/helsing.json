@@ -29,7 +29,7 @@
     {
       "field": "city",
       "url": "https://en.wikipedia.org/wiki/Helsing_(company)",
-      "quote": "Helsing SE is a German defence technology company based in Munich."
+      "quote": "Helsing SE is a German defence technology company based in Munich ."
     },
     {
       "field": "founded",
@@ -44,7 +44,7 @@
     {
       "field": "sectors",
       "url": "https://en.wikipedia.org/wiki/Helsing_(company)",
-      "quote": "the company develops military strike drones, underwater surveillance systems, and artificial intelligence software"
+      "quote": "the company develops military strike drones , underwater surveillance systems, and artificial intelligence software"
     },
     {
       "field": "status",
@@ -64,11 +64,12 @@
     {
       "field": "fun_fact",
       "url": "https://en.wikipedia.org/wiki/Helsing_(company)",
-      "quote": "who previously founded NaturalMotion, a gaming company later acquired by Zynga"
+      "quote": "who previously founded NaturalMotion , a gaming company later acquired by Zynga"
     },
     {
       "field": "logo",
-      "url": "https://commons.wikimedia.org/wiki/File:Helsing_Logo_Black.png"
+      "url": "https://commons.wikimedia.org/wiki/File:Helsing_Logo_Black.png",
+      "quote": "File:Helsing Logo Black.png"
     }
   ],
   "rounds": [
@@ -165,7 +166,7 @@
         {
           "field": "month",
           "url": "https://siliconangle.com/2024/07/11/defense-technology-startup-helsing-raises-e450m-reported-e5b-valuation",
-          "quote": "Defense technology startup Helsing raises €450M at reported €5B valuation (July 11, 2024)"
+          "quote": "JULY 11 2024"
         },
         {
           "field": "stage",
@@ -261,7 +262,7 @@
         {
           "field": "month",
           "url": "https://thenextweb.com/news/helsing-1-8-billion-series-e-18-billion-valuation",
-          "quote": "Helsing raises $1.8bn at an $18bn valuation, and its cap table tells a story (July 13, 2026)"
+          "quote": "This article was published on July 13, 2026"
         },
         {
           "field": "stage",

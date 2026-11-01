@@ -23,7 +23,7 @@
     {
       "field": "city",
       "url": "https://en.wikipedia.org/wiki/Isomorphic_Labs",
-      "quote": "based in London, England."
+      "quote": "based in London , England."
     },
     {
       "field": "city",
@@ -43,7 +43,7 @@
     {
       "field": "founders",
       "url": "https://en.wikipedia.org/wiki/Isomorphic_Labs",
-      "quote": "founded by Demis Hassabis, who is the CEO."
+      "quote": "Isomorphic Labs was founded by Demis Hassabis , who is the CEO"
     },
     {
       "field": "founders",
@@ -152,12 +152,12 @@
         {
           "field": "investors",
           "url": "https://www.isomorphiclabs.com/articles/isomorphic-labs-announces-series-b-investment-round",
-          "quote": "led by Thrive Capital."
+          "quote": "The financing round is led by Thrive Capital"
         },
         {
           "field": "investors",
           "url": "https://www.isomorphiclabs.com/articles/isomorphic-labs-announces-series-b-investment-round",
-          "quote": "MGX, Temasek, CapitalG, and the UK Sovereign AI Fund."
+          "quote": "new investors MGX, Temasek, CapitalG, and the UK Sovereign AI Fund"
         }
       ]
     }

@@ -24,17 +24,17 @@
     {
       "field": "city",
       "url": "https://en.wikipedia.org/wiki/PLD_Space",
-      "quote": "PLD Space has its headquarters and main factory in Elche, Spain."
+      "quote": "Headquarters Elche, Spain"
     },
     {
       "field": "founded",
       "url": "https://en.wikipedia.org/wiki/PLD_Space",
-      "quote": "PLD Space was founded in 2011 by Raúl Torres, Raúl Verdú and José E. Martínez in Elche, Spain."
+      "quote": "PLD Space was founded in 2011 by Raúl Torres, Raúl Verdú and José E. Martínez in Elche, Spain"
     },
     {
       "field": "founders",
       "url": "https://en.wikipedia.org/wiki/PLD_Space",
-      "quote": "PLD Space was founded in 2011 by Raúl Torres, Raúl Verdú and José E. Martínez in Elche, Spain."
+      "quote": "PLD Space was founded in 2011 by Raúl Torres, Raúl Verdú and José E. Martínez in Elche, Spain"
     },
     {
       "field": "sectors",
@@ -58,7 +58,8 @@
     },
     {
       "field": "logo",
-      "url": "https://commons.wikimedia.org/wiki/File:PLD_Logo_black.svg"
+      "url": "https://commons.wikimedia.org/wiki/File:PLD_Logo_black.svg",
+      "quote": "File:PLD Logo black.svg"
     }
   ],
   "rounds": [
@@ -82,7 +83,7 @@
         {
           "field": "amount",
           "url": "https://capital-riesgo.es/en/articles/pld-space-completes-its-17-millions-investment-round-/",
-          "quote": "second investment tranche of 9 million euros, comprised of 7.1 million euros of private investment and 1.9 million euros of public investment"
+          "quote": "the second investment tranche of 9 million euros was completed"
         },
         {
           "field": "stage",
@@ -132,7 +133,7 @@
         {
           "field": "investors",
           "url": "https://tech.eu/2021/12/27/spains-pld-space-prepares-for-liftoff-with-28-million-in-new-funding",
-          "quote": "led by Arcano Partners, Aciturri and the Centre for the Development of Industrial Technology (CDTI) through the co-investment initiative of the INNVIERTE"
+          "quote": "The round was led by Arcano Partners , aerospace component manufacturer Aciturri , and the Centre for the Development of Industrial Technology ( CDTI ) through the co-investment initiative of the INNVIERTE programme."
         }
       ]
     },
@@ -199,12 +200,22 @@
         {
           "field": "month",
           "url": "https://pulse2.com/pld-space-extends-series-c-to-e288-million-with-additional-e108-million-tranche/",
-          "quote": "September 9, 2026"
+          "quote": "Sep 9, 2026"
         },
         {
           "field": "investors",
           "url": "https://pulse2.com/pld-space-extends-series-c-to-e288-million-with-additional-e108-million-tranche/",
-          "quote": "Mitsubishi Electric Corporation led the extension ... New investors were Endeavor Catalyst and the Spain Oman Private Equity Fund"
+          "quote": "The extension was led by Mitsubishi Electric Corporation , which also participated in the original Series C launched in March 2026."
+        },
+        {
+          "field": "investors",
+          "url": "https://pulse2.com/pld-space-extends-series-c-to-e288-million-with-additional-e108-million-tranche/",
+          "quote": "new investors included Endeavor Catalyst and the Spain Oman Private Equity Fund"
+        },
+        {
+          "field": "investors",
+          "url": "https://pulse2.com/pld-space-extends-series-c-to-e288-million-with-additional-e108-million-tranche/",
+          "quote": "COFIDES co-invested again"
         }
       ]
     }

@@ -23,7 +23,7 @@
     {
       "field": "city",
       "url": "https://en.wikipedia.org/wiki/Nscale",
-      "quote": "Headquartered in London."
+      "quote": "Headquarters London , United Kingdom"
     },
     {
       "field": "city",
@@ -72,7 +72,8 @@
     },
     {
       "field": "logo",
-      "url": "https://commons.wikimedia.org/wiki/File:Nscale_logo.png"
+      "url": "https://commons.wikimedia.org/wiki/File:Nscale_logo.png",
+      "quote": "File:Nscale logo.png"
     }
   ],
   "rounds": [
@@ -103,17 +104,12 @@
         {
           "field": "month",
           "url": "https://siliconangle.com/2024/12/09/ai-data-center-builder-nscale-nabs-155m-investment",
-          "quote": "UPDATED 15:01 EDT / DECEMBER 09 2024"
+          "quote": "UPDATED 15:01 EST / DECEMBER 09 2024"
         },
         {
           "field": "investors",
           "url": "https://siliconangle.com/2024/12/09/ai-data-center-builder-nscale-nabs-155m-investment",
-          "quote": "Sandton Capital Partners led the investment."
-        },
-        {
-          "field": "investors",
-          "url": "https://siliconangle.com/2024/12/09/ai-data-center-builder-nscale-nabs-155m-investment",
-          "quote": "Kestrel 0x1, Blue Sky Capital Managers, and Florence Capital"
+          "quote": "Sandton Capital Partners led the investment with participation from Kestrel 0x1, Blue Sky Capital Managers and Florence Capital."
         }
       ]
     },
@@ -155,12 +151,12 @@
         {
           "field": "investors",
           "url": "https://nscale.com/press-releases/nscale-series-b",
-          "quote": "The financing was led by Aker ASA."
+          "quote": "The financing was led by Aker ASA"
         },
         {
           "field": "investors",
           "url": "https://nscale.com/press-releases/nscale-series-b",
-          "quote": "Sandton Capital, Blue Owl Managed Funds, Dell, Fidelity Management & Research Company, G Squared, Nokia, NVIDIA, Point72, and T.Capital"
+          "quote": "participation from Blue Owl Managed Funds, Dell, Fidelity Management & Research Company, G Squared, Nokia, NVIDIA, Point72 and T.Capital"
         }
       ]
     },
@@ -189,7 +185,7 @@
         {
           "field": "amount",
           "url": "https://thenextweb.com/news/nscale-raises-2bn-series-c-at-14-6bn-valuation",
-          "quote": "Nscale raises $2bn Series C at $14.6bn valuation."
+          "quote": "Nscale raises $2bn Series C at $14.6bn valuation"
         },
         {
           "field": "amount",
@@ -214,7 +210,7 @@
         {
           "field": "investors",
           "url": "https://thenextweb.com/news/nscale-raises-2bn-series-c-at-14-6bn-valuation",
-          "quote": "Dallas-based industrial tech fund 8090 Industries"
+          "quote": "8090 Industries, a Dallas-based industrial technology fund"
         },
         {
           "field": "investors",

@@ -27,7 +27,7 @@
     {
       "field": "city",
       "url": "https://en.wikipedia.org/wiki/Glovo",
-      "quote": "Glovo is a Spanish on-demand delivery company headquartered in Barcelona."
+      "quote": "Glovo is a Spanish on-demand delivery company headquartered in Barcelona ."
     },
     {
       "field": "founded",
@@ -42,7 +42,7 @@
     {
       "field": "status",
       "url": "https://en.wikipedia.org/wiki/Glovo",
-      "quote": "Since July 2022, it has been majority-owned by the German delivery company Delivery Hero."
+      "quote": "Since July 2022, it has been majority-owned by the German delivery company Delivery Hero ."
     },
     {
       "field": "unicorn",
@@ -61,7 +61,8 @@
     },
     {
       "field": "logo",
-      "url": "https://commons.wikimedia.org/wiki/File:Glovo_Logo.svg"
+      "url": "https://commons.wikimedia.org/wiki/File:Glovo_Logo.svg",
+      "quote": "File:Glovo Logo.svg"
     }
   ],
   "rounds": [
@@ -129,7 +130,7 @@
         {
           "field": "amount",
           "url": "https://tech.eu/2019/12/19/glovo-reaches-unicorn-status-with-e150-million-series-e",
-          "quote": "Glovo, the fast-growing on-demand delivery company from Spain, has raised €150 million in Series E funding."
+          "quote": "Glovo , the fast-growing on-demand delivery company from Spain, has raised €150 million in Series E funding."
         },
         {
           "field": "month",
@@ -180,7 +181,7 @@
         {
           "field": "investors",
           "url": "https://techcrunch.com/2019/04/30/glovo-the-on-demand-deliver-anything-local-app-raises-169m-series-d/",
-          "quote": "Idinvest Partners and Korelya Capital also participated."
+          "quote": "Idinvest Partners and Korelya Capital also participated"
         }
       ]
     },
@@ -251,7 +252,7 @@
         {
           "field": "month",
           "url": "https://www.cathaycapital.com/glovo-closes-30me-series-b-funding-round-with-investment-from-rakuten-and-cathay-innovation/",
-          "quote": "Barcelona, 4th October 2017."
+          "quote": "Barcelona, 4th October 2017 .-"
         },
         {
           "field": "stage",

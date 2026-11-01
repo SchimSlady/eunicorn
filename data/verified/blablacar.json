@@ -30,7 +30,7 @@
     {
       "field": "city",
       "url": "https://en.wikipedia.org/wiki/BlaBlaCar",
-      "quote": "BlaBlaCar is a French ridesharing company headquartered in Paris."
+      "quote": "BlaBlaCar is a French ridesharing company headquartered in Paris"
     },
     {
       "field": "founded",
@@ -45,7 +45,7 @@
     {
       "field": "sectors",
       "url": "https://en.wikipedia.org/wiki/BlaBlaCar",
-      "quote": "BlaBlaCar is a French ridesharing company headquartered in Paris."
+      "quote": "BlaBlaCar is a French ridesharing company headquartered in Paris"
     },
     {
       "field": "status",
@@ -65,11 +65,12 @@
     {
       "field": "fun_fact",
       "url": "https://en.wikipedia.org/wiki/BlaBlaCar",
-      "quote": "The service is named for its rating scale for drivers' preferred level of chattiness in the car."
+      "quote": "The service is named for its rating scale for drivers' preferred level of chattiness in the car"
     },
     {
       "field": "logo",
-      "url": "https://commons.wikimedia.org/wiki/File:BlaBlaCar_logo.svg"
+      "url": "https://commons.wikimedia.org/wiki/File:BlaBlaCar_logo.svg",
+      "quote": "File:BlaBlaCar logo.svg - Wikimedia Commons"
     }
   ],
   "rounds": [
@@ -171,7 +172,7 @@
         {
           "field": "investors",
           "url": "https://tech.eu/2015/09/16/blablacar-series-d-funding/",
-          "quote": "The fresh capital comes from Insight Venture Partners and Lead Edge Capital, with the participation of Vostok New Ventures."
+          "quote": "The fresh capital comes from Insight Venture Partners and Lead Edge Capital, with the participation of Vostok New Ventures"
         },
         {
           "field": "valuation",
@@ -205,11 +206,6 @@
           "field": "investors",
           "url": "https://www.tourmag.com/Blablacar-leve-plus-de-21-millions-d-euros_a82533.html",
           "quote": "fonds russe Baring Vostok Investment - immatriculé à Chypre"
-        },
-        {
-          "field": "amount",
-          "url": "https://venturebeat.com/business/russia-set-to-become-blablacars-biggest-market-in-2017",
-          "quote": "a recent €21.3 million euro capital injection from Baring Vostok, a leading Russian private equity firm."
         }
       ]
     },
