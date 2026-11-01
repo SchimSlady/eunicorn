@@ -77,3 +77,7 @@ Read this before verifying a company. Each rule came from a real problem in the 
   - Re-running the loader replaces a company's rounds and sources, so it's safe.
 - **Batches:** keep each agent to about 6–8 companies, so the work and the checks stay manageable.
 - **Keep the record:** a company that doesn't fit is marked excluded with a reason, not silently dropped.
+
+## Investors (2026-11-01)
+- **Duplicates are merged through `data/investors/aliases.json`** (same firm or brand: name variants, its own funds, renames). The loader maps names through it; `npx tsx data/scripts/investors.ts` merges existing rows and applies the tiers. Run it after each batch.
+- **Tiers (`data/investors/tiers.json`):** 1 = the 10 biggest VCs, 2 = 50 famous (German and European leaders included), 3 = the next 200 by number of our companies backed, 4 = the rest. No individual angels in tiers 1–2. Games should only clue tier 1–2 investors (maybe tier 3 on hard days).
