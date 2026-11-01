@@ -5,7 +5,7 @@ import type { Company, Dataset } from "@eunicorn/schema";
 import { indexById, loadGame } from "@/lib/data";
 import { getTodayResult, loadProgress, saveProgress, saveResult } from "@/lib/daily";
 import { saveDifficulty, type Difficulty } from "@/lib/difficulty";
-import { formatMetric } from "@/lib/format";
+import { countryName, formatMetric } from "@/lib/format";
 import { shareText as buildShareText } from "@/lib/scoring";
 import type { Top10Puzzle, Top10Round } from "@/lib/top10";
 import { CompanyLogo } from "@/components/CompanyLogo";
@@ -23,7 +23,6 @@ import { StatsPanel } from "@/components/StatsPanel";
 import { recordFinish, recordStart } from "@/lib/stats";
 
 const MODE = "top-10";
-const countryNames = new Intl.DisplayNames(["en"], { type: "region" });
 const TITLE = "Top 10";
 const MAX_SCORE = 10;
 
@@ -164,7 +163,7 @@ export function Top10Game() {
                 // down, on a Germany or Sweden list every flag is the same and the clue is gone.
                 <>
                   <Flag country={c.country} size={22} />
-                  <span className="sr-only">From {countryNames.of(c.country) ?? c.country}</span>
+                  <span className="sr-only">From {countryName(c.country)}</span>
                   <span className="text-sm text-muted">?</span>
                 </>
               )}
