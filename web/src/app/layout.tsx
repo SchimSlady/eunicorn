@@ -31,8 +31,9 @@ export default function RootLayout({
       </head>
       <body className="flex min-h-dvh flex-col antialiased">
         <SiteHeader />
-        {/* Takes the free height, so the footer stays at the bottom even on short pages (e.g. while a game loads). */}
-        <div className="flex-1">{children}</div>
+        {/* At least a full screen below the header (3.5rem): the footer only shows when you scroll,
+            never right under a short page such as a game that's still loading. */}
+        <div className="min-h-[calc(100dvh-3.5rem)] flex-1">{children}</div>
         <SiteFooter />
       </body>
     </html>
