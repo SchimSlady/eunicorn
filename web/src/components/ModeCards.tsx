@@ -1,20 +1,22 @@
 "use client";
 
+import type { PlayMode } from "@/lib/top10";
+
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import { CircleCheck } from "lucide-react";
-import type { GameMode } from "@eunicorn/schema";
+
 import { getTodayResult, loadTodayPuzzle, type DailyResult } from "@/lib/daily";
-import { MODES } from "@/lib/modes";
+import { LIVE_MODES } from "@/lib/modes";
 import { formatRaised } from "@/lib/scoring";
 import { ModePreview } from "./ModePreview";
 
 /** One card per mode: illustration, PLAY, title, and a ✓ with the score once played today. */
 export function ModeCards() {
-  const [results, setResults] = useState<Partial<Record<GameMode, DailyResult>>>({});
+  const [results, setResults] = useState<Partial<Record<PlayMode, DailyResult>>>({});
 
   useEffect(() => {
-    const playable = MODES.map((m) => m.mode);
+    const playable = LIVE_MODES.map((m) => m.mode);
     Promise.all(
       playable.map(async (mode) => {
         const p = await loadTodayPuzzle(mode);
@@ -26,7 +28,7 @@ export function ModeCards() {
   return (
     <div className="space-y-4">
       <ul className="grid grid-cols-2 gap-4 lg:grid-cols-4">
-        {MODES.map((m) => {
+        {LIVE_MODES.map((m) => {
           const result = results[m.mode];
           const card = (
             <>

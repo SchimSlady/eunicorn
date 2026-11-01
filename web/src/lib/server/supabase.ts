@@ -1,5 +1,6 @@
+import type { AnyPuzzle, PlayMode } from "@/lib/top10";
 import "server-only";
-import type { Company, Dataset, GameMode, Puzzle, Round } from "@eunicorn/schema";
+import type { Company, Dataset, Puzzle, Round } from "@eunicorn/schema";
 import { USD_TO_EUR } from "@/lib/format";
 import { generatePuzzle } from "./generate";
 import logoFiles from "./logos.generated.json";
@@ -157,11 +158,16 @@ export async function getDataset(): Promise<(Omit<Dataset, "rounds"> & { rounds:
  * wins (RLS hides drafts and future days); without one, the puzzle is generated from the
  * verified data. null only when Supabase is unavailable or the data can't support the mode.
  */
-export async function getPuzzle(mode: GameMode, date: string, rotate?: string): Promise<Puzzle | null> {
+export async function getPuzzle(mode: PlayMode, date: string, rotate?: string): Promise<AnyPuzzle | null> {
   // Test mode: skip the approved puzzle and generate a new one from this salt.
   if (rotate) {
     const data = await getDataset();
     return data ? generatePuzzle(mode, date, data, rotate) : null;
+  }
+  // Top 10 is web-only for now: the puzzles table's mode enum doesn't know it, so it's always generated.
+  if (mode === "top-10") {
+    const data = await getDataset();
+    return data ? generatePuzzle(mode, date, data) : null;
   }
   const rows = await select<{ payload: Puzzle }>(
     `puzzles?select=payload&mode=eq.${encodeURIComponent(mode)}&date=eq.${encodeURIComponent(date)}&limit=1`,
@@ -175,7 +181,7 @@ export async function getPuzzle(mode: GameMode, date: string, rotate?: string): 
 
 export interface PlayRow {
   played_on: string;
-  mode: GameMode;
+  mode: PlayMode;
   difficulty: "easy" | "medium" | "hard";
   event: "start" | "finish";
   bucket?: number;
@@ -209,7 +215,7 @@ export interface PlayStats {
 }
 
 /** Aggregates for one day and mode, or null when unavailable. */
-export async function getPlayStats(day: string, mode: GameMode): Promise<PlayStats | null> {
+export async function getPlayStats(day: string, mode: PlayMode): Promise<PlayStats | null> {
   const url = process.env.SUPABASE_URL;
   const key = process.env.SUPABASE_PUBLISHABLE_KEY;
   if (!url || !key) return null;

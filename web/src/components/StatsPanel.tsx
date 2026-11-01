@@ -1,7 +1,9 @@
 "use client";
 
+import type { PlayMode } from "@/lib/top10";
+
 import { useEffect, useState } from "react";
-import type { GameMode } from "@eunicorn/schema";
+
 import { loadStats, type PlayStats } from "@/lib/stats";
 
 /**
@@ -22,7 +24,7 @@ export function StatsPanel({
   label,
   axis,
 }: {
-  mode: GameMode;
+  mode: PlayMode;
   /** The player's own result bucket. */
   bucket: number;
   /** The player's score as % of the maximum. */

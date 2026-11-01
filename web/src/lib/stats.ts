@@ -1,4 +1,5 @@
-import type { GameMode } from "@eunicorn/schema";
+import type { PlayMode } from "@/lib/top10";
+
 import type { Difficulty } from "./difficulty";
 
 /**
@@ -26,13 +27,13 @@ function send(body: object): Promise<unknown> {
   }).catch(() => null);
 }
 
-export function recordStart(mode: GameMode, difficulty: Difficulty): void {
+export function recordStart(mode: PlayMode, difficulty: Difficulty): void {
   void send({ mode, difficulty, event: "start" });
 }
 
 /** bucket: guess number / rounds right / squares filled, 0 = missed. */
 export function recordFinish(
-  mode: GameMode,
+  mode: PlayMode,
   difficulty: Difficulty,
   result: { bucket: number; score: number; maxScore: number; won: boolean },
 ): void {
@@ -46,7 +47,7 @@ export function recordFinish(
   });
 }
 
-export async function loadStats(mode: GameMode): Promise<PlayStats | null> {
+export async function loadStats(mode: PlayMode): Promise<PlayStats | null> {
   await lastFinish;
   const res = await fetch(`/api/plays?mode=${mode}`, { cache: "no-store" }).catch(() => null);
   return res?.status === 200 ? ((await res.json()) as PlayStats) : null;

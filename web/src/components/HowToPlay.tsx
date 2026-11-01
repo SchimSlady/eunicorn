@@ -1,13 +1,15 @@
 "use client";
 
+import type { PlayMode } from "@/lib/top10";
+
 import { useRef, useState } from "react";
 import { CircleHelp } from "lucide-react";
-import type { GameMode } from "@eunicorn/schema";
+
 import { COMMON_RULES, MODE_INFO } from "@/lib/modes";
 import { Sheet } from "./Sheet";
 
 /** The ? in the game header: the rules of this mode, in the same sheet as the results. */
-export function HowToPlay({ mode }: { mode: GameMode }) {
+export function HowToPlay({ mode }: { mode: PlayMode }) {
   const [open, setOpen] = useState(false);
   const button = useRef<HTMLButtonElement>(null);
   const info = MODE_INFO[mode];

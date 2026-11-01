@@ -1,8 +1,10 @@
 "use client";
 
+import type { PlayMode } from "@/lib/top10";
+
 import { useEffect, useRef, useState } from "react";
 import { ChevronDown, ChevronUp, Lock, VenetianMask } from "lucide-react";
-import type { GameMode } from "@eunicorn/schema";
+
 import { Flag } from "./Flag";
 
 /** Illustrations are drawn on a fixed canvas and scaled to whatever width the card has. */
@@ -13,7 +15,7 @@ const CANVAS_H = 180;
  * Small illustration of how each mode plays, for the home cards and intro screens.
  * Decorative only: hidden from screen readers, the card text says what the mode is.
  */
-export function ModePreview({ mode }: { mode: GameMode }) {
+export function ModePreview({ mode }: { mode: PlayMode }) {
   const Preview = PREVIEWS[mode];
   return (
     <PreviewFrame>
@@ -61,7 +63,8 @@ function Tile({ logo, size = 28, className = "" }: { logo: string; size?: number
   );
 }
 
-function WhoRaisedThisPreview() {
+/** Also shown greyed out among the coming-soon games while Top 10 has its slot. */
+export function WhoRaisedThisPreview() {
   // A mini deal board: the round on top, clue tiles below (two open, the next one glowing).
   const tiles: Array<{ label: string; value?: string; next?: boolean }> = [
     { label: "Announced", value: "Dec 2023" },
@@ -204,7 +207,33 @@ function ImpostorPreview() {
   );
 }
 
-const PREVIEWS: Record<GameMode, () => React.JSX.Element> = {
+function Top10Preview() {
+  // Ranks with some found (logo + name) and some still open; Europe by valuation in our data.
+  const rows: Array<{ n: number; logo?: string; name?: string }> = [
+    { n: 1, logo: "revolut.svg", name: "Revolut" },
+    { n: 2 },
+    { n: 3, logo: "mistral-ai.svg", name: "Mistral AI" },
+    { n: 4 },
+    { n: 5 },
+  ];
+  return (
+    <div className="w-full max-w-[200px] text-[11px]">
+      <p className="mb-1.5 text-center text-[10px] font-semibold uppercase tracking-wide text-eu-yellow">Most valuable in Europe</p>
+      <div className="space-y-1">
+        {rows.map(({ n, logo, name }) => (
+          <div key={n} className={`flex h-6 items-center gap-2 rounded-md px-1.5 ${name ? "bg-white/15" : "border border-dashed border-white/30"}`}>
+            <span className="w-3 text-right font-display font-bold text-eu-yellow">{n}</span>
+            {logo && <Tile logo={logo} size={18} />}
+            <span className="font-semibold">{name ?? ""}</span>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+const PREVIEWS: Record<PlayMode, () => React.JSX.Element> = {
+  "top-10": Top10Preview,
   "who-raised-this": WhoRaisedThisPreview,
   "unicorn-grid": UnicornGridPreview,
   "higher-lower": HigherLowerPreview,

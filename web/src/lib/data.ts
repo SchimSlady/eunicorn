@@ -1,4 +1,5 @@
-import type { Company, Dataset, GameMode, Puzzle } from "@eunicorn/schema";
+import type { AnyPuzzle, PlayMode } from "@/lib/top10";
+import type { Company, Dataset } from "@eunicorn/schema";
 import { loadFilePuzzle, puzzleUrl } from "./daily";
 
 async function fetchJson<T>(url: string): Promise<T | null> {
@@ -11,7 +12,7 @@ async function fetchJson<T>(url: string): Promise<T | null> {
  * (/api/puzzle + /api/dataset) when it has an approved puzzle for today, otherwise the files
  * synced from /data. Mixing them would break: file puzzles name companies the database lacks.
  */
-export async function loadGame<P extends Puzzle>(mode: GameMode): Promise<{ puzzle: P | null; data: Dataset }> {
+export async function loadGame<P extends AnyPuzzle>(mode: PlayMode): Promise<{ puzzle: P | null; data: Dataset }> {
   const live = await fetchJson<P>(puzzleUrl(mode));
   if (live) {
     const data = await fetchJson<Dataset>("/api/dataset");
