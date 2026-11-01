@@ -1,8 +1,9 @@
-import type { AnyPuzzle, PlayMode, Top10Metric, Top10Puzzle, Top10Round } from "@/lib/top10";
+import type { AnyPuzzle, PlayMode, Top10Puzzle, Top10Round } from "@/lib/top10";
 import type { Company, Dataset, GridCriterion, Hint, HigherLowerMetric, HigherLowerPuzzle, ImpostorPuzzle, UnicornGridPuzzle, WhoRaisedThisPuzzle } from "@eunicorn/schema";
 import { CATEGORY_LEVEL_MAX, DIFFICULTIES, FAME_TIERS, INVESTOR_TIER_MAX, type Difficulty } from "../difficulty";
 import { USD_TO_EUR, countryName, formatUsdAsEur, sectorLabel } from "../format";
 import { distinctAnswers } from "../grid";
+import { TOP10_QUESTIONS, type Top10Question } from "./top10-questions";
 
 /**
  * Builds the day's puzzle from the verified Supabase dataset when no approved puzzle exists
@@ -37,72 +38,60 @@ export function generatePuzzle(mode: PlayMode, date: string, data: Dataset): Any
 
 /* ---------- Top 10 ---------- */
 
+const LEVEL_RANK: Record<Difficulty, number> = { easy: 0, medium: 1, hard: 2 };
+
 /**
- * Name the ten biggest: by last valuation or total raised (alternating by day), and per level a
- * wider or narrower field: Easy all of Europe or a big country, Medium adds other countries and
- * big sectors, Hard adds smaller sectors and cities.
- * A field needs at least 12 companies with the number, and no tie between No. 10 and No. 11.
+ * Name the ten biggest. Each level goes through its questions from the bank (top10-questions.ts) in a
+ * shuffled order that changes every cycle: no question repeats until all have been asked, and two days in
+ * a row never share a topic. A question the data can't support today (fewer than 12 companies with the
+ * number, or a tie at No. 10) is skipped for the next one.
  */
 function top10(base: Base, date: string, companies: Company[], rng: Rng): Top10Puzzle | null {
-  const metrics: Top10Metric[] = ["lastValuationUsd", "totalRaisedUsd"];
-  const first = puzzleNumber(date) % 2;
-  for (const metric of [metrics[first], metrics[1 - first]]) {
-    const has = companies.filter((c) => c[metric] != null && c[metric]! > 0);
-    const ranked = (cs: Company[]) => [...cs].sort((a, b) => b[metric]! - a[metric]!);
-    const ok = (cs: Company[]) => {
-      const r = ranked(cs);
-      return r.length >= 12 && r[9][metric]! > r[10][metric]!;
-    };
-    type Field = { scope: string; adjective?: string; cs: Company[] };
-    const countries: Field[] = unique(has.map((c) => c.country)).map((code) => ({ scope: `from ${countryName(code)}`, cs: has.filter((c) => c.country === code) }));
-    const sectors: Field[] = unique(has.flatMap((c) => c.sectors)).map((sec) => ({ scope: "", adjective: sectorAdjective(sec), cs: has.filter((c) => c.sectors.includes(sec)) }));
-    const cities: Field[] = unique(has.map((c) => c.city).filter(Boolean)).map((city) => ({ scope: `in ${city}`, cs: has.filter((c) => c.city === city) }));
-    // Easy: the widest, best-known fields; Medium adds other countries and the biggest sectors;
-    // Hard adds smaller sectors and cities.
-    const bySize = (fs: Field[]) => fs.filter((f) => ok(f.cs)).sort((a, b) => b.cs.length - a.cs.length);
-    const bigCountries = bySize(countries).slice(0, 3);
-    const bigSectors = bySize(sectors).slice(0, 3);
-    const easy: Field[] = [
-      { scope: "in Europe", cs: has },
-      { scope: "in Europe founded since 2015", cs: has.filter((c) => c.founded >= 2015) },
-      ...bigCountries,
-    ].filter((f) => ok(f.cs));
-    const medium = [...bySize(countries).slice(3), ...bigSectors];
-    const hard = [...bySize(sectors).slice(3), ...bySize(cities)];
-    // Each level adds harder fields to the easier ones, like the company tiers.
-    const fields: Record<Difficulty, Field[]> = { easy, medium: [...easy, ...medium], hard: [...easy, ...medium, ...hard] };
-    if (!ok(has)) continue;
-
-    const variants: Partial<Record<Difficulty, Top10Round>> = {};
-    for (const level of DIFFICULTIES) {
-      const pool = fields[level].length ? fields[level] : fields.medium.length ? fields.medium : fields.easy;
-      const f = pick(pool, rng);
-      const top = ranked(f.cs).slice(0, 10);
-      const who = f.adjective ? `${f.adjective} startups` : "startups";
-      const title =
-        metric === "lastValuationUsd" ? `The 10 most valuable ${who}${f.scope ? ` ${f.scope}` : ""}` : `The 10 ${who}${f.scope ? ` ${f.scope}` : ""} that raised the most`;
-      const k = 3 + Math.floor(rng() * 4); // a middle rank, 4 to 7
-      variants[level] = {
-        title,
-        metric,
-        companyIds: top.map((c) => c.id),
-        hints: [
-          { text: `No. 1 starts with ${top[0].name[0].toUpperCase()}`, cost: 1 },
-          { text: `No. ${k + 1} is based in ${top[k].city}`, cost: 1 },
-          { text: `No. 10 ${metric === "lastValuationUsd" ? "was last valued at" : "has raised"} ${formatUsdAsEur(top[9][metric]!)}`, cost: 1 },
-        ],
-      };
+  const day = puzzleNumber(date) - 1;
+  const variants: Partial<Record<Difficulty, Top10Round>> = {};
+  for (const level of DIFFICULTIES) {
+    const pool = TOP10_QUESTIONS.filter((q) => LEVEL_RANK[q.level] <= LEVEL_RANK[level]);
+    const order = questionOrder(pool, level, Math.floor(day / pool.length));
+    for (let i = 0; i < order.length; i++) {
+      const round = top10Round(order[(day + i) % order.length], companies, rng);
+      if (round) {
+        variants[level] = round;
+        break;
+      }
     }
-    const main = variants.medium ?? variants.easy!;
-    return { ...base, mode: "top-10", ...main, variants };
   }
-  return null;
+  const main = mainOf(variants);
+  return main ? { ...base, mode: "top-10", ...main, variants } : null;
 }
 
-/** "AI", "SaaS" stay as they are; "Fintech" -> "fintech" mid-sentence. */
-function sectorAdjective(s: string): string {
-  const l = sectorLabel(s);
-  return /^[A-Z]{2,}|^SaaS$/.test(l) ? l : l.toLowerCase();
+/** One cycle of a level's questions: shuffled, with a question moved down when it shares its topic with the one before. */
+function questionOrder(pool: Top10Question[], level: Difficulty, cycle: number): Top10Question[] {
+  const rest = shuffle(pool, seeded(`top-10:${level}:${cycle}`));
+  const order: Top10Question[] = [];
+  while (rest.length) {
+    const i = Math.max(0, rest.findIndex((q) => q.tag !== order.at(-1)?.tag));
+    order.push(...rest.splice(i, 1));
+  }
+  return order;
+}
+
+/** The list for a question, or null if the data can't make a fair one today. */
+function top10Round(q: Top10Question, companies: Company[], rng: Rng): Top10Round | null {
+  const metric = q.metric;
+  const ranked = companies.filter((c) => q.filter(c) && c[metric] != null && c[metric]! > 0).sort((a, b) => b[metric]! - a[metric]!);
+  if (ranked.length < 12 || ranked[9][metric]! <= ranked[10][metric]!) return null;
+  const top = ranked.slice(0, 10);
+  const k = 3 + Math.floor(rng() * 4); // a middle rank, 4 to 7
+  return {
+    title: q.title,
+    metric,
+    companyIds: top.map((c) => c.id),
+    hints: [
+      { text: `No. 1 starts with ${top[0].name[0].toUpperCase()}`, cost: 1 },
+      { text: `No. ${k + 1} is based in ${top[k].city}`, cost: 1 },
+      { text: `No. 10 ${metric === "lastValuationUsd" ? "was last valued at" : "has raised"} ${formatUsdAsEur(top[9][metric]!)}`, cost: 1 },
+    ],
+  };
 }
 
 type Base = { date: string; number: number; hints: Hint[] };
