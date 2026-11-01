@@ -1,4 +1,5 @@
 import type { Metadata, Viewport } from "next";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
@@ -35,6 +36,8 @@ export default function RootLayout({
             never right under a short page such as a game that's still loading. */}
         <div className="min-h-[calc(100dvh-3.5rem)] flex-1">{children}</div>
         <SiteFooter />
+        {/* Cookieless visitor counts (Vercel Web Analytics); see the privacy policy. */}
+        <Analytics />
       </body>
     </html>
   );
