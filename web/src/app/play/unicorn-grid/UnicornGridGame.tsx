@@ -19,7 +19,6 @@ import { GameHeader } from "@/components/GameHeader";
 import { Announce, GameSkeleton, NoPuzzle } from "@/components/Announce";
 import { Hints } from "@/components/Hints";
 import { ResultArea } from "@/components/ResultArea";
-import { Leaderboard } from "@/components/Leaderboard";
 import { StatsPanel } from "@/components/StatsPanel";
 import { recordFinish, recordStart } from "@/lib/stats";
 
@@ -356,8 +355,7 @@ export function UnicornGridGame() {
             detail={`${filled} of 9 squares${hintsUsed ? ` · ${hintsUsed} ${hintsUsed === 1 ? "hint" : "hints"}` : ""}`}
             share={shareText(puzzle, progress, companies)}
             stats={
-              <>
-                <StatsPanel
+              <StatsPanel
                 mode={MODE}
                 bucket={filled}
                 scorePct={maxScore ? (score / maxScore) * 100 : 0}
@@ -365,8 +363,6 @@ export function UnicornGridGame() {
                 label={(b) => String(b)}
                 axis="Squares filled"
               />
-                <Leaderboard mode={MODE} difficulty={progress.difficulty} scorePct={maxScore ? (score / maxScore) * 100 : 0} hintsUsed={hintsUsed} />
-              </>
             }
           />
           <BuiltInEuropeCard company={featured} founders={featuredFounders} reason={featuredReason} />

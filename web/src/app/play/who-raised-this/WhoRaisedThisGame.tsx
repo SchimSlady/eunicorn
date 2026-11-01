@@ -13,7 +13,6 @@ import { GameHeader } from "@/components/GameHeader";
 import { Announce, GameSkeleton, NoPuzzle } from "@/components/Announce";
 import { Hints, hintState } from "@/components/Hints";
 import { ResultArea } from "@/components/ResultArea";
-import { Leaderboard } from "@/components/Leaderboard";
 import { StatsPanel } from "@/components/StatsPanel";
 import { recordFinish, recordStart } from "@/lib/stats";
 import { DealBoard } from "./DealBoard";
@@ -172,8 +171,7 @@ export function WhoRaisedThisGame() {
             }
             share={shareText(play, progress)}
             stats={
-              <>
-                <StatsPanel
+              <StatsPanel
                 mode={MODE}
                 bucket={won ? progress.guesses.length : 0}
                 scorePct={(score / MAX_SCORE) * 100}
@@ -181,8 +179,6 @@ export function WhoRaisedThisGame() {
                 label={(b) => (b === 0 ? "X" : String(b))}
                 axis="Guesses needed"
               />
-                <Leaderboard mode={MODE} difficulty={progress.difficulty} scorePct={(score / MAX_SCORE) * 100} hintsUsed={progress.hintsUsed} />
-              </>
             }
           />
           <BuiltInEuropeCard company={answer} founders={founders} reason="Today's answer" />
