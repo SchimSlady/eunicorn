@@ -18,7 +18,7 @@ export const MODES: ModeInfo[] = [
     rules: [
       "Name the ten companies in the list: type a startup, and if it's in the top 10 it lands on its rank. Every empty slot shows the flag of its country.",
       "Every company you find counts. A name that isn't in the list costs you points, and so do hints. Guess as often as you like.",
-      "The list comes from our verified database, by last valuation or total raised. Easy lists are Europe and the big hubs (UK, Germany, France, Sweden), Medium adds Paris, more sectors and acquired or listed startups, Hard adds smaller cities and countries.",
+      "The list comes from our verified database, by last valuation, total raised or founding year. Easy lists are Europe and the big hubs (UK, Germany, France, Sweden), Medium adds Paris, more sectors and acquired or listed startups, Hard adds smaller cities and countries.",
       "Easy, Medium and Hard play the same. The level sets how familiar the list is, and how many hints you get: all on Easy, half on Medium, none on Hard.",
     ],
   },
@@ -50,9 +50,9 @@ export const MODES: ModeInfo[] = [
     title: "Higher or Lower",
     description: "See one company's number, then say if the next one is higher or lower. One wrong call ends the run.",
     rules: [
-      "You see one company's valuation or total raised. Is the next company's number higher or lower?",
+      "You see one company's valuation, total raised or founding year. Is the next company's number higher or lower?",
       "Each right call scores. One wrong call ends the run, after at most 15 rounds.",
-      "Neighbouring numbers are never close calls: at least 30% apart.",
+      "Neighbouring numbers are never close calls: money figures at least 30% apart, founding years never the same.",
       "Easy, Medium and Hard play the same. The level sets how well known the startups are, and how many hints you get: all on Easy, half on Medium, none on Hard.",
     ],
   },

@@ -10,6 +10,7 @@ import { PreviewFrame, WhoRaisedThisPreview } from "./ModePreview";
  * founders) can actually support.
  */
 const UPCOMING = [
+  { id: "guess-the-vc", title: "Guess the VC", Preview: GuessTheVcPreview },
   { id: "connections", title: "Connections", Preview: ConnectionsPreview },
   { id: "who-raised-this", title: "Who Raised This?", Preview: WhoRaisedThisPreview },
   { id: "pin-the-hq", title: "Pin the HQ", Preview: PinTheHqPreview },
@@ -18,7 +19,7 @@ const UPCOMING = [
 
 export function UpcomingCards() {
   return (
-    <ul className="grid grid-cols-2 gap-4 lg:grid-cols-4">
+    <ul className="grid grid-cols-2 gap-3 lg:grid-cols-5">
       {UPCOMING.map(({ id, title, Preview }) => (
         <li key={id} className="h-full overflow-hidden rounded-2xl border border-border bg-surface">
           <div className="relative">
@@ -51,6 +52,25 @@ function Logo({ file, size = 28 }: { file: string; size?: number }) {
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img src={`/logos/${file}`} alt="" className="h-full w-full object-contain" />
     </span>
+  );
+}
+
+function GuessTheVcPreview() {
+  // A real portfolio from the verified dataset (all four backed by Accel); the investor stays hidden.
+  // The game will draw from tier 1-2 investors that back at least four companies with logos.
+  const portfolio = ["spotify.svg", "celonis.png", "personio.svg", "doctolib.svg"];
+  return (
+    <div className="flex w-full max-w-[220px] flex-col items-center gap-2">
+      <p className="text-[10px] font-semibold uppercase tracking-wide text-eu-yellow">Who backed all four?</p>
+      <div className="grid grid-cols-4 gap-1.5">
+        {portfolio.map((f) => (
+          <Logo key={f} file={f} size={36} />
+        ))}
+      </div>
+      <span className="flex h-9 w-28 items-center justify-center rounded-full border-2 border-dashed border-white/40 font-display text-lg font-bold text-white/80">
+        ?
+      </span>
+    </div>
   );
 }
 
