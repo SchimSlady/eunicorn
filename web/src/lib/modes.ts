@@ -54,10 +54,10 @@ export const MODES: ModeInfo[] = [
     mode: "higher-lower",
     title: "Higher or Lower",
     tagline: "Higher or lower than the last?",
-    description: "See one company's number, then say if the next one is higher or lower. You play the whole chain.",
+    description: "See one company's number, then say if the next one is higher or lower. One wrong call ends the run.",
     rules: [
       "You see one company's valuation or total raised. Is the next company's number higher or lower?",
-      "Each right call adds the same share of €1bn.",
+      "Each right call adds funding, up to €1bn after 15 right calls in a row. One wrong call ends the run.",
       "Neighbouring numbers are never close calls: at least 30% apart.",
       "Easy, Medium and Hard play the same. The level sets how well known the startups are, and how many hints you get: all on Easy, half on Medium, none on Hard.",
     ],

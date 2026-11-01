@@ -216,13 +216,25 @@ function unicornGrid(
 ): (UnicornGridPuzzle & { variants: UnicornGridVariants }) | null {
   const criteria = gridCriteria(data, companies);
   const members = new Map(criteria.map((k) => [k, new Set(companies.filter(k.test).map((c) => c.id))]));
+  // The companies two criteria share, worked out once however often a search comes back to the pair.
+  const meetings = new Map<Criterion, Map<Criterion, string[]>>();
+  const meet = (a: Criterion, b: Criterion): string[] => {
+    let row = meetings.get(a);
+    if (!row) meetings.set(a, (row = new Map()));
+    let shared = row.get(b);
+    if (!shared) {
+      const [small, big] = members.get(a)!.size <= members.get(b)!.size ? [members.get(a)!, members.get(b)!] : [members.get(b)!, members.get(a)!];
+      row.set(b, (shared = [...small].filter((id) => big.has(id))));
+    }
+    return shared;
+  };
   const byId = new Map(companies.map((c) => [c.id, c]));
 
   const variants: UnicornGridVariants = {};
   for (const level of DIFFICULTIES) {
     // Investor squares by level: Easy only the best-known investors, Hard also the obscure ones.
     const allowed = criteria.filter((k) => k.group !== "investor" || (k.tier ?? 3) <= INVESTOR_TIER_MAX[level]);
-    const built = forLevel(level, companies, (pool, tier) => gridFor(allowed, members, byId, new Set(pool.map((c) => c.id)), tier, rng));
+    const built = forLevel(level, companies, (pool, tier) => gridFor(allowed, meet, byId, new Set(pool.map((c) => c.id)), tier, rng));
     if (built) variants[level] = built;
   }
   const main = mainOf(variants);
@@ -236,7 +248,7 @@ function unicornGrid(
  */
 function gridFor(
   criteria: Criterion[],
-  members: Map<Criterion, Set<string>>,
+  meet: (a: Criterion, b: Criterion) => string[],
   byId: Map<string, Company>,
   known: Set<string>,
   tier: Tier,
@@ -250,19 +262,27 @@ function gridFor(
     side.filter((p) => p.group === "investor").length <= 1 &&
     side.filter((p) => p.c.kind === "city").length <= 1;
 
+  // Rows come from one group, columns from the others; the pools are made once, not per attempt.
+  const places = criteria.filter((p) => p.group === "place");
+  const sectors = criteria.filter((p) => p.group === "sector");
+  const pools = {
+    place: { rows: places, cols: criteria.filter((p) => p.group !== "place") },
+    sector: { rows: sectors, cols: criteria.filter((p) => p.group !== "sector") },
+  };
+
   // Valid grids are rare: search a lot, but stop once there are enough candidates to pick the best of.
   let found = 0;
-  for (let attempt = 0; attempt < 40000 && found < 25; attempt++) {
-    const rowGroup = pick(["place", "place", "sector"] as const, rng);
-    const rows = pickN(criteria.filter((p) => p.group === rowGroup), 3, rng);
-    const cols = pickN(criteria.filter((p) => p.group !== rowGroup), 3, rng);
-    if (rows.length < 3 || cols.length < 3 || !sideOk(rows) || !sideOk(cols)) continue;
+  for (let attempt = 0; attempt < 40000 && found < 15; attempt++) {
+    const pool = pools[pick(["place", "place", "sector"] as const, rng)];
+    const rows = pick3(pool.rows, rng);
+    const cols = pick3(pool.cols, rng);
+    if (!rows || !cols || !sideOk(rows) || !sideOk(cols)) continue;
 
     const cells: string[][] = [];
     const solvable: string[][] = [];
     for (const r of rows) {
       for (const col of cols) {
-        const there = [...members.get(r)!].filter((id) => members.get(col)!.has(id));
+        const there = meet(r, col);
         const inTier = there.filter((id) => known.has(id));
         if (!inTier.length) break;
         cells.push(there);
@@ -350,7 +370,8 @@ function gridCriteria(data: Dataset, companies: Company[]): Criterion[] {
 const HL_MIN_GAP = 1.3;
 
 /** A Higher or Lower chain whose every step is a clear gap; null if the data can't make one. */
-function hlChain(cs: Company[], metric: HigherLowerMetric, rng: Rng, length = 7): Company[] | null {
+/** At most 15 rounds (16 companies); a thinner tier gets a shorter chain. */
+function hlChain(cs: Company[], metric: HigherLowerMetric, rng: Rng, length = 16): Company[] | null {
   const v = (c: Company) => c[metric]!;
   const fits = (a: Company, b: Company) => Math.max(v(a), v(b)) / Math.min(v(a), v(b)) >= HL_MIN_GAP;
   let best: Company[] = [];
@@ -588,6 +609,17 @@ function shuffle<T>(xs: readonly T[], rng: Rng): T[] {
     [out[i], out[j]] = [out[j], out[i]];
   }
   return out;
+}
+
+/** Three different items without shuffling the whole list (hot loop). */
+function pick3<T>(xs: readonly T[], rng: Rng): T[] | null {
+  if (xs.length < 3) return null;
+  const a = Math.floor(rng() * xs.length);
+  let b = Math.floor(rng() * xs.length);
+  while (b === a) b = Math.floor(rng() * xs.length);
+  let c = Math.floor(rng() * xs.length);
+  while (c === a || c === b) c = Math.floor(rng() * xs.length);
+  return [xs[a], xs[b], xs[c]];
 }
 
 function pickN<T>(xs: readonly T[], n: number, rng: Rng): T[] {

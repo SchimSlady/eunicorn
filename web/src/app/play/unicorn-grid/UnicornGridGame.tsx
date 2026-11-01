@@ -204,18 +204,17 @@ export function UnicornGridGame() {
       <Announce text={miss ? `${miss.name} doesn't fit that square.` : `${used.size} of 9 squares filled.`} />
 
       <div className="grid grid-cols-4 gap-1.5">
-        <div className="flex flex-col items-center justify-center rounded-2xl bg-eu-blue p-1 text-center text-white">
-          <span className="font-display text-xl font-bold leading-none">{filled}</span>
-          <span className="text-xs text-white/80">of 9</span>
+        <div className="flex flex-col items-center justify-center text-center text-muted">
+          <span className="font-display text-xl font-bold leading-none text-foreground">{filled}/9</span>
         </div>
         {puzzle.cols.map((c, i) => (
-          <div key={i} className="flex aspect-square items-center justify-center rounded-2xl bg-eu-blue/10 p-1">
+          <div key={i} className="flex aspect-square items-center justify-center rounded-2xl bg-eu-blue p-1 text-white">
             <CriterionLabel c={c} />
           </div>
         ))}
         {puzzle.rows.map((r, ri) => (
           <div key={ri} className="contents">
-            <div className="flex aspect-square items-center justify-center rounded-2xl bg-eu-blue/10 p-1">
+            <div className="flex aspect-square items-center justify-center rounded-2xl bg-eu-blue p-1 text-white">
               <CriterionLabel c={r} />
             </div>
             {[0, 1, 2].map((ci) => {

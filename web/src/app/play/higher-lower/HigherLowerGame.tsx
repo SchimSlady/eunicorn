@@ -78,7 +78,7 @@ function playRounds(p: HigherLowerPuzzle, answers: string[], companies: Map<stri
     const answer = answers[i - 1];
     const correct = (answer === "higher" && b >= a) || (answer === "lower" && b <= a);
     rounds.push({ previous, next, answer, correct, truth: b >= a ? "higher" : "lower" });
-    if (answer === undefined) break; // not answered yet
+    if (answer === undefined || !correct) break; // unanswered, or the wrong answer that ended it
   }
   return rounds;
 }
@@ -93,7 +93,8 @@ function evaluate(p: HigherLowerPuzzle, progress: Progress, companies: Map<strin
     totalRounds,
     correct,
     maxScore: totalRounds * POINTS_PER_ROUND,
-    done: progress.answers.length >= totalRounds,
+    // Sudden death: the first wrong answer ends the game.
+    done: progress.answers.length >= totalRounds || rounds.some((r) => r.answer !== undefined && !r.correct),
     score: Math.max(0, correct * POINTS_PER_ROUND - hintCost),
   };
 }
@@ -173,10 +174,10 @@ export function HigherLowerGame() {
   const roundIndex = progress.answers.length;
 
   if (done && !reviewing) {
-    // The first company you got wrong; with every call right, the last one in the chain.
+    // The company that ended the run; with every call right, the last one in the chain.
     const missed = rounds.find((r) => r.answer !== undefined && !r.correct);
     const featured = companies.get(missed ? missed.next : play.companyIds.at(-1)!)!;
-    const reason = missed ? "The first one you missed" : "The last one in the chain";
+    const reason = missed ? "The one that ended your run" : "The last one in the chain";
     const founders = featured.founderIds
       .map((id) => data.people.find((p) => p.id === id)?.name)
       .filter((n): n is string => !!n);
