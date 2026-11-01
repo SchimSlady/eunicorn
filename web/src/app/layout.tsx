@@ -29,9 +29,10 @@ export default function RootLayout({
         <link rel="preload" href="/fonts/inter-latin-wght-normal.woff2" as="font" type="font/woff2" crossOrigin="" />
         <link rel="preload" href="/fonts/space-grotesk-latin-wght-normal.woff2" as="font" type="font/woff2" crossOrigin="" />
       </head>
-      <body className="antialiased">
+      <body className="flex min-h-dvh flex-col antialiased">
         <SiteHeader />
-        {children}
+        {/* Takes the free height, so the footer stays at the bottom even on short pages (e.g. while a game loads). */}
+        <div className="flex-1">{children}</div>
         <SiteFooter />
       </body>
     </html>

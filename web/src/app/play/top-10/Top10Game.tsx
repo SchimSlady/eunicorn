@@ -14,7 +14,7 @@ import { CompanySearch } from "@/components/CompanySearch";
 import { BuiltInEuropeCard } from "@/components/BuiltInEuropeCard";
 import { GameIntro } from "@/components/GameIntro";
 import { GameHeader } from "@/components/GameHeader";
-import { Announce, NoPuzzle } from "@/components/Announce";
+import { Announce, GameSkeleton, NoPuzzle } from "@/components/Announce";
 import { HintButton, HintList } from "@/components/HintButton";
 import { ResultArea } from "@/components/ResultArea";
 import { RevealButton } from "@/components/RevealButton";
@@ -84,7 +84,7 @@ export function Top10Game() {
 
   const companies = useMemo(() => (data ? indexById(data.companies) : new Map<string, Company>()), [data]);
 
-  if (puzzle === undefined || !data) return <p className="text-muted">Loading…</p>;
+  if (puzzle === undefined || !data) return <GameSkeleton />;
   if (puzzle === null) return <NoPuzzle />;
 
   if (!progress) {

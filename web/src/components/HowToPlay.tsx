@@ -5,7 +5,7 @@ import type { PlayMode } from "@/lib/top10";
 import { useRef, useState } from "react";
 import { CircleHelp } from "lucide-react";
 
-import { COMMON_RULES, MODE_INFO } from "@/lib/modes";
+import { MODE_INFO } from "@/lib/modes";
 import { Sheet } from "./Sheet";
 
 /** The ? in the game header: the rules of this mode, in the same sheet as the results. */
@@ -43,11 +43,6 @@ export function HowToPlay({ mode }: { mode: PlayMode }) {
               </li>
             ))}
           </ol>
-          <ul className="space-y-1 border-t border-border pt-4 text-sm text-muted">
-            {COMMON_RULES.map((r) => (
-              <li key={r}>{r}</li>
-            ))}
-          </ul>
           <button
             type="button"
             onClick={() => {

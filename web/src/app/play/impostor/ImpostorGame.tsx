@@ -12,7 +12,7 @@ import { BuiltInEuropeCard } from "@/components/BuiltInEuropeCard";
 import { GameIntro } from "@/components/GameIntro";
 import { Flag } from "@/components/Flag";
 import { GameHeader } from "@/components/GameHeader";
-import { Announce, NoPuzzle } from "@/components/Announce";
+import { Announce, GameSkeleton, NoPuzzle } from "@/components/Announce";
 import { HintButton, HintList } from "@/components/HintButton";
 import { ResultArea } from "@/components/ResultArea";
 import { StatsPanel } from "@/components/StatsPanel";
@@ -86,7 +86,7 @@ export function ImpostorGame() {
 
   const companies = useMemo(() => (data ? indexById(data.companies) : new Map<string, Company>()), [data]);
 
-  if (puzzle === undefined || !data) return <p className="text-muted">Loading…</p>;
+  if (puzzle === undefined || !data) return <GameSkeleton />;
   if (puzzle === null) return <NoPuzzle />;
 
   // No progress yet: choose the level first. The game is set up from that choice.
