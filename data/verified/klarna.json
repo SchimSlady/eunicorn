@@ -25,17 +25,17 @@
     {
       "field": "city",
       "url": "https://en.wikipedia.org/wiki/Klarna",
-      "quote": "Founded in 2005 in Stockholm, Sweden."
+      "quote": "Founded in 2005 in Stockholm , Sweden"
     },
     {
       "field": "founded",
       "url": "https://en.wikipedia.org/wiki/Klarna",
-      "quote": "Klarna was founded in 2005 by Sebastian Siemiatkowski, Niklas Adalberth and Victor Jacobsson"
+      "quote": "Klarna was founded in 2005 by Sebastian Siemiatkowski , Niklas Adalberth and Victor Jacobsson"
     },
     {
       "field": "founders",
       "url": "https://en.wikipedia.org/wiki/Klarna",
-      "quote": "Klarna was founded in 2005 by Sebastian Siemiatkowski, Niklas Adalberth and Victor Jacobsson"
+      "quote": "Klarna was founded in 2005 by Sebastian Siemiatkowski , Niklas Adalberth and Victor Jacobsson"
     },
     {
       "field": "status",
@@ -50,16 +50,17 @@
     {
       "field": "valuation",
       "url": "https://www.thestar.com.my/tech/tech-news/2025/09/10/klarna-prices-us-ipo-at-40-per-share-valuing-it-at-151-billion-source-says",
-      "quote": "Klarna and some of its shareholders priced its U.S. IPO at $40 per share, valuing the company at $15.1 billion."
+      "quote": "Klarna and some of its shareholders priced its U.S. IPO at $40 per share, valuing the company at $15.1 billion"
     },
     {
       "field": "fun_fact",
       "url": "https://en.wikipedia.org/wiki/Klarna",
-      "quote": "offering the founders SEK 600,000 for 10% of the company."
+      "quote": "offering the founders SEK 600,000 for 10% of the company"
     },
     {
       "field": "logo",
-      "url": "https://commons.wikimedia.org/wiki/File:Klarna_Logo_black.svg"
+      "url": "https://commons.wikimedia.org/wiki/File:Klarna_Logo_black.svg",
+      "quote": "Logo of Klarna"
     }
   ],
   "rounds": [
@@ -116,7 +117,7 @@
         {
           "field": "investors",
           "url": "https://techcrunch.com/2011/12/08/klarna-155-millio",
-          "quote": "General Atlantic and Yuri Milner's DST Global led the round."
+          "quote": "The round was led by General Atlantic and Yuri Milner's DST Global"
         }
       ]
     },
@@ -200,12 +201,12 @@
         {
           "field": "amount",
           "url": "https://prnewswire.com/news-releases/klarna-announces-460m-equity-raise-to-further-support-massive-us-growth-300897163.html",
-          "quote": "is pleased to announce it has raised $460 million in an equity funding round, at a post money valuation of $5.5 billion."
+          "quote": "is pleased to announce it has raised $460 million in an equity funding round, at a post money valuation of $5.5 billion"
         },
         {
           "field": "month",
           "url": "https://prnewswire.com/news-releases/klarna-announces-460m-equity-raise-to-further-support-massive-us-growth-300897163.html",
-          "quote": "NEW YORK, Aug. 6, 2019 /PRNewswire/"
+          "quote": "Aug 06, 2019"
         },
         {
           "field": "investors",
@@ -215,7 +216,7 @@
         {
           "field": "valuation",
           "url": "https://prnewswire.com/news-releases/klarna-announces-460m-equity-raise-to-further-support-massive-us-growth-300897163.html",
-          "quote": "is pleased to announce it has raised $460 million in an equity funding round, at a post money valuation of $5.5 billion."
+          "quote": "is pleased to announce it has raised $460 million in an equity funding round, at a post money valuation of $5.5 billion"
         }
       ]
     },
@@ -311,7 +312,7 @@
         {
           "field": "investors",
           "url": "https://techcrunch.com/2021/06/10/fintech-giant-klarna-raises-639m-at-a-45-6b-valuation/",
-          "quote": "SoftBank's Vision Fund 2 led the round."
+          "quote": "SoftBank's Vision Fund 2 led the latest round, which also included participation from existing investors Adit Ventures, Honeycomb Asset Management and WestCap Group"
         },
         {
           "field": "valuation",
@@ -339,13 +340,13 @@
       "sources": [
         {
           "field": "amount",
-          "url": "https://www.theblock.co/amp/post/156900/klarna-valuation-cut-to-6-7-billion-in-800-million-fundraise",
-          "quote": "Klarna, the Swedish fintech company, has raised $800 million in common equity at a $6.7 billion post-money valuation"
+          "url": "https://www.verdict.co.uk/klarna-800m-growth-us/",
+          "quote": "Swedish fintech firm Klarna has secured $800m in a new funding round at a valuation of $6.7bn"
         },
         {
           "field": "month",
-          "url": "https://www.theblock.co/amp/post/156900/klarna-valuation-cut-to-6-7-billion-in-800-million-fundraise",
-          "quote": "July 11, 2022, 10:51AM EDT"
+          "url": "https://www.verdict.co.uk/klarna-800m-growth-us/",
+          "quote": "July 12, 2022"
         },
         {
           "field": "investors",
@@ -359,8 +360,8 @@
         },
         {
           "field": "valuation",
-          "url": "https://www.theblock.co/amp/post/156900/klarna-valuation-cut-to-6-7-billion-in-800-million-fundraise",
-          "quote": "has raised $800 million in common equity at a $6.7 billion post-money valuation"
+          "url": "https://www.verdict.co.uk/klarna-800m-growth-us/",
+          "quote": "Swedish fintech firm Klarna has secured $800m in a new funding round at a valuation of $6.7bn"
         }
       ]
     }

@@ -10,7 +10,7 @@
     "consumer"
   ],
   "status": "private",
-  "unicorn": false,
+  "unicorn": true,
   "founders": [
     "Fanny Moizant",
     "Sophie Hersan",
@@ -41,6 +41,16 @@
       "field": "sectors",
       "url": "https://en.wikipedia.org/wiki/Vestiaire_Collective",
       "quote": "Vestiaire Collective is a global platform for buying and selling pre-owned luxury and designer fashion."
+    },
+    {
+      "field": "unicorn",
+      "url": "https://www.theindustry.fashion/vestiaire-collective-now-valued-at-1-7bn-following-latest-investment/",
+      "quote": "Vestiaire Collective, the luxury fashion resale platform, is now valued at $1.7bn (£1.25bn) following a fresh fundraise which led to a $209m (£153m) investment headed by SoftBank Vision Fund 2"
+    },
+    {
+      "field": "valuation",
+      "url": "https://www.theindustry.fashion/vestiaire-collective-now-valued-at-1-7bn-following-latest-investment/",
+      "quote": "Vestiaire Collective, the luxury fashion resale platform, is now valued at $1.7bn (£1.25bn) following a fresh fundraise which led to a $209m (£153m) investment headed by SoftBank Vision Fund 2"
     }
   ],
   "rounds": [
@@ -72,6 +82,36 @@
           "quote": "Vestiaire Collective lève €178 mlns auprès de Kering et du fonds Tiger"
         }
       ]
+    },
+    {
+      "stage": "series-f+",
+      "month": "2021-09",
+      "amountEur": 178190809,
+      "amountOriginal": 209000000,
+      "currency": "USD",
+      "postMoneyValuationEur": 1449398926,
+      "investors": [
+        "SoftBank Vision Fund 2",
+        "Generation Investment Management"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.theindustry.fashion/vestiaire-collective-now-valued-at-1-7bn-following-latest-investment/",
+          "quote": "Vestiaire Collective, the luxury fashion resale platform, is now valued at $1.7bn (£1.25bn) following a fresh fundraise which led to a $209m (£153m) investment headed by SoftBank Vision Fund 2"
+        },
+        {
+          "field": "month",
+          "url": "https://www.theindustry.fashion/vestiaire-collective-now-valued-at-1-7bn-following-latest-investment/",
+          "quote": "22 September 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.theindustry.fashion/vestiaire-collective-now-valued-at-1-7bn-following-latest-investment/",
+          "quote": "We are honoured and delighted that SoftBank Vision Fund 2 and Generation Investment Management have decided to partner with Vestiaire Collective."
+        }
+      ]
     }
-  ]
+  ],
+  "lastValuationEur": 1449398926
 }

@@ -20,7 +20,7 @@
     "Vianney Vaute",
     "Quentin Le Brouster"
   ],
-  "funFact": "Its January 2022 raise made the refurbished-electronics marketplace the most highly valued startup in France at the time.",
+  "funFact": "A $510 million Series E in January 2022 valued the refurbished-electronics marketplace at $5.7 billion.",
   "difficulty": 3,
   "techeuId": "28795230-94FC-4A45-BF7F-EDF87C373230",
   "wikidataId": "Q56316472",
@@ -33,12 +33,12 @@
     {
       "field": "founded",
       "url": "https://www.frenchweb.fr/back-market-leve-7-millions-deuros-pour-reconditionner-les-produits-electroniques-dans-toute-leurope/290977",
-      "quote": "Lancée en 2014 par Thibaud Hug de Larauze, Vianney Vaute et Quentin Le Brouster"
+      "quote": "en 2014 par Thibaud Hug de Larauze, Vianney Vaute et Quentin Le Brouster"
     },
     {
       "field": "founders",
       "url": "https://www.lemondeinformatique.fr/actualites/lire-back-market-leve-450-meteuro-et-devient-licorne-francaise-85406.html",
-      "quote": "Fondé en 2014 par Thibaud Hug de Larauze, Vianney Vaute et Quentin Le Brouster"
+      "quote": "par Thibaud Hug de Larauze, Vianney Vaute et Quentin Le Brouster, Back Market est connu"
     },
     {
       "field": "status",
@@ -57,12 +57,13 @@
     },
     {
       "field": "fun_fact",
-      "url": "https://www.lemondeinformatique.fr/actualites/lire-back-market-leve-450-meteuro-et-devient-licorne-francaise-85406.html",
-      "quote": "la mieux valorisée avec 5,1 milliards d’euros"
+      "url": "https://techcrunch.com/2022/01/11/back-market-reaches-5-7b-valuation-for-its-refurbished-device-marketplace/",
+      "quote": "Today, the company is announcing a $510 million Series E round, which values the company at $5.7 billion."
     },
     {
       "field": "logo",
-      "url": "https://commons.wikimedia.org/wiki/File:Back_Market_Logo_Tangaroa.png"
+      "url": "https://commons.wikimedia.org/wiki/File:Back_Market_Logo_Tangaroa.png",
+      "quote": "File:Back Market Logo Tangaroa.png - Wikimedia Commons"
     }
   ],
   "rounds": [
@@ -81,22 +82,27 @@
         {
           "field": "amount",
           "url": "https://www.frenchweb.fr/back-market-leve-7-millions-deuros-pour-reconditionner-les-produits-electroniques-dans-toute-leurope/290977",
-          "quote": "a bouclé un tour de table de 7 millions d’euros"
+          "quote": "un tour de table de 7 millions d’euros"
         },
         {
           "field": "month",
           "url": "https://globalventuring.com/blog/2018/06/14/back-market-opens-series-b-stall/",
-          "quote": "Aglaé Ventures and Daphni previously took part in a €7m ($7.6m) series A round in May 2017."
+          "quote": "($7.6m) series A round in May 2017."
         },
         {
           "field": "stage",
           "url": "https://globalventuring.com/blog/2018/06/14/back-market-opens-series-b-stall/",
-          "quote": "Aglaé Ventures and Daphni previously took part in a €7m ($7.6m) series A round in May 2017."
+          "quote": "($7.6m) series A round in May 2017."
         },
         {
           "field": "investors",
           "url": "https://www.frenchweb.fr/back-market-leve-7-millions-deuros-pour-reconditionner-les-produits-electroniques-dans-toute-leurope/290977",
-          "quote": "Daphni, le fonds de Marie Ekeland, Aglaé Ventures et des business angels"
+          "quote": "Daphni, le fonds de Marie Ekeland,"
+        },
+        {
+          "field": "investors",
+          "url": "https://globalventuring.com/blog/2018/06/14/back-market-opens-series-b-stall/",
+          "quote": "Ventures and Daphni previously took part in a"
         }
       ]
     },
@@ -167,8 +173,8 @@
         },
         {
           "field": "stage",
-          "url": "https://www.unquote.com/france/official-record/3019245/french-startup-back-market-raises-eur110m-series-c",
-          "quote": "has raised a €110m series-C from Goldman Sachs, Aglaé Ventures (the venture arm of Groupe Arnault) and Eurazeo Growth."
+          "url": "https://thebrandhopper.com/featured-startups/back-market-founders-business-model-revenue-streams-funding/",
+          "quote": "Series C 2020 $120M Goldman Sachs + Eurazeo Growth"
         }
       ]
     },

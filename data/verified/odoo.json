@@ -13,8 +13,7 @@
     "saas"
   ],
   "status": "private",
-  "unicorn": true,
-  "lastValuationEur": 7000000000,
+  "unicorn": false,
   "founders": [
     "Fabien Pinckaers"
   ],
@@ -26,7 +25,7 @@
     {
       "field": "city",
       "url": "https://www.lavenir.net/cnt/dmf20220215_01664497/ramillies-nouveau-titre-pour-odoo-designee-entreprise-de-l-annee",
-      "quote": "Grand-Rosière (Ramillies)"
+      "quote": "Outre son siège à Grand-Rosière, Odoo dispose aussi"
     },
     {
       "field": "founded",
@@ -46,7 +45,7 @@
     {
       "field": "founders",
       "url": "https://en.wikipedia.org/wiki/Odoo",
-      "quote": "In 2005, Fabien Pinckaers, the founder and CEO of Odoo, developed the software that later became TinyERP."
+      "quote": "In 2005, Fabien Pinckaers, the founder and CEO of Odoo,"
     },
     {
       "field": "sectors",
@@ -54,33 +53,19 @@
       "quote": "Belgian provider of integrated business software"
     },
     {
-      "field": "status",
-      "url": "https://thenextweb.com/news/odoo-tops-7-billion-valuation",
-      "quote": "a secondary transaction"
-    },
-    {
-      "field": "unicorn",
-      "url": "https://tech.eu/2024/11/21/belgian-unicorn-odoo-raises-eur500-m-reaching-a-eur5b-valuation/",
-      "quote": "Belgian unicorn"
-    },
-    {
-      "field": "valuation",
-      "url": "https://thenextweb.com/news/odoo-tops-7-billion-valuation",
-      "quote": "roughly €7 billion"
-    },
-    {
       "field": "fun_fact",
       "url": "https://en.wikipedia.org/wiki/Odoo",
-      "quote": "In 2005, Fabien Pinckaers, the founder and CEO of Odoo, developed the software that later became TinyERP."
+      "quote": "developed the software that later became TinyERP. In 2008, the software was renamed OpenERP."
     },
     {
       "field": "fun_fact",
       "url": "https://www.odoo.com/ar/page/press-release-2014",
-      "quote": "previously called OpenERP, rebranded as Odoo"
+      "quote": "OpenERP is rebranding to Odoo"
     },
     {
       "field": "logo",
-      "url": "https://commons.wikimedia.org/wiki/File:Odoo_Official_Logo.png"
+      "url": "https://commons.wikimedia.org/wiki/File:Odoo_Official_Logo.png",
+      "quote": "File:Odoo Official Logo.png - Wikimedia Commons"
     }
   ],
   "rounds": [
@@ -99,12 +84,7 @@
         {
           "field": "amount",
           "url": "https://www.odoo.com/ar/page/press-release-2014",
-          "quote": "USD 10 Millions of financing"
-        },
-        {
-          "field": "stage",
-          "url": "https://www.odoo.com/ar/page/press-release-2014",
-          "quote": "USD 10 Millions of financing"
+          "quote": "a new round of USD 10 Millions of financing"
         },
         {
           "field": "month",
@@ -115,39 +95,6 @@
           "field": "investors",
           "url": "https://www.odoo.com/ar/page/press-release-2014",
           "quote": "leading venture capital firms XAnge (France), SRIW (Belgium), Sofinnova Partners (France)"
-        }
-      ]
-    },
-    {
-      "techeuId": "CE9D2F8C-4E1B-43BB-BC13-5D633C7EAB83",
-      "stage": "series-c",
-      "month": "2023-06",
-      "amountEur": 150000000,
-      "amountOriginal": 150000000,
-      "currency": "EUR",
-      "investors": [
-        "General Atlantic"
-      ],
-      "sources": [
-        {
-          "field": "amount",
-          "url": "https://www.generalatlantic.com/media-article/odoo-sa-announces-e150m-investment-from-general-atlantic-to-support-continued-global-growth/",
-          "quote": "a strategic investment of approximately €150m"
-        },
-        {
-          "field": "stage",
-          "url": "https://www.generalatlantic.com/media-article/odoo-sa-announces-e150m-investment-from-general-atlantic-to-support-continued-global-growth/",
-          "quote": "a strategic investment of approximately €150m"
-        },
-        {
-          "field": "month",
-          "url": "https://www.generalatlantic.com/media-article/odoo-sa-announces-e150m-investment-from-general-atlantic-to-support-continued-global-growth/",
-          "quote": "June 26, 2023"
-        },
-        {
-          "field": "investors",
-          "url": "https://tech.eu/2023/06/26/belgiums-odoo-raises-eur150-million-to-support-the-global-growth-of-its-open-source-integrated-business-software-solutions",
-          "quote": "a strategic investment, from General Atlantic"
         }
       ]
     }

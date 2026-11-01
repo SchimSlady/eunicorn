@@ -23,27 +23,27 @@
     {
       "field": "city",
       "url": "https://en.wikipedia.org/wiki/Spotify",
-      "quote": "and headquartered in Stockholm, Sweden, with offices in 16 countries around the world."
+      "quote": "Headquarters Stockholm"
     },
     {
       "field": "founded",
       "url": "https://en.wikipedia.org/wiki/Spotify",
-      "quote": "Spotify was founded in April 2006 in Stockholm, Sweden, by Daniel Ek and Martin Lorentzon."
+      "quote": "founded in April 2006 by Daniel Ek and Martin Lorentzon"
     },
     {
       "field": "founders",
       "url": "https://en.wikipedia.org/wiki/Spotify",
-      "quote": "Spotify was founded in April 2006 in Stockholm, Sweden, by Daniel Ek and Martin Lorentzon."
+      "quote": "founded in April 2006 by Daniel Ek and Martin Lorentzon"
     },
     {
       "field": "status",
       "url": "https://en.wikipedia.org/wiki/Spotify",
-      "quote": "It became publicly traded on the New York Stock Exchange in April 2018 through a direct public offering."
+      "quote": "It became publicly traded on the New York Stock Exchange in April 2018 through a direct public offering"
     },
     {
       "field": "unicorn",
-      "url": "https://thenextweb.com/news/spotify-closes-100-million-from-high-profile-investors-at-1-billion-valuation",
-      "quote": "The funding round gives Europe’s favorite streaming music service a valuation of $1 billion."
+      "url": "https://techcrunch.com/?p=698341",
+      "quote": "Report: Spotify Has Closed A Massive Fifth Round Of Funding That Values It At $3 Billion"
     },
     {
       "field": "fun_fact",
@@ -52,7 +52,8 @@
     },
     {
       "field": "logo",
-      "url": "https://commons.wikimedia.org/wiki/File:2024_Spotify_Logo.svg"
+      "url": "https://commons.wikimedia.org/wiki/File:2024_Spotify_Logo.svg",
+      "quote": "File:2024 Spotify Logo.svg - Wikimedia Commons"
     }
   ],
   "rounds": [
@@ -73,12 +74,12 @@
         {
           "field": "amount",
           "url": "https://thenextweb.com/news/spotify-closes-100-million-from-high-profile-investors-at-1-billion-valuation",
-          "quote": "Spotify‘s $100 million funding round, which began in February, was just officially reported as final by AllThingsD."
+          "quote": "$100 million funding round, which began in February, was just officially reported as final by AllThingsD"
         },
         {
           "field": "month",
           "url": "https://thenextweb.com/news/spotify-closes-100-million-from-high-profile-investors-at-1-billion-valuation",
-          "quote": "Spotify‘s $100 million funding round, which began in February, was just officially reported as final by AllThingsD."
+          "quote": "June 17, 2011 - 2:06 pm Spotify"
         },
         {
           "field": "investors",
@@ -124,7 +125,7 @@
         {
           "field": "stage",
           "url": "https://techcrunch.com/?p=698341",
-          "quote": "This would be Spotify's fifth big round."
+          "quote": "Report: Spotify Has Closed A Massive Fifth Round Of Funding That Values It At $3 Billion"
         },
         {
           "field": "valuation",

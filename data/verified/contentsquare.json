@@ -11,7 +11,7 @@
   ],
   "status": "private",
   "unicorn": true,
-  "lastValuationEur": 2283105023,
+  "lastValuationEur": 5490734386,
   "founders": [
     "Jonathan Cherki"
   ],
@@ -45,8 +45,8 @@
     },
     {
       "field": "valuation",
-      "url": "https://contentsquare.com/blog/contentsquare-500m-series-e-investment/",
-      "quote": "valuing Contentsquare at $2.8 Billion"
+      "url": "https://www.fccsingapore.com/news/n/news/contentsquare-closes-600m-growth-investment-round-led-by-sixth-street.html",
+      "quote": "Since raising its Series E of $500 million in May 2021, the company’s valuation has doubled to $5.6 billion."
     }
   ],
   "rounds": [
@@ -87,6 +87,47 @@
           "field": "investors",
           "url": "https://contentsquare.com/blog/contentsquare-500m-series-e-investment/",
           "quote": "The investment is led by SoftBank Vision Fund 2, which joins existing investors Eurazeo, Bpifrance, KKR, Canaan, Highland Europe, and funds and accounts managed by BlackRock"
+        }
+      ]
+    },
+    {
+      "stage": "series-f+",
+      "month": "2022-07",
+      "amountEur": 392195313,
+      "amountOriginal": 400000000,
+      "currency": "USD",
+      "postMoneyValuationEur": 5490734386,
+      "investors": [
+        "Sixth Street Growth",
+        "Bpifrance",
+        "Canaan",
+        "Eurazeo",
+        "Highland Europe",
+        "KKR",
+        "LionTree",
+        "SoftBank Vision Fund 2",
+        "BlackRock"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.fccsingapore.com/news/n/news/contentsquare-closes-600m-growth-investment-round-led-by-sixth-street.html",
+          "quote": "announced today that it has closed a $600 million growth investment round, including $400 million in Series F equity and $200 million in debt financing"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.fccsingapore.com/news/n/news/contentsquare-closes-600m-growth-investment-round-led-by-sixth-street.html",
+          "quote": "$400 million in Series F equity"
+        },
+        {
+          "field": "month",
+          "url": "https://www.fccsingapore.com/news/n/news/contentsquare-closes-600m-growth-investment-round-led-by-sixth-street.html",
+          "quote": "New York, 21 July 2022"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.fccsingapore.com/news/n/news/contentsquare-closes-600m-growth-investment-round-led-by-sixth-street.html",
+          "quote": "The Series F investment is led by Sixth Street Growth, which joins new and existing investors Bpifrance, Canaan, Eurazeo, Highland Europe, KKR, LionTree, SoftBank Vision Fund 2"
         }
       ]
     }

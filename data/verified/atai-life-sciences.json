@@ -1,0 +1,208 @@
+{
+  "id": "atai-life-sciences",
+  "name": "atai Life Sciences",
+  "aliases": [
+    "AtaiBeckley",
+    "atai"
+  ],
+  "domain": "ataibeckley.com",
+  "country": "DE",
+  "city": "Berlin",
+  "founded": 2018,
+  "sectors": [
+    "biotech",
+    "health"
+  ],
+  "status": "acquired",
+  "unicorn": false,
+  "founders": [
+    "Christian Angermayer",
+    "Florian Brand",
+    "Srinivas Rao",
+    "Lars Christian Wilde"
+  ],
+  "difficulty": 4,
+  "techeuId": "EC7E6E30-610D-4947-946F-5A58E96A333A",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/ATAI_Life_Sciences",
+      "quote": "atai Life Sciences was founded in Berlin , Germany, in 2018 by Christian Angermayer, Florian Brand, Srinivas Rao and Lars Christian Wilde"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/ATAI_Life_Sciences",
+      "quote": "atai Life Sciences was founded in Berlin , Germany, in 2018 by Christian Angermayer, Florian Brand, Srinivas Rao and Lars Christian Wilde"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/ATAI_Life_Sciences",
+      "quote": "atai Life Sciences was founded in Berlin , Germany, in 2018 by Christian Angermayer, Florian Brand, Srinivas Rao and Lars Christian Wilde"
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.biospace.com/atai-life-sciences-announces-the-closing-of-its-157-million-series-d-financing-round",
+      "quote": "a clinical-stage biopharmaceutical company developing psychedelic and non-psychedelic compounds for various mental health indications"
+    },
+    {
+      "field": "status",
+      "url": "https://en.wikipedia.org/wiki/ATAI_Life_Sciences",
+      "quote": "The transaction closed on 11 September 2026, and AtaiBeckley became a wholly owned subsidiary of Lilly."
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-a",
+      "month": "2018-09",
+      "amountEur": 21078093,
+      "amountOriginal": 24400000,
+      "currency": "USD",
+      "investors": [
+        "Thor Björgólfsson",
+        "Mike Novogratz"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.unquote.com/dach/official-record/3014335/subversive-capital-in-usd43m-series-b-for-atai-life-sciences",
+          "quote": "In September 2018, Atai completed a $24.4m series-A from business angels Thor Bjorgolfsson and Mike Novogratz."
+        },
+        {
+          "field": "stage",
+          "url": "https://www.unquote.com/dach/official-record/3014335/subversive-capital-in-usd43m-series-b-for-atai-life-sciences",
+          "quote": "In September 2018, Atai completed a $24.4m series-A from business angels Thor Bjorgolfsson and Mike Novogratz."
+        },
+        {
+          "field": "month",
+          "url": "https://www.unquote.com/dach/official-record/3014335/subversive-capital-in-usd43m-series-b-for-atai-life-sciences",
+          "quote": "In September 2018, Atai completed a $24.4m series-A from business angels Thor Bjorgolfsson and Mike Novogratz."
+        },
+        {
+          "field": "investors",
+          "url": "https://www.unquote.com/dach/official-record/3014335/subversive-capital-in-usd43m-series-b-for-atai-life-sciences",
+          "quote": "In September 2018, Atai completed a $24.4m series-A from business angels Thor Bjorgolfsson and Mike Novogratz."
+        }
+      ]
+    },
+    {
+      "stage": "series-b",
+      "techeuId": "d2703f9f-2fd9-4f41-f659-08d91092c887",
+      "month": "2019-03",
+      "amountEur": 38331253,
+      "amountOriginal": 43000000,
+      "currency": "USD",
+      "investors": [
+        "Subversive Capital",
+        "Apeiron Investment Group",
+        "Bail Capital",
+        "Efrem Kamen"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.unquote.com/dach/official-record/3014335/subversive-capital-in-usd43m-series-b-for-atai-life-sciences",
+          "quote": "New York-based Subversive Capital has led a $43m funding round for biotech platform Atai Life Sciences."
+        },
+        {
+          "field": "stage",
+          "url": "https://www.unquote.com/dach/official-record/3014335/subversive-capital-in-usd43m-series-b-for-atai-life-sciences",
+          "quote": "Subversive Capital in $43m series-B for Atai Life Sciences"
+        },
+        {
+          "field": "month",
+          "url": "https://www.unquote.com/dach/official-record/3014335/subversive-capital-in-usd43m-series-b-for-atai-life-sciences",
+          "quote": "28 March 2019"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.unquote.com/dach/official-record/3014335/subversive-capital-in-usd43m-series-b-for-atai-life-sciences",
+          "quote": "New York-based Subversive Capital has led a $43m funding round for biotech platform Atai Life Sciences."
+        },
+        {
+          "field": "investors",
+          "url": "https://www.unquote.com/dach/official-record/3014335/subversive-capital-in-usd43m-series-b-for-atai-life-sciences",
+          "quote": "Other investors in the round include Aperion Investment Group, Bail Capital and Pura Vida Investments founder Efrem Kamen."
+        }
+      ]
+    },
+    {
+      "stage": "series-c",
+      "techeuId": "fe6430c3-c078-4ae9-f65a-08d91092c887",
+      "month": "2020-11",
+      "amountEur": 104340568,
+      "amountOriginal": 125000000,
+      "currency": "USD",
+      "investors": [
+        "Catalio Capital Management"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.noerr.com/en/press/noerr-advised-catalio-capital-management-lp-on-investment-in-atai-life-sciences-ag",
+          "quote": "Noerr previously advised on the Series C investment by Catalio in November 2020, which raised an aggregate of USD 125m."
+        },
+        {
+          "field": "stage",
+          "url": "https://www.noerr.com/en/press/noerr-advised-catalio-capital-management-lp-on-investment-in-atai-life-sciences-ag",
+          "quote": "Noerr previously advised on the Series C investment by Catalio in November 2020, which raised an aggregate of USD 125m."
+        },
+        {
+          "field": "month",
+          "url": "https://www.noerr.com/en/press/noerr-advised-catalio-capital-management-lp-on-investment-in-atai-life-sciences-ag",
+          "quote": "Noerr previously advised on the Series C investment by Catalio in November 2020, which raised an aggregate of USD 125m."
+        },
+        {
+          "field": "investors",
+          "url": "https://www.noerr.com/en/press/noerr-advised-catalio-capital-management-lp-on-investment-in-atai-life-sciences-ag",
+          "quote": "Noerr previously advised on the Series C investment by Catalio in November 2020, which raised an aggregate of USD 125m."
+        }
+      ]
+    },
+    {
+      "stage": "series-d",
+      "techeuId": "371a2353-00eb-40cc-f65b-08d91092c887",
+      "month": "2021-03",
+      "amountEur": 130312085,
+      "amountOriginal": 157000000,
+      "currency": "USD",
+      "investors": [
+        "Apeiron Investment Group",
+        "Thiel Capital",
+        "Woodline Partners",
+        "Fearless Ventures",
+        "Falcon Edge Capital",
+        "Pura Vida Pro",
+        "Catalio Capital Management",
+        "Subversive Capital",
+        "Highline Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.biospace.com/atai-life-sciences-announces-the-closing-of-its-157-million-series-d-financing-round",
+          "quote": "today announced the successful closing of its $157 million Series D financing round."
+        },
+        {
+          "field": "stage",
+          "url": "https://www.biospace.com/atai-life-sciences-announces-the-closing-of-its-157-million-series-d-financing-round",
+          "quote": "today announced the successful closing of its $157 million Series D financing round."
+        },
+        {
+          "field": "month",
+          "url": "https://www.biospace.com/atai-life-sciences-announces-the-closing-of-its-157-million-series-d-financing-round",
+          "quote": "March 3, 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.biospace.com/atai-life-sciences-announces-the-closing-of-its-157-million-series-d-financing-round",
+          "quote": "The round was led by our existing investors Apeiron Investment Group, the family office of atai's founder Christian Angermayer , Thiel Capital, and joined by Woodline Partners LP."
+        },
+        {
+          "field": "investors",
+          "url": "https://www.biospace.com/atai-life-sciences-announces-the-closing-of-its-157-million-series-d-financing-round",
+          "quote": "The Series D fundraising saw participation from existing and new investors including Fearless Ventures, Falcon Edge Capital, Pura Vida Pro LLC, Catalio Capital Management, Michael Auerbach's Subversive Capital and Highline Capital."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "id": "kiwi-com",
+  "name": "Kiwi.com",
+  "aliases": [
+    "Skypicker"
+  ],
+  "domain": "kiwi.com",
+  "country": "CZ",
+  "city": "Brno",
+  "founded": 2012,
+  "sectors": [
+    "travel"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Oliver Dlouhý",
+    "Jozef Képesi"
+  ],
+  "difficulty": 3,
+  "techeuId": "7361668C-8B0C-4DF5-97B7-6CFB12227BF8",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/Kiwi.com",
+      "quote": "Kiwi.com is headquartered in Brno"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Kiwi.com",
+      "quote": "Kiwi.com was founded in Brno in 2012 as Skypicker"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Kiwi.com",
+      "quote": "by Oliver Dlouhý and Jozef Képesi"
+    },
+    {
+      "field": "sectors",
+      "url": "https://en.wikipedia.org/wiki/Kiwi.com",
+      "quote": "Kiwi.com is an international online travel agency"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "bd9624f2-5b9f-47f9-afe9-08d91092c887",
+      "stage": "seed",
+      "month": "2015-02",
+      "amountEur": 900252,
+      "amountOriginal": 25000000,
+      "currency": "CZK",
+      "investors": [
+        "Ondřej Tomek"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://cc.cz/skypicker-ziskava-dalsi-investici-ve-vysi-25-milionu-korun-a-oznamil-trzby-za-prosinec/",
+          "quote": "získává dalších 25 milionů korun za 10% podíl ve společnosti"
+        },
+        {
+          "field": "month",
+          "url": "https://cc.cz/skypicker-ziskava-dalsi-investici-ve-vysi-25-milionu-korun-a-oznamil-trzby-za-prosinec/",
+          "quote": "04. 2. 2015"
+        },
+        {
+          "field": "investors",
+          "url": "https://cc.cz/skypicker-ziskava-dalsi-investici-ve-vysi-25-milionu-korun-a-oznamil-trzby-za-prosinec/",
+          "quote": "Od Ondřeje Tomka, zakladatele portálu Centrum.cz, získává"
+        }
+      ]
+    }
+  ]
+}

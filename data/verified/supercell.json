@@ -1,0 +1,87 @@
+{
+  "id": "supercell",
+  "name": "Supercell",
+  "aliases": [],
+  "domain": "supercell.com",
+  "country": "FI",
+  "city": "Helsinki",
+  "founded": 2010,
+  "sectors": [
+    "gaming"
+  ],
+  "status": "acquired",
+  "unicorn": false,
+  "founders": [
+    "Ilkka Paananen",
+    "Mikko Kodisoja",
+    "Petri Styrman",
+    "Lassi Leppinen",
+    "Visa Forstén",
+    "Niko Derome"
+  ],
+  "difficulty": 1,
+  "techeuId": "505A6C82-B04E-411C-B8EF-CDB8B047CC8F",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/Supercell_(company)",
+      "quote": "Finnish mobile game development company based in Helsinki"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Supercell_(company)",
+      "quote": "Founded on 14 May 2010"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Supercell_(company)",
+      "quote": "Together, Paananen, Kodisoja, Petri Styrman, Lassi Leppinen, Visa Forstén, and Niko Derome"
+    },
+    {
+      "field": "sectors",
+      "url": "https://en.wikipedia.org/wiki/Supercell_(company)",
+      "quote": "Finnish mobile game development company"
+    },
+    {
+      "field": "status",
+      "url": "https://en.wikipedia.org/wiki/Supercell_(company)",
+      "quote": "In 2016, the company was bought out by Chinese conglomerate Tencent holdings, taking an 81.4% stake in the company"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-a",
+      "month": "2011-05",
+      "amountEur": 8529391,
+      "amountOriginal": 12000000,
+      "currency": "USD",
+      "investors": [
+        "Accel Partners",
+        "London Venture Partners",
+        "Klaas Kersting"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://web.archive.org/web/2011/http://www.businesswire.com/news/home/20110525006242/en/Supercell-Raises-12M-Accel-Partners",
+          "quote": "Finnish game developer Supercell announced that it has secured an investment of $12 million from Accel Partners"
+        },
+        {
+          "field": "stage",
+          "url": "https://en.wikipedia.org/wiki/Supercell_(company)",
+          "quote": "invested $12 million in the Series A of Supercell in 2011"
+        },
+        {
+          "field": "month",
+          "url": "https://web.archive.org/web/2011/http://www.businesswire.com/news/home/20110525006242/en/Supercell-Raises-12M-Accel-Partners",
+          "quote": "May 25, 2011"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.unquote.com/nordics/official-record/84369/atomico-index-ivp-in-usd130m-supercell-funding-round",
+          "quote": "The business also received a $12m financing from Accel Partners, London Venture Partners and Klaas Kersting in 2011"
+        }
+      ]
+    }
+  ]
+}

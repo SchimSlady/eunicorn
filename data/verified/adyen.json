@@ -1,0 +1,96 @@
+{
+  "id": "adyen",
+  "name": "Adyen",
+  "aliases": [],
+  "domain": "adyen.com",
+  "country": "NL",
+  "city": "Amsterdam",
+  "founded": 2006,
+  "sectors": [
+    "fintech"
+  ],
+  "status": "public",
+  "unicorn": true,
+  "lastValuationEur": 1196458483,
+  "founders": [
+    "Pieter van der Does",
+    "Arnout Schuijff"
+  ],
+  "difficulty": 1,
+  "techeuId": "A0FC65E1-15EB-4439-92CD-F5E94CDFEE4F",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/Adyen",
+      "quote": "Headquartered in Amsterdam"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Adyen",
+      "quote": "Adyen was founded in 2006 by Pieter van der Does"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Adyen",
+      "quote": "Adyen was founded in 2006 by Pieter van der Does , the current Co-CEO, and Arnout Schuijff"
+    },
+    {
+      "field": "sectors",
+      "url": "https://en.wikipedia.org/wiki/Adyen",
+      "quote": "Payment service provider"
+    },
+    {
+      "field": "status",
+      "url": "https://en.wikipedia.org/wiki/Adyen",
+      "quote": "The IPO took place on 13 June 2018."
+    },
+    {
+      "field": "unicorn",
+      "url": "https://techcrunch.com/2014/12/16/adyen-250m-general-atlantic/",
+      "quote": "the company has raised $250 million in a giant Series B round of funding that values the company at $1.5 billion"
+    },
+    {
+      "field": "valuation",
+      "url": "https://fortune.com/2014/12/16/payment-unicorn-adyen-raises-250-million-at-huge-valuation",
+      "quote": "5 billion, post-money"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-b",
+      "month": "2014-12",
+      "amountEur": 199409747,
+      "amountOriginal": 250000000,
+      "currency": "USD",
+      "postMoneyValuationEur": 1196458483,
+      "investors": [
+        "General Atlantic",
+        "Temasek Holdings",
+        "Index Ventures",
+        "Felicis Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2014/12/16/adyen-250m-general-atlantic/",
+          "quote": "the company has raised $250 million in a giant Series B round of funding"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2014/12/16/adyen-250m-general-atlantic/",
+          "quote": "the company has raised $250 million in a giant Series B round of funding"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2014/12/16/adyen-250m-general-atlantic/",
+          "quote": "December 16, 2014"
+        },
+        {
+          "field": "investors",
+          "url": "https://en.wikipedia.org/wiki/Adyen",
+          "quote": "led by growth equity firm General Atlantic , joined by existing investors Temasek Holdings , Index Ventures , and Felicis Ventures"
+        }
+      ]
+    }
+  ]
+}

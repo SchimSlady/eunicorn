@@ -13,7 +13,7 @@
     "mobility"
   ],
   "status": "private",
-  "unicorn": false,
+  "unicorn": true,
   "founders": [
     "Lawrence Leuschner",
     "Matthias Laug",
@@ -41,6 +41,16 @@
       "field": "sectors",
       "url": "https://ridedott.com/press-release/tier-dott-micromobility/",
       "quote": "form Europe’s leading micro-mobility operator"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://techcrunch.com/2021/10/25/tier-scoots-off-with-first-close-of-its-200m-series-d",
+      "quote": "Tier said its micromobility business is now valued at $2 billion"
+    },
+    {
+      "field": "valuation",
+      "url": "https://techcrunch.com/2021/10/25/tier-scoots-off-with-first-close-of-its-200m-series-d",
+      "quote": "Tier said its micromobility business is now valued at $2 billion"
     }
   ],
   "rounds": [
@@ -73,6 +83,48 @@
           "quote": "Investiert haben die Wagniskapitalgeber Northzone aus Schweden, Speedinvest aus Österreich und Point Nine aus Berlin."
         }
       ]
+    },
+    {
+      "stage": "series-d",
+      "month": "2021-10",
+      "amountEur": 172369215,
+      "amountOriginal": 200000000,
+      "currency": "USD",
+      "postMoneyValuationEur": 1723692149,
+      "investors": [
+        "SoftBank Vision Fund 2",
+        "Mubadala Capital",
+        "RTP Global",
+        "Novator",
+        "White Star Capital",
+        "Northzone",
+        "Speedinvest",
+        "M&G Investments",
+        "Mountain Partners"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2021/10/25/tier-scoots-off-with-first-close-of-its-200m-series-d",
+          "quote": "Tier scoots off with $200M, all-equity 'first close' of Series D"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2021/10/25/tier-scoots-off-with-first-close-of-its-200m-series-d",
+          "quote": "Existing investor SoftBank Vision Fund 2 is co-leading the Series D"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2021/10/25/tier-scoots-off-with-first-close-of-its-200m-series-d",
+          "quote": "October 25, 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2021/10/25/tier-scoots-off-with-first-close-of-its-200m-series-d",
+          "quote": "Existing investor SoftBank Vision Fund 2 is co-leading the Series D with the UAE-based Mubadala Capital"
+        }
+      ]
     }
-  ]
+  ],
+  "lastValuationEur": 1723692149
 }

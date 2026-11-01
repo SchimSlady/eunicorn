@@ -113,46 +113,6 @@
           "quote": "Tiger Global is leading this round, with new backers Baleen Capital and Woodson Capital also participating, alongside Fasanara Capital and Ithaca Investments"
         }
       ]
-    },
-    {
-      "techeuId": "a0cf6566-3d1d-4b8a-a272-9a1bc2cba823",
-      "stage": "series-b",
-      "month": "2022-02",
-      "amountEur": 438117066,
-      "amountOriginal": 497000000,
-      "currency": "USD",
-      "investors": [
-        "Tencent",
-        "Tiger Global Management",
-        "Willoughby Capital"
-      ],
-      "sources": [
-        {
-          "field": "amount",
-          "url": "https://www.businessinsider.com/buy-now-pay-later-startup-scalapay-raises-497m-from-tencent-2022-2",
-          "quote": "used to raise $497 million from Tencent"
-        },
-        {
-          "field": "stage",
-          "url": "https://en.wikipedia.org/wiki/Scalapay",
-          "quote": "In February 2022, Scalapay raised $497 million in a Series B round led by Tencent"
-        },
-        {
-          "field": "month",
-          "url": "https://www.businessinsider.com/buy-now-pay-later-startup-scalapay-raises-497m-from-tencent-2022-2",
-          "quote": "2022-02-23T15:45:18.000Z"
-        },
-        {
-          "field": "investors",
-          "url": "https://www.businessinsider.com/buy-now-pay-later-startup-scalapay-raises-497m-from-tencent-2022-2",
-          "quote": "Tiger Global also backed the Series B round."
-        },
-        {
-          "field": "investors",
-          "url": "https://en.wikipedia.org/wiki/Scalapay",
-          "quote": "In February 2022, Scalapay raised $497 million in a Series B round led by Tencent and Willoughby Capital"
-        }
-      ]
     }
   ]
 }

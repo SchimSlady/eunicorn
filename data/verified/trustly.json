@@ -1,0 +1,92 @@
+{
+  "id": "trustly",
+  "name": "Trustly",
+  "aliases": [],
+  "domain": "trustly.com",
+  "country": "SE",
+  "city": "Stockholm",
+  "founded": 2008,
+  "sectors": [
+    "fintech"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [],
+  "difficulty": 3,
+  "techeuId": "4CD12211-BE2F-479C-8DE1-A8DEB8F8BE0C",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/Trustly",
+      "quote": "was founded in 2008 in Stockholm , Sweden."
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Trustly",
+      "quote": "was founded in 2008 in Stockholm , Sweden."
+    },
+    {
+      "field": "sectors",
+      "url": "https://en.wikipedia.org/wiki/Trustly",
+      "quote": "is a Swedish fintech company founded in 2008"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-b",
+      "month": "2014-10",
+      "amountEur": 23000000,
+      "amountOriginal": 23000000,
+      "currency": "EUR",
+      "investors": [
+        "Bridgepoint Development Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://nordic9.com/news/pe-house-bridgepoint-pays-30m-for-a-minority-equity-stake-in-swedish-trustly-news7000365266",
+          "quote": "invest approximately EUR 23 million (USD 30 million) for a minority stake in Trustly Group AB to support the continued growth of the business"
+        },
+        {
+          "field": "month",
+          "url": "https://nordic9.com/news/pe-house-bridgepoint-pays-30m-for-a-minority-equity-stake-in-swedish-trustly-news7000365266",
+          "quote": "06 October 2014"
+        },
+        {
+          "field": "investors",
+          "url": "https://nordic9.com/news/pe-house-bridgepoint-pays-30m-for-a-minority-equity-stake-in-swedish-trustly-news7000365266",
+          "quote": "Bridgepoint Development Capital announced that it has reached an agreement to invest"
+        }
+      ]
+    },
+    {
+      "techeuId": "e2b9b372-584e-43cb-97c0-e36bab43280b",
+      "stage": "series-f+",
+      "month": "2026-10",
+      "amountEur": 35634744,
+      "amountOriginal": 40000000,
+      "currency": "USD",
+      "investors": [
+        "Nordic Capital",
+        "Alfvén & Didrikson"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2026/10/02/swedish-fintech-receives-40m-equity-commitment-from-key-shareholders/",
+          "quote": "more than $40m in equity investment commitments from two key shareholders"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2026/10/02/swedish-fintech-receives-40m-equity-commitment-from-key-shareholders/",
+          "quote": "2 October 2026"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2026/10/02/swedish-fintech-receives-40m-equity-commitment-from-key-shareholders/",
+          "quote": "The equity is being provided by its main shareholder, Nordic Capital, and another key shareholder, Alfvén & Didrikson."
+        }
+      ]
+    }
+  ]
+}

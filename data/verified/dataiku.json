@@ -1,0 +1,318 @@
+{
+  "id": "dataiku",
+  "name": "Dataiku",
+  "aliases": [],
+  "domain": "dataiku.com",
+  "country": "FR",
+  "city": "Paris",
+  "founded": 2013,
+  "sectors": [
+    "ai",
+    "saas"
+  ],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 3508771930,
+  "founders": [
+    "Florian Douetteau",
+    "Clément Stenac",
+    "Thomas Cabrol",
+    "Marc Batty"
+  ],
+  "difficulty": 3,
+  "techeuId": "314D2430-4617-41A3-8D2E-C5BE488F7A33",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/Dataiku",
+      "quote": "Dataiku was founded in Paris in 2013 by Florian Douetteau, Clément Stenac, Thomas Cabrol and Marc Batty."
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Dataiku",
+      "quote": "Dataiku was founded in Paris in 2013 by Florian Douetteau, Clément Stenac, Thomas Cabrol and Marc Batty."
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Dataiku",
+      "quote": "Dataiku was founded in Paris in 2013 by Florian Douetteau, Clément Stenac, Thomas Cabrol and Marc Batty."
+    },
+    {
+      "field": "sectors",
+      "url": "https://en.wikipedia.org/wiki/Dataiku",
+      "quote": "Dataiku is a French-American artificial intelligence (AI) and machine learning company"
+    },
+    {
+      "field": "status",
+      "url": "https://en.wikipedia.org/wiki/Dataiku",
+      "quote": "Type Private"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://techcrunch.com/2021/08/05/dataiku-gets-400m-at-a-4-6b-valuation-led-by-tiger-global",
+      "quote": "Dataiku gets $400M at a $4.6B valuation, led by Tiger Global"
+    },
+    {
+      "field": "valuation",
+      "url": "https://techcrunch.com/2022/12/13/ai-and-analytics-platform-dataiku-raises-200m-at-a-reduced-valuation/",
+      "quote": "raised $200 million in a Series F round led by Wellington Management at a $3.7 billion valuation"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "seed",
+      "month": "2015-01",
+      "amountEur": 3102111,
+      "amountOriginal": 3600000,
+      "currency": "USD",
+      "investors": [
+        "Serena Capital",
+        "Alven Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://en.wikipedia.org/wiki/Dataiku",
+          "quote": "In January 2015, Dataiku raised $3.6 million from Serena Capital and Alven Capital"
+        },
+        {
+          "field": "month",
+          "url": "https://en.wikipedia.org/wiki/Dataiku",
+          "quote": "In January 2015, Dataiku raised $3.6 million from Serena Capital and Alven Capital"
+        },
+        {
+          "field": "investors",
+          "url": "https://en.wikipedia.org/wiki/Dataiku",
+          "quote": "In January 2015, Dataiku raised $3.6 million from Serena Capital and Alven Capital"
+        }
+      ]
+    },
+    {
+      "techeuId": "cb924473-ac88-4cc3-eddc-08d91092c887",
+      "stage": "series-a",
+      "month": "2016-10",
+      "amountEur": 12877116,
+      "amountOriginal": 14000000,
+      "currency": "USD",
+      "investors": [
+        "FirstMark Capital",
+        "Serena Capital",
+        "Alven Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2016/10/25/dataiku-grabs-14-million-for-its-collaborative-data-science-platform/",
+          "quote": "raising a $14 million Series A round led by FirstMark Capital with all existing investors also investing"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2016/10/25/dataiku-grabs-14-million-for-its-collaborative-data-science-platform/",
+          "quote": "raising a $14 million Series A round led by FirstMark Capital with all existing investors also investing"
+        },
+        {
+          "field": "month",
+          "url": "https://en.wikipedia.org/wiki/Dataiku",
+          "quote": "$14 million raised with FirstMark Capital , a New York City-based venture capital firm in October 2016."
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2016/10/25/dataiku-grabs-14-million-for-its-collaborative-data-science-platform/",
+          "quote": "led by FirstMark Capital with all existing investors also investing"
+        }
+      ]
+    },
+    {
+      "techeuId": "45e00958-0bdb-498b-eddd-08d91092c887",
+      "stage": "series-b",
+      "month": "2017-09",
+      "amountEur": 23468276,
+      "amountOriginal": 28000000,
+      "currency": "USD",
+      "investors": [
+        "Battery Ventures",
+        "FirstMark Capital",
+        "Serena Capital",
+        "Alven Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2017/09/06/dataiku-to-enhance-data-tools-with-28-million-infusion-led-by-battery-ventures/",
+          "quote": "The company scored a $28 million Series B investment led by Battery Ventures with help from FirstMark, Serena Capital and Alven."
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2017/09/06/dataiku-to-enhance-data-tools-with-28-million-infusion-led-by-battery-ventures/",
+          "quote": "The company scored a $28 million Series B investment led by Battery Ventures with help from FirstMark, Serena Capital and Alven."
+        },
+        {
+          "field": "month",
+          "url": "https://en.wikipedia.org/wiki/Dataiku",
+          "quote": "In September 2017 the company raised a $28 million Series B investment from Battery Ventures"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2017/09/06/dataiku-to-enhance-data-tools-with-28-million-infusion-led-by-battery-ventures/",
+          "quote": "led by Battery Ventures with help from FirstMark, Serena Capital and Alven."
+        }
+      ]
+    },
+    {
+      "stage": "series-c",
+      "month": "2018-12",
+      "amountEur": 88557650,
+      "amountOriginal": 101000000,
+      "currency": "USD",
+      "investors": [
+        "ICONIQ Capital",
+        "Alven Capital",
+        "Battery Ventures",
+        "Dawn Capital",
+        "FirstMark Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://en.wikipedia.org/wiki/Dataiku",
+          "quote": "In December 2018, Dataiku announced a $101 million Series C funding round led by ICONIQ Capital"
+        },
+        {
+          "field": "stage",
+          "url": "https://en.wikipedia.org/wiki/Dataiku",
+          "quote": "In December 2018, Dataiku announced a $101 million Series C funding round led by ICONIQ Capital"
+        },
+        {
+          "field": "month",
+          "url": "https://en.wikipedia.org/wiki/Dataiku",
+          "quote": "In December 2018, Dataiku announced a $101 million Series C funding round led by ICONIQ Capital"
+        },
+        {
+          "field": "investors",
+          "url": "https://en.wikipedia.org/wiki/Dataiku",
+          "quote": "Other investors included Alven Capital, Battery Ventures, Dawn Capital and FirstMark Capital."
+        }
+      ]
+    },
+    {
+      "techeuId": "05aba192-ce85-48aa-edde-08d91092c887",
+      "stage": "series-d",
+      "month": "2020-08",
+      "amountEur": 84409555,
+      "amountOriginal": 100000000,
+      "currency": "USD",
+      "investors": [
+        "Stripes",
+        "Tiger Global Management",
+        "Battery Ventures",
+        "CapitalG",
+        "Dawn Capital",
+        "FirstMark Capital",
+        "ICONIQ"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://en.wikipedia.org/wiki/Dataiku",
+          "quote": "In August 2020, Dataiku announced an additional $100 million Series D funding round led by Stripes and Tiger Global Management"
+        },
+        {
+          "field": "stage",
+          "url": "https://en.wikipedia.org/wiki/Dataiku",
+          "quote": "In August 2020, Dataiku announced an additional $100 million Series D funding round led by Stripes and Tiger Global Management"
+        },
+        {
+          "field": "month",
+          "url": "https://en.wikipedia.org/wiki/Dataiku",
+          "quote": "In August 2020, Dataiku announced an additional $100 million Series D funding round led by Stripes and Tiger Global Management"
+        },
+        {
+          "field": "investors",
+          "url": "https://en.wikipedia.org/wiki/Dataiku",
+          "quote": "and participation from existing investors including Battery Ventures, CapitalG, Dawn Capital, FirstMark Capital, and ICONIQ."
+        }
+      ]
+    },
+    {
+      "techeuId": "90967bff-c768-4798-af28-3d879918565d",
+      "stage": "series-e",
+      "month": "2021-08",
+      "amountEur": 337552743,
+      "amountOriginal": 400000000,
+      "currency": "USD",
+      "investors": [
+        "Tiger Global Management",
+        "ICONIQ Growth",
+        "CapitalG",
+        "FirstMark Capital",
+        "Battery Ventures",
+        "Snowflake Ventures",
+        "Dawn Capital",
+        "Insight Partners",
+        "Eurazeo",
+        "Lightrock",
+        "Olivier Pomel"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://en.wikipedia.org/wiki/Dataiku",
+          "quote": "In August 2021, Dataiku announced another $400 million raise Series E by Tiger Global Management, bringing its total valuation to $4.6 billion."
+        },
+        {
+          "field": "stage",
+          "url": "https://en.wikipedia.org/wiki/Dataiku",
+          "quote": "In August 2021, Dataiku announced another $400 million raise Series E by Tiger Global Management, bringing its total valuation to $4.6 billion."
+        },
+        {
+          "field": "month",
+          "url": "https://en.wikipedia.org/wiki/Dataiku",
+          "quote": "In August 2021, Dataiku announced another $400 million raise Series E by Tiger Global Management, bringing its total valuation to $4.6 billion."
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2021/08/05/dataiku-gets-400m-at-a-4-6b-valuation-led-by-tiger-global",
+          "quote": "The round was led by Tiger Global, with participation from returning investors like ICONIQ Growth, CapitalG, FirstMark Capital, Battery Ventures, Snowflake Ventures and Dawn Capital."
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2021/08/05/dataiku-gets-400m-at-a-4-6b-valuation-led-by-tiger-global",
+          "quote": "New investors include Insight Partners, Eurazeo, Lightrock and Olivier Pomel, the chief executive of Datadog."
+        }
+      ]
+    },
+    {
+      "techeuId": "3a11c780-6496-4c0e-b1d9-06b23be2480c",
+      "stage": "series-f+",
+      "month": "2022-12",
+      "amountEur": 189663348,
+      "amountOriginal": 200000000,
+      "currency": "USD",
+      "investors": [
+        "Wellington Management"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2022/12/13/ai-and-analytics-platform-dataiku-raises-200m-at-a-reduced-valuation/",
+          "quote": "raised $200 million in a Series F round led by Wellington Management at a $3.7 billion valuation"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2022/12/13/ai-and-analytics-platform-dataiku-raises-200m-at-a-reduced-valuation/",
+          "quote": "raised $200 million in a Series F round led by Wellington Management at a $3.7 billion valuation"
+        },
+        {
+          "field": "month",
+          "url": "https://en.wikipedia.org/wiki/Dataiku",
+          "quote": "In December 2022, Dataiku announced a $200 million Series F led by new investor Wellington Management"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2022/12/13/ai-and-analytics-platform-dataiku-raises-200m-at-a-reduced-valuation/",
+          "quote": "led by Wellington Management"
+        }
+      ]
+    }
+  ]
+}

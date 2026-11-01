@@ -1,0 +1,209 @@
+{
+  "id": "n8n",
+  "name": "n8n",
+  "aliases": [],
+  "domain": "n8n.io",
+  "country": "DE",
+  "city": "Berlin",
+  "founded": 2019,
+  "sectors": [
+    "saas",
+    "ai"
+  ],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 2153130652,
+  "founders": [
+    "Jan Oberhauser"
+  ],
+  "difficulty": 3,
+  "techeuId": "068F0FE3-9DC7-4070-A2CE-2EC4174750B4",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://n8n.io/press/",
+      "quote": "n8n is headquartered in Berlin and was founded by Jan Oberhauser in 2019."
+    },
+    {
+      "field": "founded",
+      "url": "https://n8n.io/press/",
+      "quote": "n8n is headquartered in Berlin and was founded by Jan Oberhauser in 2019."
+    },
+    {
+      "field": "founders",
+      "url": "https://n8n.io/press/",
+      "quote": "n8n is headquartered in Berlin and was founded by Jan Oberhauser in 2019."
+    },
+    {
+      "field": "sectors",
+      "url": "https://en.wikipedia.org/wiki/N8n",
+      "quote": "is a workflow automation platform and the Berlin company"
+    },
+    {
+      "field": "sectors",
+      "url": "https://blog.n8n.io/series-c/",
+      "quote": "n8n becomes the default platform to build with AI"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://blog.n8n.io/series-c/",
+      "quote": "We just raised $180 million in Series C funding, bringing our total funding to $240 million and our valuation to $2.5 billion."
+    },
+    {
+      "field": "valuation",
+      "url": "https://blog.n8n.io/series-c/",
+      "quote": "bringing our total funding to $240 million and our valuation to $2.5 billion"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "c80c4b8a-571c-42a4-e838-08d91092c887",
+      "stage": "seed",
+      "month": "2020-03",
+      "amountEur": 1350865,
+      "amountOriginal": 1500000,
+      "currency": "USD",
+      "investors": [
+        "firstminute Capital",
+        "Sequoia Capital",
+        "Runa Capital",
+        "Tiny VC",
+        "System.One"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2020/03/13/n8n-a-fair-code-workflow-automation-platform-raises-seed-from-sequoia-as-vc-firm-steps-up-in-europe/",
+          "quote": "has picked up a seed round of $1.5 million"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2020/03/13/n8n-a-fair-code-workflow-automation-platform-raises-seed-from-sequoia-as-vc-firm-steps-up-in-europe/",
+          "quote": "March 13, 2020"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2020/03/13/n8n-a-fair-code-workflow-automation-platform-raises-seed-from-sequoia-as-vc-firm-steps-up-in-europe/",
+          "quote": "The investment is being co-led by UK’s firstminute Capital and Sequoia, with participation also from Runa Capital, Tiny VC and System.One"
+        }
+      ]
+    },
+    {
+      "techeuId": "ace0ee77-6ad7-475c-b061-335b46f25c1a",
+      "stage": "series-a",
+      "month": "2021-04",
+      "amountEur": 9929665,
+      "amountOriginal": 12000000,
+      "currency": "USD",
+      "investors": [
+        "Felicis Ventures",
+        "Sequoia Capital",
+        "firstminute Capital",
+        "Harpoon Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2021/04/26/n8n-raises-12m-for-its-fair-code-approach-to-low-code-workflow-automation/",
+          "quote": "has raised $12 million in a Series A round of funding"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2021/04/26/n8n-raises-12m-for-its-fair-code-approach-to-low-code-workflow-automation/",
+          "quote": "April 26, 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2021/04/26/n8n-raises-12m-for-its-fair-code-approach-to-low-code-workflow-automation/",
+          "quote": "The round is being led by Felicis Ventures, with Sequoia Capital, firstminute Capital and Harpoon Ventures also participating"
+        }
+      ]
+    },
+    {
+      "techeuId": "c9d7a70e-2458-4cfc-ba78-86694f14cb68",
+      "stage": "series-b",
+      "month": "2025-03",
+      "amountEur": 55000000,
+      "amountOriginal": 55000000,
+      "currency": "EUR",
+      "investors": [
+        "Highland Europe",
+        "HV Capital",
+        "Sequoia Capital",
+        "Felicis Ventures",
+        "Harpoon Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2025/03/24/fair-code-pioneer-n8n-raises-60m-for-ai-powered-workflow-automation/",
+          "quote": "n8n has raised €55 million ($60 million) in funding"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2025/03/24/fair-code-pioneer-n8n-raises-60m-for-ai-powered-workflow-automation/",
+          "quote": "The startup will be using this Series B"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2025/03/24/fair-code-pioneer-n8n-raises-60m-for-ai-powered-workflow-automation/",
+          "quote": "March 24, 2025"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2025/03/24/fair-code-pioneer-n8n-raises-60m-for-ai-powered-workflow-automation/",
+          "quote": "Highland Europe is leading this latest round, with HV Capital and previous backers Sequoia, Felicis, and Harpoon also participating"
+        }
+      ]
+    },
+    {
+      "techeuId": "16802302-d685-42a8-8cfc-2884f931bddf",
+      "stage": "series-c",
+      "month": "2025-10",
+      "amountEur": 155025407,
+      "amountOriginal": 180000000,
+      "currency": "USD",
+      "postMoneyValuationEur": 2153130652,
+      "investors": [
+        "Accel",
+        "Meritech",
+        "Redpoint",
+        "Evantic",
+        "Visionaries Club",
+        "NVentures",
+        "T.Capital",
+        "Felicis Ventures",
+        "Sequoia",
+        "Highland Europe",
+        "HV Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://blog.n8n.io/series-c/",
+          "quote": "We just raised $180 million in Series C funding"
+        },
+        {
+          "field": "month",
+          "url": "https://blog.n8n.io/series-c/",
+          "quote": "October 9, 2025"
+        },
+        {
+          "field": "investors",
+          "url": "https://blog.n8n.io/series-c/",
+          "quote": "The round is led by Accel, with support from Meritech, Redpoint, Evantic and Visionaries Club."
+        },
+        {
+          "field": "investors",
+          "url": "https://blog.n8n.io/series-c/",
+          "quote": "with previous backers including Felicis Ventures, Sequoia, Highland Europe and HV Capital making follow-"
+        },
+        {
+          "field": "valuation",
+          "url": "https://blog.n8n.io/series-c/",
+          "quote": "bringing our total funding to $240 million and our valuation to $2.5 billion"
+        }
+      ]
+    }
+  ]
+}

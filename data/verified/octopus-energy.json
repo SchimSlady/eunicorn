@@ -1,0 +1,207 @@
+{
+  "id": "octopus-energy",
+  "name": "Octopus Energy",
+  "aliases": [
+    "Octopus Energy Group"
+  ],
+  "domain": "octopus.energy",
+  "country": "GB",
+  "city": "London",
+  "founded": 2015,
+  "sectors": [
+    "climate"
+  ],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 7327349331,
+  "founders": [
+    "Greg Jackson"
+  ],
+  "difficulty": 2,
+  "techeuId": "6C623774-80E5-406F-99F7-714A635AA042",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/Octopus_Energy",
+      "quote": "Headquartered in London, it has operations in the United Kingdom"
+    },
+    {
+      "field": "founded",
+      "url": "https://www.theguardian.com/business/2023/dec/18/octopus-energy-raises-800m-aims-create-3000-green-jobs-uk",
+      "quote": "Octopus was founded in 2015 by Greg Jackson"
+    },
+    {
+      "field": "founders",
+      "url": "https://www.theguardian.com/business/2023/dec/18/octopus-energy-raises-800m-aims-create-3000-green-jobs-uk",
+      "quote": "Octopus was founded in 2015 by Greg Jackson"
+    },
+    {
+      "field": "sectors",
+      "url": "https://en.wikipedia.org/wiki/Octopus_Energy",
+      "quote": "Octopus Energy Group operates a range of business divisions including Octopus Energy Retail"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://www.cityam.com/octopus-becomes-unicorn-after-300m-deal-with-australian-firm-origin/",
+      "quote": "Challenger energy firm Octopus has today achieved unicorn status – a valuation of over £1bn"
+    },
+    {
+      "field": "valuation",
+      "url": "https://www.theguardian.com/business/2023/dec/18/octopus-energy-raises-800m-aims-create-3000-green-jobs-uk",
+      "quote": "Octopus Energy has raised $800m (£630m) from its shareholders in a move that values the company at nearly $8bn"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-a",
+      "month": "2020-05",
+      "amountEur": 345204534,
+      "amountOriginal": 300000000,
+      "currency": "GBP",
+      "investors": [
+        "Origin Energy"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.cityam.com/octopus-becomes-unicorn-after-300m-deal-with-australian-firm-origin/",
+          "quote": "The agreement will see Origin put £300m into Octopus in return for 20 per cent of the company"
+        },
+        {
+          "field": "month",
+          "url": "https://www.cityam.com/octopus-becomes-unicorn-after-300m-deal-with-australian-firm-origin/",
+          "quote": "Friday 01 May 2020"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.cityam.com/octopus-becomes-unicorn-after-300m-deal-with-australian-firm-origin/",
+          "quote": "after agreeing a new partnership with Australian energy firm Origin"
+        }
+      ]
+    },
+    {
+      "techeuId": "63164045-85aa-4898-f4b2-08d91092c887",
+      "stage": "series-b",
+      "month": "2020-12",
+      "amountEur": 205490712,
+      "amountOriginal": 250000000,
+      "currency": "USD",
+      "postMoneyValuationEur": 1726121979,
+      "investors": [
+        "Tokyo Gas",
+        "Origin Energy"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://octopus.energy/press/octopus-energy-group-enters-asia-landmark-partnership-tokyo-gas/",
+          "quote": "Octopus Energy Group to take $250 million of additional investment, increasing the entech group’s valuation to $2.1 billion"
+        },
+        {
+          "field": "month",
+          "url": "https://en.wikipedia.org/wiki/Octopus_Energy",
+          "quote": "In December 2020, Tokyo Gas paid about 20 billion yen"
+        },
+        {
+          "field": "investors",
+          "url": "https://octopus.energy/press/octopus-energy-group-enters-asia-landmark-partnership-tokyo-gas/",
+          "quote": "Tokyo Gas take a 9.7% equity stake for consideration of $200m, alongside an approximate further $50m equity investment from Origin Energy"
+        }
+      ]
+    },
+    {
+      "techeuId": "017b7692-e07e-45f0-91a9-027fa716d6a7",
+      "stage": "series-c",
+      "month": "2021-09",
+      "amountEur": 254799302,
+      "amountOriginal": 219000000,
+      "currency": "GBP",
+      "postMoneyValuationEur": 3909249564,
+      "investors": [
+        "Generation Investment Management"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.bbc.com/news/business-58713503",
+          "quote": "Generation Investment Management, will initially make an investment of £219m, followed by a further £219m by June next year, subject to certain conditions"
+        },
+        {
+          "field": "month",
+          "url": "https://www.bbc.com/news/business-58713503",
+          "quote": "28 September 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.bbc.com/news/business-58713503",
+          "quote": "Generation Investment Management, will initially make an investment of £219m"
+        }
+      ]
+    },
+    {
+      "techeuId": "f6e4ccbe-7e2c-4559-b565-abd0ba4c25c3",
+      "stage": "series-d",
+      "month": "2021-12",
+      "amountEur": 266122594,
+      "amountOriginal": 300000000,
+      "currency": "USD",
+      "postMoneyValuationEur": 4435376563,
+      "investors": [
+        "Canada Pension Plan Investment Board"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.theguardian.com/business/2021/dec/10/octopus-energy-raises-long-term-investment-to-value-startup-at-5bn",
+          "quote": "Octopus Energy has raised $300m of investment to value the power supplier at $5bn"
+        },
+        {
+          "field": "month",
+          "url": "https://www.theguardian.com/business/2021/dec/10/octopus-energy-raises-long-term-investment-to-value-startup-at-5bn",
+          "quote": "Fri 10 Dec 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.theguardian.com/business/2021/dec/10/octopus-energy-raises-long-term-investment-to-value-startup-at-5bn",
+          "quote": "The long-term tie-up with Canada Pension Plan (CPP) Investment Board is the second big investment"
+        }
+      ]
+    },
+    {
+      "techeuId": "8f6d73af-2390-4c1d-95a8-1f2fcbf56fc3",
+      "stage": "series-e",
+      "month": "2023-12",
+      "amountEur": 732734933,
+      "amountOriginal": 800000000,
+      "currency": "USD",
+      "postMoneyValuationEur": 7327349331,
+      "investors": [
+        "Tokyo Gas",
+        "Generation Investment Management",
+        "Origin Energy"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.theguardian.com/business/2023/dec/18/octopus-energy-raises-800m-aims-create-3000-green-jobs-uk",
+          "quote": "Octopus Energy has raised $800m (£630m) from its shareholders"
+        },
+        {
+          "field": "month",
+          "url": "https://www.theguardian.com/business/2023/dec/18/octopus-energy-raises-800m-aims-create-3000-green-jobs-uk",
+          "quote": "Mon 18 Dec 2023"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.theguardian.com/business/2023/dec/18/octopus-energy-raises-800m-aims-create-3000-green-jobs-uk",
+          "quote": "Its existing investors, which include Japan’s Tokyo Gas and Al Gore’s Generation Investment Management"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.theguardian.com/business/2023/dec/18/octopus-energy-raises-800m-aims-create-3000-green-jobs-uk",
+          "quote": "The Origin Energy chief executive, Frank Calabria, said of the investment"
+        }
+      ]
+    }
+  ]
+}

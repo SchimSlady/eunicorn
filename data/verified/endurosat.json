@@ -14,7 +14,7 @@
   "founders": [
     "Raycho Raychev"
   ],
-  "funFact": "EnduroSat One was the first Bulgarian CubeSat mission, deployed from the International Space Station in 2018.",
+  "funFact": "EnduroSat One, launched in 2018, was the first Bulgarian CubeSat mission.",
   "difficulty": 4,
   "techeuId": "D5AC283E-682B-469C-9CBC-4E1CEBCA08F3",
   "wikidataId": "Q102126460",
@@ -22,17 +22,17 @@
     {
       "field": "city",
       "url": "https://en.wikipedia.org/wiki/EnduroSat",
-      "quote": "EnduroSat AD is a Bulgarian aerospace manufacturer headquartered in Sofia."
+      "quote": "EnduroSat AD is a Bulgarian aerospace manufacturer headquartered in Sofia"
     },
     {
       "field": "founded",
       "url": "https://en.wikipedia.org/wiki/EnduroSat",
-      "quote": "It was founded in 2015 by Raycho Raychev."
+      "quote": "It was founded in 2015 by Raycho Raychev"
     },
     {
       "field": "founders",
       "url": "https://en.wikipedia.org/wiki/EnduroSat",
-      "quote": "It was founded in 2015 by Raycho Raychev."
+      "quote": "It was founded in 2015 by Raycho Raychev"
     },
     {
       "field": "founders",
@@ -42,26 +42,22 @@
     {
       "field": "sectors",
       "url": "https://tech.eu/2025/10/31/endurosat-secures-104m-to-expand-production-of-advanced-small-satellites/",
-      "quote": "It designs, builds, and operates small satellites and satellite modules"
+      "quote": "The team designs, builds, and operates advanced small satellites and satellite modules"
     },
     {
       "field": "status",
       "url": "https://en.wikipedia.org/wiki/EnduroSat",
-      "quote": "EnduroSat AD is a Bulgarian aerospace manufacturer headquartered in Sofia."
+      "quote": "Private spaceflight companies"
     },
     {
       "field": "unicorn",
-      "url": "https://vestbee.com/insights/articles/enduro-sat-lands-205-m",
-      "quote": "values the company at more than $1 billion"
+      "url": "https://www.bta.bg/en/news/1207643-endurosat-becomes-bulgaria-s-second-tech-unicorn-after-payhawk",
+      "quote": "valuation had \"significantly exceeded USD 1 billion"
     },
     {
       "field": "fun_fact",
       "url": "https://en.wikipedia.org/wiki/EnduroSat",
-      "quote": "EnduroSat One was the first Bulgarian CubeSat mission, deployed from the ISS in 2018."
-    },
-    {
-      "field": "logo",
-      "url": "https://www.endurosat.com/wp-content/uploads/2024/04/logo.svg"
+      "quote": "May 21, 2018 EnduroSat One First Bulgarian CubeSat mission."
     }
   ],
   "rounds": [
@@ -80,18 +76,18 @@
       "sources": [
         {
           "field": "amount",
-          "url": "https://www.globalprivatecapital.org/?p=50621",
-          "quote": "EUR43m (~USD48.8m) investment"
+          "url": "https://payloadspace.com/endurosat-raises-e43m-to-scale-production-boost-us-presence/",
+          "quote": "has raised €43M ($48.8M) to ramp up production"
         },
         {
           "field": "stage",
-          "url": "https://therecursive.com/bulgaria-startups-h1-2025-top-funding-rounds",
-          "quote": "Biggest Funding Rounds in Bulgaria (H1 2025): EnduroSat with Two Major Rounds"
+          "url": "https://nordic9.com/news/endurosat-raised-a-43-million-investment-series-b-led-by-founders-fund-joined-by-ceecat-capital-morphosis-capital",
+          "quote": "investment series B led by Founders Fund, joined by CEECAT Capital, Morphosis Capital"
         },
         {
           "field": "month",
-          "url": "https://en.wikipedia.org/wiki/EnduroSat",
-          "quote": "EnduroSat raises $49 million to mass produce larger satellites"
+          "url": "https://payloadspace.com/endurosat-raises-e43m-to-scale-production-boost-us-presence/",
+          "quote": "Jacqueline Feldscher May 27, 2025"
         },
         {
           "field": "investors",
@@ -100,8 +96,8 @@
         },
         {
           "field": "investors",
-          "url": "https://www.globalprivatecapital.org/?p=50621",
-          "quote": "CEECAT Capital and Morphosis Capital"
+          "url": "https://payloadspace.com/endurosat-raises-e43m-to-scale-production-boost-us-presence/",
+          "quote": "Founders Fund led the round, which also included participation from CEECAT Capital and Morphosis Capital"
         }
       ]
     },
@@ -122,11 +118,6 @@
       "sources": [
         {
           "field": "amount",
-          "url": "https://tech.eu/2025/10/31/endurosat-secures-104m-to-expand-production-of-advanced-small-satellites/",
-          "quote": "Sofia-based EnduroSat has closed a $104 million funding round."
-        },
-        {
-          "field": "stage",
           "url": "https://tech.eu/2025/10/31/endurosat-secures-104m-to-expand-production-of-advanced-small-satellites/",
           "quote": "Sofia-based EnduroSat has closed a $104 million funding round."
         },
@@ -165,13 +156,8 @@
       "sources": [
         {
           "field": "amount",
-          "url": "https://payloadspace.com/endurosat-raises-205m-notches-vantor-sat-win/",
-          "quote": "EnduroSat has raised $205M."
-        },
-        {
-          "field": "stage",
-          "url": "https://therecursive.com/bulgaria-startups-h1-2025-top-funding-rounds",
-          "quote": "Sifted: EnduroSat eyes $200m Series C months after last round"
+          "url": "https://evertiq.com/news/2026-09-17-endurosat-raises-205-million-to-scale-next-gen-space-fleets",
+          "quote": "has raised USD 205 million in a round co-led by Riot Ventures and Atreides Management"
         },
         {
           "field": "month",
@@ -181,7 +167,7 @@
         {
           "field": "investors",
           "url": "https://payloadspace.com/endurosat-raises-205m-notches-vantor-sat-win/",
-          "quote": "Riot Ventures and Atreides Management co-led the round."
+          "quote": "Riot Ventures and Atreides Management co-led the round for the Bulgarian satellite manufacturer"
         },
         {
           "field": "investors",

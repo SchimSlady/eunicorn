@@ -13,7 +13,7 @@
     "mobility"
   ],
   "status": "private",
-  "unicorn": true,
+  "unicorn": false,
   "founders": [
     "Fredrik Hjelm",
     "Douglas Stark",
@@ -46,23 +46,14 @@
       "quote": "A maggio l'ad ha smentito voci secondo cui Uber avrebbe comprato Voi per 1,2 miliardi di dollari."
     },
     {
-      "field": "unicorn",
-      "url": "https://tech.eu/brief/voi-keeps-a-rollin-along-brings-home-115-million-in-series-d-round/",
-      "quote": "Voi keeps a-rollin' along, brings home $115 million in Series D round at $1 billion valuation"
-    },
-    {
-      "field": "unicorn",
-      "url": "https://www.euronews.com/next/2021/12/21/voi-funding",
-      "quote": "just over $1 billion"
-    },
-    {
       "field": "fun_fact",
       "url": "https://forbes.it/2026/10/27/voi-technology-400-milioni-cambiare-citta-monopattini",
-      "quote": "Era il 2018, e da allora l'azienda ha gestito più di mezzo miliardo di corse."
+      "quote": "mezzo miliardo di corse in monopattino e bici elettrica in 13 paesi europei"
     },
     {
       "field": "logo",
-      "url": "https://commons.wikimedia.org/wiki/File:Voi_Technology_Logo_2018.svg"
+      "url": "https://commons.wikimedia.org/wiki/File:Voi_Technology_Logo_2018.svg",
+      "quote": "File:Voi Technology Logo 2018.svg - Wikimedia Commons"
     }
   ],
   "rounds": [
@@ -82,22 +73,22 @@
         {
           "field": "amount",
           "url": "https://techcrunch.com/2018/11/18/hold-on-tight/",
-          "quote": "has raised $50 million in Series A funding, confirming our earlier scoop."
+          "quote": "has raised $50 million in Series A funding, confirming our earlier scoop"
         },
         {
           "field": "month",
           "url": "https://techcrunch.com/2018/11/18/hold-on-tight/",
-          "quote": "has raised $50 million in Series A funding, confirming our earlier scoop."
+          "quote": "has raised $50 million in Series A funding, confirming our earlier scoop"
         },
         {
           "field": "stage",
           "url": "https://techcrunch.com/2018/11/18/hold-on-tight/",
-          "quote": "has raised $50 million in Series A funding, confirming our earlier scoop."
+          "quote": "has raised $50 million in Series A funding, confirming our earlier scoop"
         },
         {
           "field": "investors",
-          "url": "https://www.unquote.com/nordics/official-record/3020273/vnv-global-leads-usd30m-round-for-voi-technology",
-          "quote": "Balderton Capital led a $50m series-A funding round"
+          "url": "https://techcrunch.com/2018/11/18/hold-on-tight/",
+          "quote": "London-based venture capital firm Balderton Capital has led the round, alongside LocalGlobe, Raine Ventures and previous VOI backer Vostok New Ventures"
         }
       ]
     },
@@ -165,8 +156,8 @@
         },
         {
           "field": "stage",
-          "url": "https://www.unquote.com/nordics/official-record/3020273/vnv-global-leads-usd30m-round-for-voi-technology",
-          "quote": "VNV led an $85m series-B round"
+          "url": "https://tech.eu/2019/11/11/voi-raises-another-85-million-to-lead-e-scooter-market-in-europe/",
+          "quote": "has announced $85 million in Series B funding."
         },
         {
           "field": "investors",
@@ -284,8 +275,8 @@
         },
         {
           "field": "investors",
-          "url": "https://tech.eu/brief/voi-keeps-a-rollin-along-brings-home-115-million-in-series-d-round/",
-          "quote": "Led by: The Raine Group and VNV Global"
+          "url": "https://tech.eu/2021/12/21/voi-keeps-a-rollin-along-brings-home-115-million-in-series-d-round/",
+          "quote": "Voi’s $115 million Series D round was led by The Raine Group and VNV Global"
         },
         {
           "field": "valuation",

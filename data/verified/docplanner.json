@@ -1,0 +1,203 @@
+{
+  "id": "docplanner",
+  "name": "Docplanner",
+  "aliases": [
+    "ZnanyLekarz"
+  ],
+  "domain": "docplanner.com",
+  "country": "PL",
+  "city": "Warsaw",
+  "founded": 2012,
+  "sectors": [
+    "health"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Mariusz Gralewski"
+  ],
+  "difficulty": 2,
+  "techeuId": "DB08597C-CE04-4034-9752-68133877922A",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://techcrunch.com/2012/12/03/docplanner-the-zocdoc-of-e-europe-raises-1m-series-a-backed-by-point-nine-capital-piton-capital-to-expand-to-5-more-markets/",
+      "quote": "based in Warsaw, Poland"
+    },
+    {
+      "field": "founded",
+      "url": "https://techround.co.uk/interviews/meet-mariusz-gralewski-docplanner",
+      "quote": "Docplanner was founded in 2012 in Poland"
+    },
+    {
+      "field": "founders",
+      "url": "https://3seaseurope.com/znany-lekarz-docplanner-polish-startup/",
+      "quote": "Mariusz Gralewski, founder of Znany Lekarz (DocPlanner)"
+    },
+    {
+      "field": "sectors",
+      "url": "https://techcrunch.com/2012/12/03/docplanner-the-zocdoc-of-e-europe-raises-1m-series-a-backed-by-point-nine-capital-piton-capital-to-expand-to-5-more-markets/",
+      "quote": "an online medical and dental appointment scheduling startup"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-a",
+      "month": "2012-12",
+      "amountEur": 765873,
+      "amountOriginal": 1000000,
+      "currency": "USD",
+      "investors": [
+        "Point Nine Capital",
+        "Piton Capital",
+        "RTA Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2012/12/03/docplanner-the-zocdoc-of-e-europe-raises-1m-series-a-backed-by-point-nine-capital-piton-capital-to-expand-to-5-more-markets/",
+          "quote": "has raised $1 million in Series A funding"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2012/12/03/docplanner-the-zocdoc-of-e-europe-raises-1m-series-a-backed-by-point-nine-capital-piton-capital-to-expand-to-5-more-markets/",
+          "quote": "December 3, 2012"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2012/12/03/docplanner-the-zocdoc-of-e-europe-raises-1m-series-a-backed-by-point-nine-capital-piton-capital-to-expand-to-5-more-markets/",
+          "quote": "Investors in the round include Point Nine Capital"
+        }
+      ]
+    },
+    {
+      "techeuId": "5166ba43-c992-4f13-dab7-08d91092c887",
+      "stage": "series-b",
+      "month": "2015-05",
+      "amountEur": 8911862,
+      "amountOriginal": 10000000,
+      "currency": "USD",
+      "investors": [
+        "European Bank for Reconstruction and Development",
+        "Fabrice Grinda",
+        "Lukasz Gadowski",
+        "Point Nine Capital",
+        "Piton Capital",
+        "RTAventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2015/05/13/docplanner-series-b/",
+          "quote": "pulling in $10 million in Series B financing, led by the European Bank for Reconstruction and Development"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2015/05/13/docplanner-series-b/",
+          "quote": "May 13, 2015"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2015/05/13/docplanner-series-b/",
+          "quote": "including Fabrice Grinda (Airbnb, Uber), Lukasz Gadowski (Delivery Hero), along with existing investors Point Nine Capital, Piton Capital and RTAventures"
+        }
+      ]
+    },
+    {
+      "techeuId": "99b0852e-a8fb-44c6-dab8-08d91092c887",
+      "stage": "series-c",
+      "month": "2016-06",
+      "amountEur": 17624251,
+      "amountOriginal": 20000000,
+      "currency": "USD",
+      "investors": [
+        "Target Global",
+        "ENERN Investments",
+        "European Bank for Reconstruction and Development"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2016/06/07/docplanner-doctoralia/",
+          "quote": "has raised a $20 million Series C round"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2016/06/07/docplanner-doctoralia/",
+          "quote": "June 7, 2016"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2016/06/07/docplanner-doctoralia/",
+          "quote": "which was led by Target Global, will be used"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2016/06/07/docplanner-doctoralia/",
+          "quote": "ENERN Investments and EBRD also participated"
+        }
+      ]
+    },
+    {
+      "techeuId": "98dcf705-0b2e-43e3-daba-08d91092c887",
+      "stage": "series-d",
+      "month": "2017-05",
+      "amountEur": 15000000,
+      "amountOriginal": 15000000,
+      "currency": "EUR",
+      "investors": [
+        "Enern Investments",
+        "Target Global",
+        "One Peak Partners"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2017/05/23/docplanner-d/",
+          "quote": "has raised €15 million in Series D funding"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2017/05/23/docplanner-d/",
+          "quote": "May 23, 2017"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2017/05/23/docplanner-d/",
+          "quote": "Leading the round is existing investors Enern Investments, and Target Global, in addition to London-based One Peak Partners"
+        }
+      ]
+    },
+    {
+      "techeuId": "b73817dc-ecbd-4fc9-dabb-08d91092c887",
+      "stage": "series-e",
+      "month": "2019-05",
+      "amountEur": 80000000,
+      "amountOriginal": 80000000,
+      "currency": "EUR",
+      "investors": [
+        "One Peak Partners",
+        "Goldman Sachs Private Capital",
+        "Piton Capital",
+        "ENERN Investments"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2019/05/14/docplanner-series-e/",
+          "quote": "has closed €80 million in Series E financing"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2019/05/14/docplanner-series-e/",
+          "quote": "May 14, 2019"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2019/05/14/docplanner-series-e/",
+          "quote": "The round is led by One Peak Partners and Goldman Sachs Private Capital, with existing investors Piton Capital and ENERN Investments also participating"
+        }
+      ]
+    }
+  ]
+}
