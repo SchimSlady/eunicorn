@@ -170,12 +170,7 @@ export async function getDataset(): Promise<(Omit<Dataset, "rounds"> & { rounds:
  * wins (RLS hides drafts and future days); without one, the puzzle is generated from the
  * verified data. null only when Supabase is unavailable or the data can't support the mode.
  */
-export async function getPuzzle(mode: PlayMode, date: string, rotate?: string): Promise<AnyPuzzle | null> {
-  // Test mode: skip the approved puzzle and generate a new one from this salt.
-  if (rotate) {
-    const data = await getDataset();
-    return data ? generatePuzzle(mode, date, data, rotate) : null;
-  }
+export async function getPuzzle(mode: PlayMode, date: string): Promise<AnyPuzzle | null> {
   // Top 10 is web-only for now: the puzzles table's mode enum doesn't know it, so it's always generated.
   if (mode === "top-10") {
     const data = await getDataset();

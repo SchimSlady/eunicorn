@@ -1,7 +1,7 @@
 import type { PlayMode } from "@/lib/top10";
 
 import { getPuzzle } from "@/lib/server/supabase";
-import { DAILY_LOCK, todayKey } from "@/lib/daily";
+import { todayKey } from "@/lib/daily";
 
 const MODES: PlayMode[] = ["who-raised-this", "unicorn-grid", "higher-lower", "impostor", "top-10"];
 
@@ -13,10 +13,8 @@ const MODES: PlayMode[] = ["who-raised-this", "unicorn-grid", "higher-lower", "i
 export async function GET(req: Request, { params }: { params: Promise<{ mode: string }> }) {
   const { mode } = await params;
   if (!MODES.includes(mode as PlayMode)) return new Response(null, { status: 404 });
-  // Test mode only (daily lock off): ?rotate=<anything> gives a freshly generated puzzle.
-  const rotate = DAILY_LOCK ? null : new URL(req.url).searchParams.get("rotate");
-  const puzzle = await getPuzzle(mode as PlayMode, todayKey(), rotate ?? undefined);
+  const puzzle = await getPuzzle(mode as PlayMode, todayKey());
   if (!puzzle) return new Response(null, { status: 204 });
-  const cache = rotate ? "no-store" : "public, s-maxage=300, stale-while-revalidate=600";
-  return Response.json(puzzle, { headers: { "Cache-Control": cache } });
+  // The day's puzzle is the same for everyone, so the edge can serve it for a while without running this again.
+  return Response.json(puzzle, { headers: { "Cache-Control": "public, s-maxage=300, stale-while-revalidate=600" } });
 }

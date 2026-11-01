@@ -17,9 +17,8 @@ import { distinctAnswers } from "../grid";
 /** Day 1 of EUnicorn: puzzle numbers count from here. */
 const FIRST_DAY = "2026-11-01";
 
-export function generatePuzzle(mode: PlayMode, date: string, data: Dataset, salt?: string): AnyPuzzle | null {
-  // salt (test mode only) varies the puzzle within a day; without it the day decides alone.
-  const rng = seeded(salt ? `${date}:${mode}:${salt}` : `${date}:${mode}`);
+export function generatePuzzle(mode: PlayMode, date: string, data: Dataset): AnyPuzzle | null {
+  const rng = seeded(`${date}:${mode}`);
   const base = { date, number: puzzleNumber(date), hints: [] as Hint[] };
   const companies = data.companies.filter((c) => c.european);
   switch (mode) {
@@ -453,7 +452,7 @@ function higherLower(base: Base, date: string, companies: Company[], rng: Rng): 
 
 interface Group {
   members: (c: Company) => boolean;
-  /** The sentence before "Except two.": "All of these come from Germany". */
+  /** What the group has in common, short, as the prompt opens: "Based in Paris". */
   prompt: string;
   /** What the others have in common, for the explanation: "are German companies". */
   shared: string;
@@ -474,14 +473,13 @@ function impostorCount(rng: Rng): number {
   const r = rng();
   return r < 0.6 ? 1 : r < 0.9 ? 2 : 3;
 }
-const COUNT_WORD = ["", "one", "two", "three"];
 
 function impostor(base: Base, companies: Company[], rng: Rng): (ImpostorPuzzle & { variants: ImpostorVariants }) | null {
   const groups: Group[] = [];
   for (const code of unique(companies.map((c) => c.country))) {
     groups.push({
       members: (c) => c.country === code,
-      prompt: `All of these come from ${countryName(code)}`,
+      prompt: `From ${countryName(code)}`,
       shared: `come from ${countryName(code)}`,
       odd: (c) => `comes from ${countryName(c.country)}`,
     });
@@ -489,7 +487,7 @@ function impostor(base: Base, companies: Company[], rng: Rng): (ImpostorPuzzle &
   for (const city of unique(companies.map((c) => c.city).filter(Boolean))) {
     groups.push({
       members: (c) => c.city === city,
-      prompt: `All of these are based in ${city}`,
+      prompt: `Based in ${city}`,
       shared: `are based in ${city}`,
       odd: (c) => `is based in ${c.city}`,
     });
@@ -497,21 +495,21 @@ function impostor(base: Base, companies: Company[], rng: Rng): (ImpostorPuzzle &
   for (const sector of unique(companies.flatMap((c) => c.sectors))) {
     groups.push({
       members: (c) => c.sectors.includes(sector),
-      prompt: `All of these are ${sectorPlural(sector)}`,
+      prompt: sectorPlural(sector).replace(/^./, (c) => c.toUpperCase()),
       shared: `are ${sectorPlural(sector)}`,
       odd: (c) => `is ${c.sectors.map(sectorLabel).join(" and ")}`,
     });
   }
   groups.push({
     members: (c) => c.unicorn,
-    prompt: "All of these are unicorns",
+    prompt: "Unicorns",
     shared: "have been valued at €1bn or more",
     odd: () => "has never been valued at €1bn or more",
   });
   for (const year of [2012, 2015, 2019]) {
     groups.push({
       members: (c) => c.founded >= year,
-      prompt: `All of these were founded in ${year} or later`,
+      prompt: `Founded in ${year} or later`,
       shared: `were founded in ${year} or later`,
       odd: (c) => `was founded in ${c.founded}`,
     });
@@ -533,7 +531,7 @@ function impostor(base: Base, companies: Company[], rng: Rng): (ImpostorPuzzle &
         const imps = pickN(outsiders, n, rng);
         const first = imps[0];
         return {
-          prompt: `${g.prompt}. Except ${COUNT_WORD[n]}.`,
+          prompt: `${g.prompt}: Find ${n === 1 ? "the impostor" : `${n} impostors`}`,
           companyIds: shuffle([...fit, ...imps], rng).map((c) => c.id),
           impostorId: first.id,
           impostorIds: imps.map((c) => c.id),
@@ -571,7 +569,9 @@ const STAGE_LABEL: Record<string, string> = {
 };
 
 function sectorPlural(s: string): string {
-  return SECTOR_PLURAL[s] ?? `${sectorLabel(s).toLowerCase()} companies`;
+  const label = sectorLabel(s).toLowerCase();
+  // "semiconductors" is already a plural; "dev tools" too.
+  return SECTOR_PLURAL[s] ?? (label.endsWith("s") ? label : `${label} companies`);
 }
 
 function flag(code: string): string {
