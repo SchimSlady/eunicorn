@@ -353,7 +353,7 @@ function gridCriteria(data: Dataset, companies: Company[]): Criterion[] {
     if (count(before) >= 3) out.push({ group: "founded", test: before, c: { kind: "founded-before", value: year + 1, label: `Founded ${year} or earlier` } });
   }
   const names = new Map(data.investors.map((i) => [i.id, i.name]));
-  const set = new Map(data.investors.map((i) => [i.id, (i as { tier?: number }).tier]));
+  const set = new Map(data.investors.map((i) => [i.id, i.tier]));
   const backed = new Map<string, Set<string>>();
   for (const r of data.rounds) for (const id of r.investorIds) (backed.get(id) ?? backed.set(id, new Set()).get(id)!).add(r.companyId);
   for (const [id, cos] of backed) {
