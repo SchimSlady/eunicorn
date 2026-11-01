@@ -2,7 +2,8 @@
 
 import { useEffect, useMemo, useState } from "react";
 import { ArrowDown, ArrowUp, Check, X } from "lucide-react";
-import type { Company, Dataset, HigherLowerPuzzle } from "@eunicorn/schema";
+import type { Company, Dataset } from "@eunicorn/schema";
+import { metricValue, type WebHigherLowerPuzzle } from "@/lib/higherLower";
 import { indexById, loadGame } from "@/lib/data";
 import { getTodayResult, loadProgress, saveProgress, saveResult } from "@/lib/daily";
 import { saveDifficulty, type Difficulty } from "@/lib/difficulty";
@@ -28,9 +29,8 @@ const POINTS_PER_ROUND = 2;
  * how many hints are on offer; the game is the same. Generated puzzles carry one chain per level;
  * a hand-made puzzle has one chain for all levels.
  */
-type Puzzle = HigherLowerPuzzle & {
-  variants?: Partial<Record<Difficulty, { companyIds: string[]; hints: HigherLowerPuzzle["hints"] }>>;
-};
+type Puzzle = WebHigherLowerPuzzle;
+type HigherLowerPuzzle = WebHigherLowerPuzzle;
 
 /** The puzzle as played at this level: that level's chain and hints, if the puzzle has them. */
 function atLevel(p: Puzzle, d: Difficulty): HigherLowerPuzzle {
@@ -45,6 +45,7 @@ const PHRASE: Record<HigherLowerPuzzle["metric"], { has: string; higher: string;
   totalRaisedUsd: { has: "has raised", higher: "higher", lower: "lower", question: (n: string) => `Is ${n} higher or lower?` },
   founded: { has: "was founded in", higher: "later", lower: "earlier", question: (n: string) => `Was ${n} founded earlier or later?` },
   employees: { has: "has", higher: "higher", lower: "lower", question: (n: string) => `Is ${n} higher or lower?` },
+  biggestRoundUsd: { has: "raised in its biggest round", higher: "higher", lower: "lower", question: (n: string) => `Was ${n}'s biggest round higher or lower?` },
 };
 
 type Call = "higher" | "lower";
@@ -69,7 +70,10 @@ interface Round {
  * companyIds[i-1] with its value and asks whether companyIds[i] is higher or lower.
  */
 function playRounds(p: HigherLowerPuzzle, answers: string[], companies: Map<string, Company>): Round[] {
-  const value = (id: string) => companies.get(id)?.[p.metric] ?? 0;
+  const value = (id: string) => {
+    const c = companies.get(id);
+    return c ? (metricValue(c, p.metric) ?? 0) : 0;
+  };
   const rounds: Round[] = [];
   for (let i = 1; i < p.companyIds.length; i++) {
     const previous = p.companyIds[i - 1];
@@ -104,7 +108,7 @@ function shareText(p: HigherLowerPuzzle, progress: Progress, companies: Map<stri
   const { rounds, correct, totalRounds } = evaluate(p, progress, companies);
   const squares = rounds.filter((r) => r.answer !== undefined).map((r) => (r.correct ? "🟩" : "🟥")); // share text, not UI. taste-skill-ignore
   const summary = `${correct} of ${totalRounds} right`;
-  return buildShareText({ number: p.number, modeTitle: TITLE, difficulty: progress.difficulty, hintsUsed: progress.hintsUsed, squares, summary });
+  return buildShareText({ number: p.number, modeTitle: p.theme ? `${TITLE} · ${p.theme}` : TITLE, difficulty: progress.difficulty, hintsUsed: progress.hintsUsed, squares, summary });
 }
 
 export function HigherLowerGame() {
@@ -247,6 +251,12 @@ export function HigherLowerGame() {
             : `${prev.name} ${phrase.has} ${formatMetric(prev, play.metric)}. ${phrase.question(next.name)}`
         }
       />
+
+      {play.theme && (
+        <p className="text-center text-sm font-semibold">
+          <span className="rounded-full bg-primary px-3 py-1 text-on-primary">Theme day: {play.theme}</span>
+        </p>
+      )}
 
       {/* One dot per round, sharing the width, so even 15 rounds fit a phone. */}
       <div className="text-sm">

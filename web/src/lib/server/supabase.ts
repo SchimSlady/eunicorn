@@ -4,6 +4,7 @@ import { fetchAll } from "./paged";
 import type { Company, Dataset, Puzzle, Round } from "@eunicorn/schema";
 import { USD_TO_EUR } from "@/lib/format";
 import { generatePuzzle } from "./generate";
+import type { HLCompany } from "@/lib/higherLower";
 import logoFiles from "./logos.generated.json";
 
 /**
@@ -117,9 +118,12 @@ export async function getDataset(): Promise<(Omit<Dataset, "rounds"> & { rounds:
   if (!companies?.length || !rounds || !investors || !people) return null;
 
   const raised = new Map((totals ?? []).map((t) => [t.company_id, t.total_raised_eur]));
+  // The biggest single round per company, for Higher or Lower's "biggest round" days (web only).
+  const biggest = new Map<string, number>();
+  for (const r of rounds) biggest.set(r.company_id, Math.max(biggest.get(r.company_id) ?? 0, r.amount_eur ?? 0));
   return {
     companies: companies.map(
-      (c): Company => ({
+      (c): HLCompany => ({
         id: c.id,
         name: c.name,
         domain: c.domain,
@@ -134,6 +138,7 @@ export async function getDataset(): Promise<(Omit<Dataset, "rounds"> & { rounds:
         founderIds: c.company_founders.map((f) => f.person_id),
         totalRaisedUsd: eurAsUsd(raised.get(c.id)),
         lastValuationUsd: eurAsUsd(c.last_valuation_eur),
+        biggestRoundUsd: biggest.get(c.id) ? eurAsUsd(biggest.get(c.id)) : undefined,
         employees: c.employees ?? undefined,
         careersUrl: c.careers_url ?? undefined,
         funFact: c.fun_fact ?? undefined,

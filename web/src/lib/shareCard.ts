@@ -67,6 +67,14 @@ function layoutRows(rows: ShareInfo["rows"]): ShareInfo["rows"] {
 }
 
 /** betterThan: share of today's other players with a lower score, when known. */
+/** The largest size up to `size` at which the text fits `maxWidth`. */
+function fitFont(ctx: CanvasRenderingContext2D, text: string, size: number, maxWidth: number, weight = 700) {
+  for (let px = size; px >= 36; px -= 4) {
+    ctx.font = `${weight} ${px}px "Space Grotesk", sans-serif`;
+    if (ctx.measureText(text).width <= maxWidth) return;
+  }
+}
+
 export async function drawShareCard(info: ShareInfo, betterThan?: number | null): Promise<Blob> {
   await Promise.all([document.fonts.load('700 80px "Space Grotesk"'), document.fonts.load('500 40px "Inter"')]).catch(() => {});
   const canvas = document.createElement("canvas");
@@ -102,12 +110,19 @@ export async function drawShareCard(info: ShareInfo, betterThan?: number | null)
   ctx.fillText("nicorn", x0 + logoW + 18 + ctx.measureText("EU").width, 300);
   ctx.textAlign = "center";
 
+  // Game title, with the theme on a second line on theme days ("Higher or Lower · Fintech only").
+  const [title, theme] = info.mode.split(" · ");
   ctx.fillStyle = COLORS.ink;
-  ctx.font = '700 92px "Space Grotesk", sans-serif';
-  ctx.fillText(info.mode, W / 2, 500);
+  fitFont(ctx, title, 92, 940);
+  ctx.fillText(title, W / 2, theme ? 470 : 500);
+  if (theme) {
+    ctx.fillStyle = COLORS.yellow;
+    fitFont(ctx, theme, 52, 940, 600);
+    ctx.fillText(theme, W / 2, 530);
+  }
   ctx.fillStyle = COLORS.soft;
   ctx.font = '500 44px "Inter", sans-serif';
-  ctx.fillText([info.number && `#${info.number}`, info.difficulty].filter(Boolean).join(" · "), W / 2, 570);
+  ctx.fillText([info.number && `#${info.number}`, info.difficulty].filter(Boolean).join(" · "), W / 2, theme ? 596 : 570);
 
   // The squares, centred around the middle of the ring.
   const rows = layoutRows(info.rows);

@@ -1,9 +1,10 @@
 import type { AnyPuzzle, PlayMode, Top10Puzzle, Top10Round } from "@/lib/top10";
-import type { Company, Dataset, GridCriterion, Hint, HigherLowerMetric, HigherLowerPuzzle, ImpostorPuzzle, UnicornGridPuzzle, WhoRaisedThisPuzzle } from "@eunicorn/schema";
+import type { Company, Dataset, GridCriterion, Hint, ImpostorPuzzle, UnicornGridPuzzle, WhoRaisedThisPuzzle } from "@eunicorn/schema";
 import { CATEGORY_LEVEL_MAX, DIFFICULTIES, FAME_TIERS, INVESTOR_TIER_MAX, type Difficulty } from "../difficulty";
 import { USD_TO_EUR, countryName, formatUsdAsEur, sectorLabel } from "../format";
 import { distinctAnswers } from "../grid";
 import { TOP10_QUESTIONS, type Top10Question } from "./top10-questions";
+import { metricValue, type HLMetric, type WebHigherLowerPuzzle } from "../higherLower";
 
 /**
  * Builds the day's puzzle from the verified Supabase dataset when no approved puzzle exists
@@ -387,8 +388,8 @@ const HL_MIN_GAP = 1.3;
 
 /** A Higher or Lower chain whose every step is a clear gap; null if the data can't make one. */
 /** At most 15 rounds (16 companies); a thinner tier gets a shorter chain. */
-function hlChain(cs: Company[], metric: HigherLowerMetric, rng: Rng, length = 16): Company[] | null {
-  const v = (c: Company) => c[metric]!;
+function hlChain(cs: Company[], metric: HLMetric, rng: Rng, length = 16): Company[] | null {
+  const v = (c: Company) => metricValue(c, metric)!;
   // Founding years only need to differ (no ties); money needs a clear ratio.
   const fits =
     metric === "founded"
@@ -411,30 +412,108 @@ function hlChain(cs: Company[], metric: HigherLowerMetric, rng: Rng, length = 16
 /** Higher or Lower: one chain per level. Web-only extra. */
 export type HigherLowerVariants = Partial<Record<Difficulty, { companyIds: string[]; hints: Hint[] }>>;
 
-function higherLower(base: Base, date: string, companies: Company[], rng: Rng): (HigherLowerPuzzle & { variants: HigherLowerVariants }) | null {
-  const metrics: HigherLowerMetric[] = ["totalRaisedUsd", "lastValuationUsd", "founded"];
+/**
+ * From this day on, Higher or Lower also has "biggest round" days and theme days. Earlier days
+ * keep exactly the puzzle they had (same metric, same chain), so a deploy never swaps a puzzle
+ * someone is playing.
+ */
+const HL_EXTRAS_FROM = "2026-11-04";
+/** A theme needs this many companies with the day's metric, and this many per level. */
+const HL_THEME_MIN = 30;
+const HL_THEME_MIN_PER_LEVEL = 14;
+/** A theme day's chains must have at least this many companies at every level, else no theme. */
+const HL_THEME_MIN_CHAIN = 11;
+const HL_METRICS: HLMetric[] = ["totalRaisedUsd", "lastValuationUsd", "founded", "biggestRoundUsd"];
+
+type HLTheme = { label: string; test: (c: Company) => boolean };
+
+/** A few broad themes, just for variety; nothing so specific that only insiders enjoy it. */
+const HL_THEMES: HLTheme[] = [
+  { label: "Unicorns only", test: (c) => c.unicorn },
+  { label: "Founded 2015 or later", test: (c) => c.founded >= 2015 },
+  { label: "Founded before 2015", test: (c) => c.founded > 0 && c.founded < 2015 },
+];
+
+/** Whether a day (from HL_EXTRAS_FROM on) is a theme day: about one day in three, from its own random stream. */
+const hlThemed = (date: string) => date >= HL_EXTRAS_FROM && seeded(`${date}:higher-lower:theme`)() < 0.33;
+
+function nextDay(day: string): string {
+  const d = new Date(`${day}T00:00:00Z`);
+  d.setUTCDate(d.getUTCDate() + 1);
+  return d.toISOString().slice(0, 10);
+}
+
+/** Enough companies with this metric overall and in every level's fame tier. */
+function hlThemeFits(theme: HLTheme, metric: HLMetric, companies: Company[]): boolean {
+  const pool = companies.filter((c) => (metricValue(c, metric) ?? 0) > 0 && theme.test(c));
+  if (pool.length < HL_THEME_MIN) return false;
+  return DIFFICULTIES.every((l) => pool.filter((c) => c.difficulty >= FAME_TIERS[l].min && c.difficulty <= FAME_TIERS[l].max).length >= HL_THEME_MIN_PER_LEVEL);
+}
+
+/**
+ * The day's theme, if it's a theme day. Theme days go through the themes in a fixed shuffled
+ * order, each taking the next one after the previous theme day's that fits its metric, so a
+ * theme never comes twice in a row and only returns once the others have had a turn.
+ */
+function hlThemeFor(date: string, companies: Company[]): HLTheme | undefined {
+  if (!hlThemed(date)) return undefined;
+  const order = shuffle(HL_THEMES, seeded("higher-lower:themes"));
+  let last = -1;
+  for (let d = HL_EXTRAS_FROM; d <= date; d = nextDay(d)) {
+    if (!hlThemed(d)) continue;
+    const metric = HL_METRICS[puzzleNumber(d) % HL_METRICS.length];
+    for (let step = 1; step <= order.length; step++) {
+      const i = (last + step) % order.length;
+      if (hlThemeFits(order[i], metric, companies)) {
+        last = i;
+        break;
+      }
+    }
+  }
+  return last >= 0 ? order[last] : undefined;
+}
+
+function higherLower(base: Base, date: string, companies: Company[], rng: Rng): WebHigherLowerPuzzle | null {
+  const extras = date >= HL_EXTRAS_FROM;
+  const metrics: HLMetric[] = extras ? HL_METRICS : ["totalRaisedUsd", "lastValuationUsd", "founded"];
   // Rotate the metric by day, falling back to the next one if the data is too thin.
   const start = puzzleNumber(date) % metrics.length;
+  const theme = hlThemeFor(date, companies);
   for (const metric of metrics.map((_, i) => metrics[(start + i) % metrics.length])) {
-    const usable = companies.filter((c) => c[metric] != null && c[metric]! > 0);
-    const label = metric === "totalRaisedUsd" ? "has raised" : metric === "founded" ? "was founded in" : "was last valued at";
-    const value = (c: Company) => (metric === "founded" ? String(c.founded) : formatUsdAsEur(c[metric]!));
-    const variants: HigherLowerVariants = {};
-    for (const level of DIFFICULTIES) {
-      const built = forLevel(level, usable, (pool) => {
-        const chain = hlChain(pool, metric, rng);
-        if (!chain) return null;
-        const [a, b] = pickN(chain.slice(1), 2, rng);
-        return {
-          companyIds: chain.map((c) => c.id),
-          hints: [
-            { text: `${a.name} ${label} ${value(a)}`, cost: 1 },
-            { text: `${b.name} ${label} ${value(b)}`, cost: 1 },
-          ],
-        };
-      });
-      if (built) variants[level] = built;
+    const usable = companies.filter((c) => (metricValue(c, metric) ?? 0) > 0);
+    const label =
+      metric === "totalRaisedUsd" ? "has raised" : metric === "founded" ? "was founded in" : metric === "biggestRoundUsd" ? "raised in its biggest round" : "was last valued at";
+    const value = (c: Company) => (metric === "founded" ? String(c.founded) : formatUsdAsEur(metricValue(c, metric)!));
+
+    const build = (pool: Company[], chainRng: Rng): HigherLowerVariants => {
+      const variants: HigherLowerVariants = {};
+      for (const level of DIFFICULTIES) {
+        const built = forLevel(level, pool, (tier) => {
+          const chain = hlChain(tier, metric, chainRng);
+          if (!chain) return null;
+          const [a, b] = pickN(chain.slice(1), 2, chainRng);
+          return {
+            companyIds: chain.map((c) => c.id),
+            hints: [
+              { text: `${a.name} ${label} ${value(a)}`, cost: 1 },
+              { text: `${b.name} ${label} ${value(b)}`, cost: 1 },
+            ],
+          };
+        });
+        if (built) variants[level] = built;
+      }
+      return variants;
+    };
+
+    // Only on the metric the theme was chosen for (the day's first); a fallback metric plays without.
+    if (theme && metric === metrics[start] && usable.some(theme.test)) {
+      const variants = build(usable.filter(theme.test), seeded(`${date}:higher-lower:${theme.label}`));
+      const full = DIFFICULTIES.every((l) => (variants[l]?.companyIds.length ?? 0) >= HL_THEME_MIN_CHAIN);
+      const main = mainOf(variants);
+      if (full && main) return { ...base, mode: "higher-lower", metric, theme: theme.label, companyIds: main.companyIds, hints: main.hints, variants };
     }
+
+    const variants = build(usable, rng);
     const main = mainOf(variants);
     if (!main) continue;
     return { ...base, mode: "higher-lower", metric, companyIds: main.companyIds, hints: main.hints, variants };

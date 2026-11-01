@@ -1,4 +1,5 @@
-import type { Company, HigherLowerMetric } from "@eunicorn/schema";
+import type { Company } from "@eunicorn/schema";
+import { metricValue, type HLMetric } from "./higherLower";
 
 /**
  * European formats everywhere: euros, "bn"/"m", day before month, 24-hour clock,
@@ -38,15 +39,16 @@ function trim(n: number): string {
   return n >= 100 ? String(Math.round(n)) : n.toFixed(1).replace(/\.0$/, "");
 }
 
-export const METRIC_META: Record<HigherLowerMetric, { question: string; label: string }> = {
+export const METRIC_META: Record<HLMetric, { question: string; label: string }> = {
   lastValuationUsd: { question: "Which is valued higher?", label: "Valuation" },
   totalRaisedUsd: { question: "Which raised more?", label: "Total raised" },
   founded: { question: "Founded earlier or later?", label: "Founded" },
   employees: { question: "Which has more employees?", label: "Employees" },
+  biggestRoundUsd: { question: "Whose biggest round was bigger?", label: "Biggest round" },
 };
 
-export function formatMetric(c: Company, metric: HigherLowerMetric): string {
-  const v = c[metric];
+export function formatMetric(c: Company, metric: HLMetric): string {
+  const v = metricValue(c, metric);
   if (v == null) return "–";
   if (metric === "founded") return String(v);
   if (metric === "employees") return groupThousands(v);

@@ -1,4 +1,5 @@
 import type { GameMode, Hint, Puzzle } from "@eunicorn/schema";
+import type { WebHigherLowerPuzzle } from "./higherLower";
 
 /**
  * Top 10 is a web-only mode for now: it lives outside the shared contract (packages/schema)
@@ -26,4 +27,4 @@ export interface Top10Puzzle extends Top10Round {
   variants?: Partial<Record<"easy" | "medium" | "hard", Top10Round>>;
 }
 
-export type AnyPuzzle = Puzzle | Top10Puzzle;
+export type AnyPuzzle = Puzzle | Top10Puzzle | WebHigherLowerPuzzle;
