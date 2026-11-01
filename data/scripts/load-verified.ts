@@ -49,6 +49,13 @@ const slug = (s: string) =>
   s.normalize("NFKD").replace(/[̀-ͯ]/g, "").toLowerCase().replace(/&/g, " and ")
     .replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 
+// Duplicate investor names map to one canonical investor (data/investors/aliases.json, see data/scripts/investors.ts).
+const investorMap = JSON.parse(readFileSync(join(import.meta.dirname, "../investors/aliases.json"), "utf8")) as {
+  aliases: Record<string, string>; names: Record<string, string>;
+};
+const investorNames = investorMap.names;
+const investorId = (name: string) => investorMap.aliases[slug(name)] ?? slug(name);
+
 // Logo path the web app reads (companies.logo): /logos/<id>.svg|png when the file exists, else null.
 const logosDir = join(import.meta.dirname, "../../web/public/logos");
 const logoPath = (id: string) => {
@@ -114,8 +121,10 @@ try {
            r.techeuId ? `https://funding.tech.eu/deals/${r.techeuId}` : null],
         );
         for (const name of r.investors) {
-          await db.query("insert into public.investors (id, name) values ($1, $2) on conflict (id) do nothing", [slug(name), name]);
-          await db.query("insert into public.round_investors values ($1, $2) on conflict do nothing", [id, slug(name)]);
+          const inv = investorId(name);
+          await db.query("insert into public.investors (id, name) values ($1, $2) on conflict (id) do nothing",
+            [inv, investorNames[inv] ?? name]);
+          await db.query("insert into public.round_investors values ($1, $2) on conflict do nothing", [id, inv]);
         }
         for (const s of r.sources) {
           await db.query(
