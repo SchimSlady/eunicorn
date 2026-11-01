@@ -42,7 +42,6 @@ export function IdeaBanner() {
             <h2 id="idea-title" className="font-display text-lg font-bold leading-tight">
               Got an idea for a game?
             </h2>
-            <p className="text-sm text-muted">Tell us. We read every one.</p>
           </div>
         </div>
 

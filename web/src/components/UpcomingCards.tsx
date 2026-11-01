@@ -10,16 +10,16 @@ import { PreviewFrame, WhoRaisedThisPreview } from "./ModePreview";
  * founders) can actually support.
  */
 const UPCOMING = [
-  { id: "connections", title: "Connections", tagline: "Four groups of four", Preview: ConnectionsPreview },
-  { id: "who-raised-this", title: "Who Raised This?", tagline: "Guess the startup from its round", Preview: WhoRaisedThisPreview },
-  { id: "pin-the-hq", title: "Pin the HQ", tagline: "Find it on the map", Preview: PinTheHqPreview },
-  { id: "rank-it", title: "Rank It", tagline: "Put them in order", Preview: RankItPreview },
+  { id: "connections", title: "Connections", Preview: ConnectionsPreview },
+  { id: "who-raised-this", title: "Who Raised This?", Preview: WhoRaisedThisPreview },
+  { id: "pin-the-hq", title: "Pin the HQ", Preview: PinTheHqPreview },
+  { id: "rank-it", title: "Rank It", Preview: RankItPreview },
 ];
 
 export function UpcomingCards() {
   return (
     <ul className="grid grid-cols-2 gap-4 lg:grid-cols-4">
-      {UPCOMING.map(({ id, title, tagline, Preview }) => (
+      {UPCOMING.map(({ id, title, Preview }) => (
         <li key={id} className="h-full overflow-hidden rounded-2xl border border-border bg-surface">
           <div className="relative">
             <div className="opacity-50 grayscale">
@@ -35,7 +35,6 @@ export function UpcomingCards() {
           </div>
           <div className="p-4">
             <p className="font-display text-lg font-bold leading-tight text-muted">{title}</p>
-            <p className="mt-1 text-sm text-muted">{tagline}</p>
           </div>
         </li>
       ))}

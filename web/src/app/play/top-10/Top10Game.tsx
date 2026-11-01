@@ -185,12 +185,7 @@ export function Top10Game() {
               onReveal={() => update({ ...progress, hintsUsed: progress.hintsUsed + 1 })}
             />
           </div>
-          <div className="flex flex-wrap items-center justify-between gap-2 text-sm">
-            <span className="text-muted">
-              {found.length}/10 found{wrong > 0 && ` · ${wrong} wrong`}
-            </span>
-            <RevealButton inline label="Show the list" onConfirm={() => update({ ...progress, gaveUp: true })} />
-          </div>
+          <RevealButton label="Show the list" onConfirm={() => update({ ...progress, gaveUp: true })} />
         </div>
       ) : (
         <div className="space-y-6">

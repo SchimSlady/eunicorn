@@ -3,8 +3,6 @@ import type { PlayMode } from "@/lib/top10";
 export interface ModeInfo {
   mode: PlayMode;
   title: string;
-  /** One line for the home card. */
-  tagline: string;
   /** One or two sentences on the intro screen. */
   description: string;
   /** "How to play" behind the ? in the game header: short lines, in order. */
@@ -16,7 +14,6 @@ export const MODES: ModeInfo[] = [
   {
     mode: "top-10",
     title: "Top 10",
-    tagline: "Name the ten biggest",
     description: "Name the ten biggest startups in a list, by valuation or money raised.",
     rules: [
       "Name the ten companies in the list: type a startup, and if it's in the top 10 it lands on its rank. Every empty slot shows the flag of its country.",
@@ -28,7 +25,6 @@ export const MODES: ModeInfo[] = [
   {
     mode: "who-raised-this",
     title: "Who Raised This?",
-    tagline: "Guess the startup from its round",
     description: "Guess the startup behind a funding round. Every wrong guess reveals a new clue.",
     rules: [
       "A funding round is on the board: the amount and the stage. Guess which startup raised it.",
@@ -40,7 +36,6 @@ export const MODES: ModeInfo[] = [
   {
     mode: "unicorn-grid",
     title: "Unicorn Grid",
-    tagline: "Fill the 3×3 grid",
     description: "Name a startup for each square that fits its row and column. Lesser-known answers raise more.",
     rules: [
       "Fill each square with a startup that fits both its row and its column.",
@@ -53,7 +48,6 @@ export const MODES: ModeInfo[] = [
   {
     mode: "higher-lower",
     title: "Higher or Lower",
-    tagline: "Higher or lower than the last?",
     description: "See one company's number, then say if the next one is higher or lower. One wrong call ends the run.",
     rules: [
       "You see one company's valuation or total raised. Is the next company's number higher or lower?",
@@ -65,7 +59,6 @@ export const MODES: ModeInfo[] = [
   {
     mode: "impostor",
     title: "Impostor",
-    tagline: "Spot the odd one out",
     description: "Six startups, one category. Find the one that doesn't belong.",
     rules: [
       "All but one of the startups share something: a country, a city, a sector, a founding period or unicorn status.",

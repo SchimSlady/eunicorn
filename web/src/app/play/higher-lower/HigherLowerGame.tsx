@@ -250,15 +250,13 @@ export function HigherLowerGame() {
         }
       />
 
-      <div className="flex items-center justify-between text-sm">
-        <span className="font-semibold">
-          Round {reviewing ? roundIndex : roundIndex + 1} of {totalRounds}
-        </span>
-        <span className="flex gap-1.5" aria-label={`${correct} right so far`}>
+      {/* One dot per round, sharing the width, so even 15 rounds fit a phone. */}
+      <div className="text-sm">
+        <span className="flex gap-1" role="img" aria-label={`Round ${reviewing ? roundIndex : roundIndex + 1} of ${totalRounds}, ${correct} right so far`}>
           {Array.from({ length: totalRounds }, (_, i) => {
             const r = rounds[i];
             const cls = r?.answer === undefined ? "border-2 border-primary/60" : r.correct ? "bg-correct" : "bg-wrong";
-            return <span key={i} className={`h-2.5 w-5 rounded-full ${cls}`} />;
+            return <span key={i} className={`h-2.5 min-w-0 flex-1 rounded-full ${cls}`} />;
           })}
         </span>
       </div>

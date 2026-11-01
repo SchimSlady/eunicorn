@@ -106,7 +106,7 @@ export function ImpostorGame() {
 
   const play = atLevel(puzzle, progress.difficulty);
   const impostors = impostorsOf(play);
-  const { won, found, wrong, done, score } = evaluate(play, progress);
+  const { won, found, done, score } = evaluate(play, progress);
   const impostor = companies.get(play.impostorId)!;
   // End card: the impostor, the company the whole puzzle was about.
   const featured = impostor;
@@ -214,11 +214,7 @@ export function ImpostorGame() {
       </div>
 
       {!done ? (
-        <div className="flex items-center justify-between text-sm">
-          <span className="text-muted">
-            {impostors.length > 1 && `${found} of ${impostors.length} found · `}
-            {wrong === 0 ? "No wrong picks yet" : `${wrong} wrong`}
-          </span>
+        <div className="flex justify-end">
           <Hints
             {...hintState(progress.difficulty, play.hints, progress.hintsUsed)}
             onReveal={() => update({ ...progress, hintsUsed: progress.hintsUsed + 1 })}
