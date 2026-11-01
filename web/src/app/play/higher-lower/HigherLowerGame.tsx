@@ -181,8 +181,10 @@ export function HigherLowerGame() {
   const roundIndex = progress.answers.length;
 
   if (done && !reviewing) {
-    const all = play.companyIds.map((id) => companies.get(id)!);
-    const featured = all.find((c) => c.european && c.funFact) ?? all.find((c) => c.european)!;
+    // The company that ended the run; with every call right, the last one in the chain.
+    const missed = rounds.find((r) => r.answer !== undefined && !r.correct);
+    const featured = companies.get(missed ? missed.next : play.companyIds.at(-1)!)!;
+    const reason = missed ? "The one that ended your run" : "The last one in the chain";
     const founders = featured.founderIds
       .map((id) => data.people.find((p) => p.id === id)?.name)
       .filter((n): n is string => !!n);
@@ -232,7 +234,7 @@ export function HigherLowerGame() {
           })}
         </ul>
         <HintList hints={hints} />
-        <BuiltInEuropeCard company={featured} founders={founders} />
+        <BuiltInEuropeCard company={featured} founders={founders} reason={reason} />
       </div>
     );
   }

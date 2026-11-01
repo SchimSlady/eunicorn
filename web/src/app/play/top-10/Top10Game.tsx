@@ -123,7 +123,12 @@ export function Top10Game() {
   }
 
   const wrongOnes = progress.guesses.filter((id) => !round.companyIds.includes(id)).map((id) => companies.get(id)!);
-  const top = companies.get(round.companyIds[0])!;
+  // End card: the player's rarest find (highest difficulty, then lowest rank); none found: No. 1.
+  const foundCompanies = found.map((id) => companies.get(id)!);
+  const top =
+    [...foundCompanies].sort((a, b) => b.difficulty - a.difficulty || round.companyIds.indexOf(b.id) - round.companyIds.indexOf(a.id))[0] ??
+    companies.get(round.companyIds[0])!;
+  const topReason = foundCompanies.length ? "Your deepest pick" : "No. 1 on the list";
   const topFounders = top.founderIds.map((id) => data.people.find((p) => p.id === id)?.name).filter((n): n is string => !!n);
 
   return (
@@ -217,7 +222,7 @@ export function Top10Game() {
               />
             }
           />
-          <BuiltInEuropeCard company={top} founders={topFounders} />
+          <BuiltInEuropeCard company={top} founders={topFounders} reason={topReason} />
         </div>
       )}
     </div>

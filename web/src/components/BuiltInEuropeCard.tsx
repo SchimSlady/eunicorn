@@ -2,11 +2,16 @@ import type { Company } from "@eunicorn/schema";
 import { CompanyLogo } from "./CompanyLogo";
 import { Flag } from "./Flag";
 
-/** End-of-game card: the "Go build in Europe" moment. */
-export function BuiltInEuropeCard({ company, founders }: { company: Company; founders: string[] }) {
+/**
+ * End-of-game card: the "Go build in Europe" moment, about a company from the player's own game
+ * (the answer, the one that got them, their rarest pick). reason says why it's this one.
+ */
+export function BuiltInEuropeCard({ company, founders, reason }: { company: Company; founders: string[]; reason?: string }) {
   return (
     <div className="animate-flip-in rounded-2xl bg-eu-blue p-5 text-white">
-      <p className="text-sm font-semibold text-eu-yellow">Built in Europe</p>
+      <p className="text-sm font-semibold text-eu-yellow">
+        Built in Europe{reason && <span className="font-normal text-white/70"> · {reason}</span>}
+      </p>
       <div className="mt-3 flex items-center gap-3">
         <CompanyLogo company={company} size={48} />
         <div>
