@@ -49,6 +49,11 @@
       "field": "unicorn",
       "url": "https://en.wikipedia.org/wiki/Wise_(company)",
       "quote": "On 7 July 2021, Wise went public with a direct listing on the London Stock Exchange and was valued at $11 billion."
+    },
+    {
+      "field": "valuation",
+      "url": "https://en.wikipedia.org/wiki/Wise_(company)",
+      "quote": "On 7 July 2021, Wise went public with a direct listing on the London Stock Exchange and was valued at $11 billion."
     }
   ],
   "rounds": [
@@ -105,5 +110,6 @@
         }
       ]
     }
-  ]
+  ],
+  "lastValuationEur": 9304829283
 }

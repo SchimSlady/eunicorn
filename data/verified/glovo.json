@@ -63,6 +63,11 @@
       "field": "logo",
       "url": "https://commons.wikimedia.org/wiki/File:Glovo_Logo.svg",
       "quote": "File:Glovo Logo.svg"
+    },
+    {
+      "field": "sectors",
+      "url": "https://en.wikipedia.org/wiki/Glovo",
+      "quote": "Glovo is a Spanish on-demand delivery company"
     }
   ],
   "rounds": [

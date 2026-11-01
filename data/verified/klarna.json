@@ -61,6 +61,11 @@
       "field": "logo",
       "url": "https://commons.wikimedia.org/wiki/File:Klarna_Logo_black.svg",
       "quote": "Logo of Klarna"
+    },
+    {
+      "field": "sectors",
+      "url": "https://en.wikipedia.org/wiki/Klarna",
+      "quote": "Klarna provides digital payments, short-term consumer credit, cards, banking services and merchant tools for online and in-store commerce."
     }
   ],
   "rounds": [

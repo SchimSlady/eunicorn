@@ -34,6 +34,11 @@
       "field": "founders",
       "url": "https://thenextweb.com/news/finnish-ai-cloud-company-verda-raises-189m-and-it-is-now-the-latest-unicorn-in-europe",
       "quote": "Ruben Bryon, founder and chief executive of Verda."
+    },
+    {
+      "field": "sectors",
+      "url": "https://tech.eu/2026/09/22/verda-raises-189m-to-advance-its-ai-cloud-and-expand-compute-capacity/",
+      "quote": "Verda develops and operates a full-stack AI cloud"
     }
   ],
   "rounds": [

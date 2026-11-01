@@ -20,8 +20,8 @@
   "sources": [
     {
       "field": "city",
-      "url": "https://www.ledger.com/about",
-      "quote": "106 rue du Temple, 75003 Paris, France"
+      "url": "https://fr.wikipedia.org/wiki/Ledger_(entreprise)",
+      "quote": "Siège social Paris (2e)"
     },
     {
       "field": "founded",

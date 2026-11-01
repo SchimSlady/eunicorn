@@ -51,7 +51,12 @@
     {
       "field": "unicorn",
       "url": "https://techcrunch.com/2021/01/25/wolt-closes-530m-round-to-continue-expanding-beyond-restaurant-delivery/",
-      "quote": "we’ve previously shared that the Series D round that we raised in early 2020 valued the company at above €1 billion"
+      "quote": "the Series D round that we raised in early 2020 valued the company at above €1 billion"
+    },
+    {
+      "field": "valuation",
+      "url": "https://techcrunch.com/2021/01/25/wolt-closes-530m-round-to-continue-expanding-beyond-restaurant-delivery/",
+      "quote": "the Series D round that we raised in early 2020 valued the company at above €1 billion"
     }
   ],
   "rounds": [
@@ -201,5 +206,6 @@
         }
       ]
     }
-  ]
+  ],
+  "lastValuationEur": 1000000000
 }
