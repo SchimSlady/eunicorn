@@ -1,0 +1,123 @@
+{
+  "id": "avelios-medical",
+  "name": "Avelios Medical",
+  "aliases": [
+    "Avelios"
+  ],
+  "domain": "avelios.com",
+  "country": "DE",
+  "city": "Munich",
+  "founded": 2020,
+  "sectors": [
+    "health",
+    "saas"
+  ],
+  "founders": [
+    "Christian Albrecht",
+    "Nicolas Jakob",
+    "Sebastian Krammer"
+  ],
+  "funFact": "Avelios built its entire hospital information system from scratch, and its Series A led by Sequoia was one of the largest Series A rounds in digital health at the time.",
+  "difficulty": 5,
+  "techeuId": "6D6FB121-9B2F-4D49-BE08-DFC800CBA8D6",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.startbase.com/news/avelios-medical-sichert-sich-30-millionen-euro/",
+      "quote": "Munich-based healthtech startup Avelios Medical is receiving 30 million euros in a Series A financing round."
+    },
+    {
+      "field": "founded",
+      "url": "https://www.htgf.de/?p=119446",
+      "quote": "The company was founded in 2020 by Christian Albrecht, Nicolas Jakob, and Dr. Sebastian Krammer."
+    },
+    {
+      "field": "founders",
+      "url": "https://www.htgf.de/?p=119446",
+      "quote": "The company was founded in 2020 by Christian Albrecht, Nicolas Jakob, and Dr. Sebastian Krammer."
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.htgf.de/?p=119446",
+      "quote": "provider of a modern hospital information system (HIS)"
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://www.htgf.de/?p=119446",
+      "quote": "Avelios' three founders built an entire HIS from scratch"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "39280685-4A2C-4F8E-958A-F20532F35FB5",
+      "stage": "seed",
+      "month": "2021-11",
+      "amountEur": 2000000,
+      "amountOriginal": 2000000,
+      "currency": "EUR",
+      "investors": [
+        "Revent",
+        "High-Tech Gründerfonds"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.startbase.com/news/avelios-medical-sammelt-zwei-millionen-euro-ein/",
+          "quote": "Avelios Medical has completed its seed financing round of two million euros."
+        },
+        {
+          "field": "stage",
+          "url": "https://www.startbase.com/news/avelios-medical-sammelt-zwei-millionen-euro-ein/",
+          "quote": "Avelios Medical has completed its seed financing round of two million euros."
+        },
+        {
+          "field": "investors",
+          "url": "https://www.startbase.com/news/avelios-medical-sammelt-zwei-millionen-euro-ein/",
+          "quote": "fund Revent led the financing round."
+        },
+        {
+          "field": "month",
+          "url": "https://www.startbase.com/news/avelios-medical-sammelt-zwei-millionen-euro-ein/",
+          "quote": "09. November 2021"
+        }
+      ]
+    },
+    {
+      "techeuId": "128563F0-D072-4111-BB9A-ECE97E922EF8",
+      "stage": "series-a",
+      "month": "2025-02",
+      "amountEur": 30000000,
+      "amountOriginal": 30000000,
+      "currency": "EUR",
+      "investors": [
+        "Sequoia Capital",
+        "Revent",
+        "High-Tech Gründerfonds"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.startbase.com/news/avelios-medical-sichert-sich-30-millionen-euro/",
+          "quote": "Munich-based healthtech startup Avelios Medical is receiving 30 million euros in a Series A financing round."
+        },
+        {
+          "field": "month",
+          "url": "https://www.startbase.com/news/avelios-medical-sichert-sich-30-millionen-euro/",
+          "quote": "Munich, February 6, 2025"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.startbase.com/news/avelios-medical-sichert-sich-30-millionen-euro/",
+          "quote": "Munich-based healthtech startup Avelios Medical is receiving 30 million euros in a Series A financing round."
+        },
+        {
+          "field": "investors",
+          "url": "https://www.startbase.com/news/avelios-medical-sichert-sich-30-millionen-euro/",
+          "quote": "The investment is led by Sequoia Capital, with participation from existing investors Revent and"
+        }
+      ]
+    }
+  ],
+  "status": "private",
+  "unicorn": false
+}

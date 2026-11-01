@@ -1,0 +1,130 @@
+{
+  "id": "planet-a-foods",
+  "name": "Planet A Foods",
+  "domain": "planet-a-foods.com",
+  "country": "DE",
+  "city": "Munich",
+  "founded": 2021,
+  "sectors": [
+    "foodtech",
+    "climate"
+  ],
+  "founders": [
+    "Sara Marquart",
+    "Maximilian Marquart"
+  ],
+  "funFact": "Planet A Foods was founded by siblings Sara and Maximilian Marquart; its ChoViva cocoa-free chocolate alternative is made from sunflower seeds.",
+  "difficulty": 4,
+  "techeuId": "CDF299C8-B263-4FC0-9D32-57671BC2B84D",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.proteinproductiontechnology.com/post/planet-a-foods-secures-eu14-2-million-in-funding-to-promote-sustainable-cocoa-free-chocolate-on-a-global-scale",
+      "quote": "Munich-based Planet A Foods has successfully concluded a Series A funding round"
+    },
+    {
+      "field": "founded",
+      "url": "https://www.omnescapital.com/press-release/planet-a-foods-raises-30m-series-b-to-industrialize-and-solidify-its-position-as-leader-in-sustainable-food-innovation",
+      "quote": "Founded in 2021 by siblings Dr. Sara Marquart and Dr. Maximilian Marquart"
+    },
+    {
+      "field": "founders",
+      "url": "https://www.omnescapital.com/press-release/planet-a-foods-raises-30m-series-b-to-industrialize-and-solidify-its-position-as-leader-in-sustainable-food-innovation",
+      "quote": "Founded in 2021 by siblings Dr. Sara Marquart and Dr. Maximilian Marquart"
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.omnescapital.com/press-release/planet-a-foods-raises-30m-series-b-to-industrialize-and-solidify-its-position-as-leader-in-sustainable-food-innovation",
+      "quote": "Made from sunflower seeds, ChoViva offers the rich, indulgent taste and velvety texture that consumers love from chocolate"
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://www.omnescapital.com/press-release/planet-a-foods-raises-30m-series-b-to-industrialize-and-solidify-its-position-as-leader-in-sustainable-food-innovation",
+      "quote": "Founded in 2021 by siblings Dr. Sara Marquart and Dr. Maximilian Marquart"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "43D57CF9-83EA-4A7C-95E7-641DDEC4FE88",
+      "stage": "series-a",
+      "month": "2024-02",
+      "amountEur": 14200000,
+      "amountOriginal": 14200000,
+      "currency": "EUR",
+      "investors": [
+        "World Fund",
+        "Omnes Capital",
+        "Cherry Ventures",
+        "Mudcake",
+        "Nucleus Capital",
+        "TriplePoint Capital",
+        "Feast Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.proteinproductiontechnology.com/post/planet-a-foods-secures-eu14-2-million-in-funding-to-promote-sustainable-cocoa-free-chocolate-on-a-global-scale",
+          "quote": "securing €14.2 million (US$15.4 million)"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.proteinproductiontechnology.com/post/planet-a-foods-secures-eu14-2-million-in-funding-to-promote-sustainable-cocoa-free-chocolate-on-a-global-scale",
+          "quote": "Munich-based Planet A Foods has successfully concluded a Series A funding round"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.worldfund.vc/articles/planet-a-foods-raises-15-4m-series-a",
+          "quote": "The round was led by Europe's leading climate venture fund, World Fund, with participation from Omnes Capital, Cherry Ventures, Mudcake, Nucleus Capital, TriplePoint Capital, Feast Ventures and many more."
+        },
+        {
+          "field": "month",
+          "url": "https://www.proteinproductiontechnology.com/post/planet-a-foods-secures-eu14-2-million-in-funding-to-promote-sustainable-cocoa-free-chocolate-on-a-global-scale",
+          "quote": "February 2, 2024"
+        }
+      ]
+    },
+    {
+      "techeuId": "C0A5DEAD-8C71-4C67-B4A5-BE62106F9459",
+      "stage": "series-b",
+      "month": "2024-12",
+      "amountEur": 28352708,
+      "amountOriginal": 30000000,
+      "currency": "USD",
+      "investors": [
+        "Burda Principal Investments",
+        "Zintinus",
+        "AgriFoodTech Venture Alliance",
+        "Bayern Kapital",
+        "Omnes Capital",
+        "Cherry Ventures",
+        "Tengelmann Ventures",
+        "World Fund"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.omnescapital.com/press-release/planet-a-foods-raises-30m-series-b-to-industrialize-and-solidify-its-position-as-leader-in-sustainable-food-innovation",
+          "quote": "today announced it has closed a $30 million Series B equity funding round."
+        },
+        {
+          "field": "month",
+          "url": "https://www.omnescapital.com/press-release/planet-a-foods-raises-30m-series-b-to-industrialize-and-solidify-its-position-as-leader-in-sustainable-food-innovation",
+          "quote": "Munich, Germany, December 6th 2024:"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.omnescapital.com/press-release/planet-a-foods-raises-30m-series-b-to-industrialize-and-solidify-its-position-as-leader-in-sustainable-food-innovation",
+          "quote": "today announced it has closed a $30 million Series B equity funding round."
+        },
+        {
+          "field": "investors",
+          "url": "https://www.munich-startup.de/en/news/planet-a-foods-closes-series-b-funding",
+          "quote": "The funding round was led by Burda Principal Investments and Zintinus. World Fund, Bayern Kapital, Cherry Ventures, Tengelmann Ventures, AgriFoodTech Venture Alliance, and Omnes Capital also participated."
+        }
+      ]
+    }
+  ],
+  "aliases": [],
+  "status": "private",
+  "unicorn": false
+}

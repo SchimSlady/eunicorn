@@ -1,0 +1,121 @@
+{
+  "id": "patient21",
+  "name": "Patient21",
+  "aliases": [],
+  "domain": "patient21.com",
+  "country": "DE",
+  "city": "Berlin",
+  "founded": 2019,
+  "sectors": [
+    "health"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Christopher Muhr"
+  ],
+  "difficulty": 4,
+  "techeuId": "E8FFF4BE-3C16-4177-B77D-5E1570F5F8E7",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.trendingtopics.eu/patient21-berliner-healthtech-holt-100-mio-euro-kritik-am-geschaeftsmodell/",
+      "quote": "Nun macht Patient21 mit Hauptsitz in Berlin eine große Finanzierungsrunde von 100 Millionen Euro."
+    },
+    {
+      "field": "founded",
+      "url": "https://www.startbase.com/news/patient21-erhaelt-142-millionen-us-dollar",
+      "quote": "Christopher Muhr founded the start-up in 2019"
+    },
+    {
+      "field": "founders",
+      "url": "https://www.startbase.com/news/patient21-erhaelt-142-millionen-us-dollar",
+      "quote": "Christopher Muhr founded the start-up in 2019"
+    },
+    {
+      "field": "sectors",
+      "url": "https://tech.eu/2023/05/22/germany-s-patient21-raises-100-million-to-take-its-hybrid-healthcare-platform-and-outpatient-clinics-to-new-european-markets",
+      "quote": "The health tech is a hybrid model that combines its software with a network of owned and operated physical clinics in Germany"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "BACF3ADC-6EF0-47E2-B3CE-75F51632B43B",
+      "stage": "series-b",
+      "month": "2022-01",
+      "amountEur": 126020589,
+      "amountOriginal": 142000000,
+      "currency": "USD",
+      "investors": [
+        "Target Global",
+        "Eight Roads",
+        "Piton Capital",
+        "Pico Capital",
+        "Thomas Stafford",
+        "Kingsway"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://eightroads.com/ja/news/healthtech-startup-patient-21-raises-142-million",
+          "quote": "emerges from stealth after raising $142 million of investment"
+        },
+        {
+          "field": "month",
+          "url": "https://www.startbase.com/news/patient21-erhaelt-142-millionen-us-dollar",
+          "quote": "Stuttgart, 25. January 2022"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.startbase.com/news/patient21-erhaelt-142-millionen-us-dollar",
+          "quote": "Target Global was the lead investor in the round, with Eight Road, Piton and Pico also participating."
+        },
+        {
+          "field": "investors",
+          "url": "https://eightroads.com/ja/news/healthtech-startup-patient-21-raises-142-million",
+          "quote": "Target Global, Piton Capital, Pico Capital, Thomas Stafford, and Kingsway"
+        }
+      ]
+    },
+    {
+      "techeuId": "790AAC99-258B-497B-8509-CEDB8CBBC724",
+      "stage": "series-c",
+      "month": "2023-05",
+      "amountEur": 100000000,
+      "amountOriginal": 100000000,
+      "currency": "EUR",
+      "investors": [
+        "Pitango",
+        "Bertelsmann Investments",
+        "Artian",
+        "Target Global",
+        "Piton Capital",
+        "PICO Venture Partners",
+        "Mario Kohle",
+        "Maria Raga"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2023/05/22/germany-s-patient21-raises-100-million-to-take-its-hybrid-healthcare-platform-and-outpatient-clinics-to-new-european-markets",
+          "quote": "has raised €100 million in Series C funding"
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2023/05/22/germany-s-patient21-raises-100-million-to-take-its-hybrid-healthcare-platform-and-outpatient-clinics-to-new-european-markets",
+          "quote": "has raised €100 million in Series C funding"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2023/05/22/germany-s-patient21-raises-100-million-to-take-its-hybrid-healthcare-platform-and-outpatient-clinics-to-new-european-markets",
+          "quote": "has raised €100 million in Series C funding"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2023/05/22/germany-s-patient21-raises-100-million-to-take-its-hybrid-healthcare-platform-and-outpatient-clinics-to-new-european-markets",
+          "quote": "The round was led by new investor Pitango"
+        }
+      ]
+    }
+  ]
+}

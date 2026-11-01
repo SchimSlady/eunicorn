@@ -1,0 +1,247 @@
+{
+  "id": "holidu",
+  "name": "Holidu",
+  "aliases": [
+    "Bookiply"
+  ],
+  "domain": "holidu.com",
+  "country": "DE",
+  "city": "Munich",
+  "founded": 2014,
+  "sectors": [
+    "travel"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Johannes Siebers",
+    "Michael Siebers"
+  ],
+  "funFact": "Holidu's founders started the company after a frustrating experience booking a vacation rental for a surfing trip to Portugal.",
+  "difficulty": 4,
+  "techeuId": "3580E77C-65EA-4F61-AFED-D06E2A102E68",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://siliconcanals.com/holidu-acquires-cybevasion-after-raising-e46m/",
+      "quote": "Munich’s holiday rental tech company Holidu has acquired Cybevasion"
+    },
+    {
+      "field": "founded",
+      "url": "https://techcrunch.com/2022/10/19/holidu-series-e/",
+      "quote": "NB: Holidu was founded back in 2014"
+    },
+    {
+      "field": "founders",
+      "url": "https://www.munich-startup.de/en/news/holidu-secures-100-million-euros",
+      "quote": "Holidu founders Johannes and Michael Siebers (from left)"
+    },
+    {
+      "field": "sectors",
+      "url": "https://shorttermrentalz.com/news/munich-holidu-seriesc-funding/",
+      "quote": "Munich-based holiday rentals search engine Holidu has announced it has closed a €40 million Series C funding round."
+    },
+    {
+      "field": "status",
+      "url": "https://techcrunch.com/2022/10/19/holidu-series-e/",
+      "quote": "Munich-based software and services vacation rental startup, Holidu"
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://siliconcanals.com/holidu-raises-37-1m/",
+      "quote": "It was founded by the duo following a frustrating experience while booking a vacation rental for a surfing trip to Portugal."
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "B7443F50-3AD8-4950-EEE6-08D91092C887",
+      "stage": "series-a",
+      "month": "2016-01",
+      "amountEur": 5000000,
+      "amountOriginal": 5000000,
+      "currency": "EUR",
+      "investors": [
+        "EQT Ventures",
+        "Venture Stars",
+        "Senovo",
+        "Chris Hitchen"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.finsmes.com/2016/01/holidu-closes-e5m-series-a-funding-round.html",
+          "quote": "Holidu , a Munich, Germany-based search engine for holiday rentals, raised €5m in Series A funding."
+        },
+        {
+          "field": "month",
+          "url": "https://www.finsmes.com/2016/01/holidu-closes-e5m-series-a-funding-round.html",
+          "quote": "Holidu Closes €5M Series A Funding Round"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.finsmes.com/2016/01/holidu-closes-e5m-series-a-funding-round.html",
+          "quote": "The round was led by EQT ventures with participation from Venture Stars, Senovo, Chris Hitchen and other angel investors."
+        },
+        {
+          "field": "stage",
+          "url": "https://www.finsmes.com/2016/01/holidu-closes-e5m-series-a-funding-round.html",
+          "quote": "Holidu Closes €5M Series A Funding Round"
+        }
+      ]
+    },
+    {
+      "techeuId": "B0471A70-4FAD-4D3B-EEE7-08D91092C887",
+      "stage": "series-c",
+      "month": "2019-09",
+      "amountEur": 40000000,
+      "amountOriginal": 40000000,
+      "currency": "EUR",
+      "investors": [
+        "Prime Ventures",
+        "coparion",
+        "MairDuMont Ventures",
+        "EQT Ventures",
+        "Venture Stars",
+        "Senovo",
+        "Chris Hitchen"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://shorttermrentalz.com/news/munich-holidu-seriesc-funding/",
+          "quote": "has announced it has closed a €40 million Series C funding round."
+        },
+        {
+          "field": "month",
+          "url": "https://shorttermrentalz.com/news/munich-holidu-seriesc-funding/",
+          "quote": "September 19, 2019"
+        },
+        {
+          "field": "investors",
+          "url": "https://shorttermrentalz.com/news/munich-holidu-seriesc-funding/",
+          "quote": "The round was led by Prime Ventures, with participation from coparion and MairDuMont Ventures."
+        },
+        {
+          "field": "stage",
+          "url": "https://shorttermrentalz.com/news/munich-holidu-seriesc-funding/",
+          "quote": "Munich’s Holidu closes €40 million Series C funding round"
+        }
+      ]
+    },
+    {
+      "techeuId": "0F62C0A3-ED80-4AD1-9285-3DA9F4C35545",
+      "stage": "series-d",
+      "month": "2021-05",
+      "amountEur": 37000000,
+      "amountOriginal": 37000000,
+      "currency": "EUR",
+      "investors": [
+        "83North",
+        "Prime Ventures",
+        "EQT Ventures",
+        "Coparion",
+        "Senovo",
+        "Kees Koolen",
+        "Lios Ventures",
+        "Chris Hitchen",
+        "Claret Capital Partners"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.munich-startup.de/en/73103/37-million-euros-for-holiday-home-broker-holidu/",
+          "quote": "sichert sich 37 Millionen Euro in einer Series-D-Finanzierungsrunde"
+        },
+        {
+          "field": "month",
+          "url": "https://www.munich-startup.de/en/73103/37-million-euros-for-holiday-home-broker-holidu/",
+          "quote": "Holidu wächst trotz der Coronakrise und sichert sich 37 Millionen Euro in einer Series-D-Finanzierungsrunde."
+        },
+        {
+          "field": "investors",
+          "url": "https://www.munich-startup.de/en/73103/37-million-euros-for-holiday-home-broker-holidu/",
+          "quote": "Neben 83North beteiligen sich die Bestandsinvestoren Prime Ventures, EQT Ventures, Coparion, Senovo, Kees Koolen, Lios Ventures und Chris Hitchen an der Series-D-Runde von Holidu."
+        },
+        {
+          "field": "stage",
+          "url": "https://www.munich-startup.de/en/73103/37-million-euros-for-holiday-home-broker-holidu/",
+          "quote": "an der Series-D-Runde von Holidu"
+        }
+      ]
+    },
+    {
+      "techeuId": "66720DCA-580C-48C7-AD8A-9587B8768EDC",
+      "stage": "series-e",
+      "month": "2022-10",
+      "amountEur": 75000000,
+      "amountOriginal": 75000000,
+      "currency": "EUR",
+      "investors": [
+        "83North",
+        "Northzone",
+        "HV Capital",
+        "Vintage Investment Partners",
+        "Commonfund Capital",
+        "Prime Ventures",
+        "EQT Ventures",
+        "Coparion",
+        "Senovo",
+        "Lios Ventures",
+        "Possible Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2022/10/19/holidu-series-e/",
+          "quote": "So the equity component of the Series E comprises €75 million."
+        },
+        {
+          "field": "month",
+          "url": "https://www.munich-startup.de/en/news/holidu-secures-100-million-euros",
+          "quote": "Holidu secures over 100 million euros in its Series E funding round."
+        },
+        {
+          "field": "investors",
+          "url": "https://www.munich-startup.de/en/news/holidu-secures-100-million-euros",
+          "quote": "In addition to 83North, Northzone, HV Capital, Vintage Investment Partners and Communfund Capital as well as existing investors Prime Ventures, EQT Ventures, Coparion, Senovo, Lios Ventures and Chris Hitchen’s Possible Ventures are also participating in the Series E round at Holidu."
+        },
+        {
+          "field": "stage",
+          "url": "https://www.munich-startup.de/en/news/holidu-secures-100-million-euros",
+          "quote": "Holidu secures over 100 million euros in its Series E funding round."
+        }
+      ]
+    },
+    {
+      "techeuId": "C7AA7B7D-1AAF-4A6E-965D-4478898DE00A",
+      "stage": "series-f+",
+      "month": "2025-06",
+      "amountEur": 46000000,
+      "amountOriginal": 46000000,
+      "currency": "EUR",
+      "investors": [
+        "Key1 Capital",
+        "Vintage Investment Partners",
+        "Prime Ventures",
+        "83North"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://siliconcanals.com/holidu-acquires-cybevasion-after-raising-e46m/",
+          "quote": "Holidu secured €46M in a growth financing round"
+        },
+        {
+          "field": "month",
+          "url": "https://siliconcanals.com/holidu-acquires-cybevasion-after-raising-e46m/",
+          "quote": "Jun 10, 2025"
+        },
+        {
+          "field": "investors",
+          "url": "https://siliconcanals.com/holidu-acquires-cybevasion-after-raising-e46m/",
+          "quote": "Holidu‘s equity round was led by new investor Key1 Capital, with continued support from existing investors including Vintage Investment Partners, Prime Ventures, and 83North."
+        }
+      ]
+    }
+  ]
+}

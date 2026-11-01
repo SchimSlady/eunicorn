@@ -1,0 +1,98 @@
+{
+  "id": "arbio",
+  "name": "Arbio",
+  "aliases": [
+    "Arbio Group"
+  ],
+  "domain": "arbio.com",
+  "country": "DE",
+  "city": "Berlin",
+  "founded": 2021,
+  "sectors": [
+    "proptech",
+    "travel"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Constantin Schröder",
+    "Paul Bäumler"
+  ],
+  "funFact": "Arbio grew out of the founders' travels through Mexico, where inconsistent Airbnb experiences revealed gaps in property management.",
+  "difficulty": 5,
+  "techeuId": "89B4B374-3DB8-42BA-A918-2DDE1DC7B59C",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://techfundingnews.com/airbnb-for-property-management-arbio-lands-36m-to-reinvent-holiday-rentals-with-ai/",
+      "quote": "Berlin-based Arbio has secured $36 million in Series A funding led by Eurazeo"
+    },
+    {
+      "field": "founded",
+      "url": "https://atlantic.vc/portfolio/arbio",
+      "quote": "Year founded 2021"
+    },
+    {
+      "field": "founders",
+      "url": "https://techfundingnews.com/airbnb-for-property-management-arbio-lands-36m-to-reinvent-holiday-rentals-with-ai/",
+      "quote": "Founded by childhood friends Constantin Schröder and Paul Bäumler"
+    },
+    {
+      "field": "sectors",
+      "url": "https://proptechconnect.com/arbio-raises-36m-series-a-to-redefine-property-management/",
+      "quote": "The full-stack AI-first property management company operates at the intersection of AI-enabled services and consolidation strategies"
+    },
+    {
+      "field": "status",
+      "url": "https://techfundingnews.com/airbnb-for-property-management-arbio-lands-36m-to-reinvent-holiday-rentals-with-ai/",
+      "quote": "Berlin-based Arbio has secured $36 million in Series A funding led by Eurazeo"
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://proptechconnect.com/arbio-raises-36m-series-a-to-redefine-property-management/",
+      "quote": "Arbio emerged from a personal pain point during travels through Mexico where inconsistent Airbnb experiences revealed gaps in property management."
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "E6EE6421-E4F6-4E4A-94EE-BF23F01ED0F9",
+      "stage": "series-a",
+      "month": "2025-10",
+      "amountEur": 31160737,
+      "amountOriginal": 36000000,
+      "currency": "USD",
+      "investors": [
+        "Eurazeo",
+        "OpenOcean",
+        "Atlantic Labs",
+        "Philipp Freise",
+        "Justin Reizes",
+        "Johannes Reck",
+        "Tao Tao",
+        "Din Bisevac"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techfundingnews.com/airbnb-for-property-management-arbio-lands-36m-to-reinvent-holiday-rentals-with-ai/",
+          "quote": "Berlin-based Arbio has secured $36 million in Series A funding led by Eurazeo"
+        },
+        {
+          "field": "stage",
+          "url": "https://techfundingnews.com/airbnb-for-property-management-arbio-lands-36m-to-reinvent-holiday-rentals-with-ai/",
+          "quote": "Berlin-based Arbio has secured $36 million in Series A funding led by Eurazeo"
+        },
+        {
+          "field": "month",
+          "url": "https://techfundingnews.com/airbnb-for-property-management-arbio-lands-36m-to-reinvent-holiday-rentals-with-ai/",
+          "quote": "October 14, 2025"
+        },
+        {
+          "field": "investors",
+          "url": "https://techfundingnews.com/airbnb-for-property-management-arbio-lands-36m-to-reinvent-holiday-rentals-with-ai/",
+          "quote": "Philipp Freise and Justin Reizes (KKR)"
+        }
+      ]
+    }
+  ]
+}

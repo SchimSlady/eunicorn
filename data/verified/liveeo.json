@@ -1,0 +1,212 @@
+{
+  "id": "liveeo",
+  "name": "LiveEO",
+  "aliases": [],
+  "domain": "live-eo.com",
+  "country": "DE",
+  "city": "Berlin",
+  "founded": 2018,
+  "sectors": [
+    "space",
+    "climate",
+    "ai"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Daniel Seidel",
+    "Sven Przywarra"
+  ],
+  "difficulty": 5,
+  "techeuId": "D7857C37-225D-4629-B440-679F79A32E0A",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://thenextweb.com/news/liveeo-28m-funding-civil-infrastructure-defence-twinspector",
+      "quote": "LiveEO was founded in Berlin in 2018 by Daniel Seidel and Sven Przywarra."
+    },
+    {
+      "field": "founded",
+      "url": "https://thenextweb.com/news/liveeo-28m-funding-civil-infrastructure-defence-twinspector",
+      "quote": "LiveEO was founded in Berlin in 2018 by Daniel Seidel and Sven Przywarra."
+    },
+    {
+      "field": "founders",
+      "url": "https://thenextweb.com/news/liveeo-28m-funding-civil-infrastructure-defence-twinspector",
+      "quote": "LiveEO was founded in Berlin in 2018 by Daniel Seidel and Sven Przywarra."
+    },
+    {
+      "field": "sectors",
+      "url": "https://thenextweb.com/news/liveeo-28m-funding-civil-infrastructure-defence-twinspector",
+      "quote": "The Berlin geospatial-AI company has closed the first slice of a new round"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://www.spacewar.com/reports/LiveEO_raises_25M_to_leverage_AI_powered_satellite_data_for_infrastructure_and_climate_risk_management_999.html",
+      "quote": "takes the total raised by the Berlin-based firm to 51.6 million"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "E55FE658-14B8-4B6A-9961-6DE8601F9CA2",
+      "stage": "series-a",
+      "month": "2021-04",
+      "amountEur": 5250000,
+      "amountOriginal": 5250000,
+      "currency": "EUR",
+      "investors": [
+        "DVH Ventures",
+        "btov Partners",
+        "Helen Ventures",
+        "Andreas Kupke",
+        "Motu Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.live-eo.com/company/press/liveeo-secures-e19m-to-bring-space-data-insights-to-industry-4-0",
+          "quote": "Since its €5.25M Series A round in 2021"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.live-eo.com/company/press/liveeo-secures-e19m-to-bring-space-data-insights-to-industry-4-0",
+          "quote": "Since its €5.25M Series A round in 2021"
+        },
+        {
+          "field": "month",
+          "url": "https://www.live-eo.com/company/press/liveeo-secures-e5-25-million-series-a-investment",
+          "quote": "Berlin, April 6th, 2021"
+        },
+        {
+          "field": "amount",
+          "url": "https://www.live-eo.com/company/press/liveeo-secures-e5-25-million-series-a-investment",
+          "quote": "LiveEO secures €5.25 million to accelerate global expansion"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.live-eo.com/company/press/liveeo-secures-e5-25-million-series-a-investment",
+          "quote": "has closed an investment round with the venture capital firms btov Partners, Helen Ventures, DvH Ventures, and Motu Ventures as well as deep tech investor Andreas Kupke"
+        }
+      ]
+    },
+    {
+      "techeuId": "BABF79C7-405A-4AE0-BAA3-DFD9A5159C4F",
+      "stage": "series-a",
+      "month": "2022-08",
+      "amountEur": 19000000,
+      "amountOriginal": 19000000,
+      "currency": "EUR",
+      "investors": [
+        "MMC Ventures",
+        "Dieter von Holtzbrinck Ventures",
+        "Helen Ventures",
+        "Matterwave Ventures",
+        "Motu Ventures",
+        "Segenia Capital",
+        "Hannover Digital Investments",
+        "European Commission",
+        "Investitionsbank Berlin"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.newswire.com/news/liveeo-secures-19m-to-bring-space-data-insights-to-industry-4-0-21788323",
+          "quote": "has secured €19M in funding"
+        },
+        {
+          "field": "month",
+          "url": "https://www.newswire.com/news/liveeo-secures-19m-to-bring-space-data-insights-to-industry-4-0-21788323",
+          "quote": "BERLIN, August 5, 2022"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.newswire.com/news/liveeo-secures-19m-to-bring-space-data-insights-to-industry-4-0-21788323",
+          "quote": "The round was led by MMC Ventures and includes €17M of venture capital"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.newswire.com/news/liveeo-secures-19m-to-bring-space-data-insights-to-industry-4-0-21788323",
+          "quote": "Segenia Capital and Hannover Digital Investments (HDInv) have joined the round as new investors alongside MMC."
+        }
+      ]
+    },
+    {
+      "techeuId": "9F9251E0-7C68-4D38-AF3F-1311AD98B9EC",
+      "stage": "series-b",
+      "month": "2024-06",
+      "amountEur": 25000000,
+      "amountOriginal": 25000000,
+      "currency": "EUR",
+      "investors": [
+        "NordicNinja",
+        "DeepTech & Climate Fonds",
+        "MMC Ventures",
+        "Dieter von Holtzbrinck Ventures",
+        "Greencode Ventures",
+        "Helen Ventures",
+        "Matterwave Ventures",
+        "Motu Ventures",
+        "Segenia Capital",
+        "Hannover Digital Investments"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.spacewar.com/reports/LiveEO_raises_25M_to_leverage_AI_powered_satellite_data_for_infrastructure_and_climate_risk_management_999.html",
+          "quote": "has raised 25 million in a Series B funding round led by NordicNinja and DeepTech and Climate Fonds (DTCF)"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.spacewar.com/reports/LiveEO_raises_25M_to_leverage_AI_powered_satellite_data_for_infrastructure_and_climate_risk_management_999.html",
+          "quote": "has raised 25 million in a Series B funding round led by NordicNinja and DeepTech and Climate Fonds (DTCF)"
+        },
+        {
+          "field": "month",
+          "url": "https://thenextweb.com/news/liveeo-28m-funding-civil-infrastructure-defence-twinspector",
+          "quote": "€25m Series B in June 2024"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.spacewar.com/reports/LiveEO_raises_25M_to_leverage_AI_powered_satellite_data_for_infrastructure_and_climate_risk_management_999.html",
+          "quote": "NordicNinja and DTCF join existing investors MMC Ventures"
+        }
+      ]
+    },
+    {
+      "techeuId": "3AF5FD9A-4691-44AA-BBF1-C878DFED0075",
+      "stage": "series-c",
+      "month": "2026-05",
+      "amountEur": 28000000,
+      "amountOriginal": 28000000,
+      "currency": "EUR",
+      "investors": [
+        "Helantic",
+        "b2venture",
+        "NordicNinja",
+        "DeepTech & Climate Fonds",
+        "Matterwave Ventures",
+        "MMC Ventures",
+        "Greencode Ventures",
+        "European Innovation Council",
+        "Segenia Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://thenextweb.com/news/liveeo-28m-funding-civil-infrastructure-defence-twinspector",
+          "quote": "Berlin-based LiveEO announced a €28m first close"
+        },
+        {
+          "field": "month",
+          "url": "https://thenextweb.com/news/liveeo-28m-funding-civil-infrastructure-defence-twinspector",
+          "quote": "This article was published on"
+        },
+        {
+          "field": "investors",
+          "url": "https://thenextweb.com/news/liveeo-28m-funding-civil-infrastructure-defence-twinspector",
+          "quote": "with the dedicated defence venture fund Helantic and the European Innovation Council (EIC) joining as new investors alongside b2ventures"
+        }
+      ]
+    }
+  ]
+}

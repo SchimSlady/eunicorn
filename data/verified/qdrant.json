@@ -1,0 +1,164 @@
+{
+  "id": "qdrant",
+  "name": "Qdrant",
+  "aliases": [],
+  "domain": "qdrant.tech",
+  "country": "DE",
+  "city": "Berlin",
+  "founded": 2021,
+  "sectors": [
+    "devtools",
+    "ai"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "André Zayarni",
+    "Andrey Vasnetsov"
+  ],
+  "funFact": "Qdrant received its first seed term sheet on the second day after CEO Andre Zayarni sent out the pitch deck.",
+  "difficulty": 4,
+  "techeuId": "8FF8396F-A0DA-4406-AD95-DCDBFBB7C6B3",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://techcrunch.com/2023/04/19/qdrant-an-open-source-vector-database-startup-wants-to-help-ai-developers-leverage-unstructured-data/",
+      "quote": "Founded out of Berlin in 2021, Qdrant is targeting AI software developers"
+    },
+    {
+      "field": "founded",
+      "url": "https://techcrunch.com/2023/04/19/qdrant-an-open-source-vector-database-startup-wants-to-help-ai-developers-leverage-unstructured-data/",
+      "quote": "Founded out of Berlin in 2021, Qdrant is targeting AI software developers"
+    },
+    {
+      "field": "founders",
+      "url": "https://qdrant.tech/about-us/",
+      "quote": "In 2021, André Zayarni and Andrey Vasnetsov collaborated on a project"
+    },
+    {
+      "field": "sectors",
+      "url": "https://techcrunch.com/2023/04/19/qdrant-an-open-source-vector-database-startup-wants-to-help-ai-developers-leverage-unstructured-data/",
+      "quote": "open source vector search engine and database"
+    },
+    {
+      "field": "status",
+      "url": "https://invest-in.berlin/n/berlins-qdrant-raises-50m-for-ai-search-infrastructure/",
+      "quote": "Berlin-based vector search company"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://invest-in.berlin/n/berlins-qdrant-raises-50m-for-ai-search-infrastructure/",
+      "quote": "has closed a $50 million Series B funding round"
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://techcrunch.com/2023/04/19/qdrant-an-open-source-vector-database-startup-wants-to-help-ai-developers-leverage-unstructured-data/",
+      "quote": "received its first term sheet on the second day after sending out its deck"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "55410352-8689-4BC6-8BD5-F1178DB46EB7",
+      "stage": "seed",
+      "month": "2023-04",
+      "amountEur": 6859965,
+      "amountOriginal": 7500000,
+      "currency": "USD",
+      "investors": [
+        "Unusual Ventures",
+        "42CAP",
+        "IBB Ventures",
+        "Amr Awadallah"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2023/04/19/qdrant-an-open-source-vector-database-startup-wants-to-help-ai-developers-leverage-unstructured-data/",
+          "quote": "today announced a $7.5 million seed financing from lead investor Unusual Ventures"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2023/04/19/qdrant-an-open-source-vector-database-startup-wants-to-help-ai-developers-leverage-unstructured-data/",
+          "quote": "today announced a $7.5 million seed financing from lead investor Unusual Ventures"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2023/04/19/qdrant-an-open-source-vector-database-startup-wants-to-help-ai-developers-leverage-unstructured-data/",
+          "quote": "with participation from 42cap, IBB Ventures and a handful of angel backers, including Cloudera co-founder Amr Awadallah"
+        }
+      ]
+    },
+    {
+      "techeuId": "11BB0403-9CAC-44D0-A4EC-AE5CA2B0D00C",
+      "stage": "series-a",
+      "month": "2024-01",
+      "amountEur": 25754231,
+      "amountOriginal": 28000000,
+      "currency": "USD",
+      "investors": [
+        "Spark Capital",
+        "Unusual Ventures",
+        "42CAP"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://qdrant.tech/blog/series-a-funding-round/",
+          "quote": "Today, we are excited to announce our $28M Series A funding round"
+        },
+        {
+          "field": "stage",
+          "url": "https://qdrant.tech/blog/series-a-funding-round/",
+          "quote": "Today, we are excited to announce our $28M Series A funding round"
+        },
+        {
+          "field": "investors",
+          "url": "https://qdrant.tech/blog/series-a-funding-round/",
+          "quote": "which is led by Spark Capital with participation from our existing investors Unusual Ventures and 42CAP"
+        },
+        {
+          "field": "month",
+          "url": "https://qdrant.tech/blog/series-a-funding-round/",
+          "quote": "January 23, 2024"
+        }
+      ]
+    },
+    {
+      "techeuId": "43C63C57-B933-4011-944D-2AD2AE7E5A39",
+      "stage": "series-b",
+      "month": "2026-03",
+      "amountEur": 43301290,
+      "amountOriginal": 50000000,
+      "currency": "USD",
+      "investors": [
+        "AVP",
+        "Bosch Ventures",
+        "Unusual Ventures",
+        "Spark Capital",
+        "42CAP"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://invest-in.berlin/n/berlins-qdrant-raises-50m-for-ai-search-infrastructure/",
+          "quote": "has closed a $50 million Series B funding round"
+        },
+        {
+          "field": "stage",
+          "url": "https://invest-in.berlin/n/berlins-qdrant-raises-50m-for-ai-search-infrastructure/",
+          "quote": "has closed a $50 million Series B funding round"
+        },
+        {
+          "field": "month",
+          "url": "https://invest-in.berlin/n/berlins-qdrant-raises-50m-for-ai-search-infrastructure/",
+          "quote": "12.03.2026"
+        },
+        {
+          "field": "investors",
+          "url": "https://invest-in.berlin/n/berlins-qdrant-raises-50m-for-ai-search-infrastructure/",
+          "quote": "led by AVP and joined by Bosch Ventures, Unusual Ventures, Spark Capital, and 42CAP"
+        }
+      ]
+    }
+  ]
+}

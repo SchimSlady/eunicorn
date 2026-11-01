@@ -1,0 +1,117 @@
+{
+  "id": "fonio",
+  "name": "fonio.ai",
+  "aliases": [
+    "fonio"
+  ],
+  "domain": "fonio.ai",
+  "country": "AT",
+  "city": "Vienna",
+  "founded": 2024,
+  "sectors": [
+    "ai",
+    "saas"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Daniel Keinrath",
+    "Matthias Gruber"
+  ],
+  "funFact": "Founder Daniel Keinrath sold the product ten times before it was built, using just a landing page and €1,000 in ads.",
+  "difficulty": 5,
+  "techeuId": "4313DB3F-19E4-40B5-94F9-CED5A4377FCC",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://techfundingnews.com/fonio-ai-17m-20vc-austria-seed-round/",
+      "quote": "The Vienna-based company automates customer calls for SMBs using AI"
+    },
+    {
+      "field": "founded",
+      "url": "https://techfundingnews.com/fonio-ai-17m-20vc-austria-seed-round/",
+      "quote": "The Austrian startup was founded in autumn 2024 by Daniel Keinrath"
+    },
+    {
+      "field": "founders",
+      "url": "https://techfundingnews.com/fonio-ai-17m-20vc-austria-seed-round/",
+      "quote": "Co-founder Matthias Gruber began coding at 14"
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.startup.eu/investments/fonio-ai-17-m-seed-06-2026",
+      "quote": "is building AI communication tools for small and medium-sized businesses"
+    },
+    {
+      "field": "status",
+      "url": "https://techfundingnews.com/fonio-ai-17m-20vc-austria-seed-round/",
+      "quote": "fonio.ai has closed a $17 million seed round at a $140 million valuation, led by 20VC"
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://techfundingnews.com/fonio-ai-17m-20vc-austria-seed-round/",
+      "quote": "Keinrath sold the product ten times before it was built, using just a landing page and €1,000 in ads."
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "825C1075-107F-4C09-91F6-B026BF0A609E",
+      "stage": "pre-seed",
+      "month": "2025-12",
+      "amountEur": 3000000,
+      "amountOriginal": 3000000,
+      "currency": "EUR",
+      "investors": [],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techfundingnews.com/fonio-ai-17m-20vc-austria-seed-round/",
+          "quote": "Six months ago, fonio.ai raised €3 million in an angel round in just 11 days"
+        },
+        {
+          "field": "month",
+          "url": "https://www.trendingtopics.eu/fonio-3-millionen-euro-investment-2025/",
+          "quote": "02. Dezember 2025"
+        },
+        {
+          "field": "amount",
+          "url": "https://www.trendingtopics.eu/fonio-3-millionen-euro-investment-2025/",
+          "quote": "hat eine Finanzierungsrunde über 3 Millionen Euro abgeschlossen"
+        }
+      ]
+    },
+    {
+      "techeuId": "4D48493E-DA02-44AF-9CAD-EA98808582BF",
+      "stage": "seed",
+      "month": "2026-06",
+      "amountEur": 14689363,
+      "amountOriginal": 17000000,
+      "currency": "USD",
+      "investors": [
+        "20VC"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techfundingnews.com/fonio-ai-17m-20vc-austria-seed-round/",
+          "quote": "fonio.ai has closed a $17 million seed round at a $140 million valuation, led by 20VC"
+        },
+        {
+          "field": "stage",
+          "url": "https://techfundingnews.com/fonio-ai-17m-20vc-austria-seed-round/",
+          "quote": "fonio.ai has closed a $17 million seed round at a $140 million valuation, led by 20VC"
+        },
+        {
+          "field": "month",
+          "url": "https://techfundingnews.com/fonio-ai-17m-20vc-austria-seed-round/",
+          "quote": "June 9, 2026"
+        },
+        {
+          "field": "investors",
+          "url": "https://techfundingnews.com/fonio-ai-17m-20vc-austria-seed-round/",
+          "quote": "led by 20VC with participation from execs at Hugging Face, Synthesia, HubSpot, and Revolut"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "id": "tacto",
+  "name": "Tacto",
+  "aliases": [],
+  "domain": "tacto.ai",
+  "country": "DE",
+  "city": "Munich",
+  "founded": 2020,
+  "sectors": [
+    "saas",
+    "logistics"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "André Petry"
+  ],
+  "difficulty": 4,
+  "techeuId": "1E9DF28A-BEEF-4E8E-9F36-4794C4568FAA",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.munich-startup.de/en/140767/ai-startup-tacto-secures-50-million-euros/",
+      "quote": "The Munich-based startup has now raised 50 million euros."
+    },
+    {
+      "field": "founded",
+      "url": "https://www.indexventures.com/perspectives/tacto-secures-50m-to-tackle-disruptions-and-bureaucracy-in-industrial-supply-chains/",
+      "quote": "Launched in 2020, Tacto already has an extensive and dedicated customer base across Europe"
+    },
+    {
+      "field": "founders",
+      "url": "https://www.munich-startup.de/en/140767/ai-startup-tacto-secures-50-million-euros/",
+      "quote": "André Petry, CEO and co-founder of Tacto"
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.indexventures.com/perspectives/tacto-secures-50m-to-tackle-disruptions-and-bureaucracy-in-industrial-supply-chains/",
+      "quote": "Tacto is an AI-based supply-chain operating system tailored specifically to the needs of mid-sized industrial companies."
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "BB01E8C4-74BE-4796-9846-756C5BEBA0F5",
+      "stage": "seed",
+      "month": "2022-03",
+      "amountEur": 5300000,
+      "amountOriginal": 5300000,
+      "currency": "EUR",
+      "investors": [
+        "Cherry Ventures",
+        "UVC Partners",
+        "Visionaries Club",
+        "Hanno Renner",
+        "Johannes Reck",
+        "Michael Wax",
+        "Torsten Reil"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://munich-startup.de/news/tacto-sammelt-53-millionen-euro-ein",
+          "quote": "Tacto hat in einer Seed-Finanzierungsrunde 5,3 Millionen Euro von Investoren erhalten."
+        },
+        {
+          "field": "stage",
+          "url": "https://munich-startup.de/news/tacto-sammelt-53-millionen-euro-ein",
+          "quote": "Tacto hat in einer Seed-Finanzierungsrunde 5,3 Millionen Euro von Investoren erhalten."
+        },
+        {
+          "field": "investors",
+          "url": "https://munich-startup.de/news/tacto-sammelt-53-millionen-euro-ein",
+          "quote": "Cherry Ventures, UVC Partners und Visionaries Club führen die Finanzierungsrunde von Tacto an."
+        },
+        {
+          "field": "month",
+          "url": "https://munich-startup.de/news/tacto-sammelt-53-millionen-euro-ein",
+          "quote": "24. März 2022"
+        }
+      ]
+    },
+    {
+      "techeuId": "AFA5FE95-1ABD-448F-99FD-F39EC2491B4B",
+      "stage": "series-a",
+      "month": "2023-12",
+      "amountEur": 50000000,
+      "amountOriginal": 50000000,
+      "currency": "EUR",
+      "investors": [
+        "Sequoia Capital",
+        "Index Ventures",
+        "Visionaries Club",
+        "Cherry Ventures",
+        "UVC Partners"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.munich-startup.de/en/140767/ai-startup-tacto-secures-50-million-euros/",
+          "quote": "In total, Tacto has secured 50 million euros in the now completed funding round."
+        },
+        {
+          "field": "stage",
+          "url": "https://nordic9.com/news/tacto-in-a-50-million-series-a-round-co-led-by-sequoia-capital-and-index-ventures/",
+          "quote": "Tacto in a €50 million series A round co-led by Sequoia Capital and Index Ventures."
+        },
+        {
+          "field": "investors",
+          "url": "https://www.munich-startup.de/en/140767/ai-startup-tacto-secures-50-million-euros/",
+          "quote": "Lead investors in the round are Sequoia Capital and Index Ventures. Existing shareholders Visionaries Club, Cherry Ventures and UVC Partners are also participating in the funding round."
+        },
+        {
+          "field": "month",
+          "url": "https://www.munich-startup.de/en/140767/ai-startup-tacto-secures-50-million-euros/",
+          "quote": "December 12, 2023"
+        }
+      ]
+    }
+  ]
+}

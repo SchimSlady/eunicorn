@@ -1,0 +1,162 @@
+{
+  "id": "payrails",
+  "name": "Payrails",
+  "aliases": [],
+  "domain": "payrails.com",
+  "country": "DE",
+  "city": "Berlin",
+  "founded": 2021,
+  "sectors": [
+    "fintech",
+    "saas"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Orkhan Abdullayev",
+    "Emre Talay",
+    "Nicolas Thouzeau"
+  ],
+  "difficulty": 5,
+  "techeuId": "247830FD-E90B-48D6-B6EA-3AB16BB2A721",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://techcrunch.com/2022/03/17/payrails-emerges-from-stealth-with-6-4m-led-by-a16z-to-build-the-os-for-payments/amp/",
+      "quote": "Berlin-based Payrails"
+    },
+    {
+      "field": "founded",
+      "url": "https://siliconcanals.com/payrails-secures-5-7m/",
+      "quote": "founded Payrails in late 2021"
+    },
+    {
+      "field": "founders",
+      "url": "https://tech.eu/2023/06/07/payrails-scaling-its-payment-operating-system-for-global-platforms-with-144-million-seed-extension",
+      "quote": "The start-up was founded by"
+    },
+    {
+      "field": "sectors",
+      "url": "https://invest-in.berlin/n/berlin-fintech-payrails-lands-32m-funding-round/",
+      "quote": "The platform serves as a payment operating system for large enterprises"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://invest-in.berlin/n/berlin-fintech-payrails-lands-32m-funding-round/",
+      "quote": "Founded by former fintech leaders from Delivery Hero"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "F6022138-F367-4DFE-AD2A-0C96228B56B7",
+      "stage": "seed",
+      "month": "2022-03",
+      "amountEur": 5791000,
+      "amountOriginal": 6400000,
+      "currency": "USD",
+      "investors": [
+        "Andreessen Horowitz",
+        "HV Capital",
+        "Emmanuel Thomassin",
+        "Jochen Engert",
+        "André Schwämmlein",
+        "Daniel Krauss",
+        "Dominik Richter"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2022/03/17/payrails-emerges-from-stealth-with-6-4m-led-by-a16z-to-build-the-os-for-payments/amp/",
+          "quote": "it snagged a seed round of $6.4 million led by Andreessen Horowitz"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2022/03/17/payrails-emerges-from-stealth-with-6-4m-led-by-a16z-to-build-the-os-for-payments/amp/",
+          "quote": "it snagged a seed round of $6.4 million led by Andreessen Horowitz"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2022/03/17/payrails-emerges-from-stealth-with-6-4m-led-by-a16z-to-build-the-os-for-payments/amp/",
+          "quote": "Today, a startup is coming out of stealth"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2022/03/17/payrails-emerges-from-stealth-with-6-4m-led-by-a16z-to-build-the-os-for-payments/amp/",
+          "quote": "HV Capital; Delivery Hero CFO Emmanuel Thomassin; Flixbus founders Jochen Engert, André Schwämmlein and Daniel Krauss"
+        }
+      ]
+    },
+    {
+      "techeuId": "51E7F05E-226D-4502-B0C2-E8C55E71FC4F",
+      "stage": "seed",
+      "month": "2023-06",
+      "amountEur": 13437000,
+      "amountOriginal": 14400000,
+      "currency": "USD",
+      "investors": [
+        "EQT Ventures",
+        "General Catalyst",
+        "Andreessen Horowitz",
+        "HV Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2023/06/07/payrails-scaling-its-payment-operating-system-for-global-platforms-with-144-million-seed-extension",
+          "quote": "has secured a Seed extension round of $14.4 million"
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2023/06/07/payrails-scaling-its-payment-operating-system-for-global-platforms-with-144-million-seed-extension",
+          "quote": "has secured a Seed extension round of $14.4 million"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2023/06/07/payrails-scaling-its-payment-operating-system-for-global-platforms-with-144-million-seed-extension",
+          "quote": "has secured a Seed extension round of $14.4 million"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2023/06/07/payrails-scaling-its-payment-operating-system-for-global-platforms-with-144-million-seed-extension",
+          "quote": "this fresh funding round was led by"
+        }
+      ]
+    },
+    {
+      "techeuId": "075FE18A-CC77-4EC8-B1D0-F652D085B1D5",
+      "stage": "series-a",
+      "month": "2025-06",
+      "amountEur": 27601000,
+      "amountOriginal": 32000000,
+      "currency": "USD",
+      "investors": [
+        "HV Capital",
+        "EQT Ventures",
+        "General Catalyst",
+        "Andreessen Horowitz"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://vestbee.com/insights/articles/payrails-secures-32-m",
+          "quote": "German fintech startup Payrails secures $32M Series A round"
+        },
+        {
+          "field": "stage",
+          "url": "https://vestbee.com/insights/articles/payrails-secures-32-m",
+          "quote": "German fintech startup Payrails secures $32M Series A round"
+        },
+        {
+          "field": "month",
+          "url": "https://vestbee.com/insights/articles/payrails-secures-32-m",
+          "quote": "German fintech startup Payrails secures $32M Series A round"
+        },
+        {
+          "field": "investors",
+          "url": "https://vestbee.com/insights/articles/payrails-secures-32-m",
+          "quote": "Payrails will use the $32 million Series A funding to accelerate product innovation"
+        }
+      ]
+    }
+  ]
+}

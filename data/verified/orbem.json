@@ -1,0 +1,152 @@
+{
+  "id": "orbem",
+  "name": "Orbem",
+  "aliases": [],
+  "domain": "orbem.ai",
+  "country": "DE",
+  "city": "Munich",
+  "founded": 2019,
+  "sectors": [
+    "health",
+    "ai",
+    "foodtech"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Pedro Gómez",
+    "Maria Laparidou",
+    "Miguel Molina"
+  ],
+  "difficulty": 5,
+  "funFact": "Orbem began in 2019 as a spin-off from the Technical University of Munich and now uses AI-powered MRI to determine the sex of an egg in one second.",
+  "techeuId": "EA2E2B84-E1B6-410E-BEB4-8FA4E7BB05D7",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://tech.eu/2026/01/20/orbem-raises-eur555m-series-b-to-scale-ai-powered-mri-technology/",
+      "quote": "Munich-based"
+    },
+    {
+      "field": "founded",
+      "url": "https://siliconcanals.com/orbem-raises-30m/",
+      "quote": "Founded in 2019 as a spin-off from the Technical University of Munich"
+    },
+    {
+      "field": "founders",
+      "url": "https://www.munich-startup.de/en/95426/orbem-raises-30-million-euros-in-series-a/",
+      "quote": "The Orbem founding team: Miguel Molina, Maria Laparidou and Pedro Gómez (from left to right)"
+    },
+    {
+      "field": "sectors",
+      "url": "https://tech.eu/2026/01/20/orbem-raises-eur555m-series-b-to-scale-ai-powered-mri-technology/",
+      "quote": "deeptech company applying artificial intelligence to magnetic resonance imaging"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://tech.eu/2026/01/20/orbem-raises-eur555m-series-b-to-scale-ai-powered-mri-technology/",
+      "quote": "has closed a €55.5 million Series B"
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://siliconcanals.com/orbem-raises-30m/",
+      "quote": "Founded in 2019 as a spin-off from the Technical University of Munich"
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://siliconcanals.com/orbem-raises-30m/",
+      "quote": "determine the sex of an egg in a completely contactless and non-invasive manner, delivering results in just one second per egg"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "386DA40B-F6D3-422E-B6D6-781BAE769402",
+      "stage": "series-a",
+      "month": "2023-10",
+      "amountEur": 30000000,
+      "amountOriginal": 30000000,
+      "currency": "EUR",
+      "investors": [
+        "83North",
+        "La Famiglia",
+        "The Venture Collective",
+        "Possible Ventures",
+        "Rüdiger Schmidt",
+        "Rubin Ritter",
+        "Hanno Renner",
+        "Roman Schumacher",
+        "Jonas Rieke",
+        "Michael Wax",
+        "Erik Muttersbach",
+        "Michael Ardelt",
+        "Alexander Hüttenbrink",
+        "Oliver Trinchera"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.munich-startup.de/en/95426/orbem-raises-30-million-euros-in-series-a/",
+          "quote": "Orbem has now successfully completed a Series A funding round worth €30 million."
+        },
+        {
+          "field": "stage",
+          "url": "https://www.munich-startup.de/en/95426/orbem-raises-30-million-euros-in-series-a/",
+          "quote": "Orbem has now successfully completed a Series A funding round worth €30 million."
+        },
+        {
+          "field": "month",
+          "url": "https://siliconcanals.com/orbem-raises-30m/",
+          "quote": "Orbem raises €30M in its Series A funding round"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.munich-startup.de/en/95426/orbem-raises-30-million-euros-in-series-a/",
+          "quote": "Venture capital firm 83North is leading the €30 million funding round."
+        }
+      ]
+    },
+    {
+      "techeuId": "141FB7C6-6843-4CBC-97A7-528F4AB45261",
+      "stage": "series-b",
+      "month": "2026-01",
+      "amountEur": 55500000,
+      "amountOriginal": 55500000,
+      "currency": "EUR",
+      "investors": [
+        "Innovation Industries",
+        "Supernova Invest",
+        "General Catalyst",
+        "83North",
+        "The Venture Collective",
+        "Possible Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2026/01/20/orbem-raises-eur555m-series-b-to-scale-ai-powered-mri-technology/",
+          "quote": "has closed a €55.5 million Series B"
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2026/01/20/orbem-raises-eur555m-series-b-to-scale-ai-powered-mri-technology/",
+          "quote": "has closed a €55.5 million Series B"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2026/01/20/orbem-raises-eur555m-series-b-to-scale-ai-powered-mri-technology/",
+          "quote": "20 January 2026"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2026/01/20/orbem-raises-eur555m-series-b-to-scale-ai-powered-mri-technology/",
+          "quote": "The round was led by"
+        },
+        {
+          "field": "investors",
+          "url": "https://orbem.ai/newsroom/orbem-secures-eu55-5-million-series-b",
+          "quote": "led by European Deep tech investors Innovation Industries and joined by Supernova Invest as well as existing investors."
+        }
+      ]
+    }
+  ]
+}

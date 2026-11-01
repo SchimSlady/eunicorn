@@ -1,0 +1,123 @@
+{
+  "id": "planqc",
+  "name": "planqc",
+  "domain": "planqc.eu",
+  "country": "DE",
+  "city": "Garching",
+  "founded": 2022,
+  "sectors": [
+    "quantum"
+  ],
+  "founders": [
+    "Alexander Glätzle",
+    "Sebastian Blatt",
+    "Johannes Zeiher"
+  ],
+  "funFact": "planqc was the first startup to spin out of the Munich Quantum Valley initiative.",
+  "difficulty": 4,
+  "techeuId": "38DA42C0-4AB3-4791-AC09-2B67EEFF7EA5",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/Planqc",
+      "quote": "planqc is a quantum computing company based in Garching"
+    },
+    {
+      "field": "founded",
+      "url": "https://planqc.eu",
+      "quote": "Founded in 2022 by quantum physicists Glätzle, Blatt, and Zeiher"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Planqc",
+      "quote": "planqc was founded in 2022 by Alexander Glätzle, Sebastian Blatt, and Johannes Zeiher"
+    },
+    {
+      "field": "sectors",
+      "url": "https://en.wikipedia.org/wiki/Planqc",
+      "quote": "the company develops quantum processors that use neutral atoms trapped in optical lattices of light to perform computations."
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://planqc.eu",
+      "quote": "planqc spun off from the Max Planck Institute of Quantum Optics as Munich Quantum Valley's first startup."
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "EE3C34E1-83BB-4FBA-882D-DB2343D358EC",
+      "stage": "seed",
+      "month": "2022-06",
+      "amountEur": 4600000,
+      "amountOriginal": 4600000,
+      "currency": "EUR",
+      "investors": [
+        "UVC Partners",
+        "Speedinvest"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://thequantuminsider.com/2022/06/29/planqc-emerges-from-stealth-raises-e4-6m-to-build-neutral-atom-quantum-computer/",
+          "quote": "Quantum computing startup planqc today announced a financing round of EUR 4.6 million led by UVC Partners and Speedinvest."
+        },
+        {
+          "field": "stage",
+          "url": "https://en.wikipedia.org/wiki/Planqc",
+          "quote": "planqc secured seed funding of approximately €4.6"
+        },
+        {
+          "field": "investors",
+          "url": "https://thequantuminsider.com/2022/06/29/planqc-emerges-from-stealth-raises-e4-6m-to-build-neutral-atom-quantum-computer/",
+          "quote": "Quantum computing startup planqc today announced a financing round of EUR 4.6 million led by UVC Partners and Speedinvest."
+        },
+        {
+          "field": "month",
+          "url": "https://thequantuminsider.com/2022/06/29/planqc-emerges-from-stealth-raises-e4-6m-to-build-neutral-atom-quantum-computer/",
+          "quote": "June 29, 2022"
+        }
+      ]
+    },
+    {
+      "techeuId": "AA3FA02E-B5C3-4B40-8F7D-90B69B458FF1",
+      "stage": "series-a",
+      "month": "2024-07",
+      "amountEur": 50000000,
+      "amountOriginal": 50000000,
+      "currency": "EUR",
+      "investors": [
+        "CATRON Holding",
+        "DeepTech & Climate Fonds",
+        "Bayern Kapital",
+        "Max-Planck Foundation",
+        "UVC Partners",
+        "Speedinvest"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://thequantuminsider.com/2024/07/08/planqc-announces-e50-million-series-a/",
+          "quote": "proudly announces the securement of €50 million financing."
+        },
+        {
+          "field": "stage",
+          "url": "https://thequantuminsider.com/2024/07/08/planqc-announces-e50-million-series-a/",
+          "quote": "This substantial Series A investment is led by the European Family Office CATRON Holding and the DeepTech & Climate Fonds (DTCF)."
+        },
+        {
+          "field": "month",
+          "url": "https://thequantuminsider.com/2024/07/08/planqc-announces-e50-million-series-a/",
+          "quote": "planqc announced that the company has secured €50 million financing in a Series A round."
+        },
+        {
+          "field": "investors",
+          "url": "https://thequantuminsider.com/2024/07/08/planqc-announces-e50-million-series-a/",
+          "quote": "Additional financial support is provided by Bayern Kapital, the Max-Planck Foundation, further private investors, existing investors UVC and Speedinvest"
+        }
+      ]
+    }
+  ],
+  "aliases": [],
+  "status": "private",
+  "unicorn": false
+}

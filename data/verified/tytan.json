@@ -1,0 +1,92 @@
+{
+  "id": "tytan",
+  "name": "Tytan Technologies",
+  "aliases": [
+    "TYTAN Technologies"
+  ],
+  "domain": "tytan-technologies.com",
+  "country": "DE",
+  "city": "Munich",
+  "founded": 2023,
+  "sectors": [
+    "defense"
+  ],
+  "founders": [
+    "Balazs Nagy",
+    "Batuhan Yumurtaci"
+  ],
+  "funFact": "The German procurement agency BAAINBw commissioned Tytan in autumn 2025 to develop an AI-based drone defence system for Bundeswehr sites, two years after the startup was founded.",
+  "difficulty": 5,
+  "techeuId": "E174DD6D-616B-4F95-B531-818B4B8873CA",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://heise.de/-11189328",
+      "quote": "Munich-based drone defense startup Tytan Technologies has received more than 30 million euros in capital in a Series A financing round across Europe."
+    },
+    {
+      "field": "founded",
+      "url": "https://www.munich-startup.de/en/117431/30-million-euros-for-tytan/",
+      "quote": "the Munich defense startup founded in 2023"
+    },
+    {
+      "field": "founders",
+      "url": "https://resiliencemedia.co/tytan-raises-e30m-for-drone-defence-sources-say-at-a-e150m-valuation",
+      "quote": "said co-founders Balazs Nagy and Batuhan Yumurtaci in a statement."
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.munich-startup.de/en/117431/30-million-euros-for-tytan/",
+      "quote": "The Munich startup Tytan develops AI-based interception systems for air defense and plans to expand its industrial production in Europe."
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://heise.de/-11189328",
+      "quote": "whose procurement office commissioned the company in the fall of 2025 to develop an AI-based drone defense solution for Bundeswehr sites."
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "1C8D3D8C-067E-486F-8732-381555F93559",
+      "stage": "series-a",
+      "month": "2026-02",
+      "amountEur": 30000000,
+      "amountOriginal": 30000000,
+      "currency": "EUR",
+      "investors": [
+        "Armira",
+        "NATO Innovation Fund",
+        "Visionaries Club",
+        "OTB Ventures",
+        "Lakestar",
+        "Magnetic",
+        "D3",
+        "10x Group"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.munich-startup.de/en/117431/30-million-euros-for-tytan/",
+          "quote": "The company has completed a Series A round of 30 million euros."
+        },
+        {
+          "field": "stage",
+          "url": "https://www.munich-startup.de/en/117431/30-million-euros-for-tytan/",
+          "quote": "The company has completed a Series A round of 30 million euros."
+        },
+        {
+          "field": "investors",
+          "url": "https://www.munich-startup.de/en/117431/30-million-euros-for-tytan/",
+          "quote": "The round is led jointly by Armira and Nato Innovation Fund. Existing investors Visionaries Club, OTB Ventures, Lakestar, Magnetic, D3, and 10x Group are participating again."
+        },
+        {
+          "field": "month",
+          "url": "https://www.munich-startup.de/en/117431/30-million-euros-for-tytan/",
+          "quote": "February 27, 2026"
+        }
+      ]
+    }
+  ],
+  "status": "private",
+  "unicorn": false
+}

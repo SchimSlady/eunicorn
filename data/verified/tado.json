@@ -1,0 +1,276 @@
+{
+  "id": "tado",
+  "name": "tado°",
+  "aliases": [
+    "Tado",
+    "tado"
+  ],
+  "domain": "tado.com",
+  "country": "DE",
+  "city": "Munich",
+  "founded": 2011,
+  "sectors": [
+    "climate",
+    "consumer"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Christian Deilmann",
+    "Johannes Schwarz",
+    "Leopold von Bismarck",
+    "Valentin Sawadski"
+  ],
+  "funFact": "Since launching in 2011, tado° has put about 3 million smart thermostats into European homes and commercial spaces.",
+  "difficulty": 5,
+  "techeuId": "E0328018-8CDF-4C39-82D2-A55599FBF00D",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.targetpartners.de/news/smart-thermostat-company-tado-raises-171-million-financing-round",
+      "quote": "Headquartered in Munich, tado°, the European market leader in intelligent home climate control solutions, was founded in 2011."
+    },
+    {
+      "field": "founded",
+      "url": "https://www.targetpartners.de/news/smart-thermostat-company-tado-raises-171-million-financing-round",
+      "quote": "Headquartered in Munich, tado°, the European market leader in intelligent home climate control solutions, was founded in 2011."
+    },
+    {
+      "field": "founders",
+      "url": "https://tech.eu/2021/05/17/munich-based-home-climate-management-startup-tado-raises-e38-million-partners-with-noventic/",
+      "quote": "Founded in 2011 by Christian Deilmann , Johannes Schwarz , Leopold von Bismarck , and Valentin Sawadski"
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.munich-startup.de/en/88716/tado-series-h/",
+      "quote": "Tado, known for its smart thermostats"
+    },
+    {
+      "field": "status",
+      "url": "https://www.munich-startup.de/en/108732/tado-financing-panasonic/",
+      "quote": "Japanese electronics conglomerate Panasonic is investing 30 million euros in Munich-based smart home specialist Tado."
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://tech.eu/2023/01/26/sleek",
+      "quote": "Last year, sales of tado° smart thermostats doubled and there's currently 3 million of them in European homes and commercial spaces."
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "6272B845-2D1B-4EA4-D3FC-08D91092C887",
+      "stage": "series-b",
+      "month": "2015-10",
+      "amountEur": 15178413,
+      "amountOriginal": 17100000,
+      "currency": "USD",
+      "investors": [
+        "Siemens Venture Capital",
+        "Statkraft Ventures",
+        "Target Partners",
+        "Shortcut Ventures",
+        "BayBG"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.targetpartners.de/news/smart-thermostat-company-tado-raises-171-million-financing-round",
+          "quote": "Munich, October 7, 2015: tado°, the European market leader in intelligent home climate control, announces another $17.1 million financing round"
+        },
+        {
+          "field": "month",
+          "url": "https://www.targetpartners.de/news/smart-thermostat-company-tado-raises-171-million-financing-round",
+          "quote": "Munich, October 7, 2015"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.targetpartners.de/news/smart-thermostat-company-tado-raises-171-million-financing-round",
+          "quote": "have invested alongside the venture capital funds Target Partners, Shortcut Ventures, BayBG and others."
+        }
+      ]
+    },
+    {
+      "techeuId": "88A8F100-14BC-4A07-D3FD-08D91092C887",
+      "stage": "series-c",
+      "month": "2016-04",
+      "amountEur": 20377425,
+      "amountOriginal": 23000000,
+      "currency": "USD",
+      "investors": [
+        "Inven Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.targetpartners.de/news/tado-raises-23m-to-internationally-scale-its-service-offerings",
+          "quote": "Munich, 26. April 2016 - tado°, the European market leader in intelligent home climate control, has raised another $23 million dollars in a new financing round."
+        },
+        {
+          "field": "month",
+          "url": "https://www.targetpartners.de/news/tado-raises-23m-to-internationally-scale-its-service-offerings",
+          "quote": "Munich, 26. April 2016"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.targetpartners.de/news/tado-raises-23m-to-internationally-scale-its-service-offerings",
+          "quote": "The new financing comes from international investor INVEN CAPITAL, a venture capital arm of the CEZ GROUP"
+        }
+      ]
+    },
+    {
+      "techeuId": "623FD2D3-BA55-4017-D3FE-08D91092C887",
+      "stage": "series-d",
+      "month": "2018-10",
+      "amountEur": 43798178,
+      "amountOriginal": 50000000,
+      "currency": "USD",
+      "investors": [
+        "Amazon",
+        "E.ON",
+        "Total Energy Ventures",
+        "Energy Innovation Capital",
+        "Inven Capital",
+        "European Investment Bank"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2018/10/25/munich-based-smart-thermostat-startup-tado-raises-50-million/",
+          "quote": "has secured $50 million in funding from Amazon, E.ON, Total Energy Ventures, Energy Innovation Capital, Inven Capital, the European Investment Bank, and others."
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2018/10/25/munich-based-smart-thermostat-startup-tado-raises-50-million/",
+          "quote": "Munich-based smart thermostat startup tado° raises $50 million from Amazon, E.ON, and others"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2018/10/25/munich-based-smart-thermostat-startup-tado-raises-50-million/",
+          "quote": "has secured $50 million in funding from Amazon, E.ON, Total Energy Ventures, Energy Innovation Capital, Inven Capital, the European Investment Bank, and others."
+        }
+      ]
+    },
+    {
+      "techeuId": "9C0FB847-F322-4413-B077-9C04E17F2DF4",
+      "stage": "series-f+",
+      "month": "2021-05",
+      "amountEur": 38000000,
+      "amountOriginal": 38000000,
+      "currency": "EUR",
+      "investors": [
+        "noventic"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2021/05/17/munich-based-home-climate-management-startup-tado-raises-e38-million-partners-with-noventic/",
+          "quote": "has raised €38 million from Hamburg-based proptech firm noventic and undisclosed existing investors."
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2021/05/17/munich-based-home-climate-management-startup-tado-raises-e38-million-partners-with-noventic/",
+          "quote": "Munich-based home climate management startup Tado° raises €38 million, partners with noventic"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2021/05/17/munich-based-home-climate-management-startup-tado-raises-e38-million-partners-with-noventic/",
+          "quote": "has raised €38 million from Hamburg-based proptech firm noventic and undisclosed existing investors."
+        }
+      ]
+    },
+    {
+      "techeuId": "AF797038-2A07-4910-93B9-DF816190DD67",
+      "stage": "series-f+",
+      "month": "2023-01",
+      "amountEur": 43000000,
+      "amountOriginal": 43000000,
+      "currency": "EUR",
+      "investors": [
+        "Trill Impact Ventures",
+        "Bayern Kapital",
+        "Kiko Ventures",
+        "Swisscanto",
+        "noventic",
+        "Target Partners"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.munich-startup.de/en/88716/tado-series-h/",
+          "quote": "In its series H, the Munich-based startup is raising a total of €43 million."
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2023/01/26/sleek",
+          "quote": "Making smart thermostats sleek and easy to use, Munich's tado° brings home €43 million"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2023/01/26/sleek",
+          "quote": "provided by investors Trill Impact Ventures , Bayern Kapital , Kiko Ventures , and Swisscanto , among others"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.munich-startup.de/en/88716/tado-series-h/",
+          "quote": "In its series H, the Munich-based startup is raising a total of €43 million."
+        }
+      ]
+    },
+    {
+      "techeuId": "6C4F8F49-233E-4739-BEA8-98727FAA7C53",
+      "stage": "series-f+",
+      "month": "2023-04",
+      "amountEur": 12000000,
+      "amountOriginal": 12000000,
+      "currency": "EUR",
+      "investors": [
+        "S2G Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2023/04/04/two-months-after-a-eur43-million-round-smart-thermostat-maker-tado-tacks-on-another-eur12-million/",
+          "quote": "Munich’s tado° has added another €12 million to an already impressive €43 million funding round announced just two months ago."
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2023/04/04/two-months-after-a-eur43-million-round-smart-thermostat-maker-tado-tacks-on-another-eur12-million/",
+          "quote": "Two months after a €43 million round, smart thermostat maker tado° tacks on another €12 million"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2023/04/04/two-months-after-a-eur43-million-round-smart-thermostat-maker-tado-tacks-on-another-eur12-million/",
+          "quote": "The additional capital was provided by S2G Ventures and adds to the previous portion of the round"
+        }
+      ]
+    },
+    {
+      "techeuId": "F3F4318E-E508-4BD8-A88B-F66852680BFA",
+      "stage": "series-f+",
+      "month": "2025-03",
+      "amountEur": 30000000,
+      "amountOriginal": 30000000,
+      "currency": "EUR",
+      "investors": [
+        "Panasonic Heating & Cooling Solutions Europe"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.munich-startup.de/en/108732/tado-financing-panasonic/",
+          "quote": "Japanese electronics conglomerate Panasonic is investing 30 million euros in Munich-based smart home specialist Tado."
+        },
+        {
+          "field": "month",
+          "url": "https://www.munich-startup.de/en/108732/tado-financing-panasonic/",
+          "quote": "Panasonic is investing through its Heating & Ventilation A/C Company in Tado, a company founded in 2011."
+        },
+        {
+          "field": "investors",
+          "url": "https://www.munich-startup.de/en/108732/tado-financing-panasonic/",
+          "quote": "Panasonic is investing through its Heating & Ventilation A/C Company in Tado"
+        }
+      ]
+    }
+  ]
+}

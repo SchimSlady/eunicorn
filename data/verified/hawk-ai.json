@@ -1,0 +1,163 @@
+{
+  "id": "hawk-ai",
+  "name": "Hawk AI",
+  "aliases": [
+    "Hawk"
+  ],
+  "domain": "hawk.ai",
+  "country": "DE",
+  "city": "Munich",
+  "founded": 2018,
+  "sectors": [
+    "fintech"
+  ],
+  "founders": [
+    "Tobias Schweiger",
+    "Wolfgang Berner"
+  ],
+  "funFact": "Co-founders Tobias Schweiger and Wolfgang Berner previously held senior roles at PAY.ON, which was sold for $200M, and at ACI Worldwide.",
+  "difficulty": 4,
+  "techeuId": "A1409F8B-C4AA-4910-BF49-2823F329A96E",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.munich-startup.de/en/88719/hawk-ai-series-b/",
+      "quote": "The Munich-based company has now raised €15.6 million ($17 million) in its Series B funding round."
+    },
+    {
+      "field": "founded",
+      "url": "https://siliconcanals.com/hawk-ai-raises-10m/",
+      "quote": "The company was founded in 2018 by experienced fintech entrepreneurs Tobias Schweiger and Wolfgang Berner"
+    },
+    {
+      "field": "founders",
+      "url": "https://siliconcanals.com/hawk-ai-raises-10m/",
+      "quote": "The company was founded in 2018 by experienced fintech entrepreneurs Tobias Schweiger and Wolfgang Berner"
+    },
+    {
+      "field": "sectors",
+      "url": "https://siliconcanals.com/hawk-ai-raises-10m/",
+      "quote": "Hawk AI is a software platform for banks, payment firms, and fintechs for the detection of transactions linked to financial crime."
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://siliconcanals.com/hawk-ai-raises-10m/",
+      "quote": "who both previously held senior leadership roles at PAY.ON (sold for $200M) and ACI Worldwide"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "88D4980D-0AC9-46D4-AB42-FDF5E334FDC6",
+      "stage": "series-a",
+      "month": "2021-06",
+      "amountEur": 8367501,
+      "amountOriginal": 10000000,
+      "currency": "USD",
+      "investors": [
+        "BlackFin Capital Partners",
+        "Picus Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://siliconcanals.com/hawk-ai-raises-10m/",
+          "quote": "has announced that it has raised $10M (approx €8.37M) in its Series A round of funding"
+        },
+        {
+          "field": "stage",
+          "url": "https://siliconcanals.com/hawk-ai-raises-10m/",
+          "quote": "has announced that it has raised $10M (approx €8.37M) in its Series A round of funding"
+        },
+        {
+          "field": "investors",
+          "url": "https://siliconcanals.com/hawk-ai-raises-10m/",
+          "quote": "The funding was led by fintech specialist BlackFin Capital Partners. In addition, existing investor Picus Capital also participated in this round."
+        },
+        {
+          "field": "month",
+          "url": "https://siliconcanals.com/hawk-ai-raises-10m/",
+          "quote": "Jun 28, 2021"
+        }
+      ]
+    },
+    {
+      "techeuId": "632197B0-8659-4039-AB32-2B5195A85F88",
+      "stage": "series-b",
+      "month": "2023-01",
+      "amountEur": 15600000,
+      "amountOriginal": 17000000,
+      "currency": "USD",
+      "investors": [
+        "Sands Capital Ventures",
+        "DN Capital",
+        "Coalition",
+        "BlackFin Capital Partners",
+        "Picus Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.munich-startup.de/en/88719/hawk-ai-series-b/",
+          "quote": "The Munich-based company has now raised €15.6 million ($17 million) in its Series B funding round."
+        },
+        {
+          "field": "stage",
+          "url": "https://www.munich-startup.de/en/88719/hawk-ai-series-b/",
+          "quote": "The Munich-based company has now raised €15.6 million ($17 million) in its Series B funding round."
+        },
+        {
+          "field": "investors",
+          "url": "https://www.munich-startup.de/en/88719/hawk-ai-series-b/",
+          "quote": "DN Capital and Coalition are also joining as new investors. Existing investors Blackfin Capital Partners and Picus Capital are also back on board."
+        },
+        {
+          "field": "month",
+          "url": "https://www.munich-startup.de/en/88719/hawk-ai-series-b/",
+          "quote": "January 28, 2023"
+        }
+      ]
+    },
+    {
+      "techeuId": "7E22E0EE-CBD0-4E97-B7F5-E469D52AD298",
+      "stage": "series-c",
+      "month": "2025-04",
+      "amountEur": 52000000,
+      "amountOriginal": 52000000,
+      "currency": "EUR",
+      "investors": [
+        "One Peak",
+        "Rabobank",
+        "Macquarie Capital",
+        "BlackFin Capital Partners",
+        "Sands Capital",
+        "DN Capital",
+        "Picus Capital",
+        "Coalition"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.trendingtopics.eu/hawk-ai-investment-52-millionen-euro/",
+          "quote": "Nun kommt die große Serie-C-Runde in Höhe von 52 Millionen Euro."
+        },
+        {
+          "field": "stage",
+          "url": "https://www.trendingtopics.eu/hawk-ai-investment-52-millionen-euro/",
+          "quote": "Nun kommt die große Serie-C-Runde in Höhe von 52 Millionen Euro."
+        },
+        {
+          "field": "investors",
+          "url": "https://www.trendingtopics.eu/hawk-ai-investment-52-millionen-euro/",
+          "quote": "Angeführt wurde die Finanzierungsrunde von One Peak, die Bestandsinvestoren Rabobank, Macquarie, BlackFin Capital Partners, Sands Capital, DN, Picus und Coalition ziehen mit."
+        },
+        {
+          "field": "month",
+          "url": "https://www.trendingtopics.eu/hawk-ai-investment-52-millionen-euro/",
+          "quote": "08. April 2025"
+        }
+      ]
+    }
+  ],
+  "status": "private",
+  "unicorn": false
+}

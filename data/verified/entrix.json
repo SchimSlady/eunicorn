@@ -1,0 +1,85 @@
+{
+  "id": "entrix",
+  "name": "Entrix",
+  "domain": "entrixenergy.com",
+  "country": "DE",
+  "city": "Munich",
+  "founded": 2021,
+  "sectors": [
+    "climate"
+  ],
+  "founders": [
+    "Jeremias Heinrich",
+    "Steffen Schülzchen"
+  ],
+  "funFact": "Entrix manages one of Germany's first large-scale battery storage projects.",
+  "difficulty": 5,
+  "techeuId": "B5A10DCB-A586-4068-AFC7-27C4E17F3B2B",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://munich-startup.de/news/entrix-zusaetzliche-43-millionen-euro-fuer-europas-flexibilitatsmarkt",
+      "quote": "treibt das Münchner Startup die Skalierung von Flexibilität als Schlüsselressource der Energiewende voran."
+    },
+    {
+      "field": "founded",
+      "url": "https://munich-startup.de/news/entrix-zusaetzliche-43-millionen-euro-fuer-europas-flexibilitatsmarkt",
+      "quote": "Das 2021 gegründete Unternehmen betreibt nach eigenen Angaben inzwischen mehr als 70 Batteriespeichersysteme in Europa"
+    },
+    {
+      "field": "founders",
+      "url": "https://solarimpulse.com/companies/entrix-gmbh",
+      "quote": "Jeremias Heinrich and Steffen Schülzchen"
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.ess-news.com/2026/03/26/entrix-secures-e43-million-investment-eyes-growth-for-flexibility-services-in-iberian-market/",
+      "quote": "Munich-headquartered company operates one of Germany's first large-scale battery systems"
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://www.ess-news.com/2026/03/26/entrix-secures-e43-million-investment-eyes-growth-for-flexibility-services-in-iberian-market/",
+      "quote": "operates one of Germany's first large-scale battery systems"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "70C5E37D-1B58-4E9A-8FCA-D158C17E0697",
+      "stage": "series-b",
+      "month": "2026-03",
+      "amountEur": 43000000,
+      "amountOriginal": 43000000,
+      "currency": "EUR",
+      "investors": [
+        "Junction Growth Investors",
+        "Korys",
+        "BNP Paribas Solar Impulse Venture Fund",
+        "Allianz",
+        "AENU",
+        "Enpal",
+        "Abacon Capital",
+        "Arvantis Group"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.bakermckenzie.com/en/newsroom/2026/04/junction-growth-investors-investment-in-entrix",
+          "quote": "The consortium of investors has now committed EUR 43 million in additional capital into Entrix."
+        },
+        {
+          "field": "month",
+          "url": "https://www.ess-news.com/2026/03/26/entrix-secures-e43-million-investment-eyes-growth-for-flexibility-services-in-iberian-market/",
+          "quote": "has secured a €43 million ($46.4 million) investment from a consortium of backers"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.bakermckenzie.com/en/newsroom/2026/04/junction-growth-investors-investment-in-entrix",
+          "quote": "Besides Junction Growth Investors, Korys and BNP Paribas Entrix' investors include insurance company Allianz, AENU, Enpal, Abacon (Büll Family Office) and Arvantis Group."
+        }
+      ]
+    }
+  ],
+  "aliases": [],
+  "status": "private",
+  "unicorn": false
+}

@@ -1,0 +1,171 @@
+{
+  "id": "robco",
+  "name": "RobCo",
+  "aliases": [
+    "Robco"
+  ],
+  "domain": "rob.co",
+  "country": "DE",
+  "city": "Munich",
+  "founded": 2020,
+  "sectors": [
+    "robotics"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Roman Hölzl",
+    "Paul Maroldt",
+    "Constantin Dresel"
+  ],
+  "funFact": "RobCo was spun out of the Technical University of Munich by a team led by Roman Hölzl, the chair of robotics and artificial intelligence there.",
+  "difficulty": 5,
+  "techeuId": "E0DB09CC-CCF9-4FF8-8B6C-1CA7B145F094",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://siliconangle.com/2026/01/29/robco-nabs-100m-scale-autonomous-industrial-robotics-platform/",
+      "quote": "Founded in 2020 in Munich, the company expanded into the U.S. in 2025"
+    },
+    {
+      "field": "founded",
+      "url": "https://www.therobotreport.com/robco-brings-in-13-8m-for-its-modular-robotic-arms/",
+      "quote": "Robco was founded in 2020 by Roman Hoelzl"
+    },
+    {
+      "field": "founders",
+      "url": "https://techfundingnews.com/europes-new-robotics-unicorn-germanys-robco-hits-1b-valuation/",
+      "quote": "RobCo was founded in 2020 by Roman Hölzl, Paul Maroldt , and Constantin Dresel"
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.therobotreport.com/robco-raises-100m-scale-industrial-automation/",
+      "quote": "RobCo applies physical AI and modular hardware to industrial automation."
+    },
+    {
+      "field": "status",
+      "url": "https://www.therobotreport.com/robco-raises-100m-scale-industrial-automation/",
+      "quote": "The Munich-based company said its Autonomous Manufacturing Platform combines modular hardware with a physical AI software stack"
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://www.therobotreport.com/robco-raises-42-5m-for-automation-for-small-midsize-manufacturers/",
+      "quote": "Three researchers led by Roman Hölzl, the chair of robotics and artificial intelligence at the Technical University of Munich, founded RobCo in 2020."
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "87DD2904-92B8-4976-AF51-7B37003A3572",
+      "stage": "series-a",
+      "month": "2022-12",
+      "amountEur": 13069419,
+      "amountOriginal": 13800000,
+      "currency": "USD",
+      "investors": [
+        "Sequoia Capital",
+        "Kindred Capital",
+        "Promus Ventures",
+        "Torsten Reil",
+        "Christian Reber",
+        "Daniel Dines"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.therobotreport.com/robco-brings-in-13-8m-for-its-modular-robotic-arms/",
+          "quote": "brought in around $13.8 million, or €13 million, in Series A funding"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2022/12/11/robco-links-up-with-14m-led-by-sequoia-to-bring-modular-robotics-to-industrial-smbs/",
+          "quote": "Robco links up with $14M led by Sequoia to bring modular robotics to industrial SMBs"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.therobotreport.com/robco-brings-in-13-8m-for-its-modular-robotic-arms/",
+          "quote": "Sequoia led the funding round, which also included participation from Kindred Capital, Promus Ventures, Torsten Reil, Christian Reber and Daniel Dines."
+        },
+        {
+          "field": "stage",
+          "url": "https://www.therobotreport.com/robco-brings-in-13-8m-for-its-modular-robotic-arms/",
+          "quote": "in Series A funding"
+        }
+      ]
+    },
+    {
+      "techeuId": "B2291375-D40F-4B34-B3BE-7A8E375E7AF5",
+      "stage": "series-b",
+      "month": "2024-02",
+      "amountEur": 39163288,
+      "amountOriginal": 42500000,
+      "currency": "USD",
+      "investors": [
+        "Lightspeed Venture Partners",
+        "Sequoia Capital",
+        "Kindred Capital",
+        "Promus Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.therobotreport.com/robco-raises-42-5m-for-automation-for-small-midsize-manufacturers/",
+          "quote": "RobCo GmbH today said it has raised $42.5 million in Series B funding"
+        },
+        {
+          "field": "month",
+          "url": "https://www.therobotreport.com/robco-raises-42-5m-for-automation-for-small-midsize-manufacturers/",
+          "quote": "RobCo GmbH today said it has raised $42.5 million in Series B funding"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.therobotreport.com/robco-raises-42-5m-for-automation-for-small-midsize-manufacturers/",
+          "quote": "Lightspeed Venture Partners led RobCo’s Series B round as a new investor. Former Apple and NVIDIA investor Sequoia Capital also participated in the round, along with Kindred Capital and Promus Ventures."
+        },
+        {
+          "field": "stage",
+          "url": "https://www.therobotreport.com/robco-raises-42-5m-for-automation-for-small-midsize-manufacturers/",
+          "quote": "RobCo GmbH today said it has raised $42.5 million in Series B funding"
+        }
+      ]
+    },
+    {
+      "techeuId": "F561F5AF-0281-4A79-95CF-B4A997879041",
+      "stage": "series-c",
+      "month": "2026-01",
+      "amountEur": 83556150,
+      "amountOriginal": 100000000,
+      "currency": "USD",
+      "investors": [
+        "Lightspeed Venture Partners",
+        "Lingotto Innovation",
+        "Sequoia Capital",
+        "Greenfield Partners",
+        "Kindred Capital",
+        "Leitmotif",
+        "The Friedkin Group"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.therobotreport.com/robco-raises-100m-scale-industrial-automation/",
+          "quote": "RobCo GmbH today said it has raised Series C funding of $100 million"
+        },
+        {
+          "field": "month",
+          "url": "https://siliconangle.com/2026/01/29/robco-nabs-100m-scale-autonomous-industrial-robotics-platform/",
+          "quote": "RobCo nabs $100M to scale autonomous industrial robotics platform"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.therobotreport.com/robco-raises-100m-scale-industrial-automation/",
+          "quote": "Lightspeed Venture Partners and Lingotto Innovation led RobCo’s Series C round. Other participants included Sequoia Capital, Greenfield Partners, Kindred Capital, Leitmotif, and The Friedkin Group."
+        },
+        {
+          "field": "stage",
+          "url": "https://www.therobotreport.com/robco-raises-100m-scale-industrial-automation/",
+          "quote": "RobCo GmbH today said it has raised Series C funding of $100 million"
+        }
+      ]
+    }
+  ]
+}

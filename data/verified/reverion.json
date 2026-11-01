@@ -1,0 +1,208 @@
+{
+  "id": "reverion",
+  "name": "Reverion",
+  "aliases": [],
+  "domain": "reverion.com",
+  "country": "DE",
+  "city": "Munich",
+  "founded": 2020,
+  "sectors": [
+    "climate"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Stephan Herrmann",
+    "Felix Fischer",
+    "Jeremias Weinrich",
+    "Luis Poblotzki",
+    "Maximilian Hauck"
+  ],
+  "funFact": "Reverion's fuel-cell power plants reached 74.2 percent electrical efficiency in live customer operation, nearly double that of conventional generators.",
+  "difficulty": 5,
+  "techeuId": "EE8DD7B9-27D8-4566-A069-A4F5C496AC61",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://siliconcanals.com/munich-reverion-secures-56m/",
+      "quote": "Munich-based Reverion, a company building reversible, carbon-negative power plants"
+    },
+    {
+      "field": "founded",
+      "url": "https://www.munich-startup.de/en/news/8-5-million-euros-for-cleantech-startup-reverion",
+      "quote": "the startup, which was founded only in 2020"
+    },
+    {
+      "field": "founders",
+      "url": "https://www.munich-startup.de/en/news/8-5-million-euros-for-cleantech-startup-reverion",
+      "quote": "The Reverion founding team (from left to right): Felix Fischer (COO & Managing Director), Jeremias Weinrich (CPO), Stephan Herrmann (CEO & Managing Director), Luis Poblotzki (CDO), and Maximilian Hauck (CTO)"
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.uvcpartners.com/blog/reverion-raises-eur-8-5-million-to-enter-series-production-of-power-plants-of-the-future",
+      "quote": "Reverion, the climate tech start-up for renewable energies"
+    },
+    {
+      "field": "status",
+      "url": "https://www.trendingtopics.eu/reverion-series-b-175-million-megafactory/",
+      "quote": "Founded in 2022 as a spin-off from the Technical University of Munich"
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://www.trendingtopics.eu/reverion-series-b-175-million-megafactory/",
+      "quote": "The figure Reverion leads with: 74.2 percent electrical efficiency, measured in live customer operation with the first pre-series units."
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "9E674F58-67E4-4EA4-9BEC-D93E00B1846C",
+      "stage": "seed",
+      "month": "2022-07",
+      "amountEur": 7000000,
+      "amountOriginal": 7000000,
+      "currency": "EUR",
+      "investors": [
+        "Extantia Capital",
+        "Landwärme",
+        "Doral Tech Ventures",
+        "Possible Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.munich-startup.de/en/news/8-5-million-euros-for-cleantech-startup-reverion",
+          "quote": "Already in summer 2022, the Munich-based company was able to raise 7 million euros from Berlin-based climatetech investor Extantia."
+        },
+        {
+          "field": "month",
+          "url": "https://www.munich-startup.de/en/83914/reverion-seed-financing/",
+          "quote": "6. Juli 2022"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.munich-startup.de/en/83914/reverion-seed-financing/",
+          "quote": "Hauptgeldgeber ist der Berliner Climatetech-Investor Extantia. Weitere Investoren sind Landwärme, Doral Tech Ventures, Possible Ventures sowie mehrere Business Angels."
+        },
+        {
+          "field": "stage",
+          "url": "https://www.munich-startup.de/en/83914/reverion-seed-financing/",
+          "quote": "Reverion schließt Seed-Runde über 7 Millionen Euro ab"
+        }
+      ]
+    },
+    {
+      "techeuId": "B1F2B4CB-CF4A-4DF5-A047-580C8EE73364",
+      "stage": "seed",
+      "month": "2023-04",
+      "amountEur": 8500000,
+      "amountOriginal": 8500000,
+      "currency": "EUR",
+      "investors": [
+        "UVC Partners",
+        "Green Generation Fund",
+        "Extantia Capital",
+        "Doral Energy-Tech Ventures",
+        "Landwärme"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.uvcpartners.com/blog/reverion-raises-eur-8-5-million-to-enter-series-production-of-power-plants-of-the-future",
+          "quote": "Munich, April 25, 2023 – Reverion, the climate tech start-up for renewable energies, raises EUR 8.5 million"
+        },
+        {
+          "field": "month",
+          "url": "https://www.uvcpartners.com/blog/reverion-raises-eur-8-5-million-to-enter-series-production-of-power-plants-of-the-future",
+          "quote": "Munich, April 25, 2023"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.uvcpartners.com/blog/reverion-raises-eur-8-5-million-to-enter-series-production-of-power-plants-of-the-future",
+          "quote": "UVC Partners, Green Generation Fund, Extantia Capital, Doral Energy-Tech Ventures, and biomethane trader Landwärme GmbH participate in the round."
+        },
+        {
+          "field": "stage",
+          "url": "https://www.uvcpartners.com/blog/reverion-raises-eur-8-5-million-to-enter-series-production-of-power-plants-of-the-future",
+          "quote": "The company's upcoming Series A fundraise"
+        }
+      ]
+    },
+    {
+      "techeuId": "6386F928-731A-4709-BDFA-E711252823CA",
+      "stage": "series-a",
+      "month": "2024-09",
+      "amountEur": 55951629,
+      "amountOriginal": 62000000,
+      "currency": "USD",
+      "investors": [
+        "Energy Impact Partners",
+        "Honda",
+        "European Innovation Council Fund",
+        "UVC Partners",
+        "Extantia Capital",
+        "Green Generation Fund",
+        "Doral Energy-Tech Ventures",
+        "Possible Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://siliconcanals.com/munich-reverion-secures-56m/",
+          "quote": "it has secured $62M (approximately €56M) in an oversubscribed Series A funding round, including non-dilutive funding"
+        },
+        {
+          "field": "month",
+          "url": "https://siliconcanals.com/munich-reverion-secures-56m/",
+          "quote": "announced on Friday that it has secured $62M"
+        },
+        {
+          "field": "investors",
+          "url": "https://siliconcanals.com/munich-reverion-secures-56m/",
+          "quote": "The funding round was led by Energy Impact Partners (EIP) with Honda and the European Innovation Council Fund (EIC Fund) participation."
+        },
+        {
+          "field": "stage",
+          "url": "https://siliconcanals.com/munich-reverion-secures-56m/",
+          "quote": "oversubscribed Series A funding round"
+        }
+      ]
+    },
+    {
+      "techeuId": "8ADB4992-B7FA-4562-A06B-D0CD1931671F",
+      "stage": "series-b",
+      "month": "2026-09",
+      "amountEur": 154117129,
+      "amountOriginal": 175000000,
+      "currency": "USD",
+      "investors": [
+        "Kembara",
+        "Allianz",
+        "KfW Capital",
+        "Aurum Impact",
+        "Carbon Equity"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.trendingtopics.eu/reverion-series-b-175-million-megafactory/",
+          "quote": "Reverion has closed a $175 million Series B (about 150 million euros)"
+        },
+        {
+          "field": "month",
+          "url": "https://www.trendingtopics.eu/reverion-series-b-175-million-megafactory/",
+          "quote": "the company has just announced"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.trendingtopics.eu/reverion-series-b-175-million-megafactory/",
+          "quote": "The round is led by the deeptech and climate fund Kembara, with Allianz, KfW Capital (via a vehicle managed by UVC), aurum Impact and Carbon Equity joining as new investors."
+        },
+        {
+          "field": "stage",
+          "url": "https://www.trendingtopics.eu/reverion-series-b-175-million-megafactory/",
+          "quote": "Reverion Raises $175 Million Series B for Fuel Cell Megafactory"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "id": "cognigy",
+  "name": "Cognigy",
+  "aliases": [],
+  "domain": "cognigy.com",
+  "country": "DE",
+  "city": "Düsseldorf",
+  "founded": 2016,
+  "sectors": [
+    "ai",
+    "saas"
+  ],
+  "status": "acquired",
+  "unicorn": false,
+  "founders": [
+    "Philipp Heltewig",
+    "Sascha Poggemann"
+  ],
+  "difficulty": 4,
+  "techeuId": "8A6ABF97-C098-48A3-86EF-3E696D9B3B3D",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.cognigy.com/news/cognigy-secures-44m-series-b",
+      "quote": "Founded in 2016 in Düsseldorf, Germany"
+    },
+    {
+      "field": "founded",
+      "url": "https://www.cognigy.com/news/cognigy-secures-44m-series-b",
+      "quote": "Founded in 2016 in Düsseldorf, Germany"
+    },
+    {
+      "field": "founders",
+      "url": "https://www.deutsche-startups.de/2022/04/28/cognigy-kundenservice/",
+      "quote": "2016 von Philipp Heltewig und Sascha Poggemann gegründet"
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.cognigy.com/news/cognigy-secures-44m-series-b",
+      "quote": "omnichannel Customer and Employee Service Automation with its Conversational AI platform Cognigy.AI"
+    },
+    {
+      "field": "status",
+      "url": "https://dallasinnovates.com/nice-closes-955m-acquisition-of-cognigy-whose-u-s-hq-recently-relocated-to-plano/",
+      "quote": "Former Cognigy CEO Philipp Heltewig will now serve as general manager of NiCE Cognigy and chief AI officer."
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "ABD10A08-2BB7-4890-9991-3C92688A16C8",
+      "stage": "series-b",
+      "month": "2021-06",
+      "amountEur": 36107008,
+      "amountOriginal": 44000000,
+      "currency": "USD",
+      "investors": [
+        "Insight Partners",
+        "DN Capital",
+        "Global Brain",
+        "Nordic Makers",
+        "Inventures",
+        "Digital Innovation and Growth"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.cognigy.com/news/cognigy-secures-44m-series-b",
+          "quote": "announced today it has raised $44 million in Series B funding"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.cognigy.com/news/cognigy-secures-44m-series-b",
+          "quote": "announced today it has raised $44 million in Series B funding"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.cognigy.com/news/cognigy-secures-44m-series-b",
+          "quote": "joined by existing investors DN Capital, Global Brain, Nordic Makers, Inventures"
+        },
+        {
+          "field": "month",
+          "url": "https://www.cognigy.com/news/cognigy-secures-44m-series-b",
+          "quote": "June 2, 2021"
+        }
+      ]
+    },
+    {
+      "techeuId": "394431A6-5BA7-47E9-A5C5-9605081D33A2",
+      "stage": "series-b",
+      "month": "2022-02",
+      "amountEur": 13192612,
+      "amountOriginal": 15000000,
+      "currency": "USD",
+      "investors": [
+        "DTCP"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.callcentrehelper.com/cognigy-increases-series-b-funding-204616.htm",
+          "quote": "Cognigy has closed an additional $15 million funding round with DTCP."
+        },
+        {
+          "field": "stage",
+          "url": "https://www.callcentrehelper.com/cognigy-increases-series-b-funding-204616.htm",
+          "quote": "This brings the total Series B funding for the company to $59 million."
+        },
+        {
+          "field": "month",
+          "url": "https://www.startbase.com/news/cognigy-sammelt-15-millionen-us-dollar-ein/",
+          "quote": "Stuttgart, 18. February 2022"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.callcentrehelper.com/cognigy-increases-series-b-funding-204616.htm",
+          "quote": "We are happy to lead Cognigy’s Series B extension round"
+        }
+      ]
+    },
+    {
+      "techeuId": "9CF8F795-8629-4BE7-980A-561989E34D39",
+      "stage": "series-c",
+      "month": "2024-06",
+      "amountEur": 93196645,
+      "amountOriginal": 100000000,
+      "currency": "USD",
+      "investors": [
+        "Eurazeo Growth",
+        "Insight Partners",
+        "DTCP",
+        "DN Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.cognigy.com/news/cognigy-raises-100m-in-series-c-funding",
+          "quote": "announced today that it has raised $100 million in Series C funding"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.cognigy.com/news/cognigy-raises-100m-in-series-c-funding",
+          "quote": "announced today that it has raised $100 million in Series C funding"
+        },
+        {
+          "field": "month",
+          "url": "https://www.cognigy.com/news/cognigy-raises-100m-in-series-c-funding",
+          "quote": "Düsseldorf, San Francisco (June 11, 2024)"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.cognigy.com/news/cognigy-raises-100m-in-series-c-funding",
+          "quote": "The round was led by Eurazeo Growth, with participation from existing investors Insight Partners, DTCP, DN Capital, and others."
+        }
+      ]
+    }
+  ]
+}

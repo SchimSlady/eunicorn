@@ -1,0 +1,134 @@
+{
+  "id": "peec-ai",
+  "name": "Peec AI",
+  "aliases": [
+    "Peec"
+  ],
+  "domain": "peec.ai",
+  "country": "DE",
+  "city": "Berlin",
+  "founded": 2025,
+  "sectors": [
+    "ai",
+    "saas"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Marius Meiners",
+    "Tobias Siwonia",
+    "Daniel Drabo"
+  ],
+  "funFact": "Marius Meiners, Peec AI's CEO, is a former professional esports athlete.",
+  "difficulty": 5,
+  "techeuId": "632DC091-1DF8-4B20-B3D8-C521BA2AAD2C",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://pulse2.com/peec-ai-21-million-series-a-raised-to-expand-its-ai-search-marketing-platform",
+      "quote": "Founded in Berlin by Daniel Drabo, Tobias Siwonia, and CEO Marius Meiners"
+    },
+    {
+      "field": "founded",
+      "url": "https://www.startuphub.ai/news/peec-ai-raises-7-million-for-llm-seo",
+      "quote": "Peec AI was founded in 2025 by Marius Meiners, Tobias Siwona, and Daniel Drabo."
+    },
+    {
+      "field": "founders",
+      "url": "https://pulse2.com/peec-ai-21-million-series-a-raised-to-expand-its-ai-search-marketing-platform",
+      "quote": "Founded in Berlin by Daniel Drabo, Tobias Siwonia, and CEO Marius Meiners"
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.startuphub.ai/news/peec-ai-raises-7-million-for-llm-seo",
+      "quote": "develops an AI search platform designed for marketing teams"
+    },
+    {
+      "field": "status",
+      "url": "https://tech.eu/2025/11/18/peec-ai-raises-21m-series-a-to-help-brands-win-in-ai-search/",
+      "quote": "Berlin-based"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://tech.eu/2025/11/18/peec-ai-raises-21m-series-a-to-help-brands-win-in-ai-search/",
+      "quote": "brings the company’s total funding to $29 million"
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://siliconcanals.com/peec-ai-bags-e7m-in-two-funding-rounds/",
+      "quote": "Marius Meiners brings experience as a professional esports athlete"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "DF29F241-E292-4182-A3E2-A755619BB5C2",
+      "stage": "seed",
+      "month": "2025-07",
+      "amountEur": 5200000,
+      "amountOriginal": 5200000,
+      "currency": "EUR",
+      "investors": [
+        "20VC",
+        "Antler",
+        "Foreword VC",
+        "identity.vc",
+        "Combination VC",
+        "S20"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.startuphub.ai/news/peec-ai-raises-7-million-for-llm-seo",
+          "quote": "followed by a €5.2 million Seed round less than four weeks later"
+        },
+        {
+          "field": "month",
+          "url": "https://www.vestbee.com/insights/articles/peec-ai-secures-7-m",
+          "quote": "July 4, 2025"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.startuphub.ai/news/peec-ai-raises-7-million-for-llm-seo",
+          "quote": "The Seed round was led by 20VC. Participating investors included Antler, Foreword VC, Identity.VC, Combination VC, and S20."
+        }
+      ]
+    },
+    {
+      "techeuId": "B7757931-62A3-4A45-B5E9-207E748AEEBF",
+      "stage": "series-a",
+      "month": "2025-11",
+      "amountEur": 18119068,
+      "amountOriginal": 21000000,
+      "currency": "USD",
+      "investors": [
+        "Singular",
+        "Antler",
+        "Combination VC",
+        "identity.vc",
+        "S20"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://pulse2.com/peec-ai-21-million-series-a-raised-to-expand-its-ai-search-marketing-platform",
+          "quote": "announced a $21 million Series A financing round on November 18, 2025"
+        },
+        {
+          "field": "stage",
+          "url": "https://pulse2.com/peec-ai-21-million-series-a-raised-to-expand-its-ai-search-marketing-platform",
+          "quote": "announced a $21 million Series A financing round on November 18, 2025"
+        },
+        {
+          "field": "month",
+          "url": "https://pulse2.com/peec-ai-21-million-series-a-raised-to-expand-its-ai-search-marketing-platform",
+          "quote": "announced a $21 million Series A financing round on November 18, 2025"
+        },
+        {
+          "field": "investors",
+          "url": "https://pulse2.com/peec-ai-21-million-series-a-raised-to-expand-its-ai-search-marketing-platform",
+          "quote": "The investment was led by European venture firm Singular, with participation from Antler, Combination VC, identity.vc, and S20."
+        }
+      ]
+    }
+  ]
+}
