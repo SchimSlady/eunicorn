@@ -19,6 +19,6 @@ Read `PLAN.md` first. Two people work in parallel, each with their own Claude se
 - IDs are kebab-case slugs (`mistral-ai`, `index-ventures`, `nik-storonsky`).
 - Money is stored in EUR (`amount_eur`, converted at the ECB rate of the round date); the announced amount and currency go in `amount_original` / `currency`.
 - Round dates are months only (`announced_month`, stored as the 1st). Equity rounds only, no lead investors.
-- Day boundary: 8:00 `Europe/Berlin` (see `web/src/lib/daily.ts`): before 8:00 it's still the previous day's puzzle.
+- Day boundary: midnight `Europe/Berlin` (see `web/src/lib/daily.ts`).
 - **Company logos** (trademark rules): the official logo, unmodified (no recolouring, cropping into shapes or animation beyond the tile), stored in `web/public/logos/<id>.svg|png` with its source in the dataset. Only inside the games to identify a company: never in EUnicorn branding, the share text, OG images or ads. Removal requests to the contact email are honoured promptly.
 - Every puzzle has `hints` (`{ text, cost }`), revealed in order. Unicorn Grid also has `cellHints` per cell.

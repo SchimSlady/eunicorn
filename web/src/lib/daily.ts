@@ -8,36 +8,12 @@ export function puzzleUrl(mode: PlayMode): string {
   return `/api/puzzle/${mode}`;
 }
 
-/** Puzzles flip at 8:00 Central European Time for everyone, wherever they are. */
+/** Puzzles flip at midnight Central European Time for everyone, wherever they are. */
 export const PUZZLE_TIMEZONE = "Europe/Berlin";
-/** The hour (Berlin wall clock) a new day's puzzles unlock: the morning commute, not midnight. */
-export const PUZZLE_START_HOUR = 8;
 
-/** Berlin wall-clock date and time of a moment. */
-function berlinClock(now: Date) {
-  const parts = new Intl.DateTimeFormat("en-GB", {
-    timeZone: PUZZLE_TIMEZONE,
-    year: "numeric",
-    month: "2-digit",
-    day: "2-digit",
-    hour: "numeric",
-    minute: "numeric",
-    second: "numeric",
-    hourCycle: "h23",
-  }).formatToParts(now);
-  const get = (t: string) => Number(parts.find((p) => p.type === t)?.value ?? 0);
-  return { year: get("year"), month: get("month"), day: get("day"), hour: get("hour"), minute: get("minute"), second: get("second") };
-}
-
-/**
- * Today's puzzle date as "YYYY-MM-DD": the Berlin date, except before 8:00, when it's still
- * yesterday's puzzle.
- */
+/** Today's puzzle date as "YYYY-MM-DD" in CET/CEST. */
 export function todayKey(now = new Date()): string {
-  const c = berlinClock(now);
-  const d = new Date(Date.UTC(c.year, c.month - 1, c.day));
-  if (c.hour < PUZZLE_START_HOUR) d.setUTCDate(d.getUTCDate() - 1);
-  return d.toISOString().slice(0, 10);
+  return new Intl.DateTimeFormat("en-CA", { timeZone: PUZZLE_TIMEZONE }).format(now);
 }
 
 export async function loadPuzzle<P extends AnyPuzzle>(mode: PlayMode, date = todayKey()): Promise<P | null> {
@@ -60,13 +36,18 @@ export async function loadTodayPuzzle<P extends AnyPuzzle>(mode: PlayMode): Prom
   return loadFilePuzzle<P>(mode);
 }
 
-/** Milliseconds until the next puzzle unlocks (8:00 Europe/Berlin). */
+/** Milliseconds until the next puzzle unlocks (midnight Europe/Berlin). */
 export function msUntilNextPuzzle(now = new Date()): number {
-  const c = berlinClock(now);
-  const elapsed = c.hour * 3600 + c.minute * 60 + c.second;
-  let left = PUZZLE_START_HOUR * 3600 - elapsed;
-  if (left <= 0) left += 86400;
-  return left * 1000 - now.getMilliseconds();
+  const parts = new Intl.DateTimeFormat("en-GB", {
+    timeZone: PUZZLE_TIMEZONE,
+    hour: "numeric",
+    minute: "numeric",
+    second: "numeric",
+    hourCycle: "h23",
+  }).formatToParts(now);
+  const get = (t: string) => Number(parts.find((p) => p.type === t)?.value ?? 0);
+  const elapsed = get("hour") * 3600 + get("minute") * 60 + get("second");
+  return (86400 - elapsed) * 1000 - now.getMilliseconds();
 }
 
 /* ---------- in-progress state, so a reload doesn't reset (or re-roll) today's game ---------- */
