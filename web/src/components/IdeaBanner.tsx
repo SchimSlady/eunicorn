@@ -162,7 +162,6 @@ export function IdeaBanner() {
             {trap}
             {send}
           </form>
-          <p className="mt-2 text-sm text-muted">We add European startups with a public funding round. Leave an email and we&apos;ll tell you when it&apos;s in.</p>
         </>
       )}
 
