@@ -5,7 +5,7 @@ export default function manifest(): MetadataRoute.Manifest {
   return {
     name: "EUnicorn",
     short_name: "EUnicorn",
-    description: "Daily games about the European startup ecosystem. Go build in Europe.",
+    description: "Daily games about the European startup ecosystem.",
     start_url: "/",
     display: "standalone",
     background_color: "#202227",

@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>Daily games about the European startup ecosystem.</strong><br />
-  One try per day. Go build in Europe.
+  One try per day.
 </p>
 
 <p align="center">

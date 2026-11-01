@@ -9,7 +9,7 @@ import { pageMetadata } from "@/lib/seo";
 // Both are self-hosted from public/fonts (see the @font-face rules in globals.css): no request to
 // Google, and no font download at build time, which made Vercel builds fail intermittently.
 
-const DESCRIPTION = "Daily games about the European startup ecosystem. Go build in Europe.";
+const DESCRIPTION = "Daily games about the European startup ecosystem.";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://eunicorn.eu"),

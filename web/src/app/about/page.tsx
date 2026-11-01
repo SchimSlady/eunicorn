@@ -12,7 +12,7 @@ export default function About() {
       <Section title="What EUnicorn is">
         <p>
           Daily games about the European and UK startup ecosystem: who raised what, who is worth more, who belongs. A
-          small side project by two people who think Europe builds great companies. Go build in Europe.
+          small side project by two people who think Europe builds great companies.
         </p>
       </Section>
 
