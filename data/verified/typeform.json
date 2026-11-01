@@ -1,0 +1,239 @@
+{
+  "id": "typeform",
+  "name": "Typeform",
+  "aliases": [],
+  "domain": "typeform.com",
+  "country": "ES",
+  "city": "Barcelona",
+  "founded": 2012,
+  "sectors": [
+    "saas"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "lastValuationEur": 843558282,
+  "founders": [
+    "Robert Muñoz",
+    "David Okuniev"
+  ],
+  "difficulty": 2,
+  "techeuId": "5E0DEA74-C272-4410-B7C8-1DB9CAA5E695",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://techcrunch.com/2013/09/05/typeform/",
+      "quote": "the Barcelona, Spain-based startup"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Typeform_(service)",
+      "quote": "Typeform was founded in 2012"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Typeform_(service)",
+      "quote": "by Robert Muñoz and David Okuniev"
+    },
+    {
+      "field": "sectors",
+      "url": "https://en.wikipedia.org/wiki/Typeform_(service)",
+      "quote": "Typeform is a software as a service (SaaS) company that specializes in online form building"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://techcrunch.com/2022/03/10/typeform-series-c/",
+      "quote": "Typeform is also disclosing its post-money valuation after this financing round is $935 million."
+    },
+    {
+      "field": "valuation",
+      "url": "https://techcrunch.com/2022/03/10/typeform-series-c/",
+      "quote": "Typeform is also disclosing its post-money valuation after this financing round is $935 million."
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "seed",
+      "month": "2013-09",
+      "amountEur": 550000,
+      "amountOriginal": 550000,
+      "currency": "EUR",
+      "investors": [
+        "Point Nine Capital",
+        "RTAventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2013/09/05/typeform/",
+          "quote": "has raised a €550,000 seed round led by Berlin-based VC Point Nine Capital"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2013/09/05/typeform/",
+          "quote": "September 5, 2013"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2013/09/05/typeform/",
+          "quote": "has raised a €550,000 seed round led by Berlin-based VC Point Nine Capital"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2013/09/05/typeform/",
+          "quote": "has raised a €550,000 seed round led by Berlin-based VC Point Nine Capital"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2013/09/05/typeform/",
+          "quote": "RTAventures"
+        }
+      ]
+    },
+    {
+      "stage": "seed",
+      "month": "2014-09",
+      "amountEur": 1200000,
+      "amountOriginal": 1200000,
+      "currency": "EUR",
+      "investors": [
+        "Connect Ventures",
+        "Point Nine Capital",
+        "RTAventures",
+        "Mariusz Gralewski"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2014/09/23/typeform-raises/",
+          "quote": "Online Survey And Form Builder Typeform Raises €1.2M"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2014/09/23/typeform-raises/",
+          "quote": "September 23, 2014"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2014/09/23/typeform-raises/",
+          "quote": "Existing backers Point Nine Capital, and RTA ventures, also participated, along with Mariusz Gralewski"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2014/09/23/typeform-raises/",
+          "quote": "has raised a €1.2 million further round of funding"
+        }
+      ]
+    },
+    {
+      "stage": "series-a",
+      "month": "2015-09",
+      "amountEur": 13260255,
+      "amountOriginal": 15000000,
+      "currency": "USD",
+      "investors": [
+        "Index Ventures",
+        "Point Nine Capital",
+        "Connect Ventures",
+        "RTAventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2015/09/17/typeform-series-a/",
+          "quote": "Barcelona-based Typeform has landed a $15 million Series A round of financing."
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2015/09/17/typeform-series-a/",
+          "quote": "September 17, 2015"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2015/09/17/typeform-series-a/",
+          "quote": "Barcelona-based Typeform has landed a $15 million Series A round of financing."
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2015/09/17/typeform-series-a/",
+          "quote": "was led by Index Ventures, with participation from existing investors Point Nine Capital, Connect Ventures and RTA Ventures"
+        }
+      ],
+      "techeuId": "00deb9b1-e703-41e0-c413-08d91092c887"
+    },
+    {
+      "stage": "series-b",
+      "month": "2017-09",
+      "amountEur": 29173960,
+      "amountOriginal": 35000000,
+      "currency": "USD",
+      "investors": [
+        "General Atlantic"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2017/09/11/typeform-a-platform-for-conversational-data-collection-raises-35m/",
+          "quote": "today announced a Series B of $35 million led by General Atlantic"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2017/09/11/typeform-a-platform-for-conversational-data-collection-raises-35m/",
+          "quote": "September 11, 2017"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2017/09/11/typeform-a-platform-for-conversational-data-collection-raises-35m/",
+          "quote": "today announced a Series B of $35 million led by General Atlantic"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2017/09/11/typeform-a-platform-for-conversational-data-collection-raises-35m/",
+          "quote": "today announced a Series B of $35 million led by General Atlantic"
+        }
+      ],
+      "techeuId": "3536c9de-e867-4d53-c414-08d91092c887"
+    },
+    {
+      "stage": "series-c",
+      "month": "2022-03",
+      "amountEur": 121797185,
+      "amountOriginal": 135000000,
+      "currency": "USD",
+      "investors": [
+        "Sofina",
+        "General Atlantic",
+        "Index Ventures",
+        "Point Nine Capital",
+        "Connect Ventures",
+        "Top Tier Capital Partners",
+        "GP Bullhound",
+        "Teamworthy Ventures",
+        "Trium Venture Partners"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2022/03/10/typeform-series-c/",
+          "quote": "close of a $135 million Series C"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2022/03/10/typeform-series-c/",
+          "quote": "March 10, 2022"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2022/03/10/typeform-series-c/",
+          "quote": "close of a $135 million Series C"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2022/03/10/typeform-series-c/",
+          "quote": "The round is led by family controlled investment firm Sofina, with participation from existing Typeform investors including General Atlantic, Index Ventures, Point Nine Capital and Connect Ventures, plus new investors Top Tier Capital Partners, GP Bullhound, Teamworthy Ventures and Trium Venture Partners."
+        }
+      ],
+      "techeuId": "17f7fc73-da97-419b-8b6a-523cfbc6be16",
+      "postMoneyValuationEur": 843558282
+    }
+  ]
+}

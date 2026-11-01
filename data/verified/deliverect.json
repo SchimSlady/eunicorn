@@ -1,0 +1,197 @@
+{
+  "id": "deliverect",
+  "name": "Deliverect",
+  "aliases": [],
+  "domain": "deliverect.com",
+  "country": "BE",
+  "city": "Ghent",
+  "founded": 2018,
+  "sectors": [
+    "saas"
+  ],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 1238499646,
+  "founders": [
+    "Zhong Xu",
+    "Jan Hollez",
+    "Jelte Vrijhoef",
+    "Jerome Laredo"
+  ],
+  "difficulty": 3,
+  "techeuId": "D6C0A30C-4D81-40AC-802E-C508196E9831",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://techcrunch.com/2022/01/24/deliverect-raises-150m-at-a-1-4b-valuation-to-streamline-online-and-offline-food-orders/",
+      "quote": "born, as we recounted previously, in Ghent, Belgium"
+    },
+    {
+      "field": "founded",
+      "url": "https://techcrunch.com/2022/01/24/deliverect-raises-150m-at-a-1-4b-valuation-to-streamline-online-and-offline-food-orders/",
+      "quote": "The business started in 2018 with serving independent restaurants"
+    },
+    {
+      "field": "founders",
+      "url": "https://techcrunch.com/2022/01/24/deliverect-raises-150m-at-a-1-4b-valuation-to-streamline-online-and-offline-food-orders/",
+      "quote": "Zhong Xu, who co-founded the company with Jan Hollez, CTO, Jelte Vrijhoef, CIO and Jerome Laredo, CRO"
+    },
+    {
+      "field": "sectors",
+      "url": "https://tech.eu/2022/01/24/belgiums-deliverect-orders-up-150-million-at-1-4-billion-valuation/",
+      "quote": "a Ghent-based software maker that integrates online orders from food delivery channels into restaurants"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://tech.eu/2022/01/24/belgiums-deliverect-orders-up-150-million-at-1-4-billion-valuation/",
+      "quote": "orders up $150 million at $1.4 billion valuation"
+    },
+    {
+      "field": "valuation",
+      "url": "https://tech.eu/2022/01/24/belgiums-deliverect-orders-up-150-million-at-1-4-billion-valuation/",
+      "quote": "orders up $150 million at $1.4 billion valuation"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-a",
+      "month": "2019-04",
+      "amountEur": 3000000,
+      "amountOriginal": 3000000,
+      "currency": "EUR",
+      "investors": [
+        "Newion Investments",
+        "SmartFin"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://siliconcanals.com/deliverect-the-adyen-of-food-delivery-services-raises-e3m-of-fresh-funding-and-wants-to-transform-the-restaurant-industry/",
+          "quote": "the company has raised €3 million in funding from Newion Investments and SmartFin"
+        },
+        {
+          "field": "month",
+          "url": "https://siliconcanals.com/deliverect-the-adyen-of-food-delivery-services-raises-e3m-of-fresh-funding-and-wants-to-transform-the-restaurant-industry/",
+          "quote": "Apr 2, 2019"
+        },
+        {
+          "field": "investors",
+          "url": "https://siliconcanals.com/deliverect-the-adyen-of-food-delivery-services-raises-e3m-of-fresh-funding-and-wants-to-transform-the-restaurant-industry/",
+          "quote": "the company has raised €3 million in funding from Newion Investments and SmartFin"
+        }
+      ],
+      "techeuId": "5c211d24-b308-459d-f7cd-08d91092c887"
+    },
+    {
+      "stage": "series-b",
+      "month": "2020-04",
+      "amountEur": 16250000,
+      "amountOriginal": 16250000,
+      "currency": "EUR",
+      "investors": [
+        "OMERS Ventures",
+        "Newion",
+        "SmartFin"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2020/04/29/deliverect-series-b/",
+          "quote": "has raised €16.25 million in a Series B round led by OMERS Ventures"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2020/04/29/deliverect-series-b/",
+          "quote": "29 April 2020"
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2020/04/29/deliverect-series-b/",
+          "quote": "has raised €16.25 million in a Series B round led by OMERS Ventures"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2020/04/29/deliverect-series-b/",
+          "quote": "with contributions from Newion, SmartFin"
+        }
+      ],
+      "techeuId": "f0b9a993-728a-4037-f7ce-08d91092c887"
+    },
+    {
+      "stage": "series-c",
+      "month": "2021-04",
+      "amountEur": 53937433,
+      "amountOriginal": 65000000,
+      "currency": "USD",
+      "investors": [
+        "Redpoint Ventures",
+        "DST Global",
+        "OMERS Ventures",
+        "Newion",
+        "SmartFin"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2021/04/20/deliverect-gobbles-up-65m-for-a-platform-that-streamlines-online-and-offline-food-orders/",
+          "quote": "the company has raised $65 million"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2021/04/20/deliverect-gobbles-up-65m-for-a-platform-that-streamlines-online-and-offline-food-orders/",
+          "quote": "April 20, 2021"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2022/01/24/deliverect-raises-150m-at-a-1-4b-valuation-to-streamline-online-and-offline-food-orders/",
+          "quote": "a $65 million Series C that it raised last April"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2021/04/20/deliverect-gobbles-up-65m-for-a-platform-that-streamlines-online-and-offline-food-orders/",
+          "quote": "The funding is being co-led by Redpoint Ventures and partners of DST Global, with OMERS, Newion, Smartfin and the founders also participating."
+        }
+      ],
+      "techeuId": "11ee4d5c-89c1-4119-f7cf-08d91092c887"
+    },
+    {
+      "stage": "series-d",
+      "month": "2022-01",
+      "amountEur": 132696391,
+      "amountOriginal": 150000000,
+      "currency": "USD",
+      "investors": [
+        "Coatue Management",
+        "Alkeon Capital Management",
+        "OMERS Ventures",
+        "DST Global",
+        "Redpoint Ventures",
+        "Newion",
+        "SmartFin"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2022/01/24/belgiums-deliverect-orders-up-150-million-at-1-4-billion-valuation/",
+          "quote": "has raised $150 million in a Series D found round led by Coatue and Alkeon Capital"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2022/01/24/belgiums-deliverect-orders-up-150-million-at-1-4-billion-valuation/",
+          "quote": "24 January 2022"
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2022/01/24/belgiums-deliverect-orders-up-150-million-at-1-4-billion-valuation/",
+          "quote": "has raised $150 million in a Series D found round led by Coatue and Alkeon Capital"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2022/01/24/deliverect-raises-150m-at-a-1-4b-valuation-to-streamline-online-and-offline-food-orders/",
+          "quote": "Coatue Management and Alkeon Capital Management are leading the round, with OMERS Ventures, DST Global, Redpoint Ventures, Newion and Smartfin also participating."
+        }
+      ],
+      "techeuId": "2865b200-1d99-4a65-a40f-b573a8ac5a75"
+    }
+  ]
+}

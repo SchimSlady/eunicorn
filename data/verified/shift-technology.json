@@ -1,0 +1,193 @@
+{
+  "id": "shift-technology",
+  "name": "Shift Technology",
+  "aliases": [],
+  "domain": "shift-technology.com",
+  "country": "FR",
+  "city": "Paris",
+  "founded": 2014,
+  "sectors": [
+    "fintech",
+    "ai"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [],
+  "difficulty": 4,
+  "techeuId": "F57B2CBD-0774-4650-8DA7-5F9D9DA8012B",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.shift-technology.com/company",
+      "quote": "Founded 2014 in Paris, France"
+    },
+    {
+      "field": "founded",
+      "url": "https://www.shift-technology.com/company",
+      "quote": "Founded 2014 in Paris, France"
+    },
+    {
+      "field": "sectors",
+      "url": "https://techcrunch.com/2021/05/05/shift-technology-raises-220m-at-a-1b-valuation-to-fight-insurance-fraud-with-ai/",
+      "quote": "Shift Technology raises $220M at a $1B+ valuation to fight insurance fraud with AI"
+    },
+    {
+      "field": "sectors",
+      "url": "https://techcrunch.com/2016/05/18/shift-technology-grabs-10-million-to-prevent-fraudulent-insurance-claims/",
+      "quote": "Shift Technology uses big data and machine learning to detect patterns of fraudulent insurance claims."
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "a84d4a6d-4706-462a-d871-08d91092c887",
+      "stage": "series-a",
+      "month": "2016-05",
+      "amountEur": 8866034,
+      "amountOriginal": 10000000,
+      "currency": "USD",
+      "investors": [
+        "Accel",
+        "Elaia Partners",
+        "Iris Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2016/05/18/shift-technology-grabs-10-million-to-prevent-fraudulent-insurance-claims/",
+          "quote": "just raised a $10 million Series A round from Accel"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2016/05/18/shift-technology-grabs-10-million-to-prevent-fraudulent-insurance-claims/",
+          "quote": "just raised a $10 million Series A round from Accel"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2016/05/18/shift-technology-grabs-10-million-to-prevent-fraudulent-insurance-claims/",
+          "quote": "May 18, 2016"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2016/05/18/shift-technology-grabs-10-million-to-prevent-fraudulent-insurance-claims/",
+          "quote": "with existing investors Elaia Partners and Iris Capital also participating"
+        }
+      ]
+    },
+    {
+      "techeuId": "3046f908-2e4e-46fa-d872-08d91092c887",
+      "stage": "series-b",
+      "month": "2017-10",
+      "amountEur": 23850085,
+      "amountOriginal": 28000000,
+      "currency": "USD",
+      "investors": [
+        "Accel",
+        "General Catalyst",
+        "Elaia Partners",
+        "Iris Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2017/10/23/shift-raises-another-28-million-to-prevent-fraudulent-insurance-claims/",
+          "quote": "Shift Technology is raising a Series B round of $28 million from Accel and General Catalyst."
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2017/10/23/shift-raises-another-28-million-to-prevent-fraudulent-insurance-claims/",
+          "quote": "Shift Technology is raising a Series B round of $28 million from Accel and General Catalyst."
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2017/10/23/shift-raises-another-28-million-to-prevent-fraudulent-insurance-claims/",
+          "quote": "October 23, 2017"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2017/10/23/shift-raises-another-28-million-to-prevent-fraudulent-insurance-claims/",
+          "quote": "Existing investors Elaia Partners and Iris Capital are also participating in today"
+        }
+      ]
+    },
+    {
+      "techeuId": "722c3333-9cba-4550-d873-08d91092c887",
+      "stage": "series-c",
+      "month": "2019-03",
+      "amountEur": 52924054,
+      "amountOriginal": 60000000,
+      "currency": "USD",
+      "investors": [
+        "Bessemer Venture Partners",
+        "Accel",
+        "General Catalyst",
+        "Iris Capital",
+        "Elaia Partners"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2019/03/04/shift-technology-raises-60-million-to-detect-insurance-fraud/",
+          "quote": "has raised another $60 million funding round"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2021/05/05/shift-technology-raises-220m-at-a-1b-valuation-to-fight-insurance-fraud-with-ai/",
+          "quote": "Shift Technology raises $220M at a $1B+ valuation to fight insurance fraud with AI"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2019/03/04/shift-technology-raises-60-million-to-detect-insurance-fraud/",
+          "quote": "March 4, 2019"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2019/03/04/shift-technology-raises-60-million-to-detect-insurance-fraud/",
+          "quote": "Bessemer Venture Partners is leading the round and existing investors Accel, General Catalyst, Iris Capital and Elaia Partners are also participating."
+        }
+      ]
+    },
+    {
+      "techeuId": "47d82cfa-3818-4940-917d-f026b34fb425",
+      "stage": "series-d",
+      "month": "2021-05",
+      "amountEur": 183256976,
+      "amountOriginal": 220000000,
+      "currency": "USD",
+      "investors": [
+        "Advent International",
+        "Avenir",
+        "Accel",
+        "Bessemer Venture Partners",
+        "General Catalyst",
+        "Iris Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2021/05/05/shift-technology-raises-220m-at-a-1b-valuation-to-fight-insurance-fraud-with-ai/",
+          "quote": "has raised $220 million"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2021/05/05/shift-technology-raises-220m-at-a-1b-valuation-to-fight-insurance-fraud-with-ai/",
+          "quote": "This Series D is being led by Advent International"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2021/05/05/shift-technology-raises-220m-at-a-1b-valuation-to-fight-insurance-fraud-with-ai/",
+          "quote": "May 5, 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2021/05/05/shift-technology-raises-220m-at-a-1b-valuation-to-fight-insurance-fraud-with-ai/",
+          "quote": "This Series D is being led by Advent International, via Advent Tech, with participation from Avenir and others."
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2021/05/05/shift-technology-raises-220m-at-a-1b-valuation-to-fight-insurance-fraud-with-ai/",
+          "quote": "Accel, Bessemer Venture Partners, General Catalyst and Iris Capital"
+        }
+      ]
+    }
+  ]
+}
