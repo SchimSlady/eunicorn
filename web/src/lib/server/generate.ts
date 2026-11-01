@@ -208,7 +208,7 @@ function unicornGrid(
   companies: Company[],
   rng: Rng,
 ): (UnicornGridPuzzle & { variants: UnicornGridVariants }) | null {
-  const criteria = gridCriteria(data, companies);
+  const criteria = gridCriteria(data, companies, base.date);
   const members = new Map(criteria.map((k) => [k, new Set(companies.filter(k.test).map((c) => c.id))]));
   // The companies two criteria share, worked out once however often a search comes back to the pair.
   const meetings = new Map<Criterion, Map<Criterion, string[]>>();
@@ -332,7 +332,14 @@ function investorTier(backedCompanies: number): number {
   return backedCompanies >= 14 ? 1 : backedCompanies >= 8 ? 2 : backedCompanies >= 4 ? 3 : 4;
 }
 
-function gridCriteria(data: Dataset, companies: Company[]): Criterion[] {
+/**
+ * Sectors the grid doesn't use as a heading: too fuzzy to place a company in ("is Personio SaaS
+ * or HR tech?"). From GRID_SKIP_FROM on; earlier days keep exactly the grid they had.
+ */
+const GRID_SKIP_SECTORS = ["saas"];
+const GRID_SKIP_FROM = "2026-11-03";
+
+function gridCriteria(data: Dataset, companies: Company[], date: string): Criterion[] {
   const out: Criterion[] = [];
   const count = (test: (c: Company) => boolean) => companies.filter(test).length;
   // How well known a heading is follows from how many of the companies are in it: a big country, a big
@@ -351,7 +358,8 @@ function gridCriteria(data: Dataset, companies: Company[]): Criterion[] {
     // Never Easy: even a big city is a harder question than its country.
     if (n >= 3) out.push({ group: "place", level: share(n) >= 0.035 ? 2 : 3, test, c: { kind: "city", value: city, label: city } });
   }
-  for (const sector of unique(companies.flatMap((c) => c.sectors))) {
+  const skip = date >= GRID_SKIP_FROM ? GRID_SKIP_SECTORS : [];
+  for (const sector of unique(companies.flatMap((c) => c.sectors)).filter((s) => !skip.includes(s))) {
     const test = (c: Company) => c.sectors.includes(sector);
     const n = count(test);
     const level = share(n) >= 0.07 ? 1 : share(n) >= 0.02 ? 2 : 3;
