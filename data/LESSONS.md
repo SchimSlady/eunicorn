@@ -50,7 +50,7 @@ Read this before verifying a company. Each rule came from a real problem in the 
 
 ## Famous-companies batch (2026-11-01)
 - **Why famous names were missing:** 15 aren't in Tech.eu's data at all (Zalando, Booking.com, Just Eat, Trivago, Gymshark, King, Mojang, Shazam, Skype, Criteo, Zendesk, Unity, Talkdesk, DeepMind, BioNTech), and the rest sat below the equity cutoff we reached (~€290M). Tech.eu misses early rounds and bootstrapped companies, so cross-check famous names by hand.
-- **Batch cutoff (Pablo):** only companies founded in 2006 or later were added in this batch. Not added for that reason: Booking.com, Skype, Shazam, Just Eat, King, Skyscanner, Rovio, Bitdefender, Criteo, Trivago, Unity.
+- **Batch cutoff (Pablo):** pioneers added by hand must be founded in 2010 or later. Not added for that reason: Booking.com, Skype, Shazam, Just Eat, King, Skyscanner, Rovio, Bitdefender, Criteo, Trivago, Unity; verified but then removed: Zalando, BioNTech, Zendesk, Trustpilot, Deezer, Tricentis, Babbel, Truecaller, Skeleton Technologies (2007–2009), and ResearchGate (also started in Boston). A 2015 cutoff was considered and rejected: it would cut 149 of 302 companies (Spotify, Klarna, Adyen, Wise, Celonis, N26 …).
 - **Excluded with a reason:** Gymshark (no source says General Atlantic's 2020 stake was new shares), Mojang (bootstrapped, no equity round), Talkdesk (no source for where it was founded), Intercom (founded in California), Smartly.io (only a secondary sale), Idealista (buyouts only).
 - **Companies with no rounds are allowed** when the company facts are sourced but no round amount is (Zalando, DeepMind). They work in company-level games, not round-based puzzles.
 
