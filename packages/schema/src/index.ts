@@ -26,7 +26,10 @@ export type Sector =
   | "semiconductors"
   | "robotics"
   | "cybersecurity"
-  | "biotech";
+  | "biotech"
+  | "edtech"
+  | "proptech"
+  | "telecom";
 
 export type CompanyStatus = "private" | "public" | "acquired" | "defunct";
 
