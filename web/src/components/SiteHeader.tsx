@@ -47,7 +47,7 @@ export function SiteHeader() {
           {left !== null && (
             <span
               className="flex items-center gap-1.5 text-sm text-muted"
-              title="New games every day at 8:00 (Berlin time)"
+              title="New games every day at midnight (Berlin time)"
               aria-label={`New games in ${untilText(left)}`}
             >
               <Clock size={15} aria-hidden />
