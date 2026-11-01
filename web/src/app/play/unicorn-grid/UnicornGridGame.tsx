@@ -166,10 +166,9 @@ export function UnicornGridGame() {
   const strip = (s: string) => s.replace(/\p{Regional_Indicator}/gu, "").trim();
 
   const usedCompanies = progress.cells.filter((id): id is string => !!id).map((id) => companies.get(id)!);
-  const featured =
-    [...usedCompanies].sort((a, b) => b.difficulty - a.difficulty).find((c) => c.funFact) ??
-    usedCompanies[0] ??
-    reveal(0);
+  // End card: the player's rarest pick (highest difficulty); with no square filled, an answer they could have used.
+  const featured = [...usedCompanies].sort((a, b) => b.difficulty - a.difficulty)[0] ?? reveal(0);
+  const featuredReason = usedCompanies.length ? "Your rarest pick" : "One you could have used";
   const featuredFounders = featured.founderIds
     .map((id) => data.people.find((p) => p.id === id)?.name)
     .filter((n): n is string => !!n);
@@ -298,7 +297,7 @@ export function UnicornGridGame() {
               />
             }
           />
-          <BuiltInEuropeCard company={featured} founders={featuredFounders} />
+          <BuiltInEuropeCard company={featured} founders={featuredFounders} reason={featuredReason} />
         </div>
       )}
     </div>

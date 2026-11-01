@@ -212,7 +212,7 @@ export function WhoRaisedThisGame() {
               />
             }
           />
-          <BuiltInEuropeCard company={answer} founders={founders} />
+          <BuiltInEuropeCard company={answer} founders={founders} reason="Today's answer" />
           {round?.attributionUrl && (
             <p className="text-center text-sm text-muted">
               Funding data:{" "}

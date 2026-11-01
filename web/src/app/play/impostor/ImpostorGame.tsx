@@ -109,9 +109,8 @@ export function ImpostorGame() {
   const { rules, won, wrong, done, score } = evaluate(play, progress);
   const triesLeft = rules.tries - wrong;
   const impostor = companies.get(play.impostorId)!;
-  // End card features one of the genuine companies, preferring one with a fun fact.
-  const genuine = play.companyIds.filter((id) => id !== play.impostorId).map((id) => companies.get(id)!);
-  const featured = genuine.find((c) => c.funFact) ?? genuine[0];
+  // End card: the impostor, the company the whole puzzle was about.
+  const featured = impostor;
   const featuredFounders = featured.founderIds
     .map((id) => data.people.find((p) => p.id === id)?.name)
     .filter((n): n is string => !!n);
@@ -247,7 +246,7 @@ export function ImpostorGame() {
             <VenetianMask size={18} className="mt-0.5 shrink-0 text-primary" aria-hidden />
             {play.explanation}
           </p>
-          <BuiltInEuropeCard company={featured} founders={featuredFounders} />
+          <BuiltInEuropeCard company={featured} founders={featuredFounders} reason="The impostor" />
         </div>
       )}
     </div>
