@@ -2,12 +2,13 @@
 
 import { useEffect, useMemo, useState } from "react";
 import { X } from "lucide-react";
-import type { Company, Dataset, GridCriterion, UnicornGridPuzzle } from "@eunicorn/schema";
+import type { Company, Dataset, GridCriterion, Hint, UnicornGridPuzzle } from "@eunicorn/schema";
 import { indexById, loadGame } from "@/lib/data";
 import { getTodayResult, loadProgress, saveProgress, saveResult } from "@/lib/daily";
-import { hintLimit, saveDifficulty, type Difficulty } from "@/lib/difficulty";
+import { saveDifficulty, type Difficulty } from "@/lib/difficulty";
 import { formatPoints, shareText as buildShareText } from "@/lib/scoring";
 import { CompanyLogo } from "@/components/CompanyLogo";
+import { sectorLabel } from "@/lib/format";
 import { distinctAnswers } from "@/lib/grid";
 import { RevealButton } from "@/components/RevealButton";
 import { CompanySearch } from "@/components/CompanySearch";
@@ -16,7 +17,7 @@ import { Flag } from "@/components/Flag";
 import { GameIntro } from "@/components/GameIntro";
 import { GameHeader } from "@/components/GameHeader";
 import { Announce, GameSkeleton, NoPuzzle } from "@/components/Announce";
-import { HintButton, HintList } from "@/components/HintButton";
+import { Hints, hintState } from "@/components/Hints";
 import { ResultArea } from "@/components/ResultArea";
 import { StatsPanel } from "@/components/StatsPanel";
 import { recordFinish, recordStart } from "@/lib/stats";
@@ -24,8 +25,30 @@ import { recordFinish, recordStart } from "@/lib/stats";
 const MODE = "unicorn-grid";
 const TITLE = "Unicorn Grid";
 
-/** The same at every level (right and wrong guesses together): a level only changes which startups the grid is built on and how many hints are on offer. */
-const GUESSES = 12;
+/** A wrong guess costs one point of the squares' values. There is no limit on guesses: the game ends when the grid is full, or when you give up. */
+const WRONG_COST = 1;
+
+/** What a square's hints cost, in order: a description of one answer, then its first letter. */
+const HINT_COSTS = [1, 2];
+
+/**
+ * The hints for a square point at one valid answer that is not on the board yet, the best-known
+ * one that still lets the rest of the board be filled. When the player uses it elsewhere, the
+ * hints move on to another answer, so a hint never points at a square already answered.
+ */
+function hintsFor(p: UnicornGridPuzzle, cells: (string | null)[], cell: number, companies: Map<string, Company>): Hint[] {
+  const fame = (id: string) => companies.get(id)?.difficulty ?? 3;
+  const bestKnownFirst = (_: number, ids: string[]) => [...ids].sort((a, b) => fame(a) - fame(b) || a.localeCompare(b));
+  const used = new Set(cells.filter((id): id is string => !!id));
+  const id = distinctAnswers(p.validAnswers, cells, bestKnownFirst)?.[cell] ?? p.validAnswers[cell].find((x) => !used.has(x));
+  const one = id ? companies.get(id) : undefined;
+  if (!one) return [];
+  const texts = [
+    `One answer: ${one.sectors.map(sectorLabel).join(", ")} from ${one.city}`,
+    `One answer starts with ${one.name[0].toUpperCase()}`,
+  ];
+  return texts.map((text, i) => ({ text, cost: HINT_COSTS[i] }));
+}
 
 /** The part of the puzzle that differs by level. A hand-made puzzle has no variants: one for all. */
 type Level = Pick<UnicornGridPuzzle, "rows" | "cols" | "validAnswers" | "cellHints">;
@@ -51,19 +74,17 @@ interface Progress {
  */
 function evaluate(p: UnicornGridPuzzle, progress: Progress, companies: Map<string, Company>) {
   const filled = progress.cells.filter(Boolean).length;
-  const guessesLeft = GUESSES - filled - progress.wrong;
-  const done = progress.gaveUp || filled === 9 || guessesLeft <= 0;
+  const done = progress.gaveUp || filled === 9;
   const worth = (id: string) => companies.get(id)?.difficulty ?? 1;
-  const hintCost = progress.cellHints.reduce((s, n, i) => s + p.cellHints[i].slice(0, n).reduce((a, h) => a + h.cost, 0), 0);
+  const hintCost = progress.cellHints.reduce((s, n) => s + HINT_COSTS.slice(0, n).reduce((a, c) => a + c, 0), 0);
   const raised = progress.cells.reduce((s, id) => s + (id ? worth(id) : 0), 0);
   return {
     filled,
-    guessesLeft,
     done,
     worth,
     hintsUsed: progress.cellHints.reduce((s, n) => s + n, 0),
     maxScore: p.validAnswers.reduce((s, ids) => s + Math.max(...ids.map(worth)), 0),
-    score: Math.max(0, raised - hintCost),
+    score: Math.max(0, raised - progress.wrong * WRONG_COST - hintCost),
   };
 }
 
@@ -123,7 +144,7 @@ export function UnicornGridGame() {
   }
 
   const puzzle = atLevel(daily, progress.difficulty);
-  const { filled, guessesLeft, done, worth, hintsUsed, maxScore, score } = evaluate(puzzle, progress, companies);
+  const { filled, done, worth, hintsUsed, maxScore, score } = evaluate(puzzle, progress, companies);
   const used = new Set(progress.cells.filter((id): id is string => !!id));
 
   function update(next: Progress) {
@@ -183,18 +204,17 @@ export function UnicornGridGame() {
       <Announce text={miss ? `${miss.name} doesn't fit that square.` : `${used.size} of 9 squares filled.`} />
 
       <div className="grid grid-cols-4 gap-1.5">
-        <div className="flex flex-col items-center justify-center rounded-2xl bg-eu-blue p-1 text-center text-white">
-          <span className="font-display text-xl font-bold leading-none">{done ? filled : guessesLeft}</span>
-          <span className="text-xs text-white/80">{done ? "of 9" : "guesses"}</span>
+        <div className="flex flex-col items-center justify-center text-center text-muted">
+          <span className="font-display text-xl font-bold leading-none text-foreground">{filled}/9</span>
         </div>
         {puzzle.cols.map((c, i) => (
-          <div key={i} className="flex aspect-square items-center justify-center rounded-2xl bg-eu-blue/10 p-1">
+          <div key={i} className="flex aspect-square items-center justify-center rounded-2xl bg-eu-blue p-1 text-white">
             <CriterionLabel c={c} />
           </div>
         ))}
         {puzzle.rows.map((r, ri) => (
           <div key={ri} className="contents">
-            <div className="flex aspect-square items-center justify-center rounded-2xl bg-eu-blue/10 p-1">
+            <div className="flex aspect-square items-center justify-center rounded-2xl bg-eu-blue p-1 text-white">
               <CriterionLabel c={r} />
             </div>
             {[0, 1, 2].map((ci) => {
@@ -263,19 +283,17 @@ export function UnicornGridGame() {
                   <X size={16} aria-hidden /> {miss.name} doesn&apos;t fit this square
                 </p>
               )}
-              <HintList hints={puzzle.cellHints[sel].slice(0, progress.cellHints[sel])} />
-              {progress.cellHints[sel] < hintLimit(progress.difficulty, puzzle.cellHints[sel].length) && (
-                <div className="flex justify-end">
-                  <HintButton maxScore={maxScore}
-                    cost={puzzle.cellHints[sel][progress.cellHints[sel]].cost}
-                    onClick={() => {
-                      const cellHints = [...progress.cellHints];
-                      cellHints[sel] += 1;
-                      update({ ...progress, cellHints });
-                    }}
-                  />
-                </div>
-              )}
+              <div className="flex justify-end">
+                <Hints
+                  {...hintState(progress.difficulty, hintsFor(puzzle, progress.cells, sel, companies), progress.cellHints[sel])}
+                  maxScore={maxScore}
+                  onReveal={() => {
+                    const cellHints = [...progress.cellHints];
+                    cellHints[sel] += 1;
+                    update({ ...progress, cellHints });
+                  }}
+                />
+              </div>
             </>
           ) : (
             <p className="text-center text-sm text-muted">Tap a square to start.</p>

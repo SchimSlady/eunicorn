@@ -1,11 +1,10 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
-import { X } from "lucide-react";
 import type { Company, Dataset } from "@eunicorn/schema";
 import { indexById, loadGame } from "@/lib/data";
 import { getTodayResult, loadProgress, saveProgress, saveResult } from "@/lib/daily";
-import { hintLimit, saveDifficulty, type Difficulty } from "@/lib/difficulty";
+import { saveDifficulty, type Difficulty } from "@/lib/difficulty";
 import { formatMetric } from "@/lib/format";
 import { shareText as buildShareText } from "@/lib/scoring";
 import type { Top10Puzzle, Top10Round } from "@/lib/top10";
@@ -15,7 +14,7 @@ import { BuiltInEuropeCard } from "@/components/BuiltInEuropeCard";
 import { GameIntro } from "@/components/GameIntro";
 import { GameHeader } from "@/components/GameHeader";
 import { Announce, GameSkeleton, NoPuzzle } from "@/components/Announce";
-import { HintButton, HintList } from "@/components/HintButton";
+import { Hints, hintState } from "@/components/Hints";
 import { ResultArea } from "@/components/ResultArea";
 import { RevealButton } from "@/components/RevealButton";
 import { StatsPanel } from "@/components/StatsPanel";
@@ -25,8 +24,8 @@ const MODE = "top-10";
 const TITLE = "Top 10";
 const MAX_SCORE = 10;
 
-/** Wrong names allowed: the same at every level. A level changes the list (its scope) and how many hints are on offer. */
-const LIVES = 5;
+/** A wrong name costs half a point of the ten. There is no limit on guesses: the game ends at ten found, or when you give up. */
+const WRONG_COST = 0.5;
 
 interface Progress {
   difficulty: Difficulty;
@@ -43,9 +42,9 @@ function atLevel(p: Top10Puzzle, d: Difficulty): Top10Round {
 function evaluate(p: Top10Round, progress: Progress) {
   const found = progress.guesses.filter((id) => p.companyIds.includes(id));
   const wrong = progress.guesses.length - found.length;
-  const done = progress.gaveUp || found.length === p.companyIds.length || wrong >= LIVES;
+  const done = progress.gaveUp || found.length === p.companyIds.length;
   const hintCost = p.hints.slice(0, progress.hintsUsed).reduce((s, h) => s + h.cost, 0);
-  return { found, wrong, livesLeft: LIVES - wrong, done, score: Math.max(0, found.length - hintCost) };
+  return { found, wrong, done, score: Math.max(0, found.length - wrong * WRONG_COST - hintCost) };
 }
 
 function shareText(p: Top10Puzzle, round: Top10Round, progress: Progress): string {
@@ -98,7 +97,7 @@ export function Top10Game() {
   }
 
   const round = atLevel(puzzle, progress.difficulty);
-  const { found, wrong, livesLeft, done, score } = evaluate(round, progress);
+  const { found, wrong, done, score } = evaluate(round, progress);
 
   function update(next: Progress) {
     setProgress(next);
@@ -117,7 +116,6 @@ export function Top10Game() {
     update({ ...progress!, guesses: [...progress!.guesses, c.id] });
   }
 
-  const wrongOnes = progress.guesses.filter((id) => !round.companyIds.includes(id)).map((id) => companies.get(id)!);
   // End card: the player's rarest find (highest difficulty, then lowest rank); none found: No. 1.
   const foundCompanies = found.map((id) => companies.get(id)!);
   const top =
@@ -132,7 +130,7 @@ export function Top10Game() {
       <Announce
         text={
           miss && !done
-            ? `${miss.name} is not in the list. ${livesLeft} ${livesLeft === 1 ? "life" : "lives"} left.`
+            ? `${miss.name} is not in the list.`
             : `${found.length} of 10 found.`
         }
       />
@@ -166,36 +164,18 @@ export function Top10Game() {
         })}
       </ol>
 
-      {wrongOnes.length > 0 && (
-        <div className="flex flex-wrap gap-2">
-          {wrongOnes.map((c, i) => (
-            <span
-              key={c.id}
-              className={`flex items-center gap-1 rounded-full bg-wrong/15 py-1 pl-2 pr-3 text-sm font-medium text-wrong ${i === wrongOnes.length - 1 && miss && !done ? "animate-shake" : ""}`}
-            >
-              <X size={14} aria-hidden /> <span className="line-through">{c.name}</span>
-            </span>
-          ))}
-        </div>
-      )}
-
-      <HintList hints={round.hints.slice(0, progress.hintsUsed)} />
-
       {!done ? (
         <div className="space-y-3">
           <CompanySearch companies={data.companies} exclude={new Set(progress.guesses)} onPick={guess} />
           <div className="flex items-center justify-between text-sm">
-            <span className="flex items-center gap-2 text-muted">
-              <span className="flex gap-1" aria-hidden>
-                {Array.from({ length: LIVES }, (_, i) => (
-                  <span key={i} className={`h-2.5 w-2.5 rounded-full ${i < livesLeft ? "bg-primary" : "bg-wrong/60"}`} />
-                ))}
-              </span>
-              {livesLeft} {livesLeft === 1 ? "life" : "lives"} left · {found.length}/10
+            <span className="text-muted">
+              {found.length}/10 found{wrong > 0 && ` · ${wrong} wrong`}
             </span>
-            {progress.hintsUsed < hintLimit(progress.difficulty, round.hints.length) && (
-              <HintButton maxScore={MAX_SCORE} cost={round.hints[progress.hintsUsed].cost} onClick={() => update({ ...progress, hintsUsed: progress.hintsUsed + 1 })} />
-            )}
+            <Hints
+              {...hintState(progress.difficulty, round.hints, progress.hintsUsed)}
+              maxScore={MAX_SCORE}
+              onReveal={() => update({ ...progress, hintsUsed: progress.hintsUsed + 1 })}
+            />
           </div>
           <RevealButton label="Show the list" onConfirm={() => update({ ...progress, gaveUp: true })} />
         </div>
