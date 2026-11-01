@@ -1,7 +1,7 @@
 import type { AnyPuzzle, PlayMode, Top10Metric, Top10Puzzle, Top10Round } from "@/lib/top10";
 import type { Company, Dataset, GridCriterion, Hint, HigherLowerMetric, HigherLowerPuzzle, ImpostorPuzzle, UnicornGridPuzzle, WhoRaisedThisPuzzle } from "@eunicorn/schema";
 import { DIFFICULTIES, FAME_TIERS, INVESTOR_TIER_MAX, type Difficulty } from "../difficulty";
-import { formatUsdAsEur, sectorLabel } from "../format";
+import { countryName, formatUsdAsEur, sectorLabel } from "../format";
 import { distinctAnswers } from "../grid";
 
 /**
@@ -144,10 +144,13 @@ function whoRaisedThis(
 ): (WhoRaisedThisPuzzle & { variants: WhoRaisedThisVariants }) | null {
   const byId = new Map(companies.map((c) => [c.id, c]));
   const investors = new Map(data.investors.map((i) => [i.id, i.name]));
+  const tiers = new Map(data.investors.map((i) => [i.id, i.tier]));
+  // Only investors players can know (tier 1 and 2) go into a clue; data without tiers (seed files) counts them all.
+  const known = (id: string) => (tiers.get(id) ?? 1) <= INVESTOR_TIER_MAX;
   const people = new Map(data.people.map((p) => [p.id, p.name]));
 
-  // Rounds that make a fair puzzle: a real amount and at least two named investors.
-  const rounds = data.rounds.filter((r) => byId.has(r.companyId) && r.amountUsd > 0 && r.investorIds.length >= 2);
+  // Rounds that make a fair puzzle: a real amount and at least one investor worth naming.
+  const rounds = data.rounds.filter((r) => byId.has(r.companyId) && r.amountUsd > 0 && r.investorIds.filter(known).length >= 1);
   if (!rounds.length) return null;
 
   const variants: WhoRaisedThisVariants = {};
@@ -162,7 +165,7 @@ function whoRaisedThis(
         rng,
       );
 
-      const names = shuffle(round.investorIds, rng)
+      const names = shuffle(round.investorIds.filter(known), rng)
         .map((id) => investors.get(id))
         .filter((n): n is string => !!n);
       const founders = answer.founderIds.map((id) => people.get(id)).filter((n): n is string => !!n);
@@ -544,14 +547,6 @@ const STAGE_LABEL: Record<string, string> = {
 
 function sectorPlural(s: string): string {
   return SECTOR_PLURAL[s] ?? `${sectorLabel(s).toLowerCase()} companies`;
-}
-
-const regionNames = new Intl.DisplayNames(["en"], { type: "region" });
-
-function countryName(code: string): string {
-  if (code === "GB") return "the UK";
-  if (code === "NL") return "the Netherlands";
-  return regionNames.of(code) ?? code;
 }
 
 function flag(code: string): string {

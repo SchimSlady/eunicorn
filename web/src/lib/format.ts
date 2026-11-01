@@ -87,3 +87,11 @@ const SECTOR_LABEL: Record<string, string> = {
 export function sectorLabel(s: string): string {
   return SECTOR_LABEL[s] ?? s;
 }
+
+const regionNames = new Intl.DisplayNames(["en"], { type: "region" });
+
+/** A country's name as the games say it: "UK" and "Netherlands", never "the UK". */
+export function countryName(code: string): string {
+  if (code === "GB") return "UK";
+  return regionNames.of(code) ?? code;
+}
