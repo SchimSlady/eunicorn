@@ -202,7 +202,7 @@ interface Criterion {
   /** Criteria in the same group can't share a cell sensibly (e.g. two countries). */
   group: "place" | "sector" | "founded" | "investor";
   test: (co: Company) => boolean;
-  /** Investors only: 1 = very well known, 3 = very hard to guess. */
+  /** Investors only: 1 = top global VCs ... 4 = everyone else (investors.tier). */
   tier?: number;
 }
 
@@ -323,11 +323,11 @@ function gridFor(
 }
 
 /**
- * An investor's tier until the data has its own `difficulty`: the more of our companies it backed,
- * the better known it is (14 or more: tier 1, 6 to 13: tier 2, fewer: tier 3).
+ * An investor's tier when the data has none (an older database, or the seed files): the more of
+ * our companies it backed, the better known it is.
  */
 function investorTier(backedCompanies: number): number {
-  return backedCompanies >= 14 ? 1 : backedCompanies >= 6 ? 2 : 3;
+  return backedCompanies >= 14 ? 1 : backedCompanies >= 8 ? 2 : backedCompanies >= 4 ? 3 : 4;
 }
 
 function gridCriteria(data: Dataset, companies: Company[]): Criterion[] {
@@ -353,7 +353,7 @@ function gridCriteria(data: Dataset, companies: Company[]): Criterion[] {
     if (count(before) >= 3) out.push({ group: "founded", test: before, c: { kind: "founded-before", value: year + 1, label: `Founded ${year} or earlier` } });
   }
   const names = new Map(data.investors.map((i) => [i.id, i.name]));
-  const set = new Map(data.investors.map((i) => [i.id, (i as { difficulty?: number }).difficulty]));
+  const set = new Map(data.investors.map((i) => [i.id, (i as { tier?: number }).tier]));
   const backed = new Map<string, Set<string>>();
   for (const r of data.rounds) for (const id of r.investorIds) (backed.get(id) ?? backed.set(id, new Set()).get(id)!).add(r.companyId);
   for (const [id, cos] of backed) {
