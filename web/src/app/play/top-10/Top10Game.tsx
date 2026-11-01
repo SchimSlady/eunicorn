@@ -17,6 +17,7 @@ import { Announce, GameSkeleton, NoPuzzle } from "@/components/Announce";
 import { Hints, hintState } from "@/components/Hints";
 import { ResultArea } from "@/components/ResultArea";
 import { RevealButton } from "@/components/RevealButton";
+import { Leaderboard } from "@/components/Leaderboard";
 import { StatsPanel } from "@/components/StatsPanel";
 import { recordFinish, recordStart } from "@/lib/stats";
 
@@ -184,7 +185,8 @@ export function Top10Game() {
             detail={`${found.length} of 10 found${wrong ? ` · ${wrong} wrong` : ""}${progress.hintsUsed ? ` · ${progress.hintsUsed} ${progress.hintsUsed === 1 ? "hint" : "hints"}` : ""}`}
             share={shareText(puzzle, round, progress)}
             stats={
-              <StatsPanel
+              <>
+                <StatsPanel
                 mode={MODE}
                 bucket={found.length}
                 scorePct={(score / MAX_SCORE) * 100}
@@ -192,6 +194,8 @@ export function Top10Game() {
                 label={(b) => String(b)}
                 axis="Companies found"
               />
+                <Leaderboard mode={MODE} difficulty={progress.difficulty} scorePct={(score / MAX_SCORE) * 100} hintsUsed={progress.hintsUsed} />
+              </>
             }
           />
           <BuiltInEuropeCard company={top} founders={topFounders} reason={topReason} />

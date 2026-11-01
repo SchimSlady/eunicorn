@@ -15,6 +15,7 @@ import { GameHeader } from "@/components/GameHeader";
 import { Announce, GameSkeleton, NoPuzzle } from "@/components/Announce";
 import { Hints, hintState } from "@/components/Hints";
 import { ResultArea } from "@/components/ResultArea";
+import { Leaderboard } from "@/components/Leaderboard";
 import { StatsPanel } from "@/components/StatsPanel";
 import { recordFinish, recordStart } from "@/lib/stats";
 
@@ -234,7 +235,8 @@ export function ImpostorGame() {
             }
             share={shareText(play, progress)}
             stats={
-              <StatsPanel
+              <>
+                <StatsPanel
                 mode={MODE}
                 bucket={won ? progress.picks.length : 0}
                 scorePct={(score / MAX_SCORE) * 100}
@@ -242,6 +244,8 @@ export function ImpostorGame() {
                 label={(b) => (b === 0 ? "X" : String(b))}
                 axis="Picks needed"
               />
+                <Leaderboard mode={MODE} difficulty={progress.difficulty} scorePct={(score / MAX_SCORE) * 100} hintsUsed={progress.hintsUsed} />
+              </>
             }
           />
           <p className="flex animate-flip-in items-start gap-2 rounded-2xl border border-border bg-surface p-4 text-sm">
