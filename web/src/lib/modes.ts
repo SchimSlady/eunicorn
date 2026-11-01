@@ -51,7 +51,7 @@ export const MODES: ModeInfo[] = [
     description: "See one company's number, then say if the next one is higher or lower. One wrong call ends the run.",
     rules: [
       "You see one company's valuation, total raised, biggest single funding round or founding year. Is the next company's number higher or lower?",
-      "Now and then there's a theme day: only unicorns, or only startups founded before or after 2015.",
+      "Now and then there's a theme day: only unicorns, only startups founded before or after 2015, only German startups, only AI.",
       "Each right call scores. One wrong call ends the run, after at most 15 rounds.",
       "Neighbouring numbers are never close calls: money figures at least 30% apart, founding years never the same.",
       "Easy, Medium and Hard play the same. The level sets how well known the startups are, and how many hints you get: all on Easy, half on Medium, none on Hard.",

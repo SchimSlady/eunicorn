@@ -427,11 +427,16 @@ const HL_METRICS: HLMetric[] = ["totalRaisedUsd", "lastValuationUsd", "founded",
 
 type HLTheme = { label: string; test: (c: Company) => boolean };
 
-/** A few broad themes, just for variety; nothing so specific that only insiders enjoy it. */
+/** Mostly broad themes, just for variety; a few specific ones for fun. */
 const HL_THEMES: HLTheme[] = [
   { label: "Unicorns only", test: (c) => c.unicorn },
   { label: "Founded 2015 or later", test: (c) => c.founded >= 2015 },
   { label: "Founded before 2015", test: (c) => c.founded > 0 && c.founded < 2015 },
+  // Now and then something more specific, for fun. A theme only runs once the data has enough
+  // companies for it at every level (see hlThemeFits), so a thin one simply waits.
+  { label: "Startups from Germany", test: (c) => c.country === "DE" },
+  { label: "AI only", test: (c) => c.sectors.includes("ai") },
+  { label: "Defence only", test: (c) => c.sectors.includes("defense") },
 ];
 
 /** Whether a day (from HL_EXTRAS_FROM on) is a theme day: about one day in three, from its own random stream. */
