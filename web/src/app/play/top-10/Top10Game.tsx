@@ -149,7 +149,7 @@ export function Top10Game() {
               key={id}
               style={{ height: "clamp(28px, calc((100dvh - 392px) / 10), 44px)" }}
               className={`flex items-center gap-2.5 rounded-xl border px-2.5 ${
-                got ? "animate-flip-in border-border bg-surface" : shown ? "border-border bg-surface/40 opacity-60" : "border-dashed border-border"
+                got ? "animate-flip-in border-correct bg-correct/20" : shown ? "border-border bg-surface/40 opacity-60" : "border-muted/40 bg-surface"
               }`}
             >
               <span className="w-6 text-right font-display text-base font-bold text-primary">{i + 1}</span>
