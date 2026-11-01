@@ -1,0 +1,174 @@
+{
+  "id": "marvel-fusion",
+  "name": "Marvel Fusion",
+  "aliases": [],
+  "domain": "marvelfusion.com",
+  "country": "DE",
+  "city": "Munich",
+  "founded": 2019,
+  "sectors": [
+    "climate"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Moritz von der Linden",
+    "Karl-Georg Schlesinger",
+    "Georg Korn",
+    "Pasha Shabalin"
+  ],
+  "difficulty": 4,
+  "techeuId": "03C23F5E-BFD9-4BF9-9332-B095F5A7CC76",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://tech.eu/2022/02/03/marvel-fusion-generates-e35-million-in-new-funding-round-as-it-focuses-in-on-the-holy-grail-of-energy-production/",
+      "quote": "Munich’s Marvel Fusion has closed a €35 million Series A funding round"
+    },
+    {
+      "field": "founded",
+      "url": "https://tech.eu/2022/02/03/marvel-fusion-generates-e35-million-in-new-funding-round-as-it-focuses-in-on-the-holy-grail-of-energy-production/",
+      "quote": "Marvel Fusion was founded in 2019 by Moritz von der Linden"
+    },
+    {
+      "field": "founders",
+      "url": "https://tech.eu/2022/02/03/marvel-fusion-generates-e35-million-in-new-funding-round-as-it-focuses-in-on-the-holy-grail-of-energy-production/",
+      "quote": "Marvel Fusion was founded in 2019 by Moritz von der Linden , Dr. Karl-Georg Schlesinger , Dr. Georg Korn , and Dr. Pasha Shabalin"
+    },
+    {
+      "field": "sectors",
+      "url": "https://tech.eu/2025/03/27/marvel-fusion-secures-eur50m-series-b-extension-for-fusion-energy-development/",
+      "quote": "Fusion energy company Marvel Fusion today announced"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "7a9229ba-25f1-403d-81f6-5c8f9a77a8ff",
+      "stage": "series-a",
+      "month": "2022-02",
+      "amountEur": 35000000,
+      "amountOriginal": 35000000,
+      "currency": "EUR",
+      "investors": [
+        "Earlybird",
+        "PRIMEPULSE",
+        "Thistledown Capital",
+        "Taavet Hinrikus",
+        "Sten Tamkivi",
+        "Nicolas Berggruen Charitable Trust",
+        "Heinz Dürr Invest",
+        "Hartmut Neven",
+        "Albert Wenger",
+        "Possible Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2022/02/03/marvel-fusion-generates-e35-million-in-new-funding-round-as-it-focuses-in-on-the-holy-grail-of-energy-production/",
+          "quote": "has closed a €35 million Series A funding round"
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2022/02/03/marvel-fusion-generates-e35-million-in-new-funding-round-as-it-focuses-in-on-the-holy-grail-of-energy-production/",
+          "quote": "has closed a €35 million Series A funding round"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2022/02/03/marvel-fusion-generates-e35-million-in-new-funding-round-as-it-focuses-in-on-the-holy-grail-of-energy-production/",
+          "quote": "03 February 2022"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2022/02/03/marvel-fusion-generates-e35-million-in-new-funding-round-as-it-focuses-in-on-the-holy-grail-of-energy-production/",
+          "quote": "was led by Earlybird and saw participation from PRIMEPULSE , Thistledown Capital, Taavet Hinrikus & Sten Tamkivi (OÜ Notorius), Nicolas Berggruen Charitable Trust , and Heinz Dürr Invest"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2022/02/03/marvel-fusion-generates-e35-million-in-new-funding-round-as-it-focuses-in-on-the-holy-grail-of-energy-production/",
+          "quote": "Existing investors Hartmut Neven, Albert Wenger, and Possible Ventures also participated in the round."
+        }
+      ]
+    },
+    {
+      "techeuId": "f5ab80fb-c86c-49fa-935f-699f6b39e8bb",
+      "stage": "series-b",
+      "month": "2024-09",
+      "amountEur": 62800000,
+      "amountOriginal": 62800000,
+      "currency": "EUR",
+      "investors": [
+        "HV Capital",
+        "b2venture",
+        "Bayern Kapital",
+        "Deutsche Telekom",
+        "Earlybird",
+        "SPRIND",
+        "Tengelmann Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2024/09/25/marvel-fusion-lands-70m-for-laser-powered-fusion-bet/",
+          "quote": "Marvel recently raised €62.8 million in a Series B round"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2024/09/25/marvel-fusion-lands-70m-for-laser-powered-fusion-bet/",
+          "quote": "Marvel recently raised €62.8 million in a Series B round"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2024/09/25/marvel-fusion-lands-70m-for-laser-powered-fusion-bet/",
+          "quote": "September 25, 2024"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2024/09/25/marvel-fusion-lands-70m-for-laser-powered-fusion-bet/",
+          "quote": "HV Capital led the round with participation from b2venture, Bayern Kapital, Deutsche Telekom, Earlybird, SPRIND, and Tengelmann Ventures."
+        }
+      ]
+    },
+    {
+      "techeuId": "58354711-36c8-4720-94cf-f7a444b7408d",
+      "stage": "series-b",
+      "month": "2025-03",
+      "amountEur": 50000000,
+      "amountOriginal": 50000000,
+      "currency": "EUR",
+      "investors": [
+        "EQT Ventures",
+        "Siemens Energy Ventures",
+        "European Innovation Council Fund",
+        "Tengelmann Ventures",
+        "Bayern Kapital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2025/03/27/marvel-fusion-secures-eur50m-series-b-extension-for-fusion-energy-development/",
+          "quote": "announced the extension of its Series B funding round by €50 million"
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2025/03/27/marvel-fusion-secures-eur50m-series-b-extension-for-fusion-energy-development/",
+          "quote": "announced the extension of its Series B funding round by €50 million"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2025/03/27/marvel-fusion-secures-eur50m-series-b-extension-for-fusion-energy-development/",
+          "quote": "27 March 2025"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2025/03/27/marvel-fusion-secures-eur50m-series-b-extension-for-fusion-energy-development/",
+          "quote": "The extension includes new investments from EQT Ventures, Siemens Energy Ventures, and the European Innovation Council (EIC) Fund."
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2025/03/27/marvel-fusion-secures-eur50m-series-b-extension-for-fusion-energy-development/",
+          "quote": "Existing investors Tengelmann Ventures and Bayern Kapital contributed again."
+        }
+      ]
+    }
+  ]
+}

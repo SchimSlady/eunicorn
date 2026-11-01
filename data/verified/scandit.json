@@ -1,0 +1,198 @@
+{
+  "id": "scandit",
+  "name": "Scandit",
+  "aliases": [],
+  "domain": "scandit.com",
+  "country": "CH",
+  "city": "Zurich",
+  "founded": 2009,
+  "sectors": [
+    "saas"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Samuel Mueller",
+    "Christian Floerkemeier",
+    "Christof Roduner"
+  ],
+  "difficulty": 3,
+  "techeuId": "AC95B111-B22C-424B-A17B-BC105EA02DBA",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://techcrunch.com/2020/05/26/scandit-raises-80m-as-covid-19-drives-demand-for-contactless-deliveries/",
+      "quote": "The Zurich-based firm"
+    },
+    {
+      "field": "founded",
+      "url": "https://techcrunch.com/2017/01/10/scandit-which-replaces-barcode-scanners-with-phones-closes-7-5m-from-atomico/",
+      "quote": "Scandit was founded in 2009, by a group of PhD graduates and former researchers from ETH Zurich"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Scandit",
+      "quote": "Samuel Mueller, Christian Floerkemeier, and Christof Roduner met as doctoral students"
+    },
+    {
+      "field": "sectors",
+      "url": "https://techcrunch.com/2020/05/26/scandit-raises-80m-as-covid-19-drives-demand-for-contactless-deliveries/",
+      "quote": "combines computer vision and machine learning tech with barcode scanning"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://techcrunch.com/2022/02/09/scandit-snaps-up-150m-at-a-1b-valuation-for-its-computer-vision-based-data-capture-technology/",
+      "quote": "Scandit snaps up $150M at a $1B+ valuation for its computer vision-based data capture technology"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-a",
+      "month": "2017-01",
+      "amountEur": 7097568,
+      "amountOriginal": 7500000,
+      "currency": "USD",
+      "investors": [
+        "Atomico"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2017/01/10/scandit-which-replaces-barcode-scanners-with-phones-closes-7-5m-from-atomico/",
+          "quote": "closed a $7.5m Series A funding round with London-based VC Atomico"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2017/01/10/scandit-which-replaces-barcode-scanners-with-phones-closes-7-5m-from-atomico/",
+          "quote": "January 10, 2017"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2017/01/10/scandit-which-replaces-barcode-scanners-with-phones-closes-7-5m-from-atomico/",
+          "quote": "closed a $7.5m Series A funding round with London-based VC Atomico"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2017/01/10/scandit-which-replaces-barcode-scanners-with-phones-closes-7-5m-from-atomico/",
+          "quote": "closed a $7.5m Series A funding round with London-based VC Atomico"
+        }
+      ],
+      "techeuId": "72393902-22a8-4953-e9b2-08d91092c887"
+    },
+    {
+      "stage": "series-b",
+      "month": "2018-07",
+      "amountEur": 25606009,
+      "amountOriginal": 30000000,
+      "currency": "USD",
+      "investors": [
+        "GV",
+        "NGP Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2018/07/26/enterprise-barcode-scanner-scandit-raises-a-30-million-series-b/",
+          "quote": "Scandit just raised a $30 million Series B"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2018/07/26/enterprise-barcode-scanner-scandit-raises-a-30-million-series-b/",
+          "quote": "July 26, 2018"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2018/07/26/enterprise-barcode-scanner-scandit-raises-a-30-million-series-b/",
+          "quote": "Scandit just raised a $30 million Series B"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2018/07/26/enterprise-barcode-scanner-scandit-raises-a-30-million-series-b/",
+          "quote": "in a round led by GV (née Google Ventures) and NGP Capital"
+        }
+      ],
+      "techeuId": "9eccf3bd-f82f-47c6-e9b3-08d91092c887"
+    },
+    {
+      "stage": "series-c",
+      "month": "2020-05",
+      "amountEur": 72892938,
+      "amountOriginal": 80000000,
+      "currency": "USD",
+      "investors": [
+        "G2VP",
+        "Atomico",
+        "GV",
+        "Kreos Capital",
+        "NGP Capital",
+        "Salesforce Ventures",
+        "Swisscom Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2020/05/26/scandit-raises-80m-as-covid-19-drives-demand-for-contactless-deliveries/",
+          "quote": "has closed an $80 million Series C round, led by Silicon Valley VC firm G2VP"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2020/05/26/scandit-raises-80m-as-covid-19-drives-demand-for-contactless-deliveries/",
+          "quote": "May 26, 2020"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2020/05/26/scandit-raises-80m-as-covid-19-drives-demand-for-contactless-deliveries/",
+          "quote": "has closed an $80 million Series C round, led by Silicon Valley VC firm G2VP"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2020/05/26/scandit-raises-80m-as-covid-19-drives-demand-for-contactless-deliveries/",
+          "quote": "Atomico, GV, Kreos, NGP Capital, Salesforce Ventures and Swisscom Ventures also participated in the round"
+        }
+      ],
+      "techeuId": "3e142f41-7c9c-4651-e9b4-08d91092c887"
+    },
+    {
+      "stage": "series-d",
+      "month": "2022-02",
+      "amountEur": 131176213,
+      "amountOriginal": 150000000,
+      "currency": "USD",
+      "investors": [
+        "Warburg Pincus",
+        "Atomico",
+        "Forestay Capital",
+        "G2VP",
+        "GV",
+        "Kreos Capital",
+        "NGP Capital",
+        "Schneider Electric",
+        "Sony Innovation Fund",
+        "Swisscom Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2022/02/09/scandit-snaps-up-150m-at-a-1b-valuation-for-its-computer-vision-based-data-capture-technology/",
+          "quote": "Scandit snaps up $150M at a $1B+ valuation for its computer vision-based data capture technology"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2022/02/09/scandit-snaps-up-150m-at-a-1b-valuation-for-its-computer-vision-based-data-capture-technology/",
+          "quote": "February 9, 2022"
+        },
+        {
+          "field": "stage",
+          "url": "https://en.wikipedia.org/wiki/Scandit",
+          "quote": "In February 2022, Scandit raised US$150 million Series D funding"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2022/02/09/scandit-snaps-up-150m-at-a-1b-valuation-for-its-computer-vision-based-data-capture-technology/",
+          "quote": "Warburg Pincus led the round, with previous backers Atomico, Forestay Capital, G2VP, GV, Kreos, NGP Capital, Schneider Electric, Sony Innovation Fund and Swisscom Ventures all also participating."
+        }
+      ],
+      "techeuId": "988536b5-5933-44c4-88ed-1dbf3a429569"
+    }
+  ]
+}

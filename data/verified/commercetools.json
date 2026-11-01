@@ -1,0 +1,118 @@
+{
+  "id": "commercetools",
+  "name": "commercetools",
+  "aliases": [],
+  "domain": "commercetools.com",
+  "country": "DE",
+  "city": "Munich",
+  "founded": 2006,
+  "sectors": [
+    "saas"
+  ],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 1612903226,
+  "founders": [
+    "Dirk Hoerig",
+    "Denis Werner"
+  ],
+  "difficulty": 3,
+  "techeuId": "041A6F60-2D67-44A2-AB19-68A30A858920",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/Commercetools",
+      "quote": "commercetools is a Munich -based company"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Commercetools",
+      "quote": "commercetools was founded by Dirk Hoerig and Denis Werner in 2006."
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Commercetools",
+      "quote": "commercetools was founded by Dirk Hoerig and Denis Werner in 2006."
+    },
+    {
+      "field": "sectors",
+      "url": "https://en.wikipedia.org/wiki/Commercetools",
+      "quote": "offers a cloud-based headless commerce platform"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://techcrunch.com/2021/09/13/commercetools-raises-140m-at-a-1-9b-valuation-as-headless-commerce-continues-to-boom/",
+      "quote": "has closed $140 million in funding, a Series C that CEO Dirk Hoerig has confirmed to me values the company at $1.9 billion."
+    },
+    {
+      "field": "valuation",
+      "url": "https://techcrunch.com/2021/09/13/commercetools-raises-140m-at-a-1-9b-valuation-as-headless-commerce-continues-to-boom/",
+      "quote": "has closed $140 million in funding, a Series C that CEO Dirk Hoerig has confirmed to me values the company at $1.9 billion."
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-b",
+      "month": "2019-10",
+      "amountEur": 129777141,
+      "amountOriginal": 145000000,
+      "currency": "USD",
+      "investors": [
+        "Insight Partners"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2019/10/21/commercetools-raises-145m-from-insight-for-shopify-style-e-commerce-apis-for-large-enterprises/",
+          "quote": "Commercetools raises $145M from Insight for Shopify-style e-commerce APIs for large enterprises"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2019/10/21/commercetools-raises-145m-from-insight-for-shopify-style-e-commerce-apis-for-large-enterprises/",
+          "quote": "October 21, 2019"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2019/10/21/commercetools-raises-145m-from-insight-for-shopify-style-e-commerce-apis-for-large-enterprises/",
+          "quote": "in a growth round of funding led by Insight Partners"
+        }
+      ],
+      "techeuId": "3c540a27-8f16-4212-deec-08d91092c887"
+    },
+    {
+      "stage": "series-c",
+      "month": "2021-09",
+      "amountEur": 118845501,
+      "amountOriginal": 140000000,
+      "currency": "USD",
+      "investors": [
+        "Accel",
+        "Insight Partners",
+        "REWE Group"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2021/09/13/commercetools-raises-140m-at-a-1-9b-valuation-as-headless-commerce-continues-to-boom/",
+          "quote": "has closed $140 million in funding, a Series C"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2021/09/13/commercetools-raises-140m-at-a-1-9b-valuation-as-headless-commerce-continues-to-boom/",
+          "quote": "September 13, 2021"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2021/09/13/commercetools-raises-140m-at-a-1-9b-valuation-as-headless-commerce-continues-to-boom/",
+          "quote": "has closed $140 million in funding, a Series C"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2021/09/13/commercetools-raises-140m-at-a-1-9b-valuation-as-headless-commerce-continues-to-boom/",
+          "quote": "The funding is being led by Accel, with previous investors Insight Partners and REWE Group also participating."
+        }
+      ],
+      "techeuId": "03e8f5b1-97b8-48ed-baa0-db87e8b5366b"
+    }
+  ]
+}

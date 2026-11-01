@@ -1,0 +1,229 @@
+{
+  "id": "darktrace",
+  "name": "Darktrace",
+  "aliases": [],
+  "domain": "darktrace.com",
+  "country": "GB",
+  "city": "Cambridge",
+  "founded": 2013,
+  "sectors": [
+    "cybersecurity"
+  ],
+  "status": "acquired",
+  "unicorn": true,
+  "lastValuationEur": 1405810684,
+  "founders": [],
+  "difficulty": 2,
+  "techeuId": "773779E6-3964-40E9-8027-86A4C16935BF",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/Darktrace",
+      "quote": "Darktrace was founded in 2013 in Cambridge"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Darktrace",
+      "quote": "Darktrace was founded in 2013 in Cambridge"
+    },
+    {
+      "field": "sectors",
+      "url": "https://en.wikipedia.org/wiki/Darktrace",
+      "quote": "is a British cyber security company"
+    },
+    {
+      "field": "status",
+      "url": "https://en.wikipedia.org/wiki/Darktrace",
+      "quote": "acquired by American private equity firm Thoma Bravo in October 2024"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://techcrunch.com/2018/09/26/darktrace-raises-50-million-new-funding/",
+      "quote": "putting the company’s valuation at $1.65 billion"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://en.wikipedia.org/wiki/Darktrace",
+      "quote": "In April 2021, Darktrace listed on the London Stock Exchange with a market value of circa £2.5 billion."
+    },
+    {
+      "field": "valuation",
+      "url": "https://techcrunch.com/2018/09/26/darktrace-raises-50-million-new-funding/",
+      "quote": "putting the company’s valuation at $1.65 billion"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "17d3531a-d31e-42ea-d337-08d91092c887",
+      "stage": "series-a",
+      "month": "2015-03",
+      "amountEur": 16925247,
+      "amountOriginal": 18000000,
+      "currency": "USD",
+      "investors": [
+        "Invoke Capital",
+        "Talis Capital",
+        "Hoxton Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2015/03/17/darktrace/",
+          "quote": "has picked up $18 million in new funding"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2015/03/17/darktrace/",
+          "quote": "March 17, 2015"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2015/03/17/darktrace/",
+          "quote": "Investors this time around include Invoke Capital, along with Talis Capital, Hoxton Ventures and unnamed private individuals."
+        }
+      ]
+    },
+    {
+      "techeuId": "7a0e83c8-7cf6-4259-d338-08d91092c887",
+      "stage": "series-b",
+      "month": "2015-07",
+      "amountEur": 20638415,
+      "amountOriginal": 22500000,
+      "currency": "USD",
+      "investors": [
+        "Summit Partners"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.darktrace.com/news/darktrace-raises-growth-equity-from-summit-partners",
+          "quote": "it has raised $22.5 million in Series B funding from Summit Partners"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.darktrace.com/news/darktrace-raises-growth-equity-from-summit-partners",
+          "quote": "it has raised $22.5 million in Series B funding from Summit Partners"
+        },
+        {
+          "field": "month",
+          "url": "https://www.darktrace.com/news/darktrace-raises-growth-equity-from-summit-partners",
+          "quote": "Cambridge, UK July 22, 2015"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.darktrace.com/news/darktrace-raises-growth-equity-from-summit-partners",
+          "quote": "it has raised $22.5 million in Series B funding from Summit Partners"
+        }
+      ]
+    },
+    {
+      "techeuId": "76b3f8a6-a8a5-45b8-d339-08d91092c887",
+      "stage": "series-c",
+      "month": "2016-07",
+      "amountEur": 58316885,
+      "amountOriginal": 65000000,
+      "currency": "USD",
+      "investors": [
+        "KKR",
+        "Summit Partners",
+        "TenEleven Ventures",
+        "SoftBank"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2016/07/05/cyber-security-startup-darktrace-intercepts-64m-in-fresh-funding-at-a-valuation-of-over-400m/",
+          "quote": "has closed $65 million in fresh funding"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2017/07/11/more-funding-for-ai-cybersecurity-darktrace-raises-75m-at-an-825m-valuation/",
+          "quote": "This latest round, a Series D"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2016/07/05/cyber-security-startup-darktrace-intercepts-64m-in-fresh-funding-at-a-valuation-of-over-400m/",
+          "quote": "July 5, 2016"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2016/07/05/cyber-security-startup-darktrace-intercepts-64m-in-fresh-funding-at-a-valuation-of-over-400m/",
+          "quote": "The new round was led by global investment firm KKR, with participation from existing investor Summit Partners and new investors TenEleven Ventures and SoftBank."
+        }
+      ]
+    },
+    {
+      "techeuId": "0f7c0b25-fb35-40e0-d33a-08d91092c887",
+      "stage": "series-d",
+      "month": "2017-07",
+      "amountEur": 65760631,
+      "amountOriginal": 75000000,
+      "currency": "USD",
+      "postMoneyValuationEur": 723366944,
+      "investors": [
+        "Insight Venture Partners",
+        "Summit Partners",
+        "KKR",
+        "TenEleven Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2017/07/11/more-funding-for-ai-cybersecurity-darktrace-raises-75m-at-an-825m-valuation/",
+          "quote": "has raised $75 million, giving the startup a post-money valuation of $825 million"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2017/07/11/more-funding-for-ai-cybersecurity-darktrace-raises-75m-at-an-825m-valuation/",
+          "quote": "This latest round, a Series D"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2017/07/11/more-funding-for-ai-cybersecurity-darktrace-raises-75m-at-an-825m-valuation/",
+          "quote": "July 11, 2017"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2017/07/11/more-funding-for-ai-cybersecurity-darktrace-raises-75m-at-an-825m-valuation/",
+          "quote": "was led by Insight Venture Partners, with existing investors Summit Partners, KKR and TenEleven Ventures also participating"
+        }
+      ]
+    },
+    {
+      "techeuId": "0c7f2b18-ad90-4775-d33b-08d91092c887",
+      "stage": "series-e",
+      "month": "2018-09",
+      "amountEur": 42600324,
+      "amountOriginal": 50000000,
+      "currency": "USD",
+      "postMoneyValuationEur": 1405810684,
+      "investors": [
+        "Vitruvian Partners",
+        "KKR",
+        "1011 Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2018/09/26/darktrace-raises-50-million-new-funding/",
+          "quote": "has raised $50 million in its recent Series E round of funding"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2018/09/26/darktrace-raises-50-million-new-funding/",
+          "quote": "has raised $50 million in its recent Series E round of funding"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2018/09/26/darktrace-raises-50-million-new-funding/",
+          "quote": "September 26, 2018"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2018/09/26/darktrace-raises-50-million-new-funding/",
+          "quote": "led by Vitruvian Partners, with help from KKR and 1011 Ventures"
+        }
+      ]
+    }
+  ]
+}

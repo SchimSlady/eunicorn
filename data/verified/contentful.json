@@ -1,0 +1,230 @@
+{
+  "id": "contentful",
+  "name": "Contentful",
+  "aliases": [],
+  "domain": "contentful.com",
+  "country": "DE",
+  "city": "Berlin",
+  "founded": 2013,
+  "sectors": [
+    "saas"
+  ],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 2540865588,
+  "founders": [
+    "Sascha Konietzke",
+    "Paolo Negri"
+  ],
+  "difficulty": 2,
+  "techeuId": "2910C620-5FAB-4765-A56D-AE45AF45DFDA",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/Contentful",
+      "quote": "founded in 2013 in Berlin , Germany , by Sascha Konietzke and Paolo Negri"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Contentful",
+      "quote": "founded in 2013 in Berlin , Germany , by Sascha Konietzke and Paolo Negri"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Contentful",
+      "quote": "founded in 2013 in Berlin , Germany , by Sascha Konietzke and Paolo Negri"
+    },
+    {
+      "field": "sectors",
+      "url": "https://en.wikipedia.org/wiki/Contentful",
+      "quote": "Contentful is a German-American headless content management system (CMS)"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://en.wikipedia.org/wiki/Contentful",
+      "quote": "In July 2021, Contentful raised a series F round of financing of $175 million led by the private equity arm of the hedge fund Tiger Global at a valuation of $3 billion."
+    },
+    {
+      "field": "valuation",
+      "url": "https://en.wikipedia.org/wiki/Contentful",
+      "quote": "In July 2021, Contentful raised a series F round of financing of $175 million led by the private equity arm of the hedge fund Tiger Global at a valuation of $3 billion."
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-b",
+      "month": "2016-05",
+      "amountEur": 11640401,
+      "amountOriginal": 13000000,
+      "currency": "USD",
+      "investors": [
+        "Benchmark Capital",
+        "Trinity Ventures",
+        "Balderton Capital",
+        "Point Nine Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2016/05/26/contentful-13-million/",
+          "quote": "Berlin’s Contentful raises $13 million, opening San Francisco office"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2016/05/26/contentful-13-million/",
+          "quote": "26 May 2016"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2016/05/26/contentful-13-million/",
+          "quote": "The round was led by Benchmark Capital with participation from Trinity Ventures, an existing investor, Balderton Capital, and Point Nine Capital."
+        }
+      ],
+      "techeuId": "f01aeb5b-2abe-41e4-e4e5-08d91092c887"
+    },
+    {
+      "stage": "series-c",
+      "month": "2017-12",
+      "amountEur": 23598820,
+      "amountOriginal": 28000000,
+      "currency": "USD",
+      "investors": [
+        "General Catalyst",
+        "Benchmark Capital",
+        "Balderton Capital",
+        "Point Nine Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2017/12/04/contentful-a-stripe-for-content-management-raises-28m-led-by-general-catalyst/",
+          "quote": "Contentful, a Stripe for content management, raises $28M led by General Catalyst"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2017/12/04/contentful-a-stripe-for-content-management-raises-28m-led-by-general-catalyst/",
+          "quote": "December 4, 2017"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2017/12/04/contentful-a-stripe-for-content-management-raises-28m-led-by-general-catalyst/",
+          "quote": "The Series C funding is led by General Catalyst"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2017/12/04/contentful-a-stripe-for-content-management-raises-28m-led-by-general-catalyst/",
+          "quote": "Others in the round include Benchmark Capital, Balderton Capital, and Point Nine Capital"
+        }
+      ]
+    },
+    {
+      "stage": "series-d",
+      "month": "2018-12",
+      "amountEur": 29512818,
+      "amountOriginal": 33500000,
+      "currency": "USD",
+      "investors": [
+        "Sapphire Ventures",
+        "OMERS Ventures",
+        "Salesforce Ventures",
+        "General Catalyst",
+        "Benchmark Capital",
+        "Balderton Capital",
+        "Hercules"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2018/12/06/contentful-raises-33-5m-for-its-headless-cms-platform/",
+          "quote": "it has raised a $33.5 million Series D funding round led by Sapphire Ventures"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2018/12/06/contentful-raises-33-5m-for-its-headless-cms-platform/",
+          "quote": "December 6, 2018"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2018/12/06/contentful-raises-33-5m-for-its-headless-cms-platform/",
+          "quote": "it has raised a $33.5 million Series D funding round led by Sapphire Ventures"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2018/12/06/contentful-raises-33-5m-for-its-headless-cms-platform/",
+          "quote": "with participation from OMERS Ventures and Salesforce Ventures, as well as existing investors General Catalyst, Benchmark, Balderton Capital and Hercules"
+        }
+      ],
+      "techeuId": "dae56cf4-390b-4f29-e4e6-08d91092c887"
+    },
+    {
+      "stage": "series-e",
+      "month": "2020-06",
+      "amountEur": 71225071,
+      "amountOriginal": 80000000,
+      "currency": "USD",
+      "investors": [
+        "Sapphire Ventures",
+        "General Catalyst",
+        "Salesforce Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2020/06/17/contentful-raises-80m-series-e-round-for-its-headless-cms/",
+          "quote": "it has raised an $80 million Series E funding round led by Sapphire Ventures"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2020/06/17/contentful-raises-80m-series-e-round-for-its-headless-cms/",
+          "quote": "June 17, 2020"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2020/06/17/contentful-raises-80m-series-e-round-for-its-headless-cms/",
+          "quote": "it has raised an $80 million Series E funding round led by Sapphire Ventures"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2020/06/17/contentful-raises-80m-series-e-round-for-its-headless-cms/",
+          "quote": "with participation from General Catalyst, Salesforce Ventures and a number of other new and existing investors"
+        }
+      ],
+      "techeuId": "29371f86-874f-48db-e4e7-08d91092c887"
+    },
+    {
+      "stage": "series-f+",
+      "month": "2021-07",
+      "amountEur": 148217159,
+      "amountOriginal": 175000000,
+      "currency": "USD",
+      "investors": [
+        "Tiger Global",
+        "Tidemark",
+        "Base10 Advancement Initiative"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2021/07/28/contenful-raises-175m-from/",
+          "quote": "Contentful raises $175M at a $3B valuation from Tiger for its content delivery service"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2021/07/28/contenful-raises-175m-from/",
+          "quote": "July 28, 2021"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2021/07/28/contenful-raises-175m-from/",
+          "quote": "Contentful this morning announced a $175 million Series F round of capital, led by Tiger Global"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2021/07/28/contenful-raises-175m-from/",
+          "quote": "According to the company, Tidemark and Base10 Advancement Initiative were added to its cap table in the round"
+        }
+      ],
+      "techeuId": "e9a3a097-63bd-451f-afdd-11892fb8b1dd"
+    }
+  ]
+}

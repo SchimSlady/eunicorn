@@ -1,0 +1,141 @@
+{
+  "id": "malt",
+  "name": "Malt",
+  "aliases": [
+    "Hopwork"
+  ],
+  "domain": "malt.com",
+  "country": "FR",
+  "city": "Paris",
+  "founded": 2013,
+  "sectors": [
+    "saas"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "lastValuationEur": 400000000,
+  "founders": [
+    "Vincent Huguet",
+    "Hugo Lassiège",
+    "Jean-Baptiste Lemée"
+  ],
+  "difficulty": 3,
+  "techeuId": "8BBD18AE-D516-430A-927A-74D4A51F869E",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://fr.wikipedia.org/wiki/Malt_(entreprise)",
+      "quote": "Siège social La Malterie, Paris France"
+    },
+    {
+      "field": "founded",
+      "url": "https://fr.wikipedia.org/wiki/Malt_(entreprise)",
+      "quote": "Création 26 février 2013"
+    },
+    {
+      "field": "founders",
+      "url": "https://fr.wikipedia.org/wiki/Malt_(entreprise)",
+      "quote": "Fondateurs Vincent Huguet, Hugo Lassiège et Jean-Baptiste Lemée"
+    },
+    {
+      "field": "sectors",
+      "url": "https://techcrunch.com/2021/05/31/malt-raises-97m-at-a-489m-valuation-for-its-freelance-marketplace-for-developers/",
+      "quote": "freelance marketplace for developers"
+    },
+    {
+      "field": "valuation",
+      "url": "https://techcrunch.com/2021/05/31/malt-raises-97m-at-a-489m-valuation-for-its-freelance-marketplace-for-developers/",
+      "quote": "values Malt at €400 million ($489 million)"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-a",
+      "month": "2016-12",
+      "amountEur": 5000000,
+      "amountOriginal": 5000000,
+      "currency": "EUR",
+      "investors": [
+        "Serena Capital",
+        "Isai"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://fr.wikipedia.org/wiki/Malt_(entreprise)",
+          "quote": "la troisième en décembre 2016 de 5 millions d’euros"
+        },
+        {
+          "field": "month",
+          "url": "https://fr.wikipedia.org/wiki/Malt_(entreprise)",
+          "quote": "La plateforme de freelance Hopwork lève 5 M d'euros », sur FIGARO , 15 décembre 2016"
+        },
+        {
+          "field": "investors",
+          "url": "https://fr.wikipedia.org/wiki/Malt_(entreprise)",
+          "quote": "auprès de Serena Capital et, de nouveau, d’Isai"
+        }
+      ]
+    },
+    {
+      "techeuId": "a7643a7c-789d-4f2a-d7b8-08d91092c887",
+      "stage": "series-b",
+      "month": "2019-02",
+      "amountEur": 25000000,
+      "amountOriginal": 25000000,
+      "currency": "EUR",
+      "investors": [
+        "Idinvest Partners",
+        "Isai",
+        "Serena Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2019/02/14/malt-raises-28-6-million-for-its-freelancer-platform/",
+          "quote": "is raising a $28.6 million funding round (€25 million)"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2019/02/14/malt-raises-28-6-million-for-its-freelancer-platform/",
+          "quote": "February 14, 2019"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2019/02/14/malt-raises-28-6-million-for-its-freelancer-platform/",
+          "quote": "with Idinvest Partners leading the round and existing investors ISAI and Serena also participating"
+        }
+      ]
+    },
+    {
+      "techeuId": "046ac6f2-8395-48c6-add1-2ad583b4aa47",
+      "stage": "series-c",
+      "month": "2021-05",
+      "amountEur": 80000000,
+      "amountOriginal": 80000000,
+      "currency": "EUR",
+      "postMoneyValuationEur": 400000000,
+      "investors": [
+        "Goldman Sachs Growth Equity",
+        "Eurazeo"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2021/05/31/malt-raises-97m-at-a-489m-valuation-for-its-freelance-marketplace-for-developers/",
+          "quote": "has picked up €80 million ($97 million at today’s rates)"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2021/05/31/malt-raises-97m-at-a-489m-valuation-for-its-freelance-marketplace-for-developers/",
+          "quote": "May 31, 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2021/05/31/malt-raises-97m-at-a-489m-valuation-for-its-freelance-marketplace-for-developers/",
+          "quote": "led by Goldman Sachs Growth Equity and Eurazeo"
+        }
+      ]
+    }
+  ]
+}

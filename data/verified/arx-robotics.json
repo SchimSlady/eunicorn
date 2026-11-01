@@ -1,0 +1,190 @@
+{
+  "id": "arx-robotics",
+  "name": "ARX Robotics",
+  "aliases": [
+    "ARX"
+  ],
+  "domain": "arx-robotics.com",
+  "country": "DE",
+  "city": "Munich",
+  "founded": 2022,
+  "sectors": [
+    "defense",
+    "robotics"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Marc Wietfeld",
+    "Maximilian Wied",
+    "Stefan Roebel"
+  ],
+  "difficulty": 4,
+  "techeuId": "2C848243-51BA-49B2-9181-5F2399600CE8",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://tech.eu/2025/07/29/arx-robotics-secures-eur11m-in-series-a-extension/",
+      "quote": "Munich-based ARX Robotics"
+    },
+    {
+      "field": "founded",
+      "url": "https://tech.eu/2025/07/29/arx-robotics-secures-eur11m-in-series-a-extension/",
+      "quote": "Founded in 2022 by former officers of the German Armed Forces"
+    },
+    {
+      "field": "founders",
+      "url": "https://tech.eu/2025/04/28/arx-robotics-raises-eur31m-series-a-to-advance-military-automation/",
+      "quote": "Founded by Marc Wietfeld (Co-Founder and CEO), Maximilian Wied (Co-Founder and CFO), and Stefan Roebel (Co-Founder and COO)"
+    },
+    {
+      "field": "sectors",
+      "url": "https://tech.eu/2025/07/29/arx-robotics-secures-eur11m-in-series-a-extension/",
+      "quote": "Europe’s leading provider of autonomous unmanned ground vehicles (UGVs)"
+    },
+    {
+      "field": "sectors",
+      "url": "https://tech.eu/2024/06/10/arx-robotics-bags-9m-to-develop-unmanned-military-vehicles/",
+      "quote": "a manufacturer of scalable robotic systems for mass deployment in both defence and commercial applications"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "pre-seed",
+      "month": "2023-09",
+      "amountEur": 1150000,
+      "amountOriginal": 1150000,
+      "currency": "EUR",
+      "investors": [
+        "Project A Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.startbase.de/news/arx-erhaelt-115-millionen-euro-risikokapital-fuer-autonome-bodenroboter/",
+          "quote": "ARX hat in einer Pre-Seed-Finanzierungsrunde 1,15 Millionen Euro von Project A Ventures erhalten"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.startbase.de/news/arx-erhaelt-115-millionen-euro-risikokapital-fuer-autonome-bodenroboter/",
+          "quote": "ARX hat in einer Pre-Seed-Finanzierungsrunde 1,15 Millionen Euro von Project A Ventures erhalten"
+        },
+        {
+          "field": "month",
+          "url": "https://www.startbase.de/news/arx-erhaelt-115-millionen-euro-risikokapital-fuer-autonome-bodenroboter/",
+          "quote": "Stuttgart, 19. September 2023"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.startbase.de/news/arx-erhaelt-115-millionen-euro-risikokapital-fuer-autonome-bodenroboter/",
+          "quote": "ARX hat in einer Pre-Seed-Finanzierungsrunde 1,15 Millionen Euro von Project A Ventures erhalten"
+        }
+      ]
+    },
+    {
+      "techeuId": "2849fdab-25c7-49ce-a089-48d8fec774df",
+      "stage": "seed",
+      "month": "2024-06",
+      "amountEur": 9000000,
+      "amountOriginal": 9000000,
+      "currency": "EUR",
+      "investors": [
+        "NATO Innovation Fund",
+        "Project A Ventures",
+        "Discovery Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2024/06/10/arx-robotics-bags-9m-to-develop-unmanned-military-vehicles/",
+          "quote": "has raised €9M in seed funding"
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2024/06/10/arx-robotics-bags-9m-to-develop-unmanned-military-vehicles/",
+          "quote": "has raised €9M in seed funding"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2024/06/10/arx-robotics-bags-9m-to-develop-unmanned-military-vehicles/",
+          "quote": "10 June 2024"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2024/06/10/arx-robotics-bags-9m-to-develop-unmanned-military-vehicles/",
+          "quote": "Funding was led by the NATO Innovation Fund and supported by Project A Ventures and Discovery Ventures."
+        }
+      ]
+    },
+    {
+      "techeuId": "aadd8d54-8902-49dc-b1cd-ba20065e99b1",
+      "stage": "series-a",
+      "month": "2025-04",
+      "amountEur": 31000000,
+      "amountOriginal": 31000000,
+      "currency": "EUR",
+      "investors": [
+        "HV Capital",
+        "Omnes Capital",
+        "NATO Innovation Fund",
+        "Project A Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2025/04/28/arx-robotics-raises-eur31m-series-a-to-advance-military-automation/",
+          "quote": "has raised €31 million Series A funding round"
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2025/04/28/arx-robotics-raises-eur31m-series-a-to-advance-military-automation/",
+          "quote": "has raised €31 million Series A funding round"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2025/04/28/arx-robotics-raises-eur31m-series-a-to-advance-military-automation/",
+          "quote": "28 April 2025"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2025/04/28/arx-robotics-raises-eur31m-series-a-to-advance-military-automation/",
+          "quote": "led by HV Capital with participation from Omnes Capital and significant support from existing investors NATO Innovation Fund and Project A"
+        }
+      ]
+    },
+    {
+      "techeuId": "b1350046-54ac-49a2-aa2d-db48b8a4a202",
+      "stage": "series-a",
+      "month": "2025-07",
+      "amountEur": 11000000,
+      "amountOriginal": 11000000,
+      "currency": "EUR",
+      "investors": [
+        "Speedinvest",
+        "HV Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2025/07/29/arx-robotics-secures-eur11m-in-series-a-extension/",
+          "quote": "has raised an additional €11 million as part of a Series A extension"
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2025/07/29/arx-robotics-secures-eur11m-in-series-a-extension/",
+          "quote": "has raised an additional €11 million as part of a Series A extension"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2025/07/29/arx-robotics-secures-eur11m-in-series-a-extension/",
+          "quote": "29 July 2025"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2025/07/29/arx-robotics-secures-eur11m-in-series-a-extension/",
+          "quote": "The round was led by Speedinvest , with additional backing from HV Capital ."
+        }
+      ]
+    }
+  ]
+}

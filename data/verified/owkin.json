@@ -1,0 +1,187 @@
+{
+  "id": "owkin",
+  "name": "Owkin",
+  "aliases": [],
+  "domain": "owkin.com",
+  "country": "FR",
+  "city": "Paris",
+  "founded": 2016,
+  "sectors": [
+    "biotech",
+    "ai"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Thomas Clozel",
+    "Gilles Wainrib"
+  ],
+  "difficulty": 3,
+  "techeuId": "78095B9D-E23D-4708-A935-737F86ABA5CC",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/Owkin",
+      "quote": "Owkin was founded in Paris in 2016"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Owkin",
+      "quote": "Owkin was founded in Paris in 2016"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Owkin",
+      "quote": "Founder Thomas Clozel, Gilles Wainrib Headquarters Paris"
+    },
+    {
+      "field": "sectors",
+      "url": "https://en.wikipedia.org/wiki/Owkin",
+      "quote": "Industry Biotechnology"
+    },
+    {
+      "field": "sectors",
+      "url": "https://en.wikipedia.org/wiki/Owkin",
+      "quote": "Agentic AI platform for biopharma, AI drug discovery, AI drug development"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "748284fd-2f74-4a91-e8b2-08d91092c887",
+      "stage": "series-a",
+      "month": "2018-01",
+      "amountEur": 8990601,
+      "amountOriginal": 11000000,
+      "currency": "USD",
+      "investors": [
+        "Otium Venture",
+        "Cathay Innovation",
+        "Plug and Play",
+        "NJF Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2018/01/18/owkin-funding/",
+          "quote": "has raised $11 million in funding led by Otium Venture"
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2018/01/18/owkin-funding/",
+          "quote": "also participated in the Series A round"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2018/01/18/owkin-funding/",
+          "quote": "18 January 2018"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2018/01/18/owkin-funding/",
+          "quote": "Cathay Innovation, Plug and Play, and NJF Capital also participated in the Series A round"
+        }
+      ]
+    },
+    {
+      "stage": "series-a",
+      "month": "2020-05",
+      "amountEur": 23184642,
+      "amountOriginal": 25000000,
+      "currency": "USD",
+      "investors": [
+        "Bpifrance",
+        "Cathay Innovation",
+        "MACSF"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2020/05/07/owkin-raises-25-million-as-it-builds-a-secure-network-for-healthcare-analysis-and-research/",
+          "quote": "has raised $25 million in fresh financing from investors"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2020/05/07/owkin-raises-25-million-as-it-builds-a-secure-network-for-healthcare-analysis-and-research/",
+          "quote": "through the extension of its Series A round"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2020/05/07/owkin-raises-25-million-as-it-builds-a-secure-network-for-healthcare-analysis-and-research/",
+          "quote": "May 7, 2020"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2020/05/07/owkin-raises-25-million-as-it-builds-a-secure-network-for-healthcare-analysis-and-research/",
+          "quote": "including Bpifrance Large Venture , Cathay Innovation and MACSF"
+        }
+      ]
+    },
+    {
+      "techeuId": "e143ea36-f73b-4399-e8b4-08d91092c887",
+      "stage": "series-a",
+      "month": "2020-06",
+      "amountEur": 16074299,
+      "amountOriginal": 18000000,
+      "currency": "USD",
+      "investors": [
+        "Mubadala Capital",
+        "Bpifrance"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2020/06/30/owkin-series-a-2/",
+          "quote": "has secured $18 million in funding from Mubadala Capital and Bpifrance"
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2020/06/30/owkin-series-a-2/",
+          "quote": "This Series A extension brings the startup"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2020/06/30/owkin-series-a-2/",
+          "quote": "30 June 2020"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2020/06/30/owkin-series-a-2/",
+          "quote": "has secured $18 million in funding from Mubadala Capital and Bpifrance"
+        }
+      ]
+    },
+    {
+      "techeuId": "8e8e59fd-c656-4451-b608-a993841e5311",
+      "stage": "series-b",
+      "month": "2021-11",
+      "amountEur": 158660203,
+      "amountOriginal": 180000000,
+      "currency": "USD",
+      "investors": [
+        "Sanofi"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.owkin.com/newsfeed/owkin-becomes-unicorn-with-180m-investment-from-sanofi-and-four-new-collaborative-projects",
+          "quote": "through a new $180 million investment from Sanofi"
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2021/11/18/pharmaceutical-giant-sanofi-invests-180-million-in-french-medical-research-platform-owkin/",
+          "quote": "Owkin has received a $180 million investment from multi-national pharmaceutical giant Sanofi"
+        },
+        {
+          "field": "month",
+          "url": "https://www.owkin.com/newsfeed/owkin-becomes-unicorn-with-180m-investment-from-sanofi-and-four-new-collaborative-projects",
+          "quote": "Press release November 18, 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.owkin.com/newsfeed/owkin-becomes-unicorn-with-180m-investment-from-sanofi-and-four-new-collaborative-projects",
+          "quote": "through a new $180 million investment from Sanofi"
+        }
+      ]
+    }
+  ]
+}

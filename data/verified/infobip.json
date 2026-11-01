@@ -1,0 +1,78 @@
+{
+  "id": "infobip",
+  "name": "Infobip",
+  "aliases": [],
+  "domain": "infobip.com",
+  "country": "HR",
+  "city": "Vodnjan",
+  "founded": 2006,
+  "sectors": [
+    "telecom",
+    "saas"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Silvio Kutić",
+    "Izabel Jelenić"
+  ],
+  "difficulty": 3,
+  "techeuId": "6F3ED658-0EF3-4A37-A006-F1FB76F35DD7",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/Infobip",
+      "quote": "Infobip was established in the Croatian city of Vodnjan in 2006"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Infobip",
+      "quote": "Infobip was established in the Croatian city of Vodnjan in 2006"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Infobip",
+      "quote": "led by its co-founders by CEO Silvio Kutić and Izabel Jelenić"
+    },
+    {
+      "field": "sectors",
+      "url": "https://en.wikipedia.org/wiki/Infobip",
+      "quote": "Infobip is a Croatian IT and telecommunications company founded in 2006."
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "8ae7aa57-e4f0-4fbd-ebcb-08d91092c887",
+      "stage": "series-a",
+      "month": "2020-07",
+      "amountEur": 170314230,
+      "amountOriginal": 200000000,
+      "currency": "USD",
+      "investors": [
+        "One Equity Partners"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.croatiaweek.com/infobip-and-one-equity-partners-ink-deal-on-200m-investment/",
+          "quote": "Infobip has thus raised over $200 million from the private equity firm"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.croatiaweek.com/infobip-and-one-equity-partners-ink-deal-on-200m-investment/",
+          "quote": "achieving a unicorn valuation with one of the largest European software Series A rounds in recent years."
+        },
+        {
+          "field": "month",
+          "url": "https://www.croatiaweek.com/infobip-and-one-equity-partners-ink-deal-on-200m-investment/",
+          "quote": "ZAGREB, July 30 (Hina)"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.croatiaweek.com/infobip-and-one-equity-partners-ink-deal-on-200m-investment/",
+          "quote": "has signed an agreement with One Equity Partners (OEP) on a major strategic investment"
+        }
+      ]
+    }
+  ]
+}

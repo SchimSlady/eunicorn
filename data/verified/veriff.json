@@ -1,0 +1,201 @@
+{
+  "id": "veriff",
+  "name": "Veriff",
+  "aliases": [],
+  "domain": "veriff.com",
+  "country": "EE",
+  "city": "Tallinn",
+  "founded": 2015,
+  "sectors": [
+    "cybersecurity"
+  ],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 1330140995,
+  "founders": [
+    "Kaarel Kotkas",
+    "Janer Gorohhov"
+  ],
+  "difficulty": 3,
+  "techeuId": "67CA2571-5E2A-4694-9E0F-6D1CF9F792B3",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/Veriff",
+      "quote": "Veriff is a global identity verification service company founded and headquartered in Tallinn"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Veriff",
+      "quote": "Kotkas founded Veriff in 2015 as a startup"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Veriff",
+      "quote": "Founders Kaarel Kotkas, Janer Gorohhov"
+    },
+    {
+      "field": "sectors",
+      "url": "https://en.wikipedia.org/wiki/Veriff",
+      "quote": "Veriff is a global identity verification service company"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://www.prnewswire.com/news-releases/veriff-raises-100m-series-c-at-1-5b-valuation-co-led-by-tiger-global-and-alkeon-301469002.html",
+      "quote": "This round brings Veriff's total funding to $200M and its valuation to $1.5B"
+    },
+    {
+      "field": "valuation",
+      "url": "https://www.prnewswire.com/news-releases/veriff-raises-100m-series-c-at-1-5b-valuation-co-led-by-tiger-global-and-alkeon-301469002.html",
+      "quote": "This round brings Veriff's total funding to $200M and its valuation to $1.5B"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "eec48bff-6020-4fb0-eb47-08d91092c887",
+      "stage": "series-a",
+      "month": "2018-06",
+      "amountEur": 6630500,
+      "amountOriginal": 7700000,
+      "currency": "USD",
+      "investors": [
+        "Mosaic Ventures",
+        "Taavet Hinrikus",
+        "Ashton Kutcher",
+        "Paul Buchheit",
+        "Elad Gil",
+        "SV Angel",
+        "ACE Ventures",
+        "Superangel"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2018/06/18/veriff/",
+          "quote": "has raised $7.7 million in Series A funding"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2018/06/18/veriff/",
+          "quote": "has raised $7.7 million in Series A funding"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2018/06/18/veriff/",
+          "quote": "June 18, 2018"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2018/06/18/veriff/",
+          "quote": "Leading the round is Mosaic Ventures, joining an impressive list of backers that include Taavet Hinrikus, Ashton Kutcher, Paul Buchheit, Elad Gil, SV Angel, ACE Ventures, and Superangel."
+        }
+      ]
+    },
+    {
+      "techeuId": "289a880e-ab97-49ba-eb48-08d91092c887",
+      "stage": "series-a",
+      "month": "2020-07",
+      "amountEur": 13733830,
+      "amountOriginal": 15500000,
+      "currency": "USD",
+      "investors": [
+        "Y Combinator",
+        "Mosaic Ventures",
+        "NordicNinja VC",
+        "Change Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2020/07/02/veriff-funding/",
+          "quote": "has raised $15.5 million to fuel global growth"
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2020/07/02/veriff-funding/",
+          "quote": "as the company prepares for an even larger Series B round in the future"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2020/07/02/veriff-funding/",
+          "quote": "02 July 2020"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2020/07/02/veriff-funding/",
+          "quote": "Investors include previous backers Y Combinator and Mosaic Ventures as well as new ones, such NordicNinja VC and Change Ventures."
+        }
+      ]
+    },
+    {
+      "stage": "series-b",
+      "month": "2021-04",
+      "amountEur": 57963710,
+      "amountOriginal": 69000000,
+      "currency": "USD",
+      "investors": [
+        "IVP",
+        "Accel"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.veriff.com/blog/veriff-secures-69m-in-series-b-funding",
+          "quote": "we have secured $69 million in Series B financing"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.veriff.com/blog/veriff-secures-69m-in-series-b-funding",
+          "quote": "we have secured $69 million in Series B financing"
+        },
+        {
+          "field": "month",
+          "url": "https://www.veriff.com/blog/veriff-secures-69m-in-series-b-funding",
+          "quote": "April 12, 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.veriff.com/blog/veriff-secures-69m-in-series-b-funding",
+          "quote": "in a round led by investment firms IVP and Accel"
+        }
+      ]
+    },
+    {
+      "techeuId": "4f6edb22-0b97-40d5-abe5-1d3519034330",
+      "stage": "series-c",
+      "month": "2022-01",
+      "amountEur": 88676066,
+      "amountOriginal": 100000000,
+      "currency": "USD",
+      "postMoneyValuationEur": 1330140995,
+      "investors": [
+        "Tiger Global",
+        "Alkeon Capital",
+        "IVP",
+        "Accel"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2022/01/26/identity-verification-provider-veriff-raises-100m-series-c-co-led-by-tiger-global-and-alkeon/",
+          "quote": "has raised a $100 million Series C round co-led by Tiger Global and Alkeon"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2022/01/26/identity-verification-provider-veriff-raises-100m-series-c-co-led-by-tiger-global-and-alkeon/",
+          "quote": "has raised a $100 million Series C round co-led by Tiger Global and Alkeon"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2022/01/26/identity-verification-provider-veriff-raises-100m-series-c-co-led-by-tiger-global-and-alkeon/",
+          "quote": "January 26, 2022"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2022/01/26/identity-verification-provider-veriff-raises-100m-series-c-co-led-by-tiger-global-and-alkeon/",
+          "quote": "They were joined by existing investors IVP and Accel"
+        }
+      ]
+    }
+  ]
+}
