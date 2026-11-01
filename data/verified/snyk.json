@@ -1,0 +1,225 @@
+{
+  "id": "snyk",
+  "name": "Snyk",
+  "aliases": [],
+  "domain": "snyk.io",
+  "country": "GB",
+  "city": "London",
+  "founded": 2015,
+  "sectors": [
+    "cybersecurity"
+  ],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 7180266937,
+  "founders": [
+    "Guy Podjarny",
+    "Danny Grander",
+    "Assaf Hefetz"
+  ],
+  "difficulty": 3,
+  "techeuId": "BEB79286-2557-4223-A91B-57F3F77252F9",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/Snyk",
+      "quote": "out of Tel Aviv and London"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Snyk",
+      "quote": "Snyk was founded in 2015 by Guy Podjarny"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Snyk",
+      "quote": "Guy Podjarny Danny Grander Assaf Hefetz"
+    },
+    {
+      "field": "sectors",
+      "url": "https://en.wikipedia.org/wiki/Snyk",
+      "quote": "Industry Computer security"
+    },
+    {
+      "field": "status",
+      "url": "https://en.wikipedia.org/wiki/Snyk",
+      "quote": "Type Private"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://tech.eu/2021/09/09/londons-developer-security-platform-snyk-raises-530-million/",
+      "quote": "with this round has a valuation of $8.5 billion"
+    },
+    {
+      "field": "valuation",
+      "url": "https://tech.eu/2021/09/09/londons-developer-security-platform-snyk-raises-530-million/",
+      "quote": "with this round has a valuation of $8.5 billion"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "1ecea565-7df3-4f35-fc39-08d91092c887",
+      "stage": "series-c",
+      "month": "2020-01",
+      "amountEur": 134952767,
+      "amountOriginal": 150000000,
+      "currency": "USD",
+      "investors": [],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://fintech.global/2021/03/11/snyk-reaches-4-7bn-valuation-after-new-300m-funding-round/",
+          "quote": "after its $150m funding round in January 2020"
+        },
+        {
+          "field": "month",
+          "url": "https://fintech.global/2021/03/11/snyk-reaches-4-7bn-valuation-after-new-300m-funding-round/",
+          "quote": "after its $150m funding round in January 2020"
+        }
+      ]
+    },
+    {
+      "techeuId": "4f3b946b-a04d-4f4f-fc3a-08d91092c887",
+      "stage": "series-d",
+      "month": "2020-09",
+      "amountEur": 169880234,
+      "amountOriginal": 200000000,
+      "currency": "USD",
+      "investors": [
+        "Addition",
+        "Accel",
+        "Amity",
+        "Boldstart",
+        "Canaan",
+        "Coatue",
+        "GV",
+        "Salesforce Ventures",
+        "Stripes",
+        "Tiger Global",
+        "Trend Forward"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2020/09/09/snyk-bags-another-200m-at-2-6b-valuation-9-months-after-last-raise/",
+          "quote": "it announced another $200 million and its valuation has expanded to $2.6 billion"
+        },
+        {
+          "field": "stage",
+          "url": "https://salestechstar.com/pipeline-analytics/snyk-closes-200m-series-d-as-valuation-surpasses-2-6b/",
+          "quote": "Snyk Closes $200M Series D"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2020/09/09/snyk-bags-another-200m-at-2-6b-valuation-9-months-after-last-raise/",
+          "quote": "September 9, 2020"
+        },
+        {
+          "field": "investors",
+          "url": "https://salestechstar.com/pipeline-analytics/snyk-closes-200m-series-d-as-valuation-surpasses-2-6b/",
+          "quote": "from leading investors including Accel, Amity, Boldstart, Canaan, Coatue, GV, Salesforce Ventures, Stripes, Tiger Global, Trend Forward, and now Addition with this funding round"
+        }
+      ]
+    },
+    {
+      "techeuId": "3aed9392-b018-4ffa-fc3b-08d91092c887",
+      "stage": "series-e",
+      "month": "2021-03",
+      "amountEur": 252270434,
+      "amountOriginal": 300000000,
+      "currency": "USD",
+      "postMoneyValuationEur": 3952236798,
+      "investors": [
+        "Accel",
+        "Tiger Global",
+        "Addition",
+        "Boldstart Ventures",
+        "Canaan Partners",
+        "Coatue",
+        "GV",
+        "Salesforce Ventures",
+        "Stripes",
+        "BlackRock"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://siliconcanals.com/snyk-raises-300m/",
+          "quote": "has closed a Series E round of funding totalling $300M"
+        },
+        {
+          "field": "stage",
+          "url": "https://siliconcanals.com/snyk-raises-300m/",
+          "quote": "has closed a Series E round of funding totalling $300M"
+        },
+        {
+          "field": "month",
+          "url": "https://siliconcanals.com/snyk-raises-300m/",
+          "quote": "Mar 11, 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://siliconcanals.com/snyk-raises-300m/",
+          "quote": "co-led by Accel and Tiger Global, with participation from existing investors Addition, Boldstart Ventures, Canaan Partners, Coatue, GV (formerly Google Ventures), Salesforce Ventures, Stripes, and funds managed by BlackRock"
+        }
+      ]
+    },
+    {
+      "techeuId": "9dc590e9-b070-4c52-8dfd-a9958d3cc0ed",
+      "stage": "series-f+",
+      "month": "2021-09",
+      "amountEur": 447710762,
+      "amountOriginal": 530000000,
+      "currency": "USD",
+      "postMoneyValuationEur": 7180266937,
+      "investors": [
+        "Sands Capital",
+        "Tiger Global",
+        "Baillie Gifford",
+        "Koch Strategic Platforms",
+        "Lone Pine Capital",
+        "T. Rowe Price",
+        "Whale Rock Capital Management",
+        "Accel",
+        "Addition",
+        "Alkeon",
+        "Atlassian Ventures",
+        "BlackRock",
+        "Boldstart Ventures",
+        "Canaan Partners",
+        "Coatue",
+        "Franklin Templeton",
+        "Geodesic Capital",
+        "Salesforce Ventures",
+        "Temasek"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2021/09/09/londons-developer-security-platform-snyk-raises-530-million/",
+          "quote": "Snyk has raised a mammoth $530 million in a Series F investment round co-led by Sands Capital and Tiger Global"
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2021/09/09/londons-developer-security-platform-snyk-raises-530-million/",
+          "quote": "Snyk has raised a mammoth $530 million in a Series F investment round"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2021/09/09/londons-developer-security-platform-snyk-raises-530-million/",
+          "quote": "09 September 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2021/09/09/londons-developer-security-platform-snyk-raises-530-million/",
+          "quote": "saw participation from new investors Baillie Gifford , Koch Strategic Platforms , Lone Pine Capital , T. Rowe Price , and Whale Rock Capital Management"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2021/09/09/londons-developer-security-platform-snyk-raises-530-million/",
+          "quote": "Existing investors Accel , Addition , Alkeon , Atlassian Ventures , funds managed by BlackRock , Boldstart Ventures , Canaan Partners , Coatue , Franklin Templeton , Geodesic Capital , Salesforce Ventures , and Temasek"
+        }
+      ]
+    }
+  ]
+}

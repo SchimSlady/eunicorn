@@ -46,17 +46,17 @@
     {
       "field": "sectors",
       "url": "https://en.wikipedia.org/wiki/Checkout.com",
-      "quote": "Checkout.com (legally incorporated as Checkout Ltd.) is a financial technology company"
+      "quote": "is a financial technology company headquartered in"
     },
     {
       "field": "status",
       "url": "https://en.wikipedia.org/wiki/Checkout.com",
-      "quote": "Type: Private"
+      "quote": "Type Private"
     },
     {
       "field": "unicorn",
       "url": "https://tech.eu/2022/01/12/checkout-com-brings-in-1-billion-now-at-40-billion-valuation/",
-      "quote": "Now valued at $40 billion."
+      "quote": "Now valued at $40 billion"
     },
     {
       "field": "valuation",
@@ -128,8 +128,8 @@
         },
         {
           "field": "month",
-          "url": "https://ipsnews.net/business/2020/06/22/checkout-com-the-uk-payments-startup-raises-another-150m-now-valued-at-5-5b/?amp=1",
-          "quote": "Checkout.com, the UK payments startup, raises another $150M, now valued at $5.5B (URL dated 2020/06/22)"
+          "url": "https://fintech.global/2021/01/12/move-over-klarna-checkout-com-just-became-europes-most-valuable-fintech/",
+          "quote": "a $150m Series B funding round in June 2020 at a $5.5bn valuation"
         },
         {
           "field": "stage",
@@ -144,7 +144,7 @@
         {
           "field": "investors",
           "url": "https://ipsnews.net/business/2020/06/22/checkout-com-the-uk-payments-startup-raises-another-150m-now-valued-at-5-5b/?amp=1",
-          "quote": "The funding is being led by Coatue, and others in this round include Insight Partners, DST Global…"
+          "quote": "The funding is being led by Coatue, and others in this round include Insight Partners, DST Global, Blossom Capital,"
         }
       ]
     },
@@ -170,22 +170,22 @@
         {
           "field": "amount",
           "url": "https://fintech.global/2021/01/12/move-over-klarna-checkout-com-just-became-europes-most-valuable-fintech/",
-          "quote": "Checkout.com has closed a $450m Series C funding round at a $15bn valuation."
+          "quote": "Checkout.com has closed a $450m Series C funding round at a $15bn valuation"
         },
         {
           "field": "month",
           "url": "https://fintech.global/2021/01/12/move-over-klarna-checkout-com-just-became-europes-most-valuable-fintech/",
-          "quote": "Move over Klarna, Checkout.com just became Europe's most valuable FinTech (January 12, 2021)"
+          "quote": "January 12, 2021 Payments solutions provider Checkout.com has closed a $450m Series C"
         },
         {
           "field": "stage",
           "url": "https://fintech.global/2021/01/12/move-over-klarna-checkout-com-just-became-europes-most-valuable-fintech/",
-          "quote": "Checkout.com has closed a $450m Series C funding round at a $15bn valuation."
+          "quote": "Checkout.com has closed a $450m Series C funding round at a $15bn valuation"
         },
         {
           "field": "valuation",
           "url": "https://fintech.global/2021/01/12/move-over-klarna-checkout-com-just-became-europes-most-valuable-fintech/",
-          "quote": "Checkout.com has closed a $450m Series C funding round at a $15bn valuation."
+          "quote": "Checkout.com has closed a $450m Series C funding round at a $15bn valuation"
         },
         {
           "field": "investors",
@@ -220,7 +220,7 @@
         {
           "field": "month",
           "url": "https://tech.eu/2022/01/12/checkout-com-brings-in-1-billion-now-at-40-billion-valuation/",
-          "quote": "Checkout.com brings in $1 billion, now at $40 billion valuation (12 January 2022)"
+          "quote": "Dan Taylor 12 January 2022"
         },
         {
           "field": "stage",
@@ -230,12 +230,12 @@
         {
           "field": "valuation",
           "url": "https://tech.eu/2022/01/12/checkout-com-brings-in-1-billion-now-at-40-billion-valuation/",
-          "quote": "Now valued at $40 billion."
+          "quote": "Now valued at $40 billion"
         },
         {
           "field": "investors",
           "url": "https://tech.eu/2022/01/12/checkout-com-brings-in-1-billion-now-at-40-billion-valuation/",
-          "quote": "Altimeter, Dragoneer, Franklin Templeton, GIC, Insight Partners, the Qatar Investment Authority, Tiger Global,"
+          "quote": "Altimeter , Dragoneer , Franklin Templeton , GIC , Insight Partners , the Qatar Investment Authority , Tiger Global"
         }
       ]
     }

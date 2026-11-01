@@ -31,8 +31,8 @@
     },
     {
       "field": "city",
-      "url": "https://www.techzine.eu/news/devops/137429/swedish-ai-startup-lovable-triples-valuation-to-6-6-billion",
-      "quote": "The Stockholm-based startup was valued at $1.8 billion in July after a $200 million Series A round."
+      "url": "https://techcrunch.com/2025/12/18/vibe-coding-startup-lovable-raises-330m-at-a-6-6b-valuation/",
+      "quote": "Stockholm-based Lovable on Thursday said it had raised $330 million in a Series B funding round"
     },
     {
       "field": "founded",
@@ -52,7 +52,7 @@
     {
       "field": "unicorn",
       "url": "https://lovable.dev/blog/200m-series-a-fundraise",
-      "quote": "one of Europes' largest series A investments ever, $200M at a $1.8B valuation from Accel."
+      "quote": "one of Europes' largest series A investments ever, $200M at a $1.8B valuation from Accel"
     },
     {
       "field": "valuation",
@@ -71,7 +71,8 @@
     },
     {
       "field": "logo",
-      "url": "https://commons.wikimedia.org/wiki/File:Lovable_Logo_%2B_Wordmark_Black.png"
+      "url": "https://commons.wikimedia.org/wiki/File:Lovable_Logo_%2B_Wordmark_Black.png",
+      "quote": "File:Lovable Logo + Wordmark Black.png - Wikimedia Commons"
     }
   ],
   "rounds": [
@@ -169,7 +170,7 @@
         {
           "field": "amount",
           "url": "https://lovable.dev/blog/200m-series-a-fundraise",
-          "quote": "one of Europes' largest series A investments ever, $200M at a $1.8B valuation from Accel."
+          "quote": "one of Europes' largest series A investments ever, $200M at a $1.8B valuation from Accel"
         },
         {
           "field": "month",
@@ -179,7 +180,7 @@
         {
           "field": "stage",
           "url": "https://lovable.dev/blog/200m-series-a-fundraise",
-          "quote": "one of Europes' largest series A investments ever, $200M at a $1.8B valuation from Accel."
+          "quote": "one of Europes' largest series A investments ever, $200M at a $1.8B valuation from Accel"
         },
         {
           "field": "investors",
@@ -189,7 +190,7 @@
         {
           "field": "valuation",
           "url": "https://lovable.dev/blog/200m-series-a-fundraise",
-          "quote": "one of Europes' largest series A investments ever, $200M at a $1.8B valuation from Accel."
+          "quote": "one of Europes' largest series A investments ever, $200M at a $1.8B valuation from Accel"
         }
       ]
     },
@@ -211,28 +212,28 @@
       "sources": [
         {
           "field": "amount",
-          "url": "https://www.techzine.eu/news/devops/137429/swedish-ai-startup-lovable-triples-valuation-to-6-6-billion",
-          "quote": "Lovable announced Thursday that it has raised $330 million in a Series B funding round led by CapitalG and Menlo Ventures."
+          "url": "https://techcrunch.com/2025/12/18/vibe-coding-startup-lovable-raises-330m-at-a-6-6b-valuation/",
+          "quote": "Stockholm-based Lovable on Thursday said it had raised $330 million in a Series B funding round that was led by CapitalG and Menlo Ventures, at a $6.6 billion valuation"
         },
         {
           "field": "month",
-          "url": "https://www.techzine.eu/news/devops/137429/swedish-ai-startup-lovable-triples-valuation-to-6-6-billion",
-          "quote": "Lovable announced Thursday that it has raised $330 million in a Series B funding round led by CapitalG and Menlo Ventures."
+          "url": "https://techcrunch.com/2025/12/18/vibe-coding-startup-lovable-raises-330m-at-a-6-6b-valuation/",
+          "quote": "6:26 AM PST · December 18, 2025"
         },
         {
           "field": "stage",
-          "url": "https://www.techzine.eu/news/devops/137429/swedish-ai-startup-lovable-triples-valuation-to-6-6-billion",
-          "quote": "Lovable announced Thursday that it has raised $330 million in a Series B funding round led by CapitalG and Menlo Ventures."
+          "url": "https://techcrunch.com/2025/12/18/vibe-coding-startup-lovable-raises-330m-at-a-6-6b-valuation/",
+          "quote": "Stockholm-based Lovable on Thursday said it had raised $330 million in a Series B funding round that was led by CapitalG and Menlo Ventures, at a $6.6 billion valuation"
         },
         {
           "field": "investors",
-          "url": "https://www.techzine.eu/news/devops/137429/swedish-ai-startup-lovable-triples-valuation-to-6-6-billion",
-          "quote": "Lovable announced Thursday that it has raised $330 million in a Series B funding round led by CapitalG and Menlo Ventures."
+          "url": "https://techcrunch.com/2025/12/18/vibe-coding-startup-lovable-raises-330m-at-a-6-6b-valuation/",
+          "quote": "Khosla Ventures, Salesforce Ventures, and Databricks Ventures also participated"
         },
         {
           "field": "valuation",
-          "url": "https://www.techzine.eu/news/devops/137429/swedish-ai-startup-lovable-triples-valuation-to-6-6-billion",
-          "quote": "The AI startup has now raised $330 million at a valuation of $6.6 billion."
+          "url": "https://techcrunch.com/2025/12/18/vibe-coding-startup-lovable-raises-330m-at-a-6-6b-valuation/",
+          "quote": "Stockholm-based Lovable on Thursday said it had raised $330 million in a Series B funding round that was led by CapitalG and Menlo Ventures, at a $6.6 billion valuation"
         }
       ]
     },
@@ -269,12 +270,12 @@
         {
           "field": "stage",
           "url": "https://tech.eu/2026/08/12/lovables-valuation-doubles-to-13bn-as-raises-400m/",
-          "quote": "has raised a Series C round which was co-led by Silicon Valley investor Menlo Ventures and the Scaleup Europe Fund."
+          "quote": "has raised a Series C round which was co-led by Silicon Valley investor Menlo Ventures and the Scaleup Europe Fund"
         },
         {
           "field": "investors",
           "url": "https://tech.eu/2026/08/12/lovables-valuation-doubles-to-13bn-as-raises-400m/",
-          "quote": "Other investors in the round include Europe's Balderton Capital and Carmignac."
+          "quote": "Other investors in the round include Europe's Balderton Capital and Carmignac"
         },
         {
           "field": "valuation",

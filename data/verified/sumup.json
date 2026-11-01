@@ -1,0 +1,135 @@
+{
+  "id": "sumup",
+  "name": "SumUp",
+  "aliases": [],
+  "domain": "sumup.com",
+  "country": "DE",
+  "city": "Berlin",
+  "founded": 2012,
+  "sectors": [
+    "fintech"
+  ],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 8000000000,
+  "founders": [
+    "Daniel Klein",
+    "Marc-Alexander Christ"
+  ],
+  "difficulty": 2,
+  "techeuId": "61530FFB-8465-4A94-BDF7-4E83F90CBBCE",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://techcrunch.com/2015/06/10/sumup-lowdown/",
+      "quote": "a startup originally founded in 2012 in Berlin"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/SumUp",
+      "quote": "the company was founded in 2012."
+    },
+    {
+      "field": "founders",
+      "url": "https://techcrunch.com/2012/08/23/make-way-for-another-european-square-sumup-launches-with-20m-in-backing/",
+      "quote": "founders, which include Daniel Klein"
+    },
+    {
+      "field": "founders",
+      "url": "https://techcrunch.com/2022/06/23/sumup-raises-624m-at-8-5b-valuation-with-its-payments-and-business-tech-now-used-by-4m-smbs/",
+      "quote": "Marc-Alexander Christ, SumUp co-founder and CFO"
+    },
+    {
+      "field": "sectors",
+      "url": "https://techcrunch.com/2022/06/23/sumup-raises-624m-at-8-5b-valuation-with-its-payments-and-business-tech-now-used-by-4m-smbs/",
+      "quote": "one of the army of fintechs that made names for themselves with dongles"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://techcrunch.com/2022/06/23/sumup-raises-624m-at-8-5b-valuation-with-its-payments-and-business-tech-now-used-by-4m-smbs/",
+      "quote": "values SumUp at €8 billion ($8.5 billion)"
+    },
+    {
+      "field": "valuation",
+      "url": "https://techcrunch.com/2022/06/23/sumup-raises-624m-at-8-5b-valuation-with-its-payments-and-business-tech-now-used-by-4m-smbs/",
+      "quote": "values SumUp at €8 billion ($8.5 billion)"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-a",
+      "month": "2012-08",
+      "amountEur": 15933716,
+      "amountOriginal": 20000000,
+      "currency": "USD",
+      "investors": [
+        "b-to-v Partners",
+        "Shortcut Ventures",
+        "Tengelmann Ventures",
+        "Klaus Hommels"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2012/08/23/make-way-for-another-european-square-sumup-launches-with-20m-in-backing/",
+          "quote": "$20 million Series A investment comes from b-to-v Partners, Shortcut Ventures, Tengelmann Ventures and Klaus Hommels"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2012/08/23/make-way-for-another-european-square-sumup-launches-with-20m-in-backing/",
+          "quote": "backed by an eight-figure Series A round"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2012/08/23/make-way-for-another-european-square-sumup-launches-with-20m-in-backing/",
+          "quote": "August 23, 2012"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2012/08/23/make-way-for-another-european-square-sumup-launches-with-20m-in-backing/",
+          "quote": "$20 million Series A investment comes from b-to-v Partners, Shortcut Ventures, Tengelmann Ventures and Klaus Hommels"
+        }
+      ]
+    },
+    {
+      "techeuId": "1899251b-8c14-43c2-8ffd-c79ad09796b8",
+      "stage": "series-f+",
+      "month": "2022-06",
+      "amountEur": 295000000,
+      "amountOriginal": 295000000,
+      "currency": "EUR",
+      "postMoneyValuationEur": 8000000000,
+      "investors": [
+        "Bain Capital Tech Opportunities",
+        "BlackRock",
+        "btov Partners",
+        "Centerbridge",
+        "Crestline",
+        "Fin Capital",
+        "Sentinel Dome Partners"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2022/06/23/sumup-raises-624m-at-8-5b-valuation-with-its-payments-and-business-tech-now-used-by-4m-smbs/",
+          "quote": "closed in on a major round of funding of €590 million ($624 million)"
+        },
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2022/06/23/sumup-raises-624m-at-8-5b-valuation-with-its-payments-and-business-tech-now-used-by-4m-smbs/",
+          "quote": "is coming in the form of 50% equity and 50% debt"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2022/06/23/sumup-raises-624m-at-8-5b-valuation-with-its-payments-and-business-tech-now-used-by-4m-smbs/",
+          "quote": "June 23, 2022"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2022/06/23/sumup-raises-624m-at-8-5b-valuation-with-its-payments-and-business-tech-now-used-by-4m-smbs/",
+          "quote": "led by Bain Capital Tech Opportunities, with participation also from funds managed by BlackRock, btov Partners, Centerbridge, Crestline, Fin Capital, Sentinel Dome Partners and others"
+        }
+      ]
+    }
+  ]
+}

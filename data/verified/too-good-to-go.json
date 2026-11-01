@@ -1,0 +1,121 @@
+{
+  "id": "too-good-to-go",
+  "name": "Too Good To Go",
+  "aliases": [
+    "TGTG"
+  ],
+  "domain": "toogoodtogo.com",
+  "country": "DK",
+  "city": "Copenhagen",
+  "founded": 2015,
+  "sectors": [
+    "consumer",
+    "climate"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Thomas Bjørn Momsen",
+    "Klaus Bagge Pedersen",
+    "Stian Michael Hånes Olesen",
+    "Adam Sigbrand",
+    "Brian Christensen"
+  ],
+  "difficulty": 1,
+  "techeuId": "EB2A0D61-6F60-4FF0-A02F-BCA2FC29B78C",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/Too_Good_To_Go",
+      "quote": "Headquarters Copenhagen , Denmark"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Too_Good_To_Go",
+      "quote": "The company was created in 2015 in Denmark by Thomas Bjørn Momsen"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Too_Good_To_Go",
+      "quote": "Thomas Bjørn Momsen, Klaus Bagge Pedersen, Stian Michael Hånes Olesen, Adam Sigbrand and Brian Christensen"
+    },
+    {
+      "field": "sectors",
+      "url": "https://techcrunch.com/2021/01/07/too-good-to-go-raises-31-million-to-fight-food-waste",
+      "quote": "the startup that lets you buy food right before it goes to waste"
+    },
+    {
+      "field": "sectors",
+      "url": "https://en.wikipedia.org/wiki/Too_Good_To_Go",
+      "quote": "the company claims this reduces the waste of food that would otherwise be discarded"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "seed",
+      "month": "2019-02",
+      "amountEur": 6000000,
+      "amountOriginal": 6000000,
+      "currency": "EUR",
+      "investors": [
+        "Preben Damgaard",
+        "Mike Lee",
+        "Jesper Lindhardt"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://cityam.com/?p=7607",
+          "quote": "has grabbed €6m (£5.3m) from some of its existing investors"
+        },
+        {
+          "field": "month",
+          "url": "https://cityam.com/?p=7607",
+          "quote": "Tuesday 05 February 2019"
+        },
+        {
+          "field": "investors",
+          "url": "https://siliconcanals.com/with-the-latest-e6m-funding-this-copenhagen-based-tech-startup-is-on-a-mission-to-eliminate-food-waste-globally/",
+          "quote": "including Preben Damgaard, co-founder of Navision"
+        },
+        {
+          "field": "investors",
+          "url": "https://siliconcanals.com/with-the-latest-e6m-funding-this-copenhagen-based-tech-startup-is-on-a-mission-to-eliminate-food-waste-globally/",
+          "quote": "Mike Lee, founder and former CEO of MyFitnessPal"
+        },
+        {
+          "field": "investors",
+          "url": "https://cityam.com/?p=7607",
+          "quote": "former Trustpilot executive Jesper Lindhardt"
+        }
+      ]
+    },
+    {
+      "stage": "series-a",
+      "month": "2021-01",
+      "amountEur": 25333985,
+      "amountOriginal": 31100000,
+      "currency": "USD",
+      "investors": [
+        "Blisce"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2021/01/07/too-good-to-go-raises-31-million-to-fight-food-waste",
+          "quote": "is raising a $31.1 million round"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2021/01/07/too-good-to-go-raises-31-million-to-fight-food-waste",
+          "quote": "January 7, 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2021/01/07/too-good-to-go-raises-31-million-to-fight-food-waste",
+          "quote": "blisce/ is leading the round and investing $15.4 million"
+        }
+      ]
+    }
+  ]
+}

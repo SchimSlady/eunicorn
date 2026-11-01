@@ -3,8 +3,8 @@
   "name": "Bending Spoons",
   "aliases": [],
   "domain": "bendingspoons.com",
-  "country": "IT",
-  "city": "Milan",
+  "country": "DK",
+  "city": "Copenhagen",
   "founded": 2013,
   "sectors": [
     "consumer",
@@ -26,11 +26,6 @@
   "wikidataId": "Q96314827",
   "sources": [
     {
-      "field": "city",
-      "url": "https://pulse2.com/bending-spoons-launches-ipo-with-shares-priced-at-26-to-28-range/",
-      "quote": "Milan-based technology company"
-    },
-    {
       "field": "founded",
       "url": "https://en.wikipedia.org/wiki/Bending_Spoons",
       "quote": "founded in 2013"
@@ -38,7 +33,7 @@
     {
       "field": "founders",
       "url": "https://en.wikipedia.org/wiki/Bending_Spoons",
-      "quote": "Luca Ferrari, Francesco Patarnello, Matteo Danieli, Luca Querella, and Tomasz Greber"
+      "quote": "Luca Ferrari Francesco Patarnello Matteo Danieli Luca Querella Tomasz Greber"
     },
     {
       "field": "sectors",
@@ -48,7 +43,7 @@
     {
       "field": "status",
       "url": "https://www.iposcoop.com/?p=38749",
-      "quote": "Bending Spoons of Milan Prices IPO at $29"
+      "quote": "priced its IPO at $29.00"
     },
     {
       "field": "status",
@@ -72,7 +67,13 @@
     },
     {
       "field": "logo",
-      "url": "https://commons.wikimedia.org/wiki/File:Bending_Spoons_Logo_Icon.png"
+      "url": "https://commons.wikimedia.org/wiki/File:Bending_Spoons_Logo_Icon.png",
+      "quote": "File:Bending Spoons Logo Icon.png - Wikimedia Commons"
+    },
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/Bending_Spoons",
+      "quote": "which became the seed capital for Bending Spoons in June 2013, also founded in Copenhagen"
     }
   ],
   "rounds": [
@@ -99,8 +100,8 @@
         },
         {
           "field": "stage",
-          "url": "https://business.mammothtimes.com/mammothtimes/article/bizwire-2024-2-15-bending-spoons-closes-a-new-equity-financing-round-raising-155-million-at-a-255-billion-post-money-valuation",
-          "quote": "Bending Spoons Closes a New Equity Financing Round, Raising $155 Million at a $2.55 Billion Post-Money Valuation"
+          "url": "https://pulse2.com/bending-spoons-155-million-raised-at-2-55-billion-post-money",
+          "quote": "announced a new equity financing round"
         },
         {
           "field": "month",
@@ -110,7 +111,7 @@
         {
           "field": "investors",
           "url": "https://pulse2.com/bending-spoons-155-million-raised-at-2-55-billion-post-money",
-          "quote": "Durable Capital Partners LP is new to the round. Existing investors include Baillie Gifford, Cox Enterprises, NB Renaissance, NUO Capital, and StarTIP."
+          "quote": "Durable Capital Partners LP joins existing investors Baillie Gifford, Cox Enterprises, NB Renaissance, NUO Capital, and StarTIP"
         },
         {
           "field": "valuation",
@@ -130,9 +131,7 @@
         "Baillie Gifford",
         "Cox Enterprises",
         "Durable Capital Partners",
-        "Fidelity Management & Research Company",
-        "Foxhaven Asset Management",
-        "Radcliff"
+        "Fidelity"
       ],
       "sources": [
         {
@@ -153,7 +152,7 @@
         {
           "field": "investors",
           "url": "https://tech.eu/2025/10/30/bending-spoons-raises-710m-one-day-after-buying-aol/",
-          "quote": "T Rowe Price led the round. Baillie Gifford, Cox Enterprises, Durable Capital Partners, and Fidelity also participated"
+          "quote": "The equity round was led by T Rowe Price with participation from Baillie Gifford, Cox Enterprises, Durable Capital Partners, Fidelity and others."
         }
       ]
     }

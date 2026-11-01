@@ -1,0 +1,275 @@
+{
+  "id": "neo4j",
+  "name": "Neo4j",
+  "aliases": [
+    "Neo Technology"
+  ],
+  "domain": "neo4j.com",
+  "country": "SE",
+  "city": "Malmö",
+  "founded": 2007,
+  "sectors": [
+    "saas"
+  ],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 1675462847,
+  "founders": [
+    "Emil Eifrem",
+    "Johan Svensson",
+    "Peter Neubauer"
+  ],
+  "difficulty": 3,
+  "techeuId": "7DED14C6-03C8-4C2B-94D6-808491D6CA11",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.stacksync.com/blog/the-database-that-toppled-a-government-the-origin-story-of-neo4j",
+      "quote": "In 2007, they formally incorporated Neo Technology in Malmö, Sweden"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Neo4j",
+      "quote": "The company was founded in 2007 in Sweden"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Neo4j",
+      "quote": "as an open source project by Emil Eifrem, Johan Svensson, and Peter Neubauer"
+    },
+    {
+      "field": "sectors",
+      "url": "https://techcrunch.com/2021/06/17/neo4j-series-f/",
+      "quote": "Neo4j , which offers a graph-centric database and related products"
+    },
+    {
+      "field": "status",
+      "url": "https://techcrunch.com/2024/11/19/database-startup-neo4j-embraces-ai-to-supercharge-growth/",
+      "quote": "intends to go public eventually"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://techcrunch.com/2021/06/17/neo4j-series-f/",
+      "quote": "raised $325 million at a more than $2 billion valuation in a Series F deal led by Eurazeo"
+    },
+    {
+      "field": "valuation",
+      "url": "https://techcrunch.com/2021/06/17/neo4j-series-f/",
+      "quote": "raised $325 million at a more than $2 billion valuation in a Series F deal led by Eurazeo"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-a",
+      "month": "2011-09",
+      "amountEur": 7731583,
+      "amountOriginal": 10600000,
+      "currency": "USD",
+      "investors": [
+        "Fidelity Growth Partners Europe"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://en.wikipedia.org/wiki/Neo4j",
+          "quote": "Neo4j raised $10.6 million in Series A Funding led by Fidelity Growth Partners Europe in 2011."
+        },
+        {
+          "field": "stage",
+          "url": "https://en.wikipedia.org/wiki/Neo4j",
+          "quote": "Neo4j raised $10.6 million in Series A Funding led by Fidelity Growth Partners Europe in 2011."
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2011/09/20/nosql-database-company-neo-technology-raises-10-6-million/",
+          "quote": "\"datePublished\":\"2011-09-21T05:00:11+00:00\""
+        },
+        {
+          "field": "investors",
+          "url": "https://en.wikipedia.org/wiki/Neo4j",
+          "quote": "Neo4j raised $10.6 million in Series A Funding led by Fidelity Growth Partners Europe in 2011."
+        }
+      ]
+    },
+    {
+      "stage": "series-b",
+      "month": "2012-11",
+      "amountEur": 8560311,
+      "amountOriginal": 11000000,
+      "currency": "USD",
+      "investors": [
+        "Sunstone Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://en.wikipedia.org/wiki/Neo4j",
+          "quote": "In November 2012, the company raised $11 million in Series B Funding led by Sunstone Capital."
+        },
+        {
+          "field": "stage",
+          "url": "https://en.wikipedia.org/wiki/Neo4j",
+          "quote": "In November 2012, the company raised $11 million in Series B Funding led by Sunstone Capital."
+        },
+        {
+          "field": "month",
+          "url": "https://en.wikipedia.org/wiki/Neo4j",
+          "quote": "In November 2012, the company raised $11 million in Series B Funding led by Sunstone Capital."
+        },
+        {
+          "field": "investors",
+          "url": "https://en.wikipedia.org/wiki/Neo4j",
+          "quote": "In November 2012, the company raised $11 million in Series B Funding led by Sunstone Capital."
+        }
+      ]
+    },
+    {
+      "stage": "series-c",
+      "month": "2015-01",
+      "amountEur": 17082337,
+      "amountOriginal": 20000000,
+      "currency": "USD",
+      "investors": [
+        "Creandum",
+        "Dawn Capital",
+        "Fidelity Growth Partners Europe",
+        "Sunstone Capital",
+        "Conor Venture Partners"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://en.wikipedia.org/wiki/Neo4j",
+          "quote": "In January 2015, Neo4j secured $20 million in Series C Funding led by Creandum and Dawn Capital."
+        },
+        {
+          "field": "stage",
+          "url": "https://en.wikipedia.org/wiki/Neo4j",
+          "quote": "In January 2015, Neo4j secured $20 million in Series C Funding led by Creandum and Dawn Capital."
+        },
+        {
+          "field": "month",
+          "url": "https://en.wikipedia.org/wiki/Neo4j",
+          "quote": "In January 2015, Neo4j secured $20 million in Series C Funding led by Creandum and Dawn Capital."
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2015/01/15/neo-technology-bags-20m-as-graph-databases-gets-hot/",
+          "quote": "Creandum led the round joined by Dawn Capital and cu rrent investors Fidelity Growth Partners Europe, Sunstone Capital and Conor Venture Partners."
+        }
+      ]
+    },
+    {
+      "stage": "series-d",
+      "month": "2016-11",
+      "amountEur": 33042680,
+      "amountOriginal": 36000000,
+      "currency": "USD",
+      "investors": [
+        "Greenbridge Partners"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://en.wikipedia.org/wiki/Neo4j",
+          "quote": "In November 2016, Neo4j secured $36 million in Series D Funding led by Greenbridge Partners Ltd."
+        },
+        {
+          "field": "stage",
+          "url": "https://en.wikipedia.org/wiki/Neo4j",
+          "quote": "In November 2016, Neo4j secured $36 million in Series D Funding led by Greenbridge Partners Ltd."
+        },
+        {
+          "field": "month",
+          "url": "https://en.wikipedia.org/wiki/Neo4j",
+          "quote": "In November 2016, Neo4j secured $36 million in Series D Funding led by Greenbridge Partners Ltd."
+        },
+        {
+          "field": "investors",
+          "url": "http://siliconangle.com/blog/2016/11/10/neo-technology-closes-36-million-in-funding-as-graph-database-adoption-soars/",
+          "quote": "Greenbridge Partners Ltd, a venture capital firm co-owned by Swedish billionaire Melker Schorling, led a $36 million financing round"
+        }
+      ]
+    },
+    {
+      "stage": "series-e",
+      "month": "2018-11",
+      "amountEur": 70218555,
+      "amountOriginal": 80000000,
+      "currency": "USD",
+      "investors": [
+        "One Peak Partners",
+        "Morgan Stanley Expansion Capital",
+        "Creandum",
+        "Eight Roads",
+        "Greenbridge Partners"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://en.wikipedia.org/wiki/Neo4j",
+          "quote": "In November 2018, Neo4j secured $80 million in Series E Funding led by One Peak Partners and Morgan Stanley Expansion Capital, with participation from other investors including Creandum, Eight Roads and Greenbridge Partners."
+        },
+        {
+          "field": "stage",
+          "url": "https://en.wikipedia.org/wiki/Neo4j",
+          "quote": "In November 2018, Neo4j secured $80 million in Series E Funding led by One Peak Partners and Morgan Stanley Expansion Capital, with participation from other investors including Creandum, Eight Roads and Greenbridge Partners."
+        },
+        {
+          "field": "month",
+          "url": "https://en.wikipedia.org/wiki/Neo4j",
+          "quote": "In November 2018, Neo4j secured $80 million in Series E Funding led by One Peak Partners and Morgan Stanley Expansion Capital, with participation from other investors including Creandum, Eight Roads and Greenbridge Partners."
+        },
+        {
+          "field": "investors",
+          "url": "https://en.wikipedia.org/wiki/Neo4j",
+          "quote": "In November 2018, Neo4j secured $80 million in Series E Funding led by One Peak Partners and Morgan Stanley Expansion Capital, with participation from other investors including Creandum, Eight Roads and Greenbridge Partners."
+        }
+      ]
+    },
+    {
+      "techeuId": "a1ce380a-f59d-45a9-a20e-c5adcf8fe017",
+      "stage": "series-f+",
+      "month": "2021-06",
+      "amountEur": 272262713,
+      "amountOriginal": 325000000,
+      "currency": "USD",
+      "investors": [
+        "Eurazeo",
+        "GV",
+        "DTCP",
+        "Lightrock",
+        "One Peak Partners",
+        "Creandum",
+        "Greenbridge Partners"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2021/06/17/neo4j-series-f/",
+          "quote": "raised $325 million at a more than $2 billion valuation in a Series F deal led by Eurazeo"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2021/06/17/neo4j-series-f/",
+          "quote": "raised $325 million at a more than $2 billion valuation in a Series F deal led by Eurazeo"
+        },
+        {
+          "field": "month",
+          "url": "https://en.wikipedia.org/wiki/Neo4j",
+          "quote": "In June 2021, Neo4j announced $325 million in Series F funding, led by Eurazeo and GV"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2021/06/17/neo4j-series-f/",
+          "quote": "with additional capital from Alphabet’s venture wing GV"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2021/06/17/neo4j-series-f/",
+          "quote": "DTCP and Lightrock newly invested and previous investors One Peak, Creandum and Greenbridge Partners joined the round."
+        }
+      ]
+    }
+  ]
+}

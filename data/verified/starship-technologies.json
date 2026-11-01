@@ -1,0 +1,275 @@
+{
+  "id": "starship-technologies",
+  "name": "Starship Technologies",
+  "aliases": [
+    "Starship"
+  ],
+  "domain": "starship.xyz",
+  "country": "EE",
+  "city": "Tallinn",
+  "founded": 2014,
+  "sectors": [
+    "robotics"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Ahti Heinla",
+    "Janus Friis"
+  ],
+  "difficulty": 3,
+  "techeuId": "684AD02C-2E65-4990-A982-ABBE9731D7DA",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://tech.eu/2022/03/01/starship-brings-in-100-million-in-last-30-days-to-expand-autonomous-delivery-in-europe-and-us/",
+      "quote": "Tallinn-founded company Starship Technologies"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Starship_Technologies",
+      "quote": "Originally founded in Estonia in 2014"
+    },
+    {
+      "field": "founders",
+      "url": "https://www.businessinsider.com/starship-technologies-raises-40-million-in-series-a-funding-2019-8",
+      "quote": "founded by Skype cofounders Ahti Heinla and Janus Friis"
+    },
+    {
+      "field": "sectors",
+      "url": "https://en.wikipedia.org/wiki/Starship_Technologies",
+      "quote": "Starship Technologies is an autonomous delivery vehicle company."
+    },
+    {
+      "field": "status",
+      "url": "https://en.wikipedia.org/wiki/Starship_Technologies",
+      "quote": "Type Private"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "3b82bab0-5035-4ea2-fc6f-08d91092c887",
+      "stage": "seed",
+      "month": "2017-01",
+      "amountEur": 16106377,
+      "amountOriginal": 17200000.0,
+      "currency": "USD",
+      "investors": [
+        "Daimler",
+        "Shasta Ventures",
+        "Matrix Partners",
+        "ZX Ventures",
+        "Morpheus Ventures",
+        "Grishin Robotics",
+        "Playfair Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.businessinsider.com/starship-technologies-raises-172million-daimler-2017-1",
+          "quote": "Robot delivery company Starship Technologies raised $17.2 million in a round led by Daimler"
+        },
+        {
+          "field": "month",
+          "url": "https://www.businessinsider.com/starship-technologies-raises-172million-daimler-2017-1",
+          "quote": "content=\"2017-01-12T16:34:39.000Z\""
+        },
+        {
+          "field": "investors",
+          "url": "https://www.businessinsider.com/starship-technologies-raises-172million-daimler-2017-1",
+          "quote": "Other investors in the autonomous robotics company included Shasta Ventures, Matrix Partners, ZX Ventures, Morpheus Ventures, Grishin Robotics, and Playfair Capital."
+        },
+        {
+          "field": "investors",
+          "url": "https://www.businessinsider.com/starship-technologies-raises-172million-daimler-2017-1",
+          "quote": "led by Daimler"
+        }
+      ]
+    },
+    {
+      "techeuId": "04b1127d-086f-45e2-9053-92be344acbc5",
+      "stage": "seed",
+      "month": "2018-06",
+      "amountEur": 21122001,
+      "amountOriginal": 25000000.0,
+      "currency": "USD",
+      "investors": [
+        "Matrix Partners",
+        "Morpheus Ventures",
+        "Nathan Blecharczyk",
+        "Jaan Tallinn"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.businessinsider.com/starship-technologies-hires-airbnb-exec-as-ceo-and-raises-25-million-2018-6",
+          "quote": "raised $25 million (£18.6 million) in seed funding"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.businessinsider.com/starship-technologies-hires-airbnb-exec-as-ceo-and-raises-25-million-2018-6",
+          "quote": "raised $25 million (£18.6 million) in seed funding"
+        },
+        {
+          "field": "month",
+          "url": "https://www.businessinsider.com/starship-technologies-hires-airbnb-exec-as-ceo-and-raises-25-million-2018-6",
+          "quote": "content=\"2018-06-07"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.businessinsider.com/starship-technologies-hires-airbnb-exec-as-ceo-and-raises-25-million-2018-6",
+          "quote": "Existing investors Matrix Partners and Morpheus Ventures contributed to the $25 million raise, which also included funding from Airbnb cofounder Nathan Blecharczyk and Skype founding engineer Jaan Tallinn."
+        }
+      ]
+    },
+    {
+      "techeuId": "0781e505-616d-42ed-8856-d8d8a1f04f41",
+      "stage": "series-a",
+      "month": "2019-08",
+      "amountEur": 36114121,
+      "amountOriginal": 40000000.0,
+      "currency": "USD",
+      "investors": [
+        "Morpheus Ventures",
+        "Shasta Ventures",
+        "Matrix Partners",
+        "MetaPlanet Holdings"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.businessinsider.com/starship-technologies-raises-40-million-in-series-a-funding-2019-8",
+          "quote": "has closed $40 million in Series A funding"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.businessinsider.com/starship-technologies-raises-40-million-in-series-a-funding-2019-8",
+          "quote": "has closed $40 million in Series A funding"
+        },
+        {
+          "field": "month",
+          "url": "https://www.businessinsider.com/starship-technologies-raises-40-million-in-series-a-funding-2019-8",
+          "quote": "content=\"2019-08-20"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.businessinsider.com/starship-technologies-raises-40-million-in-series-a-funding-2019-8",
+          "quote": "The new round was led by Morpheus Ventures, plus prior backers Shasta Ventures, Matrix Partners, MetaPlanet Holdings and others."
+        }
+      ]
+    },
+    {
+      "techeuId": "719d23ac-41f5-4db8-9954-706af19818c9",
+      "stage": "series-b",
+      "month": "2022-03",
+      "amountEur": 37627665,
+      "amountOriginal": 42000000.0,
+      "currency": "USD",
+      "investors": [
+        "NordicNinja VC",
+        "Taavet+Sten",
+        "TDK Ventures",
+        "Goodyear"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2022/03/01/starship-brings-in-100-million-in-last-30-days-to-expand-autonomous-delivery-in-europe-and-us/",
+          "quote": "The recent $42 million funding round led by the Japanese-Nordic VC firm NordicNinja and the Estonian powerhouse Taavet+Sten"
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2022/03/01/starship-brings-in-100-million-in-last-30-days-to-expand-autonomous-delivery-in-europe-and-us/",
+          "quote": "Other investors in Series B include TDK Ventures , and Goodyear ."
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2022/03/01/starship-brings-in-100-million-in-last-30-days-to-expand-autonomous-delivery-in-europe-and-us/",
+          "quote": "\"datePublished\":\"2022-03-01"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2022/03/01/starship-brings-in-100-million-in-last-30-days-to-expand-autonomous-delivery-in-europe-and-us/",
+          "quote": "The recent $42 million funding round led by the Japanese-Nordic VC firm NordicNinja and the Estonian powerhouse Taavet+Sten"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2022/03/01/starship-brings-in-100-million-in-last-30-days-to-expand-autonomous-delivery-in-europe-and-us/",
+          "quote": "Other investors in Series B include TDK Ventures , and Goodyear ."
+        }
+      ]
+    },
+    {
+      "techeuId": "2c06b82f-3b53-4e45-bd6b-db0063d0cc13",
+      "stage": "series-b",
+      "month": "2024-02",
+      "amountEur": 83752094,
+      "amountOriginal": 90000000.0,
+      "currency": "USD",
+      "investors": [
+        "Plural",
+        "Iconical"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2024/02/05/starship-technologies-raises-90m-as-its-sidewalk-robots-pass-6m-deliveries/",
+          "quote": "has picked up $90 million in funding"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2024/02/05/starship-technologies-raises-90m-as-its-sidewalk-robots-pass-6m-deliveries/",
+          "quote": "February 5, 2024"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2024/02/05/starship-technologies-raises-90m-as-its-sidewalk-robots-pass-6m-deliveries/",
+          "quote": "This latest investment round is being co-led by two previous backers: Plural"
+        }
+      ]
+    },
+    {
+      "techeuId": "aa2cf2b6-0deb-42d7-bc4f-d1007fe03349",
+      "stage": "series-c",
+      "month": "2025-10",
+      "amountEur": 43021855,
+      "amountOriginal": 50000000.0,
+      "currency": "USD",
+      "investors": [
+        "Plural",
+        "Karma.vc",
+        "Latitude",
+        "Coefficient Capital",
+        "SmartCap",
+        "Skaala"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://finance.yahoo.com/news/starship-technologies-raises-50m-series-130500240.html",
+          "quote": "announced the successful completion of a $50 million funding round led by Plural"
+        },
+        {
+          "field": "stage",
+          "url": "https://finance.yahoo.com/news/starship-technologies-raises-50m-series-130500240.html",
+          "quote": "Starship Technologies Raises $50M Series C"
+        },
+        {
+          "field": "month",
+          "url": "https://finance.yahoo.com/news/starship-technologies-raises-50m-series-130500240.html",
+          "quote": "October 15, 2025"
+        },
+        {
+          "field": "investors",
+          "url": "https://finance.yahoo.com/news/starship-technologies-raises-50m-series-130500240.html",
+          "quote": "The funding round includes participation from Plural, Karma.vc, Latitude, Coefficient Capital, SmartCap"
+        },
+        {
+          "field": "investors",
+          "url": "https://finance.yahoo.com/news/starship-technologies-raises-50m-series-130500240.html",
+          "quote": "and Skaala."
+        }
+      ]
+    }
+  ]
+}

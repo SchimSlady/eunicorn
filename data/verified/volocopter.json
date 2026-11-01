@@ -9,7 +9,7 @@
   "sectors": [
     "mobility"
   ],
-  "status": "private",
+  "status": "acquired",
   "unicorn": true,
   "lastValuationEur": 1555494556,
   "founders": [
@@ -64,6 +64,11 @@
       "field": "fun_fact",
       "url": "https://en.wikipedia.org/wiki/Volocopter",
       "quote": "On 30 December 2024, Volocopter filed for insolvency"
+    },
+    {
+      "field": "status",
+      "url": "https://ainonline.com/aviation-news/futureflight/2025-03-14/wanfengs-diamond-aircraft-absorbs-evtol-developer-volocopter",
+      "quote": "Diamond Aircraft is absorbing eVTOL aircraft developer Volocopter after its Chinese owner Wanfeng agreed to acquire the company’s assets from a court-appointed insolvency administrator."
     }
   ],
   "rounds": [

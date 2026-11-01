@@ -14,7 +14,7 @@
   ],
   "status": "private",
   "unicorn": true,
-  "lastValuationEur": 19108000000,
+  "lastValuationEur": 9303000000,
   "founders": [
     "Mati Staniszewski",
     "Piotr Dąbkowski"
@@ -60,18 +60,19 @@
       "quote": "puts its valuation at an impressive $1.1 billion"
     },
     {
-      "field": "valuation",
-      "url": "https://tech.eu/2026/09/30/elelvenlabs-doubles-valuation-to-22bn-with-300m-employee-tender-offer/",
-      "quote": "has doubled to $22bn in less than a year, it said today, as it completed a $300m employee tender offer."
-    },
-    {
       "field": "fun_fact",
       "url": "https://elevenlabs.io/blog/elevenlabs-launches-new-generative-voice-ai-products-and-announces-19m-series-a-round-led-by-nat-friedman-daniel-gross-and-andreessen-horowitz",
       "quote": "Inspired by the poor voiceovers of American movies they watched growing up in their native Poland"
     },
     {
       "field": "logo",
-      "url": "https://commons.wikimedia.org/wiki/File:ElevenLabs_Logo_03.svg"
+      "url": "https://commons.wikimedia.org/wiki/File:ElevenLabs_Logo_03.svg",
+      "quote": "Logo of ElevenLabs, an artificial intelligence software company"
+    },
+    {
+      "field": "valuation",
+      "url": "https://tech.eu/2026/02/04/elevenlabs-raises-500m-says-building-towards-ipo/",
+      "quote": "ElevenLabs has raised $500m in a Series D funding round, valuing it at $11bn"
     }
   ],
   "rounds": [
@@ -100,12 +101,12 @@
         {
           "field": "stage",
           "url": "https://elevenlabs.io/blog/elevenlabs-raises-2m-pre-seed-and-announces-ai-speech-platform-promising-to-revolutionize-audio-storytelling",
-          "quote": "The pre-seed funding round was led by Credo Ventures, with Concept Ventures and individual investors also participating."
+          "quote": "The pre-seed funding round was led by Credo Ventures, with Concept Ventures and individual investors also participating"
         },
         {
           "field": "investors",
           "url": "https://elevenlabs.io/blog/elevenlabs-raises-2m-pre-seed-and-announces-ai-speech-platform-promising-to-revolutionize-audio-storytelling",
-          "quote": "The pre-seed funding round was led by Credo Ventures, with Concept Ventures and individual investors also participating."
+          "quote": "The pre-seed funding round was led by Credo Ventures, with Concept Ventures and individual investors also participating"
         }
       ]
     },
@@ -145,7 +146,7 @@
         {
           "field": "investors",
           "url": "https://elevenlabs.io/blog/elevenlabs-launches-new-generative-voice-ai-products-and-announces-19m-series-a-round-led-by-nat-friedman-daniel-gross-and-andreessen-horowitz",
-          "quote": "with further participation from Credo Ventures, Concept Ventures, and an array of strategic angel investors"
+          "quote": "with further participation from Credo Ventures , Concept Ventures , and an array of strategic angel investors"
         },
         {
           "field": "investors",
@@ -192,7 +193,7 @@
         {
           "field": "investors",
           "url": "https://www.maginative.com/article/elevenlabs-becomes-first-voice-ai-unicorn-with-80-million-series-b/",
-          "quote": "The sizable round was co-led by prominent venture capital firm Andreessen Horowitz."
+          "quote": "The sizable round was co-led by prominent venture capital firm Andreessen Horowitz"
         }
       ]
     },
@@ -223,7 +224,7 @@
         {
           "field": "month",
           "url": "https://elevenlabs.io/blog/series-c",
-          "quote": "30 January 2025, Global"
+          "quote": "30 January 2025"
         },
         {
           "field": "stage",
@@ -238,7 +239,7 @@
         {
           "field": "investors",
           "url": "https://elevenlabs.io/blog/series-c",
-          "quote": "The round was co-led by a16z and ICONIQ Growth,"
+          "quote": "The round was co-led by a16z and ICONIQ Growth"
         },
         {
           "field": "investors",
@@ -267,27 +268,27 @@
         {
           "field": "amount",
           "url": "https://tech.eu/2026/02/04/elevenlabs-raises-500m-says-building-towards-ipo/",
-          "quote": "ElevenLabs has raised $500m in a Series D funding round, valuing it at $11bn."
+          "quote": "ElevenLabs has raised $500m in a Series D funding round, valuing it at $11bn"
         },
         {
           "field": "month",
           "url": "https://tech.eu/2026/02/04/elevenlabs-raises-500m-says-building-towards-ipo/",
-          "quote": "ElevenLabs raises $500M, says building towards IPO (04 February 2026)"
+          "quote": "04 February 2026"
         },
         {
           "field": "stage",
           "url": "https://tech.eu/2026/02/04/elevenlabs-raises-500m-says-building-towards-ipo/",
-          "quote": "ElevenLabs has raised $500m in a Series D funding round, valuing it at $11bn."
+          "quote": "ElevenLabs has raised $500m in a Series D funding round, valuing it at $11bn"
         },
         {
           "field": "valuation",
           "url": "https://tech.eu/2026/02/04/elevenlabs-raises-500m-says-building-towards-ipo/",
-          "quote": "ElevenLabs has raised $500m in a Series D funding round, valuing it at $11bn."
+          "quote": "ElevenLabs has raised $500m in a Series D funding round, valuing it at $11bn"
         },
         {
           "field": "investors",
           "url": "https://tech.eu/2026/02/04/elevenlabs-raises-500m-says-building-towards-ipo/",
-          "quote": "Sequoia led the Series D with other investors in the round being existing investors Andreessen Horowitz and ICONIQ."
+          "quote": "Sequoia led the Series D with other investors in the round being existing investors Andreessen Horowitz and ICONIQ"
         }
       ]
     }

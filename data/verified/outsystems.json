@@ -1,0 +1,116 @@
+{
+  "id": "outsystems",
+  "name": "OutSystems",
+  "aliases": [],
+  "domain": "outsystems.com",
+  "country": "PT",
+  "city": "Lisbon",
+  "founded": 2001,
+  "sectors": [
+    "saas"
+  ],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 7877280265,
+  "founders": [
+    "Paulo Rosado"
+  ],
+  "difficulty": 4,
+  "techeuId": "B234805F-AAB0-4CCB-B721-8DC8D995462C",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://techcrunch.com/2018/06/05/portugals-outsystems-raises-360m-from-kkr-and-goldman-sachs/",
+      "quote": "Outsystems was originally founded in Lisbon"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/OutSystems",
+      "quote": "OutSystems was founded in 2001 by Paulo Rosado in Lisbon, Portugal."
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/OutSystems",
+      "quote": "OutSystems was founded in 2001 by Paulo Rosado in Lisbon, Portugal."
+    },
+    {
+      "field": "sectors",
+      "url": "https://en.wikipedia.org/wiki/OutSystems",
+      "quote": "Industry Enterprise Software Platform as a Service"
+    },
+    {
+      "field": "status",
+      "url": "https://en.wikipedia.org/wiki/OutSystems",
+      "quote": "Type Private"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://techcrunch.com/2021/02/17/low-code-focused-outsystems-raises-150m-at-a-9-5b-valuation/",
+      "quote": "By selling $150 million worth of its own shares at a $9.5 billion valuation"
+    },
+    {
+      "field": "valuation",
+      "url": "https://techcrunch.com/2021/02/17/low-code-focused-outsystems-raises-150m-at-a-9-5b-valuation/",
+      "quote": "By selling $150 million worth of its own shares at a $9.5 billion valuation"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "5f18d8a2-a8f9-4170-cf8c-08d91092c887",
+      "stage": "series-c",
+      "month": "2018-06",
+      "amountEur": 308351178,
+      "amountOriginal": 360000000.0,
+      "currency": "USD",
+      "investors": [
+        "KKR",
+        "Goldman Sachs"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2018/06/05/portugals-outsystems-raises-360m-from-kkr-and-goldman-sachs/",
+          "quote": "OutSystems raises $360M from KKR and Goldman Sachs"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2018/06/05/portugals-outsystems-raises-360m-from-kkr-and-goldman-sachs/",
+          "quote": "June 5, 2018"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2018/06/05/portugals-outsystems-raises-360m-from-kkr-and-goldman-sachs/",
+          "quote": "OutSystems raises $360M from KKR and Goldman Sachs"
+        }
+      ]
+    },
+    {
+      "stage": "series-d",
+      "month": "2021-02",
+      "amountEur": 124378109,
+      "amountOriginal": 150000000.0,
+      "currency": "USD",
+      "investors": [
+        "Abdiel Capital",
+        "Tiger Global"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2021/02/17/low-code-focused-outsystems-raises-150m-at-a-9-5b-valuation/",
+          "quote": "Low-code focused OutSystems raises $150M at a $9.5B valuation"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2021/02/17/low-code-focused-outsystems-raises-150m-at-a-9-5b-valuation/",
+          "quote": "February 17, 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2021/02/17/low-code-focused-outsystems-raises-150m-at-a-9-5b-valuation/",
+          "quote": "The round was led by Abdiel Capital and Tiger Global."
+        }
+      ]
+    }
+  ]
+}

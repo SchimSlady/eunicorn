@@ -90,6 +90,116 @@
           "quote": "Nokia’s chairman Risto Siilasmaa who participated in the company’s previous round, was part of the illustrious investor lineup."
         }
       ]
+    },
+    {
+      "stage": "series-c",
+      "month": "2019-06",
+      "amountEur": 115998929,
+      "amountOriginal": 130000000,
+      "currency": "USD",
+      "investors": [
+        "ICONIQ Capital",
+        "83North",
+        "EQT Ventures",
+        "Highland Europe",
+        "Lifeline Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/brief/helsinki-based-food-delivery-startup-wolt-raises-130-million/",
+          "quote": "Finnish food delivery service Wolt has just gobbled up a $130 million funding round led by ICONIQ Capital"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/brief/helsinki-based-food-delivery-startup-wolt-raises-130-million/",
+          "quote": "19 June 2019"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/brief/helsinki-based-food-delivery-startup-wolt-raises-130-million/",
+          "quote": "led by ICONIQ Capital, with participation from existing investors 83North, EQT Ventures, Highland Europe, and Lifeline Ventures"
+        }
+      ]
+    },
+    {
+      "stage": "series-d",
+      "month": "2020-05",
+      "amountEur": 100000000,
+      "amountOriginal": 100000000,
+      "currency": "EUR",
+      "investors": [
+        "ICONIQ Capital",
+        "Highland Europe",
+        "83North",
+        "EQT Ventures",
+        "Goldman Sachs Growth Equity"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2020/05/15/finnish-food-delivery-scale-up-wolt-raises-e100-million-from-mostly-existing-investors-to-prep-for-an-uncertain-future/",
+          "quote": "Wolt has raised a new €100 million round of funding from prior backers ICONIQ Capital, Highland Europe, 83North and EQT Ventures"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2021/01/25/wolt-closes-530m-round-to-continue-expanding-beyond-restaurant-delivery/",
+          "quote": "the Series D round that we raised in early 2020"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2020/05/15/finnish-food-delivery-scale-up-wolt-raises-e100-million-from-mostly-existing-investors-to-prep-for-an-uncertain-future/",
+          "quote": "15 May 2020"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2020/05/15/finnish-food-delivery-scale-up-wolt-raises-e100-million-from-mostly-existing-investors-to-prep-for-an-uncertain-future/",
+          "quote": "The only new investor added to the roster is Goldman Sachs’ Growth Equity unit."
+        }
+      ]
+    },
+    {
+      "stage": "series-e",
+      "month": "2021-01",
+      "amountEur": 436142199,
+      "amountOriginal": 530000000,
+      "currency": "USD",
+      "investors": [
+        "Iconiq Growth",
+        "Tiger Global",
+        "DST Global",
+        "KKR",
+        "Prosus",
+        "EQT Growth",
+        "Coatue",
+        "83North",
+        "Highland Europe",
+        "Goldman Sachs Growth Equity",
+        "EQT Ventures",
+        "Vintage Investment Partners"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2021/01/25/wolt-closes-530m-round-to-continue-expanding-beyond-restaurant-delivery/",
+          "quote": "has raised $530 million in new funding. The round was led by Iconiq Growth"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2021/01/25/wolt-closes-530m-round-to-continue-expanding-beyond-restaurant-delivery/",
+          "quote": "January 25, 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2021/01/25/wolt-closes-530m-round-to-continue-expanding-beyond-restaurant-delivery/",
+          "quote": "with participation from Tiger Global, DST, KKR, Prosus, EQT Growth and Coatue"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2021/01/25/wolt-closes-530m-round-to-continue-expanding-beyond-restaurant-delivery/",
+          "quote": "Previous backers 83North, Highland Europe, Goldman Sachs Growth Equity, EQT Ventures and Vintage Investment Partners also followed on."
+        }
+      ]
     }
   ]
 }

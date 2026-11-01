@@ -30,7 +30,7 @@
     {
       "field": "city",
       "url": "https://en.wikipedia.org/wiki/Monzo",
-      "quote": "is a British online bank based in London, England."
+      "quote": "is a British online bank based in London , England"
     },
     {
       "field": "founded",
@@ -40,17 +40,17 @@
     {
       "field": "founders",
       "url": "https://en.wikipedia.org/wiki/Monzo",
-      "quote": "Founders: Gary Dolman, Jason Bates, Jonas Huckestein, Paul Rippon, Tom Blomfield"
+      "quote": "Founder Gary Dolman Jason Bates Jonas Huckestein Paul Rippon Tom Blomfield"
     },
     {
       "field": "founders",
       "url": "https://techcrunch.com/2015/05/24/mondo/",
-      "quote": "Eileen Burbidge — a partner at London VC firm Passion Capital, who TechCrunch has learned is Mondo's sole seed investor"
+      "quote": "GoCardless co-founder Tom Blomfield was working on a new U.K. banking startup"
     },
     {
       "field": "sectors",
       "url": "https://en.wikipedia.org/wiki/Monzo",
-      "quote": "is a British online bank based in London, England."
+      "quote": "is a British online bank based in London , England"
     },
     {
       "field": "status",
@@ -64,8 +64,8 @@
     },
     {
       "field": "valuation",
-      "url": "https://www.retailbankerinternational.com/news/monzo-share-sale-values-bank/",
-      "quote": "British digital bank Monzo has reached a new valuation of $5.9bn following a secondary share sale involving its employees."
+      "url": "https://www.digit.fyi/monzo-hits-record-high-4-5bn-valuation/",
+      "quote": "Digital bank Monzo's valuation has soared to £4.5 billion after issuing additional shares to major investors"
     },
     {
       "field": "fun_fact",
@@ -79,7 +79,8 @@
     },
     {
       "field": "logo",
-      "url": "https://commons.wikimedia.org/wiki/File:Monzo_2022_logo.svg"
+      "url": "https://commons.wikimedia.org/wiki/File:Monzo_2022_logo.svg",
+      "quote": "Logo of Monzo"
     }
   ],
   "rounds": [
@@ -97,17 +98,17 @@
         {
           "field": "amount",
           "url": "https://tech.eu/2016/02/15/mondo-funding/",
-          "quote": "secured £5 million from Passion Capital."
+          "quote": "secured £5 million from Passion Capital"
         },
         {
           "field": "month",
           "url": "https://tech.eu/2016/02/15/mondo-funding/",
-          "quote": "UK mobile bank Mondo to raise £6 million from investors and crowdfunding (15 February 2016)"
+          "quote": "15 February 2016"
         },
         {
           "field": "investors",
           "url": "https://tech.eu/2016/02/15/mondo-funding/",
-          "quote": "secured £5 million from Passion Capital."
+          "quote": "secured £5 million from Passion Capital"
         }
       ]
     },
@@ -125,12 +126,12 @@
         {
           "field": "amount",
           "url": "https://fintech.global/2016/10/20/monzo-grabs-new-4-8m-round-from-passion-capital/",
-          "quote": "raised £4.8m in what it's calling an 'interim' funding round led by Passion Capital"
+          "quote": "4.8m in what it's calling an 'interim' funding round led by Passion Capital"
         },
         {
           "field": "month",
           "url": "https://fintech.global/2016/10/20/monzo-grabs-new-4-8m-round-from-passion-capital/",
-          "quote": "Monzo grabs new £4.8m round from Passion Capital (October 20, 2016)"
+          "quote": "October 20, 2016"
         },
         {
           "field": "investors",
@@ -160,7 +161,7 @@
         {
           "field": "month",
           "url": "https://techcrunch.com/2017/02/22/confirmed-uk-challenger-bank-monzo-raises-19-5m-with-another-2-5m-in-crowdfunding-planned",
-          "quote": "Confirmed: UK challenger bank Monzo raises £19.5M with another £2.5M in crowdfunding planned (February 22, 2017)"
+          "quote": "February 22, 2017"
         },
         {
           "field": "stage",
@@ -193,12 +194,12 @@
         {
           "field": "amount",
           "url": "https://www.uktech.news/news/investment-news/digital-challenger-bank-monzo-raises-71m-280m-valuation-20171107",
-          "quote": "UK digital challenger bank Monzo has raised an additional £71m from investors including Goodwater Capital and Stripe."
+          "quote": "UK digital challenger bank Monzo has raised an additional £71m from investors including Goodwater Capital and Stripe"
         },
         {
           "field": "month",
           "url": "https://www.uktech.news/news/investment-news/digital-challenger-bank-monzo-raises-71m-280m-valuation-20171107",
-          "quote": "Digital challenger bank Monzo raises £71m at £280m valuation (published 2017-11-07)"
+          "quote": "7 Nov 2017"
         },
         {
           "field": "valuation",
@@ -243,7 +244,7 @@
         {
           "field": "month",
           "url": "https://www.uktech.news/news/monzo-joins-uk-tech-unicorn-club-following-85m-raise-20181031",
-          "quote": "Monzo joins UK tech unicorn club following £85m raise (published 31 October 2018)"
+          "quote": "31 Oct 2018"
         },
         {
           "field": "stage",
@@ -285,7 +286,7 @@
         {
           "field": "month",
           "url": "https://www.irishtimes.com/business/financial-services/online-bank-monzo-valued-at-2bn-following-113m-funding-round-1.3936822",
-          "quote": "Online bank Monzo valued at £2bn following £113m funding round (25 June 2019)"
+          "quote": "Jun 25 2019"
         },
         {
           "field": "valuation",
@@ -295,7 +296,7 @@
         {
           "field": "stage",
           "url": "https://en.wikipedia.org/wiki/Monzo",
-          "quote": "On 24 June 2019, Monzo raised £113 million in a Series F funding round led by Y Combinator's Continuity fund."
+          "quote": "On 24 June 2019, Monzo raised £113 million in a Series F funding round led by Y Combinator 's Continuity fund"
         },
         {
           "field": "investors",
@@ -331,7 +332,7 @@
         {
           "field": "month",
           "url": "https://techcrunch.com/2020/06/16/monzo-confirms-60m-down-round",
-          "quote": "Monzo confirms £60M down round, with a new pre-money valuation of £1.24B (June 16, 2020)"
+          "quote": "June 16, 2020"
         },
         {
           "field": "stage",
@@ -405,7 +406,7 @@
         {
           "field": "month",
           "url": "https://www.retailbankerinternational.com/news/digital-bank-monzo-valued-at-4-5bn-after-500m-funding-round/",
-          "quote": "Digital bank Monzo valued at $4.5bn after $500m funding round (December 9, 2021)"
+          "quote": "December 9, 2021"
         },
         {
           "field": "valuation",
@@ -443,7 +444,7 @@
         {
           "field": "month",
           "url": "https://techcrunch.com/2024/03/05/monzo-the-uk-challenger-bank-with-9-million-customers-raises-430-million/",
-          "quote": "Monzo, the UK challenger bank with 9 million customers, raises $430 million (March 5, 2024)"
+          "quote": "March 5, 2024"
         },
         {
           "field": "valuation",
@@ -478,28 +479,28 @@
       "sources": [
         {
           "field": "amount",
-          "url": "https://ca.finance.yahoo.com/news/uk-challenger-bank-monzo-nabs-123405342.html",
-          "quote": "Monzo has raised another £150 million ($190 million),"
+          "url": "https://www.digit.fyi/monzo-hits-record-high-4-5bn-valuation/",
+          "quote": "followed by an additional £150 million in May, boosting its post-money value to just over £4 billion"
         },
         {
           "field": "month",
-          "url": "https://ca.finance.yahoo.com/news/uk-challenger-bank-monzo-nabs-123405342.html",
-          "quote": "UK challenger bank Monzo nabs another $190M as US expansion beckons (May 8, 2024)"
+          "url": "https://www.cnbc.com/2024/05/08/monzo-boosts-funding-to-610-million-to-crack-us-launch-uk-pensions.html",
+          "quote": "Published Wed, May 8 2024"
         },
         {
           "field": "stage",
-          "url": "https://ca.finance.yahoo.com/news/uk-challenger-bank-monzo-nabs-123405342.html",
-          "quote": "This extension saw existing investors such as CapitalG throwing more cash into the pot."
+          "url": "https://www.cnbc.com/2024/05/08/monzo-boosts-funding-to-610-million-to-crack-us-launch-uk-pensions.html",
+          "quote": "The total $610 million round marks the single-biggest funding round"
         },
         {
           "field": "valuation",
-          "url": "https://ca.finance.yahoo.com/news/uk-challenger-bank-monzo-nabs-123405342.html",
-          "quote": "£4.1 billion ($5.2 billion)"
+          "url": "https://www.cnbc.com/2024/05/08/monzo-boosts-funding-to-610-million-to-crack-us-launch-uk-pensions.html",
+          "quote": "The latest funding values Monzo at roughly $5.2 billion"
         },
         {
           "field": "investors",
-          "url": "https://ca.finance.yahoo.com/news/uk-challenger-bank-monzo-nabs-123405342.html",
-          "quote": "Alphabet's CapitalG and Google's GV make a rare co-investment"
+          "url": "https://www.cnbc.com/2024/05/08/monzo-boosts-funding-to-610-million-to-crack-us-launch-uk-pensions.html",
+          "quote": "raised another $190 million from investors including Hedosophia and CapitalG"
         }
       ]
     }

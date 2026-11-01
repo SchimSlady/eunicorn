@@ -1,0 +1,197 @@
+{
+  "id": "pipedrive",
+  "name": "Pipedrive",
+  "aliases": [],
+  "domain": "pipedrive.com",
+  "country": "EE",
+  "city": "Tallinn",
+  "founded": 2010,
+  "sectors": [
+    "saas"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Timo Rein"
+  ],
+  "difficulty": 1,
+  "techeuId": "80436190-A77F-47A0-A22A-4A32BAB407F4",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/Pipedrive",
+      "quote": "Pipedrive was founded in 2010 in Tallinn, Estonia."
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Pipedrive",
+      "quote": "Pipedrive was founded in 2010 in Tallinn, Estonia."
+    },
+    {
+      "field": "founders",
+      "url": "https://techcrunch.com/2015/05/14/pipedrive-series-a/",
+      "quote": "co-founder Timo Rein stepped down from the role"
+    },
+    {
+      "field": "sectors",
+      "url": "https://techcrunch.com/2018/06/14/pipedrive-a-crm-and-sales-tool-raises-50m-to-take-on-salesforce-and-microsoft/",
+      "quote": "offers tools to salespeople to help them close deals that are still in their pipeline"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "seed",
+      "month": "2012-07",
+      "amountEur": 569847,
+      "amountOriginal": 700000,
+      "currency": "USD",
+      "investors": [
+        "TMT Investments",
+        "Andy McLoughlin",
+        "Christopher Muenchhoff"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2012/07/31/angelpad-alumni-pipedrive-closes-deal-of-its-own-raises-further-700k-for-its-crm-saas/",
+          "quote": "has raised a further $700k in funding, bringing its total to $1 million"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2012/07/31/angelpad-alumni-pipedrive-closes-deal-of-its-own-raises-further-700k-for-its-crm-saas/",
+          "quote": "July 31, 2012"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2012/07/31/angelpad-alumni-pipedrive-closes-deal-of-its-own-raises-further-700k-for-its-crm-saas/",
+          "quote": "The new seed round comes from TMT Investments and angel investors Andy McLoughlin"
+        }
+      ]
+    },
+    {
+      "stage": "seed",
+      "month": "2013-09",
+      "amountEur": 1797484,
+      "amountOriginal": 2400000,
+      "currency": "USD",
+      "investors": [
+        "Rembrandt Venture Partners",
+        "Storm Ventures",
+        "TMT Investments"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2013/09/18/always-be-closing-pipedrive/",
+          "quote": "has raised a further $2.4 million in funding"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2013/09/18/always-be-closing-pipedrive/",
+          "quote": "September 18, 2013"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2013/09/18/always-be-closing-pipedrive/",
+          "quote": "was co-led by Rembrandt Venture Partners, and Storm Ventures, with participation from existing backer TMT Investments"
+        }
+      ]
+    },
+    {
+      "stage": "series-a",
+      "month": "2015-05",
+      "amountEur": 7881601,
+      "amountOriginal": 9000000,
+      "currency": "USD",
+      "investors": [
+        "Bessemer Venture Partners",
+        "Paua Ventures",
+        "Rembrandt Venture Partners",
+        "AngelPad"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2015/05/14/pipedrive-series-a/",
+          "quote": "has raised a $9 million Series A round led by Bessemer Venture Partners"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2015/05/14/pipedrive-series-a/",
+          "quote": "May 14, 2015"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2015/05/14/pipedrive-series-a/",
+          "quote": "Paua Ventures also participated, along with existing investors , Rembrandt Venture Partners and AngelPad"
+        }
+      ]
+    },
+    {
+      "techeuId": "b79644f5-b1ae-45b4-f16e-08d91092c887",
+      "stage": "series-b",
+      "month": "2017-01",
+      "amountEur": 15941485,
+      "amountOriginal": 17000000,
+      "currency": "USD",
+      "investors": [
+        "Atomico",
+        "Bessemer Venture Partners",
+        "Rembrandt Venture Partners"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2017/01/18/pipedrive-a-crm-platform-to-help-smbs-sell-more-closes-17m-series-b-led-by-atomico/",
+          "quote": "has closed $17 million in Series B funding"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2017/01/18/pipedrive-a-crm-platform-to-help-smbs-sell-more-closes-17m-series-b-led-by-atomico/",
+          "quote": "January 18, 2017"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2017/01/18/pipedrive-a-crm-platform-to-help-smbs-sell-more-closes-17m-series-b-led-by-atomico/",
+          "quote": "The round was led by Atomico"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2017/01/18/pipedrive-a-crm-platform-to-help-smbs-sell-more-closes-17m-series-b-led-by-atomico/",
+          "quote": "with participation from Bessemer Venture Partners, and Rembrandt Venture Partners"
+        }
+      ]
+    },
+    {
+      "techeuId": "34749277-0ae4-465e-f16c-08d91092c887",
+      "stage": "series-c",
+      "month": "2018-06",
+      "amountEur": 42625746,
+      "amountOriginal": 50000000,
+      "currency": "USD",
+      "investors": [
+        "Insight Venture Partners",
+        "Bessemer Venture Partners",
+        "Rembrandt Venture Partners",
+        "Atomico"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2018/06/14/pipedrive-a-crm-and-sales-tool-raises-50m-to-take-on-salesforce-and-microsoft/",
+          "quote": "has picked up $50 million to expand its product"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2018/06/14/pipedrive-a-crm-and-sales-tool-raises-50m-to-take-on-salesforce-and-microsoft/",
+          "quote": "June 14, 2018"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2018/06/14/pipedrive-a-crm-and-sales-tool-raises-50m-to-take-on-salesforce-and-microsoft/",
+          "quote": "The Series C round was co-led by new investor Insight Venture Partners and Bessemer Venture Partners, with participation also from Rembrandt Venture Partners and Atomico"
+        }
+      ]
+    }
+  ]
+}
