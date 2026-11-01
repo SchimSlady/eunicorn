@@ -5,8 +5,8 @@ import { X } from "lucide-react";
 import type { Company, Dataset, GridCriterion, Hint, UnicornGridPuzzle } from "@eunicorn/schema";
 import { indexById, loadGame } from "@/lib/data";
 import { getTodayResult, loadProgress, saveProgress, saveResult } from "@/lib/daily";
-import { saveDifficulty, type Difficulty } from "@/lib/difficulty";
-import { formatPoints, shareText as buildShareText } from "@/lib/scoring";
+import { hintLimit, saveDifficulty, type Difficulty } from "@/lib/difficulty";
+import { shareText as buildShareText } from "@/lib/scoring";
 import { CompanyLogo } from "@/components/CompanyLogo";
 import { sectorLabel } from "@/lib/format";
 import { distinctAnswers } from "@/lib/grid";
@@ -17,8 +17,9 @@ import { Flag } from "@/components/Flag";
 import { GameIntro } from "@/components/GameIntro";
 import { GameHeader } from "@/components/GameHeader";
 import { Announce, GameSkeleton, NoPuzzle } from "@/components/Announce";
-import { Hints, hintState } from "@/components/Hints";
+import { Hints } from "@/components/Hints";
 import { ResultArea } from "@/components/ResultArea";
+import { Leaderboard } from "@/components/Leaderboard";
 import { StatsPanel } from "@/components/StatsPanel";
 import { recordFinish, recordStart } from "@/lib/stats";
 
@@ -44,8 +45,8 @@ function hintsFor(p: UnicornGridPuzzle, cells: (string | null)[], cell: number, 
   const one = id ? companies.get(id) : undefined;
   if (!one) return [];
   const texts = [
-    `One answer: ${one.sectors.map(sectorLabel).join(", ")} from ${one.city}`,
-    `One answer starts with ${one.name[0].toUpperCase()}`,
+    `one answer is ${one.sectors.map(sectorLabel).join(", ")} from ${one.city}`,
+    `one answer starts with ${one.name[0].toUpperCase()}`,
   ];
   return texts.map((text, i) => ({ text, cost: HINT_COSTS[i] }));
 }
@@ -69,7 +70,7 @@ interface Progress {
 }
 
 /**
- * A square is worth the company's difficulty (1 = everyone knows it, 5 = insider) in €M,
+ * A square is worth the company's difficulty (1 = everyone knows it, 5 = insider) in points,
  * so lesser-known answers raise more. Max = the most obscure valid answer for every square.
  */
 function evaluate(p: UnicornGridPuzzle, progress: Progress, companies: Map<string, Company>) {
@@ -89,10 +90,10 @@ function evaluate(p: UnicornGridPuzzle, progress: Progress, companies: Map<strin
 }
 
 function shareText(p: UnicornGridPuzzle, progress: Progress, companies: Map<string, Company>): string {
-  const { score, hintsUsed, filled, maxScore } = evaluate(p, progress, companies);
+  const { hintsUsed, filled } = evaluate(p, progress, companies);
   const squares = progress.cells.map((id, i) => (id ? "🟩" : "⬜") + (i % 3 === 2 && i < 8 ? "\n" : "")); // share text, not UI. taste-skill-ignore
   const summary = `${filled} of 9 squares`;
-  return buildShareText({ number: p.number, modeTitle: TITLE, difficulty: progress.difficulty, hintsUsed, squares, summary, score, maxScore });
+  return buildShareText({ number: p.number, modeTitle: TITLE, difficulty: progress.difficulty, hintsUsed, squares, summary });
 }
 
 /** Country labels carry an emoji flag in the data; the UI shows an SVG flag instead. */
@@ -110,9 +111,10 @@ export function UnicornGridGame() {
   const [daily, setDaily] = useState<Puzzle | null | undefined>(undefined);
   const [data, setData] = useState<Dataset | null>(null);
   const [progress, setProgress] = useState<Progress | null>(null);
-  const [selected, setSelected] = useState<number | null>(null);
-  // Feedback for the last guess: which square shakes and why.
-  const [miss, setMiss] = useState<{ cell: number; name: string; n: number } | null>(null);
+  // A company that fits several open squares waits here until the player taps one of them.
+  const [pending, setPending] = useState<{ company: Company; cells: number[] } | null>(null);
+  // The last guess that fit no open square.
+  const [miss, setMiss] = useState<{ name: string; n: number } | null>(null);
 
   useEffect(() => {
     loadGame<Puzzle>(MODE).then(({ puzzle: p, data: d }) => {
@@ -163,17 +165,25 @@ export function UnicornGridGame() {
     }
   }
 
-  function guess(cell: number, c: Company) {
-    if (puzzle!.validAnswers[cell].includes(c.id)) {
-      const cells = [...progress!.cells];
-      cells[cell] = c.id;
-      update({ ...progress!, cells });
-      setSelected(null);
+  function place(cell: number, c: Company) {
+    const cells = [...progress!.cells];
+    cells[cell] = c.id;
+    update({ ...progress!, cells });
+    setPending(null);
+    setMiss(null);
+  }
+
+  /** A pick from the search: into the one open square it fits, a choice between several, or a wrong guess. */
+  function pick(c: Company) {
+    const fits = [0, 1, 2, 3, 4, 5, 6, 7, 8].filter((cell) => !progress!.cells[cell] && puzzle.validAnswers[cell].includes(c.id));
+    if (fits.length === 1) return place(fits[0], c);
+    if (fits.length > 1) {
+      setPending({ company: c, cells: fits });
       setMiss(null);
-    } else {
-      update({ ...progress!, wrong: progress!.wrong + 1 });
-      setMiss({ cell, name: c.name, n: (miss?.n ?? 0) + 1 });
+      return;
     }
+    update({ ...progress!, wrong: progress!.wrong + 1 });
+    setMiss({ name: c.name, n: (miss?.n ?? 0) + 1 });
   }
 
   // Answers shown in squares the player left empty: the best-known valid ones such that, like
@@ -185,10 +195,21 @@ export function UnicornGridGame() {
   );
   const reveal = (cell: number) => revealed[cell] ?? companies.get(puzzle.validAnswers[cell][0])!;
 
-  const sel = selected !== null && !done ? selected : null;
-  const selRow = sel !== null ? puzzle.rows[Math.floor(sel / 3)] : null;
-  const selCol = sel !== null ? puzzle.cols[sel % 3] : null;
   const strip = (s: string) => s.replace(/\p{Regional_Indicator}/gu, "").trim();
+
+  // Hints are for the board: each one names the open square it is about. They start with the square
+  // that has the fewest answers and finish one square before the next. Squares already filled have none.
+  const perSquare = hintLimit(progress.difficulty, HINT_COSTS.length);
+  const open = [0, 1, 2, 3, 4, 5, 6, 7, 8].filter((cell) => !progress.cells[cell]);
+  const squareName = (cell: number) => `${strip(puzzle.rows[Math.floor(cell / 3)].label)} × ${strip(puzzle.cols[cell % 3].label)}`;
+  const squareHints = new Map(open.map((cell) => [cell, hintsFor(puzzle, progress.cells, cell, companies).slice(0, perSquare)]));
+  const named = (cell: number, h: Hint): Hint => ({ ...h, text: `${squareName(cell)}: ${h.text}` });
+  const revealedHints = open.flatMap((cell) => squareHints.get(cell)!.slice(0, progress.cellHints[cell]).map((h) => named(cell, h)));
+  const hintOrder = [...open].sort(
+    (a, b) => Number(progress.cellHints[b] > 0) - Number(progress.cellHints[a] > 0) || puzzle.validAnswers[a].length - puzzle.validAnswers[b].length || a - b,
+  );
+  const nextCell = hintOrder.find((cell) => progress.cellHints[cell] < squareHints.get(cell)!.length);
+  const nextHint = nextCell === undefined ? undefined : named(nextCell, squareHints.get(nextCell)![progress.cellHints[nextCell]]);
 
   const usedCompanies = progress.cells.filter((id): id is string => !!id).map((id) => companies.get(id)!);
   // End card: the player's rarest pick (highest difficulty); with no square filled, an answer they could have used.
@@ -201,12 +222,18 @@ export function UnicornGridGame() {
   return (
     <div className="space-y-6">
       <GameHeader title={TITLE} mode={MODE} difficulty={progress.difficulty} />
-      <Announce text={miss ? `${miss.name} doesn't fit that square.` : `${used.size} of 9 squares filled.`} />
+      <Announce
+        text={
+          pending
+            ? `Tap a highlighted square for ${pending.company.name}.`
+            : miss
+              ? `${miss.name} doesn't fit any open square.`
+              : `${used.size} of 9 squares filled.`
+        }
+      />
 
       <div className="grid grid-cols-4 gap-1.5">
-        <div className="flex flex-col items-center justify-center text-center text-muted">
-          <span className="font-display text-xl font-bold leading-none text-foreground">{filled}/9</span>
-        </div>
+        <div aria-hidden />
         {puzzle.cols.map((c, i) => (
           <div key={i} className="flex aspect-square items-center justify-center rounded-2xl bg-eu-blue p-1 text-white">
             <CriterionLabel c={c} />
@@ -222,28 +249,23 @@ export function UnicornGridGame() {
               const id = progress.cells[cell];
               const c = id ? companies.get(id)! : null;
               const shown = c ?? (done ? reveal(cell) : null);
-              const isSel = sel === cell;
-              const shaking = miss?.cell === cell;
+              const candidate = !!pending && pending.cells.includes(cell);
               return (
                 <button
-                  // Re-keyed per miss so the shake replays on every wrong guess.
-                  key={shaking ? `${cell}-${miss!.n}` : cell}
+                  key={cell}
                   type="button"
-                  disabled={done || !!c}
-                  onClick={() => {
-                    setSelected(cell);
-                    setMiss(null);
-                  }}
-                  aria-label={c ? `${c.name}` : `Square ${cell + 1}`}
+                  disabled={!candidate}
+                  onClick={() => place(cell, pending!.company)}
+                  aria-label={c ? c.name : candidate ? `Put ${pending!.company.name} in ${squareName(cell)}` : squareName(cell)}
                   className={`relative flex aspect-square flex-col items-stretch justify-center gap-1 rounded-2xl border-2 p-1 transition ${
                     c
                       ? "animate-pop border-correct bg-correct/10"
-                      : isSel
-                        ? "border-primary bg-surface"
+                      : candidate
+                        ? "border-primary bg-primary/15"
                         : shown
                           ? "border-dashed border-border bg-surface opacity-60"
-                          : "border-border bg-surface hover:border-primary"
-                  } ${shaking ? "animate-shake border-wrong" : ""}`}
+                          : `border-border bg-surface ${pending ? "opacity-40" : ""}`
+                  }`}
                 >
                   {shown && (
                     <>
@@ -251,13 +273,8 @@ export function UnicornGridGame() {
                       <div className="min-h-0 flex-1">
                         <CompanyLogo company={shown} fill />
                       </div>
-                      {/* The name gets the full width on up to two lines; the reward sits in the corner. */}
+                      {/* The name gets the full width, on up to two lines. */}
                       <span className="line-clamp-2 px-0.5 text-center text-[11px] font-semibold leading-tight">{shown.name}</span>
-                      {c && (
-                        <span className="absolute -right-1.5 -top-1.5 z-10 rounded-full bg-correct px-1.5 py-0.5 text-[11px] font-bold leading-none text-white">
-                          +{formatPoints(worth(c.id), maxScore)}
-                        </span>
-                      )}
                     </>
                   )}
                 </button>
@@ -269,37 +286,43 @@ export function UnicornGridGame() {
 
       {!done ? (
         <div className="space-y-3">
-          {sel !== null && selRow && selCol ? (
+          {pending ? (
+            <div className="flex items-center justify-between gap-3 rounded-2xl border border-primary bg-surface p-3 text-sm">
+              <span>
+                Where does <strong>{pending.company.name}</strong> go? Tap a highlighted square.
+              </span>
+              <button
+                type="button"
+                onClick={() => setPending(null)}
+                className="min-h-11 shrink-0 rounded-full border border-border px-4 font-semibold hover:border-primary"
+              >
+                Cancel
+              </button>
+            </div>
+          ) : (
             <>
-              <p className="text-center text-sm font-semibold">
-                {strip(selRow.label)} <span className="text-muted">×</span> {strip(selCol.label)}
-              </p>
-              <CompanySearch
-                key={sel}
-                companies={data.companies}
-                exclude={used}
-                autoFocus
-                onPick={(c) => guess(sel, c)}
-              />
-              {miss?.cell === sel && (
+              {miss && (
                 <p className="flex items-center justify-center gap-1.5 text-sm font-semibold text-wrong">
-                  <X size={16} aria-hidden /> {miss.name} doesn&apos;t fit this square
+                  <X size={16} aria-hidden /> {miss.name} doesn&apos;t fit any open square
                 </p>
               )}
-              <div className="flex justify-end">
+              <div className="flex items-start gap-2">
+                <div className="min-w-0 flex-1">
+                  <CompanySearch companies={data.companies} exclude={used} onPick={pick} />
+                </div>
                 <Hints
-                  {...hintState(progress.difficulty, hintsFor(puzzle, progress.cells, sel, companies), progress.cellHints[sel])}
-                  maxScore={maxScore}
+                  compact
+                  available={perSquare > 0 && open.length > 0}
+                  revealed={revealedHints}
+                  next={nextHint}
                   onReveal={() => {
                     const cellHints = [...progress.cellHints];
-                    cellHints[sel] += 1;
+                    cellHints[nextCell!] += 1;
                     update({ ...progress, cellHints });
                   }}
                 />
               </div>
             </>
-          ) : (
-            <p className="text-center text-sm text-muted">Tap a square to start.</p>
           )}
           <RevealButton label="Show answers" onConfirm={() => update({ ...progress, gaveUp: true })} />
         </div>
@@ -311,7 +334,8 @@ export function UnicornGridGame() {
             detail={`${filled} of 9 squares${hintsUsed ? ` · ${hintsUsed} ${hintsUsed === 1 ? "hint" : "hints"}` : ""}`}
             share={shareText(puzzle, progress, companies)}
             stats={
-              <StatsPanel
+              <>
+                <StatsPanel
                 mode={MODE}
                 bucket={filled}
                 scorePct={maxScore ? (score / maxScore) * 100 : 0}
@@ -319,6 +343,8 @@ export function UnicornGridGame() {
                 label={(b) => String(b)}
                 axis="Squares filled"
               />
+                <Leaderboard mode={MODE} difficulty={progress.difficulty} scorePct={maxScore ? (score / maxScore) * 100 : 0} hintsUsed={hintsUsed} />
+              </>
             }
           />
           <BuiltInEuropeCard company={featured} founders={featuredFounders} reason={featuredReason} />

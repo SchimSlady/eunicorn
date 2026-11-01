@@ -12,7 +12,8 @@ export default function Privacy() {
       <Section title="In short">
         <p>
           EUnicorn has no accounts, no cookies, no tracking and no ads. Your game progress stays on your device. We count
-          anonymously how often each game is played and how it went, without your IP address or any ID. The only
+          anonymously how often each game is played and how it went, without your IP address or any ID. If you choose
+          to join a daily leaderboard, the nickname you type is shown there for 30 days. The only
           personal data that reaches a server is what every website needs to be delivered: your IP address and a few
           technical details, processed by our host.
         </p>
@@ -65,6 +66,18 @@ export default function Privacy() {
             Supabase&apos;s privacy policy
           </a>
           .
+        </p>
+      </Section>
+
+      <Section title="Daily leaderboard (optional)">
+        <p>
+          Adding yourself to a daily leaderboard is your choice; if you don&apos;t, nothing is stored. If you do, our
+          server stores the name you typed, your score and number of hints, the game, the level and the day, together
+          with a random ID your browser made up. That ID only makes sure one device holds one entry per game and day;
+          we cannot tie it to you. The name and score are shown to everyone on that day&apos;s board. Please use a
+          nickname, not your real name or any other personal data. Legal basis: your consent, which you give by adding
+          yourself (Art. 6 (1) (a) GDPR); you can withdraw it by writing to us, and we then remove the entry. Entries
+          are deleted automatically after 30 days. They are stored with our database provider Supabase (see above).
         </p>
       </Section>
 

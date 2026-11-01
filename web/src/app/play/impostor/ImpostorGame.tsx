@@ -15,6 +15,7 @@ import { GameHeader } from "@/components/GameHeader";
 import { Announce, GameSkeleton, NoPuzzle } from "@/components/Announce";
 import { Hints, hintState } from "@/components/Hints";
 import { ResultArea } from "@/components/ResultArea";
+import { Leaderboard } from "@/components/Leaderboard";
 import { StatsPanel } from "@/components/StatsPanel";
 import { recordFinish, recordStart } from "@/lib/stats";
 
@@ -62,11 +63,11 @@ function evaluate(p: Play, progress: Progress) {
 }
 
 function shareText(p: Play, progress: Progress): string {
-  const { won, score } = evaluate(p, progress);
+  const { won } = evaluate(p, progress);
   const squares = progress.picks.map((id) => (impostorsOf(p).includes(id) ? "🟩" : "🟥")); // share text, not UI. taste-skill-ignore
   const many = impostorsOf(p).length > 1;
   const summary = won ? `Found ${many ? `all ${impostorsOf(p).length}` : "it"} in ${progress.picks.length} ${progress.picks.length === 1 ? "pick" : "picks"}` : "Missed it";
-  return buildShareText({ number: p.number, modeTitle: TITLE, difficulty: progress.difficulty, hintsUsed: progress.hintsUsed, squares, summary, score, maxScore: MAX_SCORE });
+  return buildShareText({ number: p.number, modeTitle: TITLE, difficulty: progress.difficulty, hintsUsed: progress.hintsUsed, squares, summary });
 }
 
 export function ImpostorGame() {
@@ -220,7 +221,6 @@ export function ImpostorGame() {
           </span>
           <Hints
             {...hintState(progress.difficulty, play.hints, progress.hintsUsed)}
-            maxScore={MAX_SCORE}
             onReveal={() => update({ ...progress, hintsUsed: progress.hintsUsed + 1 })}
           />
         </div>
@@ -235,7 +235,8 @@ export function ImpostorGame() {
             }
             share={shareText(play, progress)}
             stats={
-              <StatsPanel
+              <>
+                <StatsPanel
                 mode={MODE}
                 bucket={won ? progress.picks.length : 0}
                 scorePct={(score / MAX_SCORE) * 100}
@@ -243,6 +244,8 @@ export function ImpostorGame() {
                 label={(b) => (b === 0 ? "X" : String(b))}
                 axis="Picks needed"
               />
+                <Leaderboard mode={MODE} difficulty={progress.difficulty} scorePct={(score / MAX_SCORE) * 100} hintsUsed={progress.hintsUsed} />
+              </>
             }
           />
           <p className="flex animate-flip-in items-start gap-2 rounded-2xl border border-border bg-surface p-4 text-sm">

@@ -232,8 +232,8 @@ function unicornGrid(
 
   const variants: UnicornGridVariants = {};
   for (const level of DIFFICULTIES) {
-    // Investor squares by level: Easy only the best-known investors, Hard also the obscure ones.
-    const allowed = criteria.filter((k) => k.group !== "investor" || (k.tier ?? 3) <= INVESTOR_TIER_MAX[level]);
+    // Investor squares only with investors players can know (tier 1 and 2), at every level.
+    const allowed = criteria.filter((k) => k.group !== "investor" || (k.tier ?? 4) <= INVESTOR_TIER_MAX);
     const built = forLevel(level, companies, (pool, tier) => gridFor(allowed, meet, byId, new Set(pool.map((c) => c.id)), tier, rng));
     if (built) variants[level] = built;
   }

@@ -16,6 +16,7 @@ import { GameHeader } from "@/components/GameHeader";
 import { Announce, GameSkeleton, NoPuzzle } from "@/components/Announce";
 import { Hints, hintState } from "@/components/Hints";
 import { ResultArea } from "@/components/ResultArea";
+import { Leaderboard } from "@/components/Leaderboard";
 import { StatsPanel } from "@/components/StatsPanel";
 import { recordFinish, recordStart } from "@/lib/stats";
 
@@ -100,10 +101,10 @@ function evaluate(p: HigherLowerPuzzle, progress: Progress, companies: Map<strin
 }
 
 function shareText(p: HigherLowerPuzzle, progress: Progress, companies: Map<string, Company>): string {
-  const { rounds, score, correct, totalRounds, maxScore } = evaluate(p, progress, companies);
+  const { rounds, correct, totalRounds } = evaluate(p, progress, companies);
   const squares = rounds.filter((r) => r.answer !== undefined).map((r) => (r.correct ? "🟩" : "🟥")); // share text, not UI. taste-skill-ignore
   const summary = `${correct} of ${totalRounds} right`;
-  return buildShareText({ number: p.number, modeTitle: TITLE, difficulty: progress.difficulty, hintsUsed: progress.hintsUsed, squares, summary, score, maxScore });
+  return buildShareText({ number: p.number, modeTitle: TITLE, difficulty: progress.difficulty, hintsUsed: progress.hintsUsed, squares, summary });
 }
 
 export function HigherLowerGame() {
@@ -190,7 +191,8 @@ export function HigherLowerGame() {
           detail={`${correct} of ${totalRounds} right${progress.hintsUsed ? ` · ${progress.hintsUsed} ${progress.hintsUsed === 1 ? "hint" : "hints"}` : ""}`}
           share={shareText(play, progress, companies)}
           stats={
-            <StatsPanel
+            <>
+              <StatsPanel
               mode={MODE}
               bucket={correct}
               scorePct={maxScore ? (score / maxScore) * 100 : 0}
@@ -198,6 +200,8 @@ export function HigherLowerGame() {
               label={(b) => String(b)}
               axis="Rounds right"
             />
+              <Leaderboard mode={MODE} difficulty={progress.difficulty} scorePct={maxScore ? (score / maxScore) * 100 : 0} hintsUsed={progress.hintsUsed} />
+            </>
           }
         />
         <ul className="space-y-2">
@@ -320,7 +324,6 @@ export function HigherLowerGame() {
         <div className="flex justify-end">
           <Hints
             {...hintState(progress.difficulty, play.hints, progress.hintsUsed)}
-            maxScore={maxScore}
             onReveal={() => update({ ...progress, hintsUsed: progress.hintsUsed + 1 })}
           />
         </div>

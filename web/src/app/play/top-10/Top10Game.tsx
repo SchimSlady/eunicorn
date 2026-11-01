@@ -17,6 +17,7 @@ import { Announce, GameSkeleton, NoPuzzle } from "@/components/Announce";
 import { Hints, hintState } from "@/components/Hints";
 import { ResultArea } from "@/components/ResultArea";
 import { RevealButton } from "@/components/RevealButton";
+import { Leaderboard } from "@/components/Leaderboard";
 import { StatsPanel } from "@/components/StatsPanel";
 import { recordFinish, recordStart } from "@/lib/stats";
 
@@ -48,7 +49,7 @@ function evaluate(p: Top10Round, progress: Progress) {
 }
 
 function shareText(p: Top10Puzzle, round: Top10Round, progress: Progress): string {
-  const { found, score } = evaluate(round, progress);
+  const { found } = evaluate(round, progress);
   const squares = progress.guesses.map((id) => (round.companyIds.includes(id) ? "🟩" : "🟥")); // share text, not UI. taste-skill-ignore
   return buildShareText({
     number: p.number,
@@ -57,8 +58,6 @@ function shareText(p: Top10Puzzle, round: Top10Round, progress: Progress): strin
     hintsUsed: progress.hintsUsed,
     squares,
     summary: `${found.length} of 10 found`,
-    score,
-    maxScore: MAX_SCORE,
   });
 }
 
@@ -173,7 +172,6 @@ export function Top10Game() {
             </span>
             <Hints
               {...hintState(progress.difficulty, round.hints, progress.hintsUsed)}
-              maxScore={MAX_SCORE}
               onReveal={() => update({ ...progress, hintsUsed: progress.hintsUsed + 1 })}
             />
           </div>
@@ -187,7 +185,8 @@ export function Top10Game() {
             detail={`${found.length} of 10 found${wrong ? ` · ${wrong} wrong` : ""}${progress.hintsUsed ? ` · ${progress.hintsUsed} ${progress.hintsUsed === 1 ? "hint" : "hints"}` : ""}`}
             share={shareText(puzzle, round, progress)}
             stats={
-              <StatsPanel
+              <>
+                <StatsPanel
                 mode={MODE}
                 bucket={found.length}
                 scorePct={(score / MAX_SCORE) * 100}
@@ -195,6 +194,8 @@ export function Top10Game() {
                 label={(b) => String(b)}
                 axis="Companies found"
               />
+                <Leaderboard mode={MODE} difficulty={progress.difficulty} scorePct={(score / MAX_SCORE) * 100} hintsUsed={progress.hintsUsed} />
+              </>
             }
           />
           <BuiltInEuropeCard company={top} founders={topFounders} reason={topReason} />

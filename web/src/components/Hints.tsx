@@ -4,7 +4,6 @@ import { useRef, useState } from "react";
 import { Lightbulb } from "lucide-react";
 import type { Hint } from "@eunicorn/schema";
 import { hintLimit, type Difficulty } from "@/lib/difficulty";
-import { formatPoints } from "@/lib/scoring";
 import { Sheet } from "./Sheet";
 
 /** What a level offers of a hint list: whether any hint is on offer, those used so far, and the next one. */
@@ -23,13 +22,14 @@ export function Hints({
   revealed,
   next,
   onReveal,
-  maxScore,
+  compact = false,
 }: {
   available: boolean;
   revealed: Hint[];
   next: Hint | undefined;
   onReveal: () => void;
-  maxScore: number;
+  /** Just the lightbulb, to sit beside an input. */
+  compact?: boolean;
 }) {
   const [open, setOpen] = useState(false);
   const button = useRef<HTMLButtonElement>(null);
@@ -46,12 +46,19 @@ export function Hints({
         ref={button}
         type="button"
         onClick={() => setOpen(true)}
-        className="inline-flex min-h-11 items-center gap-2 rounded-full border border-border bg-surface px-4 text-sm font-medium hover:border-primary"
+        aria-label={revealed.length ? `Hints, ${revealed.length} used` : "Hints"}
+        className={`relative inline-flex min-h-11 items-center gap-2 rounded-full border border-border bg-surface text-sm font-medium hover:border-primary ${
+          compact ? "h-[50px] w-12 shrink-0 justify-center" : "px-4"
+        }`}
       >
-        <Lightbulb size={16} aria-hidden />
-        Hints
+        <Lightbulb size={compact ? 20 : 16} aria-hidden />
+        {!compact && "Hints"}
         {revealed.length > 0 && (
-          <span className="flex h-5 min-w-5 items-center justify-center rounded-full bg-primary px-1 text-xs font-bold text-on-primary">
+          <span
+            className={`flex h-5 min-w-5 items-center justify-center rounded-full bg-primary px-1 text-xs font-bold text-on-primary ${
+              compact ? "absolute -right-1 -top-1" : ""
+            }`}
+          >
             {revealed.length}
           </span>
         )}
@@ -71,13 +78,14 @@ export function Hints({
               ))}
             </ul>
           )}
+          {next && <p className="text-sm text-muted">A hint lowers your score.</p>}
           {next ? (
             <button
               type="button"
               onClick={onReveal}
               className="min-h-11 w-full rounded-full border border-border bg-surface px-4 font-semibold hover:border-primary"
             >
-              Reveal next hint <span className="text-muted">−{formatPoints(next.cost, maxScore)}</span>
+              Reveal next hint
             </button>
           ) : (
             revealed.length > 0 && <p className="text-center text-sm text-muted">No more hints.</p>
