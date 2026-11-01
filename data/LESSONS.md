@@ -87,3 +87,13 @@ Read this before verifying a company. Each rule came from a real problem in the 
 - **Unicorn wording:** "over/above €1bn" (euros, or pounds) counts. Store €1bn as the floor. "Over $1bn" without an exact number does not count. Press estimates and undisclosed valuations don't count either (Brevo, Picnic, Isomorphic Labs, EnduroSat and Improbable are not unicorns under the rule).
 - **Excluded companies' files live in `data/excluded/`**, not `data/verified/`, so validation and the loader skip them.
 - **unquote.com and eqtgroup.com rate-limit us.** "Unreachable" from them is usually temporary; prefer TechCrunch, tech.eu or the press release as the source.
+
+## Logo gaps, round 2 (2026-11-01)
+- **Sources that worked when nothing else did:**
+  - Rendering the page in headless Chromium (logos drawn by JS, CSS backgrounds or SVG sprites: Nord Security, Coatue, Founders Fund, CoachHub).
+  - Sibling files next to the site's white logo (Founders Fund `logo-ff-2015.svg`, Aiven `aiven-logo-black.png`).
+  - Press-release wires, where companies upload their own logo (`mma.prnewswire.com`: Adjust, BenevolentAI).
+  - The Wayback Machine for acquired companies.
+  - GitHub org avatars as a symbol-only fallback (Improbable).
+- **White-only brands stay without a logo:** we show logos on a white tile only (Pablo, 2026-11-01). No dark tiles, no recolouring.
+- **Domains go stale:** globalfounders.vc now serves an unrelated casino page (GFC is globalfounderscapital.com), Target Global is now onetarget.vc, and CuspAI is cusp.ai.
