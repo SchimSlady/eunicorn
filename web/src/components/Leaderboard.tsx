@@ -73,7 +73,7 @@ export function Leaderboard({
         Leaderboard <span className="text-sm font-normal text-muted">· {DIFFICULTY_META[difficulty].label}, today</span>
       </h2>
 
-      {board.top.length > 0 ? (
+      {board.top.length > 0 && (
         <ol className="space-y-0.5">
           {board.top.map((r) => row(r, board.you ? inTop && r.rank === board.you.rank && r.name === board.you.name : false))}
           {board.you && !inTop && (
@@ -83,8 +83,6 @@ export function Leaderboard({
             </>
           )}
         </ol>
-      ) : (
-        <p className="text-sm text-muted">Nobody on today&apos;s board yet. Be the first.</p>
       )}
 
       {board.you ? (

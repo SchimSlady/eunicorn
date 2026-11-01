@@ -41,7 +41,6 @@ export function ModeCards() {
               </div>
               <div className="p-4">
                 <p className="font-display text-lg font-bold leading-tight">{m.title}</p>
-                <p className="mt-1 text-sm text-muted">{result ? "Played today" : m.tagline}</p>
               </div>
             </>
           );

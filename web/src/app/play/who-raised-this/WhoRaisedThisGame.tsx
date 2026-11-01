@@ -152,8 +152,7 @@ export function WhoRaisedThisGame() {
             exclude={new Set(progress.guesses)}
             onPick={(c) => update({ ...progress, guesses: [...progress.guesses, c.id] })}
           />
-          <div className="flex items-center justify-between text-sm">
-            <span className="text-muted">{wrong === 0 ? "No wrong guesses yet" : `${wrong} wrong`}</span>
+          <div className="flex justify-end">
             <Hints
               {...hintState(progress.difficulty, play.hints, progress.hintsUsed)}
               onReveal={() => update({ ...progress, hintsUsed: progress.hintsUsed + 1 })}

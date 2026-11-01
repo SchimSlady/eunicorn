@@ -66,9 +66,7 @@ export function Hints({
       {open && (
         <Sheet title="Hints" onClose={close}>
           <h2 className="pr-10 font-display text-xl font-bold">Hints</h2>
-          {revealed.length === 0 ? (
-            <p className="text-muted">No hint used yet.</p>
-          ) : (
+          {revealed.length > 0 && (
             <ul className="space-y-2">
               {revealed.map((h, i) => (
                 <li key={`${i}-${h.text}`} className="flex items-start gap-2 rounded-2xl bg-eu-yellow/20 p-3 text-sm">
@@ -79,7 +77,7 @@ export function Hints({
             </ul>
           )}
           {next && <p className="text-sm text-muted">A hint lowers your score.</p>}
-          {next ? (
+          {next && (
             <button
               type="button"
               onClick={onReveal}
@@ -87,8 +85,6 @@ export function Hints({
             >
               Reveal next hint
             </button>
-          ) : (
-            revealed.length > 0 && <p className="text-center text-sm text-muted">No more hints.</p>
           )}
           <button type="button" onClick={close} className="min-h-11 w-full rounded-full bg-primary px-4 font-semibold text-on-primary">
             Back to the game
