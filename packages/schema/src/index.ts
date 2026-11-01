@@ -63,6 +63,8 @@ export interface Investor {
   domain?: string;
   /** How well known: 1 = top 10 VCs, 2 = ~50 famous, 3 = next ~200, 4 = the rest. Clue only tiers 1–2 (3 on hard days). */
   tier?: 1 | 2 | 3 | 4;
+  /** Path under /web/public, e.g. "/logos/investors/sequoia-capital.svg". Tier 1–2 only for now. */
+  logo?: string;
 }
 
 export interface Round {
