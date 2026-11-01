@@ -5,7 +5,7 @@ import { X } from "lucide-react";
 import type { Company, Dataset, GridCriterion, UnicornGridPuzzle } from "@eunicorn/schema";
 import { indexById, loadGame } from "@/lib/data";
 import { getTodayResult, loadProgress, saveProgress, saveResult } from "@/lib/daily";
-import { saveDifficulty, type Difficulty } from "@/lib/difficulty";
+import { hintLimit, saveDifficulty, type Difficulty } from "@/lib/difficulty";
 import { formatPoints, shareText as buildShareText } from "@/lib/scoring";
 import { CompanyLogo } from "@/components/CompanyLogo";
 import { distinctAnswers } from "@/lib/grid";
@@ -24,12 +24,17 @@ import { recordFinish, recordStart } from "@/lib/stats";
 const MODE = "unicorn-grid";
 const TITLE = "Unicorn Grid";
 
-/** How each difficulty changes the rules. Same grid for everyone. */
-const RULES: Record<Difficulty, { guesses: number; hints: boolean; logosInSearch: boolean }> = {
-  easy: { guesses: 12, hints: true, logosInSearch: true },
-  medium: { guesses: 9, hints: true, logosInSearch: true },
-  hard: { guesses: 9, hints: false, logosInSearch: false },
-};
+/** The same at every level (right and wrong guesses together): a level only changes which startups the grid is built on and how many hints are on offer. */
+const GUESSES = 12;
+
+/** The part of the puzzle that differs by level. A hand-made puzzle has no variants: one for all. */
+type Level = Pick<UnicornGridPuzzle, "rows" | "cols" | "validAnswers" | "cellHints">;
+type Puzzle = UnicornGridPuzzle & { variants?: Partial<Record<Difficulty, Level>> };
+
+function atLevel(p: Puzzle, d: Difficulty): UnicornGridPuzzle {
+  const v = p.variants?.[d];
+  return v ? { ...p, ...v } : p;
+}
 
 
 interface Progress {
@@ -45,15 +50,13 @@ interface Progress {
  * so lesser-known answers raise more. Max = the most obscure valid answer for every square.
  */
 function evaluate(p: UnicornGridPuzzle, progress: Progress, companies: Map<string, Company>) {
-  const rules = RULES[progress.difficulty];
   const filled = progress.cells.filter(Boolean).length;
-  const guessesLeft = rules.guesses - filled - progress.wrong;
+  const guessesLeft = GUESSES - filled - progress.wrong;
   const done = progress.gaveUp || filled === 9 || guessesLeft <= 0;
   const worth = (id: string) => companies.get(id)?.difficulty ?? 1;
   const hintCost = progress.cellHints.reduce((s, n, i) => s + p.cellHints[i].slice(0, n).reduce((a, h) => a + h.cost, 0), 0);
   const raised = progress.cells.reduce((s, id) => s + (id ? worth(id) : 0), 0);
   return {
-    rules,
     filled,
     guessesLeft,
     done,
@@ -83,7 +86,7 @@ function CriterionLabel({ c }: { c: GridCriterion }) {
 }
 
 export function UnicornGridGame() {
-  const [puzzle, setPuzzle] = useState<UnicornGridPuzzle | null | undefined>(undefined);
+  const [daily, setDaily] = useState<Puzzle | null | undefined>(undefined);
   const [data, setData] = useState<Dataset | null>(null);
   const [progress, setProgress] = useState<Progress | null>(null);
   const [selected, setSelected] = useState<number | null>(null);
@@ -91,17 +94,17 @@ export function UnicornGridGame() {
   const [miss, setMiss] = useState<{ cell: number; name: string; n: number } | null>(null);
 
   useEffect(() => {
-    loadGame<UnicornGridPuzzle>(MODE).then(({ puzzle: p, data: d }) => {
+    loadGame<Puzzle>(MODE).then(({ puzzle: p, data: d }) => {
       setData(d);
-      setPuzzle(p);
+      setDaily(p);
       if (p) setProgress(loadProgress<Progress>(MODE, p.date));
     });
   }, []);
 
   const companies = useMemo(() => (data ? indexById(data.companies) : new Map<string, Company>()), [data]);
 
-  if (puzzle === undefined || !data) return <GameSkeleton />;
-  if (puzzle === null) return <NoPuzzle />;
+  if (daily === undefined || !data) return <GameSkeleton />;
+  if (daily === null) return <NoPuzzle />;
 
   // No progress yet: show the intro and choose the level. The game is set up from that choice.
   if (!progress) {
@@ -113,13 +116,14 @@ export function UnicornGridGame() {
           const fresh: Progress = { difficulty: d, cells: Array(9).fill(null), wrong: 0, cellHints: Array(9).fill(0), gaveUp: false };
           recordStart(MODE, d);
           setProgress(fresh);
-          saveProgress(MODE, puzzle.date, fresh);
+          saveProgress(MODE, daily.date, fresh);
         }}
       />
     );
   }
 
-  const { rules, filled, guessesLeft, done, worth, hintsUsed, maxScore, score } = evaluate(puzzle, progress, companies);
+  const puzzle = atLevel(daily, progress.difficulty);
+  const { filled, guessesLeft, done, worth, hintsUsed, maxScore, score } = evaluate(puzzle, progress, companies);
   const used = new Set(progress.cells.filter((id): id is string => !!id));
 
   function update(next: Progress) {
@@ -251,7 +255,6 @@ export function UnicornGridGame() {
                 key={sel}
                 companies={data.companies}
                 exclude={used}
-                showLogos={rules.logosInSearch}
                 autoFocus
                 onPick={(c) => guess(sel, c)}
               />
@@ -261,7 +264,7 @@ export function UnicornGridGame() {
                 </p>
               )}
               <HintList hints={puzzle.cellHints[sel].slice(0, progress.cellHints[sel])} />
-              {rules.hints && progress.cellHints[sel] < puzzle.cellHints[sel].length && (
+              {progress.cellHints[sel] < hintLimit(progress.difficulty, puzzle.cellHints[sel].length) && (
                 <div className="flex justify-end">
                   <HintButton maxScore={maxScore}
                     cost={puzzle.cellHints[sel][progress.cellHints[sel]].cost}

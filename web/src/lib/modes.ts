@@ -21,8 +21,9 @@ export const MODES: ModeInfo[] = [
     rules: [
       "Name the ten companies in the list: type a startup, and if it's in the top 10 it lands on its rank.",
       "Each company found adds €100m of valuation. A name that isn't in the list costs a life.",
-      "Easy: all of Europe or a big country, 5 lives. Medium: another country or a big sector, 3 lives. Hard: a smaller sector or a city, 3 lives, no hints.",
-      "The list comes from our verified database, by last valuation or total raised.",
+      "You have 5 lives.",
+      "The list comes from our verified database, by last valuation or total raised. Easy lists are Europe or a big country, Medium adds other countries and big sectors, Hard adds smaller sectors and cities.",
+      "Easy, Medium and Hard play the same. The level sets how big the list's scope is, and how many hints you get: all on Easy, half on Medium, none on Hard.",
     ],
   },
   {
@@ -34,7 +35,8 @@ export const MODES: ModeInfo[] = [
       "A funding round is on the board: the amount and the stage. Guess which startup raised it.",
       "Every wrong guess unlocks the next clue: when it was announced, sector, founding year, HQ, investors, founders.",
       "You start at a €1bn valuation. Each wrong guess costs €100m.",
-      "Easy: 3 clues up front, 8 guesses. Medium: 1 clue, 8 guesses. Hard: 1 clue, 4 guesses, no hints, no logos in the search.",
+      "You have 8 guesses.",
+      "Easy, Medium and Hard play the same. The level sets how well known the startups are, and how many hints you get: all on Easy, half on Medium, none on Hard.",
     ],
   },
   {
@@ -46,7 +48,8 @@ export const MODES: ModeInfo[] = [
       "Fill each square with a startup that fits both its row and its column.",
       "Each company can be used only once.",
       "Lesser-known answers add more valuation: an insider pick is worth up to five times a household name.",
-      "Wrong guesses use up your guesses. Easy: 12 guesses. Medium: 9. Hard: 9, no hints, no logos in the search.",
+      "You have 12 guesses in all, right ones and wrong ones.",
+      "Easy, Medium and Hard play the same. The level sets how well known the startups are, and how many hints you get: all on Easy, half on Medium, none on Hard.",
     ],
   },
   {
@@ -57,18 +60,19 @@ export const MODES: ModeInfo[] = [
     rules: [
       "You see one company's valuation or total raised. Is the next company's number higher or lower?",
       "Each right call adds the same share of €1bn. One wrong call ends the run.",
-      "The level sets how close the numbers are: Easy far apart (2× or more), Medium closer, Hard close calls and no hints.",
+      "Neighbouring numbers are never close calls: at least 30% apart.",
+      "Easy, Medium and Hard play the same. The level sets how well known the startups are, and how many hints you get: all on Easy, half on Medium, none on Hard.",
     ],
   },
   {
     mode: "impostor",
     title: "Impostor",
     tagline: "Spot the odd one out",
-    description: "Five startups, one category. Find the one that doesn't belong.",
+    description: "Six startups, one category. Find the one that doesn't belong.",
     rules: [
       "All but one of the startups share something: a country, a city, a sector, a founding period or unicorn status.",
-      "Find the impostor. You start at a €1bn valuation; each wrong pick costs €400m.",
-      "Easy: 5 companies, the category is shown, 3 tries. Medium: 6 companies, find the pattern yourself (the first hint gives it away), 2 tries. Hard: 8 companies, hidden pattern, a sneakier impostor, 1 try, no hints.",
+      "Find the impostor. You start at a €1bn valuation; each wrong pick costs €400m, and a second wrong pick ends the game.",
+      "Easy, Medium and Hard play the same. The level sets how well known the startups are, and how many hints you get: all on Easy, half on Medium, none on Hard.",
     ],
   },
 ];

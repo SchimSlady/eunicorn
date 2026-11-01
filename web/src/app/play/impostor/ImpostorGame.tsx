@@ -5,7 +5,7 @@ import { Check, VenetianMask, X } from "lucide-react";
 import type { Company, Dataset, ImpostorPuzzle } from "@eunicorn/schema";
 import { indexById, loadGame } from "@/lib/data";
 import { getTodayResult, loadProgress, saveProgress, saveResult } from "@/lib/daily";
-import { saveDifficulty, type Difficulty } from "@/lib/difficulty";
+import { hintLimit, saveDifficulty, type Difficulty } from "@/lib/difficulty";
 import { shareText as buildShareText } from "@/lib/scoring";
 import { CompanyLogo } from "@/components/CompanyLogo";
 import { BuiltInEuropeCard } from "@/components/BuiltInEuropeCard";
@@ -23,12 +23,8 @@ const TITLE = "Impostor";
 const MAX_SCORE = 10;
 const WRONG_PICK_COST = 4;
 
-/** How each difficulty changes the rules. Same five companies for everyone. */
-const RULES: Record<Difficulty, { tries: number; hints: boolean }> = {
-  easy: { tries: 3, hints: true },
-  medium: { tries: 2, hints: true },
-  hard: { tries: 1, hints: false },
-};
+/** The same at every level: a level only changes how well known the six startups are and how many hints are on offer. */
+const TRIES = 2;
 
 
 interface Progress {
@@ -37,26 +33,21 @@ interface Progress {
   hintsUsed: number;
 }
 
-/** A puzzle may carry one variant per level (more options and a closer impostor on Hard). */
-type Variant = Pick<ImpostorPuzzle, "prompt" | "companyIds" | "impostorId" | "explanation" | "hints"> & {
-  /** Category not shown until the end (Medium/Hard): the player finds the pattern. */
-  hidden?: boolean;
-};
-type Puzzle = ImpostorPuzzle & Variant & { variants?: Partial<Record<Difficulty, Variant>> };
+/** A puzzle may carry one variant per level (the startups' fame differs). */
+type Variant = Pick<ImpostorPuzzle, "prompt" | "companyIds" | "impostorId" | "explanation" | "hints">;
+type Puzzle = ImpostorPuzzle & { variants?: Partial<Record<Difficulty, Variant>> };
 
 /** The puzzle as played at this level; a hand-made puzzle without variants is the same for all. */
-function atLevel(p: Puzzle, d: Difficulty): ImpostorPuzzle & Variant {
+function atLevel(p: Puzzle, d: Difficulty): ImpostorPuzzle {
   return p.variants?.[d] ? { ...p, ...p.variants[d] } : p;
 }
 
 function evaluate(p: ImpostorPuzzle, progress: Progress) {
-  const rules = RULES[progress.difficulty];
   const won = progress.picks.includes(p.impostorId);
   const wrong = progress.picks.filter((id) => id !== p.impostorId).length;
-  const done = won || wrong >= rules.tries;
+  const done = won || wrong >= TRIES;
   const hintCost = p.hints.slice(0, progress.hintsUsed).reduce((s, h) => s + h.cost, 0);
   return {
-    rules,
     won,
     wrong,
     done,
@@ -106,8 +97,8 @@ export function ImpostorGame() {
   }
 
   const play = atLevel(puzzle, progress.difficulty);
-  const { rules, won, wrong, done, score } = evaluate(play, progress);
-  const triesLeft = rules.tries - wrong;
+  const { won, wrong, done, score } = evaluate(play, progress);
+  const triesLeft = TRIES - wrong;
   const impostor = companies.get(play.impostorId)!;
   // End card: the impostor, the company the whole puzzle was about.
   const featured = impostor;
@@ -145,11 +136,11 @@ export function ImpostorGame() {
         }
       />
 
-      {/* The five companies on a circle around the category; tap the one that doesn't belong. */}
+      {/* The companies on a circle around the category; tap the one that doesn't belong. */}
       <div className="relative mx-auto aspect-square w-full max-w-[420px]">
         <span aria-hidden className="absolute inset-[13%] rounded-full border-2 border-dashed border-border" />
         <p className="absolute inset-[29%] flex items-center justify-center rounded-full bg-eu-blue p-3 text-center font-display text-sm font-bold leading-snug text-white sm:text-base">
-          {play.hidden && !done ? "One of these doesn't belong. Which one?" : play.prompt}
+          {play.prompt}
         </p>
         <ul>
           {play.companyIds.map((id, i) => {
@@ -217,7 +208,7 @@ export function ImpostorGame() {
           <span className="text-muted">
             {triesLeft} {triesLeft === 1 ? "try" : "tries"} left
           </span>
-          {rules.hints && progress.hintsUsed < play.hints.length && (
+          {progress.hintsUsed < hintLimit(progress.difficulty, play.hints.length) && (
             <HintButton maxScore={MAX_SCORE} cost={play.hints[progress.hintsUsed].cost} onClick={() => update({ ...progress, hintsUsed: progress.hintsUsed + 1 })} />
           )}
         </div>

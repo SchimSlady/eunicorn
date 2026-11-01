@@ -5,7 +5,7 @@ import { X } from "lucide-react";
 import type { Company, Dataset } from "@eunicorn/schema";
 import { indexById, loadGame } from "@/lib/data";
 import { getTodayResult, loadProgress, saveProgress, saveResult } from "@/lib/daily";
-import { saveDifficulty, type Difficulty } from "@/lib/difficulty";
+import { hintLimit, saveDifficulty, type Difficulty } from "@/lib/difficulty";
 import { formatMetric } from "@/lib/format";
 import { shareText as buildShareText } from "@/lib/scoring";
 import type { Top10Puzzle, Top10Round } from "@/lib/top10";
@@ -25,12 +25,8 @@ const MODE = "top-10";
 const TITLE = "Top 10";
 const MAX_SCORE = 10;
 
-/** Lives (wrong names allowed) and hints per level; the list itself differs by level too. */
-const RULES: Record<Difficulty, { lives: number; hints: boolean }> = {
-  easy: { lives: 5, hints: true },
-  medium: { lives: 3, hints: true },
-  hard: { lives: 3, hints: false },
-};
+/** Wrong names allowed: the same at every level. A level changes the list (its scope) and how many hints are on offer. */
+const LIVES = 5;
 
 interface Progress {
   difficulty: Difficulty;
@@ -45,12 +41,11 @@ function atLevel(p: Top10Puzzle, d: Difficulty): Top10Round {
 }
 
 function evaluate(p: Top10Round, progress: Progress) {
-  const rules = RULES[progress.difficulty];
   const found = progress.guesses.filter((id) => p.companyIds.includes(id));
   const wrong = progress.guesses.length - found.length;
-  const done = progress.gaveUp || found.length === p.companyIds.length || wrong >= rules.lives;
+  const done = progress.gaveUp || found.length === p.companyIds.length || wrong >= LIVES;
   const hintCost = p.hints.slice(0, progress.hintsUsed).reduce((s, h) => s + h.cost, 0);
-  return { rules, found, wrong, livesLeft: rules.lives - wrong, done, score: Math.max(0, found.length - hintCost) };
+  return { found, wrong, livesLeft: LIVES - wrong, done, score: Math.max(0, found.length - hintCost) };
 }
 
 function shareText(p: Top10Puzzle, round: Top10Round, progress: Progress): string {
@@ -103,7 +98,7 @@ export function Top10Game() {
   }
 
   const round = atLevel(puzzle, progress.difficulty);
-  const { rules, found, wrong, livesLeft, done, score } = evaluate(round, progress);
+  const { found, wrong, livesLeft, done, score } = evaluate(round, progress);
 
   function update(next: Progress) {
     setProgress(next);
@@ -192,13 +187,13 @@ export function Top10Game() {
           <div className="flex items-center justify-between text-sm">
             <span className="flex items-center gap-2 text-muted">
               <span className="flex gap-1" aria-hidden>
-                {Array.from({ length: rules.lives }, (_, i) => (
+                {Array.from({ length: LIVES }, (_, i) => (
                   <span key={i} className={`h-2.5 w-2.5 rounded-full ${i < livesLeft ? "bg-primary" : "bg-wrong/60"}`} />
                 ))}
               </span>
               {livesLeft} {livesLeft === 1 ? "life" : "lives"} left · {found.length}/10
             </span>
-            {rules.hints && progress.hintsUsed < round.hints.length && (
+            {progress.hintsUsed < hintLimit(progress.difficulty, round.hints.length) && (
               <HintButton maxScore={MAX_SCORE} cost={round.hints[progress.hintsUsed].cost} onClick={() => update({ ...progress, hintsUsed: progress.hintsUsed + 1 })} />
             )}
           </div>

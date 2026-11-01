@@ -5,8 +5,11 @@ Message: **Go build in Europe.**
 
 ## Audience
 The whole startup ecosystem (founders, VCs, operators) **and students**.
-Difficulty rises over the week: Monday uses very well-known companies (Revolut, Spotify, Mistral), Sunday is for insiders.
-Each company has a `difficulty` from 1 to 5 that drives this curve.
+The player picks **Easy, Medium or Hard** before each game. All levels play the same; a level changes only
+(1) how well known the startups are: Easy draws on well-known companies (Revolut, Spotify, Mistral), Hard on insiders, and
+(2) how many hints are on offer: all on Easy, half on Medium, none on Hard.
+Each company has a `difficulty` from 1 to 5 (1 = everyone knows it, 5 = insider), set in the data. `FAME_TIERS` in
+`web/src/lib/difficulty.ts` maps it to levels (Easy 1-2, Medium 1-3, Hard 1-5: each level adds harder companies). There is no weekday curve.
 
 ## Core loop
 - Each mode can be played **once per day**. Puzzles reset at **00:00 CET** (`Europe/Berlin`).
