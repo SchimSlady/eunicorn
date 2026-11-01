@@ -41,7 +41,7 @@ export function ResultArea({
         >
           <BarChart3 size={16} aria-hidden /> Results
         </button>
-        <ShareButton text={share} compact onCannotCopy={() => setOpen(true)} />
+        <ShareButton text={share} compact />
       </div>
 
       {open && (
