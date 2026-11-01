@@ -251,10 +251,13 @@ export function UnicornGridGame() {
                       <div className="min-h-0 flex-1">
                         <CompanyLogo company={shown} fill />
                       </div>
-                      <div className="flex items-baseline justify-between gap-1 px-0.5 text-[11px] leading-tight">
-                        <span className="truncate font-semibold">{shown.name}</span>
-                        {c && <span className="shrink-0 font-bold text-correct">+{formatPoints(worth(c.id), maxScore)}</span>}
-                      </div>
+                      {/* The name gets the full width on up to two lines; the reward sits in the corner. */}
+                      <span className="line-clamp-2 px-0.5 text-center text-[11px] font-semibold leading-tight">{shown.name}</span>
+                      {c && (
+                        <span className="absolute -right-1.5 -top-1.5 z-10 rounded-full bg-correct px-1.5 py-0.5 text-[11px] font-bold leading-none text-white">
+                          +{formatPoints(worth(c.id), maxScore)}
+                        </span>
+                      )}
                     </>
                   )}
                 </button>
