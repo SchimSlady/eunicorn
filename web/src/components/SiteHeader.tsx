@@ -3,13 +3,14 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Flame } from "lucide-react";
-import { RESULTS_EVENT, streak } from "@/lib/daily";
+import { Clock, Flame } from "lucide-react";
+import { RESULTS_EVENT, msUntilNextPuzzle, streak } from "@/lib/daily";
 import { LIVE_MODES } from "@/lib/modes";
 import { Wordmark } from "./Wordmark";
 
 /**
- * Bar on every page: the wordmark (back to all games) on the left, the streak and the square logo on the right.
+ * Bar on every page: the wordmark (back to all games) on the left; on the right the time until
+ * the next games, the streak and the square logo.
  * The streak counts a day if any mode was played; it updates when a game finishes.
  */
 export function SiteHeader() {
@@ -23,6 +24,15 @@ export function SiteHeader() {
     return () => window.removeEventListener(RESULTS_EVENT, refresh);
   }, [pathname]);
 
+  // Null until mounted: the server can't know the visitor's clock, so nothing renders there.
+  const [left, setLeft] = useState<number | null>(null);
+  useEffect(() => {
+    const tick = () => setLeft(msUntilNextPuzzle());
+    tick();
+    const id = setInterval(tick, 15_000);
+    return () => clearInterval(id);
+  }, []);
+
   return (
     <header className="sticky top-0 z-20 border-b border-border bg-background/90 backdrop-blur">
       <div className="mx-auto flex h-14 max-w-5xl items-center justify-between px-4 sm:px-6">
@@ -34,6 +44,17 @@ export function SiteHeader() {
           <Wordmark />
         </Link>
         <span className="flex items-center gap-2">
+          {left !== null && (
+            <span
+              className="flex items-center gap-1.5 text-sm text-muted"
+              title="New games every day at midnight (Berlin time)"
+              aria-label={`New games in ${untilText(left)}`}
+            >
+              <Clock size={15} aria-hidden />
+              <span className="hidden sm:inline">New games in</span>
+              <span className="font-semibold tabular-nums text-foreground">{untilText(left)}</span>
+            </span>
+          )}
           <span
             className={`flex items-center gap-1.5 rounded-full border border-border px-3 py-1 text-sm font-semibold ${days ? "" : "text-muted"}`}
             title="Days in a row with at least one game played"
@@ -53,4 +74,12 @@ export function SiteHeader() {
       </div>
     </header>
   );
+}
+
+/** "8h 43m", "43m", "<1m". */
+function untilText(ms: number): string {
+  const min = Math.floor(ms / 60_000);
+  if (min < 1) return "<1m";
+  const h = Math.floor(min / 60);
+  return h ? `${h}h ${min % 60}m` : `${min}m`;
 }

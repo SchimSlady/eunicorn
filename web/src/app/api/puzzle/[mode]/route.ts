@@ -1,7 +1,7 @@
 import type { PlayMode } from "@/lib/top10";
 
 import { getPuzzle } from "@/lib/server/supabase";
-import { todayKey } from "@/lib/daily";
+import { msUntilNextPuzzle, todayKey } from "@/lib/daily";
 
 const MODES: PlayMode[] = ["who-raised-this", "unicorn-grid", "higher-lower", "impostor", "top-10"];
 
@@ -15,6 +15,11 @@ export async function GET(req: Request, { params }: { params: Promise<{ mode: st
   if (!MODES.includes(mode as PlayMode)) return new Response(null, { status: 404 });
   const puzzle = await getPuzzle(mode as PlayMode, todayKey());
   if (!puzzle) return new Response(null, { status: 204 });
-  // The day's puzzle is the same for everyone, so the edge can serve it for a while without running this again.
-  return Response.json(puzzle, { headers: { "Cache-Control": "public, s-maxage=300, stale-while-revalidate=600" } });
+  // The day's puzzle is the same for everyone, so the edge serves it without running this again,
+  // but never past midnight (Europe/Berlin): fresh for up to an hour, then served stale while it
+  // refreshes in the background, both capped at the day's end so nobody gets yesterday's puzzle.
+  const left = Math.max(1, Math.floor(msUntilNextPuzzle() / 1000));
+  const fresh = Math.min(left, 3600);
+  const headers = { "Cache-Control": `public, s-maxage=${fresh}, stale-while-revalidate=${Math.max(0, left - fresh)}` };
+  return Response.json(puzzle, { headers });
 }

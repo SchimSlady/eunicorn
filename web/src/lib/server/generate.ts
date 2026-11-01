@@ -525,14 +525,14 @@ function impostor(base: Base, companies: Company[], rng: Rng): (ImpostorPuzzle &
         const imps = pickN(outsiders, n, rng);
         const first = imps[0];
         return {
-          prompt: `${g.prompt}: Find ${n === 1 ? "the impostor" : `${n} impostors`}`,
+          prompt: `${g.prompt}: Find the impostors`, // never how many: the game ends when all are found
           companyIds: shuffle([...fit, ...imps], rng).map((c) => c.id),
           impostorId: first.id,
           impostorIds: imps.map((c) => c.id),
           explanation: `${list(imps.map((c) => `${c.name} ${g.odd(c)}`))}. ${list(fit.map((c) => c.name))} ${g.shared}.`,
           hints: [
             { text: `Remove one wrong option (${fit[0].name} fits)`, cost: 1 },
-            { text: `${n === 1 ? "The impostor is" : "One impostor is"} based in ${first.city}, founded in ${first.founded}`, cost: 2 },
+            { text: `One impostor is based in ${first.city}, founded in ${first.founded}`, cost: 2 },
           ],
         };
       }

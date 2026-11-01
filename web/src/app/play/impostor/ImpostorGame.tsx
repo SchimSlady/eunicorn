@@ -105,7 +105,7 @@ export function ImpostorGame() {
 
   const play = atLevel(puzzle, progress.difficulty);
   const impostors = impostorsOf(play);
-  const { won, found, done, score } = evaluate(play, progress);
+  const { won, done, score } = evaluate(play, progress);
   const impostor = companies.get(play.impostorId)!;
   // End card: the impostor, the company the whole puzzle was about.
   const featured = impostor;
@@ -141,7 +141,7 @@ export function ImpostorGame() {
               : "Right, that's the impostor."
             : progress.picks.length
               ? impostors.includes(progress.picks.at(-1)!)
-                ? `${companies.get(progress.picks.at(-1)!)?.name} doesn't belong. ${impostors.length - found} to go.`
+                ? `${companies.get(progress.picks.at(-1)!)?.name} doesn't belong.`
                 : `${companies.get(progress.picks.at(-1)!)?.name} belongs.`
               : ""
         }
