@@ -15,7 +15,7 @@ import logoFiles from "./logos.generated.json";
  * so callers fall back to the JSON files in /data.
  */
 
-/** How long a response may be cached. Short, so a new day's puzzle shows up soon after midnight. */
+/** How long a response may be cached. Short, so a new day's puzzle shows up soon after the 8:00 switch. */
 const REVALIDATE_SECONDS = 300;
 
 async function request<T>(path: string): Promise<T[] | null> {

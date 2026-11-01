@@ -16,7 +16,7 @@ export async function GET(req: Request, { params }: { params: Promise<{ mode: st
   const puzzle = await getPuzzle(mode as PlayMode, todayKey());
   if (!puzzle) return new Response(null, { status: 204 });
   // The day's puzzle is the same for everyone, so the edge serves it without running this again,
-  // but never past midnight (Europe/Berlin): fresh for up to an hour, then served stale while it
+  // but never past the daily switch at 8:00 (Europe/Berlin): fresh for up to an hour, then served stale while it
   // refreshes in the background, both capped at the day's end so nobody gets yesterday's puzzle.
   const left = Math.max(1, Math.floor(msUntilNextPuzzle() / 1000));
   const fresh = Math.min(left, 3600);
