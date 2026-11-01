@@ -1,0 +1,195 @@
+{
+  "id": "tink",
+  "name": "Tink",
+  "aliases": [],
+  "domain": "tink.com",
+  "country": "SE",
+  "city": "Stockholm",
+  "founded": 2012,
+  "sectors": [
+    "fintech"
+  ],
+  "status": "acquired",
+  "unicorn": false,
+  "lastValuationEur": 680000000,
+  "founders": [
+    "Daniel Kjellén"
+  ],
+  "difficulty": 3,
+  "techeuId": "af994daa-c5e4-485c-b342-415b62113f0e",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://techcrunch.com/2020/12/11/swedens-tink-raises-103m-as-its-open-banking-platform-grows-to-3400-banks-and-250m-customers/",
+      "quote": "a startup out of Stockholm, Sweden"
+    },
+    {
+      "field": "founded",
+      "url": "https://tink.com/about-us",
+      "quote": "Tink was founded in 2012, and a decade later became part of Visa in 2022"
+    },
+    {
+      "field": "founders",
+      "url": "https://techcrunch.com/2019/02/06/tink-the-european-open-banking-platform-scores-e56m-in-new-funding/",
+      "quote": "Daniel Kjellén, co-founder and CEO, of Tink"
+    },
+    {
+      "field": "sectors",
+      "url": "https://techcrunch.com/2020/01/19/tink-raises-e90m/",
+      "quote": "the European open banking platform, is disclosing €90 million in new funding"
+    },
+    {
+      "field": "status",
+      "url": "https://tink.com/about-us",
+      "quote": "Tink was founded in 2012, and a decade later became part of Visa in 2022"
+    },
+    {
+      "field": "valuation",
+      "url": "https://techcrunch.com/2020/12/11/swedens-tink-raises-103m-as-its-open-banking-platform-grows-to-3400-banks-and-250m-customers/",
+      "quote": "at a post-money valuation of €680 million"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "67ba448b-7bd5-4353-fcd2-08d91092c887",
+      "stage": "series-b",
+      "month": "2016-05",
+      "amountEur": 8930964,
+      "amountOriginal": 10000000,
+      "currency": "USD",
+      "investors": [
+        "Creades",
+        "SEB Venture Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2016/05/19/tink-scores-10m-for-its-virtual-banking-app/",
+          "quote": "has raised $10 million in Series B funding in a round led by Swedish investment firm Creades"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2016/05/19/tink-scores-10m-for-its-virtual-banking-app/",
+          "quote": "May 19, 2016"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2016/05/19/tink-scores-10m-for-its-virtual-banking-app/",
+          "quote": "has raised $10 million in Series B funding"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2016/05/19/tink-scores-10m-for-its-virtual-banking-app/",
+          "quote": "and SEB Venture Capital, the venture arm of Swedish bank SEB"
+        }
+      ]
+    },
+    {
+      "stage": "series-c",
+      "month": "2019-02",
+      "amountEur": 56000000,
+      "amountOriginal": 56000000,
+      "currency": "EUR",
+      "investors": [
+        "Insight Partners",
+        "Sunstone Capital",
+        "SEB",
+        "Nordea Ventures",
+        "ABN AMRO Digital Impact Fund"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2019/02/06/tink-the-european-open-banking-platform-scores-e56m-in-new-funding/",
+          "quote": "has deposited €56 million in new funding"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2019/02/06/tink-the-european-open-banking-platform-scores-e56m-in-new-funding/",
+          "quote": "February 6, 2019"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2019/02/06/tink-the-european-open-banking-platform-scores-e56m-in-new-funding/",
+          "quote": "Existing backers Sunstone, SEB, Nordea Ventures and ABN AMRO Digital Impact Fund also participated"
+        }
+      ]
+    },
+    {
+      "techeuId": "4d2cf75f-150d-4ef3-fcd8-08d91092c887",
+      "stage": "series-d",
+      "month": "2020-01",
+      "amountEur": 90000000,
+      "amountOriginal": 90000000,
+      "currency": "EUR",
+      "postMoneyValuationEur": 415000000,
+      "investors": [
+        "Dawn Capital",
+        "HMI Capital",
+        "Insight Partners",
+        "Poste Italiane",
+        "Heartcore Capital",
+        "ABN AMRO Ventures",
+        "Opera Tech Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2020/01/19/tink-raises-e90m/",
+          "quote": "is disclosing €90 million in new funding"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2020/01/19/tink-raises-e90m/",
+          "quote": "January 19, 2020"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2020/01/19/tink-raises-e90m/",
+          "quote": "Co-leading this new round is Dawn Capital, HMI Capital and Insight Partners"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2020/01/19/tink-raises-e90m/",
+          "quote": "along with existing investors Heartcore Capital , ABN AMRO Ventures and BNP Paribas’ venture arm, Opera Tech Ventures"
+        }
+      ]
+    },
+    {
+      "techeuId": "784d3842-d81a-4778-fcd9-08d91092c887",
+      "stage": "series-d",
+      "month": "2020-12",
+      "amountEur": 85000000,
+      "amountOriginal": 85000000,
+      "currency": "EUR",
+      "postMoneyValuationEur": 680000000,
+      "investors": [
+        "Eurazeo Growth",
+        "Dawn Capital",
+        "PayPal Ventures",
+        "HMI Capital",
+        "Heartcore Capital",
+        "ABN AMRO Ventures",
+        "Poste Italiane",
+        "Opera Tech Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2020/12/11/swedens-tink-raises-103m-as-its-open-banking-platform-grows-to-3400-banks-and-250m-customers/",
+          "quote": "has raised €85 million (or $103 million at current rates)"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2020/12/11/swedens-tink-raises-103m-as-its-open-banking-platform-grows-to-3400-banks-and-250m-customers/",
+          "quote": "December 11, 2020"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2020/12/11/swedens-tink-raises-103m-as-its-open-banking-platform-grows-to-3400-banks-and-250m-customers/",
+          "quote": "being co-led by new investor Eurazeo Growth and Dawn Capital, with PayPal Ventures, HMI Capital, Heartcore, ABN AMRO Ventures, Poste Italiane and BNP Paribas’ venture arm, Opera Tech Ventures, also participating"
+        }
+      ]
+    }
+  ]
+}

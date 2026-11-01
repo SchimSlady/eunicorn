@@ -1,0 +1,293 @@
+{
+  "id": "sword-health",
+  "name": "Sword Health",
+  "aliases": [],
+  "domain": "swordhealth.com",
+  "country": "PT",
+  "city": "Porto",
+  "founded": 2015,
+  "sectors": [
+    "health"
+  ],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 3457814661,
+  "founders": [
+    "Virgílio Bento",
+    "Márcio Colunas"
+  ],
+  "difficulty": 2,
+  "techeuId": "D763595E-1E8D-47DA-9894-5612F3C29DCA",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://tech.eu/2021/11/22/portuguese-founded-sword-health-brings-in-163-million-at-2-billion-valuation/",
+      "quote": "giving the Porto-founded company a $2 billion valuation"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Sword_Health",
+      "quote": "The company was founded in 2015 in Portugal by Virgílio Bento and Márcio Colunas"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Sword_Health",
+      "quote": "The company was founded in 2015 in Portugal by Virgílio Bento and Márcio Colunas"
+    },
+    {
+      "field": "sectors",
+      "url": "https://techcrunch.com/2021/06/30/sword-health-closes-on-85-million-series-c-for-virtual-msk-care",
+      "quote": "a virtual musculoskeletal care platform founded in 2015"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://techcrunch.com/2025/06/17/sword-health-nabs-40m-at-4b-valuation-pushes-ipo-plans-to-at-least-2028",
+      "quote": "has raised $40 million at a $4 billion valuation"
+    },
+    {
+      "field": "valuation",
+      "url": "https://techcrunch.com/2025/06/17/sword-health-nabs-40m-at-4b-valuation-pushes-ipo-plans-to-at-least-2028",
+      "quote": "has raised $40 million at a $4 billion valuation"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "seed",
+      "month": "2018-04",
+      "amountEur": 3718674,
+      "amountOriginal": 4600000,
+      "currency": "USD",
+      "investors": [
+        "Green Innovations",
+        "Vesalius Biocapital III"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2018/04/16/sword-health",
+          "quote": "has raised $4.6 million in seed funding"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2018/04/16/sword-health",
+          "quote": "April 16, 2018"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2018/04/16/sword-health",
+          "quote": "Backing the round is Green Innovations, Vesalius Biocapital III"
+        }
+      ],
+      "techeuId": "ca79268e-5f6d-41e0-fcaa-08d91092c887"
+    },
+    {
+      "stage": "series-a",
+      "month": "2019-04",
+      "amountEur": 7076515,
+      "amountOriginal": 8000000,
+      "currency": "USD",
+      "investors": [
+        "Khosla Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2019/04/16/tackling-the-190-billion-physical-therapy-market-sword-health-raises-8-million-from-khosla-ventures",
+          "quote": "Sword Health raises $8 million from Khosla Ventures"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2019/04/16/tackling-the-190-billion-physical-therapy-market-sword-health-raises-8-million-from-khosla-ventures",
+          "quote": "Sword Health raises $8 million from Khosla Ventures"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2019/04/16/tackling-the-190-billion-physical-therapy-market-sword-health-raises-8-million-from-khosla-ventures",
+          "quote": "April 16, 2019"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2019/04/16/tackling-the-190-billion-physical-therapy-market-sword-health-raises-8-million-from-khosla-ventures",
+          "quote": "Sword Health raises $8 million from Khosla Ventures"
+        }
+      ],
+      "techeuId": "084228f7-65a7-4cd4-fcab-08d91092c887"
+    },
+    {
+      "stage": "series-b",
+      "month": "2021-02",
+      "amountEur": 20688514,
+      "amountOriginal": 25000000,
+      "currency": "USD",
+      "investors": [
+        "Transformation Capital",
+        "Khosla Ventures",
+        "Founders Fund",
+        "Green Innovations",
+        "Vesalius Biocapital",
+        "Faber"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://hitconsultant.net/2021/02/01/sword-health-virtual-msk-solution-funding",
+          "quote": "SWORD Health raises $25 million in Series B"
+        },
+        {
+          "field": "stage",
+          "url": "https://hitconsultant.net/2021/02/01/sword-health-virtual-msk-solution-funding",
+          "quote": "SWORD Health raises $25 million in Series B"
+        },
+        {
+          "field": "month",
+          "url": "https://hitconsultant.net/2021/02/01/sword-health-virtual-msk-solution-funding",
+          "quote": "by Jasmine Pennic 02/01/2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://hitconsultant.net/2021/02/01/sword-health-virtual-msk-solution-funding",
+          "quote": "led by Todd Cozzens, Managing Partner at Transformation Capital"
+        },
+        {
+          "field": "investors",
+          "url": "https://hitconsultant.net/2021/02/01/sword-health-virtual-msk-solution-funding",
+          "quote": "Existing investors Khosla Ventures, Founders Fund, Green Innovations, Vesalius Biocapital and Faber also participated."
+        }
+      ],
+      "techeuId": "c24d6012-e8e4-4a31-fcad-08d91092c887"
+    },
+    {
+      "stage": "series-c",
+      "month": "2021-06",
+      "amountEur": 71524739,
+      "amountOriginal": 85000000,
+      "currency": "USD",
+      "investors": [
+        "General Catalyst",
+        "BOND",
+        "Highmark Ventures",
+        "BPEA",
+        "Khosla Ventures",
+        "Founders Fund",
+        "Transformation Capital",
+        "Green Innovations"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2021/06/30/sword-health-closes-on-85-million-series-c-for-virtual-msk-care",
+          "quote": "has raised an $85 million Series C funding round led by General Catalyst"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2021/06/30/sword-health-closes-on-85-million-series-c-for-virtual-msk-care",
+          "quote": "an $85 million Series C funding round"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2021/06/30/sword-health-closes-on-85-million-series-c-for-virtual-msk-care",
+          "quote": "June 30, 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2021/06/30/sword-health-closes-on-85-million-series-c-for-virtual-msk-care",
+          "quote": "Other participating investors included BOND, Highmark Ventures, BPEA, Khosla Ventures, Founders Fund, Transformation Capital and Green Innovations."
+        }
+      ]
+    },
+    {
+      "stage": "series-d",
+      "month": "2021-11",
+      "amountEur": 144529172,
+      "amountOriginal": 163000000,
+      "currency": "USD",
+      "investors": [
+        "Sapphire Ventures",
+        "Sozo Ventures",
+        "Willoughby Capital",
+        "ADQ",
+        "Localglobe",
+        "General Catalyst",
+        "Khosla Ventures",
+        "Founders Fund",
+        "Bond",
+        "Transformation Capital",
+        "Green Innovations"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2021/11/22/portuguese-founded-sword-health-brings-in-163-million-at-2-billion-valuation/",
+          "quote": "The oversubscribed primary funding round closed at $163 million providing a valuation of $1.8 billion"
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2021/11/22/portuguese-founded-sword-health-brings-in-163-million-at-2-billion-valuation/",
+          "quote": "Sword Health has raised $163 million in a Series D funding round"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2021/11/22/portuguese-founded-sword-health-brings-in-163-million-at-2-billion-valuation/",
+          "quote": "22 November 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2021/11/22/portuguese-founded-sword-health-brings-in-163-million-at-2-billion-valuation/",
+          "quote": "Sword's Series D round was led by Sapphire Ventures , with participation from new investors Sozo Ventures , Willoughby Capital , ADQ , and Localglobe"
+        }
+      ],
+      "techeuId": "a3f8126e-3dfd-4d47-ac7d-4e07df600b28",
+      "postMoneyValuationEur": 1596027664
+    },
+    {
+      "stage": "series-e",
+      "month": "2024-06",
+      "amountEur": 27611597,
+      "amountOriginal": 30000000,
+      "currency": "USD",
+      "investors": [],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2024/06/04/sword-healths-raises-130m-valuation-3b-ai-physical-therapy",
+          "quote": "the company also decided to raise a $30 million primary round and update its valuation"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2024/06/04/sword-healths-raises-130m-valuation-3b-ai-physical-therapy",
+          "quote": "June 4, 2024"
+        }
+      ],
+      "postMoneyValuationEur": 2761159687
+    },
+    {
+      "stage": "series-f+",
+      "month": "2025-06",
+      "amountEur": 34578147,
+      "amountOriginal": 40000000,
+      "currency": "USD",
+      "investors": [
+        "General Catalyst"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2025/06/17/sword-health-nabs-40m-at-4b-valuation-pushes-ipo-plans-to-at-least-2028",
+          "quote": "has raised $40 million at a $4 billion valuation"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2025/06/17/sword-health-nabs-40m-at-4b-valuation-pushes-ipo-plans-to-at-least-2028",
+          "quote": "June 17, 2025"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2025/06/17/sword-health-nabs-40m-at-4b-valuation-pushes-ipo-plans-to-at-least-2028",
+          "quote": "The funding was led by returning investor General Catalyst."
+        }
+      ],
+      "techeuId": "129bd914-f11a-4d8b-8776-2aeceb6866ec",
+      "postMoneyValuationEur": 3457814661
+    }
+  ]
+}

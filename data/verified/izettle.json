@@ -1,0 +1,221 @@
+{
+  "id": "izettle",
+  "name": "iZettle",
+  "aliases": [
+    "Zettle"
+  ],
+  "domain": "zettle.com",
+  "country": "SE",
+  "city": "Stockholm",
+  "founded": 2010,
+  "sectors": [
+    "fintech"
+  ],
+  "status": "acquired",
+  "unicorn": false,
+  "lastValuationEur": 809475119,
+  "founders": [
+    "Jacob de Geer",
+    "Magnus Nilsson"
+  ],
+  "difficulty": 3,
+  "techeuId": "7bc2d23e-bc14-4d5e-a3e7-6d7d09203772",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://techcrunch.com/2017/12/13/payments-startup-izettle-raises-47m-as-it-plots-more-expansion-in-europe-and-latam/",
+      "quote": "the commerce platform based out of Stockholm"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/IZettle",
+      "quote": "In April 2010, Jacob de Geer and Magnus Nilsson founded iZettle"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/IZettle",
+      "quote": "In April 2010, Jacob de Geer and Magnus Nilsson founded iZettle"
+    },
+    {
+      "field": "sectors",
+      "url": "https://techcrunch.com/2017/12/13/payments-startup-izettle-raises-47m-as-it-plots-more-expansion-in-europe-and-latam/",
+      "quote": "to provide card transactions using smartphones and tablets as well as related accounting services"
+    },
+    {
+      "field": "status",
+      "url": "https://en.wikipedia.org/wiki/IZettle",
+      "quote": "The company was acquired by PayPal in 2018"
+    },
+    {
+      "field": "valuation",
+      "url": "https://techcrunch.com/2017/12/13/payments-startup-izettle-raises-47m-as-it-plots-more-expansion-in-europe-and-latam/",
+      "quote": "Commerce platform iZettle raises $47M at a $950M valuation"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-b",
+      "month": "2013-06",
+      "amountEur": 5000000,
+      "amountOriginal": 5000000,
+      "currency": "EUR",
+      "investors": [
+        "Banco Santander"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2013/06/11/izettle-a-european-square-rival-gets-6-6m-from-banco-santander-as-it-gears-up-for-a-global-push/",
+          "quote": "($6.6 million) from Banco Santander, the largest bank in Europe"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2013/06/11/izettle-a-european-square-rival-gets-6-6m-from-banco-santander-as-it-gears-up-for-a-global-push/",
+          "quote": "June 11, 2013"
+        }
+      ]
+    },
+    {
+      "stage": "series-c",
+      "month": "2014-05",
+      "amountEur": 40000000,
+      "amountOriginal": 40000000,
+      "currency": "EUR",
+      "investors": [
+        "Zouk Capital",
+        "Dawn Capital",
+        "Intel Capital",
+        "Creandum",
+        "Greylock",
+        "Index Ventures",
+        "Northzone",
+        "SEB"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2014/05/08/as-square-struggles-european-payments-rival-izettle-takes-another-55-5m-in-funding/",
+          "quote": "has raised another €40 million ($55.5 million)"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2014/05/08/as-square-struggles-european-payments-rival-izettle-takes-another-55-5m-in-funding/",
+          "quote": "May 8, 2014"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2014/05/08/as-square-struggles-european-payments-rival-izettle-takes-another-55-5m-in-funding/",
+          "quote": "The Series C round was led by Zouk Capital"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2014/05/08/as-square-struggles-european-payments-rival-izettle-takes-another-55-5m-in-funding/",
+          "quote": "with participation from a couple of other new investors, Dawn Capital and Intel Capital, as well as previous backers Creandum, Greylock, Index, Northzone and SEB"
+        }
+      ]
+    },
+    {
+      "techeuId": "c3757ebf-f45f-490d-c9bb-08d91092c887",
+      "stage": "series-d",
+      "month": "2015-08",
+      "amountEur": 60000000,
+      "amountOriginal": 60000000,
+      "currency": "EUR",
+      "investors": [
+        "Intel Capital",
+        "Zouk Capital",
+        "Creandum",
+        "Dawn Capital",
+        "Index Ventures",
+        "Northzone",
+        "83North"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2015/08/28/izettle-moves-into-business-financing/",
+          "quote": "The round of €60 million ($67M) is led by prior investors Intel Capital and Zouk Capital"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2015/08/28/izettle-moves-into-business-financing/",
+          "quote": "August 28, 2015"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2015/08/28/izettle-moves-into-business-financing/",
+          "quote": "a new round of Series D finance for iZettle"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2015/08/28/izettle-moves-into-business-financing/",
+          "quote": "Existing investors Creandum, Dawn Capital, Index Ventures, Northzone and 83North also participated in the round"
+        }
+      ]
+    },
+    {
+      "techeuId": "23caea85-108f-460b-c9be-08d91092c887",
+      "stage": "series-d",
+      "month": "2017-01",
+      "amountEur": 15000000,
+      "amountOriginal": 15000000,
+      "currency": "EUR",
+      "investors": [
+        "Intel Capital",
+        "Index Ventures",
+        "MasterCard",
+        "American Express"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2017/01/10/izettle-raises-63m-more-at-a-500m-valuation-to-expand-from-mobile-payments/",
+          "quote": "The remaining €15 million comes from existing investors"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2017/01/10/izettle-raises-63m-more-at-a-500m-valuation-to-expand-from-mobile-payments/",
+          "quote": "January 10, 2017"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2017/01/10/izettle-raises-63m-more-at-a-500m-valuation-to-expand-from-mobile-payments/",
+          "quote": "is an extension of the company’s Series D from 2015"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2017/01/10/izettle-raises-63m-more-at-a-500m-valuation-to-expand-from-mobile-payments/",
+          "quote": "including Intel, Index, MasterCard and American Express"
+        }
+      ]
+    },
+    {
+      "stage": "series-e",
+      "month": "2017-12",
+      "amountEur": 40000000,
+      "amountOriginal": 40000000,
+      "currency": "EUR",
+      "investors": [
+        "Dawn Capital",
+        "Fourth Swedish National Pension Fund"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2017/12/13/payments-startup-izettle-raises-47m-as-it-plots-more-expansion-in-europe-and-latam/",
+          "quote": "has raised another €40 million ($47 million)"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2017/12/13/payments-startup-izettle-raises-47m-as-it-plots-more-expansion-in-europe-and-latam/",
+          "quote": "December 13, 2017"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2017/12/13/payments-startup-izettle-raises-47m-as-it-plots-more-expansion-in-europe-and-latam/",
+          "quote": "This latest equity funding is led by previous backer Dawn Capital"
+        }
+      ]
+    }
+  ]
+}

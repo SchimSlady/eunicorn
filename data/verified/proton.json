@@ -1,0 +1,84 @@
+{
+  "id": "proton",
+  "name": "Proton",
+  "aliases": [
+    "Proton AG",
+    "ProtonMail",
+    "Proton Mail"
+  ],
+  "domain": "proton.me",
+  "country": "CH",
+  "city": "Geneva",
+  "founded": 2014,
+  "sectors": [
+    "cybersecurity",
+    "saas"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Andy Yen",
+    "Jason Stockman",
+    "Wei Sun"
+  ],
+  "difficulty": 2,
+  "techeuId": "594D56B4-3314-4AC0-9D97-ACFE0E1700F1",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/Proton_AG",
+      "quote": "Proton is headquartered in Plan-les-Ouates , Geneva , Switzerland"
+    },
+    {
+      "field": "city",
+      "url": "https://proton.me/blog/protonmail-has-raised-2m-usd-to-protect-online-privacy",
+      "quote": "a software project started in the CERN cafeteria"
+    },
+    {
+      "field": "founded",
+      "url": "https://proton.me/about",
+      "quote": "Proton was born in Switzerland in 2014 when a team of scientists who met at CERN"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Proton_AG",
+      "quote": "Andy Yen Jason Stockman Wei Sun Headquarters"
+    },
+    {
+      "field": "sectors",
+      "url": "https://proton.me/blog/protonmail-has-raised-2m-usd-to-protect-online-privacy",
+      "quote": "a fully functioning encrypted email service"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "61eea708-0093-48b0-aa88-08d91092c887",
+      "stage": "seed",
+      "month": "2015-03",
+      "amountEur": 1888218,
+      "amountOriginal": 2000000,
+      "currency": "USD",
+      "investors": [
+        "Charles River Ventures",
+        "FONGIT"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://proton.me/blog/protonmail-has-raised-2m-usd-to-protect-online-privacy",
+          "quote": "Proton Mail has secured a financing round of $2M USD from Charles River Ventures (CRV)"
+        },
+        {
+          "field": "month",
+          "url": "https://proton.me/blog/protonmail-has-raised-2m-usd-to-protect-online-privacy",
+          "quote": "Published on March 18, 2015"
+        },
+        {
+          "field": "investors",
+          "url": "https://proton.me/blog/protonmail-has-raised-2m-usd-to-protect-online-privacy",
+          "quote": "Charles River Ventures (CRV) and the Fondation Genevoise pour l’Innovation Technologique (FONGIT)"
+        }
+      ]
+    }
+  ]
+}

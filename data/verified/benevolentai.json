@@ -1,0 +1,88 @@
+{
+  "id": "benevolentai",
+  "name": "BenevolentAI",
+  "aliases": [],
+  "domain": "benevolent.com",
+  "country": "GB",
+  "city": "London",
+  "founded": 2013,
+  "sectors": [
+    "biotech"
+  ],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 1695188892,
+  "founders": [
+    "Ken Mulvany"
+  ],
+  "difficulty": 2,
+  "techeuId": "6623B225-BFBC-462A-BAA3-12E0F996E75D",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://techcrunch.com/2018/04/18/benevolentai-which-uses-ai-to-develop-drugs-and-energy-solutions-nabs-115m-at-2b-valuation/",
+      "quote": "a startup out of London"
+    },
+    {
+      "field": "founded",
+      "url": "https://techcrunch.com/2019/05/01/benevolentai-starts-ai-collaboration-with-astrazeneca-to-accelerate-drug-discovery/",
+      "quote": "Founded in 2013, it focuses on"
+    },
+    {
+      "field": "founders",
+      "url": "https://techcrunch.com/2018/04/18/benevolentai-which-uses-ai-to-develop-drugs-and-energy-solutions-nabs-115m-at-2b-valuation/",
+      "quote": "its founder and executive chairman Ken Mulvaney"
+    },
+    {
+      "field": "sectors",
+      "url": "https://techcrunch.com/2019/05/01/benevolentai-starts-ai-collaboration-with-astrazeneca-to-accelerate-drug-discovery/",
+      "quote": "accelerating the journey from data to medicines"
+    },
+    {
+      "field": "status",
+      "url": "https://www.benevolent.com/news-and-media/press-releases-and-in-media/proposed-delisting-merger-benevolentai-osaka-holdings-s-rl-and-publication-notice-extraordinary-general-meeting/",
+      "quote": "transitioning to a private company"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://techcrunch.com/2018/04/18/benevolentai-which-uses-ai-to-develop-drugs-and-energy-solutions-nabs-115m-at-2b-valuation/",
+      "quote": "This venture round values the company at $2.1 billion post-money"
+    },
+    {
+      "field": "valuation",
+      "url": "https://techcrunch.com/2018/04/18/benevolentai-which-uses-ai-to-develop-drugs-and-energy-solutions-nabs-115m-at-2b-valuation/",
+      "quote": "This venture round values the company at $2.1 billion post-money"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-b",
+      "month": "2018-04",
+      "amountEur": 92831773,
+      "amountOriginal": 115000000,
+      "currency": "USD",
+      "postMoneyValuationEur": 1695188892,
+      "investors": [
+        "Woodford Investment Management"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2018/04/18/benevolentai-which-uses-ai-to-develop-drugs-and-energy-solutions-nabs-115m-at-2b-valuation/",
+          "quote": "it has raised $115 million"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2018/04/18/benevolentai-which-uses-ai-to-develop-drugs-and-energy-solutions-nabs-115m-at-2b-valuation/",
+          "quote": "April 18, 2018"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2018/04/18/benevolentai-which-uses-ai-to-develop-drugs-and-energy-solutions-nabs-115m-at-2b-valuation/",
+          "quote": "Investors in this round include previous backer Woodford Investment Management"
+        }
+      ],
+      "techeuId": "01892621-e14e-4b73-cde4-08d91092c887"
+    }
+  ]
+}

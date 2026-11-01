@@ -1,0 +1,196 @@
+{
+  "id": "tractable",
+  "name": "Tractable",
+  "aliases": [],
+  "domain": "tractable.ai",
+  "country": "GB",
+  "city": "London",
+  "founded": 2014,
+  "sectors": [
+    "ai"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "lastValuationEur": 824810294,
+  "founders": [
+    "Alexandre Dalyac",
+    "Razvan Ranca",
+    "Adrien Cohen"
+  ],
+  "difficulty": 2,
+  "techeuId": "274FA57B-954E-4318-9487-0CFC2B57F689",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://techcrunch.com/2018/07/31/tractable/",
+      "quote": "The London startup has raised a $20M Series B led by U.S. venture firm Insight Venture Partners"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Tractable_(company)",
+      "quote": "Alexandre Dalyac and Razvan Ranca founded Tractable in 2014"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Tractable_(company)",
+      "quote": "Alexandre Dalyac and Razvan Ranca founded Tractable in 2014, and Adrien Cohen joined as co-founder in 2015."
+    },
+    {
+      "field": "sectors",
+      "url": "https://techcrunch.com/2021/06/16/tractable-raises-60m-at-a-1b-valuation-to-make-damage-appraisals-using-ai/",
+      "quote": "let users take and submit photos of damaged cars that are then “read” to make appraisals"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://techcrunch.com/2021/06/16/tractable-raises-60m-at-a-1b-valuation-to-make-damage-appraisals-using-ai/",
+      "quote": "a Series D that values Tractable at $1 billion"
+    },
+    {
+      "field": "valuation",
+      "url": "https://techcrunch.com/2021/06/16/tractable-raises-60m-at-a-1b-valuation-to-make-damage-appraisals-using-ai/",
+      "quote": "a Series D that values Tractable at $1 billion"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-b",
+      "month": "2018-07",
+      "amountEur": 17041581,
+      "amountOriginal": 20000000,
+      "currency": "USD",
+      "investors": [
+        "Insight Venture Partners",
+        "Ignition Partners",
+        "Zetta Venture Partners",
+        "Acequia Capital",
+        "Plug and Play Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2018/07/31/tractable/",
+          "quote": "has closed $20 million in Series B investment"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2018/07/31/tractable/",
+          "quote": "has closed $20 million in Series B investment"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2018/07/31/tractable/",
+          "quote": "July 31, 2018"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2018/07/31/tractable/",
+          "quote": "Existing investors, including Ignition Partners, Zetta Venture Partners, Acequia Capital and Plug and Play Ventures"
+        }
+      ],
+      "techeuId": "259d66fc-8c59-4147-eaf8-08d91092c887"
+    },
+    {
+      "stage": "series-c",
+      "month": "2020-02",
+      "amountEur": 22801897,
+      "amountOriginal": 25000000,
+      "currency": "USD",
+      "investors": [
+        "Georgian Partners"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2020/02/27/tractable-claims-25m-to-sell-damage-assessing-ais-to-more-insurance-giants/",
+          "quote": "has closed a $25 million Series C"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2020/02/27/tractable-claims-25m-to-sell-damage-assessing-ais-to-more-insurance-giants/",
+          "quote": "has closed a $25 million Series C"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2020/02/27/tractable-claims-25m-to-sell-damage-assessing-ais-to-more-insurance-giants/",
+          "quote": "February 27, 2020"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2020/02/27/tractable-claims-25m-to-sell-damage-assessing-ais-to-more-insurance-giants/",
+          "quote": "led by Canadian investment fund Georgian Partners"
+        }
+      ],
+      "techeuId": "889fa84e-8ba8-44c5-eaf9-08d91092c887"
+    },
+    {
+      "stage": "series-d",
+      "month": "2021-06",
+      "amountEur": 49488618,
+      "amountOriginal": 60000000,
+      "currency": "USD",
+      "postMoneyValuationEur": 824810294,
+      "investors": [
+        "Insight Partners",
+        "Georgian Partners"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2021/06/16/tractable-raises-60m-at-a-1b-valuation-to-make-damage-appraisals-using-ai/",
+          "quote": "has raised $60 million, a Series D"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2021/06/16/tractable-raises-60m-at-a-1b-valuation-to-make-damage-appraisals-using-ai/",
+          "quote": "has raised $60 million, a Series D"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2021/06/16/tractable-raises-60m-at-a-1b-valuation-to-make-damage-appraisals-using-ai/",
+          "quote": "June 16, 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2021/06/16/tractable-raises-60m-at-a-1b-valuation-to-make-damage-appraisals-using-ai/",
+          "quote": "Insight Partners and Georgian Partners co-led the round"
+        }
+      ],
+      "techeuId": "0bc84c89-8992-4a0c-8dcc-daa258d3839d"
+    },
+    {
+      "stage": "series-e",
+      "month": "2023-07",
+      "amountEur": 57752110,
+      "amountOriginal": 65000000,
+      "currency": "USD",
+      "investors": [
+        "SoftBank Vision Fund 2",
+        "Insight Partners",
+        "Georgian"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2023/07/18/tractable-snaps-up-65m-led-by-softbank-for-car-and-property-damage-appraisals-using-ai/",
+          "quote": "has picked up a further $65"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2023/07/18/tractable-snaps-up-65m-led-by-softbank-for-car-and-property-damage-appraisals-using-ai/",
+          "quote": "SoftBank Vision Fund 2 is leading this round, a Series E"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2023/07/18/tractable-snaps-up-65m-led-by-softbank-for-car-and-property-damage-appraisals-using-ai/",
+          "quote": "July 18, 2023"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2023/07/18/tractable-snaps-up-65m-led-by-softbank-for-car-and-property-damage-appraisals-using-ai/",
+          "quote": "SoftBank Vision Fund 2 is leading this round, a Series E, with previous backers Insight Partners and Georgian also participating"
+        }
+      ],
+      "techeuId": "73cc53e2-e1df-40c6-adee-b6f40cc226c0"
+    }
+  ]
+}

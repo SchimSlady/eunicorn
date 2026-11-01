@@ -1,0 +1,151 @@
+{
+  "id": "depop",
+  "name": "Depop",
+  "aliases": [],
+  "domain": "depop.com",
+  "country": "IT",
+  "city": "Roncade",
+  "founded": 2011,
+  "sectors": [
+    "consumer"
+  ],
+  "status": "acquired",
+  "unicorn": false,
+  "founders": [
+    "Simon Beckerman"
+  ],
+  "difficulty": 3,
+  "techeuId": "20EF5061-C166-4540-A295-1C55B5B397FD",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/Depop",
+      "quote": "Founded 2011 ; 15 years ago ( 2011 ) in Roncade, Italy"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Depop",
+      "quote": "Depop was founded in 2011 by entrepreneur Simon Beckerman at an Italian technological incubator and business start-up centre, H-Farm."
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Depop",
+      "quote": "Depop was founded in 2011 by entrepreneur Simon Beckerman"
+    },
+    {
+      "field": "sectors",
+      "url": "https://en.wikipedia.org/wiki/Depop",
+      "quote": "Online shopping"
+    },
+    {
+      "field": "status",
+      "url": "https://en.wikipedia.org/wiki/Depop",
+      "quote": "In June 2021, Depop was acquired by Etsy for $1.6 billion in cash"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "seed",
+      "month": "2013-10",
+      "amountEur": 1000000,
+      "amountOriginal": 1000000,
+      "currency": "EUR",
+      "investors": [
+        "Red Circle Investment"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://en.wikipedia.org/wiki/Depop",
+          "quote": "Beckerman raised €1 million in funding in October 2013 from Red Circle Investment"
+        },
+        {
+          "field": "month",
+          "url": "https://en.wikipedia.org/wiki/Depop",
+          "quote": "Beckerman raised €1 million in funding in October 2013 from Red Circle Investment"
+        },
+        {
+          "field": "investors",
+          "url": "https://en.wikipedia.org/wiki/Depop",
+          "quote": "Beckerman raised €1 million in funding in October 2013 from Red Circle Investment"
+        }
+      ]
+    },
+    {
+      "stage": "series-a",
+      "month": "2015-01",
+      "amountEur": 7070261,
+      "amountOriginal": 8000000,
+      "currency": "USD",
+      "investors": [
+        "Balderton Capital",
+        "Holtzbrinck Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2015/01/29/social-shopping-app-depop-raises-8m-hires-ex-reddit-gm-to-break-into-us-market/",
+          "quote": "has raised an $8 million Series A round led by Balderton Capital (formerly Benchmark Capital Europe) and Holtzbrinck Ventures"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2015/01/29/social-shopping-app-depop-raises-8m-hires-ex-reddit-gm-to-break-into-us-market/",
+          "quote": "January 29, 2015"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2015/01/29/social-shopping-app-depop-raises-8m-hires-ex-reddit-gm-to-break-into-us-market/",
+          "quote": "has raised an $8 million Series A round"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2015/01/29/social-shopping-app-depop-raises-8m-hires-ex-reddit-gm-to-break-into-us-market/",
+          "quote": "led by Balderton Capital (formerly Benchmark Capital Europe) and Holtzbrinck Ventures"
+        }
+      ]
+    },
+    {
+      "stage": "series-c",
+      "month": "2019-06",
+      "amountEur": 55032842,
+      "amountOriginal": 62000000,
+      "currency": "USD",
+      "investors": [
+        "General Atlantic",
+        "HV Capital",
+        "Balderton Capital",
+        "Creandum",
+        "Octopus Ventures",
+        "TempoCap",
+        "Sebastian Siemiatkowski"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2019/06/06/depop-a-social-app-targeting-millennial-and-gen-z-shoppers-bags-62m-passes-13m-users/",
+          "quote": "has closed a Series C round of $62 million led by General Atlantic"
+        },
+        {
+          "field": "month",
+          "url": "https://en.wikipedia.org/wiki/Depop",
+          "quote": "In June 2019, Depop raised $62 million in Series C from General Atlantic"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2019/06/06/depop-a-social-app-targeting-millennial-and-gen-z-shoppers-bags-62m-passes-13m-users/",
+          "quote": "has closed a Series C round of $62 million led by General Atlantic"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2019/06/06/depop-a-social-app-targeting-millennial-and-gen-z-shoppers-bags-62m-passes-13m-users/",
+          "quote": "led by General Atlantic"
+        },
+        {
+          "field": "investors",
+          "url": "https://en.wikipedia.org/wiki/Depop",
+          "quote": "Previous investors HV Capital, Balderton Capital , Creandum, Octopus Ventures , TempoCap and Sebastian Siemiatkowski also participated"
+        }
+      ]
+    }
+  ]
+}

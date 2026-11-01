@@ -1,0 +1,55 @@
+{
+  "id": "deepmind",
+  "name": "DeepMind",
+  "aliases": [
+    "Google DeepMind"
+  ],
+  "domain": "deepmind.google",
+  "country": "GB",
+  "city": "London",
+  "founded": 2010,
+  "sectors": [
+    "ai"
+  ],
+  "status": "acquired",
+  "unicorn": false,
+  "founders": [
+    "Demis Hassabis",
+    "Shane Legg",
+    "Mustafa Suleyman"
+  ],
+  "difficulty": 1,
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/Google_DeepMind",
+      "quote": "The company is headquartered in London"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Google_DeepMind",
+      "quote": "Founded in the UK in 2010"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Google_DeepMind",
+      "quote": "The start-up was founded by Demis Hassabis , Shane Legg and Mustafa Suleyman in November 2010."
+    },
+    {
+      "field": "sectors",
+      "url": "https://en.wikipedia.org/wiki/Google_DeepMind",
+      "quote": "is a British-American artificial intelligence (AI) research laboratory"
+    },
+    {
+      "field": "status",
+      "url": "https://en.wikipedia.org/wiki/Google_DeepMind",
+      "quote": "it was acquired by Google in 2014"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://en.wikipedia.org/wiki/Google_DeepMind",
+      "quote": "it was acquired by Google in 2014"
+    }
+  ],
+  "rounds": []
+}
