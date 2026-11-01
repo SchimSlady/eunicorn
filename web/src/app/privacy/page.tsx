@@ -11,8 +11,9 @@ export default function Privacy() {
     <LegalPage title="Privacy policy">
       <Section title="In short">
         <p>
-          EUnicorn has no accounts, no cookies, no tracking and no ads. Your game progress stays on your device. We count
-          anonymously how often each game is played and how it went, without your IP address or any ID. The only
+          EUnicorn has no accounts, no cookies and no ads. Your game progress stays on your device. We count
+          anonymously how often each game is played and how it went, without your IP address or any ID, and we use
+          cookieless visitor statistics from our host to see how many people visit and where they come from. The only
           personal data that reaches a server is what every website needs to be delivered: your IP address and a few
           technical details, processed by our host.
         </p>
@@ -40,6 +41,20 @@ export default function Privacy() {
           use Vercel under its data processing agreement, which includes the EU standard contractual clauses. See{" "}
           <a href="https://vercel.com/legal/privacy-policy" className={link} rel="noopener">
             Vercel&apos;s privacy policy
+          </a>
+          .
+        </p>
+      </Section>
+
+      <Section title="Visitor statistics">
+        <p>
+          We use Vercel Web Analytics to count visits: which pages are opened, the referring website, the country, and
+          the browser, operating system and device type. It sets no cookies and stores nothing on your device. To tell
+          visits apart within a day, Vercel derives a short-lived identifier from the request that is discarded after
+          24 hours, so visitors can&apos;t be followed across days or other websites. We only see totals. Legal basis:
+          Art. 6 (1) (f) GDPR (our legitimate interest in knowing how the site is used). See{" "}
+          <a href="https://vercel.com/docs/analytics/privacy-policy" className={link} rel="noopener">
+            Vercel&apos;s analytics privacy notes
           </a>
           .
         </p>
