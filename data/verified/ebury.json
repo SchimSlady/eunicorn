@@ -1,0 +1,80 @@
+{
+  "id": "ebury",
+  "name": "Ebury",
+  "aliases": [
+    "Ebury Partners"
+  ],
+  "domain": "ebury.com",
+  "country": "GB",
+  "city": "London",
+  "founded": 2009,
+  "sectors": [
+    "fintech"
+  ],
+  "status": "acquired",
+  "unicorn": false,
+  "founders": [
+    "Juan Lobato",
+    "Salvador García Andres"
+  ],
+  "difficulty": 3,
+  "techeuId": "56ED9DF8-CA89-46E4-8607-F8A16B873EC5",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://ebury.com/en-gb/company/our-story",
+      "quote": "2009 Founded in London by Juan Lobato and Salvador García Andres."
+    },
+    {
+      "field": "founded",
+      "url": "https://ebury.com/en-gb/company/our-story",
+      "quote": "2009 Founded in London by Juan Lobato and Salvador García Andres."
+    },
+    {
+      "field": "founders",
+      "url": "https://ebury.com/en-gb/company/our-story",
+      "quote": "2009 Founded in London by Juan Lobato and Salvador García Andres."
+    },
+    {
+      "field": "sectors",
+      "url": "https://mondovisione.com/news/ebury-santanders-international-payments-fintech-secures-c550-million-to-acc-2026430/",
+      "quote": "its global fintech platform focused on cross-border payments and international trade solutions"
+    },
+    {
+      "field": "status",
+      "url": "https://ebury.com/en-gb/company/our-story",
+      "quote": "Banco Santander became a majority investor."
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "d4e1967d-34c9-45dc-ef29-08d91092c887",
+      "stage": "series-b",
+      "month": "2015-11",
+      "amountEur": 77817364,
+      "amountOriginal": 83000000,
+      "currency": "USD",
+      "investors": [
+        "Vitruvian Partners",
+        "83North"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://ebury.com/resources/blog/ebury-announces-83m-funding-press-release",
+          "quote": "Ebury announces $83m funding in a round led by Vitruvian Partners and existing investor 83North"
+        },
+        {
+          "field": "month",
+          "url": "https://ebury.com/resources/blog/ebury-announces-83m-funding-press-release",
+          "quote": "November 18, 2015"
+        },
+        {
+          "field": "investors",
+          "url": "https://ebury.com/resources/blog/ebury-announces-83m-funding-press-release",
+          "quote": "Ebury announces $83m funding in a round led by Vitruvian Partners and existing investor 83North"
+        }
+      ]
+    }
+  ]
+}

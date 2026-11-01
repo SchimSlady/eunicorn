@@ -1,0 +1,243 @@
+{
+  "id": "booksy",
+  "name": "Booksy",
+  "aliases": [],
+  "domain": "booksy.com",
+  "country": "PL",
+  "city": "Warsaw",
+  "founded": 2014,
+  "sectors": [
+    "saas",
+    "consumer"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Stefan Batory",
+    "Konrad Howard"
+  ],
+  "difficulty": 4,
+  "techeuId": "1dee62d5-16dd-4f6d-97c5-572466fa34ad",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/Booksy",
+      "quote": "founded in Warsaw"
+    },
+    {
+      "field": "founded",
+      "url": "https://techcrunch.com/2018/07/06/booksy-the-worldwide-booking-system-raises-13-2-million/",
+      "quote": "The company, founded in 2014 by Stefan Batory and Konrad Howard"
+    },
+    {
+      "field": "founders",
+      "url": "https://techcrunch.com/2018/07/06/booksy-the-worldwide-booking-system-raises-13-2-million/",
+      "quote": "The company, founded in 2014 by Stefan Batory and Konrad Howard"
+    },
+    {
+      "field": "sectors",
+      "url": "https://en.wikipedia.org/wiki/Booksy",
+      "quote": "Booksy is a software-as-a-service and marketplace platform company operating in the beauty and wellness industry"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "seed",
+      "month": "2015-09",
+      "amountEur": 706747,
+      "amountOriginal": 3000000,
+      "currency": "PLN",
+      "techeuId": "de41ec8d-86c2-4ef8-bf62-e2ea3be3258e",
+      "investors": [
+        "Müller Medien",
+        "Piton Capital",
+        "Inovo Venture Partners"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://en.wikipedia.org/wiki/Booksy",
+          "quote": "In September 2015, Booksy secured seed funding of PLN 3 million"
+        },
+        {
+          "field": "stage",
+          "url": "https://en.wikipedia.org/wiki/Booksy",
+          "quote": "In September 2015, Booksy secured seed funding of PLN 3 million"
+        },
+        {
+          "field": "month",
+          "url": "https://en.wikipedia.org/wiki/Booksy",
+          "quote": "In September 2015, Booksy secured seed funding"
+        },
+        {
+          "field": "investors",
+          "url": "https://globalventuring.com/blog/2019/09/30/booksy-schedules-28-5m",
+          "quote": "including an $800,000 round in 2015 that featured Müller Medien, Piton Capital and venture capital firm Inovo Venture Partners"
+        }
+      ]
+    },
+    {
+      "stage": "series-a",
+      "month": "2017-03",
+      "amountEur": 3994674,
+      "amountOriginal": 4200000,
+      "currency": "USD",
+      "techeuId": "3746f442-f04d-4801-f6de-08d91092c887",
+      "investors": [
+        "OpenOcean",
+        "Investible",
+        "Nomad Fund",
+        "Kai Hansen",
+        "Apostolos Apostolakis",
+        "Rafal Plutecki"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2017/03/02/booksy/",
+          "quote": "has closed $4.2 million in Series A funding"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2017/03/02/booksy/",
+          "quote": "has closed $4.2 million in Series A funding"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2017/03/02/booksy/",
+          "quote": "March 2, 2017"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2017/03/02/booksy/",
+          "quote": "The round was led by OpenOcean, with participation from Australian company builder and early-stage investor Investible, Poland’s Nomad Fund, Kai Hansen (ex-Lieferando), Apostolos Apostolakis, and Rafal Plutecki"
+        }
+      ]
+    },
+    {
+      "stage": "series-b",
+      "month": "2018-07",
+      "amountEur": 11258956,
+      "amountOriginal": 13200000,
+      "currency": "USD",
+      "techeuId": "72340591-197e-41e3-f6df-08d91092c887",
+      "investors": [
+        "Piton Capital",
+        "OpenOcean",
+        "Kulczyk Investments",
+        "Zach Coelius"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2018/07/06/booksy-the-worldwide-booking-system-raises-13-2-million/",
+          "quote": "has raised $13.2 million in a Series B effort"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2018/07/06/booksy-the-worldwide-booking-system-raises-13-2-million/",
+          "quote": "has raised $13.2 million in a Series B effort"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2018/07/06/booksy-the-worldwide-booking-system-raises-13-2-million/",
+          "quote": "July 6, 2018"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2018/07/06/booksy-the-worldwide-booking-system-raises-13-2-million/",
+          "quote": "The company raised from Piton Capital, OpenOcean, Kulczyk Investments, and Zach Coelius."
+        }
+      ]
+    },
+    {
+      "stage": "series-b",
+      "month": "2019-09",
+      "amountEur": 26055952,
+      "amountOriginal": 28500000,
+      "currency": "USD",
+      "techeuId": "23f1c9d2-780f-4551-f6e0-08d91092c887",
+      "investors": [
+        "Piton Capital",
+        "Enern",
+        "Industry Ventures",
+        "XG Ventures",
+        "Zach Coelius",
+        "Kai Hansen"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://pulse2.com/booksy-28-5-million-funding/",
+          "quote": "it raised $28.5 million in Series B2 financing"
+        },
+        {
+          "field": "stage",
+          "url": "https://pulse2.com/booksy-28-5-million-funding/",
+          "quote": "it raised $28.5 million in Series B2 financing"
+        },
+        {
+          "field": "month",
+          "url": "https://globalventuring.com/blog/2019/09/30/booksy-schedules-28-5m",
+          "quote": "Sep 30, 2019"
+        },
+        {
+          "field": "investors",
+          "url": "https://pulse2.com/booksy-28-5-million-funding/",
+          "quote": "including existing investors Piton Capital, Enern, and several others. And new investors Industry Ventures and XG Ventures also joined."
+        },
+        {
+          "field": "investors",
+          "url": "https://globalventuring.com/blog/2019/09/30/booksy-schedules-28-5m",
+          "quote": "filled out by private investors including Zach Coelius and Booksy board member Kai Hansen"
+        }
+      ]
+    },
+    {
+      "stage": "series-c",
+      "month": "2021-01",
+      "amountEur": 57784382,
+      "amountOriginal": 70000000,
+      "currency": "USD",
+      "techeuId": "0986d7b6-ed34-4ac8-f6e1-08d91092c887",
+      "investors": [
+        "Cat Rock Capital",
+        "Sprints Capital",
+        "OpenOcean",
+        "Piton Capital",
+        "VNV Global",
+        "Enern",
+        "Kai Hansen",
+        "Zach Coelius",
+        "Manta Ray Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2021/01/27/booksy-series-c/",
+          "quote": "has announced $70 million in Series C funding"
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2021/01/27/booksy-series-c/",
+          "quote": "has announced $70 million in Series C funding"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2021/01/27/booksy-series-c/",
+          "quote": "27 January 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2021/01/27/booksy-series-c/",
+          "quote": "The round was led by Cat Rock Capital with support from Sprints Capital."
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2021/01/27/booksy-series-c/",
+          "quote": "including OpenOcean, Piton Capital, VNV Global, Enern, Kai Hansen, Zach Coelius and Manta Ray Ventures"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "id": "flipdish",
+  "name": "Flipdish",
+  "aliases": [],
+  "domain": "flipdish.com",
+  "country": "IE",
+  "city": "Dublin",
+  "founded": 2015,
+  "sectors": [
+    "saas"
+  ],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 1090464974,
+  "founders": [
+    "Conor McCarthy",
+    "James McCarthy"
+  ],
+  "difficulty": 4,
+  "techeuId": "f27c936f-b43f-440d-ae62-4c70b44051ab",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://tech.eu/2022/01/13/flipdish-orders-up-100-million-now-valued-at-1-25-billion/",
+      "quote": "Dublin’s Flipdish has raised $100 million in a Series C round"
+    },
+    {
+      "field": "founded",
+      "url": "https://www.flipdish.com/resources/blog/series-c",
+      "quote": "Since we founded Flipdish in 2015"
+    },
+    {
+      "field": "founders",
+      "url": "https://www.flipdish.com/",
+      "quote": "Conor McCarthy | James McCarthy Co-Founders, Flipdish"
+    },
+    {
+      "field": "sectors",
+      "url": "https://tech.eu/2021/02/11/flipdish-funding/",
+      "quote": "an Irish software that helps restaurants build branded websites and ordering apps"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://tech.eu/2022/01/13/flipdish-orders-up-100-million-now-valued-at-1-25-billion/",
+      "quote": "becomes a card-carrying member of the unicorn club, with a valuation placed at $1.25 billion"
+    },
+    {
+      "field": "valuation",
+      "url": "https://tech.eu/2022/01/13/flipdish-orders-up-100-million-now-valued-at-1-25-billion/",
+      "quote": "becomes a card-carrying member of the unicorn club, with a valuation placed at $1.25 billion"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-a",
+      "month": "2018-12",
+      "amountEur": 4800000,
+      "amountOriginal": 4800000,
+      "currency": "EUR",
+      "techeuId": "a1f4dea2-0fc7-48e0-f87b-08d91092c887",
+      "investors": [
+        "Global Founders Capital",
+        "Elkstone"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2018/12/06/flipdish/",
+          "quote": "has closed a €4.8 million in Series A funding"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2018/12/06/flipdish/",
+          "quote": "has closed a €4.8 million in Series A funding"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2018/12/06/flipdish/",
+          "quote": "December 6, 2018"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2018/12/06/flipdish/",
+          "quote": "The round is led by Rocket Internet’s Global Founders Capital, with participation by existing investor Elkstone."
+        }
+      ]
+    },
+    {
+      "stage": "series-b",
+      "month": "2021-02",
+      "amountEur": 40000000,
+      "amountOriginal": 40000000,
+      "currency": "EUR",
+      "techeuId": "45ac27f7-1836-455b-f87c-08d91092c887",
+      "investors": [
+        "Tiger Global Management"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2021/02/11/flipdish-funding/",
+          "quote": "has raised €40 million from Tiger Global"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2021/02/11/flipdish-funding/",
+          "quote": "11 February 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2021/02/11/flipdish-funding/",
+          "quote": "has raised €40 million from Tiger Global"
+        }
+      ]
+    },
+    {
+      "stage": "series-c",
+      "month": "2022-01",
+      "amountEur": 87237198,
+      "amountOriginal": 100000000,
+      "currency": "USD",
+      "techeuId": "1d70584a-c1a7-4376-982f-bfc818a60e9a",
+      "investors": [
+        "Tencent",
+        "Tiger Global",
+        "Elkstone",
+        "Enterprise Ireland",
+        "Growing Capital",
+        "European Investment Fund"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2022/01/13/flipdish-orders-up-100-million-now-valued-at-1-25-billion/",
+          "quote": "Flipdish has raised $100 million in a Series C round"
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2022/01/13/flipdish-orders-up-100-million-now-valued-at-1-25-billion/",
+          "quote": "Flipdish has raised $100 million in a Series C round"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2022/01/13/flipdish-orders-up-100-million-now-valued-at-1-25-billion/",
+          "quote": "13 January 2022"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2022/01/13/flipdish-orders-up-100-million-now-valued-at-1-25-billion/",
+          "quote": "Flipdish’s $100 million Series C round was led by Tencent and Tiger Global who now join previous investors Elkstone , Enterprise Ireland , Growing Capital , and the European Investment Fund"
+        },
+        {
+          "field": "amount",
+          "url": "https://www.flipdish.com/resources/blog/series-c",
+          "quote": "c.$100m in investment"
+        }
+      ]
+    }
+  ]
+}

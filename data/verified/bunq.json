@@ -1,0 +1,120 @@
+{
+  "id": "bunq",
+  "name": "bunq",
+  "aliases": [
+    "Bunq"
+  ],
+  "domain": "bunq.com",
+  "country": "NL",
+  "city": "Amsterdam",
+  "founded": 2012,
+  "sectors": [
+    "fintech"
+  ],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 1650000000,
+  "founders": [
+    "Ali Niknam"
+  ],
+  "difficulty": 2,
+  "techeuId": "AA55BF97-0B17-442C-B134-4745402AEED1",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/Bunq",
+      "quote": "Bunq was founded by Ali Niknam in Amsterdam in 2012 as a fintech company."
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Bunq",
+      "quote": "Bunq was founded by Ali Niknam in Amsterdam in 2012 as a fintech company."
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Bunq",
+      "quote": "The company was founded in 2012 by entrepreneur Ali Niknam"
+    },
+    {
+      "field": "sectors",
+      "url": "https://en.wikipedia.org/wiki/Bunq",
+      "quote": "is a fintech and neobank licensed in the Netherlands"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://techcrunch.com/2023/07/24/bunq-the-dutch-neobank-has-raised-111m-at-a-flat-1-8b-valuation-to-break-into-the-us/",
+      "quote": "The round is coming in a valuation of €1.65 billion ($1.8 billion today; $1.9 billion in 2021)"
+    },
+    {
+      "field": "valuation",
+      "url": "https://techcrunch.com/2023/07/24/bunq-the-dutch-neobank-has-raised-111m-at-a-flat-1-8b-valuation-to-break-into-the-us/",
+      "quote": "The round is coming in a valuation of €1.65 billion ($1.8 billion today; $1.9 billion in 2021)"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "96505225-81b4-40b1-95e9-071afc0d0ace",
+      "stage": "series-a",
+      "month": "2021-07",
+      "amountEur": 193000000,
+      "amountOriginal": 193000000,
+      "currency": "EUR",
+      "investors": [
+        "Pollen Street Capital",
+        "Ali Niknam"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2021/07/07/european-challenger-bank-bunq-raises-228-million-at-1-9-billion-valuation/",
+          "quote": "The startup is raising $228 million (€193 million) in a round led by Pollen Street Capital"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2021/07/07/european-challenger-bank-bunq-raises-228-million-at-1-9-billion-valuation/",
+          "quote": "leading to the largest Series A round for a European fintech company"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2021/07/07/european-challenger-bank-bunq-raises-228-million-at-1-9-billion-valuation/",
+          "quote": "July 7, 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2021/07/07/european-challenger-bank-bunq-raises-228-million-at-1-9-billion-valuation/",
+          "quote": "Bunq founder Ali Niknam is also participating in the round"
+        }
+      ]
+    },
+    {
+      "techeuId": "e18da6a1-3402-4cdd-90b4-8aa34a47df95",
+      "stage": "series-b",
+      "month": "2023-07",
+      "amountEur": 100000000,
+      "amountOriginal": 100000000,
+      "currency": "EUR",
+      "investors": [
+        "Pollen Street Capital",
+        "Raymond Kasiman",
+        "Ali Niknam"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2023/07/24/bunq-the-dutch-neobank-has-raised-111m-at-a-flat-1-8b-valuation-to-break-into-the-us/",
+          "quote": "has raised €100 million in equity funding ($111 million at today’s rates)"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2023/07/24/bunq-the-dutch-neobank-has-raised-111m-at-a-flat-1-8b-valuation-to-break-into-the-us/",
+          "quote": "July 24, 2023"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2023/07/24/bunq-the-dutch-neobank-has-raised-111m-at-a-flat-1-8b-valuation-to-break-into-the-us/",
+          "quote": "specifically Pollen Street Capital, Raymond Kasiman and founder and CEO Ali Niknam"
+        }
+      ]
+    }
+  ]
+}

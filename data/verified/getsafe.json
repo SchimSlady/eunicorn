@@ -1,0 +1,159 @@
+{
+  "id": "getsafe",
+  "name": "Getsafe",
+  "aliases": [],
+  "domain": "hellogetsafe.com",
+  "country": "DE",
+  "city": "Heidelberg",
+  "founded": 2015,
+  "sectors": [
+    "fintech"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Christian Wiens",
+    "Marius Blaesing"
+  ],
+  "difficulty": 4,
+  "techeuId": "19869AD8-C075-4D48-AC4A-3D1269085B42",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://techcrunch.com/2019/06/05/getsafe/",
+      "quote": "The insurtech startup, based in Heidelberg"
+    },
+    {
+      "field": "founded",
+      "url": "https://techcrunch.com/2019/06/05/getsafe/",
+      "quote": "Founded in May 2015 by Christian Wiens (CEO) and Marius Blaesing (CTO)"
+    },
+    {
+      "field": "founders",
+      "url": "https://techcrunch.com/2019/06/05/getsafe/",
+      "quote": "Founded in May 2015 by Christian Wiens (CEO) and Marius Blaesing (CTO)"
+    },
+    {
+      "field": "sectors",
+      "url": "https://techcrunch.com/2019/06/05/getsafe/",
+      "quote": "the German insurance startup targeting millennials"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "b7442fc1-e5d0-45ec-f3a6-08d91092c887",
+      "stage": "series-a",
+      "month": "2019-06",
+      "amountEur": 15101714,
+      "amountOriginal": 17000000,
+      "currency": "USD",
+      "investors": [
+        "Earlybird",
+        "CommerzVentures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2019/06/05/getsafe/",
+          "quote": "has raised $17 million (€15m) in a Series A funding"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2019/06/05/getsafe/",
+          "quote": "has raised $17 million (€15m) in a Series A funding"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2019/06/05/getsafe/",
+          "quote": "June 5, 2019"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2019/06/05/getsafe/",
+          "quote": "The round is led by Earlybird, with CommerzVentures and other existing investors also participating"
+        }
+      ]
+    },
+    {
+      "techeuId": "6156a45a-f39d-4dd8-f3a7-08d91092c887",
+      "stage": "series-b",
+      "month": "2020-12",
+      "amountEur": 24736148,
+      "amountOriginal": 30000000,
+      "currency": "USD",
+      "investors": [
+        "Swiss Re",
+        "Earlybird",
+        "CommerzVentures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2020/12/07/getsafe-b",
+          "quote": "has closed $30 million in Series B funding"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2020/12/07/getsafe-b",
+          "quote": "has closed $30 million in Series B funding"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2020/12/07/getsafe-b",
+          "quote": "December 7, 2020"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2020/12/07/getsafe-b",
+          "quote": "Swiss Re, the reinsurer giant, led the round"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2020/12/07/getsafe-b",
+          "quote": "Existing investors , including Earlybird and CommerzVentures, also participated"
+        }
+      ]
+    },
+    {
+      "techeuId": "cecdfa17-41f3-4128-99f4-36bbf8cdb400",
+      "stage": "series-b",
+      "month": "2021-10",
+      "amountEur": 54583261,
+      "amountOriginal": 63000000,
+      "currency": "USD",
+      "investors": [
+        "Earlybird",
+        "Abacon Capital",
+        "CommerzVentures",
+        "Swiss Re"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2021/10/06/german-insurtech-startup-getsafe-adds-63-million-to-its-series-b/",
+          "quote": "the company is adding another $63 million in fresh capital"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2021/10/06/german-insurtech-startup-getsafe-adds-63-million-to-its-series-b/",
+          "quote": "Getsafe has extended its Series B round"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2021/10/06/german-insurtech-startup-getsafe-adds-63-million-to-its-series-b/",
+          "quote": "October 6, 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2021/10/06/german-insurtech-startup-getsafe-adds-63-million-to-its-series-b/",
+          "quote": "Investors in today's funding round include unnamed family offices as well as Earlybird and Abacon Capital"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2021/10/06/german-insurtech-startup-getsafe-adds-63-million-to-its-series-b/",
+          "quote": "such as CommerzVentures and Swiss Re, are also investing in the company once again"
+        }
+      ]
+    }
+  ]
+}

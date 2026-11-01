@@ -1,0 +1,207 @@
+{
+  "id": "pliant",
+  "name": "Pliant",
+  "aliases": [],
+  "domain": "getpliant.com",
+  "country": "DE",
+  "city": "Berlin",
+  "founded": 2020,
+  "sectors": [
+    "fintech"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [],
+  "difficulty": 4,
+  "techeuId": "A5308401-83B7-4940-8439-F28FC311F370",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://getpliant.com/en/press/pliant-raises-28-million-in-series-a-funding-round",
+      "quote": "Berlin-based Pliant is looking back at a very successful year 2022"
+    },
+    {
+      "field": "founded",
+      "url": "https://getpliant.com/en/press/series-b",
+      "quote": "Founded in 2020, Pliant’s momentum"
+    },
+    {
+      "field": "sectors",
+      "url": "https://getpliant.com/en/press/series-b",
+      "quote": "a European fintech specializing in B2B payment solutions"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "81dfd2a8-758b-4875-a0c0-9f8f081b856b",
+      "stage": "pre-seed",
+      "month": "2021-08",
+      "amountEur": 5505209,
+      "amountOriginal": 6500000,
+      "currency": "USD",
+      "investors": [
+        "Alstin Capital",
+        "Main Incubator",
+        "Saber",
+        "Seed+Speed"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://getpliant.com/en/press/pliant-6-5-million-in-seed-funding-from-alstin",
+          "quote": "announces a funding round of USD 6.5 million"
+        },
+        {
+          "field": "stage",
+          "url": "https://getpliant.com/en/press/pliant-raises-28-million-in-series-a-funding-round",
+          "quote": "pre-seed and seed rounds in August and December 2021"
+        },
+        {
+          "field": "month",
+          "url": "https://getpliant.com/en/press/pliant-6-5-million-in-seed-funding-from-alstin",
+          "quote": "Berlin, 6 August 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://getpliant.com/en/press/pliant-6-5-million-in-seed-funding-from-alstin",
+          "quote": "venture capitalists Alstin, Main Incubator, Saber as well as seed+speed"
+        }
+      ]
+    },
+    {
+      "techeuId": "b93a97ac-4ff9-43f6-bc8b-ae945cb1bf7e",
+      "stage": "series-a",
+      "month": "2023-02",
+      "amountEur": 26352941,
+      "amountOriginal": 28000000,
+      "currency": "USD",
+      "investors": [
+        "SBI Investment",
+        "Alstin Capital",
+        "Motive Ventures",
+        "neosfer",
+        "MS&AD Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://getpliant.com/en/press/pliant-raises-28-million-in-series-a-funding-round",
+          "quote": "securing $28 million in capital from existing and new investors"
+        },
+        {
+          "field": "month",
+          "url": "https://getpliant.com/en/press/pliant-raises-28-million-in-series-a-funding-round",
+          "quote": "Berlin, 17.02.2023"
+        },
+        {
+          "field": "investors",
+          "url": "https://getpliant.com/en/press/pliant-raises-28-million-in-series-a-funding-round",
+          "quote": "The $28 million Series A round is led by seasoned Japanese fintech investor SBI Investment"
+        },
+        {
+          "field": "investors",
+          "url": "https://getpliant.com/en/press/pliant-raises-28-million-in-series-a-funding-round",
+          "quote": "Existing investors Carsten Maschmeyer’s Alstin Capital, finleap founder Ramin Niroumand through Motive Ventures"
+        },
+        {
+          "field": "investors",
+          "url": "https://getpliant.com/en/press/pliant-raises-28-million-in-series-a-funding-round",
+          "quote": "Further new investors are MS&AD Ventures from Silicon Valley."
+        }
+      ]
+    },
+    {
+      "techeuId": "c2cafe68-10ec-4706-9817-a85ca348fd05",
+      "stage": "series-a",
+      "month": "2024-01",
+      "amountEur": 8000000,
+      "amountOriginal": 8000000,
+      "currency": "EUR",
+      "investors": [
+        "Molten Ventures",
+        "SBI Investment",
+        "Alstin Capital",
+        "Motive Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2024/01/16/berlin-startup-pliant-adds-8m-to-series-a-round-and-secures-100m-debt-facility/",
+          "quote": "Berlin-based startup Pliant secures €8 million in additional funding, raising the total to €33 million."
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2024/01/16/berlin-startup-pliant-adds-8m-to-series-a-round-and-secures-100m-debt-facility/",
+          "quote": "16 January 2024"
+        },
+        {
+          "field": "investors",
+          "url": "https://getpliant.com/en/press/pliant-concludes-a-successful-2023",
+          "quote": "New investment comes from Molten Ventures, joining existing Series A investors SBI Investment, Alstin Capital, and Maotive Ventures."
+        }
+      ]
+    },
+    {
+      "techeuId": "4e9d57c4-cb34-43cd-b745-b7c63fcc420f",
+      "stage": "series-a",
+      "month": "2024-04",
+      "amountEur": 18000000,
+      "amountOriginal": 18000000,
+      "currency": "EUR",
+      "investors": [
+        "PayPal Ventures",
+        "SBI Investment",
+        "Motive Ventures",
+        "Alstin Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://getpliant.com/en/press/pliant-announces-euro18-million-series-a-extension",
+          "quote": "today announced the closing of more than €18 million in Series A extension financing, led by PayPal Ventures"
+        },
+        {
+          "field": "month",
+          "url": "https://getpliant.com/en/press",
+          "quote": "Company will use the funding to fuel expansion into the UK and other markets outside the EU. April 17, 2024"
+        },
+        {
+          "field": "investors",
+          "url": "https://getpliant.com/en/press/pliant-announces-euro18-million-series-a-extension",
+          "quote": "Existing investors SBI Investment, Motive Ventures, and Alstin Capital also participated in the round."
+        }
+      ]
+    },
+    {
+      "techeuId": "670003e6-1310-407f-8a09-ad2ee96a8a24",
+      "stage": "series-b",
+      "month": "2025-04",
+      "amountEur": 35217468,
+      "amountOriginal": 40000000,
+      "currency": "USD",
+      "investors": [
+        "Illuminate Financial",
+        "Speedinvest",
+        "PayPal Ventures",
+        "Motive Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://getpliant.com/en/press/series-b",
+          "quote": "today announced it has raised a $40 million Series B equity round"
+        },
+        {
+          "field": "month",
+          "url": "https://getpliant.com/en/press/series-b",
+          "quote": "Berlin, April 28th, 2025"
+        },
+        {
+          "field": "investors",
+          "url": "https://getpliant.com/en/press/series-b",
+          "quote": "The financing round is led by Illuminate Financial and Speedinvest, with existing investors including PayPal Ventures and Motive Ventures participating."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "id": "motorway",
+  "name": "Motorway",
+  "aliases": [],
+  "domain": "motorway.co.uk",
+  "country": "GB",
+  "city": "London",
+  "founded": 2017,
+  "sectors": [
+    "mobility"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Tom Leathes",
+    "Harry Jones",
+    "Alex Buttle"
+  ],
+  "difficulty": 4,
+  "techeuId": "4c0091b2-6179-4803-8772-c1b34b59830e",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://techcrunch.com/2018/06/05/motorway/",
+      "quote": "The London-based startup wants to provide a fourth option."
+    },
+    {
+      "field": "founded",
+      "url": "https://motorway.co.uk/about",
+      "quote": "Tom Leathes, Harry Jones and Alex Buttle founded Motorway"
+    },
+    {
+      "field": "founders",
+      "url": "https://motorway.co.uk/about",
+      "quote": "Tom Leathes, Harry Jones and Alex Buttle founded Motorway"
+    },
+    {
+      "field": "sectors",
+      "url": "https://techcrunch.com/2019/06/25/motorway-series-a/",
+      "quote": "the U.K. used car marketplace"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://techcrunch.com/2021/11/28/second-hand-car-auction-platform-motorway-hits-unicorn-status-after-190m-raise-with-index-iconiq/",
+      "quote": "The startup is now claiming a valuation of over $1 billion."
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "seed",
+      "month": "2018-06",
+      "amountEur": 3146813,
+      "amountOriginal": 2750000,
+      "currency": "GBP",
+      "techeuId": "5e46469f-dd65-40ed-dc54-08d91092c887",
+      "investors": [
+        "LocalGlobe",
+        "Marchmont Ventures",
+        "Alex Chesterman"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2018/06/05/motorway/",
+          "quote": "has raised £2.75 million in seed funding led by LocalGlobe , and Marchmont Ventures"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2018/06/05/motorway/",
+          "quote": "Motorway raises £2.75M seed funding"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2018/06/05/motorway/",
+          "quote": "June 5, 2018"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2018/06/05/motorway/",
+          "quote": "has raised £2.75 million in seed funding led by LocalGlobe , and Marchmont Ventures"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2018/06/05/motorway/",
+          "quote": "Zoopla founder Alex Chesterman also participated."
+        }
+      ]
+    },
+    {
+      "stage": "series-a",
+      "month": "2019-06",
+      "amountEur": 12292563,
+      "amountOriginal": 11000000,
+      "currency": "GBP",
+      "techeuId": "183aebbd-3d74-4f7d-dc55-08d91092c887",
+      "investors": [
+        "Marchmont Ventures",
+        "LocalGlobe"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://motorway.co.uk/blog/2019/06/25/motorway-raises-11m-in-series-a-funding",
+          "quote": "Motorway has announced today that it has secured £11 million in Series A funding"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2019/06/25/motorway-series-a/",
+          "quote": "Used car marketplace Motorway picks up £11M Series A"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2019/06/25/motorway-series-a/",
+          "quote": "June 25, 2019"
+        },
+        {
+          "field": "investors",
+          "url": "https://motorway.co.uk/blog/2019/06/25/motorway-raises-11m-in-series-a-funding",
+          "quote": "The funding round was led by Marchmont Ventures"
+        },
+        {
+          "field": "investors",
+          "url": "https://motorway.co.uk/blog/2019/06/25/motorway-raises-11m-in-series-a-funding",
+          "quote": "along with participation from existing backer LocalGlobe"
+        }
+      ]
+    },
+    {
+      "stage": "series-b",
+      "month": "2021-06",
+      "amountEur": 55880230,
+      "amountOriginal": 48000000,
+      "currency": "GBP",
+      "techeuId": "7e63bba8-7aed-42f1-8d74-3ea7b6b6788d",
+      "investors": [
+        "Index Ventures",
+        "BMW i Ventures",
+        "Unbound",
+        "Latitude",
+        "Marchmont Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2021/06/13/motorways-auction-platform-for-second-hand-cars-raises-67-7m-series-b-led-by-index-ventures/",
+          "quote": "It’s now raised £48 million / $67.7 million in a Series B round led by Index Ventures"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2021/06/13/motorways-auction-platform-for-second-hand-cars-raises-67-7m-series-b-led-by-index-ventures/",
+          "quote": "It’s now raised £48 million / $67.7 million in a Series B round led by Index Ventures"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2021/06/13/motorways-auction-platform-for-second-hand-cars-raises-67-7m-series-b-led-by-index-ventures/",
+          "quote": "June 13, 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2021/06/13/motorways-auction-platform-for-second-hand-cars-raises-67-7m-series-b-led-by-index-ventures/",
+          "quote": "along with new investors BMW i Ventures and Unbound. Existing investors Latitude and Marchmont Ventures also participated."
+        }
+      ]
+    },
+    {
+      "stage": "series-c",
+      "month": "2021-11",
+      "amountEur": 168499468,
+      "amountOriginal": 190000000,
+      "currency": "USD",
+      "techeuId": "8052f6a1-2217-4f47-b7db-979186e153b6",
+      "investors": [
+        "Index Ventures",
+        "ICONIQ Growth",
+        "Latitude",
+        "Unbound",
+        "BMW i Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2021/11/28/second-hand-car-auction-platform-motorway-hits-unicorn-status-after-190m-raise-with-index-iconiq/",
+          "quote": "It’s now raised a $190 million Series C funding round led by Index Ventures and ICONIQ Growth"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2021/11/28/second-hand-car-auction-platform-motorway-hits-unicorn-status-after-190m-raise-with-index-iconiq/",
+          "quote": "It’s now raised a $190 million Series C funding round led by Index Ventures and ICONIQ Growth"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2021/11/28/second-hand-car-auction-platform-motorway-hits-unicorn-status-after-190m-raise-with-index-iconiq/",
+          "quote": "November 28, 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2021/11/28/second-hand-car-auction-platform-motorway-hits-unicorn-status-after-190m-raise-with-index-iconiq/",
+          "quote": "Existing investors Latitude, Unbound and BMW i Ventures also participated in the round."
+        }
+      ]
+    }
+  ]
+}

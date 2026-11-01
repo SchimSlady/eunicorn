@@ -1,0 +1,151 @@
+{
+  "id": "marshmallow",
+  "name": "Marshmallow",
+  "aliases": [],
+  "domain": "marshmallow.com",
+  "country": "GB",
+  "city": "London",
+  "founded": 2017,
+  "sectors": [
+    "fintech"
+  ],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 1757932671,
+  "founders": [
+    "Alexander Kent-Braham",
+    "Oliver Kent-Braham",
+    "David Goate"
+  ],
+  "difficulty": 3,
+  "techeuId": "2C365744-43F0-4D25-A79E-ABD945628886",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://techcrunch.com/2021/09/07/marshmallow-insurance-85-million/",
+      "quote": "The London company"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Marshmallow_(company)",
+      "quote": "founded in 2017 by twins Alexander and Oliver Kent-Braham, and software engineer David Goate"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Marshmallow_(company)",
+      "quote": "founded in 2017 by twins Alexander and Oliver Kent-Braham, and software engineer David Goate"
+    },
+    {
+      "field": "sectors",
+      "url": "https://techcrunch.com/2025/04/14/marshmallow-the-uk-insurance-startup-for-migrants-raises-90m-at-a-2b-valuation",
+      "quote": "by using innovations in data science to build car insurance policies for immigrants"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://techcrunch.com/2021/09/07/marshmallow-insurance-85-million/",
+      "quote": "specifically, $1.25 billion"
+    },
+    {
+      "field": "valuation",
+      "url": "https://techcrunch.com/2025/04/14/marshmallow-the-uk-insurance-startup-for-migrants-raises-90m-at-a-2b-valuation",
+      "quote": "it is coming at a valuation of just over $2 billion"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "850012cc-aad5-4312-f10b-08d91092c887",
+      "stage": "seed",
+      "month": "2018-06",
+      "amountEur": 1013856,
+      "amountOriginal": 1200000,
+      "currency": "USD",
+      "investors": [
+        "Passion Capital",
+        "Investec Bank"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2018/06/07/marshmallow/",
+          "quote": "has picked up $1.2 million in seed funding"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2018/06/07/marshmallow/",
+          "quote": "has picked up $1.2 million in seed funding"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2018/06/07/marshmallow/",
+          "quote": "June 7, 2018"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2018/06/07/marshmallow/",
+          "quote": "is Passion Capital, and Investec Bank"
+        }
+      ]
+    },
+    {
+      "techeuId": "c0902e66-5556-4021-f10c-08d91092c887",
+      "stage": "series-a",
+      "month": "2020-11",
+      "amountEur": 25746653,
+      "amountOriginal": 30000000,
+      "currency": "USD",
+      "investors": [],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2020/11/02/uks-marshmallow-raises-30m-on-a-310m-valuation-for-more-inclusive-car-insurance/",
+          "quote": "is announcing a $30 million round of funding"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2020/11/02/uks-marshmallow-raises-30m-on-a-310m-valuation-for-more-inclusive-car-insurance/",
+          "quote": "it plans to use the Series A funding to continue expanding its business"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2020/11/02/uks-marshmallow-raises-30m-on-a-310m-valuation-for-more-inclusive-car-insurance/",
+          "quote": "November 2, 2020"
+        }
+      ]
+    },
+    {
+      "techeuId": "d57b624c-3f26-4522-b67a-317df658d4e2",
+      "stage": "series-b",
+      "month": "2021-09",
+      "amountEur": 71669477,
+      "amountOriginal": 85000000,
+      "currency": "USD",
+      "investors": [
+        "Passion Capital",
+        "Investec",
+        "Scor"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2021/09/07/marshmallow-insurance-85-million/",
+          "quote": "has raised $85 million in a new round of funding"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2021/09/07/marshmallow-insurance-85-million/",
+          "quote": "The Series B valuation is significant on two counts"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2021/09/07/marshmallow-insurance-85-million/",
+          "quote": "September 7, 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2021/09/07/marshmallow-insurance-85-million/",
+          "quote": "Alongside Passion Capital, Investec and Scor also invested in this round"
+        }
+      ]
+    }
+  ]
+}

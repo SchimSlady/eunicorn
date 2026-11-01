@@ -1,0 +1,136 @@
+{
+  "id": "freetrade",
+  "name": "Freetrade",
+  "aliases": [],
+  "domain": "freetrade.io",
+  "country": "GB",
+  "city": "London",
+  "founded": 2016,
+  "sectors": [
+    "fintech"
+  ],
+  "status": "acquired",
+  "unicorn": false,
+  "lastValuationEur": 308003030,
+  "founders": [
+    "Adam Dodds",
+    "Davide Fioranelli",
+    "André Mohamed"
+  ],
+  "difficulty": 3,
+  "techeuId": "4A707F5B-D631-4B4B-8968-0E4529CB4183",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://techcrunch.com/2019/10/31/freetrade-series-a/",
+      "quote": "London-based Freetrade was first out of the gate"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Freetrade",
+      "quote": "founded in 2016 by Adam Dodds, Davide Fioranelli and André Mohamed"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Freetrade",
+      "quote": "founded in 2016 by Adam Dodds, Davide Fioranelli and André Mohamed"
+    },
+    {
+      "field": "sectors",
+      "url": "https://techcrunch.com/2021/03/23/stock-trading-app-freetrade-raises-69-million/",
+      "quote": "U.K. challenger stockbroker Freetrade has raised a $69 million Series B round"
+    },
+    {
+      "field": "status",
+      "url": "https://en.wikipedia.org/wiki/Freetrade",
+      "quote": "IG Group agreed to acquire Freetrade for £160 million"
+    },
+    {
+      "field": "valuation",
+      "url": "https://techcrunch.com/2021/03/23/stock-trading-app-freetrade-raises-69-million/",
+      "quote": "Freetrade has reached a post-money valuation of $366 million"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "62f4e04a-c364-4ceb-f88c-08d91092c887",
+      "stage": "series-a",
+      "month": "2019-10",
+      "amountEur": 13448090,
+      "amountOriginal": 15000000,
+      "currency": "USD",
+      "investors": [
+        "Draper Esprit",
+        "Crowdcube"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2019/10/31/freetrade-series-a/",
+          "quote": "has closed $15 million in Series A funding"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2019/10/31/freetrade-series-a/",
+          "quote": "has closed $15 million in Series A funding"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2019/10/31/freetrade-series-a/",
+          "quote": "October 31, 2019"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2019/10/31/freetrade-series-a/",
+          "quote": "includes a $7.5 million investment from Draper Esprit"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2019/10/31/freetrade-series-a/",
+          "quote": "previously announced equity crowdfunding via Crowdcube"
+        }
+      ]
+    },
+    {
+      "techeuId": "4b1c8597-c2b4-4d78-f88e-08d91092c887",
+      "stage": "series-b",
+      "month": "2021-03",
+      "amountEur": 58066145,
+      "amountOriginal": 69000000,
+      "currency": "USD",
+      "postMoneyValuationEur": 308003030,
+      "investors": [
+        "Left Lane Capital",
+        "L Catterton",
+        "Draper Esprit"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2021/03/23/stock-trading-app-freetrade-raises-69-million/",
+          "quote": "has raised a $69 million Series B round led by Left Lane Capital"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2021/03/23/stock-trading-app-freetrade-raises-69-million/",
+          "quote": "has raised a $69 million Series B round led by Left Lane Capital"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2021/03/23/stock-trading-app-freetrade-raises-69-million/",
+          "quote": "March 23, 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2021/03/23/stock-trading-app-freetrade-raises-69-million/",
+          "quote": "led by Left Lane Capital"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2021/03/23/stock-trading-app-freetrade-raises-69-million/",
+          "quote": "The growth fund of L Catterton and existing investor Draper Esprit also participated"
+        }
+      ]
+    }
+  ]
+}

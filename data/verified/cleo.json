@@ -1,0 +1,237 @@
+{
+  "id": "cleo",
+  "name": "Cleo",
+  "aliases": [],
+  "domain": "meetcleo.com",
+  "country": "GB",
+  "city": "London",
+  "founded": 2016,
+  "sectors": [
+    "fintech",
+    "ai"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "lastValuationEur": 475420747,
+  "founders": [
+    "Barnaby Hussey-Yeo"
+  ],
+  "difficulty": 3,
+  "techeuId": "0A26E8DA-9277-45B2-A48D-0F7C4C3C7893",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://techcrunch.com/2020/12/10/cleo-series-b/",
+      "quote": "Cleo , the London-founded"
+    },
+    {
+      "field": "founded",
+      "url": "https://tech.eu/2022/06/29/cleo-unlocks-80-million-to-help-gen-z-weather-the-cost-of-living-crisis",
+      "quote": "Founded in 2016"
+    },
+    {
+      "field": "founders",
+      "url": "https://tech.eu/2022/06/29/cleo-unlocks-80-million-to-help-gen-z-weather-the-cost-of-living-crisis",
+      "quote": "Barnaby Hussey-Yeo , founder and CEO of Cleo"
+    },
+    {
+      "field": "sectors",
+      "url": "https://tech.eu/2022/06/29/cleo-unlocks-80-million-to-help-gen-z-weather-the-cost-of-living-crisis",
+      "quote": "The AI-based assistant can set targets, put away savings automatically"
+    },
+    {
+      "field": "valuation",
+      "url": "https://www.uktech.news/fintech/gen-z-cleo-series-c-20220629",
+      "quote": "has raised $80m (£65.8m) at a $500m valuation"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "pre-seed",
+      "month": "2017-01",
+      "amountEur": 651587,
+      "amountOriginal": 700000,
+      "currency": "USD",
+      "investors": [
+        "Niklas Zennström"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2017/01/25/cleo/",
+          "quote": "has picked up $700,000 in funding from an impressive list of angel investors"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2017/01/25/cleo/",
+          "quote": "has picked up $700,000 in funding from an impressive list of angel investors"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2017/01/25/cleo/",
+          "quote": "January 25, 2017"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2017/01/25/cleo/",
+          "quote": "including Skype founder Niklas Zennström"
+        }
+      ]
+    },
+    {
+      "techeuId": "cbc95669-4d7f-4a8f-f3e1-08d91092c887",
+      "stage": "seed",
+      "month": "2017-07",
+      "amountEur": 2240269,
+      "amountOriginal": 2000000,
+      "currency": "GBP",
+      "investors": [
+        "LocalGlobe",
+        "Niklas Zennström",
+        "Entrepreneur First"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2017/07/26/emoji-banking/",
+          "quote": "has closed £2 million in further funding"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2017/07/26/emoji-banking/",
+          "quote": "has closed £2 million in further funding"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2017/07/26/emoji-banking/",
+          "quote": "July 26, 2017"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2017/07/26/emoji-banking/",
+          "quote": "The new round is led by LocalGlobe"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2017/07/26/emoji-banking/",
+          "quote": "They include Zennström himself, Entrepreneur First (EF)"
+        }
+      ]
+    },
+    {
+      "techeuId": "e8181915-ce6d-44d3-f3e3-08d91092c887",
+      "stage": "series-a",
+      "month": "2018-09",
+      "amountEur": 8496899,
+      "amountOriginal": 10000000,
+      "currency": "USD",
+      "investors": [
+        "Balderton Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2018/09/20/cleo-meet-balderton/",
+          "quote": "has led Cleo's $10 million Series A round"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2018/09/20/cleo-meet-balderton/",
+          "quote": "has led Cleo's $10 million Series A round"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2018/09/20/cleo-meet-balderton/",
+          "quote": "September 20, 2018"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2018/09/20/cleo-meet-balderton/",
+          "quote": "has led Cleo's $10 million Series A round"
+        }
+      ]
+    },
+    {
+      "techeuId": "bd502c70-3636-4a12-f3e5-08d91092c887",
+      "stage": "series-b",
+      "month": "2020-12",
+      "amountEur": 36318613,
+      "amountOriginal": 44000000,
+      "currency": "USD",
+      "investors": [
+        "EQT Ventures",
+        "Balderton Capital",
+        "LocalGlobe",
+        "SBI"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2020/12/10/cleo-series-b/",
+          "quote": "has raised $44 million in Series B funding"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2020/12/10/cleo-series-b/",
+          "quote": "has raised $44 million in Series B funding"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2020/12/10/cleo-series-b/",
+          "quote": "December 10, 2020"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2020/12/10/cleo-series-b/",
+          "quote": "Leading the round, which I understand actually closed earlier this year, is EQT Ventures"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2020/12/10/cleo-series-b/",
+          "quote": "Also participating are existing investors Balderton Capital, LocalGlobe and SBI"
+        }
+      ]
+    },
+    {
+      "techeuId": "9133ea76-f273-4778-b594-781c14326195",
+      "stage": "series-c",
+      "month": "2022-06",
+      "amountEur": 76067320,
+      "amountOriginal": 80000000,
+      "currency": "USD",
+      "postMoneyValuationEur": 475420747,
+      "investors": [
+        "Sofina",
+        "EQT Ventures",
+        "Balderton Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2022/06/29/cleo-unlocks-80-million-to-help-gen-z-weather-the-cost-of-living-crisis",
+          "quote": "UK-based financial app Cleo has raised $80 million in funding"
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2022/06/29/cleo-unlocks-80-million-to-help-gen-z-weather-the-cost-of-living-crisis",
+          "quote": "The Series C round was led by Belgium-based investment company Sofina"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2022/06/29/cleo-unlocks-80-million-to-help-gen-z-weather-the-cost-of-living-crisis",
+          "quote": "29 June 2022"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2022/06/29/cleo-unlocks-80-million-to-help-gen-z-weather-the-cost-of-living-crisis",
+          "quote": "The Series C round was led by Belgium-based investment company Sofina"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2022/06/29/cleo-unlocks-80-million-to-help-gen-z-weather-the-cost-of-living-crisis",
+          "quote": "backed by existing investors, including EQT and Balderton Capital"
+        }
+      ]
+    }
+  ]
+}

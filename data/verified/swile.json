@@ -1,0 +1,174 @@
+{
+  "id": "swile",
+  "name": "Swile",
+  "aliases": [
+    "Lunchr"
+  ],
+  "domain": "swile.co",
+  "country": "FR",
+  "city": "Montpellier",
+  "founded": 2016,
+  "sectors": [
+    "fintech"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Loïc Soubeyrand"
+  ],
+  "difficulty": 3,
+  "techeuId": "522BD4E7-66D5-4AFE-82C5-DF68393C2CAA",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://fr.wikipedia.org/wiki/Swile",
+      "quote": "Siège social Montpellier France"
+    },
+    {
+      "field": "founded",
+      "url": "https://fr.wikipedia.org/wiki/Swile",
+      "quote": "Création 29/11/2016"
+    },
+    {
+      "field": "founders",
+      "url": "https://fr.wikipedia.org/wiki/Swile",
+      "quote": "Fondateurs Loïc Soubeyrand"
+    },
+    {
+      "field": "sectors",
+      "url": "https://techcrunch.com/2021/10/11/swile-raises-200-million-for-its-employee-benefits-card-and-app/",
+      "quote": "Swile provides a payment card for employee benefits, such as meal vouchers, gift cards and sustainable mobility vouchers."
+    },
+    {
+      "field": "unicorn",
+      "url": "https://www.frenchweb.fr/swile-nouvelle-licorne-francaise-apres-une-levee-de-200-millions-de-dollars-menee-par-softbank/428931",
+      "quote": "portant sa valorisation à plus d’un milliard de dollars"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "seed",
+      "month": "2017-01",
+      "amountEur": 2500000,
+      "amountOriginal": 2500000,
+      "currency": "EUR",
+      "investors": [
+        "Daphni"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://fr.wikipedia.org/wiki/Swile",
+          "quote": "L’entreprise lève en janvier 2017 2,5 millions d'euros auprès de Daphni"
+        },
+        {
+          "field": "month",
+          "url": "https://fr.wikipedia.org/wiki/Swile",
+          "quote": "L’entreprise lève en janvier 2017 2,5 millions d'euros auprès de Daphni"
+        },
+        {
+          "field": "investors",
+          "url": "https://fr.wikipedia.org/wiki/Swile",
+          "quote": "L’entreprise lève en janvier 2017 2,5 millions d'euros auprès de Daphni"
+        }
+      ]
+    },
+    {
+      "stage": "series-b",
+      "month": "2019-02",
+      "amountEur": 30000000,
+      "amountOriginal": 30000000,
+      "currency": "EUR",
+      "investors": [
+        "Index Ventures",
+        "Daphni",
+        "Idinvest",
+        "Kima Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2019/02/04/lunchr-grabs-34-million-for-its-corporate-lunch-card/",
+          "quote": "is raising a $34 million funding round (€30 million) from Index Ventures"
+        },
+        {
+          "field": "stage",
+          "url": "https://fr.wikipedia.org/wiki/Swile",
+          "quote": "une autre de 30 millions d'euros en février 2019 (série B)"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2019/02/04/lunchr-grabs-34-million-for-its-corporate-lunch-card/",
+          "quote": "February 4, 2019"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2019/02/04/lunchr-grabs-34-million-for-its-corporate-lunch-card/",
+          "quote": "with existing investors Daphni, Idinvest and Kima Ventures also participating"
+        }
+      ]
+    },
+    {
+      "techeuId": "754e39d8-4d1e-4e63-ea90-08d91092c887",
+      "stage": "series-c",
+      "month": "2020-06",
+      "amountEur": 70000000,
+      "amountOriginal": 70000000,
+      "currency": "EUR",
+      "investors": [
+        "Index Ventures",
+        "Bpifrance",
+        "Idinvest"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2020/06/23/swile-raises-78-7-million-for-its-corporate-lunch-card-and-benefits-app/",
+          "quote": "raised a $78.7 million (€70 million) Series C round a few months ago"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2020/06/23/swile-raises-78-7-million-for-its-corporate-lunch-card-and-benefits-app/",
+          "quote": "June 23, 2020"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2020/06/23/swile-raises-78-7-million-for-its-corporate-lunch-card-and-benefits-app/",
+          "quote": "Index Ventures is leading the round, Bpifrance and Idinvest are also participating."
+        }
+      ]
+    },
+    {
+      "techeuId": "b842f2c9-8418-44f4-8242-eb74fa0e59b2",
+      "stage": "series-d",
+      "month": "2021-10",
+      "amountEur": 172801106,
+      "amountOriginal": 200000000,
+      "currency": "USD",
+      "investors": [
+        "SoftBank Group International",
+        "Eurazeo",
+        "Index Ventures",
+        "Bpifrance",
+        "Headline"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2021/10/11/swile-raises-200-million-for-its-employee-benefits-card-and-app/",
+          "quote": "has raised a $200 million Series D funding round led by SoftBank Group International."
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2021/10/11/swile-raises-200-million-for-its-employee-benefits-card-and-app/",
+          "quote": "October 11, 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2021/10/11/swile-raises-200-million-for-its-employee-benefits-card-and-app/",
+          "quote": "Some of the startup’s existing investors are participating once again, such as Eurazeo, Index Ventures and Bpifrance. Headline is also investing in Swile for the first time."
+        }
+      ]
+    }
+  ]
+}

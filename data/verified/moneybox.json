@@ -1,0 +1,116 @@
+{
+  "id": "moneybox",
+  "name": "Moneybox",
+  "aliases": [],
+  "domain": "moneyboxapp.com",
+  "country": "GB",
+  "city": "London",
+  "founded": 2016,
+  "sectors": [
+    "fintech"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Ben Stanway"
+  ],
+  "difficulty": 3,
+  "techeuId": "60972A4D-D024-4A74-9B1C-DB7114E3F4C4",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://tech.eu/2022/04/04/savings-and-investment-platform-moneybox-banks-ps35-million/",
+      "quote": "London-based savings and investment platform Moneybox"
+    },
+    {
+      "field": "founded",
+      "url": "https://tech.eu/brief/moneybox-series-c/",
+      "quote": "Launched in 2016, the fintech company"
+    },
+    {
+      "field": "founders",
+      "url": "https://tech.eu/brief/moneybox-series-c/",
+      "quote": "co-founder Ben Stanway"
+    },
+    {
+      "field": "sectors",
+      "url": "https://tech.eu/2022/04/04/savings-and-investment-platform-moneybox-banks-ps35-million/",
+      "quote": "London-based savings and investment platform Moneybox"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-c",
+      "month": "2020-07",
+      "amountEur": 32938800,
+      "amountOriginal": 30000000,
+      "currency": "GBP",
+      "investors": [
+        "Eight Roads",
+        "CNP",
+        "Breega"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/brief/moneybox-series-c/",
+          "quote": "has secured £30 million in Series C funding"
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/brief/moneybox-series-c/",
+          "quote": "has secured £30 million in Series C funding"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/brief/moneybox-series-c/",
+          "quote": "17 July 2020"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/brief/moneybox-series-c/",
+          "quote": "led jointly by Eight Roads and CNP, with participation from Breega"
+        }
+      ]
+    },
+    {
+      "techeuId": "0c350b38-ba3f-4af8-a769-22212ceceb24",
+      "stage": "series-d",
+      "month": "2022-04",
+      "amountEur": 41721302,
+      "amountOriginal": 35000000,
+      "currency": "GBP",
+      "investors": [
+        "Fidelity International Strategic Ventures",
+        "Polar Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2022/04/04/savings-and-investment-platform-moneybox-banks-ps35-million/",
+          "quote": "Moneybox has raised £35 million in a Series D funding round"
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2022/04/04/savings-and-investment-platform-moneybox-banks-ps35-million/",
+          "quote": "Moneybox has raised £35 million in a Series D funding round"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2022/04/04/savings-and-investment-platform-moneybox-banks-ps35-million/",
+          "quote": "04 April 2022"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2022/04/04/savings-and-investment-platform-moneybox-banks-ps35-million/",
+          "quote": "led by existing investor Fidelity International Strategic Ventures"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2022/04/04/savings-and-investment-platform-moneybox-banks-ps35-million/",
+          "quote": "with new investor Polar Capital participating"
+        }
+      ]
+    }
+  ]
+}

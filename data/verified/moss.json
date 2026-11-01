@@ -1,0 +1,177 @@
+{
+  "id": "moss",
+  "name": "Moss",
+  "aliases": [
+    "Moss Spend Management"
+  ],
+  "domain": "getmoss.com",
+  "country": "DE",
+  "city": "Berlin",
+  "founded": 2019,
+  "sectors": [
+    "fintech"
+  ],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 1000000000,
+  "founders": [
+    "Ante Spittler",
+    "Anton Rummel",
+    "Ferdinand Meyer",
+    "Stephan Haslebacher"
+  ],
+  "difficulty": 3,
+  "techeuId": "DAD12026-4EFE-4999-BCAA-6AC1E17BEE0F",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.startbase.de/news/unicorn-moss-berliner-fintech-knackt-milliardenbewertung-nach-series-c/",
+      "quote": "Das Berliner FinTech Moss hat seine Series-C-Finanzierungsrunde erfolgreich abgeschlossen"
+    },
+    {
+      "field": "founded",
+      "url": "https://www.startbase.de/news/unicorn-moss-berliner-fintech-knackt-milliardenbewertung-nach-series-c/",
+      "quote": "Ferdinand Meyer, Anton Rummel, Stephan Haslebacher und Ante Spittler gründeten das Startup 2019."
+    },
+    {
+      "field": "founders",
+      "url": "https://www.startbase.de/news/unicorn-moss-berliner-fintech-knackt-milliardenbewertung-nach-series-c/",
+      "quote": "Gegründet wurde Moss von Ante Spittler, Anton Rummel, Ferdinand Meyer und Stephan Haslebacher."
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.volksstimme.de/leben/technik/berliner-fintech-moss-steigt-zum-milliarden-einhorn-auf-4296669",
+      "quote": "Anbieter für Firmenkreditkarten und Ausgabenmanagement"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://invest-in.berlin/n/moss-becomes-berlins-newest-fintech-unicorn/",
+      "quote": "investors have valued the company at one billion euros for the first time"
+    },
+    {
+      "field": "valuation",
+      "url": "https://invest-in.berlin/n/moss-becomes-berlins-newest-fintech-unicorn/",
+      "quote": "investors have valued the company at one billion euros for the first time"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "5465ed2e-cfd0-4dbd-fa8a-08d91092c887",
+      "stage": "series-a",
+      "month": "2021-01",
+      "amountEur": 21000000,
+      "amountOriginal": 21000000,
+      "currency": "EUR",
+      "investors": [
+        "Valar Ventures",
+        "Cherry Ventures",
+        "Global Founders Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2021/01/15/corporate-credit-card-platform-moss-raises-25-5-million/",
+          "quote": "has raised a $25.5 million (€21 million) funding round led by Valar Ventures."
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2021/01/15/corporate-credit-card-platform-moss-raises-25-5-million/",
+          "quote": "January 15, 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2021/01/15/corporate-credit-card-platform-moss-raises-25-5-million/",
+          "quote": "Existing investors Cherry Ventures and Global Founders Capital are also participating."
+        }
+      ]
+    },
+    {
+      "techeuId": "dcf7aee8-8892-4844-a61b-cd99d0388489",
+      "stage": "series-a",
+      "month": "2021-08",
+      "amountEur": 25000000,
+      "amountOriginal": 25000000,
+      "currency": "EUR",
+      "investors": [
+        "Valar Ventures",
+        "Cherry Ventures",
+        "Global Founders Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://getmoss.com/magazine/series-a-extension",
+          "quote": "25 million euro investment for Moss"
+        },
+        {
+          "field": "month",
+          "url": "https://getmoss.com/magazine/series-a-extension",
+          "quote": "August 19, 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://getmoss.com/magazine/series-a-extension",
+          "quote": "once again received funding from Peter Thiel's VC Valar Ventures, with participation from Cherry Ventures and Global Founders Capital from Berlin"
+        }
+      ]
+    },
+    {
+      "techeuId": "95dc87d1-d0df-432f-ac87-22c41dd86555",
+      "stage": "series-b",
+      "month": "2022-01",
+      "amountEur": 75000000,
+      "amountOriginal": 75000000,
+      "currency": "EUR",
+      "investors": [
+        "Tiger Global Management",
+        "A-Star"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2022/01/21/european-spend-management-platform-moss-raises-86-million/",
+          "quote": "has closed a new $86 million Series B funding round (€75 million)"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2022/01/21/european-spend-management-platform-moss-raises-86-million/",
+          "quote": "January 21, 2022"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2022/01/21/european-spend-management-platform-moss-raises-86-million/",
+          "quote": "Tiger Global Management is leading the Series B with A-Star also participating."
+        }
+      ]
+    },
+    {
+      "techeuId": "5ff13df5-a6cb-474e-bc8b-422146781d87",
+      "stage": "series-c",
+      "month": "2026-08",
+      "amountEur": 30000000,
+      "amountOriginal": 30000000,
+      "currency": "EUR",
+      "investors": [
+        "Portage",
+        "Cherry Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://pulse2.com/moss-raises-e30-million-series-c-and-reaches-unicorn-status/",
+          "quote": "Moss has raised €30 million in Series C funding led by Portage and Cherry Ventures"
+        },
+        {
+          "field": "month",
+          "url": "https://www.startbase.de/news/unicorn-moss-berliner-fintech-knackt-milliardenbewertung-nach-series-c/",
+          "quote": "Berlin, 05. August 2026"
+        },
+        {
+          "field": "investors",
+          "url": "https://pulse2.com/moss-raises-e30-million-series-c-and-reaches-unicorn-status/",
+          "quote": "Moss has raised €30 million in Series C funding led by Portage and Cherry Ventures"
+        }
+      ]
+    }
+  ]
+}
