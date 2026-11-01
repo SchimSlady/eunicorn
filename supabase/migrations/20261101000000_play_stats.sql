@@ -6,7 +6,7 @@
 create table public.plays (
   id bigint generated always as identity primary key,
   played_on date not null,                -- the puzzle day (Europe/Berlin), set by the server
-  mode text not null check (mode in ('who-raised-this', 'unicorn-grid', 'higher-lower', 'impostor')),
+  mode text not null check (mode in ('who-raised-this', 'unicorn-grid', 'higher-lower', 'impostor', 'top-10')),
   difficulty text not null check (difficulty in ('easy', 'medium', 'hard')),
   event text not null check (event in ('start', 'finish')),
   -- finish only: the result as the bar it falls into (guess number, rounds right, squares filled;
