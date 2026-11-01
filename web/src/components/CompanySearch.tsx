@@ -15,15 +15,12 @@ export function CompanySearch({
   exclude,
   onPick,
   placeholder = "Type a company…",
-  showLogos = true,
   autoFocus = false,
 }: {
   companies: Company[];
   exclude: Set<string>;
   onPick: (c: Company) => void;
   placeholder?: string;
-  /** Hard mode hides logos so the suggestion list doesn't give the answer away. */
-  showLogos?: boolean;
   autoFocus?: boolean;
 }) {
   const [query, setQuery] = useState("");
@@ -119,7 +116,7 @@ export function CompanySearch({
               onClick={() => pick(c)}
               className={`flex min-h-11 cursor-pointer items-center gap-3 px-4 py-2 ${i === active ? "bg-primary/10" : ""}`}
             >
-              {showLogos && <CompanyLogo company={c} size={28} />}
+              <CompanyLogo company={c} size={28} />
               <span className="font-medium">{c.name}</span>
             </li>
           ))}

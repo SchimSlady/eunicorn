@@ -5,7 +5,7 @@ import { ArrowDown, ArrowUp, Check, X } from "lucide-react";
 import type { Company, Dataset, HigherLowerPuzzle } from "@eunicorn/schema";
 import { indexById, loadGame } from "@/lib/data";
 import { getTodayResult, loadProgress, saveProgress, saveResult } from "@/lib/daily";
-import { saveDifficulty, type Difficulty } from "@/lib/difficulty";
+import { hintLimit, saveDifficulty, type Difficulty } from "@/lib/difficulty";
 import { METRIC_META, formatMetric } from "@/lib/format";
 import { shareText as buildShareText } from "@/lib/scoring";
 import { CompanyLogo } from "@/components/CompanyLogo";
@@ -22,17 +22,12 @@ import { recordFinish, recordStart } from "@/lib/stats";
 const MODE = "higher-lower";
 const TITLE = "Higher or Lower";
 const POINTS_PER_ROUND = 2;
-/**
- * How each difficulty changes the game: the chain itself. Generated puzzles carry one chain
- * per level (easy: values far apart, hard: close together); a hand-made puzzle has one chain
- * for all levels. Hard also has no hints.
- */
-const RULES: Record<Difficulty, { hints: boolean }> = {
-  easy: { hints: true },
-  medium: { hints: true },
-  hard: { hints: false },
-};
 
+/**
+ * A level changes which companies are in the chain (well known on Easy, insiders on Hard) and
+ * how many hints are on offer; the game is the same. Generated puzzles carry one chain per level;
+ * a hand-made puzzle has one chain for all levels.
+ */
 type Puzzle = HigherLowerPuzzle & {
   variants?: Partial<Record<Difficulty, { companyIds: string[]; hints: HigherLowerPuzzle["hints"] }>>;
 };
@@ -94,7 +89,6 @@ function evaluate(p: HigherLowerPuzzle, progress: Progress, companies: Map<strin
   const correct = rounds.filter((r) => r.correct).length;
   const hintCost = p.hints.slice(0, progress.hintsUsed).reduce((s, h) => s + h.cost, 0);
   return {
-    rules: RULES[progress.difficulty],
     rounds,
     totalRounds,
     correct,
@@ -176,7 +170,7 @@ export function HigherLowerGame() {
   }
 
   const play = atLevel(puzzle, progress.difficulty);
-  const { rules, rounds, totalRounds, correct, maxScore, done, score } = evaluate(play, progress, companies);
+  const { rounds, totalRounds, correct, maxScore, done, score } = evaluate(play, progress, companies);
   const hints = play.hints.slice(0, progress.hintsUsed);
   const roundIndex = progress.answers.length;
 
@@ -327,8 +321,7 @@ export function HigherLowerGame() {
           {done ? "See result" : "Next company"}
         </button>
       ) : (
-        rules.hints &&
-        progress.hintsUsed < play.hints.length && (
+        progress.hintsUsed < hintLimit(progress.difficulty, play.hints.length) && (
           <div className="flex justify-end">
             <HintButton maxScore={maxScore} cost={play.hints[progress.hintsUsed].cost} onClick={() => update({ ...progress, hintsUsed: progress.hintsUsed + 1 })} />
           </div>

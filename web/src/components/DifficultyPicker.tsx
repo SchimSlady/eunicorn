@@ -17,8 +17,10 @@ export function DifficultyPicker({ initial, onStart }: { initial: Difficulty; on
             role="radio"
             aria-checked={d === selected}
             onClick={() => setSelected(d)}
-            className={`min-h-11 flex-1 rounded-full px-4 py-2 text-sm font-semibold transition ${
-              d === selected ? "bg-primary text-on-primary" : "bg-border/60 text-foreground hover:bg-border"
+            className={`min-h-11 flex-1 rounded-xl border-2 px-4 py-2 text-sm font-semibold transition ${
+              d === selected
+                ? "border-foreground bg-surface text-foreground"
+                : "border-border text-muted hover:border-muted hover:text-foreground"
             }`}
           >
             {DIFFICULTY_META[d].label}

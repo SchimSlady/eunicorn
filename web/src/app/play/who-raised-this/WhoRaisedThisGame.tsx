@@ -5,7 +5,7 @@ import { Check, X } from "lucide-react";
 import type { Company, Dataset, Round, WhoRaisedThisPuzzle } from "@eunicorn/schema";
 import { indexById, loadGame } from "@/lib/data";
 import { getTodayResult, loadProgress, saveProgress, saveResult } from "@/lib/daily";
-import { saveDifficulty, type Difficulty } from "@/lib/difficulty";
+import { hintLimit, saveDifficulty, type Difficulty } from "@/lib/difficulty";
 import { shareText as buildShareText } from "@/lib/scoring";
 import { CompanyLogo } from "@/components/CompanyLogo";
 import { CompanySearch } from "@/components/CompanySearch";
@@ -24,13 +24,18 @@ const MODE = "who-raised-this";
 const TITLE = "Who Raised This?";
 const MAX_SCORE = 10;
 
-/** How each difficulty changes the rules. Same puzzle for everyone; only the help differs. */
-const RULES: Record<Difficulty, { startClues: number; maxGuesses: number; hints: boolean; logosInSearch: boolean }> = {
-  easy: { startClues: 3, maxGuesses: 8, hints: true, logosInSearch: true },
-  medium: { startClues: 1, maxGuesses: 8, hints: true, logosInSearch: true },
-  hard: { startClues: 1, maxGuesses: 4, hints: false, logosInSearch: false },
-};
+/** The same at every level: a level only changes which startup it is and how many hints are on offer. */
+const START_CLUES = 1;
+const MAX_GUESSES = 8;
 
+/** The part of the puzzle that differs by level. A hand-made puzzle has no variants: one for all. */
+type Level = Pick<WhoRaisedThisPuzzle, "answerCompanyId" | "roundId" | "clues" | "hints">;
+type Puzzle = WhoRaisedThisPuzzle & { variants?: Partial<Record<Difficulty, Level>> };
+
+function atLevel(p: Puzzle, d: Difficulty): WhoRaisedThisPuzzle {
+  const v = p.variants?.[d];
+  return v ? { ...p, ...v } : p;
+}
 
 interface Progress {
   difficulty: Difficulty;
@@ -41,21 +46,19 @@ interface Progress {
 
 /** Everything derived from the puzzle + what the player has done so far. */
 function evaluate(p: WhoRaisedThisPuzzle, progress: Progress) {
-  const rules = RULES[progress.difficulty];
-  const maxGuesses = Math.min(rules.maxGuesses, p.clues.length);
+  const maxGuesses = Math.min(MAX_GUESSES, p.clues.length);
   const won = progress.guesses.includes(p.answerCompanyId);
   const wrong = progress.guesses.filter((id) => id !== p.answerCompanyId).length;
   const lost = !won && (progress.gaveUp || wrong >= maxGuesses);
   const done = won || lost;
   const hintCost = p.hints.slice(0, progress.hintsUsed).reduce((s, h) => s + h.cost, 0);
   return {
-    rules,
     maxGuesses,
     won,
     wrong,
     done,
     // Each wrong guess reveals one more clue; when the game is over, show everything.
-    cluesShown: done ? p.clues.length : Math.min(rules.startClues + wrong, p.clues.length),
+    cluesShown: done ? p.clues.length : Math.min(START_CLUES + wrong, p.clues.length),
     score: won ? Math.max(1, MAX_SCORE - wrong - hintCost) : 0,
   };
 }
@@ -68,12 +71,12 @@ function shareText(p: WhoRaisedThisPuzzle, progress: Progress): string {
 }
 
 export function WhoRaisedThisGame() {
-  const [puzzle, setPuzzle] = useState<WhoRaisedThisPuzzle | null | undefined>(undefined);
+  const [puzzle, setPuzzle] = useState<Puzzle | null | undefined>(undefined);
   const [data, setData] = useState<Dataset | null>(null);
   const [progress, setProgress] = useState<Progress | null>(null);
 
   useEffect(() => {
-    loadGame<WhoRaisedThisPuzzle>(MODE).then(({ puzzle: p, data: d }) => {
+    loadGame<Puzzle>(MODE).then(({ puzzle: p, data: d }) => {
       setData(d);
       setPuzzle(p);
       if (p) setProgress(loadProgress<Progress>(MODE, p.date));
@@ -101,28 +104,31 @@ export function WhoRaisedThisGame() {
     );
   }
 
-  const answer = companies.get(puzzle.answerCompanyId)!;
-  const { rules, maxGuesses, won, wrong, done, cluesShown, score } = evaluate(puzzle, progress);
+  const play = atLevel(puzzle, progress.difficulty);
+  const answer = companies.get(play.answerCompanyId)!;
+  const { maxGuesses, won, wrong, done, cluesShown, score } = evaluate(play, progress);
+  const hintsOffered = hintLimit(progress.difficulty, play.hints.length);
   const guessesLeft = maxGuesses - wrong;
 
   function update(next: Progress) {
     setProgress(next);
     saveProgress(MODE, puzzle!.date, next);
-    const result = evaluate(puzzle!, next);
+    const atNext = atLevel(puzzle!, next.difficulty);
+    const result = evaluate(atNext, next);
     if (result.done && !getTodayResult(MODE, puzzle!.date)) {
       saveResult(MODE, {
         date: puzzle!.date,
         score: result.score,
         maxScore: MAX_SCORE,
         hintsUsed: next.hintsUsed,
-        share: shareText(puzzle!, next),
+        share: shareText(atNext, next),
       });
       recordFinish(MODE, next.difficulty, { bucket: result.won ? next.guesses.length : 0, score: result.score, maxScore: MAX_SCORE, won: result.won });
     }
   }
 
   // CC BY 4.0: rounds from the Tech.eu Funding Explorer must credit it, linked to the deal.
-  const round = data.rounds.find((r) => r.id === puzzle.roundId) as (Round & { attributionUrl?: string }) | undefined;
+  const round = data.rounds.find((r) => r.id === play.roundId) as (Round & { attributionUrl?: string }) | undefined;
 
   const founders = answer.founderIds
     .map((id) => data.people.find((p) => p.id === id)?.name)
@@ -138,16 +144,16 @@ export function WhoRaisedThisGame() {
               ? `Right, it was ${answer.name}.`
               : `It was ${answer.name}.`
             : progress.guesses.length
-              ? `${companies.get(progress.guesses.at(-1)!)?.name} is not it. New clue: ${puzzle.clues[cluesShown - 1].text}`
-              : `First clue: ${puzzle.clues[0].text}`
+              ? `${companies.get(progress.guesses.at(-1)!)?.name} is not it. New clue: ${play.clues[cluesShown - 1].text}`
+              : `First clue: ${play.clues[0].text}`
         }
       />
 
-      <DealBoard clues={puzzle.clues} cluesShown={cluesShown} done={done} answer={answer} round={round} />
+      <DealBoard clues={play.clues} cluesShown={cluesShown} done={done} answer={answer} round={round} />
 
       <GuessPills guesses={progress.guesses} answerId={answer.id} max={maxGuesses} />
 
-      <HintList hints={puzzle.hints.slice(0, progress.hintsUsed)} />
+      <HintList hints={play.hints.slice(0, progress.hintsUsed)} />
 
       {progress.guesses.length > 0 && (
         <div className="flex flex-wrap gap-2">
@@ -177,15 +183,14 @@ export function WhoRaisedThisGame() {
           <CompanySearch
             companies={data.companies}
             exclude={new Set(progress.guesses)}
-            showLogos={rules.logosInSearch}
             onPick={(c) => update({ ...progress, guesses: [...progress.guesses, c.id] })}
           />
           <div className="flex items-center justify-between text-sm">
             <span className="text-muted">
               {guessesLeft} {guessesLeft === 1 ? "guess" : "guesses"} left
             </span>
-            {rules.hints && progress.hintsUsed < puzzle.hints.length && (
-              <HintButton maxScore={MAX_SCORE} cost={puzzle.hints[progress.hintsUsed].cost} onClick={() => update({ ...progress, hintsUsed: progress.hintsUsed + 1 })} />
+            {progress.hintsUsed < hintsOffered && (
+              <HintButton maxScore={MAX_SCORE} cost={play.hints[progress.hintsUsed].cost} onClick={() => update({ ...progress, hintsUsed: progress.hintsUsed + 1 })} />
             )}
           </div>
           <RevealButton label="Reveal answer" onConfirm={() => update({ ...progress, gaveUp: true })} />
@@ -200,7 +205,7 @@ export function WhoRaisedThisGame() {
                 ? `${wrong + 1} ${wrong === 0 ? "guess" : "guesses"}${progress.hintsUsed ? ` · ${progress.hintsUsed} ${progress.hintsUsed === 1 ? "hint" : "hints"}` : ""}`
                 : `It was ${answer.name}`
             }
-            share={shareText(puzzle, progress)}
+            share={shareText(play, progress)}
             stats={
               <StatsPanel
                 mode={MODE}
