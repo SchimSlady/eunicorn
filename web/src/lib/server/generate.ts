@@ -516,6 +516,9 @@ const SECTOR_LABEL: Record<string, string> = {
   robotics: "Robotics",
   quantum: "Quantum",
   cybersecurity: "Cybersecurity",
+  edtech: "Edtech",
+  proptech: "Proptech",
+  telecom: "Telecom",
 };
 
 const SECTOR_PLURAL: Record<string, string> = { fintech: "fintechs", saas: "SaaS companies", ai: "AI companies" };
