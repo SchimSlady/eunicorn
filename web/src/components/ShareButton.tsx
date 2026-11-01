@@ -2,7 +2,8 @@
 
 import { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
-import { Download, Share2, UserPlus } from "lucide-react";
+import { Download, MoreHorizontal, Share2, UserPlus } from "lucide-react";
+import { LinkedInIcon, WhatsAppIcon, XIcon } from "./BrandIcons";
 import { drawShareCard, parseShare } from "@/lib/shareCard";
 import { loadStats } from "@/lib/stats";
 import type { PlayMode } from "@/lib/top10";
@@ -107,9 +108,9 @@ function ShareMenu({ text, score, maxScore, onClose }: { text: string; score?: n
 
   const invite = `Daily games about European startups: guess valuations, find the impostor, fill the Unicorn Grid. ${SITE}`;
   const links = [
-    { label: "WhatsApp", href: `https://wa.me/?text=${encodeURIComponent(message)}` },
-    { label: "X", href: `https://x.com/intent/post?text=${encodeURIComponent(message)}` },
-    { label: "LinkedIn", href: `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(gameUrl)}` },
+    { label: "WhatsApp", Icon: WhatsAppIcon, href: `https://wa.me/?text=${encodeURIComponent(message)}` },
+    { label: "X", Icon: XIcon, href: `https://x.com/intent/post?text=${encodeURIComponent(message)}` },
+    { label: "LinkedIn", Icon: LinkedInIcon, href: `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(gameUrl)}` },
   ];
 
   return (
@@ -140,17 +141,26 @@ function ShareMenu({ text, score, maxScore, onClose }: { text: string; score?: n
             href={l.href}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex min-h-11 items-center justify-center rounded-full border border-border px-2 text-sm font-semibold hover:border-primary"
+            // A link can only carry text. Where the phone can share files, go through its share
+            // sheet instead, so the result card goes along (pick the app there).
+            onClick={(e) => {
+              if (!canShareFile) return;
+              e.preventDefault();
+              void shareImage();
+            }}
+            className="flex min-h-16 flex-col items-center justify-center gap-1.5 rounded-2xl border border-border px-1 py-2 text-xs font-semibold hover:border-primary"
           >
+            <l.Icon size={24} />
             {l.label}
           </a>
         ))}
         {canShare && (
           <button
             type="button"
-            onClick={() => nativeShare({ text: message })}
-            className="flex min-h-11 items-center justify-center rounded-full border border-border px-2 text-sm font-semibold hover:border-primary"
+            onClick={() => (canShareFile ? void shareImage() : nativeShare({ text: message }))}
+            className="flex min-h-16 flex-col items-center justify-center gap-1.5 rounded-2xl border border-border px-1 py-2 text-xs font-semibold hover:border-primary"
           >
+            <MoreHorizontal size={24} aria-hidden />
             More
           </button>
         )}
