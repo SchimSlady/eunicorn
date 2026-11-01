@@ -9,7 +9,7 @@ import { LIVE_MODES } from "@/lib/modes";
 import { Wordmark } from "./Wordmark";
 
 /**
- * Bar on every page: the wordmark (back to all games) on the left, the streak on the right.
+ * Bar on every page: the wordmark (back to all games) on the left, the streak and the square logo on the right.
  * The streak counts a day if any mode was played; it updates when a game finishes.
  */
 export function SiteHeader() {
@@ -46,6 +46,9 @@ export function SiteHeader() {
             />{" "}
             {days}
           </span>
+          {/* The square logo (also the site icon and the Instagram profile picture). */}
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src="/brand/logo-square.png" alt="" width={28} height={28} className="h-7 w-7 rounded-md" />
         </span>
       </div>
     </header>
