@@ -56,15 +56,18 @@ function star(ctx: CanvasRenderingContext2D, cx: number, cy: number, r: number) 
   ctx.fill();
 }
 
-/** Long linear results (Higher or Lower: up to 15) wrap into rows of at most 8. */
+/** Long linear results wrap into even rows of at most 8 (Top 10: 5 + 5, Higher or Lower: 8 + 7). */
 function layoutRows(rows: ShareInfo["rows"]): ShareInfo["rows"] {
   if (rows.length !== 1 || rows[0].length <= 8) return rows;
+  const count = Math.ceil(rows[0].length / 8);
+  const per = Math.ceil(rows[0].length / count);
   const out: ShareInfo["rows"] = [];
-  for (let i = 0; i < rows[0].length; i += 8) out.push(rows[0].slice(i, i + 8));
+  for (let i = 0; i < rows[0].length; i += per) out.push(rows[0].slice(i, i + per));
   return out;
 }
 
-export async function drawShareCard(info: ShareInfo): Promise<Blob> {
+/** betterThan: share of today's other players with a lower score, when known. */
+export async function drawShareCard(info: ShareInfo, betterThan?: number | null): Promise<Blob> {
   await Promise.all([document.fonts.load('700 80px "Space Grotesk"'), document.fonts.load('500 40px "Inter"')]).catch(() => {});
   const canvas = document.createElement("canvas");
   canvas.width = W;
@@ -128,14 +131,19 @@ export async function drawShareCard(info: ShareInfo): Promise<Blob> {
 
   ctx.fillStyle = COLORS.yellow;
   ctx.font = '700 76px "Space Grotesk", sans-serif';
-  ctx.fillText(info.summary, W / 2, 1530);
+  ctx.fillText(info.summary, W / 2, 1500);
+  if (betterThan) {
+    ctx.fillStyle = COLORS.ink;
+    ctx.font = '500 48px "Inter", sans-serif';
+    ctx.fillText(`Better than ${betterThan}% of players`, W / 2, 1572);
+  }
 
   ctx.fillStyle = COLORS.ink;
   ctx.font = '700 60px "Space Grotesk", sans-serif';
-  ctx.fillText("Can you beat me?", W / 2, 1650);
+  ctx.fillText("Can you beat me?", W / 2, 1680);
   ctx.fillStyle = COLORS.soft;
   ctx.font = '500 48px "Inter", sans-serif';
-  ctx.fillText("Play free at eunicorn.eu", W / 2, 1725);
+  ctx.fillText("Play free at eunicorn.eu", W / 2, 1752);
 
   return new Promise((resolve, reject) => canvas.toBlob((b) => (b ? resolve(b) : reject(new Error("toBlob"))), "image/png"));
 }
