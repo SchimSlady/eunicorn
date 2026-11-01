@@ -1,7 +1,7 @@
 import type { AnyPuzzle, PlayMode, Top10Metric, Top10Puzzle, Top10Round } from "@/lib/top10";
 import type { Company, Dataset, GridCriterion, Hint, HigherLowerMetric, HigherLowerPuzzle, ImpostorPuzzle, UnicornGridPuzzle, WhoRaisedThisPuzzle } from "@eunicorn/schema";
-import { DIFFICULTIES, FAME_TIERS, INVESTOR_TIER_MAX, type Difficulty } from "../difficulty";
-import { countryName, formatUsdAsEur, sectorLabel } from "../format";
+import { CATEGORY_LEVEL_MAX, DIFFICULTIES, FAME_TIERS, INVESTOR_TIER_MAX, type Difficulty } from "../difficulty";
+import { USD_TO_EUR, countryName, formatUsdAsEur, sectorLabel } from "../format";
 import { distinctAnswers } from "../grid";
 
 /**
@@ -203,7 +203,9 @@ function whoRaisedThis(
 interface Criterion {
   c: GridCriterion;
   /** Criteria in the same group can't share a cell sensibly (e.g. two countries). */
-  group: "place" | "sector" | "founded" | "investor";
+  group: "place" | "sector" | "founded" | "investor" | "valuation";
+  /** How hard the heading is, 1 (anyone) to 3 (a lot of knowledge); see CATEGORY_LEVEL_MAX. */
+  level: 1 | 2 | 3;
   test: (co: Company) => boolean;
   /** Investors only: 1 = top global VCs ... 4 = everyone else (investors.tier). */
   tier?: number;
@@ -235,9 +237,16 @@ function unicornGrid(
 
   const variants: UnicornGridVariants = {};
   for (const level of DIFFICULTIES) {
-    // Investor squares only with investors players can know (tier 1 and 2), at every level.
-    const allowed = criteria.filter((k) => k.group !== "investor" || (k.tier ?? 4) <= INVESTOR_TIER_MAX);
-    const built = forLevel(level, companies, (pool, tier) => gridFor(allowed, meet, byId, new Set(pool.map((c) => c.id)), tier, rng));
+    // Headings no harder than the level allows; investors only the ones players can know (tier 1 and 2).
+    const allowed = criteria.filter(
+      (k) => k.level <= CATEGORY_LEVEL_MAX[level] && (k.group !== "investor" || (k.tier ?? 4) <= INVESTOR_TIER_MAX),
+    );
+    // With simple headings only a handful of boards give every square a famous answer, so a square needs one
+    // from a fame step wider than the level's (Easy: up to 3). Any fitting company is accepted anyway.
+    const built = forLevel(level, companies, (_, tier) => {
+      const known = new Set(companies.filter((c) => c.difficulty <= Math.min(5, tier.max + 1)).map((c) => c.id));
+      return gridFor(allowed, meet, byId, known, tier, rng);
+    });
     if (built) variants[level] = built;
   }
   const main = mainOf(variants);
@@ -263,6 +272,7 @@ function gridFor(
   const sideOk = (side: Criterion[]) =>
     side.filter((p) => p.group === "founded").length <= 1 &&
     side.filter((p) => p.group === "investor").length <= 1 &&
+    side.filter((p) => p.group === "valuation").length <= 1 &&
     side.filter((p) => p.c.kind === "city").length <= 1;
 
   // Rows come from one group, columns from the others; the pools are made once, not per attempt.
@@ -336,24 +346,39 @@ function investorTier(backedCompanies: number): number {
 function gridCriteria(data: Dataset, companies: Company[]): Criterion[] {
   const out: Criterion[] = [];
   const count = (test: (c: Company) => boolean) => companies.filter(test).length;
+  // How well known a heading is follows from how many of the companies are in it: a big country, a big
+  // sector or a big city is one players know; a small one (Helsinki, Estonia, quantum) takes a lot of knowledge.
+  const share = (n: number) => n / companies.length;
 
   for (const code of unique(companies.map((c) => c.country))) {
     const test = (c: Company) => c.country === code;
-    if (count(test) >= 2) out.push({ group: "place", test, c: { kind: "country", value: code, label: `${flag(code)} ${countryName(code)}` } });
+    const n = count(test);
+    const level = share(n) >= 0.04 ? 1 : share(n) >= 0.02 ? 2 : 3;
+    if (n >= 2) out.push({ group: "place", level, test, c: { kind: "country", value: code, label: `${flag(code)} ${countryName(code)}` } });
   }
   for (const city of unique(companies.map((c) => c.city).filter(Boolean))) {
     const test = (c: Company) => c.city === city;
-    if (count(test) >= 3) out.push({ group: "place", test, c: { kind: "city", value: city, label: city } });
+    const n = count(test);
+    // Never Easy: even a big city is a harder question than its country.
+    if (n >= 3) out.push({ group: "place", level: share(n) >= 0.035 ? 2 : 3, test, c: { kind: "city", value: city, label: city } });
   }
   for (const sector of unique(companies.flatMap((c) => c.sectors))) {
     const test = (c: Company) => c.sectors.includes(sector);
-    if (count(test) >= 3) out.push({ group: "sector", test, c: { kind: "sector", value: sector, label: sectorLabel(sector) } });
+    const n = count(test);
+    const level = share(n) >= 0.07 ? 1 : share(n) >= 0.02 ? 2 : 3;
+    if (n >= 3) out.push({ group: "sector", level, test, c: { kind: "sector", value: sector, label: sectorLabel(sector) } });
   }
   for (const year of [2010, 2014, 2018]) {
     const after = (c: Company) => c.founded > year;
     const before = (c: Company) => c.founded > 0 && c.founded <= year;
-    if (count(after) >= 3) out.push({ group: "founded", test: after, c: { kind: "founded-after", value: year, label: `Founded ${year + 1}+` } });
-    if (count(before) >= 3) out.push({ group: "founded", test: before, c: { kind: "founded-before", value: year + 1, label: `Founded ${year} or earlier` } });
+    if (count(after) >= 3) out.push({ group: "founded", level: 2, test: after, c: { kind: "founded-after", value: year, label: `Founded ${year + 1}+` } });
+    if (count(before) >= 3) out.push({ group: "founded", level: 2, test: before, c: { kind: "founded-before", value: year + 1, label: `Founded ${year} or earlier` } });
+  }
+  // "Valued over €5bn" is a question anyone can answer about the big names; €10bn is a narrower club.
+  for (const [bn, level] of [[5, 1], [10, 2]] as const) {
+    const test = (c: Company) => c.lastValuationUsd != null && c.lastValuationUsd * USD_TO_EUR >= bn * 1e9;
+    // The schema has no valuation heading yet; nothing but the label and the games look at its kind.
+    if (count(test) >= 3) out.push({ group: "valuation", level, test, c: { kind: "valuation-over", value: bn, label: `Valued over €${bn}bn` } as unknown as GridCriterion });
   }
   const names = new Map(data.investors.map((i) => [i.id, i.name]));
   const set = new Map(data.investors.map((i) => [i.id, i.tier]));
@@ -362,7 +387,7 @@ function gridCriteria(data: Dataset, companies: Company[]): Criterion[] {
   for (const [id, cos] of backed) {
     const test = (c: Company) => cos.has(c.id);
     if (names.has(id) && count(test) >= 3)
-      out.push({ group: "investor", test, tier: set.get(id) ?? investorTier(cos.size), c: { kind: "investor", value: id, label: `Backed by ${names.get(id)}` } });
+      out.push({ group: "investor", level: 3, test, tier: set.get(id) ?? investorTier(cos.size), c: { kind: "investor", value: id, label: `Backed by ${names.get(id)}` } });
   }
   return out;
 }

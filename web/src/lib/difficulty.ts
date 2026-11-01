@@ -30,6 +30,14 @@ export const FAME_TIERS: Record<Difficulty, { min: number; max: number }> = {
  */
 export const INVESTOR_TIER_MAX = 2;
 
+/**
+ * How hard the Unicorn Grid's headings (its categories) may be, by level; cumulative like the company
+ * tiers. A heading is level 1 if anyone can place a startup in it (a big country, a big sector, "valued
+ * over €5bn"), level 2 if it takes some knowledge (a big city, a smaller sector, a founding period) and
+ * level 3 if it takes a lot (a small city such as Helsinki, a niche sector, an investor).
+ */
+export const CATEGORY_LEVEL_MAX: Record<Difficulty, 1 | 2 | 3> = { easy: 1, medium: 2, hard: 3 };
+
 /** Easy offers every hint, Medium half of them (rounded up), Hard none. */
 export function hintLimit(d: Difficulty, total: number): number {
   return d === "easy" ? total : d === "medium" ? Math.ceil(total / 2) : 0;

@@ -42,7 +42,7 @@ export const MODES: ModeInfo[] = [
       "Each company can be used only once.",
       "Lesser-known answers score more: an insider pick is worth up to five times a household name.",
       "A wrong guess costs points, and so do hints. Guess as often as you like.",
-      "Easy, Medium and Hard play the same. The level sets how well known the startups are, and how many hints you get: all on Easy, half on Medium, none on Hard.",
+      "Easy, Medium and Hard play the same. The level sets how well known the startups are, how simple the categories are, and how many hints you get: all on Easy, half on Medium, none on Hard.",
     ],
   },
   {
