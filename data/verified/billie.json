@@ -1,0 +1,121 @@
+{
+  "id": "billie",
+  "name": "Billie",
+  "aliases": [],
+  "domain": "billie.io",
+  "country": "DE",
+  "city": "Berlin",
+  "founded": 2017,
+  "sectors": [
+    "fintech"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "lastValuationEur": 551581488,
+  "founders": [
+    "Aiga Senftleben",
+    "Christian Grobe",
+    "Matthias Knecht"
+  ],
+  "difficulty": 3,
+  "techeuId": "B20215BA-6ED3-410B-A503-951F0052A709",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://techcrunch.com/2019/07/16/billie/",
+      "quote": "the Berlin-based fintech startup that offers a B2B invoicing and payments platform"
+    },
+    {
+      "field": "founded",
+      "url": "https://techcrunch.com/2019/07/16/billie/",
+      "quote": "Founded in 2017 by the same team behind SME online lending platform Zencap"
+    },
+    {
+      "field": "founders",
+      "url": "https://www.billie.io/en/about-us",
+      "quote": "led by our three managing directors: Aiga Senftleben, Christian Grobe, and Matthias Knecht"
+    },
+    {
+      "field": "sectors",
+      "url": "https://techcrunch.com/2019/07/16/billie/",
+      "quote": "the Berlin-based fintech startup that offers a B2B invoicing and payments platform"
+    },
+    {
+      "field": "valuation",
+      "url": "https://techcrunch.com/2021/10/25/billie-a-buy-now-pay-later-specialist-for-the-b2b-market-raises-100m-on-a-640m-valuation/",
+      "quote": "the funding is coming in at a $640 million valuation, the company has confirmed"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://techcrunch.com/2021/10/25/billie-a-buy-now-pay-later-specialist-for-the-b2b-market-raises-100m-on-a-640m-valuation/",
+      "quote": "the funding is coming in at a $640 million valuation, the company has confirmed"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "e18ea8c5-4ebe-4457-dd38-08d91092c887",
+      "stage": "series-b",
+      "month": "2019-07",
+      "amountEur": 30000000,
+      "amountOriginal": 30000000,
+      "currency": "EUR",
+      "investors": [
+        "Creandum",
+        "Speedinvest",
+        "Global Founders Capital",
+        "Picus Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2019/07/16/billie/",
+          "quote": "has raised €30 million in Series B funding."
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2019/07/16/billie/",
+          "quote": "July 16, 2019"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2019/07/16/billie/",
+          "quote": "Leading the round is Creandum, alongside SpeedInvest, Rocket Internet’s GFC and Picus."
+        }
+      ]
+    },
+    {
+      "techeuId": "aa145752-46f3-4325-9ab8-45bfd7d7d5fd",
+      "stage": "series-c",
+      "month": "2021-10",
+      "amountEur": 86184607,
+      "amountOriginal": 100000000,
+      "currency": "USD",
+      "investors": [
+        "Dawn Capital",
+        "Tencent",
+        "Klarna",
+        "Creandum",
+        "Speedinvest",
+        "Picus Capital",
+        "Global Founders Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2021/10/25/billie-a-buy-now-pay-later-specialist-for-the-b2b-market-raises-100m-on-a-640m-valuation/",
+          "quote": "The company has raised $100 million in a Series C round of funding"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2021/10/25/billie-a-buy-now-pay-later-specialist-for-the-b2b-market-raises-100m-on-a-640m-valuation/",
+          "quote": "October 25, 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2021/10/25/billie-a-buy-now-pay-later-specialist-for-the-b2b-market-raises-100m-on-a-640m-valuation/",
+          "quote": "specialist in B2B startups, led the round, with internet giant Tencent and Klarna also participating; previous backers Creandum, Speedinvest, Picus and GFC are also in the round."
+        }
+      ]
+    }
+  ]
+}

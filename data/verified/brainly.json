@@ -1,0 +1,231 @@
+{
+  "id": "brainly",
+  "name": "Brainly",
+  "aliases": [],
+  "domain": "brainly.com",
+  "country": "PL",
+  "city": "Kraków",
+  "founded": 2009,
+  "sectors": [
+    "edtech"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Michał Borkowski",
+    "Tomasz Kraus",
+    "Łukasz Haluch"
+  ],
+  "difficulty": 3,
+  "techeuId": "f8530143-0ce9-45e1-8aca-76e1b1af46d9",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://techcrunch.com/2012/09/12/social-learning-network-brainly-raises-500k-from-point-nine-capital-angels/",
+      "quote": "Cracow, Poland-based social learning network"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Brainly",
+      "quote": "The company was founded in 2009 in Poland by"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Brainly",
+      "quote": "Tomasz Kraus, and Łukasz Haluch"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Brainly",
+      "quote": "Michał Borkowski"
+    },
+    {
+      "field": "sectors",
+      "url": "https://en.wikipedia.org/wiki/Brainly",
+      "quote": "Brainly is an education technology company"
+    },
+    {
+      "field": "status",
+      "url": "https://en.wikipedia.org/wiki/Brainly",
+      "quote": "Brainly is an education technology company founded in Kraków"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "seed",
+      "month": "2012-09",
+      "amountEur": 387717,
+      "amountOriginal": 500000,
+      "currency": "USD",
+      "investors": [
+        "Point Nine Capital",
+        "Mariusz Gralewski"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2012/09/12/social-learning-network-brainly-raises-500k-from-point-nine-capital-angels/",
+          "quote": "has secured a $500k investment from VC firm Point Nine Capital"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2014/10/15/brainly/",
+          "quote": "since it raised a $500,000 seed round back in 2012"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2012/09/12/social-learning-network-brainly-raises-500k-from-point-nine-capital-angels/",
+          "quote": "September 12, 2012"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2012/09/12/social-learning-network-brainly-raises-500k-from-point-nine-capital-angels/",
+          "quote": "has secured a $500k investment from VC firm Point Nine Capital"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2012/09/12/social-learning-network-brainly-raises-500k-from-point-nine-capital-angels/",
+          "quote": "including Mariusz Gralewski, founder of the Polish professional network GoldenLine"
+        }
+      ]
+    },
+    {
+      "stage": "series-a",
+      "month": "2014-10",
+      "amountEur": 7105637,
+      "amountOriginal": 9000000,
+      "currency": "USD",
+      "investors": [
+        "General Catalyst",
+        "Point Nine Capital",
+        "Runa Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2014/10/15/brainly/",
+          "quote": "Brainly is disclosing a $9 million Series A round led by General Catalyst Partners"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2014/10/15/brainly/",
+          "quote": "Brainly is disclosing a $9 million Series A round led by General Catalyst Partners"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2014/10/15/brainly/",
+          "quote": "October 15, 2014"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2014/10/15/brainly/",
+          "quote": "including Europe’s Point Nine Capital, and Runa Capital"
+        }
+      ]
+    },
+    {
+      "stage": "series-b",
+      "month": "2017-10",
+      "amountEur": 11879508,
+      "amountOriginal": 14000000,
+      "currency": "USD",
+      "techeuId": "be9b65f5-eeb7-4d54-f400-08d91092c887",
+      "investors": [
+        "Kulczyk Investments",
+        "Naspers",
+        "General Catalyst",
+        "Point Nine Capital",
+        "Runa Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2017/10/25/brainly-raises-14-million-for-its-quora-for-kids-education-tech/",
+          "quote": "commit another $14 million to the company"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2017/10/25/brainly-raises-14-million-for-its-quora-for-kids-education-tech/",
+          "quote": "October 25, 2017"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2017/10/25/brainly-raises-14-million-for-its-quora-for-kids-education-tech/",
+          "quote": "So far, Brainly has raised cash from investors including Naspers, General Catalyst, Point Nine Capital, and Runa Capital. And now the investment firm Kulczyk Investments is adding its capital to the mix."
+        }
+      ]
+    },
+    {
+      "stage": "series-c",
+      "month": "2019-07",
+      "amountEur": 26990553,
+      "amountOriginal": 30000000,
+      "currency": "USD",
+      "techeuId": "a26b3d4c-12e9-4a76-f401-08d91092c887",
+      "investors": [
+        "Naspers",
+        "Runa Capital",
+        "Manta Ray"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2019/07/25/brainly-a-crowdsourced-homework-helper-for-students-raises-30m-to-expand-in-the-us/",
+          "quote": "it has raised $30 million in funding"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2020/12/17/brainly-raises-80m-as-its-platform-for-crowdsourced-homework-help-balloons-to-350m-users/",
+          "quote": "a Series C of $30 million in 2019"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2019/07/25/brainly-a-crowdsourced-homework-helper-for-students-raises-30m-to-expand-in-the-us/",
+          "quote": "July 25, 2019"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2019/07/25/brainly-a-crowdsourced-homework-helper-for-students-raises-30m-to-expand-in-the-us/",
+          "quote": "The funding was led by Naspers, which was also an investor in the company’s $14 million round in 2017 , with participation also from Runa Capital and Manta Ray."
+        }
+      ]
+    },
+    {
+      "stage": "series-d",
+      "month": "2020-12",
+      "amountEur": 65327454,
+      "amountOriginal": 80000000,
+      "currency": "USD",
+      "techeuId": "131fa809-e611-4b80-f402-08d91092c887",
+      "investors": [
+        "Learn Capital",
+        "Prosus Ventures",
+        "Runa Capital",
+        "MantaRay",
+        "General Catalyst"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2020/12/17/brainly-raises-80m-as-its-platform-for-crowdsourced-homework-help-balloons-to-350m-users/",
+          "quote": "has raised $80 million, a series D"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2020/12/17/brainly-raises-80m-as-its-platform-for-crowdsourced-homework-help-balloons-to-350m-users/",
+          "quote": "has raised $80 million, a series D"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2020/12/17/brainly-raises-80m-as-its-platform-for-crowdsourced-homework-help-balloons-to-350m-users/",
+          "quote": "December 17, 2020"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2020/12/17/brainly-raises-80m-as-its-platform-for-crowdsourced-homework-help-balloons-to-350m-users/",
+          "quote": "The funding is being led by previous backer Learn Capital, with past investors Prosus Ventures, Runa Capital, MantaRay and General Catalyst Partners also participating."
+        }
+      ]
+    }
+  ]
+}

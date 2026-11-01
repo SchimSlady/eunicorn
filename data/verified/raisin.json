@@ -1,0 +1,205 @@
+{
+  "id": "raisin",
+  "name": "Raisin",
+  "aliases": [
+    "Weltsparen"
+  ],
+  "domain": "raisin.com",
+  "country": "DE",
+  "city": "Berlin",
+  "founded": 2012,
+  "sectors": [
+    "fintech"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Tamaz Georgadze",
+    "Frank Freund",
+    "Michael Stephan"
+  ],
+  "difficulty": 3,
+  "techeuId": "EC594153-7997-4F5D-A51F-563EEBDB31EE",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.raisin.com/en/corporate/press/Raisin-Announces-60M-Funding/",
+      "quote": "The Berlin-based Fintech Raisin has raised €60 million in a series E funding round"
+    },
+    {
+      "field": "founded",
+      "url": "https://techcrunch.com/2019/07/16/goldman-sachs-backs-raisin/",
+      "quote": "Founded in 2012 by Dr. Tamaz Georgadze (CEO), Dr. Frank Freund (CFO) and Michael Stephan (COO)"
+    },
+    {
+      "field": "founders",
+      "url": "https://techcrunch.com/2019/07/16/goldman-sachs-backs-raisin/",
+      "quote": "Founded in 2012 by Dr. Tamaz Georgadze (CEO), Dr. Frank Freund (CFO) and Michael Stephan (COO)"
+    },
+    {
+      "field": "sectors",
+      "url": "https://techcrunch.com/2019/02/05/raisin-raises-114m-for-its-pan-european-marketplace-for-savings-and-investment-products/",
+      "quote": "the pan-European fintech marketplace for savings and investment products"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-b",
+      "month": "2015-08",
+      "amountEur": 20000000,
+      "amountOriginal": 20000000,
+      "currency": "EUR",
+      "investors": [
+        "Ribbit Capital",
+        "Index Ventures",
+        "Yuri Milner",
+        "Tom Stafford"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2016/04/06/raisin/",
+          "quote": "raised €20 million in Series B funding led by Palo Alto-based Ribbit Capital and London’s Index Ventures"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2016/04/06/raisin/",
+          "quote": "In August, in preparation for today’s European launch"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2016/04/06/raisin/",
+          "quote": "Yuri Milner and Tom Stafford also participated"
+        }
+      ]
+    },
+    {
+      "techeuId": "70e16272-99d2-43cf-dd19-08d91092c887",
+      "stage": "series-c",
+      "month": "2017-01",
+      "amountEur": 30000000,
+      "amountOriginal": 30000000,
+      "currency": "EUR",
+      "investors": [
+        "Thrive Capital",
+        "Ribbit Capital",
+        "Index Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.indexventures.com/perspectives/raisin-raises-e282ac30-million-in-series-c-financing/",
+          "quote": "has closed a €30 million Series C financing."
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/brief/raisin-series-c",
+          "quote": "26 January 2017"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.indexventures.com/perspectives/raisin-raises-e282ac30-million-in-series-c-financing/",
+          "quote": "The round was led by US-based Thrive Capital"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.indexventures.com/perspectives/raisin-raises-e282ac30-million-in-series-c-financing/",
+          "quote": "with participation of Raisin’s existing investors Palo-Alto-based Ribbit Capital and Index Ventures"
+        }
+      ]
+    },
+    {
+      "techeuId": "3fae7bf0-207a-4463-dd1b-08d91092c887",
+      "stage": "series-d",
+      "month": "2019-02",
+      "amountEur": 99798652,
+      "amountOriginal": 114000000,
+      "currency": "USD",
+      "investors": [
+        "Index Ventures",
+        "PayPal",
+        "Ribbit Capital",
+        "Thrive Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2019/02/05/raisin-raises-114m-for-its-pan-european-marketplace-for-savings-and-investment-products/",
+          "quote": "it has raised $114 million in Series D funding."
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2019/02/05/raisin-raises-114m-for-its-pan-european-marketplace-for-savings-and-investment-products/",
+          "quote": "February 5, 2019"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2019/02/05/raisin-raises-114m-for-its-pan-european-marketplace-for-savings-and-investment-products/",
+          "quote": "Existing investors Index Ventures, PayPal, Ribbit Capital and Thrive Capital all participated in the round"
+        }
+      ]
+    },
+    {
+      "techeuId": "0337332f-edea-4890-dd1c-08d91092c887",
+      "stage": "series-d",
+      "month": "2019-07",
+      "amountEur": 24948766,
+      "amountOriginal": 28000000,
+      "currency": "USD",
+      "investors": [
+        "Goldman Sachs"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2019/07/16/goldman-sachs-backs-raisin/",
+          "quote": "Goldman Sachs has invested $28 million (€25 million), following the company’s $114 million in Series D in February."
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2019/07/16/goldman-sachs-backs-raisin/",
+          "quote": "July 16, 2019"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2019/07/16/goldman-sachs-backs-raisin/",
+          "quote": "Goldman Sachs has invested $28 million"
+        }
+      ]
+    },
+    {
+      "techeuId": "cafd8e33-c03e-4391-abb9-6051e1d5e883",
+      "stage": "series-e",
+      "month": "2023-03",
+      "amountEur": 60000000,
+      "amountOriginal": 60000000,
+      "currency": "EUR",
+      "investors": [
+        "M&G Catalyst",
+        "Goldman Sachs"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.raisin.com/en/corporate/press/Raisin-Announces-60M-Funding/",
+          "quote": "has raised €60 million in a series E funding round"
+        },
+        {
+          "field": "month",
+          "url": "https://www.raisin.com/en/corporate/press/Raisin-Announces-60M-Funding/",
+          "quote": "Berlin, March 23, 2023"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.raisin.com/en/corporate/press/Raisin-Announces-60M-Funding/",
+          "quote": "two new investors – a global financial services institution and M&G’s Catalyst"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.raisin.com/en/corporate/press/Raisin-Announces-60M-Funding/",
+          "quote": "and from existing investors such as Goldman Sachs"
+        }
+      ]
+    }
+  ]
+}

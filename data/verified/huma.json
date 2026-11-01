@@ -1,0 +1,132 @@
+{
+  "id": "huma",
+  "name": "Huma",
+  "aliases": [
+    "Medopad",
+    "Huma Therapeutics"
+  ],
+  "domain": "huma.com",
+  "country": "GB",
+  "city": "London",
+  "founded": 2011,
+  "sectors": [
+    "health"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Dan Vahdat"
+  ],
+  "difficulty": 4,
+  "techeuId": "056c015f-a446-48ae-b2b1-c92b9fcad95a",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/Medopad",
+      "quote": "is a British healthcare technology company based in London"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Medopad",
+      "quote": "The company was originally founded as Medopad in 2011."
+    },
+    {
+      "field": "founders",
+      "url": "https://tech.eu/2024/07/16/shopify-of-digital-health-huma-raised-80m-series-d/",
+      "quote": "Dan Vahdat, Founder and CEO of Huma"
+    },
+    {
+      "field": "sectors",
+      "url": "https://en.wikipedia.org/wiki/Medopad",
+      "quote": "is a British healthcare technology company"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-c",
+      "month": "2021-05",
+      "amountEur": 82169269,
+      "amountOriginal": 100000000,
+      "currency": "USD",
+      "techeuId": "27344be1-2b01-475c-b444-f4b4efb45157",
+      "investors": [
+        "Leaps by Bayer",
+        "Hitachi Ventures",
+        "Samsung Next",
+        "Sony Innovation Fund",
+        "Unilever Ventures",
+        "HAT Technology & Innovation Fund",
+        "Nikesh Arora",
+        "Michael Diekmann"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2021/05/11/huma-which-uses-ai-and-biomarkers-to-monitor-patients-and-for-medical-research-raises-130m/",
+          "quote": "a Series C that includes $100 million in equity, and $30 million in credit"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2021/05/11/huma-which-uses-ai-and-biomarkers-to-monitor-patients-and-for-medical-research-raises-130m/",
+          "quote": "a Series C that includes $100 million in equity, and $30 million in credit"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2021/05/11/huma-which-uses-ai-and-biomarkers-to-monitor-patients-and-for-medical-research-raises-130m/",
+          "quote": "May 11, 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2021/05/11/huma-which-uses-ai-and-biomarkers-to-monitor-patients-and-for-medical-research-raises-130m/",
+          "quote": "Co-led by Leaps by Bayer, the VC division of the pharmaceutical and life sciences giant, and Hitachi Ventures"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2021/05/11/huma-which-uses-ai-and-biomarkers-to-monitor-patients-and-for-medical-research-raises-130m/",
+          "quote": "Samsung Next, Sony Innovation Fund by IGV (one of Sony’s investment funds), Unilever Ventures and HAT Technology & Innovation Fund, Nikesh Arora"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2021/05/11/huma-which-uses-ai-and-biomarkers-to-monitor-patients-and-for-medical-research-raises-130m/",
+          "quote": "Michael Diekmann (Chairman of Allianz)"
+        }
+      ]
+    },
+    {
+      "stage": "series-d",
+      "month": "2024-07",
+      "amountEur": 73381031,
+      "amountOriginal": 80000000,
+      "currency": "USD",
+      "techeuId": "270ce332-8970-4575-af92-6fe65c651f1f",
+      "investors": [
+        "AstraZeneca",
+        "HAT Technology Fund 4 by HAT SGR",
+        "Hitachi Ventures",
+        "Leaps by Bayer"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2024/07/16/shopify-of-digital-health-huma-raised-80m-series-d/",
+          "quote": "Huma has raised $80 million series D funding"
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2024/07/16/shopify-of-digital-health-huma-raised-80m-series-d/",
+          "quote": "Huma has raised $80 million series D funding"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2024/07/16/shopify-of-digital-health-huma-raised-80m-series-d/",
+          "quote": "16 July 2024"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2024/07/16/shopify-of-digital-health-huma-raised-80m-series-d/",
+          "quote": "including AstraZeneca, Hat Technology Fund 4 by HAT SGR, HV Fund by Hitachi Ventures , Leaps by Bayer and others"
+        }
+      ]
+    }
+  ]
+}

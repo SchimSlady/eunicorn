@@ -1,0 +1,204 @@
+{
+  "id": "grover",
+  "name": "Grover",
+  "aliases": [
+    "Grover Group"
+  ],
+  "domain": "grover.com",
+  "country": "DE",
+  "city": "Berlin",
+  "founded": 2015,
+  "sectors": [
+    "consumer"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Michael Cassau"
+  ],
+  "difficulty": 3,
+  "techeuId": "deeb60b3-eb56-426e-8a5e-4d2273929b28",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://techcrunch.com/2018/07/30/grover-raises-series-a/",
+      "quote": "the Berlin-based startup that offers"
+    },
+    {
+      "field": "founded",
+      "url": "https://builtin.com/company/grover",
+      "quote": "Founded in 2015 by Michael Cassau"
+    },
+    {
+      "field": "founders",
+      "url": "https://builtin.com/company/grover",
+      "quote": "Founded in 2015 by Michael Cassau"
+    },
+    {
+      "field": "sectors",
+      "url": "https://techcrunch.com/2021/04/12/grover-raises-71m-to-grow-its-consumer-electronics-subscription-business/",
+      "quote": "runs a subscription model where people can for set fees rent out consumer electronics"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://techcrunch.com/2022/04/06/grover-grabs-330m-to-double-down-on-the-circular-economy-with-consumer-electronics-subscriptions/",
+      "quote": "The round values Grover at over $1 billion, the company confirmed."
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-a",
+      "month": "2018-07",
+      "amountEur": 12000000,
+      "amountOriginal": 12000000,
+      "currency": "EUR",
+      "techeuId": "0affa001-9f65-47f7-f8ea-08d91092c887",
+      "investors": [
+        "Circularity Capital",
+        "Coparion",
+        "Samsung NEXT",
+        "Varengold Bank",
+        "Main Incubator"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2018/07/30/grover-raises-series-a/",
+          "quote": "the funding consists of €12 million in equity and a new €25 million debt facility"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2018/07/30/grover-raises-series-a/",
+          "quote": "Grover raises €37M Series A"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2018/07/30/grover-raises-series-a/",
+          "quote": "July 30, 2018"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2018/07/30/grover-raises-series-a/",
+          "quote": "The Series A round is led by Circularity Capital LLP"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2018/07/30/grover-raises-series-a/",
+          "quote": "with participation from fintech investor Coparion, Samsung NEXT, and Varengold Bank. Existing investors , including Commerzbank’s Main Incubator, also followed on."
+        }
+      ]
+    },
+    {
+      "stage": "series-a",
+      "month": "2019-10",
+      "amountEur": 11000000,
+      "amountOriginal": 11000000,
+      "currency": "EUR",
+      "techeuId": "16d9690a-7ad5-4053-f8eb-08d91092c887",
+      "investors": [
+        "Augmentum Fintech",
+        "Coparion",
+        "Circularity Capital",
+        "Main Incubator",
+        "Samsung Next"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2019/10/01/grover-gets-e41-million-to-take-tech-rental-global/",
+          "quote": "The €11 million equity is led by Augmentum Fintech"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2019/10/01/grover-gets-e41-million-to-take-tech-rental-global/",
+          "quote": "01 October 2019"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2019/10/01/grover-gets-e41-million-to-take-tech-rental-global/",
+          "quote": "with support from existing investors coparion, Circularity Capital, Main Incubator (of Commerzbank Group), and Samsung Next"
+        }
+      ]
+    },
+    {
+      "stage": "series-b",
+      "month": "2021-04",
+      "amountEur": 45000000,
+      "amountOriginal": 45000000,
+      "currency": "EUR",
+      "techeuId": "301089b8-455c-4c95-f8ed-08d91092c887",
+      "investors": [
+        "JMS Capital-Everglen",
+        "Viola Fintech",
+        "Assurant Growth",
+        "Coparion",
+        "Augmentum Fintech",
+        "Circularity Capital",
+        "Seedcamp",
+        "Samsung Next"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2021/04/12/grover-raises-71m-to-grow-its-consumer-electronics-subscription-business/",
+          "quote": "The funding is coming in the form of €45 million in equity and €15 million in venture debt."
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2021/04/12/grover-raises-71m-to-grow-its-consumer-electronics-subscription-business/",
+          "quote": "JMS Capital-Everglen led the Series B equity round"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2021/04/12/grover-raises-71m-to-grow-its-consumer-electronics-subscription-business/",
+          "quote": "April 12, 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2021/04/12/grover-raises-71m-to-grow-its-consumer-electronics-subscription-business/",
+          "quote": "JMS Capital-Everglen led the Series B equity round, with participation also from Viola Fintech, Assurant Growth, existing investors coparion, Augmentum Fintech, Circularity Capital, Seedcamp and Samsung Next"
+        }
+      ]
+    },
+    {
+      "stage": "series-c",
+      "month": "2022-04",
+      "amountEur": 100769513,
+      "amountOriginal": 110000000,
+      "currency": "USD",
+      "techeuId": "0f19d6a2-7125-4e99-b49d-47777885409b",
+      "investors": [
+        "Energy Impact Partners",
+        "Co-Investor Partners",
+        "Korelya Capital",
+        "LG",
+        "Mirae Asset Group",
+        "Viola Fintech",
+        "Assurant",
+        "Coparion"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2022/04/06/grover-grabs-330m-to-double-down-on-the-circular-economy-with-consumer-electronics-subscriptions/",
+          "quote": "specifically $110 million in equity and $220 million in debt"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2022/04/06/grover-grabs-330m-to-double-down-on-the-circular-economy-with-consumer-electronics-subscriptions/",
+          "quote": "Energy Impact Partners is leading the equity portion of the Series C"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2022/04/06/grover-grabs-330m-to-double-down-on-the-circular-economy-with-consumer-electronics-subscriptions/",
+          "quote": "April 6, 2022"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2022/04/06/grover-grabs-330m-to-double-down-on-the-circular-economy-with-consumer-electronics-subscriptions/",
+          "quote": "Energy Impact Partners is leading the equity portion of the Series C, with Co-Investor Partners, Korelya Capital, LG, Mirae Asset Group, and previous backers Viola Fintech, Assurant and coparion also participating."
+        }
+      ]
+    }
+  ]
+}

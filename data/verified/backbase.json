@@ -1,0 +1,90 @@
+{
+  "id": "backbase",
+  "name": "Backbase",
+  "aliases": [],
+  "domain": "backbase.com",
+  "country": "NL",
+  "city": "Amsterdam",
+  "founded": 2003,
+  "sectors": [
+    "fintech",
+    "saas"
+  ],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 2500000000,
+  "founders": [
+    "Jouk Pleiter",
+    "Gerbert Kaandorp"
+  ],
+  "difficulty": 3,
+  "techeuId": "9D89AFAB-0D77-431E-8659-B364ACDC3D37",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/Backbase",
+      "quote": "Backbase was founded in 2003 in Amsterdam by Jouk Pleiter and Gerbert Kaandorp"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Backbase",
+      "quote": "Backbase was founded in 2003 in Amsterdam by Jouk Pleiter and Gerbert Kaandorp"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Backbase",
+      "quote": "Backbase was founded in 2003 in Amsterdam by Jouk Pleiter and Gerbert Kaandorp"
+    },
+    {
+      "field": "sectors",
+      "url": "https://techcrunch.com/2022/06/09/backbase-raises-its-first-funding-128m-at-a-2-6b-valuation-for-tools-that-help-banks-with-engagement/",
+      "quote": "an Amsterdam-based startup that provides a platform that banks and others can use to better structure and leverage the data that they have"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://techcrunch.com/2022/06/09/backbase-raises-its-first-funding-128m-at-a-2-6b-valuation-for-tools-that-help-banks-with-engagement/",
+      "quote": "values Backbase at €2.5 billion ($2.6 billion)"
+    },
+    {
+      "field": "valuation",
+      "url": "https://techcrunch.com/2022/06/09/backbase-raises-its-first-funding-128m-at-a-2-6b-valuation-for-tools-that-help-banks-with-engagement/",
+      "quote": "values Backbase at €2.5 billion ($2.6 billion)"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "bac5d3bf-90bd-4a0b-abc4-d3c446264fc2",
+      "stage": "series-c",
+      "month": "2022-06",
+      "amountEur": 120000000,
+      "amountOriginal": 120000000,
+      "currency": "EUR",
+      "investors": [
+        "Motive Partners"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2022/06/09/backbase-raises-its-first-funding-128m-at-a-2-6b-valuation-for-tools-that-help-banks-with-engagement/",
+          "quote": "has raised €120 million ($128 million at today's rates), money that it will be using to continue investing in its technology"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2022/06/09/backbase-raises-its-first-funding-128m-at-a-2-6b-valuation-for-tools-that-help-banks-with-engagement/",
+          "quote": "with this initial fundraise"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2022/06/09/backbase-raises-its-first-funding-128m-at-a-2-6b-valuation-for-tools-that-help-banks-with-engagement/",
+          "quote": "June 9, 2022"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2022/06/09/backbase-raises-its-first-funding-128m-at-a-2-6b-valuation-for-tools-that-help-banks-with-engagement/",
+          "quote": "coming from a single investor, Motive Partners"
+        }
+      ],
+      "postMoneyValuationEur": 2500000000
+    }
+  ]
+}

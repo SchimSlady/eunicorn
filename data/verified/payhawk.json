@@ -1,0 +1,207 @@
+{
+  "id": "payhawk",
+  "name": "Payhawk",
+  "aliases": [],
+  "domain": "payhawk.com",
+  "country": "BG",
+  "city": "Sofia",
+  "founded": 2018,
+  "sectors": [
+    "fintech"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "lastValuationEur": 895896793,
+  "founders": [
+    "Boyko Karadzhov",
+    "Hristo Borisov"
+  ],
+  "difficulty": 3,
+  "techeuId": "8347BEE3-43D4-498A-B0E0-83685957ABBE",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://tech.eu/2020/03/16/payhawk-seed/",
+      "quote": "the startup was founded in Sofia, Bulgaria by Boyko Karadzhov and Hristo Borisov"
+    },
+    {
+      "field": "founded",
+      "url": "https://tech.eu/2021/11/23/payhawk-continues-to-spread-its-wings-raises-115-million-in-new-capital",
+      "quote": "Co-founded in 2018 Payhawk aims to simplify"
+    },
+    {
+      "field": "founders",
+      "url": "https://tech.eu/2020/03/16/payhawk-seed/",
+      "quote": "the startup was founded in Sofia, Bulgaria by Boyko Karadzhov and Hristo Borisov"
+    },
+    {
+      "field": "sectors",
+      "url": "https://tech.eu/2021/11/23/payhawk-continues-to-spread-its-wings-raises-115-million-in-new-capital",
+      "quote": "Company payments and expense management firm Payhawk has closed"
+    },
+    {
+      "field": "valuation",
+      "url": "https://techcrunch.com/2022/02/28/payhawk-becomes-a-unicorn-as-it-extends-its-series-b/",
+      "quote": "The startup confirms that it has reached a post-money valuation of $1 billion"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "e89da6b6-aadd-45d3-fb2f-08d91092c887",
+      "stage": "seed",
+      "month": "2020-03",
+      "amountEur": 3000000,
+      "amountOriginal": 3000000,
+      "currency": "EUR",
+      "investors": [
+        "Earlybird Digital East",
+        "TinyVC"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2020/03/16/payhawk-seed/",
+          "quote": "has closed €3 million in seed funding"
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2020/03/16/payhawk-seed/",
+          "quote": "has closed €3 million in seed funding"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2020/03/16/payhawk-seed/",
+          "quote": "16 March 2020"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2020/03/16/payhawk-seed/",
+          "quote": "The round was led by Earlybird's Digital East Fund with participation from Berlin-based TinyVC"
+        }
+      ]
+    },
+    {
+      "techeuId": "4b1c2e1d-5b77-429f-fb30-08d91092c887",
+      "stage": "series-a",
+      "month": "2021-04",
+      "amountEur": 16686134,
+      "amountOriginal": 20000000,
+      "currency": "USD",
+      "investors": [
+        "QED Investors",
+        "Earlybird Digital East"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://nordic9.com/news/payhawk-in-a-20-million-deal-led-by-the-us-based-fund-qed-investors",
+          "quote": "announced completing a $20 million funding deal"
+        },
+        {
+          "field": "stage",
+          "url": "https://siliconcanals.com/payhawk-secures-99-44m/",
+          "quote": "Series A round of funding announced earlier this year in April"
+        },
+        {
+          "field": "month",
+          "url": "https://nordic9.com/news/payhawk-in-a-20-million-deal-led-by-the-us-based-fund-qed-investors",
+          "quote": "18 April 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://nordic9.com/news/payhawk-in-a-20-million-deal-led-by-the-us-based-fund-qed-investors",
+          "quote": "The money was raised from investors led by QED Investors"
+        },
+        {
+          "field": "investors",
+          "url": "https://nordic9.com/news/payhawk-in-a-20-million-deal-led-by-the-us-based-fund-qed-investors",
+          "quote": "joined by existing investor Earlybird Digital East"
+        }
+      ]
+    },
+    {
+      "techeuId": "b5da16bd-8798-43e6-aa41-f8781f5ed7b0",
+      "stage": "series-b",
+      "month": "2021-11",
+      "amountEur": 99475975,
+      "amountOriginal": 112000000,
+      "currency": "USD",
+      "investors": [
+        "Greenoaks",
+        "QED Investors",
+        "Earlybird Digital East",
+        "Eleven Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://siliconcanals.com/payhawk-secures-99-44m/",
+          "quote": "has raised $112M (approx €99.44M) in its Series B round of funding"
+        },
+        {
+          "field": "stage",
+          "url": "https://siliconcanals.com/payhawk-secures-99-44m/",
+          "quote": "has raised $112M (approx €99.44M) in its Series B round of funding"
+        },
+        {
+          "field": "month",
+          "url": "https://siliconcanals.com/payhawk-secures-99-44m/",
+          "quote": "Nov 23, 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://siliconcanals.com/payhawk-secures-99-44m/",
+          "quote": "The current round was led by San Francisco-based investor Greenoaks"
+        },
+        {
+          "field": "investors",
+          "url": "https://siliconcanals.com/payhawk-secures-99-44m/",
+          "quote": "existing investors QED Investors, Earlybird Digital East and Eleven Ventures also participated in this round"
+        }
+      ]
+    },
+    {
+      "techeuId": "e97a0c0f-9e9c-419e-9007-ff3751e16793",
+      "stage": "series-b",
+      "month": "2022-03",
+      "amountEur": 89589679,
+      "amountOriginal": 100000000,
+      "currency": "USD",
+      "postMoneyValuationEur": 895896793,
+      "investors": [
+        "Lightspeed Venture Partners",
+        "Sprints Capital",
+        "Endeavor Catalyst",
+        "HubSpot Ventures",
+        "Jigsaw VC"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://payhawk.com/blog/payhawk-becomes-first-ever-bulgarian-unicorn-after-raising-100m-in-a-lightspeed-led-series-b-extension/",
+          "quote": "The company has raised an additional $100m in a round led by Lightspeed Venture Partners at a valuation of $1bn"
+        },
+        {
+          "field": "stage",
+          "url": "https://payhawk.com/blog/payhawk-becomes-first-ever-bulgarian-unicorn-after-raising-100m-in-a-lightspeed-led-series-b-extension/",
+          "quote": "to extend its Series B round to $215m"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2022/03/01/bulgaria-now-has-its-first-unicorn-in-payhawk-as-the-company-adds-an-additional-100-million",
+          "quote": "01 March 2022"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2022/02/28/payhawk-becomes-a-unicorn-as-it-extends-its-series-b/",
+          "quote": "Lightspeed Venture Partners is leading the new $100 million investment"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2022/02/28/payhawk-becomes-a-unicorn-as-it-extends-its-series-b/",
+          "quote": "Sprints Capital, Endeavor Catalyst, HubSpot Ventures and Jigsaw VC are also participating in the round"
+        }
+      ]
+    }
+  ]
+}

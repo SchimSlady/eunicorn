@@ -1,0 +1,189 @@
+{
+  "id": "tide",
+  "name": "Tide",
+  "aliases": [],
+  "domain": "tide.co",
+  "country": "GB",
+  "city": "London",
+  "founded": 2015,
+  "sectors": [
+    "fintech"
+  ],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 1273236567,
+  "founders": [
+    "George Bevis"
+  ],
+  "difficulty": 2,
+  "techeuId": "3A993778-8CC1-41E1-B6B4-31365BD1E3A1",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/Tide_(financial_service)",
+      "quote": "Headquarters London , United Kingdom"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Tide_(financial_service)",
+      "quote": "Founded 18 May 2015"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Tide_(financial_service)",
+      "quote": "Founder George Bevis"
+    },
+    {
+      "field": "sectors",
+      "url": "https://en.wikipedia.org/wiki/Tide_(financial_service)",
+      "quote": "is a UK financial technology company providing mobile-first banking services"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://www.openbankingexpo.com/news/tide-secures-strategic-investment-from-leading-global-investor-tpg/",
+      "quote": "The investment raises Tide’s valuation to $1.5 billion"
+    },
+    {
+      "field": "valuation",
+      "url": "https://www.openbankingexpo.com/news/tide-secures-strategic-investment-from-leading-global-investor-tpg/",
+      "quote": "The investment raises Tide’s valuation to $1.5 billion"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "27e249a5-ae45-4402-d836-08d91092c887",
+      "stage": "seed",
+      "month": "2016-07",
+      "amountEur": 1792597,
+      "amountOriginal": 2000000,
+      "currency": "USD",
+      "investors": [
+        "Passion Capital",
+        "LocalGlobe",
+        "Alex Chesterman",
+        "Errol Damelin"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://en.wikipedia.org/wiki/Tide_(financial_service)",
+          "quote": "In July 2016, the company received $2 million (£1.5 million) in seed funding from"
+        },
+        {
+          "field": "month",
+          "url": "https://en.wikipedia.org/wiki/Tide_(financial_service)",
+          "quote": "In July 2016, the company received $2 million (£1.5 million) in seed funding from"
+        },
+        {
+          "field": "investors",
+          "url": "https://en.wikipedia.org/wiki/Tide_(financial_service)",
+          "quote": "’s Passion Capital, Robin Klein ’s LocalGlobe, Zoopla ’s founder Alex Chesterman , Wonga founder Errol Damelin and a number of other investors"
+        }
+      ]
+    },
+    {
+      "techeuId": "8a67ee74-a95c-4a64-d837-08d91092c887",
+      "stage": "series-a",
+      "month": "2017-07",
+      "amountEur": 12390178,
+      "amountOriginal": 11000000,
+      "currency": "GBP",
+      "investors": [
+        "Anthemis",
+        "Creandum",
+        "Passion Capital",
+        "LocalGlobe"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://en.wikipedia.org/wiki/Tide_(financial_service)",
+          "quote": "In July 2017, Tide secured an £11m series A investment from specialist fintech funds Anthemis and Creandum."
+        },
+        {
+          "field": "month",
+          "url": "https://en.wikipedia.org/wiki/Tide_(financial_service)",
+          "quote": "In July 2017, Tide secured an £11m series A investment from specialist fintech funds Anthemis and Creandum."
+        },
+        {
+          "field": "investors",
+          "url": "https://en.wikipedia.org/wiki/Tide_(financial_service)",
+          "quote": "Money was also raised from Tide’s existing investors, Passion Capital and LocalGlobe."
+        }
+      ]
+    },
+    {
+      "stage": "series-b",
+      "month": "2019-10",
+      "amountEur": 49464416,
+      "amountOriginal": 44100000,
+      "currency": "GBP",
+      "investors": [
+        "SBI Group",
+        "Augmentum Fintech"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://en.wikipedia.org/wiki/Tide_(financial_service)",
+          "quote": "In October of the same year, the company raised £44.1m in Series B fundraising, with the SBI Group and Augmentum Fintech leading the funding round."
+        },
+        {
+          "field": "month",
+          "url": "https://en.wikipedia.org/wiki/Tide_(financial_service)",
+          "quote": "In October of the same year, the company raised £44.1m in Series B fundraising"
+        },
+        {
+          "field": "investors",
+          "url": "https://en.wikipedia.org/wiki/Tide_(financial_service)",
+          "quote": "with the SBI Group and Augmentum Fintech leading the funding round."
+        }
+      ]
+    },
+    {
+      "techeuId": "e487b50e-8338-4297-9250-11710a706475",
+      "stage": "series-c",
+      "month": "2021-07",
+      "amountEur": 84373945,
+      "amountOriginal": 100000000,
+      "currency": "USD",
+      "postMoneyValuationEur": 548430645,
+      "investors": [
+        "Apax Digital",
+        "Anthemis",
+        "Augmentum",
+        "Jigsaw",
+        "Local Globe",
+        "SBI",
+        "Speedinvest"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.apax.com/news-views/tide-raises-100-million-in-series-c-funding-led-by-the-apax-digital-fund/",
+          "quote": "just over $100 million in Series C funding"
+        },
+        {
+          "field": "month",
+          "url": "https://www.apax.com/news-views/tide-raises-100-million-in-series-c-funding-led-by-the-apax-digital-fund/",
+          "quote": "12th July 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.apax.com/news-views/tide-raises-100-million-in-series-c-funding-led-by-the-apax-digital-fund/",
+          "quote": "The round was led by funds advised by Apax Digital"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.apax.com/news-views/tide-raises-100-million-in-series-c-funding-led-by-the-apax-digital-fund/",
+          "quote": "Anthemis, Augmentum, Jigsaw, Local Globe / Latitude, SBI, and SpeedInvest, existing investors, also participated in the round."
+        },
+        {
+          "field": "valuation",
+          "url": "https://www.apax.com/news-views/tide-raises-100-million-in-series-c-funding-led-by-the-apax-digital-fund/",
+          "quote": "Tide is now valued at over $650 million post-money"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,239 @@
+{
+  "id": "spendesk",
+  "name": "Spendesk",
+  "aliases": [],
+  "domain": "spendesk.com",
+  "country": "FR",
+  "city": "Paris",
+  "founded": 2016,
+  "sectors": [
+    "fintech",
+    "saas"
+  ],
+  "status": "private",
+  "unicorn": true,
+  "founders": [
+    "Rodolphe Ardant",
+    "Guilhem Bellion",
+    "Jordane Giuly"
+  ],
+  "difficulty": 3,
+  "techeuId": "265DDC05-1BF1-4D02-B54A-D575B7400C9C",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://fr.wikipedia.org/wiki/Spendesk",
+      "quote": "Siège social Paris 75008 France"
+    },
+    {
+      "field": "founded",
+      "url": "https://fr.wikipedia.org/wiki/Spendesk",
+      "quote": "Spendesk est créée en 2016 au sein du startup studio eFounders par Rodolphe Ardant, Guilhem Bellion et Jordane Giuly"
+    },
+    {
+      "field": "founders",
+      "url": "https://fr.wikipedia.org/wiki/Spendesk",
+      "quote": "Spendesk est créée en 2016 au sein du startup studio eFounders par Rodolphe Ardant, Guilhem Bellion et Jordane Giuly"
+    },
+    {
+      "field": "sectors",
+      "url": "https://techcrunch.com/2017/01/24/spendesk-grabs-22-million-for-its-next-gen-corporate-cards",
+      "quote": "Spendesk is a software-as-a-service solution."
+    },
+    {
+      "field": "sectors",
+      "url": "https://techcrunch.com/2022/01/17/spendesk-is-the-fifth-french-startup-to-reach-unicorn-status-this-month/",
+      "quote": "Fintech startup Spendesk is announcing"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://techcrunch.com/2022/01/17/spendesk-is-the-fifth-french-startup-to-reach-unicorn-status-this-month/",
+      "quote": "reached a valuation of more than $1.14 billion (more than €1 billion)"
+    },
+    {
+      "field": "valuation",
+      "url": "https://techcrunch.com/2022/01/17/spendesk-is-the-fifth-french-startup-to-reach-unicorn-status-this-month/",
+      "quote": "reached a valuation of more than $1.14 billion (more than €1 billion)"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "7953e9be-a9c6-4033-effb-08d91092c887",
+      "stage": "seed",
+      "month": "2017-01",
+      "amountEur": 2046892,
+      "amountOriginal": 2200000,
+      "currency": "USD",
+      "investors": [
+        "Kima Ventures",
+        "FundersClub",
+        "Edward Lando",
+        "Nicolas Steegmann",
+        "Frédéric Montagnon"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2017/01/24/spendesk-grabs-22-million-for-its-next-gen-corporate-cards",
+          "quote": "Spendesk just raised $2.2 million (€2 million)"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2017/01/24/spendesk-grabs-22-million-for-its-next-gen-corporate-cards",
+          "quote": "January 24, 2017"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2017/01/24/spendesk-grabs-22-million-for-its-next-gen-corporate-cards",
+          "quote": "Investors in today’s funding round include Kima Ventures, Funders Club and angel investors Edward Lando, Nicolas Steegmann and Frédéric Montagnon."
+        }
+      ]
+    },
+    {
+      "techeuId": "01e1f356-bdd7-455d-effc-08d91092c887",
+      "stage": "series-a",
+      "month": "2018-01",
+      "amountEur": 7970373,
+      "amountOriginal": 9900000,
+      "currency": "USD",
+      "investors": [
+        "Index Ventures",
+        "Michael Benabou",
+        "Laurent Asscher",
+        "Louis Jonckheere",
+        "Pieterjan Bouten"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2018/01/30/spendesk-raises-99-million-to-build-your-next-corporate-card/",
+          "quote": "Spendesk just raised $9.9 million (€8 million) from Index Ventures"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2018/01/30/spendesk-raises-99-million-to-build-your-next-corporate-card/",
+          "quote": "January 30, 2018"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2018/01/30/spendesk-raises-99-million-to-build-your-next-corporate-card/",
+          "quote": "from Index Ventures with Michael Benabou, Laurent Asscher and Showpad cofounders Louis Jonckheere and Pieterjan Bouten also participating"
+        }
+      ]
+    },
+    {
+      "techeuId": "7cd1a35f-1d0a-4231-effd-08d91092c887",
+      "stage": "series-b",
+      "month": "2019-09",
+      "amountEur": 34823615,
+      "amountOriginal": 38400000,
+      "currency": "USD",
+      "investors": [
+        "Index Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2019/09/08/spendesk-raises-38-4-million-for-its-corporate-card-and-expense-service/",
+          "quote": "has raised another $38.4 million in a Series B round"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2019/09/08/spendesk-raises-38-4-million-for-its-corporate-card-and-expense-service/",
+          "quote": "September 8, 2019"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2019/09/08/spendesk-raises-38-4-million-for-its-corporate-card-and-expense-service/",
+          "quote": "with existing investor Index Ventures leading the round"
+        }
+      ]
+    },
+    {
+      "techeuId": "10da274d-b1be-471f-effe-08d91092c887",
+      "stage": "series-b",
+      "month": "2020-10",
+      "amountEur": 15271061,
+      "amountOriginal": 18000000,
+      "currency": "USD",
+      "investors": [
+        "Eight Roads Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2020/10/13/spendesk-raises-another-18-million-for-its-corporate-card-and-expense-service/",
+          "quote": "has added $18 million to its Series B round"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2020/10/13/spendesk-raises-another-18-million-for-its-corporate-card-and-expense-service/",
+          "quote": "October 13, 2020"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2020/10/13/spendesk-raises-another-18-million-for-its-corporate-card-and-expense-service/",
+          "quote": "Eight Roads Ventures is investing in today’s extension round."
+        }
+      ]
+    },
+    {
+      "techeuId": "5d8136c1-5a58-4faf-a9e6-5914f934d25e",
+      "stage": "series-c",
+      "month": "2021-07",
+      "amountEur": 100237853,
+      "amountOriginal": 118000000,
+      "currency": "USD",
+      "investors": [
+        "General Atlantic",
+        "Index Ventures",
+        "Eight Roads Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2021/07/21/spendesk-raises-118-million-for-its-corporate-spend-management-service/",
+          "quote": "has raised a $118 million funding round (€100 million) led by General Atlantic"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2021/07/21/spendesk-raises-118-million-for-its-corporate-spend-management-service/",
+          "quote": "July 21, 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2021/07/21/spendesk-raises-118-million-for-its-corporate-spend-management-service/",
+          "quote": "Existing investors Index Ventures and Eight Road Ventures participated once again"
+        }
+      ]
+    },
+    {
+      "techeuId": "613d0e5b-5ab2-49c3-937d-9f4a6424f29a",
+      "stage": "series-c",
+      "month": "2022-01",
+      "amountEur": 99973691,
+      "amountOriginal": 114000000,
+      "currency": "USD",
+      "investors": [
+        "Tiger Global"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2022/01/17/spendesk-is-the-fifth-french-startup-to-reach-unicorn-status-this-month/",
+          "quote": "Tiger Global is investing $114 million (€100 million) in the startup."
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2022/01/17/spendesk-is-the-fifth-french-startup-to-reach-unicorn-status-this-month/",
+          "quote": "January 17, 2022"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2022/01/17/spendesk-is-the-fifth-french-startup-to-reach-unicorn-status-this-month/",
+          "quote": "Tiger Global is investing $114 million (€100 million) in the startup."
+        }
+      ]
+    }
+  ]
+}

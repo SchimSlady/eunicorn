@@ -1,0 +1,126 @@
+{
+  "id": "clark",
+  "name": "Clark",
+  "aliases": [
+    "CLARK"
+  ],
+  "domain": "clark.de",
+  "country": "DE",
+  "city": "Frankfurt am Main",
+  "founded": 2015,
+  "sectors": [
+    "fintech"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Christopher Oster",
+    "Marco Adelt",
+    "Chris Lodde",
+    "Steffen Glomb"
+  ],
+  "difficulty": 4,
+  "techeuId": "374BA11F-5D17-4B09-BED6-3776B3CAAE07",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.kfw.de/stories/wirtschaft/innovation/digitaler-versicherungsmakler-clark/",
+      "quote": "Das InsurTech-Unternehmen hat seinen Hauptsitz in Frankfurt am Main"
+    },
+    {
+      "field": "founded",
+      "url": "https://techcrunch.com/2018/04/24/clark-robo-advisor",
+      "quote": "Founded in July 2015"
+    },
+    {
+      "field": "founders",
+      "url": "https://www.kfw.de/stories/wirtschaft/innovation/digitaler-versicherungsmakler-clark/",
+      "quote": "Marco Adelt, Chris Lodde, Steffen Glomb und Christopher Oster (von links nach rechts) gründeten 2015 das Unternehmen Clark"
+    },
+    {
+      "field": "sectors",
+      "url": "https://techcrunch.com/2018/04/24/clark-robo-advisor",
+      "quote": "offering something akin to a digital insurance brokerage all delivered through a convenient mobile app"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "72450a9e-cdd2-4e6f-f756-08d91092c887",
+      "stage": "series-b",
+      "month": "2018-04",
+      "amountEur": 23745190,
+      "amountOriginal": 29000000,
+      "currency": "USD",
+      "investors": [
+        "Portag3 Ventures",
+        "White Star Capital",
+        "Coparion",
+        "Kulczyk Investments",
+        "Yabeo Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2018/04/24/clark-robo-advisor",
+          "quote": "has closed a hefty $29 million in Series B funding"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2018/04/24/clark-robo-advisor",
+          "quote": "has closed a hefty $29 million in Series B funding"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2018/04/24/clark-robo-advisor",
+          "quote": "April 24, 2018"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2018/04/24/clark-robo-advisor",
+          "quote": "The round was led by fintech investor Portag3 Ventures, and VC fund White Star Capital"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2018/04/24/clark-robo-advisor",
+          "quote": "including Coparion, Kulczyk Investments, and Yabeo Capital"
+        }
+      ]
+    },
+    {
+      "techeuId": "3e128468-a77e-40a9-f757-08d91092c887",
+      "stage": "series-c",
+      "month": "2021-01",
+      "amountEur": 69000000,
+      "amountOriginal": 69000000,
+      "currency": "EUR",
+      "investors": [
+        "Tencent",
+        "Portag3 Ventures",
+        "White Star Capital",
+        "Yabeo Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://talent4boards.com/clark-announces-completion-of-69m-series-c-funding-led-by-tencent/",
+          "quote": "completion of its Series C financing round of 69 million euros led by Tencent"
+        },
+        {
+          "field": "stage",
+          "url": "https://talent4boards.com/clark-announces-completion-of-69m-series-c-funding-led-by-tencent/",
+          "quote": "completion of its Series C financing round of 69 million euros led by Tencent"
+        },
+        {
+          "field": "month",
+          "url": "https://talent4boards.com/clark-announces-completion-of-69m-series-c-funding-led-by-tencent/",
+          "quote": "January 12, 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://talent4boards.com/clark-announces-completion-of-69m-series-c-funding-led-by-tencent/",
+          "quote": "existing investors such as Portag3 Ventures, White Star Capital, and Yabeo are also increasing their stake"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,197 @@
+{
+  "id": "zego",
+  "name": "Zego",
+  "aliases": [],
+  "domain": "zego.com",
+  "country": "GB",
+  "city": "London",
+  "founded": 2016,
+  "sectors": [
+    "fintech",
+    "mobility"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Harry Franks",
+    "Sten Saar",
+    "Stuart Kelly"
+  ],
+  "difficulty": 3,
+  "techeuId": "6b092ad3-4dff-4909-a743-987cc6cef81e",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://techcrunch.com/2017/11/18/zego/",
+      "quote": "Zego , the London-based startup"
+    },
+    {
+      "field": "founded",
+      "url": "https://techcrunch.com/2017/11/18/zego/",
+      "quote": "Founded by Harry Franks, Sten Saar and Stuart Kelly in 2016"
+    },
+    {
+      "field": "founders",
+      "url": "https://techcrunch.com/2017/11/18/zego/",
+      "quote": "Founded by Harry Franks, Sten Saar and Stuart Kelly in 2016"
+    },
+    {
+      "field": "sectors",
+      "url": "https://techcrunch.com/2021/03/09/zego-unicorn/",
+      "quote": "tech-enabled commercial motor insurance products"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://techcrunch.com/2021/03/09/zego-unicorn/",
+      "quote": "giving it a $1.1 billion valuation and a unicorn status"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "seed",
+      "month": "2017-07",
+      "amountEur": 1356162,
+      "amountOriginal": 1200000,
+      "currency": "GBP",
+      "techeuId": "960c187d-230b-4ed9-fdac-08d91092c887",
+      "investors": [
+        "LocalGlobe",
+        "Aviva"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2017/07/19/zego-funding/",
+          "quote": "Zego has raised £1.2 million in seeding funding led by LocalGlobe"
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2017/07/19/zego-funding/",
+          "quote": "Zego has raised £1.2 million in seeding funding led by LocalGlobe"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2017/07/19/zego-funding/",
+          "quote": "19 July 2017"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2017/07/19/zego-funding/",
+          "quote": "Zego has raised £1.2 million in seeding funding led by LocalGlobe"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2017/07/19/zego-raises-1m-to-give-gig-economy-drivers-a-pay-as-you-go-insurance-platform/",
+          "quote": "with FTSE 100 company Aviva"
+        }
+      ]
+    },
+    {
+      "stage": "series-a",
+      "month": "2017-11",
+      "amountEur": 6746121,
+      "amountOriginal": 6000000,
+      "currency": "GBP",
+      "techeuId": "3c98f0ab-f89c-4f3c-fdad-08d91092c887",
+      "investors": [
+        "Balderton Capital",
+        "LocalGlobe"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2017/11/18/zego/",
+          "quote": "has raised £6 million in Series A funding"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2017/11/18/zego/",
+          "quote": "has raised £6 million in Series A funding"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2017/11/18/zego/",
+          "quote": "November 18, 2017"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2017/11/18/zego/",
+          "quote": "The round was led by Balderton Capital, with participation from existing backers , including LocalGlobe"
+        }
+      ]
+    },
+    {
+      "stage": "series-b",
+      "month": "2019-06",
+      "amountEur": 37543577,
+      "amountOriginal": 42000000,
+      "currency": "USD",
+      "techeuId": "5c05d500-aefb-445f-fdae-08d91092c887",
+      "investors": [
+        "Target Global",
+        "Balderton Capital",
+        "Taavet Hinrikus"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2019/06/18/london-insurtech-scale-up-zego-secures-42-million-in-a-round-led-by-target-global/",
+          "quote": "Zego has raised $42 million to boost its European expansion."
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2019/06/18/london-insurtech-scale-up-zego-secures-42-million-in-a-round-led-by-target-global/",
+          "quote": "18 June 2019"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2019/06/18/london-insurtech-scale-up-zego-secures-42-million-in-a-round-led-by-target-global/",
+          "quote": "The financing round was led by Target Global and joined by Balderton Capital and Transferwise co-founder Taavet Hinrikus"
+        }
+      ]
+    },
+    {
+      "stage": "series-c",
+      "month": "2021-03",
+      "amountEur": 126135217,
+      "amountOriginal": 150000000,
+      "currency": "USD",
+      "techeuId": "0c291715-3728-4e5f-fdaf-08d91092c887",
+      "investors": [
+        "DST Global",
+        "General Catalyst",
+        "Target Global",
+        "Balderton Capital",
+        "Latitude",
+        "Taavet Hinrikus"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2021/03/09/zego-unicorn/",
+          "quote": "raises $150M at $1.1B valuation"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2021/03/09/zego-unicorn/",
+          "quote": "Leading the London-based company’s C round"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2021/03/09/zego-unicorn/",
+          "quote": "March 9, 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2021/03/09/zego-unicorn/",
+          "quote": "Leading the London-based company’s C round — giving it a $1.1 billion valuation and a unicorn status — is DST Global. Other new backers include General Catalyst"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2021/03/09/zego-unicorn/",
+          "quote": "including Wise’s Taavet Hinrikus, who is also on the Zego board, and Target Global, Balderton Capital and Latitude"
+        }
+      ]
+    }
+  ]
+}
