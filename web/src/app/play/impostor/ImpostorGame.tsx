@@ -233,7 +233,8 @@ export function ImpostorGame() {
               <StatsPanel
                 mode={MODE}
                 bucket={won ? progress.picks.length : 0}
-                scorePct={(score / MAX_SCORE) * 100}
+                score={score}
+                maxScore={MAX_SCORE}
                 order={[1, 2, 3, 4, 5, 6]}
                 label={(b) => (b === 0 ? "X" : String(b))}
                 axis="Picks needed"

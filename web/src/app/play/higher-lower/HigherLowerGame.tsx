@@ -193,7 +193,8 @@ export function HigherLowerGame() {
             <StatsPanel
               mode={MODE}
               bucket={correct}
-              scorePct={maxScore ? (score / maxScore) * 100 : 0}
+              score={score}
+              maxScore={maxScore}
               order={Array.from({ length: totalRounds + 1 }, (_, i) => i)}
               label={(b) => String(b)}
               axis="Rounds right"

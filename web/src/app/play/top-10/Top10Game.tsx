@@ -196,7 +196,8 @@ export function Top10Game() {
               <StatsPanel
                 mode={MODE}
                 bucket={found.length}
-                scorePct={(score / MAX_SCORE) * 100}
+                score={score}
+                maxScore={MAX_SCORE}
                 order={Array.from({ length: 11 }, (_, i) => i)}
                 label={(b) => String(b)}
                 axis="Companies found"

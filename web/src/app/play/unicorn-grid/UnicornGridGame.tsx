@@ -358,7 +358,8 @@ export function UnicornGridGame() {
               <StatsPanel
                 mode={MODE}
                 bucket={filled}
-                scorePct={maxScore ? (score / maxScore) * 100 : 0}
+                score={score}
+                maxScore={maxScore}
                 order={[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]}
                 label={(b) => String(b)}
                 axis="Squares filled"
