@@ -39,11 +39,12 @@ function atLevel(p: Puzzle, d: Difficulty): HigherLowerPuzzle {
 }
 
 /** How the two panels phrase the metric. */
-const PHRASE: Record<HigherLowerPuzzle["metric"], { has: string }> = {
-  lastValuationUsd: { has: "was last valued at" },
-  totalRaisedUsd: { has: "has raised" },
-  founded: { has: "was founded in" },
-  employees: { has: "has" },
+/** `higher` / `lower` are the button labels; for founding years "higher" means later. */
+const PHRASE: Record<HigherLowerPuzzle["metric"], { has: string; higher: string; lower: string; question: (name: string) => string }> = {
+  lastValuationUsd: { has: "was last valued at", higher: "higher", lower: "lower", question: (n: string) => `Is ${n} higher or lower?` },
+  totalRaisedUsd: { has: "has raised", higher: "higher", lower: "lower", question: (n: string) => `Is ${n} higher or lower?` },
+  founded: { has: "was founded in", higher: "later", lower: "earlier", question: (n: string) => `Was ${n} founded earlier or later?` },
+  employees: { has: "has", higher: "higher", lower: "lower", question: (n: string) => `Is ${n} higher or lower?` },
 };
 
 type Call = "higher" | "lower";
@@ -214,9 +215,9 @@ export function HigherLowerGame() {
                   {a.name} {formatMetric(a, play.metric)}
                 </span>
                 {r.truth === "higher" ? (
-                  <ArrowUp size={16} className="shrink-0 text-muted" aria-label="higher" />
+                  <ArrowUp size={16} className="shrink-0 text-muted" aria-label={phrase.higher} />
                 ) : (
-                  <ArrowDown size={16} className="shrink-0 text-muted" aria-label="lower" />
+                  <ArrowDown size={16} className="shrink-0 text-muted" aria-label={phrase.lower} />
                 )}
                 <span className="flex-1 text-right font-semibold">
                   {b.name} {formatMetric(b, play.metric)}
@@ -242,7 +243,7 @@ export function HigherLowerGame() {
         text={
           reviewing
             ? `${round.correct ? "Right" : "Wrong"}. ${next.name} ${phrase.has} ${formatMetric(next, play.metric)}.`
-            : `${prev.name} ${phrase.has} ${formatMetric(prev, play.metric)}. Is ${next.name} higher or lower?`
+            : `${prev.name} ${phrase.has} ${formatMetric(prev, play.metric)}. ${phrase.question(next.name)}`
         }
       />
 
@@ -305,7 +306,7 @@ export function HigherLowerGame() {
                     onClick={() => answer(call)}
                     className="flex items-center justify-center gap-1.5 rounded-full border-2 border-white/80 px-3 py-2.5 font-semibold capitalize text-eu-yellow transition hover:bg-white/10 active:scale-[0.98]"
                   >
-                    {call} {call === "higher" ? <ArrowUp size={18} aria-hidden /> : <ArrowDown size={18} aria-hidden />}
+                    {phrase[call]} {call === "higher" ? <ArrowUp size={18} aria-hidden /> : <ArrowDown size={18} aria-hidden />}
                   </button>
                 ))}
               </div>

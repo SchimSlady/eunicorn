@@ -41,7 +41,7 @@ function trim(n: number): string {
 export const METRIC_META: Record<HigherLowerMetric, { question: string; label: string }> = {
   lastValuationUsd: { question: "Which is valued higher?", label: "Valuation" },
   totalRaisedUsd: { question: "Which raised more?", label: "Total raised" },
-  founded: { question: "Which was founded later?", label: "Founded" },
+  founded: { question: "Founded earlier or later?", label: "Founded" },
   employees: { question: "Which has more employees?", label: "Employees" },
 };
 

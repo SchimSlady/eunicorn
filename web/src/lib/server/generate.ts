@@ -389,7 +389,11 @@ const HL_MIN_GAP = 1.3;
 /** At most 15 rounds (16 companies); a thinner tier gets a shorter chain. */
 function hlChain(cs: Company[], metric: HigherLowerMetric, rng: Rng, length = 16): Company[] | null {
   const v = (c: Company) => c[metric]!;
-  const fits = (a: Company, b: Company) => Math.max(v(a), v(b)) / Math.min(v(a), v(b)) >= HL_MIN_GAP;
+  // Founding years only need to differ (no ties); money needs a clear ratio.
+  const fits =
+    metric === "founded"
+      ? (a: Company, b: Company) => v(a) !== v(b)
+      : (a: Company, b: Company) => Math.max(v(a), v(b)) / Math.min(v(a), v(b)) >= HL_MIN_GAP;
   let best: Company[] = [];
   for (let attempt = 0; attempt < 200 && best.length < length; attempt++) {
     const chain = [pick(cs, rng)];
@@ -408,12 +412,13 @@ function hlChain(cs: Company[], metric: HigherLowerMetric, rng: Rng, length = 16
 export type HigherLowerVariants = Partial<Record<Difficulty, { companyIds: string[]; hints: Hint[] }>>;
 
 function higherLower(base: Base, date: string, companies: Company[], rng: Rng): (HigherLowerPuzzle & { variants: HigherLowerVariants }) | null {
-  const metrics: HigherLowerMetric[] = ["totalRaisedUsd", "lastValuationUsd"];
-  // Alternate the metric by day, falling back to the other one if the data is too thin.
+  const metrics: HigherLowerMetric[] = ["totalRaisedUsd", "lastValuationUsd", "founded"];
+  // Rotate the metric by day, falling back to the next one if the data is too thin.
   const start = puzzleNumber(date) % metrics.length;
-  for (const metric of [metrics[start], metrics[1 - start]]) {
+  for (const metric of metrics.map((_, i) => metrics[(start + i) % metrics.length])) {
     const usable = companies.filter((c) => c[metric] != null && c[metric]! > 0);
-    const label = metric === "totalRaisedUsd" ? "has raised" : "was last valued at";
+    const label = metric === "totalRaisedUsd" ? "has raised" : metric === "founded" ? "was founded in" : "was last valued at";
+    const value = (c: Company) => (metric === "founded" ? String(c.founded) : formatUsdAsEur(c[metric]!));
     const variants: HigherLowerVariants = {};
     for (const level of DIFFICULTIES) {
       const built = forLevel(level, usable, (pool) => {
@@ -423,8 +428,8 @@ function higherLower(base: Base, date: string, companies: Company[], rng: Rng): 
         return {
           companyIds: chain.map((c) => c.id),
           hints: [
-            { text: `${a.name} ${label} ${formatUsdAsEur(a[metric]!)}`, cost: 1 },
-            { text: `${b.name} ${label} ${formatUsdAsEur(b[metric]!)}`, cost: 1 },
+            { text: `${a.name} ${label} ${value(a)}`, cost: 1 },
+            { text: `${b.name} ${label} ${value(b)}`, cost: 1 },
           ],
         };
       });

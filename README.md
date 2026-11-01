@@ -21,7 +21,7 @@
 |---|---|
 | **Top 10** | Name the ten biggest startups in a list (Europe, a country, a sector or a city) by valuation or money raised. A wrong name costs points; guess as often as you like. |
 | **Unicorn Grid** | Fill a 3×3 grid: each square needs a startup that fits its row and its column. Lesser-known answers score more. |
-| **Higher or Lower** | See one company's valuation or total raised; is the next one higher or lower? One wrong call ends the run. |
+| **Higher or Lower** | See one company's valuation, total raised or founding year; is the next one higher or lower? One wrong call ends the run. |
 | **Impostor** | Six startups share something; one to three don't belong. Find them all. |
 
 Coming soon: Who Raised This?, Connections, Pin the HQ and Rank It. Have an idea? Send it from the home page.
