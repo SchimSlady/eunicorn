@@ -8,7 +8,7 @@ import { CircleCheck } from "lucide-react";
 
 import { getTodayResult, loadTodayPuzzle, type DailyResult } from "@/lib/daily";
 import { LIVE_MODES } from "@/lib/modes";
-import { formatRaised } from "@/lib/scoring";
+import { formatValuation } from "@/lib/scoring";
 import { ModePreview } from "./ModePreview";
 
 /** One card per mode: illustration, PLAY, title, and a ✓ with the score once played today. */
@@ -42,7 +42,7 @@ export function ModeCards() {
               </div>
               <div className="p-4">
                 <p className="font-display text-lg font-bold leading-tight">{m.title}</p>
-                <p className="mt-1 text-sm text-muted">{result ? formatRaised(result.score) : m.tagline}</p>
+                <p className="mt-1 text-sm text-muted">{result ? `${formatValuation(result.score, result.maxScore)} valuation` : m.tagline}</p>
               </div>
             </>
           );

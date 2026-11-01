@@ -219,7 +219,7 @@ export function ImpostorGame() {
             {triesLeft} {triesLeft === 1 ? "try" : "tries"} left
           </span>
           {rules.hints && progress.hintsUsed < play.hints.length && (
-            <HintButton cost={play.hints[progress.hintsUsed].cost} onClick={() => update({ ...progress, hintsUsed: progress.hintsUsed + 1 })} />
+            <HintButton maxScore={MAX_SCORE} cost={play.hints[progress.hintsUsed].cost} onClick={() => update({ ...progress, hintsUsed: progress.hintsUsed + 1 })} />
           )}
         </div>
       ) : (

@@ -194,7 +194,7 @@ export function Top10Game() {
               {livesLeft} {livesLeft === 1 ? "life" : "lives"} left · {found.length}/10
             </span>
             {rules.hints && progress.hintsUsed < round.hints.length && (
-              <HintButton cost={round.hints[progress.hintsUsed].cost} onClick={() => update({ ...progress, hintsUsed: progress.hintsUsed + 1 })} />
+              <HintButton maxScore={MAX_SCORE} cost={round.hints[progress.hintsUsed].cost} onClick={() => update({ ...progress, hintsUsed: progress.hintsUsed + 1 })} />
             )}
           </div>
           <RevealButton label="Show the list" onConfirm={() => update({ ...progress, gaveUp: true })} />
