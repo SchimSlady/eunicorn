@@ -19,14 +19,14 @@
 
 | Game | How it works |
 |---|---|
-| **Top 10** | Name the ten biggest startups in a list (Europe, a country, a sector or a city) by valuation or money raised. A wrong name costs a life. |
+| **Top 10** | Name the ten biggest startups in a list (Europe, a country, a sector or a city) by valuation or money raised. A wrong name costs points; guess as often as you like. |
 | **Unicorn Grid** | Fill a 3×3 grid: each square needs a startup that fits its row and its column. Lesser-known answers score more. |
 | **Higher or Lower** | See one company's valuation or total raised; is the next one higher or lower? One wrong call ends the run. |
-| **Impostor** | Five to eight startups share something. Find the one that doesn't belong (on Medium and Hard you find the pattern yourself). |
+| **Impostor** | Six startups share something; one to three don't belong. Find them all. |
 
 Coming soon: Who Raised This?, Connections, Pin the HQ and Rank It. Have an idea? Send it from the home page.
 
-Every game runs from a €0 to a €1bn valuation: a perfect game makes you a unicorn. Each mode has Easy, Medium and Hard, hints that cost valuation, a share text, a streak and today's results of all players.
+Each mode has Easy, Medium and Hard: they play the same, but the level sets how well known the startups are (and, in the Unicorn Grid, how simple the categories are) and how many hints you get. A result says what you did and where you rank among today's players; wrong answers and hints cost points, which only feed that ranking. There is also a share text and a streak.
 
 ## How it's built
 

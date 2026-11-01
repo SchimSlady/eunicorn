@@ -19,7 +19,6 @@ import { GameHeader } from "@/components/GameHeader";
 import { Announce, GameSkeleton, NoPuzzle } from "@/components/Announce";
 import { Hints } from "@/components/Hints";
 import { ResultArea } from "@/components/ResultArea";
-import { Leaderboard } from "@/components/Leaderboard";
 import { StatsPanel } from "@/components/StatsPanel";
 import { recordFinish, recordStart } from "@/lib/stats";
 
@@ -71,21 +70,21 @@ interface Progress {
 
 /**
  * A square is worth the company's difficulty (1 = everyone knows it, 5 = insider) in points,
- * so lesser-known answers raise more. Max = the most obscure valid answer for every square.
+ * so lesser-known answers score more. Max = the most obscure valid answer for every square.
  */
 function evaluate(p: UnicornGridPuzzle, progress: Progress, companies: Map<string, Company>) {
   const filled = progress.cells.filter(Boolean).length;
   const done = progress.gaveUp || filled === 9;
   const worth = (id: string) => companies.get(id)?.difficulty ?? 1;
   const hintCost = progress.cellHints.reduce((s, n) => s + HINT_COSTS.slice(0, n).reduce((a, c) => a + c, 0), 0);
-  const raised = progress.cells.reduce((s, id) => s + (id ? worth(id) : 0), 0);
+  const found = progress.cells.reduce((s, id) => s + (id ? worth(id) : 0), 0);
   return {
     filled,
     done,
     worth,
     hintsUsed: progress.cellHints.reduce((s, n) => s + n, 0),
     maxScore: p.validAnswers.reduce((s, ids) => s + Math.max(...ids.map(worth)), 0),
-    score: Math.max(0, raised - progress.wrong * WRONG_COST - hintCost),
+    score: Math.max(0, found - progress.wrong * WRONG_COST - hintCost),
   };
 }
 
@@ -356,8 +355,7 @@ export function UnicornGridGame() {
             detail={`${filled} of 9 squares${hintsUsed ? ` · ${hintsUsed} ${hintsUsed === 1 ? "hint" : "hints"}` : ""}`}
             share={shareText(puzzle, progress, companies)}
             stats={
-              <>
-                <StatsPanel
+              <StatsPanel
                 mode={MODE}
                 bucket={filled}
                 scorePct={maxScore ? (score / maxScore) * 100 : 0}
@@ -365,8 +363,6 @@ export function UnicornGridGame() {
                 label={(b) => String(b)}
                 axis="Squares filled"
               />
-                <Leaderboard mode={MODE} difficulty={progress.difficulty} scorePct={maxScore ? (score / maxScore) * 100 : 0} hintsUsed={hintsUsed} />
-              </>
             }
           />
           <BuiltInEuropeCard company={featured} founders={featuredFounders} reason={featuredReason} />

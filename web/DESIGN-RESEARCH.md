@@ -14,6 +14,6 @@ Things to decide while the game screens are being built.
 | 6 | **Animations and feel** | Wrong guess (shake?), right guess (confetti? flip?), clue reveal | NYT Games (Wordle, Connections), Futbol11 | |
 | 7 | **Company logos** | Round or square, with or without background? Does it look tidy with 5 side by side (Impostor)? | Brandfetch samples | |
 | 8 | **Home and navigation** | How to show the modes, "played today ✓" and the streak? Bottom nav or cards? | Futbol11, GeoRankle, NYT Games app | |
-| 9 | **Score naming** | Points, 🦄, or € ("You raised €8M today")? | | |
+| 9 | **Score naming** | Points, 🦄, or € ("You raised €8M today")? | | Decided: no money and no score shown; the result plus the percentile ("better than X%"). |
 | 10 | **Copy and tone** | English only? Ironic or serious? End-screen lines besides "Go build in Europe" | | |
 | 11 | **Difficulty** | Are the Easy/Medium/Hard rules right (see the Who Raised This? game)? Should each level be its own puzzle? | Futbol11 (timer levels) | |
