@@ -81,6 +81,16 @@ export default function Privacy() {
         </p>
       </Section>
 
+      <Section title="Startup requests">
+        <p>
+          If you ask us to add a startup, our server forwards the startup&apos;s name and website, and your email
+          address if you choose to give one, to our mailbox by email, using Resend (see above). We use them only to
+          check the request and, if you left an email, to tell you when the startup is in (Art. 6 (1) (f) GDPR; the
+          email address only on the basis of your consent, Art. 6 (1) (a)). We delete the request once we have dealt
+          with it. You can ask us to delete it earlier by writing to us.
+        </p>
+      </Section>
+
       <Section title="Fonts, icons and flags">
         <p>
           All fonts, icons and flags are served from our own domain. Your browser makes no requests to Google or any
