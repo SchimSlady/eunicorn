@@ -263,20 +263,22 @@ export function HigherLowerGame() {
 
       {/* Two panels: side by side on wide screens, top and bottom on phones, VS in the middle. */}
       <div key={`${round.previous}-${round.next}`} className="grid overflow-hidden rounded-3xl text-white md:grid-cols-2">
-        <Panel company={prev} tone="bg-eu-blue pb-7 md:pb-8">
+        <Panel company={prev} tone="bg-eu-blue" phone="pb-7 pt-4">
           <span className="text-sm text-white/70">{phrase.has}</span>
           <span className="font-display text-3xl font-bold text-eu-yellow sm:text-5xl">{formatMetric(prev, play.metric)}</span>
         </Panel>
 
-        <Panel company={next} tone="relative bg-[#00205e] pt-7 md:pt-8">
+        <Panel company={next} tone="relative bg-[#00205e]" phone="pb-4 pt-7">
           {/* On the boundary between the panels: top edge on phones, left edge side by side. */}
           <span className="absolute left-1/2 top-0 z-10 flex h-11 w-11 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full bg-white font-display text-base font-bold text-eu-blue shadow-lg md:left-0 md:top-1/2 md:h-14 md:w-14 md:text-lg">
             VS
           </span>
           {reviewing ? (
             <>
+              {/* Same label as the left panel (side by side), so the two values sit on one line. */}
+              <span className="hidden text-sm text-white/70 md:block">{phrase.has}</span>
               {/* The value and whether the call was right, on one line. */}
-              <div className="mt-1 flex items-center gap-2.5">
+              <div className="mt-1 flex items-center gap-2.5 md:mt-0">
                 <span className="animate-flip-in font-display text-3xl font-bold text-eu-yellow sm:text-5xl">{formatMetric(next, play.metric)}</span>
                 <span
                   className={`flex animate-pop items-center gap-1 rounded-full px-2.5 py-1 text-sm font-semibold ${
@@ -298,6 +300,7 @@ export function HigherLowerGame() {
             </>
           ) : (
             <>
+              <span aria-hidden className="hidden h-5 md:block" />
               <div className="mt-1 grid w-full grid-cols-2 gap-2 sm:max-w-56 sm:grid-cols-1">
                 {(["higher", "lower"] as const).map((call) => (
                   <button
@@ -329,11 +332,13 @@ export function HigherLowerGame() {
 }
 
 /** One half of the board: the company big, then whatever the round shows below it. */
-function Panel({ company, tone, children }: { company: Company; tone: string; children: React.ReactNode }) {
+function Panel({ company, tone, phone, children }: { company: Company; tone: string; phone: string; children: React.ReactNode }) {
+  // Side by side, both panels are laid out from the top on the same grid (the name always has room for two
+  // lines), so logo, name, city and value line up across them. On a phone each is centred as before.
   return (
-    <div className={`flex flex-col items-center justify-center gap-1 px-4 py-4 text-center md:min-h-96 md:gap-1.5 md:px-12 md:py-8 ${tone}`}>
+    <div className={`flex flex-col items-center justify-center gap-1 px-4 text-center md:min-h-96 md:justify-start md:gap-1.5 md:px-12 md:pb-8 md:pt-14 ${phone} ${tone}`}>
       <CompanyLogo company={company} size={52} />
-      <span className={`mt-1 font-display font-bold leading-tight md:mt-2 ${company.name.length > 16 ? "text-xl sm:text-2xl" : "text-2xl sm:text-3xl"}`}>
+      <span className={`mt-1 font-display font-bold leading-tight md:mt-2 md:flex md:min-h-[4.5rem] md:items-center md:justify-center ${company.name.length > 16 ? "text-xl sm:text-2xl" : "text-2xl sm:text-3xl"}`}>
         {company.name}
       </span>
       <span className="flex items-center gap-1.5 text-xs text-white/60">
