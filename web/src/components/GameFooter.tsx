@@ -13,7 +13,7 @@ import { Countdown } from "./Countdown";
  * Share + countdown to the next puzzle, then straight on to the next live game not played today
  * (in home-page order after this one); "More games" once every game is done.
  */
-export function GameFooter({ share }: { share: string }) {
+export function GameFooter({ share, score, maxScore }: { share: string; score?: number; maxScore?: number }) {
   const pathname = usePathname();
   // Read after mount: what's been played lives in this browser's storage.
   const [next, setNext] = useState<ModeInfo | null>(null);
@@ -26,7 +26,7 @@ export function GameFooter({ share }: { share: string }) {
 
   return (
     <div className="space-y-4">
-      <ShareButton text={share} />
+      <ShareButton text={share} score={score} maxScore={maxScore} />
       <Countdown />
       {next ? (
         <Link

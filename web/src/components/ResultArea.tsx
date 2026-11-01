@@ -41,7 +41,7 @@ export function ResultArea({
         >
           <BarChart3 size={16} aria-hidden /> Results
         </button>
-        <ShareButton text={share} compact />
+        <ShareButton text={share} score={score} maxScore={maxScore} compact />
       </div>
 
       {open && (
@@ -54,7 +54,7 @@ export function ResultArea({
         >
           <ResultHeader score={score} maxScore={maxScore} detail={detail} />
           {stats}
-          <GameFooter share={share} />
+          <GameFooter share={share} score={score} maxScore={maxScore} />
         </Sheet>
       )}
     </>

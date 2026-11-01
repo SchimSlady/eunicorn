@@ -4,6 +4,8 @@ import { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
 import { Download, Share2, UserPlus } from "lucide-react";
 import { drawShareCard, parseShare } from "@/lib/shareCard";
+import { loadStats } from "@/lib/stats";
+import type { PlayMode } from "@/lib/top10";
 import { Sheet } from "./Sheet";
 
 const SITE = "https://eunicorn.eu";
@@ -11,9 +13,10 @@ const SITE = "https://eunicorn.eu";
 /**
  * "Share" opens a share menu: the result as a picture (story size, for Instagram and WhatsApp),
  * one-tap WhatsApp, X and LinkedIn, the phone's own share sheet, and an invite without the result.
- * Every message ends with a link to today's game, so a share is also an invitation.
+ * The message is short and emoji-free (WhatsApp Desktop garbles emoji in share links): the result,
+ * how it ranks today, and "Can you beat me?" with a link to today's game.
  */
-export function ShareButton({ text, compact = false }: { text: string; compact?: boolean }) {
+export function ShareButton({ text, score, maxScore, compact = false }: { text: string; score?: number; maxScore?: number; compact?: boolean }) {
   const [open, setOpen] = useState(false);
   return (
     <>
@@ -27,17 +30,19 @@ export function ShareButton({ text, compact = false }: { text: string; compact?:
         <Share2 size={compact ? 16 : 18} aria-hidden />
         {compact ? "Share" : "Share result"}
       </button>
-      {open && <ShareMenu text={text} onClose={() => setOpen(false)} />}
+      {open && <ShareMenu text={text} score={score} maxScore={maxScore} onClose={() => setOpen(false)} />}
     </>
   );
 }
 
-function ShareMenu({ text, onClose }: { text: string; onClose: () => void }) {
+function ShareMenu({ text, score, maxScore, onClose }: { text: string; score?: number; maxScore?: number; onClose: () => void }) {
   const pathname = usePathname();
-  const gameUrl = `${SITE}${pathname.startsWith("/play/") ? pathname : ""}`;
-  // The last line of the share text is the bare site name; make it a challenge with a link.
-  const message = text.replace(/\neunicorn\.eu$/, `\nCan you beat me? ${gameUrl}`);
+  const mode = pathname.startsWith("/play/") ? (pathname.slice(6) as PlayMode) : null;
+  const gameUrl = `${SITE}${mode ? `/play/${mode}` : ""}`;
   const info = parseShare(text);
+  // Share of today's other players with a lower score; null until known (or with nobody else yet).
+  const [betterThan, setBetterThan] = useState<number | null>(null);
+  const message = `EUnicorn ${info.mode}: ${info.summary}${betterThan ? `, better than ${betterThan}% of players` : ""}.\nCan you beat me? ${gameUrl}`;
   const fileName = `eunicorn-${info.mode.toLowerCase().replace(/[^a-z0-9]+/g, "-")}-${info.number}.png`;
 
   const [image, setImage] = useState<{ blob: Blob; url: string } | null>(null);
@@ -46,7 +51,19 @@ function ShareMenu({ text, onClose }: { text: string; onClose: () => void }) {
 
   useEffect(() => {
     let url = "";
-    drawShareCard(info)
+    const stats = mode && score != null && maxScore ? loadStats(mode).catch(() => null) : Promise.resolve(null);
+    stats
+      .then((s) => {
+        if (!s || s.finishes < 2 || !maxScore) return null;
+        const mine = Math.round(((score ?? 0) / maxScore) * 100);
+        const below = Object.entries(s.scores).reduce((sum, [pct, n]) => sum + (Number(pct) < mine ? n : 0), 0);
+        const pct = Math.round((below / (s.finishes - 1)) * 100);
+        return pct > 0 ? pct : null;
+      })
+      .then((better) => {
+        setBetterThan(better);
+        return drawShareCard(info, better);
+      })
       .then((blob) => {
         url = URL.createObjectURL(blob);
         setImage({ blob, url });

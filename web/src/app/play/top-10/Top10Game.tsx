@@ -50,7 +50,8 @@ function evaluate(p: Top10Round, progress: Progress) {
 
 function shareText(p: Top10Puzzle, round: Top10Round, progress: Progress): string {
   const { found } = evaluate(round, progress);
-  const squares = progress.guesses.map((id) => (round.companyIds.includes(id) ? "🟩" : "🟥")); // share text, not UI. taste-skill-ignore
+  // One square per place in the list (found or not), so "3 of 10" shows as 3 of 10 squares.
+  const squares = round.companyIds.map((id) => (progress.guesses.includes(id) ? "🟩" : "⬜")); // share text, not UI. taste-skill-ignore
   return buildShareText({
     number: p.number,
     modeTitle: TITLE,
