@@ -27,22 +27,22 @@
     {
       "field": "city",
       "url": "https://en.wikipedia.org/wiki/Mistral_AI",
-      "quote": "a French artificial intelligence (AI) company headquartered in Paris."
+      "quote": "a French artificial intelligence (AI) company headquartered in Paris"
     },
     {
       "field": "founded",
       "url": "https://en.wikipedia.org/wiki/Mistral_AI",
-      "quote": "Mistral AI was established in April 2023 by three French AI researchers."
+      "quote": "Mistral AI was established in April 2023 by three French AI researchers"
     },
     {
       "field": "founders",
       "url": "https://en.wikipedia.org/wiki/Mistral_AI",
-      "quote": "Arthur Mensch, Guillaume Lample and Timothée Lacroix."
+      "quote": "Arthur Mensch , Guillaume Lample and Timothée Lacroix"
     },
     {
       "field": "sectors",
       "url": "https://en.wikipedia.org/wiki/Mistral_AI",
-      "quote": "a French artificial intelligence (AI) company headquartered in Paris."
+      "quote": "a French artificial intelligence (AI) company headquartered in Paris"
     },
     {
       "field": "status",
@@ -71,7 +71,8 @@
     },
     {
       "field": "logo",
-      "url": "https://commons.wikimedia.org/wiki/File:Mistral_AI_logo_(2025%E2%80%93).svg"
+      "url": "https://commons.wikimedia.org/wiki/File:Mistral_AI_logo_(2025%E2%80%93).svg",
+      "quote": "File:Mistral AI logo (2025–).svg"
     }
   ],
   "rounds": [
@@ -290,7 +291,7 @@
         {
           "field": "month",
           "url": "https://www.euronews.com/2026/09/08/mistral-ai-raises-record-3-billion-in-samsung-led-funding-round",
-          "quote": "has raised €3 billion in a round led by Samsung Electronics."
+          "quote": "Published on 8 September 2026"
         },
         {
           "field": "investors",
@@ -300,7 +301,7 @@
         {
           "field": "investors",
           "url": "https://pulse2.com/mistral-raises-e3-billion-series-d-at-more-than-e21-billion-valuation-led-by-samsung/",
-          "quote": "New investors included Advent, funds and accounts managed by BlackRock, and the Grand Duchy of Luxembourg."
+          "quote": "New investors included Advent, funds and accounts managed by BlackRock, and the Grand Duchy of Luxembourg"
         },
         {
           "field": "investors",

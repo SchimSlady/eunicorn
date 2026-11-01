@@ -14,7 +14,7 @@
   ],
   "status": "private",
   "unicorn": true,
-  "lastValuationEur": 12500000000,
+  "lastValuationEur": 5000000000,
   "founders": [
     "Christian Hecker",
     "Thomas Pischke",
@@ -28,12 +28,12 @@
     {
       "field": "city",
       "url": "https://en.wikipedia.org/wiki/Trade_Republic",
-      "quote": "Trade Republic Bank GmbH is a German online broker and bank headquartered in Berlin."
+      "quote": "Trade Republic Bank GmbH is a German online broker and bank headquartered in Berlin"
     },
     {
       "field": "founded",
       "url": "https://en.wikipedia.org/wiki/Trade_Republic",
-      "quote": "Trade Republic was founded in Munich in 2015 under the name Neon Trading in the startup incubator of Comdirect Bank."
+      "quote": "Trade Republic was founded in Munich in 2015 under the name Neon Trading in the startup incubator of Comdirect Bank"
     },
     {
       "field": "founders",
@@ -43,12 +43,12 @@
     {
       "field": "sectors",
       "url": "https://en.wikipedia.org/wiki/Trade_Republic",
-      "quote": "Trade Republic Bank GmbH is a German online broker and bank headquartered in Berlin."
+      "quote": "Trade Republic Bank GmbH is a German online broker and bank headquartered in Berlin"
     },
     {
       "field": "status",
-      "url": "https://tech.eu/2025/12/17/trade-republic-confirms-decacorn-status-following-secondary-share-sale/",
-      "quote": "Trade Republic is now valued at €12.5 billion, following the secondary share sale."
+      "url": "https://en.wikipedia.org/wiki/Trade_Republic",
+      "quote": "Trade Republic Bank GmbH Type Private Industry Fintech"
     },
     {
       "field": "unicorn",
@@ -57,13 +57,13 @@
     },
     {
       "field": "valuation",
-      "url": "https://tech.eu/2025/12/17/trade-republic-confirms-decacorn-status-following-secondary-share-sale/",
-      "quote": "Trade Republic is now valued at €12.5 billion, following the secondary share sale."
+      "url": "https://otpp.com/en-ca/about-us/news-and-insights/2022/ontario-teachers--joins-trade-republic-on-its-mission-to-empower/",
+      "quote": "post-money valuation uplift to €5.0B (previously €4.4B)"
     },
     {
       "field": "fun_fact",
       "url": "https://en.wikipedia.org/wiki/Trade_Republic",
-      "quote": "Trade Republic was founded in Munich in 2015 under the name Neon Trading in the startup incubator of Comdirect Bank."
+      "quote": "Trade Republic was founded in Munich in 2015 under the name Neon Trading in the startup incubator of Comdirect Bank"
     },
     {
       "field": "fun_fact",
@@ -72,7 +72,8 @@
     },
     {
       "field": "logo",
-      "url": "https://commons.wikimedia.org/wiki/File:Trade_Republic_Bank_Logo.svg"
+      "url": "https://commons.wikimedia.org/wiki/File:Trade_Republic_Bank_Logo.svg",
+      "quote": "File:Trade Republic Bank Logo.svg - Wikimedia Commons"
     }
   ],
   "rounds": [
@@ -163,28 +164,28 @@
       "sources": [
         {
           "field": "amount",
-          "url": "https://ffnews.com/newsarticle/trade-republic-announces-900m-investment-led-by-sequoia-to-help-close-europes-pension-gap",
-          "quote": "a $900M Series C investment led by Sequoia"
+          "url": "https://tech.eu/2021/05/20/berlin-based-commission-free-broker-trade-republic-raises-900-million-in-series-c-investment/",
+          "quote": "Trade Republic has raised $900 million in a Series C investment round led by Sequoia"
         },
         {
           "field": "stage",
-          "url": "https://ffnews.com/newsarticle/trade-republic-announces-900m-investment-led-by-sequoia-to-help-close-europes-pension-gap",
-          "quote": "a $900M Series C investment led by Sequoia"
+          "url": "https://tech.eu/2021/05/20/berlin-based-commission-free-broker-trade-republic-raises-900-million-in-series-c-investment/",
+          "quote": "Trade Republic has raised $900 million in a Series C investment round led by Sequoia"
         },
         {
           "field": "month",
           "url": "https://www.cnbc.com/2021/05/20/european-robinhood-rival-trade-republic-raises-900-million-of-funding.html",
-          "quote": "German stock-trading app Trade Republic raised $900 million in a huge funding round that values the start-up at $5.3 billion."
+          "quote": "Published Thu, May 20 2021"
         },
         {
           "field": "investors",
-          "url": "https://ffnews.com/newsarticle/trade-republic-announces-900m-investment-led-by-sequoia-to-help-close-europes-pension-gap",
-          "quote": "participation from new investors TCV and Thrive Capital"
+          "url": "https://tech.eu/2021/05/20/berlin-based-commission-free-broker-trade-republic-raises-900-million-in-series-c-investment/",
+          "quote": "New investors TCV and Thrive Capital participated"
         },
         {
           "field": "investors",
-          "url": "https://ffnews.com/newsarticle/trade-republic-announces-900m-investment-led-by-sequoia-to-help-close-europes-pension-gap",
-          "quote": "existing investors Accel, Founders Fund, Creandum and Project A"
+          "url": "https://tech.eu/2021/05/20/berlin-based-commission-free-broker-trade-republic-raises-900-million-in-series-c-investment/",
+          "quote": "existing investors Accel , Founders Fund , Creandum , and Project A all followed on"
         },
         {
           "field": "valuation",

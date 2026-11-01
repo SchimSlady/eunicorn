@@ -7,7 +7,7 @@
   "city": "Berlin",
   "founded": 2018,
   "sectors": [
-    "saas"
+    "foodtech"
   ],
   "status": "private",
   "unicorn": true,
@@ -102,7 +102,7 @@
         {
           "field": "amount",
           "url": "https://tech.eu/brief/choco-funding/",
-          "quote": "Choco, a Berlin-based food sustainability company, has raised $30.2 million in new funding led by Coatue Management."
+          "quote": "Choco , a Berlin-based food sustainability company, has raised $30.2 million in new funding led by Coatue Management."
         },
         {
           "field": "stage",
@@ -112,12 +112,12 @@
         {
           "field": "month",
           "url": "https://tech.eu/brief/choco-funding/",
-          "quote": "2020-04-16T12:00:37+00:00"
+          "quote": "16 April 2020"
         },
         {
           "field": "investors",
           "url": "https://tech.eu/brief/choco-funding/",
-          "quote": "Choco, a Berlin-based food sustainability company, has raised $30.2 million in new funding led by Coatue Management."
+          "quote": "Choco , a Berlin-based food sustainability company, has raised $30.2 million in new funding led by Coatue Management."
         },
         {
           "field": "investors",
@@ -154,7 +154,7 @@
         {
           "field": "month",
           "url": "https://techcrunch.com/2021/07/19/choco-bites-into-100m-series-b-at-a-600m-valuation-to-build-a-more-transparent-sustainable-food-supply-chain",
-          "quote": "2021-07-20T06:00:39+00:00"
+          "quote": "July 19, 2021"
         },
         {
           "field": "investors",
@@ -194,7 +194,7 @@
         {
           "field": "month",
           "url": "https://tech.eu/2022/04/12/choco-chalks-up-111-million-punches-ticket-at-the-unicorn-club/",
-          "quote": "2022-04-12T06:00:00+00:00"
+          "quote": "12 April 2022"
         },
         {
           "field": "investors",

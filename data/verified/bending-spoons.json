@@ -7,8 +7,7 @@
   "city": "Copenhagen",
   "founded": 2013,
   "sectors": [
-    "consumer",
-    "saas"
+    "consumer"
   ],
   "status": "public",
   "unicorn": true,

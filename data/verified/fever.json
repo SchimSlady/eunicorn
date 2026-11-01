@@ -26,12 +26,12 @@
     {
       "field": "city",
       "url": "https://en.wikipedia.org/wiki/Fever_(app)",
-      "quote": "has offices and headquarters in Madrid, London, and New York"
+      "quote": "has offices and headquarters in Madrid , London , and New York"
     },
     {
       "field": "founded",
       "url": "https://en.wikipedia.org/wiki/Fever_(app)",
-      "quote": "Fever was founded in 2012 in New York."
+      "quote": "Fever was founded in 2012 in New York ."
     },
     {
       "field": "founders",
@@ -116,7 +116,7 @@
         {
           "field": "month",
           "url": "https://tech.eu/brief/goldman-kicks-up-the-heat-as-fever-raises-227-million-now-at-1-billion-valuation/",
-          "quote": "\"datePublished\":\"2022-01-26T09:08:47+00:00\""
+          "quote": "26 January 2022"
         },
         {
           "field": "investors",
@@ -178,7 +178,7 @@
         {
           "field": "month",
           "url": "https://ecosistemastartup.com/fever-capta-us250m-y-supera-los-e4-500m-de-valoracion/",
-          "quote": "\"datePublished\":\"2026-09-18T06:06:38-03:00\""
+          "quote": "septiembre 18, 2026"
         },
         {
           "field": "investors",

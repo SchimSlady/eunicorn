@@ -29,7 +29,13 @@ export type Sector =
   | "biotech"
   | "edtech"
   | "proptech"
-  | "telecom";
+  | "telecom"
+  | "hrtech"
+  | "legaltech"
+  | "foodtech"
+  | "logistics"
+  | "ecommerce"
+  | "devtools";
 
 export type CompanyStatus = "private" | "public" | "acquired" | "defunct";
 

@@ -28,7 +28,7 @@
     {
       "field": "city",
       "url": "https://en.wikipedia.org/wiki/Bitpanda",
-      "quote": "Bitpanda GmbH is an Austrian company headquartered in Vienna."
+      "quote": "Bitpanda GmbH is an Austrian company headquartered in Vienna"
     },
     {
       "field": "founded",
@@ -43,7 +43,7 @@
     {
       "field": "sectors",
       "url": "https://en.wikipedia.org/wiki/Bitpanda",
-      "quote": "Bitpanda provides a cryptocurrency broker, commodities and securities trading, and ETFs via their website and mobile app."
+      "quote": "Bitpanda provides a cryptocurrency broker, commodities and securities trading, and ETFs via their website and mobile app"
     },
     {
       "field": "status",
@@ -67,7 +67,8 @@
     },
     {
       "field": "logo",
-      "url": "https://commons.wikimedia.org/wiki/File:Bitpanda.svg"
+      "url": "https://commons.wikimedia.org/wiki/File:Bitpanda.svg",
+      "quote": "File:Bitpanda.svg - Wikimedia Commons"
     }
   ],
   "rounds": [
@@ -163,13 +164,13 @@
       "sources": [
         {
           "field": "amount",
-          "url": "https://www.coindesk.com/business/2021/03/16/crypto-has-another-unicorn-as-bitpanda-raises-170m-at-12b-valuation/",
-          "quote": "has closed a Series B funding round for $170 million"
+          "url": "https://tech.eu/brief/bitpanda-funding",
+          "quote": "Valar leads $170 million Series B round"
         },
         {
           "field": "month",
-          "url": "https://www.coindesk.com/business/2021/03/16/crypto-has-another-unicorn-as-bitpanda-raises-170m-at-12b-valuation/",
-          "quote": "has closed a Series B funding round for $170 million"
+          "url": "https://tech.eu/brief/bitpanda-funding",
+          "quote": "Robin Wauters 16 March 2021"
         },
         {
           "field": "stage",

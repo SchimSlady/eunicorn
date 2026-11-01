@@ -60,7 +60,7 @@
     {
       "field": "unicorn",
       "url": "https://en.wikipedia.org/wiki/CMR_Surgical",
-      "quote": "The company achieved Unicorn status in 2019."
+      "quote": "The company achieved Unicorn status in 2019"
     },
     {
       "field": "valuation",
@@ -79,7 +79,8 @@
     },
     {
       "field": "logo",
-      "url": "https://commons.wikimedia.org/wiki/File:CMR_Surgical_logo.png"
+      "url": "https://commons.wikimedia.org/wiki/File:CMR_Surgical_logo.png",
+      "quote": "File:CMR Surgical logo.png"
     }
   ],
   "rounds": [
@@ -98,22 +99,22 @@
         {
           "field": "amount",
           "url": "https://globalventuring.com/cambridge-medical-robotics-clears-46m-series-a",
-          "quote": "$20.3m, provided by ABB Technology Ventures, LGT Global Invest and CIC in July 2016"
+          "quote": "ABB Technology Ventures, LGT Global Invest and CIC had provided the initial $20.3m of series A funding for CMR in July 2016"
         },
         {
           "field": "stage",
           "url": "https://globalventuring.com/cambridge-medical-robotics-clears-46m-series-a",
-          "quote": "$20.3m, provided by ABB Technology Ventures, LGT Global Invest and CIC in July 2016"
+          "quote": "ABB Technology Ventures, LGT Global Invest and CIC had provided the initial $20.3m of series A funding for CMR in July 2016"
         },
         {
           "field": "month",
           "url": "https://globalventuring.com/cambridge-medical-robotics-clears-46m-series-a",
-          "quote": "$20.3m, provided by ABB Technology Ventures, LGT Global Invest and CIC in July 2016"
+          "quote": "ABB Technology Ventures, LGT Global Invest and CIC had provided the initial $20.3m of series A funding for CMR in July 2016"
         },
         {
           "field": "investors",
           "url": "https://globalventuring.com/cambridge-medical-robotics-clears-46m-series-a",
-          "quote": "$20.3m, provided by ABB Technology Ventures, LGT Global Invest and CIC in July 2016"
+          "quote": "ABB Technology Ventures, LGT Global Invest and CIC had provided the initial $20.3m of series A funding for CMR in July 2016"
         }
       ]
     },
@@ -191,7 +192,7 @@
         {
           "field": "investors",
           "url": "https://www.cambridgenetwork.co.uk/news/cmr-surgical-raises-100-million-series-b-financing",
-          "quote": "Zhejiang Silk Road Fund; existing investors Escala Capital Investments, LGT, Cambridge Innovation Capital, and Watrium"
+          "quote": "from new investor, Zhejiang Silk Road Fund and existing investors Escala Capital Investments, LGT, Cambridge Innovation Capital and Watrium"
         }
       ]
     },
@@ -228,7 +229,7 @@
         {
           "field": "investors",
           "url": "https://globalventuring.com/cmr-surgical-240m-series-c",
-          "quote": "LGT, Cambridge Innovation Capital (CIC), Watrium, Zhejiang Silk Road Fund and Escala Capital"
+          "quote": "Asset management group LGT, University of Cambridge-affiliated patient capital fund Cambridge Innovation Capital (CIC), investment firm Watrium, private equity fund Zhejiang Silk Road Fund and Escala Capital put up the cash"
         }
       ]
     },
@@ -277,7 +278,17 @@
         {
           "field": "investors",
           "url": "https://siliconcanals.com/cmr-surgical-raises-600m/",
-          "quote": "The round was led by SoftBank Vision Fund 2. Ally Bridge Group co-led; RPMI Railpen, Tencent, and Chimera joined; existing investors LGT and Lightrock, Watrium, Cambridge Innovation Capital, PFM Health Sciences, and GE Healthcare"
+          "quote": "The round was led by SoftBank Vision Fund 2 and co-led by Ally Bridge Group"
+        },
+        {
+          "field": "investors",
+          "url": "https://siliconcanals.com/cmr-surgical-raises-600m/",
+          "quote": "the Series D round also saw participation from investors including RPMI Railpen, Tencent, and Chimera."
+        },
+        {
+          "field": "investors",
+          "url": "https://siliconcanals.com/cmr-surgical-raises-600m/",
+          "quote": "Also, existing investors, including LGT and its affiliate impact investing platform Lightrock, Watrium, Cambridge Innovation Capital, PFM Health Sciences and GE Healthcare, also invested in the round."
         }
       ]
     }

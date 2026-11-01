@@ -52,7 +52,7 @@
       "stage": "seed",
       "month": "2017-01",
       "amountEur": 16106377,
-      "amountOriginal": 17200000.0,
+      "amountOriginal": 17200000,
       "currency": "USD",
       "investors": [
         "Daimler",
@@ -72,7 +72,7 @@
         {
           "field": "month",
           "url": "https://www.businessinsider.com/starship-technologies-raises-172million-daimler-2017-1",
-          "quote": "content=\"2017-01-12T16:34:39.000Z\""
+          "quote": "2017-01-12T16:34:39.000Z"
         },
         {
           "field": "investors",
@@ -91,7 +91,7 @@
       "stage": "seed",
       "month": "2018-06",
       "amountEur": 21122001,
-      "amountOriginal": 25000000.0,
+      "amountOriginal": 25000000,
       "currency": "USD",
       "investors": [
         "Matrix Partners",
@@ -113,7 +113,7 @@
         {
           "field": "month",
           "url": "https://www.businessinsider.com/starship-technologies-hires-airbnb-exec-as-ceo-and-raises-25-million-2018-6",
-          "quote": "content=\"2018-06-07"
+          "quote": "2018-06-07T13:00:00.000Z"
         },
         {
           "field": "investors",
@@ -127,7 +127,7 @@
       "stage": "series-a",
       "month": "2019-08",
       "amountEur": 36114121,
-      "amountOriginal": 40000000.0,
+      "amountOriginal": 40000000,
       "currency": "USD",
       "investors": [
         "Morpheus Ventures",
@@ -149,7 +149,7 @@
         {
           "field": "month",
           "url": "https://www.businessinsider.com/starship-technologies-raises-40-million-in-series-a-funding-2019-8",
-          "quote": "content=\"2019-08-20"
+          "quote": "2019-08-20T13:00:00.000Z"
         },
         {
           "field": "investors",
@@ -163,7 +163,7 @@
       "stage": "series-b",
       "month": "2022-03",
       "amountEur": 37627665,
-      "amountOriginal": 42000000.0,
+      "amountOriginal": 42000000,
       "currency": "USD",
       "investors": [
         "NordicNinja VC",
@@ -185,7 +185,7 @@
         {
           "field": "month",
           "url": "https://tech.eu/2022/03/01/starship-brings-in-100-million-in-last-30-days-to-expand-autonomous-delivery-in-europe-and-us/",
-          "quote": "\"datePublished\":\"2022-03-01"
+          "quote": "Megha Paul 01 March 2022"
         },
         {
           "field": "investors",
@@ -204,7 +204,7 @@
       "stage": "series-b",
       "month": "2024-02",
       "amountEur": 83752094,
-      "amountOriginal": 90000000.0,
+      "amountOriginal": 90000000,
       "currency": "USD",
       "investors": [
         "Plural",
@@ -233,7 +233,7 @@
       "stage": "series-c",
       "month": "2025-10",
       "amountEur": 43021855,
-      "amountOriginal": 50000000.0,
+      "amountOriginal": 50000000,
       "currency": "USD",
       "investors": [
         "Plural",
@@ -246,28 +246,23 @@
       "sources": [
         {
           "field": "amount",
-          "url": "https://finance.yahoo.com/news/starship-technologies-raises-50m-series-130500240.html",
-          "quote": "announced the successful completion of a $50 million funding round led by Plural"
+          "url": "https://www.businesswire.com/news/home/20251015387447/en/Starship-Technologies-Raises-$50M-Series-C-to-Scale-Autonomous-Delivery-Across-U.S.-Cities",
+          "quote": "the successful completion of a $50 million funding round led by Plural"
         },
         {
           "field": "stage",
-          "url": "https://finance.yahoo.com/news/starship-technologies-raises-50m-series-130500240.html",
-          "quote": "Starship Technologies Raises $50M Series C"
+          "url": "https://www.businesswire.com/news/home/20251015387447/en/Starship-Technologies-Raises-$50M-Series-C-to-Scale-Autonomous-Delivery-Across-U.S.-Cities",
+          "quote": "Starship Technologies Raises $50M Series C to Scale Autonomous Delivery Across U.S. Cities"
         },
         {
           "field": "month",
-          "url": "https://finance.yahoo.com/news/starship-technologies-raises-50m-series-130500240.html",
-          "quote": "October 15, 2025"
+          "url": "https://roboticsandautomationnews.com/2025/10/15/starship-technologies-raises-50-million-series-c-to-scale-autonomous-delivery-across-us-cities/95568/",
+          "quote": "October 15, 2025 by Sam Francis"
         },
         {
           "field": "investors",
-          "url": "https://finance.yahoo.com/news/starship-technologies-raises-50m-series-130500240.html",
-          "quote": "The funding round includes participation from Plural, Karma.vc, Latitude, Coefficient Capital, SmartCap"
-        },
-        {
-          "field": "investors",
-          "url": "https://finance.yahoo.com/news/starship-technologies-raises-50m-series-130500240.html",
-          "quote": "and Skaala."
+          "url": "https://www.businesswire.com/news/home/20251015387447/en/Starship-Technologies-Raises-$50M-Series-C-to-Scale-Autonomous-Delivery-Across-U.S.-Cities",
+          "quote": "The funding round includes participation from Plural, Karma.vc, Latitude, Coefficient Capital, SmartCap (funded by the European Union – NextGenerationEU), and Skaala"
         }
       ]
     }

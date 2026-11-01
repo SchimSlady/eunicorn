@@ -11,8 +11,7 @@
   "city": "Geneva",
   "founded": 2014,
   "sectors": [
-    "cybersecurity",
-    "saas"
+    "cybersecurity"
   ],
   "status": "private",
   "unicorn": false,

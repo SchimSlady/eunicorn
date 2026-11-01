@@ -39,7 +39,7 @@
     {
       "field": "sectors",
       "url": "https://en.wikipedia.org/wiki/Qonto",
-      "quote": "Qonto is a French financial technology company that provides financial and accounting services to freelancers and SMEs."
+      "quote": "Qonto is a French financial technology company that provides financial and accounting services to freelancers and SMEs ."
     },
     {
       "field": "status",
@@ -59,11 +59,7 @@
     {
       "field": "fun_fact",
       "url": "https://en.wikipedia.org/wiki/Qonto",
-      "quote": "Alexandre Prot is the son of Baudouin Prot, the former chairman of BNP Paribas."
-    },
-    {
-      "field": "logo",
-      "url": "https://qonto.com/blog/assets/logo-7d4cecd23c516a73d28522b73227cb8bdc80cbbe1d7c83d9228a7e0ab84a0852.svg"
+      "quote": "Alexandre Prot is the son of Baudouin Prot , the former chairman of BNP Paribas ."
     }
   ],
   "rounds": [
@@ -160,7 +156,7 @@
         {
           "field": "month",
           "url": "https://globalventuring.com/qonto-115m-in-series-c-round/",
-          "quote": "Internet group Tencent has co-led a €104m ($115m) series C round for France-based business banking platform Qonto with investment firm DST Global."
+          "quote": "Qonto collects $115m in series C round Jan 21, 2020"
         },
         {
           "field": "investors",
@@ -218,7 +214,7 @@
         {
           "field": "investors",
           "url": "https://tech.eu/2022/01/11/frances-qonto-raises-e486-million-at-record-breaking-valuation-of-e4-4-billion",
-          "quote": "Existing investors Valar, Alven, DST Global, and Tencent all followed on"
+          "quote": "Existing investors Valar , Alven , DST Global , and Tencent all followed on"
         },
         {
           "field": "valuation",

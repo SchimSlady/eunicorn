@@ -9,7 +9,7 @@
   "city": "Malmö",
   "founded": 2007,
   "sectors": [
-    "saas"
+    "devtools"
   ],
   "status": "private",
   "unicorn": true,
@@ -82,7 +82,7 @@
         {
           "field": "month",
           "url": "https://techcrunch.com/2011/09/20/nosql-database-company-neo-technology-raises-10-6-million/",
-          "quote": "\"datePublished\":\"2011-09-21T05:00:11+00:00\""
+          "quote": "September 20, 2011"
         },
         {
           "field": "investors",

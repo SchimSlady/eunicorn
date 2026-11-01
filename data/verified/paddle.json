@@ -9,8 +9,7 @@
   "city": "London",
   "founded": 2012,
   "sectors": [
-    "fintech",
-    "saas"
+    "fintech"
   ],
   "status": "private",
   "unicorn": true,
@@ -112,7 +111,7 @@
         {
           "field": "month",
           "url": "https://businesscloud.co.uk/news/london-saas-payments-platform-paddle-raises-52m/",
-          "quote": "2020-11-17T08:22:35+00:00"
+          "quote": "November 17, 2020"
         },
         {
           "field": "investors",

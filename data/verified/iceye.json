@@ -27,7 +27,7 @@
     {
       "field": "city",
       "url": "https://en.wikipedia.org/wiki/ICEYE",
-      "quote": "the company is originally a spin-off of Aalto University's University Radio Technology Department, and is based in Espoo."
+      "quote": "the company is originally a spin-off of Aalto University 's University Radio Technology Department, and is based in Espoo"
     },
     {
       "field": "founded",
@@ -42,7 +42,7 @@
     {
       "field": "sectors",
       "url": "https://en.wikipedia.org/wiki/ICEYE",
-      "quote": "ICEYE Ltd. (natively ICEYE Oy) is a Finnish microsatellite manufacturer and operator."
+      "quote": "is a Finnish microsatellite manufacturer and operator."
     },
     {
       "field": "status",
@@ -62,11 +62,12 @@
     {
       "field": "fun_fact",
       "url": "https://en.wikipedia.org/wiki/ICEYE",
-      "quote": "was the first satellite under 100 kg (220 lb) to carry a synthetic-aperture radar, and was the first Finnish commercial satellite."
+      "quote": "was the first satellite under 100 kg (220 lb) to carry a synthetic-aperture radar , and was the first Finnish commercial satellite."
     },
     {
       "field": "logo",
-      "url": "https://commons.wikimedia.org/wiki/File:Iceye_logo_black.png"
+      "url": "https://commons.wikimedia.org/wiki/File:Iceye_logo_black.png",
+      "quote": "File:Iceye logo black.png"
     }
   ],
   "rounds": [
@@ -98,7 +99,7 @@
         {
           "field": "month",
           "url": "https://iceye.com/newsroom/press-releases/iceye-leads-a-new-era-of-sovereign-intelligence-from-space-with-1b-funding-round",
-          "quote": "Helsinki, Finland – June 9, 2026"
+          "quote": "June 9, 2026"
         },
         {
           "field": "stage",
@@ -166,7 +167,7 @@
         {
           "field": "investors",
           "url": "https://www.iceye.com/newsroom/press-releases/iceye-and-general-catalyst-partner-to-redefine-space-based-intelligence-in-europe",
-          "quote": "as well as Finnish investors Solidium, Ilmarinen, European Tech Collective, Keva, Lifeline Ventures,"
+          "quote": "as well as Finnish investors Solidium, Ilmarinen, European Tech Collective , Keva, Lifeline Ventures,"
         },
         {
           "field": "investors",
@@ -252,7 +253,7 @@
         {
           "field": "investors",
           "url": "https://techcrunch.com/2020/09/22/satellite-radar-startup-iceye-raises-87-million-to-continue-to-grow-its-operational-constellation/embed/",
-          "quote": "This round of funding was led by existing investor True Ventures, and includes participation by OTB Ventures."
+          "quote": "This round of funding was led by existing investor True Ventures, and includes participation by OTB Ventures"
         }
       ]
     },
@@ -283,7 +284,7 @@
         {
           "field": "amount",
           "url": "https://www.unquote.com/nordics/official-record/3010093/true-ventures-leads-eur29m-series-b-for-iceye",
-          "quote": "Palo Alto-based VC firm True Ventures has led a €29m series-B funding round for Finnish startup Iceye."
+          "quote": "29m series-B funding round for Finnish startup Iceye"
         },
         {
           "field": "month",
@@ -293,7 +294,7 @@
         {
           "field": "stage",
           "url": "https://www.unquote.com/nordics/official-record/3010093/true-ventures-leads-eur29m-series-b-for-iceye",
-          "quote": "True Ventures has led a €29m series-B funding round"
+          "quote": "series-B funding round for Finnish startup Iceye"
         },
         {
           "field": "investors",
