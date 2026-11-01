@@ -4,5 +4,5 @@ import { getDataset } from "@/lib/server/supabase";
 export async function GET() {
   const data = await getDataset();
   if (!data) return new Response(null, { status: 204 });
-  return Response.json(data, { headers: { "Cache-Control": "public, s-maxage=300, stale-while-revalidate=600" } });
+  return Response.json(data, { headers: { "Cache-Control": "public, s-maxage=300, stale-while-revalidate=86400" } });
 }

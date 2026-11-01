@@ -19,7 +19,7 @@ const UPCOMING = [
 
 export function UpcomingCards() {
   return (
-    <ul className="grid grid-cols-2 gap-3 lg:grid-cols-5">
+    <ul className="grid grid-cols-2 gap-4 lg:grid-cols-4">
       {UPCOMING.map(({ id, title, Preview }) => (
         <li key={id} className="h-full overflow-hidden rounded-2xl border border-border bg-surface">
           <div className="relative">

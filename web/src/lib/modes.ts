@@ -62,7 +62,7 @@ export const MODES: ModeInfo[] = [
     description: "Six startups, one category. Find the ones that don't belong.",
     rules: [
       "Most of the startups share something: a country, a city, a sector, a founding period or unicorn status.",
-      "Usually one doesn't belong, sometimes two or three: the prompt says how many. Find them all.",
+      "Usually one doesn't belong, sometimes two or three, and you aren't told how many. The game ends once you've found them all.",
       "Each wrong pick costs points, and so do hints. Pick as often as you like.",
       "Easy, Medium and Hard play the same. The level sets how well known the startups are, and how many hints you get: all on Easy, half on Medium, none on Hard.",
     ],

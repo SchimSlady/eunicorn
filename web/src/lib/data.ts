@@ -13,9 +13,11 @@ async function fetchJson<T>(url: string): Promise<T | null> {
  * synced from /data. Mixing them would break: file puzzles name companies the database lacks.
  */
 export async function loadGame<P extends AnyPuzzle>(mode: PlayMode): Promise<{ puzzle: P | null; data: Dataset }> {
+  // Both at once: waiting for the puzzle before asking for the (much larger) dataset doubled the wait.
+  const dataset = fetchJson<Dataset>("/api/dataset");
   const live = await fetchJson<P>(puzzleUrl(mode));
   if (live) {
-    const data = await fetchJson<Dataset>("/api/dataset");
+    const data = await dataset;
     if (data) return { puzzle: live, data };
   }
   const [puzzle, data] = await Promise.all([loadFilePuzzle<P>(mode), fetchJson<Dataset>("/data/dataset.json")]);

@@ -98,16 +98,14 @@ export function StatsPanel({
             return (
               <li key={b} className="flex items-center gap-2" title={text} aria-label={text}>
                 <span className="w-5 shrink-0 text-right text-sm font-semibold tabular-nums text-muted">{label(b)}</span>
-                <span className="flex h-6 flex-1 items-center">
-                  {n > 0 && (
-                    <span
-                      className={`h-full rounded-r-[4px] ${mine ? "bg-primary" : "bg-[#8b8f99]"}`}
-                      style={{ width: `${Math.max(2, (n / max) * 100)}%` }}
-                    />
-                  )}
-                  <span className="ml-2 shrink-0 text-xs tabular-nums text-muted">
-                    {n > 0 ? `${share}%` : ""}
-                    {mine && <span className="ml-1.5 rounded-full bg-primary px-1.5 py-0.5 text-[10px] font-bold text-on-primary">You</span>}
+                {/* Fixed room on the right for the labels, so every bar scales against the same width. */}
+                <span className="flex h-6 flex-1 pr-24">
+                  <span className="relative h-full" style={{ width: n > 0 ? `${Math.max(2, (n / max) * 100)}%` : 0 }}>
+                    {n > 0 && <span className={`block h-full rounded-r-[4px] ${mine ? "bg-primary" : "bg-[#8b8f99]"}`} />}
+                    <span className="absolute left-full top-1/2 ml-2 -translate-y-1/2 whitespace-nowrap text-xs tabular-nums text-muted">
+                      {n > 0 ? `${share}%` : ""}
+                      {mine && <span className="ml-1.5 rounded-full bg-primary px-1.5 py-0.5 text-[10px] font-bold text-on-primary">You</span>}
+                    </span>
                   </span>
                 </span>
               </li>
