@@ -9,8 +9,7 @@
   "city": "London",
   "founded": 2012,
   "sectors": [
-    "fintech",
-    "saas"
+    "fintech"
   ],
   "status": "private",
   "unicorn": true,

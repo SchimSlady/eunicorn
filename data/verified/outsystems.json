@@ -7,7 +7,7 @@
   "city": "Lisbon",
   "founded": 2001,
   "sectors": [
-    "saas"
+    "devtools"
   ],
   "status": "private",
   "unicorn": true,
@@ -60,7 +60,7 @@
       "stage": "series-c",
       "month": "2018-06",
       "amountEur": 308351178,
-      "amountOriginal": 360000000.0,
+      "amountOriginal": 360000000,
       "currency": "USD",
       "investors": [
         "KKR",
@@ -88,7 +88,7 @@
       "stage": "series-d",
       "month": "2021-02",
       "amountEur": 124378109,
-      "amountOriginal": 150000000.0,
+      "amountOriginal": 150000000,
       "currency": "USD",
       "investors": [
         "Abdiel Capital",

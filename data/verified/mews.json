@@ -6,8 +6,7 @@
   "city": "Amsterdam",
   "founded": 2012,
   "sectors": [
-    "travel",
-    "saas"
+    "travel"
   ],
   "status": "private",
   "unicorn": true,

@@ -7,7 +7,7 @@
   "city": "Berlin",
   "founded": 2018,
   "sectors": [
-    "saas"
+    "hrtech"
   ],
   "status": "private",
   "unicorn": false,
@@ -66,7 +66,7 @@
         {
           "field": "month",
           "url": "https://tech.eu/2019/08/15/berlin-based-coachhub-raises-e6-million-to-scale-its-digital-coaching-technology",
-          "quote": "2019-08-15T12:00:59+00:00"
+          "quote": "15 August 2019"
         },
         {
           "field": "investors",
@@ -97,7 +97,7 @@
         {
           "field": "month",
           "url": "https://tech.eu/2019/11/12/coachhub-doubles-up-raising-e10-million-just-after-its-e6-million-round-to-democratise-business-coaching",
-          "quote": "2019-11-12T12:34:59+00:00"
+          "quote": "12 November 2019"
         },
         {
           "field": "investors",
@@ -129,7 +129,7 @@
         {
           "field": "month",
           "url": "https://tech.eu/2020/12/18/coachhub-funding",
-          "quote": "2020-12-18T08:00:51+00:00"
+          "quote": "18 December 2020"
         },
         {
           "field": "investors",

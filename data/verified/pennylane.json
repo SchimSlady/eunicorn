@@ -7,8 +7,7 @@
   "city": "Paris",
   "founded": 2020,
   "sectors": [
-    "fintech",
-    "saas"
+    "fintech"
   ],
   "status": "private",
   "unicorn": true,
