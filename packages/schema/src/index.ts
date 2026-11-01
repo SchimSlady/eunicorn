@@ -61,6 +61,8 @@ export interface Investor {
   id: string; // kebab-case slug, e.g. "index-ventures"
   name: string;
   domain?: string;
+  /** How well known: 1 = top 10 VCs, 2 = ~50 famous, 3 = next ~200, 4 = the rest. Clue only tiers 1–2 (3 on hard days). */
+  tier?: 1 | 2 | 3 | 4;
 }
 
 export interface Round {
