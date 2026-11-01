@@ -2,9 +2,9 @@
 
 import { useEffect } from "react";
 import confetti from "canvas-confetti";
-import { formatRaised, verdict } from "@/lib/scoring";
+import { formatValuation, verdict } from "@/lib/scoring";
 
-/** Score as "€8m raised" plus a verdict. Confetti only for a perfect round. */
+/** Score as a valuation ("€700m") plus the stage it fits. Confetti only for a unicorn (perfect game). */
 export function ResultHeader({ score, maxScore, detail }: { score: number; maxScore: number; detail: string }) {
   const perfect = score >= maxScore;
 
@@ -22,9 +22,9 @@ export function ResultHeader({ score, maxScore, detail }: { score: number; maxSc
   return (
     <div className="animate-pop text-center">
       <p className="text-sm font-semibold text-muted">{verdict(score, maxScore)}</p>
-      <p className="mt-1 font-display text-4xl font-bold">{formatRaised(score)}</p>
+      <p className="mt-1 font-display text-4xl font-bold">{formatValuation(score, maxScore)} valuation</p>
       <p className="mt-1 text-sm text-muted">
-        of €{maxScore}m · {detail}
+        of €1bn · {detail}
       </p>
     </div>
   );

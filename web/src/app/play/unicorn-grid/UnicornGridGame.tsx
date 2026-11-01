@@ -6,7 +6,7 @@ import type { Company, Dataset, GridCriterion, UnicornGridPuzzle } from "@eunico
 import { indexById, loadGame } from "@/lib/data";
 import { getTodayResult, loadProgress, saveProgress, saveResult } from "@/lib/daily";
 import { saveDifficulty, type Difficulty } from "@/lib/difficulty";
-import { shareText as buildShareText } from "@/lib/scoring";
+import { formatPoints, shareText as buildShareText } from "@/lib/scoring";
 import { CompanyLogo } from "@/components/CompanyLogo";
 import { distinctAnswers } from "@/lib/grid";
 import { RevealButton } from "@/components/RevealButton";
@@ -230,7 +230,7 @@ export function UnicornGridGame() {
                       </div>
                       <div className="flex items-baseline justify-between gap-1 px-0.5 text-[11px] leading-tight">
                         <span className="truncate font-semibold">{shown.name}</span>
-                        {c && <span className="shrink-0 font-bold text-correct">€{worth(c.id)}m</span>}
+                        {c && <span className="shrink-0 font-bold text-correct">+{formatPoints(worth(c.id), maxScore)}</span>}
                       </div>
                     </>
                   )}
@@ -264,7 +264,7 @@ export function UnicornGridGame() {
               <HintList hints={puzzle.cellHints[sel].slice(0, progress.cellHints[sel])} />
               {rules.hints && progress.cellHints[sel] < puzzle.cellHints[sel].length && (
                 <div className="flex justify-end">
-                  <HintButton
+                  <HintButton maxScore={maxScore}
                     cost={puzzle.cellHints[sel][progress.cellHints[sel]].cost}
                     onClick={() => {
                       const cellHints = [...progress.cellHints];

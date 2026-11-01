@@ -1,8 +1,9 @@
 import { Lightbulb } from "lucide-react";
+import { formatPoints } from "@/lib/scoring";
 import type { Hint } from "@eunicorn/schema";
 
-/** The next hint, with its price on the button, so nobody pays a cost they couldn't see. */
-export function HintButton({ onClick, cost }: { onClick: () => void; cost: number }) {
+/** The next hint, with its price (as valuation) on the button, so nobody pays a cost they couldn't see. */
+export function HintButton({ onClick, cost, maxScore }: { onClick: () => void; cost: number; maxScore: number }) {
   return (
     <button
       type="button"
@@ -10,7 +11,7 @@ export function HintButton({ onClick, cost }: { onClick: () => void; cost: numbe
       className="inline-flex min-h-11 items-center gap-1.5 rounded-full border border-border bg-surface px-4 text-sm font-medium hover:border-primary"
     >
       <Lightbulb size={16} aria-hidden />
-      Hint <span className="text-muted">−€{cost}m</span>
+      Hint <span className="text-muted">−{formatPoints(cost, maxScore)}</span>
     </button>
   );
 }

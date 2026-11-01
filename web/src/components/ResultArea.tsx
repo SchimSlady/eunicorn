@@ -2,7 +2,7 @@
 
 import { useRef, useState } from "react";
 import { BarChart3 } from "lucide-react";
-import { formatRaised, verdict } from "@/lib/scoring";
+import { formatValuation, verdict } from "@/lib/scoring";
 import { GameFooter } from "./GameFooter";
 import { ResultHeader } from "./ResultHeader";
 import { ShareButton } from "./ShareButton";
@@ -34,7 +34,7 @@ export function ResultArea({
     <>
       <div className="flex items-center gap-3 rounded-2xl border border-border bg-surface p-3">
         <div className="min-w-0 flex-1">
-          <p className="font-display text-lg font-bold leading-tight">{formatRaised(score)}</p>
+          <p className="font-display text-lg font-bold leading-tight">{formatValuation(score, maxScore)} valuation</p>
           <p className="truncate text-xs text-muted">{verdict(score, maxScore)}</p>
         </div>
         <button

@@ -185,7 +185,7 @@ export function WhoRaisedThisGame() {
               {guessesLeft} {guessesLeft === 1 ? "guess" : "guesses"} left
             </span>
             {rules.hints && progress.hintsUsed < puzzle.hints.length && (
-              <HintButton cost={puzzle.hints[progress.hintsUsed].cost} onClick={() => update({ ...progress, hintsUsed: progress.hintsUsed + 1 })} />
+              <HintButton maxScore={MAX_SCORE} cost={puzzle.hints[progress.hintsUsed].cost} onClick={() => update({ ...progress, hintsUsed: progress.hintsUsed + 1 })} />
             )}
           </div>
           <RevealButton label="Reveal answer" onConfirm={() => update({ ...progress, gaveUp: true })} />
