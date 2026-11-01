@@ -111,7 +111,7 @@ export async function getDataset(): Promise<(Omit<Dataset, "rounds"> & { rounds:
     select<{ company_id: string; total_raised_eur: number }>("company_totals?select=company_id,total_raised_eur&order=company_id"),
     select<RoundRow>("rounds?select=*,round_investors(investor_id),round_sources(url)&order=id"),
     // "*": the `tier` column (1 = top global VCs ... 4 = everyone else) is read when it exists, without breaking before.
-    select<{ id: string; name: string; domain: string | null; tier?: 1 | 2 | 3 | 4 | null }>("investors?select=*&order=id"),
+    select<{ id: string; name: string; domain: string | null; tier?: 1 | 2 | 3 | 4 | null; logo?: string | null }>("investors?select=*&order=id"),
     select<{ id: string; name: string }>("people?select=id,name&order=id"),
   ]);
   if (!companies?.length || !rounds || !investors || !people) return null;
@@ -160,7 +160,7 @@ export async function getDataset(): Promise<(Omit<Dataset, "rounds"> & { rounds:
         attributionUrl: r.attribution_url ?? undefined,
       }),
     ),
-    investors: investors.map((i) => ({ id: i.id, name: i.name, domain: i.domain ?? undefined, tier: i.tier ?? undefined })),
+    investors: investors.map((i) => ({ id: i.id, name: i.name, domain: i.domain ?? undefined, tier: i.tier ?? undefined, logo: i.logo ?? undefined })),
     people,
   };
 }

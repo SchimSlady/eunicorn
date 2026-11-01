@@ -96,15 +96,36 @@ function shareText(p: UnicornGridPuzzle, progress: Progress, companies: Map<stri
   return buildShareText({ number: p.number, modeTitle: TITLE, difficulty: progress.difficulty, hintsUsed, squares, summary });
 }
 
-/** Country labels carry an emoji flag in the data; the UI shows an SVG flag instead. */
-function CriterionLabel({ c }: { c: GridCriterion }) {
+/**
+ * A row or column heading. A country is just its flag and an investor is its logo, which is all a
+ * player needs; the name stays for screen readers, and shows if a logo is missing or fails to load.
+ * (Country labels carry an emoji flag in the data; the UI shows an SVG flag instead.)
+ */
+function CriterionLabel({ c, logo }: { c: GridCriterion; logo?: string }) {
+  const [broken, setBroken] = useState(false);
   const text = c.label.replace(/\p{Regional_Indicator}/gu, "").trim();
-  return (
-    <span className="flex flex-col items-center gap-1 text-center text-[11px] font-semibold leading-tight sm:text-xs">
-      {c.kind === "country" && <Flag country={c.value} size={22} />}
-      {text}
-    </span>
-  );
+  if (c.kind === "country") {
+    return (
+      <>
+        <span aria-hidden>
+          <Flag country={c.value} size={44} />
+        </span>
+        <span className="sr-only">{text}</span>
+      </>
+    );
+  }
+  if (c.kind === "investor" && logo && !broken) {
+    return (
+      <>
+        <span aria-hidden className="flex aspect-square w-full items-center justify-center rounded-xl bg-white p-2">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src={logo} alt="" onError={() => setBroken(true)} className="max-h-full max-w-full object-contain" />
+        </span>
+        <span className="sr-only">{text}</span>
+      </>
+    );
+  }
+  return <span className="text-center text-[11px] font-semibold leading-tight sm:text-xs">{text}</span>;
 }
 
 export function UnicornGridGame() {
@@ -125,6 +146,7 @@ export function UnicornGridGame() {
   }, []);
 
   const companies = useMemo(() => (data ? indexById(data.companies) : new Map<string, Company>()), [data]);
+  const investorLogos = useMemo(() => new Map((data?.investors ?? []).map((i) => [i.id, i.logo])), [data]);
 
   if (daily === undefined || !data) return <GameSkeleton />;
   if (daily === null) return <NoPuzzle />;
@@ -236,13 +258,13 @@ export function UnicornGridGame() {
         <div aria-hidden />
         {puzzle.cols.map((c, i) => (
           <div key={i} className="flex aspect-square items-center justify-center rounded-2xl bg-eu-blue p-1 text-white">
-            <CriterionLabel c={c} />
+            <CriterionLabel c={c} logo={c.kind === "investor" ? investorLogos.get(c.value) : undefined} />
           </div>
         ))}
         {puzzle.rows.map((r, ri) => (
           <div key={ri} className="contents">
             <div className="flex aspect-square items-center justify-center rounded-2xl bg-eu-blue p-1 text-white">
-              <CriterionLabel c={r} />
+              <CriterionLabel c={r} logo={r.kind === "investor" ? investorLogos.get(r.value) : undefined} />
             </div>
             {[0, 1, 2].map((ci) => {
               const cell = ri * 3 + ci;
