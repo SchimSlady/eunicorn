@@ -1,17 +1,11 @@
 import type { AnyPuzzle, PlayMode } from "@/lib/top10";
 
 /**
- * Once-a-day lock. OFF while we test (TODO before launch: turn it back on, e.g. with
- * NEXT_PUBLIC_DAILY_LOCK=true in Vercel, or make it the default again).
- * Off = test mode: every game can be replayed, and each new game gets a different generated
- * puzzle (see ROTATE). On = a finished game stays finished, a reload resumes it, streaks count,
- * and the puzzle is the same for everyone all day.
+ * Once a game is finished it stays finished for the day: a reload shows the result, a game in progress
+ * is resumed, streaks count, and the puzzle is the same for everyone all day.
  */
-export const DAILY_LOCK = process.env.NEXT_PUBLIC_DAILY_LOCK === "true";
-
-/** Test mode: ask the server for a fresh puzzle per game instead of the day's puzzle. */
 export function puzzleUrl(mode: PlayMode): string {
-  return DAILY_LOCK ? `/api/puzzle/${mode}` : `/api/puzzle/${mode}?rotate=${Math.random().toString(36).slice(2, 10)}`;
+  return `/api/puzzle/${mode}`;
 }
 
 /** Puzzles flip at midnight Central European Time for everyone, wherever they are. */
@@ -59,7 +53,6 @@ export function msUntilNextPuzzle(now = new Date()): number {
 /* ---------- in-progress state, so a reload doesn't reset (or re-roll) today's game ---------- */
 
 export function loadProgress<T>(mode: PlayMode, date: string): T | null {
-  if (!DAILY_LOCK) return null;
   try {
     return JSON.parse(localStorage.getItem(`eunicorn:${mode}:progress:${date}`) ?? "null");
   } catch {
@@ -98,7 +91,6 @@ function readResults(mode: PlayMode): DailyResult[] {
 
 /** The stored result if the player already finished today's puzzle for this mode. */
 export function getTodayResult(mode: PlayMode, date = todayKey()): DailyResult | null {
-  if (!DAILY_LOCK) return null;
   return readResults(mode).find((r) => r.date === date) ?? null;
 }
 

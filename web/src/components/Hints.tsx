@@ -76,7 +76,6 @@ export function Hints({
               ))}
             </ul>
           )}
-          {next && <p className="text-sm text-muted">A hint lowers your score.</p>}
           {next && (
             <button
               type="button"

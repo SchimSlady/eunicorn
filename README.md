@@ -60,7 +60,6 @@ npm run build
 
 Without Supabase credentials the app falls back to the sample data in `data/`. With them, set `SUPABASE_URL` and `SUPABASE_PUBLISHABLE_KEY` in `web/.env.local`.
 
-The once-a-day lock is off while we test ("Test mode" in the header): games can be replayed and each game gets a new puzzle. Set `NEXT_PUBLIC_DAILY_LOCK=true` to turn it on.
 
 ## Working on it
 
