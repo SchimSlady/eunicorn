@@ -138,6 +138,7 @@ function ShareMenu({ text, score, maxScore, onClose }: { text: string; score?: n
         {links.map((l) => (
           <a
             key={l.label}
+            title={l.label}
             href={l.href}
             target="_blank"
             rel="noopener noreferrer"
@@ -148,20 +149,21 @@ function ShareMenu({ text, score, maxScore, onClose }: { text: string; score?: n
               e.preventDefault();
               void shareImage();
             }}
-            className="flex min-h-16 flex-col items-center justify-center gap-1.5 rounded-2xl border border-border px-1 py-2 text-xs font-semibold hover:border-primary"
+            className="flex min-h-14 items-center justify-center rounded-2xl border border-border hover:border-primary"
           >
-            <l.Icon size={24} />
-            {l.label}
+            <l.Icon size={28} />
+            <span className="sr-only">{l.label}</span>
           </a>
         ))}
         {canShare && (
           <button
             type="button"
+            title="More"
             onClick={() => (canShareFile ? void shareImage() : nativeShare({ text: message }))}
-            className="flex min-h-16 flex-col items-center justify-center gap-1.5 rounded-2xl border border-border px-1 py-2 text-xs font-semibold hover:border-primary"
+            className="flex min-h-14 items-center justify-center rounded-2xl border border-border hover:border-primary"
           >
-            <MoreHorizontal size={24} aria-hidden />
-            More
+            <MoreHorizontal size={28} aria-hidden />
+            <span className="sr-only">More</span>
           </button>
         )}
       </div>
