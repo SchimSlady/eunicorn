@@ -1,0 +1,247 @@
+{
+  "id": "kahoot",
+  "name": "Kahoot!",
+  "aliases": [],
+  "domain": "kahoot.com",
+  "country": "NO",
+  "city": "Oslo",
+  "founded": 2012,
+  "sectors": [
+    "edtech",
+    "gaming"
+  ],
+  "status": "acquired",
+  "unicorn": true,
+  "lastValuationEur": 2057022136,
+  "founders": [
+    "Morten Versvik",
+    "Johan Brand",
+    "Jamie Brooker",
+    "Åsmund Furuseth"
+  ],
+  "difficulty": 2,
+  "techeuId": "682EE806-AFA1-43CC-8B5E-70DFAA165985",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://kahoot.com/press/2017/07/19/kahoot-completes-series-a-extension-funding-10-million/",
+      "quote": "OSLO, Norway, July 19, 2017"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Kahoot!",
+      "quote": "Kahoot! was founded in December 21, 2012 by Morten Versvik"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Kahoot!",
+      "quote": "Johan Brand, Jamie Brooker and Asmund Furuseth later joined the company as cofounders"
+    },
+    {
+      "field": "sectors",
+      "url": "https://kahoot.com/press/2017/07/19/kahoot-completes-series-a-extension-funding-10-million/",
+      "quote": "the game-based learning platform"
+    },
+    {
+      "field": "status",
+      "url": "https://en.wikipedia.org/wiki/Kahoot!",
+      "quote": "In January 2024, Kahoot!'s shares were delisted from the Oslo Stock Exchange."
+    },
+    {
+      "field": "unicorn",
+      "url": "https://techcrunch.com/2020/06/11/kahoot-raises-28m-for-its-user-generated-educational-gaming-platform-now-valued-at-1-4b",
+      "quote": "At market close today, the company's valuation on the Merkur was $1.39 billion"
+    },
+    {
+      "field": "valuation",
+      "url": "https://techcrunch.com/2020/10/13/kahoot-picks-up-215m-from-softbank-for-its-user-generated-gamified-e-learning-platform",
+      "quote": "At market open today, it was valued at NOK22.2 billion, or about $2.4 billion"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-a",
+      "month": "2016-09",
+      "amountEur": 8912656,
+      "amountOriginal": 10000000,
+      "currency": "USD",
+      "investors": [
+        "Creandum",
+        "Northzone",
+        "Microsoft Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://globalventuring.com/microsoft-gets-in-kahoot-for-10m-round",
+          "quote": "has completed a $10m funding round"
+        },
+        {
+          "field": "stage",
+          "url": "https://globalventuring.com/microsoft-gets-in-kahoot-for-10m-round",
+          "quote": "Creandum led the round"
+        },
+        {
+          "field": "month",
+          "url": "https://globalventuring.com/microsoft-gets-in-kahoot-for-10m-round",
+          "quote": "Sep 27, 2016"
+        },
+        {
+          "field": "investors",
+          "url": "https://globalventuring.com/microsoft-gets-in-kahoot-for-10m-round",
+          "quote": "Creandum led the round, which also included fellow venture capital firm Northzone"
+        },
+        {
+          "field": "investors",
+          "url": "https://globalventuring.com/microsoft-gets-in-kahoot-for-10m-round",
+          "quote": "Microsoft Ventures"
+        }
+      ],
+      "techeuId": "cae7037c-2fcc-4e8b-efe6-08d91092c887"
+    },
+    {
+      "stage": "series-a",
+      "month": "2017-07",
+      "amountEur": 8670771,
+      "amountOriginal": 10000000,
+      "currency": "USD",
+      "investors": [
+        "Microsoft Ventures",
+        "Creandum",
+        "Northzone"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://kahoot.com/press/2017/07/19/kahoot-completes-series-a-extension-funding-10-million/",
+          "quote": "today announced that it has added $10 million of funding to its Series A financing round"
+        },
+        {
+          "field": "stage",
+          "url": "https://kahoot.com/press/2017/07/19/kahoot-completes-series-a-extension-funding-10-million/",
+          "quote": "Series A extension"
+        },
+        {
+          "field": "month",
+          "url": "https://kahoot.com/press/2017/07/19/kahoot-completes-series-a-extension-funding-10-million/",
+          "quote": "July 19, 2017"
+        },
+        {
+          "field": "investors",
+          "url": "https://kahoot.com/press/2017/07/19/kahoot-completes-series-a-extension-funding-10-million/",
+          "quote": "together with current investors Microsoft Ventures, Creandum and Northzone"
+        }
+      ],
+      "techeuId": "25af112c-d5ca-4f59-efe7-08d91092c887"
+    },
+    {
+      "stage": "series-b",
+      "month": "2018-03",
+      "amountEur": 13820015,
+      "amountOriginal": 17000000,
+      "currency": "USD",
+      "investors": [
+        "Datum Invest AS",
+        "Northzone",
+        "Creandum",
+        "Microsoft Ventures",
+        "Eilert Hanoa"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://marketbrief.edweek.org/marketplace-k-12/k-12-dealmaking-kahoot-raises-17-million-gamemine-partners-learning-app-company/",
+          "quote": "a $17 million share issue funding round"
+        },
+        {
+          "field": "month",
+          "url": "https://marketbrief.edweek.org/marketplace-k-12/k-12-dealmaking-kahoot-raises-17-million-gamemine-partners-learning-app-company/",
+          "quote": "March 22, 2018"
+        },
+        {
+          "field": "investors",
+          "url": "https://marketbrief.edweek.org/marketplace-k-12/k-12-dealmaking-kahoot-raises-17-million-gamemine-partners-learning-app-company/",
+          "quote": "led by Datum Invest AS, Northzone, Creandum, Microsoft Ventures and Kahoot! chairman Eilert Hanoa"
+        }
+      ],
+      "techeuId": "1a9a775e-1221-46fa-da8c-08d91092c887"
+    },
+    {
+      "stage": "series-c",
+      "month": "2018-10",
+      "amountEur": 13390778,
+      "amountOriginal": 126500000,
+      "currency": "NOK",
+      "investors": [
+        "Datum AS"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2018/10/10/kahoot-the-educational-gaming-startup-has-raised-another-15m-now-at-a-300m-valuation",
+          "quote": "raised 126.5 million Norwegian krone (around $15.4 million)"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2018/10/10/kahoot-the-educational-gaming-startup-has-raised-another-15m-now-at-a-300m-valuation",
+          "quote": "October 10, 2018"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2018/10/10/kahoot-the-educational-gaming-startup-has-raised-another-15m-now-at-a-300m-valuation",
+          "quote": "led by existing investor Datum AS"
+        }
+      ],
+      "techeuId": "81e41073-425e-465a-da8d-08d91092c887"
+    },
+    {
+      "stage": "series-d",
+      "month": "2020-06",
+      "amountEur": 24673951,
+      "amountOriginal": 28000000,
+      "currency": "USD",
+      "investors": [],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2020/06/11/kahoot-raises-28m-for-its-user-generated-educational-gaming-platform-now-valued-at-1-4b",
+          "quote": "raised the $28 million in a private placement"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2020/06/11/kahoot-raises-28m-for-its-user-generated-educational-gaming-platform-now-valued-at-1-4b",
+          "quote": "June 11, 2020"
+        }
+      ],
+      "techeuId": "4719167b-eea7-4bbe-efe8-08d91092c887"
+    },
+    {
+      "stage": "series-e",
+      "month": "2020-10",
+      "amountEur": 183278819,
+      "amountOriginal": 1978000000,
+      "currency": "NOK",
+      "investors": [
+        "SoftBank Group Corp."
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2020/10/13/kahoot-picks-up-215m-from-softbank-for-its-user-generated-gamified-e-learning-platform",
+          "quote": "private placement to a subsidiary of SoftBank Group Corp., through issuance of 43,000,000 new shares"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2020/10/13/kahoot-picks-up-215m-from-softbank-for-its-user-generated-gamified-e-learning-platform",
+          "quote": "October 13, 2020"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2020/10/13/kahoot-picks-up-215m-from-softbank-for-its-user-generated-gamified-e-learning-platform",
+          "quote": "private placement to a subsidiary of SoftBank Group Corp."
+        }
+      ],
+      "techeuId": "6ba4fd91-3258-497f-efe9-08d91092c887"
+    }
+  ]
+}

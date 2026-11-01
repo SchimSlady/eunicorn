@@ -1,0 +1,228 @@
+{
+  "id": "lydia",
+  "name": "Lydia",
+  "aliases": [
+    "Sumeria"
+  ],
+  "domain": "sumeria.eu",
+  "country": "FR",
+  "city": "Paris",
+  "founded": 2013,
+  "sectors": [
+    "fintech"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Cyril Chiche",
+    "Antoine Porte"
+  ],
+  "difficulty": 3,
+  "techeuId": "90901120-b8f4-4312-885a-81674c89f052",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://techcrunch.com/2018/02/15/lydia-raises-161-million-to-become-the-paypal-of-mobile-payments/",
+      "quote": "between the main office in Paris and those new markets"
+    },
+    {
+      "field": "founded",
+      "url": "https://tech.eu/2020/12/17/lydia-series-b/",
+      "quote": "Founded in 2013, Lydia reports adding more business this year than any previous"
+    },
+    {
+      "field": "founders",
+      "url": "https://techcrunch.com/2024/05/15/lydia-the-french-social-payment-app-with-8-million-users-launches-mobile-banking-app-sumeria/",
+      "quote": "co-founder and general manager, Antoine Porte"
+    },
+    {
+      "field": "founders",
+      "url": "https://techcrunch.com/2021/12/07/lydia-grabs-another-100-million-for-its-european-financial-super-app/",
+      "quote": "Lydia co-founder and CEO Cyril Chiche told me"
+    },
+    {
+      "field": "sectors",
+      "url": "https://techcrunch.com/2021/12/07/lydia-grabs-another-100-million-for-its-european-financial-super-app/",
+      "quote": "French fintech startup Lydia is announcing that it has raised a $100 million Series C round"
+    },
+    {
+      "field": "status",
+      "url": "https://techcrunch.com/2024/05/15/lydia-the-french-social-payment-app-with-8-million-users-launches-mobile-banking-app-sumeria/",
+      "quote": "It’s the same company, Lydia Solutions, that is launching a banking project"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "1396610c-4427-486a-f425-08d91092c887",
+      "stage": "seed",
+      "month": "2016-09",
+      "amountEur": 7000000,
+      "amountOriginal": 7000000,
+      "currency": "EUR",
+      "investors": [
+        "New Alpha Asset Management",
+        "Oddo & Cie"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2016/09/28/lydia-grabs-78-million-for-its-peer-to-peer-payment-service/",
+          "quote": "raised $7.8 million (€7 million) from New Alpha AM and Oddo & Cie"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2016/09/28/lydia-grabs-78-million-for-its-peer-to-peer-payment-service/",
+          "quote": "September 28, 2016"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2016/09/28/lydia-grabs-78-million-for-its-peer-to-peer-payment-service/",
+          "quote": "from New Alpha AM and Oddo & Cie"
+        }
+      ]
+    },
+    {
+      "techeuId": "68968417-134d-498a-f426-08d91092c887",
+      "stage": "series-a",
+      "month": "2018-02",
+      "amountEur": 13000000,
+      "amountOriginal": 13000000,
+      "currency": "EUR",
+      "investors": [
+        "CNP Assurances",
+        "XAnge",
+        "New Alpha Asset Management",
+        "Oddo BHF",
+        "Groupe Duval"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2018/02/15/lydia-raises-161-million-to-become-the-paypal-of-mobile-payments/",
+          "quote": "is raising a $16.1 million round (€13 million) led by CNP Assurances"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2018/02/15/lydia-raises-161-million-to-become-the-paypal-of-mobile-payments/",
+          "quote": "February 15, 2018"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2018/02/15/lydia-raises-161-million-to-become-the-paypal-of-mobile-payments/",
+          "quote": "led by CNP Assurances with existing investors XAnge, New Alpha AM, Oddo BHF and Groupe Duval also participating"
+        }
+      ]
+    },
+    {
+      "techeuId": "1de1edee-cf28-4023-f427-08d91092c887",
+      "stage": "series-b",
+      "month": "2020-01",
+      "amountEur": 40000000,
+      "amountOriginal": 40000000,
+      "currency": "EUR",
+      "investors": [
+        "Tencent",
+        "CNP Assurances",
+        "XAnge",
+        "New Alpha Asset Management"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2020/01/15/mobile-payment-app-lydia-raises-45-million-round-led-by-tencent/",
+          "quote": "is raising a $45 million Series B round (€40 million)"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2020/01/15/mobile-payment-app-lydia-raises-45-million-round-led-by-tencent/",
+          "quote": "January 15, 2020"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2020/01/15/mobile-payment-app-lydia-raises-45-million-round-led-by-tencent/",
+          "quote": "is raising a $45 million Series B round (€40 million)"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2020/01/15/mobile-payment-app-lydia-raises-45-million-round-led-by-tencent/",
+          "quote": "Tencent is leading the round with existing investors CNP Assurances, XAnge and New Alpha also participating"
+        }
+      ]
+    },
+    {
+      "techeuId": "ddd65ba9-4514-405d-f428-08d91092c887",
+      "stage": "series-b",
+      "month": "2020-12",
+      "amountEur": 70555419,
+      "amountOriginal": 86000000,
+      "currency": "USD",
+      "investors": [
+        "Accel",
+        "Tencent",
+        "XAnge",
+        "New Alpha Asset Management",
+        "Groupe Duval",
+        "Founders Future"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2020/12/17/lydia-series-b/",
+          "quote": "raising an additional $86 million led by Accel"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2020/12/16/lydia-raises-another-86-million-to-build-european-financial-super-app/",
+          "quote": "December 16, 2020"
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2020/12/17/lydia-series-b/",
+          "quote": "has announced a whopping extension of its Series B round"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2020/12/17/lydia-series-b/",
+          "quote": "Other investors include Tencent, XAnge, New Alpha, Groupe Duval and Founders Future"
+        }
+      ]
+    },
+    {
+      "techeuId": "c1588073-6711-47d1-ab05-f14a96779e9c",
+      "stage": "series-c",
+      "month": "2021-12",
+      "amountEur": 88841507,
+      "amountOriginal": 100000000,
+      "currency": "USD",
+      "investors": [
+        "Dragoneer",
+        "Echo Street",
+        "Tencent",
+        "Accel",
+        "Founders Future"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2021/12/07/lydia-grabs-another-100-million-for-its-european-financial-super-app/",
+          "quote": "it has raised a $100 million Series C round"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2021/12/07/lydia-grabs-another-100-million-for-its-european-financial-super-app/",
+          "quote": "December 7, 2021"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2021/12/07/lydia-grabs-another-100-million-for-its-european-financial-super-app/",
+          "quote": "it has raised a $100 million Series C round"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2021/12/07/lydia-grabs-another-100-million-for-its-european-financial-super-app/",
+          "quote": "many of Lydia’s existing investors are putting more money on the table, such as Tencent, Accel and Founders Future"
+        }
+      ]
+    }
+  ]
+}

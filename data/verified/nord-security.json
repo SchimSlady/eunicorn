@@ -1,0 +1,133 @@
+{
+  "id": "nord-security",
+  "name": "Nord Security",
+  "aliases": [
+    "NordVPN",
+    "Nordsec"
+  ],
+  "domain": "nordsecurity.com",
+  "country": "LT",
+  "city": "Vilnius",
+  "founded": 2012,
+  "sectors": [
+    "cybersecurity"
+  ],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 2846569883,
+  "founders": [
+    "Tom Okman",
+    "Eimantas Sabaliauskas"
+  ],
+  "difficulty": 2,
+  "techeuId": "A11C939A-427C-43BA-B93B-FE2AEAF2D229",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://techcrunch.com/2022/04/06/nord-security-the-startup-behind-nordvpn-raises-its-first-ever-funding-100m-at-a-1-6b-valuation/",
+      "quote": "Vilnius, Lithuania-based Nord has been bootstrapped for the last 10 years (it was founded in 2012)"
+    },
+    {
+      "field": "founded",
+      "url": "https://techcrunch.com/2022/04/06/nord-security-the-startup-behind-nordvpn-raises-its-first-ever-funding-100m-at-a-1-6b-valuation/",
+      "quote": "Vilnius, Lithuania-based Nord has been bootstrapped for the last 10 years (it was founded in 2012)"
+    },
+    {
+      "field": "founders",
+      "url": "https://techcrunch.com/2022/04/06/nord-security-the-startup-behind-nordvpn-raises-its-first-ever-funding-100m-at-a-1-6b-valuation/",
+      "quote": "Tom Okman, the co-CEO and co-founder with Eimantas Sabaliauskas"
+    },
+    {
+      "field": "sectors",
+      "url": "https://en.wikipedia.org/wiki/Nord_Security",
+      "quote": "Nord Security is a cybersecurity software company"
+    },
+    {
+      "field": "status",
+      "url": "https://nordsecurity.com/blog/nord-security-raised-another-100m-investment-round",
+      "quote": "announced a $100M financing round from Warburg Pincus, a leading global growth investor"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://nordsecurity.com/blog/nord-security-raised-another-100m-investment-round",
+      "quote": "Nord Security doubled its valuation to $3B"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "1a69c599-fde1-411d-ae81-e18d2e80f838",
+      "stage": "series-a",
+      "month": "2022-04",
+      "amountEur": 91549940,
+      "amountOriginal": 100000000,
+      "currency": "USD",
+      "postMoneyValuationEur": 1464799048,
+      "investors": [
+        "Novator Ventures",
+        "Burda Principal Investments",
+        "General Catalyst",
+        "Ilkka Paananen",
+        "Miki Kuusi",
+        "Matt Mullenweg"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2022/04/06/nord-security-the-startup-behind-nordvpn-raises-its-first-ever-funding-100m-at-a-1-6b-valuation/",
+          "quote": "The company has raised $100 million in a round of funding led by Novator"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2022/04/06/nord-security-the-startup-behind-nordvpn-raises-its-first-ever-funding-100m-at-a-1-6b-valuation/",
+          "quote": "April 6, 2022"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2022/04/06/nord-security-secures-100-million-at-16-billion-valuation",
+          "quote": "Nord Security’s $100 million funding round was led by Novator Ventures , with Burda Principal Investments and General Catalyst participating."
+        },
+        {
+          "field": "valuation",
+          "url": "https://techcrunch.com/2022/04/06/nord-security-the-startup-behind-nordvpn-raises-its-first-ever-funding-100m-at-a-1-6b-valuation/",
+          "quote": "This round values the startup at $1.6 billion."
+        }
+      ]
+    },
+    {
+      "techeuId": "8cc9a031-c87c-4407-bf9e-6049c637eb49",
+      "stage": "series-b",
+      "month": "2023-09",
+      "amountEur": 94885663,
+      "amountOriginal": 100000000,
+      "currency": "USD",
+      "postMoneyValuationEur": 2846569883,
+      "investors": [
+        "Warburg Pincus",
+        "Novator Ventures",
+        "Burda Principal Investments"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://nordsecurity.com/blog/nord-security-raised-another-100m-investment-round",
+          "quote": "announced a $100M financing round from Warburg Pincus, a leading global growth investor."
+        },
+        {
+          "field": "month",
+          "url": "https://nordsecurity.com/blog/nord-security-raised-another-100m-investment-round",
+          "quote": "September 28, 2023"
+        },
+        {
+          "field": "investors",
+          "url": "https://nordsecurity.com/blog/nord-security-raised-another-100m-investment-round",
+          "quote": "Existing investors participating in the round include Novator Ventures and Burda Principal Investments."
+        },
+        {
+          "field": "valuation",
+          "url": "https://nordsecurity.com/blog/nord-security-raised-another-100m-investment-round",
+          "quote": "Nord Security doubled its valuation to $3B"
+        }
+      ]
+    }
+  ]
+}

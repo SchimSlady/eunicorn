@@ -1,0 +1,189 @@
+{
+  "id": "funding-circle",
+  "name": "Funding Circle",
+  "aliases": [],
+  "domain": "fundingcircle.com",
+  "country": "GB",
+  "city": "London",
+  "founded": 2010,
+  "sectors": [
+    "fintech"
+  ],
+  "status": "public",
+  "unicorn": true,
+  "lastValuationEur": 1695029866,
+  "founders": [
+    "Samir Desai",
+    "James Meekings",
+    "Andrew Mullinger"
+  ],
+  "difficulty": 2,
+  "techeuId": "a91121cf-25f2-47d0-91b7-8c835c2b471e",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://techcrunch.com/2017/01/11/p2p-lending-unicorn-funding-circle-raises-another-100m-led-by-accel/",
+      "quote": "the London-based peer-to-peer lending platform that lets small businesses connect with investors"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Funding_Circle",
+      "quote": "Founded in 2010"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Funding_Circle",
+      "quote": "Samir Desai, James Meekings and Andrew Mullinger, friends from University of Oxford"
+    },
+    {
+      "field": "sectors",
+      "url": "https://techcrunch.com/2015/04/22/p2p-lending-site-funding-circle-raises-150m-led-by-dst-at-a-1b-valuation/",
+      "quote": "a London-based peer-to-peer platform for small businesses to get loans"
+    },
+    {
+      "field": "status",
+      "url": "https://en.wikipedia.org/wiki/Funding_Circle",
+      "quote": "It is listed on the London Stock Exchange"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://techcrunch.com/2018/09/28/funding-circle-ipo/",
+      "quote": "gives the company a market cap of £1.504 billion"
+    },
+    {
+      "field": "valuation",
+      "url": "https://techcrunch.com/2018/09/28/funding-circle-ipo/",
+      "quote": "gives the company a market cap of £1.504 billion"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-a",
+      "month": "2011-04",
+      "amountEur": 2836718,
+      "amountOriginal": 2500000,
+      "currency": "GBP",
+      "investors": [
+        "Index Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2011/04/21/funding-circle-the-zopa-for-smes-raises-2-5m-led-by-index-ventures/",
+          "quote": "Raises £2.5M Led By Index Ventures"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2011/04/21/funding-circle-the-zopa-for-smes-raises-2-5m-led-by-index-ventures/",
+          "quote": "April 21, 2011"
+        }
+      ]
+    },
+    {
+      "stage": "series-b",
+      "month": "2012-04",
+      "amountEur": 11979635,
+      "amountOriginal": 16000000,
+      "currency": "USD",
+      "investors": [
+        "Index Ventures",
+        "Union Square Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2012/04/01/p2p-small-business-lending-site-funding-circle-a-kickstarter-for-smbs-picks-up-16m-from-index-union-square-ventures/",
+          "quote": "has just announced that it has raised a $16 million round to further build"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2012/04/01/p2p-small-business-lending-site-funding-circle-a-kickstarter-for-smbs-picks-up-16m-from-index-union-square-ventures/",
+          "quote": "April 1, 2012"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2012/04/01/p2p-small-business-lending-site-funding-circle-a-kickstarter-for-smbs-picks-up-16m-from-index-union-square-ventures/",
+          "quote": "This Series B round takes the total raised by Funding Circle to $21 million"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2012/04/01/p2p-small-business-lending-site-funding-circle-a-kickstarter-for-smbs-picks-up-16m-from-index-union-square-ventures/",
+          "quote": "The investment included participation from existing investor Index Ventures as well as new investor Union Square Ventures"
+        }
+      ]
+    },
+    {
+      "techeuId": "ee93f982-68f7-45dd-f183-08d91092c887",
+      "stage": "series-e",
+      "month": "2015-04",
+      "amountEur": 139625803,
+      "amountOriginal": 150000000,
+      "currency": "USD",
+      "investors": [
+        "DST Global",
+        "Baillie Gifford",
+        "BlackRock",
+        "Sands Capital Ventures",
+        "Temasek"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2015/04/22/p2p-lending-site-funding-circle-raises-150m-led-by-dst-at-a-1b-valuation/",
+          "quote": "has raised $150 million in venture funding"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2015/04/22/p2p-lending-site-funding-circle-raises-150m-led-by-dst-at-a-1b-valuation/",
+          "quote": "April 22, 2015"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2015/04/22/p2p-lending-site-funding-circle-raises-150m-led-by-dst-at-a-1b-valuation/",
+          "quote": "led by DST Global, with participation also from Baillie Gifford, a fund managed by BlackRock, Sands Capital Ventures and Singapore’s Temasek"
+        }
+      ]
+    },
+    {
+      "techeuId": "f2a1d01e-e8ae-4960-f184-08d91092c887",
+      "stage": "series-f+",
+      "month": "2017-01",
+      "amountEur": 95210892,
+      "amountOriginal": 100000000,
+      "currency": "USD",
+      "investors": [
+        "Accel",
+        "Baillie Gifford",
+        "DST Global",
+        "Index Ventures",
+        "Ribbit Capital",
+        "Rocket Internet",
+        "Sands Capital Ventures",
+        "Temasek",
+        "Union Square Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2017/01/11/p2p-lending-unicorn-funding-circle-raises-another-100m-led-by-accel/",
+          "quote": "has raised another $100 million in funding of its own, led by Accel"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2017/01/11/p2p-lending-unicorn-funding-circle-raises-another-100m-led-by-accel/",
+          "quote": "January 11, 2017"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2017/01/11/p2p-lending-unicorn-funding-circle-raises-another-100m-led-by-accel/",
+          "quote": "This latest round, a Series F"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2017/01/11/p2p-lending-unicorn-funding-circle-raises-another-100m-led-by-accel/",
+          "quote": "Baillie Gifford, DST Global, Index Ventures, Ribbit Capital, Rocket Internet, Sands Capital Ventures, Temasek and Union Square Ventures"
+        }
+      ]
+    }
+  ]
+}

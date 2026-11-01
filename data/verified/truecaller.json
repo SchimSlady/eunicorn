@@ -1,0 +1,122 @@
+{
+  "id": "truecaller",
+  "name": "Truecaller",
+  "aliases": [
+    "True Software Scandinavia"
+  ],
+  "domain": "truecaller.com",
+  "country": "SE",
+  "city": "Stockholm",
+  "founded": 2009,
+  "sectors": [
+    "consumer"
+  ],
+  "status": "public",
+  "unicorn": true,
+  "founders": [
+    "Alan Mamedi",
+    "Nami Zarringhalam"
+  ],
+  "difficulty": 2,
+  "techeuId": "882F8667-1192-4DF8-8331-DF734EC2A6A4",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/Truecaller",
+      "quote": "a public company listed in Sweden with a head office in Stockholm , Sweden , founded by Alan Mamedi and Nami Zarringhalam of Iranian origin in 2009"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Truecaller",
+      "quote": "founded by Alan Mamedi and Nami Zarringhalam of Iranian origin in 2009"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Truecaller",
+      "quote": "founded by Alan Mamedi and Nami Zarringhalam"
+    },
+    {
+      "field": "sectors",
+      "url": "https://news.cision.com/truecaller-ab/r/truecaller-publishes-prospectus-in-connection-with-its-initial-public-offering-of-shares-and-listing,c3423951",
+      "quote": "the leading global communication platform for verifying contacts and blocking unwanted calls and messages"
+    },
+    {
+      "field": "status",
+      "url": "https://news.cision.com/truecaller-ab/r/truecaller-publishes-prospectus-in-connection-with-its-initial-public-offering-of-shares-and-listing,c3423951",
+      "quote": "announces an initial public offering of shares to the general public in Sweden"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://news.cision.com/truecaller-ab/r/truecaller-publishes-prospectus-in-connection-with-its-initial-public-offering-of-shares-and-listing,c3423951",
+      "quote": "corresponding to a total market value of all issued shares (Class A and Class B) of the Company of approximately SEK 16,595"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-b",
+      "month": "2014-02",
+      "amountEur": 13851028,
+      "amountOriginal": 18800000,
+      "currency": "USD",
+      "investors": [
+        "Sequoia Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2014/10/08/confirmed-truecaller-scores-60-million-in-series-c-from-kpcb-atomico-and-sequoia",
+          "quote": "In February, Truecaller raised an $18.8 million Series B"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2014/10/08/confirmed-truecaller-scores-60-million-in-series-c-from-kpcb-atomico-and-sequoia",
+          "quote": "In February, Truecaller raised an $18.8 million Series B"
+        },
+        {
+          "field": "month",
+          "url": "https://en.wikipedia.org/wiki/Truecaller",
+          "quote": "In February 2014, Truecaller received US$18.8 million in funding from Sequoia Capital"
+        },
+        {
+          "field": "investors",
+          "url": "https://en.wikipedia.org/wiki/Truecaller",
+          "quote": "In February 2014, Truecaller received US$18.8 million in funding from Sequoia Capital"
+        }
+      ]
+    },
+    {
+      "stage": "series-c",
+      "month": "2014-10",
+      "amountEur": 47449585,
+      "amountOriginal": 60000000,
+      "currency": "USD",
+      "investors": [
+        "Atomico",
+        "Kleiner Perkins Caufield & Byers",
+        "Sequoia Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2014/10/08/confirmed-truecaller-scores-60-million-in-series-c-from-kpcb-atomico-and-sequoia",
+          "quote": "Truecaller has just announced the raise of a $60 million in Series C led by Atomico, Kleiner Perkins Caufield & Byers, and Sequoia Capital."
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2014/10/08/confirmed-truecaller-scores-60-million-in-series-c-from-kpcb-atomico-and-sequoia",
+          "quote": "Truecaller has just announced the raise of a $60 million in Series C"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2014/10/08/confirmed-truecaller-scores-60-million-in-series-c-from-kpcb-atomico-and-sequoia",
+          "quote": "October 8, 2014"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2014/10/08/confirmed-truecaller-scores-60-million-in-series-c-from-kpcb-atomico-and-sequoia",
+          "quote": "led by Atomico, Kleiner Perkins Caufield & Byers, and Sequoia Capital"
+        }
+      ]
+    }
+  ]
+}

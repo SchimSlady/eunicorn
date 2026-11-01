@@ -1,0 +1,256 @@
+{
+  "id": "curve",
+  "name": "Curve",
+  "aliases": [],
+  "domain": "curve.com",
+  "country": "GB",
+  "city": "London",
+  "founded": 2015,
+  "sectors": [
+    "fintech"
+  ],
+  "status": "acquired",
+  "unicorn": false,
+  "lastValuationEur": 222756839,
+  "founders": [
+    "Shachar Bialick"
+  ],
+  "difficulty": 3,
+  "techeuId": "bfa8747d-4d88-4d07-88bb-3135d9a8b8ed",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://tech.eu/2017/07/12/curve-raises-investment/",
+      "quote": "Curve, a London-based fintech startup"
+    },
+    {
+      "field": "founded",
+      "url": "https://calcalistech.com/ctech/articles/0,7340,L-3766448,00.html",
+      "quote": "Co-founded in 2015 by Israel-born Shachar Bialick"
+    },
+    {
+      "field": "founders",
+      "url": "https://calcalistech.com/ctech/articles/0,7340,L-3766448,00.html",
+      "quote": "Co-founded in 2015 by Israel-born Shachar Bialick"
+    },
+    {
+      "field": "sectors",
+      "url": "https://tech.eu/2017/07/12/curve-raises-investment/",
+      "quote": "Curve, a London-based fintech startup, raised $10 million in a Series A financing round"
+    },
+    {
+      "field": "status",
+      "url": "https://tech.eu/2025/11/19/curve-confirms-sale-to-lloyds/",
+      "quote": "has been acquired by banking giant Lloyds Banking Group"
+    },
+    {
+      "field": "valuation",
+      "url": "https://calcalistech.com/ctech/articles/0,7340,L-3766448,00.html",
+      "quote": "has raised $55 million according to a $250 million valuation"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "seed",
+      "month": "2015-12",
+      "amountEur": 1827652,
+      "amountOriginal": 2000000,
+      "currency": "USD",
+      "investors": [
+        "Speedinvest",
+        "Seedcamp",
+        "London Co-Investment Fund"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.uktech.news/news/investment-news/fintech-startup-curve-raises-2m-in-seed-round-20151210",
+          "quote": "Fintech startup Curve raises $2m in Seed Round"
+        },
+        {
+          "field": "month",
+          "url": "https://www.uktech.news/news/investment-news/fintech-startup-curve-raises-2m-in-seed-round-20151210",
+          "quote": "10 Dec 2015"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.uktech.news/news/investment-news/fintech-startup-curve-raises-2m-in-seed-round-20151210",
+          "quote": "Speedinvest, Seedcamp and the Mayor of London’s London Co-Investment Fund"
+        }
+      ]
+    },
+    {
+      "techeuId": "dc47b508-d154-4a6d-f7a5-08d91092c887",
+      "stage": "series-a",
+      "month": "2017-07",
+      "amountEur": 8734387,
+      "amountOriginal": 10000000,
+      "currency": "USD",
+      "investors": [
+        "Santander InnoVentures",
+        "Investec",
+        "Connect Ventures",
+        "Speedinvest",
+        "Oxford Capital Partners",
+        "Breega Capital",
+        "Samos Investments"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2017/07/12/curve-raises-investment/",
+          "quote": "raised $10 million in a Series A financing round"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2017/07/12/curve-raises-investment/",
+          "quote": "12 July 2017"
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2017/07/12/curve-raises-investment/",
+          "quote": "raised $10 million in a Series A financing round"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2017/07/12/curve-raises-investment/",
+          "quote": "The investors included Santander InnoVentures, Investec, Connect Ventures, Speedinvest, Oxford Capital, Breega Capital, Samos Investments"
+        }
+      ]
+    },
+    {
+      "techeuId": "4eeb4216-3c24-4fa5-f7a6-08d91092c887",
+      "stage": "series-b",
+      "month": "2019-07",
+      "amountEur": 49006504,
+      "amountOriginal": 55000000,
+      "currency": "USD",
+      "postMoneyValuationEur": 222756839,
+      "investors": [
+        "Gauss Ventures",
+        "Creditease",
+        "IDC Ventures",
+        "Outward VC"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2019/07/15/over-the-top-banking/",
+          "quote": "has raised $55 million in new funding"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2019/07/15/over-the-top-banking/",
+          "quote": "July 15, 2019"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2019/07/15/over-the-top-banking/",
+          "quote": "Series B round is led by Gauss Ventures"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2019/07/15/over-the-top-banking/",
+          "quote": "alongside Creditease, IDC Ventures and previous backer Outward VC"
+        }
+      ]
+    },
+    {
+      "techeuId": "4a3c352b-9ba4-4beb-f7a8-08d91092c887",
+      "stage": "series-c",
+      "month": "2021-01",
+      "amountEur": 78105730,
+      "amountOriginal": 95000000,
+      "currency": "USD",
+      "investors": [
+        "IDC Ventures",
+        "Fuel Venture Capital",
+        "Vulcan Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2021/01/11/curve-says-closing-its-new-95m-series-c-funding-caused-the-delay-on-accounts-filing",
+          "quote": "has secured a Series C funding round of $95 million"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2021/01/11/curve-says-closing-its-new-95m-series-c-funding-caused-the-delay-on-accounts-filing",
+          "quote": "January 11, 2021"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2021/01/11/curve-says-closing-its-new-95m-series-c-funding-caused-the-delay-on-accounts-filing",
+          "quote": "has secured a Series C funding round of $95 million"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2021/01/11/curve-says-closing-its-new-95m-series-c-funding-caused-the-delay-on-accounts-filing",
+          "quote": "The financing was led by IDC Ventures, Fuel Venture Capital and Vulcan Capital"
+        }
+      ]
+    },
+    {
+      "techeuId": "52f07d51-9589-47b2-86f3-fdaf9a610e88",
+      "stage": "series-c",
+      "month": "2023-09",
+      "amountEur": 66887318,
+      "amountOriginal": 58000000,
+      "currency": "GBP",
+      "investors": [
+        "Britannia",
+        "IDC Ventures",
+        "Cercano Management"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2023/09/21/microsoft-co-founders-venture-arm-contributes-to-curves-ps58m-funding-boost",
+          "quote": "disclosed the addition of £58 million to its Series C funding round"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2023/09/21/microsoft-co-founders-venture-arm-contributes-to-curves-ps58m-funding-boost",
+          "quote": "21 September 2023"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2023/09/21/microsoft-co-founders-venture-arm-contributes-to-curves-ps58m-funding-boost",
+          "quote": "additional £58 million was provided via Britannia, IDC Ventures, Cercano Management"
+        }
+      ]
+    },
+    {
+      "techeuId": "3dfb59ff-59a0-4da5-ae1d-a4671c950457",
+      "stage": "series-c",
+      "month": "2025-03",
+      "amountEur": 43951867,
+      "amountOriginal": 37000000,
+      "currency": "GBP",
+      "investors": [
+        "Hanaco Ventures",
+        "Fuel Ventures",
+        "IDC Ventures",
+        "Outward VC",
+        "Lord Stanley Fink"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2025/03/14/curve-lands-37m-in-funding/",
+          "quote": "has secured £37m in funding"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2025/03/14/curve-lands-37m-in-funding/",
+          "quote": "14 March 2025"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2025/03/14/curve-lands-37m-in-funding/",
+          "quote": "led the round which also features existing Curve investors Fuel Ventures, IDC, Outward VC and Lord Stanley Fink"
+        }
+      ]
+    }
+  ]
+}

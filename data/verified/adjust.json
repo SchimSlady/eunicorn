@@ -1,0 +1,111 @@
+{
+  "id": "adjust",
+  "name": "Adjust",
+  "aliases": [
+    "Adjust GmbH"
+  ],
+  "domain": "adjust.com",
+  "country": "DE",
+  "city": "Berlin",
+  "founded": 2012,
+  "sectors": [
+    "saas"
+  ],
+  "status": "acquired",
+  "unicorn": false,
+  "founders": [
+    "Christian Henschel",
+    "Paul H. Müller",
+    "Manuel Kniep"
+  ],
+  "difficulty": 3,
+  "techeuId": "5F901920-8E8B-416A-ABDD-300770F378F8",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://tech.eu/brief/berlin-founded-mobile-analytics-startup-adjust-raises-227-million/",
+      "quote": "Founded in Berlin in 2012, Adjust now employs some 350 people"
+    },
+    {
+      "field": "founded",
+      "url": "https://techcrunch.com/2019/06/12/adjust-funding",
+      "quote": "The company, founded in Berlin back in 2012"
+    },
+    {
+      "field": "founders",
+      "url": "https://omr.com/de/adjust-15-millionen-investment/",
+      "quote": "Die Adjust-Gründer Christian Henschel, Paul H. Müller und Manuel Kniep"
+    },
+    {
+      "field": "sectors",
+      "url": "https://techcrunch.com/2019/06/12/adjust-funding",
+      "quote": "has created a variety of ad measurement and anti-fraud tools"
+    },
+    {
+      "field": "status",
+      "url": "https://en.wikipedia.org/wiki/AppLovin",
+      "quote": "In February 2021, AppLovin announced the acquisition of mobile app measurement company Adjust."
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "4fc03a07-c359-44a1-dbc2-08d91092c887",
+      "stage": "series-b",
+      "month": "2015-10",
+      "amountEur": 15000000,
+      "amountOriginal": 15000000,
+      "currency": "EUR",
+      "investors": [
+        "Highland Capital Partners Europe"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://omr.com/de/adjust-15-millionen-investment/",
+          "quote": "sammelt 15 Millionen Euro ein"
+        },
+        {
+          "field": "month",
+          "url": "https://omr.com/de/adjust-15-millionen-investment/",
+          "quote": "Torben Lux 21.10.2015"
+        },
+        {
+          "field": "investors",
+          "url": "https://omr.com/de/adjust-15-millionen-investment/",
+          "quote": "Das neue Geld kommt von Highland Capital Partners Europe."
+        }
+      ]
+    },
+    {
+      "techeuId": "ca032715-dffc-4061-dbc3-08d91092c887",
+      "stage": "series-c",
+      "month": "2019-06",
+      "amountEur": 200476905,
+      "amountOriginal": 227000000,
+      "currency": "USD",
+      "investors": [
+        "Eurazeo Growth",
+        "Highland Europe",
+        "Morgan Stanley Alternative Investment Partners",
+        "Sofina"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2019/06/12/adjust-funding",
+          "quote": "Adjust is announcing that it has raised $227 million in new funding."
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2019/06/12/adjust-funding",
+          "quote": "June 12, 2019"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2019/06/12/adjust-funding",
+          "quote": "It was led by Eurazeo Growth, Highland Europe, Morgan Stanley Alternative Investment Partners and Sofina."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "id": "biontech",
+  "name": "BioNTech",
+  "aliases": [],
+  "domain": "biontech.com",
+  "country": "DE",
+  "city": "Mainz",
+  "founded": 2008,
+  "sectors": [
+    "biotech",
+    "health"
+  ],
+  "status": "public",
+  "unicorn": true,
+  "lastValuationEur": 3535811423,
+  "founders": [
+    "Uğur Şahin",
+    "Özlem Türeci",
+    "Christoph Huber"
+  ],
+  "difficulty": 1,
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/BioNTech",
+      "quote": "BioNTech's founding place and global headquarters is Mainz , Germany."
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/BioNTech",
+      "quote": "BioNTech was founded in 2008 based on research by Uğur Şahin"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/BioNTech",
+      "quote": "Uğur Şahin , Özlem Türeci , [ 8 ] and Christoph Huber"
+    },
+    {
+      "field": "sectors",
+      "url": "https://en.wikipedia.org/wiki/BioNTech",
+      "quote": "is a German multinational biotechnology company headquartered in Mainz that develops immunotherapies and vaccines"
+    },
+    {
+      "field": "status",
+      "url": "https://en.wikipedia.org/wiki/BioNTech",
+      "quote": "BioNTech has been publicly traded as American Depository Shares (ADS) on the NASDAQ Global Select Market"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://globalventuring.com/university/biontech-binds-itself-to-public-markets/",
+      "quote": "giving it a fully diluted valuation of $3.9bn"
+    },
+    {
+      "field": "valuation",
+      "url": "https://globalventuring.com/university/biontech-binds-itself-to-public-markets/",
+      "quote": "giving it a fully diluted valuation of $3.9bn"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-a",
+      "month": "2018-01",
+      "amountEur": 223787816,
+      "amountOriginal": 270000000,
+      "currency": "USD",
+      "investors": [
+        "Redmile Group",
+        "Fidelity Management & Research Company",
+        "Invus",
+        "Janus Henderson Investors",
+        "Strüngmann Family Office"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.bionity.com/en/news/1152728/biontech-secures-usd-270-million-in-series-a-financing.html",
+          "quote": "BioNTech Secures USD 270 Million in Series A Financing"
+        },
+        {
+          "field": "stage",
+          "url": "https://en.wikipedia.org/wiki/BioNTech",
+          "quote": "BioNTech closed a US$270 million Series A financing round"
+        },
+        {
+          "field": "month",
+          "url": "https://en.wikipedia.org/wiki/BioNTech",
+          "quote": "In January 2018, BioNTech closed a US$270 million Series A financing round"
+        },
+        {
+          "field": "investors",
+          "url": "https://globalventuring.com/university/biontech-binds-itself-to-public-markets/",
+          "quote": "led by Redmile Group and backed by investment and financial services group Fidelity Management and Research (FMR), Invus, Janus Henderson Investors and family offices including Strüngmann’s"
+        }
+      ]
+    },
+    {
+      "stage": "series-b",
+      "month": "2019-07",
+      "amountEur": 290049085,
+      "amountOriginal": 325000000,
+      "currency": "USD",
+      "investors": [
+        "Fidelity Management & Research Company",
+        "Redmile Group",
+        "Invus",
+        "Mirae Asset Financial Group",
+        "Platinum Asset Management",
+        "Jebsen Capital",
+        "Steam Athena Capital",
+        "BVCF Management",
+        "Strüngmann Family Office"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://en.wikipedia.org/wiki/BioNTech",
+          "quote": "led a Series B investment round totalling US$325 million"
+        },
+        {
+          "field": "stage",
+          "url": "https://en.wikipedia.org/wiki/BioNTech",
+          "quote": "led a Series B investment round totalling US$325 million"
+        },
+        {
+          "field": "month",
+          "url": "https://en.wikipedia.org/wiki/BioNTech",
+          "quote": "In July 2019, Fidelity Management & Research Company led a Series B"
+        },
+        {
+          "field": "investors",
+          "url": "https://en.wikipedia.org/wiki/BioNTech",
+          "quote": "including Redmile Group, Invus, Mirae Asset Financial Group"
+        }
+      ]
+    }
+  ]
+}

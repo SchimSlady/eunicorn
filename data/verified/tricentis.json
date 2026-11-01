@@ -1,0 +1,77 @@
+{
+  "id": "tricentis",
+  "name": "Tricentis",
+  "aliases": [],
+  "domain": "tricentis.com",
+  "country": "AT",
+  "city": "Vienna",
+  "founded": 2007,
+  "sectors": [
+    "saas"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Wolfgang Platz",
+    "Franz Fuchsberger"
+  ],
+  "difficulty": 3,
+  "techeuId": "B156E622-6C91-40DD-9641-6D1F23890757",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/Tricentis",
+      "quote": "Tricentis was founded in 2007 in Vienna , Austria"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Tricentis",
+      "quote": "Tricentis was founded in 2007 in Vienna , Austria"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Tricentis",
+      "quote": "by Wolfgang Platz and Franz Fuchsberger"
+    },
+    {
+      "field": "sectors",
+      "url": "https://tech.eu/2017/01/24/tricentis-raises-investment/",
+      "quote": "Vienna-based Tricentis, a software testing company"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "c6429028-e23f-4a86-9bc3-08d91092c887",
+      "stage": "series-b",
+      "month": "2017-01",
+      "amountEur": 153989734,
+      "amountOriginal": 165000000,
+      "currency": "USD",
+      "investors": [
+        "Insight Venture Partners"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.insightpartners.com/ideas/tricentis-raises-165-million-to-deliver-continuous-testing-at-the-speed-of-devops/",
+          "quote": "today announced that it has raised $165 million in Series B financing from Insight Venture Partners"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.insightpartners.com/ideas/tricentis-raises-165-million-to-deliver-continuous-testing-at-the-speed-of-devops/",
+          "quote": "today announced that it has raised $165 million in Series B financing from Insight Venture Partners"
+        },
+        {
+          "field": "month",
+          "url": "https://www.insightpartners.com/ideas/tricentis-raises-165-million-to-deliver-continuous-testing-at-the-speed-of-devops/",
+          "quote": "January 23, 2017"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2017/01/24/tricentis-raises-investment/",
+          "quote": "The funding comes from Insight Venture Partners"
+        }
+      ]
+    }
+  ]
+}

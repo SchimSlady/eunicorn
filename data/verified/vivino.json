@@ -1,0 +1,180 @@
+{
+  "id": "vivino",
+  "name": "Vivino",
+  "aliases": [],
+  "domain": "vivino.com",
+  "country": "DK",
+  "city": "Copenhagen",
+  "founded": 2010,
+  "sectors": [
+    "consumer"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Heini Zachariassen",
+    "Theis Søndergaard"
+  ],
+  "difficulty": 3,
+  "techeuId": "532368BE-FA84-4663-83C6-6325A6647B3D",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.businessinsider.com/vivino-has-raised-25-million-from-mot-hennessys-ceo-2016-1",
+      "quote": "Vivino , the Danish-founded wine community and app maker"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Vivino",
+      "quote": "Vivino was founded in 2010 by Heini Zachariassen and Theis Søndergaard"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Vivino",
+      "quote": "Vivino was founded in 2010 by Heini Zachariassen and Theis Søndergaard"
+    },
+    {
+      "field": "sectors",
+      "url": "https://techcrunch.com/2021/02/03/vivino-raises-155-million-for-wine-recommendation-and-marketplace-app/",
+      "quote": "the startup has raised $155 million with its Series D round"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-a",
+      "month": "2013-07",
+      "amountEur": 7915770,
+      "amountOriginal": 10300000,
+      "currency": "USD",
+      "investors": [
+        "Balderton Capital",
+        "Creandum"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://en.wikipedia.org/wiki/Vivino",
+          "quote": "In July 2013, Vivino raised $10.3M in capital from Balderton Capital and Creandum."
+        },
+        {
+          "field": "month",
+          "url": "https://en.wikipedia.org/wiki/Vivino",
+          "quote": "In July 2013, Vivino raised $10.3M in capital from Balderton Capital and Creandum."
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2021/02/03/vivino-raises-155-million-for-wine-recommendation-and-marketplace-app/",
+          "quote": "existing investor Creandum, which led its Series A"
+        },
+        {
+          "field": "investors",
+          "url": "https://en.wikipedia.org/wiki/Vivino",
+          "quote": "In July 2013, Vivino raised $10.3M in capital from Balderton Capital and Creandum."
+        }
+      ]
+    },
+    {
+      "stage": "series-b",
+      "month": "2016-01",
+      "amountEur": 22952626,
+      "amountOriginal": 25000000,
+      "currency": "USD",
+      "investors": [
+        "SCP Neptune International"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.businessinsider.com/vivino-has-raised-25-million-from-mot-hennessys-ceo-2016-1",
+          "quote": "today announced a $25 million Series B round led by SCP Neptune International"
+        },
+        {
+          "field": "month",
+          "url": "https://en.wikipedia.org/wiki/Vivino",
+          "quote": "In January 2016 the company raised a Series B round of venture funding from SCP Neptune"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.businessinsider.com/vivino-has-raised-25-million-from-mot-hennessys-ceo-2016-1",
+          "quote": "today announced a $25 million Series B round led by SCP Neptune International"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.businessinsider.com/vivino-has-raised-25-million-from-mot-hennessys-ceo-2016-1",
+          "quote": "today announced a $25 million Series B round led by SCP Neptune International"
+        }
+      ]
+    },
+    {
+      "stage": "series-c",
+      "month": "2018-02",
+      "amountEur": 16196955,
+      "amountOriginal": 20000000,
+      "currency": "USD",
+      "investors": [
+        "SCP Neptune International",
+        "Balderton Capital",
+        "Creandum",
+        "SEED Capital Denmark",
+        "Iconical"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://en.wikipedia.org/wiki/Vivino",
+          "quote": "In February 2018, Vivino raised a Series C round of $20 million also led by SCP Neptune International"
+        },
+        {
+          "field": "month",
+          "url": "https://en.wikipedia.org/wiki/Vivino",
+          "quote": "In February 2018, Vivino raised a Series C round of $20 million also led by SCP Neptune International"
+        },
+        {
+          "field": "stage",
+          "url": "https://en.wikipedia.org/wiki/Vivino",
+          "quote": "In February 2018, Vivino raised a Series C round of $20 million also led by SCP Neptune International"
+        },
+        {
+          "field": "investors",
+          "url": "https://en.wikipedia.org/wiki/Vivino",
+          "quote": "with participation from Balderton Capital , Creandum, SEED Capital Denmark and Iconical"
+        }
+      ]
+    },
+    {
+      "stage": "series-d",
+      "month": "2021-02",
+      "amountEur": 128983939,
+      "amountOriginal": 155000000,
+      "currency": "USD",
+      "investors": [
+        "Kinnevik",
+        "Sprints Capital",
+        "GP Bullhound",
+        "Creandum"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2021/02/03/vivino-raises-155-million-for-wine-recommendation-and-marketplace-app/",
+          "quote": "The $155 million series D round was led by Sweden’s Kinnevik"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2021/02/03/vivino-raises-155-million-for-wine-recommendation-and-marketplace-app/",
+          "quote": "February 3, 2021"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2021/02/03/vivino-raises-155-million-for-wine-recommendation-and-marketplace-app/",
+          "quote": "The $155 million series D round was led by Sweden’s Kinnevik"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2021/02/03/vivino-raises-155-million-for-wine-recommendation-and-marketplace-app/",
+          "quote": "also includes participation by Sprints Capital, GP BullHound and existing investor Creandum"
+        }
+      ]
+    }
+  ]
+}

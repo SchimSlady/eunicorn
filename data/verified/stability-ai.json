@@ -1,0 +1,166 @@
+{
+  "id": "stability-ai",
+  "name": "Stability AI",
+  "aliases": [],
+  "domain": "stability.ai",
+  "country": "GB",
+  "city": "London",
+  "founded": 2019,
+  "sectors": [
+    "ai"
+  ],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 1026799466,
+  "founders": [
+    "Emad Mostaque",
+    "Cyrus Hodes"
+  ],
+  "difficulty": 1,
+  "techeuId": "D9BE71E2-D6FD-408F-B0A1-ECA47490AE15",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/Stability_AI",
+      "quote": "headquartered in London"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Stability_AI",
+      "quote": "Stability AI was founded in 2019 by Emad Mostaque and Cyrus Hodes."
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Stability_AI",
+      "quote": "Stability AI was founded in 2019 by Emad Mostaque and Cyrus Hodes."
+    },
+    {
+      "field": "sectors",
+      "url": "https://en.wikipedia.org/wiki/Stability_AI",
+      "quote": "is a UK-based artificial intelligence company"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://techcrunch.com/2022/10/17/stability-ai-the-startup-behind-stable-diffusion-raises-101m/",
+      "quote": "The tranche values the company at $1 billion post-money"
+    },
+    {
+      "field": "valuation",
+      "url": "https://techcrunch.com/2022/10/17/stability-ai-the-startup-behind-stable-diffusion-raises-101m/",
+      "quote": "The tranche values the company at $1 billion post-money"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "seed",
+      "month": "2022-10",
+      "amountEur": 103706746,
+      "amountOriginal": 101000000,
+      "currency": "USD",
+      "postMoneyValuationEur": 1026799466,
+      "investors": [
+        "Coatue",
+        "Lightspeed Venture Partners",
+        "O’Shaughnessy Ventures LLC"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://stability.ai/news/stability-ai-announces-101-million-in-funding-for-open-source-artificial-intelligence",
+          "quote": "today announced USD $101 million in funding"
+        },
+        {
+          "field": "month",
+          "url": "https://stability.ai/news/stability-ai-announces-101-million-in-funding-for-open-source-artificial-intelligence",
+          "quote": "Oct. 17, 2022"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2022/10/17/stability-ai-the-startup-behind-stable-diffusion-raises-101m/",
+          "quote": "raised $101 million in a funding round led by Coatue and Lightspeed Venture Partners"
+        },
+        {
+          "field": "investors",
+          "url": "https://stability.ai/news/stability-ai-announces-101-million-in-funding-for-open-source-artificial-intelligence",
+          "quote": "The oversubscribed round was led by Coatue, Lightspeed Venture Partners, and O'Shaughnessy Ventures LLC."
+        }
+      ],
+      "techeuId": "25a5fb20-6412-4ce9-8c0f-43be9bf453ed"
+    },
+    {
+      "stage": "series-a",
+      "month": "2024-06",
+      "amountEur": 74668658,
+      "amountOriginal": 80000000,
+      "currency": "USD",
+      "investors": [
+        "Greycroft",
+        "Coatue Management",
+        "Sound Ventures",
+        "Lightspeed Venture Partners",
+        "O’Shaughnessy Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2024/06/25/stability-ai-lands-a-lifeline-from-sean-parker-greycroft/",
+          "quote": "have committed $80 million to effectively take over Stability"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2024/06/25/stability-ai-lands-a-lifeline-from-sean-parker-greycroft/",
+          "quote": "June 25, 2024"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2024/06/25/stability-ai-lands-a-lifeline-from-sean-parker-greycroft/",
+          "quote": "Greycroft , Coatue Management, Sound Ventures, Lightspeed Venture Partners , O’Shaughnessy Ventures and angel investors"
+        }
+      ],
+      "techeuId": "0cf74893-b04b-4f43-ac52-040c0a75e7fe"
+    },
+    {
+      "stage": "series-b",
+      "month": "2026-08",
+      "amountEur": 65168925,
+      "amountOriginal": 76000000,
+      "currency": "USD",
+      "investors": [
+        "Universal Music Group",
+        "Sony Music Group",
+        "Warner Music Group",
+        "Electronic Arts",
+        "AMD Ventures",
+        "Pacific Alliance Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2026/08/25/stability-ai-maker-of-image-generator-stable-diffusion-raises-76-million-in-fresh-funding/",
+          "quote": "has raised $76 million in Series B funding"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2026/08/25/stability-ai-maker-of-image-generator-stable-diffusion-raises-76-million-in-fresh-funding/",
+          "quote": "has raised $76 million in Series B funding"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2026/08/25/stability-ai-maker-of-image-generator-stable-diffusion-raises-76-million-in-fresh-funding/",
+          "quote": "August 25, 2026"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2026/08/25/stability-ai-maker-of-image-generator-stable-diffusion-raises-76-million-in-fresh-funding/",
+          "quote": "including Universal Music Group, Sony Music Group, Warner Music Group, and gaming giant Electronic Arts (EA)"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2026/08/25/stability-ai-maker-of-image-generator-stable-diffusion-raises-76-million-in-fresh-funding/",
+          "quote": "Two investment firms, AMD Ventures and Pacific Alliance Ventures, also took part."
+        }
+      ],
+      "techeuId": "49de4681-0a93-4d22-ade5-fe4d2231784f"
+    }
+  ]
+}

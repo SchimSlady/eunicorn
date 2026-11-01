@@ -1,0 +1,156 @@
+{
+  "id": "feedzai",
+  "name": "Feedzai",
+  "aliases": [],
+  "domain": "feedzai.com",
+  "country": "PT",
+  "city": "Coimbra",
+  "founded": 2011,
+  "sectors": [
+    "fintech",
+    "ai"
+  ],
+  "status": "private",
+  "unicorn": true,
+  "lastValuationEur": 1701548409,
+  "founders": [
+    "Nuno Sebastião",
+    "Pedro Bizarro",
+    "Paulo Marques"
+  ],
+  "difficulty": 3,
+  "techeuId": "4b1e49e4-9d81-414d-9992-3798428c6875",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/Feedzai",
+      "quote": "Feedzai is headquartered in Coimbra, Portugal"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Feedzai",
+      "quote": "The company was founded in 2011"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Feedzai",
+      "quote": "by Nuno Sebastião, Pedro Bizarro and Paulo Marques"
+    },
+    {
+      "field": "sectors",
+      "url": "https://techcrunch.com/2021/03/24/feedzai-raises-200m-at-a-1b-valuation-for-ai-tools-to-fight-financial-fraud/",
+      "quote": "AI tools to spot and fight fraud"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://siliconangle.com/2025/10/02/feedzai-raises-75m-2b-valuation-secures-key-role-digital-euro-fraud-prevention/",
+      "quote": "valuation of more than $2 billion"
+    },
+    {
+      "field": "valuation",
+      "url": "https://siliconangle.com/2025/10/02/feedzai-raises-75m-2b-valuation-secures-key-role-digital-euro-fraud-prevention/",
+      "quote": "valuation of more than $2 billion"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-c",
+      "month": "2017-10",
+      "amountEur": 42520623,
+      "amountOriginal": 50000000,
+      "currency": "USD",
+      "investors": [
+        "Sapphire Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2017/10/17/feedzai-closes-50m-series-c-to-help-banks-and-merchants-identify-fraud-with-ai/",
+          "quote": "Feedzai is announcing a $50 million Series C this morning"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2017/10/17/feedzai-closes-50m-series-c-to-help-banks-and-merchants-identify-fraud-with-ai/",
+          "quote": "October 17, 2017"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2017/10/17/feedzai-closes-50m-series-c-to-help-banks-and-merchants-identify-fraud-with-ai/",
+          "quote": "Feedzai is announcing a $50 million Series C this morning"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2017/10/17/feedzai-closes-50m-series-c-to-help-banks-and-merchants-identify-fraud-with-ai/",
+          "quote": "with additional capital from Sapphire Ventures"
+        }
+      ]
+    },
+    {
+      "stage": "series-d",
+      "month": "2021-03",
+      "amountEur": 169133192,
+      "amountOriginal": 200000000,
+      "currency": "USD",
+      "investors": [
+        "KKR",
+        "Sapphire Ventures",
+        "Citi Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2021/03/24/feedzai-raises-200m-at-a-1b-valuation-for-ai-tools-to-fight-financial-fraud/",
+          "quote": "has announced a Series D of $200 million"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2021/03/24/feedzai-raises-200m-at-a-1b-valuation-for-ai-tools-to-fight-financial-fraud/",
+          "quote": "March 24, 2021"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2021/03/24/feedzai-raises-200m-at-a-1b-valuation-for-ai-tools-to-fight-financial-fraud/",
+          "quote": "has announced a Series D of $200 million"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2021/03/24/feedzai-raises-200m-at-a-1b-valuation-for-ai-tools-to-fight-financial-fraud/",
+          "quote": "The round is being led by KKR, with Sapphire Ventures and strategic backer Citi Ventures"
+        }
+      ]
+    },
+    {
+      "techeuId": "5aba0e25-b2ab-4f83-94ed-3f824c17e27a",
+      "stage": "series-e",
+      "month": "2025-10",
+      "amountEur": 63808065,
+      "amountOriginal": 75000000,
+      "currency": "USD",
+      "postMoneyValuationEur": 1701548409,
+      "investors": [
+        "Lince Capital",
+        "Iberis Capital",
+        "Explorer Investments",
+        "Oxy Capital",
+        "Buenavista Equity Partners"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://siliconangle.com/2025/10/02/feedzai-raises-75m-2b-valuation-secures-key-role-digital-euro-fraud-prevention/",
+          "quote": "it has raised $75 million in new funding on a valuation of more than $2 billion"
+        },
+        {
+          "field": "month",
+          "url": "https://pulse2.com/feedzai-75-million-at-over-2-billion-valuation-raised-to-fight-financial-crime/amp/",
+          "quote": "Oct 8, 2025"
+        },
+        {
+          "field": "investors",
+          "url": "https://siliconangle.com/2025/10/02/feedzai-raises-75m-2b-valuation-secures-key-role-digital-euro-fraud-prevention/",
+          "quote": "The new funding came from Lince Capital, Iberis Capital and Explorer Investments and previous investors Oxy Capital and Buenavista Equity Partners"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "id": "exscientia",
+  "name": "Exscientia",
+  "aliases": [],
+  "domain": "exscientia.ai",
+  "country": "GB",
+  "city": "Dundee",
+  "founded": 2012,
+  "sectors": [
+    "biotech"
+  ],
+  "status": "acquired",
+  "unicorn": true,
+  "lastValuationEur": 2500000000,
+  "founders": [
+    "Andrew Hopkins"
+  ],
+  "difficulty": 2,
+  "techeuId": "EF8F7137-BBEE-4AEA-A879-24169930AD23",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.scottishfinancialnews.com/articles/exscientia-announces-investment-of-up-to-525-million",
+      "quote": "a University of Dundee spin-out"
+    },
+    {
+      "field": "founded",
+      "url": "https://www.uktech.news/news/bill-gates-backed-oxford-drug-developer-raises-525m-funding-led-by-softbank-20210428",
+      "quote": "Founded by Andrew Hopkins in 2012"
+    },
+    {
+      "field": "founders",
+      "url": "https://www.uktech.news/news/bill-gates-backed-oxford-drug-developer-raises-525m-funding-led-by-softbank-20210428",
+      "quote": "Founded by Andrew Hopkins in 2012"
+    },
+    {
+      "field": "sectors",
+      "url": "https://tech.eu/2020/05/26/exscientia-funding/",
+      "quote": "Exscientia applies artificial intelligence to small molecule drug discovery"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://www.labiotech.eu/trends-news/exscientia-drug-discovery-ai/",
+      "quote": "This took the company’s valuation to €2.5B ($2.9B)"
+    },
+    {
+      "field": "valuation",
+      "url": "https://www.labiotech.eu/trends-news/exscientia-drug-discovery-ai/",
+      "quote": "This took the company’s valuation to €2.5B ($2.9B)"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-c",
+      "month": "2020-05",
+      "amountEur": 54669704,
+      "amountOriginal": 60000000,
+      "currency": "USD",
+      "investors": [
+        "Novo Holdings",
+        "Evotec",
+        "Bristol Myers Squibb",
+        "GT Healthcare Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2020/05/26/exscientia-funding/",
+          "quote": "has raised $60 million in a Series C financing round"
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2020/05/26/exscientia-funding/",
+          "quote": "has raised $60 million in a Series C financing round"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2020/05/26/exscientia-funding/",
+          "quote": "UK medtech company Exscientia raises $60 million"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2020/05/26/exscientia-funding/",
+          "quote": "led by a new investor, Denmark's Novo Holdings, with existing investors such as Evotec, Bristol Myers Squibb, and GT Healthcare Capital"
+        }
+      ],
+      "techeuId": "4c66bda4-00c8-4938-e5f7-08d91092c887"
+    },
+    {
+      "stage": "series-c",
+      "month": "2021-03",
+      "amountEur": 83892617,
+      "amountOriginal": 100000000,
+      "currency": "USD",
+      "investors": [
+        "BlackRock"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.uktech.news/news/bill-gates-backed-oxford-drug-developer-raises-525m-funding-led-by-softbank-20210428",
+          "quote": "Back in March, Exscientia secured $100 million (approx £72 million) funding in Series C round managed by BlackRock."
+        },
+        {
+          "field": "stage",
+          "url": "https://www.uktech.news/news/bill-gates-backed-oxford-drug-developer-raises-525m-funding-led-by-softbank-20210428",
+          "quote": "funding in Series C round managed by BlackRock"
+        },
+        {
+          "field": "month",
+          "url": "https://www.uktech.news/news/bill-gates-backed-oxford-drug-developer-raises-525m-funding-led-by-softbank-20210428",
+          "quote": "Back in March, Exscientia secured $100 million"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.uktech.news/news/bill-gates-backed-oxford-drug-developer-raises-525m-funding-led-by-softbank-20210428",
+          "quote": "funding in Series C round managed by BlackRock"
+        }
+      ]
+    },
+    {
+      "stage": "series-d",
+      "month": "2021-04",
+      "amountEur": 186135010,
+      "amountOriginal": 225000000,
+      "currency": "USD",
+      "investors": [
+        "SoftBank Vision Fund 2",
+        "Novo Holdings",
+        "BlackRock",
+        "Mubadala Investment Company",
+        "Farallon Capital",
+        "Casdin Capital",
+        "GT Healthcare Capital",
+        "Marshall Wace",
+        "Pivotal bioVenture Partners",
+        "Laurion Capital",
+        "Hongkou",
+        "Bristol Myers Squibb"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.scottishfinancialnews.com/articles/exscientia-announces-investment-of-up-to-525-million",
+          "quote": "has completed a $225 million Series D funding round"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.scottishfinancialnews.com/articles/exscientia-announces-investment-of-up-to-525-million",
+          "quote": "has completed a $225 million Series D funding round"
+        },
+        {
+          "field": "month",
+          "url": "https://www.scottishfinancialnews.com/articles/exscientia-announces-investment-of-up-to-525-million",
+          "quote": "30 Apr 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.scottishfinancialnews.com/articles/exscientia-announces-investment-of-up-to-525-million",
+          "quote": "Other investors included Mubadala Investment Company, Farallon Capital, Casdin Capital, GT Healthcare Capital, Marshall Wace, Pivotal bioVenture Partners, Laurion Capital, Hongkou and Bristol Myers Squibb."
+        }
+      ]
+    }
+  ]
+}

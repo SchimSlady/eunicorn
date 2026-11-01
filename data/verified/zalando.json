@@ -1,0 +1,52 @@
+{
+  "id": "zalando",
+  "name": "Zalando",
+  "aliases": [],
+  "domain": "zalando.com",
+  "country": "DE",
+  "city": "Berlin",
+  "founded": 2008,
+  "sectors": [
+    "consumer"
+  ],
+  "status": "public",
+  "unicorn": true,
+  "founders": [
+    "Robert Gentz",
+    "David Schneider"
+  ],
+  "difficulty": 1,
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/Zalando",
+      "quote": "Zalando was founded in 2008 by Robert Gentz and David Schneider in Berlin"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Zalando",
+      "quote": "Zalando was founded in 2008 by Robert Gentz and David Schneider in Berlin"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Zalando",
+      "quote": "Zalando was founded in 2008 by Robert Gentz and David Schneider in Berlin"
+    },
+    {
+      "field": "sectors",
+      "url": "https://en.wikipedia.org/wiki/Zalando",
+      "quote": "Zalando SE is a German multinational e-commerce company headquartered in Berlin , specializing in fashion, beauty, and footwear"
+    },
+    {
+      "field": "status",
+      "url": "https://en.wikipedia.org/wiki/Zalando",
+      "quote": "In 2014, Zalando was listed on the Frankfurt Stock Exchange"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://tech.eu/2014/09/29/zalando-final-ipo-price/",
+      "quote": "Zalando sets final IPO price at 21.5 euro per share, valuing the company at €4.9 billion"
+    }
+  ],
+  "rounds": []
+}
