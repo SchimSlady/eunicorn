@@ -9,7 +9,7 @@ export const metadata: Metadata = pageMetadata("Top 10 · EUnicorn", info.descri
 
 export default function Page() {
   return (
-    <main className="mx-auto max-w-md px-4 py-8">
+    <main className="mx-auto max-w-md px-4 py-3">
       <Top10Game />
     </main>
   );

@@ -126,7 +126,7 @@ export function Top10Game() {
   const topFounders = top.founderIds.map((id) => data.people.find((p) => p.id === id)?.name).filter((n): n is string => !!n);
 
   return (
-    <div className="space-y-5">
+    <div className="space-y-3">
       <GameHeader title={TITLE} mode={MODE} difficulty={progress.difficulty} />
       <Announce
         text={
@@ -136,9 +136,10 @@ export function Top10Game() {
         }
       />
 
-      <p className="rounded-2xl bg-eu-blue p-4 text-center font-display text-lg font-bold leading-snug text-white">{round.title}</p>
+      <p className="rounded-2xl bg-eu-blue px-3 py-2 text-center font-display text-base font-bold leading-snug text-white">{round.title}</p>
 
-      <ol className="space-y-1.5">
+      {/* The rows share the screen height left over (about 24rem is taken by the rest), so the whole game fits without scrolling. */}
+      <ol className="space-y-[3px]">
         {round.companyIds.map((id, i) => {
           const c = companies.get(id)!;
           const got = found.includes(id);
@@ -146,14 +147,15 @@ export function Top10Game() {
           return (
             <li
               key={id}
-              className={`flex min-h-12 items-center gap-3 rounded-xl border px-3 py-1.5 ${
+              style={{ height: "clamp(28px, calc((100dvh - 392px) / 10), 44px)" }}
+              className={`flex items-center gap-2.5 rounded-xl border px-2.5 ${
                 got ? "animate-flip-in border-border bg-surface" : shown ? "border-border bg-surface/40 opacity-60" : "border-dashed border-border"
               }`}
             >
-              <span className="w-6 text-right font-display text-lg font-bold text-primary">{i + 1}</span>
+              <span className="w-6 text-right font-display text-base font-bold text-primary">{i + 1}</span>
               {shown ? (
                 <>
-                  <CompanyLogo company={c} size={32} />
+                  <CompanyLogo company={c} size={24} />
                   <span className="min-w-0 flex-1 truncate font-semibold">{c.name}</span>
                   <span className="shrink-0 text-sm tabular-nums text-muted">{formatMetric(c, round.metric)}</span>
                 </>
@@ -161,7 +163,7 @@ export function Top10Game() {
                 // Every empty slot shows its country's flag, like Football 11: on a Europe list it narrows things
                 // down, on a Germany or Sweden list every flag is the same and the clue is gone.
                 <>
-                  <Flag country={c.country} size={28} />
+                  <Flag country={c.country} size={22} />
                   <span className="sr-only">From {countryNames.of(c.country) ?? c.country}</span>
                   <span className="text-sm text-muted">?</span>
                 </>
@@ -172,18 +174,23 @@ export function Top10Game() {
       </ol>
 
       {!done ? (
-        <div className="space-y-3">
-          <CompanySearch companies={data.companies} exclude={new Set(progress.guesses)} onPick={guess} />
-          <div className="flex items-center justify-between text-sm">
-            <span className="text-muted">
-              {found.length}/10 found{wrong > 0 && ` · ${wrong} wrong`}
-            </span>
+        <div className="space-y-2">
+          <div className="flex items-start gap-2">
+            <div className="min-w-0 flex-1">
+              <CompanySearch companies={data.companies} exclude={new Set(progress.guesses)} onPick={guess} />
+            </div>
             <Hints
+              compact
               {...hintState(progress.difficulty, round.hints, progress.hintsUsed)}
               onReveal={() => update({ ...progress, hintsUsed: progress.hintsUsed + 1 })}
             />
           </div>
-          <RevealButton label="Show the list" onConfirm={() => update({ ...progress, gaveUp: true })} />
+          <div className="flex flex-wrap items-center justify-between gap-2 text-sm">
+            <span className="text-muted">
+              {found.length}/10 found{wrong > 0 && ` · ${wrong} wrong`}
+            </span>
+            <RevealButton inline label="Show the list" onConfirm={() => update({ ...progress, gaveUp: true })} />
+          </div>
         </div>
       ) : (
         <div className="space-y-6">
