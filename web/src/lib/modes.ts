@@ -19,7 +19,7 @@ export const MODES: ModeInfo[] = [
     tagline: "Name the ten biggest",
     description: "Name the ten biggest startups in a list, by valuation or money raised.",
     rules: [
-      "Name the ten companies in the list: type a startup, and if it's in the top 10 it lands on its rank.",
+      "Name the ten companies in the list: type a startup, and if it's in the top 10 it lands on its rank. Every empty slot shows the flag of its country.",
       "Every company you find counts. A name that isn't in the list costs you points, and so do hints. Guess as often as you like.",
       "The list comes from our verified database, by last valuation or total raised. Easy lists are Europe or a big country, Medium adds other countries and big sectors, Hard adds smaller sectors and cities.",
       "Easy, Medium and Hard play the same. The level sets how big the list's scope is, and how many hints you get: all on Easy, half on Medium, none on Hard.",

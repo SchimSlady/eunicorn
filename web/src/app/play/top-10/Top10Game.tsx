@@ -9,6 +9,7 @@ import { formatMetric } from "@/lib/format";
 import { shareText as buildShareText } from "@/lib/scoring";
 import type { Top10Puzzle, Top10Round } from "@/lib/top10";
 import { CompanyLogo } from "@/components/CompanyLogo";
+import { Flag } from "@/components/Flag";
 import { CompanySearch } from "@/components/CompanySearch";
 import { BuiltInEuropeCard } from "@/components/BuiltInEuropeCard";
 import { GameIntro } from "@/components/GameIntro";
@@ -22,6 +23,7 @@ import { StatsPanel } from "@/components/StatsPanel";
 import { recordFinish, recordStart } from "@/lib/stats";
 
 const MODE = "top-10";
+const countryNames = new Intl.DisplayNames(["en"], { type: "region" });
 const TITLE = "Top 10";
 const MAX_SCORE = 10;
 
@@ -156,7 +158,13 @@ export function Top10Game() {
                   <span className="shrink-0 text-sm tabular-nums text-muted">{formatMetric(c, round.metric)}</span>
                 </>
               ) : (
-                <span className="text-sm text-muted">?</span>
+                // Every empty slot shows its country's flag, like Football 11: on a Europe list it narrows things
+                // down, on a Germany or Sweden list every flag is the same and the clue is gone.
+                <>
+                  <Flag country={c.country} size={28} />
+                  <span className="sr-only">From {countryNames.of(c.country) ?? c.country}</span>
+                  <span className="text-sm text-muted">?</span>
+                </>
               )}
             </li>
           );
