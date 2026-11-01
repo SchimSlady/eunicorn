@@ -1,16 +1,5 @@
-import type {
-  Company,
-  Dataset,
-  GameMode,
-  GridCriterion,
-  Hint,
-  HigherLowerMetric,
-  HigherLowerPuzzle,
-  ImpostorPuzzle,
-  Puzzle,
-  UnicornGridPuzzle,
-  WhoRaisedThisPuzzle,
-} from "@eunicorn/schema";
+import type { AnyPuzzle, PlayMode, Top10Metric, Top10Puzzle, Top10Round } from "@/lib/top10";
+import type { Company, Dataset, GridCriterion, Hint, HigherLowerMetric, HigherLowerPuzzle, ImpostorPuzzle, UnicornGridPuzzle, WhoRaisedThisPuzzle } from "@eunicorn/schema";
 import { formatUsdAsEur } from "../format";
 import { distinctAnswers } from "../grid";
 
@@ -24,7 +13,7 @@ import { distinctAnswers } from "../grid";
 /** Day 1 of EUnicorn: puzzle numbers count from here. */
 const FIRST_DAY = "2026-11-01";
 
-export function generatePuzzle(mode: GameMode, date: string, data: Dataset, salt?: string): Puzzle | null {
+export function generatePuzzle(mode: PlayMode, date: string, data: Dataset, salt?: string): AnyPuzzle | null {
   // salt (test mode only) varies the puzzle within a day; without it the day decides alone.
   const rng = seeded(salt ? `${date}:${mode}:${salt}` : `${date}:${mode}`);
   const base = { date, number: puzzleNumber(date), hints: [] as Hint[] };
@@ -38,7 +27,78 @@ export function generatePuzzle(mode: GameMode, date: string, data: Dataset, salt
       return higherLower(base, date, companies, rng);
     case "impostor":
       return impostor(base, date, companies, rng);
+    case "top-10":
+      return top10(base, date, companies, rng);
   }
+}
+
+/* ---------- Top 10 ---------- */
+
+/**
+ * Name the ten biggest: by last valuation or total raised (alternating by day), and per level a
+ * wider or narrower field: Easy all of Europe, Medium one country, Hard one sector or city.
+ * A field needs at least 12 companies with the number, and no tie between No. 10 and No. 11.
+ */
+function top10(base: Base, date: string, companies: Company[], rng: Rng): Top10Puzzle | null {
+  const metrics: Top10Metric[] = ["lastValuationUsd", "totalRaisedUsd"];
+  const first = puzzleNumber(date) % 2;
+  for (const metric of [metrics[first], metrics[1 - first]]) {
+    const has = companies.filter((c) => c[metric] != null && c[metric]! > 0);
+    const ranked = (cs: Company[]) => [...cs].sort((a, b) => b[metric]! - a[metric]!);
+    const ok = (cs: Company[]) => {
+      const r = ranked(cs);
+      return r.length >= 12 && r[9][metric]! > r[10][metric]!;
+    };
+    type Field = { scope: string; adjective?: string; cs: Company[] };
+    const countries: Field[] = unique(has.map((c) => c.country)).map((code) => ({ scope: `from ${countryName(code)}`, cs: has.filter((c) => c.country === code) }));
+    const sectors: Field[] = unique(has.flatMap((c) => c.sectors)).map((sec) => ({ scope: "", adjective: sectorAdjective(sec), cs: has.filter((c) => c.sectors.includes(sec)) }));
+    const cities: Field[] = unique(has.map((c) => c.city).filter(Boolean)).map((city) => ({ scope: `in ${city}`, cs: has.filter((c) => c.city === city) }));
+    // Easy: the widest, best-known fields; Medium: other countries and the biggest sectors;
+    // Hard: smaller sectors and cities.
+    const bySize = (fs: Field[]) => fs.filter((f) => ok(f.cs)).sort((a, b) => b.cs.length - a.cs.length);
+    const bigCountries = bySize(countries).slice(0, 3);
+    const bigSectors = bySize(sectors).slice(0, 3);
+    const fields: Record<"easy" | "medium" | "hard", Field[]> = {
+      easy: [
+        { scope: "in Europe", cs: has },
+        { scope: "in Europe founded since 2015", cs: has.filter((c) => c.founded >= 2015) },
+        ...bigCountries,
+      ].filter((f) => ok(f.cs)),
+      medium: [...bySize(countries).slice(3), ...bigSectors],
+      hard: [...bySize(sectors).slice(3), ...bySize(cities)],
+    };
+    if (!ok(has)) continue;
+
+    const variants: Partial<Record<"easy" | "medium" | "hard", Top10Round>> = {};
+    for (const level of ["easy", "medium", "hard"] as const) {
+      const pool = fields[level].length ? fields[level] : fields.medium.length ? fields.medium : fields.easy;
+      const f = pick(pool, rng);
+      const top = ranked(f.cs).slice(0, 10);
+      const who = f.adjective ? `${f.adjective} startups` : "startups";
+      const title =
+        metric === "lastValuationUsd" ? `The 10 most valuable ${who}${f.scope ? ` ${f.scope}` : ""}` : `The 10 ${who}${f.scope ? ` ${f.scope}` : ""} that raised the most`;
+      const k = 3 + Math.floor(rng() * 4); // a middle rank, 4 to 7
+      variants[level] = {
+        title,
+        metric,
+        companyIds: top.map((c) => c.id),
+        hints: [
+          { text: `No. 1 starts with ${top[0].name[0].toUpperCase()}`, cost: 1 },
+          { text: `No. ${k + 1} is based in ${top[k].city}`, cost: 1 },
+          { text: `No. 10 ${metric === "lastValuationUsd" ? "was last valued at" : "has raised"} ${formatUsdAsEur(top[9][metric]!)}`, cost: 1 },
+        ],
+      };
+    }
+    const main = variants.medium ?? variants.easy!;
+    return { ...base, mode: "top-10", ...main, variants };
+  }
+  return null;
+}
+
+/** "AI", "SaaS" stay as they are; "Fintech" -> "fintech" mid-sentence. */
+function sectorAdjective(s: string): string {
+  const l = sectorLabel(s);
+  return /^[A-Z]{2,}|^SaaS$/.test(l) ? l : l.toLowerCase();
 }
 
 type Base = { date: string; number: number; hints: Hint[] };

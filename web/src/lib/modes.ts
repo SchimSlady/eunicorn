@@ -1,7 +1,7 @@
-import type { GameMode } from "@eunicorn/schema";
+import type { PlayMode } from "@/lib/top10";
 
 export interface ModeInfo {
-  mode: GameMode;
+  mode: PlayMode;
   title: string;
   /** One line for the home card. */
   tagline: string;
@@ -17,7 +17,20 @@ export const COMMON_RULES = [
   "Points are shown as money raised. Hints cost what their button says.",
 ];
 
+/** Every mode the web app can run (Who Raised This? is parked but its page still works). */
 export const MODES: ModeInfo[] = [
+  {
+    mode: "top-10",
+    title: "Top 10",
+    tagline: "Name the ten biggest",
+    description: "Name the ten biggest startups in a list, by valuation or money raised. Every wrong name costs a life.",
+    rules: [
+      "Name the ten companies in the list: type a startup, and if it's in the top 10 it lands on its rank.",
+      "Each company found raises €1m. A name that isn't in the list costs a life.",
+      "Easy: all of Europe or a big country, 5 lives. Medium: another country or a big sector, 3 lives. Hard: a smaller sector or a city, 3 lives, no hints.",
+      "The list comes from our verified database, by last valuation or total raised.",
+    ],
+  },
   {
     mode: "who-raised-this",
     title: "Who Raised This?",
@@ -66,4 +79,7 @@ export const MODES: ModeInfo[] = [
   },
 ];
 
-export const MODE_INFO = Object.fromEntries(MODES.map((m) => [m.mode, m])) as Record<GameMode, ModeInfo>;
+export const MODE_INFO = Object.fromEntries(MODES.map((m) => [m.mode, m])) as Record<PlayMode, ModeInfo>;
+
+/** The games on the home page, in order. Who Raised This? waits among the coming-soon games for now. */
+export const LIVE_MODES: ModeInfo[] = (["top-10", "unicorn-grid", "higher-lower", "impostor"] as PlayMode[]).map((m) => MODE_INFO[m]);

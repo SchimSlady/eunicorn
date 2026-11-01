@@ -2,7 +2,7 @@
 
 import { GripVertical, Lock, MapPin } from "lucide-react";
 import { Flag } from "./Flag";
-import { PreviewFrame } from "./ModePreview";
+import { PreviewFrame, WhoRaisedThisPreview } from "./ModePreview";
 
 /**
  * Games that are planned but not playable yet: the same cards as the live modes, greyed out
@@ -11,7 +11,7 @@ import { PreviewFrame } from "./ModePreview";
  */
 const UPCOMING = [
   { id: "connections", title: "Connections", tagline: "Four groups of four", Preview: ConnectionsPreview },
-  { id: "top-10", title: "Top 10", tagline: "Name the ten biggest", Preview: Top10Preview },
+  { id: "who-raised-this", title: "Who Raised This?", tagline: "Guess the startup from its round", Preview: WhoRaisedThisPreview },
   { id: "pin-the-hq", title: "Pin the HQ", tagline: "Find it on the map", Preview: PinTheHqPreview },
   { id: "rank-it", title: "Rank It", tagline: "Put them in order", Preview: RankItPreview },
 ];
@@ -69,34 +69,6 @@ function ConnectionsPreview() {
           <span key={w} className="truncate rounded-md bg-white/15 px-1 py-2 text-center">
             {w}
           </span>
-        ))}
-      </div>
-    </div>
-  );
-}
-
-function Top10Preview() {
-  const rows: Array<{ n: number; logo?: string; name?: string }> = [
-    // Order as in the verified dataset (last valuation): Trade Republic, N26, Alan, Mollie, Qonto.
-    { n: 1, logo: "trade-republic.svg", name: "Trade Republic" },
-    { n: 2, logo: "n26.svg", name: "N26" },
-    { n: 3 },
-    { n: 4, logo: "mollie.png", name: "Mollie" },
-    { n: 5 },
-  ];
-  return (
-    <div className="w-full max-w-[200px] text-[11px]">
-      <p className="mb-1.5 text-center text-[10px] font-semibold uppercase tracking-wide text-eu-yellow">Most valuable fintechs</p>
-      <div className="space-y-1">
-        {rows.map(({ n, logo, name }) => (
-          <div
-            key={n}
-            className={`flex h-6 items-center gap-2 rounded-md px-1.5 ${name ? "bg-white/15" : "border border-dashed border-white/30"}`}
-          >
-            <span className="w-3 text-right font-display font-bold text-eu-yellow">{n}</span>
-            {logo && <Logo file={logo} size={18} />}
-            <span className="font-semibold">{name ?? ""}</span>
-          </div>
         ))}
       </div>
     </div>

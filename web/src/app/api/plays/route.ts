@@ -1,4 +1,5 @@
-import type { GameMode } from "@eunicorn/schema";
+import type { PlayMode } from "@/lib/top10";
+
 import { getPlayStats, insertPlay, type PlayRow } from "@/lib/server/supabase";
 import { todayKey } from "@/lib/daily";
 
@@ -7,17 +8,17 @@ import { todayKey } from "@/lib/daily";
  * stored; the day comes from the server). GET returns today's aggregates for one mode.
  */
 
-const MODES: GameMode[] = ["who-raised-this", "unicorn-grid", "higher-lower", "impostor"];
+const MODES: PlayMode[] = ["who-raised-this", "unicorn-grid", "higher-lower", "impostor", "top-10"];
 const LEVELS = ["easy", "medium", "hard"] as const;
 
 export async function POST(req: Request) {
   const b = (await req.json().catch(() => null)) as Record<string, unknown> | null;
-  if (!b || !MODES.includes(b.mode as GameMode) || !LEVELS.includes(b.difficulty as never)) {
+  if (!b || !MODES.includes(b.mode as PlayMode) || !LEVELS.includes(b.difficulty as never)) {
     return new Response(null, { status: 400 });
   }
   const row: PlayRow = {
     played_on: todayKey(),
-    mode: b.mode as GameMode,
+    mode: b.mode as PlayMode,
     difficulty: b.difficulty as PlayRow["difficulty"],
     event: b.event === "finish" ? "finish" : "start",
   };
@@ -34,7 +35,7 @@ export async function POST(req: Request) {
 }
 
 export async function GET(req: Request) {
-  const mode = new URL(req.url).searchParams.get("mode") as GameMode;
+  const mode = new URL(req.url).searchParams.get("mode") as PlayMode;
   if (!MODES.includes(mode)) return new Response(null, { status: 400 });
   const stats = await getPlayStats(todayKey(), mode);
   if (!stats) return new Response(null, { status: 204 });

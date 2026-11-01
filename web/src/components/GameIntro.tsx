@@ -1,8 +1,10 @@
 "use client";
 
+import type { PlayMode } from "@/lib/top10";
+
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
-import type { GameMode } from "@eunicorn/schema";
+
 import { loadDifficulty, type Difficulty } from "@/lib/difficulty";
 import { MODE_INFO } from "@/lib/modes";
 import { DifficultyPicker } from "./DifficultyPicker";
@@ -10,7 +12,7 @@ import { HowToPlay } from "./HowToPlay";
 import { ModePreview } from "./ModePreview";
 
 /** Before a game: illustration, one-line description, level buttons, Start. */
-export function GameIntro({ mode, onStart }: { mode: GameMode; onStart: (d: Difficulty) => void }) {
+export function GameIntro({ mode, onStart }: { mode: PlayMode; onStart: (d: Difficulty) => void }) {
   const info = MODE_INFO[mode];
   return (
     <div className="space-y-6">

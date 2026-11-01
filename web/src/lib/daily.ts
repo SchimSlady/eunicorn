@@ -1,4 +1,4 @@
-import type { GameMode, Puzzle } from "@eunicorn/schema";
+import type { AnyPuzzle, PlayMode } from "@/lib/top10";
 
 /**
  * Once-a-day lock. OFF while we test (TODO before launch: turn it back on, e.g. with
@@ -10,7 +10,7 @@ import type { GameMode, Puzzle } from "@eunicorn/schema";
 export const DAILY_LOCK = process.env.NEXT_PUBLIC_DAILY_LOCK === "true";
 
 /** Test mode: ask the server for a fresh puzzle per game instead of the day's puzzle. */
-export function puzzleUrl(mode: GameMode): string {
+export function puzzleUrl(mode: PlayMode): string {
   return DAILY_LOCK ? `/api/puzzle/${mode}` : `/api/puzzle/${mode}?rotate=${Math.random().toString(36).slice(2, 10)}`;
 }
 
@@ -22,7 +22,7 @@ export function todayKey(now = new Date()): string {
   return new Intl.DateTimeFormat("en-CA", { timeZone: PUZZLE_TIMEZONE }).format(now);
 }
 
-export async function loadPuzzle<P extends Puzzle>(mode: GameMode, date = todayKey()): Promise<P | null> {
+export async function loadPuzzle<P extends AnyPuzzle>(mode: PlayMode, date = todayKey()): Promise<P | null> {
   const res = await fetch(`/data/puzzles/${date}/${mode}.json`);
   return res.ok ? ((await res.json()) as P) : null;
 }
@@ -31,12 +31,12 @@ export async function loadPuzzle<P extends Puzzle>(mode: GameMode, date = todayK
 const FIXTURE_DATE = "2026-11-01";
 
 /** Today's puzzle from the files in /data, or the fixture day when today has none. */
-export async function loadFilePuzzle<P extends Puzzle>(mode: GameMode): Promise<P | null> {
+export async function loadFilePuzzle<P extends AnyPuzzle>(mode: PlayMode): Promise<P | null> {
   return (await loadPuzzle<P>(mode)) ?? (await loadPuzzle<P>(mode, FIXTURE_DATE));
 }
 
 /** Today's puzzle from wherever it lives (Supabase first), e.g. to read its date on the home page. */
-export async function loadTodayPuzzle<P extends Puzzle>(mode: GameMode): Promise<P | null> {
+export async function loadTodayPuzzle<P extends AnyPuzzle>(mode: PlayMode): Promise<P | null> {
   const live = await fetch(puzzleUrl(mode)).catch(() => null);
   if (live?.status === 200) return (await live.json()) as P;
   return loadFilePuzzle<P>(mode);
@@ -58,7 +58,7 @@ export function msUntilNextPuzzle(now = new Date()): number {
 
 /* ---------- in-progress state, so a reload doesn't reset (or re-roll) today's game ---------- */
 
-export function loadProgress<T>(mode: GameMode, date: string): T | null {
+export function loadProgress<T>(mode: PlayMode, date: string): T | null {
   if (!DAILY_LOCK) return null;
   try {
     return JSON.parse(localStorage.getItem(`eunicorn:${mode}:progress:${date}`) ?? "null");
@@ -67,7 +67,7 @@ export function loadProgress<T>(mode: GameMode, date: string): T | null {
   }
 }
 
-export function saveProgress<T>(mode: GameMode, date: string, state: T): void {
+export function saveProgress<T>(mode: PlayMode, date: string, state: T): void {
   try {
     localStorage.setItem(`eunicorn:${mode}:progress:${date}`, JSON.stringify(state));
   } catch {
@@ -86,9 +86,9 @@ export interface DailyResult {
   share: string;
 }
 
-const key = (mode: GameMode) => `eunicorn:${mode}:results`;
+const key = (mode: PlayMode) => `eunicorn:${mode}:results`;
 
-function readResults(mode: GameMode): DailyResult[] {
+function readResults(mode: PlayMode): DailyResult[] {
   try {
     return JSON.parse(localStorage.getItem(key(mode)) ?? "[]");
   } catch {
@@ -97,7 +97,7 @@ function readResults(mode: GameMode): DailyResult[] {
 }
 
 /** The stored result if the player already finished today's puzzle for this mode. */
-export function getTodayResult(mode: GameMode, date = todayKey()): DailyResult | null {
+export function getTodayResult(mode: PlayMode, date = todayKey()): DailyResult | null {
   if (!DAILY_LOCK) return null;
   return readResults(mode).find((r) => r.date === date) ?? null;
 }
@@ -105,7 +105,7 @@ export function getTodayResult(mode: GameMode, date = todayKey()): DailyResult |
 /** Fired on window after a result is saved, so e.g. the streak in the header updates. */
 export const RESULTS_EVENT = "eunicorn:results";
 
-export function saveResult(mode: GameMode, result: DailyResult): void {
+export function saveResult(mode: PlayMode, result: DailyResult): void {
   const results = readResults(mode).filter((r) => r.date !== result.date);
   try {
     localStorage.setItem(key(mode), JSON.stringify([...results, result]));
@@ -119,7 +119,7 @@ export function saveResult(mode: GameMode, result: DailyResult): void {
  * Consecutive days played up to and including today (or yesterday, if today isn't played yet).
  * One mode, or across all given modes (a day counts if any of them was played).
  */
-export function streak(mode: GameMode | GameMode[], now = new Date()): number {
+export function streak(mode: PlayMode | PlayMode[], now = new Date()): number {
   const modes = Array.isArray(mode) ? mode : [mode];
   const played = new Set(modes.flatMap((m) => readResults(m).map((r) => r.date)));
   const day = new Date(now);

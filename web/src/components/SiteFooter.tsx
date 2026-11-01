@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { Mail } from "lucide-react";
 import { CONTACT_EMAIL, INSTAGRAM } from "@/lib/legal";
-import { MODES } from "@/lib/modes";
+import { LIVE_MODES } from "@/lib/modes";
 import { Wordmark } from "@/components/Wordmark";
 
 const PAGES = [
@@ -41,7 +41,7 @@ export function SiteFooter() {
         <nav aria-label="Quick links">
           <h2 className="text-sm font-semibold text-primary">Quick links</h2>
           <ul className="mt-3 space-y-2 text-sm">
-            {MODES.map((m) => (
+            {LIVE_MODES.map((m) => (
               <li key={m.mode}>
                 <Link href={`/play/${m.mode}`} className={linkStyle}>
                   {m.title}

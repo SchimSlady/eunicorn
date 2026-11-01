@@ -5,7 +5,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Flame } from "lucide-react";
 import { DAILY_LOCK, RESULTS_EVENT, streak } from "@/lib/daily";
-import { MODES } from "@/lib/modes";
+import { LIVE_MODES } from "@/lib/modes";
 import { Wordmark } from "./Wordmark";
 
 /**
@@ -17,7 +17,7 @@ export function SiteHeader() {
   const [days, setDays] = useState(0);
 
   useEffect(() => {
-    const refresh = () => setDays(streak(MODES.map((m) => m.mode)));
+    const refresh = () => setDays(streak(LIVE_MODES.map((m) => m.mode)));
     refresh();
     window.addEventListener(RESULTS_EVENT, refresh);
     return () => window.removeEventListener(RESULTS_EVENT, refresh);

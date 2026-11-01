@@ -1,12 +1,13 @@
+import type { PlayMode } from "@/lib/top10";
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
-import type { GameMode } from "@eunicorn/schema";
+
 import type { Difficulty } from "@/lib/difficulty";
 import { DifficultyBadge } from "./DifficultyBadge";
 import { HowToPlay } from "./HowToPlay";
 
 /** Back link, title, level, and the ? that opens this mode's rules. */
-export function GameHeader({ title, mode, difficulty }: { title: string; mode: GameMode; difficulty?: Difficulty }) {
+export function GameHeader({ title, mode, difficulty }: { title: string; mode: PlayMode; difficulty?: Difficulty }) {
   return (
     <header className="space-y-2">
       <Link href="/" className="inline-flex items-center gap-1 text-sm font-medium text-muted hover:text-primary">
