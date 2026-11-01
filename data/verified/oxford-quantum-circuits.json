@@ -44,6 +44,11 @@
       "field": "status",
       "url": "https://oqc.tech/",
       "quote": "OQC raises $350m in Europe’s largest ever private quantum computing funding round"
+    },
+    {
+      "field": "sectors",
+      "url": "https://en.wikipedia.org/wiki/Oxford_Quantum_Circuits",
+      "quote": "is a British company that develops superconducting quantum computers"
     }
   ],
   "rounds": [

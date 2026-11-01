@@ -11,6 +11,7 @@
   ],
   "status": "acquired",
   "unicorn": true,
+  "lastValuationEur": 6040000000,
   "founders": [
     "José Neves"
   ],
@@ -44,8 +45,13 @@
     },
     {
       "field": "unicorn",
-      "url": "https://en.wikipedia.org/wiki/Farfetch",
-      "quote": "The IPO raised $885 million after the issue of 33.6 million new shares"
+      "url": "https://en.newsroom.eurazeo.com/news/farfetch-valued-at-7-billion-following-its-ipo-on-the-new-york-stock-exchange-8e056-52e2c.html",
+      "quote": "Farfetch valued at $7 billion following its ipo on the New York Stock Exchange"
+    },
+    {
+      "field": "valuation",
+      "url": "https://en.newsroom.eurazeo.com/news/farfetch-valued-at-7-billion-following-its-ipo-on-the-new-york-stock-exchange-8e056-52e2c.html",
+      "quote": "Farfetch valued at $7 billion following its ipo on the New York Stock Exchange"
     }
   ],
   "rounds": [

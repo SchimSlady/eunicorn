@@ -81,3 +81,9 @@ Read this before verifying a company. Each rule came from a real problem in the 
 ## Investors (2026-11-01)
 - **Duplicates are merged through `data/investors/aliases.json`** (same firm or brand: name variants, its own funds, renames). The loader maps names through it; `npx tsx data/scripts/investors.ts` merges existing rows and applies the tiers. Run it after each batch.
 - **Tiers (`data/investors/tiers.json`):** 1 = the 10 biggest VCs, 2 = 50 famous (German and European leaders included), 3 = the next 200 by number of our companies backed, 4 = the rest. No individual angels in tiers 1–2. Games should only clue tier 1–2 investors (maybe tier 3 on hard days).
+
+## Quality pass (2026-11-01)
+- **`npm run validate` now checks every file in `data/verified/`:** required fields, sector and stage lists, allowed source fields, quotes present, amount and month sources on every round, Tech.eu ids not reused, no duplicate domains, and the unicorn rule (unicorn ⇒ `lastValuationEur` ≥ €1bn and a valuation source). Run it before loading.
+- **Unicorn wording:** "over/above €1bn" (euros, or pounds) counts. Store €1bn as the floor. "Over $1bn" without an exact number does not count. Press estimates and undisclosed valuations don't count either (Brevo, Picnic, Isomorphic Labs, EnduroSat and Improbable are not unicorns under the rule).
+- **Excluded companies' files live in `data/excluded/`**, not `data/verified/`, so validation and the loader skip them.
+- **unquote.com and eqtgroup.com rate-limit us.** "Unreachable" from them is usually temporary; prefer TechCrunch, tech.eu or the press release as the source.

@@ -64,6 +64,11 @@
       "field": "logo",
       "url": "https://commons.wikimedia.org/wiki/File:Mollie-Logo-Black-2023.png",
       "quote": "File:Mollie-Logo-Black-2023.png - Wikimedia Commons"
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.mollie.com/en/about",
+      "quote": "Mollie is a financial technology group providing a broad range of financial services and technical products across Europe"
     }
   ],
   "rounds": [

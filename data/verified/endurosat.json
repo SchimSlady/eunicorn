@@ -10,7 +10,7 @@
     "space"
   ],
   "status": "private",
-  "unicorn": true,
+  "unicorn": false,
   "founders": [
     "Raycho Raychev"
   ],
@@ -48,11 +48,6 @@
       "field": "status",
       "url": "https://en.wikipedia.org/wiki/EnduroSat",
       "quote": "Private spaceflight companies"
-    },
-    {
-      "field": "unicorn",
-      "url": "https://www.bta.bg/en/news/1207643-endurosat-becomes-bulgaria-s-second-tech-unicorn-after-payhawk",
-      "quote": "valuation had \"significantly exceeded USD 1 billion"
     },
     {
       "field": "fun_fact",

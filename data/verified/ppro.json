@@ -24,6 +24,11 @@
       "field": "sectors",
       "url": "https://www.koreanewswire.co.kr/newsRead.php?no=920705",
       "quote": "PPRO is the top global provider of local payments infrastructure"
+    },
+    {
+      "field": "founded",
+      "url": "https://siliconcanals.com/ppro-raises-an-additional-76-35m/",
+      "quote": "The company was founded in 2006 by Philipp Bock, Philipp Nieland, and Tobias Schreyer"
     }
   ],
   "rounds": [
@@ -77,7 +82,7 @@
         {
           "field": "month",
           "url": "https://www.americanbanker.com/payments/news/ppro-gains-investment-from-jpmorgan-chase-in-new-90-million-round",
-          "quote": "\"datePublished\":\"2021-03-25T16:24:40.780Z\""
+          "quote": "Published March 25, 2021, 12:24 p.m. EDT"
         },
         {
           "field": "investors",
@@ -111,7 +116,7 @@
         {
           "field": "month",
           "url": "https://www.pymnts.com/news/investment-tracker/2024/paypal-ventures-backed-ppro-raises-93-million-for-local-payments-platform/",
-          "quote": "\"datePublished\":\"2024-03-13T20:09:49+00:00\""
+          "quote": "March 13, 2024"
         },
         {
           "field": "investors",

@@ -10,7 +10,7 @@
     "gaming"
   ],
   "status": "private",
-  "unicorn": true,
+  "unicorn": false,
   "founders": [
     "Herman Narula",
     "Rob Whitehead",
@@ -43,11 +43,6 @@
       "field": "sectors",
       "url": "https://gamedeveloper.com/business/improbable-nets-20m-to-keep-developing-virtual-world-tech",
       "quote": "develop better technology for creating and operating virtual worlds"
-    },
-    {
-      "field": "unicorn",
-      "url": "https://globalventuring.com/blog/2017/05/12/softbank-makes-improbable-investment-in-502m-round/",
-      "quote": "valued the company at more than $1bn"
     }
   ],
   "rounds": [

@@ -43,6 +43,11 @@
       "field": "unicorn",
       "url": "https://it.wikipedia.org/wiki/Satispay",
       "quote": "superando la valutazione di 1 miliardo di euro"
+    },
+    {
+      "field": "valuation",
+      "url": "https://it.wikipedia.org/wiki/Satispay",
+      "quote": "superando la valutazione di 1 miliardo di euro"
     }
   ],
   "rounds": [
@@ -110,5 +115,6 @@
         }
       ]
     }
-  ]
+  ],
+  "lastValuationEur": 1000000000
 }

@@ -11,6 +11,7 @@
   ],
   "status": "private",
   "unicorn": true,
+  "lastValuationEur": 2000000000,
   "founders": [
     "Mario Kohle",
     "Jochen Ziervogel",
@@ -41,13 +42,13 @@
     },
     {
       "field": "unicorn",
-      "url": "https://www.startbase.com/news/enpal-sammelt-215-millionen-euro-ein",
-      "quote": "The company's valuation has now more than doubled from 950 million euros in the extended Series C round"
+      "url": "https://bourse.lavenir.net/communiques/HPB-DE/heliad-equity-partners-gmbh-co-kgaa-enpal-closes-its-series-d-round-with-200-million-in-equity-vgbPT8yIzgb",
+      "quote": "with the company valuation reaching the milestone of €2 billion, pre-money"
     },
     {
       "field": "valuation",
-      "url": "https://www.startbase.com/news/enpal-sammelt-215-millionen-euro-ein",
-      "quote": "The company's valuation has now more than doubled from 950 million euros in the extended Series C round"
+      "url": "https://bourse.lavenir.net/communiques/HPB-DE/heliad-equity-partners-gmbh-co-kgaa-enpal-closes-its-series-d-round-with-200-million-in-equity-vgbPT8yIzgb",
+      "quote": "with the company valuation reaching the milestone of €2 billion, pre-money"
     }
   ],
   "rounds": [

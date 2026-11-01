@@ -11,6 +11,7 @@
   ],
   "status": "public",
   "unicorn": true,
+  "lastValuationEur": 4500000000,
   "founders": [
     "Niklas Östberg",
     "Kolja Hebenstreit",
@@ -47,8 +48,13 @@
     },
     {
       "field": "unicorn",
-      "url": "https://en.wikipedia.org/wiki/Delivery_Hero",
-      "quote": "Delivery Hero's valuation surpasses $5B following successful IPO"
+      "url": "https://techcrunch.com/2017/06/30/delivery-heros-valuation-surpasses-5b-following-successful-ipo/",
+      "quote": "or approximately $5.1 billion"
+    },
+    {
+      "field": "valuation",
+      "url": "https://techcrunch.com/2017/06/30/delivery-heros-valuation-surpasses-5b-following-successful-ipo/",
+      "quote": "or approximately $5.1 billion"
     }
   ],
   "rounds": [

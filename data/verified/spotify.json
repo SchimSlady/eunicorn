@@ -21,6 +21,16 @@
   "wikidataId": "Q689141",
   "sources": [
     {
+      "field": "unicorn",
+      "url": "https://www.business-standard.com/amp/article/reuters/spotify-s-record-setting-direct-listing-makes-it-a-30-billion-company-118040301451_1.html",
+      "quote": "which would value the company at more than $23 billion"
+    },
+    {
+      "field": "valuation",
+      "url": "https://www.business-standard.com/amp/article/reuters/spotify-s-record-setting-direct-listing-makes-it-a-30-billion-company-118040301451_1.html",
+      "quote": "which would value the company at more than $23 billion"
+    },
+    {
       "field": "city",
       "url": "https://en.wikipedia.org/wiki/Spotify",
       "quote": "Headquarters Stockholm"
@@ -41,11 +51,6 @@
       "quote": "It became publicly traded on the New York Stock Exchange in April 2018 through a direct public offering"
     },
     {
-      "field": "unicorn",
-      "url": "https://techcrunch.com/?p=698341",
-      "quote": "Report: Spotify Has Closed A Massive Fifth Round Of Funding That Values It At $3 Billion"
-    },
-    {
       "field": "fun_fact",
       "url": "https://www.howtogeek.com/821019/why-is-it-called-spotify/",
       "quote": "As they were shouting names across rooms, Martin said a name that Daniel misheard as \"Spotify.\""
@@ -54,6 +59,11 @@
       "field": "logo",
       "url": "https://commons.wikimedia.org/wiki/File:2024_Spotify_Logo.svg",
       "quote": "File:2024 Spotify Logo.svg - Wikimedia Commons"
+    },
+    {
+      "field": "sectors",
+      "url": "https://en.wikipedia.org/wiki/Spotify",
+      "quote": "is a Swedish freemium music streaming service provider"
     }
   ],
   "rounds": [
@@ -220,5 +230,6 @@
         }
       ]
     }
-  ]
+  ],
+  "lastValuationEur": 18735286691
 }

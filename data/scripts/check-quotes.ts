@@ -18,7 +18,7 @@ const NAMED: Record<string, string> = {
   ndash: "-", mdash: "-", hellip: "...", euro: "€", pound: "£", eacute: "é", egrave: "è", ecirc: "ê", euml: "ë",
   aacute: "á", agrave: "à", acirc: "â", auml: "ä", aring: "å", ccedil: "ç", iacute: "í", icirc: "î", iuml: "ï",
   oacute: "ó", ocirc: "ô", ouml: "ö", oslash: "ø", uacute: "ú", ugrave: "ù", ucirc: "û", uuml: "ü", ntilde: "ñ",
-  szlig: "ß", aelig: "æ", Eacute: "É", Auml: "Ä", Ouml: "Ö", Uuml: "Ü", Aring: "Å", Oslash: "Ø", laquo: '"', raquo: '"',
+  szlig: "ß", middot: "·", aelig: "æ", Eacute: "É", Auml: "Ä", Ouml: "Ö", Uuml: "Ü", Aring: "Å", Oslash: "Ø", laquo: '"', raquo: '"',
 };
 const decode = (s: string) =>
   s.replace(/&#x([0-9a-f]+);/gi, (_, h) => String.fromCodePoint(parseInt(h, 16)))

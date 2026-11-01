@@ -12,12 +12,12 @@
     "saas"
   ],
   "status": "private",
-  "unicorn": true,
+  "unicorn": false,
   "founders": [
     "Armand Thiberge",
     "Kapil Sharma"
   ],
-  "funFact": "Brevo was known as Sendinblue until it rebranded in 2023, and its 2025 round made it a unicorn while Partech, an investor since 2017, fully exited.",
+  "funFact": "Brevo was known as Sendinblue until it rebranded in 2023, and in its 2025 round Partech, an investor since 2017, fully exited.",
   "difficulty": 4,
   "techeuId": "3F6D4968-6F54-419E-9F9B-416CE79F6800",
   "wikidataId": "Q28484549",
@@ -56,11 +56,6 @@
       "field": "status",
       "url": "https://www.generalatlantic.com/media-article/brevo-europes-leading-customer-engagement-platform-becomes-a-unicorn-following-a-new-e500-million-funding-round/",
       "quote": "Paris, December 4th 2025"
-    },
-    {
-      "field": "unicorn",
-      "url": "https://www.generalatlantic.com/media-article/brevo-europes-leading-customer-engagement-platform-becomes-a-unicorn-following-a-new-e500-million-funding-round/",
-      "quote": "officially becoming a unicorn"
     },
     {
       "field": "fun_fact",

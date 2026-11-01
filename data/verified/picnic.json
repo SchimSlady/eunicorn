@@ -10,7 +10,7 @@
     "consumer"
   ],
   "status": "private",
-  "unicorn": true,
+  "unicorn": false,
   "founders": [
     "Michiel Muller",
     "Joris Beckers",
@@ -41,11 +41,6 @@
       "field": "status",
       "url": "https://tech.eu/2025/11/21/dutch-online-grocery-store-picnic-raises-430m/",
       "quote": "€430 million from existing investors"
-    },
-    {
-      "field": "unicorn",
-      "url": "https://www.failory.com/startups/the-netherlands-unicorns",
-      "quote": "The Remaining Unicorn Founded in The Netherlands"
     },
     {
       "field": "sectors",
