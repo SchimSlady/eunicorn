@@ -1,9 +1,10 @@
-// Applies data/investors/aliases.json (merge duplicate investors) and data/investors/tiers.json (tier 1–4).
+// Applies data/investors/aliases.json (merge duplicate investors), data/investors/tiers.json (tier 1–4)
+// and logo paths (web/public/logos/investors/<id>.svg|png when the file exists).
 // Idempotent: safe to re-run after loading new companies.
 //
 // Run: npx tsx data/scripts/investors.ts            merge + tiers
 //      npx tsx data/scripts/investors.ts --rank     also print the tier-3 ranking (top 200 by companies backed)
-import { readFileSync } from "node:fs";
+import { existsSync, readFileSync, readdirSync } from "node:fs";
 import { join } from "node:path";
 import { connect } from "./db.ts";
 
@@ -37,10 +38,19 @@ for (const t of ["1", "2", "3"] as const) {
     if (!r.rowCount) missing.push(`${t}:${id}`);
   }
 }
+// 3. Logos: /logos/investors/<id>.svg|png when the file exists, else null.
+const logosDir = join(import.meta.dirname, "../../web/public/logos/investors");
+const logoFiles = existsSync(logosDir) ? readdirSync(logosDir).filter((f) => /\.(svg|png)$/.test(f)) : [];
+await db.query("update public.investors set logo = null where logo is not null");
+let logos = 0;
+for (const f of logoFiles) {
+  const r = await db.query("update public.investors set logo = $2 where id = $1", [f.replace(/\.(svg|png)$/, ""), `/logos/investors/${f}`]);
+  if (r.rowCount) logos++; else missing.push(`logo:${f}`);
+}
 await db.query("commit");
 
 const counts = await db.query("select tier, count(*)::int n from public.investors group by tier order by tier");
-console.log(`merged ${merged} duplicates; tiers:`, counts.rows.map((r) => `${r.tier}=${r.n}`).join(" "));
+console.log(`merged ${merged} duplicates; ${logos} logos; tiers:`, counts.rows.map((r) => `${r.tier}=${r.n}`).join(" "));
 if (missing.length) console.log("tier ids not found:", missing.join(", "));
 
 if (process.argv.includes("--rank")) {
