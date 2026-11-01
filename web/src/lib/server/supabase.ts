@@ -1,5 +1,6 @@
 import type { AnyPuzzle, PlayMode } from "@/lib/top10";
 import "server-only";
+import { fetchAll } from "./paged";
 import type { Company, Dataset, Puzzle, Round } from "@eunicorn/schema";
 import { USD_TO_EUR } from "@/lib/format";
 import { generatePuzzle } from "./generate";
@@ -17,7 +18,7 @@ import logoFiles from "./logos.generated.json";
 /** How long a response may be cached. Short, so a new day's puzzle shows up soon after midnight. */
 const REVALIDATE_SECONDS = 300;
 
-async function select<T>(path: string): Promise<T[] | null> {
+async function request<T>(path: string): Promise<T[] | null> {
   const url = process.env.SUPABASE_URL;
   const key = process.env.SUPABASE_PUBLISHABLE_KEY;
   if (!url || !key) return null;
@@ -35,6 +36,16 @@ async function select<T>(path: string): Promise<T[] | null> {
     console.error(`Supabase ${path}:`, err);
     return null;
   }
+}
+
+/**
+ * A query with its own limit (one puzzle) is a single request. Any other is read in full, page by
+ * page: Supabase cuts a response at 1,000 rows, so rounds and investors were arriving incomplete.
+ * Such a path must carry an `order=`.
+ */
+function select<T>(path: string): Promise<T[] | null> {
+  if (/[?&]limit=/.test(path)) return request<T>(path);
+  return fetchAll<T>((offset, limit) => request<T>(`${path}&limit=${limit}&offset=${offset}`));
 }
 
 /* ---------- rows as the database returns them (snake_case, money in EUR) ---------- */
@@ -96,12 +107,12 @@ const ORIGINAL_CURRENCIES = ["EUR", "GBP", "SEK", "CHF"] as const;
 
 export async function getDataset(): Promise<(Omit<Dataset, "rounds"> & { rounds: WebRound[] }) | null> {
   const [companies, totals, rounds, investors, people] = await Promise.all([
-    select<CompanyRow>("companies?select=*,company_founders(person_id)"),
-    select<{ company_id: string; total_raised_eur: number }>("company_totals?select=company_id,total_raised_eur"),
-    select<RoundRow>("rounds?select=*,round_investors(investor_id),round_sources(url)"),
+    select<CompanyRow>("companies?select=*,company_founders(person_id)&order=id"),
+    select<{ company_id: string; total_raised_eur: number }>("company_totals?select=company_id,total_raised_eur&order=company_id"),
+    select<RoundRow>("rounds?select=*,round_investors(investor_id),round_sources(url)&order=id"),
     // "*": the `tier` column (1 = top global VCs ... 4 = everyone else) is read when it exists, without breaking before.
-    select<{ id: string; name: string; domain: string | null; tier?: number | null }>("investors?select=*"),
-    select<{ id: string; name: string }>("people?select=id,name"),
+    select<{ id: string; name: string; domain: string | null; tier?: number | null }>("investors?select=*&order=id"),
+    select<{ id: string; name: string }>("people?select=id,name&order=id"),
   ]);
   if (!companies?.length || !rounds || !investors || !people) return null;
 
