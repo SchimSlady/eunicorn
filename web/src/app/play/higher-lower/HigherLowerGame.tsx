@@ -16,7 +16,6 @@ import { GameHeader } from "@/components/GameHeader";
 import { Announce, GameSkeleton, NoPuzzle } from "@/components/Announce";
 import { Hints, hintState } from "@/components/Hints";
 import { ResultArea } from "@/components/ResultArea";
-import { Leaderboard } from "@/components/Leaderboard";
 import { StatsPanel } from "@/components/StatsPanel";
 import { recordFinish, recordStart } from "@/lib/stats";
 
@@ -190,8 +189,7 @@ export function HigherLowerGame() {
           detail={`${correct} of ${totalRounds} right${progress.hintsUsed ? ` · ${progress.hintsUsed} ${progress.hintsUsed === 1 ? "hint" : "hints"}` : ""}`}
           share={shareText(play, progress, companies)}
           stats={
-            <>
-              <StatsPanel
+            <StatsPanel
               mode={MODE}
               bucket={correct}
               scorePct={maxScore ? (score / maxScore) * 100 : 0}
@@ -199,8 +197,6 @@ export function HigherLowerGame() {
               label={(b) => String(b)}
               axis="Rounds right"
             />
-              <Leaderboard mode={MODE} difficulty={progress.difficulty} scorePct={maxScore ? (score / maxScore) * 100 : 0} hintsUsed={progress.hintsUsed} />
-            </>
           }
         />
         <ul className="space-y-2">
