@@ -62,11 +62,11 @@ function evaluate(p: Play, progress: Progress) {
 }
 
 function shareText(p: Play, progress: Progress): string {
-  const { won, score } = evaluate(p, progress);
+  const { won } = evaluate(p, progress);
   const squares = progress.picks.map((id) => (impostorsOf(p).includes(id) ? "🟩" : "🟥")); // share text, not UI. taste-skill-ignore
   const many = impostorsOf(p).length > 1;
   const summary = won ? `Found ${many ? `all ${impostorsOf(p).length}` : "it"} in ${progress.picks.length} ${progress.picks.length === 1 ? "pick" : "picks"}` : "Missed it";
-  return buildShareText({ number: p.number, modeTitle: TITLE, difficulty: progress.difficulty, hintsUsed: progress.hintsUsed, squares, summary, score, maxScore: MAX_SCORE });
+  return buildShareText({ number: p.number, modeTitle: TITLE, difficulty: progress.difficulty, hintsUsed: progress.hintsUsed, squares, summary });
 }
 
 export function ImpostorGame() {
@@ -220,7 +220,6 @@ export function ImpostorGame() {
           </span>
           <Hints
             {...hintState(progress.difficulty, play.hints, progress.hintsUsed)}
-            maxScore={MAX_SCORE}
             onReveal={() => update({ ...progress, hintsUsed: progress.hintsUsed + 1 })}
           />
         </div>

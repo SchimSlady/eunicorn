@@ -59,10 +59,10 @@ function evaluate(p: WhoRaisedThisPuzzle, progress: Progress) {
 }
 
 function shareText(p: WhoRaisedThisPuzzle, progress: Progress): string {
-  const { won, score } = evaluate(p, progress);
+  const { won } = evaluate(p, progress);
   const squares = progress.guesses.map((id) => (id === p.answerCompanyId ? "🟩" : "🟥")); // share text, not UI. taste-skill-ignore
   const summary = won ? `Got it on guess ${progress.guesses.length}` : progress.gaveUp ? "Gave up" : "Missed it";
-  return buildShareText({ number: p.number, modeTitle: TITLE, difficulty: progress.difficulty, hintsUsed: progress.hintsUsed, squares, summary, score, maxScore: MAX_SCORE });
+  return buildShareText({ number: p.number, modeTitle: TITLE, difficulty: progress.difficulty, hintsUsed: progress.hintsUsed, squares, summary });
 }
 
 export function WhoRaisedThisGame() {
@@ -155,7 +155,6 @@ export function WhoRaisedThisGame() {
             <span className="text-muted">{wrong === 0 ? "No wrong guesses yet" : `${wrong} wrong`}</span>
             <Hints
               {...hintState(progress.difficulty, play.hints, progress.hintsUsed)}
-              maxScore={MAX_SCORE}
               onReveal={() => update({ ...progress, hintsUsed: progress.hintsUsed + 1 })}
             />
           </div>

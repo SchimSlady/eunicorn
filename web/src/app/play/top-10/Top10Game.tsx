@@ -48,7 +48,7 @@ function evaluate(p: Top10Round, progress: Progress) {
 }
 
 function shareText(p: Top10Puzzle, round: Top10Round, progress: Progress): string {
-  const { found, score } = evaluate(round, progress);
+  const { found } = evaluate(round, progress);
   const squares = progress.guesses.map((id) => (round.companyIds.includes(id) ? "🟩" : "🟥")); // share text, not UI. taste-skill-ignore
   return buildShareText({
     number: p.number,
@@ -57,8 +57,6 @@ function shareText(p: Top10Puzzle, round: Top10Round, progress: Progress): strin
     hintsUsed: progress.hintsUsed,
     squares,
     summary: `${found.length} of 10 found`,
-    score,
-    maxScore: MAX_SCORE,
   });
 }
 
@@ -173,7 +171,6 @@ export function Top10Game() {
             </span>
             <Hints
               {...hintState(progress.difficulty, round.hints, progress.hintsUsed)}
-              maxScore={MAX_SCORE}
               onReveal={() => update({ ...progress, hintsUsed: progress.hintsUsed + 1 })}
             />
           </div>

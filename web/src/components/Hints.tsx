@@ -4,7 +4,6 @@ import { useRef, useState } from "react";
 import { Lightbulb } from "lucide-react";
 import type { Hint } from "@eunicorn/schema";
 import { hintLimit, type Difficulty } from "@/lib/difficulty";
-import { formatPoints } from "@/lib/scoring";
 import { Sheet } from "./Sheet";
 
 /** What a level offers of a hint list: whether any hint is on offer, those used so far, and the next one. */
@@ -23,13 +22,11 @@ export function Hints({
   revealed,
   next,
   onReveal,
-  maxScore,
 }: {
   available: boolean;
   revealed: Hint[];
   next: Hint | undefined;
   onReveal: () => void;
-  maxScore: number;
 }) {
   const [open, setOpen] = useState(false);
   const button = useRef<HTMLButtonElement>(null);
@@ -71,13 +68,14 @@ export function Hints({
               ))}
             </ul>
           )}
+          {next && <p className="text-sm text-muted">A hint lowers your score.</p>}
           {next ? (
             <button
               type="button"
               onClick={onReveal}
               className="min-h-11 w-full rounded-full border border-border bg-surface px-4 font-semibold hover:border-primary"
             >
-              Reveal next hint <span className="text-muted">−{formatPoints(next.cost, maxScore)}</span>
+              Reveal next hint
             </button>
           ) : (
             revealed.length > 0 && <p className="text-center text-sm text-muted">No more hints.</p>

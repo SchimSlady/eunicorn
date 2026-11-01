@@ -100,10 +100,10 @@ function evaluate(p: HigherLowerPuzzle, progress: Progress, companies: Map<strin
 }
 
 function shareText(p: HigherLowerPuzzle, progress: Progress, companies: Map<string, Company>): string {
-  const { rounds, score, correct, totalRounds, maxScore } = evaluate(p, progress, companies);
+  const { rounds, correct, totalRounds } = evaluate(p, progress, companies);
   const squares = rounds.filter((r) => r.answer !== undefined).map((r) => (r.correct ? "🟩" : "🟥")); // share text, not UI. taste-skill-ignore
   const summary = `${correct} of ${totalRounds} right`;
-  return buildShareText({ number: p.number, modeTitle: TITLE, difficulty: progress.difficulty, hintsUsed: progress.hintsUsed, squares, summary, score, maxScore });
+  return buildShareText({ number: p.number, modeTitle: TITLE, difficulty: progress.difficulty, hintsUsed: progress.hintsUsed, squares, summary });
 }
 
 export function HigherLowerGame() {
@@ -320,7 +320,6 @@ export function HigherLowerGame() {
         <div className="flex justify-end">
           <Hints
             {...hintState(progress.difficulty, play.hints, progress.hintsUsed)}
-            maxScore={maxScore}
             onReveal={() => update({ ...progress, hintsUsed: progress.hintsUsed + 1 })}
           />
         </div>

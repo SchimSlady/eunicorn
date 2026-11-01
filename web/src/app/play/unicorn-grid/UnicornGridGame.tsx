@@ -6,7 +6,7 @@ import type { Company, Dataset, GridCriterion, Hint, UnicornGridPuzzle } from "@
 import { indexById, loadGame } from "@/lib/data";
 import { getTodayResult, loadProgress, saveProgress, saveResult } from "@/lib/daily";
 import { saveDifficulty, type Difficulty } from "@/lib/difficulty";
-import { formatPoints, shareText as buildShareText } from "@/lib/scoring";
+import { shareText as buildShareText } from "@/lib/scoring";
 import { CompanyLogo } from "@/components/CompanyLogo";
 import { sectorLabel } from "@/lib/format";
 import { distinctAnswers } from "@/lib/grid";
@@ -69,7 +69,7 @@ interface Progress {
 }
 
 /**
- * A square is worth the company's difficulty (1 = everyone knows it, 5 = insider) in €M,
+ * A square is worth the company's difficulty (1 = everyone knows it, 5 = insider) in points,
  * so lesser-known answers raise more. Max = the most obscure valid answer for every square.
  */
 function evaluate(p: UnicornGridPuzzle, progress: Progress, companies: Map<string, Company>) {
@@ -89,10 +89,10 @@ function evaluate(p: UnicornGridPuzzle, progress: Progress, companies: Map<strin
 }
 
 function shareText(p: UnicornGridPuzzle, progress: Progress, companies: Map<string, Company>): string {
-  const { score, hintsUsed, filled, maxScore } = evaluate(p, progress, companies);
+  const { hintsUsed, filled } = evaluate(p, progress, companies);
   const squares = progress.cells.map((id, i) => (id ? "🟩" : "⬜") + (i % 3 === 2 && i < 8 ? "\n" : "")); // share text, not UI. taste-skill-ignore
   const summary = `${filled} of 9 squares`;
-  return buildShareText({ number: p.number, modeTitle: TITLE, difficulty: progress.difficulty, hintsUsed, squares, summary, score, maxScore });
+  return buildShareText({ number: p.number, modeTitle: TITLE, difficulty: progress.difficulty, hintsUsed, squares, summary });
 }
 
 /** Country labels carry an emoji flag in the data; the UI shows an SVG flag instead. */
@@ -253,11 +253,6 @@ export function UnicornGridGame() {
                       </div>
                       {/* The name gets the full width on up to two lines; the reward sits in the corner. */}
                       <span className="line-clamp-2 px-0.5 text-center text-[11px] font-semibold leading-tight">{shown.name}</span>
-                      {c && (
-                        <span className="absolute -right-1.5 -top-1.5 z-10 rounded-full bg-correct px-1.5 py-0.5 text-[11px] font-bold leading-none text-white">
-                          +{formatPoints(worth(c.id), maxScore)}
-                        </span>
-                      )}
                     </>
                   )}
                 </button>
@@ -289,7 +284,6 @@ export function UnicornGridGame() {
               <div className="flex justify-end">
                 <Hints
                   {...hintState(progress.difficulty, hintsFor(puzzle, progress.cells, sel, companies), progress.cellHints[sel])}
-                  maxScore={maxScore}
                   onReveal={() => {
                     const cellHints = [...progress.cellHints];
                     cellHints[sel] += 1;
