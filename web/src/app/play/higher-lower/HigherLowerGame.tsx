@@ -6,7 +6,7 @@ import type { Company, Dataset, HigherLowerPuzzle } from "@eunicorn/schema";
 import { indexById, loadGame } from "@/lib/data";
 import { getTodayResult, loadProgress, saveProgress, saveResult } from "@/lib/daily";
 import { saveDifficulty, type Difficulty } from "@/lib/difficulty";
-import { METRIC_META, formatMetric } from "@/lib/format";
+import { formatMetric } from "@/lib/format";
 import { shareText as buildShareText } from "@/lib/scoring";
 import { CompanyLogo } from "@/components/CompanyLogo";
 import { BuiltInEuropeCard } from "@/components/BuiltInEuropeCard";
@@ -40,11 +40,11 @@ function atLevel(p: Puzzle, d: Difficulty): HigherLowerPuzzle {
 }
 
 /** How the two panels phrase the metric. */
-const PHRASE: Record<HigherLowerPuzzle["metric"], { has: string; than: (name: string) => string }> = {
-  lastValuationUsd: { has: "was last valued at", than: (n) => `valuation than ${n}` },
-  totalRaisedUsd: { has: "has raised", than: (n) => `raised than ${n}` },
-  founded: { has: "was founded in", than: (n) => `founding year than ${n}` },
-  employees: { has: "has", than: (n) => `employees than ${n}` },
+const PHRASE: Record<HigherLowerPuzzle["metric"], { has: string }> = {
+  lastValuationUsd: { has: "was last valued at" },
+  totalRaisedUsd: { has: "has raised" },
+  founded: { has: "was founded in" },
+  employees: { has: "has" },
 };
 
 type Call = "higher" | "lower";
@@ -151,7 +151,6 @@ export function HigherLowerGame() {
   if (puzzle === undefined || !data) return <GameSkeleton />;
   if (puzzle === null) return <NoPuzzle />;
 
-  const meta = METRIC_META[puzzle.metric];
   const phrase = PHRASE[puzzle.metric];
 
   // No progress yet: choose the level first. The game is set up from that choice.
@@ -266,61 +265,60 @@ export function HigherLowerGame() {
 
       {/* Two panels: side by side on wide screens, top and bottom on phones, VS in the middle. */}
       <div key={`${round.previous}-${round.next}`} className="grid overflow-hidden rounded-3xl text-white md:grid-cols-2">
-        <Panel company={prev} tone="bg-eu-blue">
+        <Panel company={prev} tone="bg-eu-blue pb-7 md:pb-8">
           <span className="text-sm text-white/70">{phrase.has}</span>
-          <span className="font-display text-4xl font-bold text-eu-yellow sm:text-5xl">{formatMetric(prev, play.metric)}</span>
+          <span className="font-display text-3xl font-bold text-eu-yellow sm:text-5xl">{formatMetric(prev, play.metric)}</span>
         </Panel>
 
-        <Panel company={next} tone="relative bg-[#00205e] pt-12 md:pt-8">
+        <Panel company={next} tone="relative bg-[#00205e] pt-7 md:pt-8">
           {/* On the boundary between the panels: top edge on phones, left edge side by side. */}
-          <span className="absolute left-1/2 top-0 z-10 flex h-14 w-14 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full bg-white font-display text-lg font-bold text-eu-blue shadow-lg md:left-0 md:top-1/2">
+          <span className="absolute left-1/2 top-0 z-10 flex h-11 w-11 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full bg-white font-display text-base font-bold text-eu-blue shadow-lg md:left-0 md:top-1/2 md:h-14 md:w-14 md:text-lg">
             VS
           </span>
           {reviewing ? (
             <>
-              <span className="text-sm text-white/70">{phrase.has}</span>
-              <span className="animate-flip-in font-display text-4xl font-bold text-eu-yellow sm:text-5xl">{formatMetric(next, play.metric)}</span>
-              <span
-                className={`mt-1 flex animate-pop items-center gap-1.5 rounded-full px-3 py-1 text-sm font-semibold ${
-                  round.correct ? "bg-correct" : "bg-wrong"
-                }`}
+              {/* The value and whether the call was right, on one line. */}
+              <div className="mt-1 flex items-center gap-2.5">
+                <span className="animate-flip-in font-display text-3xl font-bold text-eu-yellow sm:text-5xl">{formatMetric(next, play.metric)}</span>
+                <span
+                  className={`flex animate-pop items-center gap-1 rounded-full px-2.5 py-1 text-sm font-semibold ${
+                    round.correct ? "bg-correct" : "bg-wrong"
+                  }`}
+                >
+                  {round.correct ? <Check size={16} aria-hidden /> : <X size={16} aria-hidden />}
+                  {round.correct ? "Right" : "Wrong"}
+                </span>
+              </div>
+              <button
+                type="button"
+                autoFocus
+                onClick={() => setReviewing(false)}
+                className="mt-2 w-full max-w-56 rounded-full bg-primary px-4 py-2.5 font-semibold text-on-primary transition active:scale-[0.98]"
               >
-                {round.correct ? <Check size={16} aria-hidden /> : <X size={16} aria-hidden />}
-                {round.correct ? "Right" : "Wrong"}
-              </span>
+                {done ? "See result" : "Next company"}
+              </button>
             </>
           ) : (
             <>
-              <div className="mt-1 flex w-full max-w-56 flex-col gap-2">
+              <div className="mt-1 grid w-full grid-cols-2 gap-2 sm:max-w-56 sm:grid-cols-1">
                 {(["higher", "lower"] as const).map((call) => (
                   <button
                     key={call}
                     type="button"
                     onClick={() => answer(call)}
-                    className="flex items-center justify-center gap-2 rounded-full border-2 border-white/80 px-4 py-2.5 font-semibold capitalize text-eu-yellow transition hover:bg-white/10 active:scale-[0.98]"
+                    className="flex items-center justify-center gap-1.5 rounded-full border-2 border-white/80 px-3 py-2.5 font-semibold capitalize text-eu-yellow transition hover:bg-white/10 active:scale-[0.98]"
                   >
                     {call} {call === "higher" ? <ArrowUp size={18} aria-hidden /> : <ArrowDown size={18} aria-hidden />}
                   </button>
                 ))}
               </div>
-              <span className="text-sm text-white/70">{phrase.than(prev.name)}</span>
             </>
           )}
         </Panel>
 
       </div>
 
-      <p className="text-center text-xs text-muted">{meta.label}, in euros</p>
-
-      {reviewing ? (
-        <button
-          type="button"
-          onClick={() => setReviewing(false)}
-          className="w-full rounded-full bg-primary px-4 py-3 font-semibold text-on-primary transition active:scale-[0.98]"
-        >
-          {done ? "See result" : "Next company"}
-        </button>
-      ) : (
+      {!reviewing && (
         <div className="flex justify-end">
           <Hints
             {...hintState(progress.difficulty, play.hints, progress.hintsUsed)}
@@ -335,9 +333,9 @@ export function HigherLowerGame() {
 /** One half of the board: the company big, then whatever the round shows below it. */
 function Panel({ company, tone, children }: { company: Company; tone: string; children: React.ReactNode }) {
   return (
-    <div className={`flex min-h-64 flex-col items-center justify-center gap-1.5 px-6 py-8 text-center md:min-h-96 md:px-12 ${tone}`}>
-      <CompanyLogo company={company} size={64} />
-      <span className={`mt-2 font-display font-bold leading-tight ${company.name.length > 16 ? "text-xl sm:text-2xl" : "text-2xl sm:text-3xl"}`}>
+    <div className={`flex flex-col items-center justify-center gap-1 px-4 py-4 text-center md:min-h-96 md:gap-1.5 md:px-12 md:py-8 ${tone}`}>
+      <CompanyLogo company={company} size={52} />
+      <span className={`mt-1 font-display font-bold leading-tight md:mt-2 ${company.name.length > 16 ? "text-xl sm:text-2xl" : "text-2xl sm:text-3xl"}`}>
         {company.name}
       </span>
       <span className="flex items-center gap-1.5 text-xs text-white/60">
