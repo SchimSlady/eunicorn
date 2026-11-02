@@ -45,6 +45,11 @@
       "field": "status",
       "url": "https://en.wikipedia.org/wiki/Lighthouse_(company)",
       "quote": "Type Private company"
+    },
+    {
+      "field": "valuation",
+      "url": "https://techcrunch.com/2024/11/21/lighthouse-an-analytics-provider-for-the-hospitality-sector-lights-up-with-370m-at-a-1b-valuation",
+      "quote": "Lighthouse, an analytics provider for the hospitality sector, lights up with $370M at a $1B valuation"
     }
   ],
   "rounds": [
@@ -81,5 +86,6 @@
         }
       ]
     }
-  ]
+  ],
+  "lastValuationEur": 950000000
 }

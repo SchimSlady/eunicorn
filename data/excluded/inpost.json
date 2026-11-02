@@ -1,0 +1,116 @@
+{
+  "id": "inpost",
+  "name": "InPost",
+  "aliases": [
+    "Integer.pl",
+    "Paczkomaty"
+  ],
+  "domain": "inpost.eu",
+  "country": "PL",
+  "city": "Krakow",
+  "founded": 2006,
+  "sectors": [
+    "mobility"
+  ],
+  "status": "acquired",
+  "unicorn": true,
+  "lastValuationEur": 7800000000,
+  "founders": [
+    "Rafał Brzoska"
+  ],
+  "funFact": "InPost grew out of a leaflet-distribution business that Rafał Brzoska founded in 1999, before it introduced the Paczkomat parcel lockers in 2009.",
+  "difficulty": 3,
+  "techeuId": "1FF77822-38B0-4DB4-9D7E-89B684C092DD",
+  "wikidataId": "Q3182097",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/InPost",
+      "quote": "is based in Kraków, Poland."
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/InPost",
+      "quote": "Founded in 2006 in Poland by Rafał Brzoska."
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/InPost",
+      "quote": "Founded in 2006 in Poland by Rafał Brzoska."
+    },
+    {
+      "field": "founders",
+      "url": "https://inpost.eu/who-we-are/our-history",
+      "quote": "Integer.pl Group was established by Rafał Brzoska"
+    },
+    {
+      "field": "sectors",
+      "url": "https://en.wikipedia.org/wiki/InPost",
+      "quote": "self-service machines for receiving and sending parcels"
+    },
+    {
+      "field": "status",
+      "url": "https://pulse2.com/inpost-fedex-and-advent-led-consortium-completes-e7-8-billion-buyout-after-securing-89-8-of-shares/",
+      "quote": "Approximately 89.81% of InPost shares were tendered by the September 18 deadline"
+    },
+    {
+      "field": "status",
+      "url": "https://live.euronext.com/nl/listview/company-press-release/252435?page=0",
+      "quote": "Settlement of InPost Offer has successfully taken place"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://pulse2.com/inpost-fedex-and-advent-led-consortium-completes-e7-8-billion-buyout-after-securing-89-8-of-shares/",
+      "quote": "the €7.8 billion ($8.9 billion) acquisition"
+    },
+    {
+      "field": "valuation",
+      "url": "https://pulse2.com/inpost-fedex-and-advent-led-consortium-completes-e7-8-billion-buyout-after-securing-89-8-of-shares/",
+      "quote": "€15.60 in cash for each InPost share"
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://inpost.eu/who-we-are/our-history",
+      "quote": "Integer.pl Group was established by Rafał Brzoska as a company dealing with the distribution of leaflets"
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://inpost.eu/who-we-are/our-history",
+      "quote": "Introduction of InPost Parcel Lockers (Paczkomat)"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-a",
+      "month": "2012-04",
+      "amountEur": 50000000,
+      "amountOriginal": 50000000,
+      "currency": "EUR",
+      "investors": [
+        "PineBridge Investments"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://postandparcel.info/47252/news/inpost-parcel-terminal-roll-out-attracts-e50m-equity-funding",
+          "quote": "€50m equity funding"
+        },
+        {
+          "field": "stage",
+          "url": "https://postandparcel.info/47252/news/inpost-parcel-terminal-roll-out-attracts-e50m-equity-funding",
+          "quote": "to provide growth equity for the regional development of this very successful Polish company"
+        },
+        {
+          "field": "month",
+          "url": "https://postandparcel.info/47252/news/inpost-parcel-terminal-roll-out-attracts-e50m-equity-funding",
+          "quote": "Apr 24, 2012"
+        },
+        {
+          "field": "investors",
+          "url": "https://postandparcel.info/47252/news/inpost-parcel-terminal-roll-out-attracts-e50m-equity-funding",
+          "quote": "US alternative investment group PineBridge Investments"
+        }
+      ]
+    }
+  ]
+}

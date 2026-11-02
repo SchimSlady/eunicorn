@@ -106,3 +106,4 @@ Read this before verifying a company. Each rule came from a real problem in the 
 - Round 2 (the other 228): 25 more updated or newly valued (Odoo €7bn secondary, Neko Health $7bn, Zepz $5bn, Pleo $4.7bn, GoStudent $3.5bn, Starling £1.7bn founder sale). Not counted: majority-stake purchases (Pipedrive, Nexthink, effectively acquisition prices), convertible rounds (Isar), "less than £X" bounds (Gousto). "Over $1bn" floors convert to under €1bn, so not unicorns (sennder, Scandit, PPRO).
 - A newly valued unicorn needs a `unicorn` source too: reuse the valuation source.
 - The session's WebSearch budget (~200 calls) runs out with 12 parallel agents: ~100 of the 228 were not researched (list in the PR). Run at most ~5 agents per session, or spread batches over time.
+- WebSearch is capped at 200 calls per **session** (CLAUDE_CODE_MAX_WEB_SEARCHES_PER_SESSION), not per hour. A big research pass needs a fresh session or a higher cap.

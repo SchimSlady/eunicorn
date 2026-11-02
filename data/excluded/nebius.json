@@ -1,0 +1,59 @@
+{
+  "id": "nebius",
+  "name": "Nebius",
+  "aliases": ["Nebius Group", "Yandex N.V."],
+  "domain": "nebius.com",
+  "country": "NL",
+  "city": "Amsterdam",
+  "founded": 2007,
+  "sectors": ["ai"],
+  "status": "public",
+  "unicorn": true,
+  "founders": ["Arkady Volozh"],
+  "funFact": "Nebius is the former Yandex N.V.: in 2024 it sold its Russian assets for $5.3 billion and, after being suspended since February 2022, resumed trading on Nasdaq in October 2024.",
+  "difficulty": 3,
+  "techeuId": "8bab6fdc-b026-4fae-a670-3f499e5f3d9b",
+  "wikidataId": "Q47120756",
+  "sources": [
+    { "field": "city", "url": "https://nebius.com/newsroom/nebius-announces-oversubscribed-strategic-equity-financing-of-usd-700-million-to-accelerate-roll-out-of-full-stack-ai-infrastructure", "quote": "Amsterdam, December 2, 2024" },
+    { "field": "founded", "url": "https://en.wikipedia.org/wiki/Nebius", "quote": "Yandex N.V. was registered as the Dutch parent company in 2007" },
+    { "field": "founders", "url": "https://nebius.com/newsroom/nebius-announces-oversubscribed-strategic-equity-financing-of-usd-700-million-to-accelerate-roll-out-of-full-stack-ai-infrastructure", "quote": "Arkady Volozh, founder and CEO" },
+    { "field": "founders", "url": "https://en.wikipedia.org/wiki/Yandex", "quote": "Yandex was founded by Arkady Volozh and launched its first product, a search engine, in 1997." },
+    { "field": "sectors", "url": "https://nebius.com/newsroom/nebius-announces-oversubscribed-strategic-equity-financing-of-usd-700-million-to-accelerate-roll-out-of-full-stack-ai-infrastructure", "quote": "full stack AI infrastructure" },
+    { "field": "status", "url": "https://en.wikipedia.org/wiki/Nebius", "quote": "traded on Nasdaq as NBIS" },
+    { "field": "unicorn", "url": "https://en.wikipedia.org/wiki/Nebius", "quote": "Nasdaq-100 component" },
+    { "field": "fun_fact", "url": "https://en.wikipedia.org/wiki/Yandex", "quote": "sold its Russian assets to a group of Russian investors for a discounted price of US$5.3 billion" },
+    { "field": "fun_fact", "url": "https://en.wikipedia.org/wiki/Nebius", "quote": "It resumed Nasdaq trading in October 2024 after its securities had been suspended in February 2022." }
+  ],
+  "rounds": [
+    {
+      "techeuId": "8969eaa5-feef-41cf-bbfe-b074f7b51a95",
+      "stage": "series-f+",
+      "month": "2024-12",
+      "amountEur": 666220000,
+      "amountOriginal": 700000000,
+      "currency": "USD",
+      "investors": ["Accel", "NVIDIA", "Orbis Investments"],
+      "sources": [
+        { "field": "amount", "url": "https://nebius.com/newsroom/nebius-announces-oversubscribed-strategic-equity-financing-of-usd-700-million-to-accelerate-roll-out-of-full-stack-ai-infrastructure", "quote": "USD 700 million" },
+        { "field": "stage", "url": "https://nebius.com/newsroom/nebius-announces-oversubscribed-strategic-equity-financing-of-usd-700-million-to-accelerate-roll-out-of-full-stack-ai-infrastructure", "quote": "private placement" },
+        { "field": "month", "url": "https://nebius.com/newsroom/nebius-announces-oversubscribed-strategic-equity-financing-of-usd-700-million-to-accelerate-roll-out-of-full-stack-ai-infrastructure", "quote": "December 2, 2024" },
+        { "field": "investors", "url": "https://nebius.com/newsroom/nebius-announces-oversubscribed-strategic-equity-financing-of-usd-700-million-to-accelerate-roll-out-of-full-stack-ai-infrastructure", "quote": "Accel, NVIDIA, and certain accounts managed by Orbis Investments" }
+      ]
+    },
+    {
+      "stage": "series-f+",
+      "month": "2026-03",
+      "amountEur": 1727060000,
+      "amountOriginal": 2000000000,
+      "currency": "USD",
+      "investors": ["NVIDIA"],
+      "sources": [
+        { "field": "amount", "url": "https://thenextweb.com/news/nvidia-invests-2-billion-in-nebius", "quote": "NVIDIA will invest $2 billion in the Amsterdam-based AI cloud company through a private placement" },
+        { "field": "stage", "url": "https://thenextweb.com/news/nvidia-invests-2-billion-in-nebius", "quote": "private placement of pre-funded warrants for 21,065,936 Class A shares" },
+        { "field": "month", "url": "https://en.wikipedia.org/wiki/Nebius", "quote": "On 11 March 2026, Nvidia announced it \"will invest $2 billion in Nebius.\"" },
+        { "field": "investors", "url": "https://en.wikipedia.org/wiki/Nebius", "quote": "will invest $2 billion in Nebius" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "id-finance",
+  "name": "ID Finance",
+  "aliases": [
+    "Plazo"
+  ],
+  "domain": "idfinance.com",
+  "country": "ES",
+  "city": "Barcelona",
+  "founded": 2012,
+  "sectors": [
+    "fintech"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Boris Batine",
+    "Alexander Dunaev"
+  ],
+  "funFact": "ID Finance was set up in 2012 by two former Deutsche Bank bankers and formally split from its CIS and Eastern Europe operations in 2018, which became IDF Eurasia.",
+  "difficulty": 4,
+  "techeuId": "27DD4BDA-BE60-4BE9-B1F5-DCB5ADE5FFC7",
+  "wikidataId": "Q30633368",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/ID_Finance",
+      "quote": "headquartered in Barcelona"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/ID_Finance",
+      "quote": "founded in 2012 by Boris Batine and Alexander Dunaev"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/ID_Finance",
+      "quote": "founded in 2012 by Boris Batine and Alexander Dunaev"
+    },
+    {
+      "field": "sectors",
+      "url": "https://techfundingnews.com/id-finance-raises-545m-debt-equity-plazo-bnpl-spain-eu-rules/",
+      "quote": "In 2012, two former Deutsche Bank bankers set up an online lending business."
+    },
+    {
+      "field": "status",
+      "url": "https://en.wikipedia.org/wiki/ID_Finance",
+      "quote": "Private"
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://techfundingnews.com/id-finance-raises-545m-debt-equity-plazo-bnpl-spain-eu-rules/",
+      "quote": "In 2012, two former Deutsche Bank bankers set up an online lending business."
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://en.wikipedia.org/wiki/ID_Finance",
+      "quote": "formally split from its CIS region and Eastern Europe operations"
+    }
+  ],
+  "rounds": []
+}

@@ -1,0 +1,90 @@
+{
+  "id": "auto1",
+  "name": "Auto1",
+  "aliases": [
+    "AUTO1 Group"
+  ],
+  "domain": "auto1-group.com",
+  "country": "DE",
+  "city": "Berlin",
+  "founded": 2012,
+  "sectors": [
+    "mobility"
+  ],
+  "status": "public",
+  "unicorn": true,
+  "lastValuationEur": 2900000000,
+  "founders": [
+    "Christian Bertermann"
+  ],
+  "difficulty": 3,
+  "techeuId": "35AFD18D-4520-428B-BCD8-94F725AE792E",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://tech.eu/2018/01/14/auto1-softbank-funding/",
+      "quote": "The Berlin-based company develops a platform for buying and selling used cars."
+    },
+    {
+      "field": "founded",
+      "url": "https://auto1-group.com/press/pressrelease/softbank/",
+      "quote": "Founded in 2012, AUTO1 Group is Europe’s leading multi-sided platform for the used car sector."
+    },
+    {
+      "field": "founders",
+      "url": "https://www.unquote.com/dach/official-record/3008216/softbank-invests-eur460m-in-auto1",
+      "quote": "Founded in 2012 by entrepreneur Christian Bertermann"
+    },
+    {
+      "field": "sectors",
+      "url": "https://auto1-group.com/press/pressrelease/softbank/",
+      "quote": "Europe’s leading multi-sided platform for the used car sector"
+    },
+    {
+      "field": "status",
+      "url": "https://www.unquote.com/dach/official-record/3022748/vc-backed-auto1-completes-ipo",
+      "quote": "Shares began trading on 4 February at €55 apiece"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://auto1-group.com/press/pressrelease/softbank/",
+      "quote": "values AUTO1 at €2.9 billion"
+    },
+    {
+      "field": "valuation",
+      "url": "https://auto1-group.com/press/pressrelease/softbank/",
+      "quote": "values AUTO1 at €2.9 billion"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "48841475-a2aa-41ef-e39a-08d91092c887",
+      "stage": "series-e",
+      "month": "2018-01",
+      "amountEur": 460000000,
+      "amountOriginal": 460000000,
+      "currency": "EUR",
+      "postMoneyValuationEur": 2900000000,
+      "investors": [
+        "SoftBank Vision Fund"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://auto1-group.com/press/pressrelease/softbank/",
+          "quote": "today announced a €460 million investment by SoftBank Vision Fund"
+        },
+        {
+          "field": "month",
+          "url": "https://auto1-group.com/press/pressrelease/softbank/",
+          "quote": "Berlin, 15. January 2018"
+        },
+        {
+          "field": "investors",
+          "url": "https://auto1-group.com/press/pressrelease/softbank/",
+          "quote": "today announced a €460 million investment by SoftBank Vision Fund"
+        }
+      ]
+    }
+  ]
+}

@@ -52,6 +52,11 @@
       "field": "fun_fact",
       "url": "https://en.wikipedia.org/wiki/Agile_Robots",
       "quote": "In November 2023 Agile Robots acquired the Munich-based robotics company Franka Emika, which had filed for insolvency earlier that year."
+    },
+    {
+      "field": "valuation",
+      "url": "https://www.startbase.com/news/agile-robots-wird-zum-einhorn/",
+      "quote": "the robot start-up Agile Robots broke through the one billion US dollar valuation mark with the conclusion of its Series C financing round"
     }
   ],
   "rounds": [
@@ -123,5 +128,6 @@
         }
       ]
     }
-  ]
+  ],
+  "lastValuationEur": 846000000
 }
