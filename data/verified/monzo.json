@@ -14,7 +14,7 @@
   ],
   "status": "private",
   "unicorn": true,
-  "lastValuationEur": 5411000000,
+  "lastValuationEur": 5394000000,
   "founders": [
     "Tom Blomfield",
     "Jason Bates",
@@ -63,11 +63,6 @@
       "quote": "UK challenger bank Monzo has raised £85m in Series E funding at a £1bn ($1.2bn) valuation."
     },
     {
-      "field": "valuation",
-      "url": "https://www.digit.fyi/monzo-hits-record-high-4-5bn-valuation/",
-      "quote": "Digital bank Monzo's valuation has soared to £4.5 billion after issuing additional shares to major investors"
-    },
-    {
       "field": "fun_fact",
       "url": "https://en.wikipedia.org/wiki/Monzo",
       "quote": "the \"Mondo\" trademark had been legally challenged by an undisclosed company with a similar name"
@@ -81,6 +76,11 @@
       "field": "logo",
       "url": "https://commons.wikimedia.org/wiki/File:Monzo_2022_logo.svg",
       "quote": "Logo of Monzo"
+    },
+    {
+      "field": "valuation",
+      "url": "https://techcrunch.com/2024/10/11/uk-neobank-monzo-hits-5-9b-valuation-with-secondary-market-sale",
+      "quote": "Monzo is now valued at $5.9 billion after the U.K.-based challenger bank confirmed a secondary market share sale"
     }
   ],
   "rounds": [

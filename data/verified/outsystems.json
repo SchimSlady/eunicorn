@@ -11,7 +11,7 @@
   ],
   "status": "private",
   "unicorn": true,
-  "lastValuationEur": 7877280265,
+  "lastValuationEur": 4425000000,
   "founders": [
     "Paulo Rosado"
   ],
@@ -50,8 +50,8 @@
     },
     {
       "field": "valuation",
-      "url": "https://techcrunch.com/2021/02/17/low-code-focused-outsystems-raises-150m-at-a-9-5b-valuation/",
-      "quote": "By selling $150 million worth of its own shares at a $9.5 billion valuation"
+      "url": "https://appmaster.io/news/cloud-based-outsystems-valuation-cut-latest-funding-round",
+      "quote": "reflecting a post-money valuation of €4.4 billion ($4.3 billion)"
     }
   ],
   "rounds": [

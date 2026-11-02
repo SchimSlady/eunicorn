@@ -9,7 +9,7 @@
   "sectors": [
     "fintech"
   ],
-  "status": "private",
+  "status": "acquired",
   "unicorn": true,
   "lastValuationEur": 1840813464,
   "founders": [
@@ -49,6 +49,11 @@
       "field": "valuation",
       "url": "https://tech.eu/2022/02/08/gocardless-enters-unicorn-club-with-312-million-funding-and-21-billion-valuation",
       "quote": "GoCardless has secured a Series G funding round of $312 million. This makes the startup the latest European and UK tech unicorn at a valuation of $2.1 billion."
+    },
+    {
+      "field": "status",
+      "url": "https://gocardless.com/en-us/blog/mollie-and-gocardless-combine",
+      "quote": "Mollie today announced it has completed its acquisition of GoCardless"
     }
   ],
   "rounds": [

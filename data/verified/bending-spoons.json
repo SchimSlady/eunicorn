@@ -11,7 +11,7 @@
   ],
   "status": "public",
   "unicorn": true,
-  "lastValuationEur": 9523809524,
+  "lastValuationEur": 16166000000,
   "founders": [
     "Luca Ferrari",
     "Francesco Patarnello",
@@ -55,11 +55,6 @@
       "quote": "$11bn valuation"
     },
     {
-      "field": "valuation",
-      "url": "https://tech.eu/2025/10/30/bending-spoons-raises-710m-one-day-after-buying-aol/",
-      "quote": "$11bn valuation"
-    },
-    {
       "field": "fun_fact",
       "url": "https://en.wikipedia.org/wiki/Bending_Spoons",
       "quote": "left with $40,000, which became the seed capital for Bending Spoons in June 2013"
@@ -73,6 +68,11 @@
       "field": "city",
       "url": "https://en.wikipedia.org/wiki/Bending_Spoons",
       "quote": "which became the seed capital for Bending Spoons in June 2013, also founded in Copenhagen"
+    },
+    {
+      "field": "valuation",
+      "url": "https://www.iposcoop.com/?p=38749",
+      "quote": "At pricing, Bending Spoons had a market cap of $18.42 billion."
     }
   ],
   "rounds": [

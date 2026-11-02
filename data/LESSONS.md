@@ -26,7 +26,8 @@ Read this before verifying a company. Each rule came from a real problem in the 
 - **Founded:** the company's own founding year, not its parent's or the registration date of a predecessor (Yandex vs Nebius). Note any disagreement.
 - **City:** the HQ the company itself uses. If sources differ, pick the company's own statement and note the other.
 - **Founders:** only people named in a source. Leave out founders you can't quote.
-- **Unicorn:** true only if a priced funding round valued the company at €1bn+ (post-money preferred; a pre-money of €1bn+ also counts), or the company IPO'd at €1bn+. SPAC deals, acquisition prices, enterprise values and press estimates do not count. Convert to EUR at the ECB rate: "$1bn" is not a unicorn if it is under €1bn. Leave `lastValuationEur` out if undisclosed.
+- **Valuation (`lastValuationEur`):** the latest reported valuation, newest wins even if lower (down rounds count). It may come from a priced primary round (post-money preferred), a **secondary share sale** or an **employee tender offer** at a stated company valuation. Listed companies: the valuation at the IPO price; acquired companies: the last valuation before the deal. Not: market caps, acquisition prices, enterprise values, SPAC deal values, investor mark-downs, "in talks / seeking" reports, or discounted retail resales (Bolt on Crowdcube). The sale must be completed or company-confirmed (Revolut: the completed $75bn sale of 2025-11, not the unconfirmed $115bn of 2026). Reputable press reports of a completed deal count (Doctolib, Octopus). EUR at the ECB rate of the announcement date. Leave it out if undisclosed.
+- **Unicorn:** follows the latest valuation: true only if `lastValuationEur` is €1bn+ (Pablo, 2026-11-02: Flink's 2026 down round to ~$0.9bn ends its unicorn status). "$1bn" is not a unicorn if it is under €1bn.
 
 ## File format traps (batch 2)
 - **Round `techeuId` is the Tech.eu ROUND id**, never the company id, and never the same id on two rounds. If you can't match a round, leave `techeuId` out.
@@ -97,3 +98,8 @@ Read this before verifying a company. Each rule came from a real problem in the 
   - GitHub org avatars as a symbol-only fallback (Improbable).
 - **White-only brands stay without a logo:** we show logos on a white tile only (Pablo, 2026-11-01). No dark tiles, no recolouring.
 - **Domains go stale:** globalfounders.vc now serves an unrelated casino page (GFC is globalfounderscapital.com), Target Global is now onetarget.vc, and CuspAI is cusp.ai.
+
+## Valuations refresh (2026-11-02)
+- Top 100 valuations re-researched with secondaries and tenders: 24 changed. Big moves: Revolut €27.9bn → €65bn, Trade Republic €5bn → €12.5bn, ElevenLabs €9.3bn → €19.4bn, Vinted €3.5bn → €8bn, n8n €2.2bn → €4.4bn; down: Doctolib, OutSystems, Jobandtalent, Flink (no longer a unicorn).
+- Stored valuations go stale silently: there is no date on `lastValuationEur`. Re-check the top ~100 every few months, and whenever a company is in the news for a secondary or tender.
+- Acquisitions close quietly too: Contentful (Salesforce), GoCardless (Mollie) and Miro (Bending Spoons) had closed but were still "private".

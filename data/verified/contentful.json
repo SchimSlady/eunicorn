@@ -9,7 +9,7 @@
   "sectors": [
     "devtools"
   ],
-  "status": "private",
+  "status": "acquired",
   "unicorn": true,
   "lastValuationEur": 2540865588,
   "founders": [
@@ -48,6 +48,11 @@
       "field": "valuation",
       "url": "https://en.wikipedia.org/wiki/Contentful",
       "quote": "In July 2021, Contentful raised a series F round of financing of $175 million led by the private equity arm of the hedge fund Tiger Global at a valuation of $3 billion."
+    },
+    {
+      "field": "status",
+      "url": "https://www.salesforce.com/news/press-releases/2026/01/22/salesforce-signs-definitive-agreement-to-acquire-contentful/",
+      "quote": "Salesforce completed its acquisition of Contentful on September 1, 2026"
     }
   ],
   "rounds": [

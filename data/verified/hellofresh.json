@@ -11,7 +11,7 @@
   ],
   "status": "public",
   "unicorn": true,
-  "lastValuationEur": 2600000000,
+  "lastValuationEur": 1600000000,
   "founders": [
     "Dominik Richter",
     "Thomas Griesel",
@@ -46,14 +46,14 @@
       "quote": "Im Rahmen der Transaktion wurde Hello Fresh mit 2,6 Milliarden Euro bewertet."
     },
     {
-      "field": "valuation",
-      "url": "https://www.noerr.com/de/press/26-milliarden-euro-bewertung-noerr-berat-hello-fresh-bei-einstieg-von-baillie-gifford",
-      "quote": "Im Rahmen der Transaktion wurde Hello Fresh mit 2,6 Milliarden Euro bewertet."
-    },
-    {
       "field": "fun_fact",
       "url": "https://en.wikipedia.org/wiki/HelloFresh",
       "quote": "Richter and Griesel packed and hand-delivered to the first 10 customers"
+    },
+    {
+      "field": "valuation",
+      "url": "https://www.noerr.com/de/press/hellofresh---noerr-begleitet-kochboxanbieter-auch-beim-ipo-in-frankfurt",
+      "quote": "Bei einem finalen Angebotspreis von EUR 10,25 pro Aktie liegt die Marktkapitalisierung bei EUR 1,6 Mrd. (ohne Ausübung der Greenshoe-Option)"
     }
   ],
   "rounds": [

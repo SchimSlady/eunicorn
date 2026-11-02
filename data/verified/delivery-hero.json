@@ -11,7 +11,7 @@
   ],
   "status": "public",
   "unicorn": true,
-  "lastValuationEur": 4500000000,
+  "lastValuationEur": 4400000000,
   "founders": [
     "Niklas Östberg",
     "Kolja Hebenstreit",
@@ -52,14 +52,14 @@
       "quote": "or approximately $5.1 billion"
     },
     {
-      "field": "valuation",
-      "url": "https://techcrunch.com/2017/06/30/delivery-heros-valuation-surpasses-5b-following-successful-ipo/",
-      "quote": "or approximately $5.1 billion"
-    },
-    {
       "field": "fun_fact",
       "url": "https://en.wikipedia.org/wiki/Delivery_Hero",
       "quote": "bought the Turkish competitor Yemeksepeti for 530 million Euro, which was the largest acquisition in this business sector to date"
+    },
+    {
+      "field": "valuation",
+      "url": "https://www.thestar.com.my/business/business-news/2017/06/30/delivery-hero-prices-ipo-at-top-end-of-range",
+      "quote": "The price gives Delivery Hero a market value of about 4.4 billion euros, based on the number of shares to be outstanding after the offering."
     }
   ],
   "rounds": [

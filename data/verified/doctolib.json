@@ -11,7 +11,7 @@
   ],
   "status": "private",
   "unicorn": true,
-  "lastValuationEur": 5800000000,
+  "lastValuationEur": 3600000000,
   "founders": [
     "Stanislas Niox-Chateau",
     "Jessy Bernal",
@@ -59,11 +59,6 @@
       "quote": "now giving the company a valuation of €5.8 billion"
     },
     {
-      "field": "valuation",
-      "url": "https://tech.eu/2022/03/15/doctolib-raises-eur500-million-officially-frances-most-valuable-startup-at-a-eur58-billion-valuation/",
-      "quote": "now giving the company a valuation of €5.8 billion"
-    },
-    {
       "field": "fun_fact",
       "url": "https://tech.eu/2022/03/15/doctolib-raises-eur500-million-officially-frances-most-valuable-startup-at-a-eur58-billion-valuation/",
       "quote": "Doctolib raises €500 million, officially France’s most valuable startup at a €5.8 billion valuation"
@@ -72,6 +67,11 @@
       "field": "logo",
       "url": "https://commons.wikimedia.org/wiki/File:Logo_Doctolib.svg",
       "quote": "File:Logo Doctolib.svg - Wikimedia Commons"
+    },
+    {
+      "field": "valuation",
+      "url": "https://www.maddyness.com/2026/04/07/doctolib-depasse-les-400-millions-de-revenus-et-fait-entrer-de-nouveaux-investisseurs/",
+      "quote": "Cette opération fait ressortir une valorisation de 3,6 milliards d’euros, contre 5,8 milliards lors de sa dernière levée de fonds en 2022"
     }
   ],
   "rounds": [
