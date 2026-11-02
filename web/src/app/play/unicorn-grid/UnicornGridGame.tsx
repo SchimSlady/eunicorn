@@ -28,7 +28,10 @@ const TITLE = "Unicorn Grid";
 /** A wrong guess costs one point of the squares' values. There is no limit on guesses: the game ends when the grid is full, or when you give up. */
 const WRONG_COST = 1;
 
-/** What a square's hints cost, in order: a description of one answer, then its first letter. */
+/**
+ * A square's hints, in order: a description of one answer, then its first letter. Hints are free
+ * (Pablo, 2026-11-02); the costs only remain in the puzzle data, the score ignores them.
+ */
 const HINT_COSTS = [1, 2];
 
 /**
@@ -76,7 +79,6 @@ function evaluate(p: UnicornGridPuzzle, progress: Progress, companies: Map<strin
   const filled = progress.cells.filter(Boolean).length;
   const done = progress.gaveUp || filled === 9;
   const worth = (id: string) => companies.get(id)?.difficulty ?? 1;
-  const hintCost = progress.cellHints.reduce((s, n) => s + HINT_COSTS.slice(0, n).reduce((a, c) => a + c, 0), 0);
   const found = progress.cells.reduce((s, id) => s + (id ? worth(id) : 0), 0);
   return {
     filled,
@@ -84,7 +86,7 @@ function evaluate(p: UnicornGridPuzzle, progress: Progress, companies: Map<strin
     worth,
     hintsUsed: progress.cellHints.reduce((s, n) => s + n, 0),
     maxScore: p.validAnswers.reduce((s, ids) => s + Math.max(...ids.map(worth)), 0),
-    score: Math.max(0, found - progress.wrong * WRONG_COST - hintCost),
+    score: Math.max(0, found - progress.wrong * WRONG_COST),
   };
 }
 

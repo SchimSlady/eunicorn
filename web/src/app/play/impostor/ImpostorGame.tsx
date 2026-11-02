@@ -51,13 +51,13 @@ function evaluate(p: Play, progress: Progress) {
   const wrong = progress.picks.length - found;
   const won = found === impostors.length;
   const done = won; // no limit on picks: a wrong pick costs score, the game ends when you have found every impostor
-  const hintCost = p.hints.slice(0, progress.hintsUsed).reduce((s, h) => s + h.cost, 0);
+  // Hints are free (Pablo, 2026-11-02): they show in the share text and break leaderboard ties, but cost no points.
   return {
     won,
     found,
     wrong,
     done,
-    score: won ? Math.max(1, MAX_SCORE - wrong * WRONG_PICK_COST - hintCost) : 0,
+    score: won ? Math.max(1, MAX_SCORE - wrong * WRONG_PICK_COST) : 0,
   };
 }
 

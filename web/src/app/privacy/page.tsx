@@ -12,7 +12,7 @@ export default function Privacy() {
       <Section title="In short">
         <p>
           EUnicorn has no accounts, no cookies and no ads. Your game progress stays on your device. We count
-          anonymously how often each game is played and how it went, without your IP address or any ID, and we use
+          anonymously how often each game is played and how it went, without storing your IP address, and we use
           cookieless visitor statistics from our host to see how many people visit and where they come from. The only
           personal data that reaches a server is what every website needs to be delivered: your IP address and a few
           technical details, processed by our host.
@@ -72,10 +72,20 @@ export default function Privacy() {
       <Section title="Anonymous game counter">
         <p>
           When you start or finish a game, our server records the day, the game, the difficulty and, at the end, your
-          result (for example &quot;solved on guess 3&quot;, and your score as a share of the maximum). It stores no IP
-          address, no device or user ID and no cookie, so the entries can&apos;t be linked to you or to each other. We use
-          them to see how often the games are played and to show everyone today&apos;s results (&quot;better than 62% of
-          players&quot;). The data is stored with our database provider Supabase; see{" "}
+          result (for example &quot;solved on guess 3&quot;, and your score as a share of the maximum). We use this to see
+          how often the games are played and to show everyone today&apos;s results (&quot;better than 62% of
+          players&quot;).
+        </p>
+        <p>
+          To count how many different people play each day, the entry also gets a daily anonymous ID. Our database
+          derives it from your IP address and browser details with a random key that is used only for that day and then
+          deleted. Only the resulting code is stored, never your IP address. Because the key is deleted and changes every
+          day, the code can&apos;t be traced back to you, and your games on different days can&apos;t be linked. Nothing is
+          stored on your device and no cookie is set. Legal basis: Art. 6 (1) (f) GDPR (our legitimate interest in
+          knowing how the games are used).
+        </p>
+        <p>
+          The data is stored with our database provider Supabase; see{" "}
           <a href="https://supabase.com/privacy" className={link} rel="noopener">
             Supabase&apos;s privacy policy
           </a>

@@ -92,7 +92,7 @@ function evaluate(p: HigherLowerPuzzle, progress: Progress, companies: Map<strin
   const rounds = playRounds(p, progress.answers, companies);
   const totalRounds = p.companyIds.length - 1;
   const correct = rounds.filter((r) => r.correct).length;
-  const hintCost = p.hints.slice(0, progress.hintsUsed).reduce((s, h) => s + h.cost, 0);
+  // Hints are free (Pablo, 2026-11-02): they show in the share text and break leaderboard ties, but cost no points.
   return {
     rounds,
     totalRounds,
@@ -100,7 +100,7 @@ function evaluate(p: HigherLowerPuzzle, progress: Progress, companies: Map<strin
     maxScore: totalRounds * POINTS_PER_ROUND,
     // Sudden death: the first wrong answer ends the game.
     done: progress.answers.length >= totalRounds || rounds.some((r) => r.answer !== undefined && !r.correct),
-    score: Math.max(0, correct * POINTS_PER_ROUND - hintCost),
+    score: Math.max(0, correct * POINTS_PER_ROUND),
   };
 }
 

@@ -44,8 +44,8 @@ function evaluate(p: Top10Round, progress: Progress) {
   const found = progress.guesses.filter((id) => p.companyIds.includes(id));
   const wrong = progress.guesses.length - found.length;
   const done = progress.gaveUp || found.length === p.companyIds.length;
-  const hintCost = p.hints.slice(0, progress.hintsUsed).reduce((s, h) => s + h.cost, 0);
-  return { found, wrong, done, score: Math.max(0, found.length - wrong * WRONG_COST - hintCost) };
+  // Hints are free (Pablo, 2026-11-02): they show in the share text and break leaderboard ties, but cost no points.
+  return { found, wrong, done, score: Math.max(0, found.length - wrong * WRONG_COST) };
 }
 
 function shareText(p: Top10Puzzle, round: Top10Round, progress: Progress): string {
@@ -137,7 +137,7 @@ export function Top10Game() {
 
       <p className="rounded-2xl bg-eu-blue px-3 py-2 text-center font-display text-base font-bold leading-snug text-white">{round.title}</p>
 
-      {/* The rows share the screen height left over (about 24rem is taken by the rest), so the whole game fits without scrolling. */}
+      {/* The rows share the screen height left over (about 24rem is taken by the rest), so the whole game fits without scrolling. svh (the height with the browser bars shown) instead of dvh: rows keep their opening size when the phone hides its address bar on scroll. */}
       <ol className="space-y-[3px]">
         {round.companyIds.map((id, i) => {
           const c = companies.get(id)!;
@@ -146,7 +146,7 @@ export function Top10Game() {
           return (
             <li
               key={id}
-              style={{ height: "clamp(28px, calc((100dvh - 392px) / 10), 44px)" }}
+              style={{ height: "clamp(28px, calc((100svh - 392px) / 10), 44px)" }}
               className={`flex items-center gap-2.5 rounded-xl border px-2.5 ${
                 got ? "animate-flip-in border-correct bg-correct/20" : shown ? "border-border bg-surface/40 opacity-60" : "border-muted/40 bg-surface"
               }`}

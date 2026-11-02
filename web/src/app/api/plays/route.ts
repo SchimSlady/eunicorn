@@ -4,8 +4,10 @@ import { getPlayStats, insertPlay, type PlayRow } from "@/lib/server/supabase";
 import { todayKey } from "@/lib/daily";
 
 /**
- * The anonymous play counter. POST records a start or a finish (no IP, id or cookie is
- * stored; the day comes from the server). GET returns today's aggregates for one mode.
+ * The anonymous play counter. POST records a start or a finish (the day comes from the server).
+ * No IP address or cookie is stored: the database keeps only a daily anonymous player id, a hash
+ * of IP address and browser with a salt that is deleted after the day. GET returns today's
+ * aggregates for one mode.
  */
 
 const MODES: PlayMode[] = ["who-raised-this", "unicorn-grid", "higher-lower", "impostor", "top-10"];
@@ -30,7 +32,9 @@ export async function POST(req: Request) {
     row.score_pct = Math.max(0, Math.min(100, Math.round(pct)));
     row.won = b.won === true;
   }
-  const ok = await insertPlay(row);
+  // Only to derive the daily anonymous player id in the database; the address itself isn't stored.
+  const ip = req.headers.get("x-forwarded-for")?.split(",")[0]?.trim() || req.headers.get("x-real-ip");
+  const ok = await insertPlay(row, { ip: ip || null, ua: req.headers.get("user-agent") });
   return new Response(null, { status: ok ? 204 : 503 });
 }
 

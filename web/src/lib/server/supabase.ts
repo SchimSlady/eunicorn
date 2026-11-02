@@ -201,11 +201,38 @@ export interface PlayRow {
   won?: boolean;
 }
 
-/** Records one start or finish. false if Supabase isn't set up or the table doesn't exist yet. */
-export async function insertPlay(row: PlayRow): Promise<boolean> {
+/**
+ * Records one start or finish through public.record_play, which turns the visitor's IP address and
+ * browser string into a daily anonymous player id (salted hash, salt deleted after the day) and
+ * stores only that. The IP address itself is never stored. Falls back to a plain insert without a
+ * player id if the function doesn't exist yet. false if Supabase isn't set up.
+ */
+export async function insertPlay(row: PlayRow, visitor: { ip: string | null; ua: string | null }): Promise<boolean> {
   const url = process.env.SUPABASE_URL;
   const key = process.env.SUPABASE_PUBLISHABLE_KEY;
   if (!url || !key) return false;
+  const headers = { apikey: key, "Content-Type": "application/json", Prefer: "return=minimal" };
+  const rpc = await fetch(`${url}/rest/v1/rpc/record_play`, {
+    method: "POST",
+    headers,
+    body: JSON.stringify({
+      p_played_on: row.played_on,
+      p_mode: row.mode,
+      p_difficulty: row.difficulty,
+      p_event: row.event,
+      p_bucket: row.bucket ?? null,
+      p_score_pct: row.score_pct ?? null,
+      p_won: row.won ?? null,
+      p_ip: visitor.ip,
+      p_ua: visitor.ua,
+    }),
+    cache: "no-store",
+  }).catch(() => null);
+  if (rpc?.ok) return true;
+  if (rpc && rpc.status !== 404) {
+    console.error("Supabase record_play:", rpc.status, await rpc.text().catch(() => ""));
+    return false;
+  }
   const res = await fetch(`${url}/rest/v1/plays`, {
     method: "POST",
     headers: { apikey: key, "Content-Type": "application/json", Prefer: "return=minimal" },

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { todayKey } from "@/lib/daily";
 import { MODES } from "@/lib/modes";
-import { loadAdminData, type SummaryRow } from "@/lib/server/admin";
+import { loadAdminData, type PlayerRow, type SummaryRow } from "@/lib/server/admin";
 
 /**
  * Internal usage dashboard: how often each game is started and finished, by day, game, level and
@@ -25,8 +25,9 @@ function shiftDay(day: string, by: number): string {
 const pct = (a: number, b: number) => (b ? `${Math.round((a / b) * 100)}%` : "–");
 const fmt = (n: number) => n.toLocaleString("en-GB");
 
-export default async function AdminPage({ searchParams }: { searchParams: Promise<{ days?: string }> }) {
-  const asked = Number((await searchParams).days);
+export default async function AdminPage({ searchParams }: { searchParams: Promise<{ days?: string; day?: string }> }) {
+  const params = await searchParams;
+  const asked = Number(params.days);
   const days = (RANGES as readonly number[]).includes(asked) ? asked : 30;
   const to = todayKey();
   const from = shiftDay(to, -(days - 1));
@@ -57,7 +58,11 @@ export default async function AdminPage({ searchParams }: { searchParams: Promis
         </nav>
       </div>
 
-      {data.ok ? <Dashboard summary={data.summary} hours={data.hours} from={from} days={days} /> : <Setup reason={data.reason} />}
+      {data.ok ? (
+        <Dashboard summary={data.summary} hours={data.hours} players={data.players} from={from} days={days} pickedDay={params.day} />
+      ) : (
+        <Setup reason={data.reason} />
+      )}
 
       <p className="text-sm text-muted">
         Visitors, referrers, countries and devices: Vercel dashboard, project EUnicorn, Analytics.
@@ -97,13 +102,17 @@ function totalsBy(rows: SummaryRow[], key: (r: SummaryRow) => string): Map<strin
 function Dashboard({
   summary,
   hours,
+  players,
   from,
   days,
+  pickedDay,
 }: {
   summary: SummaryRow[];
   hours: { hour: number; starts: number }[];
+  players: PlayerRow[] | null;
   from: string;
   days: number;
+  pickedDay?: string;
 }) {
   const all = totalsBy(summary, () => "all").get("all") ?? { starts: 0, finishes: 0, solved: 0, scoreSum: 0 };
   const byDay = totalsBy(summary, (r) => r.played_on);
@@ -112,14 +121,21 @@ function Dashboard({
   const dayList = Array.from({ length: days }, (_, i) => shiftDay(from, i));
   const byHour = new Map<number, number>();
   for (const h of hours) byHour.set(h.hour, (byHour.get(h.hour) ?? 0) + h.starts);
+  // Player ids are daily hashes, so players are counted per day; a person playing on two days counts twice.
+  const playersByDay = new Map<string, PlayerRow[]>();
+  for (const p of players ?? []) playersByDay.set(p.played_on, [...(playersByDay.get(p.played_on) ?? []), p]);
+  const playerDays = [...playersByDay.values()].reduce((n, l) => n + l.length, 0);
+  const playerStarts = (players ?? []).reduce((n, p) => n + p.starts, 0);
 
   return (
     <>
-      <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
+      <div className="grid grid-cols-2 gap-3 sm:grid-cols-3">
         <Tile label="Games started" value={fmt(all.starts)} />
         <Tile label="Games finished" value={fmt(all.finishes)} />
         <Tile label="Finish rate" value={pct(all.finishes, all.starts)} />
         <Tile label="Started per day" value={fmt(Math.round(all.starts / days))} />
+        <Tile label="Players per day" value={playersByDay.size ? fmt(Math.round(playerDays / playersByDay.size)) : "–"} />
+        <Tile label="Games per player" value={playerDays ? (playerStarts / playerDays).toFixed(1) : "–"} />
       </div>
 
       <Columns
@@ -128,7 +144,9 @@ function Dashboard({
         unit="games started"
       />
 
-      <DayTable summary={summary} days={dayList} />
+      <DayTable summary={summary} days={dayList} playersByDay={players ? playersByDay : null} />
+
+      <PlayerList playersByDay={players ? playersByDay : null} pickedDay={pickedDay} days={days} />
 
       <Table
         title="By game"
@@ -196,7 +214,15 @@ function Columns({ title, items, unit }: { title: string; items: { key: string; 
  * Games per puzzle day, newest first: totals plus games started per game. Days without any game
  * are left out so a quiet week doesn't push the numbers off screen.
  */
-function DayTable({ summary, days }: { summary: SummaryRow[]; days: string[] }) {
+function DayTable({
+  summary,
+  days,
+  playersByDay,
+}: {
+  summary: SummaryRow[];
+  days: string[];
+  playersByDay: Map<string, PlayerRow[]> | null;
+}) {
   const byDay = totalsBy(summary, (r) => r.played_on);
   const byDayMode = totalsBy(summary, (r) => `${r.played_on}|${r.mode}`);
   const modes = [...totalsBy(summary, (r) => r.mode).entries()].sort((a, b) => b[1].starts - a[1].starts).map(([m]) => m);
@@ -212,6 +238,7 @@ function DayTable({ summary, days }: { summary: SummaryRow[]; days: string[] }) 
           <thead className="text-left text-muted">
             <tr>
               <th className="py-1.5 pr-4 font-semibold">Day</th>
+              {playersByDay && <th className="py-1.5 pr-4 text-right font-semibold">Players</th>}
               <th className="py-1.5 pr-4 text-right font-semibold">Started</th>
               <th className="py-1.5 pr-4 text-right font-semibold">Finished</th>
               <th className="py-1.5 pr-4 text-right font-semibold">Finish rate</th>
@@ -230,6 +257,9 @@ function DayTable({ summary, days }: { summary: SummaryRow[]; days: string[] }) 
               return (
                 <tr key={d} className="border-t border-border">
                   <td className="whitespace-nowrap py-2 pr-4 font-semibold">{weekday(d)} {d}</td>
+                  {playersByDay && (
+                    <td className="py-2 pr-4 text-right">{playersByDay.has(d) ? fmt(playersByDay.get(d)!.length) : "–"}</td>
+                  )}
                   <td className="py-2 pr-4 text-right">{fmt(t.starts)}</td>
                   <td className="py-2 pr-4 text-right">{fmt(t.finishes)}</td>
                   <td className="py-2 pr-4 text-right">{pct(t.finishes, t.starts)}</td>
@@ -243,6 +273,82 @@ function DayTable({ summary, days }: { summary: SummaryRow[]; days: string[] }) 
                 </tr>
               );
             })}
+          </tbody>
+        </table>
+      )}
+    </section>
+  );
+}
+
+/**
+ * The anonymous players of one day (pick the day with the links), most games first. The id is a
+ * daily hash: the same person gets a new id the next day, so lists can't be linked across days.
+ */
+function PlayerList({
+  playersByDay,
+  pickedDay,
+  days,
+}: {
+  playersByDay: Map<string, PlayerRow[]> | null;
+  pickedDay?: string;
+  days: number;
+}) {
+  if (!playersByDay) {
+    return (
+      <section className="rounded-2xl border border-border bg-surface p-5">
+        <h2 className="font-display text-lg font-bold">Players</h2>
+        <p className="mt-2 text-sm text-muted">Player numbers need the admin_play_players function (Pablo&apos;s migration).</p>
+      </section>
+    );
+  }
+  const playerDays = [...playersByDay.keys()].sort().reverse();
+  const day = pickedDay && playersByDay.has(pickedDay) ? pickedDay : playerDays[0];
+  const list = day ? playersByDay.get(day)! : [];
+  return (
+    <section className="overflow-x-auto rounded-2xl border border-border bg-surface p-5">
+      <h2 className="font-display text-lg font-bold">Players{day ? ` on ${weekday(day)} ${day}` : ""}</h2>
+      <p className="text-sm text-muted">Anonymous ids that change every day, counted since 2 Nov 2026.</p>
+      {playerDays.length > 1 && (
+        <nav className="mt-3 flex flex-wrap gap-2" aria-label="Day">
+          {playerDays.map((d) => (
+            <Link
+              key={d}
+              href={`/admin?days=${days}&day=${d}`}
+              aria-current={d === day ? "page" : undefined}
+              className={`rounded-full border px-3 py-1 text-xs font-semibold tabular-nums ${
+                d === day ? "border-primary bg-primary text-on-primary" : "border-border hover:border-primary"
+              }`}
+            >
+              {d.slice(5)} · {playersByDay.get(d)!.length}
+            </Link>
+          ))}
+        </nav>
+      )}
+      {list.length === 0 ? (
+        <p className="mt-2 text-sm text-muted">No players recorded in this range yet.</p>
+      ) : (
+        <table className="mt-3 w-full text-sm tabular-nums">
+          <thead className="text-left text-muted">
+            <tr>
+              <th className="py-1.5 pr-4 font-semibold">Player</th>
+              <th className="py-1.5 pr-4 text-right font-semibold">Started</th>
+              <th className="py-1.5 pr-4 text-right font-semibold">Finished</th>
+              <th className="py-1.5 pr-4 text-right font-semibold">Solved</th>
+              <th className="py-1.5 pr-4 text-right font-semibold">Avg score</th>
+              <th className="py-1.5 font-semibold">Games</th>
+            </tr>
+          </thead>
+          <tbody>
+            {list.map((p) => (
+              <tr key={p.player} className="border-t border-border">
+                <td className="py-2 pr-4 font-mono text-xs">{p.player.slice(0, 6)}</td>
+                <td className="py-2 pr-4 text-right">{fmt(p.starts)}</td>
+                <td className="py-2 pr-4 text-right">{fmt(p.finishes)}</td>
+                <td className="py-2 pr-4 text-right">{fmt(p.solved)}</td>
+                <td className="py-2 pr-4 text-right">{p.avg_score_pct == null ? "–" : `${Math.round(p.avg_score_pct)}%`}</td>
+                <td className="py-2">{p.modes.map((m) => TITLE.get(m) ?? m).join(", ")}</td>
+              </tr>
+            ))}
           </tbody>
         </table>
       )}
