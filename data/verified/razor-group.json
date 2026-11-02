@@ -50,6 +50,11 @@
       "field": "sectors",
       "url": "https://www.privateequitywire.co.uk/l-catterton-leads-70m-funding-round-razor-group/",
       "quote": "a global aggregator of e-commerce consumer goods"
+    },
+    {
+      "field": "valuation",
+      "url": "https://siliconcanals.com/razor-group-bags-108m/",
+      "quote": "has closed a $125M (€108M) funding in a Series B round at a valuation of over $1B."
     }
   ],
   "rounds": [
@@ -139,5 +144,6 @@
         }
       ]
     }
-  ]
+  ],
+  "lastValuationEur": 874000000
 }

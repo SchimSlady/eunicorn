@@ -49,6 +49,11 @@
       "field": "status",
       "url": "https://sv.wikipedia.org/wiki/Mathem",
       "quote": "2023 köps Mathem av sin norska motsvarighet Oda."
+    },
+    {
+      "field": "valuation",
+      "url": "https://fashionunited.ca/news/business/kinnevik-s-net-asset-value-declines-by-10-percent-in-q2/2022071124654",
+      "quote": "Kinnevik also participated in Mathem’s funding round valuing the company at 2.3 billion Swedish krona"
     }
   ],
   "rounds": [
@@ -171,5 +176,6 @@
         }
       ]
     }
-  ]
+  ],
+  "lastValuationEur": 216000000
 }

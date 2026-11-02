@@ -40,9 +40,9 @@
       "quote": "the U.K. used car marketplace"
     },
     {
-      "field": "unicorn",
-      "url": "https://techcrunch.com/2021/11/28/second-hand-car-auction-platform-motorway-hits-unicorn-status-after-190m-raise-with-index-iconiq/",
-      "quote": "The startup is now claiming a valuation of over $1 billion."
+      "field": "valuation",
+      "url": "https://motorway.co.uk/blog/2021/11/29/series-c-funding-round",
+      "quote": "Motorway is valued at over $1bn in a new funding round of $190m"
     }
   ],
   "rounds": [
@@ -199,5 +199,6 @@
         }
       ]
     }
-  ]
+  ],
+  "lastValuationEur": 874000000
 }

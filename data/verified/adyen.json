@@ -11,7 +11,7 @@
   ],
   "status": "public",
   "unicorn": true,
-  "lastValuationEur": 1196458483,
+  "lastValuationEur": 7100000000,
   "founders": [
     "Pieter van der Does",
     "Arnout Schuijff"
@@ -45,16 +45,6 @@
       "quote": "The IPO took place on 13 June 2018."
     },
     {
-      "field": "unicorn",
-      "url": "https://techcrunch.com/2014/12/16/adyen-250m-general-atlantic/",
-      "quote": "the company has raised $250 million in a giant Series B round of funding that values the company at $1.5 billion"
-    },
-    {
-      "field": "valuation",
-      "url": "https://fortune.com/2014/12/16/payment-unicorn-adyen-raises-250-million-at-huge-valuation",
-      "quote": "5 billion, post-money"
-    },
-    {
       "field": "fun_fact",
       "url": "https://www.adyen.com/press-and-media/bfcm2025",
       "quote": "processing a total volume of $43 billion across the BFCM weekend"
@@ -63,6 +53,16 @@
       "field": "fun_fact",
       "url": "https://www.adyen.com/press-and-media/bfcm2025",
       "quote": "proved to be another record-breaking holiday shopping weekend"
+    },
+    {
+      "field": "valuation",
+      "url": "https://www.adyen.com/press-and-media/adyen-ipo-priced-at-240-per-share",
+      "quote": "The Offer Price has been set at €240, implying a market capitalization of €7.1 billion"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://www.adyen.com/press-and-media/adyen-ipo-priced-at-240-per-share",
+      "quote": "The Offer Price has been set at €240, implying a market capitalization of €7.1 billion"
     }
   ],
   "rounds": [

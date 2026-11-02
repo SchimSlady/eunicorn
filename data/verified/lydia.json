@@ -49,6 +49,11 @@
       "field": "status",
       "url": "https://techcrunch.com/2024/05/15/lydia-the-french-social-payment-app-with-8-million-users-launches-mobile-banking-app-sumeria/",
       "quote": "It’s the same company, Lydia Solutions, that is launching a banking project"
+    },
+    {
+      "field": "valuation",
+      "url": "https://techcrunch.com/2021/12/07/lydia-grabs-another-100-million-for-its-european-financial-super-app",
+      "quote": "it is currently valued at more than $1 billion"
     }
   ],
   "rounds": [
@@ -224,5 +229,6 @@
         }
       ]
     }
-  ]
+  ],
+  "lastValuationEur": 888000000
 }

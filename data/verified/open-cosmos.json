@@ -36,6 +36,11 @@
       "field": "status",
       "url": "https://spacenexus.us/company-profiles/open-cosmos.md",
       "quote": "Ownership: private"
+    },
+    {
+      "field": "valuation",
+      "url": "https://satnews.com/2026/09/14/open-cosmos-reaches-1b-unicorn-valuation-following-348m-series-c-round/",
+      "quote": "establishing the company as Europe’s newest space unicorn with a valuation exceeding $1 billion."
     }
   ],
   "rounds": [
@@ -95,5 +100,6 @@
       ]
     }
   ],
-  "aliases": []
+  "aliases": [],
+  "lastValuationEur": 867000000
 }

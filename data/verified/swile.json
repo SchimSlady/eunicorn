@@ -40,9 +40,9 @@
       "quote": "Swile provides a payment card for employee benefits, such as meal vouchers, gift cards and sustainable mobility vouchers."
     },
     {
-      "field": "unicorn",
-      "url": "https://www.frenchweb.fr/swile-nouvelle-licorne-francaise-apres-une-levee-de-200-millions-de-dollars-menee-par-softbank/428931",
-      "quote": "portant sa valorisation à plus d’un milliard de dollars"
+      "field": "valuation",
+      "url": "https://coverager.com/swile-raises-200-million/",
+      "quote": "The round values the startup at over $1 billion."
     }
   ],
   "rounds": [
@@ -170,5 +170,6 @@
         }
       ]
     }
-  ]
+  ],
+  "lastValuationEur": 862000000
 }
