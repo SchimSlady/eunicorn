@@ -15,7 +15,6 @@ import { GameIntro } from "@/components/GameIntro";
 import { Flag } from "@/components/Flag";
 import { GameHeader } from "@/components/GameHeader";
 import { Announce, GameSkeleton, NoPuzzle } from "@/components/Announce";
-import { Hints, hintState } from "@/components/Hints";
 import { ResultArea } from "@/components/ResultArea";
 import { StatsPanel } from "@/components/StatsPanel";
 import { recordFinish, recordStart } from "@/lib/stats";
@@ -309,14 +308,7 @@ export function HigherLowerGame() {
 
       </div>
 
-      {!reviewing && (
-        <div className="flex justify-end">
-          <Hints
-            {...hintState(progress.difficulty, play.hints, progress.hintsUsed)}
-            onReveal={() => update({ ...progress, hintsUsed: progress.hintsUsed + 1 })}
-          />
-        </div>
-      )}
+      {/* No hints in Higher or Lower (Pablo, 2026-11-02). */}
     </div>
   );
 }

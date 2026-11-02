@@ -38,9 +38,12 @@ export const INVESTOR_TIER_MAX = 2;
  */
 export const CATEGORY_LEVEL_MAX: Record<Difficulty, 1 | 2 | 3> = { easy: 1, medium: 2, hard: 3 };
 
-/** Easy offers every hint, Medium half of them (rounded up), Hard none. */
+/** Hints per game by level (Pablo, 2026-11-02): Easy 5, Medium 3, Hard 1. Higher or Lower and Impostor have none. */
+export const HINTS_PER_LEVEL: Record<Difficulty, number> = { easy: 5, medium: 3, hard: 1 };
+
+/** How many of a game's hints a level offers: the level's number, or fewer if the game has fewer. */
 export function hintLimit(d: Difficulty, total: number): number {
-  return d === "easy" ? total : d === "medium" ? Math.ceil(total / 2) : 0;
+  return Math.min(total, HINTS_PER_LEVEL[d]);
 }
 
 const KEY = "eunicorn:difficulty";

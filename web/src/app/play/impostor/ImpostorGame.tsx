@@ -13,7 +13,6 @@ import { GameIntro } from "@/components/GameIntro";
 import { Flag } from "@/components/Flag";
 import { GameHeader } from "@/components/GameHeader";
 import { Announce, GameSkeleton, NoPuzzle } from "@/components/Announce";
-import { Hints, hintState } from "@/components/Hints";
 import { ResultArea } from "@/components/ResultArea";
 import { RevealButton } from "@/components/RevealButton";
 import { StatsPanel } from "@/components/StatsPanel";
@@ -245,11 +244,6 @@ export function ImpostorGame() {
                 ? "Select the impostors"
                 : `Submit ${progress.selected.length} ${progress.selected.length === 1 ? "impostor" : "impostors"}`}
             </button>
-            <Hints
-              compact
-              {...hintState(progress.difficulty, play.hints, progress.hintsUsed)}
-              onReveal={() => update({ ...progress, hintsUsed: progress.hintsUsed + 1 })}
-            />
           </div>
           {tries > 0 && <RevealButton label="Reveal answer" onConfirm={() => update({ ...progress, gaveUp: true })} />}
         </div>
