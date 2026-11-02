@@ -19,6 +19,11 @@ export interface Top10Question {
   metric: Top10Metric;
   title: string;
   filter: (c: Company) => boolean;
+  /**
+   * Valuation lists of "startups" only count private companies (Pablo, 2026-11-02): a listed company's
+   * valuation is its IPO price, not what it is worth today. Lists that ask for a status keep it.
+   */
+  privateOnly: boolean;
 }
 
 const VALUED: Top10Metric = "lastValuationUsd";
@@ -32,12 +37,13 @@ const before = (year: number) => (c: Company) => c.founded > 0 && c.founded < ye
 const status = (s: Company["status"]) => (c: Company) => c.status === s;
 const all = (...fs: ((c: Company) => boolean)[]) => (c: Company) => fs.every((f) => f(c));
 
-const q = (level: Difficulty, tag: string, metric: Top10Metric, who: string, filter: (c: Company) => boolean): Top10Question => ({
+const q = (level: Difficulty, tag: string, metric: Top10Metric, who: string, filter: (c: Company) => boolean, anyStatus = false): Top10Question => ({
   level,
   tag,
   metric,
   title: metric === VALUED ? `The 10 most valuable ${who}` : `The 10 ${who} that raised the most`,
   filter,
+  privateOnly: metric === VALUED && !anyStatus,
 });
 
 export const TOP10_QUESTIONS: Top10Question[] = [
@@ -67,7 +73,7 @@ export const TOP10_QUESTIONS: Top10Question[] = [
   q("medium", "ai", RAISED, "AI startups in Europe", inSector("ai")),
   q("medium", "climate", RAISED, "climate startups in Europe", inSector("climate")),
   q("medium", "consumer", RAISED, "consumer startups in Europe", inSector("consumer")),
-  q("medium", "acquired", VALUED, "acquired startups", status("acquired")),
+  q("medium", "acquired", VALUED, "acquired startups", status("acquired"), true),
   q("medium", "acquired", RAISED, "acquired startups", status("acquired")),
   q("medium", "listed", RAISED, "listed startups", status("public")),
   q("medium", "europe", RAISED, "startups in Europe founded since 2015", since(2015)),
