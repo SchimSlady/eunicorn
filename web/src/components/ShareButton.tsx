@@ -13,7 +13,8 @@ const SITE = "https://eunicorn.eu";
 
 /**
  * "Challenge friends" opens a share menu: the result as a picture (story size, for Instagram and WhatsApp),
- * one-tap WhatsApp, X and LinkedIn, the phone's own share sheet, and an invite without the result.
+ * one-tap WhatsApp, X and LinkedIn (each opens its app with text and link), the phone's own share
+ * sheet, and an invite without the result.
  * The message is short and emoji-free (WhatsApp Desktop garbles emoji in share links): the result,
  * how it ranks today, and "Can you beat me?" with a link to today's game.
  */
@@ -142,13 +143,8 @@ function ShareMenu({ text, score, maxScore, onClose }: { text: string; score?: n
             href={l.href}
             target="_blank"
             rel="noopener noreferrer"
-            // A link can only carry text. Where the phone can share files, go through its share
-            // sheet instead, so the result card goes along (pick the app there).
-            onClick={(e) => {
-              if (!canShareFile) return;
-              e.preventDefault();
-              void shareImage();
-            }}
+            // Each icon opens its app directly with the text and the game link (Pablo, 2026-11-02).
+            // A link can't carry the picture; "Share image" above sends it through the share sheet.
             className="flex min-h-14 items-center justify-center rounded-2xl border border-border hover:border-primary"
           >
             <l.Icon size={28} />
