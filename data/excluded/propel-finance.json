@@ -1,0 +1,33 @@
+{
+  "id": "propel-finance",
+  "name": "Propel Finance",
+  "aliases": [],
+  "domain": "propelfinance.co.uk",
+  "country": "GB",
+  "city": "Newport",
+  "sectors": [
+    "fintech"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [],
+  "difficulty": 5,
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://propelfinance.co.uk/?p=1446",
+      "quote": "Registered offices are at Unit 5, Langstone Business Village, Langstone Park, Newport, NP18 2LH."
+    },
+    {
+      "field": "sectors",
+      "url": "https://bebeez.eu/2025/07/03/propel-finance-completes-1-5bn-funding-round-to-power-sme-growth-across-the-uk/",
+      "quote": "£1.5 billion in funding availability"
+    },
+    {
+      "field": "status",
+      "url": "https://bebeez.eu/2025/07/03/propel-finance-completes-1-5bn-funding-round-to-power-sme-growth-across-the-uk/",
+      "quote": "A significant committed forward flow funding line with Barclays"
+    }
+  ],
+  "rounds": []
+}

@@ -36,6 +36,11 @@
       "field": "sectors",
       "url": "https://tech.eu/2022/06/14/france-business-sustainability-rating-provider-ecovadis-secures-500-million-investment-now-valued-at-over-1billion/",
       "quote": "provide clients with an easy-to-use and actionable series of sustainability scorecards"
+    },
+    {
+      "field": "valuation",
+      "url": "https://www.esgtoday.com/value-chain-focused-sustainability-ratings-provider-ecovadis-raises-500-million/",
+      "quote": "The deal values the company at well over $1 billion"
     }
   ],
   "rounds": [
@@ -70,5 +75,6 @@
         }
       ]
     }
-  ]
+  ],
+  "lastValuationEur": 957000000
 }

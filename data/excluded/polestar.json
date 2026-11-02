@@ -1,0 +1,239 @@
+{
+  "id": "polestar",
+  "name": "Polestar",
+  "aliases": [],
+  "domain": "polestar.com",
+  "country": "SE",
+  "city": "Gothenburg",
+  "founded": 2017,
+  "sectors": [
+    "mobility"
+  ],
+  "status": "public",
+  "unicorn": true,
+  "founders": [],
+  "funFact": "Polestar began as Flash Engineering, a Swedish motorsport team established in 1996, before becoming Volvo's performance arm and then a standalone electric car brand.",
+  "difficulty": 2,
+  "techeuId": "9C92D23D-D232-49C0-87BC-478483E1AAC7",
+  "wikidataId": "Q4047174",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/Polestar",
+      "quote": "headquartered in Torslanda, outside Gothenburg"
+    },
+    {
+      "field": "founded",
+      "url": "https://www.revenuememo.com/p/who-owns-polestar",
+      "quote": "founded by Volvo Car AB and Zhejiang Geely Holding Group in 2017"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Polestar",
+      "quote": "The infobox gives 2017"
+    },
+    {
+      "field": "sectors",
+      "url": "https://en.wikipedia.org/wiki/Polestar",
+      "quote": "Swedish premium electric vehicle manufacturer"
+    },
+    {
+      "field": "status",
+      "url": "https://en.wikipedia.org/wiki/Polestar",
+      "quote": "began trading on the Nasdaq exchange under the symbol PSNY on 24 June 2022"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://www.ttnews.com/articles/ev-maker-polestar-raises-550-million-new-investors",
+      "quote": "at a valuation of more than $10 billion"
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://en.wikipedia.org/wiki/Polestar",
+      "quote": "a Swedish motorsport team established in 1996"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "28565E81-E4C1-4226-FB77-08D91092C887",
+      "stage": "series-a",
+      "month": "2021-04",
+      "amountEur": 459712471,
+      "amountOriginal": 550000000,
+      "currency": "USD",
+      "investors": [
+        "Chongqing Chengxing Equity Investment Fund Partnership",
+        "Zibo Financial Holding",
+        "Zibo Hightech Industrial Investment",
+        "I Cube Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.ttnews.com/articles/ev-maker-polestar-raises-550-million-new-investors",
+          "quote": "has raised $550 million from new investors"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.ttnews.com/articles/ev-maker-polestar-raises-550-million-new-investors",
+          "quote": "has raised $550 million from new investors"
+        },
+        {
+          "field": "month",
+          "url": "https://www.ttnews.com/articles/ev-maker-polestar-raises-550-million-new-investors",
+          "quote": "Polestar issued its statement on April 14"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.ttnews.com/articles/ev-maker-polestar-raises-550-million-new-investors",
+          "quote": "led by Chongqing Chengxing Equity Investment Fund Partnership"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.ttnews.com/articles/ev-maker-polestar-raises-550-million-new-investors",
+          "quote": "I Cube Capital, an arm of SK Inc."
+        }
+      ]
+    },
+    {
+      "techeuId": "9F9317DF-470B-4C9A-8D34-A9171F4F59B6",
+      "stage": "series-f+",
+      "month": "2025-06",
+      "amountEur": 172801106,
+      "amountOriginal": 200000000,
+      "currency": "USD",
+      "investors": [
+        "PSD Investment Limited"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.automotiveworld.com/news/polestar-announces-usd-200-million-equity-investment/",
+          "quote": "an aggregate price of USD 200,000,000"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.automotiveworld.com/news/polestar-announces-usd-200-million-equity-investment/",
+          "quote": "190,476,190 Class A American Depositary Shares"
+        },
+        {
+          "field": "month",
+          "url": "https://www.automotiveworld.com/news/polestar-announces-usd-200-million-equity-investment/",
+          "quote": "June 16, 2025"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.automotiveworld.com/news/polestar-announces-usd-200-million-equity-investment/",
+          "quote": "PSD Investment Limited"
+        }
+      ]
+    },
+    {
+      "stage": "series-f+",
+      "month": "2025-12",
+      "amountEur": 255427842,
+      "amountOriginal": 300000000,
+      "currency": "USD",
+      "investors": [
+        "Banco Bilbao Vizcaya Argentaria",
+        "Natixis"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://finance.yahoo.com/news/polestar-secures-300m-equity-injection-123552762.html",
+          "quote": "Polestar has secured a $300m equity injection aimed at shoring up its liquidity and capital structure."
+        },
+        {
+          "field": "stage",
+          "url": "https://finance.yahoo.com/news/polestar-secures-300m-equity-injection-123552762.html",
+          "quote": "priced at $19.34 per ADS"
+        },
+        {
+          "field": "month",
+          "url": "https://finance.yahoo.com/news/polestar-secures-300m-equity-injection-123552762.html",
+          "quote": "December 22, 2025"
+        },
+        {
+          "field": "investors",
+          "url": "https://finance.yahoo.com/news/polestar-secures-300m-equity-injection-123552762.html",
+          "quote": "Banco Bilbao Vizcaya Argentaria (BBVA)"
+        },
+        {
+          "field": "investors",
+          "url": "https://thedriven.io/2026/02/05/polestar-secures-another-us400-million-in-equity-to-overcome-cash-crunch/",
+          "quote": "BBVA and Natixis"
+        }
+      ]
+    },
+    {
+      "techeuId": "41896893-7B9A-4E70-91D3-4416D406B932",
+      "stage": "series-f+",
+      "month": "2026-02",
+      "amountEur": 337837838,
+      "amountOriginal": 400000000,
+      "currency": "USD",
+      "investors": [
+        "Feathertop Funding Limited",
+        "Standard Chartered Bank (Hong Kong) Limited"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://thedriven.io/2026/02/05/polestar-secures-another-us400-million-in-equity-to-overcome-cash-crunch/",
+          "quote": "$US400 million (approximately $A570 million) equity investment"
+        },
+        {
+          "field": "stage",
+          "url": "https://chinaevhome.com/2026/02/02/geely-volvo-backed-polestar-secures-400-million-equity-financing/",
+          "quote": "$400 million equity investment"
+        },
+        {
+          "field": "month",
+          "url": "https://chinaevhome.com/2026/02/02/geely-volvo-backed-polestar-secures-400-million-equity-financing/",
+          "quote": "expected to close by February 5, 2026"
+        },
+        {
+          "field": "investors",
+          "url": "https://thedriven.io/2026/02/05/polestar-secures-another-us400-million-in-equity-to-overcome-cash-crunch/",
+          "quote": "$US200 million equity investments from Feathertop Funding Limited, a special purpose vehicle consolidated to Sumitomo Mitsui Banking Corporation, and also from Standard Chartered Bank (Hong Kong) Limited."
+        }
+      ]
+    },
+    {
+      "stage": "series-f+",
+      "month": "2026-03",
+      "amountEur": 260168242,
+      "amountOriginal": 300000000,
+      "currency": "USD",
+      "investors": [
+        "Crédit Agricole CIB",
+        "Vida Finance S.A.",
+        "Innovator Limited",
+        "Proximastar Holdings Company Limited"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://pulse2.com/polestar-300-million-equity-financing-strengthens-electric-vehicle-makers-balance-sheet/amp/",
+          "quote": "$300 million"
+        },
+        {
+          "field": "stage",
+          "url": "https://pulse2.com/polestar-300-million-equity-financing-strengthens-electric-vehicle-makers-balance-sheet/amp/",
+          "quote": "$19.34 per Class A ADS"
+        },
+        {
+          "field": "month",
+          "url": "https://pulse2.com/polestar-300-million-equity-financing-strengthens-electric-vehicle-makers-balance-sheet/amp/",
+          "quote": "Mar 17, 2026"
+        },
+        {
+          "field": "investors",
+          "url": "https://pulse2.com/polestar-300-million-equity-financing-strengthens-electric-vehicle-makers-balance-sheet/amp/",
+          "quote": "Crédit Agricole CIB, Vida Finance S.A., Innovator Limited, and Proximastar Holdings Company Limited"
+        }
+      ]
+    }
+  ]
+}

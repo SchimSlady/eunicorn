@@ -11,7 +11,7 @@
     "mobility",
     "robotics"
   ],
-  "status": "private",
+  "status": "public",
   "unicorn": false,
   "founders": [
     "Robert Falck",
@@ -40,6 +40,16 @@
       "field": "sectors",
       "url": "https://tools.prnewswire.com/en-us/live/20823/release/20251001EN88741",
       "quote": "provides digital, electric, and autonomous solutions for road freight"
+    },
+    {
+      "field": "status",
+      "url": "https://bebeez.eu/2026/06/10/einride-a-global-leader-in-autonomous-and-electric-freight-completes-business-combination-and-will-begin-trading-on-nasdaq-stock-market/",
+      "quote": "Completes Business Combination and Will Begin Trading on Nasdaq Stock Market"
+    },
+    {
+      "field": "valuation",
+      "url": "https://www.ttnews.com/articles/einride-raises-funds",
+      "quote": "Einride AB raised about $100 million in funds in a round that values the Swedish driverless truck startup at more than $1 billion"
     }
   ],
   "rounds": [
@@ -124,5 +134,6 @@
         }
       ]
     }
-  ]
+  ],
+  "lastValuationEur": 851000000
 }
