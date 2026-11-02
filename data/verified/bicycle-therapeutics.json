@@ -36,6 +36,11 @@
       "field": "status",
       "url": "https://forbion.com/news-insights/news/bicycle-therapeutics-announces-555-million-private-placement-equity-financing/",
       "quote": "Bicycle Therapeutics plc (NASDAQ: BCYC)"
+    },
+    {
+      "field": "valuation",
+      "url": "https://www.biocentury.com/article/302274",
+      "quote": "at $14, the low end of its $14-$16 range, giving it a valuation of $247.7 million"
     }
   ],
   "rounds": [
@@ -150,5 +155,6 @@
         }
       ]
     }
-  ]
+  ],
+  "lastValuationEur": 221000000
 }

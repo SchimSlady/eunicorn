@@ -14,7 +14,7 @@
     "health"
   ],
   "status": "acquired",
-  "unicorn": false,
+  "unicorn": true,
   "founders": [
     "Christian Angermayer",
     "Florian Brand",
@@ -48,6 +48,16 @@
       "field": "status",
       "url": "https://en.wikipedia.org/wiki/ATAI_Life_Sciences",
       "quote": "The transaction closed on 11 September 2026, and AtaiBeckley became a wholly owned subsidiary of Lilly."
+    },
+    {
+      "field": "valuation",
+      "url": "https://www.cnbc.com/2021/06/18/peter-thiel-backed-psychedelic-start-ups-shares-pop-in-wall-street-debut.html",
+      "quote": "raised $225 million at a valuation of $2.3 billion."
+    },
+    {
+      "field": "unicorn",
+      "url": "https://www.cnbc.com/2021/06/18/peter-thiel-backed-psychedelic-start-ups-shares-pop-in-wall-street-debut.html",
+      "quote": "raised $225 million at a valuation of $2.3 billion."
     }
   ],
   "rounds": [
@@ -204,5 +214,6 @@
         }
       ]
     }
-  ]
+  ],
+  "lastValuationEur": 1900000000
 }

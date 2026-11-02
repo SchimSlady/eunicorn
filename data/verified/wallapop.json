@@ -9,7 +9,7 @@
   "sectors": [
     "consumer"
   ],
-  "status": "private",
+  "status": "acquired",
   "unicorn": false,
   "lastValuationEur": 690000000,
   "founders": [
@@ -49,6 +49,11 @@
       "field": "fun_fact",
       "url": "https://en.wikipedia.org/wiki/Wallapop",
       "quote": "In 2015, it was cited as the startup company with the highest revenues in Spain, with $1 billion of transactions completed using the app."
+    },
+    {
+      "field": "status",
+      "url": "https://www.catalannews.com/business/item/south-koreas-naver-completes-acquisition-of-wallapop",
+      "quote": "Naver completes acquisition of Wallapop"
     }
   ],
   "rounds": [
