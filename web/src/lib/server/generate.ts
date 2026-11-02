@@ -40,6 +40,8 @@ export function generatePuzzle(mode: PlayMode, date: string, data: Dataset): Any
 /* ---------- Top 10 ---------- */
 
 const LEVEL_RANK: Record<Difficulty, number> = { easy: 0, medium: 1, hard: 2 };
+/** From this day on, "most valuable startups" lists leave out listed, acquired and defunct companies; earlier days keep their list. */
+const TOP10_PRIVATE_VALUATIONS_FROM = "2026-11-03";
 
 /**
  * Name the ten biggest. Each level goes through its questions from the bank (top10-questions.ts) in a
@@ -54,7 +56,7 @@ function top10(base: Base, date: string, companies: Company[], rng: Rng): Top10P
     const pool = TOP10_QUESTIONS.filter((q) => LEVEL_RANK[q.level] <= LEVEL_RANK[level]);
     const order = questionOrder(pool, level, Math.floor(day / pool.length));
     for (let i = 0; i < order.length; i++) {
-      const round = top10Round(order[(day + i) % order.length], companies, rng);
+      const round = top10Round(order[(day + i) % order.length], companies, rng, date >= TOP10_PRIVATE_VALUATIONS_FROM);
       if (round) {
         variants[level] = round;
         break;
@@ -77,9 +79,10 @@ function questionOrder(pool: Top10Question[], level: Difficulty, cycle: number):
 }
 
 /** The list for a question, or null if the data can't make a fair one today. */
-function top10Round(q: Top10Question, companies: Company[], rng: Rng): Top10Round | null {
+function top10Round(q: Top10Question, companies: Company[], rng: Rng, privateValuations: boolean): Top10Round | null {
   const metric = q.metric;
-  const ranked = companies.filter((c) => q.filter(c) && c[metric] != null && c[metric]! > 0).sort((a, b) => b[metric]! - a[metric]!);
+  const ranked = companies
+    .filter((c) => q.filter(c) && (!privateValuations || !q.privateOnly || c.status === "private") && c[metric] != null && c[metric]! > 0).sort((a, b) => b[metric]! - a[metric]!);
   if (ranked.length < 12 || ranked[9][metric]! <= ranked[10][metric]!) return null;
   const top = ranked.slice(0, 10);
   const k = 3 + Math.floor(rng() * 4); // a middle rank, 4 to 7
