@@ -14,7 +14,7 @@ export function shareText(opts: {
   modeTitle: string;
   difficulty: Difficulty;
   hintsUsed: number;
-  /** One per guess/round; a "\n" inside starts a new row (Unicorn Grid). */
+  /** One per guess/round; a "\n" inside starts a new row (Startup Grid). */
   squares: string[];
   /** Plain words: "Got it on guess 3", "4 of 6 right". */
   summary: string;

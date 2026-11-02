@@ -33,7 +33,7 @@ export const MODES: ModeInfo[] = [
   },
   {
     mode: "unicorn-grid",
-    title: "Unicorn Grid",
+    title: "Startup Grid",
     description: "Name a startup for each square that fits its row and column.",
     rules: [
       "Fill each square with a startup that fits both its row and its column.",

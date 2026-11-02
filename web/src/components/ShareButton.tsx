@@ -106,7 +106,7 @@ function ShareMenu({ text, score, maxScore, onClose }: { text: string; score?: n
     }
   }
 
-  const invite = `Daily games about European startups: guess valuations, find the impostor, fill the Unicorn Grid. ${SITE}`;
+  const invite = `Daily games about European startups: guess valuations, find the impostor, fill the Startup Grid. ${SITE}`;
   const links = [
     { label: "WhatsApp", Icon: WhatsAppIcon, href: `https://wa.me/?text=${encodeURIComponent(message)}` },
     { label: "X", Icon: XIcon, href: `https://x.com/intent/post?text=${encodeURIComponent(message)}` },

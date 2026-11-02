@@ -1,5 +1,5 @@
 /**
- * Fills the open squares of a Unicorn Grid so that no company appears twice on the board.
+ * Fills the open squares of a Startup Grid so that no company appears twice on the board.
  *
  * `validAnswers` is row-major (9 lists); `fixed` holds what is already placed (null = open).
  * Options are tried in the given order, so callers can prefer e.g. the best-known answer.

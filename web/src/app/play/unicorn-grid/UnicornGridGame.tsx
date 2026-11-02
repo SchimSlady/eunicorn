@@ -23,7 +23,7 @@ import { StatsPanel } from "@/components/StatsPanel";
 import { recordFinish, recordStart } from "@/lib/stats";
 
 const MODE = "unicorn-grid";
-const TITLE = "Unicorn Grid";
+const TITLE = "Startup Grid";
 
 /** No limit on guesses and no cost for a wrong one: the game ends when the grid is full, or when you give up. */
 
@@ -290,12 +290,11 @@ export function UnicornGridGame() {
                 >
                   {shown && (
                     <>
-                      {/* The logo fills the square; white behind it because many logos are dark. */}
+                      {/* Only the logo, filling the square (Pablo, 2026-11-02); companies without one show their
+                          initials. The name stays in the square's accessible name. White behind it because many logos are dark. */}
                       <div className="min-h-0 flex-1">
                         <CompanyLogo company={shown} fill />
                       </div>
-                      {/* The name gets the full width, on up to two lines. */}
-                      <span className="line-clamp-2 px-0.5 text-center text-[11px] font-semibold leading-tight">{shown.name}</span>
                     </>
                   )}
                 </button>

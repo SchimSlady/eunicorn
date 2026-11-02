@@ -269,8 +269,9 @@ export function ImpostorGame() {
                 bucket={won ? Math.min(tries, TRIES_CAP) : 0}
                 score={score}
                 maxScore={MAX_SCORE}
-                order={[1, 2, 3, 4, 5, 6, 0]}
-                label={(b) => (b === 0 ? "X" : b === TRIES_CAP ? `${TRIES_CAP}+` : String(b))}
+                // Best on the right (Pablo, 2026-11-02): most tries left, one try right; unsolved games aren't shown.
+                order={[6, 5, 4, 3, 2, 1]}
+                label={(b) => (b === TRIES_CAP ? `${TRIES_CAP}+` : String(b))}
                 axis="Tries needed"
                 display={won ? { value: String(tries), caption: tries === 1 ? "try" : "tries" } : { value: "–", caption: "not solved" }}
               />

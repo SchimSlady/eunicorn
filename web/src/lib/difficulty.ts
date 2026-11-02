@@ -24,14 +24,14 @@ export const FAME_TIERS: Record<Difficulty, { min: number; max: number }> = {
 };
 
 /**
- * When a game asks for an investor outright ("Backed by ..." in the Unicorn Grid) only the ones
+ * When a game asks for an investor outright ("Backed by ..." in the Startup Grid) only the ones
  * players can know are used: the investor's `tier` in the data is 1 (top global VCs) or 2 (about
  * 50 famous ones). Tier 3 and 4 are unknown to nearly everyone, so no level uses them.
  */
 export const INVESTOR_TIER_MAX = 2;
 
 /**
- * How hard the Unicorn Grid's headings (its categories) may be, by level; cumulative like the company
+ * How hard the Startup Grid's headings (its categories) may be, by level; cumulative like the company
  * tiers. A heading is level 1 if anyone can place a startup in it (a big country, a big sector, "valued
  * over €5bn"), level 2 if it takes some knowledge (a big city, a smaller sector, a founding period) and
  * level 3 if it takes a lot (a small city such as Helsinki, a niche sector, an investor).
