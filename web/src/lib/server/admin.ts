@@ -22,8 +22,19 @@ export interface HourRow {
   starts: number;
 }
 
+/** One anonymous player on one puzzle day (the id is a daily hash, new every day). */
+export interface PlayerRow {
+  played_on: string;
+  player: string;
+  starts: number;
+  finishes: number;
+  solved: number;
+  modes: string[];
+  avg_score_pct: number | null;
+}
+
 export type AdminData =
-  | { ok: true; summary: SummaryRow[]; hours: HourRow[] }
+  | { ok: true; summary: SummaryRow[]; hours: HourRow[]; players: PlayerRow[] | null }
   | { ok: false; reason: string };
 
 async function rpc<T>(name: string, from: string, to: string): Promise<T[] | string> {
@@ -43,9 +54,10 @@ async function rpc<T>(name: string, from: string, to: string): Promise<T[] | str
 }
 
 export async function loadAdminData(from: string, to: string): Promise<AdminData> {
-  const [summary, hours] = await Promise.all([
+  const [summary, hours, players] = await Promise.all([
     rpc<SummaryRow>("admin_play_summary", from, to),
     rpc<HourRow>("admin_play_hours", from, to),
+    rpc<PlayerRow>("admin_play_players", from, to),
   ]);
   if (typeof summary === "string") return { ok: false, reason: summary };
   if (typeof hours === "string") return { ok: false, reason: hours };
@@ -60,5 +72,17 @@ export async function loadAdminData(from: string, to: string): Promise<AdminData
       avg_score_pct: r.avg_score_pct == null ? null : Number(r.avg_score_pct),
     })),
     hours: hours.map((r) => ({ ...r, hour: Number(r.hour), starts: Number(r.starts) })),
+    // Player numbers are optional: null (and a note on the page) until admin_play_players exists.
+    players:
+      typeof players === "string"
+        ? null
+        : players.map((r) => ({
+            ...r,
+            starts: Number(r.starts),
+            finishes: Number(r.finishes),
+            solved: Number(r.solved),
+            modes: r.modes ?? [],
+            avg_score_pct: r.avg_score_pct == null ? null : Number(r.avg_score_pct),
+          })),
   };
 }

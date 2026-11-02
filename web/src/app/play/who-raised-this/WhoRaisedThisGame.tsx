@@ -47,14 +47,14 @@ function evaluate(p: WhoRaisedThisPuzzle, progress: Progress) {
   const wrong = progress.guesses.filter((id) => id !== p.answerCompanyId).length;
   const lost = !won && progress.gaveUp;
   const done = won || lost;
-  const hintCost = p.hints.slice(0, progress.hintsUsed).reduce((s, h) => s + h.cost, 0);
+  // Hints are free (Pablo, 2026-11-02): they show in the share text and break leaderboard ties, but cost no points.
   return {
     won,
     wrong,
     done,
     // Each wrong guess reveals one more clue; when the game is over, show everything.
     cluesShown: done ? p.clues.length : Math.min(START_CLUES + wrong, p.clues.length),
-    score: won ? Math.max(1, MAX_SCORE - wrong - hintCost) : 0,
+    score: won ? Math.max(1, MAX_SCORE - wrong) : 0,
   };
 }
 

@@ -7,4 +7,4 @@ export const CONTACT_EMAIL = "eunicorn.guesser@gmail.com";
 
 export const INSTAGRAM = { handle: "play.eunicorn", url: "https://www.instagram.com/play.eunicorn/" };
 
-export const LAST_UPDATED = "31.10.2026";
+export const LAST_UPDATED = "02.11.2026";

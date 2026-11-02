@@ -12,7 +12,7 @@ import { Sheet } from "./Sheet";
 const SITE = "https://eunicorn.eu";
 
 /**
- * "Share" opens a share menu: the result as a picture (story size, for Instagram and WhatsApp),
+ * "Challenge friends" opens a share menu: the result as a picture (story size, for Instagram and WhatsApp),
  * one-tap WhatsApp, X and LinkedIn, the phone's own share sheet, and an invite without the result.
  * The message is short and emoji-free (WhatsApp Desktop garbles emoji in share links): the result,
  * how it ranks today, and "Can you beat me?" with a link to today's game.
@@ -25,11 +25,11 @@ export function ShareButton({ text, score, maxScore, compact = false }: { text: 
         type="button"
         onClick={() => setOpen(true)}
         className={`flex min-h-11 items-center justify-center gap-2 rounded-full bg-primary font-semibold text-on-primary transition active:scale-[0.98] ${
-          compact ? "px-4 text-sm" : "w-full px-4 py-3"
+          compact ? "shrink-0 whitespace-nowrap px-4 text-sm" : "w-full px-4 py-3"
         }`}
       >
         <Share2 size={compact ? 16 : 18} aria-hidden />
-        {compact ? "Share" : "Share result"}
+        Challenge friends
       </button>
       {open && <ShareMenu text={text} score={score} maxScore={maxScore} onClose={() => setOpen(false)} />}
     </>
@@ -114,8 +114,8 @@ function ShareMenu({ text, score, maxScore, onClose }: { text: string; score?: n
   ];
 
   return (
-    <Sheet title="Share your result" onClose={onClose}>
-      <h2 className="text-center font-display text-xl font-bold">Share your result</h2>
+    <Sheet title="Challenge your friends" onClose={onClose}>
+      <h2 className="text-center font-display text-xl font-bold">Challenge your friends</h2>
 
       <div className="mx-auto aspect-[9/16] w-40 overflow-hidden rounded-xl border border-border bg-eu-blue">
         {image && (

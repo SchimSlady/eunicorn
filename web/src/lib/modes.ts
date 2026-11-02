@@ -16,10 +16,9 @@ export const MODES: ModeInfo[] = [
     title: "Top 10",
     description: "Name the ten biggest startups in a list, by valuation or money raised.",
     rules: [
-      "Name the ten companies in the list: type a startup, and if it's in the top 10 it lands on its rank. Every empty slot shows the flag of its country.",
-      "Every company you find counts. A name that isn't in the list costs you points, and so do hints. Guess as often as you like.",
-      "The list comes from our verified database, by last valuation, total raised or founding year. Easy lists are Europe and the big hubs (UK, Germany, France, Sweden), Medium adds Paris, more sectors and acquired or listed startups, Hard adds smaller cities and countries.",
-      "Easy, Medium and Hard play the same. The level sets how familiar the list is, and how many hints you get: all on Easy, half on Medium, none on Hard.",
+      "Name the ten startups in today's list, for example the ten most valuable in Germany.",
+      "Type a startup: if it's in the list, it lands on its rank. Each empty slot shows its country's flag.",
+      "Wrong names cost points. Find as many as you can, or tap Show the list to see the rest.",
     ],
   },
   {
@@ -28,9 +27,8 @@ export const MODES: ModeInfo[] = [
     description: "Guess the startup behind a funding round. Every wrong guess reveals a new clue.",
     rules: [
       "A funding round is on the board: the amount and the stage. Guess which startup raised it.",
-      "Every wrong guess unlocks the next clue: when it was announced, sector, founding year, HQ, investors, founders.",
-      "Each wrong guess costs points, and so do hints. Guess as often as you like.",
-      "Easy, Medium and Hard play the same. The level sets how well known the startups are, and how many hints you get: all on Easy, half on Medium, none on Hard.",
+      "Every wrong guess reveals a new clue: when, sector, founding year, HQ, investors, founders.",
+      "The fewer guesses you need, the more points you score.",
     ],
   },
   {
@@ -39,10 +37,8 @@ export const MODES: ModeInfo[] = [
     description: "Name a startup for each square that fits its row and column.",
     rules: [
       "Fill each square with a startup that fits both its row and its column.",
-      "Each company can be used only once.",
-      "Lesser-known answers score more: an insider pick is worth up to five times a household name.",
-      "A wrong guess costs points, and so do hints. Guess as often as you like.",
-      "Easy, Medium and Hard play the same. The level sets how well known the startups are, how simple the categories are, and how many hints you get: all on Easy, half on Medium, none on Hard.",
+      "Each startup can be used only once, and lesser-known answers score more.",
+      "Wrong guesses cost points. Fill as many squares as you can.",
     ],
   },
   {
@@ -50,11 +46,9 @@ export const MODES: ModeInfo[] = [
     title: "Higher or Lower",
     description: "See one company's number, then say if the next one is higher or lower. One wrong call ends the run.",
     rules: [
-      "You see one company's valuation, total raised, biggest single funding round or founding year. Is the next company's number higher or lower?",
-      "Now and then there's a theme day: only unicorns, only startups founded before or after 2015, only German startups, only AI.",
-      "Each right call scores. One wrong call ends the run, after at most 15 rounds.",
-      "Neighbouring numbers are never close calls: money figures at least 30% apart, founding years never the same.",
-      "Easy, Medium and Hard play the same. The level sets how well known the startups are, and how many hints you get: all on Easy, half on Medium, none on Hard.",
+      "You see one startup's number: valuation, money raised, biggest round or founding year.",
+      "Is the next startup's number higher or lower? Every right call scores.",
+      "One wrong call ends the run, after at most 15 rounds.",
     ],
   },
   {
@@ -63,9 +57,8 @@ export const MODES: ModeInfo[] = [
     description: "Six startups, one category. Find the ones that don't belong.",
     rules: [
       "Most of the startups share something: a country, a city, a sector, a founding period or unicorn status.",
-      "Usually one doesn't belong, sometimes two or three, and you aren't told how many. The game ends once you've found them all.",
-      "Each wrong pick costs points, and so do hints. Pick as often as you like.",
-      "Easy, Medium and Hard play the same. The level sets how well known the startups are, and how many hints you get: all on Easy, half on Medium, none on Hard.",
+      "Find the ones that don't belong: usually one, sometimes two or three.",
+      "Wrong picks cost points. The game ends once you've found them all.",
     ],
   },
 ];
