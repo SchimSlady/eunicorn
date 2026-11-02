@@ -2,14 +2,14 @@
 
 import { useEffect, useMemo, useState } from "react";
 import { X } from "lucide-react";
-import type { Company, Dataset, GridCriterion, Hint, UnicornGridPuzzle } from "@eunicorn/schema";
+import type { Company, Dataset, GridCriterion, UnicornGridPuzzle } from "@eunicorn/schema";
 import { indexById, loadGame } from "@/lib/data";
 import { getTodayResult, loadProgress, saveProgress, saveResult } from "@/lib/daily";
 import { hintLimit, saveDifficulty, type Difficulty } from "@/lib/difficulty";
 import { shareText as buildShareText } from "@/lib/scoring";
 import { CompanyLogo } from "@/components/CompanyLogo";
-import { sectorLabel } from "@/lib/format";
 import { distinctAnswers } from "@/lib/grid";
+import { companyFact, strengthOf } from "@/lib/hints";
 import { RevealButton } from "@/components/RevealButton";
 import { CompanySearch } from "@/components/CompanySearch";
 import { BuiltInEuropeCard } from "@/components/BuiltInEuropeCard";
@@ -28,28 +28,15 @@ const TITLE = "Startup Grid";
 /** No limit on guesses and no cost for a wrong one: the game ends when the grid is full, or when you give up. */
 
 /**
- * A square's hints, in order: a description of one answer, then its first letter. Hints are free
- * (Pablo, 2026-11-02); the costs only remain in the puzzle data, the score ignores them.
+ * The answer a hint for a square is about: a valid answer not on the board yet, the best-known one
+ * that still lets the rest of the board be filled, so a hint never points at a company already used.
  */
-const HINT_COSTS = [1, 2];
-
-/**
- * The hints for a square point at one valid answer that is not on the board yet, the best-known
- * one that still lets the rest of the board be filled. When the player uses it elsewhere, the
- * hints move on to another answer, so a hint never points at a square already answered.
- */
-function hintsFor(p: UnicornGridPuzzle, cells: (string | null)[], cell: number, companies: Map<string, Company>): Hint[] {
+function hintAnswer(p: UnicornGridPuzzle, cells: (string | null)[], cell: number, companies: Map<string, Company>): Company | undefined {
   const fame = (id: string) => companies.get(id)?.difficulty ?? 3;
   const bestKnownFirst = (_: number, ids: string[]) => [...ids].sort((a, b) => fame(a) - fame(b) || a.localeCompare(b));
   const used = new Set(cells.filter((id): id is string => !!id));
   const id = distinctAnswers(p.validAnswers, cells, bestKnownFirst)?.[cell] ?? p.validAnswers[cell].find((x) => !used.has(x));
-  const one = id ? companies.get(id) : undefined;
-  if (!one) return [];
-  const texts = [
-    `one answer is ${one.sectors.map(sectorLabel).join(", ")} from ${one.city}`,
-    `one answer starts with ${one.name[0].toUpperCase()}`,
-  ];
-  return texts.map((text, i) => ({ text, cost: HINT_COSTS[i] }));
+  return id ? companies.get(id) : undefined;
 }
 
 /** The part of the puzzle that differs by level. A hand-made puzzle has no variants: one for all. */
@@ -66,7 +53,10 @@ interface Progress {
   difficulty: Difficulty;
   cells: (string | null)[]; // company id per square, row-major
   wrong: number;
-  cellHints: number[]; // hints revealed per square
+  /** Hints revealed per square by the earlier per-square version; kept only to count them. */
+  cellHints: number[];
+  /** Hints revealed for the whole board (Pablo, 2026-11-02), as shown, with the square each is about. */
+  hints?: { cell: number; text: string }[];
   gaveUp: boolean;
 }
 
@@ -82,7 +72,7 @@ function evaluate(p: UnicornGridPuzzle, progress: Progress, companies: Map<strin
     filled,
     done,
     worth,
-    hintsUsed: progress.cellHints.reduce((s, n) => s + n, 0),
+    hintsUsed: (progress.hints?.length ?? 0) + progress.cellHints.reduce((s, n) => s + n, 0),
     maxScore: 9,
     score: filled,
   };
@@ -218,19 +208,30 @@ export function UnicornGridGame() {
 
   const strip = (s: string) => s.replace(/\p{Regional_Indicator}/gu, "").trim();
 
-  // Hints are for the board: each one names the open square it is about. They start with the square
-  // that has the fewest answers and finish one square before the next. Squares already filled have none.
-  const perSquare = hintLimit(progress.difficulty, HINT_COSTS.length);
+  // Hints (Pablo, 2026-11-02): for the whole board (Easy 5, Medium 3, Hard 1). Each names the open
+  // square it is about, a square without a hint yet and with the fewest answers first, and is about a
+  // different startup, softer first and stronger later. Never the square's own sector or investor.
+  const hintCap = hintLimit(progress.difficulty, Infinity);
+  const boardHints = progress.hints ?? [];
   const open = [0, 1, 2, 3, 4, 5, 6, 7, 8].filter((cell) => !progress.cells[cell]);
   const squareName = (cell: number) => `${strip(puzzle.rows[Math.floor(cell / 3)].label)} × ${strip(puzzle.cols[cell % 3].label)}`;
-  const squareHints = new Map(open.map((cell) => [cell, hintsFor(puzzle, progress.cells, cell, companies).slice(0, perSquare)]));
-  const named = (cell: number, h: Hint): Hint => ({ ...h, text: `${squareName(cell)}: ${h.text}` });
-  const revealedHints = open.flatMap((cell) => squareHints.get(cell)!.slice(0, progress.cellHints[cell]).map((h) => named(cell, h)));
-  const hintOrder = [...open].sort(
-    (a, b) => Number(progress.cellHints[b] > 0) - Number(progress.cellHints[a] > 0) || puzzle.validAnswers[a].length - puzzle.validAnswers[b].length || a - b,
-  );
-  const nextCell = hintOrder.find((cell) => progress.cellHints[cell] < squareHints.get(cell)!.length);
-  const nextHint = nextCell === undefined ? undefined : named(nextCell, squareHints.get(nextCell)![progress.cellHints[nextCell]]);
+  const hinted = new Set(boardHints.map((h) => h.cell));
+  const nextCell = [...open].sort(
+    (a, b) => Number(hinted.has(a)) - Number(hinted.has(b)) || puzzle.validAnswers[a].length - puzzle.validAnswers[b].length || a - b,
+  )[0];
+  const canHint = boardHints.length < hintCap && nextCell !== undefined;
+  function revealHint() {
+    if (!canHint) return;
+    const one = hintAnswer(puzzle!, progress!.cells, nextCell, companies);
+    if (!one) return;
+    const crit = [puzzle!.rows[Math.floor(nextCell / 3)], puzzle!.cols[nextCell % 3]];
+    const fact = companyFact(one, strengthOf(boardHints.length, hintCap), {
+      data: data!,
+      hideSectors: new Set(crit.filter((k) => k.kind === "sector").map((k) => String(k.value))),
+      hideInvestor: crit.find((k) => k.kind === "investor")?.value as string | undefined,
+    });
+    update({ ...progress!, hints: [...boardHints, { cell: nextCell, text: `${squareName(nextCell)}: one answer ${fact.startsWith("starts") ? "" : "was "}${fact}` }] });
+  }
 
   const usedCompanies = progress.cells.filter((id): id is string => !!id).map((id) => companies.get(id)!);
   // End card: the player's rarest pick (highest difficulty); with no square filled, an answer they could have used.
@@ -332,14 +333,10 @@ export function UnicornGridGame() {
                 </div>
                 <Hints
                   compact
-                  available={perSquare > 0 && open.length > 0}
-                  revealed={revealedHints}
-                  next={nextHint}
-                  onReveal={() => {
-                    const cellHints = [...progress.cellHints];
-                    cellHints[nextCell!] += 1;
-                    update({ ...progress, cellHints });
-                  }}
+                  available={hintCap > 0}
+                  revealed={boardHints.map((h) => ({ text: h.text, cost: 0 }))}
+                  next={canHint ? { text: "", cost: 0 } : undefined}
+                  onReveal={revealHint}
                 />
               </div>
             </>

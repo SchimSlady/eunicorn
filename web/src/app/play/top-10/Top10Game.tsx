@@ -4,7 +4,7 @@ import { useEffect, useMemo, useState } from "react";
 import type { Company, Dataset } from "@eunicorn/schema";
 import { indexById, loadGame } from "@/lib/data";
 import { getTodayResult, loadProgress, saveProgress, saveResult } from "@/lib/daily";
-import { saveDifficulty, type Difficulty } from "@/lib/difficulty";
+import { saveDifficulty, type Difficulty, hintLimit } from "@/lib/difficulty";
 import { countryName, formatMetric } from "@/lib/format";
 import { shareText as buildShareText } from "@/lib/scoring";
 import type { Top10Puzzle, Top10Round } from "@/lib/top10";
@@ -15,7 +15,8 @@ import { BuiltInEuropeCard } from "@/components/BuiltInEuropeCard";
 import { GameIntro } from "@/components/GameIntro";
 import { GameHeader } from "@/components/GameHeader";
 import { Announce, GameSkeleton, NoPuzzle } from "@/components/Announce";
-import { Hints, hintState } from "@/components/Hints";
+import { Hints } from "@/components/Hints";
+import { companyFact, pickRandom, strengthOf } from "@/lib/hints";
 import { ResultArea } from "@/components/ResultArea";
 import { RevealButton } from "@/components/RevealButton";
 import { StatsPanel } from "@/components/StatsPanel";
@@ -31,6 +32,10 @@ interface Progress {
   difficulty: Difficulty;
   guesses: string[]; // company ids, in order: found or wrong
   hintsUsed: number;
+  /** The hints revealed so far, as shown (drawn when revealed, so they don't change on reload). */
+  hintTexts?: string[];
+  /** The startup each hint is about, so the next hint picks a different one. */
+  hintIds?: string[];
   gaveUp: boolean;
 }
 
@@ -109,6 +114,23 @@ export function Top10Game() {
     }
   }
 
+  // Hints (Pablo, 2026-11-02): each one about a random startup not found yet, softer first and
+  // stronger later. Sectors all ten share (a sector list) aren't a clue, so they're left out.
+  const hintCap = hintLimit(progress.difficulty, Infinity);
+  const hintTexts = progress.hintTexts ?? [];
+  const unfound = round.companyIds.filter((id) => !found.includes(id));
+  function revealHint() {
+    // A startup without a hint yet; only when every unfound one has had a hint, any unfound one again.
+    const fresh = unfound.filter((x) => !(progress!.hintIds ?? []).includes(x));
+    const id = pickRandom(fresh.length ? fresh : unfound);
+    if (!id || hintTexts.length >= hintCap) return;
+    const listed = round.companyIds.map((x) => companies.get(x)!);
+    const shared = new Set(listed[0].sectors.filter((s) => listed.every((c) => c.sectors.includes(s))));
+    const fact = companyFact(companies.get(id)!, strengthOf(hintTexts.length, hintCap), { data: data!, hideSectors: shared });
+    const texts = [...hintTexts, `No. ${round.companyIds.indexOf(id) + 1}: ${fact[0].toUpperCase()}${fact.slice(1)}`];
+    update({ ...progress!, hintTexts: texts, hintIds: [...(progress!.hintIds ?? []), id], hintsUsed: texts.length });
+  }
+
   function guess(c: Company) {
     const hit = round.companyIds.includes(c.id);
     setMiss(hit ? null : { name: c.name, n: (miss?.n ?? 0) + 1 });
@@ -179,8 +201,10 @@ export function Top10Game() {
             </div>
             <Hints
               compact
-              {...hintState(progress.difficulty, round.hints, progress.hintsUsed)}
-              onReveal={() => update({ ...progress, hintsUsed: progress.hintsUsed + 1 })}
+              available={hintCap > 0}
+              revealed={hintTexts.map((text) => ({ text, cost: 0 }))}
+              next={hintTexts.length < hintCap && unfound.length ? { text: "", cost: 0 } : undefined}
+              onReveal={revealHint}
             />
           </div>
           <RevealButton label="Show the list" onConfirm={() => update({ ...progress, gaveUp: true })} />
