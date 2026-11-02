@@ -43,6 +43,11 @@
       "field": "unicorn",
       "url": "https://techcrunch.com/2022/02/09/scandit-snaps-up-150m-at-a-1b-valuation-for-its-computer-vision-based-data-capture-technology/",
       "quote": "Scandit snaps up $150M at a $1B+ valuation for its computer vision-based data capture technology"
+    },
+    {
+      "field": "valuation",
+      "url": "https://tech.eu/2022/02/09/switzerlands-scandit",
+      "quote": "Scandit has raised $150 million in a Series D funding round, now providing the company with a valuation north of $1 billion."
     }
   ],
   "rounds": [
@@ -194,5 +199,6 @@
       ],
       "techeuId": "988536b5-5933-44c4-88ed-1dbf3a429569"
     }
-  ]
+  ],
+  "lastValuationEur": 875000000
 }

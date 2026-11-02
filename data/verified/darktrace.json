@@ -32,11 +32,6 @@
       "quote": "is a British cyber security company"
     },
     {
-      "field": "status",
-      "url": "https://en.wikipedia.org/wiki/Darktrace",
-      "quote": "acquired by American private equity firm Thoma Bravo in October 2024"
-    },
-    {
       "field": "unicorn",
       "url": "https://techcrunch.com/2018/09/26/darktrace-raises-50-million-new-funding/",
       "quote": "putting the company’s valuation at $1.65 billion"
@@ -60,6 +55,11 @@
       "field": "fun_fact",
       "url": "https://en.wikipedia.org/wiki/Darktrace",
       "quote": "The market value reached a peak of £7 billion within months"
+    },
+    {
+      "field": "status",
+      "url": "https://en.wikipedia.org/wiki/Darktrace",
+      "quote": "On 1 October 2024, it was announced that Thoma Bravo had formally completed its acquisition of the firm."
     }
   ],
   "rounds": [

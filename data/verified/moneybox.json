@@ -36,6 +36,11 @@
       "field": "sectors",
       "url": "https://tech.eu/2022/04/04/savings-and-investment-platform-moneybox-banks-ps35-million/",
       "quote": "London-based savings and investment platform Moneybox"
+    },
+    {
+      "field": "valuation",
+      "url": "https://pulse2.com/moneybox-reaches-800-million-valuation-through-employee-secondary-share-transaction/",
+      "quote": "values the UK digital wealth management platform at £800 million"
     }
   ],
   "rounds": [
@@ -112,5 +117,6 @@
         }
       ]
     }
-  ]
+  ],
+  "lastValuationEur": 938000000
 }

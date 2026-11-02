@@ -11,7 +11,7 @@
   ],
   "status": "private",
   "unicorn": true,
-  "lastValuationEur": 1148011480,
+  "lastValuationEur": 1500000000,
   "founders": [
     "Erik Podzuweit",
     "Florian Prucker",
@@ -48,8 +48,8 @@
     },
     {
       "field": "valuation",
-      "url": "https://techcrunch.com/2021/06/08/european-neobroker-scalable-capital-raises-180m-at-a-1-4b-valuation/",
-      "quote": "European neobroker Scalable Capital raises $180M+ at a $1.4B valuation"
+      "url": "https://en.wikipedia.org/wiki/Scalable_Capital",
+      "quote": "As of 2025, Scalable Capital had raised more than €470 million since its founding and was valued at around €1.5 billion."
     }
   ],
   "rounds": [

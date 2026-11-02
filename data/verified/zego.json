@@ -44,6 +44,11 @@
       "field": "unicorn",
       "url": "https://techcrunch.com/2021/03/09/zego-unicorn/",
       "quote": "giving it a $1.1 billion valuation and a unicorn status"
+    },
+    {
+      "field": "valuation",
+      "url": "https://tech.eu/2021/03/10/london-based-insurtech-zego-raises-150-million-joins-the-unicorn-ranks-with-1-1-billion-valuation/",
+      "quote": "which now places them at a $1.1 billion valuation"
     }
   ],
   "rounds": [
@@ -193,5 +198,6 @@
         }
       ]
     }
-  ]
+  ],
+  "lastValuationEur": 925000000
 }
