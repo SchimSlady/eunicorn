@@ -23,11 +23,6 @@
       "quote": "has secured $260 million in Series B funding at a $1.8 billion valuation"
     },
     {
-      "field": "valuation",
-      "url": "https://www.maginative.com/article/spotify-founders-health-tech-startup-neko-raises-260m-valued-at-1-8-billion/",
-      "quote": "has secured $260 million in Series B funding at a $1.8 billion valuation"
-    },
-    {
       "field": "city",
       "url": "https://www.pymnts.com/news/?p=2432250",
       "quote": "The Stockholm-based company announced Thursday (Jan. 23)"
@@ -46,6 +41,11 @@
       "field": "sectors",
       "url": "https://www.digitalhealthnews.com/spotify-co-founder-s-neko-health-secures-260-mn-hits-1-8b-valuation",
       "quote": "Swedish healthtech startup Neko Health"
+    },
+    {
+      "field": "valuation",
+      "url": "https://www.endurancesportswire.com/neko-health-raises-700m-at-nearly-7bn-and-heads-to-new-york/",
+      "quote": "The round values the company at nearly $7bn, roughly four times its worth in January 2025."
     }
   ],
   "rounds": [
@@ -135,5 +135,5 @@
     }
   ],
   "aliases": [],
-  "lastValuationEur": 1738504359
+  "lastValuationEur": 6104000000
 }

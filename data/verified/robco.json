@@ -51,6 +51,11 @@
       "field": "fun_fact",
       "url": "https://www.therobotreport.com/robco-raises-42-5m-for-automation-for-small-midsize-manufacturers/",
       "quote": "Three researchers led by Roman Hölzl, the chair of robotics and artificial intelligence at the Technical University of Munich, founded RobCo in 2020."
+    },
+    {
+      "field": "valuation",
+      "url": "https://www.thestar.com.my/tech/tech-news/2026/10/05/german-robot-startup-robco-hits-1-billion-valuation-ceo-moves-to-us",
+      "quote": "had passed a $1 billion valuation"
     }
   ],
   "rounds": [
@@ -167,5 +172,6 @@
         }
       ]
     }
-  ]
+  ],
+  "lastValuationEur": 893000000
 }

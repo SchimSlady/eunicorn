@@ -13,7 +13,7 @@
   ],
   "status": "private",
   "unicorn": true,
-  "lastValuationEur": 1283128033,
+  "lastValuationEur": 2023000000,
   "founders": [
     "Anne Boden"
   ],
@@ -51,14 +51,14 @@
       "quote": "The new investment values the company at £1.1 billion pre-money."
     },
     {
-      "field": "valuation",
-      "url": "https://starlingbank.com/news/starling-announces-272m-funding-round-march-2021",
-      "quote": "The new investment values the company at £1.1 billion pre-money."
-    },
-    {
       "field": "fun_fact",
       "url": "https://en.wikipedia.org/wiki/Starling_Bank",
       "quote": "its banking-as-a-service platform, Engine, through which it plans to white-label to other firms"
+    },
+    {
+      "field": "valuation",
+      "url": "https://www.ibtimes.co.uk/starling-anne-boden-final-stake-valuation-1827030",
+      "quote": "valuation has been pegged at about £1.7 billion after founder Anne Boden quietly sold her remaining shares"
     }
   ],
   "rounds": [

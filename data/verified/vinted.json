@@ -11,7 +11,7 @@
   ],
   "status": "private",
   "unicorn": true,
-  "lastValuationEur": 3500000000,
+  "lastValuationEur": 8000000000,
   "founders": [
     "Milda Mitkute",
     "Justas Janauskas"
@@ -45,14 +45,14 @@
       "quote": "The online retailer has pocketed a massive €128 million in an equity funding round, valuing the company at over €1 billion."
     },
     {
-      "field": "valuation",
-      "url": "https://siliconcanals.com/vinted-raises-250m/",
-      "quote": "has raised €250M in its Series F round of funding at a pre-money valuation of €3.5B"
-    },
-    {
       "field": "fun_fact",
       "url": "https://en.wikipedia.org/wiki/Vinted",
       "quote": "formerly Mano Drabužiai, meaning \"my clothing\""
+    },
+    {
+      "field": "valuation",
+      "url": "https://thenextweb.com/news/vinted-8-billion-valuation-secondary-share-sale",
+      "quote": "Vinted, the Lithuanian second-hand marketplace that has become one of Europe’s largest consumer-to-consumer platforms, has reached a valuation of €8 billion (approximately $9.4 billion) through an €880 million secondary share sale."
     }
   ],
   "rounds": [

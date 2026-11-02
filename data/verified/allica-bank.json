@@ -10,7 +10,7 @@
     "fintech"
   ],
   "status": "private",
-  "unicorn": false,
+  "unicorn": true,
   "founders": [],
   "difficulty": 3,
   "techeuId": "62AF7C21-0E14-43A9-AC63-9C15A32D4669",
@@ -29,6 +29,16 @@
       "field": "sectors",
       "url": "https://en.wikipedia.org/wiki/Allica_Bank",
       "quote": "Allica Bank is a British challenger bank and fintech"
+    },
+    {
+      "field": "valuation",
+      "url": "https://tech.eu/2026/02/24/allica-bank-to-become-uk-s-latest-fintech-unicorn-following-155m-funding-round-according-to-report/",
+      "quote": "Allica is expected to announce tomorrow that its new valuation will hit $1.2bn (£890m), following the Series D round, Sky News says."
+    },
+    {
+      "field": "unicorn",
+      "url": "https://tech.eu/2026/02/24/allica-bank-to-become-uk-s-latest-fintech-unicorn-following-155m-funding-round-according-to-report/",
+      "quote": "Allica is expected to announce tomorrow that its new valuation will hit $1.2bn (£890m), following the Series D round, Sky News says."
     }
   ],
   "rounds": [
@@ -162,5 +172,6 @@
         }
       ]
     }
-  ]
+  ],
+  "lastValuationEur": 1018000000
 }

@@ -11,7 +11,7 @@
   "sectors": [
     "saas"
   ],
-  "status": "private",
+  "status": "acquired",
   "unicorn": true,
   "lastValuationEur": 15460729746,
   "founders": [
@@ -55,6 +55,11 @@
       "field": "fun_fact",
       "url": "https://en.wikipedia.org/wiki/RealtimeBoard",
       "quote": "In 2019, the company rebranded to Miro, inspired by the Catalan artist Joan Miró"
+    },
+    {
+      "field": "status",
+      "url": "https://thenextweb.com/news/bending-spoons-completes-miro-deal",
+      "quote": "The Milan group closed the all-cash Miro deal on Monday"
     }
   ],
   "rounds": [

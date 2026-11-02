@@ -13,7 +13,7 @@
   ],
   "status": "public",
   "unicorn": true,
-  "lastValuationEur": 2858130690,
+  "lastValuationEur": 3933000000,
   "founders": [
     "Hagan Bayley",
     "Gordon Sanghera",
@@ -48,14 +48,14 @@
       "quote": "the company has raised £195 million in new capital in a private transaction, valuing the company at £2.48 billion."
     },
     {
-      "field": "valuation",
-      "url": "https://www.uktech.news/news/biotech-unicorn-oxford-nanopore-raises-195m-ahead-of-london-ipo-valued-at-248b-20210506",
-      "quote": "the company has raised £195 million in new capital in a private transaction, valuing the company at £2.48 billion."
-    },
-    {
       "field": "status",
       "url": "https://en.wikipedia.org/wiki/Oxford_Nanopore_Technologies",
       "quote": "The company made an initial public offering on the London Stock Exchange on 30 September 2021"
+    },
+    {
+      "field": "valuation",
+      "url": "https://investegate.co.uk/announcement/rns/ip-group--ipo/ip-group-generates-84m-from-oxford-nanopore-ipo/6599942",
+      "quote": "The Company's market capitalisation will be approximately £3.4 billion at the commencement of conditional dealings"
     }
   ],
   "rounds": [

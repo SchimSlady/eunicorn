@@ -37,6 +37,11 @@
       "field": "sectors",
       "url": "https://en.wikipedia.org/wiki/Infobip",
       "quote": "Infobip is a Croatian IT and telecommunications company founded in 2006."
+    },
+    {
+      "field": "valuation",
+      "url": "https://www.croatiaweek.com/infobip-and-one-equity-partners-ink-deal-on-200m-investment/",
+      "quote": "Infobip has thus raised over $200 million from the private equity firm in a deal which values the Croatian cloud communications firm at over $1 billion"
     }
   ],
   "rounds": [
@@ -73,5 +78,6 @@
         }
       ]
     }
-  ]
+  ],
+  "lastValuationEur": 852000000
 }

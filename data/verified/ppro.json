@@ -29,6 +29,11 @@
       "field": "founded",
       "url": "https://siliconcanals.com/ppro-raises-an-additional-76-35m/",
       "quote": "The company was founded in 2006 by Philipp Bock, Philipp Nieland, and Tobias Schreyer"
+    },
+    {
+      "field": "valuation",
+      "url": "https://pulse2.com/ppro-180-million-funding-and-valuation-of-over-1-billion",
+      "quote": "Now PPRO’s valuation is over $1 billion."
     }
   ],
   "rounds": [
@@ -125,5 +130,6 @@
         }
       ]
     }
-  ]
+  ],
+  "lastValuationEur": 824000000
 }

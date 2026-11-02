@@ -37,6 +37,11 @@
       "field": "sectors",
       "url": "https://www.uktech.news/news/truelayer-raises-35m-from-international-investors-20190606",
       "quote": "the European-based provider of financial APIs"
+    },
+    {
+      "field": "valuation",
+      "url": "https://finovate.com/?p=89114",
+      "quote": "According to Bloomberg, the recent round reportedly values TrueLayer at $700 million, which is notably lower than the $1 billion valuation the company received during its 2021 Series E round."
     }
   ],
   "rounds": [
@@ -302,5 +307,6 @@
         }
       ]
     }
-  ]
+  ],
+  "lastValuationEur": 635000000
 }

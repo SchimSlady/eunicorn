@@ -12,7 +12,7 @@
     "fintech"
   ],
   "status": "private",
-  "unicorn": false,
+  "unicorn": true,
   "founders": [
     "Ismail Ahmed",
     "Catherine Wines",
@@ -45,6 +45,16 @@
       "field": "status",
       "url": "https://en.wikipedia.org/wiki/WorldRemit",
       "quote": "It is owned by Zepz, which also owns Sendwave ."
+    },
+    {
+      "field": "valuation",
+      "url": "https://www.worldremit.com/en/blog/product/zepz-raises-292-million-in-new-funding",
+      "quote": "today announces it has raised $292 million in new primary financing, achieving a valuation of $5 billion"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://www.worldremit.com/en/blog/product/zepz-raises-292-million-in-new-funding",
+      "quote": "today announces it has raised $292 million in new primary financing, achieving a valuation of $5 billion"
     }
   ],
   "rounds": [
@@ -121,5 +131,6 @@
         }
       ]
     }
-  ]
+  ],
+  "lastValuationEur": 4267000000
 }

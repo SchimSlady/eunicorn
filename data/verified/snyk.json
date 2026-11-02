@@ -11,7 +11,7 @@
   ],
   "status": "private",
   "unicorn": true,
-  "lastValuationEur": 7180266937,
+  "lastValuationEur": 7018000000,
   "founders": [
     "Guy Podjarny",
     "Danny Grander",
@@ -52,8 +52,8 @@
     },
     {
       "field": "valuation",
-      "url": "https://tech.eu/2021/09/09/londons-developer-security-platform-snyk-raises-530-million/",
-      "quote": "with this round has a valuation of $8.5 billion"
+      "url": "https://snyk.io/news/snyk-closes-196-5-million-series-g-funding-at-7-4-billion-valuation",
+      "quote": "Snyk Closes $196.5 Million Series G Funding at $7.4 Billion Valuation"
     }
   ],
   "rounds": [

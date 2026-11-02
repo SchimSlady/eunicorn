@@ -10,8 +10,8 @@
     "quick-commerce"
   ],
   "status": "private",
-  "unicorn": true,
-  "lastValuationEur": 2528164641,
+  "unicorn": false,
+  "lastValuationEur": 775000000,
   "founders": [
     "Christoph Cordes",
     "Oliver Merkel",
@@ -49,8 +49,8 @@
     },
     {
       "field": "valuation",
-      "url": "https://techcrunch.com/2021/12/09/flink-the-berlin-based-instant-grocery-startup-is-now-valued-at-2-85b-after-raising-750m-in-a-round-led-by-doordash",
-      "quote": "pre-money valuation of $2.1 billion ($2.85 billion post-money)"
+      "url": "https://www.business-punk.com/startup/flink-kassiert-100-mio-waehrend-gorillas-getir-vergluehen/",
+      "quote": "bringt Flink laut Handelsblatt auf eine Bewertung von 900 Millionen Dollar"
     }
   ],
   "rounds": [

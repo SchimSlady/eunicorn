@@ -13,7 +13,7 @@
     "saas"
   ],
   "status": "private",
-  "unicorn": false,
+  "unicorn": true,
   "founders": [
     "Fabien Pinckaers"
   ],
@@ -66,6 +66,16 @@
       "field": "logo",
       "url": "https://commons.wikimedia.org/wiki/File:Odoo_Official_Logo.png",
       "quote": "File:Odoo Official Logo.png - Wikimedia Commons"
+    },
+    {
+      "field": "valuation",
+      "url": "https://thenextweb.com/news/odoo-tops-7-billion-valuation",
+      "quote": "Odoo tops €7 billion valuation as General Atlantic increases stake"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://thenextweb.com/news/odoo-tops-7-billion-valuation",
+      "quote": "Odoo tops €7 billion valuation as General Atlantic increases stake"
     }
   ],
   "rounds": [
@@ -98,5 +108,6 @@
         }
       ]
     }
-  ]
+  ],
+  "lastValuationEur": 7000000000
 }

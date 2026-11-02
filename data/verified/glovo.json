@@ -14,7 +14,7 @@
   ],
   "status": "acquired",
   "unicorn": true,
-  "lastValuationEur": 2300000000,
+  "lastValuationEur": 2001000000,
   "founders": [
     "Oscar Pierre",
     "Sacha Michaud"
@@ -50,11 +50,6 @@
       "quote": "With the Series E, Glovo has become a unicorn, Spain's second company to surpass a $1 billion valuation."
     },
     {
-      "field": "valuation",
-      "url": "https://www.euronews.com/next/2021/12/31/glovo-m-a-delivery-hero",
-      "quote": "2.3 billion euros on a fully diluted and debt free basis before certain adjustments"
-    },
-    {
       "field": "fun_fact",
       "url": "https://tech.eu/brief/barcelona-based-unicorn-glovo-lands-e450-million-in-series-f-funding-the-largest-in-history-for-a-spanish-startup/",
       "quote": "The largest funding round for a Spanish startup to date"
@@ -68,6 +63,11 @@
       "field": "sectors",
       "url": "https://en.wikipedia.org/wiki/Glovo",
       "quote": "Glovo is a Spanish on-demand delivery company"
+    },
+    {
+      "field": "valuation",
+      "url": "https://globalventuring.com/blog/2021/04/01/glovo-covers-529m-funding-delivery/",
+      "quote": "The cash was raised at a $2.35bn valuation, people familiar with the matter told the Wall Street Journal."
     }
   ],
   "rounds": [

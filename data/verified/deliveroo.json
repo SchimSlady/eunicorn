@@ -13,7 +13,7 @@
   ],
   "status": "acquired",
   "unicorn": true,
-  "lastValuationEur": 5769864820,
+  "lastValuationEur": 8919000000,
   "founders": [
     "Will Shu",
     "Greg Orlowski"
@@ -52,14 +52,14 @@
       "quote": "Deliveroo Funding Round Values Firm at Over $7 Billion"
     },
     {
-      "field": "valuation",
-      "url": "https://en.wikipedia.org/wiki/List_of_unicorn_startup_companies",
-      "quote": "Deliveroo Funding Round Values Firm at Over $7 Billion"
-    },
-    {
       "field": "fun_fact",
       "url": "https://en.wikipedia.org/wiki/Deliveroo",
       "quote": "widely reported as one of the worst debuts in the history of the London Stock Exchange"
+    },
+    {
+      "field": "valuation",
+      "url": "https://www.rte.ie/news/business/2021/0331/1207132-deliveroos-london-ipo",
+      "quote": "The 390 pence price tag gave an overall valuation of £7.6 billion and was already set at the bottom of an initial range."
     }
   ],
   "rounds": [

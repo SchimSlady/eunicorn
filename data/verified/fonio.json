@@ -51,6 +51,11 @@
       "field": "fun_fact",
       "url": "https://techfundingnews.com/fonio-ai-17m-20vc-austria-seed-round/",
       "quote": "Keinrath sold the product ten times before it was built, using just a landing page and €1,000 in ads."
+    },
+    {
+      "field": "valuation",
+      "url": "https://tech.eu/2026/06/09/led-by-20vc-fonioai-raises-17m-for-omnichannel-ai-platform/",
+      "quote": "has raised $17 million in seed funding at a $140 million valuation"
     }
   ],
   "rounds": [
@@ -113,5 +118,6 @@
         }
       ]
     }
-  ]
+  ],
+  "lastValuationEur": 121000000
 }
