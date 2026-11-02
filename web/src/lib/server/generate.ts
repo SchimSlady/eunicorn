@@ -234,7 +234,7 @@ function unicornGrid(
     // from a fame step wider than the level's (Easy: up to 3). Any fitting company is accepted anyway.
     const built = forLevel(level, companies, (_, tier) => {
       const known = new Set(companies.filter((c) => c.difficulty <= Math.min(5, tier.max + 1)).map((c) => c.id));
-      return gridFor(allowed, meet, byId, known, tier, rng);
+      return gridFor(allowed, meet, byId, known, tier, rng, base.date >= GRID_NO_NESTED_PLACES_FROM);
     });
     if (built) variants[level] = built;
   }
@@ -254,15 +254,34 @@ function gridFor(
   known: Set<string>,
   tier: Tier,
   rng: Rng,
+  /** No city on the same side as its own country (from GRID_NO_NESTED_PLACES_FROM on). */
+  noNestedPlaces = false,
 ): Pick<UnicornGridPuzzle, "rows" | "cols" | "validAnswers" | "cellHints"> | null {
   let best: { rows: Criterion[]; cols: Criterion[]; cells: string[][]; solvable: string[][]; score: number } | null = null;
+
+  // The country a city belongs to (the most common country of the companies founded there).
+  const cityCountry = new Map<string, string>();
+  if (noNestedPlaces) {
+    const tally = new Map<string, Map<string, number>>();
+    for (const c of byId.values()) {
+      const t = tally.get(c.city) ?? new Map<string, number>();
+      t.set(c.country, (t.get(c.country) ?? 0) + 1);
+      tally.set(c.city, t);
+    }
+    for (const [city, t] of tally) cityCountry.set(city, [...t.entries()].sort((a, b) => b[1] - a[1])[0][0]);
+  }
+  // A city and its own country on one side ("Sweden" and "Stockholm") overlap: every answer of the
+  // city also fits the country, so those squares aren't really different.
+  const nested = (side: Criterion[]) =>
+    side.some((p) => p.c.kind === "city" && side.some((q) => q.c.kind === "country" && q.c.value === cityCountry.get(String(p.c.value))));
 
   // Rows are places (countries, cities) or sectors, like a classic grid; columns mix the rest.
   const sideOk = (side: Criterion[]) =>
     side.filter((p) => p.group === "founded").length <= 1 &&
     side.filter((p) => p.group === "investor").length <= 1 &&
     side.filter((p) => p.group === "valuation").length <= 1 &&
-    side.filter((p) => p.c.kind === "city").length <= 1;
+    side.filter((p) => p.c.kind === "city").length <= 1 &&
+    !(noNestedPlaces && nested(side));
 
   // Rows come from one group, columns from the others; the pools are made once, not per attempt.
   const places = criteria.filter((p) => p.group === "place");
@@ -338,6 +357,8 @@ function investorTier(backedCompanies: number): number {
  */
 const GRID_SKIP_SECTORS = ["saas"];
 const GRID_SKIP_FROM = "2026-11-03";
+/** From this day on a grid side never has a city next to its own country; earlier days keep their grid. */
+const GRID_NO_NESTED_PLACES_FROM = "2026-11-03";
 
 function gridCriteria(data: Dataset, companies: Company[], date: string): Criterion[] {
   const out: Criterion[] = [];
