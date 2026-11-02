@@ -128,6 +128,8 @@ function Dashboard({
         unit="games started"
       />
 
+      <DayTable summary={summary} days={dayList} />
+
       <Table
         title="By game"
         first="Game"
@@ -188,6 +190,69 @@ function Columns({ title, items, unit }: { title: string; items: { key: string; 
       </div>
     </section>
   );
+}
+
+/**
+ * Games per puzzle day, newest first: totals plus games started per game. Days without any game
+ * are left out so a quiet week doesn't push the numbers off screen.
+ */
+function DayTable({ summary, days }: { summary: SummaryRow[]; days: string[] }) {
+  const byDay = totalsBy(summary, (r) => r.played_on);
+  const byDayMode = totalsBy(summary, (r) => `${r.played_on}|${r.mode}`);
+  const modes = [...totalsBy(summary, (r) => r.mode).entries()].sort((a, b) => b[1].starts - a[1].starts).map(([m]) => m);
+  const rows = [...days].reverse().filter((d) => byDay.has(d));
+
+  return (
+    <section className="overflow-x-auto rounded-2xl border border-border bg-surface p-5">
+      <h2 className="font-display text-lg font-bold">Games per day</h2>
+      {rows.length === 0 ? (
+        <p className="mt-2 text-sm text-muted">No games in this range.</p>
+      ) : (
+        <table className="mt-3 w-full text-sm tabular-nums">
+          <thead className="text-left text-muted">
+            <tr>
+              <th className="py-1.5 pr-4 font-semibold">Day</th>
+              <th className="py-1.5 pr-4 text-right font-semibold">Started</th>
+              <th className="py-1.5 pr-4 text-right font-semibold">Finished</th>
+              <th className="py-1.5 pr-4 text-right font-semibold">Finish rate</th>
+              <th className="py-1.5 pr-4 text-right font-semibold">Solved</th>
+              <th className="py-1.5 pr-4 text-right font-semibold">Avg score</th>
+              {modes.map((m) => (
+                <th key={m} className="py-1.5 pr-4 text-right font-semibold last:pr-0" title={`${TITLE.get(m) ?? m}: games started`}>
+                  {TITLE.get(m) ?? m}
+                </th>
+              ))}
+            </tr>
+          </thead>
+          <tbody>
+            {rows.map((d) => {
+              const t = byDay.get(d)!;
+              return (
+                <tr key={d} className="border-t border-border">
+                  <td className="whitespace-nowrap py-2 pr-4 font-semibold">{weekday(d)} {d}</td>
+                  <td className="py-2 pr-4 text-right">{fmt(t.starts)}</td>
+                  <td className="py-2 pr-4 text-right">{fmt(t.finishes)}</td>
+                  <td className="py-2 pr-4 text-right">{pct(t.finishes, t.starts)}</td>
+                  <td className="py-2 pr-4 text-right">{pct(t.solved, t.finishes)}</td>
+                  <td className="py-2 pr-4 text-right">{t.finishes ? `${Math.round(t.scoreSum / t.finishes)}%` : "–"}</td>
+                  {modes.map((m) => (
+                    <td key={m} className="py-2 pr-4 text-right last:pr-0">
+                      {fmt(byDayMode.get(`${d}|${m}`)?.starts ?? 0)}
+                    </td>
+                  ))}
+                </tr>
+              );
+            })}
+          </tbody>
+        </table>
+      )}
+    </section>
+  );
+}
+
+/** "Mon", "Tue", ... for a puzzle day. */
+function weekday(day: string): string {
+  return new Date(`${day}T12:00:00Z`).toLocaleDateString("en-GB", { weekday: "short", timeZone: "UTC" });
 }
 
 function Table({ title, first, rows }: { title: string; first: string; rows: [string, Totals][] }) {

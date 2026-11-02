@@ -10,7 +10,7 @@ import { Wordmark } from "./Wordmark";
 
 /**
  * Bar on every page: the wordmark (back to all games) on the left; on the right the time until
- * the next games, the streak and the square logo.
+ * the next games and the streak.
  * The streak counts a day if any mode was played; it updates when a game finishes.
  */
 export function SiteHeader() {
@@ -67,9 +67,6 @@ export function SiteHeader() {
             />{" "}
             {days}
           </span>
-          {/* The square logo (also the site icon and the Instagram profile picture). */}
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="/brand/logo-square.png" alt="" width={28} height={28} className="h-7 w-7 rounded-md" />
         </span>
       </div>
     </header>
