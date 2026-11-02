@@ -51,6 +51,16 @@
       "field": "valuation",
       "url": "https://www.theindustry.fashion/vestiaire-collective-now-valued-at-1-7bn-following-latest-investment/",
       "quote": "Vestiaire Collective, the luxury fashion resale platform, is now valued at $1.7bn (£1.25bn) following a fresh fundraise which led to a $209m (£153m) investment headed by SoftBank Vision Fund 2"
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://en.wikipedia.org/wiki/Vestiaire_Collective",
+      "quote": "founded in 2009 as \"Vestiaire de Copines\""
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://en.wikipedia.org/wiki/Vestiaire_Collective",
+      "quote": "The platform launched with 3,000 pre-owned fashion items sourced from friends and family."
     }
   ],
   "rounds": [
@@ -113,5 +123,6 @@
       ]
     }
   ],
-  "lastValuationEur": 1449398926
+  "lastValuationEur": 1449398926,
+  "funFact": "Vestiaire Collective launched in 2009 as \"Vestiaire de Copines\" with 3,000 pre-owned items from friends and family."
 }

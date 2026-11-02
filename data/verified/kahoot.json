@@ -56,6 +56,16 @@
       "field": "valuation",
       "url": "https://techcrunch.com/2020/10/13/kahoot-picks-up-215m-from-softbank-for-its-user-generated-gamified-e-learning-platform",
       "quote": "At market open today, it was valued at NOK22.2 billion, or about $2.4 billion"
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://en.wikipedia.org/wiki/Kahoot!",
+      "quote": "The game concept used in Kahoot! originated in a series of prototypes called"
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://en.wikipedia.org/wiki/Kahoot!",
+      "quote": "developed by Alf Inge Wang at Norwegian University of Science and Technology (NTNU) in 2006"
     }
   ],
   "rounds": [
@@ -243,5 +253,6 @@
       ],
       "techeuId": "6ba4fd91-3258-497f-efe9-08d91092c887"
     }
-  ]
+  ],
+  "funFact": "Kahoot! grew out of 'Lecture Quiz' prototypes that Alf Inge Wang developed at NTNU in 2006."
 }

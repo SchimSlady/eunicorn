@@ -19,7 +19,7 @@
     "Ricardo Mendes",
     "Vítor Cristina"
   ],
-  "funFact": "Tekever was founded in 2001 by former students of the IST engineering school, and by 2026 was valued at about €5.5 billion.",
+  "funFact": "Tekever's inter-satellite link technology was chosen for ESA's Hera mission, which flies to an asteroid to study the aftermath of NASA's DART impact.",
   "difficulty": 4,
   "techeuId": "E2A84332-D6E5-41E0-AC84-5FBC4F71C07B",
   "wikidataId": "Q24293069",
@@ -61,13 +61,13 @@
     },
     {
       "field": "fun_fact",
-      "url": "https://en.wikipedia.org/wiki/Tekever",
-      "quote": "It was founded in 2001 by former students of the IST engineering school ."
+      "url": "https://www.satelliteevolution.com/post/tekever-signs-contract-to-provide-inter-satellite-links-for-world-first-planetary-defence-mission",
+      "quote": "to provide its Inter-Satellite Link (ISL) technology for the ESA Hera mission"
     },
     {
       "field": "fun_fact",
-      "url": "https://www.trendingtopics.eu/tekever-drones-series-d/",
-      "quote": "a valuation of about €5.5 billion ($6.4 billion)"
+      "url": "https://www.satelliteevolution.com/post/tekever-signs-contract-to-provide-inter-satellite-links-for-world-first-planetary-defence-mission",
+      "quote": "to assess the aftermath of the collision between NASA’s DART spacecraft and Dimorphos"
     }
   ],
   "rounds": [

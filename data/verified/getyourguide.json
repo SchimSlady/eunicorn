@@ -51,6 +51,16 @@
       "field": "valuation",
       "url": "https://en.wikipedia.org/wiki/GetYourGuide",
       "quote": "In May 2023, the company raised $194 million at a $2 billion valuation."
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://en.wikipedia.org/wiki/GetYourGuide",
+      "quote": "On a trip to Beijing in 2009, Johannes Reck arrived a day early and had trouble navigating the city"
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://en.wikipedia.org/wiki/GetYourGuide",
+      "quote": "they sensed a market for local tour guides"
     }
   ],
   "rounds": [
@@ -165,5 +175,6 @@
         }
       ]
     }
-  ]
+  ],
+  "funFact": "GetYourGuide grew out of a 2009 Beijing trip where co-founder Johannes Reck, struggling to get around, was shown the city by a friend and they spotted a market for local guides."
 }

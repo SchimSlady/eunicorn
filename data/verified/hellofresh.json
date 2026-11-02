@@ -49,6 +49,11 @@
       "field": "valuation",
       "url": "https://www.noerr.com/de/press/26-milliarden-euro-bewertung-noerr-berat-hello-fresh-bei-einstieg-von-baillie-gifford",
       "quote": "Im Rahmen der Transaktion wurde Hello Fresh mit 2,6 Milliarden Euro bewertet."
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://en.wikipedia.org/wiki/HelloFresh",
+      "quote": "Richter and Griesel packed and hand-delivered to the first 10 customers"
     }
   ],
   "rounds": [
@@ -143,5 +148,6 @@
         }
       ]
     }
-  ]
+  ],
+  "funFact": "HelloFresh's co-founders Dominik Richter and Thomas Griesel packed and hand-delivered orders to its first 10 customers themselves."
 }

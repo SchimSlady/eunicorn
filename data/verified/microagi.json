@@ -15,7 +15,7 @@
   "founders": [
     "Bercan Kilic"
   ],
-  "funFact": "microagi was founded by former Formula 1 engineers and raised what it says is the largest seed round in German startup history.",
+  "funFact": "microagi makes neither robots nor its own AI foundation models. It sits as a neutral layer between existing industrial hardware and AI models.",
   "difficulty": 5,
   "techeuId": "CBA2B082-E5B3-4D81-A979-F36D911B8ACC",
   "sources": [
@@ -41,8 +41,8 @@
     },
     {
       "field": "fun_fact",
-      "url": "https://www.osborneclarke.com/news/osborne-clarke-advises-redalpine-germanys-largest-seed-funding-round-date-usd-55-million",
-      "quote": "MicroAGI was founded only around ten months ago by former Formula 1 engineers"
+      "url": "https://skill-sprinters.de/blog/news/microagi-muenchen-groesste-ki-seed-runde-2026/",
+      "quote": "microagi baut weder eigene Roboter noch eigene Grundmodelle"
     }
   ],
   "rounds": [

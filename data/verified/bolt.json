@@ -49,6 +49,21 @@
       "field": "valuation",
       "url": "https://www.rte.ie/news/business/2022/0111/1272952-bolt-raises-628m-at-valuation-of-over-7-4-billion",
       "quote": "taking its valuation to €7.4 billion"
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://en.wikipedia.org/wiki/Bolt_(company)",
+      "quote": "founded in 2013 as Taxify by Markus Villig"
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://en.wikipedia.org/wiki/Bolt_(company)",
+      "quote": "while personally recruiting drivers on the streets of Tallinn"
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://en.wikipedia.org/wiki/Bolt_(company)",
+      "quote": "then a 19-year-old high-school student"
     }
   ],
   "rounds": [
@@ -131,5 +146,6 @@
         }
       ]
     }
-  ]
+  ],
+  "funFact": "Bolt started as Taxify in 2013, built by a 19-year-old high-school student who recruited drivers on the streets of Tallinn."
 }

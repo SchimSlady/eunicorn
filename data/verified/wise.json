@@ -54,6 +54,16 @@
       "field": "valuation",
       "url": "https://en.wikipedia.org/wiki/Wise_(company)",
       "quote": "On 7 July 2021, Wise went public with a direct listing on the London Stock Exchange and was valued at $11 billion."
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://en.wikipedia.org/wiki/Wise_(company)",
+      "quote": "one of the first employees of Skype"
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://en.wikipedia.org/wiki/Wise_(company)",
+      "quote": "the company rebranded from TransferWise to Wise"
     }
   ],
   "rounds": [
@@ -111,5 +121,6 @@
       ]
     }
   ],
-  "lastValuationEur": 9304829283
+  "lastValuationEur": 9304829283,
+  "funFact": "Wise co-founder Taavet Hinrikus was one of Skype's first employees, and the company was called TransferWise until its 2021 rebrand."
 }

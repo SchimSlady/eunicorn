@@ -50,6 +50,11 @@
       "field": "valuation",
       "url": "https://techcrunch.com/2022/01/05/visual-collaboration-company-miro-valued-at-17-5b-following-400m-in-new-funding/",
       "quote": "$400 million in a Series C that propels its valuation to $17.5 billion"
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://en.wikipedia.org/wiki/RealtimeBoard",
+      "quote": "In 2019, the company rebranded to Miro, inspired by the Catalan artist Joan Miró"
     }
   ],
   "rounds": [
@@ -168,5 +173,6 @@
         }
       ]
     }
-  ]
+  ],
+  "funFact": "Miro began in 2011 as RealtimeBoard and took its current name in 2019 from the Catalan artist Joan Miró."
 }

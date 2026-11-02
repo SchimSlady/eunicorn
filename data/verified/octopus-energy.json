@@ -49,6 +49,16 @@
       "field": "valuation",
       "url": "https://www.theguardian.com/business/2023/dec/18/octopus-energy-raises-800m-aims-create-3000-green-jobs-uk",
       "quote": "Octopus Energy has raised $800m (£630m) from its shareholders in a move that values the company at nearly $8bn"
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://en.wikipedia.org/wiki/Octopus_Energy",
+      "quote": "By the end of that year, Octopus, having gained almost 1 million new gas and electricity accounts, had become Britain's largest household energy supplier"
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://en.wikipedia.org/wiki/Octopus_Energy",
+      "quote": "In April 2024, Ofgem reported that Octopus had become the UK's largest electricity supplier"
     }
   ],
   "rounds": [
@@ -203,5 +213,6 @@
         }
       ]
     }
-  ]
+  ],
+  "funFact": "Octopus Energy had become Britain's largest household energy supplier by the end of 2024."
 }

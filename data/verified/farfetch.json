@@ -52,6 +52,11 @@
       "field": "valuation",
       "url": "https://en.newsroom.eurazeo.com/news/farfetch-valued-at-7-billion-following-its-ipo-on-the-new-york-stock-exchange-8e056-52e2c.html",
       "quote": "Farfetch valued at $7 billion following its ipo on the New York Stock Exchange"
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://en.wikipedia.org/wiki/Jos%C3%A9_Neves",
+      "quote": "In 1996, at the age of 22, he launched a footwear brand named Swear, and opened a store in London."
     }
   ],
   "rounds": [
@@ -83,5 +88,6 @@
         }
       ]
     }
-  ]
+  ],
+  "funFact": "Farfetch founder José Neves launched his own footwear brand, Swear, at 22 in 1996, before starting Farfetch."
 }

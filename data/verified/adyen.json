@@ -53,6 +53,16 @@
       "field": "valuation",
       "url": "https://fortune.com/2014/12/16/payment-unicorn-adyen-raises-250-million-at-huge-valuation",
       "quote": "5 billion, post-money"
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://www.adyen.com/press-and-media/bfcm2025",
+      "quote": "processing a total volume of $43 billion across the BFCM weekend"
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://www.adyen.com/press-and-media/bfcm2025",
+      "quote": "proved to be another record-breaking holiday shopping weekend"
     }
   ],
   "rounds": [
@@ -92,5 +102,6 @@
         }
       ]
     }
-  ]
+  ],
+  "funFact": "Adyen processed a record $43 billion in payments over the 2025 Black Friday/Cyber Monday weekend."
 }

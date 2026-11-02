@@ -48,6 +48,11 @@
       "field": "valuation",
       "url": "https://techcrunch.com/2022/10/17/stability-ai-the-startup-behind-stable-diffusion-raises-101m/",
       "quote": "The tranche values the company at $1 billion post-money"
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://en.wikipedia.org/wiki/Stability_AI",
+      "quote": "rose to prominence with the release of its source and weights available text-to-image model Stable Diffusion"
     }
   ],
   "rounds": [
@@ -162,5 +167,6 @@
       ],
       "techeuId": "49de4681-0a93-4d22-ade5-fe4d2231784f"
     }
-  ]
+  ],
+  "funFact": "Stability AI rose to fame in August 2022 with Stable Diffusion, a text-to-image model released with its source and weights available."
 }

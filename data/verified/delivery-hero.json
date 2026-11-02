@@ -55,6 +55,11 @@
       "field": "valuation",
       "url": "https://techcrunch.com/2017/06/30/delivery-heros-valuation-surpasses-5b-following-successful-ipo/",
       "quote": "or approximately $5.1 billion"
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://en.wikipedia.org/wiki/Delivery_Hero",
+      "quote": "bought the Turkish competitor Yemeksepeti for 530 million Euro, which was the largest acquisition in this business sector to date"
     }
   ],
   "rounds": [
@@ -197,5 +202,6 @@
         }
       ]
     }
-  ]
+  ],
+  "funFact": "In 2015 Delivery Hero paid €530 million for Turkish rival Yemeksepeti, then the largest acquisition in online food delivery."
 }

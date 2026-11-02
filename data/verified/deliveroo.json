@@ -55,6 +55,11 @@
       "field": "valuation",
       "url": "https://en.wikipedia.org/wiki/List_of_unicorn_startup_companies",
       "quote": "Deliveroo Funding Round Values Firm at Over $7 Billion"
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://en.wikipedia.org/wiki/Deliveroo",
+      "quote": "widely reported as one of the worst debuts in the history of the London Stock Exchange"
     }
   ],
   "rounds": [
@@ -202,5 +207,6 @@
         }
       ]
     }
-  ]
+  ],
+  "funFact": "Deliveroo's stock market debut was widely reported as one of the worst in London Stock Exchange history, with shares falling sharply on day one."
 }

@@ -46,6 +46,16 @@
       "field": "status",
       "url": "https://en.wikipedia.org/wiki/Supercell_(company)",
       "quote": "In 2016, the company was bought out by Chinese conglomerate Tencent holdings, taking an 81.4% stake in the company"
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://en.wikipedia.org/wiki/Supercell_(company)",
+      "quote": "of five to seven people"
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://en.wikipedia.org/wiki/Supercell_(company)",
+      "quote": "The final decision to cancel a project is made by the development team themselves."
     }
   ],
   "rounds": [
@@ -83,5 +93,6 @@
         }
       ]
     }
-  ]
+  ],
+  "funFact": "Supercell builds games in teams called cells of five to seven people, and the team itself decides when a project is cancelled."
 }

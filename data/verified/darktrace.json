@@ -50,6 +50,16 @@
       "field": "valuation",
       "url": "https://techcrunch.com/2018/09/26/darktrace-raises-50-million-new-funding/",
       "quote": "putting the company’s valuation at $1.65 billion"
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://en.wikipedia.org/wiki/Darktrace",
+      "quote": "In April 2021, Darktrace listed on the London Stock Exchange with a market value of circa £2.5 billion."
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://en.wikipedia.org/wiki/Darktrace",
+      "quote": "The market value reached a peak of £7 billion within months"
     }
   ],
   "rounds": [
@@ -225,5 +235,6 @@
         }
       ]
     }
-  ]
+  ],
+  "funFact": "Darktrace listed in London in 2021 at about £2.5 billion, and its market value peaked at £7 billion within months."
 }

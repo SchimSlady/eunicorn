@@ -49,6 +49,11 @@
       "field": "valuation",
       "url": "https://techcrunch.com/2023/07/24/bunq-the-dutch-neobank-has-raised-111m-at-a-flat-1-8b-valuation-to-break-into-the-us/",
       "quote": "The round is coming in a valuation of €1.65 billion ($1.8 billion today; $1.9 billion in 2021)"
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://en.wikipedia.org/wiki/Bunq",
+      "quote": "WhatsApp for Banking\" by Dutch newspaper NRC"
     }
   ],
   "rounds": [
@@ -116,5 +121,6 @@
         }
       ]
     }
-  ]
+  ],
+  "funFact": "When bunq launched in 2015, the Dutch newspaper NRC dubbed it \"WhatsApp for Banking\"."
 }

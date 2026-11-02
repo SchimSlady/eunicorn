@@ -37,6 +37,11 @@
       "field": "sectors",
       "url": "https://en.wikipedia.org/wiki/SoundCloud",
       "quote": "SoundCloud is one of the largest music streaming services in the world"
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://en.wikipedia.org/wiki/SoundCloud",
+      "quote": "It was originally intended to allow musicians to collaborate by facilitating the sharing and discussion of recordings"
     }
   ],
   "rounds": [
@@ -182,5 +187,6 @@
         }
       ]
     }
-  ]
+  ],
+  "funFact": "SoundCloud was first meant to help musicians collaborate by sharing and discussing recordings, before it became a tool for music distribution."
 }

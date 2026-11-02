@@ -16,7 +16,7 @@
     "Raúl Verdú",
     "José Enrique Martínez"
   ],
-  "funFact": "PLD Space was founded in 2011 in Elche, Spain, and is described as the first private Spanish rocket company.",
+  "funFact": "PLD Space's 2015 engine test was the first liquid rocket engine test in Spain, and the first by a private company in Europe on its own facilities.",
   "difficulty": 3,
   "techeuId": "7b66cf61-388a-4c13-a5fc-390bba38b438",
   "wikidataId": "Q21076153",
@@ -52,14 +52,14 @@
       "quote": "PLD Space has not disclosed its post-money valuation."
     },
     {
-      "field": "fun_fact",
-      "url": "https://spaceflightnow.com/2026/03/05/spanish-launch-startup-pld-space-raises-209-million-to-scale-its-rocket-production",
-      "quote": "first private Spanish rocket company"
-    },
-    {
       "field": "logo",
       "url": "https://commons.wikimedia.org/wiki/File:PLD_Logo_black.svg",
       "quote": "File:PLD Logo black.svg"
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://en.wikipedia.org/wiki/PLD_Space",
+      "quote": "It was the first time a liquid rocket engine was tested in Spain, and the first time a private company in Europe tested a liquid rocket engine on its own facilities."
     }
   ],
   "rounds": [

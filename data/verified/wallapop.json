@@ -44,6 +44,11 @@
       "field": "valuation",
       "url": "https://techcrunch.com/2021/02/24/spains-wallapop-raises-191m-at-an-840m-valuation-for-its-classifieds-marketplace/",
       "quote": "Wallapop has confirmed that the funding is coming at a valuation of €690 million ($840 million)"
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://en.wikipedia.org/wiki/Wallapop",
+      "quote": "In 2015, it was cited as the startup company with the highest revenues in Spain, with $1 billion of transactions completed using the app."
     }
   ],
   "rounds": [
@@ -86,5 +91,6 @@
         }
       ]
     }
-  ]
+  ],
+  "funFact": "In 2015 Wallapop was named Spain's startup with the highest revenues, with $1 billion of transactions through its app."
 }
