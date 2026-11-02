@@ -7,7 +7,7 @@ import { useEffect, useState } from "react";
 import { loadStats, type PlayStats } from "@/lib/stats";
 
 /**
- * Today's results of everyone, on the result screen: the player's points and rank side by side,
+ * Today's results of everyone, on the result screen: the player's result and rank side by side,
  * "Better than 69%", and one column per result (guess 1, 2, …, missed) with the player's own
  * column in the brand colour and labelled "You". Hidden when there are no stats yet
  * (e.g. the counter table isn't set up).
@@ -25,6 +25,8 @@ export function StatsPanel({
   order,
   label,
   axis,
+  unit = "points",
+  display,
 }: {
   mode: PlayMode;
   /** The player's own result bucket. */
@@ -37,6 +39,10 @@ export function StatsPanel({
   label: (b: number) => string;
   /** What the columns count, for the caption and screen readers: "Guesses needed". */
   axis: string;
+  /** What the score counts, shown as "of 10 found": "found", "right", "squares". */
+  unit?: string;
+  /** Shown instead of "score of maxScore" when the result isn't a count up to a maximum (Impostor: "2" / "tries"). */
+  display?: { value: string; caption: string };
 }) {
   const [stats, setStats] = useState<PlayStats | null | undefined>(undefined);
 
@@ -44,6 +50,11 @@ export function StatsPanel({
     loadStats(mode).then(setStats);
   }, [mode]);
 
+  // While today's stats load, hold their space so the result sheet opens at its final size
+  // instead of popping up small and then growing (seen on phones).
+  if (stats === undefined) {
+    return <div className="h-[21rem] animate-pulse rounded-2xl border border-border bg-surface" aria-hidden />;
+  }
   if (!stats || stats.finishes === 0) return null;
 
   const total = stats.finishes;
@@ -66,9 +77,9 @@ export function StatsPanel({
 
       <div className="grid grid-cols-2 divide-x divide-border text-center">
         <div>
-          <p className="text-sm text-muted">Your score</p>
-          <p className="font-display text-4xl font-bold tabular-nums">{fmt(score)}</p>
-          <p className="text-xs text-muted">of {fmt(maxScore)} points</p>
+          <p className="text-sm text-muted">Your result</p>
+          <p className="font-display text-4xl font-bold tabular-nums">{display ? display.value : fmt(score)}</p>
+          <p className="text-xs text-muted">{display ? display.caption : `of ${fmt(maxScore)} ${unit}`}</p>
         </div>
         <div>
           <p className="text-sm text-muted">Rank</p>

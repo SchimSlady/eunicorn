@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
-import { Check, VenetianMask, X } from "lucide-react";
+import { Check, VenetianMask } from "lucide-react";
 import type { Company, Dataset, ImpostorPuzzle } from "@eunicorn/schema";
 import { indexById, loadGame } from "@/lib/data";
 import { getTodayResult, loadProgress, saveProgress, saveResult } from "@/lib/daily";
@@ -15,20 +15,38 @@ import { GameHeader } from "@/components/GameHeader";
 import { Announce, GameSkeleton, NoPuzzle } from "@/components/Announce";
 import { Hints, hintState } from "@/components/Hints";
 import { ResultArea } from "@/components/ResultArea";
+import { RevealButton } from "@/components/RevealButton";
 import { StatsPanel } from "@/components/StatsPanel";
 import { recordFinish, recordStart } from "@/lib/stats";
 
 const MODE = "impostor";
 const TITLE = "Impostor";
-const MAX_SCORE = 10;
-const WRONG_PICK_COST = 2;
-
+/**
+ * Select-then-submit (Pablo, 2026-11-02): the player selects the startups they think don't belong
+ * (how many is not shown) and submits. A wrong submit only says "Not quite"; the fewer tries, the
+ * better. Score for today's stats and the leaderboard: 100 / tries (1 try = 100, 2 = 50, ...).
+ */
+const MAX_SCORE = 100;
+/** Tries from this number on share one column in the chart ("6+"). */
+const TRIES_CAP = 6;
 
 interface Progress {
   difficulty: Difficulty;
-  picks: string[]; // company ids, in order
+  /** Currently selected company ids. */
+  selected: string[];
+  /** Every submitted selection, in order; the last one is right when the game is won. */
+  tries: string[][];
   hintsUsed: number;
+  gaveUp?: boolean;
 }
+
+/** Progress saved by the earlier pick-one-at-a-time version had `picks`; start those afresh. */
+function normalise(p: Progress | null): Progress | null {
+  if (!p) return null;
+  return { ...p, selected: p.selected ?? [], tries: p.tries ?? [] };
+}
+
+const sameSet = (a: string[], b: string[]) => a.length === b.length && a.every((id) => b.includes(id));
 
 /** A puzzle may carry one variant per level (the startups' fame differs). */
 type Variant = Pick<ImpostorPuzzle, "prompt" | "companyIds" | "impostorId" | "explanation" | "hints"> & {
@@ -47,25 +65,20 @@ function atLevel(p: Puzzle, d: Difficulty): Play {
 
 function evaluate(p: Play, progress: Progress) {
   const impostors = impostorsOf(p);
-  const found = progress.picks.filter((id) => impostors.includes(id)).length;
-  const wrong = progress.picks.length - found;
-  const won = found === impostors.length;
-  const done = won; // no limit on picks: a wrong pick costs score, the game ends when you have found every impostor
-  // Hints are free (Pablo, 2026-11-02): they show in the share text and break leaderboard ties, but cost no points.
-  return {
-    won,
-    found,
-    wrong,
-    done,
-    score: won ? Math.max(1, MAX_SCORE - wrong * WRONG_PICK_COST) : 0,
-  };
+  const tries = progress.tries.length;
+  const won = progress.tries.some((t) => sameSet(t, impostors));
+  const done = won || !!progress.gaveUp;
+  // Hints are free (Pablo, 2026-11-02): they show in the share text and break leaderboard ties, but cost nothing.
+  return { won, tries, done, score: won ? Math.round(MAX_SCORE / tries) : 0 };
 }
 
+const triesText = (n: number) => `${n} ${n === 1 ? "try" : "tries"}`;
+
 function shareText(p: Play, progress: Progress): string {
-  const { won } = evaluate(p, progress);
-  const squares = progress.picks.map((id) => (impostorsOf(p).includes(id) ? "🟩" : "🟥")); // share text, not UI. taste-skill-ignore
-  const many = impostorsOf(p).length > 1;
-  const summary = won ? `Found ${many ? `all ${impostorsOf(p).length}` : "it"} in ${progress.picks.length} ${progress.picks.length === 1 ? "pick" : "picks"}` : "Missed it";
+  const { won, tries } = evaluate(p, progress);
+  // One square per try: red for a wrong submit, green for the right one.
+  const squares = progress.tries.map((t) => (sameSet(t, impostorsOf(p)) ? "🟩" : "🟥")); // share text, not UI. taste-skill-ignore
+  const summary = won ? `Solved in ${triesText(tries)}` : "Missed it";
   return buildShareText({ number: p.number, modeTitle: TITLE, difficulty: progress.difficulty, hintsUsed: progress.hintsUsed, squares, summary });
 }
 
@@ -78,7 +91,7 @@ export function ImpostorGame() {
     loadGame<Puzzle>(MODE).then(({ puzzle: p, data: d }) => {
       setData(d);
       setPuzzle(p);
-      if (p) setProgress(loadProgress<Progress>(MODE, p.date));
+      if (p) setProgress(normalise(loadProgress<Progress>(MODE, p.date)));
     });
   }, []);
 
@@ -94,7 +107,7 @@ export function ImpostorGame() {
         mode={MODE}
         onStart={(d) => {
           saveDifficulty(d);
-          const fresh: Progress = { difficulty: d, picks: [], hintsUsed: 0 };
+          const fresh: Progress = { difficulty: d, selected: [], tries: [], hintsUsed: 0 };
           recordStart(MODE, d);
           setProgress(fresh);
           saveProgress(MODE, puzzle.date, fresh);
@@ -105,7 +118,8 @@ export function ImpostorGame() {
 
   const play = atLevel(puzzle, progress.difficulty);
   const impostors = impostorsOf(play);
-  const { won, done, score } = evaluate(play, progress);
+  const { won, done, score, tries } = evaluate(play, progress);
+  const lastWrong = !done && tries > 0;
   const impostor = companies.get(play.impostorId)!;
   // End card: the impostor, the company the whole puzzle was about.
   const featured = impostor;
@@ -126,7 +140,7 @@ export function ImpostorGame() {
         hintsUsed: next.hintsUsed,
         share: shareText(atLvl, next),
       });
-      recordFinish(MODE, next.difficulty, { bucket: result.won ? next.picks.length : 0, score: result.score, maxScore: MAX_SCORE, won: result.won });
+      recordFinish(MODE, next.difficulty, { bucket: result.won ? Math.min(result.tries, TRIES_CAP) : 0, score: result.score, maxScore: MAX_SCORE, won: result.won });
     }
   }
 
@@ -139,15 +153,13 @@ export function ImpostorGame() {
             ? impostors.length > 1
               ? "Right, those are the impostors."
               : "Right, that's the impostor."
-            : progress.picks.length
-              ? impostors.includes(progress.picks.at(-1)!)
-                ? `${companies.get(progress.picks.at(-1)!)?.name} doesn't belong.`
-                : `${companies.get(progress.picks.at(-1)!)?.name} belongs.`
+            : lastWrong
+              ? `Not quite. Try ${tries + 1}.`
               : ""
         }
       />
 
-      {/* The companies on a circle around the category; tap the one that doesn't belong. */}
+      {/* The companies on a circle around the category; select the ones that don't belong, then submit. */}
       <div className="relative mx-auto aspect-square w-full max-w-[420px]">
         <span aria-hidden className="absolute inset-[13%] rounded-full border-2 border-dashed border-border" />
         <p className="absolute inset-[29%] flex items-center justify-center rounded-full bg-eu-blue p-3 text-center font-display text-sm font-bold leading-snug text-white sm:text-base">
@@ -156,13 +168,13 @@ export function ImpostorGame() {
         <ul>
           {play.companyIds.map((id, i) => {
             const c = companies.get(id)!;
-            const picked = progress.picks.includes(id);
+            const selected = progress.selected.includes(id);
             const isImpostor = impostors.includes(id);
-            // While playing, picks are marked as found or wrong. Once done, reveal the impostors.
-            const state = done ? (isImpostor ? "impostor" : "genuine") : picked ? (isImpostor ? "impostor" : "wrong") : "open";
+            // While playing only the selection shows (no right or wrong per company). Once done, reveal the impostors.
+            const state = done ? (isImpostor ? "impostor" : "genuine") : selected ? "selected" : "open";
             const ring = {
               open: "ring-border group-hover:ring-primary",
-              wrong: "animate-shake ring-wrong opacity-60",
+              selected: "ring-primary",
               impostor: "animate-pop ring-correct",
               genuine: "ring-border opacity-60",
             }[state];
@@ -178,9 +190,12 @@ export function ImpostorGame() {
               >
                 <button
                   type="button"
-                  disabled={done || picked}
-                  onClick={() => update({ ...progress, picks: [...progress.picks, id] })}
-                  aria-label={`${c.name}${state === "wrong" ? ", not the impostor" : state === "impostor" ? ", the impostor" : ""}`}
+                  disabled={done}
+                  aria-pressed={done ? undefined : selected}
+                  onClick={() =>
+                    update({ ...progress, selected: selected ? progress.selected.filter((x) => x !== id) : [...progress.selected, id] })
+                  }
+                  aria-label={`${c.name}${state === "impostor" ? ", an impostor" : ""}`}
                   className="group flex w-full flex-col items-center gap-1 text-center"
                 >
                   <span className={`relative rounded-[22%] ring-[3px] transition ${ring}`}>
@@ -188,16 +203,16 @@ export function ImpostorGame() {
                     {state !== "open" && (
                       <span
                         className={`absolute -right-2 -top-2 flex h-6 w-6 items-center justify-center rounded-full ${
-                          state === "wrong" ? "bg-wrong" : state === "impostor" ? "bg-correct" : "bg-border"
+                          state === "selected" ? "bg-primary" : state === "impostor" ? "bg-correct" : "bg-border"
                         } text-white`}
                       >
-                        {state === "wrong" && <X size={14} aria-hidden />}
+                        {state === "selected" && <Check size={14} aria-hidden />}
                         {state === "impostor" && <VenetianMask size={14} aria-hidden />}
                         {state === "genuine" && <Check size={14} aria-hidden />}
                       </span>
                     )}
                   </span>
-                  <span className={`line-clamp-2 text-xs font-semibold leading-tight ${state === "wrong" ? "line-through" : ""}`}>
+                  <span className="line-clamp-2 text-xs font-semibold leading-tight">
                     {c.name}
                   </span>
                   {done && (
@@ -213,11 +228,30 @@ export function ImpostorGame() {
       </div>
 
       {!done ? (
-        <div className="flex justify-end">
-          <Hints
-            {...hintState(progress.difficulty, play.hints, progress.hintsUsed)}
-            onReveal={() => update({ ...progress, hintsUsed: progress.hintsUsed + 1 })}
-          />
+        <div className="space-y-3">
+          {lastWrong && (
+            <p key={tries} className="animate-shake text-center text-sm font-semibold text-wrong">
+              Not quite. Try again.
+            </p>
+          )}
+          <div className="flex gap-2">
+            <button
+              type="button"
+              disabled={progress.selected.length === 0 || progress.tries.some((t) => sameSet(t, progress.selected))}
+              onClick={() => update({ ...progress, tries: [...progress.tries, [...progress.selected]] })}
+              className="min-h-11 flex-1 rounded-full bg-primary px-4 font-semibold text-on-primary transition active:scale-[0.98] disabled:opacity-40"
+            >
+              {progress.selected.length === 0
+                ? "Select the impostors"
+                : `Submit ${progress.selected.length} ${progress.selected.length === 1 ? "impostor" : "impostors"}`}
+            </button>
+            <Hints
+              compact
+              {...hintState(progress.difficulty, play.hints, progress.hintsUsed)}
+              onReveal={() => update({ ...progress, hintsUsed: progress.hintsUsed + 1 })}
+            />
+          </div>
+          {tries > 0 && <RevealButton label="Reveal answer" onConfirm={() => update({ ...progress, gaveUp: true })} />}
         </div>
       ) : (
         <div className="space-y-6">
@@ -225,19 +259,20 @@ export function ImpostorGame() {
             score={score}
             maxScore={MAX_SCORE}
             detail={
-              (won ? `${progress.picks.length} ${progress.picks.length === 1 ? "pick" : "picks"}` : `It was ${impostor.name}`) +
+              (won ? `Solved in ${triesText(tries)}` : impostors.length > 1 ? "Missed it" : `It was ${impostor.name}`) +
               (progress.hintsUsed ? ` · ${progress.hintsUsed} ${progress.hintsUsed === 1 ? "hint" : "hints"}` : "")
             }
             share={shareText(play, progress)}
             stats={
               <StatsPanel
                 mode={MODE}
-                bucket={won ? progress.picks.length : 0}
+                bucket={won ? Math.min(tries, TRIES_CAP) : 0}
                 score={score}
                 maxScore={MAX_SCORE}
-                order={[1, 2, 3, 4, 5, 6]}
-                label={(b) => (b === 0 ? "X" : String(b))}
-                axis="Picks needed"
+                order={[1, 2, 3, 4, 5, 6, 0]}
+                label={(b) => (b === 0 ? "X" : b === TRIES_CAP ? `${TRIES_CAP}+` : String(b))}
+                axis="Tries needed"
+                display={won ? { value: String(tries), caption: tries === 1 ? "try" : "tries" } : { value: "–", caption: "not solved" }}
               />
             }
           />

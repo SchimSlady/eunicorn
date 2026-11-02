@@ -25,8 +25,7 @@ import { recordFinish, recordStart } from "@/lib/stats";
 const MODE = "unicorn-grid";
 const TITLE = "Unicorn Grid";
 
-/** A wrong guess costs one point of the squares' values. There is no limit on guesses: the game ends when the grid is full, or when you give up. */
-const WRONG_COST = 1;
+/** No limit on guesses and no cost for a wrong one: the game ends when the grid is full, or when you give up. */
 
 /**
  * A square's hints, in order: a description of one answer, then its first letter. Hints are free
@@ -72,21 +71,20 @@ interface Progress {
 }
 
 /**
- * A square is worth the company's difficulty (1 = everyone knows it, 5 = insider) in points,
- * so lesser-known answers score more. Max = the most obscure valid answer for every square.
+ * The score is the number of squares filled, out of 9 (Pablo, 2026-11-02). A company's fame
+ * (difficulty) still orders the hints, so a hint points at the best-known open answer.
  */
 function evaluate(p: UnicornGridPuzzle, progress: Progress, companies: Map<string, Company>) {
   const filled = progress.cells.filter(Boolean).length;
   const done = progress.gaveUp || filled === 9;
   const worth = (id: string) => companies.get(id)?.difficulty ?? 1;
-  const found = progress.cells.reduce((s, id) => s + (id ? worth(id) : 0), 0);
   return {
     filled,
     done,
     worth,
     hintsUsed: progress.cellHints.reduce((s, n) => s + n, 0),
-    maxScore: p.validAnswers.reduce((s, ids) => s + Math.max(...ids.map(worth)), 0),
-    score: Math.max(0, found - progress.wrong * WRONG_COST),
+    maxScore: 9,
+    score: filled,
   };
 }
 
@@ -365,6 +363,7 @@ export function UnicornGridGame() {
                 order={[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]}
                 label={(b) => String(b)}
                 axis="Squares filled"
+                unit="squares"
               />
             }
           />

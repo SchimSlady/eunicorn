@@ -22,7 +22,6 @@ import { recordFinish, recordStart } from "@/lib/stats";
 
 const MODE = "higher-lower";
 const TITLE = "Higher or Lower";
-const POINTS_PER_ROUND = 2;
 
 /**
  * A level changes which companies are in the chain (well known on Easy, insiders on Hard) and
@@ -97,10 +96,11 @@ function evaluate(p: HigherLowerPuzzle, progress: Progress, companies: Map<strin
     rounds,
     totalRounds,
     correct,
-    maxScore: totalRounds * POINTS_PER_ROUND,
+    // The score is the number of right calls (Pablo, 2026-11-02), at most one per round.
+    maxScore: totalRounds,
     // Sudden death: the first wrong answer ends the game.
     done: progress.answers.length >= totalRounds || rounds.some((r) => r.answer !== undefined && !r.correct),
-    score: Math.max(0, correct * POINTS_PER_ROUND),
+    score: correct,
   };
 }
 
@@ -202,6 +202,7 @@ export function HigherLowerGame() {
               order={Array.from({ length: totalRounds + 1 }, (_, i) => i)}
               label={(b) => String(b)}
               axis="Rounds right"
+              unit="right"
             />
           }
         />
