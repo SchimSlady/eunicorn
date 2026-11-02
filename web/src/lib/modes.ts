@@ -18,7 +18,7 @@ export const MODES: ModeInfo[] = [
     rules: [
       "Name the ten startups in today's list, for example the ten most valuable in Germany.",
       "Type a startup: if it's in the list, it lands on its rank. Each empty slot shows its country's flag.",
-      "Wrong names cost points. Find as many as you can, or tap Show the list to see the rest.",
+      "Your score is how many you find. Guess as often as you like, or tap Show the list to see the rest.",
     ],
   },
   {
@@ -37,8 +37,8 @@ export const MODES: ModeInfo[] = [
     description: "Name a startup for each square that fits its row and column.",
     rules: [
       "Fill each square with a startup that fits both its row and its column.",
-      "Each startup can be used only once, and lesser-known answers score more.",
-      "Wrong guesses cost points. Fill as many squares as you can.",
+      "Each startup can be used only once.",
+      "Your score is how many squares you fill. Guess as often as you like.",
     ],
   },
   {
@@ -47,18 +47,18 @@ export const MODES: ModeInfo[] = [
     description: "See one company's number, then say if the next one is higher or lower. One wrong call ends the run.",
     rules: [
       "You see one startup's number: valuation, money raised, biggest round or founding year.",
-      "Is the next startup's number higher or lower? Every right call scores.",
+      "Is the next startup's number higher or lower? Your score is how many you get right.",
       "One wrong call ends the run, after at most 15 rounds.",
     ],
   },
   {
     mode: "impostor",
     title: "Impostor",
-    description: "Six startups, one category. Find the ones that don't belong.",
+    description: "Six startups, one category. Select the ones that don't belong and submit.",
     rules: [
       "Most of the startups share something: a country, a city, a sector, a founding period or unicorn status.",
-      "Find the ones that don't belong: usually one, sometimes two or three.",
-      "Wrong picks cost points. The game ends once you've found them all.",
+      "Select the ones that don't belong (one, two or three, you aren't told how many) and submit.",
+      "A wrong selection just says Not quite. The fewer tries you need, the better.",
     ],
   },
 ];

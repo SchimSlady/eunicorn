@@ -1,6 +1,6 @@
 "use client";
 
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { BarChart3 } from "lucide-react";
 import { GameFooter } from "./GameFooter";
 import { ResultHeader } from "./ResultHeader";
@@ -10,7 +10,8 @@ import { Sheet } from "./Sheet";
 /**
  * The end of a game without the long scroll: a results sheet opens on top as soon as the game
  * is over (what you did, today's stats, share, countdown or play again), like Wordle. Closing it leaves
- * the finished board in view with a slim bar to reopen the results or share.
+ * the finished board in view with a slim bar to reopen the results or share. The bar only appears
+ * once the sheet is closed, so on phones it doesn't flash up before the sheet slides in.
  */
 export function ResultArea({
   score,
@@ -28,9 +29,14 @@ export function ResultArea({
 }) {
   const [open, setOpen] = useState(true);
   const reopen = useRef<HTMLButtonElement>(null);
+  // The bar (and its button) only exists once the sheet is closed, so focus it after it renders.
+  useEffect(() => {
+    if (!open) reopen.current?.focus();
+  }, [open]);
 
   return (
     <>
+      {!open && (
       <div className="flex items-center gap-3 rounded-2xl border border-border bg-surface p-3">
         <p className="min-w-0 flex-1 truncate font-display text-lg font-bold leading-tight">{detail}</p>
         <button
@@ -43,14 +49,12 @@ export function ResultArea({
         </button>
         <ShareButton text={share} score={score} maxScore={maxScore} compact />
       </div>
+      )}
 
       {open && (
         <Sheet
           title="Your result"
-          onClose={() => {
-            setOpen(false);
-            reopen.current?.focus();
-          }}
+          onClose={() => setOpen(false)}
         >
           <ResultHeader score={score} maxScore={maxScore} detail={detail} />
           {stats}

@@ -25,8 +25,7 @@ const MODE = "top-10";
 const TITLE = "Top 10";
 const MAX_SCORE = 10;
 
-/** A wrong name costs half a point of the ten. There is no limit on guesses: the game ends at ten found, or when you give up. */
-const WRONG_COST = 0.5;
+/** The score is the number found (Pablo, 2026-11-02): wrong names cost nothing. No limit on guesses: the game ends at ten found, or when you give up. */
 
 interface Progress {
   difficulty: Difficulty;
@@ -45,7 +44,7 @@ function evaluate(p: Top10Round, progress: Progress) {
   const wrong = progress.guesses.length - found.length;
   const done = progress.gaveUp || found.length === p.companyIds.length;
   // Hints are free (Pablo, 2026-11-02): they show in the share text and break leaderboard ties, but cost no points.
-  return { found, wrong, done, score: Math.max(0, found.length - wrong * WRONG_COST) };
+  return { found, wrong, done, score: found.length };
 }
 
 function shareText(p: Top10Puzzle, round: Top10Round, progress: Progress): string {
@@ -202,6 +201,7 @@ export function Top10Game() {
                 order={Array.from({ length: 11 }, (_, i) => i)}
                 label={(b) => String(b)}
                 axis="Companies found"
+                unit="found"
               />
             }
           />
