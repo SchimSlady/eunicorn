@@ -43,6 +43,16 @@
       "field": "status",
       "url": "https://en.wikipedia.org/wiki/Northvolt",
       "quote": "It subsequently filed for bankruptcy in Sweden on March 12, 2025."
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://en.wikipedia.org/wiki/Northvolt",
+      "quote": "founded as SGF Energy in 2015"
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://en.wikipedia.org/wiki/Northvolt",
+      "quote": "It is the largest bankruptcy in modern Swedish industrial history"
     }
   ],
   "rounds": [
@@ -90,5 +100,6 @@
         }
       ]
     }
-  ]
+  ],
+  "funFact": "Northvolt began as SGF Energy in 2015, and its bankruptcy was the largest in modern Swedish industrial history."
 }

@@ -18,7 +18,7 @@
     "Roman Schumacher",
     "Arseniy Vershinin"
   ],
-  "funFact": "Personio's valuation jumped roughly seventeenfold in about two and a half years, from around $500 million at its Series C in January 2020 to $8.5 billion in June 2022.",
+  "funFact": "Personio's founders built its first software as students with no office, and the company had just 200 euros left in the bank before its first real funding.",
   "difficulty": 3,
   "techeuId": "B6B485F0-F9AA-4C69-9C96-0A338D06A479",
   "wikidataId": "Q110814813",
@@ -59,19 +59,19 @@
       "quote": "valued at $8.5 billion"
     },
     {
-      "field": "fun_fact",
-      "url": "https://techcrunch.com/2020/01/20/personio-the-german-hr-platform-for-smes-raises-75m-series-c",
-      "quote": "I understand the investment values the company at around $500 million."
-    },
-    {
-      "field": "fun_fact",
-      "url": "https://tech.eu/2022/06/22/personio-adds-another-200-million-in-series-e-extension/",
-      "quote": "valued at $8.5 billion"
-    },
-    {
       "field": "logo",
       "url": "https://commons.wikimedia.org/wiki/File:Personio_logo_(2024).svg",
       "quote": "File:Personio logo (2024).svg"
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://www.cnbc.com/2021/11/22/how-personio-ceo-hanno-renner-built-a-6point3-billion-company.html",
+      "quote": "the business had just 200 euros ($226) left in the company bank account before it received its first real funding."
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://www.cnbc.com/2021/11/22/how-personio-ceo-hanno-renner-built-a-6point3-billion-company.html",
+      "quote": "As students, they didn't have an office"
     }
   ],
   "rounds": [

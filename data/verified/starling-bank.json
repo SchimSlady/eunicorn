@@ -54,6 +54,11 @@
       "field": "valuation",
       "url": "https://starlingbank.com/news/starling-announces-272m-funding-round-march-2021",
       "quote": "The new investment values the company at £1.1 billion pre-money."
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://en.wikipedia.org/wiki/Starling_Bank",
+      "quote": "its banking-as-a-service platform, Engine, through which it plans to white-label to other firms"
     }
   ],
   "rounds": [
@@ -125,5 +130,6 @@
         }
       ]
     }
-  ]
+  ],
+  "funFact": "Starling also runs Engine, its own banking software, which it plans to white-label to other firms."
 }

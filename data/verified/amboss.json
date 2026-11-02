@@ -20,7 +20,7 @@
     "Nawid Salimi",
     "Sievert Weiss"
   ],
-  "funFact": "AMBOSS was founded by a team of physicians and now has more than 150 physicians on its team.",
+  "funFact": "AMBOSS started with medical students sharing a tiny flat in Germany: they compiled a medical library by day and built the platform by night.",
   "difficulty": 5,
   "techeuId": "1F726E0D-8400-46C9-B6FD-29E4BCB7028D",
   "sources": [
@@ -51,8 +51,8 @@
     },
     {
       "field": "fun_fact",
-      "url": "https://siliconcanals.com/amboss-bags-e240m/",
-      "quote": "AMBOSS serves over 1 million professionals in 180 countries and has a team of more than 500 employees, including scientists, software engineers, and over 150 physicians."
+      "url": "https://blog.amboss.com/us/about",
+      "quote": "Sharing a tiny, Germany-based flat, they compiled a significant medical library by day and developed the platform by night."
     }
   ],
   "rounds": [

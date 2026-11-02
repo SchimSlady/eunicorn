@@ -20,7 +20,7 @@
     "Vianney Vaute",
     "Quentin Le Brouster"
   ],
-  "funFact": "A $510 million Series E in January 2022 valued the refurbished-electronics marketplace at $5.7 billion.",
+  "funFact": "Back Market doesn't refurbish devices itself: third-party companies act as its sourcing partners, listing their stock on its marketplace.",
   "difficulty": 3,
   "techeuId": "28795230-94FC-4A45-BF7F-EDF87C373230",
   "wikidataId": "Q56316472",
@@ -56,11 +56,6 @@
       "quote": "Today, the company is announcing a $510 million Series E round, which values the company at $5.7 billion."
     },
     {
-      "field": "fun_fact",
-      "url": "https://techcrunch.com/2022/01/11/back-market-reaches-5-7b-valuation-for-its-refurbished-device-marketplace/",
-      "quote": "Today, the company is announcing a $510 million Series E round, which values the company at $5.7 billion."
-    },
-    {
       "field": "logo",
       "url": "https://commons.wikimedia.org/wiki/File:Back_Market_Logo_Tangaroa.png",
       "quote": "File:Back Market Logo Tangaroa.png - Wikimedia Commons"
@@ -69,6 +64,11 @@
       "field": "sectors",
       "url": "https://sacra.com/c/back-market/",
       "quote": "Marketplace for refurbished electronics connecting consumers with vetted professional refurbishers"
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://techcrunch.com/2022/01/11/back-market-reaches-5-7b-valuation-for-its-refurbished-device-marketplace/",
+      "quote": "Back Market doesn’t refurbish devices directly. Instead, third-party companies act as the sourcing partners for Back Market."
     }
   ],
   "rounds": [

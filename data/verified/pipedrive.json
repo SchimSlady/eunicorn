@@ -36,6 +36,11 @@
       "field": "sectors",
       "url": "https://techcrunch.com/2018/06/14/pipedrive-a-crm-and-sales-tool-raises-50m-to-take-on-salesforce-and-microsoft/",
       "quote": "offers tools to salespeople to help them close deals that are still in their pipeline"
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://www.pipedrive.com/en/about",
+      "quote": "Our story began in an Estonian garage in 2010."
     }
   ],
   "rounds": [
@@ -193,5 +198,6 @@
         }
       ]
     }
-  ]
+  ],
+  "funFact": "Pipedrive's story began in an Estonian garage in 2010, when co-founders who were salespeople built the CRM they needed."
 }

@@ -47,6 +47,11 @@
       "field": "valuation",
       "url": "https://www.moltenventures.com/news/molten-participates-in-series-c-extension-for-ledger",
       "quote": "With this round, Ledger maintains its valuation of €1.3 billion."
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://fr.wikipedia.org/wiki/Ledger_(entreprise)",
+      "quote": "premier Portefeuille de crypto-monnaies à obtenir la certification de sécurité de premier niveau"
     }
   ],
   "rounds": [
@@ -141,5 +146,6 @@
         }
       ]
     }
-  ]
+  ],
+  "funFact": "Ledger became the first crypto wallet to earn France's first-level security certification (CSPN) from the ANSSI agency."
 }

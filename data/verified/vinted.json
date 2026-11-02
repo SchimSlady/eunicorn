@@ -48,6 +48,11 @@
       "field": "valuation",
       "url": "https://siliconcanals.com/vinted-raises-250m/",
       "quote": "has raised €250M in its Series F round of funding at a pre-money valuation of €3.5B"
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://en.wikipedia.org/wiki/Vinted",
+      "quote": "formerly Mano Drabužiai, meaning \"my clothing\""
     }
   ],
   "rounds": [
@@ -122,5 +127,6 @@
         }
       ]
     }
-  ]
+  ],
+  "funFact": "Vinted was formerly called Mano Drabužiai, Lithuanian for \"my clothing\"."
 }

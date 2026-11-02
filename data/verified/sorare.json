@@ -49,6 +49,11 @@
       "field": "valuation",
       "url": "https://techcrunch.com/2021/09/20/sorare-raises-680-million-for-its-fantasy-sports-nft-game/",
       "quote": "which values the company at $4.3 billion."
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://en.wikipedia.org/wiki/Sorare",
+      "quote": "In November 2022, Lionel Messi joined Sorare as an investor and brand ambassador"
     }
   ],
   "rounds": [
@@ -205,5 +210,6 @@
         }
       ]
     }
-  ]
+  ],
+  "funFact": "Lionel Messi joined Sorare as an investor and brand ambassador in November 2022."
 }

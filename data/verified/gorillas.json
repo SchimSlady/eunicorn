@@ -55,6 +55,11 @@
       "field": "valuation",
       "url": "https://globalventuring.com/corporate/gorillas-roars-to-1bn-series-c/",
       "quote": "valuing it at $3.1bn post-money"
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://en.wikipedia.org/wiki/Gorillas_(company)",
+      "quote": "making it a unicorn in just 9 months, the fastest company in Germany to do so"
     }
   ],
   "rounds": [
@@ -143,5 +148,6 @@
         }
       ]
     }
-  ]
+  ],
+  "funFact": "Gorillas became a unicorn in just nine months, the fastest company in Germany to do so."
 }

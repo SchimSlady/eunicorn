@@ -53,6 +53,16 @@
       "field": "valuation",
       "url": "https://techcrunch.com/2022/06/23/sumup-raises-624m-at-8-5b-valuation-with-its-payments-and-business-tech-now-used-by-4m-smbs/",
       "quote": "values SumUp at €8 billion ($8.5 billion)"
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://techcrunch.com/2012/08/23/make-way-for-another-european-square-sumup-launches-with-20m-in-backing/",
+      "quote": "one of the founders of PayPal competitor MoneyBookers"
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://techcrunch.com/2012/08/23/make-way-for-another-european-square-sumup-launches-with-20m-in-backing/",
+      "quote": "later rebranded as Skrill"
     }
   ],
   "rounds": [
@@ -131,5 +141,6 @@
         }
       ]
     }
-  ]
+  ],
+  "funFact": "SumUp's founder Daniel Klein had also helped found MoneyBookers, a PayPal competitor later rebranded as Skrill."
 }

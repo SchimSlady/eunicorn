@@ -48,6 +48,11 @@
       "field": "sectors",
       "url": "https://en.wikipedia.org/wiki/Too_Good_To_Go",
       "quote": "the company claims this reduces the waste of food that would otherwise be discarded"
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://en.wikipedia.org/wiki/Too_Good_To_Go",
+      "quote": "whose contents they determine; the user cannot choose"
     }
   ],
   "rounds": [
@@ -117,5 +122,6 @@
         }
       ]
     }
-  ]
+  ],
+  "funFact": "Too Good To Go's surprise bags are packed by the shop, so buyers cannot choose what goes in them."
 }
