@@ -5,7 +5,7 @@ import { UnicornGridGame } from "./UnicornGridGame";
 
 const info = MODE_INFO["unicorn-grid"];
 
-export const metadata: Metadata = pageMetadata("Unicorn Grid · EUnicorn", info.description, "/play/unicorn-grid");
+export const metadata: Metadata = pageMetadata("Startup Grid · EUnicorn", info.description, "/play/unicorn-grid");
 
 export default function Page() {
   return (
