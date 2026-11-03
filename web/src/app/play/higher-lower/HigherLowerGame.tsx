@@ -36,14 +36,17 @@ function atLevel(p: Puzzle, d: Difficulty): HigherLowerPuzzle {
   return v ? { ...p, companyIds: v.companyIds, hints: v.hints } : p;
 }
 
-/** How the two panels phrase the metric. */
+/**
+ * How the game phrases the day's metric. `today` is the line under the title, so players see which
+ * comparison it is (Pablo, 2026-11-03); the buttons use the same words (More / Less, Earlier / Later).
+ */
 /** `higher` / `lower` are the button labels; for founding years "higher" means later. */
-const PHRASE: Record<HigherLowerPuzzle["metric"], { has: string; higher: string; lower: string; question: (name: string) => string }> = {
-  lastValuationUsd: { has: "was last valued at", higher: "higher", lower: "lower", question: (n: string) => `Is ${n} higher or lower?` },
-  totalRaisedUsd: { has: "has raised", higher: "higher", lower: "lower", question: (n: string) => `Is ${n} higher or lower?` },
-  founded: { has: "was founded in", higher: "later", lower: "earlier", question: (n: string) => `Was ${n} founded earlier or later?` },
-  employees: { has: "has", higher: "higher", lower: "lower", question: (n: string) => `Is ${n} higher or lower?` },
-  biggestRoundUsd: { has: "raised in its biggest round", higher: "higher", lower: "lower", question: (n: string) => `Was ${n}'s biggest round higher or lower?` },
+const PHRASE: Record<HigherLowerPuzzle["metric"], { today: string; has: string; higher: string; lower: string; question: (name: string) => string }> = {
+  lastValuationUsd: { today: "Valued higher or lower?", has: "was last valued at", higher: "higher", lower: "lower", question: (n: string) => `Is ${n} valued higher or lower?` },
+  totalRaisedUsd: { today: "Raised more or less?", has: "has raised", higher: "more", lower: "less", question: (n: string) => `Has ${n} raised more or less?` },
+  founded: { today: "Founded earlier or later?", has: "was founded in", higher: "later", lower: "earlier", question: (n: string) => `Was ${n} founded earlier or later?` },
+  employees: { today: "More or fewer employees?", has: "has", higher: "more", lower: "fewer", question: (n: string) => `Does ${n} have more or fewer employees?` },
+  biggestRoundUsd: { today: "Biggest round: bigger or smaller?", has: "raised in its biggest round", higher: "bigger", lower: "smaller", question: (n: string) => `Was ${n}'s biggest round bigger or smaller?` },
 };
 
 type Call = "higher" | "lower";
@@ -161,6 +164,7 @@ export function HigherLowerGame() {
     return (
       <GameIntro
         mode={MODE}
+        subtitle={phrase.today}
         onStart={(d) => {
           saveDifficulty(d);
           const fresh: Progress = { difficulty: d, answers: [], hintsUsed: 0 };
@@ -186,7 +190,7 @@ export function HigherLowerGame() {
       .filter((n): n is string => !!n);
     return (
       <div className="space-y-6">
-        <GameHeader title={TITLE} mode={MODE} difficulty={progress.difficulty} />
+        <GameHeader title={TITLE} subtitle={phrase.today} mode={MODE} difficulty={progress.difficulty} />
         <ResultArea
           score={score}
           maxScore={maxScore}
@@ -224,7 +228,7 @@ export function HigherLowerGame() {
 
   return (
     <div className="space-y-5">
-      <GameHeader title={TITLE} mode={MODE} difficulty={progress.difficulty} />
+      <GameHeader title={TITLE} subtitle={phrase.today} mode={MODE} difficulty={progress.difficulty} />
       <Announce
         text={
           reviewing

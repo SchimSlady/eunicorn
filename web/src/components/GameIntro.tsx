@@ -12,7 +12,7 @@ import { HowToPlay } from "./HowToPlay";
 import { ModePreview } from "./ModePreview";
 
 /** Before a game: illustration, one-line description, level buttons, Start. */
-export function GameIntro({ mode, onStart }: { mode: PlayMode; onStart: (d: Difficulty) => void }) {
+export function GameIntro({ mode, subtitle, onStart }: { mode: PlayMode; subtitle?: string; onStart: (d: Difficulty) => void }) {
   const info = MODE_INFO[mode];
   return (
     <div className="mx-auto max-w-md space-y-6">
@@ -23,7 +23,10 @@ export function GameIntro({ mode, onStart }: { mode: PlayMode; onStart: (d: Diff
         <ModePreview mode={mode} />
         <div className="space-y-5 p-5">
           <div className="flex items-center justify-between gap-3">
-            <h1 className="text-2xl font-bold">{info.title}</h1>
+            <div className="min-w-0">
+              <h1 className="text-2xl font-bold">{info.title}</h1>
+              {subtitle && <p className="text-sm text-muted">{subtitle}</p>}
+            </div>
             <HowToPlay mode={mode} />
           </div>
           <p className="text-muted">{info.description}</p>
