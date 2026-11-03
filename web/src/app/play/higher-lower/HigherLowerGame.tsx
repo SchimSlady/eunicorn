@@ -106,10 +106,16 @@ function evaluate(p: HigherLowerPuzzle, progress: Progress, companies: Map<strin
   };
 }
 
+/** The score is a run, not a share of 15: "4 rounds completed", or all of them after a perfect run. */
+function roundsDone(correct: number, totalRounds: number): string {
+  if (correct >= totalRounds) return `All ${totalRounds} rounds completed`;
+  return `${correct} ${correct === 1 ? "round" : "rounds"} completed`;
+}
+
 function shareText(p: HigherLowerPuzzle, progress: Progress, companies: Map<string, Company>): string {
   const { rounds, correct, totalRounds } = evaluate(p, progress, companies);
   const squares = rounds.filter((r) => r.answer !== undefined).map((r) => (r.correct ? "🟩" : "🟥")); // share text, not UI. taste-skill-ignore
-  const summary = `${correct} of ${totalRounds} right`;
+  const summary = roundsDone(correct, totalRounds);
   return buildShareText({ number: p.number, modeTitle: p.theme ? `${TITLE} · ${p.theme}` : TITLE, difficulty: progress.difficulty, hintsUsed: progress.hintsUsed, squares, summary });
 }
 
@@ -194,7 +200,7 @@ export function HigherLowerGame() {
         <ResultArea
           score={score}
           maxScore={maxScore}
-          detail={`${correct} of ${totalRounds} right${progress.hintsUsed ? ` · ${progress.hintsUsed} ${progress.hintsUsed === 1 ? "hint" : "hints"}` : ""}`}
+          detail={`${roundsDone(correct, totalRounds)}${progress.hintsUsed ? ` · ${progress.hintsUsed} ${progress.hintsUsed === 1 ? "hint" : "hints"}` : ""}`}
           share={shareText(play, progress, companies)}
           stats={
             <StatsPanel
@@ -204,8 +210,8 @@ export function HigherLowerGame() {
               maxScore={maxScore}
               order={Array.from({ length: totalRounds + 1 }, (_, i) => i)}
               label={(b) => String(b)}
-              axis="Rounds right"
-              unit="right"
+              axis="Rounds completed"
+              display={{ value: String(correct), caption: correct === 1 ? "round completed" : "rounds completed" }}
             />
           }
         />
