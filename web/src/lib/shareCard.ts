@@ -43,6 +43,10 @@ export function scoreOf(summary: string): { big: string; caption: string } {
   const result = summary.split(" · ")[0];
   const count = result.match(/^(\d+) of (\d+) (\w+)/);
   if (count) return { big: `${count[1]}/${count[2]}`, caption: CAPTIONS[count[3]] ?? count[3] };
+  const rounds = result.match(/^(\d+) rounds? completed/);
+  if (rounds) return { big: rounds[1], caption: rounds[1] === "1" ? "round completed" : "rounds completed" };
+  const allRounds = result.match(/^All (\d+) rounds completed/);
+  if (allRounds) return { big: allRounds[1], caption: "rounds completed" };
   const tries = result.match(/in (\d+) tr(?:y|ies)/);
   if (tries) return { big: tries[1], caption: tries[1] === "1" ? "try to spot the impostor" : "tries to spot the impostor" };
   const guess = result.match(/on guess (\d+)/);
