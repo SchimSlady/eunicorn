@@ -202,13 +202,12 @@ export function ImpostorGame() {
                 >
                   <span className={`relative rounded-[22%] ring-[3px] transition ${ring}`}>
                     <CompanyLogo company={c} size={many ? 46 : 60} />
-                    {state !== "open" && (
+                    {done && (
                       <span
                         className={`absolute -right-2 -top-2 flex h-6 w-6 items-center justify-center rounded-full ${
-                          state === "selected" ? "bg-primary" : state === "impostor" ? "bg-correct" : "bg-border"
+                          state === "impostor" ? "bg-correct" : "bg-border"
                         } text-white`}
                       >
-                        {state === "selected" && <Check size={14} aria-hidden />}
                         {state === "impostor" && <VenetianMask size={14} aria-hidden />}
                         {state === "genuine" && <Check size={14} aria-hidden />}
                       </span>
@@ -217,6 +216,12 @@ export function ImpostorGame() {
                   <span className="line-clamp-2 text-xs font-semibold leading-tight">
                     {c.name}
                   </span>
+                  {/* While playing: "Selected", never a check, which would read as a right answer (Pablo, 2026-11-03). */}
+                  {!done && (
+                    <span aria-hidden className={`text-[10px] font-bold uppercase tracking-wide text-primary ${selected ? "" : "invisible"}`}>
+                      Selected
+                    </span>
+                  )}
                   {done && (
                     <span className="flex items-center gap-1 text-[10px] text-muted">
                       <Flag country={c.country} size={10} /> {c.city}
