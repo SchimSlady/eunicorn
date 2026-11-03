@@ -16,8 +16,8 @@ const SITE = "https://eunicorn.eu";
  * one-tap WhatsApp, X and LinkedIn (each opens its app with text and link), the phone's own share
  * sheet, and an invite without the result.
  * The message is short and emoji-free (WhatsApp Desktop garbles emoji in share links), a few short
- * lines instead of one long sentence: what and which day, the result and level, how it ranks today,
- * then the challenge, with the link alone on the last line so chat apps show their link preview.
+ * lines instead of one long sentence: the result, how it ranks today (Pablo, 2026-11-03: no game
+ * title, number, hints or level), then the challenge, with the link alone on the last line so chat apps show their link preview.
  */
 export function ShareButton({ text, score, maxScore, compact = false }: { text: string; score?: number; maxScore?: number; compact?: boolean }) {
   const [open, setOpen] = useState(false);
@@ -45,12 +45,9 @@ function ShareMenu({ text, score, maxScore, onClose }: { text: string; score?: n
   const info = parseShare(text);
   // Share of today's other players with a lower score; null until known (or with nobody else yet).
   const [betterThan, setBetterThan] = useState<number | null>(null);
-  // "EUnicorn #12 · Higher or Lower" / "4 rounds completed · 1 hint · Medium" / "Better than 80% of players today".
-  const lines = [
-    `EUnicorn #${info.number} · ${info.mode}`,
-    [info.summary, info.difficulty].filter(Boolean).join(" · "),
-    betterThan ? `Better than ${betterThan}% of players today` : "",
-  ].filter(Boolean);
+  // "4 rounds completed" / "Better than 80% of players today": just the result and the rank, the same for every game.
+  // The summary also carries hints after a " · "; they are left out here.
+  const lines = [info.summary.split(" · ")[0], betterThan ? `Better than ${betterThan}% of players today` : ""].filter(Boolean);
   const challenge = "Can you beat me?";
   const message = `${lines.join("\n")}\n\n${challenge}\n${gameUrl}`;
   // X wants the link as its own parameter (it counts and previews it); the text keeps the same lines without it.
