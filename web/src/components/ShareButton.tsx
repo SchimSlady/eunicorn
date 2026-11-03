@@ -15,8 +15,9 @@ const SITE = "https://eunicorn.eu";
  * "Challenge friends" opens a share menu: the result as a picture (story size, for Instagram and WhatsApp),
  * one-tap WhatsApp, X and LinkedIn (each opens its app with text and link), the phone's own share
  * sheet, and an invite without the result.
- * The message is short and emoji-free (WhatsApp Desktop garbles emoji in share links): the result,
- * how it ranks today, and "Can you beat me?" with a link to today's game.
+ * The message is short and emoji-free (WhatsApp Desktop garbles emoji in share links), a few short
+ * lines instead of one long sentence: the result, how it ranks today (Pablo, 2026-11-03: no game
+ * title, number, hints or level), then the challenge, with the link alone on the last line so chat apps show their link preview.
  */
 export function ShareButton({ text, score, maxScore, compact = false }: { text: string; score?: number; maxScore?: number; compact?: boolean }) {
   const [open, setOpen] = useState(false);
@@ -44,7 +45,13 @@ function ShareMenu({ text, score, maxScore, onClose }: { text: string; score?: n
   const info = parseShare(text);
   // Share of today's other players with a lower score; null until known (or with nobody else yet).
   const [betterThan, setBetterThan] = useState<number | null>(null);
-  const message = `EUnicorn ${info.mode}: ${info.summary}${betterThan ? `, better than ${betterThan}% of players` : ""}.\nCan you beat me? ${gameUrl}`;
+  // "4 rounds completed" / "Better than 80% of players today": just the result and the rank, the same for every game.
+  // The summary also carries hints after a " · "; they are left out here.
+  const lines = [info.summary.split(" · ")[0], betterThan ? `Better than ${betterThan}% of players today` : ""].filter(Boolean);
+  const challenge = "Can you beat me?";
+  const message = `${lines.join("\n")}\n\n${challenge}\n${gameUrl}`;
+  // X wants the link as its own parameter (it counts and previews it); the text keeps the same lines without it.
+  const messageNoLink = `${lines.join("\n")}\n\n${challenge}`;
   const fileName = `eunicorn-${info.mode.toLowerCase().replace(/[^a-z0-9]+/g, "-")}-${info.number}.png`;
 
   const [image, setImage] = useState<{ blob: Blob; url: string } | null>(null);
@@ -107,10 +114,10 @@ function ShareMenu({ text, score, maxScore, onClose }: { text: string; score?: n
     }
   }
 
-  const invite = `Daily games about European startups: guess valuations, find the impostor, fill the Startup Grid. ${SITE}`;
+  const invite = `EUnicorn: daily games about European startups.\nGuess valuations, find the impostor, fill the Startup Grid.\n\nOne new puzzle every day:\n${SITE}`;
   const links = [
     { label: "WhatsApp", Icon: WhatsAppIcon, href: `https://wa.me/?text=${encodeURIComponent(message)}` },
-    { label: "X", Icon: XIcon, href: `https://x.com/intent/post?text=${encodeURIComponent(message)}` },
+    { label: "X", Icon: XIcon, href: `https://x.com/intent/post?text=${encodeURIComponent(messageNoLink)}&url=${encodeURIComponent(gameUrl)}` },
     { label: "LinkedIn", Icon: LinkedInIcon, href: `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(gameUrl)}` },
   ];
 
