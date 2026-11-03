@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
+import { X } from "lucide-react";
 import type { Company, Dataset } from "@eunicorn/schema";
 import { indexById, loadGame } from "@/lib/data";
 import { getTodayResult, loadProgress, saveProgress, saveResult } from "@/lib/daily";
@@ -8,6 +9,7 @@ import { saveDifficulty, type Difficulty, hintLimit } from "@/lib/difficulty";
 import { countryName, formatMetric } from "@/lib/format";
 import { shareText as buildShareText } from "@/lib/scoring";
 import type { Top10Puzzle, Top10Round } from "@/lib/top10";
+import { nudgeClass } from "@/lib/nudge";
 import { CompanyLogo } from "@/components/CompanyLogo";
 import { Flag } from "@/components/Flag";
 import { CompanySearch } from "@/components/CompanySearch";
@@ -195,8 +197,13 @@ export function Top10Game() {
 
       {!done ? (
         <div className="space-y-2">
+          {miss && (
+            <p className="flex items-center justify-center gap-1.5 text-sm font-semibold text-wrong">
+              <X size={16} aria-hidden /> {miss.name} isn&apos;t in this top 10
+            </p>
+          )}
           <div className="flex items-start gap-2">
-            <div className="min-w-0 flex-1">
+            <div className={`min-w-0 flex-1 rounded-2xl ${nudgeClass(miss?.n)}`}>
               <CompanySearch companies={data.companies} exclude={new Set(progress.guesses)} onPick={guess} />
             </div>
             <Hints

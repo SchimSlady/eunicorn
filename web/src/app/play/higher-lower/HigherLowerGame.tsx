@@ -270,8 +270,8 @@ export function HigherLowerGame() {
               <div className="mt-1 flex items-center gap-2.5 md:mt-0">
                 <span className="animate-flip-in font-display text-3xl font-bold text-eu-yellow sm:text-5xl">{formatMetric(next, play.metric)}</span>
                 <span
-                  className={`flex animate-pop items-center gap-1 rounded-full px-2.5 py-1 text-sm font-semibold ${
-                    round.correct ? "bg-correct" : "bg-wrong"
+                  className={`flex items-center gap-1 rounded-full px-2.5 py-1 text-sm font-semibold ${
+                    round.correct ? "animate-pop bg-correct" : "animate-shake bg-wrong"
                   }`}
                 >
                   {round.correct ? <Check size={16} aria-hidden /> : <X size={16} aria-hidden />}

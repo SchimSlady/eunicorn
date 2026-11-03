@@ -9,6 +9,7 @@ import { hintLimit, saveDifficulty, type Difficulty } from "@/lib/difficulty";
 import { shareText as buildShareText } from "@/lib/scoring";
 import { CompanyLogo } from "@/components/CompanyLogo";
 import { distinctAnswers } from "@/lib/grid";
+import { nudgeClass } from "@/lib/nudge";
 import { companyFact, strengthOf } from "@/lib/hints";
 import { RevealButton } from "@/components/RevealButton";
 import { CompanySearch } from "@/components/CompanySearch";
@@ -328,7 +329,7 @@ export function UnicornGridGame() {
                 </p>
               )}
               <div className="flex items-start gap-2">
-                <div className="min-w-0 flex-1">
+                <div className={`min-w-0 flex-1 rounded-2xl ${nudgeClass(miss?.n)}`}>
                   <CompanySearch companies={data.companies} exclude={used} onPick={pick} />
                 </div>
                 <Hints

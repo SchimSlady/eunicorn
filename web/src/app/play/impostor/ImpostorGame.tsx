@@ -15,6 +15,7 @@ import { GameHeader } from "@/components/GameHeader";
 import { Announce, GameSkeleton, NoPuzzle } from "@/components/Announce";
 import { ResultArea } from "@/components/ResultArea";
 import { RevealButton } from "@/components/RevealButton";
+import { nudgeClass } from "@/lib/nudge";
 import { StatsPanel } from "@/components/StatsPanel";
 import { recordFinish, recordStart } from "@/lib/stats";
 
@@ -84,6 +85,8 @@ function shareText(p: Play, progress: Progress): string {
 export function ImpostorGame() {
   const [puzzle, setPuzzle] = useState<Puzzle | null | undefined>(undefined);
   const [data, setData] = useState<Dataset | null>(null);
+  /** Wrong submits this visit, to shake the chosen cards (lib/nudge.ts). */
+  const [wrongShake, setWrongShake] = useState(0);
   const [progress, setProgress] = useState<Progress | null>(null);
 
   useEffect(() => {
@@ -195,7 +198,7 @@ export function ImpostorGame() {
                     update({ ...progress, selected: selected ? progress.selected.filter((x) => x !== id) : [...progress.selected, id] })
                   }
                   aria-label={`${c.name}${state === "impostor" ? ", an impostor" : ""}`}
-                  className="group flex w-full flex-col items-center gap-1 text-center"
+                  className={`group flex w-full flex-col items-center gap-1 text-center ${selected ? nudgeClass(wrongShake, { ring: false }) : ""}`}
                 >
                   <span className={`relative rounded-[22%] ring-[3px] transition ${ring}`}>
                     <CompanyLogo company={c} size={many ? 46 : 60} />
@@ -229,7 +232,7 @@ export function ImpostorGame() {
       {!done ? (
         <div className="space-y-3">
           {lastWrong && (
-            <p key={tries} className="animate-shake text-center text-sm font-semibold text-wrong">
+            <p key={tries} className="text-center text-sm font-semibold text-wrong">
               Not quite. Try again.
             </p>
           )}
@@ -237,7 +240,12 @@ export function ImpostorGame() {
             <button
               type="button"
               disabled={progress.selected.length === 0 || progress.tries.some((t) => sameSet(t, progress.selected))}
-              onClick={() => update({ ...progress, tries: [...progress.tries, [...progress.selected]] })}
+              onClick={() => {
+                const next = { ...progress, tries: [...progress.tries, [...progress.selected]] };
+                update(next);
+                // A wrong submit: shake the chosen cards (only right after submitting, not on reload).
+                if (!evaluate(play, next).done) setWrongShake((n) => n + 1);
+              }}
               className="min-h-11 flex-1 rounded-full bg-primary px-4 font-semibold text-on-primary transition active:scale-[0.98] disabled:opacity-40"
             >
               {progress.selected.length === 0
