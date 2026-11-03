@@ -47,7 +47,7 @@ export const MODES: ModeInfo[] = [
     description: "See one company's number, then say if the next one is higher or lower. One wrong call ends the run.",
     rules: [
       "You see one startup's number: valuation, money raised, biggest round or founding year.",
-      "Is the next startup's number higher or lower? Your score is how many you get right.",
+      "Is the next startup's number higher or lower? Your score is how many rounds you complete before a wrong call.",
       "One wrong call ends the run, after at most 15 rounds.",
     ],
   },
