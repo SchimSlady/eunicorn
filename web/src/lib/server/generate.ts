@@ -1,10 +1,11 @@
-import type { AnyPuzzle, PlayMode, Top10Puzzle, Top10Round } from "@/lib/top10";
+import type { AnyPuzzle, PlayMode, Top10Metric, Top10Puzzle, Top10Round } from "@/lib/top10";
 import type { Company, Dataset, GridCriterion, Hint, ImpostorPuzzle, UnicornGridPuzzle, WhoRaisedThisPuzzle } from "@eunicorn/schema";
 import { CATEGORY_LEVEL_MAX, DIFFICULTIES, FAME_TIERS, INVESTOR_TIER_MAX, type Difficulty } from "../difficulty";
 import { USD_TO_EUR, countryName, formatUsdAsEur, sectorLabel } from "../format";
 import { distinctAnswers } from "../grid";
 import { TOP10_QUESTIONS, type Top10Question } from "./top10-questions";
 import { metricValue, type HLMetric, type WebHigherLowerPuzzle } from "../higherLower";
+import { LOCAL_MODES, REGIONS, type Region } from "../regions";
 
 /**
  * Builds the day's puzzle from the verified Supabase dataset when no approved puzzle exists
@@ -19,7 +20,8 @@ import { metricValue, type HLMetric, type WebHigherLowerPuzzle } from "../higher
 /** Day 1 of EUnicorn: puzzle numbers count from here. */
 const FIRST_DAY = "2026-11-01";
 
-export function generatePuzzle(mode: PlayMode, date: string, data: Dataset): AnyPuzzle | null {
+export function generatePuzzle(mode: PlayMode, date: string, data: Dataset, region?: Region): AnyPuzzle | null {
+  if (region) return localPuzzle(mode, date, data, region);
   const rng = seeded(`${date}:${mode}`);
   const base = { date, number: puzzleNumber(date), hints: [] as Hint[] };
   const companies = data.companies.filter((c) => c.european);
@@ -35,6 +37,71 @@ export function generatePuzzle(mode: PlayMode, date: string, data: Dataset): Any
     case "top-10":
       return top10(base, date, companies, rng);
   }
+}
+
+/* ---------- Local tab (one region's startups only) ---------- */
+
+/**
+ * A Local game: Top 10 or Higher or Lower with only the region's companies. Its own random stream
+ * per region, so Munich and Berlin don't share a chain. Higher or Lower has no theme days here (the
+ * region is the theme). Same puzzle number as the day's daily games.
+ */
+function localPuzzle(mode: PlayMode, date: string, data: Dataset, region: Region): AnyPuzzle | null {
+  if (!LOCAL_MODES.includes(mode)) return null;
+  const rng = seeded(`${date}:${mode}:${region}`);
+  const base = { date, number: puzzleNumber(date), hints: [] as Hint[] };
+  const companies = data.companies.filter((c) => c.european && REGIONS[region].test(c));
+  if (mode === "higher-lower") return higherLower(base, date, companies, rng, false);
+  return localTop10(base, date, region, companies, rng);
+}
+
+const hasSector = (s: string) => (c: Company) => c.sectors.includes(s as Company["sectors"][number]);
+
+/** What a local list can ask; each needs 12 companies with the number in the region, so a small region asks fewer. */
+const LOCAL_TOP10: { tag: string; metric: Top10Metric; kind?: string; founded?: string; filter: (c: Company) => boolean }[] = [
+  { tag: "all", metric: "lastValuationUsd", filter: () => true },
+  { tag: "all", metric: "totalRaisedUsd", filter: () => true },
+  { tag: "young", metric: "totalRaisedUsd", founded: "founded since 2015", filter: (c) => c.founded >= 2015 },
+  { tag: "young", metric: "lastValuationUsd", founded: "founded since 2015", filter: (c) => c.founded >= 2015 },
+  { tag: "old", metric: "totalRaisedUsd", founded: "founded before 2015", filter: (c) => c.founded > 0 && c.founded < 2015 },
+  { tag: "ai", metric: "totalRaisedUsd", kind: "AI", filter: hasSector("ai") },
+  { tag: "fintech", metric: "totalRaisedUsd", kind: "fintech", filter: hasSector("fintech") },
+  { tag: "saas", metric: "totalRaisedUsd", kind: "SaaS", filter: hasSector("saas") },
+  { tag: "climate", metric: "totalRaisedUsd", kind: "climate", filter: hasSector("climate") },
+  { tag: "mobility", metric: "totalRaisedUsd", kind: "mobility", filter: hasSector("mobility") },
+];
+
+/**
+ * One list for the day, the same at every level: a region has too few companies to split them by
+ * fame, so a level only changes the hints on offer. The lists go round in a shuffled order per cycle
+ * (like the daily Top 10), never the same list two days running; a list the region's data can't make
+ * (fewer than 12, a tie at No. 10) is skipped.
+ */
+function localTop10(base: Base, date: string, region: Region, companies: Company[], rng: Rng): Top10Puzzle | null {
+  const qs: Top10Question[] = LOCAL_TOP10.map((x) => {
+    const who = [REGIONS[region].who(x.kind), x.founded].filter(Boolean).join(" ");
+    return {
+      level: "easy",
+      tag: x.tag,
+      metric: x.metric,
+      title: x.metric === "lastValuationUsd" ? `The 10 most valuable ${who}` : `The 10 ${who} that raised the most`,
+      filter: x.filter,
+      privateOnly: x.metric === "lastValuationUsd",
+    };
+  });
+  const usable = qs.filter((q) => top10Round(q, companies, seeded("check"), true));
+  if (!usable.length) return null;
+  // Walk the days from day 1, so that "never twice running" also holds across a cycle boundary,
+  // where a new order can start with the list the old one ended on (a small region has only a few).
+  let q: Top10Question | undefined;
+  for (let d = 0; d < puzzleNumber(date); d++) {
+    const order = questionOrder(usable, "easy", Math.floor(d / usable.length), `top-10:${region}`);
+    const i = d % order.length;
+    q = order[i] === q && order.length > 1 ? order[(i + 1) % order.length] : order[i];
+  }
+  const round = top10Round(q!, companies, rng, true);
+  if (!round) return null;
+  return { ...base, mode: "top-10", ...round, variants: { easy: round, medium: round, hard: round } };
 }
 
 /* ---------- Top 10 ---------- */
@@ -68,8 +135,8 @@ function top10(base: Base, date: string, companies: Company[], rng: Rng): Top10P
 }
 
 /** One cycle of a level's questions: shuffled, with a question moved down when it shares its topic with the one before. */
-function questionOrder(pool: Top10Question[], level: Difficulty, cycle: number): Top10Question[] {
-  const rest = shuffle(pool, seeded(`top-10:${level}:${cycle}`));
+function questionOrder(pool: Top10Question[], level: Difficulty, cycle: number, stream = "top-10"): Top10Question[] {
+  const rest = shuffle(pool, seeded(`${stream}:${level}:${cycle}`));
   const order: Top10Question[] = [];
   while (rest.length) {
     const i = Math.max(0, rest.findIndex((q) => q.tag !== order.at(-1)?.tag));
@@ -510,12 +577,12 @@ function hlThemeFor(date: string, companies: Company[]): HLTheme | undefined {
   return last >= 0 ? order[last] : undefined;
 }
 
-function higherLower(base: Base, date: string, companies: Company[], rng: Rng): WebHigherLowerPuzzle | null {
+function higherLower(base: Base, date: string, companies: Company[], rng: Rng, themes = true): WebHigherLowerPuzzle | null {
   const extras = date >= HL_EXTRAS_FROM;
   const metrics: HLMetric[] = extras ? HL_METRICS : ["totalRaisedUsd", "lastValuationUsd", "founded"];
   // Rotate the metric by day, falling back to the next one if the data is too thin.
   const start = puzzleNumber(date) % metrics.length;
-  const theme = hlThemeFor(date, companies);
+  const theme = themes ? hlThemeFor(date, companies) : undefined;
   for (const metric of metrics.map((_, i) => metrics[(start + i) % metrics.length])) {
     const usable = companies.filter((c) => (metricValue(c, metric) ?? 0) > 0);
     const label =

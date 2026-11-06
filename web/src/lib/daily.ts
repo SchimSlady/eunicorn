@@ -1,11 +1,12 @@
 import type { AnyPuzzle, PlayMode } from "@/lib/top10";
+import type { Region, Slot } from "@/lib/regions";
 
 /**
  * Once a game is finished it stays finished for the day: a reload shows the result, a game in progress
  * is resumed, streaks count, and the puzzle is the same for everyone all day.
  */
-export function puzzleUrl(mode: PlayMode): string {
-  return `/api/puzzle/${mode}`;
+export function puzzleUrl(mode: PlayMode, region?: Region): string {
+  return `/api/puzzle/${mode}${region ? `?region=${region}` : ""}`;
 }
 
 /** Puzzles flip at midnight Central European Time for everyone, wherever they are. */
@@ -50,9 +51,11 @@ export function msUntilNextPuzzle(now = new Date()): number {
   return (86400 - elapsed) * 1000 - now.getMilliseconds();
 }
 
+/* Progress and results are stored per slot: the mode, or mode@region for a Local game (see lib/regions.ts). */
+
 /* ---------- in-progress state, so a reload doesn't reset (or re-roll) today's game ---------- */
 
-export function loadProgress<T>(mode: PlayMode, date: string): T | null {
+export function loadProgress<T>(mode: Slot, date: string): T | null {
   try {
     return JSON.parse(localStorage.getItem(`eunicorn:${mode}:progress:${date}`) ?? "null");
   } catch {
@@ -60,7 +63,7 @@ export function loadProgress<T>(mode: PlayMode, date: string): T | null {
   }
 }
 
-export function saveProgress<T>(mode: PlayMode, date: string, state: T): void {
+export function saveProgress<T>(mode: Slot, date: string, state: T): void {
   try {
     localStorage.setItem(`eunicorn:${mode}:progress:${date}`, JSON.stringify(state));
   } catch {
@@ -79,9 +82,9 @@ export interface DailyResult {
   share: string;
 }
 
-const key = (mode: PlayMode) => `eunicorn:${mode}:results`;
+const key = (mode: Slot) => `eunicorn:${mode}:results`;
 
-function readResults(mode: PlayMode): DailyResult[] {
+function readResults(mode: Slot): DailyResult[] {
   try {
     return JSON.parse(localStorage.getItem(key(mode)) ?? "[]");
   } catch {
@@ -90,14 +93,14 @@ function readResults(mode: PlayMode): DailyResult[] {
 }
 
 /** The stored result if the player already finished today's puzzle for this mode. */
-export function getTodayResult(mode: PlayMode, date = todayKey()): DailyResult | null {
+export function getTodayResult(mode: Slot, date = todayKey()): DailyResult | null {
   return readResults(mode).find((r) => r.date === date) ?? null;
 }
 
 /** Fired on window after a result is saved, so e.g. the streak in the header updates. */
 export const RESULTS_EVENT = "eunicorn:results";
 
-export function saveResult(mode: PlayMode, result: DailyResult): void {
+export function saveResult(mode: Slot, result: DailyResult): void {
   const results = readResults(mode).filter((r) => r.date !== result.date);
   try {
     localStorage.setItem(key(mode), JSON.stringify([...results, result]));

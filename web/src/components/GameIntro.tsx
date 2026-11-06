@@ -12,12 +12,23 @@ import { HowToPlay } from "./HowToPlay";
 import { ModePreview } from "./ModePreview";
 
 /** Before a game: illustration, one-line description, level buttons, Start. */
-export function GameIntro({ mode, subtitle, onStart }: { mode: PlayMode; subtitle?: string; onStart: (d: Difficulty) => void }) {
+export function GameIntro({
+  mode,
+  subtitle,
+  back = { href: "/", label: "All games" },
+  onStart,
+}: {
+  mode: PlayMode;
+  subtitle?: string;
+  /** Where the back link goes: all games, or the Local tab for a local game. */
+  back?: { href: string; label: string };
+  onStart: (d: Difficulty) => void;
+}) {
   const info = MODE_INFO[mode];
   return (
     <div className="mx-auto max-w-md space-y-6">
-      <Link href="/" className="inline-flex items-center gap-1 text-sm font-medium text-muted hover:text-primary">
-        <ArrowLeft size={16} aria-hidden /> All games
+      <Link href={back.href} className="inline-flex items-center gap-1 text-sm font-medium text-muted hover:text-primary">
+        <ArrowLeft size={16} aria-hidden /> {back.label}
       </Link>
       <div className="overflow-hidden rounded-2xl border border-border bg-surface">
         <ModePreview mode={mode} />

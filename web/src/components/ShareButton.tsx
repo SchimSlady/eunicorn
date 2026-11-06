@@ -41,7 +41,9 @@ export function ShareButton({ text, score, maxScore, compact = false }: { text: 
 function ShareMenu({ text, score, maxScore, onClose }: { text: string; score?: number; maxScore?: number; onClose: () => void }) {
   const pathname = usePathname();
   const mode = pathname.startsWith("/play/") ? (pathname.slice(6) as PlayMode) : null;
-  const gameUrl = `${SITE}${mode ? `/play/${mode}` : ""}`;
+  // A local game links to itself (/local/munich/top-10); it has no player stats, so `mode` stays null there.
+  const local = pathname.startsWith("/local/") ? pathname : null;
+  const gameUrl = `${SITE}${mode ? `/play/${mode}` : (local ?? "")}`;
   const info = parseShare(text);
   // Share of today's other players with a lower score; null until known (or with nobody else yet).
   const [betterThan, setBetterThan] = useState<number | null>(null);

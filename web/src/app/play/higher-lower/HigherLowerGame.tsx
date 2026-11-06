@@ -18,6 +18,7 @@ import { Announce, GameSkeleton, NoPuzzle } from "@/components/Announce";
 import { ResultArea } from "@/components/ResultArea";
 import { StatsPanel } from "@/components/StatsPanel";
 import { recordFinish, recordStart } from "@/lib/stats";
+import { REGIONS, slotOf, type Region } from "@/lib/regions";
 
 const MODE = "higher-lower";
 const TITLE = "Higher or Lower";
@@ -112,14 +113,17 @@ function roundsDone(correct: number, totalRounds: number): string {
   return `${correct} ${correct === 1 ? "round" : "rounds"} completed`;
 }
 
-function shareText(p: HigherLowerPuzzle, progress: Progress, companies: Map<string, Company>): string {
+function shareText(p: HigherLowerPuzzle, progress: Progress, companies: Map<string, Company>, region?: Region): string {
   const { rounds, correct, totalRounds } = evaluate(p, progress, companies);
   const squares = rounds.filter((r) => r.answer !== undefined).map((r) => (r.correct ? "🟩" : "🟥")); // share text, not UI. taste-skill-ignore
   const summary = roundsDone(correct, totalRounds);
-  return buildShareText({ number: p.number, modeTitle: p.theme ? `${TITLE} · ${p.theme}` : TITLE, difficulty: progress.difficulty, hintsUsed: progress.hintsUsed, squares, summary });
+  return buildShareText({ number: p.number, modeTitle: region ? `${TITLE} · ${REGIONS[region].label}` : p.theme ? `${TITLE} · ${p.theme}` : TITLE, difficulty: progress.difficulty, hintsUsed: progress.hintsUsed, squares, summary });
 }
 
-export function HigherLowerGame() {
+/** region: the Local tab's game for that region (its own daily lock, no streak or player stats); none: the daily game. */
+export function HigherLowerGame({ region }: { region?: Region } = {}) {
+  const slot = slotOf(MODE, region);
+  const back = region ? { href: "/local", label: "Local games" } : undefined;
   const [puzzle, setPuzzle] = useState<Puzzle | null | undefined>(undefined);
   const [data, setData] = useState<Dataset | null>(null);
   const [progress, setProgress] = useState<Progress | null>(null);
@@ -127,12 +131,12 @@ export function HigherLowerGame() {
   const [reviewing, setReviewing] = useState(false);
 
   useEffect(() => {
-    loadGame<Puzzle>(MODE).then(({ puzzle: p, data: d }) => {
+    loadGame<Puzzle>(MODE, region).then(({ puzzle: p, data: d }) => {
       setData(d);
       setPuzzle(p);
-      if (p) setProgress(loadProgress<Progress>(MODE, p.date));
+      if (p) setProgress(loadProgress<Progress>(slot, p.date));
     });
-  }, []);
+  }, [region, slot]);
 
   const companies = useMemo(() => (data ? indexById(data.companies) : new Map<string, Company>()), [data]);
 
@@ -140,17 +144,18 @@ export function HigherLowerGame() {
     if (!puzzle) return;
     const play = atLevel(puzzle, next.difficulty);
     setProgress(next);
-    saveProgress(MODE, puzzle.date, next);
+    saveProgress(slot, puzzle.date, next);
     const result = evaluate(play, next, companies);
-    if (result.done && !getTodayResult(MODE, puzzle.date)) {
-      saveResult(MODE, {
+    if (result.done && !getTodayResult(slot, puzzle.date)) {
+      saveResult(slot, {
         date: puzzle.date,
         score: result.score,
         maxScore: result.maxScore,
         hintsUsed: next.hintsUsed,
-        share: shareText(play, next, companies),
+        share: shareText(play, next, companies, region),
       });
-      recordFinish(MODE, next.difficulty, { bucket: result.correct, score: result.score, maxScore: result.maxScore, won: result.correct === result.totalRounds });
+      // Today's player stats are the daily game's; a local game isn't counted in them.
+      if (!region) recordFinish(MODE, next.difficulty, { bucket: result.correct, score: result.score, maxScore: result.maxScore, won: result.correct === result.totalRounds });
     }
   }
 
@@ -160,23 +165,26 @@ export function HigherLowerGame() {
     setReviewing(true);
   }
 
+  if (puzzle === null) return <NoPuzzle back={back} />;
   if (puzzle === undefined || !data) return <GameSkeleton />;
-  if (puzzle === null) return <NoPuzzle />;
 
   const phrase = PHRASE[puzzle.metric];
+  // On a local game the region goes in front of the day's comparison: "Munich · Raised more or less?".
+  const subtitle = region ? `${REGIONS[region].label} · ${phrase.today}` : phrase.today;
 
   // No progress yet: choose the level first. The game is set up from that choice.
   if (!progress) {
     return (
       <GameIntro
         mode={MODE}
-        subtitle={phrase.today}
+        subtitle={subtitle}
+        back={back}
         onStart={(d) => {
           saveDifficulty(d);
           const fresh: Progress = { difficulty: d, answers: [], hintsUsed: 0 };
-          recordStart(MODE, d);
+          if (!region) recordStart(MODE, d);
           setProgress(fresh);
-          saveProgress(MODE, puzzle.date, fresh);
+          saveProgress(slot, puzzle.date, fresh);
         }}
       />
     );
@@ -196,14 +204,14 @@ export function HigherLowerGame() {
       .filter((n): n is string => !!n);
     return (
       <div className="space-y-6">
-        <GameHeader title={TITLE} subtitle={phrase.today} mode={MODE} difficulty={progress.difficulty} />
+        <GameHeader title={TITLE} subtitle={subtitle} back={back} mode={MODE} difficulty={progress.difficulty} />
         <ResultArea
           score={score}
           maxScore={maxScore}
           detail={`${roundsDone(correct, totalRounds)}${progress.hintsUsed ? ` · ${progress.hintsUsed} ${progress.hintsUsed === 1 ? "hint" : "hints"}` : ""}`}
-          share={shareText(play, progress, companies)}
+          share={shareText(play, progress, companies, region)}
           stats={
-            <StatsPanel
+            !region && <StatsPanel
               mode={MODE}
               bucket={correct}
               score={score}
@@ -234,7 +242,7 @@ export function HigherLowerGame() {
 
   return (
     <div className="space-y-5">
-      <GameHeader title={TITLE} subtitle={phrase.today} mode={MODE} difficulty={progress.difficulty} />
+      <GameHeader title={TITLE} subtitle={subtitle} back={back} mode={MODE} difficulty={progress.difficulty} />
       <Announce
         text={
           reviewing
