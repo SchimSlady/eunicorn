@@ -54,11 +54,11 @@ export const MODES: ModeInfo[] = [
   {
     mode: "impostor",
     title: "Impostor",
-    description: "Six startups, one category. Select the ones that don't belong and submit.",
+    description: "Six startups, one category. Click the ones that don't belong. One wrong click ends it.",
     rules: [
       "Most of the startups share something: a country, a city, a sector, a founding period or unicorn status.",
-      "Select the ones that don't belong (one, two or three, you aren't told how many) and submit.",
-      "A wrong selection just says Not quite. The fewer tries you need, the better.",
+      "Click the ones that don't belong (one, two or three, you aren't told how many). Each click is judged at once.",
+      "The first wrong click ends the game. Find them all to win, so start with the ones you are sure about.",
     ],
   },
 ];
