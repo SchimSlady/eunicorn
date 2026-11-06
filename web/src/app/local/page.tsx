@@ -16,9 +16,9 @@ export default function LocalPage() {
       <Link href="/" className="inline-flex items-center gap-1 text-sm font-medium text-muted hover:text-primary">
         <ArrowLeft size={16} aria-hidden /> Daily games
       </Link>
-      <h1 className="mt-4 text-2xl font-bold leading-tight sm:text-[32px]">Play your local scene</h1>
+      <h1 className="mt-4 text-2xl font-bold leading-tight sm:text-[32px]">Play with local startups only</h1>
       <p className="mt-2 max-w-xl text-muted">
-        Only startups from one place. A new game for each region every day, on top of the daily games: it doesn&apos;t count towards
+        Munich, Berlin or Germany. A new game for each region every day, on top of the daily games: it doesn&apos;t count towards
         your streak.
       </p>
       <div className="mt-6">
