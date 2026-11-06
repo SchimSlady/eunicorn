@@ -5,6 +5,7 @@ import type { Company, Dataset, Puzzle, Round } from "@eunicorn/schema";
 import { USD_TO_EUR } from "@/lib/format";
 import { generatePuzzle } from "./generate";
 import type { HLCompany } from "@/lib/higherLower";
+import type { Region } from "@/lib/regions";
 import logoFiles from "./logos.generated.json";
 
 /**
@@ -175,11 +176,12 @@ export async function getDataset(): Promise<(Omit<Dataset, "rounds"> & { rounds:
  * wins (RLS hides drafts and future days); without one, the puzzle is generated from the
  * verified data. null only when Supabase is unavailable or the data can't support the mode.
  */
-export async function getPuzzle(mode: PlayMode, date: string): Promise<AnyPuzzle | null> {
+export async function getPuzzle(mode: PlayMode, date: string, region?: Region): Promise<AnyPuzzle | null> {
   // Top 10 is web-only for now: the puzzles table's mode enum doesn't know it, so it's always generated.
-  if (mode === "top-10") {
+  // Local games (one region's startups) are always generated too: approved puzzles are the daily ones.
+  if (mode === "top-10" || region) {
     const data = await getDataset();
-    return data ? generatePuzzle(mode, date, data) : null;
+    return data ? generatePuzzle(mode, date, data, region) : null;
   }
   const rows = await select<{ payload: Puzzle }>(
     `puzzles?select=payload&mode=eq.${encodeURIComponent(mode)}&date=eq.${encodeURIComponent(date)}&limit=1`,

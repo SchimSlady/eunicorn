@@ -23,6 +23,7 @@ import { ResultArea } from "@/components/ResultArea";
 import { RevealButton } from "@/components/RevealButton";
 import { StatsPanel } from "@/components/StatsPanel";
 import { recordFinish, recordStart } from "@/lib/stats";
+import { REGIONS, slotOf, type Region } from "@/lib/regions";
 
 const MODE = "top-10";
 const TITLE = "Top 10";
@@ -54,13 +55,13 @@ function evaluate(p: Top10Round, progress: Progress) {
   return { found, wrong, done, score: found.length };
 }
 
-function shareText(p: Top10Puzzle, round: Top10Round, progress: Progress): string {
+function shareText(p: Top10Puzzle, round: Top10Round, progress: Progress, region?: Region): string {
   const { found } = evaluate(round, progress);
   // One square per place in the list (found or not), so "3 of 10" shows as 3 of 10 squares.
   const squares = round.companyIds.map((id) => (progress.guesses.includes(id) ? "🟩" : "⬜")); // share text, not UI. taste-skill-ignore
   return buildShareText({
     number: p.number,
-    modeTitle: TITLE,
+    modeTitle: region ? `${TITLE} · ${REGIONS[region].label}` : TITLE,
     difficulty: progress.difficulty,
     hintsUsed: progress.hintsUsed,
     squares,
@@ -68,35 +69,41 @@ function shareText(p: Top10Puzzle, round: Top10Round, progress: Progress): strin
   });
 }
 
-export function Top10Game() {
+/** region: the Local tab's game for that region (its own daily lock, no streak or player stats); none: the daily game. */
+export function Top10Game({ region }: { region?: Region } = {}) {
+  const slot = slotOf(MODE, region);
+  const back = region ? { href: "/local", label: "Local games" } : undefined;
+  const subtitle = region ? `Local · ${REGIONS[region].label}` : undefined;
   const [puzzle, setPuzzle] = useState<Top10Puzzle | null | undefined>(undefined);
   const [data, setData] = useState<Dataset | null>(null);
   const [progress, setProgress] = useState<Progress | null>(null);
   const [miss, setMiss] = useState<{ name: string; n: number } | null>(null);
 
   useEffect(() => {
-    loadGame<Top10Puzzle>(MODE).then(({ puzzle: p, data: d }) => {
+    loadGame<Top10Puzzle>(MODE, region).then(({ puzzle: p, data: d }) => {
       setData(d);
       setPuzzle(p);
-      if (p) setProgress(loadProgress<Progress>(MODE, p.date));
+      if (p) setProgress(loadProgress<Progress>(slot, p.date));
     });
-  }, []);
+  }, [region, slot]);
 
   const companies = useMemo(() => (data ? indexById(data.companies) : new Map<string, Company>()), [data]);
 
+  if (puzzle === null) return <NoPuzzle back={back} />;
   if (puzzle === undefined || !data) return <GameSkeleton />;
-  if (puzzle === null) return <NoPuzzle />;
 
   if (!progress) {
     return (
       <GameIntro
         mode={MODE}
+        subtitle={subtitle}
+        back={back}
         onStart={(d) => {
           saveDifficulty(d);
           const fresh: Progress = { difficulty: d, guesses: [], hintsUsed: 0, gaveUp: false };
-          recordStart(MODE, d);
+          if (!region) recordStart(MODE, d);
           setProgress(fresh);
-          saveProgress(MODE, puzzle.date, fresh);
+          saveProgress(slot, puzzle.date, fresh);
         }}
       />
     );
@@ -107,12 +114,13 @@ export function Top10Game() {
 
   function update(next: Progress) {
     setProgress(next);
-    saveProgress(MODE, puzzle!.date, next);
+    saveProgress(slot, puzzle!.date, next);
     const r = atLevel(puzzle!, next.difficulty);
     const result = evaluate(r, next);
-    if (result.done && !getTodayResult(MODE, puzzle!.date)) {
-      saveResult(MODE, { date: puzzle!.date, score: result.score, maxScore: MAX_SCORE, hintsUsed: next.hintsUsed, share: shareText(puzzle!, r, next) });
-      recordFinish(MODE, next.difficulty, { bucket: result.found.length, score: result.score, maxScore: MAX_SCORE, won: result.found.length === 10 });
+    if (result.done && !getTodayResult(slot, puzzle!.date)) {
+      saveResult(slot, { date: puzzle!.date, score: result.score, maxScore: MAX_SCORE, hintsUsed: next.hintsUsed, share: shareText(puzzle!, r, next, region) });
+      // Today's player stats are the daily game's; a local game isn't counted in them.
+      if (!region) recordFinish(MODE, next.difficulty, { bucket: result.found.length, score: result.score, maxScore: MAX_SCORE, won: result.found.length === 10 });
     }
   }
 
@@ -149,7 +157,7 @@ export function Top10Game() {
 
   return (
     <div className="space-y-3">
-      <GameHeader title={TITLE} mode={MODE} difficulty={progress.difficulty} />
+      <GameHeader title={TITLE} subtitle={subtitle} back={back} mode={MODE} difficulty={progress.difficulty} />
       <Announce
         text={
           miss && !done
@@ -222,9 +230,9 @@ export function Top10Game() {
             score={score}
             maxScore={MAX_SCORE}
             detail={`${found.length} of 10 found${wrong ? ` · ${wrong} wrong` : ""}${progress.hintsUsed ? ` · ${progress.hintsUsed} ${progress.hintsUsed === 1 ? "hint" : "hints"}` : ""}`}
-            share={shareText(puzzle, round, progress)}
+            share={shareText(puzzle, round, progress, region)}
             stats={
-              <StatsPanel
+              !region && <StatsPanel
                 mode={MODE}
                 bucket={found.length}
                 score={score}
