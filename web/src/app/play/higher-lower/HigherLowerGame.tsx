@@ -47,6 +47,7 @@ const PHRASE: Record<HigherLowerPuzzle["metric"], { today: string; has: string; 
   totalRaisedUsd: { today: "Raised more or less?", has: "has raised", higher: "more", lower: "less", question: (n: string) => `Has ${n} raised more or less?` },
   founded: { today: "Founded earlier or later?", has: "was founded in", higher: "later", lower: "earlier", question: (n: string) => `Was ${n} founded earlier or later?` },
   employees: { today: "More or fewer employees?", has: "has", higher: "more", lower: "fewer", question: (n: string) => `Does ${n} have more or fewer employees?` },
+  lastRoundMonth: { today: "Raised more recently or longer ago?", has: "last raised in", higher: "later", lower: "earlier", question: (n: string) => `Did ${n} last raise later or earlier?` },
   biggestRoundUsd: { today: "Biggest round: bigger or smaller?", has: "raised in its biggest round", higher: "bigger", lower: "smaller", question: (n: string) => `Was ${n}'s biggest round bigger or smaller?` },
 };
 

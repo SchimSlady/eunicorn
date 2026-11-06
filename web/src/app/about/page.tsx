@@ -80,7 +80,11 @@ export default function About() {
           <a href="https://github.com/HatScripts/circle-flags" className={link} rel="noopener">
             circle-flags
           </a>{" "}
-          by HatScripts (MIT License).
+          by HatScripts (MIT License). The Berlin and Bavarian flags on the Local tab are from{" "}
+          <a href="https://openmoji.org" className={link} rel="noopener">
+            OpenMoji
+          </a>{" "}
+          (CC BY-SA 4.0), cut to a circle.
         </p>
       </Section>
     </LegalPage>

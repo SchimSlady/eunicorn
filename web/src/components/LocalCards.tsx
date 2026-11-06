@@ -29,7 +29,8 @@ export function LocalCards() {
 
   return (
     <div className="space-y-5">
-      <div role="radiogroup" aria-label="Region" className="flex flex-wrap gap-2">
+      {/* Three equal buttons in one row on a phone; their natural width from sm up. */}
+      <div role="radiogroup" aria-label="Region" className="grid grid-cols-3 gap-2 sm:flex sm:flex-wrap">
         {REGION_IDS.map((r) => (
           <button
             key={r}
@@ -37,10 +38,13 @@ export function LocalCards() {
             role="radio"
             aria-checked={r === region}
             onClick={() => choose(r)}
-            className={`min-h-11 rounded-full border px-5 font-semibold transition ${
+            className={`flex min-h-11 items-center justify-center gap-1.5 rounded-full border py-1 pl-1.5 pr-3 text-[15px] font-semibold transition sm:gap-2 sm:pr-5 sm:text-base ${
               r === region ? "border-primary bg-primary text-on-primary" : "border-border bg-surface hover:border-primary"
             }`}
           >
+            {/* Decorative: the label says the region. */}
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src={REGIONS[r].flag} alt="" width={26} height={26} className="shrink-0 rounded-full" />
             {REGIONS[r].label}
           </button>
         ))}

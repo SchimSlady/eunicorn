@@ -6,7 +6,7 @@ import type { Company, Dataset } from "@eunicorn/schema";
 import { indexById, loadGame } from "@/lib/data";
 import { getTodayResult, loadProgress, saveProgress, saveResult } from "@/lib/daily";
 import { saveDifficulty, type Difficulty, hintLimit } from "@/lib/difficulty";
-import { countryName, formatMetric } from "@/lib/format";
+import { countryName, formatMetric, formatUsdAsEur } from "@/lib/format";
 import { shareText as buildShareText } from "@/lib/scoring";
 import type { Top10Puzzle, Top10Round } from "@/lib/top10";
 import { nudgeClass } from "@/lib/nudge";
@@ -187,7 +187,9 @@ export function Top10Game({ region }: { region?: Region } = {}) {
                 <>
                   <CompanyLogo company={c} size={24} />
                   <span className="min-w-0 flex-1 truncate font-semibold">{c.name}</span>
-                  <span className="shrink-0 text-sm tabular-nums text-muted">{formatMetric(c, round.metric)}</span>
+                  <span className="shrink-0 text-sm tabular-nums text-muted">
+                    {round.values?.[id] != null ? formatUsdAsEur(round.values[id]) : formatMetric(c, round.metric)}
+                  </span>
                 </>
               ) : (
                 // Every empty slot shows its country's flag, like Football 11: on a Europe list it narrows things

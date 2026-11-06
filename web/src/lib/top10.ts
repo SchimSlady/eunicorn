@@ -16,6 +16,12 @@ export interface Top10Round {
   metric: Top10Metric;
   /** Ranked, highest first: companyIds[0] is No. 1. */
   companyIds: string[];
+  /**
+   * The figure shown next to each company, in USD like the dataset, when the list ranks something
+   * other than a company figure (a Local list of "the biggest rounds of 2026"). Without it the row
+   * shows the company's `metric`.
+   */
+  values?: Record<string, number>;
   hints: Hint[];
 }
 
