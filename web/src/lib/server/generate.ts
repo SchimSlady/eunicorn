@@ -571,12 +571,18 @@ interface Group {
 }
 
 /** Companies per puzzle: one impostor among five that fit. */
-const IMPOSTOR_OPTIONS = 6;
+const IMPOSTOR_MIN_OPTIONS = 6;
 
 /** `impostorIds` lists every company that doesn't belong (usually one, sometimes two or three); `impostorId` is the first. */
 export type ImpostorVariants = Partial<
   Record<Difficulty, Pick<ImpostorPuzzle, "prompt" | "companyIds" | "impostorId" | "explanation" | "hints"> & { impostorIds: string[] }>
 >;
+
+/** How many startups on the circle: mostly more than six, never fewer than six. */
+function optionCount(rng: Rng): number {
+  const r = rng();
+  return r < 0.15 ? 6 : r < 0.45 ? 7 : r < 0.75 ? 8 : 9;
+}
 
 /** How many impostors: mostly one, now and then two or three. */
 function impostorCount(rng: Rng): number {
@@ -630,14 +636,17 @@ function impostor(base: Base, companies: Company[], rng: Rng): (ImpostorPuzzle &
     const built = forLevel(level, companies, (pool) => {
       // A category of the day for this level: enough members in the tier, and someone who doesn't belong.
       const n = impostorCount(rng);
+      const wanted = optionCount(rng);
       for (const g of shuffle(groups, rng)) {
         const fits = pool.filter(g.members);
-        if (fits.length < IMPOSTOR_OPTIONS - n) continue;
+        // As many options as the wish, or as many as this category can fill (but at least six).
+        const options = Math.min(wanted, fits.length + n);
+        if (options < IMPOSTOR_MIN_OPTIONS) continue;
         // The impostors are from the tier too; a category the whole tier shares (e.g. all unicorns) takes anyone else.
         const inTier = pool.filter((c) => !g.members(c));
         const outsiders = inTier.length >= n ? inTier : companies.filter((c) => !g.members(c));
         if (outsiders.length < n) continue;
-        const fit = pickN(fits, IMPOSTOR_OPTIONS - n, rng);
+        const fit = pickN(fits, options - n, rng);
         const imps = pickN(outsiders, n, rng);
         const first = imps[0];
         return {
