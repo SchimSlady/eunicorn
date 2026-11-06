@@ -19,8 +19,8 @@ export function LocalBanner() {
         ))}
       </span>
       <span className="min-w-0 flex-1">
-        <span className="block font-display text-lg font-bold leading-tight">Play your local scene</span>
-        <span className="block text-sm text-muted">Startups from Munich, Berlin or Germany only</span>
+        <span className="block font-display text-lg font-bold leading-tight">Play with local startups only</span>
+        <span className="block text-sm text-muted">Munich, Berlin or Germany</span>
       </span>
       <ArrowRight size={20} className="shrink-0 text-primary" aria-hidden />
     </Link>
