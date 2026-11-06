@@ -4,7 +4,7 @@ import { fetchAll } from "./paged";
 import type { Company, Dataset, Puzzle, Round } from "@eunicorn/schema";
 import { USD_TO_EUR } from "@/lib/format";
 import { generatePuzzle } from "./generate";
-import type { HLCompany } from "@/lib/higherLower";
+import { monthIndex, type HLCompany } from "@/lib/higherLower";
 import type { Region } from "@/lib/regions";
 import logoFiles from "./logos.generated.json";
 
@@ -122,6 +122,9 @@ export async function getDataset(): Promise<(Omit<Dataset, "rounds"> & { rounds:
   // The biggest single round per company, for Higher or Lower's "biggest round" days (web only).
   const biggest = new Map<string, number>();
   for (const r of rounds) biggest.set(r.company_id, Math.max(biggest.get(r.company_id) ?? 0, r.amount_eur ?? 0));
+  // And the month of the latest round, for the Local tab's "who raised more recently?".
+  const latest = new Map<string, number>();
+  for (const r of rounds) if (r.announced_month) latest.set(r.company_id, Math.max(latest.get(r.company_id) ?? 0, monthIndex(r.announced_month)));
   return {
     companies: companies.map(
       (c): HLCompany => ({
@@ -140,6 +143,7 @@ export async function getDataset(): Promise<(Omit<Dataset, "rounds"> & { rounds:
         totalRaisedUsd: eurAsUsd(raised.get(c.id)),
         lastValuationUsd: eurAsUsd(c.last_valuation_eur),
         biggestRoundUsd: biggest.get(c.id) ? eurAsUsd(biggest.get(c.id)) : undefined,
+        lastRoundMonth: latest.get(c.id),
         employees: c.employees ?? undefined,
         careersUrl: c.careers_url ?? undefined,
         funFact: c.fun_fact ?? undefined,
