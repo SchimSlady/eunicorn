@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
-import { HomeTabs } from "@/components/HomeTabs";
+import Link from "next/link";
+import { ArrowLeft } from "lucide-react";
 import { LocalCards } from "@/components/LocalCards";
 import { pageMetadata } from "@/lib/seo";
 
@@ -12,8 +13,10 @@ export const metadata: Metadata = pageMetadata(
 export default function LocalPage() {
   return (
     <main className="mx-auto max-w-5xl px-4 py-8 sm:px-6">
-      <HomeTabs active="local" />
-      <h1 className="mt-6 text-2xl font-bold leading-tight sm:text-[32px]">Play your local scene</h1>
+      <Link href="/" className="inline-flex items-center gap-1 text-sm font-medium text-muted hover:text-primary">
+        <ArrowLeft size={16} aria-hidden /> Daily games
+      </Link>
+      <h1 className="mt-4 text-2xl font-bold leading-tight sm:text-[32px]">Play your local scene</h1>
       <p className="mt-2 max-w-xl text-muted">
         Only startups from one place. A new game for each region every day, on top of the daily games: it doesn&apos;t count towards
         your streak.
