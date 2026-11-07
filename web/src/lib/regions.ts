@@ -23,11 +23,13 @@ export const REGIONS: Record<
     /** Round flag on the region button: Bavaria's lozenges for Munich, Berlin's bear, Germany's flag (public/regions, public/flags). */
     flag: string;
     test: (c: Company) => boolean;
+    /** The games this region offers: the two that work on a small pool, and for Germany Impostor too. */
+    modes: PlayMode[];
   }
 > = {
-  munich: { label: "Munich", who: inCity("Munich"), flag: "/regions/bavaria.svg", test: (c) => c.country === "DE" && MUNICH_AREA.has(c.city) },
-  berlin: { label: "Berlin", who: inCity("Berlin"), flag: "/regions/berlin.svg", test: (c) => c.country === "DE" && c.city === "Berlin" },
-  germany: { label: "Germany", who: (kind) => `German ${kind ? `${kind} ` : ""}startups`, flag: "/flags/de.svg", test: (c) => c.country === "DE" },
+  munich: { label: "Munich", who: inCity("Munich"), flag: "/regions/bavaria.svg", test: (c) => c.country === "DE" && MUNICH_AREA.has(c.city), modes: ["top-10", "higher-lower"] },
+  berlin: { label: "Berlin", who: inCity("Berlin"), flag: "/regions/berlin.svg", test: (c) => c.country === "DE" && c.city === "Berlin", modes: ["top-10", "higher-lower"] },
+  germany: { label: "Germany", who: (kind) => `German ${kind ? `${kind} ` : ""}startups`, flag: "/flags/de.svg", test: (c) => c.country === "DE", modes: ["top-10", "higher-lower", "impostor"] },
 };
 
 export const REGION_IDS = Object.keys(REGIONS) as Region[];
@@ -36,8 +38,14 @@ export function isRegion(r: unknown): r is Region {
   return typeof r === "string" && r in REGIONS;
 }
 
-/** The games the Local tab offers: the two that work on a small pool of companies. */
-export const LOCAL_MODES: PlayMode[] = ["top-10", "higher-lower"];
+/** The local games a region offers (its `modes`). */
+export function localModes(region: Region): PlayMode[] {
+  return REGIONS[region].modes;
+}
+
+export function isLocalGame(region: Region, mode: string): mode is PlayMode {
+  return localModes(region).includes(mode as PlayMode);
+}
 
 /**
  * Where a game's progress and result live on the device: the mode for the daily game,

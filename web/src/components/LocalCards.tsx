@@ -6,7 +6,7 @@ import { CircleCheck } from "lucide-react";
 
 import { getTodayResult, todayKey } from "@/lib/daily";
 import { MODE_INFO } from "@/lib/modes";
-import { LOCAL_MODES, REGIONS, REGION_IDS, loadRegion, localPath, saveRegion, slotOf, type Region } from "@/lib/regions";
+import { REGIONS, REGION_IDS, loadRegion, localModes, localPath, saveRegion, slotOf, type Region } from "@/lib/regions";
 import type { PlayMode } from "@/lib/top10";
 import { ModePreview } from "./ModePreview";
 
@@ -19,7 +19,7 @@ export function LocalCards() {
   useEffect(() => setRegion(loadRegion()), []);
   useEffect(() => {
     const day = todayKey();
-    setPlayed(new Set(LOCAL_MODES.filter((m) => getTodayResult(slotOf(m, region), day))));
+    setPlayed(new Set(localModes(region).filter((m) => getTodayResult(slotOf(m, region), day))));
   }, [region]);
 
   function choose(r: Region) {
@@ -51,7 +51,7 @@ export function LocalCards() {
       </div>
 
       <ul className="grid grid-cols-2 gap-4 lg:grid-cols-4">
-        {LOCAL_MODES.map((mode) => (
+        {localModes(region).map((mode) => (
           <li key={mode}>
             <Link
               href={localPath(region, mode)}
