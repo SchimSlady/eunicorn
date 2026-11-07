@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
-import { ArrowDown, ArrowUp, Check, X } from "lucide-react";
+import { ArrowDown, ArrowLeft, ArrowRight, ArrowUp, Check, X } from "lucide-react";
 import type { Company, Dataset } from "@eunicorn/schema";
 import { metricValue, type WebHigherLowerPuzzle } from "@/lib/higherLower";
 import { indexById, loadGame } from "@/lib/data";
@@ -57,6 +57,9 @@ const PHRASE: Record<HigherLowerPuzzle["metric"], { today: string; has: string; 
 };
 
 type Call = "higher" | "lower";
+
+/** Metrics about when, where "higher" means later: arrows point along a timeline instead of up and down. */
+const TIME_METRICS: HigherLowerPuzzle["metric"][] = ["founded", "lastRoundMonth"];
 
 
 interface Progress {
@@ -357,16 +360,24 @@ export function HigherLowerGame({ region }: { region?: Region } = {}) {
             </>
           ) : (
             <>
-              <span aria-hidden className="hidden h-5 md:block" />
+              {/* Same line as the left panel's "has raised €7.8bn", so it is clear what the buttons compare. */}
+              <span className="text-sm text-white/70">
+                {phrase.has} <span className="font-display font-bold text-eu-yellow">?</span>
+              </span>
               <div className={`mt-1 grid w-full grid-cols-2 gap-2 sm:max-w-56 sm:grid-cols-1 ${moving ? "animate-hl-buttons" : ""}`}>
-                {(["higher", "lower"] as const).map((call) => (
+                {(TIME_METRICS.includes(play.metric) ? (["lower", "higher"] as const) : (["higher", "lower"] as const)).map((call) => (
                   <button
                     key={call}
                     type="button"
                     onClick={() => answer(call)}
                     className="flex items-center justify-center gap-1.5 rounded-full border-2 border-white/80 px-3 py-2.5 font-semibold capitalize text-eu-yellow transition hover:bg-white/10 active:scale-[0.98]"
                   >
-                    {phrase[call]} {call === "higher" ? <ArrowUp size={18} aria-hidden /> : <ArrowDown size={18} aria-hidden />}
+                    {TIME_METRICS.includes(play.metric) ? (
+                      // Time runs left to right: earlier points left, later right.
+                      call === "higher" ? <>{phrase[call]} <ArrowRight size={18} aria-hidden /></> : <><ArrowLeft size={18} aria-hidden /> {phrase[call]}</>
+                    ) : (
+                      <>{phrase[call]} {call === "higher" ? <ArrowUp size={18} aria-hidden /> : <ArrowDown size={18} aria-hidden />}</>
+                    )}
                   </button>
                 ))}
               </div>
