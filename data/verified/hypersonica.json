@@ -1,0 +1,115 @@
+{
+  "id": "hypersonica",
+  "name": "Hypersonica",
+  "aliases": [],
+  "domain": "hypersonica.com",
+  "country": "DE",
+  "city": "Munich",
+  "founded": 2023,
+  "sectors": ["defense"],
+  "status": "private",
+  "unicorn": false,
+  "founders": ["Marc Ewenz", "Philipp Kerth"],
+  "difficulty": 4,
+  "techeuId": "D25B4432-1DD7-438C-A2C9-EE3236A3FE26",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.hypersonica.com/en/news/hypersonica-raises-23-3-million-series-a-to-deliver-europe-s-first-sovereign-hypersonic-strike-capability/",
+      "quote": "Hypersonica was initially incubated by TUM Venture Labs. The company is headquartered in the Munich area with a wholly owned subsidiary in London."
+    },
+    {
+      "field": "founded",
+      "url": "https://www.hypersonica.com/en/news/hypersonica-raises-23-3-million-series-a-to-deliver-europe-s-first-sovereign-hypersonic-strike-capability/",
+      "quote": "Founded in December 2023 by University of Oxford PhDs and German nationals Dr. Marc Ewenz and Dr. Philipp Kerth"
+    },
+    {
+      "field": "founders",
+      "url": "https://www.hypersonica.com/en/news/hypersonica-raises-23-3-million-series-a-to-deliver-europe-s-first-sovereign-hypersonic-strike-capability/",
+      "quote": "Founded in December 2023 by University of Oxford PhDs and German nationals Dr. Marc Ewenz and Dr. Philipp Kerth"
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.hypersonica.com/en/news/hypersonica-100-million-series-b/",
+      "quote": "Hypersonica, the British-German defence company developing sovereign hypersonic deep-strike systems for Europe and its allies"
+    },
+    {
+      "field": "status",
+      "url": "https://www.hypersonica.com/en/news/hypersonica-100-million-series-b/",
+      "quote": "today announced a €100 million Series B financing round co-led by Lightspeed and General Catalyst"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://www.hypersonica.com/en/news/hypersonica-100-million-series-b/",
+      "quote": "today announced a €100 million Series B financing round co-led by Lightspeed and General Catalyst"
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://www.hypersonica.com/en/news/hypersonica-100-million-series-b/",
+      "quote": "In February, the company successfully tested its prototype HS-1, achieving speeds above Mach 6 over a range exceeding 300 kilometres and becoming the first privately funded European defence company to hit this milestone."
+    }
+  ],
+  "funFact": "In February 2026 Hypersonica flew its HS-1 prototype at over Mach 6 for more than 300 km, a first for a privately funded European defence company.",
+  "rounds": [
+    {
+      "stage": "series-a",
+      "month": "2026-02",
+      "amountEur": 23300000,
+      "amountOriginal": 23300000,
+      "currency": "EUR",
+      "investors": ["Plural", "SPRIND", "General Catalyst", "201 Ventures"],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.hypersonica.com/en/news/hypersonica-raises-23-3-million-series-a-to-deliver-europe-s-first-sovereign-hypersonic-strike-capability/",
+          "quote": "today announced the close of a €23.3 million Series A financing round"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.hypersonica.com/en/news/hypersonica-raises-23-3-million-series-a-to-deliver-europe-s-first-sovereign-hypersonic-strike-capability/",
+          "quote": "today announced the close of a €23.3 million Series A financing round"
+        },
+        {
+          "field": "month",
+          "url": "https://www.hypersonica.com/en/news/hypersonica-raises-23-3-million-series-a-to-deliver-europe-s-first-sovereign-hypersonic-strike-capability/",
+          "quote": "10th February 2026 Munich - London"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.hypersonica.com/en/news/hypersonica-raises-23-3-million-series-a-to-deliver-europe-s-first-sovereign-hypersonic-strike-capability/",
+          "quote": "The round was led by Plural with participation from Germany’s Federal Agency for Breakthrough Innovation (SPRIND) as well as existing investors General Catalyst – who led Hypersonica’s Seed round – and 201 Ventures."
+        }
+      ]
+    },
+    {
+      "stage": "series-b",
+      "month": "2026-11",
+      "amountEur": 100000000,
+      "amountOriginal": 100000000,
+      "currency": "EUR",
+      "investors": ["Lightspeed Venture Partners", "General Catalyst", "Plural", "201 Ventures", "SPRIND"],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.hypersonica.com/en/news/hypersonica-100-million-series-b/",
+          "quote": "today announced a €100 million Series B financing round co-led by Lightspeed and General Catalyst"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.hypersonica.com/en/news/hypersonica-100-million-series-b/",
+          "quote": "today announced a €100 million Series B financing round co-led by Lightspeed and General Catalyst"
+        },
+        {
+          "field": "month",
+          "url": "https://www.hypersonica.com/en/news/hypersonica-100-million-series-b/",
+          "quote": "2nd November 2026 Munich - London"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.hypersonica.com/en/news/hypersonica-100-million-series-b/",
+          "quote": "with continued participation from existing investors including Plural, 201 Ventures and Germany’s Federal Agency for Breakthrough Innovation (SPRIND)"
+        }
+      ]
+    }
+  ]
+}

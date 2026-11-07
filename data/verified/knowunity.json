@@ -1,0 +1,156 @@
+{
+  "id": "knowunity",
+  "name": "Knowunity",
+  "aliases": [],
+  "domain": "knowunity.de",
+  "country": "DE",
+  "city": "Sindelfingen",
+  "founded": 2019,
+  "sectors": [
+    "edtech"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Benedict Kurz",
+    "Lucas Hild",
+    "Gregor Weber",
+    "Julian Prigl",
+    "Yannik Prigl"
+  ],
+  "difficulty": 3,
+  "techeuId": "9629144D-04E9-4945-9941-D719269EA516",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.businessinsider.de/gruenderszene/business/knowunity-series-a-mario-gotze/",
+      "quote": "Kurz startete die Lernplattform Knowunity im Jahr 2019 gemeinsam mit Lucas Hild, Gregor Weber, Julian Prigl und Yannik Prigl in Sindelfingen bei Stuttgart noch zu Schulzeiten."
+    },
+    {
+      "field": "founded",
+      "url": "https://www.startbase.de/news/zehn-millionen-euro-fuer-knowunity/",
+      "quote": "Benedict Kurz (CEO), Lucas Hild, Gregor Weber, Julian Prigl und Yannik Prigl haben die Lernplattform noch während ihrer eigenen Schulzeit 2019 gegründet."
+    },
+    {
+      "field": "founders",
+      "url": "https://www.startbase.de/news/zehn-millionen-euro-fuer-knowunity/",
+      "quote": "Benedict Kurz (CEO), Lucas Hild, Gregor Weber, Julian Prigl und Yannik Prigl haben die Lernplattform noch während ihrer eigenen Schulzeit 2019 gegründet."
+    },
+    {
+      "field": "sectors",
+      "url": "https://tech.eu/2025/06/13/knowunity-raises-eur27m-to-bring-ai-tutor-to-1-billion-students/",
+      "quote": "Knowunity is a global AI learning companion that combines personalised AI and student-created content to make studying easier"
+    },
+    {
+      "field": "status",
+      "url": "https://tech.eu/2025/06/13/knowunity-raises-eur27m-to-bring-ai-tutor-to-1-billion-students/",
+      "quote": "The Berlin-based learning platform Knowunity , has raised €27 million in a Series B round"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://tech.eu/2025/06/13/knowunity-raises-eur27m-to-bring-ai-tutor-to-1-billion-students/",
+      "quote": "The Berlin-based learning platform Knowunity , has raised €27 million in a Series B round"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-a",
+      "month": "2022-05",
+      "amountEur": 10000000,
+      "amountOriginal": 10000000.0,
+      "currency": "EUR",
+      "investors": [
+        "Redalpine",
+        "Stride VC",
+        "Project A"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.startbase.de/news/zehn-millionen-euro-fuer-knowunity/",
+          "quote": "In einer Series-A-Finanzierungsrunde sammelt das Start-up Knowunity zehn Millionen Euro ein."
+        },
+        {
+          "field": "stage",
+          "url": "https://www.startbase.de/news/zehn-millionen-euro-fuer-knowunity/",
+          "quote": "In einer Series-A-Finanzierungsrunde sammelt das Start-up Knowunity zehn Millionen Euro ein."
+        },
+        {
+          "field": "month",
+          "url": "https://www.startbase.de/news/zehn-millionen-euro-fuer-knowunity/",
+          "quote": "Stuttgart, 24. Mai 2022"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.businessinsider.de/gruenderszene/business/knowunity-series-a-mario-gotze/",
+          "quote": "Lead-Investoren der Finanzierungsrunde sind Redalpine aus der Schweiz und Stride VC aus Großbritannien. Zudem sind die Altgesellschafter mitgezogen, darunter der Berliner VC Project A"
+        }
+      ]
+    },
+    {
+      "stage": "series-a",
+      "month": "2023-02",
+      "amountEur": 9000000,
+      "amountOriginal": 9000000,
+      "currency": "EUR",
+      "investors": [
+        "Project A",
+        "Verena Pausder"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://why.berlin/n/learning-together-edtech-tiktok-knowunity",
+          "quote": "joined by international VCs in a €9M series A extension of last year's €10M round"
+        },
+        {
+          "field": "stage",
+          "url": "https://why.berlin/n/learning-together-edtech-tiktok-knowunity",
+          "quote": "joined by international VCs in a €9M series A extension of last year's €10M round"
+        },
+        {
+          "field": "month",
+          "url": "https://why.berlin/n/learning-together-edtech-tiktok-knowunity",
+          "quote": "20.02.2023 | Tech and Business News"
+        }
+      ]
+    },
+    {
+      "stage": "series-b",
+      "month": "2025-06",
+      "amountEur": 27000000,
+      "amountOriginal": 27000000.0,
+      "currency": "EUR",
+      "investors": [
+        "XAnge",
+        "Portfolion",
+        "Isomer Capital",
+        "Project A",
+        "Redalpine",
+        "Educapital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2025/06/13/knowunity-raises-eur27m-to-bring-ai-tutor-to-1-billion-students/",
+          "quote": "has raised €27 million in a Series B round to expand its personalised AI study companion globally"
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2025/06/13/knowunity-raises-eur27m-to-bring-ai-tutor-to-1-billion-students/",
+          "quote": "has raised €27 million in a Series B round to expand its personalised AI study companion globally"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2025/06/13/knowunity-raises-eur27m-to-bring-ai-tutor-to-1-billion-students/",
+          "quote": "Tamara Djurickovic 13 June 2025"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2025/06/13/knowunity-raises-eur27m-to-bring-ai-tutor-to-1-billion-students/",
+          "quote": "The round was led by XAnge , with participation from Portfolion, Isomer Capital, Project A, Redalpine and Educapital"
+        }
+      ]
+    }
+  ]
+}

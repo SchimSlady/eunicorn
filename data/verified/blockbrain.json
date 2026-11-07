@@ -1,0 +1,98 @@
+{
+  "id": "blockbrain",
+  "name": "Blockbrain",
+  "aliases": [],
+  "domain": "blockbrain.ai",
+  "country": "DE",
+  "city": "Stuttgart",
+  "founded": 2022,
+  "sectors": [
+    "ai",
+    "saas"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Antonius Gress",
+    "Mattias Protzmann",
+    "Nam Hai Ngo"
+  ],
+  "difficulty": 5,
+  "techeuId": "57E76DF2-E8DA-4E87-B306-1AC06C9C7519",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.startbase.com/news/blockbrain-sichert-sich-175-mio-euro-serie-a",
+      "quote": "The Stuttgart-based tech scale-up Blockbrain addresses precisely this problem with an AI platform for trustworthy knowledge agents."
+    },
+    {
+      "field": "founded",
+      "url": "https://www.startbase.com/organization/blockbrain/",
+      "quote": "Founding Year: 2022"
+    },
+    {
+      "field": "founders",
+      "url": "https://www.startbase.com/news/blockbrain-sichert-sich-175-mio-euro-serie-a",
+      "quote": "Blockbrain Gründer Antonius Gress, Mattias Protzmann, Nam Hai Ngo"
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.startbase.com/news/blockbrain-sichert-sich-175-mio-euro-serie-a",
+      "quote": "The Stuttgart-based tech scale-up Blockbrain addresses precisely this problem with an AI platform for trustworthy knowledge agents."
+    },
+    {
+      "field": "status",
+      "url": "https://www.startbase.com/news/blockbrain-sichert-sich-175-mio-euro-serie-a",
+      "quote": "The Stuttgart-based tech scale-up Blockbrain addresses precisely this problem with an AI platform for trustworthy knowledge agents."
+    },
+    {
+      "field": "unicorn",
+      "url": "https://www.startbase.com/news/blockbrain-sichert-sich-175-mio-euro-serie-a",
+      "quote": "The Stuttgart-based tech scale-up Blockbrain addresses precisely this problem with an AI platform for trustworthy knowledge agents."
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-a",
+      "month": "2026-02",
+      "amountEur": 17500000,
+      "amountOriginal": 17500000,
+      "currency": "EUR",
+      "investors": [
+        "Alstin Capital",
+        "13books Capital",
+        "HARTING Family Foundation",
+        "Giesecke+Devrient Ventures",
+        "LBBW Ventures",
+        "Mätch VC"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.startbase.com/news/blockbrain-sichert-sich-175-mio-euro-serie-a",
+          "quote": "The company has now completed a Series A financing round of 17.5 million euros."
+        },
+        {
+          "field": "stage",
+          "url": "https://www.startbase.com/news/blockbrain-sichert-sich-175-mio-euro-serie-a",
+          "quote": "The company has now completed a Series A financing round of 17.5 million euros."
+        },
+        {
+          "field": "month",
+          "url": "https://www.startbase.com/news/blockbrain-sichert-sich-175-mio-euro-serie-a",
+          "quote": "Stuttgart, 12. February 2026"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.startbase.com/news/blockbrain-sichert-sich-175-mio-euro-serie-a",
+          "quote": "The financing round is led by Alstin Capital and the London-based technology investor 13books Capital."
+        },
+        {
+          "field": "investors",
+          "url": "https://www.startbase.com/news/blockbrain-sichert-sich-175-mio-euro-serie-a",
+          "quote": "Existing investors Giesecke+Devrient Ventures, LBBW Ventures and Mätch VC are increasing their commitment."
+        }
+      ]
+    }
+  ]
+}

@@ -161,3 +161,10 @@ Read this before verifying a company. Each rule came from a real problem in the 
 - **Insolvency followed by a takeover of the business = acquisition** (Volocopter → Diamond/Wanfeng, unu → Emco, Made.com → Next, Volta Trucks → Luxor). An asset sale out of a bankruptcy estate where the company itself ends is still insolvency (Northvolt → Lyten, Britishvolt). Majority stakes count as acquisitions (IDnow/Corsair, ProGlove/Nordic Capital, Ebury/Santander).
 - **All 74 non-private companies now have an exit**, plus 5 new ones (Prior Labs → SAP, Made.com, Britishvolt, Pollen, Westwing IPO). unu's status changed from defunct to acquired.
 - **Quotes from Wikipedia links:** check-quotes strips tags into spaces, so the page text reads "getir , a competitor" and "acquired [ 12 ] by salesforce". Copy quotes from the normalized text (or cut them before link boundaries); agents that compare with their own normalization miss this.
+
+## German batch 8: young startups (2026-11-07)
+- **Tim's rule for this wave: founded 2021 or later**, from the Tech.eu gap list (€20–100M, last round 2022+), plus exceptions he named (Knowunity 2019, Twaice 2018, Leapsome 2016). Founding year is checked first; 13 of 46 were older (Sastrify, Kittl, Aignostics, Lanes & Planes, Buena, Eterno, one.five, Flexvelop, Patronus, Foodji, NeoTaste …).
+- **Mixed equity + debt again:** MYNE (both rounds), Tapline (revenue-based financing), Hallo Theo's €25M Series A (BlackRock debt), Solar Materials' Series A (EIC grant), Limetax's €30M acquisition line (split given: only €6M equity kept).
+- **AI roll-ups** (Limetax, Theo, Integral buy whole firms with their staff) are kept as VC-backed startups, unlike PE buy-and-build platforms (Ortivity); flagged for Tim.
+- **Aggregators only = no round:** buycycle's 2024 Series A existed only on nordic9 (with a different USD figure); dropped.
+- **Many young-company sites block curl** (twaice.com, midas.app, deutsche-startups.de for some agents). check-quotes may still reach them with its own user agent; when it doesn't, swap in investor or press pages (UVC, Insight, invest-in.berlin, munich-startup).

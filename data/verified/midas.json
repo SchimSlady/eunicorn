@@ -1,0 +1,128 @@
+{
+  "id": "midas",
+  "name": "Midas",
+  "aliases": [],
+  "domain": "midas.app",
+  "country": "DE",
+  "city": "Berlin",
+  "founded": 2024,
+  "sectors": [
+    "crypto",
+    "fintech"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Dennis Dinkelmeyer",
+    "Fabrice Grinda",
+    "Romain Bourgois"
+  ],
+  "difficulty": 5,
+  "techeuId": "EE4ED9BE-8DB5-492D-B130-EE5D3C334EF3",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.startbase.com/news/midas-sammelt-50-millionen-us-dollar-in-series-a-ein/",
+      "quote": "The Berlin-based fintech Midas has closed a Series A financing round of around 50 million US dollars"
+    },
+    {
+      "field": "founded",
+      "url": "https://www.invest-in.berlin/n/midas-closes-50m-round-to-bridge-tradfi-and-defi/",
+      "quote": "Founded in 2024 by Dennis Dinkelmeyer (formerly Goldman Sachs), Fabrice Grinda (FJ Labs), and Romain Bourgois (formerly Ondo Finance)"
+    },
+    {
+      "field": "founders",
+      "url": "https://www.invest-in.berlin/n/midas-closes-50m-round-to-bridge-tradfi-and-defi/",
+      "quote": "Founded in 2024 by Dennis Dinkelmeyer (formerly Goldman Sachs), Fabrice Grinda (FJ Labs), and Romain Bourgois (formerly Ondo Finance)"
+    },
+    {
+      "field": "sectors",
+      "url": "https://tech.eu/2026/03/30/midas-closes-50m-series-a-to-scale-onchain-investment-products/",
+      "quote": "Midas , a platform for composable on-chain investment products, has raised $50 million in Series A funding."
+    },
+    {
+      "field": "status",
+      "url": "https://tech.eu/2026/03/30/midas-closes-50m-series-a-to-scale-onchain-investment-products/",
+      "quote": "Midas , a platform for composable on-chain investment products, has raised $50 million in Series A funding."
+    },
+    {
+      "field": "unicorn",
+      "url": "https://tech.eu/2026/03/30/midas-closes-50m-series-a-to-scale-onchain-investment-products/",
+      "quote": "Midas , a platform for composable on-chain investment products, has raised $50 million in Series A funding."
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "seed",
+      "month": "2024-03",
+      "amountEur": 8093608,
+      "amountOriginal": 8750000.0,
+      "currency": "USD",
+      "investors": [
+        "BlockTower Capital",
+        "Framework Ventures",
+        "HV Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://lowenstein.com/news-insights/firm-news/lowenstein-represents-blocktower-capital-as-a-lead-investor-in-funding-round-for-midas-a-germany-based-provider-of-asset-tokenization-protocol",
+          "quote": "Lowenstein Sandler represented BlockTower Capital as a lead investor in the $8.75 million funding round in Midas, a Berlin, Germany-based provider of an asset tokenization protocol."
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2026/03/30/midas-closes-50m-series-a-to-scale-onchain-investment-products/",
+          "quote": "following an $8.75 million seed round in 2024"
+        },
+        {
+          "field": "month",
+          "url": "https://lowenstein.com/news-insights/firm-news/lowenstein-represents-blocktower-capital-as-a-lead-investor-in-funding-round-for-midas-a-germany-based-provider-of-asset-tokenization-protocol",
+          "quote": "March 28, 2024"
+        },
+        {
+          "field": "investors",
+          "url": "https://lowenstein.com/news-insights/firm-news/lowenstein-represents-blocktower-capital-as-a-lead-investor-in-funding-round-for-midas-a-germany-based-provider-of-asset-tokenization-protocol",
+          "quote": "The round was led alongside Framework Ventures and HV Capital"
+        }
+      ]
+    },
+    {
+      "stage": "series-a",
+      "month": "2026-03",
+      "amountEur": 43538837,
+      "amountOriginal": 50000000.0,
+      "currency": "USD",
+      "investors": [
+        "RRE Ventures",
+        "Creandum",
+        "Framework Ventures",
+        "HV Capital",
+        "Ledger Cathay",
+        "Franklin Templeton",
+        "Coinbase Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2026/03/30/midas-closes-50m-series-a-to-scale-onchain-investment-products/",
+          "quote": "has raised $50 million in Series A funding. The round was led by RRE Ventures and Creandum"
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2026/03/30/midas-closes-50m-series-a-to-scale-onchain-investment-products/",
+          "quote": "has raised $50 million in Series A funding. The round was led by RRE Ventures and Creandum"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2026/03/30/midas-closes-50m-series-a-to-scale-onchain-investment-products/",
+          "quote": "Tamara Djurickovic 30 March 2026"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2026/03/30/midas-closes-50m-series-a-to-scale-onchain-investment-products/",
+          "quote": "The round was led by RRE Ventures and Creandum , with participation from Framework Ventures, HV Capital, Ledger Cathay, Franklin Templeton, Coinbase Ventures"
+        }
+      ]
+    }
+  ]
+}

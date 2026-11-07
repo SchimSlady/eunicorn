@@ -1,0 +1,205 @@
+{
+  "id": "rabot-energy",
+  "name": "Rabot Energy",
+  "aliases": [
+    "Rabot Charge",
+    "RABOT Energy",
+    "RABOT CHARGE"
+  ],
+  "domain": "rabot.energy",
+  "country": "DE",
+  "city": "Hamburg",
+  "founded": 2021,
+  "sectors": [
+    "climate"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Jan Rabe",
+    "Maximilian Both"
+  ],
+  "difficulty": 4,
+  "techeuId": "762FEF68-56A4-4B27-94D8-38060A9E7779",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.startbase.de/news/rabot-charge-schliesst-pre-seed-finanzierungsrunde-ab/",
+      "quote": "Jan Rabe und Maximilian Both gründeten Rabot Charge im Jahr 2021 in Hamburg."
+    },
+    {
+      "field": "founded",
+      "url": "https://www.startbase.de/news/rabot-charge-schliesst-pre-seed-finanzierungsrunde-ab/",
+      "quote": "Jan Rabe und Maximilian Both gründeten Rabot Charge im Jahr 2021 in Hamburg."
+    },
+    {
+      "field": "founders",
+      "url": "https://www.startbase.de/news/rabot-charge-schliesst-pre-seed-finanzierungsrunde-ab/",
+      "quote": "Jan Rabe und Maximilian Both gründeten Rabot Charge im Jahr 2021 in Hamburg."
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.rabot.energy/magazin/rabot-energy-erhlt-50-mio-aus-millionen-haushalten-wird-ein-virtuelles-kraftwerk/",
+      "quote": "Rabot Energy, Marktführer im Bereich dynamischer Stromtarife, hat eine Series-B-Finanzierungsrunde über 50 Millionen abgeschlossen."
+    },
+    {
+      "field": "status",
+      "url": "https://www.rabot.energy/magazin/rabot-energy-erhlt-50-mio-aus-millionen-haushalten-wird-ein-virtuelles-kraftwerk/",
+      "quote": "Rabot Energy, Marktführer im Bereich dynamischer Stromtarife, hat eine Series-B-Finanzierungsrunde über 50 Millionen abgeschlossen."
+    },
+    {
+      "field": "unicorn",
+      "url": "https://www.rabot.energy/magazin/rabot-energy-erhlt-50-mio-aus-millionen-haushalten-wird-ein-virtuelles-kraftwerk/",
+      "quote": "Rabot Energy, Marktführer im Bereich dynamischer Stromtarife, hat eine Series-B-Finanzierungsrunde über 50 Millionen abgeschlossen."
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "seed",
+      "month": "2022-11",
+      "amountEur": 2000000,
+      "amountOriginal": 2000000.0,
+      "currency": "EUR",
+      "investors": [
+        "yabeo Impact",
+        "Arsago Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://startupcity.hamburg/news-events/news/rabot-charge-secures-millions-in-financings",
+          "quote": "Now the next step followed with an additional 2 million euros. The new seed round is led by Munich-based early-stage investor yabeo Impact."
+        },
+        {
+          "field": "stage",
+          "url": "https://startupcity.hamburg/news-events/news/rabot-charge-secures-millions-in-financings",
+          "quote": "Now the next step followed with an additional 2 million euros. The new seed round is led by Munich-based early-stage investor yabeo Impact."
+        },
+        {
+          "field": "month",
+          "url": "https://startupcity.hamburg/news-events/news/rabot-charge-secures-millions-in-financings",
+          "quote": "News | November 17, 2022"
+        },
+        {
+          "field": "investors",
+          "url": "https://startupcity.hamburg/news-events/news/rabot-charge-secures-millions-in-financings",
+          "quote": "The new seed round is led by Munich-based early-stage investor yabeo Impact. Existing investors such as Arsago Ventures and a Hamburg-based family office also participated."
+        }
+      ]
+    },
+    {
+      "stage": "seed",
+      "month": "2023-04",
+      "amountEur": 1500000,
+      "amountOriginal": 1500000.0,
+      "currency": "EUR",
+      "investors": [
+        "High-Tech Gründerfonds",
+        "vent.io"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.htgf.de/htgf-investment-rabot-charge/",
+          "quote": "Rabot Charge erhält im Second-Closing 1,5 Millionen Euro frisches Kapital von den Neuinvestoren High-Tech Gründerfonds (HTGF) und vent.io"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.htgf.de/htgf-investment-rabot-charge/",
+          "quote": "Das Hamburger Greentech-Startup Rabot Charge hat seine Seed-Finanzierungsrunde erfolgreich abgeschlossen"
+        },
+        {
+          "field": "month",
+          "url": "https://www.htgf.de/htgf-investment-rabot-charge/",
+          "quote": "News 20. April 2023"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.htgf.de/htgf-investment-rabot-charge/",
+          "quote": "Rabot Charge erhält im Second-Closing 1,5 Millionen Euro frisches Kapital von den Neuinvestoren High-Tech Gründerfonds (HTGF) und vent.io"
+        }
+      ]
+    },
+    {
+      "stage": "series-a",
+      "month": "2024-01",
+      "amountEur": 17500000,
+      "amountOriginal": 17500000.0,
+      "currency": "EUR",
+      "investors": [
+        "HV Capital",
+        "All Iron Ventures",
+        "9900 Capital",
+        "yabeo Impact",
+        "High-Tech Gründerfonds",
+        "vent.io"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://startupcity.hamburg/news-events/news/rabot-charge-closes-financing-round-of-17-5-million-euros",
+          "quote": "The digital green energy supplier Rabot Charge has closed its Series A financing round of 17.5 million euros."
+        },
+        {
+          "field": "stage",
+          "url": "https://startupcity.hamburg/news-events/news/rabot-charge-closes-financing-round-of-17-5-million-euros",
+          "quote": "The digital green energy supplier Rabot Charge has closed its Series A financing round of 17.5 million euros."
+        },
+        {
+          "field": "month",
+          "url": "https://startupcity.hamburg/news-events/news/rabot-charge-closes-financing-round-of-17-5-million-euros",
+          "quote": "News | January 31, 2024"
+        },
+        {
+          "field": "investors",
+          "url": "https://startupcity.hamburg/news-events/news/rabot-charge-closes-financing-round-of-17-5-million-euros",
+          "quote": "The round is led by one of the leading growth investors in Europe, HV Capital. All Iron and 9900 Capital also participated, as well as existing investors such as yabeo Impact, HTGF and vent.io"
+        }
+      ]
+    },
+    {
+      "stage": "series-b",
+      "month": "2026-10",
+      "amountEur": 50000000,
+      "amountOriginal": 50000000.0,
+      "currency": "EUR",
+      "investors": [
+        "Endeit Capital",
+        "DeepTech & Climate Fonds",
+        "HV Capital",
+        "High-Tech Gründerfonds",
+        "Bosch Ventures",
+        "CNI",
+        "Acurio Ventures",
+        "vent.io"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.startbase.de/news/rabot-energy-mit-50-millionen-euro-series-b/",
+          "quote": "Das Hamburger EnergyTech-Unternehmen Rabot Energy hat eine Series-B-Finanzierungsrunde über 50 Millionen Euro abgeschlossen."
+        },
+        {
+          "field": "stage",
+          "url": "https://www.startbase.de/news/rabot-energy-mit-50-millionen-euro-series-b/",
+          "quote": "Das Hamburger EnergyTech-Unternehmen Rabot Energy hat eine Series-B-Finanzierungsrunde über 50 Millionen Euro abgeschlossen."
+        },
+        {
+          "field": "month",
+          "url": "https://www.rabot.energy/magazin/rabot-energy-erhlt-50-mio-aus-millionen-haushalten-wird-ein-virtuelles-kraftwerk/",
+          "quote": "Hamburg, 14. Oktober 2026."
+        },
+        {
+          "field": "investors",
+          "url": "https://www.startbase.de/news/rabot-energy-mit-50-millionen-euro-series-b/",
+          "quote": "Zu den erneut investierenden Bestandsinvestoren gehören HV Capital , High-Tech Gründerfonds ( HTGF ), Bosch Ventures, CNI, Acurio Ventures und vent.io."
+        },
+        {
+          "field": "investors",
+          "url": "https://www.startbase.de/news/rabot-energy-mit-50-millionen-euro-series-b/",
+          "quote": "Neuer Lead-Investor der Finanzierungsrunde ist Endeit"
+        }
+      ]
+    }
+  ]
+}

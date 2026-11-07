@@ -1,0 +1,127 @@
+{
+  "id": "turn2x",
+  "name": "TURN2X",
+  "aliases": [
+    "Turn2X",
+    "Turn Energy"
+  ],
+  "domain": "turn2x.com",
+  "country": "DE",
+  "city": "Munich",
+  "founded": 2022,
+  "sectors": [
+    "climate"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Dominik Schollenberger",
+    "Benedikt Stolz",
+    "Philip Kessler"
+  ],
+  "difficulty": 5,
+  "techeuId": "E72332C3-C0E5-4ABA-8432-EE41751252C0",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.deutsche-startups.de/2026/10/12/meeting-area-whaaat-ai-gaius-twentyfour-industries-aignostics-turn2x/",
+      "quote": "Das Startup aus München, von Dominik Schollenberger, Benedikt Stolz und Philip Kessler gegründet"
+    },
+    {
+      "field": "founders",
+      "url": "https://www.deutsche-startups.de/2026/10/12/meeting-area-whaaat-ai-gaius-twentyfour-industries-aignostics-turn2x/",
+      "quote": "Das Startup aus München, von Dominik Schollenberger, Benedikt Stolz und Philip Kessler gegründet"
+    },
+    {
+      "field": "founded",
+      "url": "https://turn2x.com/about/",
+      "quote": "In October 2022, TURN2X was officially founded"
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.deutsche-startups.de/2026/10/12/meeting-area-whaaat-ai-gaius-twentyfour-industries-aignostics-turn2x/",
+      "quote": "„wandelt erneuerbaren Strom in erneuerbares Erdgas um"
+    },
+    {
+      "field": "status",
+      "url": "https://www.deutsche-startups.de/2026/10/12/meeting-area-whaaat-ai-gaius-twentyfour-industries-aignostics-turn2x/",
+      "quote": "investieren 20 Millionen Euro (Series A) in Turn2X"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://www.deutsche-startups.de/2026/10/12/meeting-area-whaaat-ai-gaius-twentyfour-industries-aignostics-turn2x/",
+      "quote": "investieren 20 Millionen Euro (Series A) in Turn2X"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "seed",
+      "month": "2023-06",
+      "amountEur": 4300000,
+      "amountOriginal": 4300000.0,
+      "currency": "EUR",
+      "investors": [
+        "LEA Partners",
+        "Verve Ventures",
+        "First Momentum Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.businessinsider.de/gruenderszene/business/mit-diesen-10-folien-pitchte-das-biogas-startup-turn2x-um-millionen/",
+          "quote": "4,3 Millionen Euro sammelte Turn2X, das früher Turn Energy hieß, in der Seed-Runde ein"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.businessinsider.de/gruenderszene/business/mit-diesen-10-folien-pitchte-das-biogas-startup-turn2x-um-millionen/",
+          "quote": "4,3 Millionen Euro sammelte Turn2X, das früher Turn Energy hieß, in der Seed-Runde ein"
+        },
+        {
+          "field": "month",
+          "url": "https://www.businessinsider.de/gruenderszene/business/mit-diesen-10-folien-pitchte-das-biogas-startup-turn2x-um-millionen/",
+          "quote": "Georg Räth 28 Juni 2023"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.businessinsider.de/gruenderszene/business/mit-diesen-10-folien-pitchte-das-biogas-startup-turn2x-um-millionen/",
+          "quote": "Das Geld stammt von Lead-Investor LEA Partners aus Karlsruhe, die bereits in das gehypte KI-Startup Aleph Alpha investierten , sowie Verve Ventures aus der Schweiz und First Momentum Ventures aus Karlsruhe"
+        }
+      ]
+    },
+    {
+      "stage": "series-a",
+      "month": "2026-10",
+      "amountEur": 20000000,
+      "amountOriginal": 20000000.0,
+      "currency": "EUR",
+      "investors": [
+        "Antwerpen Ventures",
+        "LEA Partners",
+        "First Momentum Ventures",
+        "Verve Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.deutsche-startups.de/2026/10/12/meeting-area-whaaat-ai-gaius-twentyfour-industries-aignostics-turn2x/",
+          "quote": "investieren 20 Millionen Euro (Series A) in Turn2X"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.deutsche-startups.de/2026/10/12/meeting-area-whaaat-ai-gaius-twentyfour-industries-aignostics-turn2x/",
+          "quote": "investieren 20 Millionen Euro (Series A) in Turn2X"
+        },
+        {
+          "field": "month",
+          "url": "https://www.deutsche-startups.de/2026/10/12/meeting-area-whaaat-ai-gaius-twentyfour-industries-aignostics-turn2x/",
+          "quote": "Montag, 12. Oktober 2026"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.deutsche-startups.de/2026/10/12/meeting-area-whaaat-ai-gaius-twentyfour-industries-aignostics-turn2x/",
+          "quote": "Antwerpen Ventures (Kyon Energy-Gründer Florian Antwerpen), LEA Partners , First Momentum Ventures und Verve Ventures investieren 20 Millionen Euro (Series A) in Turn2X"
+        }
+      ]
+    }
+  ]
+}

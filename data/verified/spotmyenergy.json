@@ -1,0 +1,122 @@
+{
+  "id": "spotmyenergy",
+  "name": "SpotmyEnergy",
+  "aliases": [
+    "Spot My Energy",
+    "Spot my Energy"
+  ],
+  "domain": "spotmyenergy.de",
+  "country": "DE",
+  "city": "Cologne",
+  "founded": 2023,
+  "sectors": [
+    "climate"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Jochen Schwill"
+  ],
+  "difficulty": 4,
+  "techeuId": "7ECD09F3-C72E-4450-8BC0-D3BEF2F8533E",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://spotmyenergy.de/presse/spot-my-energy-erhaelt-eur-155-millionen-pre-seed-finanzierung-fuer-smart-meter-ausbau/",
+      "quote": "Das junge Energytech-Startup aus Köln erhält EUR 1,55 Mio. in einer Pre-Seed-Finanzierungsrunde, die von Picus Capital angeführt wird."
+    },
+    {
+      "field": "founded",
+      "url": "https://spotmyenergy.de/presse/spot-my-energy-erhaelt-eur-155-millionen-pre-seed-finanzierung-fuer-smart-meter-ausbau/",
+      "quote": "Direkt mit der Gründung im August 2023 konnte SpotmyEnergy mit Picus Capital den ersten Investor überzeugen"
+    },
+    {
+      "field": "founders",
+      "url": "https://spotmyenergy.de/presse/spot-my-energy-erhaelt-eur-155-millionen-pre-seed-finanzierung-fuer-smart-meter-ausbau/",
+      "quote": "Der Energieexperte Jochen Schwill gründet SpotmyEnergy, um die Energiewende voranzutreiben"
+    },
+    {
+      "field": "sectors",
+      "url": "https://spotmyenergy.de/presse/seed-finanzierungsrunde/",
+      "quote": "SpotmyEnergy, das Kölner Unternehmen von Gründer Jochen Schwill, setzt hier mit der eigenen Energiemanagementkomplettlösung für private Haushalte"
+    },
+    {
+      "field": "status",
+      "url": "https://spotmyenergy.de/presse/seed-finanzierungsrunde/",
+      "quote": "SpotmyEnergy, das Kölner Unternehmen von Gründer Jochen Schwill, setzt hier mit der eigenen Energiemanagementkomplettlösung für private Haushalte"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://spotmyenergy.de/presse/seed-finanzierungsrunde/",
+      "quote": "SpotmyEnergy, das Kölner Unternehmen von Gründer Jochen Schwill, setzt hier mit der eigenen Energiemanagementkomplettlösung für private Haushalte"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "pre-seed",
+      "month": "2023-09",
+      "amountEur": 1550000,
+      "amountOriginal": 1550000,
+      "currency": "EUR",
+      "investors": [
+        "Picus Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://spotmyenergy.de/presse/spot-my-energy-erhaelt-eur-155-millionen-pre-seed-finanzierung-fuer-smart-meter-ausbau/",
+          "quote": "Das junge Energytech-Startup aus Köln erhält EUR 1,55 Mio. in einer Pre-Seed-Finanzierungsrunde, die von Picus Capital angeführt wird."
+        },
+        {
+          "field": "stage",
+          "url": "https://spotmyenergy.de/presse/spot-my-energy-erhaelt-eur-155-millionen-pre-seed-finanzierung-fuer-smart-meter-ausbau/",
+          "quote": "Das junge Energytech-Startup aus Köln erhält EUR 1,55 Mio. in einer Pre-Seed-Finanzierungsrunde, die von Picus Capital angeführt wird."
+        },
+        {
+          "field": "month",
+          "url": "https://spotmyenergy.de/presse/spot-my-energy-erhaelt-eur-155-millionen-pre-seed-finanzierung-fuer-smart-meter-ausbau/",
+          "quote": "Köln, 12. September 2023"
+        },
+        {
+          "field": "investors",
+          "url": "https://spotmyenergy.de/presse/spot-my-energy-erhaelt-eur-155-millionen-pre-seed-finanzierung-fuer-smart-meter-ausbau/",
+          "quote": "Das junge Energytech-Startup aus Köln erhält EUR 1,55 Mio. in einer Pre-Seed-Finanzierungsrunde, die von Picus Capital angeführt wird."
+        }
+      ]
+    },
+    {
+      "stage": "seed",
+      "month": "2024-12",
+      "amountEur": 10500000,
+      "amountOriginal": 10500000,
+      "currency": "EUR",
+      "investors": [
+        "Norrsken VC",
+        "Vorwerk Ventures",
+        "Picus Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://spotmyenergy.de/presse/seed-finanzierungsrunde/",
+          "quote": "hat sich in einer Seed-Finanzierungsrunde frisches Kapital in Höhe von 10,5 Millionen Euro gesichert."
+        },
+        {
+          "field": "stage",
+          "url": "https://spotmyenergy.de/presse/seed-finanzierungsrunde/",
+          "quote": "hat sich in einer Seed-Finanzierungsrunde frisches Kapital in Höhe von 10,5 Millionen Euro gesichert."
+        },
+        {
+          "field": "month",
+          "url": "https://spotmyenergy.de/presse/seed-finanzierungsrunde/",
+          "quote": "Köln, 11. Dezember 2024"
+        },
+        {
+          "field": "investors",
+          "url": "https://spotmyenergy.de/presse/seed-finanzierungsrunde/",
+          "quote": "Die Runde wird dabei von Norrsken VC, dem Investmentarm der renommierten schwedischen Norrsken-Stiftung, angeführt. Daneben beteiligen sich auch Vorwerk Ventures als neuer Geldgeber sowie der bestehende Investor Picus Capital."
+        }
+      ]
+    }
+  ]
+}

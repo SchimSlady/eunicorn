@@ -1,0 +1,39 @@
+{
+  "id": "octonomy",
+  "name": "octonomy",
+  "aliases": ["Octonomy", "octonomy AI"],
+  "domain": "octonomy.ai",
+  "country": "DE",
+  "city": "Cologne",
+  "founded": 2024,
+  "sectors": ["ai", "saas"],
+  "status": "private",
+  "unicorn": false,
+  "founders": ["Sushel Bijganath", "Oliver Trabert", "Thorsten Grote", "Markus Hanslik", "Thomas Bollig"],
+  "difficulty": 5,
+  "techeuId": "BC665656-992E-4C94-A01C-263ACE0272F2",
+  "sources": [
+    { "field": "city", "url": "https://www.octonomy.ai/ueber-octonomy/", "quote": "Gegründet im Sommer 2024 in Köln von einem sehr erfahrenen Gründerteam" },
+    { "field": "founded", "url": "https://www.octonomy.ai/ueber-octonomy/", "quote": "Gegründet im Sommer 2024 in Köln von einem sehr erfahrenen Gründerteam" },
+    { "field": "founders", "url": "https://www.octonomy.ai/en/octonomy-sucessfull-seed-funding/", "quote": "Founded by Sushel Bijganath (CEO) and Oliver Trabert (CPTO) alongside co-founders Thorsten Grote , Markus Hanslik , and Thomas Bollig" },
+    { "field": "sectors", "url": "https://www.octonomy.ai/en/octonomy-sucessfull-seed-funding/", "quote": "octonomy , the German-founded AI company building agentic systems for complex enterprise support and service workflows" },
+    { "field": "status", "url": "https://www.octonomy.ai/ueber-octonomy/", "quote": "beschäftigt octonomy mittlerweile knapp 120 Mitarbeitende" },
+    { "field": "unicorn", "url": "https://www.octonomy.ai/en/octonomy-sucessfull-seed-funding/", "quote": "today announced the successful completion of a new seed round totaling $US20 million" }
+  ],
+  "rounds": [
+    {
+      "stage": "seed",
+      "month": "2025-11",
+      "amountEur": 17370158,
+      "amountOriginal": 20000000,
+      "currency": "USD",
+      "investors": ["Macquarie Capital Venture Capital", "Capnamic", "NRW.BANK", "TechVision Fund"],
+      "sources": [
+        { "field": "amount", "url": "https://www.octonomy.ai/en/octonomy-sucessfull-seed-funding/", "quote": "today announced the successful completion of a new seed round totaling $US20 million" },
+        { "field": "stage", "url": "https://www.octonomy.ai/en/octonomy-sucessfull-seed-funding/", "quote": "today announced the successful completion of a new seed round totaling $US20 million" },
+        { "field": "month", "url": "https://www.octonomy.ai/en/octonomy-sucessfull-seed-funding/", "quote": "COLOGNE, GERMANY / DENVER, COLORADO, November 3, 2025" },
+        { "field": "investors", "url": "https://www.octonomy.ai/en/octonomy-sucessfull-seed-funding/", "quote": "led by Macquarie Capital Venture Capital, with participation from Capnamic , NRW.Bank , and the TechVision Fund" }
+      ]
+    }
+  ]
+}

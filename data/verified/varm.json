@@ -1,0 +1,128 @@
+{
+  "id": "varm",
+  "name": "VARM",
+  "aliases": [
+    "Varm"
+  ],
+  "domain": "varm.earth",
+  "country": "DE",
+  "city": "Berlin",
+  "founded": 2023,
+  "sectors": [
+    "climate",
+    "proptech"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Christian Grüner",
+    "Sebastian Würz"
+  ],
+  "difficulty": 4,
+  "techeuId": "BAC5E509-D678-46EB-A92C-F1082D6E2E77",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://tech.eu/2024/07/16/varm-raises-5-7m-seed-to-address-skill-gaps-in-building-insulation/",
+      "quote": "Berlin-based home insulation startup VARM has raised €5.7 million in Seed funding."
+    },
+    {
+      "field": "founded",
+      "url": "https://tech.eu/2024/07/16/varm-raises-5-7m-seed-to-address-skill-gaps-in-building-insulation/",
+      "quote": "The company, founded in 2023, focuses on air-gap insulation"
+    },
+    {
+      "field": "founders",
+      "url": "https://tech.eu/2026/06/23/berlins-varm-bags-eur175m-to-scale-insulation-across-europe/",
+      "quote": "The company was founded by Christian Grüner (CEO), a mathematician and former Siemens Advanta executive, and Sebastian Würz (COO)"
+    },
+    {
+      "field": "sectors",
+      "url": "https://tech.eu/2026/06/23/berlins-varm-bags-eur175m-to-scale-insulation-across-europe/",
+      "quote": "Berlin-based climatetech startup VARM has raised €17.5 million in a Series A funding round led by ABN AMRO Sustainable Impact Fund and co-led by GET Fund."
+    },
+    {
+      "field": "status",
+      "url": "https://tech.eu/2026/06/23/berlins-varm-bags-eur175m-to-scale-insulation-across-europe/",
+      "quote": "Berlin-based climatetech startup VARM has raised €17.5 million in a Series A funding round led by ABN AMRO Sustainable Impact Fund and co-led by GET Fund."
+    },
+    {
+      "field": "unicorn",
+      "url": "https://tech.eu/2026/06/23/berlins-varm-bags-eur175m-to-scale-insulation-across-europe/",
+      "quote": "Berlin-based climatetech startup VARM has raised €17.5 million in a Series A funding round led by ABN AMRO Sustainable Impact Fund and co-led by GET Fund."
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "seed",
+      "month": "2024-07",
+      "amountEur": 5700000,
+      "amountOriginal": 5700000,
+      "currency": "EUR",
+      "investors": [
+        "Emerge",
+        "Pale Blue Dot",
+        "noa",
+        "Foundamental"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2024/07/16/varm-raises-5-7m-seed-to-address-skill-gaps-in-building-insulation/",
+          "quote": "Berlin-based home insulation startup VARM has raised €5.7 million in Seed funding."
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2024/07/16/varm-raises-5-7m-seed-to-address-skill-gaps-in-building-insulation/",
+          "quote": "Berlin-based home insulation startup VARM has raised €5.7 million in Seed funding."
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2024/07/16/varm-raises-5-7m-seed-to-address-skill-gaps-in-building-insulation/",
+          "quote": "17 July 2024"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2024/07/16/varm-raises-5-7m-seed-to-address-skill-gaps-in-building-insulation/",
+          "quote": "Pale Blue Dot led the funding with additional support from noa (formerly A/O)"
+        }
+      ]
+    },
+    {
+      "stage": "series-a",
+      "month": "2026-06",
+      "amountEur": 17500000,
+      "amountOriginal": 17500000,
+      "currency": "EUR",
+      "investors": [
+        "ABN AMRO Sustainable Impact Fund",
+        "GET Fund",
+        "Aurum Impact",
+        "Emerge",
+        "Pale Blue Dot"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2026/06/23/berlins-varm-bags-eur175m-to-scale-insulation-across-europe/",
+          "quote": "Berlin-based climatetech startup VARM has raised €17.5 million in a Series A funding round led by ABN AMRO Sustainable Impact Fund and co-led by GET Fund."
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2026/06/23/berlins-varm-bags-eur175m-to-scale-insulation-across-europe/",
+          "quote": "Berlin-based climatetech startup VARM has raised €17.5 million in a Series A funding round led by ABN AMRO Sustainable Impact Fund and co-led by GET Fund."
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2026/06/23/berlins-varm-bags-eur175m-to-scale-insulation-across-europe/",
+          "quote": "23 June 2026"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2026/06/23/berlins-varm-bags-eur175m-to-scale-insulation-across-europe/",
+          "quote": "The round also included participation from Aurum Impact, alongside existing investors Emerge Partners and Pale Blue Dot."
+        }
+      ]
+    }
+  ]
+}

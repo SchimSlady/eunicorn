@@ -1,0 +1,90 @@
+{
+  "id": "hallo-theo",
+  "name": "Hallo Theo",
+  "aliases": [
+    "Theo",
+    "hallo theo",
+    "Dao"
+  ],
+  "domain": "hallotheo.de",
+  "country": "DE",
+  "city": "Berlin",
+  "founded": 2023,
+  "sectors": [
+    "proptech",
+    "ai"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Jona Schaeffer"
+  ],
+  "difficulty": 5,
+  "techeuId": "1A1DF8DF-4B7A-4E5A-BEF1-57387768E65E",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.insightpartners.com/ideas/berlin-based-hallo-theo-announces-e10-million-seed-round-from-insight-partners-to-transform-germanys-property-management-sector/",
+      "quote": "Berlin-based hallo theo announces €10 million seed round from Insight Partners"
+    },
+    {
+      "field": "founded",
+      "url": "https://invest-in.berlin/n/berlins-theo-bags-eur25m-to-run-real-estate-on-ai/",
+      "quote": "That brings Theo's total funding to €36 million since the company was founded in 2023."
+    },
+    {
+      "field": "founders",
+      "url": "https://www.insightpartners.com/ideas/berlin-based-hallo-theo-announces-e10-million-seed-round-from-insight-partners-to-transform-germanys-property-management-sector/",
+      "quote": "said Jona Schaeffer , Founder & CEO of hallo theo"
+    },
+    {
+      "field": "sectors",
+      "url": "https://invest-in.berlin/n/berlins-theo-bags-eur25m-to-run-real-estate-on-ai/",
+      "quote": "Theo's AI platform Prosa handles everything from maintenance to bookkeeping"
+    },
+    {
+      "field": "status",
+      "url": "https://invest-in.berlin/n/berlins-theo-bags-eur25m-to-run-real-estate-on-ai/",
+      "quote": "Berlin-based startup Theo has just closed a €25 million Series A round"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://invest-in.berlin/n/berlins-theo-bags-eur25m-to-run-real-estate-on-ai/",
+      "quote": "Berlin-based startup Theo has just closed a €25 million Series A round"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "seed",
+      "month": "2025-02",
+      "amountEur": 10000000,
+      "amountOriginal": 10000000.0,
+      "currency": "EUR",
+      "investors": [
+        "Insight Partners"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.insightpartners.com/ideas/berlin-based-hallo-theo-announces-e10-million-seed-round-from-insight-partners-to-transform-germanys-property-management-sector/",
+          "quote": "today announced the successful raise of a €10 million seed investment by global software investor Insight Partners"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.insightpartners.com/ideas/berlin-based-hallo-theo-announces-e10-million-seed-round-from-insight-partners-to-transform-germanys-property-management-sector/",
+          "quote": "today announced the successful raise of a €10 million seed investment by global software investor Insight Partners"
+        },
+        {
+          "field": "month",
+          "url": "https://www.insightpartners.com/ideas/berlin-based-hallo-theo-announces-e10-million-seed-round-from-insight-partners-to-transform-germanys-property-management-sector/",
+          "quote": "February 03, 2025"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.insightpartners.com/ideas/berlin-based-hallo-theo-announces-e10-million-seed-round-from-insight-partners-to-transform-germanys-property-management-sector/",
+          "quote": "today announced the successful raise of a €10 million seed investment by global software investor Insight Partners"
+        }
+      ]
+    }
+  ]
+}
