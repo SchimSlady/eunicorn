@@ -1,14 +1,14 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
-import { Check, X } from "lucide-react";
 import type { Company, Dataset, GridCriterion, UnicornGridPuzzle } from "@eunicorn/schema";
 import { indexById, loadGame } from "@/lib/data";
 import { getTodayResult, loadProgress, saveProgress, saveResult } from "@/lib/daily";
 import { hintLimit, saveDifficulty, type Difficulty } from "@/lib/difficulty";
 import { shareText as buildShareText } from "@/lib/scoring";
 import { CompanyLogo } from "@/components/CompanyLogo";
-import { distinctAnswers, investorIndex, meetsCriterion } from "@/lib/grid";
+import { distinctAnswers, gridMissReason, investorIndex } from "@/lib/grid";
+import { MissToast, type MissIcon } from "@/components/MissToast";
 import { nudgeClass } from "@/lib/nudge";
 import { companyFact, strengthOf } from "@/lib/hints";
 import { RevealButton } from "@/components/RevealButton";
@@ -126,7 +126,11 @@ export function UnicornGridGame() {
   const [pending, setPending] = useState<{ company: Company; cells: number[] } | null>(null);
   // The last guess that fit no open square: which headings it meets (✓ / ✗ on the board), and the
   // filled square it would have fit, if any.
-  const [miss, setMiss] = useState<{ name: string; n: number; rows: boolean[]; cols: boolean[]; taken?: number } | null>(null);
+  const [miss, setMiss] = useState<{ id: string; n: number; icon: MissIcon; text: string } | null>(null);
+  // Whether that guess's toast is still up (it goes after a moment; the reason stays in the search).
+  const [toast, setToast] = useState(false);
+  // Wrong guesses this visit: they stay in the search, greyed out (they can't fit later either: squares only fill up).
+  const [tried, setTried] = useState<Map<string, string>>(new Map());
 
   useEffect(() => {
     loadGame<Puzzle>(MODE).then(({ puzzle: p, data: d }) => {
@@ -197,29 +201,17 @@ export function UnicornGridGame() {
       return;
     }
     update({ ...progress!, wrong: progress!.wrong + 1 });
-    const taken = [0, 1, 2, 3, 4, 5, 6, 7, 8].find((cell) => progress!.cells[cell] && puzzle.validAnswers[cell].includes(c.id));
-    setMiss({
-      name: c.name,
-      n: (miss?.n ?? 0) + 1,
-      rows: puzzle.rows.map((k) => meetsCriterion(c, k, investorsOf)),
-      cols: puzzle.cols.map((k) => meetsCriterion(c, k, investorsOf)),
-      taken,
-    });
+    showMiss(c);
   }
 
-  /** A heading after a wrong guess: a ✓ or ✗ in the corner, green or red ring, so the player sees why it missed. */
-  const mark = (meets: boolean | undefined) =>
-    meets === undefined ? null : (
-      <span
-        aria-hidden
-        className={`absolute -right-1.5 -top-1.5 flex h-6 w-6 animate-pop items-center justify-center rounded-full border-2 border-background ${
-          meets ? "bg-correct" : "bg-wrong"
-        } text-white`}
-      >
-        {meets ? <Check size={13} strokeWidth={3} /> : <X size={13} strokeWidth={3} />}
-      </span>
-    );
-  const markRing = (meets: boolean | undefined) => (meets === undefined ? "" : meets ? "ring-2 ring-correct" : "ring-2 ring-wrong opacity-70");
+  /** Why a wrong guess missed, as a toast over the board (again, when the player picks a tried one from the search). */
+  function showMiss(c: Company) {
+    const taken = [0, 1, 2, 3, 4, 5, 6, 7, 8].find((cell) => progress!.cells[cell] && puzzle.validAnswers[cell].includes(c.id));
+    const reason = gridMissReason(c, puzzle.rows, puzzle.cols, investorsOf, taken !== undefined ? squareName(taken) : undefined);
+    setTried((t) => new Map(t).set(c.id, reason.text));
+    setMiss({ id: c.id, n: (miss?.n ?? 0) + 1, ...reason });
+    setToast(true);
+  }
 
   // Answers shown in squares the player left empty: the best-known valid ones such that, like
   // for the player, every company appears only once on the board.
@@ -273,9 +265,7 @@ export function UnicornGridGame() {
           pending
             ? `Tap a highlighted square for ${pending.company.name}.`
             : miss
-              ? miss.taken !== undefined
-                ? `${miss.name} fits ${squareName(miss.taken)}, but that square is taken.`
-                : `${miss.name} doesn't fit any open square. It meets ${[...puzzle.rows.filter((_, i) => miss.rows[i]), ...puzzle.cols.filter((_, i) => miss.cols[i])].map((k) => strip(k.label)).join(", ") || "none of the headings"}.`
+              ? `${companies.get(miss.id)?.name} doesn't fit. ${miss.text}.`
               : `${used.size} of 9 squares filled.`
         }
       />
@@ -283,16 +273,14 @@ export function UnicornGridGame() {
       <div className="grid grid-cols-4 gap-1.5">
         <div aria-hidden />
         {puzzle.cols.map((c, i) => (
-          <div key={i} className={`relative flex aspect-square items-center justify-center rounded-2xl bg-eu-blue p-1 text-white transition ${markRing(miss?.cols[i])}`}>
+          <div key={i} className="flex aspect-square items-center justify-center rounded-2xl bg-eu-blue p-1 text-white">
             <CriterionLabel c={c} logo={c.kind === "investor" ? investorLogos.get(c.value) : undefined} />
-            {mark(miss?.cols[i])}
           </div>
         ))}
         {puzzle.rows.map((r, ri) => (
           <div key={ri} className="contents">
-            <div className={`relative flex aspect-square items-center justify-center rounded-2xl bg-eu-blue p-1 text-white transition ${markRing(miss?.rows[ri])}`}>
+            <div className="flex aspect-square items-center justify-center rounded-2xl bg-eu-blue p-1 text-white">
               <CriterionLabel c={r} logo={r.kind === "investor" ? investorLogos.get(r.value) : undefined} />
-              {mark(miss?.rows[ri])}
             </div>
             {[0, 1, 2].map((ci) => {
               const cell = ri * 3 + ci;
@@ -309,7 +297,7 @@ export function UnicornGridGame() {
                   aria-label={c ? c.name : candidate ? `Put ${pending!.company.name} in ${squareName(cell)}` : squareName(cell)}
                   className={`relative flex aspect-square flex-col items-stretch justify-center gap-1 rounded-2xl border-2 p-1 transition ${
                     c
-                      ? `animate-pop border-correct bg-correct/10 ${miss?.taken === cell ? "ring-2 ring-primary ring-offset-2 ring-offset-background" : ""}`
+                      ? "animate-pop border-correct bg-correct/10"
                       : candidate
                         ? "border-primary bg-primary/15"
                         : shown
@@ -350,23 +338,12 @@ export function UnicornGridGame() {
             </div>
           ) : (
             <>
-              {miss && (
-                <p className="flex flex-wrap items-center justify-center gap-x-1.5 text-center text-sm font-semibold text-wrong">
-                  <X size={16} aria-hidden />
-                  {miss.taken !== undefined ? (
-                    <span>
-                      {miss.name} fits <span className="text-foreground">{squareName(miss.taken)}</span>, but that square is taken
-                    </span>
-                  ) : (
-                    <span>
-                      {miss.name} doesn&apos;t fit any open square <span className="font-normal text-muted">· ✓ and ✗ on the headings</span>
-                    </span>
-                  )}
-                </p>
-              )}
-              <div className="flex items-start gap-2">
+              <div className="relative flex items-start gap-2">
+                {miss && toast && companies.get(miss.id) && (
+                  <MissToast key={`${miss.id}-${miss.n}`} company={companies.get(miss.id)!} icon={miss.icon} text={miss.text} onDone={() => setToast(false)} />
+                )}
                 <div className={`min-w-0 flex-1 rounded-2xl ${nudgeClass(miss?.n)}`}>
-                  <CompanySearch companies={data.companies} exclude={used} onPick={pick} />
+                  <CompanySearch companies={data.companies} exclude={used} tried={tried} onTried={showMiss} onPick={pick} onType={() => setToast(false)} />
                 </div>
                 <Hints
                   compact
