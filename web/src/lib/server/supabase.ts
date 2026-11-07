@@ -1,7 +1,7 @@
 import type { AnyPuzzle, PlayMode } from "@/lib/top10";
 import "server-only";
 import { fetchAll } from "./paged";
-import type { Company, Dataset, Program, Puzzle, Round } from "@eunicorn/schema";
+import type { Company, Dataset, ExitKind, Program, Puzzle, Round } from "@eunicorn/schema";
 import { USD_TO_EUR } from "@/lib/format";
 import { generatePuzzle } from "./generate";
 import { monthIndex, type HLCompany } from "@/lib/higherLower";
@@ -68,8 +68,17 @@ interface CompanyRow {
   careers_url: string | null;
   fun_fact: string | null;
   difficulty: Company["difficulty"];
+  // How the startup story ended (migration 20261107150000_company_exits); absent before it is applied.
+  exit_kind?: ExitKind | null;
+  exit_month?: string | null;
+  exit_acquirer?: string | null;
   company_founders: { person_id: string }[];
 }
+
+const exitOf = (c: CompanyRow): Company["exit"] =>
+  c.exit_kind && c.exit_month
+    ? { kind: c.exit_kind, month: c.exit_month, acquirer: c.exit_acquirer ?? undefined }
+    : undefined;
 
 interface RoundRow {
   id: string;
@@ -158,6 +167,7 @@ export async function getDataset(): Promise<(Omit<Dataset, "rounds"> & { rounds:
         biggestRoundUsd: biggest.get(c.id) ? eurAsUsd(biggest.get(c.id)) : undefined,
         lastRoundMonth: latest.get(c.id),
         programs: programsOf.get(c.id),
+        exit: exitOf(c),
         employees: c.employees ?? undefined,
         careersUrl: c.careers_url ?? undefined,
         funFact: c.fun_fact ?? undefined,
