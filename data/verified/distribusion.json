@@ -1,0 +1,141 @@
+{
+  "id": "distribusion",
+  "name": "Distribusion",
+  "aliases": [
+    "Distribusion Technologies"
+  ],
+  "domain": "distribusion.com",
+  "country": "DE",
+  "city": "Berlin",
+  "founded": 2014,
+  "sectors": [
+    "travel",
+    "mobility"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [],
+  "difficulty": 4,
+  "techeuId": "A9E393DE-6098-4C90-821F-6A05C537AFC7",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://techcrunch.com/2016/03/17/distribusion-the-startup-that-makes-it-easy-to-sell-intercity-bus-tickets-picks-up-e6-million-funding/",
+      "quote": "Distribusion , the Berlin-based startup that’s built a platform to make it easy for travel companies and travel search engines to sell ‘intercity’ bus tickets, has picked up €6 million in funding."
+    },
+    {
+      "field": "founded",
+      "url": "https://www.startbase.com/news/distribusion-schliesst-finanzierungsrunde-ab",
+      "quote": "Distribusion was founded in 2014 and is a travel tech platform that offers access to various transportation options."
+    },
+    {
+      "field": "sectors",
+      "url": "https://tech.eu/2024/09/26/berlin-based-distribusion-secures-80m-for-global-ground-transport-accessibility/",
+      "quote": "Distribusion connects thousands of bus, rail, ferry and public transport providers worldwide to a global network of travel retailers"
+    },
+    {
+      "field": "status",
+      "url": "https://tech.eu/2024/09/26/berlin-based-distribusion-secures-80m-for-global-ground-transport-accessibility/",
+      "quote": "Distribusion operates globally with a presence in 70 markets, with the majority now outside Europe."
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-a",
+      "month": "2016-03",
+      "amountEur": 6000000,
+      "amountOriginal": 6000000,
+      "currency": "EUR",
+      "investors": [
+        "Northzone",
+        "Creandum",
+        "HR Ventures",
+        "Frühphasenfonds Brandenburg"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2016/03/17/distribusion-the-startup-that-makes-it-easy-to-sell-intercity-bus-tickets-picks-up-e6-million-funding/",
+          "quote": "Distribusion , the Berlin-based startup that’s built a platform to make it easy for travel companies and travel search engines to sell ‘intercity’ bus tickets, has picked up €6 million in funding."
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2016/03/17/distribusion-the-startup-that-makes-it-easy-to-sell-intercity-bus-tickets-picks-up-e6-million-funding/",
+          "quote": "March 17, 2016"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2016/03/17/distribusion-the-startup-that-makes-it-easy-to-sell-intercity-bus-tickets-picks-up-e6-million-funding/",
+          "quote": "Backing comes from Northzone, Creandum, and HR Ventures. Existing seed investor Frühphasenfonds Brandenburg"
+        }
+      ]
+    },
+    {
+      "stage": "series-b",
+      "month": "2022-06",
+      "amountEur": 30000000,
+      "amountOriginal": 30000000,
+      "currency": "EUR",
+      "investors": [
+        "Lightrock",
+        "Creandum",
+        "Northzone"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techfundingnews.com/this-berlin-startup-lands-e30m-for-offering-scheduled-transport-to-be-easily-booked-online/",
+          "quote": "has today announced securing funding of €30M. Now its Series B, the round was led by Lightrock, winged by Creandum and Northzone."
+        },
+        {
+          "field": "stage",
+          "url": "https://techfundingnews.com/this-berlin-startup-lands-e30m-for-offering-scheduled-transport-to-be-easily-booked-online/",
+          "quote": "has today announced securing funding of €30M. Now its Series B, the round was led by Lightrock, winged by Creandum and Northzone."
+        },
+        {
+          "field": "month",
+          "url": "https://techfundingnews.com/this-berlin-startup-lands-e30m-for-offering-scheduled-transport-to-be-easily-booked-online/",
+          "quote": "by Karia Elias June 14, 2022"
+        },
+        {
+          "field": "investors",
+          "url": "https://techfundingnews.com/this-berlin-startup-lands-e30m-for-offering-scheduled-transport-to-be-easily-booked-online/",
+          "quote": "has today announced securing funding of €30M. Now its Series B, the round was led by Lightrock, winged by Creandum and Northzone."
+        }
+      ]
+    },
+    {
+      "stage": "series-c",
+      "month": "2024-09",
+      "amountEur": 71716719,
+      "amountOriginal": 80000000,
+      "currency": "USD",
+      "investors": [
+        "TQ Ventures",
+        "Lightrock"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2024/09/26/berlin-based-distribusion-secures-80m-for-global-ground-transport-accessibility/",
+          "quote": "has raised a heavily oversubscribed $80 million Series C funding round led by TQ Ventures , with super pro-rata participation from existing investor Lightrock ."
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2024/09/26/berlin-based-distribusion-secures-80m-for-global-ground-transport-accessibility/",
+          "quote": "has raised a heavily oversubscribed $80 million Series C funding round led by TQ Ventures , with super pro-rata participation from existing investor Lightrock ."
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2024/09/26/berlin-based-distribusion-secures-80m-for-global-ground-transport-accessibility/",
+          "quote": "Cate Lawrence 26 September 2024"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2024/09/26/berlin-based-distribusion-secures-80m-for-global-ground-transport-accessibility/",
+          "quote": "has raised a heavily oversubscribed $80 million Series C funding round led by TQ Ventures , with super pro-rata participation from existing investor Lightrock ."
+        }
+      ]
+    }
+  ]
+}

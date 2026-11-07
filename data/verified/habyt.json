@@ -1,0 +1,129 @@
+{
+  "id": "habyt",
+  "name": "Habyt",
+  "aliases": [
+    "HABYT"
+  ],
+  "domain": "habyt.com",
+  "country": "DE",
+  "city": "Berlin",
+  "founded": 2017,
+  "sectors": [
+    "proptech",
+    "consumer"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Luca Bovone"
+  ],
+  "difficulty": 4,
+  "techeuId": "7D6F2DB4-6A20-492C-8189-1DE5421301D6",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://techcrunch.com/2023/10/04/habyt-42-million/",
+      "quote": "A startup from Berlin called Habyt wants to do the same for people looking to stay in cities for a little longer"
+    },
+    {
+      "field": "founded",
+      "url": "https://techcrunch.com/2021/06/16/co-living-startup-habyt-closes-24m-series-b-merges-with-homefully/",
+      "quote": "Founded in 2017 by Luca Bovone, Habyt will now have over 5,000 units across 15 cities and six countries."
+    },
+    {
+      "field": "founders",
+      "url": "https://techcrunch.com/2021/06/16/co-living-startup-habyt-closes-24m-series-b-merges-with-homefully/",
+      "quote": "Founded in 2017 by Luca Bovone, Habyt will now have over 5,000 units across 15 cities and six countries."
+    },
+    {
+      "field": "sectors",
+      "url": "https://techcrunch.com/2021/06/16/co-living-startup-habyt-closes-24m-series-b-merges-with-homefully/",
+      "quote": "Co-living startup Habyt closes $24M Series B, merges with Homefully"
+    },
+    {
+      "field": "status",
+      "url": "https://habyt.com/press",
+      "quote": "Habyt Launches Leaze, a New Asset-Light Brand for the Next Generation of Co-Living"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-b",
+      "month": "2021-06",
+      "amountEur": 20000000,
+      "amountOriginal": 20000000,
+      "currency": "EUR",
+      "investors": [
+        "HV Capital",
+        "Vorwerk Ventures",
+        "P101",
+        "Picus Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2021/06/16/co-living-startup-habyt-closes-24m-series-b-merges-with-homefully/",
+          "quote": "It’s now closed a series B round of €20 million ($24 million)"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2021/06/16/co-living-startup-habyt-closes-24m-series-b-merges-with-homefully/",
+          "quote": "It’s now closed a series B round of €20 million ($24 million)"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2021/06/16/co-living-startup-habyt-closes-24m-series-b-merges-with-homefully/",
+          "quote": "June 16, 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2021/06/16/co-living-startup-habyt-closes-24m-series-b-merges-with-homefully/",
+          "quote": "The round was backed by HV Capital (formerly Holtzbrink Ventures), Vorwerk Ventures, P101 and Picus Capital."
+        }
+      ]
+    },
+    {
+      "stage": "series-c",
+      "month": "2023-10",
+      "amountEur": 40000000,
+      "amountOriginal": 40000000,
+      "currency": "EUR",
+      "investors": [
+        "Korelya Capital",
+        "Deutsche Invest",
+        "Exor Ventures",
+        "Endeavor Catalyst",
+        "P101",
+        "ITALIA500-Azimut",
+        "HV Capital",
+        "Vorwerk Ventures",
+        "Norwest",
+        "Kinnevik",
+        "Burda Principal Investments",
+        "Inveready"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2023/10/04/habyt-42-million/",
+          "quote": "Today, Habyt is announcing a Series C of €40 million ($42 million) to fuel those ambitions."
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2023/10/04/habyt-42-million/",
+          "quote": "Today, Habyt is announcing a Series C of €40 million ($42 million) to fuel those ambitions."
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2023/10/04/habyt-42-million/",
+          "quote": "October 4, 2023"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2023/10/04/habyt-42-million/",
+          "quote": "Korelya Capital and Deutsche Invest co-led the round; other new investors Exor Ventures, Endeavor Catalyst, as well as previous backers P101, ITALIA500-Azimut, HV Capital, Vorwerk Ventures, Norwest, Kinnevik, Burda Principal Investments and Inveready also participated."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "id": "focused-energy",
+  "name": "Focused Energy",
+  "aliases": [],
+  "domain": "focused-energy.co",
+  "country": "DE",
+  "city": "Darmstadt",
+  "founded": 2021,
+  "sectors": [
+    "climate"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Thomas Forner",
+    "Markus Roth"
+  ],
+  "difficulty": 4,
+  "techeuId": "6A974C55-EDBE-4A48-BDA5-4BDAE4045345",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.tu-darmstadt.de/universitaet/aktuelles_meldungen/einzelansicht_540480.de.jsp",
+      "quote": "Focused Energy ist ein 2021 aus der TU Darmstadt ausgegründetes deutsch-amerikanisches Unternehmen, das in Darmstadt das Potenzial der Fusionsenergie erforscht und erprobt."
+    },
+    {
+      "field": "founded",
+      "url": "https://www.tu-darmstadt.de/universitaet/aktuelles_meldungen/einzelansicht_540480.de.jsp",
+      "quote": "Focused Energy ist ein 2021 aus der TU Darmstadt ausgegründetes deutsch-amerikanisches Unternehmen, das in Darmstadt das Potenzial der Fusionsenergie erforscht und erprobt."
+    },
+    {
+      "field": "founded",
+      "url": "https://www.focused-energy.co/news-release/focused-energy-sets-a-new-benchmark-240-million-for-the-largest-series-a-financing-in-the-global-fusion-industry",
+      "quote": "Founded in 2021 as a spin-off of Technical University Darmstadt"
+    },
+    {
+      "field": "founders",
+      "url": "https://www.focused-energy.co/news-release/focused-energy-sets-a-new-benchmark-240-million-for-the-largest-series-a-financing-in-the-global-fusion-industry",
+      "quote": "explains Thomas Forner, co-founder and CEO of Focused Energy"
+    },
+    {
+      "field": "founders",
+      "url": "https://www.focused-energy.co/news-release/focused-energy-sets-a-new-benchmark-240-million-for-the-largest-series-a-financing-in-the-global-fusion-industry",
+      "quote": "Prof. Markus Roth, co-founder and CSO of Focused Energy"
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.focused-energy.co/news-release/focused-energy-sets-a-new-benchmark-240-million-for-the-largest-series-a-financing-in-the-global-fusion-industry",
+      "quote": "Focused Energy, the world's leading laser fusion company, has raised $240 million in a Series A financing round"
+    },
+    {
+      "field": "status",
+      "url": "https://www.focused-energy.co/news-release/focused-energy-sets-a-new-benchmark-240-million-for-the-largest-series-a-financing-in-the-global-fusion-industry",
+      "quote": "Focused Energy, the world's leading laser fusion company, has raised $240 million in a Series A financing round"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-a",
+      "month": "2026-05",
+      "amountEur": 206238721,
+      "amountOriginal": 240000000,
+      "currency": "USD",
+      "investors": [
+        "RWE",
+        "SPRIND",
+        "European Innovation Council Fund",
+        "Prime Movers Lab",
+        "Lowercarbon Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.focused-energy.co/news-release/focused-energy-sets-a-new-benchmark-240-million-for-the-largest-series-a-financing-in-the-global-fusion-industry",
+          "quote": "has raised $240 million in a Series A financing round"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.focused-energy.co/news-release/focused-energy-sets-a-new-benchmark-240-million-for-the-largest-series-a-financing-in-the-global-fusion-industry",
+          "quote": "has raised $240 million in a Series A financing round"
+        },
+        {
+          "field": "month",
+          "url": "https://www.focused-energy.co/news-release/focused-energy-sets-a-new-benchmark-240-million-for-the-largest-series-a-financing-in-the-global-fusion-industry",
+          "quote": "Darmstadt (GER), May 27, 2026"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.focused-energy.co/news-release/focused-energy-sets-a-new-benchmark-240-million-for-the-largest-series-a-financing-in-the-global-fusion-industry",
+          "quote": "In addition to RWE, the investors include the Federal Agency for Breakthrough Innovation SPRIND, the European Innovation Council Fund, and the previous lead investor, Prime Movers Lab."
+        },
+        {
+          "field": "investors",
+          "url": "https://www.focused-energy.co/news-release/lowercarbon-capital-joins-focused-energys-series-a----the-largest-fully-secured-series-a-in-global-fusion",
+          "quote": "announces the participation of Lowercarbon Capital in its Series A financing round"
+        }
+      ]
+    }
+  ]
+}

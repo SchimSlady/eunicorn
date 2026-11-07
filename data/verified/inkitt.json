@@ -1,0 +1,202 @@
+{
+  "id": "inkitt",
+  "name": "Inkitt",
+  "aliases": [
+    "Galatea"
+  ],
+  "domain": "inkitt.com",
+  "country": "DE",
+  "city": "Berlin",
+  "founded": 2014,
+  "sectors": [
+    "consumer",
+    "ai"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Ali Albazaz"
+  ],
+  "difficulty": 4,
+  "techeuId": "CBC2B2EB-910B-4A28-9472-D4547AB0CEA1",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://techcrunch.com/2024/02/26/inkitt-ai-publishing-37-million/",
+      "quote": "Inkitt, founded in Berlin and now based in San Francisco, is focused on fiction"
+    },
+    {
+      "field": "founded",
+      "url": "https://www.startbase.com/organization/inkitt/",
+      "quote": "Founding Year: 2014"
+    },
+    {
+      "field": "founders",
+      "url": "https://techcrunch.com/2017/09/25/inkitt/",
+      "quote": "Inkitt founder Ali Albazaz tells me"
+    },
+    {
+      "field": "sectors",
+      "url": "https://techcrunch.com/2024/02/26/inkitt-ai-publishing-37-million/",
+      "quote": "Inkitt, the self-publishing platform using AI to develop bestsellers, nabs $37M"
+    },
+    {
+      "field": "status",
+      "url": "https://www.startbase.com/organization/inkitt/",
+      "quote": "Digital-Verlag Inkitt wächst rasant auf 35,5 Millionen Umsatz"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "seed",
+      "month": "2017-09",
+      "amountEur": 3286425,
+      "amountOriginal": 3900000,
+      "currency": "USD",
+      "investors": [
+        "Redalpine",
+        "Frontline Ventures",
+        "Speedinvest"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2017/09/25/inkitt/",
+          "quote": "has raised $3.9 million in pre-series A funding, in a round led by Redalpine, with Frontline Ventures, Speedinvest and a number of private investors also participating"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2024/02/26/inkitt-ai-publishing-37-million/",
+          "quote": "other rounds included a $3.9 million seed ; a $16 million Series A and a $59 million Series B"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2017/09/25/inkitt/",
+          "quote": "September 25, 2017"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2017/09/25/inkitt/",
+          "quote": "has raised $3.9 million in pre-series A funding, in a round led by Redalpine, with Frontline Ventures, Speedinvest and a number of private investors also participating"
+        }
+      ]
+    },
+    {
+      "stage": "series-a",
+      "month": "2019-08",
+      "amountEur": 14436524,
+      "amountOriginal": 16000000,
+      "currency": "USD",
+      "investors": [
+        "Kleiner Perkins",
+        "HV Holtzbrinck Ventures",
+        "Itai Tsiddon",
+        "Xploration Capital",
+        "Redalpine",
+        "Speedinvest",
+        "Earlybird"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2019/08/28/inkitt-raises-16m-led-by-kleiner-perkins-to-publish-crowdsourced-novels-in-mini-episodes/",
+          "quote": "Inkitt raises $16M led by Kleiner Perkins to publish crowdsourced novels"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2019/08/28/inkitt-raises-16m-led-by-kleiner-perkins-to-publish-crowdsourced-novels-in-mini-episodes/",
+          "quote": "The Series A is being led by Kleiner Perkins, with participation also from HV Holtzbrinck Ventures, angel investor Itai Tsiddon, Xploration Capital, Redalpine Capital, Speedinvest, and Earlybird."
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2019/08/28/inkitt-raises-16m-led-by-kleiner-perkins-to-publish-crowdsourced-novels-in-mini-episodes/",
+          "quote": "August 28, 2019"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2019/08/28/inkitt-raises-16m-led-by-kleiner-perkins-to-publish-crowdsourced-novels-in-mini-episodes/",
+          "quote": "The Series A is being led by Kleiner Perkins, with participation also from HV Holtzbrinck Ventures, angel investor Itai Tsiddon, Xploration Capital, Redalpine Capital, Speedinvest, and Earlybird."
+        }
+      ]
+    },
+    {
+      "stage": "series-b",
+      "month": "2021-10",
+      "amountEur": 50704710,
+      "amountOriginal": 59000000,
+      "currency": "USD",
+      "investors": [
+        "NEA",
+        "Axel Springer",
+        "Michael Lynton",
+        "Stefan von Holtzbrinck",
+        "Kleiner Perkins",
+        "HV Capital",
+        "Redalpine",
+        "Speedinvest"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2021/10/04/inkitt-inks-a-59m-investment-wants-to-turn-its-data-driven-self-publishing-platform-into-a-multi-media-powerhouse/",
+          "quote": "has raised $59 million in funding that could help it capitalize on this moment"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2021/10/04/inkitt-inks-a-59m-investment-wants-to-turn-its-data-driven-self-publishing-platform-into-a-multi-media-powerhouse/",
+          "quote": "Valuation with the Series B is not being disclosed"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2021/10/04/inkitt-inks-a-59m-investment-wants-to-turn-its-data-driven-self-publishing-platform-into-a-multi-media-powerhouse/",
+          "quote": "October 4, 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2021/10/04/inkitt-inks-a-59m-investment-wants-to-turn-its-data-driven-self-publishing-platform-into-a-multi-media-powerhouse/",
+          "quote": "Scott Sandell, managing general partner of NEA, co-led the investment with German publishing giant Axel Springer."
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2021/10/04/inkitt-inks-a-59m-investment-wants-to-turn-its-data-driven-self-publishing-platform-into-a-multi-media-powerhouse/",
+          "quote": "also participated, alongside Kleiner Perkins, HV Capital, Redalpine and Speedinvest."
+        }
+      ]
+    },
+    {
+      "stage": "series-c",
+      "month": "2024-02",
+      "amountEur": 34095098,
+      "amountOriginal": 37000000,
+      "currency": "USD",
+      "investors": [
+        "Khosla Ventures",
+        "NEA",
+        "Kleiner Perkins",
+        "Redalpine"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2024/02/26/inkitt-ai-publishing-37-million/",
+          "quote": "The $37 million Series C is being led by Vinod Khosla of Khosla Ventures."
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2024/02/26/inkitt-ai-publishing-37-million/",
+          "quote": "The $37 million Series C is being led by Vinod Khosla of Khosla Ventures."
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2024/02/26/inkitt-ai-publishing-37-million/",
+          "quote": "February 26, 2024"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2024/02/26/inkitt-ai-publishing-37-million/",
+          "quote": "Previous backers NEA, Kleiner Perkins and Redalpine, along with other undisclosed investors, also participated."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "id": "ottonova",
+  "name": "ottonova",
+  "aliases": [
+    "Ottonova"
+  ],
+  "domain": "ottonova.de",
+  "country": "DE",
+  "city": "Munich",
+  "founded": 2015,
+  "sectors": [
+    "fintech",
+    "health"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Roman Rittweger",
+    "Sebastian Scheerer"
+  ],
+  "difficulty": 3,
+  "techeuId": "83B029DD-DC67-47E7-BCFF-1E49626F16E3",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.startbase.com/news/40-millionen-euro-fuer-insurtech-ottonova/",
+      "quote": "Ottonova wurde 2015 in München gegründet."
+    },
+    {
+      "field": "founded",
+      "url": "https://www.ottonova.de/unternehmen/ueber-uns",
+      "quote": "01.12.2015 ottonova wird gegründet"
+    },
+    {
+      "field": "founders",
+      "url": "https://www.ottonova.de/unternehmen/ueber-uns",
+      "quote": "Dr. Roman Rittweger Gründer"
+    },
+    {
+      "field": "founders",
+      "url": "https://www.ottonova.de/unternehmen/ueber-uns",
+      "quote": "Sebastian Scheerer Gründer & Leiter Design"
+    },
+    {
+      "field": "sectors",
+      "url": "https://tech.eu/2017/03/27/ottonova-raises-funding/",
+      "quote": "Ottonova, Germany's first online insurance provider"
+    },
+    {
+      "field": "status",
+      "url": "https://www.ottonova.de/unternehmen/ueber-uns",
+      "quote": "Wir sind ein vollständig regulierter deutscher Krankenversicherer mit BaFin-Lizenz."
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-b",
+      "month": "2017-03",
+      "amountEur": 15000000,
+      "amountOriginal": 15000000,
+      "currency": "EUR",
+      "investors": [
+        "Holtzbrinck Ventures",
+        "Vorwerk Ventures",
+        "Tengelmann Ventures",
+        "b-to-v",
+        "STS Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2017/03/27/ottonova-raises-funding/",
+          "quote": "has received an investment of €15 million from Holtzbrinck Ventures, Vorwerk Ventures, Tengelmann Ventures, b-to-v and STS Ventures"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2017/03/27/ottonova-raises-funding/",
+          "quote": "27 March 2017"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2017/03/27/ottonova-raises-funding/",
+          "quote": "has received an investment of €15 million from Holtzbrinck Ventures, Vorwerk Ventures, Tengelmann Ventures, b-to-v and STS Ventures"
+        }
+      ]
+    },
+    {
+      "stage": "series-c",
+      "month": "2017-06",
+      "amountEur": 10000000,
+      "amountOriginal": 10000000,
+      "currency": "EUR",
+      "investors": [
+        "Debeka"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2017/06/20/ottonova-raises-funds/",
+          "quote": "Munich-based insurtech startup Ottonova has raised €10 million from Debeka"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2017/06/20/ottonova-raises-funds/",
+          "quote": "20 June 2017"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2017/06/20/ottonova-raises-funds/",
+          "quote": "Munich-based insurtech startup Ottonova has raised €10 million from Debeka"
+        }
+      ]
+    },
+    {
+      "stage": "series-d",
+      "month": "2019-11",
+      "amountEur": 60000000,
+      "amountOriginal": 60000000,
+      "currency": "EUR",
+      "investors": [],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.ottonova.de/unternehmen/presse",
+          "quote": "25.11.2019 ottonova schließt First Closing in Höhe von 60 Millionen Euro ab"
+        },
+        {
+          "field": "month",
+          "url": "https://www.ottonova.de/unternehmen/presse",
+          "quote": "25.11.2019 ottonova schließt First Closing in Höhe von 60 Millionen Euro ab"
+        }
+      ]
+    },
+    {
+      "stage": "series-f+",
+      "month": "2022-09",
+      "amountEur": 34000000,
+      "amountOriginal": 34000000,
+      "currency": "EUR",
+      "investors": [
+        "Cadence Growth Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.ottonova.de/unternehmen/ueber-uns",
+          "quote": "02.09.2022 ottonova schließt Series F Finanzierungsrunde mit Eigenkapitalerhöhung von 34 Millionen Euro ab"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.ottonova.de/unternehmen/ueber-uns",
+          "quote": "02.09.2022 ottonova schließt Series F Finanzierungsrunde mit Eigenkapitalerhöhung von 34 Millionen Euro ab"
+        },
+        {
+          "field": "month",
+          "url": "https://www.ottonova.de/unternehmen/ueber-uns",
+          "quote": "02.09.2022 ottonova schließt Series F Finanzierungsrunde mit Eigenkapitalerhöhung von 34 Millionen Euro ab"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.munich-startup.de/news/ottonova-series-f",
+          "quote": "Lead Investor ist Cadence Growth Capital."
+        }
+      ]
+    }
+  ]
+}
