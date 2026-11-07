@@ -65,6 +65,10 @@ export function StatsPanel({
   const below = scores.reduce((s, [pct, n]) => s + (pct < mine ? n : 0), 0);
   const above = scores.reduce((s, [pct, n]) => s + (pct > mine ? n : 0), 0);
   const rank = Math.min(total, above + 1); // ties share a place
+  const tied = Math.max(0, total - above - below - 1); // others on exactly the player's score
+  // A label under every column when they're few or short (Impostor's three, Top 10's 0–10); otherwise
+  // the two ends, and the player's own column is marked "You" above it anyway.
+  const labelAll = order.length <= 4 || (order.length <= 12 && order.every((b) => label(b).length <= 2));
   const betterThan = others > 0 ? Math.round((below / others) * 100) : null;
   const max = Math.max(1, ...order.map((b) => stats.buckets[b] ?? 0));
   const fmt = (n: number) => n.toLocaleString("en-GB");
@@ -86,6 +90,7 @@ export function StatsPanel({
           <p className="font-display text-4xl font-bold tabular-nums">#{fmt(rank)}</p>
           <p className="text-xs text-muted">
             of {fmt(total)} {total === 1 ? "player" : "players"} today
+            {tied > 0 && ` · shared with ${fmt(tied)}`}
           </p>
         </div>
       </div>
@@ -121,11 +126,21 @@ export function StatsPanel({
             );
           })}
         </ol>
-        <div className="mt-1.5 flex justify-between text-xs tabular-nums text-muted" aria-hidden>
-          <span>{label(order[0])}</span>
-          <span>{label(order.at(-1)!)}</span>
-        </div>
-        <figcaption className="mt-1 text-center text-xs font-semibold uppercase tracking-widest text-muted">{axis}</figcaption>
+        {labelAll ? (
+          <ol className="mt-1.5 flex gap-1 text-xs tabular-nums text-muted" aria-hidden>
+            {order.map((b) => (
+              <li key={b} className={`min-w-0 flex-1 text-center leading-tight ${b === bucket ? "font-bold text-primary" : ""}`}>
+                {label(b)}
+              </li>
+            ))}
+          </ol>
+        ) : (
+          <div className="mt-1.5 flex justify-between text-xs tabular-nums text-muted" aria-hidden>
+            <span>{label(order[0])}</span>
+            <span>{label(order.at(-1)!)}</span>
+          </div>
+        )}
+        <figcaption className="mt-2 text-center text-xs text-muted">{axis}</figcaption>
       </figure>
     </section>
   );

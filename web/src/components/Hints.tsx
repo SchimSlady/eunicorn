@@ -1,7 +1,7 @@
 "use client";
 
 import { useRef, useState } from "react";
-import { Lightbulb, Lock } from "lucide-react";
+import { Lightbulb } from "lucide-react";
 import type { Hint } from "@eunicorn/schema";
 import { hintLimit, type Difficulty } from "@/lib/difficulty";
 import { Sheet } from "./Sheet";
@@ -69,42 +69,57 @@ export function Hints({
       {open && (
         <Sheet title="Hints" onClose={close}>
           <div className="pr-10">
-            <h2 className="font-display text-xl font-bold">Hints</h2>
-            <p className="mt-1 text-sm text-muted">
-              {total ? `${revealed.length} of ${total} used. ` : ""}Free, but they show in your share.
-            </p>
-          </div>
-          <ol className="space-y-2">
-            {revealed.map((h, i) => (
-              <li key={`${i}-${h.text}`} className="flex animate-pop items-start gap-3 rounded-2xl bg-eu-yellow/15 p-3 text-sm leading-snug">
-                <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-primary text-xs font-bold text-on-primary">{i + 1}</span>
-                <span className="pt-0.5">{h.text}</span>
-              </li>
-            ))}
-            {next && (
-              <li>
-                <button
-                  type="button"
-                  onClick={onReveal}
-                  className="flex min-h-12 w-full items-center gap-3 rounded-2xl border-2 border-dashed border-primary/60 p-3 text-left text-sm font-semibold transition hover:border-primary hover:bg-eu-yellow/10"
-                >
-                  <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full border-2 border-primary text-primary">
-                    <Lightbulb size={13} aria-hidden />
-                  </span>
-                  {revealed.length ? `Reveal hint ${revealed.length + 1}` : "Reveal the first hint"}
-                </button>
-              </li>
-            )}
-            {Array.from({ length: Math.max(0, (total ?? 0) - revealed.length - (next ? 1 : 0)) }, (_, i) => (
-              <li key={`locked-${i}`} className="flex min-h-12 items-center gap-3 rounded-2xl border border-border p-3 text-sm text-muted">
-                <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-surface">
-                  <Lock size={12} aria-hidden />
+            <div className="flex items-center gap-3">
+              <h2 className="font-display text-xl font-bold">Hints</h2>
+              {/* One bar per hint this level offers, filled as they're used. */}
+              {!!total && (
+                <span className="flex gap-1" role="img" aria-label={`${revealed.length} of ${total} hints used`}>
+                  {Array.from({ length: total }, (_, i) => (
+                    <span key={i} className={`h-1.5 w-6 rounded-full transition-colors ${i < revealed.length ? "bg-primary" : "bg-border"}`} />
+                  ))}
                 </span>
-                Hint {revealed.length + (next ? 2 : 1) + i}
-              </li>
-            ))}
-          </ol>
-          {!next && revealed.length > 0 && <p className="text-center text-sm text-muted">That&apos;s every hint for this level.</p>}
+              )}
+            </div>
+            <p className="mt-1 text-sm text-muted">Free, but they show in your share.</p>
+          </div>
+          {revealed.length > 0 && (
+            // Newest first and larger, the one the player just asked for; earlier ones stay below,
+            // smaller and muted (each hint is about a different startup or square, so none is dropped).
+            <ol className="border-y border-border">
+              {[...revealed].reverse().map((h, i) => {
+                const n = revealed.length - i;
+                return i === 0 ? (
+                  <li key={`${n}-${h.text}`} className="flex animate-pop items-start gap-3 py-3.5 text-base font-semibold leading-snug">
+                    <Lightbulb size={20} className="mt-0.5 shrink-0 text-primary" aria-hidden />
+                    <span>
+                      <span className="sr-only">Hint {n}: </span>
+                      {h.text}
+                    </span>
+                  </li>
+                ) : (
+                  <li key={`${n}-${h.text}`} className={`flex items-start gap-3 py-2 text-sm leading-snug text-muted ${i === 1 ? "border-t border-border" : ""}`}>
+                    <span className="w-5 shrink-0 text-center text-xs font-bold tabular-nums">{n}</span>
+                    <span>
+                      <span className="sr-only">Hint {n}: </span>
+                      {h.text}
+                    </span>
+                  </li>
+                );
+              })}
+            </ol>
+          )}
+          {next ? (
+            <button
+              type="button"
+              onClick={onReveal}
+              className="flex min-h-12 w-full items-center justify-center gap-2 rounded-full bg-primary px-4 font-semibold text-on-primary transition active:scale-[0.98]"
+            >
+              <Lightbulb size={18} aria-hidden />
+              {total ? `Reveal hint ${revealed.length + 1} of ${total}` : "Reveal a hint"}
+            </button>
+          ) : (
+            revealed.length > 0 && <p className="text-center text-sm text-muted">That&apos;s every hint for this level.</p>
+          )}
           <button type="button" onClick={close} className="mx-auto block min-h-11 px-4 text-sm font-semibold text-muted hover:text-foreground">
             Back to the game
           </button>
