@@ -1,0 +1,143 @@
+{
+  "id": "zenml",
+  "name": "ZenML",
+  "aliases": [],
+  "domain": "zenml.io",
+  "country": "DE",
+  "city": "Munich",
+  "founded": 2021,
+  "sectors": [
+    "ai",
+    "devtools"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Adam Probst",
+    "Hamza Tahir"
+  ],
+  "difficulty": 5,
+  "programs": [
+    {
+      "id": "manage-and-more"
+    },
+    {
+      "id": "cdtm"
+    }
+  ],
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://munich-startup.de/en/95483/zenml-increases-seed-round-to-6-million-euros",
+      "quote": "The Munich-based startup ZenML develops an open-source framework for creating machine learning pipelines."
+    },
+    {
+      "field": "founded",
+      "url": "https://siliconcanals.com/zenml-raises-3-4m/",
+      "quote": "Founded in 2021 by Adam Probst and Hamza Tahir, ZenML is an open-source MLOps framework"
+    },
+    {
+      "field": "founders",
+      "url": "https://siliconcanals.com/zenml-raises-3-4m/",
+      "quote": "Founded in 2021 by Adam Probst and Hamza Tahir, ZenML is an open-source MLOps framework"
+    },
+    {
+      "field": "sectors",
+      "url": "https://munich-startup.de/en/95483/zenml-increases-seed-round-to-6-million-euros",
+      "quote": "The Munich-based startup ZenML develops an open-source framework for creating machine learning pipelines."
+    },
+    {
+      "field": "status",
+      "url": "https://www.zenml.io/blog/were-revving-up-zenml-exciting-news-and-what-it-means-for-you",
+      "quote": "We’ve just secured an additional $3.7M in funding"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://www.zenml.io/blog/were-revving-up-zenml-exciting-news-and-what-it-means-for-you",
+      "quote": "We’ve just secured an additional $3.7M in funding"
+    },
+    {
+      "field": "programs",
+      "url": "https://www.manageandmore.de/start-ups/",
+      "quote": "ZenML www.zenml.io"
+    },
+    {
+      "field": "programs",
+      "url": "https://www.cdtm.com/startups/zenml",
+      "quote": "CDTM founders Hamza Tahir Class of Fall 2017"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "seed",
+      "month": "2021-12",
+      "amountEur": 2397443,
+      "amountOriginal": 2700000.0,
+      "currency": "USD",
+      "investors": [
+        "Crane Venture Partners",
+        "Richard Socher",
+        "Pieter Abbeel",
+        "Jim Keller",
+        "Dirk Hoke",
+        "Nicolas Dessaigne",
+        "Carsten Thoma"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.opensourceforu.com/2021/12/2-7-million-raised-by-zenml-to-advance-open-source-mlops-framework/",
+          "quote": "today announced it has raised $2.7 million in its seed round."
+        },
+        {
+          "field": "stage",
+          "url": "https://www.opensourceforu.com/2021/12/2-7-million-raised-by-zenml-to-advance-open-source-mlops-framework/",
+          "quote": "today announced it has raised $2.7 million in its seed round."
+        },
+        {
+          "field": "month",
+          "url": "https://www.opensourceforu.com/2021/12/2-7-million-raised-by-zenml-to-advance-open-source-mlops-framework/",
+          "quote": "December 15, 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.opensourceforu.com/2021/12/2-7-million-raised-by-zenml-to-advance-open-source-mlops-framework/",
+          "quote": "It is led by Crane Venture Partners and includes notable investors, AI-researchers, and entrepreneurs like Richard Socher, Pieter Abbeel, Jim Keller, Dirk Hoke, Nicolas Dessaigne, Carsten Thoma, and others."
+        }
+      ]
+    },
+    {
+      "stage": "seed",
+      "month": "2023-10",
+      "amountEur": 3491554,
+      "amountOriginal": 3700000.0,
+      "currency": "USD",
+      "investors": [
+        "Point Nine",
+        "Crane Venture Partners"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.zenml.io/blog/were-revving-up-zenml-exciting-news-and-what-it-means-for-you",
+          "quote": "We’ve just secured an additional $3.7M in funding"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.zenml.io/blog/were-revving-up-zenml-exciting-news-and-what-it-means-for-you",
+          "quote": "We’ve just secured an additional $3.7M in funding, bringing our total Seed Round to"
+        },
+        {
+          "field": "month",
+          "url": "https://www.zenml.io/blog/were-revving-up-zenml-exciting-news-and-what-it-means-for-you",
+          "quote": "October 23, 2023"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.zenml.io/blog/were-revving-up-zenml-exciting-news-and-what-it-means-for-you",
+          "quote": "This extension is led by the leading European VC, Point Nine with follow-on from our existing investor Crane ."
+        }
+      ]
+    }
+  ]
+}

@@ -50,6 +50,11 @@
       "field": "programs",
       "url": "https://www.cdtm.com/startups/freeletics",
       "quote": "CDTM founders Joshua Cornelius Class of Fall 2009"
+    },
+    {
+      "field": "programs",
+      "url": "https://www.startmunich.de/api/startups",
+      "quote": "\"name\":\"Freeletics\",\"website\":\"www.freeletics.com/en/\""
     }
   ],
   "rounds": [
@@ -97,6 +102,9 @@
   "programs": [
     {
       "id": "cdtm"
+    },
+    {
+      "id": "start-munich"
     }
   ]
 }

@@ -24,6 +24,9 @@
   "programs": [
     {
       "id": "cdtm"
+    },
+    {
+      "id": "manage-and-more"
     }
   ],
   "sources": [
@@ -61,6 +64,11 @@
       "field": "programs",
       "url": "https://www.cdtm.com/startups/konux",
       "quote": "CDTM founders Maximilian Hasler Class of Fall 2014"
+    },
+    {
+      "field": "programs",
+      "url": "https://www.manageandmore.de/start-ups/",
+      "quote": "Konux www.konux.com"
     }
   ],
   "rounds": [

@@ -1,0 +1,123 @@
+{
+  "id": "comstruct",
+  "name": "comstruct",
+  "aliases": [
+    "comstruct ICT"
+  ],
+  "domain": "comstruct.com",
+  "country": "DE",
+  "city": "Munich",
+  "founded": 2022,
+  "sectors": [
+    "saas",
+    "ai"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Henric Meinhardt"
+  ],
+  "difficulty": 5,
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://tech.eu/2023/03/23/comstruct-scores-1-2-million-in-pre-seed-deal-which-includes-german-soccer-star-mario-gotze",
+      "quote": "Munich-based start-up comstruct has received €1.2 million pre-seed investment"
+    },
+    {
+      "field": "founded",
+      "url": "https://tech.eu/2023/03/23/comstruct-scores-1-2-million-in-pre-seed-deal-which-includes-german-soccer-star-mario-gotze",
+      "quote": "Founded in 2022, comstruct is developing a platform where construction companies can digitise and automate material purchasing"
+    },
+    {
+      "field": "founders",
+      "url": "https://techcrunch.com/2025/02/06/comstruct-a-platform-to-digitize-the-construction-industry-raises-135-million/",
+      "quote": "Comstruct co-founder and CEO Henric Meinhardt told TechCrunch"
+    },
+    {
+      "field": "sectors",
+      "url": "https://comstruct.com",
+      "quote": "KI-Agenten für den Bau comstruct automatisiert Ihren gesamten Beschaffungsprozess"
+    },
+    {
+      "field": "status",
+      "url": "https://www.munich-startup.de/en/news/comstruct-raises-e12-5-million",
+      "quote": "Comstruct successfully closes its funding round of €12.5 million"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://www.munich-startup.de/en/news/comstruct-raises-e12-5-million",
+      "quote": "Comstruct successfully closes its funding round of €12.5 million"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "pre-seed",
+      "month": "2023-03",
+      "amountEur": 1200000,
+      "amountOriginal": 1200000,
+      "currency": "EUR",
+      "investors": [
+        "Rivus Capital",
+        "Another.vc"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2023/03/23/comstruct-scores-1-2-million-in-pre-seed-deal-which-includes-german-soccer-star-mario-gotze",
+          "quote": "Munich-based start-up comstruct has received €1.2 million pre-seed investment"
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2023/03/23/comstruct-scores-1-2-million-in-pre-seed-deal-which-includes-german-soccer-star-mario-gotze",
+          "quote": "Munich-based start-up comstruct has received €1.2 million pre-seed investment"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2023/03/23/comstruct-scores-1-2-million-in-pre-seed-deal-which-includes-german-soccer-star-mario-gotze",
+          "quote": "Fiona Alston 23 March 2023"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2023/03/23/comstruct-scores-1-2-million-in-pre-seed-deal-which-includes-german-soccer-star-mario-gotze",
+          "quote": "Investing in the round are Rivus Capital and Another.vc"
+        }
+      ]
+    },
+    {
+      "stage": "series-a",
+      "month": "2025-02",
+      "amountEur": 12500000,
+      "amountOriginal": 12500000,
+      "currency": "EUR",
+      "investors": [
+        "GV",
+        "20VC",
+        "Booom",
+        "Puzzle Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2025/02/06/comstruct-a-platform-to-digitize-the-construction-industry-raises-135-million/",
+          "quote": "the startup is announcing a €12.5 million round ($13 million at current exchange rates) led by GV and 20VC, with existing investors Booom and Puzzle Ventures investing once again"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2025/02/06/comstruct-a-platform-to-digitize-the-construction-industry-raises-135-million/",
+          "quote": "February 6, 2025"
+        },
+        {
+          "field": "month",
+          "url": "https://www.munich-startup.de/en/news/comstruct-raises-e12-5-million",
+          "quote": "February 12, 2025"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2025/02/06/comstruct-a-platform-to-digitize-the-construction-industry-raises-135-million/",
+          "quote": "the startup is announcing a €12.5 million round ($13 million at current exchange rates) led by GV and 20VC, with existing investors Booom and Puzzle Ventures investing once again"
+        }
+      ]
+    }
+  ]
+}

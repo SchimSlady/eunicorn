@@ -1,0 +1,174 @@
+{
+  "id": "constellr",
+  "name": "constellr",
+  "aliases": [
+    "ConstellR"
+  ],
+  "domain": "constellr.com",
+  "country": "DE",
+  "city": "Freiburg",
+  "founded": 2020,
+  "sectors": [
+    "space"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [],
+  "difficulty": 4,
+  "programs": [
+    {
+      "id": "manage-and-more"
+    }
+  ],
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://techcrunch.com/2021/02/23/spacetech-startup-constellr-that-can-monitor-land-surface-temperatures-raises-e1m-pre-seed-round/",
+      "quote": "The Freiburg, Germany-based startup monitors the land via a constellation of 30 CubeSats with thermal infrared payloads."
+    },
+    {
+      "field": "founded",
+      "url": "https://www.startbase.com/organization/constellr/",
+      "quote": "Founding Year: 2020"
+    },
+    {
+      "field": "sectors",
+      "url": "https://techcrunch.com/2021/02/23/spacetech-startup-constellr-that-can-monitor-land-surface-temperatures-raises-e1m-pre-seed-round/",
+      "quote": "The Freiburg, Germany-based startup monitors the land via a constellation of 30 CubeSats with thermal infrared payloads."
+    },
+    {
+      "field": "status",
+      "url": "https://www.constellr.com/article/constellr-secures-eu37-million-series-a-funding-to-deliver-defence-grade-thermal-intelligence",
+      "quote": "has raised €37 million in Series A funding"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://www.constellr.com/article/constellr-secures-eu37-million-series-a-funding-to-deliver-defence-grade-thermal-intelligence",
+      "quote": "has raised €37 million in Series A funding"
+    },
+    {
+      "field": "programs",
+      "url": "https://www.manageandmore.de/start-ups/",
+      "quote": "Constellr constellr.com"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "pre-seed",
+      "month": "2021-02",
+      "amountEur": 1000000,
+      "amountOriginal": 1000000,
+      "currency": "EUR",
+      "investors": [
+        "FTTF",
+        "OHB Venture Capital",
+        "L-Bank"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2021/02/23/spacetech-startup-constellr-that-can-monitor-land-surface-temperatures-raises-e1m-pre-seed-round/",
+          "quote": "has raised a €1 million pre-seed round led by FTTF, with the participation of strategic investor OHB Venture Capital, Baden-Württemberg’s state bank L-Bank and an undisclosed investor."
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2021/02/23/spacetech-startup-constellr-that-can-monitor-land-surface-temperatures-raises-e1m-pre-seed-round/",
+          "quote": "has raised a €1 million pre-seed round led by FTTF"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2021/02/23/spacetech-startup-constellr-that-can-monitor-land-surface-temperatures-raises-e1m-pre-seed-round/",
+          "quote": "February 23, 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2021/02/23/spacetech-startup-constellr-that-can-monitor-land-surface-temperatures-raises-e1m-pre-seed-round/",
+          "quote": "has raised a €1 million pre-seed round led by FTTF, with the participation of strategic investor OHB Venture Capital, Baden-Württemberg’s state bank L-Bank and an undisclosed investor."
+        }
+      ]
+    },
+    {
+      "stage": "seed",
+      "month": "2022-11",
+      "amountEur": 10253255,
+      "amountOriginal": 10000000.0,
+      "currency": "USD",
+      "investors": [
+        "Lakestar",
+        "Vsquared Ventures",
+        "FTTF",
+        "IQT",
+        "Amathaon Capital",
+        "Natural Ventures",
+        "EIT Food",
+        "OHB Venture Capital",
+        "Next Humanity",
+        "Seraphim"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2022/11/03/satellite-startup-constellr-wins-backing-to-build-out-its-water-monitoring-platform/",
+          "quote": "has now raised $10 million in seed funding, co-led by Lakestar and Vsquared"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2022/11/03/satellite-startup-constellr-wins-backing-to-build-out-its-water-monitoring-platform/",
+          "quote": "has now raised $10 million in seed funding, co-led by Lakestar and Vsquared"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2022/11/03/satellite-startup-constellr-wins-backing-to-build-out-its-water-monitoring-platform/",
+          "quote": "November 3, 2022"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2022/11/03/satellite-startup-constellr-wins-backing-to-build-out-its-water-monitoring-platform/",
+          "quote": "co-led by Lakestar and Vsquared, with participation from early and new supporters FTTF, IQT, Amathaon Capital, Natural Ventures, EIT Food, OHB Venture Capital, Next Humanity, and Seraphim."
+        }
+      ]
+    },
+    {
+      "stage": "series-a",
+      "month": "2026-02",
+      "amountEur": 37000000,
+      "amountOriginal": 37000000,
+      "currency": "EUR",
+      "investors": [
+        "Alpine Space Ventures",
+        "Lakestar",
+        "Semapa Next",
+        "Bayern Kapital",
+        "Cardumen Capital",
+        "Cooperative Ventures",
+        "Kineo Finance",
+        "Vsquared",
+        "CosmiCapital",
+        "Fraunhofer Technologie-Transfer Fonds",
+        "EIC Fund"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.constellr.com/article/constellr-secures-eu37-million-series-a-funding-to-deliver-defence-grade-thermal-intelligence",
+          "quote": "has raised €37 million in Series A funding"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.constellr.com/article/constellr-secures-eu37-million-series-a-funding-to-deliver-defence-grade-thermal-intelligence",
+          "quote": "has raised €37 million in Series A funding"
+        },
+        {
+          "field": "month",
+          "url": "https://www.constellr.com/article/constellr-secures-eu37-million-series-a-funding-to-deliver-defence-grade-thermal-intelligence",
+          "quote": "Munich, Germany, February 10, 2026"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.constellr.com/article/constellr-secures-eu37-million-series-a-funding-to-deliver-defence-grade-thermal-intelligence",
+          "quote": "The significantly oversubscribed financing round was led by Alpine Space Ventures, with co-lead Lakestar, and participation from Semapa Next, Bayern Kapital, Cardumen Capital, Cooperative Ventures, Kineo Finance, and strong continued support from existing shareholders, including Vsquared, CosmiCapital, Fraunhofer Technologie-Transfer Fonds, and EIC Fund."
+        }
+      ]
+    }
+  ]
+}

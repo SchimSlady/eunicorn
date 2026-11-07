@@ -1,0 +1,101 @@
+{
+  "id": "revel8",
+  "name": "revel8",
+  "aliases": [
+    "Company Shield"
+  ],
+  "domain": "revel8.ai",
+  "country": "DE",
+  "city": "Berlin",
+  "founded": 2024,
+  "sectors": [
+    "cybersecurity",
+    "ai"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Julius Muth",
+    "Tom Müller",
+    "Robert Seilbeck"
+  ],
+  "difficulty": 5,
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.revel8.ai/blog/revel8-secures-eu7-million-to-fight-ai-powered-cyberattacks",
+      "quote": "Founded in 2024 and headquartered in Berlin, with a relocation to Munich planned for early 2026"
+    },
+    {
+      "field": "founded",
+      "url": "https://www.revel8.ai/blog/revel8-secures-eu7-million-to-fight-ai-powered-cyberattacks",
+      "quote": "Founded in 2024 and headquartered in Berlin, with a relocation to Munich planned for early 2026"
+    },
+    {
+      "field": "founded",
+      "url": "https://www.revel8.ai/company/about",
+      "quote": "we founded revel8 (previously Company Shield) in 2024"
+    },
+    {
+      "field": "founders",
+      "url": "https://www.revel8.ai/blog/revel8-secures-eu7-million-to-fight-ai-powered-cyberattacks",
+      "quote": "revel8 was founded by Celonis alumni Julius Muth, Tom Müller, and Robert Seilbeck"
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.revel8.ai/blog/revel8-secures-eu7-million-to-fight-ai-powered-cyberattacks",
+      "quote": "revel8 is building Europe's leading AI-native cybersecurity awareness platform"
+    },
+    {
+      "field": "status",
+      "url": "https://www.revel8.ai/company/about",
+      "quote": "revel8 is headquartered in Munich"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://www.revel8.ai/blog/revel8-secures-eu7-million-to-fight-ai-powered-cyberattacks",
+      "quote": "has raised a €5.7 million seed round"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "seed",
+      "month": "2025-09",
+      "amountEur": 5700000,
+      "amountOriginal": 5700000,
+      "currency": "EUR",
+      "investors": [
+        "Peak",
+        "Fortino Capital",
+        "Merantix Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.revel8.ai/blog/revel8-secures-eu7-million-to-fight-ai-powered-cyberattacks",
+          "quote": "has raised a €5.7 million seed round"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.revel8.ai/blog/revel8-secures-eu7-million-to-fight-ai-powered-cyberattacks",
+          "quote": "has raised a €5.7 million seed round"
+        },
+        {
+          "field": "month",
+          "url": "https://www.revel8.ai/blog/revel8-secures-eu7-million-to-fight-ai-powered-cyberattacks",
+          "quote": "Berlin, September 25, 2025"
+        },
+        {
+          "field": "month",
+          "url": "https://www.startbase.de/news/revel8-mit-7-millionen-euro-seed-gegen-zur-abwehr-von-ki-cyberangriffen-erfolgreich/",
+          "quote": "Berlin, 25. September 2025"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.revel8.ai/blog/revel8-secures-eu7-million-to-fight-ai-powered-cyberattacks",
+          "quote": "The round is led by Peak, with participation from Fortino Capital, Merantix Capital, and business angels"
+        }
+      ]
+    }
+  ]
+}

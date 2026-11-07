@@ -1,0 +1,138 @@
+{
+  "id": "kaiko-systems",
+  "name": "Kaiko Systems",
+  "aliases": [],
+  "domain": "kaikosystems.com",
+  "country": "DE",
+  "city": "Berlin",
+  "founded": 2020,
+  "sectors": [
+    "ai",
+    "saas"
+  ],
+  "status": "acquired",
+  "unicorn": false,
+  "founders": [
+    "Fabian Fussek",
+    "Eddy del Valle"
+  ],
+  "difficulty": 5,
+  "programs": [
+    {
+      "id": "start-munich"
+    }
+  ],
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.ajot.com/news/kaiko-systems-raises-2m-seed-round-to-digitize-frontline-work-in-ocean-shipping",
+      "quote": "Kaiko Systems, a Berlin-based software startup digitizing maritime shipping"
+    },
+    {
+      "field": "founded",
+      "url": "https://www.startbase.com/organization/kaiko-systems/",
+      "quote": "Founding Year: 2020"
+    },
+    {
+      "field": "founders",
+      "url": "https://www.ajot.com/news/kaiko-systems-raises-2m-seed-round-to-digitize-frontline-work-in-ocean-shipping",
+      "quote": "says Fabian Fussek, Co-Founder and CEO of Kaiko Systems"
+    },
+    {
+      "field": "founders",
+      "url": "https://www.ajot.com/news/kaiko-systems-raises-2m-seed-round-to-digitize-frontline-work-in-ocean-shipping",
+      "quote": "Eddy del Valle, Co-Founder & Chief Technology Officer (CTO)"
+    },
+    {
+      "field": "sectors",
+      "url": "https://tech.eu/2025/03/19/kaiko-systems-raises-6m-series-a-for-maritime-intelligence/",
+      "quote": "a provider of AI-driven frontline intelligence for the maritime industry"
+    },
+    {
+      "field": "status",
+      "url": "https://www.kaikosystems.com/blog/unisea-acquires-ai-powered-frontline-intelligence-company-kaiko-systems",
+      "quote": "UniSea acquires AI-powered frontline intelligence company Kaiko Systems"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://tech.eu/2025/03/19/kaiko-systems-raises-6m-series-a-for-maritime-intelligence/",
+      "quote": "has raised a €6M Series A funding round led by Hi inov and Flashpoint Venture Growth, with continued support from Motion Ventures"
+    },
+    {
+      "field": "programs",
+      "url": "https://www.startmunich.de/api/startups",
+      "quote": "\"name\":\"Kaiko Systems\",\"website\":\"www.kaikosystems.com/\""
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "seed",
+      "month": "2022-09",
+      "amountEur": 2000000,
+      "amountOriginal": 2000000,
+      "currency": "EUR",
+      "investors": [
+        "Schoeller Holdings",
+        "Vineta Ventures",
+        "A Round Capital",
+        "Flagship Founders"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.ajot.com/news/kaiko-systems-raises-2m-seed-round-to-digitize-frontline-work-in-ocean-shipping",
+          "quote": "has successfully completed a seed financing round of € 2 million"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.ajot.com/news/kaiko-systems-raises-2m-seed-round-to-digitize-frontline-work-in-ocean-shipping",
+          "quote": "has successfully completed a seed financing round of € 2 million"
+        },
+        {
+          "field": "month",
+          "url": "https://www.ajot.com/news/kaiko-systems-raises-2m-seed-round-to-digitize-frontline-work-in-ocean-shipping",
+          "quote": "Sep 21 2022"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.ajot.com/news/kaiko-systems-raises-2m-seed-round-to-digitize-frontline-work-in-ocean-shipping",
+          "quote": "including Schoeller Holdings, Vineta Ventures, A Round Capital, Flagship Founders"
+        }
+      ]
+    },
+    {
+      "stage": "series-a",
+      "month": "2025-03",
+      "amountEur": 6000000,
+      "amountOriginal": 6000000,
+      "currency": "EUR",
+      "investors": [
+        "Hi inov",
+        "Flashpoint Venture Growth",
+        "Motion Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2025/03/19/kaiko-systems-raises-6m-series-a-for-maritime-intelligence/",
+          "quote": "has raised a €6M Series A funding round led by Hi inov and Flashpoint Venture Growth, with continued support from Motion Ventures"
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2025/03/19/kaiko-systems-raises-6m-series-a-for-maritime-intelligence/",
+          "quote": "has raised a €6M Series A funding round led by Hi inov and Flashpoint Venture Growth, with continued support from Motion Ventures"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2025/03/19/kaiko-systems-raises-6m-series-a-for-maritime-intelligence/",
+          "quote": "19 March 2025"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2025/03/19/kaiko-systems-raises-6m-series-a-for-maritime-intelligence/",
+          "quote": "has raised a €6M Series A funding round led by Hi inov and Flashpoint Venture Growth, with continued support from Motion Ventures"
+        }
+      ]
+    }
+  ]
+}

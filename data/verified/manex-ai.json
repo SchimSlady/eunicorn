@@ -1,0 +1,108 @@
+{
+  "id": "manex-ai",
+  "name": "Manex AI",
+  "aliases": [
+    "Datagon AI"
+  ],
+  "domain": "manex.ai",
+  "country": "DE",
+  "city": "Munich",
+  "founded": 2023,
+  "sectors": [
+    "ai",
+    "saas"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Nathan Gruber"
+  ],
+  "difficulty": 5,
+  "programs": [
+    {
+      "id": "cdtm"
+    },
+    {
+      "id": "start-munich"
+    }
+  ],
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.munich-startup.de/en/news/manex-ai-secures-8-million-euros-in-seed-funding",
+      "quote": "The Munich-based industrial startup Manex AI has completed a seed financing round of 8 million euros."
+    },
+    {
+      "field": "founded",
+      "url": "https://www.munich-startup.de/startups/datagon-ai-gmbh/",
+      "quote": "Gründung 2023"
+    },
+    {
+      "field": "founders",
+      "url": "https://www.munich-startup.de/en/131216/datagon-ai-quality-management-for-industry-4-0/",
+      "quote": "Nathan Gruber, Co-Founder and CEO of Datagon AI"
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.munich-startup.de/en/news/manex-ai-secures-8-million-euros-in-seed-funding",
+      "quote": "Manex AI develops Manufacturing Optimization Agents"
+    },
+    {
+      "field": "status",
+      "url": "https://www.munich-startup.de/en/news/manex-ai-secures-8-million-euros-in-seed-funding",
+      "quote": "The Munich-based industrial startup Manex AI has completed a seed financing round of 8 million euros."
+    },
+    {
+      "field": "unicorn",
+      "url": "https://www.munich-startup.de/en/news/manex-ai-secures-8-million-euros-in-seed-funding",
+      "quote": "The Munich-based industrial startup Manex AI has completed a seed financing round of 8 million euros."
+    },
+    {
+      "field": "programs",
+      "url": "https://www.cdtm.com/startups/manex-ai",
+      "quote": "CDTM founders Nathan Gruber Class of Spring 2023"
+    },
+    {
+      "field": "programs",
+      "url": "https://www.startmunich.de/api/startups",
+      "quote": "\"name\":\"Manex AI\",\"website\":\"www.manex.ai/en\""
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "seed",
+      "month": "2025-06",
+      "amountEur": 8000000,
+      "amountOriginal": 8000000,
+      "currency": "EUR",
+      "investors": [
+        "Lightspeed Venture Partners",
+        "Blueyard Capital",
+        "Capmont Technology",
+        "CDTM Venture Fund"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.munich-startup.de/en/news/manex-ai-secures-8-million-euros-in-seed-funding",
+          "quote": "The Munich-based industrial startup Manex AI has completed a seed financing round of 8 million euros."
+        },
+        {
+          "field": "stage",
+          "url": "https://www.munich-startup.de/en/news/manex-ai-secures-8-million-euros-in-seed-funding",
+          "quote": "The Munich-based industrial startup Manex AI has completed a seed financing round of 8 million euros."
+        },
+        {
+          "field": "month",
+          "url": "https://www.munich-startup.de/en/news/manex-ai-secures-8-million-euros-in-seed-funding",
+          "quote": "June 11, 2025"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.munich-startup.de/en/news/manex-ai-secures-8-million-euros-in-seed-funding",
+          "quote": "Lightspeed Venture Partners and Blueyard Capital are leading the round. Additional investors include Capmont Technology and CDTM Venture Fund."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "id": "studysmarter",
+  "name": "StudySmarter",
+  "aliases": [],
+  "domain": "studysmarter.de",
+  "country": "DE",
+  "city": "Munich",
+  "founded": 2017,
+  "sectors": [
+    "edtech"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Christian Felgenhauer",
+    "Maurice Khudhir",
+    "Simon Hohentanner",
+    "Till Söhlemann"
+  ],
+  "difficulty": 5,
+  "programs": [
+    {
+      "id": "manage-and-more"
+    },
+    {
+      "id": "cdtm"
+    }
+  ],
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://techcrunch.com/2021/05/05/studysmarter-books-15m-for-a-global-personalized-learning-push/",
+      "quote": "More money for the edtech boom: Munich-based StudySmarter"
+    },
+    {
+      "field": "founded",
+      "url": "https://www.munich-startup.de/en/61318/studysmarter-financing/",
+      "quote": "Das Startup wurde 2017 als Spin-off der TU München und der LMU München gegründet."
+    },
+    {
+      "field": "founders",
+      "url": "https://www.munich-startup.de/en/61318/studysmarter-financing/",
+      "quote": "Die Gründer von Studysmarter, Christian Felgenhauer , Maurice Khudhir , Simon Hohentanner und Till Söhlemann"
+    },
+    {
+      "field": "sectors",
+      "url": "https://techcrunch.com/2021/05/05/studysmarter-books-15m-for-a-global-personalized-learning-push/",
+      "quote": "More money for the edtech boom: Munich-based StudySmarter"
+    },
+    {
+      "field": "status",
+      "url": "https://techcrunch.com/2021/05/05/studysmarter-books-15m-for-a-global-personalized-learning-push/",
+      "quote": "has closed a $15 million Series A"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://techcrunch.com/2021/05/05/studysmarter-books-15m-for-a-global-personalized-learning-push/",
+      "quote": "has closed a $15 million Series A"
+    },
+    {
+      "field": "programs",
+      "url": "https://www.manageandmore.de/start-ups/",
+      "quote": "StudySmarter www.studysmarter.de"
+    },
+    {
+      "field": "programs",
+      "url": "https://www.cdtm.com/startups/studysmarter",
+      "quote": "CDTM founders Christian Felgenhauer Class of Fall 2017"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-a",
+      "month": "2021-05",
+      "amountEur": 12494794,
+      "amountOriginal": 15000000.0,
+      "currency": "USD",
+      "investors": [
+        "Owl Ventures",
+        "Left Lane Capital",
+        "Lars Fjeldsoe-Nielsen",
+        "Dieter von Holtzbrinck Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2021/05/05/studysmarter-books-15m-for-a-global-personalized-learning-push/",
+          "quote": "has closed a $15 million Series A"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2021/05/05/studysmarter-books-15m-for-a-global-personalized-learning-push/",
+          "quote": "has closed a $15 million Series A"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2021/05/05/studysmarter-books-15m-for-a-global-personalized-learning-push/",
+          "quote": "May 5, 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2021/05/05/studysmarter-books-15m-for-a-global-personalized-learning-push/",
+          "quote": "The round is led by sector-focused VC fund Owl Ventures."
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2021/05/05/studysmarter-books-15m-for-a-global-personalized-learning-push/",
+          "quote": "New York-based Left Lane Capital is co-investing, along with Lars Fjeldsoe-Nielsen"
+        }
+      ]
+    }
+  ]
+}
