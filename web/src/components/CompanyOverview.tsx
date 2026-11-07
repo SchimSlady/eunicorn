@@ -64,8 +64,6 @@ const STATUS_BADGE: Partial<Record<Company["status"], string>> = { acquired: "Ac
 
 function OverviewSheet({ company, data, onClose }: { company: Company; data: Dataset; onClose: () => void }) {
   const o = useMemo(() => overviewOf(company, data), [company, data]);
-  // The one-sentence description arrives with the schema's `tagline` field; until then it's simply absent.
-  const tagline = (company as Company & { tagline?: string }).tagline;
   const badges = [company.unicorn ? "Unicorn" : null, STATUS_BADGE[company.status] ?? null].filter((b): b is string => !!b);
   const money = [
     o.totalRaisedUsd ? { label: "Raised", value: formatUsdAsEur(o.totalRaisedUsd) } : null,
@@ -88,7 +86,7 @@ function OverviewSheet({ company, data, onClose }: { company: Company; data: Dat
         </div>
       </div>
 
-      {tagline && <p className="text-base leading-snug">{tagline}</p>}
+      {company.tagline && <p className="text-base leading-snug">{company.tagline}</p>}
 
       {(badges.length > 0 || company.sectors.length > 0) && (
         <div className="flex flex-wrap gap-1.5">

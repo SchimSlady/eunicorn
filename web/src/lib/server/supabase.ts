@@ -67,6 +67,8 @@ interface CompanyRow {
   employees: number | null;
   careers_url: string | null;
   fun_fact: string | null;
+  /** Absent until migration 20261107180000_company_tagline is applied. */
+  tagline?: string | null;
   difficulty: Company["difficulty"];
   // How the startup story ended (migration 20261107150000_company_exits); absent before it is applied.
   exit_kind?: ExitKind | null;
@@ -170,6 +172,7 @@ export async function getDataset(): Promise<(Omit<Dataset, "rounds"> & { rounds:
         exit: exitOf(c),
         employees: c.employees ?? undefined,
         careersUrl: c.careers_url ?? undefined,
+        tagline: c.tagline ?? undefined,
         funFact: c.fun_fact ?? undefined,
         difficulty: c.difficulty,
         verified: true,
