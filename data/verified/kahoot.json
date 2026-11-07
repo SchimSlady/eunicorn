@@ -21,6 +21,11 @@
   ],
   "difficulty": 2,
   "techeuId": "682EE806-AFA1-43CC-8B5E-70DFAA165985",
+  "exit": {
+    "kind": "acquisition",
+    "month": "2023-07",
+    "acquirer": "Goldman Sachs Asset Management"
+  },
   "sources": [
     {
       "field": "city",
@@ -66,6 +71,16 @@
       "field": "fun_fact",
       "url": "https://en.wikipedia.org/wiki/Kahoot!",
       "quote": "developed by Alf Inge Wang at Norwegian University of Science and Technology (NTNU) in 2006"
+    },
+    {
+      "field": "exit",
+      "url": "https://kahoot.com/blog/2023/07/13/recommended-voluntary-offer-on-kahoot/",
+      "quote": "Kahoot! is today announcing an agreement for a recommended voluntary offer from Goldman Sachs Asset Management, together with the growth equity fund General Atlantic"
+    },
+    {
+      "field": "exit",
+      "url": "https://kahoot.com/blog/2023/07/13/recommended-voluntary-offer-on-kahoot/",
+      "quote": "Eilert Hanoa 13 Jul 2023"
     }
   ],
   "rounds": [

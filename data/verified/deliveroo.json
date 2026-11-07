@@ -20,6 +20,11 @@
   ],
   "difficulty": 2,
   "techeuId": "2935F127-EC33-4877-8998-8E659EAD701C",
+  "exit": {
+    "kind": "acquisition",
+    "month": "2025-05",
+    "acquirer": "DoorDash"
+  },
   "sources": [
     {
       "field": "city",
@@ -60,6 +65,16 @@
       "field": "valuation",
       "url": "https://www.rte.ie/news/business/2021/0331/1207132-deliveroos-london-ipo",
       "quote": "The 390 pence price tag gave an overall valuation of £7.6 billion and was already set at the bottom of an initial range."
+    },
+    {
+      "field": "exit",
+      "url": "https://en.wikipedia.org/wiki/Deliveroo",
+      "quote": "On 6 May 2025, the deal was agreed by the boards of both companies at a valuation of £2.9 billion."
+    },
+    {
+      "field": "exit",
+      "url": "https://en.wikipedia.org/wiki/Deliveroo",
+      "quote": "owned by DoorDash since its takeover in October 2025"
     }
   ],
   "rounds": [

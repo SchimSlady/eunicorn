@@ -20,6 +20,11 @@
   ],
   "difficulty": 2,
   "techeuId": "EAD35C22-A5C7-4C3D-86D7-7E30484028C7",
+  "exit": {
+    "kind": "acquisition",
+    "month": "2022-12",
+    "acquirer": "Getir"
+  },
   "sources": [
     {
       "field": "city",
@@ -60,6 +65,11 @@
       "field": "fun_fact",
       "url": "https://en.wikipedia.org/wiki/Gorillas_(company)",
       "quote": "making it a unicorn in just 9 months, the fastest company in Germany to do so"
+    },
+    {
+      "field": "exit",
+      "url": "https://en.wikipedia.org/wiki/Gorillas_(company)",
+      "quote": "In December 2022, Getir , a competitor based in Istanbul, acquired Gorillas for $1.2 billion."
     }
   ],
   "rounds": [

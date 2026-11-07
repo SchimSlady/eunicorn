@@ -19,6 +19,11 @@
   ],
   "difficulty": 3,
   "techeuId": "9BFCF4DF-B5B9-4102-AE4D-EA02156AB6CB",
+  "exit": {
+    "kind": "acquisition",
+    "month": "2024-07",
+    "acquirer": "SoftBank"
+  },
   "sources": [
     {
       "field": "city",
@@ -54,6 +59,11 @@
       "field": "valuation",
       "url": "https://techcrunch.com/2018/12/18/ai-chip-startup-graphcore-closes-200m-series-d-adds-bmw-and-microsoft-as-strategic-investors/",
       "quote": "Graphcore says the Series D values the company at $1.7BN."
+    },
+    {
+      "field": "exit",
+      "url": "https://en.wikipedia.org/wiki/Graphcore",
+      "quote": "In July 2024, Softbank Group agreed to acquire Graphcore for around $500 million."
     }
   ],
   "rounds": [

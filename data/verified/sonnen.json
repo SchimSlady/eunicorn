@@ -20,6 +20,11 @@
   ],
   "difficulty": 3,
   "techeuId": "F2CAA849-15D2-4FE2-9237-DB09DFC2C2F8",
+  "exit": {
+    "kind": "acquisition",
+    "month": "2019-02",
+    "acquirer": "Shell"
+  },
   "sources": [
     {
       "field": "city",
@@ -50,6 +55,11 @@
       "field": "status",
       "url": "https://de.wikipedia.org/wiki/Sonnen_(Unternehmen)",
       "quote": "Das Unternehmen hat am 22. Oktober 2026 Antrag auf Insolvenz gestellt"
+    },
+    {
+      "field": "exit",
+      "url": "https://en.wikipedia.org/wiki/Sonnen_GmbH",
+      "quote": "In February 2019, it was announced that Royal Dutch Shell would acquire 100% of the company for an undisclosed amount."
     }
   ],
   "rounds": [

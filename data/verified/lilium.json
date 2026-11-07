@@ -22,6 +22,10 @@
   ],
   "difficulty": 2,
   "techeuId": "EDD8A205-6528-47FB-9DFF-B13E6C1A4E50",
+  "exit": {
+    "kind": "insolvency",
+    "month": "2024-10"
+  },
   "sources": [
     {
       "field": "city",
@@ -47,9 +51,81 @@
       "field": "status",
       "url": "https://en.wikipedia.org/wiki/Lilium_GmbH",
       "quote": "On February 21, 2025, Severin Tatarczyk announced in internal communications that the company had filed for insolvency."
+    },
+    {
+      "field": "exit",
+      "url": "https://en.wikipedia.org/wiki/Lilium_GmbH",
+      "quote": "On 24 October 2024, after failing to settle an agreement with the Bavarian Government to secure a €50 million loan, the Lilium Board of Directors approved application for self-administration of its German subsidiaries."
     }
   ],
   "rounds": [
+    {
+      "stage": "series-a",
+      "month": "2016-12",
+      "amountEur": 10000000,
+      "amountOriginal": 10000000,
+      "currency": "EUR",
+      "investors": [
+        "Atomico"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/brief/lilium-jet-secures-10-million",
+          "quote": "has raised a €10 million Series A funding round from London-based Atomico"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/brief/lilium-jet-secures-10-million",
+          "quote": "05 December 2016"
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/brief/lilium-jet-secures-10-million",
+          "quote": "has raised a €10 million Series A funding round"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/brief/lilium-jet-secures-10-million",
+          "quote": "has raised a €10 million Series A funding round from London-based Atomico"
+        }
+      ]
+    },
+    {
+      "stage": "series-b",
+      "month": "2017-09",
+      "amountEur": 75693860,
+      "amountOriginal": 90000000,
+      "currency": "USD",
+      "investors": [
+        "Tencent",
+        "LGT",
+        "Atomico",
+        "Obvious Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.faz.net/aktuell/wirtschaft/unternehmen/lilium-elektro-jet-umweltfreundliches-transportmittel-der-zukunft-15183509.html",
+          "quote": "Für ihr Flugauto bekommen diese deutschen Erfinder 90 Millionen Dollar"
+        },
+        {
+          "field": "month",
+          "url": "https://www.faz.net/aktuell/wirtschaft/unternehmen/lilium-elektro-jet-umweltfreundliches-transportmittel-der-zukunft-15183509.html",
+          "quote": "05.09.2017, 09:05"
+        },
+        {
+          "field": "stage",
+          "url": "https://globalventuring.com/university/lilium-levels-up-latest-round-to-275m/",
+          "quote": "Tencent, LGT, Atomico and Obvious Ventures had provided $90m in series B funding for Lilium in 2017"
+        },
+        {
+          "field": "investors",
+          "url": "https://globalventuring.com/university/lilium-levels-up-latest-round-to-275m/",
+          "quote": "Tencent, LGT, Atomico and Obvious Ventures had provided $90m in series B funding for Lilium in 2017"
+        }
+      ]
+    },
     {
       "techeuId": "198e0126-96e5-415f-e785-08d91092c887",
       "stage": "series-c",

@@ -19,6 +19,10 @@
   ],
   "difficulty": 2,
   "techeuId": "FB512314-8B61-48B2-8A32-A31B56920B97",
+  "exit": {
+    "kind": "ipo",
+    "month": "2017-11"
+  },
   "sources": [
     {
       "field": "city",
@@ -54,6 +58,11 @@
       "field": "valuation",
       "url": "https://www.noerr.com/de/press/hellofresh---noerr-begleitet-kochboxanbieter-auch-beim-ipo-in-frankfurt",
       "quote": "Bei einem finalen Angebotspreis von EUR 10,25 pro Aktie liegt die Marktkapitalisierung bei EUR 1,6 Mrd. (ohne Ausübung der Greenshoe-Option)"
+    },
+    {
+      "field": "exit",
+      "url": "https://en.wikipedia.org/wiki/HelloFresh",
+      "quote": "HelloFresh has been listed on the Frankfurt Stock Exchange since its IPO in November 2017."
     }
   ],
   "rounds": [

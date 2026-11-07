@@ -1,18 +1,29 @@
 {
   "id": "kreditech",
   "name": "Kreditech",
-  "aliases": ["Monedo"],
+  "aliases": [
+    "Monedo"
+  ],
   "domain": "kreditech.com",
   "country": "DE",
   "city": "Hamburg",
   "founded": 2012,
-  "sectors": ["fintech"],
+  "sectors": [
+    "fintech"
+  ],
   "status": "defunct",
   "unicorn": false,
-  "founders": ["Sebastian Diemer", "Alexander Graubner-Müller"],
+  "founders": [
+    "Sebastian Diemer",
+    "Alexander Graubner-Müller"
+  ],
   "funFact": "Kreditech scored loan applicants with a self-learning algorithm that used up to 20,000 data points.",
   "difficulty": 4,
   "techeuId": "673C0F43-43EE-47BC-BFC3-6BB5EFC9067F",
+  "exit": {
+    "kind": "insolvency",
+    "month": "2020-09"
+  },
   "sources": [
     {
       "field": "city",
@@ -43,6 +54,16 @@
       "field": "fun_fact",
       "url": "https://en.wikipedia.org/wiki/Kreditech",
       "quote": "It calculated an individual's credit score in seconds using up to 20,000 data points."
+    },
+    {
+      "field": "exit",
+      "url": "https://fintech.global/2020/09/14/monedo-has-filed-for-bankruptcy-because-of-the-coronavirus/",
+      "quote": "Monedo has filed for bankruptcy because of the coronavirus September 14, 2020"
+    },
+    {
+      "field": "exit",
+      "url": "https://fintech.global/2020/09/14/monedo-has-filed-for-bankruptcy-because-of-the-coronavirus/",
+      "quote": "Founded in 2012 and known for most of its existence as Kreditech"
     }
   ],
   "rounds": [
@@ -52,7 +73,11 @@
       "amountEur": 29372889,
       "amountOriginal": 40000000,
       "currency": "USD",
-      "investors": ["Värde Partners", "Blumberg Capital", "Point Nine Capital"],
+      "investors": [
+        "Värde Partners",
+        "Blumberg Capital",
+        "Point Nine Capital"
+      ],
       "sources": [
         {
           "field": "amount",
@@ -83,7 +108,14 @@
       "amountEur": 82500000,
       "amountOriginal": 82500000,
       "currency": "EUR",
-      "investors": ["J.C. Flowers & Co.", "Peter Thiel", "Amadeus Capital Partners", "Värde Partners", "HPE Growth Capital", "Blumberg Capital"],
+      "investors": [
+        "J.C. Flowers & Co.",
+        "Peter Thiel",
+        "Amadeus Capital Partners",
+        "Värde Partners",
+        "HPE Growth Capital",
+        "Blumberg Capital"
+      ],
       "sources": [
         {
           "field": "amount",
@@ -114,7 +146,9 @@
       "amountEur": 10000000,
       "amountOriginal": 10000000,
       "currency": "EUR",
-      "investors": ["Rakuten"],
+      "investors": [
+        "Rakuten"
+      ],
       "sources": [
         {
           "field": "amount",
@@ -139,7 +173,11 @@
       "amountEur": 20000000,
       "amountOriginal": 20000000,
       "currency": "EUR",
-      "investors": ["Runa Capital", "HPE Growth Capital", "Amadeus Capital Partners"],
+      "investors": [
+        "Runa Capital",
+        "HPE Growth Capital",
+        "Amadeus Capital Partners"
+      ],
       "sources": [
         {
           "field": "amount",

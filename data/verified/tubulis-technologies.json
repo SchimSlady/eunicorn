@@ -21,6 +21,11 @@
   "difficulty": 4,
   "techeuId": "7f828135-922b-4810-90e5-3bc0abf45c05",
   "wikidataId": "Q140045596",
+  "exit": {
+    "kind": "acquisition",
+    "month": "2026-04",
+    "acquirer": "Gilead"
+  },
   "sources": [
     {
       "field": "city",
@@ -46,6 +51,11 @@
       "field": "status",
       "url": "https://tubulis.com",
       "quote": "Tubulis is now part of Gilead Sciences"
+    },
+    {
+      "field": "exit",
+      "url": "https://tubulis.com/news/gilead-to-acquire-tubulis-adding-potentially-best-in-class-antibody-drug-conjugate-and-next-generation-platform-to-further-strengthen-oncology-pipeline/",
+      "quote": "Foster City, Calif., and Munich, Germany – April 7, 2026 – Gilead Sciences, Inc. (Nasdaq: GILD) today announced it has entered into a definitive agreement to acquire Tubulis GmbH"
     }
   ],
   "rounds": [

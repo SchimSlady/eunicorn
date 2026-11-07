@@ -19,6 +19,11 @@
   ],
   "difficulty": 3,
   "techeuId": "EEAC6264-C8AE-4A39-B271-6CCD839ADCD6",
+  "exit": {
+    "kind": "acquisition",
+    "month": "2022-07",
+    "acquirer": "Eutelsat"
+  },
   "sources": [
     {
       "field": "city",
@@ -44,6 +49,11 @@
       "field": "status",
       "url": "https://en.wikipedia.org/wiki/Eutelsat_OneWeb",
       "quote": "In September 2023, Eutelsat announced the completion of its merger with OneWeb"
+    },
+    {
+      "field": "exit",
+      "url": "https://en.wikipedia.org/wiki/Eutelsat_OneWeb",
+      "quote": "The merger of OneWeb with France's Eutelsat S.A. – an operator of geostationary satellites – was announced in July 2022."
     }
   ],
   "rounds": [

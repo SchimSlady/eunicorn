@@ -21,6 +21,11 @@
   "funFact": "Before Kaia Health, co-founders Konstantin Mehl and Manuel Thurner had built the food delivery startup Foodora together.",
   "difficulty": 4,
   "techeuId": "4CC27440-8617-4743-9369-E2A9F630D6E0",
+  "exit": {
+    "kind": "acquisition",
+    "month": "2026-02",
+    "acquirer": "Sword Health"
+  },
   "sources": [
     {
       "field": "city",
@@ -56,6 +61,16 @@
       "field": "programs",
       "url": "https://www.cdtm.com/startups/kaia-health",
       "quote": "CDTM founders Konstantin Mehl Class of Spring 2011"
+    },
+    {
+      "field": "exit",
+      "url": "https://www.munich-startup.de/en/news/kaia-health-becomes-part-of-sword-health",
+      "quote": "February 3, 2026"
+    },
+    {
+      "field": "exit",
+      "url": "https://www.munich-startup.de/en/news/kaia-health-becomes-part-of-sword-health",
+      "quote": "Kaia Health has been acquired by Sword Health."
     }
   ],
   "rounds": [

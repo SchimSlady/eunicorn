@@ -20,6 +20,10 @@
   ],
   "difficulty": 1,
   "techeuId": "D19B0543-AD85-4FC0-ACC0-DD88F5417DFF",
+  "exit": {
+    "kind": "ipo",
+    "month": "2017-06"
+  },
   "sources": [
     {
       "field": "city",
@@ -60,6 +64,11 @@
       "field": "valuation",
       "url": "https://www.thestar.com.my/business/business-news/2017/06/30/delivery-hero-prices-ipo-at-top-end-of-range",
       "quote": "The price gives Delivery Hero a market value of about 4.4 billion euros, based on the number of shares to be outstanding after the offering."
+    },
+    {
+      "field": "exit",
+      "url": "https://en.wikipedia.org/wiki/Delivery_Hero",
+      "quote": "Delivery Hero went public in a listing on the Frankfurt Stock Exchange on 30 June 2017."
     }
   ],
   "rounds": [

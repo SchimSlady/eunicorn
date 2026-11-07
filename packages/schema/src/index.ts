@@ -110,8 +110,15 @@ export interface Company {
    * (CDTM), whose alumni founded it. name and kind repeat the program's so the UI needn't look them up.
    */
   programs?: { programId: string; name: string; kind: ProgramKind; batch?: string }[];
+  /**
+   * How the startup story ended, when it has: the event behind status "acquired", "public" or "defunct".
+   * month is the announcement month ("2020-07-01"); acquirer only for an acquisition.
+   */
+  exit?: { kind: ExitKind; month: ISODate; acquirer?: string };
   verified: boolean;
 }
+
+export type ExitKind = "acquisition" | "ipo" | "insolvency" | "shutdown";
 
 export type ProgramKind = "accelerator" | "fellowship" | "university";
 

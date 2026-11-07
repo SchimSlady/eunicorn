@@ -18,6 +18,11 @@
   ],
   "difficulty": 3,
   "techeuId": "B1446FD7-8D98-4090-BA31-4313E61B3517",
+  "exit": {
+    "kind": "acquisition",
+    "month": "2023-12",
+    "acquirer": "Luxor Capital"
+  },
   "sources": [
     {
       "field": "city",
@@ -43,6 +48,16 @@
       "field": "status",
       "url": "https://en.wikipedia.org/wiki/Volta_Trucks",
       "quote": "was almost immediately bought out of administration by Luxor Capital Partners"
+    },
+    {
+      "field": "exit",
+      "url": "https://truckandbusbuilder.com/article/2023/12/11/volta-trucks-uk-assets-bought-by-new-york-based-investment-firm",
+      "quote": "By Bradley Osborne - 11th December 2023"
+    },
+    {
+      "field": "exit",
+      "url": "https://truckandbusbuilder.com/article/2023/12/11/volta-trucks-uk-assets-bought-by-new-york-based-investment-firm",
+      "quote": "the erstwhile manufacturer of electric trucks based in Stockholm, Sweden which filed for bankruptcy in October, have been acquired by Luxor Capital Group LP of New York City, USA"
     }
   ],
   "rounds": [

@@ -20,6 +20,11 @@
   ],
   "difficulty": 3,
   "techeuId": "5F901920-8E8B-416A-ABDD-300770F378F8",
+  "exit": {
+    "kind": "acquisition",
+    "month": "2021-02",
+    "acquirer": "AppLovin"
+  },
   "sources": [
     {
       "field": "city",
@@ -43,6 +48,11 @@
     },
     {
       "field": "status",
+      "url": "https://en.wikipedia.org/wiki/AppLovin",
+      "quote": "In February 2021, AppLovin announced the acquisition of mobile app measurement company Adjust."
+    },
+    {
+      "field": "exit",
       "url": "https://en.wikipedia.org/wiki/AppLovin",
       "quote": "In February 2021, AppLovin announced the acquisition of mobile app measurement company Adjust."
     }

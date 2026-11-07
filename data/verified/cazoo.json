@@ -18,6 +18,10 @@
   ],
   "difficulty": 2,
   "techeuId": "0A2022E4-4E3E-4E7C-87D9-78A2839666C0",
+  "exit": {
+    "kind": "insolvency",
+    "month": "2024-05"
+  },
   "sources": [
     {
       "field": "city",
@@ -53,6 +57,11 @@
       "field": "valuation",
       "url": "https://www.cnbc.com/2020/10/01/uk-online-used-car-marketplace-cazoo-doubles-valuation-to-2point6-billion.html",
       "quote": "has seen its valuation double to £2 billion ($2.6 billion) after raising £240 million in a bumper round of funding"
+    },
+    {
+      "field": "exit",
+      "url": "https://en.wikipedia.org/wiki/Cazoo",
+      "quote": "On 21 May 2024, Cazoo went into administration putting 208 remaining jobs at risk of redundancy."
     }
   ],
   "rounds": [

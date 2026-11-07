@@ -23,6 +23,11 @@
   "funFact": "About You became Hamburg's first unicorn in July 2018, when Bestseller's holding Heartland A/S joined as an investor.",
   "difficulty": 2,
   "techeuId": "B25AB592-7B46-4F78-ADF8-10E6BD43215C",
+  "exit": {
+    "kind": "acquisition",
+    "month": "2024-12",
+    "acquirer": "Zalando"
+  },
   "sources": [
     {
       "field": "city",
@@ -63,6 +68,16 @@
       "field": "fun_fact",
       "url": "https://corporate.aboutyou.de/de/newsroom/pressemitteilungen/about-you-wird-zum-ersten-unicorn-aus-hamburg-heartland-a-s-steigt-als-neuer-investor-bei-fashion-tech-start-up-ein",
       "quote": "Damit ist das schnell wachsende Fashion-Tech-Start-Up der Otto Group das erste so genannte Unicorn aus Hamburg."
+    },
+    {
+      "field": "exit",
+      "url": "https://corporate.aboutyou.de/en/newsroom/press-releases/zalando-and-about-you-successfully-complete-transaction-and-team-up-to-lead-the-way-in-european-fashion-and-lifestyle-e-commerce",
+      "quote": "Since announcing the intention to team up on 11 December 2024, both Zalando and ABOUT YOU have been preparing for this next phase."
+    },
+    {
+      "field": "exit",
+      "url": "https://corporate.aboutyou.de/en/newsroom/press-releases/zalando-and-about-you-successfully-complete-transaction-and-team-up-to-lead-the-way-in-european-fashion-and-lifestyle-e-commerce",
+      "quote": "Zalando has now acquired 91.45% of ABOUT YOU’s share capital (excluding treasury shares)."
     }
   ],
   "rounds": [

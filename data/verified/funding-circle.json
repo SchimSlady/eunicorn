@@ -20,6 +20,10 @@
   "funFact": "Funding Circle's founders, friends from Oxford, first discussed the idea of a peer-to-peer lending marketplace in a pub in 2008.",
   "difficulty": 2,
   "techeuId": "a91121cf-25f2-47d0-91b7-8c835c2b471e",
+  "exit": {
+    "kind": "ipo",
+    "month": "2018-09"
+  },
   "sources": [
     {
       "field": "city",
@@ -60,6 +64,11 @@
       "field": "fun_fact",
       "url": "https://en.wikipedia.org/wiki/Funding_Circle",
       "quote": "Samir Desai, James Meekings and Andrew Mullinger, friends from University of Oxford , first discussed the idea of a peer-to-peer lending marketplace in a public house in 2008."
+    },
+    {
+      "field": "exit",
+      "url": "https://en.wikipedia.org/wiki/Funding_Circle",
+      "quote": "Funding Circle was listed on the London Stock Exchange in September 2018, raising around £300 million at an initial valuation of £1.5 billion."
     }
   ],
   "rounds": [

@@ -20,6 +20,11 @@
   ],
   "difficulty": 3,
   "techeuId": "7bc2d23e-bc14-4d5e-a3e7-6d7d09203772",
+  "exit": {
+    "kind": "acquisition",
+    "month": "2018-05",
+    "acquirer": "PayPal"
+  },
   "sources": [
     {
       "field": "city",
@@ -50,6 +55,11 @@
       "field": "valuation",
       "url": "https://techcrunch.com/2017/12/13/payments-startup-izettle-raises-47m-as-it-plots-more-expansion-in-europe-and-latam/",
       "quote": "Commerce platform iZettle raises $47M at a $950M valuation"
+    },
+    {
+      "field": "exit",
+      "url": "https://en.wikipedia.org/wiki/IZettle",
+      "quote": "On May 17, 2018, it was reported that PayPal would be buying iZettle for $2.2 billion."
     }
   ],
   "rounds": [

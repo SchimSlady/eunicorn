@@ -21,6 +21,10 @@
   "difficulty": 1,
   "techeuId": "0442420F-3BDA-48B1-B3DA-797DD784B1FB",
   "wikidataId": "Q1165072",
+  "exit": {
+    "kind": "ipo",
+    "month": "2025-09"
+  },
   "sources": [
     {
       "field": "city",
@@ -66,6 +70,11 @@
       "field": "sectors",
       "url": "https://en.wikipedia.org/wiki/Klarna",
       "quote": "Klarna provides digital payments, short-term consumer credit, cards, banking services and merchant tools for online and in-store commerce."
+    },
+    {
+      "field": "exit",
+      "url": "https://en.wikipedia.org/wiki/Klarna",
+      "quote": "Its ordinary shares began trading on the New York Stock Exchange on 10 September 2025 under the ticker symbol KLAR."
     }
   ],
   "rounds": [

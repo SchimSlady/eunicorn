@@ -24,6 +24,10 @@
   "funFact": "Sono Motors began in 2012 in a garage with the conversion of a Renault Twingo, four years before the company was founded.",
   "difficulty": 3,
   "techeuId": "CE43E16D-6EF9-424F-9698-7513C5AEE486",
+  "exit": {
+    "kind": "insolvency",
+    "month": "2026-08"
+  },
   "sources": [
     {
       "field": "city",
@@ -54,7 +58,56 @@
       "field": "fun_fact",
       "url": "https://www.boersen-zeitung.de/personen/sono-motors-ist-fuer-die-gruender-eine-berufung-b00a9fc2-5293-11ec-b45e-40d03ac0b54e",
       "quote": "Angefangen hatte alles im Jahr 2012 in einer Garage mit dem Umbau eines Renault Twingo."
+    },
+    {
+      "field": "exit",
+      "url": "https://sono-solar.com/sono-motors-gmbh-opens-insolvency-proceedings/",
+      "quote": "Munich, August 3, 2026 - Sono Motors GmbH is ceasing its operational business effective July 31, 2026, and initiating insolvency proceedings."
     }
   ],
-  "rounds": []
+  "rounds": [
+    {
+      "stage": "series-c",
+      "month": "2020-12",
+      "amountEur": 45000000,
+      "amountOriginal": 45000000,
+      "currency": "EUR",
+      "investors": [
+        "Swedbank Robur",
+        "DNCA"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://ecomento.de/2020/12/16/sono-motors-100-millionen-euro-eingesammeltes-kapital/",
+          "quote": "Sono Motors gab kürzlich den Abschluss einer Serie C Finanzierungsrunde in Höhe von 45 Millionen Euro bekannt."
+        },
+        {
+          "field": "month",
+          "url": "https://munich-startup.de/news/sono-motors-sammelt-45-millionen-ein",
+          "quote": "14. Dezember 2020"
+        },
+        {
+          "field": "month",
+          "url": "https://ecomento.de/2020/12/16/sono-motors-100-millionen-euro-eingesammeltes-kapital/",
+          "quote": "16.12.2020 in Autoindustrie von Thomas Langenbucher"
+        },
+        {
+          "field": "stage",
+          "url": "https://ecomento.de/2020/12/16/sono-motors-100-millionen-euro-eingesammeltes-kapital/",
+          "quote": "Abschluss einer Serie C Finanzierungsrunde in Höhe von 45 Millionen Euro"
+        },
+        {
+          "field": "investors",
+          "url": "https://ecomento.de/2020/12/16/sono-motors-100-millionen-euro-eingesammeltes-kapital/",
+          "quote": "darunter als Hauptinvestor der Vermögensverwalter Swedbank Robur"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.startbase.com/news/sono-motors-bekommt-45-millionen-euro-in-der-series-c/",
+          "quote": "Swedbank in particular, via its sustainability fund, and the asset manager DNCA from Luxembourg have given 45 million euros in Series C funding"
+        }
+      ]
+    }
+  ]
 }

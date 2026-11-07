@@ -23,6 +23,11 @@
   "difficulty": 2,
   "techeuId": "AD8BA688-57C0-4D4B-80A1-5BDAD299B49C",
   "wikidataId": "Q30899488",
+  "exit": {
+    "kind": "acquisition",
+    "month": "2021-12",
+    "acquirer": "Delivery Hero"
+  },
   "sources": [
     {
       "field": "city",
@@ -68,6 +73,11 @@
       "field": "valuation",
       "url": "https://globalventuring.com/blog/2021/04/01/glovo-covers-529m-funding-delivery/",
       "quote": "The cash was raised at a $2.35bn valuation, people familiar with the matter told the Wall Street Journal."
+    },
+    {
+      "field": "exit",
+      "url": "https://en.wikipedia.org/wiki/Glovo",
+      "quote": "In December 2021, Delivery Hero agreed to increase its stake in Glovo and become the majority shareholder."
     }
   ],
   "rounds": [

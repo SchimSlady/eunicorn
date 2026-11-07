@@ -19,6 +19,11 @@
     "Mustafa Suleyman"
   ],
   "difficulty": 1,
+  "exit": {
+    "kind": "acquisition",
+    "month": "2014-01",
+    "acquirer": "Google"
+  },
   "sources": [
     {
       "field": "city",
@@ -54,6 +59,11 @@
       "field": "fun_fact",
       "url": "https://en.wikipedia.org/wiki/DeepMind",
       "quote": "teaching it how to play Atari video games"
+    },
+    {
+      "field": "exit",
+      "url": "https://en.wikipedia.org/wiki/Google_DeepMind",
+      "quote": "On 26 January 2014, Google confirmed its acquisition of DeepMind for a price reportedly ranging between $400 million and $650 million."
     }
   ],
   "rounds": [],

@@ -17,6 +17,11 @@
   ],
   "difficulty": 3,
   "techeuId": "bfa8747d-4d88-4d07-88bb-3135d9a8b8ed",
+  "exit": {
+    "kind": "acquisition",
+    "month": "2025-11",
+    "acquirer": "Lloyds Banking Group"
+  },
   "sources": [
     {
       "field": "city",
@@ -47,6 +52,16 @@
       "field": "valuation",
       "url": "https://calcalistech.com/ctech/articles/0,7340,L-3766448,00.html",
       "quote": "has raised $55 million according to a $250 million valuation"
+    },
+    {
+      "field": "exit",
+      "url": "https://tech.eu/2025/11/19/curve-confirms-sale-to-lloyds/",
+      "quote": "the UK all-your-cards-in-one-place fintech, has been acquired by banking giant Lloyds Banking Group, the companies have confirmed."
+    },
+    {
+      "field": "exit",
+      "url": "https://tech.eu/2025/11/19/curve-confirms-sale-to-lloyds/",
+      "quote": "19 November 2025"
     }
   ],
   "rounds": [

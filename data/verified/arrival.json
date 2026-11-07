@@ -17,6 +17,10 @@
   ],
   "difficulty": 3,
   "techeuId": "C0C976C8-2E1B-44C0-9089-685B09D178F7",
+  "exit": {
+    "kind": "insolvency",
+    "month": "2024-02"
+  },
   "sources": [
     {
       "field": "city",
@@ -52,6 +56,11 @@
       "field": "valuation",
       "url": "https://www.cnbc.com/2020/01/16/uk-electric-vehicle-start-up-arrival-values-itself-at-3point3-billion.html",
       "quote": "According to Arrival, the investment values the company, which was established in 2015, at a staggering 3 billion euros"
+    },
+    {
+      "field": "exit",
+      "url": "https://en.wikipedia.org/wiki/Arrival_(company)",
+      "quote": "its UK division went into administration in February 2024"
     }
   ],
   "rounds": [

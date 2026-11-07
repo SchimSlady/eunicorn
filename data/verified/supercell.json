@@ -21,6 +21,11 @@
   ],
   "difficulty": 1,
   "techeuId": "505A6C82-B04E-411C-B8EF-CDB8B047CC8F",
+  "exit": {
+    "kind": "acquisition",
+    "month": "2016-06",
+    "acquirer": "Tencent"
+  },
   "sources": [
     {
       "field": "city",
@@ -56,6 +61,16 @@
       "field": "fun_fact",
       "url": "https://en.wikipedia.org/wiki/Supercell_(company)",
       "quote": "The final decision to cancel a project is made by the development team themselves."
+    },
+    {
+      "field": "exit",
+      "url": "https://en.wikipedia.org/wiki/Supercell_(company)",
+      "quote": "In June 2016, Halti S.A., a Luxembourg-based consortium founded that month, acquired 81.4% of Supercell for $8.6 billion."
+    },
+    {
+      "field": "exit",
+      "url": "https://en.wikipedia.org/wiki/Supercell_(company)",
+      "quote": "Halti S.A. was 50%-owned by Chinese technology company Tencent"
     }
   ],
   "rounds": [

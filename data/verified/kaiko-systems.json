@@ -22,6 +22,11 @@
       "id": "start-munich"
     }
   ],
+  "exit": {
+    "kind": "acquisition",
+    "month": "2026-06",
+    "acquirer": "UniSea"
+  },
   "sources": [
     {
       "field": "city",
@@ -62,6 +67,16 @@
       "field": "programs",
       "url": "https://www.startmunich.de/api/startups",
       "quote": "\"name\":\"Kaiko Systems\",\"website\":\"www.kaikosystems.com/\""
+    },
+    {
+      "field": "exit",
+      "url": "https://unisea.no/post/kaiko-systems-acquisition",
+      "quote": "UniSea acquires AI-powered frontline intelligence company Kaiko Systems Sasan Mameghani Product Owner, Maindeck & Inspections June 2, 2026"
+    },
+    {
+      "field": "exit",
+      "url": "https://invest-in.berlin/n/unisea-acquires-berlin-ai-startup-kaiko-systems/",
+      "quote": "Berlin-based maritime tech company Kaiko Systems has been acquired by Norwegian fleet management software provider UniSea"
     }
   ],
   "rounds": [

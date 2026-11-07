@@ -23,6 +23,11 @@
       "id": "manage-and-more"
     }
   ],
+  "exit": {
+    "kind": "acquisition",
+    "month": "2022-05",
+    "acquirer": "Nordic Capital"
+  },
   "sources": [
     {
       "field": "city",
@@ -58,6 +63,16 @@
       "field": "programs",
       "url": "https://www.manageandmore.de/start-ups/",
       "quote": "Proglove proglove.com"
+    },
+    {
+      "field": "exit",
+      "url": "https://www.munich-startup.de/82145/nordic-capital-uebernimmt-mehrheit-an-proglove/",
+      "quote": "Der schwedische Private-Equity-Investor Nordic Capital übernimmt eine Mehrheitsbeteiligung am IoT-Startup Proglove."
+    },
+    {
+      "field": "exit",
+      "url": "https://www.munich-startup.de/82145/nordic-capital-uebernimmt-mehrheit-an-proglove/",
+      "quote": "4. Mai 2022"
     }
   ],
   "rounds": [
