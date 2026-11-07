@@ -83,13 +83,29 @@ export function Hints({
             <p className="mt-1 text-sm text-muted">Free, but they show in your share.</p>
           </div>
           {revealed.length > 0 && (
-            <ol className="divide-y divide-border border-y border-border">
-              {revealed.map((h, i) => (
-                <li key={`${i}-${h.text}`} className="flex animate-pop items-start gap-3 py-3 text-[15px] leading-snug">
-                  <Lightbulb size={18} className="mt-0.5 shrink-0 text-primary" aria-hidden />
-                  <span>{h.text}</span>
-                </li>
-              ))}
+            // Newest first and larger, the one the player just asked for; earlier ones stay below,
+            // smaller and muted (each hint is about a different startup or square, so none is dropped).
+            <ol className="border-y border-border">
+              {[...revealed].reverse().map((h, i) => {
+                const n = revealed.length - i;
+                return i === 0 ? (
+                  <li key={`${n}-${h.text}`} className="flex animate-pop items-start gap-3 py-3.5 text-base font-semibold leading-snug">
+                    <Lightbulb size={20} className="mt-0.5 shrink-0 text-primary" aria-hidden />
+                    <span>
+                      <span className="sr-only">Hint {n}: </span>
+                      {h.text}
+                    </span>
+                  </li>
+                ) : (
+                  <li key={`${n}-${h.text}`} className={`flex items-start gap-3 py-2 text-sm leading-snug text-muted ${i === 1 ? "border-t border-border" : ""}`}>
+                    <span className="w-5 shrink-0 text-center text-xs font-bold tabular-nums">{n}</span>
+                    <span>
+                      <span className="sr-only">Hint {n}: </span>
+                      {h.text}
+                    </span>
+                  </li>
+                );
+              })}
             </ol>
           )}
           {next ? (
