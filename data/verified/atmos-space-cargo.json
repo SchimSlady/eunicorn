@@ -128,45 +128,6 @@
           "quote": "OTB Ventures, leading European SpaceTech investor, is joining the consortium of experienced space tech investors"
         }
       ]
-    },
-    {
-      "stage": "series-a",
-      "month": "2026-04",
-      "amountEur": 25700000,
-      "amountOriginal": 25700000.0,
-      "currency": "EUR",
-      "investors": [
-        "Balnord",
-        "Expansion Ventures",
-        "Keen Defence and Security",
-        "European Innovation Council",
-        "OTB Ventures",
-        "High-Tech Gründerfonds",
-        "APEX Ventures",
-        "Seraphim"
-      ],
-      "sources": [
-        {
-          "field": "amount",
-          "url": "https://vestbee.com/insights/articles/atmos-space-cargo-secures-25-7-m",
-          "quote": "has closed a €25.7 million Series A financing round led by Balnord and Expansion Ventures"
-        },
-        {
-          "field": "stage",
-          "url": "https://vestbee.com/insights/articles/atmos-space-cargo-secures-25-7-m",
-          "quote": "has closed a €25.7 million Series A financing round led by Balnord and Expansion Ventures"
-        },
-        {
-          "field": "month",
-          "url": "https://vestbee.com/insights/articles/atmos-space-cargo-secures-25-7-m",
-          "quote": "April 22, 2026"
-        },
-        {
-          "field": "investors",
-          "url": "https://vestbee.com/insights/articles/atmos-space-cargo-secures-25-7-m",
-          "quote": "The Series A round was supported by Keen Defence and Security and the European Innovation Council (EIC), alongside investors including OTB Ventures, High-Tech Gründerfonds (HTGF), APEX Ventures, Seraphim"
-        }
-      ]
     }
   ]
 }

@@ -90,40 +90,6 @@
           "quote": "has raised €35 million in early-stage equity funding from Blossom Capital , Earlybird VC , and N26-founder Max Tayenthal"
         }
       ]
-    },
-    {
-      "stage": "series-a",
-      "month": "2026-10",
-      "amountEur": 17000000,
-      "amountOriginal": 17000000.0,
-      "currency": "EUR",
-      "investors": [
-        "Big Pi Ventures",
-        "Mainset",
-        "Earlybird"
-      ],
-      "sources": [
-        {
-          "field": "amount",
-          "url": "https://tech.eu/2026/10/06/n26-founder-backed-finmid-raises-eur17m-series-a-extension-strikes-bolt-deal",
-          "quote": "has raised a €17m Series A extension round"
-        },
-        {
-          "field": "stage",
-          "url": "https://tech.eu/2026/10/06/n26-founder-backed-finmid-raises-eur17m-series-a-extension-strikes-bolt-deal",
-          "quote": "has raised a €17m Series A extension round"
-        },
-        {
-          "field": "month",
-          "url": "https://tech.eu/2026/10/06/n26-founder-backed-finmid-raises-eur17m-series-a-extension-strikes-bolt-deal",
-          "quote": "John Reynolds 06 October 2026"
-        },
-        {
-          "field": "investors",
-          "url": "https://www.finmid.com/blog/finmid-raises-17m-beyond-working-capital",
-          "quote": "finmid has raised €17m, led by Big Pi Ventures, with Mainset co-investing and Earlybird following on."
-        }
-      ]
     }
   ]
 }

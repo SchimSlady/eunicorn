@@ -110,52 +110,6 @@
           "quote": "Growth equity firms TCV and Permira co-led the round, which also featured firm HV Holtzbrinck Ventures and European Investment Bank."
         }
       ]
-    },
-    {
-      "techeuId": "135AC7E7-7815-4D6F-92DE-51FDB6E1A881",
-      "stage": "series-f+",
-      "month": "2021-06",
-      "amountEur": 540000000,
-      "amountOriginal": 650000000,
-      "currency": "USD",
-      "postMoneyValuationEur": 2490000000,
-      "investors": [
-        "Canyon Partners",
-        "General Atlantic",
-        "Permira",
-        "TCV",
-        "HV Capital",
-        "BlackRock",
-        "Baillie Gifford",
-        "Silver Lake"
-      ],
-      "sources": [
-        {
-          "field": "amount",
-          "url": "https://www.flixbus.com/company/press-room/flixmobility-raises-new-funding-2021",
-          "quote": "more than $650M in new funding, based on a mix of equity and debt, valuing the business at $3B"
-        },
-        {
-          "field": "stage",
-          "url": "https://www.flixbus.com/company/press-room/flixmobility-raises-new-funding-2021",
-          "quote": "The oversubscribed Series G funding round includes new investor Canyon Partners"
-        },
-        {
-          "field": "month",
-          "url": "https://www.flixbus.com/company/press-room/flixmobility-raises-new-funding-2021",
-          "quote": "Munich, June 2, 2021"
-        },
-        {
-          "field": "investors",
-          "url": "https://www.flixbus.com/company/press-room/flixmobility-raises-new-funding-2021",
-          "quote": "Existing investors include General Atlantic, Permira, TCV, HV Capital, Blackrock, Baillie Gifford and SilverLake"
-        },
-        {
-          "field": "valuation",
-          "url": "https://www.flixbus.com/company/press-room/flixmobility-raises-new-funding-2021",
-          "quote": "more than $650M in new funding, based on a mix of equity and debt, valuing the business at $3B"
-        }
-      ]
     }
   ]
 }

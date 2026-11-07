@@ -119,6 +119,38 @@
           "quote": "KoRo raises €35 million in an oversubscribed Series C round led by Coefficient Capital with strong participation from existing investors Five Seasons Ventures, HV Capital, Partech, Haub Legacy Ventures and Seven Ventures"
         }
       ]
+    },
+    {
+      "stage": "series-c",
+      "month": "2025-02",
+      "amountEur": 5000000,
+      "amountOriginal": 5000000,
+      "currency": "EUR",
+      "investors": [
+        "Kharis Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.just-food.com/news/koro-garners-funding-from-kharis",
+          "quote": "Kharis Capital has provided €5m ($5.2m) in an extension to the Series C"
+        },
+        {
+          "field": "month",
+          "url": "https://www.just-food.com/news/koro-garners-funding-from-kharis",
+          "quote": "February 28, 2025"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.just-food.com/news/koro-garners-funding-from-kharis",
+          "quote": "Kharis Capital has provided €5m ($5.2m) in an extension to the Series C"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.just-food.com/news/koro-garners-funding-from-kharis",
+          "quote": "Kharis Capital said in a statement it had invested in the Berlin-based company through its Kharis Food Tech Fund"
+        }
+      ]
     }
   ]
 }
