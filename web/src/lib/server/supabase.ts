@@ -67,6 +67,8 @@ interface CompanyRow {
   employees: number | null;
   careers_url: string | null;
   fun_fact: string | null;
+  /** Absent until migration 20261107180000_company_tagline is applied. */
+  tagline?: string | null;
   difficulty: Company["difficulty"];
   company_founders: { person_id: string }[];
 }
@@ -160,6 +162,7 @@ export async function getDataset(): Promise<(Omit<Dataset, "rounds"> & { rounds:
         programs: programsOf.get(c.id),
         employees: c.employees ?? undefined,
         careersUrl: c.careers_url ?? undefined,
+        tagline: c.tagline ?? undefined,
         funFact: c.fun_fact ?? undefined,
         difficulty: c.difficulty,
         verified: true,
