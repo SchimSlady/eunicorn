@@ -178,7 +178,7 @@ export function ImpostorGame({ region }: { region?: Region } = {}) {
       {/* The companies on a circle around the category; click the ones that don't belong; each click is judged at once. */}
       <div className="relative mx-auto aspect-square w-full max-w-[460px]">
         <span aria-hidden className="absolute inset-[13%] rounded-full border-2 border-dashed border-border" />
-        <p className="absolute inset-[30%] flex items-center justify-center rounded-full bg-eu-blue p-3 text-center font-display text-sm font-bold leading-snug text-white sm:text-base">
+        <p className="absolute inset-[31.5%] flex items-center justify-center rounded-full bg-eu-blue p-3 text-center font-display text-sm font-bold leading-snug text-white sm:text-base">
           {play.prompt}
         </p>
         <ul>
@@ -195,10 +195,10 @@ export function ImpostorGame({ region }: { region?: Region } = {}) {
               impostor: "ring-correct",
               genuine: "ring-border opacity-60",
             }[state];
-            // Start at the top and go clockwise. Up to 6 options: big tiles 37% out; more: smaller tiles, wider ring.
+            // Start at the top and go clockwise. Up to 6 options: big tiles 39% out; more: smaller tiles, wider ring.
             const a = -Math.PI / 2 + (i * 2 * Math.PI) / play.companyIds.length;
             const many = play.companyIds.length > 6;
-            const r = many ? 40 : 37;
+            const r = many ? 40 : 39;
             const face = (
               <>
               <span className={`relative rounded-[22%] ring-[3px] transition ${ring}`}>
