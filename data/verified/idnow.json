@@ -30,6 +30,11 @@
       "id": "start-munich"
     }
   ],
+  "exit": {
+    "kind": "acquisition",
+    "month": "2025-03",
+    "acquirer": "Corsair Capital"
+  },
   "sources": [
     {
       "field": "city",
@@ -80,6 +85,16 @@
       "field": "programs",
       "url": "https://www.startmunich.de/api/startups",
       "quote": "\"name\":\"IDNow\",\"website\":\"www.idnow.io/de/\""
+    },
+    {
+      "field": "exit",
+      "url": "https://www.munich-startup.de/en/news/idnow-sold-to-american-investment-firm",
+      "quote": "Munich identity verification platform provider IDnow announces majority acquisition by private equity firm Corsair Capital."
+    },
+    {
+      "field": "exit",
+      "url": "https://www.munich-startup.de/en/news/idnow-sold-to-american-investment-firm",
+      "quote": "March 12, 2025"
     }
   ],
   "rounds": [

@@ -24,6 +24,11 @@
       "id": "cdtm"
     }
   ],
+  "exit": {
+    "kind": "acquisition",
+    "month": "2020-07",
+    "acquirer": "Zur Rose"
+  },
   "sources": [
     {
       "field": "city",
@@ -59,6 +64,16 @@
       "field": "programs",
       "url": "https://www.cdtm.com/startups/teleclinic",
       "quote": "CDTM founders Katharina Jünger Class of Fall 2014"
+    },
+    {
+      "field": "exit",
+      "url": "https://www.munich-startup.de/news/teleclinic-von-zur-rose-gruppe-uebernommen",
+      "quote": "Die Schweizer Zur Rose-Gruppe, in Deutschland mit der Apothekenmarke Docmorris aktiv, hat das Münchner Startup Teleclinic übernommen."
+    },
+    {
+      "field": "exit",
+      "url": "https://www.munich-startup.de/news/teleclinic-von-zur-rose-gruppe-uebernommen",
+      "quote": "23. Juli 2020"
     }
   ],
   "rounds": [

@@ -18,6 +18,10 @@
   ],
   "difficulty": 1,
   "techeuId": "A0FC65E1-15EB-4439-92CD-F5E94CDFEE4F",
+  "exit": {
+    "kind": "ipo",
+    "month": "2018-06"
+  },
   "sources": [
     {
       "field": "city",
@@ -63,6 +67,11 @@
       "field": "unicorn",
       "url": "https://www.adyen.com/press-and-media/adyen-ipo-priced-at-240-per-share",
       "quote": "The Offer Price has been set at €240, implying a market capitalization of €7.1 billion"
+    },
+    {
+      "field": "exit",
+      "url": "https://en.wikipedia.org/wiki/Adyen",
+      "quote": "The IPO took place on 13 June 2018."
     }
   ],
   "rounds": [

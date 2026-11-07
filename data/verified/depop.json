@@ -16,6 +16,11 @@
   ],
   "difficulty": 3,
   "techeuId": "20EF5061-C166-4540-A295-1C55B5B397FD",
+  "exit": {
+    "kind": "acquisition",
+    "month": "2021-06",
+    "acquirer": "Etsy"
+  },
   "sources": [
     {
       "field": "city",
@@ -41,6 +46,11 @@
       "field": "status",
       "url": "https://en.wikipedia.org/wiki/Depop",
       "quote": "The acquisition was completed in July 2026 following approval by the UK's Competition and Markets Authority (CMA)."
+    },
+    {
+      "field": "exit",
+      "url": "https://en.wikipedia.org/wiki/Depop",
+      "quote": "In June 2021, Depop was acquired by Etsy for $1.6 billion in cash"
     }
   ],
   "rounds": [

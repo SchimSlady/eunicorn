@@ -20,6 +20,11 @@
   ],
   "difficulty": 2,
   "techeuId": "8A4ED704-106D-490F-A2CE-53A33933D638",
+  "exit": {
+    "kind": "acquisition",
+    "month": "2026-09",
+    "acquirer": "Bending Spoons"
+  },
   "sources": [
     {
       "field": "city",
@@ -60,6 +65,11 @@
       "field": "status",
       "url": "https://thenextweb.com/news/bending-spoons-completes-miro-deal",
       "quote": "The Milan group closed the all-cash Miro deal on Monday"
+    },
+    {
+      "field": "exit",
+      "url": "https://en.wikipedia.org/wiki/Miro_(collaboration_platform)",
+      "quote": "In September 2026, the Italian software company Bending Spoons agreed to acquire Miro."
     }
   ],
   "rounds": [

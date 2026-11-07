@@ -1,0 +1,190 @@
+{
+  "id": "made-com",
+  "name": "Made.com",
+  "aliases": [
+    "MADE.COM",
+    "Made.com Group"
+  ],
+  "domain": "made.com",
+  "country": "GB",
+  "city": "London",
+  "founded": 2010,
+  "sectors": [
+    "consumer"
+  ],
+  "status": "acquired",
+  "unicorn": false,
+  "founders": [
+    "Ning Li",
+    "Brent Hoberman"
+  ],
+  "difficulty": 3,
+  "lastValuationEur": 902947687,
+  "exit": {
+    "kind": "acquisition",
+    "month": "2022-11",
+    "acquirer": "Next"
+  },
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://techcrunch.com/2022/11/09/next-acquires-made-coms-brand-and-ip-as-the-online-furniture-retailer-enters-administration/",
+      "quote": "Founded out of London in 2010, Made.com emerged as one of the U.K.’s most promising startups"
+    },
+    {
+      "field": "founded",
+      "url": "https://techcrunch.com/2022/11/09/next-acquires-made-coms-brand-and-ip-as-the-online-furniture-retailer-enters-administration/",
+      "quote": "Founded out of London in 2010, Made.com emerged as one of the U.K.’s most promising startups"
+    },
+    {
+      "field": "founders",
+      "url": "https://techcrunch.com/2012/01/11/made-com-raises-6m-in-series-b-financing-2/",
+      "quote": "The brainchild of serial entrepreneurs Ning Li and Brent Hoberman"
+    },
+    {
+      "field": "sectors",
+      "url": "https://techcrunch.com/2012/01/11/made-com-raises-6m-in-series-b-financing-2/",
+      "quote": "a London based start-up that offers consumers designer furniture online at factory prices"
+    },
+    {
+      "field": "status",
+      "url": "https://techcrunch.com/2022/11/09/next-acquires-made-coms-brand-and-ip-as-the-online-furniture-retailer-enters-administration/",
+      "quote": "Made.com’s domain names, intellectual property and brand have been acquired by Next"
+    },
+    {
+      "field": "exit",
+      "url": "https://techcrunch.com/2022/11/09/next-acquires-made-coms-brand-and-ip-as-the-online-furniture-retailer-enters-administration/",
+      "quote": "Made.com’s domain names, intellectual property and brand have been acquired by Next"
+    },
+    {
+      "field": "valuation",
+      "url": "https://techcrunch.com/2022/11/01/16-months-after-its-ipo-uk-online-retailer-made-com-prepares-for-administration/",
+      "quote": "Made.com priced its shares initially at 200 pence, giving it a valuation of around £775 million ($894 million)"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://techcrunch.com/2022/11/01/16-months-after-its-ipo-uk-online-retailer-made-com-prepares-for-administration/",
+      "quote": "Made.com priced its shares initially at 200 pence, giving it a valuation of around £775 million ($894 million)"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "seed",
+      "month": "2010-03",
+      "amountEur": 2780868,
+      "amountOriginal": 2500000,
+      "currency": "GBP",
+      "investors": [
+        "Brent Hoberman",
+        "Michael Birch"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.theguardian.com/business/2010/mar/22/made-com-furniture-website",
+          "quote": "Investors including Lastminute.com founder Brent Hoberman and Bebo co-founder Michael Birch have pumped £2.5m into a new dotcom company"
+        },
+        {
+          "field": "month",
+          "url": "https://www.theguardian.com/business/2010/mar/22/made-com-furniture-website",
+          "quote": "Mon 22 Mar 2010"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.theguardian.com/business/2010/mar/22/made-com-furniture-website",
+          "quote": "Investors including Lastminute.com founder Brent Hoberman and Bebo co-founder Michael Birch have pumped £2.5m into a new dotcom company"
+        }
+      ]
+    },
+    {
+      "stage": "series-b",
+      "month": "2012-01",
+      "amountEur": 7264802,
+      "amountOriginal": 6000000,
+      "currency": "GBP",
+      "investors": [
+        "Level Equity"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2012/01/11/made-com-raises-6m-in-series-b-financing-2/",
+          "quote": "has raised a £6 million series B funding to expand its brand in the UK and fuel international expansion"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2012/01/11/made-com-raises-6m-in-series-b-financing-2/",
+          "quote": "has raised a £6 million series B funding to expand its brand in the UK and fuel international expansion"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2012/01/11/made-com-raises-6m-in-series-b-financing-2/",
+          "quote": "January 11, 2012"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2012/01/11/made-com-raises-6m-in-series-b-financing-2/",
+          "quote": "New York-based growth equity investor, Level Equity, led the funding round"
+        }
+      ]
+    },
+    {
+      "stage": "series-c",
+      "month": "2015-07",
+      "amountEur": 55289348,
+      "amountOriginal": 60000000,
+      "currency": "USD",
+      "investors": [
+        "Partech",
+        "Fidelity Growth Partners",
+        "Level Equity"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2015/07/19/made-com-raises-60m-to-accelerate-european-expansion-led-by-partech-and-fidelity/",
+          "quote": "a new fundraising of $60 million growth round to accelerate its European expansion led by Partech Growth Fund and supported by Fidelity Growth Partners as well as existing investor Level Equity"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2015/07/19/made-com-raises-60m-to-accelerate-european-expansion-led-by-partech-and-fidelity/",
+          "quote": "July 19, 2015"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2015/07/19/made-com-raises-60m-to-accelerate-european-expansion-led-by-partech-and-fidelity/",
+          "quote": "a new fundraising of $60 million growth round to accelerate its European expansion led by Partech Growth Fund and supported by Fidelity Growth Partners as well as existing investor Level Equity"
+        }
+      ]
+    },
+    {
+      "stage": "series-d",
+      "month": "2018-03",
+      "amountEur": 45665750,
+      "amountOriginal": 40000000,
+      "currency": "GBP",
+      "investors": [
+        "Partech",
+        "Level Equity",
+        "Eight Roads Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2018/03/19/made-com-raises-another-56-million/",
+          "quote": "This mysterious investor is willing to lead a new $56 million round (£40 million) with existing investors Partech Ventures, Level Equity and Eight Roads Ventures also participating"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2018/03/19/made-com-raises-another-56-million/",
+          "quote": "March 19, 2018"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2018/03/19/made-com-raises-another-56-million/",
+          "quote": "This mysterious investor is willing to lead a new $56 million round (£40 million) with existing investors Partech Ventures, Level Equity and Eight Roads Ventures also participating"
+        }
+      ]
+    }
+  ]
+}

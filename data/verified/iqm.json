@@ -22,6 +22,10 @@
   "difficulty": 3,
   "techeuId": "1acde332-8cfe-4a71-8ae8-aa04d46bc404",
   "wikidataId": null,
+  "exit": {
+    "kind": "ipo",
+    "month": "2026-07"
+  },
   "sources": [
     {
       "field": "city",
@@ -47,6 +51,11 @@
       "field": "status",
       "url": "https://thequantuminsider.com/2026/07/01/iqm-completes-raaq-business-combination/",
       "quote": "becoming a publicly traded company on the Nasdaq"
+    },
+    {
+      "field": "exit",
+      "url": "https://thequantuminsider.com/2026/07/01/iqm-completes-raaq-business-combination/",
+      "quote": "Trading of IQM's American Depositary Shares (ADSs) under the ticker IQMX and IQM Warrants under IQMX WS will begin on July 2, 2026."
     }
   ],
   "rounds": [

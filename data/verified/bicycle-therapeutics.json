@@ -16,6 +16,10 @@
   "founders": [],
   "difficulty": 4,
   "techeuId": "6BD8727A-CBC0-459C-9F92-656E6E823683",
+  "exit": {
+    "kind": "ipo",
+    "month": "2019-05"
+  },
   "sources": [
     {
       "field": "city",
@@ -41,6 +45,16 @@
       "field": "valuation",
       "url": "https://www.biocentury.com/article/302274",
       "quote": "at $14, the low end of its $14-$16 range, giving it a valuation of $247.7 million"
+    },
+    {
+      "field": "exit",
+      "url": "https://www.biocentury.com/article/302274",
+      "quote": "May 23, 2019 5:02 PM UTC"
+    },
+    {
+      "field": "exit",
+      "url": "https://www.biocentury.com/article/302274",
+      "quote": "A pair of newly listed biotechs trended in opposite directions during first-day trading Thursday."
     }
   ],
   "rounds": [

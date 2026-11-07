@@ -19,6 +19,11 @@
   ],
   "difficulty": 4,
   "techeuId": "7E4A3AFF-7A24-45EF-A3EB-A1793DD8165D",
+  "exit": {
+    "kind": "acquisition",
+    "month": "2023-11",
+    "acquirer": "Oda"
+  },
   "sources": [
     {
       "field": "city",
@@ -54,6 +59,16 @@
       "field": "valuation",
       "url": "https://fashionunited.ca/news/business/kinnevik-s-net-asset-value-declines-by-10-percent-in-q2/2022071124654",
       "quote": "Kinnevik also participated in Mathem’s funding round valuing the company at 2.3 billion Swedish krona"
+    },
+    {
+      "field": "exit",
+      "url": "https://www.di.se/digital/mathem-far-ny-agare-lovar-lagre-matpriser/",
+      "quote": "Mathem köps av sin norska motsvarighet Oda"
+    },
+    {
+      "field": "exit",
+      "url": "https://www.di.se/digital/mathem-far-ny-agare-lovar-lagre-matpriser/",
+      "quote": "Publicerad: 16 november 2023"
     }
   ],
   "rounds": [

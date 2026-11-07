@@ -18,6 +18,11 @@
   ],
   "difficulty": 2,
   "techeuId": "2910C620-5FAB-4765-A56D-AE45AF45DFDA",
+  "exit": {
+    "kind": "acquisition",
+    "month": "2026-06",
+    "acquirer": "Salesforce"
+  },
   "sources": [
     {
       "field": "city",
@@ -53,6 +58,21 @@
       "field": "status",
       "url": "https://www.salesforce.com/news/press-releases/2026/01/22/salesforce-signs-definitive-agreement-to-acquire-contentful/",
       "quote": "Salesforce completed its acquisition of Contentful on September 1, 2026"
+    },
+    {
+      "field": "exit",
+      "url": "https://www.salesforce.com/news/press-releases/2026/01/22/salesforce-signs-definitive-agreement-to-acquire-contentful/",
+      "quote": "Salesforce Signs Definitive Agreement to Acquire Contentful June 1, 2026"
+    },
+    {
+      "field": "exit",
+      "url": "https://www.salesforce.com/news/press-releases/2026/01/22/salesforce-signs-definitive-agreement-to-acquire-contentful/",
+      "quote": "Salesforce, the #1 AI CRM, today announced it has signed a definitive agreement to acquire Contentful"
+    },
+    {
+      "field": "exit",
+      "url": "https://en.wikipedia.org/wiki/Contentful",
+      "quote": "In June 2026, Contentful was acquired [ 12 ] by Salesforce"
     }
   ],
   "rounds": [

@@ -21,6 +21,10 @@
   ],
   "difficulty": 3,
   "techeuId": "C7A4A367-F399-44A3-BA3D-43D2021485A3",
+  "exit": {
+    "kind": "insolvency",
+    "month": "2025-03"
+  },
   "sources": [
     {
       "field": "city",
@@ -66,6 +70,16 @@
       "field": "status",
       "url": "https://en.wikipedia.org/wiki/Ynsect",
       "quote": "On December 1, 2025, the Evry commercial court ordered the company's judicial liquidation."
+    },
+    {
+      "field": "exit",
+      "url": "https://en.wikipedia.org/wiki/Ynsect",
+      "quote": "The company was placed into judicial reorganization on March 3."
+    },
+    {
+      "field": "exit",
+      "url": "https://en.wikipedia.org/wiki/Ynsect",
+      "quote": "On February 17, 2025, the application deadline, no takeover or investment offers had been submitted to the commercial court"
     }
   ],
   "rounds": [
@@ -94,6 +108,169 @@
           "field": "investors",
           "url": "https://en.wikipedia.org/wiki/Ynsect",
           "quote": "raising €1.8 million from shareholders such as Emertec Gestion and Demeter Partners"
+        }
+      ]
+    },
+    {
+      "stage": "series-a",
+      "month": "2014-12",
+      "amountEur": 5500000,
+      "amountOriginal": 5500000,
+      "currency": "EUR",
+      "investors": [
+        "New Protein Capital",
+        "Emertec Gestion",
+        "Demeter Partners"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.maddyness.com/2014/12/17/ynsect/",
+          "quote": "vient d'annoncer avoir bouclé une seconde levée de fonds de 5,5 millions d'euros"
+        },
+        {
+          "field": "month",
+          "url": "https://www.maddyness.com/2014/12/17/ynsect/",
+          "quote": "17 décembre 2014"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.maddyness.com/2014/12/17/ynsect/",
+          "quote": "9 mois après un premier tour de table de 1,8 million d'euros"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.maddyness.com/2014/12/17/ynsect/",
+          "quote": "auprès de New Protein Capital (basé à Singapour), qui rejoint au board les investisseurs historiques : Emertec Gestion et Demeter Partners. Ces derniers participent également à l'opération."
+        }
+      ]
+    },
+    {
+      "stage": "series-b",
+      "month": "2016-12",
+      "amountEur": 14200000,
+      "amountOriginal": 14200000,
+      "currency": "EUR",
+      "investors": [
+        "Future Positive Capital",
+        "Quadia",
+        "Bpifrance Ecotechnologies",
+        "Emertec Gestion",
+        "Demeter Partners",
+        "Vis Vires New Protein Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.alantra.com/ib-transaction/ynsect-capital-raise-future-positive-capital-bpifrance/",
+          "quote": "capital raise of €14.2m Series B round led by Future Positive Capital, Quadia SA and Bpifrance Ecotechnologies"
+        },
+        {
+          "field": "month",
+          "url": "https://agfundernews.com/ynsect-raises-15-2m-series-b-robotics-enabled-insect-farm-replace-fishmeal",
+          "quote": "December 14, 2016"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.alantra.com/ib-transaction/ynsect-capital-raise-future-positive-capital-bpifrance/",
+          "quote": "€14.2m Series B round"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.alantra.com/ib-transaction/ynsect-capital-raise-future-positive-capital-bpifrance/",
+          "quote": "led by Future Positive Capital, Quadia SA and Bpifrance Ecotechnologies, with participation from existing investors Emertec, Demeter, Vis Vires New Protein Capital, and Business Angels"
+        }
+      ]
+    },
+    {
+      "stage": "series-c",
+      "month": "2019-02",
+      "amountEur": 110209840,
+      "amountOriginal": 125000000,
+      "currency": "USD",
+      "investors": [
+        "Astanor Ventures",
+        "Bpifrance Ecotechnologies",
+        "Demeter Partners",
+        "Quadia",
+        "Vis Vires New Protein",
+        "Bpifrance Large Venture",
+        "Talis Capital",
+        "Idinvest Partners",
+        "Crédit Agricole Brie Picardie",
+        "Caisse d'Epargne Hauts-de-France",
+        "Picardie Investissement",
+        "Finasucre",
+        "Compagnie du Bois Sauvage",
+        "Happiness Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://agfundernews.com/breaking-french-insect-farming-startup-ynsect-raises-125m-series-c-breaking-european-agtech-record.html",
+          "quote": "has raised $125 million in Series C funding"
+        },
+        {
+          "field": "month",
+          "url": "https://agfundernews.com/breaking-french-insect-farming-startup-ynsect-raises-125m-series-c-breaking-european-agtech-record.html",
+          "quote": "February 20, 2019"
+        },
+        {
+          "field": "stage",
+          "url": "https://agfundernews.com/breaking-french-insect-farming-startup-ynsect-raises-125m-series-c-breaking-european-agtech-record.html",
+          "quote": "has raised $125 million in Series C funding"
+        },
+        {
+          "field": "investors",
+          "url": "https://agfundernews.com/breaking-french-insect-farming-startup-ynsect-raises-125m-series-c-breaking-european-agtech-record.html",
+          "quote": "The investment round was led by Astanor Ventures"
+        },
+        {
+          "field": "investors",
+          "url": "https://agfundernews.com/breaking-french-insect-farming-startup-ynsect-raises-125m-series-c-breaking-european-agtech-record.html",
+          "quote": "Bpifrance Ecotechnologies, managed on behalf of the French Strategic Investment Plan, Demeter, Quadia, and Singapore's Vis Vires New Protein Ventures are participating in this latest round, alongside Bpifrance Large Venture, Talis Capital (UK), Idinvest Partners, Crédit Agricole Brie Picardie, Caisse d'Epargne Hauts-de-France and Picardie Investissement (France), Finasucre and Compagnie du Bois Sauvage (Belgium), Happiness Capital (Hong Kong)"
+        }
+      ]
+    },
+    {
+      "stage": "series-c",
+      "month": "2020-10",
+      "amountEur": 55108097,
+      "amountOriginal": 65000000,
+      "currency": "USD",
+      "investors": [
+        "Astanor Ventures",
+        "Upfront Ventures",
+        "FootPrint Coalition",
+        "Happiness Capital",
+        "Supernova Invest",
+        "Armat Group"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2020/10/06/ynsect-the-makers-of-the-worlds-most-expensive-bug-farm-raises-another-224-million/",
+          "quote": "the financing, which includes $139 million in debt and another $65 million in equity"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2020/10/06/ynsect-the-makers-of-the-worlds-most-expensive-bug-farm-raises-another-224-million/",
+          "quote": "October 6, 2020"
+        },
+        {
+          "field": "stage",
+          "url": "https://agfundernews.com/ynsect-extends-series-c-to-372m-targets-pet-food-declares-itself-carbon-negative",
+          "quote": "participated in the Series C extension along with Upfront Ventures"
+        },
+        {
+          "field": "investors",
+          "url": "https://agfundernews.com/ynsect-extends-series-c-to-372m-targets-pet-food-declares-itself-carbon-negative",
+          "quote": "lead investor Astanor Ventures participated in the Series C extension along with Upfront Ventures"
+        },
+        {
+          "field": "investors",
+          "url": "https://agfundernews.com/ynsect-extends-series-c-to-372m-targets-pet-food-declares-itself-carbon-negative",
+          "quote": "existing investors Happiness Capital , Supernova Invest , and Armat Group"
         }
       ]
     }

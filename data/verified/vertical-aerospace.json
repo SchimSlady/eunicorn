@@ -16,6 +16,10 @@
   ],
   "difficulty": 4,
   "techeuId": "3BB68EA2-FAAD-4C4E-9A67-C63D82CA9D61",
+  "exit": {
+    "kind": "ipo",
+    "month": "2021-12"
+  },
   "sources": [
     {
       "field": "city",
@@ -46,6 +50,11 @@
       "field": "unicorn",
       "url": "https://en.wikipedia.org/wiki/Vertical_Aerospace",
       "quote": "In June 2021, it was announced that the company would merge with Broadstone Acquisition Corp, a special-purpose acquisition company (SPAC)"
+    },
+    {
+      "field": "exit",
+      "url": "https://en.wikipedia.org/wiki/Vertical_Aerospace",
+      "quote": "In December 2021, following the SPAC merger with Broadstone Acquisition Corp."
     }
   ],
   "rounds": [

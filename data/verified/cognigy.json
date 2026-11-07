@@ -18,6 +18,11 @@
   ],
   "difficulty": 4,
   "techeuId": "8A6ABF97-C098-48A3-86EF-3E696D9B3B3D",
+  "exit": {
+    "kind": "acquisition",
+    "month": "2025-07",
+    "acquirer": "NICE"
+  },
   "sources": [
     {
       "field": "city",
@@ -43,6 +48,11 @@
       "field": "status",
       "url": "https://dallasinnovates.com/nice-closes-955m-acquisition-of-cognigy-whose-u-s-hq-recently-relocated-to-plano/",
       "quote": "Former Cognigy CEO Philipp Heltewig will now serve as general manager of NiCE Cognigy and chief AI officer."
+    },
+    {
+      "field": "exit",
+      "url": "https://www.callcentrehelper.com/nice-acquires-cognity-260529.htm",
+      "quote": "Published On: 28th Jul 2025 11:41 - Modified: 30th Jul 2025 NiCE have just announced a $955 million definitive agreement to acquire Cognigy"
     }
   ],
   "rounds": [

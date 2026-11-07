@@ -19,6 +19,10 @@
   ],
   "difficulty": 2,
   "techeuId": "35D52A84-6044-4156-B6A7-EBE61D9DDC99",
+  "exit": {
+    "kind": "ipo",
+    "month": "2021-07"
+  },
   "sources": [
     {
       "field": "city",
@@ -64,6 +68,11 @@
       "field": "fun_fact",
       "url": "https://en.wikipedia.org/wiki/Wise_(company)",
       "quote": "the company rebranded from TransferWise to Wise"
+    },
+    {
+      "field": "exit",
+      "url": "https://en.wikipedia.org/wiki/Wise_(company)",
+      "quote": "On 7 July 2021, Wise went public with a direct listing on the London Stock Exchange and was valued at $11 billion."
     }
   ],
   "rounds": [

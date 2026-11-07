@@ -17,6 +17,11 @@
   ],
   "difficulty": 3,
   "techeuId": "af994daa-c5e4-485c-b342-415b62113f0e",
+  "exit": {
+    "kind": "acquisition",
+    "month": "2021-06",
+    "acquirer": "Visa"
+  },
   "sources": [
     {
       "field": "city",
@@ -47,6 +52,16 @@
       "field": "valuation",
       "url": "https://techcrunch.com/2020/12/11/swedens-tink-raises-103m-as-its-open-banking-platform-grows-to-3400-banks-and-250m-customers/",
       "quote": "at a post-money valuation of €680 million"
+    },
+    {
+      "field": "exit",
+      "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.17981.html",
+      "quote": "Visa (NYSE: V) today announced it has signed a definitive agreement to acquire Tink"
+    },
+    {
+      "field": "exit",
+      "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.17981.html",
+      "quote": "--(BUSINESS WIRE)--Jun. 24, 2021--"
     }
   ],
   "rounds": [

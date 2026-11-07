@@ -19,6 +19,11 @@
   ],
   "difficulty": 2,
   "techeuId": "21E363E0-BA7D-4D47-ABEA-274DD7DAE075",
+  "exit": {
+    "kind": "acquisition",
+    "month": "2025-12",
+    "acquirer": "Mollie"
+  },
   "sources": [
     {
       "field": "city",
@@ -59,6 +64,16 @@
       "field": "programs",
       "url": "https://yc-oss.github.io/api/batches/summer-2011/gocardless.json",
       "quote": "\"batch\": \"Summer 2011\""
+    },
+    {
+      "field": "exit",
+      "url": "https://en.wikipedia.org/wiki/GoCardless",
+      "quote": "In December 2025, Mollie announced that it had signed an agreement to acquire GoCardless"
+    },
+    {
+      "field": "exit",
+      "url": "https://gocardless.com/en-us/blog/mollie-and-gocardless-combine",
+      "quote": "September 1, 2026 — Mollie today announced it has completed its acquisition of GoCardless"
     }
   ],
   "rounds": [

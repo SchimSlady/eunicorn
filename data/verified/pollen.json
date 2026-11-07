@@ -1,0 +1,127 @@
+{
+  "id": "pollen",
+  "name": "Pollen",
+  "aliases": [
+    "Verve",
+    "StreetTeam"
+  ],
+  "domain": "pollen.co",
+  "country": "GB",
+  "city": "London",
+  "founded": 2014,
+  "sectors": [
+    "consumer",
+    "travel"
+  ],
+  "status": "defunct",
+  "unicorn": false,
+  "founders": [
+    "Callum Negus-Fancey",
+    "Liam Negus-Fancey"
+  ],
+  "difficulty": 4,
+  "exit": {
+    "kind": "insolvency",
+    "month": "2022-08"
+  },
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.musicbusinessworldwide.com/music-and-experiences-company-pollen-raises-150m-in-series-c-round/",
+      "quote": "Founded in 2014 by brothers Callum & Liam Negus-Fancey, the London-headquartered music, travel and experiences company"
+    },
+    {
+      "field": "founded",
+      "url": "https://www.musicbusinessworldwide.com/music-and-experiences-company-pollen-raises-150m-in-series-c-round/",
+      "quote": "Founded in 2014 by brothers Callum & Liam Negus-Fancey, the London-headquartered music, travel and experiences company"
+    },
+    {
+      "field": "founders",
+      "url": "https://www.musicbusinessworldwide.com/music-and-experiences-company-pollen-raises-150m-in-series-c-round/",
+      "quote": "Founded in 2014 by brothers Callum & Liam Negus-Fancey, the London-headquartered music, travel and experiences company"
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.musicbusinessworldwide.com/music-and-experiences-company-pollen-raises-150m-in-series-c-round/",
+      "quote": "Founded in 2014 by brothers Callum & Liam Negus-Fancey, the London-headquartered music, travel and experiences company"
+    },
+    {
+      "field": "status",
+      "url": "https://www.uktech.news/events/pollen-administration-20220810",
+      "quote": "London-based events startup Pollen has entered administration after failing to find a buyer."
+    },
+    {
+      "field": "exit",
+      "url": "https://www.uktech.news/events/pollen-administration-20220810",
+      "quote": "London-based events startup Pollen has entered administration after failing to find a buyer."
+    },
+    {
+      "field": "unicorn",
+      "url": "https://techcrunch.com/2019/10/24/verve-an-events-platform-based-around-influencers-raises-60m-and-rebrands-as-pollen/",
+      "quote": "while it is not disclosing its valuation"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-b",
+      "month": "2019-10",
+      "amountEur": 53918045,
+      "amountOriginal": 60000000,
+      "currency": "USD",
+      "investors": [
+        "Northzone",
+        "Sienna Capital",
+        "Draper Esprit",
+        "Backed",
+        "Kindred"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2019/10/24/verve-an-events-platform-based-around-influencers-raises-60m-and-rebrands-as-pollen/",
+          "quote": "The company today is announcing that it has raised $60 million as it rebrands to a new name, Pollen"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.uktech.news/travel/pollen-timeline-adminstration-recap-20220824",
+          "quote": "October 2019 – $60m Series B"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2019/10/24/verve-an-events-platform-based-around-influencers-raises-60m-and-rebrands-as-pollen/",
+          "quote": "October 24, 2019"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2019/10/24/verve-an-events-platform-based-around-influencers-raises-60m-and-rebrands-as-pollen/",
+          "quote": "Led by Northzone, the round also included Sienna Capital, existing investors, including Draper Esprit, Backed and Kindred, and others"
+        }
+      ]
+    },
+    {
+      "stage": "series-c",
+      "month": "2022-04",
+      "amountEur": 137779002,
+      "amountOriginal": 150000000,
+      "currency": "USD",
+      "investors": [],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.musicbusinessworldwide.com/music-and-experiences-company-pollen-raises-150m-in-series-c-round/",
+          "quote": "the firm has announced that it has raised a fresh $150 million in a Series C round"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.musicbusinessworldwide.com/music-and-experiences-company-pollen-raises-150m-in-series-c-round/",
+          "quote": "the firm has announced that it has raised a fresh $150 million in a Series C round"
+        },
+        {
+          "field": "month",
+          "url": "https://www.musicbusinessworldwide.com/music-and-experiences-company-pollen-raises-150m-in-series-c-round/",
+          "quote": "April 21, 2022"
+        }
+      ]
+    }
+  ]
+}

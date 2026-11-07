@@ -19,6 +19,10 @@
   ],
   "difficulty": 3,
   "techeuId": "B6C22904-64C5-461A-BA47-FC63003A9870",
+  "exit": {
+    "kind": "insolvency",
+    "month": "2023-08"
+  },
   "sources": [
     {
       "field": "city",
@@ -54,6 +58,11 @@
       "field": "valuation",
       "url": "https://techcrunch.com/2019/08/02/babylon-health-confirms-550m-raise-to-expand-its-ai-based-health-services-to-the-us-and-asia/",
       "quote": "valuing Babylon Health at more than $2 billion"
+    },
+    {
+      "field": "exit",
+      "url": "https://en.wikipedia.org/wiki/Babylon_Health",
+      "quote": "Babylon Health's American branch filed for bankruptcy in August 2023 and the British branch called in the administrator weeks later."
     }
   ],
   "rounds": [

@@ -1,0 +1,100 @@
+{
+  "id": "prior-labs",
+  "name": "Prior Labs",
+  "aliases": [],
+  "domain": "priorlabs.ai",
+  "country": "DE",
+  "city": "Freiburg",
+  "founded": 2024,
+  "sectors": [
+    "ai"
+  ],
+  "status": "acquired",
+  "unicorn": false,
+  "founders": [
+    "Frank Hutter",
+    "Noah Hollmann",
+    "Sauraj Gambhir"
+  ],
+  "difficulty": 4,
+  "exit": {
+    "kind": "acquisition",
+    "month": "2026-05",
+    "acquirer": "SAP"
+  },
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://fortune.com/2025/02/05/prior-labs-9-million-euro-preseed-funding-tabular-data-ai/",
+      "quote": "Today Prior Labs , which is based in Freiburg, Germany, announced it has received 9 million euros ($9.3 million) in pre-seed funding."
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Frank_Hutter",
+      "quote": "In 2024, he also co-founded Prior Labs"
+    },
+    {
+      "field": "founders",
+      "url": "https://news.sap.com/?p=242349",
+      "quote": "Founded by Frank Hutter, Noah Hollmann & Sauraj Gambhir"
+    },
+    {
+      "field": "sectors",
+      "url": "https://news.sap.com/?p=242349",
+      "quote": "Prior Labs is the pioneer of Tabular Foundation Models, a new category of AI purpose-built for structured data."
+    },
+    {
+      "field": "status",
+      "url": "https://pulse2.com/sap-completes-prior-labs-acquisition-and-commits-more-than-e1-billion-to-scale-enterprise-ai-research/",
+      "quote": "SAP has completed its acquisition of Prior Labs"
+    },
+    {
+      "field": "exit",
+      "url": "https://news.sap.com/?p=242349",
+      "quote": "announced that they have entered into a definitive agreement for SAP to purchase Prior Labs"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://thenextweb.com/news/sap-prior-labs-acquisition-tabular-foundation-model",
+      "quote": "The terms are not disclosed"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "pre-seed",
+      "month": "2025-02",
+      "amountEur": 9000000,
+      "amountOriginal": 9000000,
+      "currency": "EUR",
+      "investors": [
+        "Balderton Capital",
+        "XTX Ventures",
+        "Hector Foundation",
+        "Atlantic Labs",
+        "Galion.exe"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://fortune.com/2025/02/05/prior-labs-9-million-euro-preseed-funding-tabular-data-ai/",
+          "quote": "announced it has received 9 million euros ($9.3 million) in pre-seed funding"
+        },
+        {
+          "field": "stage",
+          "url": "https://fortune.com/2025/02/05/prior-labs-9-million-euro-preseed-funding-tabular-data-ai/",
+          "quote": "announced it has received 9 million euros ($9.3 million) in pre-seed funding"
+        },
+        {
+          "field": "month",
+          "url": "https://fortune.com/2025/02/05/prior-labs-9-million-euro-preseed-funding-tabular-data-ai/",
+          "quote": "February 5, 2025"
+        },
+        {
+          "field": "investors",
+          "url": "https://fortune.com/2025/02/05/prior-labs-9-million-euro-preseed-funding-tabular-data-ai/",
+          "quote": "The round is led by London-based venture capital firm Balderton Capital along with XTX Ventures, SAP founder Hans Werner-Hector’s Hector Foundation, Atlantic Labs, and Galion.exe."
+        }
+      ]
+    }
+  ]
+}

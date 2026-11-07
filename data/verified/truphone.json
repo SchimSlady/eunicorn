@@ -21,6 +21,11 @@
   ],
   "difficulty": 4,
   "techeuId": "1C528385-A9F4-4000-9D27-37434346F70F",
+  "exit": {
+    "kind": "acquisition",
+    "month": "2023-01",
+    "acquirer": "1GLOBAL"
+  },
   "sources": [
     {
       "field": "city",
@@ -51,6 +56,11 @@
       "field": "valuation",
       "url": "https://techcrunch.com/2018/10/15/truphone-an-esim-mobile-carrier-that-works-with-apple-raises-another-71m-now-valued-at-507m/",
       "quote": "values Truphone at £386 million"
+    },
+    {
+      "field": "exit",
+      "url": "https://en.wikipedia.org/wiki/Truphone",
+      "quote": "On 24 January 2023, Truphone Limited has sold substantially all assets and subsidiaries to TP Global Operations Limited (1GLOBAL)."
     }
   ],
   "rounds": [

@@ -21,6 +21,10 @@
   ],
   "difficulty": 3,
   "techeuId": "1EB273E8-283D-422D-B56F-5E6C6E8E6B0D",
+  "exit": {
+    "kind": "ipo",
+    "month": "2021-09"
+  },
   "sources": [
     {
       "field": "city",
@@ -56,6 +60,11 @@
       "field": "valuation",
       "url": "https://investegate.co.uk/announcement/rns/ip-group--ipo/ip-group-generates-84m-from-oxford-nanopore-ipo/6599942",
       "quote": "The Company's market capitalisation will be approximately £3.4 billion at the commencement of conditional dealings"
+    },
+    {
+      "field": "exit",
+      "url": "https://en.wikipedia.org/wiki/Oxford_Nanopore_Technologies",
+      "quote": "The company made an initial public offering on the London Stock Exchange on 30 September 2021"
     }
   ],
   "rounds": [

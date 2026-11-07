@@ -23,6 +23,8 @@ import { REGIONS, slotOf, type Region } from "@/lib/regions";
 
 const MODE = "higher-lower";
 const TITLE = "Higher or Lower";
+/** How long a right call stays on screen before the next company comes up. */
+const AUTO_NEXT_MS = 1300;
 
 /**
  * A level changes which companies are in the chain (well known on Easy, insiders on Hard) and
@@ -167,6 +169,21 @@ export function HigherLowerGame({ region }: { region?: Region } = {}) {
     setReviewing(true);
   }
 
+  // A right call moves on by itself after a moment (the button skips the wait); a wrong one and the
+  // last round wait for the player, so the result can sink in.
+  const lastAnswer = progress?.answers.length ?? 0;
+  const lastRight = useMemo(() => {
+    if (!puzzle || !progress || !reviewing) return false;
+    const play = atLevel(puzzle, progress.difficulty);
+    const { rounds, done } = evaluate(play, progress, companies);
+    return !done && !!rounds[lastAnswer - 1]?.correct;
+  }, [puzzle, progress, reviewing, companies, lastAnswer]);
+  useEffect(() => {
+    if (!lastRight) return;
+    const t = setTimeout(() => setReviewing(false), AUTO_NEXT_MS);
+    return () => clearTimeout(t);
+  }, [lastRight, lastAnswer]);
+
   if (puzzle === null) return <NoPuzzle back={back} />;
   if (puzzle === undefined || !data) return <GameSkeleton />;
 
@@ -181,6 +198,7 @@ export function HigherLowerGame({ region }: { region?: Region } = {}) {
         mode={MODE}
         subtitle={subtitle}
         back={back}
+        region={region}
         onStart={(d) => {
           saveDifficulty(d);
           const fresh: Progress = { difficulty: d, answers: [], hintsUsed: 0 };

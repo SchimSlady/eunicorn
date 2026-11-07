@@ -27,6 +27,11 @@
       "id": "cdtm"
     }
   ],
+  "exit": {
+    "kind": "acquisition",
+    "month": "2026-01",
+    "acquirer": "ClickHouse"
+  },
   "sources": [
     {
       "field": "city",
@@ -77,6 +82,11 @@
       "field": "programs",
       "url": "https://www.cdtm.com/startups/langfuse",
       "quote": "CDTM founders Marc Klingen Class of Fall 2018"
+    },
+    {
+      "field": "exit",
+      "url": "https://langfuse.com/press",
+      "quote": "Acquired by ClickHouse: January 2026"
     }
   ],
   "rounds": [

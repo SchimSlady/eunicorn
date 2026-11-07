@@ -15,6 +15,11 @@
   "founders": [],
   "difficulty": 2,
   "techeuId": "773779E6-3964-40E9-8027-86A4C16935BF",
+  "exit": {
+    "kind": "acquisition",
+    "month": "2024-04",
+    "acquirer": "Thoma Bravo"
+  },
   "sources": [
     {
       "field": "city",
@@ -60,6 +65,11 @@
       "field": "status",
       "url": "https://en.wikipedia.org/wiki/Darktrace",
       "quote": "On 1 October 2024, it was announced that Thoma Bravo had formally completed its acquisition of the firm."
+    },
+    {
+      "field": "exit",
+      "url": "https://en.wikipedia.org/wiki/Darktrace",
+      "quote": "In April 2024, the private equity business, Thoma Bravo , offered to acquire the company for $5.3 billion."
     }
   ],
   "rounds": [

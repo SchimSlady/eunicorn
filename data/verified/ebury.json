@@ -19,6 +19,11 @@
   ],
   "difficulty": 3,
   "techeuId": "56ED9DF8-CA89-46E4-8607-F8A16B873EC5",
+  "exit": {
+    "kind": "acquisition",
+    "month": "2019-11",
+    "acquirer": "Santander"
+  },
   "sources": [
     {
       "field": "city",
@@ -44,6 +49,16 @@
       "field": "status",
       "url": "https://ebury.com/en-gb/company/our-story",
       "quote": "Banco Santander became a majority investor."
+    },
+    {
+      "field": "exit",
+      "url": "https://fintech.global/2019/11/04/santander-becomes-majority-stakeholder-in-ebury-after-350m-deal/",
+      "quote": "As part of the deal, Santander will acquire a 50.1% stake in Ebury."
+    },
+    {
+      "field": "exit",
+      "url": "https://fintech.global/2019/11/04/santander-becomes-majority-stakeholder-in-ebury-after-350m-deal/",
+      "quote": "Santander becomes majority stakeholder in Ebury after £350m deal November 4, 2019"
     }
   ],
   "rounds": [

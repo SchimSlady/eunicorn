@@ -11,7 +11,7 @@
   "sectors": [
     "mobility"
   ],
-  "status": "defunct",
+  "status": "acquired",
   "unicorn": false,
   "founders": [
     "Pascal Blum",
@@ -24,6 +24,11 @@
       "id": "start-munich"
     }
   ],
+  "exit": {
+    "kind": "acquisition",
+    "month": "2024-04",
+    "acquirer": "Emco"
+  },
   "sources": [
     {
       "field": "city",
@@ -56,11 +61,6 @@
       "quote": "Das Berliner Unternehmen unu vertreibt Elektroroller."
     },
     {
-      "field": "status",
-      "url": "https://stadt-bremerhaven.de/elektroroller-unu-hat-einen-neuen-besitzer",
-      "quote": "Ende 2023 gab man die Insolvenz bekannt, nachdem diverse Versuche das Unternehmen auf stabile Beine zu stellen gescheitert waren."
-    },
-    {
       "field": "unicorn",
       "url": "https://www.vc-magazin.de/blog/2018/10/30/elektroroller-start-up-sichert-sich-10-mio-eur/",
       "quote": "Die Berliner sammeln in der Series B 10 Mio. EUR ein."
@@ -69,6 +69,21 @@
       "field": "programs",
       "url": "https://www.startmunich.de/api/startups",
       "quote": "\"name\":\"unu\",\"website\":\"unumotors.com/en-de/home/\""
+    },
+    {
+      "field": "status",
+      "url": "https://stadt-bremerhaven.de/elektroroller-unu-hat-einen-neuen-besitzer",
+      "quote": "Die Electro Mobility Company (Emco), ein Hersteller von Elektrorollern, hat nun die Vermögenswerte sowie die Vertriebs- und Servicestrukturen der Marke UNU übernommen."
+    },
+    {
+      "field": "exit",
+      "url": "https://stadt-bremerhaven.de/elektroroller-unu-hat-einen-neuen-besitzer",
+      "quote": "Die Electro Mobility Company (Emco), ein Hersteller von Elektrorollern, hat nun die Vermögenswerte sowie die Vertriebs- und Servicestrukturen der Marke UNU übernommen."
+    },
+    {
+      "field": "exit",
+      "url": "https://stadt-bremerhaven.de/elektroroller-unu-hat-einen-neuen-besitzer",
+      "quote": "30. Apr. 2024"
     }
   ],
   "rounds": [
