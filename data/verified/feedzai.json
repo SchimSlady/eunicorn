@@ -18,6 +18,7 @@
     "Pedro Bizarro",
     "Paulo Marques"
   ],
+  "funFact": "Feedzai's founders spent about two years trying utilities, telecoms and even health before settling on fraud detection.",
   "difficulty": 3,
   "techeuId": "4b1e49e4-9d81-414d-9992-3798428c6875",
   "sources": [
@@ -50,6 +51,16 @@
       "field": "valuation",
       "url": "https://siliconangle.com/2025/10/02/feedzai-raises-75m-2b-valuation-secures-key-role-digital-euro-fraud-prevention/",
       "quote": "valuation of more than $2 billion"
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://edp.com/en/media/edp-stories/feedzai-how-build-unicorn",
+      "quote": "They spent about two years trying to figure out what they were going to do with the company they were creating."
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://edp.com/en/media/edp-stories/feedzai-how-build-unicorn",
+      "quote": "They tried utilities, telecoms, and even health – until they came up with fraud detection."
     }
   ],
   "rounds": [

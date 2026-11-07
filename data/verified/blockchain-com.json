@@ -19,6 +19,7 @@
     "Benjamin Reeves",
     "Nicolas Cary"
   ],
+  "funFact": "Blockchain.com's early team worked from Ben Reeves' flat in York until bitcoin investor Roger Ver provided initial funding.",
   "difficulty": 2,
   "techeuId": "964C3AF6-0F36-4702-8569-846816B3CA99",
   "sources": [
@@ -51,6 +52,16 @@
       "field": "valuation",
       "url": "https://techcrunch.com/2021/03/24/crypto-wallet-and-exchange-company-blockchain-com-raises-300-million-at-5-2-billion-valuation/",
       "quote": "Crypto wallet and exchange company Blockchain.com raises $300 million at $5.2 billion valuation"
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://en.wikipedia.org/wiki/Blockchain.com",
+      "quote": "worked from Reeves' flat in York"
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://en.wikipedia.org/wiki/Blockchain.com",
+      "quote": "bitcoin investor Roger Ver provided initial funding"
     }
   ],
   "rounds": [

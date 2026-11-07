@@ -19,6 +19,7 @@
     "Günther Jung",
     "Hans-Georg Rammensee"
   ],
+  "funFact": "In 2020 Elon Musk announced that Tesla and CureVac would build portable \"RNA microfactories\" to make CureVac's COVID-19 vaccine candidate.",
   "difficulty": 3,
   "techeuId": "91FF558F-2B27-4EF6-A196-D639A7B36A3C",
   "sources": [
@@ -56,6 +57,11 @@
       "field": "valuation",
       "url": "https://www.foxbusiness.com/markets/coronavirus-vaccine-developer-curevac-raises-213-million-in-ipo",
       "quote": "The IPO gives CureVac a valuation of about $2.8 billion."
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://en.wikipedia.org/wiki/CureVac",
+      "quote": "In July 2020, Tesla, Inc CEO Elon Musk announced via a Tweet that Tesla and CureVac had reached an agreement to produce portable \"RNA microfactories\" based on this technology to manufacture CureVac's COVID-19 vaccine candidate."
     }
   ],
   "rounds": [

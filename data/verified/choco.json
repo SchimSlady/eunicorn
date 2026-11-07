@@ -16,6 +16,7 @@
     "Daniel Khachab",
     "Julian Hammer"
   ],
+  "funFact": "Choco's name has nothing to do with chocolate: co-founder Daniel Khachab says it comes from Chocó, a biodiverse region on Colombia's Pacific coast.",
   "difficulty": 3,
   "techeuId": "83fd7ab9-61ef-48b1-bc94-758efd88b882",
   "sources": [
@@ -48,6 +49,11 @@
       "field": "valuation",
       "url": "https://choco.com/us/press/choco-achieves-unicorn-status",
       "quote": "announced today that it has raised $111 million in Series B2 funding with a valuation of $1.2 billion."
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://omr.com/de/daily/choco-daniel-khachab-omr-podcast",
+      "quote": "Laut Daniel Khachab leitet sich der Name stattdessen vom kolumbianischen Bezirk Chocó ab."
     }
   ],
   "rounds": [

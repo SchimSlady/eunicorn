@@ -15,6 +15,7 @@
   "founders": [
     "Felix Van de Maele"
   ],
+  "funFact": "Collibra's founders first meant to call the company Loqus; the final name blends \"collaboration\" and \"library\".",
   "difficulty": 3,
   "techeuId": "647B3889-56D6-4706-BD80-7BD4F63BDB08",
   "sources": [
@@ -52,6 +53,11 @@
       "field": "valuation",
       "url": "https://www.collibra.com/company/newsroom/press-releases/collibra-raises-250-million-in-funding-round-led-by-sequoia-capital-global-equities-and-sofina-more-than-doubling-its-valuation-to-5-25-billion",
       "quote": "The funding values Collibra at $5.25 billion"
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://web.archive.org/web/2023/https://www.collibra.com/us/en/blog/12-things-you-didnt-know-about-collibra",
+      "quote": "our founders originally intended to name the company Loqus, but changed it due to the presence of a few other similarly named companies."
     }
   ],
   "rounds": [

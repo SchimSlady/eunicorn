@@ -19,6 +19,7 @@
     "Thomas Cabrol",
     "Marc Batty"
   ],
+  "funFact": "Dataiku's name is a blend of \"data\" and \"haiku\", the short, structured Japanese poem.",
   "difficulty": 3,
   "techeuId": "314D2430-4617-41A3-8D2E-C5BE488F7A33",
   "sources": [
@@ -56,6 +57,11 @@
       "field": "valuation",
       "url": "https://techcrunch.com/2022/12/13/ai-and-analytics-platform-dataiku-raises-200m-at-a-reduced-valuation/",
       "quote": "raised $200 million in a Series F round led by Wellington Management at a $3.7 billion valuation"
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://web.archive.org/web/2020/https://blog.dataiku.com/2014/08/07/pronouncing-dataiku",
+      "quote": "Dataiku is a portmanteau (that is, a word blending the sounds and combining the meanings of two others, e.g., motel or brunch) combining: Data: A piece of information Haiku: A short, structured Japanese poem"
     }
   ],
   "rounds": [
