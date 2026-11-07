@@ -1,0 +1,95 @@
+{
+  "id": "deeplify",
+  "name": "deeplify",
+  "aliases": [
+    "Deeplify"
+  ],
+  "domain": "deeplify.de",
+  "country": "DE",
+  "city": "Bochum",
+  "founded": 2023,
+  "sectors": [
+    "ai"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Jan Löwer",
+    "Christoph Siemer",
+    "Felix Asanger"
+  ],
+  "difficulty": 5,
+  "programs": [
+    {
+      "id": "ewor"
+    }
+  ],
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.thesaasnews.com/news/deeplify-raises-2-million-pre-seed",
+      "quote": "Headquartered in Bochum, Germany"
+    },
+    {
+      "field": "founded",
+      "url": "https://www.thesaasnews.com/news/deeplify-raises-2-million-pre-seed",
+      "quote": "Founded in 2023 by Jan Löwer, Christoph Siemer, and Felix Asanger"
+    },
+    {
+      "field": "founders",
+      "url": "https://www.thesaasnews.com/news/deeplify-raises-2-million-pre-seed",
+      "quote": "Founded in 2023 by Jan Löwer, Christoph Siemer, and Felix Asanger"
+    },
+    {
+      "field": "sectors",
+      "url": "https://tech.eu/2026/03/30/german-deeplify-raises-eur2m-to-modernise-infrastructure-inspections/",
+      "quote": "deeplify has developed an end-to-end AI platform for industrial inspection and asset integrity management"
+    },
+    {
+      "field": "status",
+      "url": "https://tech.eu/2026/03/30/german-deeplify-raises-eur2m-to-modernise-infrastructure-inspections/",
+      "quote": "German industrial AI startup deeplify has announced the successful closing of a €2 million pre-seed funding round"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://tech.eu/2026/03/30/german-deeplify-raises-eur2m-to-modernise-infrastructure-inspections/",
+      "quote": "German industrial AI startup deeplify has announced the successful closing of a €2 million pre-seed funding round"
+    },
+    {
+      "field": "programs",
+      "url": "https://www.ewor.com/startups/deeplify",
+      "quote": "deeplify is an AI-powered, end-to-end inspection platform"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "pre-seed",
+      "month": "2026-03",
+      "amountEur": 2000000,
+      "amountOriginal": 2000000,
+      "currency": "EUR",
+      "investors": [
+        "D11Z Ventures",
+        "Vanagon Ventures",
+        "EWOR"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2026/03/30/german-deeplify-raises-eur2m-to-modernise-infrastructure-inspections/",
+          "quote": "successful closing of a €2 million pre-seed funding round"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2026/03/30/german-deeplify-raises-eur2m-to-modernise-infrastructure-inspections/",
+          "quote": "30 March 2026"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2026/03/30/german-deeplify-raises-eur2m-to-modernise-infrastructure-inspections/",
+          "quote": "The round was led by"
+        }
+      ]
+    }
+  ]
+}

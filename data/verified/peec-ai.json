@@ -57,6 +57,11 @@
       "field": "fun_fact",
       "url": "https://siliconcanals.com/peec-ai-bags-e7m-in-two-funding-rounds/",
       "quote": "Marius Meiners brings experience as a professional esports athlete"
+    },
+    {
+      "field": "programs",
+      "url": "https://siliconcanals.com/?p=66134",
+      "quote": "The founding team met during an Antler founder residency in Berlin in late 2024."
     }
   ],
   "rounds": [
@@ -129,6 +134,11 @@
           "quote": "The investment was led by European venture firm Singular, with participation from Antler, Combination VC, identity.vc, and S20."
         }
       ]
+    }
+  ],
+  "programs": [
+    {
+      "id": "antler"
     }
   ]
 }

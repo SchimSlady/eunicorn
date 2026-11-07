@@ -41,6 +41,11 @@
       "field": "fun_fact",
       "url": "https://www.omnescapital.com/press-release/planet-a-foods-raises-30m-series-b-to-industrialize-and-solidify-its-position-as-leader-in-sustainable-food-innovation",
       "quote": "Founded in 2021 by siblings Dr. Sara Marquart and Dr. Maximilian Marquart"
+    },
+    {
+      "field": "programs",
+      "url": "https://yc-oss.github.io/api/batches/summer-2021/planet-a-foods.json",
+      "quote": "\"batch\": \"Summer 2021\""
     }
   ],
   "rounds": [
@@ -126,5 +131,11 @@
   ],
   "aliases": [],
   "status": "private",
-  "unicorn": false
+  "unicorn": false,
+  "programs": [
+    {
+      "id": "y-combinator",
+      "batch": "Summer 2021"
+    }
+  ]
 }

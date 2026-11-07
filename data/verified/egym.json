@@ -51,6 +51,11 @@
       "field": "valuation",
       "url": "https://frontiervc.com/news/2024/9/25/egym-a-connected-fitness-startup-conceived-after-the-founder-hit-a-wall-at-the-gym-lands-200m-at-a-12b-valuation",
       "quote": "post-money valuation of more than $1.2 billion"
+    },
+    {
+      "field": "programs",
+      "url": "https://www.cdtm.com/startups/egym",
+      "quote": "CDTM founders Florian Sauter Class of Fall 2006"
     }
   ],
   "rounds": [
@@ -88,6 +93,11 @@
           "quote": "from L Catterton, a leading global consumer-focused investment firm, and Meritech Capital"
         }
       ]
+    }
+  ],
+  "programs": [
+    {
+      "id": "cdtm"
     }
   ]
 }

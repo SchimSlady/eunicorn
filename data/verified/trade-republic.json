@@ -74,6 +74,11 @@
       "field": "valuation",
       "url": "https://tech.eu/2025/12/17/trade-republic-confirms-decacorn-status-following-secondary-share-sale/",
       "quote": "Trade Republic is now valued at €12.5 billion, following the secondary share sale."
+    },
+    {
+      "field": "programs",
+      "url": "https://www.cdtm.com/startups/trade-republic",
+      "quote": "CDTM founders Thomas Pischke Class of Spring 2014"
     }
   ],
   "rounds": [
@@ -232,6 +237,11 @@
           "quote": "post-money valuation uplift to €5.0B (previously €4.4B)"
         }
       ]
+    }
+  ],
+  "programs": [
+    {
+      "id": "cdtm"
     }
   ]
 }

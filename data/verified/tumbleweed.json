@@ -1,0 +1,92 @@
+{
+  "id": "tumbleweed",
+  "name": "Tumbleweed",
+  "aliases": [],
+  "domain": "team-tumbleweed.com",
+  "country": "AT",
+  "city": "Vienna",
+  "founded": 2024,
+  "sectors": [
+    "space"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Julian Rothenbuchner"
+  ],
+  "difficulty": 5,
+  "programs": [
+    {
+      "id": "ewor"
+    }
+  ],
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://tech.eu/2026/11/03/tumbleweed-raises-record-eur69m-seed-round-to-bring-microgravity-research-to-the-masses/",
+      "quote": "Founded in 2024, Tumbleweed operates across Vienna and Delft"
+    },
+    {
+      "field": "founded",
+      "url": "https://tech.eu/2026/11/03/tumbleweed-raises-record-eur69m-seed-round-to-bring-microgravity-research-to-the-masses/",
+      "quote": "Founded in 2024, Tumbleweed operates across Vienna and Delft"
+    },
+    {
+      "field": "founders",
+      "url": "https://tech.eu/2026/11/03/tumbleweed-raises-record-eur69m-seed-round-to-bring-microgravity-research-to-the-masses/",
+      "quote": "CEO and co-founder of Tumbleweed"
+    },
+    {
+      "field": "sectors",
+      "url": "https://tech.eu/2026/11/03/tumbleweed-raises-record-eur69m-seed-round-to-bring-microgravity-research-to-the-masses/",
+      "quote": "Spacetech Tumbleweed raises record"
+    },
+    {
+      "field": "status",
+      "url": "https://tech.eu/2026/11/03/tumbleweed-raises-record-eur69m-seed-round-to-bring-microgravity-research-to-the-masses/",
+      "quote": "Austrian startup Tumbleweed has raised"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://tech.eu/2026/11/03/tumbleweed-raises-record-eur69m-seed-round-to-bring-microgravity-research-to-the-masses/",
+      "quote": "Austrian startup Tumbleweed has raised"
+    },
+    {
+      "field": "programs",
+      "url": "https://www.ewor.com/startups/tumbleweed",
+      "quote": "Space access, as easy as mailing a package."
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "seed",
+      "month": "2026-11",
+      "amountEur": 6900000,
+      "amountOriginal": 6900000,
+      "currency": "EUR",
+      "investors": [
+        "PactVC",
+        "Vanagon Ventures",
+        "Prototype Capital",
+        "EWOR"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2026/11/03/tumbleweed-raises-record-eur69m-seed-round-to-bring-microgravity-research-to-the-masses/",
+          "quote": "has raised €6.9 million in the country"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2026/11/03/tumbleweed-raises-record-eur69m-seed-round-to-bring-microgravity-research-to-the-masses/",
+          "quote": "03 November 2026"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2026/11/03/tumbleweed-raises-record-eur69m-seed-round-to-bring-microgravity-research-to-the-masses/",
+          "quote": "with participation from"
+        }
+      ]
+    }
+  ]
+}

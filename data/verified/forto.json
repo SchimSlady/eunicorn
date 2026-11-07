@@ -56,6 +56,11 @@
       "field": "valuation",
       "url": "https://prnewswire.co.uk/news-releases/forto-announces-new-investment-of-250-million-to-accelerate-international-expansion-and-broadening-of-product-offering-841198955.html",
       "quote": "The current round places the company valuation at $2.1 billion"
+    },
+    {
+      "field": "programs",
+      "url": "https://www.cdtm.com/startups/forto",
+      "quote": "CDTM founders Erik Muttersbach Class of Spring 2013"
     }
   ],
   "rounds": [
@@ -179,6 +184,11 @@
           "quote": "existing investors including Softbank Vision Fund 2, G Squared, Northzone, Unbound, and A.P. Moeller Holding"
         }
       ]
+    }
+  ],
+  "programs": [
+    {
+      "id": "cdtm"
     }
   ]
 }

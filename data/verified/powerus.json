@@ -1,0 +1,133 @@
+{
+  "id": "powerus",
+  "name": "PowerUs",
+  "aliases": [
+    "Electry"
+  ],
+  "domain": "powerus.de",
+  "country": "DE",
+  "city": "Berlin",
+  "founded": 2019,
+  "sectors": [
+    "hrtech"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Julian Lindinger",
+    "Konrad Geiger"
+  ],
+  "difficulty": 5,
+  "programs": [
+    {
+      "id": "y-combinator",
+      "batch": "Summer 2020"
+    }
+  ],
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.startbase.com/news/powerus-sichert-sich-24-millionen-euro-in-series-b-finanzierungsrunde",
+      "quote": "The Berlin-based start-up PowerUs has successfully raised 24 million euros"
+    },
+    {
+      "field": "founded",
+      "url": "https://nordic9.com/news/powerus-to-get-17-million-in-a-funding-round-backed-by-hv-capital-y-combinator-and-angel-investors-from-germany",
+      "quote": "PowerUs, founded as Electry in 2019 by Julian Lindinger and Konrad Geiger"
+    },
+    {
+      "field": "founders",
+      "url": "https://nordic9.com/news/powerus-to-get-17-million-in-a-funding-round-backed-by-hv-capital-y-combinator-and-angel-investors-from-germany",
+      "quote": "PowerUs, founded as Electry in 2019 by Julian Lindinger and Konrad Geiger"
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.startbase.com/news/powerus-sichert-sich-24-millionen-euro-in-series-b-finanzierungsrunde",
+      "quote": "PowerUs is a career platform"
+    },
+    {
+      "field": "status",
+      "url": "https://www.startbase.com/news/powerus-sichert-sich-24-millionen-euro-in-series-b-finanzierungsrunde",
+      "quote": "The Berlin-based start-up PowerUs has successfully raised 24 million euros"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://www.startbase.com/news/powerus-sichert-sich-24-millionen-euro-in-series-b-finanzierungsrunde",
+      "quote": "The Berlin-based start-up PowerUs has successfully raised 24 million euros"
+    },
+    {
+      "field": "programs",
+      "url": "https://nordic9.com/news/powerus-to-get-17-million-in-a-funding-round-backed-by-hv-capital-y-combinator-and-angel-investors-from-germany",
+      "quote": "PowerUs was previously part of Y Combinator in 2020."
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "seed",
+      "month": "2021-02",
+      "amountEur": 1700000,
+      "amountOriginal": 1700000,
+      "currency": "EUR",
+      "investors": [
+        "HV Capital",
+        "SEK Ventures",
+        "Maximilian Viessmann",
+        "Hanno Renner",
+        "Y Combinator",
+        "Neal O'Mara"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://nordic9.com/news/powerus-to-get-17-million-in-a-funding-round-backed-by-hv-capital-y-combinator-and-angel-investors-from-germany",
+          "quote": "announced closing a €1.7 million ($2M) capital funding round"
+        },
+        {
+          "field": "month",
+          "url": "https://nordic9.com/news/powerus-to-get-17-million-in-a-funding-round-backed-by-hv-capital-y-combinator-and-angel-investors-from-germany",
+          "quote": "16 February 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://nordic9.com/news/powerus-to-get-17-million-in-a-funding-round-backed-by-hv-capital-y-combinator-and-angel-investors-from-germany",
+          "quote": "The money was raised from investors including HV Capital , SEK Ventures and angel investors Maximilian Viessmann and Hanno Renner . Y Combinator and Neal O'Mara also joined the round."
+        }
+      ]
+    },
+    {
+      "stage": "series-b",
+      "month": "2023-09",
+      "amountEur": 24000000,
+      "amountOriginal": 24000000,
+      "currency": "EUR",
+      "investors": [
+        "Eurazeo",
+        "General Catalyst",
+        "Headline",
+        "HV Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.startbase.com/news/powerus-sichert-sich-24-millionen-euro-in-series-b-finanzierungsrunde",
+          "quote": "The Berlin-based start-up PowerUs has successfully raised 24 million euros in its Series B financing round. This financing round was joined by investors such as Eurazeo, General Catalyst, Headline and HV Capital."
+        },
+        {
+          "field": "stage",
+          "url": "https://www.startbase.com/news/powerus-sichert-sich-24-millionen-euro-in-series-b-finanzierungsrunde",
+          "quote": "The Berlin-based start-up PowerUs has successfully raised 24 million euros in its Series B financing round. This financing round was joined by investors such as Eurazeo, General Catalyst, Headline and HV Capital."
+        },
+        {
+          "field": "month",
+          "url": "https://www.startbase.com/news/powerus-sichert-sich-24-millionen-euro-in-series-b-finanzierungsrunde",
+          "quote": "Stuttgart, 20. September 2023"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.startbase.com/news/powerus-sichert-sich-24-millionen-euro-in-series-b-finanzierungsrunde",
+          "quote": "The Berlin-based start-up PowerUs has successfully raised 24 million euros in its Series B financing round. This financing round was joined by investors such as Eurazeo, General Catalyst, Headline and HV Capital."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "id": "mozart-ai",
+  "name": "Mozart AI",
+  "aliases": [
+    "Mozart"
+  ],
+  "domain": "getmozart.ai",
+  "country": "GB",
+  "city": "London",
+  "founded": 2025,
+  "sectors": [
+    "ai",
+    "consumer"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Sundar Arvind",
+    "Arjun Khanna",
+    "Pascual Merita Torres"
+  ],
+  "difficulty": 5,
+  "programs": [
+    {
+      "id": "ewor"
+    }
+  ],
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://tech.eu/2026/02/11/mozart-ai-secures-6m-to-develop-ai-tools-for-music-creation/",
+      "quote": "London-based Mozart AI has raised $6 million"
+    },
+    {
+      "field": "founded",
+      "url": "https://techfundingnews.com/balderton-mozart-ai-6m-seed-avicii-producer/",
+      "quote": "founded in 2025 by Sundar Arvind"
+    },
+    {
+      "field": "founders",
+      "url": "https://techfundingnews.com/balderton-mozart-ai-6m-seed-avicii-producer/",
+      "quote": "founded in 2025 by Sundar Arvind"
+    },
+    {
+      "field": "sectors",
+      "url": "https://tech.eu/2026/02/11/mozart-ai-secures-6m-to-develop-ai-tools-for-music-creation/",
+      "quote": "Mozart AI is developing an AI-native digital audio workstation"
+    },
+    {
+      "field": "status",
+      "url": "https://tech.eu/2026/02/11/mozart-ai-secures-6m-to-develop-ai-tools-for-music-creation/",
+      "quote": "London-based Mozart AI has raised $6 million"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://tech.eu/2026/02/11/mozart-ai-secures-6m-to-develop-ai-tools-for-music-creation/",
+      "quote": "London-based Mozart AI has raised $6 million"
+    },
+    {
+      "field": "programs",
+      "url": "https://www.ewor.com/startups/mozart-ai",
+      "quote": "Mozart AI is a music creation platform"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "seed",
+      "month": "2026-02",
+      "amountEur": 5042017,
+      "amountOriginal": 6000000,
+      "currency": "USD",
+      "investors": [
+        "Balderton Capital",
+        "Mercuri",
+        "EWOR",
+        "Kevin Hartz",
+        "Charles Ferguson",
+        "Emery Wells"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2026/02/11/mozart-ai-secures-6m-to-develop-ai-tools-for-music-creation/",
+          "quote": "has raised $6 million in an oversubscribed seed funding round"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2026/02/11/mozart-ai-secures-6m-to-develop-ai-tools-for-music-creation/",
+          "quote": "11 February 2026"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2026/02/11/mozart-ai-secures-6m-to-develop-ai-tools-for-music-creation/",
+          "quote": "The round included participation from"
+        }
+      ]
+    }
+  ]
+}

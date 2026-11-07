@@ -1,0 +1,138 @@
+{
+  "id": "voize",
+  "name": "voize",
+  "aliases": [
+    "Voize"
+  ],
+  "domain": "voize.de",
+  "country": "DE",
+  "city": "Berlin",
+  "founded": 2020,
+  "sectors": [
+    "health",
+    "ai"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Fabio Schmidberger",
+    "Marcel Schmidberger",
+    "Erik Ziegler"
+  ],
+  "difficulty": 4,
+  "programs": [
+    {
+      "id": "y-combinator",
+      "batch": "Winter 2022"
+    }
+  ],
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://vestbee.com/insights/articles/voize-raises-9-m",
+      "quote": "Berlin-based healthtech startup Voize"
+    },
+    {
+      "field": "founded",
+      "url": "https://vestbee.com/insights/articles/voize-raises-9-m",
+      "quote": "Founded in 2020 by Fabio Schmidberger, Marcel Schmidberger, and Erik Ziegler"
+    },
+    {
+      "field": "founders",
+      "url": "https://vestbee.com/insights/articles/voize-raises-9-m",
+      "quote": "Founded in 2020 by Fabio Schmidberger, Marcel Schmidberger, and Erik Ziegler"
+    },
+    {
+      "field": "sectors",
+      "url": "https://vestbee.com/insights/articles/voize-raises-9-m",
+      "quote": "Voize develops AI-powered voice documentation software for healthcare and senior care"
+    },
+    {
+      "field": "status",
+      "url": "https://hlth.com/insights/news/voize-lands-50m-to-transform-nursing-care-with-voice-technology-2025-11-18",
+      "quote": "The company has raised $50 million in Series A funding"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://hlth.com/insights/news/voize-lands-50m-to-transform-nursing-care-with-voice-technology-2025-11-18",
+      "quote": "The company has raised $50 million in Series A funding"
+    },
+    {
+      "field": "programs",
+      "url": "https://yc-oss.github.io/api/batches/winter-2022/voize.json",
+      "quote": "\"batch\": \"Winter 2022\""
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "seed",
+      "month": "2025-03",
+      "amountEur": 8321775,
+      "amountOriginal": 9000000.0,
+      "currency": "USD",
+      "investors": [
+        "HV Capital",
+        "Y Combinator",
+        "redalpine",
+        "HPI Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://vestbee.com/insights/articles/voize-raises-9-m",
+          "quote": "has raised $9 million in a seed funding round led by HV Capital"
+        },
+        {
+          "field": "stage",
+          "url": "https://vestbee.com/insights/articles/voize-raises-9-m",
+          "quote": "has raised $9 million in a seed funding round led by HV Capital"
+        },
+        {
+          "field": "month",
+          "url": "https://vestbee.com/insights/articles/voize-raises-9-m",
+          "quote": "March 31, 2025"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.why.berlin/n/voize-raises-9m-to-turn-speech-into-smart-documentation",
+          "quote": "has successfully closed a $9 million seed funding round led by HV Capital, with continued support from Y Combinator, redalpine, and HPI Ventures"
+        }
+      ]
+    },
+    {
+      "stage": "series-a",
+      "month": "2025-11",
+      "amountEur": 43140638,
+      "amountOriginal": 50000000.0,
+      "currency": "USD",
+      "investors": [
+        "Balderton Capital",
+        "HV Capital",
+        "redalpine",
+        "Y Combinator"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://hlth.com/insights/news/voize-lands-50m-to-transform-nursing-care-with-voice-technology-2025-11-18",
+          "quote": "The company has raised $50 million in Series A funding, led by Balderton Capital with participation from HV Capital, Redalpine, and Y Combinator"
+        },
+        {
+          "field": "stage",
+          "url": "https://hlth.com/insights/news/voize-lands-50m-to-transform-nursing-care-with-voice-technology-2025-11-18",
+          "quote": "The company has raised $50 million in Series A funding, led by Balderton Capital with participation from HV Capital, Redalpine, and Y Combinator"
+        },
+        {
+          "field": "month",
+          "url": "https://hlth.com/insights/news/voize-lands-50m-to-transform-nursing-care-with-voice-technology-2025-11-18",
+          "quote": "18 Nov 2025"
+        },
+        {
+          "field": "investors",
+          "url": "https://hlth.com/insights/news/voize-lands-50m-to-transform-nursing-care-with-voice-technology-2025-11-18",
+          "quote": "The company has raised $50 million in Series A funding, led by Balderton Capital with participation from HV Capital, Redalpine, and Y Combinator"
+        }
+      ]
+    }
+  ]
+}

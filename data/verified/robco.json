@@ -56,6 +56,11 @@
       "field": "valuation",
       "url": "https://www.thestar.com.my/tech/tech-news/2026/10/05/german-robot-startup-robco-hits-1-billion-valuation-ceo-moves-to-us",
       "quote": "had passed a $1 billion valuation"
+    },
+    {
+      "field": "programs",
+      "url": "https://www.cdtm.com/startups/robco",
+      "quote": "CDTM founders Roman Hölzl Class of Fall 2017"
     }
   ],
   "rounds": [
@@ -173,5 +178,10 @@
       ]
     }
   ],
-  "lastValuationEur": 893000000
+  "lastValuationEur": 893000000,
+  "programs": [
+    {
+      "id": "cdtm"
+    }
+  ]
 }

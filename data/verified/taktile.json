@@ -1,0 +1,201 @@
+{
+  "id": "taktile",
+  "name": "Taktile",
+  "aliases": [],
+  "domain": "taktile.com",
+  "country": "DE",
+  "city": "Berlin",
+  "founded": 2020,
+  "sectors": [
+    "fintech",
+    "ai"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Maik Taro Wehmeyer",
+    "Maximilian Eber"
+  ],
+  "difficulty": 4,
+  "programs": [
+    {
+      "id": "y-combinator",
+      "batch": "Summer 2020"
+    }
+  ],
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://tech.eu/2022/11/22/index-ventures-and-tiger-global-back-berlin-founded-taktile-in-20-million-round/",
+      "quote": "Berlin-founded, now New York-headquartered Taktile has raised $20 million in a Series A investment round"
+    },
+    {
+      "field": "founded",
+      "url": "https://www.startbase.com/news/taktile-schliesst-seed-finanzierungsrunde-ab",
+      "quote": "Founded in September 2020 by Maik Taro Wehmeyer and Maximilian Eber"
+    },
+    {
+      "field": "founders",
+      "url": "https://www.startbase.com/news/taktile-schliesst-seed-finanzierungsrunde-ab",
+      "quote": "Founded in September 2020 by Maik Taro Wehmeyer and Maximilian Eber"
+    },
+    {
+      "field": "sectors",
+      "url": "https://fintech.global/2026/06/25/taktile-raises-110m-to-put-ai-at-heart-of-finance/",
+      "quote": "an AI transformation platform for financial institutions, has closed a $110m Series C funding round"
+    },
+    {
+      "field": "status",
+      "url": "https://fintech.global/2026/06/25/taktile-raises-110m-to-put-ai-at-heart-of-finance/",
+      "quote": "an AI transformation platform for financial institutions, has closed a $110m Series C funding round"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://fintech.global/2026/06/25/taktile-raises-110m-to-put-ai-at-heart-of-finance/",
+      "quote": "an AI transformation platform for financial institutions, has closed a $110m Series C funding round"
+    },
+    {
+      "field": "programs",
+      "url": "https://yc-oss.github.io/api/batches/summer-2020/taktile.json",
+      "quote": "\"batch\": \"Summer 2020\""
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "seed",
+      "month": "2021-08",
+      "amountEur": 3996259,
+      "amountOriginal": 4700000.0,
+      "currency": "USD",
+      "investors": [
+        "Index Ventures",
+        "Firstminute Capital",
+        "Plug and Play"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.startbase.com/news/taktile-schliesst-seed-finanzierungsrunde-ab",
+          "quote": "has raised 4.7 million US dollars from investors such as Index Ventures , Firstminute Capital and Plug and Play"
+        },
+        {
+          "field": "month",
+          "url": "https://www.startbase.com/news/taktile-schliesst-seed-finanzierungsrunde-ab",
+          "quote": "Stuttgart, 27. August 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.startbase.com/news/taktile-schliesst-seed-finanzierungsrunde-ab",
+          "quote": "has raised 4.7 million US dollars from investors such as Index Ventures , Firstminute Capital and Plug and Play"
+        }
+      ]
+    },
+    {
+      "stage": "series-a",
+      "month": "2022-11",
+      "amountEur": 19466615,
+      "amountOriginal": 20000000.0,
+      "currency": "USD",
+      "investors": [
+        "Index Ventures",
+        "Tiger Global Management"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://taktile.com/blog/taktile-raises-20-million-series-a",
+          "quote": "announce our $20M Series A, co-led by Index Ventures and Tiger Global Management"
+        },
+        {
+          "field": "stage",
+          "url": "https://taktile.com/blog/taktile-raises-20-million-series-a",
+          "quote": "announce our $20M Series A, co-led by Index Ventures and Tiger Global Management"
+        },
+        {
+          "field": "month",
+          "url": "https://taktile.com/blog/taktile-raises-20-million-series-a",
+          "quote": "Nov 22, 2022"
+        },
+        {
+          "field": "investors",
+          "url": "https://taktile.com/blog/taktile-raises-20-million-series-a",
+          "quote": "announce our $20M Series A, co-led by Index Ventures and Tiger Global Management"
+        }
+      ]
+    },
+    {
+      "stage": "series-b",
+      "month": "2025-02",
+      "amountEur": 51541472,
+      "amountOriginal": 54000000.0,
+      "currency": "USD",
+      "investors": [
+        "Balderton Capital",
+        "Index Ventures",
+        "Tiger Global",
+        "Y Combinator",
+        "Prosus Ventures",
+        "Visionaries Club"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.abfjournal.com/taktile-secures-54mm-with-investor-syndicate-to-boost-ai-risk-decision-making/",
+          "quote": "has raised $54 million in a series B funding round led by Balderton Capital, with participation from existing investors Index Ventures, Tiger Global, Y Combinator, Prosus Ventures and Visionaries Club"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.abfjournal.com/taktile-secures-54mm-with-investor-syndicate-to-boost-ai-risk-decision-making/",
+          "quote": "has raised $54 million in a series B funding round led by Balderton Capital, with participation from existing investors Index Ventures, Tiger Global, Y Combinator, Prosus Ventures and Visionaries Club"
+        },
+        {
+          "field": "month",
+          "url": "https://www.abfjournal.com/taktile-secures-54mm-with-investor-syndicate-to-boost-ai-risk-decision-making/",
+          "quote": "February 28, 2025"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.abfjournal.com/taktile-secures-54mm-with-investor-syndicate-to-boost-ai-risk-decision-making/",
+          "quote": "has raised $54 million in a series B funding round led by Balderton Capital, with participation from existing investors Index Ventures, Tiger Global, Y Combinator, Prosus Ventures and Visionaries Club"
+        }
+      ]
+    },
+    {
+      "stage": "series-c",
+      "month": "2026-06",
+      "amountEur": 97001764,
+      "amountOriginal": 110000000.0,
+      "currency": "USD",
+      "investors": [
+        "Goldman Sachs Alternatives",
+        "Balderton Capital",
+        "Index Ventures",
+        "Tiger Global",
+        "Y Combinator",
+        "Dig Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://taktile.com/blog/taktile-s-next-chapter-we-raised-110m-to-power-the-agentic-financial-institutions-of-the-future",
+          "quote": "announce our $110M Series C fundraise, led by Growth Equity at Goldman Sachs Alternatives"
+        },
+        {
+          "field": "stage",
+          "url": "https://taktile.com/blog/taktile-s-next-chapter-we-raised-110m-to-power-the-agentic-financial-institutions-of-the-future",
+          "quote": "announce our $110M Series C fundraise, led by Growth Equity at Goldman Sachs Alternatives"
+        },
+        {
+          "field": "month",
+          "url": "https://taktile.com/blog/taktile-s-next-chapter-we-raised-110m-to-power-the-agentic-financial-institutions-of-the-future",
+          "quote": "Jun 24, 2026"
+        },
+        {
+          "field": "investors",
+          "url": "https://fintech.global/2026/06/25/taktile-raises-110m-to-put-ai-at-heart-of-finance/",
+          "quote": "including Balderton Capital, Index Ventures, Tiger Global, Y Combinator, and Dig Ventures"
+        }
+      ]
+    }
+  ]
+}

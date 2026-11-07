@@ -81,6 +81,11 @@
       "field": "valuation",
       "url": "https://techcrunch.com/2024/10/11/uk-neobank-monzo-hits-5-9b-valuation-with-secondary-market-sale",
       "quote": "Monzo is now valued at $5.9 billion after the U.K.-based challenger bank confirmed a secondary market share sale"
+    },
+    {
+      "field": "programs",
+      "url": "https://www.cdtm.com/startups/monzo",
+      "quote": "CDTM founders Jonas Templestein Class of Fall 2008"
     }
   ],
   "rounds": [
@@ -503,6 +508,11 @@
           "quote": "raised another $190 million from investors including Hedosophia and CapitalG"
         }
       ]
+    }
+  ],
+  "programs": [
+    {
+      "id": "cdtm"
     }
   ]
 }
