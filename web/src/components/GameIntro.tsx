@@ -7,6 +7,7 @@ import { ArrowLeft } from "lucide-react";
 
 import { loadDifficulty, type Difficulty } from "@/lib/difficulty";
 import { MODE_INFO } from "@/lib/modes";
+import type { Region } from "@/lib/regions";
 import { DifficultyPicker } from "./DifficultyPicker";
 import { HowToPlay } from "./HowToPlay";
 import { ModePreview } from "./ModePreview";
@@ -16,9 +17,12 @@ export function GameIntro({
   mode,
   subtitle,
   back = { href: "/", label: "All games" },
+  region,
   onStart,
 }: {
   mode: PlayMode;
+  /** A Local game: the illustration shows that region's startups. */
+  region?: Region;
   subtitle?: string;
   /** Where the back link goes: all games, or the Local tab for a local game. */
   back?: { href: string; label: string };
@@ -31,7 +35,7 @@ export function GameIntro({
         <ArrowLeft size={16} aria-hidden /> {back.label}
       </Link>
       <div className="overflow-hidden rounded-2xl border border-border bg-surface">
-        <ModePreview mode={mode} />
+        <ModePreview mode={mode} region={region} />
         <div className="space-y-5 p-5">
           <div className="flex items-center justify-between gap-3">
             <div className="min-w-0">

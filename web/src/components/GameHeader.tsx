@@ -25,15 +25,16 @@ export function GameHeader({
       <Link href={back.href} className="inline-flex items-center gap-1 text-sm font-medium text-muted hover:text-primary">
         <ArrowLeft size={16} aria-hidden /> {back.label}
       </Link>
-      <div className="flex items-center justify-between gap-3">
-        <div className="min-w-0">
-          <h1 className="text-2xl font-bold">{title}</h1>
-          {subtitle && <p className="text-sm text-muted">{subtitle}</p>}
+      <div>
+        <div className="flex items-center justify-between gap-3">
+          <h1 className="min-w-0 text-2xl font-bold">{title}</h1>
+          <span className="flex shrink-0 items-center gap-1 text-sm text-muted">
+            {difficulty && <DifficultyBadge level={difficulty} />}
+            <HowToPlay mode={mode} />
+          </span>
         </div>
-        <span className="flex items-center gap-1 text-sm text-muted">
-          {difficulty && <DifficultyBadge level={difficulty} />}
-          <HowToPlay mode={mode} />
-        </span>
+        {/* Under the title at full width, so a longer line ("Biggest round: bigger or smaller?") doesn't wrap beside the level. */}
+        {subtitle && <p className="text-sm text-muted">{subtitle}</p>}
       </div>
     </header>
   );

@@ -17,6 +17,7 @@ import { ResultArea } from "@/components/ResultArea";
 import { RevealButton } from "@/components/RevealButton";
 import { nudgeClass } from "@/lib/nudge";
 import { StatsPanel } from "@/components/StatsPanel";
+import { Hints, hintState } from "@/components/Hints";
 import { recordFinish, recordStart } from "@/lib/stats";
 import { REGIONS, slotOf, type Region } from "@/lib/regions";
 
@@ -111,6 +112,7 @@ export function ImpostorGame({ region }: { region?: Region } = {}) {
         mode={MODE}
         subtitle={subtitle}
         back={back}
+        region={region}
         onStart={(d) => {
           saveDifficulty(d);
           const fresh: Progress = { difficulty: d, picks: [], hintsUsed: 0 };
@@ -127,6 +129,12 @@ export function ImpostorGame({ region }: { region?: Region } = {}) {
   const impostors = impostorsOf(play);
   const { won, lost, found, done, score, bucket } = evaluate(play, progress);
   const impostor = companies.get(play.impostorId)!;
+  // Hints: the puzzle's own ("Remove one wrong option (Stegra fits)", "One impostor is based in ...").
+  // A hint naming a company that fits takes it off the board: shown as genuine, no longer pickable.
+  const hints = hintState(progress.difficulty, play.hints ?? [], progress.hintsUsed);
+  const cleared = new Set(
+    play.companyIds.filter((id) => !impostors.includes(id) && hints.revealed.some((h) => h.text.includes(`(${companies.get(id)?.name} fits)`))),
+  );
   // End card: the impostor, the company the whole puzzle was about.
   const featured = impostor;
   const featuredFounders = featured.founderIds
@@ -177,7 +185,7 @@ export function ImpostorGame({ region }: { region?: Region } = {}) {
             const picked = progress.picks.includes(id);
             const isImpostor = impostors.includes(id);
             // A pick shows right or wrong at once; once done, the rest of the impostors are revealed too.
-            const state = picked ? (isImpostor ? "found" : "wrong") : done ? (isImpostor ? "impostor" : "genuine") : "open";
+            const state = picked ? (isImpostor ? "found" : "wrong") : done || cleared.has(id) ? (isImpostor ? "impostor" : "genuine") : "open";
             const ring = {
               open: "ring-border group-hover:ring-primary",
               found: "animate-pop ring-correct",
@@ -197,7 +205,7 @@ export function ImpostorGame({ region }: { region?: Region } = {}) {
               >
                 <button
                   type="button"
-                  disabled={done || picked}
+                  disabled={done || picked || cleared.has(id)}
                   onClick={() => {
                     const next = { ...progress, picks: [...progress.picks, id] };
                     update(next);
@@ -208,7 +216,7 @@ export function ImpostorGame({ region }: { region?: Region } = {}) {
                 >
                   <span className={`relative rounded-[22%] ring-[3px] transition ${ring}`}>
                     <CompanyLogo company={c} size={many ? 46 : 60} />
-                    {(done || picked) && (
+                    {(done || picked || cleared.has(id)) && (
                       <span
                         className={`absolute -right-2 -top-2 flex h-6 w-6 items-center justify-center rounded-full ${
                           state === "wrong" ? "bg-wrong" : state === "genuine" ? "bg-border" : "bg-correct"
@@ -237,7 +245,10 @@ export function ImpostorGame({ region }: { region?: Region } = {}) {
 
       {!done ? (
         <div className="space-y-3">
-          <p className="text-center text-sm text-muted">Tap the startups you are sure about.</p>
+          <div className="flex items-center justify-center gap-3">
+            <p className="text-sm text-muted">Tap the startups you are sure about.</p>
+            <Hints {...hints} onReveal={() => update({ ...progress, hintsUsed: progress.hintsUsed + 1 })} />
+          </div>
           {progress.picks.length > 0 && <RevealButton label="Reveal answer" onConfirm={() => update({ ...progress, gaveUp: true })} />}
         </div>
       ) : (
