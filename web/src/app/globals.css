@@ -154,3 +154,8 @@ h1, h2, h3 {
 .sheet-panel:focus-visible {
   outline: none;
 }
+
+/* The search field shows its focus with its own yellow border; a second ring around it was one too many. */
+.search-input:focus-visible {
+  outline: none;
+}

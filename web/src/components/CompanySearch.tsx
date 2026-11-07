@@ -7,6 +7,8 @@ import { CompanyLogo } from "./CompanyLogo";
 
 /**
  * Autocomplete input: the player can only submit a company that exists in the dataset.
+ * Companies already guessed wrong (`tried`) still come up, greyed out with a short note; picking one
+ * again doesn't count as a guess, it calls `onTried` (to show why it was wrong).
  * An ARIA combobox (APG pattern): arrow keys move through the list, Enter picks, Escape closes,
  * and screen readers hear the active option.
  */
@@ -14,12 +16,17 @@ export function CompanySearch({
   companies,
   exclude,
   onPick,
+  tried,
+  onTried,
   placeholder = "Type a company…",
   autoFocus = false,
 }: {
   companies: Company[];
   exclude: Set<string>;
   onPick: (c: Company) => void;
+  /** Wrong guesses so far: id → a few words shown next to the greyed-out name. */
+  tried?: Map<string, string>;
+  onTried?: (c: Company) => void;
   placeholder?: string;
   autoFocus?: boolean;
 }) {
@@ -53,7 +60,8 @@ export function CompanySearch({
   const optionId = (i: number) => `${listId}-${i}`;
 
   function pick(c: Company) {
-    onPick(c);
+    if (tried?.has(c.id)) onTried?.(c);
+    else onPick(c);
     setQuery("");
     setActive(0);
   }
@@ -93,7 +101,7 @@ export function CompanySearch({
         autoCorrect="off"
         spellCheck={false}
         enterKeyHint="go"
-        className="w-full rounded-2xl border border-border bg-surface px-4 py-3 text-base outline-none focus:border-primary"
+        className="search-input w-full rounded-2xl border border-border bg-surface px-4 py-3 text-base outline-none focus:border-primary"
       />
       {expanded && (
         // A floating menu, so it may cast a shadow. taste-skill-ignore
@@ -104,22 +112,29 @@ export function CompanySearch({
           style={{ maxHeight: maxH }}
           className={`absolute inset-x-0 z-30 overflow-y-auto rounded-2xl border border-border bg-surface shadow-lg ${up ? "bottom-full mb-1" : "top-full mt-1"}`}
         >
-          {results.map((c, i) => (
+          {results.map((c, i) => {
+            const note = tried?.get(c.id);
+            return (
             <li
               key={c.id}
               id={optionId(i)}
               role="option"
               aria-selected={i === active}
+              aria-label={note !== undefined ? `${c.name}, already tried` : undefined}
               onMouseEnter={() => setActive(i)}
               // Keep focus in the input, so the keyboard stays open on phones.
               onMouseDown={(e) => e.preventDefault()}
               onClick={() => pick(c)}
               className={`flex min-h-11 cursor-pointer items-center gap-3 px-4 py-2 ${i === active ? "bg-primary/10" : ""}`}
             >
-              <CompanyLogo company={c} size={28} />
-              <span className="font-medium">{c.name}</span>
+              <span className={note !== undefined ? "opacity-40 grayscale" : ""}>
+                <CompanyLogo company={c} size={28} />
+              </span>
+              <span className={`min-w-0 flex-1 truncate font-medium ${note !== undefined ? "text-muted line-through decoration-wrong/60" : ""}`}>{c.name}</span>
+              {note !== undefined && <span className="max-w-[55%] shrink-0 truncate text-xs text-muted">{note || "Tried"}</span>}
             </li>
-          ))}
+            );
+          })}
         </ul>
       )}
     </div>

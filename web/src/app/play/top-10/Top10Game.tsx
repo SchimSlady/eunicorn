@@ -113,8 +113,12 @@ export function Top10Game({ region }: { region?: Region } = {}) {
 
   const round = atLevel(puzzle, progress.difficulty);
   const { found, wrong, done, score } = evaluate(round, progress);
-  // Wrong guesses, latest first, and why the selected one isn't on the list.
-  const misses = progress.guesses.filter((id) => !round.companyIds.includes(id)).reverse().map((id) => companies.get(id)!).filter(Boolean);
+  // Wrong guesses: they stay in the search, greyed out with their reason; and the one whose card is shown.
+  const tried = new Map(
+    progress.guesses
+      .filter((id) => !round.companyIds.includes(id) && companies.has(id))
+      .map((id) => [id, explainMiss(companies.get(id)!, round, data)?.text ?? "Not on this list"]),
+  );
   const missed = miss ? companies.get(miss.id) : undefined;
   const missReason = missed ? explainMiss(missed, round, data) : null;
 
@@ -183,7 +187,7 @@ export function Top10Game({ region }: { region?: Region } = {}) {
         )}
       </div>
 
-      {/* The rows share the screen height left over (about 24rem is taken by the rest, 30rem with a wrong guess's card), so the whole game fits without scrolling. svh (the height with the browser bars shown) instead of dvh: rows keep their opening size when the phone hides its address bar on scroll. */}
+      {/* The rows share the screen height left over (about 24rem is taken by the rest, 29rem with a wrong guess's card), so the whole game fits without scrolling. svh (the height with the browser bars shown) instead of dvh: rows keep their opening size when the phone hides its address bar on scroll. */}
       <ol className="space-y-[3px]">
         {round.companyIds.map((id, i) => {
           const c = companies.get(id)!;
@@ -192,7 +196,7 @@ export function Top10Game({ region }: { region?: Region } = {}) {
           return (
             <li
               key={id}
-              style={{ height: `clamp(28px, calc((100svh - ${misses.length && !done ? 480 : 392}px) / 10), 44px)` }}
+              style={{ height: `clamp(28px, calc((100svh - ${missed && !done ? 470 : 392}px) / 10), 44px)` }}
               className={`flex items-center gap-2.5 rounded-xl border px-2.5 ${
                 got ? "animate-flip-in border-correct bg-correct/20" : shown ? "border-border bg-surface/40 opacity-60" : "border-muted/40 bg-surface"
               }`}
@@ -222,26 +226,16 @@ export function Top10Game({ region }: { region?: Region } = {}) {
 
       {!done ? (
         <div className="space-y-2">
-          {misses.length > 0 && (
-            <div className="flex flex-wrap items-center gap-1.5" aria-label="Wrong guesses">
-              {misses.map((m) => (
-                <button
-                  key={m.id}
-                  type="button"
-                  onClick={() => setMiss({ id: m.id, n: miss?.n ?? 0 })}
-                  aria-label={`${m.name}: why it isn't on the list`}
-                  aria-pressed={miss?.id === m.id}
-                  className={`relative rounded-[22%] transition ${miss?.id === m.id ? "ring-2 ring-wrong" : "opacity-50 grayscale hover:opacity-100 hover:grayscale-0"}`}
-                >
-                  <CompanyLogo company={m} size={30} />
-                </button>
-              ))}
-            </div>
-          )}
           {missed && <MissCard company={missed} reason={missReason} key={`${missed.id}-${miss!.n}`} />}
           <div className="flex items-start gap-2">
             <div className={`min-w-0 flex-1 rounded-2xl ${nudgeClass(miss?.n)}`}>
-              <CompanySearch companies={data.companies} exclude={new Set(progress.guesses)} onPick={guess} />
+              <CompanySearch
+                companies={data.companies}
+                exclude={new Set(found)}
+                tried={tried}
+                onTried={(c) => setMiss({ id: c.id, n: (miss?.n ?? 0) + 1 })}
+                onPick={guess}
+              />
             </div>
             <Hints
               compact

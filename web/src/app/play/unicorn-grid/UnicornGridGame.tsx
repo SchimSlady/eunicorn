@@ -2,6 +2,7 @@
 
 import { useEffect, useMemo, useState } from "react";
 import { Check, X } from "lucide-react";
+import { countryName, formatUsdAsEur, sectorLabel } from "@/lib/format";
 import type { Company, Dataset, GridCriterion, UnicornGridPuzzle } from "@eunicorn/schema";
 import { indexById, loadGame } from "@/lib/data";
 import { getTodayResult, loadProgress, saveProgress, saveResult } from "@/lib/daily";
@@ -126,7 +127,9 @@ export function UnicornGridGame() {
   const [pending, setPending] = useState<{ company: Company; cells: number[] } | null>(null);
   // The last guess that fit no open square: which headings it meets (✓ / ✗ on the board), and the
   // filled square it would have fit, if any.
-  const [miss, setMiss] = useState<{ name: string; n: number; rows: boolean[]; cols: boolean[]; taken?: number } | null>(null);
+  const [miss, setMiss] = useState<{ id: string; name: string; n: number; rows: boolean[]; cols: boolean[]; taken?: number } | null>(null);
+  // Wrong guesses this visit: they stay in the search, greyed out (they can't fit later either: squares only fill up).
+  const [tried, setTried] = useState<Map<string, string>>(new Map());
 
   useEffect(() => {
     loadGame<Puzzle>(MODE).then(({ puzzle: p, data: d }) => {
@@ -197,8 +200,15 @@ export function UnicornGridGame() {
       return;
     }
     update({ ...progress!, wrong: progress!.wrong + 1 });
+    showMiss(c);
+  }
+
+  /** The ✓ / ✗ on the headings for a wrong guess (again, when the player picks a tried one from the search). */
+  function showMiss(c: Company) {
     const taken = [0, 1, 2, 3, 4, 5, 6, 7, 8].find((cell) => progress!.cells[cell] && puzzle.validAnswers[cell].includes(c.id));
+    setTried((t) => new Map(t).set(c.id, taken !== undefined ? "Square taken" : "Fits no open square"));
     setMiss({
+      id: c.id,
       name: c.name,
       n: (miss?.n ?? 0) + 1,
       rows: puzzle.rows.map((k) => meetsCriterion(c, k, investorsOf)),
@@ -350,23 +360,18 @@ export function UnicornGridGame() {
             </div>
           ) : (
             <>
-              {miss && (
-                <p className="flex flex-wrap items-center justify-center gap-x-1.5 text-center text-sm font-semibold text-wrong">
-                  <X size={16} aria-hidden />
-                  {miss.taken !== undefined ? (
-                    <span>
-                      {miss.name} fits <span className="text-foreground">{squareName(miss.taken)}</span>, but that square is taken
-                    </span>
-                  ) : (
-                    <span>
-                      {miss.name} doesn&apos;t fit any open square <span className="font-normal text-muted">· ✓ and ✗ on the headings</span>
-                    </span>
-                  )}
-                </p>
+              {miss && companies.get(miss.id) && (
+                <GridMissCard
+                  key={`${miss.id}-${miss.n}`}
+                  company={companies.get(miss.id)!}
+                  headings={[...puzzle.rows, ...puzzle.cols]}
+                  meets={[...miss.rows, ...miss.cols]}
+                  taken={miss.taken !== undefined ? squareName(miss.taken) : undefined}
+                />
               )}
               <div className="flex items-start gap-2">
                 <div className={`min-w-0 flex-1 rounded-2xl ${nudgeClass(miss?.n)}`}>
-                  <CompanySearch companies={data.companies} exclude={used} onPick={pick} />
+                  <CompanySearch companies={data.companies} exclude={used} tried={tried} onTried={showMiss} onPick={pick} />
                 </div>
                 <Hints
                   compact
@@ -404,6 +409,78 @@ export function UnicornGridGame() {
           <BuiltInEuropeCard company={featured} founders={featuredFounders} reason={featuredReason} />
         </div>
       )}
+    </div>
+  );
+}
+
+/**
+ * A wrong guess on the grid: its logo and name, why it missed in one line, and chips with what the
+ * company is for each kind of heading on the board (its country, city, sectors, founding year ...):
+ * green with a ✓ where it meets a heading, plain where it doesn't. Together with the ✓ / ✗ on the
+ * headings this shows at a glance which half of the square was wrong.
+ */
+function GridMissCard({ company: c, headings, meets, taken }: { company: Company; headings: GridCriterion[]; meets: boolean[]; taken?: string }) {
+  const kinds = [...new Set(headings.map((h) => h.kind as string))];
+  const met = (kind: string) => headings.some((h, i) => h.kind === kind && meets[i]);
+  const metLabels = (kind: string) => headings.filter((h, i) => h.kind === kind && meets[i]).map((h) => h.label.replace(/\p{Regional_Indicator}/gu, "").trim());
+  const chips: { key: string; ok: boolean; node: React.ReactNode }[] = [];
+  for (const kind of kinds) {
+    const ok = met(kind);
+    switch (kind) {
+      case "country":
+        chips.push({ key: kind, ok, node: <><Flag country={c.country} size={14} /> {countryName(c.country)}</> });
+        break;
+      case "city":
+        if (c.city) chips.push({ key: kind, ok, node: c.city });
+        break;
+      case "sector":
+        for (const s of c.sectors.slice(0, 3)) chips.push({ key: `sector-${s}`, ok: headings.some((h, i) => h.kind === "sector" && h.value === s && meets[i]), node: sectorLabel(s) });
+        break;
+      case "founded-after":
+      case "founded-before":
+        if (!chips.some((x) => x.key === "founded") && c.founded > 0) chips.push({ key: "founded", ok: met("founded-after") || met("founded-before"), node: `Founded ${c.founded}` });
+        break;
+      case "unicorn":
+        chips.push({ key: kind, ok, node: c.unicorn ? "Unicorn" : "Never a unicorn" });
+        break;
+      case "valuation-over":
+        chips.push({ key: kind, ok, node: c.lastValuationUsd ? `Valued ${formatUsdAsEur(c.lastValuationUsd)}` : "No valuation" });
+        break;
+      case "investor":
+        for (const label of metLabels(kind)) chips.push({ key: `inv-${label}`, ok: true, node: label });
+        break;
+    }
+  }
+  return (
+    <div className="flex animate-pop items-start gap-3 rounded-2xl border border-wrong/40 bg-wrong/10 p-3">
+      <CompanyLogo company={c} size={44} />
+      <div className="min-w-0 flex-1">
+        <p className="font-semibold leading-tight">{c.name}</p>
+        <p className="mt-0.5 text-sm leading-snug text-muted">
+          {taken ? (
+            <>
+              Fits <span className="font-semibold text-foreground">{taken}</span>, but that square is taken
+            </>
+          ) : (
+            "Fits no open square"
+          )}
+        </p>
+        {chips.length > 0 && (
+          <ul className="mt-2 flex flex-wrap gap-1.5" aria-label={`What ${c.name} is`}>
+            {chips.map((x) => (
+              <li
+                key={x.key}
+                className={`flex items-center gap-1 rounded-full px-2 py-0.5 text-xs font-semibold ${
+                  x.ok ? "bg-correct/20 text-correct" : "bg-surface text-muted"
+                }`}
+              >
+                {x.ok && <Check size={12} strokeWidth={3} aria-label="meets a heading" />}
+                {x.node}
+              </li>
+            ))}
+          </ul>
+        )}
+      </div>
     </div>
   );
 }
