@@ -69,6 +69,10 @@ Read this before verifying a company. Each rule came from a real problem in the 
 - **Check the file:** the logo must be the latest branding, not a wordmark from an old rebrand. Check the file is not a favicon. Prefer SVG, then large PNG.
 - **Symbol-only or small rasters** are acceptable only if no better file exists. Flag them.
 - **Save to** `web/public/logos/<id>.svg|png`. Don't add a logo source to the company file unless asked.
+- **Check contrast on a white tile before saving** (2026-11-07): render the file in a headless browser (an `<img>`, so `currentColor` turns black) and look at it on white, also at game size (~34 px). Mixed files exist: plancraft's header SVG had a dark symbol and a white wordmark, so only the symbol showed.
+- **Where dark versions hide:** login pages and legal pages (plancraft `/login`, beo `/impressum` with `dark-logo.svg`), subpages with a light header (PhysicsX `/resources` renders the header SVG in `rgb(30,30,30)`), press kits behind a "Downloads" link (cylib: Google Drive folder, `embeddedfolderview?id=` lists the files, `uc?export=download&id=` fetches one), and Commons files that were updated (Neura's Commons SVG is black now).
+- **Framer sites** draw the logo as `<svg><use href="#svg-…">`: read the referenced symbol and replace its `var(--token…, rgb(…))` fill with the fallback colour (Legora).
+- **Press portals that need a terms click** (NEURA's pixx.io portal) and press kits hosted on brandfetch.com (Legora) are off limits.
 
 ## Process
 - **Validate before loading:** `npm run validate` and `npm run load:verified -- <id>` for each company.
