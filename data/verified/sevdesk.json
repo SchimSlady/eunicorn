@@ -1,0 +1,100 @@
+{
+  "id": "sevdesk",
+  "name": "sevDesk",
+  "aliases": [
+    "SEVENIT"
+  ],
+  "domain": "sevdesk.de",
+  "country": "DE",
+  "city": "Offenburg",
+  "founded": 2013,
+  "sectors": [
+    "saas",
+    "fintech"
+  ],
+  "status": "acquired",
+  "unicorn": false,
+  "founders": [
+    "Fabian Silberer",
+    "Marco Reinbold"
+  ],
+  "funFact": "sevDesk was founded in 2013 as SEVENIT GmbH and only took its product's name in 2019.",
+  "difficulty": 4,
+  "techeuId": "BC68DAB0-8C80-4033-8249-FDDAF47079D1",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://sevdesk.de/ueber-uns/",
+      "quote": "Wir sind ein Software ScaleUp aus Offenburg"
+    },
+    {
+      "field": "founded",
+      "url": "https://sevdesk.de/ueber-uns/",
+      "quote": "Gegründet 2013 als SEVENIT GmbH"
+    },
+    {
+      "field": "founders",
+      "url": "https://www.startbase.de/news/sevdesk-sammelt-50-millionen-euro-ein/",
+      "quote": "Die SevDesk-Gründer Fabian Silberer (l.) und Marco Reinbold."
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.startbase.de/news/sevdesk-sammelt-50-millionen-euro-ein/",
+      "quote": "SevDesk bietet eine cloudbasierte Buchhaltungssoftware an"
+    },
+    {
+      "field": "status",
+      "url": "https://sevdesk.de/presse/cegid-uebernahme-von-sevdesk/",
+      "quote": "hat die bereits angekündigte Übernahme von sevdesk abgeschlossen"
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://sevdesk.de/ueber-uns/",
+      "quote": "Gegründet 2013 als SEVENIT GmbH, tragen wir seit 2019 den Namen unseres Produkts"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "79db2fde-5c50-4714-ad02-79b3b9485cf9",
+      "stage": "series-b",
+      "month": "2021-05",
+      "amountEur": 50000000,
+      "amountOriginal": 50000000,
+      "currency": "EUR",
+      "investors": [
+        "Arena Holdings",
+        "Carsten Thoma",
+        "LEA Partners",
+        "Global Founders Capital",
+        "Wecken & Cie"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.startbase.de/news/sevdesk-sammelt-50-millionen-euro-ein/",
+          "quote": "Das SaaS-Start-up SevDesk hat seine Serie-B-Runde abgeschlossen und dabei 50 Millionen Euro einsammeln können."
+        },
+        {
+          "field": "stage",
+          "url": "https://www.startbase.de/news/sevdesk-sammelt-50-millionen-euro-ein/",
+          "quote": "Das SaaS-Start-up SevDesk hat seine Serie-B-Runde abgeschlossen"
+        },
+        {
+          "field": "month",
+          "url": "https://www.startbase.de/news/sevdesk-sammelt-50-millionen-euro-ein/",
+          "quote": "Stuttgart, 25. Mai 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.startbase.de/news/sevdesk-sammelt-50-millionen-euro-ein/",
+          "quote": "Der US-Investor Arena Holdings führt die Runde an."
+        },
+        {
+          "field": "investors",
+          "url": "https://www.startbase.de/news/sevdesk-sammelt-50-millionen-euro-ein/",
+          "quote": "Auch Bestandsinvestoren wie LEA Partners , Global Founders Capital und das Family Office Wecken & Cie beteiligen sich an der Runde."
+        }
+      ]
+    }
+  ]
+}

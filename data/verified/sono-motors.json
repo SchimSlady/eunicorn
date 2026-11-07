@@ -1,0 +1,60 @@
+{
+  "id": "sono-motors",
+  "name": "Sono Motors",
+  "aliases": [
+    "Sono Group",
+    "Sono Solar",
+    "SonoSolar"
+  ],
+  "domain": "sonomotors.com",
+  "country": "DE",
+  "city": "Munich",
+  "founded": 2016,
+  "sectors": [
+    "mobility",
+    "climate"
+  ],
+  "status": "defunct",
+  "unicorn": false,
+  "founders": [
+    "Laurin Hahn",
+    "Navina Pernsteiner",
+    "Jona Christians"
+  ],
+  "funFact": "Sono Motors began in 2012 in a garage with the conversion of a Renault Twingo, four years before the company was founded.",
+  "difficulty": 3,
+  "techeuId": "CE43E16D-6EF9-424F-9698-7513C5AEE486",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.boersen-zeitung.de/personen/sono-motors-ist-fuer-die-gruender-eine-berufung-b00a9fc2-5293-11ec-b45e-40d03ac0b54e",
+      "quote": "2016 gründeten die Freunde das Unternehmen in München."
+    },
+    {
+      "field": "founded",
+      "url": "https://www.boersen-zeitung.de/personen/sono-motors-ist-fuer-die-gruender-eine-berufung-b00a9fc2-5293-11ec-b45e-40d03ac0b54e",
+      "quote": "2016 gründeten die Freunde das Unternehmen in München."
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Sono_Motors",
+      "quote": "Sono Motors was founded by Laurin Hahn, Navina Pernsteiner and Jona Christians"
+    },
+    {
+      "field": "sectors",
+      "url": "https://sono-solar.com/sono-motors-gmbh-opens-insolvency-proceedings/",
+      "quote": "through the development of the Sion solar electric vehicle"
+    },
+    {
+      "field": "status",
+      "url": "https://sono-solar.com/sono-motors-gmbh-opens-insolvency-proceedings/",
+      "quote": "Sono Motors GmbH is ceasing its operational business effective July 31, 2026, and initiating insolvency proceedings."
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://www.boersen-zeitung.de/personen/sono-motors-ist-fuer-die-gruender-eine-berufung-b00a9fc2-5293-11ec-b45e-40d03ac0b54e",
+      "quote": "Angefangen hatte alles im Jahr 2012 in einer Garage mit dem Umbau eines Renault Twingo."
+    }
+  ],
+  "rounds": []
+}

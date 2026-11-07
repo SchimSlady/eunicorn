@@ -1,0 +1,167 @@
+{
+  "id": "pitch",
+  "name": "Pitch",
+  "aliases": [
+    "Pitch.io"
+  ],
+  "domain": "pitch.com",
+  "country": "DE",
+  "city": "Berlin",
+  "founded": 2018,
+  "sectors": [
+    "saas"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Christian Reber",
+    "Vanessa Stock",
+    "Marvin Labod",
+    "Adam Renklint",
+    "Charlette Prevot",
+    "Jan Martin",
+    "Eric Labod",
+    "Misha Karpenko"
+  ],
+  "funFact": "Pitch was built by the founding team of the to-do app Wunderlist, which Microsoft acquired in 2015.",
+  "difficulty": 3,
+  "techeuId": "FC00B8C6-C372-4B44-9CEB-BEBF90EEE425",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://pitch.com/blog/pitch-raises-19-million-from-index-slack-and-more",
+      "quote": "We’re a new software company based in Berlin."
+    },
+    {
+      "field": "founded",
+      "url": "https://tech.eu/2021/05/20/berlins-collaborative-presentation-platform-pitch-raises-85-million-in-series-b-funding/",
+      "quote": "Founded in 2018 by the team behind one of Berlin’s original darlings, Wunderlist"
+    },
+    {
+      "field": "founders",
+      "url": "https://techcrunch.com/2018/10/09/pitch-from-the-founders-of-wunderlist-raises-19m-to-take-on-powerpoint-in-presentations/",
+      "quote": "CEO and co-founder Christian Reber"
+    },
+    {
+      "field": "founders",
+      "url": "https://techcrunch.com/2018/10/09/pitch-from-the-founders-of-wunderlist-raises-19m-to-take-on-powerpoint-in-presentations/",
+      "quote": "which includes founders Vanessa Stock; Marvin Labod; Adam Renklint; Charlette Prevot; Jan Martin; Eric Labod; and Misha Karpenko"
+    },
+    {
+      "field": "sectors",
+      "url": "https://tech.eu/2021/05/20/berlins-collaborative-presentation-platform-pitch-raises-85-million-in-series-b-funding/",
+      "quote": "Berlin-based collaborative presentation platform Pitch has raised $85 million in a Series B round"
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://pitch.com/blog/pitch-raises-19-million-from-index-slack-and-more",
+      "quote": "Our founding team built the to-do app Wunderlist (acquired by Microsoft in 2015)"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "72f89abf-8ea2-42da-de27-08d91092c887",
+      "stage": "series-a",
+      "month": "2018-10",
+      "amountEur": 16615654,
+      "amountOriginal": 19000000,
+      "currency": "USD",
+      "investors": [
+        "Index Ventures",
+        "BlueYard",
+        "Slack Fund",
+        "Eric Yuan",
+        "Koen Bok",
+        "Simon Willnauer",
+        "Olivier Pomel",
+        "Frank Thelen"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://pitch.com/blog/pitch-raises-19-million-from-index-slack-and-more",
+          "quote": "Today we are proud to announce a $19M Series A, led by Index Ventures and our existing investor BlueYard."
+        },
+        {
+          "field": "stage",
+          "url": "https://pitch.com/blog/pitch-raises-19-million-from-index-slack-and-more",
+          "quote": "Today we are proud to announce a $19M Series A, led by Index Ventures and our existing investor BlueYard."
+        },
+        {
+          "field": "month",
+          "url": "https://pitch.com/blog/pitch-raises-19-million-from-index-slack-and-more",
+          "quote": "October 9, 2018"
+        },
+        {
+          "field": "investors",
+          "url": "https://pitch.com/blog/pitch-raises-19-million-from-index-slack-and-more",
+          "quote": "We’re also welcoming our new investors Slack Fund, Zoom CEO Eric Yuan, Framer CEO Koen Bok, Elastic Co-Founder Simon Willnauer, Datadog CEO Olivier Pomel, Wunderlist-backer Frank Thelen"
+        }
+      ]
+    },
+    {
+      "techeuId": "99e57bbe-8d32-4477-de29-08d91092c887",
+      "stage": "series-a",
+      "month": "2019-10",
+      "amountEur": 27527987,
+      "amountOriginal": 30000000,
+      "currency": "USD",
+      "investors": [
+        "Thrive Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2019/10/01/pitch-io-launches-invite-only-beta-as-it-raises-an-extra-30-million/",
+          "quote": "Thrive Capital invested $30 million in the new company"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2019/10/01/pitch-io-launches-invite-only-beta-as-it-raises-an-extra-30-million/",
+          "quote": "01 October 2019"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2019/10/01/pitch-io-launches-invite-only-beta-as-it-raises-an-extra-30-million/",
+          "quote": "Thrive Capital invested $30 million in the new company"
+        }
+      ]
+    },
+    {
+      "techeuId": "7c6eab55-7be2-4e2a-9c11-129bd7ac056f",
+      "stage": "series-b",
+      "month": "2021-05",
+      "amountEur": 69655003,
+      "amountOriginal": 85000000,
+      "currency": "USD",
+      "investors": [
+        "Lakestar",
+        "Tiger Global",
+        "Index Ventures",
+        "Thrive Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2021/05/20/berlins-collaborative-presentation-platform-pitch-raises-85-million-in-series-b-funding/",
+          "quote": "Berlin-based collaborative presentation platform Pitch has raised $85 million in a Series B round"
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2021/05/20/berlins-collaborative-presentation-platform-pitch-raises-85-million-in-series-b-funding/",
+          "quote": "Berlin-based collaborative presentation platform Pitch has raised $85 million in a Series B round"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2021/05/20/pitch-a-platform-for-making-and-sharing-presentations-raises-85m-on-a-600m-valuation/",
+          "quote": "May 20, 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2021/05/20/pitch-a-platform-for-making-and-sharing-presentations-raises-85m-on-a-600m-valuation/",
+          "quote": "The round is being led by Lakestar and Tiger Global, with previous backers Index Ventures and Thrive Capital also participating."
+        }
+      ]
+    }
+  ]
+}

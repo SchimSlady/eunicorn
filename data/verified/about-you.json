@@ -1,0 +1,100 @@
+{
+  "id": "about-you",
+  "name": "About You",
+  "aliases": [
+    "ABOUT YOU"
+  ],
+  "domain": "aboutyou.com",
+  "country": "DE",
+  "city": "Hamburg",
+  "founded": 2014,
+  "sectors": [
+    "ecommerce",
+    "consumer"
+  ],
+  "status": "acquired",
+  "unicorn": true,
+  "lastValuationEur": 3920000000,
+  "founders": [
+    "Tarek Müller",
+    "Sebastian Betz",
+    "Hannes Wiese"
+  ],
+  "funFact": "About You became Hamburg's first unicorn in July 2018, when Bestseller's holding Heartland A/S joined as an investor.",
+  "difficulty": 2,
+  "techeuId": "B25AB592-7B46-4F78-ADF8-10E6BD43215C",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://corporate.aboutyou.de/en/newsroom/press-releases/focus-on-growth-about-you-attracts-investment-from-sevenventures-and-media-investor-german-media-pool",
+      "quote": "Hamburg-based fashion and technology firm ABOUT YOU"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/About_You_(company)",
+      "quote": "Founded in 2014 as a subsidiary of the Otto Group"
+    },
+    {
+      "field": "founders",
+      "url": "https://corporate.aboutyou.de/en/about-us",
+      "quote": "Sebastian Betz Co-Founder and Co-CEO, Tech & Product"
+    },
+    {
+      "field": "sectors",
+      "url": "https://en.wikipedia.org/wiki/About_You_(company)",
+      "quote": "is a German fashion online retailer headquartered in Hamburg"
+    },
+    {
+      "field": "status",
+      "url": "https://corporate.aboutyou.de/en/newsroom/press-releases/zalando-and-about-you-successfully-complete-transaction-and-team-up-to-lead-the-way-in-european-fashion-and-lifestyle-e-commerce",
+      "quote": "today announced that they have completed their strategic combination"
+    },
+    {
+      "field": "valuation",
+      "url": "https://corporate.aboutyou.de/en/newsroom/press-releases/about-you-sets-final-offer-price-at-23-00-per-share",
+      "quote": "brings ABOUT YOU’s total market capitalization to €3.92 billion"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://corporate.aboutyou.de/en/newsroom/press-releases/about-you-sets-final-offer-price-at-23-00-per-share",
+      "quote": "brings ABOUT YOU’s total market capitalization to €3.92 billion"
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://corporate.aboutyou.de/de/newsroom/pressemitteilungen/about-you-wird-zum-ersten-unicorn-aus-hamburg-heartland-a-s-steigt-als-neuer-investor-bei-fashion-tech-start-up-ein",
+      "quote": "Damit ist das schnell wachsende Fashion-Tech-Start-Up der Otto Group das erste so genannte Unicorn aus Hamburg."
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "4dc92890-c91b-4e8c-d674-08d91092c887",
+      "stage": "series-b",
+      "month": "2018-07",
+      "amountEur": 258888505,
+      "amountOriginal": 300000000,
+      "currency": "USD",
+      "investors": [
+        "Heartland A/S",
+        "German Media Pool",
+        "SevenVentures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://corporate.aboutyou.de/de/newsroom/pressemitteilungen/about-you-wird-zum-ersten-unicorn-aus-hamburg-heartland-a-s-steigt-als-neuer-investor-bei-fashion-tech-start-up-ein",
+          "quote": "Die Beteiligung erfolgt im Rahmen einer Kapitalerhöhung von rund 300 Millionen US-Dollar"
+        },
+        {
+          "field": "month",
+          "url": "https://corporate.aboutyou.de/de/newsroom/pressemitteilungen/about-you-wird-zum-ersten-unicorn-aus-hamburg-heartland-a-s-steigt-als-neuer-investor-bei-fashion-tech-start-up-ein",
+          "quote": "19. July 2018"
+        },
+        {
+          "field": "investors",
+          "url": "https://corporate.aboutyou.de/de/newsroom/pressemitteilungen/about-you-wird-zum-ersten-unicorn-aus-hamburg-heartland-a-s-steigt-als-neuer-investor-bei-fashion-tech-start-up-ein",
+          "quote": "Die bisherigen Gesellschafter German Media Pool und Seven Ventures sowie die drei ABOUT YOU Geschäftsführer Tarek Müller, Sebastian Betz und Hannes Wiese nehmen ebenfalls an der Kapitalerhöhung teil."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "id": "freeletics",
+  "name": "Freeletics",
+  "aliases": [],
+  "domain": "freeletics.com",
+  "country": "DE",
+  "city": "Munich",
+  "founded": 2013,
+  "sectors": [
+    "consumer",
+    "health"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Mehmet Yilmaz",
+    "Joshua Cornelius",
+    "Andrej Matijczak"
+  ],
+  "funFact": "Freeletics launched with nothing more than a YouTube video, a newsletter and three PDFs.",
+  "difficulty": 3,
+  "techeuId": "D1CD9B10-D19C-4BE8-838D-81D2EEC1EAB5",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/Freeletics",
+      "quote": "Freeletics was founded in March 2013 by Mehmet Yilmaz, Joshua Cornelius, and Andrej Matijczak at the Center for Digital Technology and Management in Munich"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Freeletics",
+      "quote": "Freeletics was founded in March 2013 by Mehmet Yilmaz, Joshua Cornelius, and Andrej Matijczak"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Freeletics",
+      "quote": "Freeletics was founded in March 2013 by Mehmet Yilmaz, Joshua Cornelius, and Andrej Matijczak"
+    },
+    {
+      "field": "sectors",
+      "url": "https://techcrunch.com/2018/12/04/freeletics-raises-45m-for-its-ai-powered-fitness-coach/",
+      "quote": "Freeletics raises $45M for its AI-powered mobile fitness coach"
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://en.wikipedia.org/wiki/Freeletics",
+      "quote": "The initial product launch consisted of a YouTube video, a newsletter, and three PDFs."
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "8b62f8ec-e454-463b-eefb-08d91092c887",
+      "stage": "series-b",
+      "month": "2020-09",
+      "amountEur": 21063274,
+      "amountOriginal": 25000000,
+      "currency": "USD",
+      "investors": [
+        "Jazz Venture Partners",
+        "Causeway Media Partners",
+        "KKCG"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.handelsblatt.com/unternehmen/handel-konsumgueter/fitness-start-up-freeletics-erhaelt-25-millionen-dollar-finanzierung/26189086.html",
+          "quote": "Freeletics erhält 25 Millionen Dollar Finanzierung"
+        },
+        {
+          "field": "month",
+          "url": "https://www.handelsblatt.com/unternehmen/handel-konsumgueter/fitness-start-up-freeletics-erhaelt-25-millionen-dollar-finanzierung/26189086.html",
+          "quote": "16.09.2020"
+        },
+        {
+          "field": "stage",
+          "url": "https://en.wikipedia.org/wiki/Freeletics",
+          "quote": "This was followed by a $25 million Series B round in September 2020."
+        },
+        {
+          "field": "investors",
+          "url": "https://www.handelsblatt.com/unternehmen/handel-konsumgueter/fitness-start-up-freeletics-erhaelt-25-millionen-dollar-finanzierung/26189086.html",
+          "quote": "Mit Jazz Venture Partners und Causeway Media Partners sind zwei der Geldgeber von 2018 wieder mit dabei."
+        },
+        {
+          "field": "investors",
+          "url": "https://www.handelsblatt.com/unternehmen/handel-konsumgueter/fitness-start-up-freeletics-erhaelt-25-millionen-dollar-finanzierung/26189086.html",
+          "quote": "Dazu kommt der tschechische Finanzinvestor KKCG."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "id": "wingcopter",
+  "name": "Wingcopter",
+  "aliases": [],
+  "domain": "wingcopter.com",
+  "country": "DE",
+  "city": "Darmstadt",
+  "founded": 2017,
+  "sectors": [
+    "logistics",
+    "robotics"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Tom Plümmer",
+    "Jonathan Hesselbarth",
+    "Ansgar Kadura"
+  ],
+  "funFact": "Wingcopter's 178 Heavy Lift drone set the Guinness world speed record for remote-controlled tilt-rotor aircraft in 2018.",
+  "difficulty": 4,
+  "techeuId": "743B55DF-547B-4687-A6B0-035A256A04AC",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/Wingcopter",
+      "quote": "Wingcopter GmbH was founded in 2017 by Jonathan Hesselbarth, Tom Plümmer, and Ansgar Kadura in Darmstadt"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Wingcopter",
+      "quote": "Wingcopter GmbH was founded in 2017 by Jonathan Hesselbarth, Tom Plümmer, and Ansgar Kadura in Darmstadt"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Wingcopter",
+      "quote": "Wingcopter GmbH was founded in 2017 by Jonathan Hesselbarth, Tom Plümmer, and Ansgar Kadura in Darmstadt"
+    },
+    {
+      "field": "sectors",
+      "url": "https://en.wikipedia.org/wiki/Wingcopter",
+      "quote": "designs and manufactures unmanned eVTOL delivery drones"
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://en.wikipedia.org/wiki/Wingcopter",
+      "quote": "set the Guinness world speed record for remote-controlled tilt-rotor aircraft in 2018"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "c410c7bd-4274-4404-fd82-08d91092c887",
+      "stage": "series-a",
+      "month": "2021-01",
+      "amountEur": 18104016,
+      "amountOriginal": 22000000,
+      "currency": "USD",
+      "investors": [
+        "Xplorer Capital",
+        "Futury Regio Growth Fund",
+        "Futury Ventures",
+        "Hessen Kapital III"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://wingcopter.com/series-a",
+          "quote": "has secured $22 million in Series A funding"
+        },
+        {
+          "field": "stage",
+          "url": "https://wingcopter.com/series-a",
+          "quote": "has secured $22 million in Series A funding"
+        },
+        {
+          "field": "month",
+          "url": "https://wingcopter.com/series-a",
+          "quote": "Weiterstadt, 25 January, 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://wingcopter.com/series-a",
+          "quote": "The financing round was led by Silicon Valley-based Xplorer Capital, a key investor in autonomous technologies, and Futury Regio Growth Fund"
+        }
+      ]
+    },
+    {
+      "techeuId": "7cd8bbc4-8bb5-43b1-909c-dda4795cb14f",
+      "stage": "series-a",
+      "month": "2022-06",
+      "amountEur": 39810427,
+      "amountOriginal": 42000000,
+      "currency": "USD",
+      "investors": [
+        "REWE Group",
+        "Salvia",
+        "XAI technologies",
+        "ITOCHU",
+        "Futury Capital",
+        "Xplorer Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://wingcopter.com/series-a-extension",
+          "quote": "Wingcopter today announced that it has raised $42 million from renowned financial and strategic investors"
+        },
+        {
+          "field": "stage",
+          "url": "https://wingcopter.com/series-a-extension",
+          "quote": "The new funding is part of a Series A extension round"
+        },
+        {
+          "field": "month",
+          "url": "https://wingcopter.com/series-a-extension",
+          "quote": "June 21, 2022, Weiterstadt, Germany"
+        },
+        {
+          "field": "investors",
+          "url": "https://wingcopter.com/series-a-extension",
+          "quote": "Leading German retailer REWE Group as well as German investors Salvia and XAI technologies came on board as new shareholders"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "id": "sosafe",
+  "name": "SoSafe",
+  "aliases": [],
+  "domain": "sosafe-awareness.com",
+  "country": "DE",
+  "city": "Cologne",
+  "founded": 2018,
+  "sectors": [
+    "cybersecurity"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Niklas Hellemann",
+    "Lukas Schaefer",
+    "Felix Schuerholz"
+  ],
+  "funFact": "More than 30% of SoSafe's product organisation come from a background in social science or psychology.",
+  "difficulty": 4,
+  "techeuId": "32ADBC83-1C0B-4B25-8E53-6EDE6BDE82B0",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.actoncapital.com/news/sosafe-cyber-security-awareness-73m-series-b",
+      "quote": "Founded in Cologne, Germany, in 2018 by Dr. Niklas Hellemann, Lukas Schaefer, and Felix Schuerholz"
+    },
+    {
+      "field": "founded",
+      "url": "https://www.actoncapital.com/news/sosafe-cyber-security-awareness-73m-series-b",
+      "quote": "Founded in 2018 in Cologne"
+    },
+    {
+      "field": "founders",
+      "url": "https://www.actoncapital.com/news/sosafe-cyber-security-awareness-73m-series-b",
+      "quote": "Founded in Cologne, Germany, in 2018 by Dr. Niklas Hellemann, Lukas Schaefer, and Felix Schuerholz"
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.actoncapital.com/news/sosafe-cyber-security-awareness-73m-series-b",
+      "quote": "Cyber security awareness platform SoSafe has closed a $73 million Series B funding round"
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://sosafe-awareness.com/company/",
+      "quote": "over 30% of team members come from a background in social science or psychology"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "8f7d79bd-956f-4758-b740-5571c2b173f8",
+      "stage": "series-b",
+      "month": "2022-01",
+      "amountEur": 63683154,
+      "amountOriginal": 73000000,
+      "currency": "USD",
+      "investors": [
+        "Highland Europe",
+        "Acton Capital",
+        "Global Founders Capital",
+        "Carsten Thoma",
+        "Christian Henschel"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.actoncapital.com/news/sosafe-cyber-security-awareness-73m-series-b",
+          "quote": "SoSafe has closed a $73 million Series B funding round led by Highland Europe"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.actoncapital.com/news/sosafe-cyber-security-awareness-73m-series-b",
+          "quote": "SoSafe has closed a $73 million Series B funding round led by Highland Europe"
+        },
+        {
+          "field": "month",
+          "url": "https://www.actoncapital.com/news/sosafe-cyber-security-awareness-73m-series-b",
+          "quote": "Cologne, January 13, 2022"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.actoncapital.com/news/sosafe-cyber-security-awareness-73m-series-b",
+          "quote": "Existing investors Acton Capital and Global Founders Capital were joined by SAP Hybris founder and Celonis Advisory Board member Carsten Thoma as well as Adjust founder Christian Henschel as participants"
+        }
+      ]
+    }
+  ]
+}

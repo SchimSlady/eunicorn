@@ -1,0 +1,123 @@
+{
+  "id": "xentral",
+  "name": "Xentral",
+  "aliases": [
+    "xentral ERP Software",
+    "WaWision"
+  ],
+  "domain": "xentral.com",
+  "country": "DE",
+  "city": "Augsburg",
+  "founded": 2017,
+  "sectors": [
+    "saas"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Benedikt Sauter",
+    "Claudia Sauter"
+  ],
+  "funFact": "Xentral began as the in-house ERP of the founders' microcontroller hardware business, until demand for the software overtook demand for the hardware.",
+  "difficulty": 4,
+  "techeuId": "6B0C1B67-AA8A-4C0B-BB8A-78A6B8902345",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://techcrunch.com/2021/01/13/germanys-xentral-nabs-20m-led-by-sequoia-to-help-online-facing-smbs-run-back-offices-better/",
+      "quote": "Augsburg-based xentral"
+    },
+    {
+      "field": "founded",
+      "url": "https://xentral.com/de/ueber-uns",
+      "quote": "Gegründet 2017"
+    },
+    {
+      "field": "founders",
+      "url": "https://xentral.com/de/ueber-uns",
+      "quote": "Gründer:innen Benedikt Sauter & Claudia Sauter"
+    },
+    {
+      "field": "sectors",
+      "url": "https://techcrunch.com/2021/01/13/germanys-xentral-nabs-20m-led-by-sequoia-to-help-online-facing-smbs-run-back-offices-better/",
+      "quote": "a German startup that develops enterprise resource planning software"
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://xentral.com/de/ueber-uns",
+      "quote": "bald überstieg die Nachfrage nach der Software die nach den Mikrocontrollern"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-a",
+      "month": "2021-01",
+      "amountEur": 16439257,
+      "amountOriginal": 20000000,
+      "currency": "USD",
+      "investors": [
+        "Sequoia Capital",
+        "Visionaries Club"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2021/01/13/germanys-xentral-nabs-20m-led-by-sequoia-to-help-online-facing-smbs-run-back-offices-better/",
+          "quote": "has picked up a Series A of $20 million"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2021/01/13/germanys-xentral-nabs-20m-led-by-sequoia-to-help-online-facing-smbs-run-back-offices-better/",
+          "quote": "has picked up a Series A of $20 million"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2021/01/13/germanys-xentral-nabs-20m-led-by-sequoia-to-help-online-facing-smbs-run-back-offices-better/",
+          "quote": "January 13, 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2021/01/13/germanys-xentral-nabs-20m-led-by-sequoia-to-help-online-facing-smbs-run-back-offices-better/",
+          "quote": "The funding is being led by Sequoia Capital, with Visionaires Club"
+        }
+      ]
+    },
+    {
+      "techeuId": "384c01dd-3c46-4bab-8bd7-760b97fe087c",
+      "stage": "series-b",
+      "month": "2021-08",
+      "amountEur": 63737571,
+      "amountOriginal": 75000000,
+      "currency": "USD",
+      "investors": [
+        "Tiger Global",
+        "Meritech Capital",
+        "Sequoia Capital",
+        "Visionaries Club",
+        "Freigeist Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://xentral.com/en/blog/investment-tigerglobal-meritech",
+          "quote": "today announced that it has raised $75 million in Series B funding from Tiger Global and Meritech"
+        },
+        {
+          "field": "stage",
+          "url": "https://xentral.com/en/blog/investment-tigerglobal-meritech",
+          "quote": "today announced that it has raised $75 million in Series B funding from Tiger Global and Meritech"
+        },
+        {
+          "field": "month",
+          "url": "https://xentral.com/en/blog/investment-tigerglobal-meritech",
+          "quote": "August 17, 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://xentral.com/en/blog/investment-tigerglobal-meritech",
+          "quote": "complementing the existing round of investors with Sequoia Capital, Visionaries Club and Freigeist"
+        }
+      ]
+    }
+  ]
+}

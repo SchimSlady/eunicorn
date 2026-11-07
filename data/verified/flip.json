@@ -1,0 +1,195 @@
+{
+  "id": "flip",
+  "name": "Flip",
+  "aliases": [
+    "Flip AI"
+  ],
+  "domain": "getflip.com",
+  "country": "DE",
+  "city": "Stuttgart",
+  "founded": 2018,
+  "sectors": [
+    "hrtech",
+    "saas"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Benedikt Brand"
+  ],
+  "funFact": "Flip was started inside Porsche by Benedikt Brand while he was a trainee there.",
+  "difficulty": 4,
+  "techeuId": "FC601AA2-B66D-4CE3-B686-CBEEC3DB91C7",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.getflip.com/newsroom/press-releases/flip-raises-25-million-to-bring-ai-to-deskless-workers/",
+      "quote": "Founded in Stuttgart in 2018"
+    },
+    {
+      "field": "founded",
+      "url": "https://www.getflip.com/newsroom/press-releases/flip-raises-25-million-to-bring-ai-to-deskless-workers/",
+      "quote": "Founded in Stuttgart in 2018"
+    },
+    {
+      "field": "founders",
+      "url": "https://www.getflip.com/newsroom/press-releases/flip-secures-28-million-series-a-extension-to-expand-new-ai-powered-capabilities-for-deskless-workers/",
+      "quote": "Founded inside Porsche by then-trainee Benedikt Brand"
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.getflip.com/newsroom/press-releases/flip-raises-25-million-to-bring-ai-to-deskless-workers/",
+      "quote": "the AI-native employee experience platform for frontline workers"
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://www.getflip.com/newsroom/press-releases/flip-secures-28-million-series-a-extension-to-expand-new-ai-powered-capabilities-for-deskless-workers/",
+      "quote": "Founded inside Porsche by then-trainee Benedikt Brand"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "cad9c49f-2614-4807-e627-08d91092c887",
+      "stage": "seed",
+      "month": "2020-02",
+      "amountEur": 3600000,
+      "amountOriginal": 3600000,
+      "currency": "EUR",
+      "investors": [
+        "LEA Partners",
+        "Cavalry Ventures",
+        "Plug and Play Ventures",
+        "Jürgen Hambrecht",
+        "Kurt Lauk",
+        "Florian Buzin",
+        "Andreas Burike"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2020/02/13/flip-raises-4m-to-pounce-on-the-growing-sector-of-employee-messaging",
+          "quote": "has now raised €3.6M ($4M) from LEA Partners and Cavalry Ventures"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2020/02/13/flip-raises-4m-to-pounce-on-the-growing-sector-of-employee-messaging",
+          "quote": "February 13, 2020"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2020/02/13/flip-raises-4m-to-pounce-on-the-growing-sector-of-employee-messaging",
+          "quote": "has now raised €3.6M ($4M) from LEA Partners and Cavalry Ventures, together with Plug and Play Ventures"
+        }
+      ]
+    },
+    {
+      "techeuId": "940e246a-c46b-4d1c-8984-8b50b59a6aad",
+      "stage": "series-a",
+      "month": "2022-02",
+      "amountEur": 26581606,
+      "amountOriginal": 30000000,
+      "currency": "USD",
+      "investors": [
+        "Notion Capital",
+        "HV Capital",
+        "Cavalry Ventures",
+        "LEA Partners",
+        "Matthias Müller",
+        "Roland Berger",
+        "Jürgen Hambrecht",
+        "Fritz Österle",
+        "Kurt Lauk",
+        "Daniel Krauss",
+        "Jochen Engert"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.getflip.com/newsroom/press-releases/flip-secures-30-million-us-dollar-in-series-a-financing",
+          "quote": "today announced it has raised $30 million in Series A funding to accelerate growth"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.getflip.com/newsroom/press-releases/flip-secures-30-million-us-dollar-in-series-a-financing",
+          "quote": "today announced it has raised $30 million in Series A funding to accelerate growth"
+        },
+        {
+          "field": "month",
+          "url": "https://www.getflip.com/newsroom/press-releases/flip-secures-30-million-us-dollar-in-series-a-financing",
+          "quote": "Stuttgart, February 3, 2022"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.getflip.com/newsroom/press-releases/flip-secures-30-million-us-dollar-in-series-a-financing",
+          "quote": "The funding round is co-led by the London-based investor Notion Capital and Berlin-based fund HV Capital"
+        }
+      ]
+    },
+    {
+      "techeuId": "f3c49704-b876-4566-80ff-6546bd5ff297",
+      "stage": "series-a",
+      "month": "2025-05",
+      "amountEur": 24732797,
+      "amountOriginal": 28000000,
+      "currency": "USD",
+      "investors": [
+        "LEA Partners",
+        "HV Capital",
+        "Notion Capital",
+        "Roland Berger"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.getflip.com/newsroom/press-releases/flip-secures-28-million-series-a-extension-to-expand-new-ai-powered-capabilities-for-deskless-workers/",
+          "quote": "today announced a $28 million Series A extension"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.getflip.com/newsroom/press-releases/flip-secures-28-million-series-a-extension-to-expand-new-ai-powered-capabilities-for-deskless-workers/",
+          "quote": "today announced a $28 million Series A extension"
+        },
+        {
+          "field": "month",
+          "url": "https://www.getflip.com/newsroom/press-releases/flip-secures-28-million-series-a-extension-to-expand-new-ai-powered-capabilities-for-deskless-workers/",
+          "quote": "Berlin, Germany, May 21, 2025"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.getflip.com/newsroom/press-releases/flip-secures-28-million-series-a-extension-to-expand-new-ai-powered-capabilities-for-deskless-workers/",
+          "quote": "Led by existing investors including LEA Partners, HV Capital, Notion Capital, as well as Roland Berger"
+        }
+      ]
+    },
+    {
+      "techeuId": "fb53585e-1b00-4c07-84d5-bd6f3655b2fa",
+      "stage": "series-b",
+      "month": "2026-08",
+      "amountEur": 21542439,
+      "amountOriginal": 25000000,
+      "currency": "USD",
+      "investors": [
+        "Notion Capital",
+        "HV Capital",
+        "L-Bank"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.getflip.com/newsroom/press-releases/flip-raises-25-million-to-bring-ai-to-deskless-workers/",
+          "quote": "has raised $25 million to give deskless workers the digital access needed"
+        },
+        {
+          "field": "month",
+          "url": "https://www.getflip.com/newsroom/press-releases/flip-raises-25-million-to-bring-ai-to-deskless-workers/",
+          "quote": "LONDON, UK, 19 August 2026"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.getflip.com/newsroom/press-releases/flip-raises-25-million-to-bring-ai-to-deskless-workers/",
+          "quote": "The new round is backed by existing investors Notion Capital and HV Capital"
+        }
+      ]
+    }
+  ]
+}
