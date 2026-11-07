@@ -1,0 +1,91 @@
+{
+  "id": "terra-one",
+  "name": "Terra One",
+  "aliases": [
+    "TerraOne"
+  ],
+  "domain": "terra.one",
+  "country": "DE",
+  "city": "Berlin",
+  "founded": 2022,
+  "sectors": [
+    "climate",
+    "ai"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Thomas Antonioli",
+    "Tony Schumacher"
+  ],
+  "difficulty": 5,
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.terra.one/news/sifted---terra-one-backed-by-n26-cofounder-secures-eu150m",
+      "quote": "Berlin-based startup Terra One has raised €150m from asset manager Aviva Investors"
+    },
+    {
+      "field": "founded",
+      "url": "https://www.terra.one/news/sifted---terra-one-backed-by-n26-cofounder-secures-eu150m",
+      "quote": "Terra One was founded in 2022 by cofounders Thomas Antonioli"
+    },
+    {
+      "field": "founders",
+      "url": "https://www.terra.one/news/sifted---terra-one-backed-by-n26-cofounder-secures-eu150m",
+      "quote": "Terra One was founded in 2022 by cofounders Thomas Antonioli, the former CFO of electronic rentals unicorn Grover and Tony Schumacher"
+    },
+    {
+      "field": "sectors",
+      "url": "https://mercomindia.com/terra-one-secures-in-seed-financing",
+      "quote": "a startup specializing in grid-connected battery energy storage solutions"
+    },
+    {
+      "field": "status",
+      "url": "https://www.terra.one/news/sifted---terra-one-backed-by-n26-cofounder-secures-eu150m",
+      "quote": "Berlin-based startup Terra One has raised €150m from asset manager Aviva Investors"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://mercomindia.com/terra-one-secures-in-seed-financing",
+      "quote": "secured $7.5 million in seed funding"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "seed",
+      "month": "2024-04",
+      "amountEur": 6997574,
+      "amountOriginal": 7500000.0,
+      "currency": "USD",
+      "investors": [
+        "PT1",
+        "neosfer",
+        "468 Capital",
+        "Maximilian Tayenthal"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://mercomindia.com/terra-one-secures-in-seed-financing",
+          "quote": "Terra One , a startup specializing in grid-connected battery energy storage solutions, secured $7.5 million in seed funding, led by PT1, an early-stage venture capital firm specializing in real asset technologies, and neosfer, an early-stage investor associated with Commerzbank."
+        },
+        {
+          "field": "stage",
+          "url": "https://mercomindia.com/terra-one-secures-in-seed-financing",
+          "quote": "Terra One , a startup specializing in grid-connected battery energy storage solutions, secured $7.5 million in seed funding, led by PT1, an early-stage venture capital firm specializing in real asset technologies, and neosfer, an early-stage investor associated with Commerzbank."
+        },
+        {
+          "field": "month",
+          "url": "https://mercomindia.com/terra-one-secures-in-seed-financing",
+          "quote": "April 30, 2024"
+        },
+        {
+          "field": "investors",
+          "url": "https://mercomindia.com/terra-one-secures-in-seed-financing",
+          "quote": "Other participants include 468 Capital, N26 cofounder Maximilian Tayenthal"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "id": "plancraft",
+  "name": "Plancraft",
+  "aliases": [
+    "plancraft"
+  ],
+  "domain": "plancraft.de",
+  "country": "DE",
+  "city": "Hamburg",
+  "founded": 2020,
+  "sectors": [
+    "saas"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Julian Wiedenhaus",
+    "Alexander Noll",
+    "Richard Keil"
+  ],
+  "difficulty": 5,
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.htgf.de/htgf-plancraft-series-a/",
+      "quote": "Das Hamburger Start-up wurde im Februar 2020 von Julian Wiedenhaus, Alexander Noll und Richard Keil gegründet."
+    },
+    {
+      "field": "founded",
+      "url": "https://www.htgf.de/htgf-plancraft-series-a/",
+      "quote": "Das Hamburger Start-up wurde im Februar 2020 von Julian Wiedenhaus, Alexander Noll und Richard Keil gegründet."
+    },
+    {
+      "field": "founders",
+      "url": "https://www.htgf.de/htgf-plancraft-series-a/",
+      "quote": "Das Hamburger Start-up wurde im Februar 2020 von Julian Wiedenhaus, Alexander Noll und Richard Keil gegründet."
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.htgf.de/plancraft-series-b/",
+      "quote": "Das Hamburger Saas-Unternehmen plancraft hat eine Series-B-Finanzierungsrunde in Höhe von 38 Millionen Euro abgeschlossen."
+    },
+    {
+      "field": "status",
+      "url": "https://www.htgf.de/plancraft-series-b/",
+      "quote": "Das Hamburger Saas-Unternehmen plancraft hat eine Series-B-Finanzierungsrunde in Höhe von 38 Millionen Euro abgeschlossen."
+    },
+    {
+      "field": "unicorn",
+      "url": "https://www.htgf.de/plancraft-series-b/",
+      "quote": "Die Gesamtfinanzierung des Unternehmens steigt auf über 50 Millionen Euro."
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "seed",
+      "month": "2022-09",
+      "amountEur": 1900000,
+      "amountOriginal": 1900000.0,
+      "currency": "EUR",
+      "investors": [
+        "High-Tech Gründerfonds",
+        "BitStone Capital",
+        "XDECK",
+        "realPACE"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://plancraft.de/news/financing-for-hamburg-based-contech-start-up-plancraft",
+          "quote": "Hamburg, den 07. September 2022 – Das Software-as-a-Service Start-up plancraft erhält in seiner Seed-Finanzierungsrunde 1,9 Millionen Euro von institutionellen Investoren sowie 200.000 Euro Fördermittel."
+        },
+        {
+          "field": "stage",
+          "url": "https://plancraft.de/news/financing-for-hamburg-based-contech-start-up-plancraft",
+          "quote": "Hamburg, den 07. September 2022 – Das Software-as-a-Service Start-up plancraft erhält in seiner Seed-Finanzierungsrunde 1,9 Millionen Euro von institutionellen Investoren sowie 200.000 Euro Fördermittel."
+        },
+        {
+          "field": "month",
+          "url": "https://plancraft.de/news/financing-for-hamburg-based-contech-start-up-plancraft",
+          "quote": "Hamburg, den 07. September 2022"
+        },
+        {
+          "field": "investors",
+          "url": "https://startupcity.hamburg/news-events/news/1-9-million-euros-for-plancraft-in-seed-financing-round",
+          "quote": "In addition to High-Tech Gründerfonds and existing investors, the VC companies BitStone Capital, XDECK and realPACE are participating."
+        }
+      ]
+    },
+    {
+      "stage": "series-a",
+      "month": "2024-06",
+      "amountEur": 12000000,
+      "amountOriginal": 12000000.0,
+      "currency": "EUR",
+      "investors": [
+        "Creandum",
+        "Bitstone Capital",
+        "High-Tech Gründerfonds"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.htgf.de/htgf-plancraft-series-a/",
+          "quote": "Hamburg, 05. Juni 2024 – Plancraft, ein Hamburger Unternehmen, hat eine Series-A-Finanzierungsrunde über 12 Millionen Euro erfolgreich abgeschlossen."
+        },
+        {
+          "field": "stage",
+          "url": "https://www.htgf.de/htgf-plancraft-series-a/",
+          "quote": "Hamburg, 05. Juni 2024 – Plancraft, ein Hamburger Unternehmen, hat eine Series-A-Finanzierungsrunde über 12 Millionen Euro erfolgreich abgeschlossen."
+        },
+        {
+          "field": "month",
+          "url": "https://www.htgf.de/htgf-plancraft-series-a/",
+          "quote": "Hamburg, 05. Juni 2024"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.htgf.de/htgf-plancraft-series-a/",
+          "quote": "Das zeigt das Vertrauen der bestehenden Investoren wie Bitstone Capital und dem High-Tech Gründerfonds sowie des neuen Partners Creandum."
+        }
+      ]
+    },
+    {
+      "stage": "series-b",
+      "month": "2025-08",
+      "amountEur": 38000000,
+      "amountOriginal": 38000000.0,
+      "currency": "EUR",
+      "investors": [
+        "Headline",
+        "Creandum",
+        "High-Tech Gründerfonds",
+        "xdeck"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.htgf.de/plancraft-series-b/",
+          "quote": "Das Hamburger Saas-Unternehmen plancraft hat eine Series-B-Finanzierungsrunde in Höhe von 38 Millionen Euro abgeschlossen."
+        },
+        {
+          "field": "stage",
+          "url": "https://www.htgf.de/plancraft-series-b/",
+          "quote": "Das Hamburger Saas-Unternehmen plancraft hat eine Series-B-Finanzierungsrunde in Höhe von 38 Millionen Euro abgeschlossen."
+        },
+        {
+          "field": "month",
+          "url": "https://www.htgf.de/plancraft-series-b/",
+          "quote": "13. August 2025"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.htgf.de/plancraft-series-b/",
+          "quote": "Lead-Investor ist Headline, eines der größten Venture-Capitals weltweit. Bereits bestehende Investoren wie Creandum, HTGF und xdeck beteiligten sich erneut an der Runde."
+        }
+      ]
+    }
+  ]
+}

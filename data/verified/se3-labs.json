@@ -1,0 +1,89 @@
+{
+  "id": "se3-labs",
+  "name": "SE3 Labs",
+  "aliases": [
+    "SE3"
+  ],
+  "domain": "se3.ai",
+  "country": "DE",
+  "city": "Munich",
+  "founded": 2023,
+  "sectors": [
+    "defense",
+    "ai"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Lukas Köstler",
+    "Daniel Cremers",
+    "Simon Klenk"
+  ],
+  "difficulty": 5,
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://thesaasnews.com/news/se3-labs-raises-5-5m-seed",
+      "quote": "Munich-based SE3 Labs raises €5.5M in funding led by Lakestar to expand its spatial AI platform for autonomous defense systems."
+    },
+    {
+      "field": "founded",
+      "url": "https://talent.seedcamp.com/companies/se3-labs-2",
+      "quote": "founded in 2023"
+    },
+    {
+      "field": "founders",
+      "url": "https://thesaasnews.com/news/se3-labs-raises-5-5m-seed",
+      "quote": "SE3 Labs was established by CEO Lukas Kostler, Chief Science Officer Daniel Cremers, and CTO Simon Klenk."
+    },
+    {
+      "field": "sectors",
+      "url": "https://thesaasnews.com/news/se3-labs-raises-5-5m-seed",
+      "quote": "Munich-based SE3 Labs raises €5.5M in funding led by Lakestar to expand its spatial AI platform for autonomous defense systems."
+    },
+    {
+      "field": "status",
+      "url": "https://thesaasnews.com/news/se3-labs-raises-5-5m-seed",
+      "quote": "Munich-based SE3 Labs raises €5.5M in funding led by Lakestar to expand its spatial AI platform for autonomous defense systems."
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "seed",
+      "month": "2026-06",
+      "amountEur": 5500000,
+      "amountOriginal": 5500000.0,
+      "currency": "EUR",
+      "investors": [
+        "Lakestar",
+        "Seedcamp",
+        "EWOR",
+        "Sequoia Scout Fund",
+        "Plug and Play",
+        "TwinTrack"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://thesaasnews.com/news/se3-labs-raises-5-5m-seed",
+          "quote": "Munich-based SE3 Labs raises €5.5M in funding led by Lakestar to expand its spatial AI platform for autonomous defense systems."
+        },
+        {
+          "field": "month",
+          "url": "https://thesaasnews.com/news/se3-labs-raises-5-5m-seed",
+          "quote": "Funding Date: June 26, 2026"
+        },
+        {
+          "field": "stage",
+          "url": "https://thesaasnews.com/news/se3-labs-raises-5-5m-seed",
+          "quote": "Seed Round SE3 Labs Raises €5.5M in Funding"
+        },
+        {
+          "field": "investors",
+          "url": "https://thesaasnews.com/news/se3-labs-raises-5-5m-seed",
+          "quote": "The round was led by Lakestar, with participation from Seedcamp, EWOR, the Sequoia Scout Fund, Plug and Play, and TwinTrack."
+        }
+      ]
+    }
+  ]
+}
