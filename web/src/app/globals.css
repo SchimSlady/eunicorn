@@ -80,6 +80,7 @@
   --animate-nudge-b: nudge-b 0.45s ease-out;
   --animate-flip-in: flip-in 0.45s ease-out both;
   --animate-pop: pop 0.25s ease-out;
+  --animate-toast: toast 2.6s ease-out both;
 
   @keyframes shake {
     0%, 100% { transform: translateX(0); }
@@ -118,6 +119,13 @@
     60% { transform: scale(1.03); }
     100% { transform: scale(1); }
   }
+  /* A wrong guess's toast: rises in, stays, fades out (MissToast). */
+  @keyframes toast {
+    0% { opacity: 0; transform: translateY(8px) scale(0.97); }
+    8% { opacity: 1; transform: translateY(0) scale(1); }
+    85% { opacity: 1; transform: translateY(0); }
+    100% { opacity: 0; transform: translateY(-4px); }
+  }
 }
 
 body {
@@ -148,4 +156,14 @@ h1, h2, h3 {
 :focus-visible {
   outline: 2px solid var(--primary);
   outline-offset: 2px;
+}
+
+/* An open sheet takes focus itself so the keyboard starts inside it; the panel is no control, so no ring around it. */
+.sheet-panel:focus-visible {
+  outline: none;
+}
+
+/* The search field shows its focus with its own yellow border; a second ring around it was one too many. */
+.search-input:focus-visible {
+  outline: none;
 }

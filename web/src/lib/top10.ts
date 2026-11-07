@@ -1,4 +1,5 @@
-import type { GameMode, Hint, Puzzle } from "@eunicorn/schema";
+import type { CompanyStatus, GameMode, Hint, Puzzle } from "@eunicorn/schema";
+import type { Region } from "./regions";
 import type { WebHigherLowerPuzzle } from "./higherLower";
 
 /**
@@ -27,8 +28,29 @@ export interface Top10Round {
    * official logo the game shows in the title bar. Only inside the game, never in the share text.
    */
   program?: { id: string; name: string; logo?: string };
+  /** What the list asks for (lib/top10Checks.ts), so the game can say why a wrong guess isn't on it. */
+  checks?: Top10Check[];
+  /** Nos. 11 and on (up to 40): companies that fit the list but have too little, with their figure in USD. */
+  beyond?: { id: string; value: number }[];
   hints: Hint[];
 }
+
+/** One rule of a Top 10 list, as data. A list's companies pass every one of its checks. */
+export type Top10Check =
+  | { kind: "european" }
+  | { kind: "country"; value: string }
+  | { kind: "city"; value: string }
+  | { kind: "region"; value: Region }
+  /** Any of these sectors; label names them together ("deep tech"). */
+  | { kind: "sector"; values: string[]; label?: string }
+  | { kind: "founded-from"; value: number }
+  | { kind: "founded-before"; value: number }
+  | { kind: "status"; value: CompanyStatus }
+  /** Valuation lists of startups count private companies only. */
+  | { kind: "private" }
+  | { kind: "program"; value: string; name: string }
+  /** A round in or after this month ("2026-01"); label: "in 2026", "in the last 12 months". */
+  | { kind: "round-since"; value: string; label: string };
 
 export interface Top10Puzzle extends Top10Round {
   mode: "top-10";

@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
-import { X } from "lucide-react";
+
 import type { Company, Dataset } from "@eunicorn/schema";
 import { indexById, loadGame } from "@/lib/data";
 import { getTodayResult, loadProgress, saveProgress, saveResult } from "@/lib/daily";
@@ -24,6 +24,8 @@ import { RevealButton } from "@/components/RevealButton";
 import { StatsPanel } from "@/components/StatsPanel";
 import { recordFinish, recordStart } from "@/lib/stats";
 import { REGIONS, slotOf, type Region } from "@/lib/regions";
+import { explainMiss } from "@/lib/top10Checks";
+import { MissToast } from "@/components/MissToast";
 
 const MODE = "top-10";
 const TITLE = "Top 10";
@@ -77,7 +79,10 @@ export function Top10Game({ region }: { region?: Region } = {}) {
   const [puzzle, setPuzzle] = useState<Top10Puzzle | null | undefined>(undefined);
   const [data, setData] = useState<Dataset | null>(null);
   const [progress, setProgress] = useState<Progress | null>(null);
-  const [miss, setMiss] = useState<{ name: string; n: number } | null>(null);
+  // The wrong guess whose reason is shown (the last one, or an earlier one the player tapped); n: shakes.
+  const [miss, setMiss] = useState<{ id: string; n: number } | null>(null);
+  // Whether that guess's toast is still up (it goes after a moment; the reason stays in the search).
+  const [toast, setToast] = useState(false);
 
   useEffect(() => {
     loadGame<Top10Puzzle>(MODE, region).then(({ puzzle: p, data: d }) => {
@@ -111,6 +116,14 @@ export function Top10Game({ region }: { region?: Region } = {}) {
 
   const round = atLevel(puzzle, progress.difficulty);
   const { found, wrong, done, score } = evaluate(round, progress);
+  // Wrong guesses: they stay in the search, greyed out with their reason; and the one whose card is shown.
+  const tried = new Map(
+    progress.guesses
+      .filter((id) => !round.companyIds.includes(id) && companies.has(id))
+      .map((id) => [id, explainMiss(companies.get(id)!, round, data)?.text ?? "Not on this list"]),
+  );
+  const missed = miss ? companies.get(miss.id) : undefined;
+  const missReason = missed ? explainMiss(missed, round, data) : null;
 
   function update(next: Progress) {
     setProgress(next);
@@ -143,7 +156,8 @@ export function Top10Game({ region }: { region?: Region } = {}) {
 
   function guess(c: Company) {
     const hit = round.companyIds.includes(c.id);
-    setMiss(hit ? null : { name: c.name, n: (miss?.n ?? 0) + 1 });
+    setMiss(hit ? null : { id: c.id, n: (miss?.n ?? 0) + 1 });
+    setToast(!hit);
     update({ ...progress!, guesses: [...progress!.guesses, c.id] });
   }
 
@@ -160,8 +174,8 @@ export function Top10Game({ region }: { region?: Region } = {}) {
       <GameHeader title={TITLE} subtitle={subtitle} back={back} mode={MODE} difficulty={progress.difficulty} />
       <Announce
         text={
-          miss && !done
-            ? `${miss.name} is not in the list.`
+          missed && !done
+            ? `${missed.name} is not on the list. ${missReason?.text ?? ""}`
             : `${found.length} of 10 found.`
         }
       />
@@ -186,7 +200,7 @@ export function Top10Game({ region }: { region?: Region } = {}) {
           return (
             <li
               key={id}
-              style={{ height: "clamp(28px, calc((100svh - 392px) / 10), 44px)" }}
+              style={{ height: `clamp(28px, calc((100svh - 392px) / 10), 44px)` }}
               className={`flex items-center gap-2.5 rounded-xl border px-2.5 ${
                 got ? "animate-flip-in border-correct bg-correct/20" : shown ? "border-border bg-surface/40 opacity-60" : "border-muted/40 bg-surface"
               }`}
@@ -216,14 +230,29 @@ export function Top10Game({ region }: { region?: Region } = {}) {
 
       {!done ? (
         <div className="space-y-2">
-          {miss && (
-            <p className="flex items-center justify-center gap-1.5 text-sm font-semibold text-wrong">
-              <X size={16} aria-hidden /> {miss.name} isn&apos;t in this top 10
-            </p>
-          )}
-          <div className="flex items-start gap-2">
+          <div className="relative flex items-start gap-2">
+            {missed && toast && (
+              <MissToast
+                key={`${missed.id}-${miss!.n}`}
+                company={missed}
+                icon={missReason?.icon ?? "rank"}
+                text={missReason?.text ?? "Not in this top 10"}
+                badge={missReason?.rank ? `No. ${missReason.rank}` : undefined}
+                onDone={() => setToast(false)}
+              />
+            )}
             <div className={`min-w-0 flex-1 rounded-2xl ${nudgeClass(miss?.n)}`}>
-              <CompanySearch companies={data.companies} exclude={new Set(progress.guesses)} onPick={guess} />
+              <CompanySearch
+                companies={data.companies}
+                exclude={new Set(found)}
+                tried={tried}
+                onTried={(c) => {
+                  setMiss({ id: c.id, n: (miss?.n ?? 0) + 1 });
+                  setToast(true);
+                }}
+                onType={() => setToast(false)}
+                onPick={guess}
+              />
             </div>
             <Hints
               compact
@@ -231,6 +260,7 @@ export function Top10Game({ region }: { region?: Region } = {}) {
               revealed={hintTexts.map((text) => ({ text, cost: 0 }))}
               next={hintTexts.length < hintCap && unfound.length ? { text: "", cost: 0 } : undefined}
               onReveal={revealHint}
+              total={hintCap}
             />
           </div>
           <RevealButton label="Show the list" onConfirm={() => update({ ...progress, gaveUp: true })} />

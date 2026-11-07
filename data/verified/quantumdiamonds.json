@@ -1,0 +1,128 @@
+{
+  "id": "quantumdiamonds",
+  "name": "QuantumDiamonds",
+  "aliases": [
+    "Quantum Diamonds"
+  ],
+  "domain": "qd-st.com",
+  "country": "DE",
+  "city": "Munich",
+  "founded": 2022,
+  "sectors": [
+    "quantum",
+    "semiconductors"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Kevin Berghoff",
+    "Fleming Bruckmaier",
+    "Kristina Liu"
+  ],
+  "difficulty": 5,
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.osborneclarke.com/news/osborne-clarke-advises-quantumdiamonds-eur-7-million-seed-financing-round",
+      "quote": "QuantumDiamonds GmbH, a Munich-based start-up for quantum sensor technology"
+    },
+    {
+      "field": "founded",
+      "url": "https://www.iqcapital.vc/news/quantumdiamonds-raises-eu7m-seed-funding-for-quantum-sensing-technology",
+      "quote": "The company was founded in 2022 by Dr. Kristina Liu (COO), Dr. Fleming Bruckmaier (CTO), and Kevin Berghoff (CEO)"
+    },
+    {
+      "field": "founders",
+      "url": "https://www.iqcapital.vc/news/quantumdiamonds-raises-eu7m-seed-funding-for-quantum-sensing-technology",
+      "quote": "The company was founded in 2022 by Dr. Kristina Liu (COO), Dr. Fleming Bruckmaier (CTO), and Kevin Berghoff (CEO)"
+    },
+    {
+      "field": "sectors",
+      "url": "https://tech.eu/2026/07/09/semiconductor-equipment-startup-quantumdiamonds-raises-eur15m-in-equity-funding/",
+      "quote": "A German startup spun out of a famed Munich research university whose tech helps semiconductor firms test out products and find defects has raised €15m in equity funding."
+    },
+    {
+      "field": "status",
+      "url": "https://tech.eu/2026/07/09/semiconductor-equipment-startup-quantumdiamonds-raises-eur15m-in-equity-funding/",
+      "quote": "The €15 million equity round was led by climatetech investor World Fund, a new investor."
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "seed",
+      "month": "2023-11",
+      "amountEur": 3000000,
+      "amountOriginal": 3000000.0,
+      "currency": "EUR",
+      "investors": [
+        "IQ Capital",
+        "Earlybird",
+        "Onsight Ventures",
+        "First Momentum",
+        "Creator Fund",
+        "UnternehmerTUM"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.osborneclarke.com/news/osborne-clarke-advises-quantumdiamonds-eur-7-million-seed-financing-round",
+          "quote": "The round was led by IQ Capital and Earlybird, who together with Onsight Ventures, First Momentum, Creator Fund, UnternehmerTUM and various angel investors from the semiconductor industry, invested EUR 3 million."
+        },
+        {
+          "field": "month",
+          "url": "https://www.iqcapital.vc/news/quantumdiamonds-raises-eu7m-seed-funding-for-quantum-sensing-technology",
+          "quote": "By 27 November 2023"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.osborneclarke.com/news/osborne-clarke-advises-quantumdiamonds-eur-7-million-seed-financing-round",
+          "quote": "has now closed a successful EUR 7 million seed financing round"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.osborneclarke.com/news/osborne-clarke-advises-quantumdiamonds-eur-7-million-seed-financing-round",
+          "quote": "The round was led by IQ Capital and Earlybird, who together with Onsight Ventures, First Momentum, Creator Fund, UnternehmerTUM and various angel investors from the semiconductor industry, invested EUR 3 million."
+        }
+      ]
+    },
+    {
+      "stage": "series-a",
+      "month": "2026-07",
+      "amountEur": 15000000,
+      "amountOriginal": 15000000.0,
+      "currency": "EUR",
+      "investors": [
+        "World Fund",
+        "Bayern Kapital",
+        "IQ Capital",
+        "Earlybird",
+        "First Momentum",
+        "UnternehmerTUM",
+        "Creator Fund",
+        "Onsight Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2026/07/09/semiconductor-equipment-startup-quantumdiamonds-raises-eur15m-in-equity-funding/",
+          "quote": "The €15 million equity round was led by climatetech investor World Fund, a new investor."
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2026/07/09/semiconductor-equipment-startup-quantumdiamonds-raises-eur15m-in-equity-funding/",
+          "quote": "09 July 2026"
+        },
+        {
+          "field": "stage",
+          "url": "https://raising.fi/news/quantumdiamonds-series-a-july-2026",
+          "quote": "QuantumDiamonds Raises €15 Million in Series A Funding"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2026/07/09/semiconductor-equipment-startup-quantumdiamonds-raises-eur15m-in-equity-funding/",
+          "quote": "Other equity investors were German VC Bayern Kapital, alongside the startup's existing investors IQ Capital, Earlybird, First Momentum, UnternehmerTUM, Creator Fund, Onsight Ventures, and angel investors."
+        }
+      ]
+    }
+  ]
+}

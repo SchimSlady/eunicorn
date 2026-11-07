@@ -1,6 +1,7 @@
 import type { Company } from "@eunicorn/schema";
 import type { Difficulty } from "../difficulty";
-import type { Top10Metric } from "../top10";
+import type { Top10Check, Top10Metric } from "../top10";
+import { compileChecks } from "../top10Checks";
 
 /**
  * The Top 10 question bank: every list the game can ask, chosen by hand rather than at random, so
@@ -19,6 +20,8 @@ export interface Top10Question {
   metric: Top10Metric;
   title: string;
   filter: (c: Company) => boolean;
+  /** The same rule as data (lib/top10Checks.ts), shipped with the list to explain wrong guesses. */
+  checks?: Top10Check[];
   /**
    * Valuation lists of "startups" only count private companies (Pablo, 2026-11-02): a listed company's
    * valuation is its IPO price, not what it is worth today. Lists that ask for a status keep it.
@@ -29,27 +32,28 @@ export interface Top10Question {
 const VALUED: Top10Metric = "lastValuationUsd";
 const RAISED: Top10Metric = "totalRaisedUsd";
 
-const inCountry = (code: string) => (c: Company) => c.country === code;
-const inSector = (s: string) => (c: Company) => c.sectors.includes(s as Company["sectors"][number]);
-const inCity = (city: string) => (c: Company) => c.city === city;
-const since = (year: number) => (c: Company) => c.founded >= year;
-const before = (year: number) => (c: Company) => c.founded > 0 && c.founded < year;
-const status = (s: Company["status"]) => (c: Company) => c.status === s;
-const all = (...fs: ((c: Company) => boolean)[]) => (c: Company) => fs.every((f) => f(c));
+const inCountry = (code: string): Top10Check => ({ kind: "country", value: code });
+const inSector = (s: string): Top10Check => ({ kind: "sector", values: [s] });
+const inCity = (city: string): Top10Check => ({ kind: "city", value: city });
+const since = (year: number): Top10Check => ({ kind: "founded-from", value: year });
+const before = (year: number): Top10Check => ({ kind: "founded-before", value: year });
+const status = (s: Company["status"]): Top10Check => ({ kind: "status", value: s });
+const all = (...ks: Top10Check[]) => ks;
 
-const q = (level: Difficulty, tag: string, metric: Top10Metric, who: string, filter: (c: Company) => boolean, anyStatus = false): Top10Question => ({
+const q = (level: Difficulty, tag: string, metric: Top10Metric, who: string, rule: Top10Check | Top10Check[], anyStatus = false): Top10Question => ({
   level,
   tag,
   metric,
   title: metric === VALUED ? `The 10 most valuable ${who}` : `The 10 ${who} that raised the most`,
-  filter,
+  checks: Array.isArray(rule) ? rule : [rule],
+  filter: compileChecks(Array.isArray(rule) ? rule : [rule]),
   privateOnly: metric === VALUED && !anyStatus,
 });
 
 export const TOP10_QUESTIONS: Top10Question[] = [
   // Easy: Europe and the four big hubs (UK, Germany, France, Sweden), names everyone knows.
-  q("easy", "europe", VALUED, "startups in Europe", () => true),
-  q("easy", "europe", RAISED, "startups in Europe", () => true),
+  q("easy", "europe", VALUED, "startups in Europe", []),
+  q("easy", "europe", RAISED, "startups in Europe", []),
   q("easy", "europe", VALUED, "startups in Europe founded since 2015", since(2015)),
   q("easy", "gb", VALUED, "UK startups", inCountry("GB")),
   q("easy", "de", VALUED, "German startups", inCountry("DE")),

@@ -1,0 +1,90 @@
+{
+  "id": "limehome",
+  "name": "Limehome",
+  "aliases": [
+    "limehome"
+  ],
+  "domain": "limehome.com",
+  "country": "DE",
+  "city": "Munich",
+  "founded": 2018,
+  "sectors": [
+    "travel",
+    "proptech"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Lars Stäbe",
+    "Josef Vollmayr"
+  ],
+  "difficulty": 4,
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.munich-startup.de/en/news/limehome-secures-75-million-euros",
+      "quote": "Munich-based hospitality provider Limehome has secured financing of 75 million euros."
+    },
+    {
+      "field": "founded",
+      "url": "https://www.munich-startup.de/en/news/limehome-secures-75-million-euros",
+      "quote": "Limehome was founded in 2018 by Lars Stäbe and Josef Vollmayr."
+    },
+    {
+      "field": "founders",
+      "url": "https://www.munich-startup.de/en/news/limehome-secures-75-million-euros",
+      "quote": "Limehome was founded in 2018 by Lars Stäbe and Josef Vollmayr."
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.munich-startup.de/en/news/limehome-secures-45-million-euros-in-new-growth-capital",
+      "quote": "Limehome offers furnished apartments for short-term and long-term rental"
+    },
+    {
+      "field": "status",
+      "url": "https://www.munich-startup.de/en/news/limehome-secures-75-million-euros",
+      "quote": "Munich-based hospitality provider Limehome has secured financing of 75 million euros."
+    },
+    {
+      "field": "unicorn",
+      "url": "https://www.munich-startup.de/en/news/limehome-secures-75-million-euros",
+      "quote": "Limehome recently expanded its market presence significantly."
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-a",
+      "month": "2020-02",
+      "amountEur": 21000000,
+      "amountOriginal": 21000000.0,
+      "currency": "EUR",
+      "investors": [
+        "Lakestar",
+        "HV Capital",
+        "Picus Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://talent4boards.com/limehome-secured-e21m-new-funding-to-further-develop-its-platform-and-to-continue-scaling-in-germany-and-europe/",
+          "quote": "Limehome , the German hospitality startup, has secured €21 million, by which all existing investors are extending their investments in the company."
+        },
+        {
+          "field": "stage",
+          "url": "https://talent4boards.com/limehome-secured-e21m-new-funding-to-further-develop-its-platform-and-to-continue-scaling-in-germany-and-europe/",
+          "quote": "Limehome , the German hospitality startup, has secured €21 million, by which all existing investors are extending their investments in the company."
+        },
+        {
+          "field": "month",
+          "url": "https://talent4boards.com/limehome-secured-e21m-new-funding-to-further-develop-its-platform-and-to-continue-scaling-in-germany-and-europe/",
+          "quote": "February 19, 2020"
+        },
+        {
+          "field": "investors",
+          "url": "https://talent4boards.com/limehome-secured-e21m-new-funding-to-further-develop-its-platform-and-to-continue-scaling-in-germany-and-europe/",
+          "quote": "This round was participated in by existing investors Lakestar, HV Holtzbrinck Ventures, and Picus Capital."
+        }
+      ]
+    }
+  ]
+}

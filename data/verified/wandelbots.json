@@ -1,0 +1,159 @@
+{
+  "id": "wandelbots",
+  "name": "Wandelbots",
+  "aliases": [],
+  "domain": "wandelbots.com",
+  "country": "DE",
+  "city": "Dresden",
+  "founded": 2017,
+  "sectors": [
+    "robotics",
+    "saas"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Christian Piechnick",
+    "Georg Püschel",
+    "Maria Piechnick",
+    "Sebastian Werner",
+    "Jan Falkenberg",
+    "Giang Nguyen"
+  ],
+  "difficulty": 4,
+  "techeuId": "B2B96451-DA0D-4DED-AD85-2B531B1F39F7",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://techcrunch.com/2018/12/12/wandelbots-raises-6-8m-to-make-programming-a-robot-as-easy-as-putting-on-a-jacket/",
+      "quote": "the startup out of Dresden has now raised €6 million ($6.8 million), a Series A to take it to its next level of growth"
+    },
+    {
+      "field": "founded",
+      "url": "https://techcrunch.com/2017/12/04/wandelbots-wants-to-reinvent-the-way-we-program-robots/",
+      "quote": "Wandelbots has accomplished a lot for a startup that was founded officially only two weeks ago"
+    },
+    {
+      "field": "founders",
+      "url": "https://techcrunch.com/2018/12/12/wandelbots-raises-6-8m-to-make-programming-a-robot-as-easy-as-putting-on-a-jacket/",
+      "quote": "who co-founded Wandelbots with Georg Püschel, Maria Piechnick, Sebastian Werner, Jan Falkenberg and Giang Nguyen on the back of research they did at university"
+    },
+    {
+      "field": "sectors",
+      "url": "https://techcrunch.com/2020/06/15/no-code-industrial-robotics-programming-startup-wandelbots-raises-30-million-series-b/",
+      "quote": "a startup dedicated to making it easier for non-programmers to “teach” industrial robots how to do specific tasks"
+    },
+    {
+      "field": "status",
+      "url": "https://www.wandelbots.com/about-us",
+      "quote": "We are a Physical AI company. We bring intelligence to production, enabling AI to govern the physical world."
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-a",
+      "month": "2018-12",
+      "amountEur": 6000000,
+      "amountOriginal": 6000000,
+      "currency": "EUR",
+      "investors": [
+        "Paua Ventures",
+        "EQT Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2018/12/12/wandelbots-raises-6-8m-to-make-programming-a-robot-as-easy-as-putting-on-a-jacket/",
+          "quote": "the startup out of Dresden has now raised €6 million ($6.8 million), a Series A to take it to its next level of growth"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2018/12/12/wandelbots-raises-6-8m-to-make-programming-a-robot-as-easy-as-putting-on-a-jacket/",
+          "quote": "the startup out of Dresden has now raised €6 million ($6.8 million), a Series A to take it to its next level of growth"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2018/12/12/wandelbots-raises-6-8m-to-make-programming-a-robot-as-easy-as-putting-on-a-jacket/",
+          "quote": "December 12, 2018"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2018/12/12/wandelbots-raises-6-8m-to-make-programming-a-robot-as-easy-as-putting-on-a-jacket/",
+          "quote": "The funding comes from Paua Ventures , EQT Ventures and other unnamed previous investors."
+        }
+      ]
+    },
+    {
+      "stage": "series-b",
+      "month": "2020-06",
+      "amountEur": 26659557,
+      "amountOriginal": 30000000,
+      "currency": "USD",
+      "investors": [
+        "83North",
+        "Next47",
+        "M12"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2020/06/15/no-code-industrial-robotics-programming-startup-wandelbots-raises-30-million-series-b/",
+          "quote": "has raised a $30 million Series B funding round led by 83North, with participation from Next47 and Microsoft’s M12 venture funding arm."
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2020/06/15/no-code-industrial-robotics-programming-startup-wandelbots-raises-30-million-series-b/",
+          "quote": "has raised a $30 million Series B funding round led by 83North, with participation from Next47 and Microsoft’s M12 venture funding arm."
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2020/06/15/no-code-industrial-robotics-programming-startup-wandelbots-raises-30-million-series-b/",
+          "quote": "June 15, 2020"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2020/06/15/no-code-industrial-robotics-programming-startup-wandelbots-raises-30-million-series-b/",
+          "quote": "has raised a $30 million Series B funding round led by 83North, with participation from Next47 and Microsoft’s M12 venture funding arm."
+        }
+      ]
+    },
+    {
+      "stage": "series-c",
+      "month": "2022-01",
+      "amountEur": 74547391,
+      "amountOriginal": 84000000,
+      "currency": "USD",
+      "investors": [
+        "Insight Partners",
+        "83North",
+        "Microsoft",
+        "Next47",
+        "Paua Ventures",
+        "Atlantic Labs",
+        "EQT Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2022/01/25/wandelbots-raises-another-84-million-to-teach-robots-without-code/",
+          "quote": "Today the firm returns with a healthy $84 million Series C, putting its funding well north of $100 million to date."
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2022/01/25/wandelbots-raises-another-84-million-to-teach-robots-without-code/",
+          "quote": "Today the firm returns with a healthy $84 million Series C, putting its funding well north of $100 million to date."
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2022/01/25/wandelbots-raises-another-84-million-to-teach-robots-without-code/",
+          "quote": "January 25, 2022"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2022/01/25/wandelbots-raises-another-84-million-to-teach-robots-without-code/",
+          "quote": "This latest round was led by Insight Partners and featured a slate of existing investors, including 83North, Microsoft, Next47, Paua, Atlantic Labs and EQT."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "id": "sereact",
+  "name": "Sereact",
+  "aliases": [],
+  "domain": "sereact.ai",
+  "country": "DE",
+  "city": "Stuttgart",
+  "founded": 2021,
+  "sectors": [
+    "robotics",
+    "ai"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Ralf Gulde",
+    "Marc Tuscher"
+  ],
+  "difficulty": 4,
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.eni.uni-stuttgart.de/en/institute/news/news/Start-up-sereact-is-making-robots-smarter-and-has-raised-110-million-dollars-in-funding/",
+      "quote": "The Stuttgart-based startup sereact is turning the robotics industry on its head with its AI model, Cortex 2.0."
+    },
+    {
+      "field": "founded",
+      "url": "https://www.eni.uni-stuttgart.de/en/institute/news/news/Start-up-sereact-is-making-robots-smarter-and-has-raised-110-million-dollars-in-funding/",
+      "quote": "In 2021, the two founded the startup sereact"
+    },
+    {
+      "field": "founders",
+      "url": "https://www.eni.uni-stuttgart.de/en/institute/news/news/Start-up-sereact-is-making-robots-smarter-and-has-raised-110-million-dollars-in-funding/",
+      "quote": "Ralf Gulde and Marc Tuscher, University of Stuttgart alumni, are using a proprietary AI model to turn gripper robots into smart assistants in warehou"
+    },
+    {
+      "field": "sectors",
+      "url": "https://osborneclarke.com/news/osborne-clarke-advises-air-street-capital-series-b-financing-round-ai-robotics-start-sereact",
+      "quote": "Stuttgart-based AI robotics company Sereact"
+    },
+    {
+      "field": "status",
+      "url": "https://roboticsandautomationnews.com/2026/04/27/sereact-raises-110-million-investment-to-advance-its-world-model-for-robotics-and-ai/101043/",
+      "quote": "Sereact has raised a $110 million Series B round led by Headline"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "seed",
+      "month": "2023-08",
+      "amountEur": 4537617,
+      "amountOriginal": 5000000.0,
+      "currency": "USD",
+      "investors": [
+        "Point Nine",
+        "Air Street Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.startbase.de/news/sereact-sichert-sich-5-millionen-us-dollar/",
+          "quote": "Die Firma Sereact mit Sitz in Stuttgart gab bekannt, dass sie eine Seed-Finanzierungsrunde in Höhe von 5 Millionen US-Dollar abgeschlossen hat."
+        },
+        {
+          "field": "month",
+          "url": "https://www.startbase.de/news/sereact-sichert-sich-5-millionen-us-dollar/",
+          "quote": "Stuttgart, 10. August 2023"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.startbase.de/news/sereact-sichert-sich-5-millionen-us-dollar/",
+          "quote": "Die Firma Sereact mit Sitz in Stuttgart gab bekannt, dass sie eine Seed-Finanzierungsrunde in Höhe von 5 Millionen US-Dollar abgeschlossen hat."
+        },
+        {
+          "field": "investors",
+          "url": "https://www.startbase.de/news/sereact-sichert-sich-5-millionen-us-dollar/",
+          "quote": "Die Finanzierung wurde von Point Nine und Air Street Capital angeführt."
+        }
+      ]
+    },
+    {
+      "stage": "series-a",
+      "month": "2025-01",
+      "amountEur": 25000000,
+      "amountOriginal": 25000000.0,
+      "currency": "EUR",
+      "investors": [
+        "Creandum",
+        "Point Nine",
+        "Air Street Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.startbase.com/news/sereact-sichert-25-millionen-euro-in-series-a-finanzierungsrunde-zur-weiterentwicklung-ki-gestuetzter-robotik/",
+          "quote": "Robotics startup Sereact has closed a Series A financing round of 25 million euros. The investment is led by Creandum with additional support from Point Nine and Air Street Capital."
+        },
+        {
+          "field": "month",
+          "url": "https://www.startbase.com/news/sereact-sichert-25-millionen-euro-in-series-a-finanzierungsrunde-zur-weiterentwicklung-ki-gestuetzter-robotik/",
+          "quote": "Stuttgart, January 20, 2025"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.startbase.com/news/sereact-sichert-25-millionen-euro-in-series-a-finanzierungsrunde-zur-weiterentwicklung-ki-gestuetzter-robotik/",
+          "quote": "Robotics startup Sereact has closed a Series A financing round of 25 million euros. The investment is led by Creandum with additional support from Point Nine and Air Street Capital."
+        },
+        {
+          "field": "investors",
+          "url": "https://www.startbase.com/news/sereact-sichert-25-millionen-euro-in-series-a-finanzierungsrunde-zur-weiterentwicklung-ki-gestuetzter-robotik/",
+          "quote": "Robotics startup Sereact has closed a Series A financing round of 25 million euros. The investment is led by Creandum with additional support from Point Nine and Air Street Capital."
+        }
+      ]
+    },
+    {
+      "stage": "series-b",
+      "month": "2026-04",
+      "amountEur": 93624989,
+      "amountOriginal": 110000000.0,
+      "currency": "USD",
+      "investors": [
+        "Headline",
+        "Bullhound Capital",
+        "Daphni",
+        "Felix Capital",
+        "Air Street Capital",
+        "Creandum",
+        "Point Nine"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://roboticsandautomationnews.com/2026/04/27/sereact-raises-110-million-investment-to-advance-its-world-model-for-robotics-and-ai/101043/",
+          "quote": "Sereact has raised a $110 million Series B round led by Headline, with participation from Bullhound Capital, Daphni, and Felix Capital."
+        },
+        {
+          "field": "month",
+          "url": "https://roboticsandautomationnews.com/2026/04/27/sereact-raises-110-million-investment-to-advance-its-world-model-for-robotics-and-ai/101043/",
+          "quote": "April 27, 2026"
+        },
+        {
+          "field": "stage",
+          "url": "https://roboticsandautomationnews.com/2026/04/27/sereact-raises-110-million-investment-to-advance-its-world-model-for-robotics-and-ai/101043/",
+          "quote": "Sereact has raised a $110 million Series B round led by Headline, with participation from Bullhound Capital, Daphni, and Felix Capital."
+        },
+        {
+          "field": "investors",
+          "url": "https://roboticsandautomationnews.com/2026/04/27/sereact-raises-110-million-investment-to-advance-its-world-model-for-robotics-and-ai/101043/",
+          "quote": "Sereact has raised a $110 million Series B round led by Headline, with participation from Bullhound Capital, Daphni, and Felix Capital. Existing investors Air Street Capital, Creandum"
+        }
+      ]
+    }
+  ]
+}

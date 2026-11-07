@@ -1,0 +1,119 @@
+{
+  "id": "spryker",
+  "name": "Spryker",
+  "aliases": [
+    "Spryker Systems"
+  ],
+  "domain": "spryker.com",
+  "country": "DE",
+  "city": "Berlin",
+  "founded": 2014,
+  "sectors": [
+    "saas",
+    "ecommerce"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Alexander Graf",
+    "Boris Lokschin"
+  ],
+  "difficulty": 4,
+  "techeuId": "9ED12CAA-FCA9-41C3-8CD8-A020235F4A0A",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://techcrunch.com/2020/12/17/spryker-raises-130m-at-a-500m-valuation-to-provide-b2bs-with-agile-e-commerce-tools/",
+      "quote": "We understand that this latest funding values Berlin-based Spryker at more than $500 million."
+    },
+    {
+      "field": "founded",
+      "url": "https://www.startbase.com/organization/spryker-systems/",
+      "quote": "Founding Year: 2014"
+    },
+    {
+      "field": "founders",
+      "url": "https://techcrunch.com/2020/12/17/spryker-raises-130m-at-a-500m-valuation-to-provide-b2bs-with-agile-e-commerce-tools/",
+      "quote": "as Boris Lokschin, who co-founded the company with Alexander Graf (the two share the title of co-CEOs)"
+    },
+    {
+      "field": "sectors",
+      "url": "https://tech.eu/2018/02/13/spryker-funding/",
+      "quote": "Spryker Systems , developer of a commerce-focused operating system, has raised $22 million led by One Peak Partners with participation from Project A."
+    },
+    {
+      "field": "status",
+      "url": "https://techcrunch.com/2020/12/17/spryker-raises-130m-at-a-500m-valuation-to-provide-b2bs-with-agile-e-commerce-tools/",
+      "quote": "has closed a round of $130 million. It plans to use the funding to expand its own technology tools, as well as grow internationally."
+    },
+    {
+      "field": "unicorn",
+      "url": "https://techcrunch.com/2020/12/17/spryker-raises-130m-at-a-500m-valuation-to-provide-b2bs-with-agile-e-commerce-tools/",
+      "quote": "We understand that this latest funding values Berlin-based Spryker at more than $500 million."
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-b",
+      "month": "2018-02",
+      "amountEur": 17838320,
+      "amountOriginal": 22000000.0,
+      "currency": "USD",
+      "investors": [
+        "One Peak Partners",
+        "Project A"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2018/02/13/spryker-funding/",
+          "quote": "Spryker Systems , developer of a commerce-focused operating system, has raised $22 million led by One Peak Partners with participation from Project A."
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2018/02/13/spryker-funding/",
+          "quote": "Jonathan Keane 13 February 2018"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2018/02/13/spryker-funding/",
+          "quote": "Spryker Systems , developer of a commerce-focused operating system, has raised $22 million led by One Peak Partners with participation from Project A."
+        }
+      ]
+    },
+    {
+      "stage": "series-c",
+      "month": "2020-12",
+      "amountEur": 106157113,
+      "amountOriginal": 130000000.0,
+      "currency": "USD",
+      "investors": [
+        "TCV",
+        "One Peak",
+        "Project A Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2020/12/17/spryker-raises-130m-at-a-500m-valuation-to-provide-b2bs-with-agile-e-commerce-tools/",
+          "quote": "has closed a round of $130 million. It plans to use the funding to expand its own technology tools, as well as grow internationally."
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2020/12/17/spryker-raises-130m-at-a-500m-valuation-to-provide-b2bs-with-agile-e-commerce-tools/",
+          "quote": "The Series C was led by TCV"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2020/12/17/spryker-raises-130m-at-a-500m-valuation-to-provide-b2bs-with-agile-e-commerce-tools/",
+          "quote": "December 17, 2020"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2020/12/17/spryker-raises-130m-at-a-500m-valuation-to-provide-b2bs-with-agile-e-commerce-tools/",
+          "quote": "Previous backers One Peak and Project A Ventures also participated."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "id": "enviria",
+  "name": "Enviria",
+  "aliases": [
+    "ENVIRIA"
+  ],
+  "domain": "enviria.energy",
+  "country": "DE",
+  "city": "Frankfurt",
+  "founded": 2017,
+  "sectors": [
+    "climate"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Melchior Schulze Brock"
+  ],
+  "difficulty": 4,
+  "techeuId": "90C21A74-592C-4BC7-B70C-D8651DB90889",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://tech.eu/2022/06/23/german-solar-energy-startup-enviria-collects-eur225-million-in-series-a-rays/",
+      "quote": "Frankfurt-based Enviria has raised €22.5 million in a new funding round"
+    },
+    {
+      "field": "founded",
+      "url": "https://tech.eu/2022/06/23/german-solar-energy-startup-enviria-collects-eur225-million-in-series-a-rays/",
+      "quote": "Founded in 2017, over the past five years Enviria founder and CEO Melchior Schulze Brock"
+    },
+    {
+      "field": "founders",
+      "url": "https://tech.eu/2022/06/23/german-solar-energy-startup-enviria-collects-eur225-million-in-series-a-rays/",
+      "quote": "Founded in 2017, over the past five years Enviria founder and CEO Melchior Schulze Brock"
+    },
+    {
+      "field": "sectors",
+      "url": "https://tech.eu/2022/06/23/german-solar-energy-startup-enviria-collects-eur225-million-in-series-a-rays/",
+      "quote": "focusing instead on photovoltaic energy solutions including energy-as-a-service products customised for the distinct needs of businesses"
+    },
+    {
+      "field": "status",
+      "url": "https://tech.eu/2024/02/29/germanys-enviria-targets-commercial-solar-energy-market-with-200m-blackrock-funding/",
+      "quote": "has secured over $200 million in a Series B funding round provided by the world's largest asset manager, BlackRock."
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-a",
+      "month": "2022-06",
+      "amountEur": 22500000,
+      "amountOriginal": 22500000,
+      "currency": "EUR",
+      "investors": [
+        "Redalpine",
+        "Galileo Green Energy",
+        "BNP Paribas Développement",
+        "Alter Equity"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2022/06/23/german-solar-energy-startup-enviria-collects-eur225-million-in-series-a-rays/",
+          "quote": "Enviria's €22.5 million in Series A round was led by Redalpine and Galileo Green Energy , with BNP Paribas Développement and Alter Equity also participating."
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2022/06/23/german-solar-energy-startup-enviria-collects-eur225-million-in-series-a-rays/",
+          "quote": "Enviria's €22.5 million in Series A round was led by Redalpine and Galileo Green Energy , with BNP Paribas Développement and Alter Equity also participating."
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2022/06/23/german-solar-energy-startup-enviria-collects-eur225-million-in-series-a-rays/",
+          "quote": "23 June 2022"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2022/06/23/german-solar-energy-startup-enviria-collects-eur225-million-in-series-a-rays/",
+          "quote": "Enviria's €22.5 million in Series A round was led by Redalpine and Galileo Green Energy , with BNP Paribas Développement and Alter Equity also participating."
+        }
+      ]
+    }
+  ]
+}

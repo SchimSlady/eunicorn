@@ -1,0 +1,220 @@
+{
+  "id": "zeotap",
+  "name": "Zeotap",
+  "aliases": [
+    "zeotap"
+  ],
+  "domain": "zeotap.com",
+  "country": "DE",
+  "city": "Berlin",
+  "founded": 2014,
+  "sectors": [
+    "saas"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Daniel Heer",
+    "Projjol Banerjea"
+  ],
+  "difficulty": 4,
+  "techeuId": "2AB6AF72-B1BE-49DD-928A-AD2A6D4FD4D1",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://techcrunch.com/2020/11/16/zeotap-raises-18-5m-for-a-customer-id-platform-it-says-was-built-with-privacy-in-mind/",
+      "quote": "Founded in Berlin with operations now out of New York, Bengaluru in India and the U.K."
+    },
+    {
+      "field": "founded",
+      "url": "https://globalventuring.com/blog/2020/07/16/zeotap-wraps-up-42m-series-c/",
+      "quote": "It brought Zeotap’s total funding to $62.5m since it was founded in 2014."
+    },
+    {
+      "field": "founders",
+      "url": "https://techcrunch.com/2020/11/16/zeotap-raises-18-5m-for-a-customer-id-platform-it-says-was-built-with-privacy-in-mind/",
+      "quote": "Projjol Banerjea, founder and CPO of Zeotap (pictured above, right, with co-founder Daniel Heer, who is the CEO)"
+    },
+    {
+      "field": "sectors",
+      "url": "https://techcrunch.com/2020/11/16/zeotap-raises-18-5m-for-a-customer-id-platform-it-says-was-built-with-privacy-in-mind/",
+      "quote": "Zeotap , a customer identity platform built around a company’s own (first-party) data"
+    },
+    {
+      "field": "status",
+      "url": "https://www.startbase.com/organization/zeotap/",
+      "quote": "Umsatz von Zeotap steigt auf 15,1 Millionen"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-a",
+      "month": "2015-08",
+      "amountEur": 5832498,
+      "amountOriginal": 6400000,
+      "currency": "USD",
+      "investors": [
+        "Capnamic Ventures",
+        "Iris Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2015/08/04/zeotap/",
+          "quote": "has just raised $6.4 million in Series A funding from Capnamic Ventures, Iris Capital, a number of fairly prominent angels and existing investors"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2015/08/04/zeotap/",
+          "quote": "has just raised $6.4 million in Series A funding from Capnamic Ventures, Iris Capital, a number of fairly prominent angels and existing investors"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2015/08/04/zeotap/",
+          "quote": "August 4, 2015"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2015/08/04/zeotap/",
+          "quote": "has just raised $6.4 million in Series A funding from Capnamic Ventures, Iris Capital, a number of fairly prominent angels and existing investors"
+        }
+      ]
+    },
+    {
+      "stage": "series-b",
+      "month": "2017-01",
+      "amountEur": 12000000,
+      "amountOriginal": 12000000,
+      "currency": "EUR",
+      "investors": [
+        "New Science Ventures",
+        "HERE",
+        "Capnamic Ventures",
+        "Iris Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2017/01/17/zeotap-series-b/",
+          "quote": "announced today that it has raised €12 million in Series B funding"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2017/01/17/zeotap-series-b/",
+          "quote": "announced today that it has raised €12 million in Series B funding"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2017/01/17/zeotap-series-b/",
+          "quote": "January 17, 2017"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2017/01/17/zeotap-series-b/",
+          "quote": "The Series B comes from New Science Ventures and location services provider HERE , as well as previous investors Capnamic Ventures and Iris Capital."
+        }
+      ]
+    },
+    {
+      "stage": "series-c",
+      "month": "2020-07",
+      "amountEur": 36700454,
+      "amountOriginal": 42000000,
+      "currency": "USD",
+      "investors": [
+        "MathCapital",
+        "Kathaka",
+        "Neue Capital",
+        "TTCER Partners",
+        "Coparion"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://globalventuring.com/blog/2020/07/16/zeotap-wraps-up-42m-series-c/",
+          "quote": "Germany-based customer intelligence provider Zeotap closed $42m in series C funding yesterday from investors including MathCapital"
+        },
+        {
+          "field": "stage",
+          "url": "https://globalventuring.com/blog/2020/07/16/zeotap-wraps-up-42m-series-c/",
+          "quote": "Germany-based customer intelligence provider Zeotap closed $42m in series C funding yesterday from investors including MathCapital"
+        },
+        {
+          "field": "month",
+          "url": "https://globalventuring.com/blog/2020/07/16/zeotap-wraps-up-42m-series-c/",
+          "quote": "Jul 16, 2020"
+        },
+        {
+          "field": "investors",
+          "url": "https://globalventuring.com/blog/2020/07/16/zeotap-wraps-up-42m-series-c/",
+          "quote": "The round also featured family office Kathaka, Neue Capital, TTCER Partners, Coparion, the German government and European Investment Bank."
+        }
+      ]
+    },
+    {
+      "stage": "series-c",
+      "month": "2020-11",
+      "amountEur": 15638208,
+      "amountOriginal": 18500000,
+      "currency": "USD",
+      "investors": [
+        "SignalFire"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2020/11/16/zeotap-raises-18-5m-for-a-customer-id-platform-it-says-was-built-with-privacy-in-mind/",
+          "quote": "is today announcing that it has raised a further $18.5 million"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2020/11/16/zeotap-raises-18-5m-for-a-customer-id-platform-it-says-was-built-with-privacy-in-mind/",
+          "quote": "This is an extension of a Series C round for the firm coming from a single investor, SignalFire, from its Breakout Fund"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2020/11/16/zeotap-raises-18-5m-for-a-customer-id-platform-it-says-was-built-with-privacy-in-mind/",
+          "quote": "November 16, 2020"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2020/11/16/zeotap-raises-18-5m-for-a-customer-id-platform-it-says-was-built-with-privacy-in-mind/",
+          "quote": "This is an extension of a Series C round for the firm coming from a single investor, SignalFire, from its Breakout Fund"
+        }
+      ]
+    },
+    {
+      "stage": "series-c",
+      "month": "2021-09",
+      "amountEur": 9300753,
+      "amountOriginal": 11000000,
+      "currency": "USD",
+      "investors": [
+        "Liberty Global Ventures",
+        "Richard Pennycook"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2021/09/08/customer-intelligence-platform-zeotap-adds-another-11-million-to-series-c-round/",
+          "quote": "has added another $11 million to the coffers in a Series C round"
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2021/09/08/customer-intelligence-platform-zeotap-adds-another-11-million-to-series-c-round/",
+          "quote": "has added another $11 million to the coffers in a Series C round"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2021/09/08/customer-intelligence-platform-zeotap-adds-another-11-million-to-series-c-round/",
+          "quote": "Dan Taylor 08 September 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2021/09/08/customer-intelligence-platform-zeotap-adds-another-11-million-to-series-c-round/",
+          "quote": "The $11 million in additional funding was provided by Liberty Global Ventures , Richard Pennycook CBE"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "id": "augustus",
+  "name": "Augustus",
+  "aliases": [
+    "Ivy",
+    "Getivy"
+  ],
+  "domain": "augustus.com",
+  "country": "DE",
+  "city": "Munich",
+  "founded": 2021,
+  "sectors": [
+    "fintech"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Ferdinand Dabitz",
+    "Simon Wimmer",
+    "Joshua Becker",
+    "Peter Lieck"
+  ],
+  "difficulty": 4,
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.munich-startup.de/news/ivy-seed-finanzierung",
+      "quote": "Das Münchner Fintech Ivy will es Unternehmen ermöglichen"
+    },
+    {
+      "field": "founded",
+      "url": "https://invest-in.berlin/n/25-year-old-berliner-becomes-youngest-us-bank-ceo/",
+      "quote": "Founded in 2021 by Dabitz along with Simon Wimmer, Joshua Becker and Peter Lieck"
+    },
+    {
+      "field": "founders",
+      "url": "https://invest-in.berlin/n/25-year-old-berliner-becomes-youngest-us-bank-ceo/",
+      "quote": "Founded in 2021 by Dabitz along with Simon Wimmer, Joshua Becker and Peter Lieck"
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.boersen-zeitung.de/banken-finanzen/deutsches-fintech-augustus-zieht-grosse-finanzierung-an-land",
+      "quote": "Das Startup hat heute schon Standorte in New York, Dallas, Berlin und Helsinki. In Europa ist das Unternehmen bereits als Zahlungsinstitut zugelassen und wickelt Euro-Clearing für globale Finanzinstitute ab."
+    },
+    {
+      "field": "status",
+      "url": "https://www.pymnts.com/?p=3987106",
+      "quote": "Augustus , formerly known as Ivy, raised $180 million in a Series B funding round"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://www.boersen-zeitung.de/banken-finanzen/deutsches-fintech-augustus-zieht-grosse-finanzierung-an-land",
+      "quote": "Im Rahmen einer Series B nimmt die KI-Neobank 180 Mill. Dollar auf und erreicht mit einer Bewertung von 1 Mrd. Dollar den Status als Einhorn."
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "seed",
+      "month": "2023-07",
+      "amountEur": 7000000,
+      "amountOriginal": 7000000.0,
+      "currency": "EUR",
+      "investors": [
+        "Creandum",
+        "10xFounders"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.munich-startup.de/news/ivy-seed-finanzierung",
+          "quote": "Ivy sichert sich in einer Seed-Finanzierungsrunde sieben Millionen Euro."
+        },
+        {
+          "field": "stage",
+          "url": "https://www.munich-startup.de/news/ivy-seed-finanzierung",
+          "quote": "Ivy sichert sich in einer Seed-Finanzierungsrunde sieben Millionen Euro."
+        },
+        {
+          "field": "month",
+          "url": "https://www.munich-startup.de/news/ivy-seed-finanzierung",
+          "quote": "18. Juli 2023"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.munich-startup.de/news/ivy-seed-finanzierung",
+          "quote": "Angeführt wird die Runde von Creandum"
+        }
+      ]
+    },
+    {
+      "stage": "series-a",
+      "month": "2023-08",
+      "amountEur": 18402650,
+      "amountOriginal": 20000000.0,
+      "currency": "USD",
+      "investors": [
+        "Valar Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://fintech.global/2023/08/31/german-fintech-ivy-raises-20m-in-funding-round/",
+          "quote": "Open banking payments start-up Ivy , has managed to secure $20m in its Series A funding round"
+        },
+        {
+          "field": "stage",
+          "url": "https://fintech.global/2023/08/31/german-fintech-ivy-raises-20m-in-funding-round/",
+          "quote": "Open banking payments start-up Ivy , has managed to secure $20m in its Series A funding round"
+        },
+        {
+          "field": "month",
+          "url": "https://fintech.global/2023/08/31/german-fintech-ivy-raises-20m-in-funding-round/",
+          "quote": "August 31, 2023"
+        },
+        {
+          "field": "investors",
+          "url": "https://fintech.global/2023/08/31/german-fintech-ivy-raises-20m-in-funding-round/",
+          "quote": "Valar Ventures, who led the round"
+        }
+      ]
+    },
+    {
+      "stage": "series-b",
+      "month": "2026-07",
+      "amountEur": 157645822,
+      "amountOriginal": 180000000.0,
+      "currency": "USD",
+      "investors": [
+        "Tiger Global",
+        "Hummingbird",
+        "QED Investors"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.boersen-zeitung.de/banken-finanzen/deutsches-fintech-augustus-zieht-grosse-finanzierung-an-land",
+          "quote": "Im Rahmen einer Series B nimmt die KI-Neobank 180 Mill. Dollar auf und erreicht mit einer Bewertung von 1 Mrd. Dollar den Status als Einhorn."
+        },
+        {
+          "field": "stage",
+          "url": "https://www.boersen-zeitung.de/banken-finanzen/deutsches-fintech-augustus-zieht-grosse-finanzierung-an-land",
+          "quote": "Im Rahmen einer Series B nimmt die KI-Neobank 180 Mill. Dollar auf und erreicht mit einer Bewertung von 1 Mrd. Dollar den Status als Einhorn."
+        },
+        {
+          "field": "month",
+          "url": "https://www.boersen-zeitung.de/banken-finanzen/deutsches-fintech-augustus-zieht-grosse-finanzierung-an-land",
+          "quote": "Frankfurt, July 21, 2026"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.boersen-zeitung.de/banken-finanzen/deutsches-fintech-augustus-zieht-grosse-finanzierung-an-land",
+          "quote": "Die für viele große Deals bei hochgradig skalierenden Startups stehende Tiger Global investierte im Lead. Zu den weiteren Investoren gehören Hummingbird, QED sowie die Gründer von Nubank, Ramp, Circle und Deel."
+        }
+      ]
+    }
+  ]
+}
