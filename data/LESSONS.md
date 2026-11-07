@@ -168,3 +168,6 @@ Read this before verifying a company. Each rule came from a real problem in the 
 - **AI roll-ups** (Limetax, Theo, Integral buy whole firms with their staff) are kept as VC-backed startups, unlike PE buy-and-build platforms (Ortivity); flagged for Tim.
 - **Aggregators only = no round:** buycycle's 2024 Series A existed only on nordic9 (with a different USD figure); dropped.
 - **Many young-company sites block curl** (twaice.com, midas.app, deutsche-startups.de for some agents). check-quotes may still reach them with its own user agent; when it doesn't, swap in investor or press pages (UVC, Insight, invest-in.berlin, munich-startup).
+
+### Tim's calls on mixed rounds (2026-11-07)
+- **Kept although the equity share is not split:** Neura Robotics Series C (announced as "up to $1.4 billion"), Flix Series G ("mix of equity and debt", more than $650M) and Atmos Space Cargo Series A (EUR 25.7M with EIC blended grant and equity). They stay in `rounds` with the announced amount; later audits should not flag them again. Treat their amounts as headline figures, not pure equity.

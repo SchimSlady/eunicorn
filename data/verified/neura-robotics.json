@@ -89,6 +89,39 @@
           "quote": "mit Beteiligung von BlueCrest Capital Management, Volvo Cars Tech Fund, InterAlpen Partners, Vsquared Ventures, HV Capital, Delta Electronics, C4 Ventures, L-Bank"
         }
       ]
+    },
+    {
+      "stage": "series-c",
+      "month": "2026-06",
+      "amountEur": 1213276714,
+      "amountOriginal": 1400000000,
+      "currency": "USD",
+      "investors": [
+        "Tether",
+        "Amazon",
+        "Qualcomm",
+        "NVIDIA",
+        "Bosch",
+        "Schaeffler",
+        "European Investment Bank"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.trendingtopics.eu/neura-german-robotics-unicorn-secures-1-4-billion-from-tether-nvidia-amazon/",
+          "quote": "NEURA Robotics has closed a Series C funding round of up to $1.4 billion."
+        },
+        {
+          "field": "month",
+          "url": "https://www.trendingtopics.eu/neura-german-robotics-unicorn-secures-1-4-billion-from-tether-nvidia-amazon/",
+          "quote": "10. June 2026"
+        },
+        {
+          "field": "investors",
+          "url": "https://techfundingnews.com/neura-robotics-1-4b-series-c-tether-amazon-nvidia/",
+          "quote": "NEURA Robotics has wrapped up a Series C funding round of up to $1.4 billion, led by Tether. Other backers include Amazon, NVIDIA, Qualcomm, Bosch, Schaeffler, and the European Investment Bank."
+        }
+      ]
     }
   ],
   "aliases": []
