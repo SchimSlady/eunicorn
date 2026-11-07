@@ -13,7 +13,7 @@
     "climate"
   ],
   "status": "private",
-  "unicorn": true,
+  "unicorn": false,
   "founders": [
     "Max Schroeren",
     "Justus Menten",
@@ -41,16 +41,6 @@
       "field": "sectors",
       "url": "https://www.startuphub.ai/news/enter-secures-20-million-series-b-funding",
       "quote": "providing a comprehensive platform for energy efficiency renovations in the real estate sector"
-    },
-    {
-      "field": "unicorn",
-      "url": "https://www.startuphub.ai/news/enter-secures-20-million-series-b-funding",
-      "quote": "The €20 million Series B brings Enter's total investment since 2022 to over €40 million."
-    },
-    {
-      "field": "valuation",
-      "url": "https://latamlist.com/enter-raises-100m-round-and-reaches-unicorn-status/",
-      "quote": "Brazilian legaltech startup Enter raised a $100M funding round led by Founders Fund , reaching a $1.2B valuation"
     }
   ],
   "rounds": [
@@ -129,6 +119,5 @@
         }
       ]
     }
-  ],
-  "lastValuationEur": 1020000000
+  ]
 }
