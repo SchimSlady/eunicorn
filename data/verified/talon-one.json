@@ -21,6 +21,11 @@
   ],
   "difficulty": 4,
   "techeuId": "22593DCA-55DA-4D35-A8C3-64242D985064",
+  "exit": {
+    "kind": "acquisition",
+    "month": "2026-04",
+    "acquirer": "Adyen"
+  },
   "sources": [
     {
       "field": "city",
@@ -46,6 +51,16 @@
       "field": "status",
       "url": "https://www.adyen.com/press-and-media/adyen-closes-talonone-and-orb-acquisitions-announces-leadership-updates",
       "quote": "today announces the successful closing of its previously announced acquisitions of Talon.One"
+    },
+    {
+      "field": "exit",
+      "url": "https://www.bankingdive.com/news/adyen-acquire-talon-one-customer-identity-in-store-online-price-promotion-payments/818853/",
+      "quote": "Adyen to buy German loyalty platform Talon.One"
+    },
+    {
+      "field": "exit",
+      "url": "https://www.bankingdive.com/news/adyen-acquire-talon-one-customer-identity-in-store-online-price-promotion-payments/818853/",
+      "quote": "Published April 28, 2026"
     }
   ],
   "rounds": [
