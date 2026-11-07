@@ -1,0 +1,83 @@
+{
+  "id": "beo",
+  "name": "BEO",
+  "aliases": ["Co-Power", "Co-Power Energy"],
+  "domain": "beo.energy",
+  "country": "DE",
+  "city": "Munich",
+  "founded": 2024,
+  "sectors": ["climate"],
+  "status": "private",
+  "unicorn": false,
+  "founders": ["Jan Krüger", "Kilian Zedelius"],
+  "difficulty": 5,
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.trendingtopics.eu/co-power-deutsches-startup-erhaelt-64-millionen-euro-und-will-die-energieeffizienz-europas-steigern/",
+      "quote": "2024 in München gegründet, steht für kostensenkende Energielösungen"
+    },
+    {
+      "field": "city",
+      "url": "https://tech.eu/2025/06/10/co-power-raises-eur64m-to-help-european-industry-cut-energy-costs-and-strengthen-resilience/",
+      "quote": "the Munich-based company building decentralised energy infrastructure for Europe's industrial sector, raised €6.4 million"
+    },
+    {
+      "field": "founded",
+      "url": "https://www.trendingtopics.eu/co-power-deutsches-startup-erhaelt-64-millionen-euro-und-will-die-energieeffizienz-europas-steigern/",
+      "quote": "2024 in München gegründet, steht für kostensenkende Energielösungen"
+    },
+    {
+      "field": "founders",
+      "url": "https://www.munich-startup.de/en/110498/co-power-seed/",
+      "quote": "Co-Power is backed by founders Jan Krüger and Kilian Zedelius."
+    },
+    {
+      "field": "sectors",
+      "url": "https://tech.eu/2025/06/10/co-power-raises-eur64m-to-help-european-industry-cut-energy-costs-and-strengthen-resilience/",
+      "quote": "to accelerate the deployment of its innovative large-scale battery storage and solar PV systems"
+    },
+    {
+      "field": "status",
+      "url": "https://beo.energy/uber-uns",
+      "quote": "© 2026, Co-Power Energy GmbH | All rights reserved"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://www.munich-startup.de/en/110498/co-power-seed/",
+      "quote": "Co-Power has completed a seed financing round of €6.4 million."
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "seed",
+      "month": "2025-06",
+      "amountEur": 6400000,
+      "amountOriginal": 6400000,
+      "currency": "EUR",
+      "investors": ["Cherry Ventures", "Abacon Capital", "Aurum Impact", "Flixfounders"],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.munich-startup.de/en/110498/co-power-seed/",
+          "quote": "Co-Power has completed a seed financing round of €6.4 million. The round was led by Cherry Ventures."
+        },
+        {
+          "field": "stage",
+          "url": "https://www.munich-startup.de/en/110498/co-power-seed/",
+          "quote": "Co-Power has completed a seed financing round of €6.4 million. The round was led by Cherry Ventures."
+        },
+        {
+          "field": "month",
+          "url": "https://www.startbase.com/news/co-power-erhaelt-64-millionen-euro-zur-senkung-industrieller-energiekosten/",
+          "quote": "Munich, 10 June 2025"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.munich-startup.de/en/110498/co-power-seed/",
+          "quote": "Other participants include Abacon Capital, Aurum Impact, Flixfounders"
+        }
+      ]
+    }
+  ]
+}

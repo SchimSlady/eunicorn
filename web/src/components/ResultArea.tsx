@@ -37,8 +37,9 @@ export function ResultArea({
   return (
     <>
       {!open && (
-      <div className="flex items-center gap-3 rounded-2xl border border-border bg-surface p-3">
-        <p className="min-w-0 flex-1 truncate font-display text-lg font-bold leading-tight">{detail}</p>
+      <div className="flex flex-wrap items-center gap-x-3 gap-y-2 rounded-2xl border border-border bg-surface p-3">
+        {/* Wraps instead of cutting off ("It was Outfittery"); the buttons move below when it's long. */}
+        <p className="min-w-[9rem] flex-1 font-display text-lg font-bold leading-tight">{detail}</p>
         <button
           ref={reopen}
           type="button"

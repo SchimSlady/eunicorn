@@ -1,9 +1,11 @@
 {
-  "_note": "Programs a company can have gone through (data/verified/<id>.json -> programs). kind: accelerator | fellowship | university. A university program (CDTM) means the company was founded by its alumni. Loaded into Supabase by data/scripts/load-verified.ts.",
+  "_note": "Programs a company can have gone through (data/verified/<id>.json -> programs). kind: accelerator | fellowship | university. A university program (CDTM) means the company was founded by its alumni. Loaded into Supabase by data/scripts/load-verified.ts. Logos: web/public/logos/programs/<id>.svg|png (the loader sets programs.logo when the file exists); logoSource says where the file came from.",
   "programs": [
-    { "id": "y-combinator", "name": "Y Combinator", "kind": "accelerator", "url": "https://www.ycombinator.com" },
-    { "id": "antler", "name": "Antler", "kind": "accelerator", "url": "https://www.antler.co" },
-    { "id": "ewor", "name": "EWOR", "kind": "fellowship", "url": "https://www.ewor.com" },
-    { "id": "cdtm", "name": "CDTM", "kind": "university", "url": "https://www.cdtm.com" }
+    { "id": "y-combinator", "name": "Y Combinator", "kind": "accelerator", "url": "https://www.ycombinator.com", "logoSource": "https://commons.wikimedia.org/wiki/File:Y_Combinator_logo.svg" },
+    { "id": "antler", "name": "Antler", "kind": "accelerator", "url": "https://www.antler.co", "logoSource": "https://www.antler.co (header logo, brand red #ed4746 from the site's CSS)" },
+    { "id": "ewor", "name": "EWOR", "kind": "fellowship", "url": "https://www.ewor.com", "logoSource": "https://cdn.prod.website-files.com/6621450113fa0186b23a5e6f/68b997135519bf37ee924d27_Logo_Dark.svg" },
+    { "id": "cdtm", "name": "CDTM", "kind": "university", "url": "https://www.cdtm.com", "logoSource": "https://www.cdtm.com/icon.svg" },
+    { "id": "manage-and-more", "name": "Manage and More", "kind": "fellowship", "url": "https://www.manageandmore.de" },
+    { "id": "start-munich", "name": "START Munich", "kind": "university", "url": "https://www.startmunich.de" }
   ]
 }

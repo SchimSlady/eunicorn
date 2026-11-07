@@ -1,0 +1,108 @@
+{
+  "id": "furo-energy",
+  "name": "Furo",
+  "aliases": [
+    "Furo Energy",
+    "Lumera Energy"
+  ],
+  "domain": "furoenergy.com",
+  "country": "DE",
+  "city": "Munich",
+  "founded": 2025,
+  "sectors": [
+    "climate",
+    "ai"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Lena Sophia Voß",
+    "Leonie Wagner",
+    "Simon Wittner"
+  ],
+  "difficulty": 5,
+  "programs": [
+    {
+      "id": "cdtm"
+    }
+  ],
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.trendingtopics.eu/furo-raises-4-million-to-make-industrial-battery-storage-pay-off/",
+      "quote": "Furo, a Munich startup that runs software for commercial and industrial battery storage, recently closed a $4 million seed round."
+    },
+    {
+      "field": "founded",
+      "url": "https://startuprise.co.uk/furo-raises-e3-44-mn/",
+      "quote": "Furo was founded in 2025 as Lumera Energy by Voß, Leonie Wagner and Simon Wittner."
+    },
+    {
+      "field": "founders",
+      "url": "https://www.trendingtopics.eu/furo-raises-4-million-to-make-industrial-battery-storage-pay-off/",
+      "quote": "Furo was started by Lena Sophia Voß, Leonie Wagner and Simon Wittner"
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.trendingtopics.eu/furo-raises-4-million-to-make-industrial-battery-storage-pay-off/",
+      "quote": "Furo, a Munich startup that runs software for commercial and industrial battery storage, recently closed a $4 million seed round."
+    },
+    {
+      "field": "status",
+      "url": "https://www.trendingtopics.eu/furo-raises-4-million-to-make-industrial-battery-storage-pay-off/",
+      "quote": "Furo, a Munich startup that runs software for commercial and industrial battery storage, recently closed a $4 million seed round."
+    },
+    {
+      "field": "unicorn",
+      "url": "https://www.trendingtopics.eu/furo-raises-4-million-to-make-industrial-battery-storage-pay-off/",
+      "quote": "Furo, a Munich startup that runs software for commercial and industrial battery storage, recently closed a $4 million seed round."
+    },
+    {
+      "field": "programs",
+      "url": "https://www.furoenergy.com/blog/furo-funding",
+      "quote": "Gegründet wurde Furo von Lena Sophia Voß, Leonie Wagner und Simon Wittner, die sich im gemeinsamen Masterprogramm am Center for Digital Technology and Management (CDTM) der LMU München und der Technischen Universität München kennenlernten."
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "seed",
+      "month": "2026-09",
+      "amountEur": 3450656,
+      "amountOriginal": 4000000,
+      "currency": "USD",
+      "investors": [
+        "TQ Ventures",
+        "Neo",
+        "Sandberg Bernthal Venture Partners",
+        "CDTM Venture Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.trendingtopics.eu/furo-raises-4-million-to-make-industrial-battery-storage-pay-off/",
+          "quote": "Furo, a Munich startup that runs software for commercial and industrial battery storage, recently closed a $4 million seed round."
+        },
+        {
+          "field": "amount",
+          "url": "https://www.wiwo.de/erfolg/gruender/batteriespeicher-wie-das-start-up-furo-stromkosten-fuer-firmen-senken-will/100253536.html",
+          "quote": "beteiligt sich an einer Finanzierungsrunde in Höhe von vier Millionen Dollar"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.trendingtopics.eu/furo-raises-4-million-to-make-industrial-battery-storage-pay-off/",
+          "quote": "Furo, a Munich startup that runs software for commercial and industrial battery storage, recently closed a $4 million seed round."
+        },
+        {
+          "field": "month",
+          "url": "https://www.furoenergy.com/blog/furo-funding",
+          "quote": "München, 11. September 2026"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.trendingtopics.eu/furo-raises-4-million-to-make-industrial-battery-storage-pay-off/",
+          "quote": "The round was led by New York based TQ Ventures, with participation from the US accelerator Neo, Sandberg Bernthal Venture Partners (Sheryl Sandberg's fund) and CDTM Venture Capital."
+        }
+      ]
+    }
+  ]
+}

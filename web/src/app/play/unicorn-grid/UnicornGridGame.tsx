@@ -1,14 +1,14 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
-import { X } from "lucide-react";
 import type { Company, Dataset, GridCriterion, UnicornGridPuzzle } from "@eunicorn/schema";
 import { indexById, loadGame } from "@/lib/data";
 import { getTodayResult, loadProgress, saveProgress, saveResult } from "@/lib/daily";
 import { hintLimit, saveDifficulty, type Difficulty } from "@/lib/difficulty";
 import { shareText as buildShareText } from "@/lib/scoring";
 import { CompanyLogo } from "@/components/CompanyLogo";
-import { distinctAnswers } from "@/lib/grid";
+import { distinctAnswers, gridMissReason, investorIndex } from "@/lib/grid";
+import { MissToast, type MissIcon } from "@/components/MissToast";
 import { nudgeClass } from "@/lib/nudge";
 import { companyFact, strengthOf } from "@/lib/hints";
 import { RevealButton } from "@/components/RevealButton";
@@ -124,8 +124,13 @@ export function UnicornGridGame() {
   const [progress, setProgress] = useState<Progress | null>(null);
   // A company that fits several open squares waits here until the player taps one of them.
   const [pending, setPending] = useState<{ company: Company; cells: number[] } | null>(null);
-  // The last guess that fit no open square.
-  const [miss, setMiss] = useState<{ name: string; n: number } | null>(null);
+  // The last guess that fit no open square: which headings it meets (✓ / ✗ on the board), and the
+  // filled square it would have fit, if any.
+  const [miss, setMiss] = useState<{ id: string; n: number; icon: MissIcon; text: string } | null>(null);
+  // Whether that guess's toast is still up (it goes after a moment; the reason stays in the search).
+  const [toast, setToast] = useState(false);
+  // Wrong guesses this visit: they stay in the search, greyed out (they can't fit later either: squares only fill up).
+  const [tried, setTried] = useState<Map<string, string>>(new Map());
 
   useEffect(() => {
     loadGame<Puzzle>(MODE).then(({ puzzle: p, data: d }) => {
@@ -137,6 +142,7 @@ export function UnicornGridGame() {
 
   const companies = useMemo(() => (data ? indexById(data.companies) : new Map<string, Company>()), [data]);
   const investorLogos = useMemo(() => new Map((data?.investors ?? []).map((i) => [i.id, i.logo])), [data]);
+  const investorsOf = useMemo(() => (data ? investorIndex(data) : () => new Set<string>()), [data]);
 
   if (daily === undefined || !data) return <GameSkeleton />;
   if (daily === null) return <NoPuzzle />;
@@ -195,7 +201,16 @@ export function UnicornGridGame() {
       return;
     }
     update({ ...progress!, wrong: progress!.wrong + 1 });
-    setMiss({ name: c.name, n: (miss?.n ?? 0) + 1 });
+    showMiss(c);
+  }
+
+  /** Why a wrong guess missed, as a toast over the board (again, when the player picks a tried one from the search). */
+  function showMiss(c: Company) {
+    const taken = [0, 1, 2, 3, 4, 5, 6, 7, 8].find((cell) => progress!.cells[cell] && puzzle.validAnswers[cell].includes(c.id));
+    const reason = gridMissReason(c, puzzle.rows, puzzle.cols, investorsOf, taken !== undefined ? squareName(taken) : undefined);
+    setTried((t) => new Map(t).set(c.id, reason.text));
+    setMiss({ id: c.id, n: (miss?.n ?? 0) + 1, ...reason });
+    setToast(true);
   }
 
   // Answers shown in squares the player left empty: the best-known valid ones such that, like
@@ -250,7 +265,7 @@ export function UnicornGridGame() {
           pending
             ? `Tap a highlighted square for ${pending.company.name}.`
             : miss
-              ? `${miss.name} doesn't fit any open square.`
+              ? `${companies.get(miss.id)?.name} doesn't fit. ${miss.text}.`
               : `${used.size} of 9 squares filled.`
         }
       />
@@ -323,14 +338,12 @@ export function UnicornGridGame() {
             </div>
           ) : (
             <>
-              {miss && (
-                <p className="flex items-center justify-center gap-1.5 text-sm font-semibold text-wrong">
-                  <X size={16} aria-hidden /> {miss.name} doesn&apos;t fit any open square
-                </p>
-              )}
-              <div className="flex items-start gap-2">
+              <div className="relative flex items-start gap-2">
+                {miss && toast && companies.get(miss.id) && (
+                  <MissToast key={`${miss.id}-${miss.n}`} company={companies.get(miss.id)!} icon={miss.icon} text={miss.text} onDone={() => setToast(false)} />
+                )}
                 <div className={`min-w-0 flex-1 rounded-2xl ${nudgeClass(miss?.n)}`}>
-                  <CompanySearch companies={data.companies} exclude={used} onPick={pick} />
+                  <CompanySearch companies={data.companies} exclude={used} tried={tried} onTried={showMiss} onPick={pick} onType={() => setToast(false)} />
                 </div>
                 <Hints
                   compact
@@ -338,6 +351,7 @@ export function UnicornGridGame() {
                   revealed={boardHints.map((h) => ({ text: h.text, cost: 0 }))}
                   next={canHint ? { text: "", cost: 0 } : undefined}
                   onReveal={revealHint}
+                  total={hintCap}
                 />
               </div>
             </>

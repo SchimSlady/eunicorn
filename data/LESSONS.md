@@ -123,3 +123,30 @@ Read this before verifying a company. Each rule came from a real problem in the 
 - **Antler:** a listing under "companies we've backed" or an Antler investment is not the residency. Only tag with a source that says residency or program (Peec AI, LangWatch). NetBird and NeoCarbon were left untagged for that reason.
 - **EWOR:** most of its startups are US/non-European or have no disclosed round; 7 European ones with a round so far.
 - **Counts with rounds:** YC 15, CDTM 20, EWOR 7, Antler 2. Antler and EWOR are below the 12 needed for a Top 10.
+
+### Programs, third pass (2026-11-07)
+- **New companies from program lists:** 13 created (YC: Finto, Zeit AI, Invertix, Mercura; CDTM: tanso, Emidat, remberg, IDnow, Marble, Furo, Outfittery, TeleClinic, AVI Medical), 3 excluded with a `note` (Foodora: no own round, now a Delivery Hero brand; Stylight: founded 2008; Sitefire: no round yet). Not created for lack of a published round with amount: Hey Telo, The Robot Learning Company, CoCrafter (YC); dryft (launched from San Francisco, founding place unclear) and Ark Climate (only round mixes in BMBF money with no split).
+- **Companies not on cdtm.com/startups can still be CDTM**, with an explicit statement elsewhere: Furo (its own funding post) and Marble (Startbase: the founders met at CDTM).
+- **YC company pages keep "Founded in 2024 by …" in `<meta name="description">`.** `check-quotes` now reads meta descriptions, so the YC page is a valid source for the founding year (Mercura).
+- **USD-as-EUR again:** Startbase and tech.eu wrote Zeit AI's $5M as €5M; the company's own press page and startupcentrum say $5M (€4.3M). Furo's own post says "4 Millionen Euro" while the press says $4M (kept USD).
+- **Venture-debt lenders show up as round investors** (Claret Capital at AVI Medical): leave them out of an equity round's investors.
+- **Merger of equals = acquired** when the company is now part of a new group (Outfittery into Lookiero Outfittery Group, 2025).
+- **Domains redirect after rebrands:** trymarble.ai → marblecognition.com. Use the target.
+
+### Munich programs (2026-11-07)
+- **Two new programs:** `manage-and-more` (fellowship, UnternehmerTUM) and `start-munich` (university, student club). Sources:
+  - Manage and More: https://www.manageandmore.de/start-ups/ lists name + website as plain text; quote "<Name> <website>" ("Tado www.tado.com"). Lio is only in a founder testimonial on that page ("G35 Alumni Founder of Lio").
+  - START Munich: the startups page loads its list from https://www.startmunich.de/api/startups (JSON with website, foundingYear, founders and their semester). Quote the compact fragment `"name":"…","website":"…"`. The semester ("WS19") is a founder's, not a batch: no batch.
+- **Match by domain**, and watch substrings: helsing.ai only appears as a buyer ("Acquisition by Helsing.ai"), nscale.com matches inside moonscale.com.
+- **Only the better-known names** from these lists are added as new companies (Tim, 2026-11-07), not all ~90 + ~50.
+- **Renames hide duplicates:** Parkdepot is Wemolo (both lists use different names). Check new ids against aliases and domains before handing them to agents.
+- **check-quotes bug fixed:** the meta-text prefix gave every normalized quote a leading space, so quotes starting right after `{` or `,` (JSON) never matched. `norm` now trims.
+- Not created (no equity round with amount): Feldwerke (only a €12M credit facility), scaile (Hamburg HQ, no round), KYON Energy (project debt only; TotalEnergies bought it in 2024), Beam AI (possibly New York), Spherecast (YC S24, CDTM; SF location, aggregator amounts only).
+
+## German batch 7: gaps over €100M (2026-11-07)
+- **Gap list from Tech.eu staging** (`staging.techeu_rounds`, German companies, equity ≥ €20M, last round 2016+), compared by Tech.eu id, name/alias and domain: 63 gaps over €100M, 99 at €50–100M, 264 at €20–50M (name matching misses renames: Lilium Aviation, Raisin (SavingGlobal) were already in).
+- **Tim: only real, still-active startups.** Pre-filtered out: Wirecard, Cluno (insolvent), IONITY, H2 Mobility (JVs), NuCom (ProSieben unit), BlueYard (fund), Global Fashion Group (holding), APK, Friday (insurer subsidiary), and pre-2010 companies (Chrono24, Home24, Bike24, Lampenwelt, smava, Jedox, Signavio, Berlin Brands Group, CargoBeamer). Agents then dropped: ELEMENT, Numbat (insolvent), Camunda (2008), Ortivity (PE buy-and-build), Empact (infrastructure contractor), Sport Alliance and Atheneum (rounds mostly secondary), Cloover and re:cap (mostly debt), JOLT (infrastructure money, Dublin entity); after review: Caresyntax (domain now Truspera, which took over its products), IntegrityNext (bootstrapped, one EQT deal with no new-share evidence), Matter Labs (Cayman company, Berlin founding only on a blog).
+- **Infrastructure and credit funds hide in "rounds":** BlackRock's $200M for Enviria (renewables fund "capital commitment"), Capital Four in Limehome's €45M, Aviva's €150M mezzanine for Terra One, InfraRed's €150M for JOLT. Leave them out unless a source says equity with a split.
+- **Derived amounts are not quotes:** Sdui's "extended to €25M" doesn't source an €18M extension; leave such rounds out.
+- **Check open PRs before starting a batch:** Pablo's PR #112 (branch data/de-batch-6, "hype list") already had Augustus, Limehome, NavVis, Noxtua, osapiens, Sdui, Sereact, Terra One and FMC; they were dropped from this batch. `gh pr list` first.
+- **Pending deals close later:** Talon.One's Adyen deal closed on 1 July 2026; check the buyer's newsroom before keeping "private".

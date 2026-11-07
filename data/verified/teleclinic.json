@@ -1,0 +1,134 @@
+{
+  "id": "teleclinic",
+  "name": "TeleClinic",
+  "aliases": [
+    "Teleclinic"
+  ],
+  "domain": "teleclinic.com",
+  "country": "DE",
+  "city": "Munich",
+  "founded": 2015,
+  "sectors": [
+    "health"
+  ],
+  "status": "acquired",
+  "unicorn": false,
+  "founders": [
+    "Katharina Jünger",
+    "Reinhard Meier",
+    "Patrick Palacín"
+  ],
+  "difficulty": 4,
+  "programs": [
+    {
+      "id": "cdtm"
+    }
+  ],
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.teleclinic.com/ueber-uns/",
+      "quote": "2015 in München gegründet"
+    },
+    {
+      "field": "founded",
+      "url": "https://www.teleclinic.com/ueber-uns/",
+      "quote": "2015 in München gegründet"
+    },
+    {
+      "field": "founders",
+      "url": "https://www.teleclinic.com/ueber-uns/",
+      "quote": "Gegründet wurden wir in München von Katharina Jünger (Juristin), Dr. Reinhard Meier (Arzt) und Patrick Palacin (Softwareentwickler)."
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.munich-startup.de/news/teleclinic-von-zur-rose-gruppe-uebernommen",
+      "quote": "Das Startup hat eine Online-Gesundheitsplattform gelauncht"
+    },
+    {
+      "field": "status",
+      "url": "https://www.munich-startup.de/news/teleclinic-von-zur-rose-gruppe-uebernommen",
+      "quote": "Die Schweizer Zur Rose-Gruppe, in Deutschland mit der Apothekenmarke Docmorris aktiv, hat das Münchner Startup Teleclinic übernommen."
+    },
+    {
+      "field": "unicorn",
+      "url": "https://www.privateequitywire.co.uk/teleclinic-raises-eur7m-series-funding/",
+      "quote": "TeleClinic has successfully completed its series A funding raising EUR7 million from Idinvest Partners."
+    },
+    {
+      "field": "programs",
+      "url": "https://www.cdtm.com/startups/teleclinic",
+      "quote": "CDTM founders Katharina Jünger Class of Fall 2014"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "seed",
+      "month": "2017-11",
+      "amountEur": 2000000,
+      "amountOriginal": 2000000,
+      "currency": "EUR",
+      "investors": [
+        "Digital Health Ventures",
+        "Michael Brehm",
+        "Urs Keller",
+        "Stefan Wiskemann",
+        "Max-Josef Meier"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://munich-startup.de/news/teleclinic-seed-finanzierung",
+          "quote": "Insgesamt wurden zwei Millionen Euro eingesammelt."
+        },
+        {
+          "field": "stage",
+          "url": "https://munich-startup.de/news/teleclinic-seed-finanzierung",
+          "quote": "Das Münchner Health-Startup TeleClinic hat seine Seed-Finanzierung erfolgreich abgeschlossen."
+        },
+        {
+          "field": "month",
+          "url": "https://munich-startup.de/news/teleclinic-seed-finanzierung",
+          "quote": "23. November 2017"
+        },
+        {
+          "field": "investors",
+          "url": "https://munich-startup.de/news/teleclinic-seed-finanzierung",
+          "quote": "Neben den bisherigen Business Angels Michael Brehm, Urs Keller, Stefan Wiskemann, Max-Josef Meier geht nun auch das VC-Unternehmen Digital Health Ventures (DHV) aus Berlin mit an Bord"
+        }
+      ]
+    },
+    {
+      "stage": "series-a",
+      "month": "2018-11",
+      "amountEur": 7000000,
+      "amountOriginal": 7000000,
+      "currency": "EUR",
+      "investors": [
+        "Idinvest Partners"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.privateequitywire.co.uk/teleclinic-raises-eur7m-series-funding/",
+          "quote": "TeleClinic has successfully completed its series A funding raising EUR7 million from Idinvest Partners."
+        },
+        {
+          "field": "stage",
+          "url": "https://www.privateequitywire.co.uk/teleclinic-raises-eur7m-series-funding/",
+          "quote": "TeleClinic has successfully completed its series A funding raising EUR7 million from Idinvest Partners."
+        },
+        {
+          "field": "month",
+          "url": "https://www.privateequitywire.co.uk/teleclinic-raises-eur7m-series-funding/",
+          "quote": "November 29, 2018"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.privateequitywire.co.uk/teleclinic-raises-eur7m-series-funding/",
+          "quote": "TeleClinic has successfully completed its series A funding raising EUR7 million from Idinvest Partners."
+        }
+      ]
+    }
+  ]
+}

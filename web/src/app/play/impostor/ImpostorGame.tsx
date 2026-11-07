@@ -18,6 +18,7 @@ import { RevealButton } from "@/components/RevealButton";
 import { nudgeClass } from "@/lib/nudge";
 import { StatsPanel } from "@/components/StatsPanel";
 import { recordFinish, recordStart } from "@/lib/stats";
+import { REGIONS, slotOf, type Region } from "@/lib/regions";
 
 const MODE = "impostor";
 const TITLE = "Impostor";
@@ -70,16 +71,20 @@ function evaluate(p: Play, progress: Progress) {
   return { won, lost, found, done, score, bucket };
 }
 
-function shareText(p: Play, progress: Progress): string {
+function shareText(p: Play, progress: Progress, region?: Region): string {
   const { won, found } = evaluate(p, progress);
   const impostors = impostorsOf(p);
   // One square per pick: green for an impostor, red for the pick that ended it.
   const squares = progress.picks.map((id) => (impostors.includes(id) ? "🟩" : "🟥")); // share text, not UI. taste-skill-ignore
   const summary = won ? `Found ${found === 1 ? "the impostor" : `all ${found} impostors`}` : found > 0 ? `Found ${found} of ${impostors.length}` : "Missed it";
-  return buildShareText({ number: p.number, modeTitle: TITLE, difficulty: progress.difficulty, hintsUsed: progress.hintsUsed, squares, summary });
+  return buildShareText({ number: p.number, modeTitle: region ? `${TITLE} · ${REGIONS[region].label}` : TITLE, difficulty: progress.difficulty, hintsUsed: progress.hintsUsed, squares, summary });
 }
 
-export function ImpostorGame() {
+/** region: the Local tab's game for that region (its own daily lock, no streak or player stats); none: the daily game. */
+export function ImpostorGame({ region }: { region?: Region } = {}) {
+  const slot = slotOf(MODE, region);
+  const back = region ? { href: "/local", label: "Local games" } : undefined;
+  const subtitle = region ? `Local · ${REGIONS[region].label}` : undefined;
   const [puzzle, setPuzzle] = useState<Puzzle | null | undefined>(undefined);
   const [data, setData] = useState<Dataset | null>(null);
   /** Wrong picks this visit, to shake the wrong card (lib/nudge.ts). */
@@ -87,12 +92,12 @@ export function ImpostorGame() {
   const [progress, setProgress] = useState<Progress | null>(null);
 
   useEffect(() => {
-    loadGame<Puzzle>(MODE).then(({ puzzle: p, data: d }) => {
+    loadGame<Puzzle>(MODE, region).then(({ puzzle: p, data: d }) => {
       setData(d);
       setPuzzle(p);
-      if (p) setProgress(normalise(loadProgress<Progress>(MODE, p.date)));
+      if (p) setProgress(normalise(loadProgress<Progress>(slot, p.date)));
     });
-  }, []);
+  }, [region, slot]);
 
   const companies = useMemo(() => (data ? indexById(data.companies) : new Map<string, Company>()), [data]);
 
@@ -104,12 +109,15 @@ export function ImpostorGame() {
     return (
       <GameIntro
         mode={MODE}
+        subtitle={subtitle}
+        back={back}
         onStart={(d) => {
           saveDifficulty(d);
           const fresh: Progress = { difficulty: d, picks: [], hintsUsed: 0 };
-          recordStart(MODE, d);
+          // Today's player stats are the daily game's; a local game isn't counted in them.
+          if (!region) recordStart(MODE, d);
           setProgress(fresh);
-          saveProgress(MODE, puzzle.date, fresh);
+          saveProgress(slot, puzzle.date, fresh);
         }}
       />
     );
@@ -127,24 +135,24 @@ export function ImpostorGame() {
 
   function update(next: Progress) {
     setProgress(next);
-    saveProgress(MODE, puzzle!.date, next);
+    saveProgress(slot, puzzle!.date, next);
     const atLvl = atLevel(puzzle!, next.difficulty);
     const result = evaluate(atLvl, next);
-    if (result.done && !getTodayResult(MODE, puzzle!.date)) {
-      saveResult(MODE, {
+    if (result.done && !getTodayResult(slot, puzzle!.date)) {
+      saveResult(slot, {
         date: puzzle!.date,
         score: result.score,
         maxScore: MAX_SCORE,
         hintsUsed: next.hintsUsed,
-        share: shareText(atLvl, next),
+        share: shareText(atLvl, next, region),
       });
-      recordFinish(MODE, next.difficulty, { bucket: result.bucket, score: result.score, maxScore: MAX_SCORE, won: result.won });
+      if (!region) recordFinish(MODE, next.difficulty, { bucket: result.bucket, score: result.score, maxScore: MAX_SCORE, won: result.won });
     }
   }
 
   return (
     <div className="space-y-6">
-      <GameHeader title={TITLE} mode={MODE} difficulty={progress.difficulty} />
+      <GameHeader title={TITLE} subtitle={subtitle} back={back} mode={MODE} difficulty={progress.difficulty} />
       <Announce
         text={
           won
@@ -241,9 +249,9 @@ export function ImpostorGame() {
               (won ? (impostors.length > 1 ? `Found all ${found}` : "Found it") : found > 0 ? `Found ${found} of ${impostors.length}` : impostors.length > 1 ? "Missed them" : `It was ${impostor.name}`) +
               (progress.hintsUsed ? ` · ${progress.hintsUsed} ${progress.hintsUsed === 1 ? "hint" : "hints"}` : "")
             }
-            share={shareText(play, progress)}
+            share={shareText(play, progress, region)}
             stats={
-              <StatsPanel
+              !region && <StatsPanel
                 mode={MODE}
                 bucket={bucket}
                 score={score}

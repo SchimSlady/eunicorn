@@ -1,0 +1,149 @@
+{
+  "id": "remberg",
+  "name": "remberg",
+  "aliases": [],
+  "domain": "remberg.com",
+  "country": "DE",
+  "city": "Munich",
+  "founded": 2018,
+  "sectors": [
+    "saas",
+    "ai"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "David Hahn",
+    "Julian Madrzak",
+    "Hagen Schmidtchen",
+    "Cecil Wöbker"
+  ],
+  "difficulty": 4,
+  "programs": [
+    {
+      "id": "cdtm"
+    },
+    {
+      "id": "start-munich"
+    }
+  ],
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://tech.eu/2022/02/07/munich-based-crm-startup-remberg-eur11-million/",
+      "quote": "Founded in August 2018 by David Hahn , Julian Madrzak , Hagen Schmidtchen , and Cecil Wöbker in Munich"
+    },
+    {
+      "field": "founded",
+      "url": "https://tech.eu/2022/02/07/munich-based-crm-startup-remberg-eur11-million/",
+      "quote": "Founded in August 2018 by David Hahn , Julian Madrzak , Hagen Schmidtchen , and Cecil Wöbker in Munich"
+    },
+    {
+      "field": "founded",
+      "url": "https://www.startbase.com/news/remberg-erhaelt-elf-millionen-euro/",
+      "quote": "The start-up was founded by David Hahn, Julian Madrzak, Hagen Schmidtchen and Cecil Wöbker from Munich in August 2018."
+    },
+    {
+      "field": "founders",
+      "url": "https://tech.eu/2022/02/07/munich-based-crm-startup-remberg-eur11-million/",
+      "quote": "Founded in August 2018 by David Hahn , Julian Madrzak , Hagen Schmidtchen , and Cecil Wöbker in Munich"
+    },
+    {
+      "field": "sectors",
+      "url": "https://siliconcanals.com/munichs-remberg-raises-e15m",
+      "quote": "Munich-based remberg , an AI-based maintenance platform, raised €15M in a Series A+ round."
+    },
+    {
+      "field": "status",
+      "url": "https://siliconcanals.com/munichs-remberg-raises-e15m",
+      "quote": "Munich-based remberg , an AI-based maintenance platform, raised €15M in a Series A+ round."
+    },
+    {
+      "field": "unicorn",
+      "url": "https://siliconcanals.com/munichs-remberg-raises-e15m",
+      "quote": "Munich-based remberg , an AI-based maintenance platform, raised €15M in a Series A+ round."
+    },
+    {
+      "field": "programs",
+      "url": "https://www.cdtm.com/startups/remberg",
+      "quote": "CDTM founders Cecil Wöbker Class of Fall 2016 David Hahn Class of Spring 2016 Hagen Schmidtchen Class of Spring 2016"
+    },
+    {
+      "field": "programs",
+      "url": "https://www.startmunich.de/api/startups",
+      "quote": "\"name\":\"Remberg\",\"website\":\"remberg.com/de\""
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-a",
+      "month": "2022-02",
+      "amountEur": 11000000,
+      "amountOriginal": 11000000,
+      "currency": "EUR",
+      "investors": [
+        "Earlybird",
+        "Speedinvest",
+        "Fly Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2022/02/07/munich-based-crm-startup-remberg-eur11-million/",
+          "quote": "Munich-based startup remberg has raised €11 million in Series A funding to develop a new breed of CRM software."
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2022/02/07/munich-based-crm-startup-remberg-eur11-million/",
+          "quote": "Munich-based startup remberg has raised €11 million in Series A funding to develop a new breed of CRM software."
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2022/02/07/munich-based-crm-startup-remberg-eur11-million/",
+          "quote": "07 February 2022"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2022/02/07/munich-based-crm-startup-remberg-eur11-million/",
+          "quote": "The round was led by Earlybird with participation from the previous investors, including Speedinvest and Fly Ventures"
+        }
+      ]
+    },
+    {
+      "stage": "series-a",
+      "month": "2025-05",
+      "amountEur": 15000000,
+      "amountOriginal": 15000000,
+      "currency": "EUR",
+      "investors": [
+        "Acton Capital",
+        "Oxx",
+        "Earlybird",
+        "Speedinvest",
+        "Fly Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.startbase.com/news/remberg-sammelt-15-millionen-euro-fuer-ki-instandhaltungsplattform-ein/",
+          "quote": "The Munich-based AI startup remberg has closed a Series A+ financing round of 15 million euros."
+        },
+        {
+          "field": "stage",
+          "url": "https://www.startbase.com/news/remberg-sammelt-15-millionen-euro-fuer-ki-instandhaltungsplattform-ein/",
+          "quote": "The Munich-based AI startup remberg has closed a Series A+ financing round of 15 million euros."
+        },
+        {
+          "field": "month",
+          "url": "https://www.startbase.com/news/remberg-sammelt-15-millionen-euro-fuer-ki-instandhaltungsplattform-ein/",
+          "quote": "Munich, May 13, 2025"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.startbase.com/news/remberg-sammelt-15-millionen-euro-fuer-ki-instandhaltungsplattform-ein/",
+          "quote": "The round is led by venture capital ists Acton Capital (Munich) and Oxx (London). The existing investors Earlybird , Speedinvest and Fly Ventures are also participating."
+        }
+      ]
+    }
+  ]
+}

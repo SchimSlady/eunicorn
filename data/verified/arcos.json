@@ -1,0 +1,91 @@
+{
+  "id": "arcos",
+  "name": "Arcos",
+  "aliases": [
+    "Arcos Technologies"
+  ],
+  "domain": "arcos.eu",
+  "country": "DE",
+  "city": "Munich",
+  "founded": 2025,
+  "sectors": [
+    "cybersecurity"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Louis Wübben",
+    "Moritz Steigerwald"
+  ],
+  "difficulty": 5,
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.htgf.de/en/arcos-seed/",
+      "quote": "The Munich-based company combines infrastructure, signal processing and the operational handling of security incidents in one integrated infrastructure"
+    },
+    {
+      "field": "founded",
+      "url": "https://vestbee.com/insights/articles/arcos-raises-5-5-m",
+      "quote": "Founded in 2025 by Louis Wübben and Moritz Steigerwald"
+    },
+    {
+      "field": "founders",
+      "url": "https://vestbee.com/insights/articles/arcos-raises-5-5-m",
+      "quote": "Founded in 2025 by Louis Wübben and Moritz Steigerwald"
+    },
+    {
+      "field": "sectors",
+      "url": "https://tech.eu/2026/09/18/arcos-secures-eur55m-to-protect-critical-infrastructure-from-physical-threats/",
+      "quote": "German security technology company Arcos has raised €5.5 million in seed funding"
+    },
+    {
+      "field": "status",
+      "url": "https://tech.eu/2026/09/18/arcos-secures-eur55m-to-protect-critical-infrastructure-from-physical-threats/",
+      "quote": "German security technology company Arcos has raised €5.5 million in seed funding"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://tech.eu/2026/09/18/arcos-secures-eur55m-to-protect-critical-infrastructure-from-physical-threats/",
+      "quote": "German security technology company Arcos has raised €5.5 million in seed funding"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "seed",
+      "month": "2026-09",
+      "amountEur": 5500000,
+      "amountOriginal": 5500000,
+      "currency": "EUR",
+      "investors": [
+        "High-Tech Gründerfonds",
+        "Bayern Kapital",
+        "Pact",
+        "Haufe",
+        "Robin Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2026/09/18/arcos-secures-eur55m-to-protect-critical-infrastructure-from-physical-threats/",
+          "quote": "German security technology company Arcos has raised €5.5 million in seed funding"
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2026/09/18/arcos-secures-eur55m-to-protect-critical-infrastructure-from-physical-threats/",
+          "quote": "German security technology company Arcos has raised €5.5 million in seed funding"
+        },
+        {
+          "field": "month",
+          "url": "https://www.htgf.de/en/arcos-seed/",
+          "quote": "News 18 September 2026 Protection against sabotage"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.htgf.de/en/arcos-seed/",
+          "quote": "Investors include HTGF, Bayern Kapital, Pact, Haufe, Robin Capital and strategic business angels"
+        }
+      ]
+    }
+  ]
+}

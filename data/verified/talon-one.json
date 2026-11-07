@@ -1,0 +1,82 @@
+{
+  "id": "talon-one",
+  "name": "Talon.One",
+  "aliases": [
+    "Talon One",
+    "TalonOne"
+  ],
+  "domain": "talon.one",
+  "country": "DE",
+  "city": "Berlin",
+  "founded": 2015,
+  "sectors": [
+    "saas",
+    "ecommerce"
+  ],
+  "status": "acquired",
+  "unicorn": false,
+  "founders": [
+    "Christoph Gerber",
+    "Sebastian Haas"
+  ],
+  "difficulty": 4,
+  "techeuId": "22593DCA-55DA-4D35-A8C3-64242D985064",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://siliconcanals.com/berlins-talon-one-raises-114-7m/",
+      "quote": "Berlin-based Talon.One, a loyalty and promotions platform, today announced it has secured $135M (approximately €114.7M) in the latest funding round."
+    },
+    {
+      "field": "founded",
+      "url": "https://siliconcanals.com/berlins-talon-one-raises-114-7m/",
+      "quote": "Founded in 2015 by Christoph Gerber and Sebastian Haas, Talon.One helps brands design and manage personalised promotions, loyalty programs, and gamified incentives"
+    },
+    {
+      "field": "founders",
+      "url": "https://siliconcanals.com/berlins-talon-one-raises-114-7m/",
+      "quote": "Founded in 2015 by Christoph Gerber and Sebastian Haas"
+    },
+    {
+      "field": "sectors",
+      "url": "https://siliconcanals.com/berlins-talon-one-raises-114-7m/",
+      "quote": "Berlin-based Talon.One, a loyalty and promotions platform, today announced it has secured $135M"
+    },
+    {
+      "field": "status",
+      "url": "https://www.adyen.com/press-and-media/adyen-closes-talonone-and-orb-acquisitions-announces-leadership-updates",
+      "quote": "today announces the successful closing of its previously announced acquisitions of Talon.One"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-d",
+      "month": "2025-07",
+      "amountEur": 114844747,
+      "amountOriginal": 135000000,
+      "currency": "USD",
+      "investors": [
+        "Silversmith Capital Partners",
+        "Meritech Capital",
+        "CRV"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://pulse2.com/talon-one-135-million-growth-raised-for-enterprise-loyalty-platform/",
+          "quote": "Talon.One announced a $135 million growth funding round from new investors Silversmith Capital Partners and Meritech Capital, with participation of existing investor CRV."
+        },
+        {
+          "field": "month",
+          "url": "https://pulse2.com/talon-one-135-million-growth-raised-for-enterprise-loyalty-platform/",
+          "quote": "By Amit Chowdhry Jul 2, 2025"
+        },
+        {
+          "field": "investors",
+          "url": "https://pulse2.com/talon-one-135-million-growth-raised-for-enterprise-loyalty-platform/",
+          "quote": "Talon.One announced a $135 million growth funding round from new investors Silversmith Capital Partners and Meritech Capital, with participation of existing investor CRV."
+        }
+      ]
+    }
+  ]
+}

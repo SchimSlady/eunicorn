@@ -1,0 +1,141 @@
+{
+  "id": "ineratec",
+  "name": "INERATEC",
+  "aliases": [
+    "Ineratec"
+  ],
+  "domain": "ineratec.de",
+  "country": "DE",
+  "city": "Karlsruhe",
+  "founded": 2016,
+  "sectors": [
+    "climate"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Tim Böltken",
+    "Philipp Engelkamp",
+    "Paolo Piermartini",
+    "Peter Pfeifer"
+  ],
+  "difficulty": 4,
+  "techeuId": "5A5C34E9-69AD-4340-A24F-DB1384CB1CF7",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.ineratec.de/en/history",
+      "quote": "In 2016, Dr.-Ing. Paolo Piermartini, Dr.-Ing. Tim Böltken, Philipp Engelkamp and Prof. Dr. Peter Pfeifer founded the spin-off from the Karlsruhe Institute of Technology (KIT)."
+    },
+    {
+      "field": "founded",
+      "url": "https://www.ineratec.de/en/history",
+      "quote": "On May 20, 2016, INERATEC GmbH is founded."
+    },
+    {
+      "field": "founders",
+      "url": "https://www.ineratec.de/en/history",
+      "quote": "In 2016, Dr.-Ing. Paolo Piermartini, Dr.-Ing. Tim Böltken, Philipp Engelkamp and Prof. Dr. Peter Pfeifer founded the spin-off from the Karlsruhe Institute of Technology (KIT)."
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.htgf.de/en/ineratec-series-b/",
+      "quote": "INERATEC, a pioneering e-Fuel company, announced it has raised over $129 million in its Series B funding round"
+    },
+    {
+      "field": "status",
+      "url": "https://www.ineratec.de/en/history",
+      "quote": "ERA ONE, Europe's largest Power-to-Liquid plant for the production of e-Fuels and e-Chemicals, starts producing."
+    },
+    {
+      "field": "unicorn",
+      "url": "https://www.htgf.de/ineratec-series-b-2/",
+      "quote": "INERATEC, ein Pionier in der Entwicklung und Produktion synthetischer Kraftstoffe, hat in einer Finanzierungsrunde 118 Mio. € eingesammelt."
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-a",
+      "month": "2022-01",
+      "amountEur": 17639795,
+      "amountOriginal": 20000000.0,
+      "currency": "USD",
+      "investors": [
+        "ENGIE New Ventures",
+        "Safran Corporate Ventures",
+        "MPC",
+        "High-Tech Gründerfonds",
+        "Extantia Capital",
+        "FO Holding",
+        "Planet A Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.ineratec.de/en/series-a-finanzierung-ineratec",
+          "quote": "INERATEC closes $ 20 M+ Series A financing round"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.ineratec.de/en/series-a-finanzierung-ineratec",
+          "quote": "INERATEC closes $ 20 M+ Series A financing round"
+        },
+        {
+          "field": "month",
+          "url": "https://www.ineratec.de/en/series-a-finanzierung-ineratec",
+          "quote": "Karlsruhe, Germany, 20 January 2022"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.ineratec.de/en/series-a-finanzierung-ineratec",
+          "quote": "The financing consortium consists of the current investors High-Tech Gründerfonds (HTGF), Extantia Capital, FO Holding and Planet A as well as the new partners Engie, Safran and MPC."
+        }
+      ]
+    },
+    {
+      "stage": "series-b",
+      "month": "2024-01",
+      "amountEur": 118000000,
+      "amountOriginal": 118000000.0,
+      "currency": "EUR",
+      "investors": [
+        "Piva Capital",
+        "HG Ventures",
+        "TDK Ventures",
+        "Copec WIND Ventures",
+        "RockCreek",
+        "Emerald",
+        "Samsung Ventures",
+        "Planet A Ventures",
+        "MPC",
+        "High-Tech Gründerfonds",
+        "FO Holding",
+        "Safran Corporate Ventures",
+        "Honda",
+        "ENGIE New Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.htgf.de/ineratec-series-b-2/",
+          "quote": "INERATEC, ein Pionier in der Entwicklung und Produktion synthetischer Kraftstoffe, hat in einer Finanzierungsrunde 118 Mio. € eingesammelt."
+        },
+        {
+          "field": "stage",
+          "url": "https://www.htgf.de/ineratec-series-b-2/",
+          "quote": "Die Series-B Wagniskapitalfinanzierung wird angeführt von dem US-amerikanischen Investor Piva Capital"
+        },
+        {
+          "field": "month",
+          "url": "https://www.htgf.de/ineratec-series-b-2/",
+          "quote": "Karlsruhe, Deutschland – 16. Januar, 2024"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.htgf.de/ineratec-series-b-2/",
+          "quote": "Das Investorenkonsortium für die Serie-B-Finanzierungsrunde besteht aus: Planet A Ventures , MPC , High-Tech Gründerfonds, FO Holding, Safran Corporate Ventures , Honda , ENGIE New Ventures, HG Ventures , TDK , Copec WIND Ventures , RockCreek , Emerald , Samsung Ventures, Piva Capital ."
+        }
+      ]
+    }
+  ]
+}

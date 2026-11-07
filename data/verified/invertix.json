@@ -1,0 +1,40 @@
+{
+  "id": "invertix",
+  "name": "Invertix",
+  "aliases": [],
+  "domain": "invertix.ai",
+  "country": "DE",
+  "city": "Munich",
+  "founded": 2026,
+  "sectors": ["ai", "climate"],
+  "status": "private",
+  "unicorn": false,
+  "founders": ["Joseph Perrotta", "Kaan Durmaz"],
+  "difficulty": 5,
+  "programs": [{ "id": "y-combinator", "batch": "Fall 2026" }],
+  "sources": [
+    { "field": "city", "url": "https://www.startbase.com/news/ki-mitarbeiter-fuer-die-energiewende-erhalten-17-mio-euro-invertix/", "quote": "The Munich-based ClimateTech start-up Invertix has closed a pre-seed financing round of 1.7 million euros." },
+    { "field": "founded", "url": "https://www.startbase.com/news/ki-mitarbeiter-fuer-die-energiewende-erhalten-17-mio-euro-invertix/", "quote": "Founded in 2026, the company develops autonomous AI agents for the renewable energy industry." },
+    { "field": "founders", "url": "https://www.munich-startup.de/121088/millionendeal-fuer-muenchner-ki-startup-invertix/", "quote": "Gegründet wurde Invertix von Joseph Perrotta und Kaan Durmaz." },
+    { "field": "sectors", "url": "https://www.startbase.com/news/ki-mitarbeiter-fuer-die-energiewende-erhalten-17-mio-euro-invertix/", "quote": "Founded in 2026, the company develops autonomous AI agents for the renewable energy industry." },
+    { "field": "status", "url": "https://www.startbase.com/news/ki-mitarbeiter-fuer-die-energiewende-erhalten-17-mio-euro-invertix/", "quote": "The Munich-based ClimateTech start-up Invertix has closed a pre-seed financing round of 1.7 million euros." },
+    { "field": "unicorn", "url": "https://www.startbase.com/news/ki-mitarbeiter-fuer-die-energiewende-erhalten-17-mio-euro-invertix/", "quote": "The Munich-based ClimateTech start-up Invertix has closed a pre-seed financing round of 1.7 million euros." },
+    { "field": "programs", "url": "https://yc-oss.github.io/api/batches/fall-2026/invertix.json", "quote": "\"batch\": \"Fall 2026\"" }
+  ],
+  "rounds": [
+    {
+      "stage": "pre-seed",
+      "month": "2026-05",
+      "amountEur": 1700000,
+      "amountOriginal": 1700000,
+      "currency": "EUR",
+      "investors": ["Vireo Ventures", "Italian Founders Fund"],
+      "sources": [
+        { "field": "amount", "url": "https://www.startbase.com/news/ki-mitarbeiter-fuer-die-energiewende-erhalten-17-mio-euro-invertix/", "quote": "The Munich-based ClimateTech start-up Invertix has closed a pre-seed financing round of 1.7 million euros." },
+        { "field": "stage", "url": "https://www.startbase.com/news/ki-mitarbeiter-fuer-die-energiewende-erhalten-17-mio-euro-invertix/", "quote": "The Munich-based ClimateTech start-up Invertix has closed a pre-seed financing round of 1.7 million euros." },
+        { "field": "month", "url": "https://www.startbase.com/news/ki-mitarbeiter-fuer-die-energiewende-erhalten-17-mio-euro-invertix/", "quote": "München, 19. May 2026" },
+        { "field": "investors", "url": "https://www.startbase.com/news/ki-mitarbeiter-fuer-die-energiewende-erhalten-17-mio-euro-invertix/", "quote": "The round was led by Vireo Ventures . The Italian Founders Fund and several business angels" }
+      ]
+    }
+  ]
+}

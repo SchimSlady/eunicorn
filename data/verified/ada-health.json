@@ -1,0 +1,154 @@
+{
+  "id": "ada-health",
+  "name": "Ada Health",
+  "aliases": [
+    "Ada"
+  ],
+  "domain": "ada.com",
+  "country": "DE",
+  "city": "Berlin",
+  "founded": 2011,
+  "sectors": [
+    "health",
+    "ai"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Claire Novorol",
+    "Daniel Nathrath",
+    "Martin Hirsch"
+  ],
+  "difficulty": 3,
+  "techeuId": "0759EEB6-9147-4951-BF77-4628FCBFEAD4",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://techcrunch.com/2021/05/27/ada-health-closes-90m-series-b-led-by-leaps-by-bayer/",
+      "quote": "Berlin-based Ada Health has closed a $90 million Series B round of funding led by Leaps by Bayer"
+    },
+    {
+      "field": "founded",
+      "url": "https://tech.eu/2022/02/10/ada-health-says-call-it-to-the-series-b-round-now-at-120-million/",
+      "quote": "Founded in 2011 by Claire Novorol, Daniel Nathrath, and Martin Hirsch"
+    },
+    {
+      "field": "founders",
+      "url": "https://tech.eu/2022/02/10/ada-health-says-call-it-to-the-series-b-round-now-at-120-million/",
+      "quote": "Founded in 2011 by Claire Novorol, Daniel Nathrath, and Martin Hirsch"
+    },
+    {
+      "field": "sectors",
+      "url": "https://tech.eu/2022/02/10/ada-health-says-call-it-to-the-series-b-round-now-at-120-million/",
+      "quote": "Ada uses an AI-based health assessment and care methodology"
+    },
+    {
+      "field": "status",
+      "url": "https://about.ada.com/press/220210-ada-health-extends-series-b-to-120-million/",
+      "quote": "Ada Health GmbH ('Ada'), the Berlin-based digital health company, today announces that it has closed its Series B round at $120 million"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-a",
+      "month": "2017-10",
+      "amountEur": 40000000,
+      "amountOriginal": 40000000,
+      "currency": "EUR",
+      "investors": [
+        "Access Industries",
+        "June Fund",
+        "Cumberland VC",
+        "William Tunstall-Pedoe"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2017/10/31/ada-health-funding/",
+          "quote": "Health companion app Ada Health raises €40 million in first funding round"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2017/10/31/ada-health-funding/",
+          "quote": "31 October 2017"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2017/10/31/ada-health-funding/",
+          "quote": "The round was led by Access Industries with participation from June Fund, Cumberland VC, and Evi Technology founder William Tunstall-Pedoe."
+        }
+      ]
+    },
+    {
+      "stage": "series-b",
+      "month": "2021-05",
+      "amountEur": 73782587,
+      "amountOriginal": 90000000,
+      "currency": "USD",
+      "investors": [
+        "Leaps by Bayer",
+        "Samsung Catalyst Fund",
+        "Vitruvian Partners",
+        "Inteligo Bank",
+        "F4",
+        "Mutschler Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2021/05/27/ada-health-closes-90m-series-b-led-by-leaps-by-bayer/",
+          "quote": "Berlin-based Ada Health has closed a $90 million Series B round of funding led by Leaps by Bayer"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2021/05/27/ada-health-closes-90m-series-b-led-by-leaps-by-bayer/",
+          "quote": "Berlin-based Ada Health has closed a $90 million Series B round of funding led by Leaps by Bayer"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2021/05/27/ada-health-closes-90m-series-b-led-by-leaps-by-bayer/",
+          "quote": "May 27, 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2021/05/27/ada-health-closes-90m-series-b-led-by-leaps-by-bayer/",
+          "quote": "Other investors in the round include Samsung Catalyst Fund, Vitruvian Partners, Inteligo Bank, F4 and Mutschler Ventures."
+        }
+      ]
+    },
+    {
+      "stage": "series-b",
+      "month": "2022-02",
+      "amountEur": 26226069,
+      "amountOriginal": 30000000,
+      "currency": "USD",
+      "investors": [
+        "Farallon Capital",
+        "Red River West",
+        "Bertelsmann Investments"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://about.ada.com/press/220210-ada-health-extends-series-b-to-120-million/",
+          "quote": "today announces that it has closed its Series B round at $120 million by raising a $30 million extension round"
+        },
+        {
+          "field": "stage",
+          "url": "https://about.ada.com/press/220210-ada-health-extends-series-b-to-120-million/",
+          "quote": "today announces that it has closed its Series B round at $120 million by raising a $30 million extension round"
+        },
+        {
+          "field": "month",
+          "url": "https://about.ada.com/press/220210-ada-health-extends-series-b-to-120-million/",
+          "quote": "Berlin, London and New York, 10th February 2022"
+        },
+        {
+          "field": "investors",
+          "url": "https://about.ada.com/press/220210-ada-health-extends-series-b-to-120-million/",
+          "quote": "extension was raised from international investors Farallon Capital, Red River West and Bertelsmann Investments"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "id": "unu",
+  "name": "unu",
+  "aliases": [
+    "unu motors"
+  ],
+  "domain": "unumotors.com",
+  "country": "DE",
+  "city": "Berlin",
+  "founded": 2013,
+  "sectors": [
+    "mobility"
+  ],
+  "status": "defunct",
+  "unicorn": false,
+  "founders": [
+    "Pascal Blum",
+    "Elias Atahi",
+    "Mathieu Caudal"
+  ],
+  "difficulty": 5,
+  "programs": [
+    {
+      "id": "start-munich"
+    }
+  ],
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.tagesspiegel.de/berlin/kosten-gestiegen-nachfrage-eingebrochen-berliner-e-moped-hersteller-unu-meldet-insolvenz-an-10830307.html",
+      "quote": "Vor zehn Jahren wurde Unu in Berlin gegründet"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Unu_(company)",
+      "quote": "Together with co-founder Elias Atahi, Blum founded the company in 2013 with the support of the Technical University of Munich"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Unu_(company)",
+      "quote": "Together with co-founder Elias Atahi, Blum founded the company in 2013 with the support of the Technical University of Munich"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Unu_(company)",
+      "quote": "The company's co-founder, Pascal Blum"
+    },
+    {
+      "field": "founders",
+      "url": "https://de.wikipedia.org/wiki/Unu_(Fahrzeughersteller)",
+      "quote": "von Mitgründer Mathieu Caudal entwickelter Elektromotorroller"
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.vc-magazin.de/blog/2018/10/30/elektroroller-start-up-sichert-sich-10-mio-eur/",
+      "quote": "Das Berliner Unternehmen unu vertreibt Elektroroller."
+    },
+    {
+      "field": "status",
+      "url": "https://stadt-bremerhaven.de/elektroroller-unu-hat-einen-neuen-besitzer",
+      "quote": "Ende 2023 gab man die Insolvenz bekannt, nachdem diverse Versuche das Unternehmen auf stabile Beine zu stellen gescheitert waren."
+    },
+    {
+      "field": "unicorn",
+      "url": "https://www.vc-magazin.de/blog/2018/10/30/elektroroller-start-up-sichert-sich-10-mio-eur/",
+      "quote": "Die Berliner sammeln in der Series B 10 Mio. EUR ein."
+    },
+    {
+      "field": "programs",
+      "url": "https://www.startmunich.de/api/startups",
+      "quote": "\"name\":\"unu\",\"website\":\"unumotors.com/en-de/home/\""
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-b",
+      "month": "2018-10",
+      "amountEur": 10000000,
+      "amountOriginal": 10000000,
+      "currency": "EUR",
+      "investors": [
+        "Iris Capital",
+        "Ponooc",
+        "Capnamic Ventures",
+        "NRW.Bank"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.vc-magazin.de/blog/2018/10/30/elektroroller-start-up-sichert-sich-10-mio-eur/",
+          "quote": "Die Berliner sammeln in der Series B 10 Mio. EUR ein."
+        },
+        {
+          "field": "stage",
+          "url": "https://www.vc-magazin.de/blog/2018/10/30/elektroroller-start-up-sichert-sich-10-mio-eur/",
+          "quote": "Die Berliner sammeln in der Series B 10 Mio. EUR ein."
+        },
+        {
+          "field": "month",
+          "url": "https://www.vc-magazin.de/blog/2018/10/30/elektroroller-start-up-sichert-sich-10-mio-eur/",
+          "quote": "30. Oktober 2018"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.vc-magazin.de/blog/2018/10/30/elektroroller-start-up-sichert-sich-10-mio-eur/",
+          "quote": "Iris Capital, die niederländische Venture Capital-Gesellschaft Ponooc, Capnamic Ventures, die NRW.Bank und Business Angels investieren."
+        }
+      ]
+    }
+  ]
+}

@@ -1,11 +1,12 @@
-import type { AnyPuzzle, PlayMode, Top10Metric, Top10Puzzle, Top10Round } from "@/lib/top10";
+import type { AnyPuzzle, PlayMode, Top10Check, Top10Metric, Top10Puzzle, Top10Round } from "@/lib/top10";
+import { compileChecks } from "../top10Checks";
 import type { Company, Dataset, GridCriterion, Hint, ImpostorPuzzle, UnicornGridPuzzle, WhoRaisedThisPuzzle } from "@eunicorn/schema";
 import { CATEGORY_LEVEL_MAX, DIFFICULTIES, FAME_TIERS, INVESTOR_TIER_MAX, type Difficulty } from "../difficulty";
 import { USD_TO_EUR, countryName, formatMonth, formatUsdAsEur, sectorLabel } from "../format";
 import { distinctAnswers } from "../grid";
 import { TOP10_QUESTIONS, type Top10Question } from "./top10-questions";
 import { metricValue, monthIndex, type HLMetric, type WebHigherLowerPuzzle } from "../higherLower";
-import { LOCAL_MODES, REGIONS, type Region } from "../regions";
+import { REGIONS, isLocalGame, type Region } from "../regions";
 
 /**
  * Builds the day's puzzle from the verified Supabase dataset when no approved puzzle exists
@@ -49,12 +50,20 @@ export function generatePuzzle(mode: PlayMode, date: string, data: Dataset, regi
 const LOCAL_EXTRAS_FROM = "2026-11-07";
 
 /**
- * A Local game: Top 10 or Higher or Lower with only the region's companies. Its own random stream
- * per region, so Munich and Berlin don't share a chain. Higher or Lower has no theme days here (the
- * region is the theme). Same puzzle number as the day's daily games.
+ * From this day on a Local Top 10 can be about one program's startups ("the 10 CDTM startups in Munich
+ * that raised the most", "the 10 German YC startups ..."), with the program's logo in the title bar.
+ * Like every local list it only comes up where the region has 12 such companies (today: CDTM in Munich
+ * and Germany, YC in Germany). Earlier days keep exactly the puzzle they had.
+ */
+const LOCAL_PROGRAMS_FROM = "2026-11-08";
+
+/**
+ * A Local game: one of the region's games (lib/regions.ts) with only the region's companies. Its own
+ * random stream per region, so Munich and Berlin don't share a chain. Higher or Lower has no theme
+ * days here (the region is the theme). Same puzzle number as the day's daily games.
  */
 function localPuzzle(mode: PlayMode, date: string, data: Dataset, region: Region): AnyPuzzle | null {
-  if (!LOCAL_MODES.includes(mode)) return null;
+  if (!isLocalGame(region, mode)) return null;
   const rng = seeded(`${date}:${mode}:${region}`);
   const base = { date, number: puzzleNumber(date), hints: [] as Hint[] };
   const companies = data.companies.filter((c) => c.european && REGIONS[region].test(c));
@@ -62,30 +71,121 @@ function localPuzzle(mode: PlayMode, date: string, data: Dataset, region: Region
     const metrics: HLMetric[] | undefined = date >= LOCAL_EXTRAS_FROM ? [...HL_METRICS, "lastRoundMonth"] : undefined;
     return higherLower(base, date, companies, rng, false, metrics);
   }
+  // Germany's Impostor: the same categories as the daily game but the country (everyone shares it).
+  if (mode === "impostor") return impostor(base, companies, rng, true);
   return localTop10(base, date, region, companies, data, rng);
 }
 
-const hasSector = (s: string) => (c: Company) => c.sectors.includes(s as Company["sectors"][number]);
+const sector = (s: string): Top10Check => ({ kind: "sector", values: [s] });
 const DEEP_TECH = ["ai", "robotics", "defense", "space"];
 
 /** What a local list can ask; each needs 12 companies with the number in the region, so a small region asks fewer. */
-const LOCAL_TOP10: { tag: string; metric: Top10Metric; kind?: string; founded?: string; filter: (c: Company) => boolean; from?: string }[] = [
-  { tag: "all", metric: "lastValuationUsd", filter: () => true },
-  { tag: "all", metric: "totalRaisedUsd", filter: () => true },
-  { tag: "young", metric: "totalRaisedUsd", founded: "founded since 2015", filter: (c) => c.founded >= 2015 },
-  { tag: "young", metric: "lastValuationUsd", founded: "founded since 2015", filter: (c) => c.founded >= 2015 },
-  { tag: "old", metric: "totalRaisedUsd", founded: "founded before 2015", filter: (c) => c.founded > 0 && c.founded < 2015 },
-  { tag: "ai", metric: "totalRaisedUsd", kind: "AI", filter: hasSector("ai") },
-  { tag: "fintech", metric: "totalRaisedUsd", kind: "fintech", filter: hasSector("fintech") },
-  { tag: "saas", metric: "totalRaisedUsd", kind: "SaaS", filter: hasSector("saas") },
-  { tag: "climate", metric: "totalRaisedUsd", kind: "climate", filter: hasSector("climate") },
-  { tag: "mobility", metric: "totalRaisedUsd", kind: "mobility", filter: hasSector("mobility") },
+const LOCAL_TOP10: { tag: string; metric: Top10Metric; kind?: string; founded?: string; program?: string; checks: Top10Check[]; from?: string }[] = [
+  { tag: "all", metric: "lastValuationUsd", checks: [] },
+  { tag: "all", metric: "totalRaisedUsd", checks: [] },
+  { tag: "young", metric: "totalRaisedUsd", founded: "founded since 2015", checks: [{ kind: "founded-from", value: 2015 }] },
+  { tag: "young", metric: "lastValuationUsd", founded: "founded since 2015", checks: [{ kind: "founded-from", value: 2015 }] },
+  { tag: "old", metric: "totalRaisedUsd", founded: "founded before 2015", checks: [{ kind: "founded-before", value: 2015 }] },
+  { tag: "ai", metric: "totalRaisedUsd", kind: "AI", checks: [sector("ai")] },
+  { tag: "fintech", metric: "totalRaisedUsd", kind: "fintech", checks: [sector("fintech")] },
+  { tag: "saas", metric: "totalRaisedUsd", kind: "SaaS", checks: [sector("saas")] },
+  { tag: "climate", metric: "totalRaisedUsd", kind: "climate", checks: [sector("climate")] },
+  { tag: "mobility", metric: "totalRaisedUsd", kind: "mobility", checks: [sector("mobility")] },
   // Munich's profile: AI, robotics, defence and space together (Helsing, Quantum Systems, Isar ...).
-  { tag: "deeptech", metric: "totalRaisedUsd", kind: "deep tech", filter: (c) => c.sectors.some((s) => DEEP_TECH.includes(s)), from: LOCAL_EXTRAS_FROM },
+  { tag: "deeptech", metric: "totalRaisedUsd", kind: "deep tech", checks: [{ kind: "sector", values: DEEP_TECH, label: "deep tech" }], from: LOCAL_EXTRAS_FROM },
+  // Programs: by total raised only (too few of them have a known valuation).
+  { tag: "cdtm", metric: "totalRaisedUsd", kind: "CDTM", program: "cdtm", checks: [{ kind: "program", value: "cdtm", name: "CDTM" }], from: LOCAL_PROGRAMS_FROM },
+  { tag: "yc", metric: "totalRaisedUsd", kind: "YC", program: "y-combinator", checks: [{ kind: "program", value: "y-combinator", name: "YC" }], from: LOCAL_PROGRAMS_FROM },
 ];
 
-/** A local list: what it's about (two days running never share a tag) and how to build it from the data. */
-type LocalList = { tag: string; build: (rng: Rng) => Top10Round | null };
+/**
+ * A local list: what it's about (two days running never share a tag), which list it is (key, the same
+ * from day to day) and how to build it from the data.
+ */
+type LocalList = { tag: string; key: string; build: (rng: Rng) => Top10Round | null };
+
+/** The lists the region's data can make on a day (12 companies with the number, no tie at No. 10). */
+function localUsable(date: string, region: Region, companies: Company[], data: Dataset): LocalList[] {
+  const lists: LocalList[] = LOCAL_TOP10.filter((x) => !x.from || date >= x.from).map((x) => {
+    const who = [REGIONS[region].who(x.kind), x.founded].filter(Boolean).join(" ");
+    const q: Top10Question = {
+      level: "easy",
+      tag: x.tag,
+      metric: x.metric,
+      title: x.metric === "lastValuationUsd" ? `The 10 most valuable ${who}` : `The 10 ${who} that raised the most`,
+      filter: compileChecks(x.checks),
+      checks: x.checks,
+      privateOnly: x.metric === "lastValuationUsd",
+    };
+    const p = x.program ? data.programs?.find((p) => p.id === x.program) : undefined;
+    const program = p && { id: p.id, name: p.name, ...(p.logo ? { logo: p.logo } : {}) };
+    return {
+      tag: x.tag,
+      key: `${x.tag}:${x.metric}:${x.founded ?? ""}`,
+      build: (r: Rng) => {
+        const round = top10Round(q, companies, r, true, [{ kind: "european" }, { kind: "region", value: region }]);
+        return round && program ? { ...round, program } : round;
+      },
+    };
+  });
+  if (date >= LOCAL_EXTRAS_FROM) lists.push(...recentLists(date, region, companies, data));
+  return lists.filter((l) => l.build(seeded("check")));
+}
+
+/**
+ * Walk the days from day 1 through a set of lists, so that "never the same list twice running" also
+ * holds across a cycle boundary, where a new order can start with the list the old one ended on (a
+ * small region has only a few). Returns the day's list and that cycle's order.
+ */
+function walkLists(usable: LocalList[], date: string, region: Region): { list: LocalList; order: LocalList[] } {
+  let list: LocalList | undefined;
+  let order: LocalList[] = [];
+  for (let d = 0; d < puzzleNumber(date); d++) {
+    order = questionOrder(usable, "easy", Math.floor(d / usable.length), `top-10:${region}`);
+    const i = d % order.length;
+    list = order[i] === list && order.length > 1 ? order[(i + 1) % order.length] : order[i];
+  }
+  return { list: list!, order };
+}
+
+/** The region's list for a day (see localTop10), or null when the data can't make any. */
+function localList(date: string, region: Region, companies: Company[], data: Dataset): LocalList | null {
+  const usable = localUsable(date, region, companies, data);
+  if (!usable.length) return null;
+  const today = walkLists(usable, date, region);
+  if (date < LOCAL_PROGRAMS_FROM) return today.list;
+  // The walk only knows one day's set of lists, and the program lists change the set from
+  // LOCAL_PROGRAMS_FROM on: that day's walk can land on the list the day before had. So from there,
+  // day by day, a list that repeats yesterday's gives way to the next one in that day's order (on
+  // another topic if there is one). Once a day keeps the walk's list, every later day does too.
+  const before = localUsable(dayBefore(LOCAL_PROGRAMS_FROM), region, companies, data);
+  let prev = before.length ? walkLists(before, dayBefore(LOCAL_PROGRAMS_FROM), region).list : undefined;
+  for (let day = LOCAL_PROGRAMS_FROM; ; day = dayAfter(day)) {
+    const u = day === date ? usable : localUsable(day, region, companies, data);
+    if (!u.length) {
+      prev = undefined;
+      continue;
+    }
+    const { list, order } = day === date ? today : walkLists(u, day, region);
+    let real = list;
+    if (prev && list.key === prev.key && order.length > 1) {
+      const i = order.indexOf(list);
+      const rest = [...order.slice(i + 1), ...order.slice(0, i)];
+      real = rest.find((l) => l.tag !== prev!.tag) ?? rest[0];
+    }
+    if (day === date) return real;
+    if (real === list) return today.list;
+    prev = real;
+  }
+}
+
+function dayAfter(date: string): string {
+  return new Date(Date.parse(date) + 86_400_000).toISOString().slice(0, 10);
+}
+
+function dayBefore(date: string): string {
+  return new Date(Date.parse(date) - 86_400_000).toISOString().slice(0, 10);
+}
 
 /**
  * One list for the day, the same at every level: a region has too few companies to split them by
@@ -94,29 +194,8 @@ type LocalList = { tag: string; build: (rng: Rng) => Top10Round | null };
  * (fewer than 12, a tie at No. 10) is skipped.
  */
 function localTop10(base: Base, date: string, region: Region, companies: Company[], data: Dataset, rng: Rng): Top10Puzzle | null {
-  const lists: LocalList[] = LOCAL_TOP10.filter((x) => !x.from || date >= x.from).map((x) => {
-    const who = [REGIONS[region].who(x.kind), x.founded].filter(Boolean).join(" ");
-    const q: Top10Question = {
-      level: "easy",
-      tag: x.tag,
-      metric: x.metric,
-      title: x.metric === "lastValuationUsd" ? `The 10 most valuable ${who}` : `The 10 ${who} that raised the most`,
-      filter: x.filter,
-      privateOnly: x.metric === "lastValuationUsd",
-    };
-    return { tag: x.tag, build: (r: Rng) => top10Round(q, companies, r, true) };
-  });
-  if (date >= LOCAL_EXTRAS_FROM) lists.push(...recentLists(date, region, companies, data));
-  const usable = lists.filter((l) => l.build(seeded("check")));
-  if (!usable.length) return null;
-  // Walk the days from day 1, so that "never twice running" also holds across a cycle boundary,
-  // where a new order can start with the list the old one ended on (a small region has only a few).
-  let list: LocalList | undefined;
-  for (let d = 0; d < puzzleNumber(date); d++) {
-    const order = questionOrder(usable, "easy", Math.floor(d / usable.length), `top-10:${region}`);
-    const i = d % order.length;
-    list = order[i] === list && order.length > 1 ? order[(i + 1) % order.length] : order[i];
-  }
+  const list = localList(date, region, companies, data);
+  if (!list) return null;
   const round = list!.build(rng);
   if (!round) return null;
   return { ...base, mode: "top-10", ...round, variants: { easy: round, medium: round, hard: round } };
@@ -135,6 +214,8 @@ function recentLists(date: string, region: Region, companies: Company[], data: D
   const now = monthIndex(date);
   const rounds = data.rounds.filter((r) => ids.has(r.companyId) && r.date && r.amountUsd > 0);
   const who = REGIONS[region].who();
+  const place: Top10Check[] = [{ kind: "european" }, { kind: "region", value: region }];
+  const monthOf = (i: number) => `${Math.floor(i / 12)}-${String((i % 12) + 1).padStart(2, "0")}`;
 
   const biggestSince = (fromYear: number) => {
     const best = new Map<string, number>();
@@ -144,16 +225,18 @@ function recentLists(date: string, region: Region, companies: Company[], data: D
   const active = new Set(rounds.filter((r) => monthIndex(r.date) > now - 12).map((r) => r.companyId));
 
   return [
-    { tag: "recent", build: (rng) => rankedRound(`The 10 ${who} with the biggest rounds of ${year}`, "roundUsd", biggestSince(year), rng) },
-    { tag: "recent", build: (rng) => rankedRound(`The 10 ${who} with the biggest rounds since ${year - 1}`, "roundUsd", biggestSince(year - 1), rng) },
+    { tag: "recent", key: "recent:year", build: (rng) => rankedRound(`The 10 ${who} with the biggest rounds of ${year}`, "roundUsd", biggestSince(year), rng, [...place, { kind: "round-since", value: `${year}-01`, label: `in ${year}` }]) },
+    { tag: "recent", key: "recent:since", build: (rng) => rankedRound(`The 10 ${who} with the biggest rounds since ${year - 1}`, "roundUsd", biggestSince(year - 1), rng, [...place, { kind: "round-since", value: `${year - 1}-01`, label: `since ${year - 1}` }]) },
     {
       tag: "hot",
+      key: "hot",
       build: (rng) =>
         rankedRound(
           `Active in the last 12 months: the 10 ${who} that raised the most`,
           "totalRaisedUsd",
           companies.filter((c) => active.has(c.id)).map((c) => ({ c, v: c.totalRaisedUsd ?? 0 })),
           rng,
+          [...place, { kind: "round-since", value: monthOf(now - 11), label: "in the last 12 months" }],
         ),
     },
   ];
@@ -163,7 +246,7 @@ function recentLists(date: string, region: Region, companies: Company[], data: D
  * A Top 10 from companies with a value each: "roundUsd" is a round's amount (shown from the list's own
  * values), "totalRaisedUsd" the company's total. Same rules as every Top 10: at least 12, no tie at No. 10.
  */
-function rankedRound(title: string, kind: "roundUsd" | "totalRaisedUsd", scored: { c: Company; v: number }[], rng: Rng): Top10Round | null {
+function rankedRound(title: string, kind: "roundUsd" | "totalRaisedUsd", scored: { c: Company; v: number }[], rng: Rng, checks: Top10Check[]): Top10Round | null {
   const ranked = scored.filter((x) => x.v > 0).sort((a, b) => b.v - a.v);
   if (ranked.length < 12 || ranked[9].v <= ranked[10].v) return null;
   const top = ranked.slice(0, 10);
@@ -173,6 +256,8 @@ function rankedRound(title: string, kind: "roundUsd" | "totalRaisedUsd", scored:
     metric: "totalRaisedUsd",
     companyIds: top.map((x) => x.c.id),
     ...(kind === "roundUsd" ? { values: Object.fromEntries(top.map((x) => [x.c.id, x.v])) } : {}),
+    checks,
+    beyond: ranked.slice(10, 10 + BEYOND).map((x) => ({ id: x.c.id, value: x.v })),
     hints: [
       { text: `No. 1 starts with ${top[0].c.name[0].toUpperCase()}`, cost: 1 },
       { text: `No. ${k + 1} is based in ${top[k].c.city}`, cost: 1 },
@@ -200,7 +285,7 @@ function top10(base: Base, date: string, companies: Company[], rng: Rng): Top10P
     const pool = TOP10_QUESTIONS.filter((q) => LEVEL_RANK[q.level] <= LEVEL_RANK[level]);
     const order = questionOrder(pool, level, Math.floor(day / pool.length));
     for (let i = 0; i < order.length; i++) {
-      const round = top10Round(order[(day + i) % order.length], companies, rng, date >= TOP10_PRIVATE_VALUATIONS_FROM);
+      const round = top10Round(order[(day + i) % order.length], companies, rng, date >= TOP10_PRIVATE_VALUATIONS_FROM, [{ kind: "european" }]);
       if (round) {
         variants[level] = round;
         break;
@@ -223,10 +308,15 @@ function questionOrder<Q extends { tag: string }>(pool: Q[], level: Difficulty, 
 }
 
 /** The list for a question, or null if the data can't make a fair one today. */
-function top10Round(q: Top10Question, companies: Company[], rng: Rng, privateValuations: boolean): Top10Round | null {
+/** How many places past No. 10 a list sends along, so a wrong guess that fits can say "No. 14". */
+const BEYOND = 40;
+
+/** The list for a question, or null if the data can't make a fair one today. base: checks every list of the game has (European, the region). */
+function top10Round(q: Top10Question, companies: Company[], rng: Rng, privateValuations: boolean, base: Top10Check[] = []): Top10Round | null {
   const metric = q.metric;
+  const privateOnly = privateValuations && q.privateOnly;
   const ranked = companies
-    .filter((c) => q.filter(c) && (!privateValuations || !q.privateOnly || c.status === "private") && c[metric] != null && c[metric]! > 0).sort((a, b) => b[metric]! - a[metric]!);
+    .filter((c) => q.filter(c) && (!privateOnly || c.status === "private") && c[metric] != null && c[metric]! > 0).sort((a, b) => b[metric]! - a[metric]!);
   if (ranked.length < 12 || ranked[9][metric]! <= ranked[10][metric]!) return null;
   const top = ranked.slice(0, 10);
   const k = 3 + Math.floor(rng() * 4); // a middle rank, 4 to 7
@@ -234,6 +324,8 @@ function top10Round(q: Top10Question, companies: Company[], rng: Rng, privateVal
     title: q.title,
     metric,
     companyIds: top.map((c) => c.id),
+    ...(q.checks ? { checks: [...base, ...q.checks, ...(privateOnly ? [{ kind: "private" } as const] : [])] } : {}),
+    beyond: ranked.slice(10, 10 + BEYOND).map((c) => ({ id: c.id, value: c[metric]! })),
     hints: [
       { text: `No. 1 starts with ${top[0].name[0].toUpperCase()}`, cost: 1 },
       { text: `No. ${k + 1} is based in ${top[k].city}`, cost: 1 },
@@ -741,14 +833,32 @@ function optionCount(rng: Rng): number {
 }
 
 /** How many impostors: mostly one, now and then two or three. */
+/**
+ * From this day on a big circle hides more impostors (one in nine was too easy to spot): six or seven
+ * options mostly one or two, eight or nine mostly two or three. Earlier days keep their puzzle.
+ */
+const IMPOSTOR_SCALED_FROM = "2026-11-08";
+
+function impostorsFor(options: number, rng: Rng): number {
+  const r = rng();
+  if (options <= 6) return r < 0.6 ? 1 : 2;
+  if (options === 7) return r < 0.3 ? 1 : 2;
+  if (options === 8) return r < 0.6 ? 2 : 3;
+  return r < 0.4 ? 2 : 3;
+}
+
 function impostorCount(rng: Rng): number {
   const r = rng();
   return r < 0.6 ? 1 : r < 0.9 ? 2 : 3;
 }
 
-function impostor(base: Base, companies: Company[], rng: Rng): (ImpostorPuzzle & { variants: ImpostorVariants }) | null {
+/**
+ * local: a Local game, whose companies all come from one country, so there are no country categories,
+ * and the impostors come from the same companies ("Based in Munich" with impostors from Berlin).
+ */
+function impostor(base: Base, companies: Company[], rng: Rng, local = false): (ImpostorPuzzle & { variants: ImpostorVariants }) | null {
   const groups: Group[] = [];
-  for (const code of unique(companies.map((c) => c.country))) {
+  for (const code of local ? [] : unique(companies.map((c) => c.country))) {
     groups.push({
       members: (c) => c.country === code,
       prompt: `From ${countryName(code)}`,
@@ -791,8 +901,11 @@ function impostor(base: Base, companies: Company[], rng: Rng): (ImpostorPuzzle &
   for (const level of DIFFICULTIES) {
     const built = forLevel(level, companies, (pool) => {
       // A category of the day for this level: enough members in the tier, and someone who doesn't belong.
-      const n = impostorCount(rng);
-      const wanted = optionCount(rng);
+      // From IMPOSTOR_SCALED_FROM on, the circle's size comes first and the impostors scale with it.
+      const scaled = base.date >= IMPOSTOR_SCALED_FROM;
+      const first = scaled ? optionCount(rng) : impostorCount(rng);
+      const second = scaled ? impostorsFor(first, rng) : optionCount(rng);
+      const [n, wanted] = scaled ? [second, first] : [first, second];
       for (const g of shuffle(groups, rng)) {
         const fits = pool.filter(g.members);
         // As many options as the wish, or as many as this category can fill (but at least six).

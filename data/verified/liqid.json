@@ -1,0 +1,121 @@
+{
+  "id": "liqid",
+  "name": "Liqid",
+  "aliases": [
+    "LIQID",
+    "LIQID Investments"
+  ],
+  "domain": "liqid.de",
+  "country": "DE",
+  "city": "Berlin",
+  "founded": 2016,
+  "sectors": [
+    "fintech"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Christian Schneider-Sickert"
+  ],
+  "difficulty": 4,
+  "techeuId": "CF90FDF1-A5E2-4137-B94D-7FDB708F7015",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://ypog.law/en/press/project-a-liqid-financing-round",
+      "quote": "Founded by Christian Schneider-Sickert, Berlin-based LIQID offers sophisticated private clients digital access to investment strategies"
+    },
+    {
+      "field": "founded",
+      "url": "https://www.liqid.de/ueber-uns",
+      "quote": "Um das zu ändern, haben wir 2016 LIQID gegründet."
+    },
+    {
+      "field": "founders",
+      "url": "https://ypog.law/en/press/project-a-liqid-financing-round",
+      "quote": "Founded by Christian Schneider-Sickert, Berlin-based LIQID offers sophisticated private clients digital access to investment strategies"
+    },
+    {
+      "field": "sectors",
+      "url": "https://ypog.law/en/press/project-a-liqid-financing-round",
+      "quote": "Series D funding round of Europe's leading digital wealth manager for private clients LIQID"
+    },
+    {
+      "field": "status",
+      "url": "https://www.liqid.de/ueber-uns",
+      "quote": "Christian Schneider-Sickert Gründer und CEO LIQID Investments GmbH"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-b",
+      "month": "2017-02",
+      "amountEur": 4500000,
+      "amountOriginal": 4500000,
+      "currency": "EUR",
+      "investors": [
+        "Project A Ventures",
+        "HQ Trust",
+        "Dieter von Holtzbrinck Ventures",
+        "Berliner Volksbank Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://extraetf.com/de/news/etf-news/liqid-frisches-geld-digitaler-vermoegensverwalter",
+          "quote": "Der digitale Vermögensverwalter LIQID hat eine neue Finanzierungsrunde abgeschlossen und erhält 4,5 Millionen Euro an Wachstumskapital."
+        },
+        {
+          "field": "month",
+          "url": "https://extraetf.com/de/news/etf-news/liqid-frisches-geld-digitaler-vermoegensverwalter",
+          "quote": "von Markus Jordan | 28.02.2017"
+        },
+        {
+          "field": "investors",
+          "url": "https://extraetf.com/de/news/etf-news/liqid-frisches-geld-digitaler-vermoegensverwalter",
+          "quote": "Kapitalgeber der Finanzierungsrunde sind die bestehenden Gesellschafter, der Berliner Early Stage Investor Project A Ventures, das Family Office der Familie Harald Quandt, HQ Trust, und Dieter von Holtzbrinck (DvH Ventures) sowie der Corporate Venture Capital Fonds der Berliner Volksbank, Berliner Volksbank Ventures."
+        }
+      ]
+    },
+    {
+      "stage": "series-c",
+      "month": "2018-09",
+      "amountEur": 33000000,
+      "amountOriginal": 33000000,
+      "currency": "EUR",
+      "investors": [
+        "Toscafund",
+        "Project A",
+        "HQ Trust",
+        "Dieter von Holtzbrinck Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.private-banking-magazin.de/finanzierungsrunde-digitaler-vermoegensverwalter-liqid-erhaelt-frisches-kapital/",
+          "quote": "Der digitale Vermögensverwalter Liqid hat eine Finanzierungsrunde abgeschlossen, aus der das Fintech 33 Millionen Euro frisches Kapital erhält."
+        },
+        {
+          "field": "month",
+          "url": "https://www.private-banking-magazin.de/finanzierungsrunde-digitaler-vermoegensverwalter-liqid-erhaelt-frisches-kapital/",
+          "quote": "Norbert Wulf ( Redakteur ) // 26.09.2018"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.private-banking-magazin.de/finanzierungsrunde-digitaler-vermoegensverwalter-liqid-erhaelt-frisches-kapital/",
+          "quote": "Hauptkapitalgeber ist Toscafund Asset Management, eine in London ansässige Multi-Asset-Alternative-Investmentgesellschaft"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.private-banking-magazin.de/finanzierungsrunde-digitaler-vermoegensverwalter-liqid-erhaelt-frisches-kapital/",
+          "quote": "Bestehende Investoren, darunter Project A, HQ Trust und Dieter von Holtzbrinck Ventures, haben ebenfalls an der Finanzierungsrunde teilgenommen."
+        },
+        {
+          "field": "stage",
+          "url": "https://www.wallstreet-online.de/nachricht/10885580-ots-liqid-investments-digitaler-vermoegensverwalter-liqid-33",
+          "quote": "Series-C-Finanzierung durch Tosca Private Investments Fund"
+        }
+      ]
+    }
+  ]
+}

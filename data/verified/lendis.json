@@ -1,0 +1,90 @@
+{
+  "id": "lendis",
+  "name": "Lendis",
+  "aliases": [
+    "LENDIS"
+  ],
+  "domain": "lendis.io",
+  "country": "DE",
+  "city": "Berlin",
+  "founded": 2018,
+  "sectors": [
+    "saas"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Julius Bolz",
+    "Stavros Papadopoulos"
+  ],
+  "difficulty": 4,
+  "techeuId": "36DCF494-8B8A-4DEE-ACBD-AC26E7ED8211",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.osborneclarke.com/news/osborne-clarke-advises-keen-venture-partners-eur-80-million-investment-lendis",
+      "quote": "Berlin-based startup Lendis, founded in 2018 by Julius Bolz and Stavros Papadopoulos"
+    },
+    {
+      "field": "founded",
+      "url": "https://www.osborneclarke.com/news/osborne-clarke-advises-keen-venture-partners-eur-80-million-investment-lendis",
+      "quote": "Berlin-based startup Lendis, founded in 2018 by Julius Bolz and Stavros Papadopoulos"
+    },
+    {
+      "field": "founders",
+      "url": "https://www.osborneclarke.com/news/osborne-clarke-advises-keen-venture-partners-eur-80-million-investment-lendis",
+      "quote": "Berlin-based startup Lendis, founded in 2018 by Julius Bolz and Stavros Papadopoulos"
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.startbase.com/news/lendis-gibt-80-millionen-euro-runde-bekannt/",
+      "quote": "Lendis offers companies a SaaS solution that enables them to set up and manage their employees' equipment and software in the hybrid w"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-a",
+      "month": "2022-01",
+      "amountEur": 30000000,
+      "amountOriginal": 30000000,
+      "currency": "EUR",
+      "investors": [
+        "Circularity Capital",
+        "Keen Venture Partners",
+        "Coparion",
+        "HGDF",
+        "KPN Ventures",
+        "HV Capital",
+        "DN Capital",
+        "Picus Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.startbase.com/news/lendis-gibt-80-millionen-euro-runde-bekannt/",
+          "quote": "The money from the round consists of 30 million euros in equity and 50 million euros in debt capital."
+        },
+        {
+          "field": "stage",
+          "url": "https://www.startbase.de/news/lendis-gibt-80-millionen-euro-runde-bekannt/",
+          "quote": "Das Berliner Start-up Lendis hat eine Series-A-Finanzierungsrunde in Höhe von 80 Millionen Euro bekanntgegeben."
+        },
+        {
+          "field": "month",
+          "url": "https://www.startbase.com/news/lendis-gibt-80-millionen-euro-runde-bekannt/",
+          "quote": "Stuttgart, 21. January 2022"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.startbase.com/news/lendis-gibt-80-millionen-euro-runde-bekannt/",
+          "quote": "Other new investors include Coparion , HGDF and KPN Ventures as well as existing investors HV Capital , DN Capital and Picus Capital ."
+        },
+        {
+          "field": "investors",
+          "url": "https://www.startbase.com/news/lendis-gibt-80-millionen-euro-runde-bekannt/",
+          "quote": "e round is led by investors Circularity Capital and Keen Venture Partners."
+        }
+      ]
+    }
+  ]
+}

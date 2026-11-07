@@ -1,0 +1,114 @@
+{
+  "id": "idnow",
+  "name": "IDnow",
+  "aliases": [],
+  "domain": "idnow.io",
+  "country": "DE",
+  "city": "Munich",
+  "founded": 2014,
+  "sectors": [
+    "fintech",
+    "cybersecurity"
+  ],
+  "status": "acquired",
+  "unicorn": false,
+  "founders": [
+    "Felix Haas",
+    "Armin Bauer",
+    "Dennis von Ferenczy",
+    "Sebastian Bärhold"
+  ],
+  "difficulty": 3,
+  "programs": [
+    {
+      "id": "cdtm"
+    },
+    {
+      "id": "manage-and-more"
+    },
+    {
+      "id": "start-munich"
+    }
+  ],
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.munich-startup.de/en/news/idnow-sold-to-american-investment-firm",
+      "quote": "Munich startup IDnow has been developing AI-powered identity verification technologies since its founding in 2014."
+    },
+    {
+      "field": "founded",
+      "url": "https://www.munich-startup.de/en/news/idnow-sold-to-american-investment-firm",
+      "quote": "Munich startup IDnow has been developing AI-powered identity verification technologies since its founding in 2014."
+    },
+    {
+      "field": "founded",
+      "url": "https://tech.eu/brief/idnow-raises-40-million-for-its-identity-verification-as-a-service-cybersecurity-platform",
+      "quote": "Since its founding in 2014, IDnow has integrated its several security products onto a single platform"
+    },
+    {
+      "field": "founders",
+      "url": "https://www.munich-startup.de/en/news/idnow-sold-to-american-investment-firm",
+      "quote": "founding team: Dennis von Ferenczy, Sebastian Bärhold, Armin Bauer, and Felix Haas"
+    },
+    {
+      "field": "sectors",
+      "url": "https://tech.eu/brief/idnow-raises-40-million-for-its-identity-verification-as-a-service-cybersecurity-platform",
+      "quote": "The Munich-based tech company develops AI-powered identity verification solutions for enterprise businesses."
+    },
+    {
+      "field": "status",
+      "url": "https://www.munich-startup.de/en/news/idnow-sold-to-american-investment-firm",
+      "quote": "announces majority acquisition by private equity firm Corsair Capital"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://tech.eu/brief/idnow-raises-40-million-for-its-identity-verification-as-a-service-cybersecurity-platform",
+      "quote": "has raised a $40 million funding round from Corsair Capital"
+    },
+    {
+      "field": "programs",
+      "url": "https://www.cdtm.com/startups/idnow",
+      "quote": "CDTM founders Armin Bauer Class of Spring 2004"
+    },
+    {
+      "field": "programs",
+      "url": "https://www.manageandmore.de/start-ups/",
+      "quote": "IDnow www.idnow.io"
+    },
+    {
+      "field": "programs",
+      "url": "https://www.startmunich.de/api/startups",
+      "quote": "\"name\":\"IDNow\",\"website\":\"www.idnow.io/de/\""
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-c",
+      "month": "2019-10",
+      "amountEur": 36078290,
+      "amountOriginal": 40000000,
+      "currency": "USD",
+      "investors": [
+        "Corsair Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/brief/idnow-raises-40-million-for-its-identity-verification-as-a-service-cybersecurity-platform",
+          "quote": "has raised a $40 million funding round from Corsair Capital"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/brief/idnow-raises-40-million-for-its-identity-verification-as-a-service-cybersecurity-platform",
+          "quote": "28 October 2019"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/brief/idnow-raises-40-million-for-its-identity-verification-as-a-service-cybersecurity-platform",
+          "quote": "has raised a $40 million funding round from Corsair Capital"
+        }
+      ]
+    }
+  ]
+}

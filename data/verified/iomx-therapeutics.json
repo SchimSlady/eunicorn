@@ -1,0 +1,123 @@
+{
+  "id": "iomx-therapeutics",
+  "name": "iOmx Therapeutics",
+  "aliases": [
+    "iOmx",
+    "IOmx Therapeutics"
+  ],
+  "domain": "iomx.com",
+  "country": "DE",
+  "city": "Martinsried",
+  "founded": 2016,
+  "sectors": [
+    "biotech"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Philipp Beckhove",
+    "Nisit Khandelwal"
+  ],
+  "difficulty": 5,
+  "techeuId": "182D9248-5DCB-42E0-ACD7-0DF02DE135CC",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.biospace.com/iomx-therapeutics-raises-eur-65-million-in-series-b-round",
+      "quote": "MARTINSRIED, GERMANY / ACCESSWIRE / October 5, 2021 / iOmx Therapeutics AG (iOmx), a biopharmaceutical company developing cancer therapeutics"
+    },
+    {
+      "field": "founded",
+      "url": "https://www.biospace.com/iomx-therapeutics-raises-eur-65-million-in-series-b-round",
+      "quote": "Founded in 2016 based on the work of its scientific founders Philipp Beckhove, MD, and Nisit Khandelwal, Ph.D., conducted at the German Cancer Research Center"
+    },
+    {
+      "field": "founders",
+      "url": "https://www.biospace.com/iomx-therapeutics-raises-eur-65-million-in-series-b-round",
+      "quote": "Founded in 2016 based on the work of its scientific founders Philipp Beckhove, MD, and Nisit Khandelwal, Ph.D., conducted at the German Cancer Research Center"
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.biospace.com/iomx-therapeutics-raises-eur-65-million-in-series-b-round",
+      "quote": "a biopharmaceutical company developing cancer therapeutics based on next generation immune checkpoint targets"
+    },
+    {
+      "field": "status",
+      "url": "https://www.iomx.com/company/news/",
+      "quote": "iOmx Therapeutics Appoints Rüdiger Wolff as New Chief Financial Officer October 1, 2026"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-a",
+      "month": "2016-09",
+      "amountEur": 40000000,
+      "amountOriginal": 40000000,
+      "currency": "EUR",
+      "investors": [
+        "MPM Capital",
+        "Sofinnova Partners",
+        "Wellington Partners",
+        "Merck Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://wellington-partners.com/wellington-invests-in-iomx-40m-series-a/",
+          "quote": "iOmx Therapeutics raises EUR 40 million in Series A round led by MPM Capital, Sofinnova Partners, Wellington Partners and Merck Ventures"
+        },
+        {
+          "field": "stage",
+          "url": "https://wellington-partners.com/wellington-invests-in-iomx-40m-series-a/",
+          "quote": "iOmx Therapeutics raises EUR 40 million in Series A round led by MPM Capital, Sofinnova Partners, Wellington Partners and Merck Ventures"
+        },
+        {
+          "field": "month",
+          "url": "https://wellington-partners.com/wellington-invests-in-iomx-40m-series-a/",
+          "quote": "22. September 2016"
+        },
+        {
+          "field": "investors",
+          "url": "https://wellington-partners.com/wellington-invests-in-iomx-40m-series-a/",
+          "quote": "iOmx Therapeutics raises EUR 40 million in Series A round led by MPM Capital, Sofinnova Partners, Wellington Partners and Merck Ventures"
+        }
+      ]
+    },
+    {
+      "stage": "series-b",
+      "month": "2021-10",
+      "amountEur": 65000000,
+      "amountOriginal": 65000000,
+      "currency": "EUR",
+      "investors": [
+        "Athos Service",
+        "MIG Capital",
+        "Wellington Partners",
+        "Sofinnova Partners",
+        "M Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.biospace.com/iomx-therapeutics-raises-eur-65-million-in-series-b-round",
+          "quote": "today announced the closing of a Series B round totaling EUR 65 million"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.biospace.com/iomx-therapeutics-raises-eur-65-million-in-series-b-round",
+          "quote": "today announced the closing of a Series B round totaling EUR 65 million"
+        },
+        {
+          "field": "month",
+          "url": "https://www.biospace.com/iomx-therapeutics-raises-eur-65-million-in-series-b-round",
+          "quote": "MARTINSRIED, GERMANY / ACCESSWIRE / October 5, 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.biospace.com/iomx-therapeutics-raises-eur-65-million-in-series-b-round",
+          "quote": "The financing was co-led by Athos Service GmbH - the Strüngmann family office - and MIG Capital AG, with participation from existing investors Wellington Partners, Sofinnova Partners and M Ventures."
+        }
+      ]
+    }
+  ]
+}

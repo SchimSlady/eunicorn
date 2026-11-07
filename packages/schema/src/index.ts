@@ -121,6 +121,8 @@ export interface Program {
   name: string; // "Y Combinator"
   kind: ProgramKind;
   url?: string;
+  /** Official logo under /web/public, e.g. "/logos/programs/y-combinator.svg". For a program-themed game (Local tab), never in branding or share images. */
+  logo?: string;
 }
 
 export interface Dataset {

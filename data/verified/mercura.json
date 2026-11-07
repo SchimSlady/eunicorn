@@ -1,0 +1,41 @@
+{
+  "id": "mercura",
+  "name": "Mercura",
+  "aliases": [],
+  "domain": "mercura.ai",
+  "country": "DE",
+  "city": "Munich",
+  "founded": 2024,
+  "sectors": ["ai", "saas"],
+  "status": "private",
+  "unicorn": false,
+  "founders": ["Lukas Bock", "Sean Sdahl", "Stefan Zheng"],
+  "difficulty": 5,
+  "programs": [{ "id": "y-combinator", "batch": "Winter 2025" }, { "id": "start-munich" }],
+  "sources": [
+    { "field": "city", "url": "https://www.startbase.com/news/ki-startup-mercura-sammelt-ueber-21-millionen-us-dollar-ein/", "quote": "The Munich-based AI company Mercura has raised more than 2.1 million US dollars in an oversubscribed seed round." },
+    { "field": "founded", "url": "https://www.ycombinator.com/companies/mercura", "quote": "Founded in 2024 by Lukas Bock, Sean Sdahl, and Stefan Zheng" },
+    { "field": "founders", "url": "https://www.ycombinator.com/companies/mercura", "quote": "Founded in 2024 by Lukas Bock, Sean Sdahl, and Stefan Zheng" },
+    { "field": "sectors", "url": "https://www.startbase.com/news/ki-startup-mercura-sammelt-ueber-21-millionen-us-dollar-ein/", "quote": "Mercura is developing an AI-based software solution to automate time-consuming sales tasks in wholesale and industry." },
+    { "field": "status", "url": "https://www.startbase.com/news/ki-startup-mercura-sammelt-ueber-21-millionen-us-dollar-ein/", "quote": "The Munich-based AI company Mercura has raised more than 2.1 million US dollars in an oversubscribed seed round." },
+    { "field": "unicorn", "url": "https://www.startbase.com/news/ki-startup-mercura-sammelt-ueber-21-millionen-us-dollar-ein/", "quote": "The Munich-based AI company Mercura has raised more than 2.1 million US dollars in an oversubscribed seed round." },
+    { "field": "programs", "url": "https://yc-oss.github.io/api/batches/winter-2025/mercura.json", "quote": "\"batch\": \"Winter 2025\"" },
+    { "field": "programs", "url": "https://www.startmunich.de/api/startups", "quote": "\"name\":\"Mercura\",\"website\":\"www.mercura.ai/\"" }
+  ],
+  "rounds": [
+    {
+      "stage": "seed",
+      "month": "2025-12",
+      "amountEur": 1784804,
+      "amountOriginal": 2100000,
+      "currency": "USD",
+      "investors": ["TQ Ventures", "SignalFire", "Y Combinator", "Bastian Nominacher", "Tao Tao", "Lukas Deutsch"],
+      "sources": [
+        { "field": "amount", "url": "https://www.startbase.com/news/ki-startup-mercura-sammelt-ueber-21-millionen-us-dollar-ein/", "quote": "The Munich-based AI company Mercura has raised more than 2.1 million US dollars in an oversubscribed seed round." },
+        { "field": "stage", "url": "https://www.startbase.com/news/ki-startup-mercura-sammelt-ueber-21-millionen-us-dollar-ein/", "quote": "The Munich-based AI company Mercura has raised more than 2.1 million US dollars in an oversubscribed seed round." },
+        { "field": "month", "url": "https://www.startbase.com/news/ki-startup-mercura-sammelt-ueber-21-millionen-us-dollar-ein/", "quote": "München, 29. December 2025" },
+        { "field": "investors", "url": "https://www.startbase.com/news/ki-startup-mercura-sammelt-ueber-21-millionen-us-dollar-ein/", "quote": "The round was led by TQ Ventures, SignalFire and Y Combinator, supplemented by several high-profile business angels from the European tech ecosystem. The private investors include Bastian Nominacher (Co-Founder and CEO of Celonis ), Tao Tao (Co-Founder and COO of GetYourGuide ) and Lukas Deutsch" }
+      ]
+    }
+  ]
+}

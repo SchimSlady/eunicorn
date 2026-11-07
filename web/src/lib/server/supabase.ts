@@ -119,7 +119,7 @@ export async function getDataset(): Promise<(Omit<Dataset, "rounds"> & { rounds:
   // Programs (Y Combinator, CDTM ...) in their own requests, not embedded in the companies query: until the
   // programs migration is applied these fail, and the dataset must still load (without programs).
   const [programRows, companyPrograms] = await Promise.all([
-    select<Program>("programs?select=id,name,kind,url&order=id"),
+    select<Program>("programs?select=id,name,kind,url,logo&order=id"),
     select<{ company_id: string; program_id: string; batch: string | null }>("company_programs?select=company_id,program_id,batch&order=company_id,program_id"),
   ]);
   const programById = new Map((programRows ?? []).map((p) => [p.id, p]));
@@ -186,7 +186,7 @@ export async function getDataset(): Promise<(Omit<Dataset, "rounds"> & { rounds:
     ),
     investors: investors.map((i) => ({ id: i.id, name: i.name, domain: i.domain ?? undefined, tier: i.tier ?? undefined, logo: i.logo ?? undefined })),
     people,
-    programs: (programRows ?? []).map((p) => ({ id: p.id, name: p.name, kind: p.kind, url: p.url ?? undefined })),
+    programs: (programRows ?? []).map((p) => ({ id: p.id, name: p.name, kind: p.kind, url: p.url ?? undefined, logo: p.logo ?? undefined })),
   };
 }
 

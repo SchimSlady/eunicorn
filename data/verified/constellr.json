@@ -19,36 +19,46 @@
     "Marius Bierdel"
   ],
   "difficulty": 4,
+  "programs": [
+    {
+      "id": "manage-and-more"
+    }
+  ],
   "sources": [
     {
       "field": "city",
-      "url": "https://www.deutsche-startups.de/2026/02/11/constellr-sammelt-37-millionen-hades-mining-erhaelt-15-millionen-hrmony-kauft-hellobonnie/",
-      "quote": "Das Freiburger SpaceTech, 2020 von Max Gulde, Christian Mittermaier und Marius Bierdel gegründet"
+      "url": "https://techcrunch.com/2021/02/23/spacetech-startup-constellr-that-can-monitor-land-surface-temperatures-raises-e1m-pre-seed-round/",
+      "quote": "The Freiburg, Germany-based startup monitors the land via a constellation of 30 CubeSats with thermal infrared payloads."
     },
     {
       "field": "founded",
-      "url": "https://www.deutsche-startups.de/2026/02/11/constellr-sammelt-37-millionen-hades-mining-erhaelt-15-millionen-hrmony-kauft-hellobonnie/",
-      "quote": "Das Freiburger SpaceTech, 2020 von Max Gulde, Christian Mittermaier und Marius Bierdel gegründet"
+      "url": "https://www.startbase.com/organization/constellr/",
+      "quote": "Founding Year: 2020"
+    },
+    {
+      "field": "sectors",
+      "url": "https://techcrunch.com/2021/02/23/spacetech-startup-constellr-that-can-monitor-land-surface-temperatures-raises-e1m-pre-seed-round/",
+      "quote": "The Freiburg, Germany-based startup monitors the land via a constellation of 30 CubeSats with thermal infrared payloads."
+    },
+    {
+      "field": "status",
+      "url": "https://www.constellr.com/article/constellr-secures-eu37-million-series-a-funding-to-deliver-defence-grade-thermal-intelligence",
+      "quote": "has raised €37 million in Series A funding"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://www.constellr.com/article/constellr-secures-eu37-million-series-a-funding-to-deliver-defence-grade-thermal-intelligence",
+      "quote": "has raised €37 million in Series A funding"
+    },
+    {
+      "field": "programs",
+      "url": "https://www.manageandmore.de/start-ups/",
+      "quote": "Constellr constellr.com"
     },
     {
       "field": "founders",
       "url": "https://www.deutsche-startups.de/2026/02/11/constellr-sammelt-37-millionen-hades-mining-erhaelt-15-millionen-hrmony-kauft-hellobonnie/",
       "quote": "Das Freiburger SpaceTech, 2020 von Max Gulde, Christian Mittermaier und Marius Bierdel gegründet"
-    },
-    {
-      "field": "sectors",
-      "url": "https://eicscalingclub.eu/news/constellr-secures-37-million-to-deliver-defence-grade-thermal-intelligence",
-      "quote": "German scaleup constellr , the global leader in high-precision thermal intelligence from space"
-    },
-    {
-      "field": "status",
-      "url": "https://eicscalingclub.eu/news/constellr-secures-37-million-to-deliver-defence-grade-thermal-intelligence",
-      "quote": "has raised €37 million in Series A funding."
-    },
-    {
-      "field": "unicorn",
-      "url": "https://eicscalingclub.eu/news/constellr-secures-37-million-to-deliver-defence-grade-thermal-intelligence",
-      "quote": "has raised €37 million in Series A funding."
     }
   ],
   "rounds": [
@@ -56,7 +66,7 @@
       "stage": "pre-seed",
       "month": "2021-02",
       "amountEur": 1000000,
-      "amountOriginal": 1000000.0,
+      "amountOriginal": 1000000,
       "currency": "EUR",
       "investors": [
         "FTTF",
@@ -67,12 +77,12 @@
         {
           "field": "amount",
           "url": "https://techcrunch.com/2021/02/23/spacetech-startup-constellr-that-can-monitor-land-surface-temperatures-raises-e1m-pre-seed-round/",
-          "quote": "ConstellR , a space tech startup with a technology that can monitor land surface temperatures from space, has raised a €1 million pre-seed round led by FTTF, with the participation of strategic investor OHB Venture Capital, Baden-Württemberg’s state bank L-Bank and an undisclosed investor."
+          "quote": "has raised a €1 million pre-seed round led by FTTF, with the participation of strategic investor OHB Venture Capital, Baden-Württemberg’s state bank L-Bank and an undisclosed investor."
         },
         {
           "field": "stage",
           "url": "https://techcrunch.com/2021/02/23/spacetech-startup-constellr-that-can-monitor-land-surface-temperatures-raises-e1m-pre-seed-round/",
-          "quote": "ConstellR , a space tech startup with a technology that can monitor land surface temperatures from space, has raised a €1 million pre-seed round led by FTTF, with the participation of strategic investor OHB Venture Capital, Baden-Württemberg’s state bank L-Bank and an undisclosed investor."
+          "quote": "has raised a €1 million pre-seed round led by FTTF"
         },
         {
           "field": "month",
@@ -82,40 +92,48 @@
         {
           "field": "investors",
           "url": "https://techcrunch.com/2021/02/23/spacetech-startup-constellr-that-can-monitor-land-surface-temperatures-raises-e1m-pre-seed-round/",
-          "quote": "ConstellR , a space tech startup with a technology that can monitor land surface temperatures from space, has raised a €1 million pre-seed round led by FTTF, with the participation of strategic investor OHB Venture Capital, Baden-Württemberg’s state bank L-Bank and an undisclosed investor."
+          "quote": "has raised a €1 million pre-seed round led by FTTF, with the participation of strategic investor OHB Venture Capital, Baden-Württemberg’s state bank L-Bank and an undisclosed investor."
         }
       ]
     },
     {
       "stage": "seed",
       "month": "2022-11",
-      "amountEur": 10000000,
+      "amountEur": 10253255,
       "amountOriginal": 10000000.0,
-      "currency": "EUR",
+      "currency": "USD",
       "investors": [
         "Lakestar",
-        "Vsquared"
+        "Vsquared Ventures",
+        "FTTF",
+        "IQT",
+        "Amathaon Capital",
+        "Natural Ventures",
+        "EIT Food",
+        "OHB Venture Capital",
+        "Next Humanity",
+        "Seraphim"
       ],
       "sources": [
         {
           "field": "amount",
-          "url": "https://www.startbase.de/news/constellr-schliesst-finanzierungsrunde-ab/",
-          "quote": "Das Freiburger Satelliten-Start-up Constellr hat in einer Finanzierungsrunde zehn Millionen Euro eingesammelt"
+          "url": "https://techcrunch.com/2022/11/03/satellite-startup-constellr-wins-backing-to-build-out-its-water-monitoring-platform/",
+          "quote": "has now raised $10 million in seed funding, co-led by Lakestar and Vsquared"
         },
         {
           "field": "stage",
-          "url": "https://www.startbase.de/news/constellr-schliesst-finanzierungsrunde-ab/",
-          "quote": "Das Freiburger Satelliten-Start-up Constellr hat in einer Finanzierungsrunde zehn Millionen Euro eingesammelt"
+          "url": "https://techcrunch.com/2022/11/03/satellite-startup-constellr-wins-backing-to-build-out-its-water-monitoring-platform/",
+          "quote": "has now raised $10 million in seed funding, co-led by Lakestar and Vsquared"
         },
         {
           "field": "month",
-          "url": "https://www.startbase.de/news/constellr-schliesst-finanzierungsrunde-ab/",
-          "quote": "Stuttgart, 04. November 2022"
+          "url": "https://techcrunch.com/2022/11/03/satellite-startup-constellr-wins-backing-to-build-out-its-water-monitoring-platform/",
+          "quote": "November 3, 2022"
         },
         {
           "field": "investors",
-          "url": "https://www.startbase.de/news/constellr-schliesst-finanzierungsrunde-ab/",
-          "quote": "Angeführt wird diese von den Wagniskapitalgebern Lakestar und Vsquare Ventures"
+          "url": "https://techcrunch.com/2022/11/03/satellite-startup-constellr-wins-backing-to-build-out-its-water-monitoring-platform/",
+          "quote": "co-led by Lakestar and Vsquared, with participation from early and new supporters FTTF, IQT, Amathaon Capital, Natural Ventures, EIT Food, OHB Venture Capital, Next Humanity, and Seraphim."
         }
       ]
     },
@@ -123,7 +141,7 @@
       "stage": "series-a",
       "month": "2026-02",
       "amountEur": 37000000,
-      "amountOriginal": 37000000.0,
+      "amountOriginal": 37000000,
       "currency": "EUR",
       "investors": [
         "Alpine Space Ventures",
@@ -133,7 +151,7 @@
         "Cardumen Capital",
         "Cooperative Ventures",
         "Kineo Finance",
-        "VSquared Ventures",
+        "Vsquared",
         "CosmiCapital",
         "Fraunhofer Technologie-Transfer Fonds",
         "EIC Fund"
@@ -141,23 +159,23 @@
       "sources": [
         {
           "field": "amount",
-          "url": "https://www.deutsche-startups.de/2026/02/11/constellr-sammelt-37-millionen-hades-mining-erhaelt-15-millionen-hrmony-kauft-hellobonnie/",
-          "quote": "Der Münchner NewSpace-Investor Alpine Space Ventures, Lakestar, Semapa Next, Bayern Kapital, Cardumen Capital, Cooperative Ventures, Kineo Finance, VSquared Ventures, CosmiCapital, Fraunhofer Technologie-Transfer Fonds und EIC Fund investieren 37 Millionen Euro in constellr"
+          "url": "https://www.constellr.com/article/constellr-secures-eu37-million-series-a-funding-to-deliver-defence-grade-thermal-intelligence",
+          "quote": "has raised €37 million in Series A funding"
         },
         {
           "field": "stage",
-          "url": "https://eicscalingclub.eu/news/constellr-secures-37-million-to-deliver-defence-grade-thermal-intelligence",
-          "quote": "has raised €37 million in Series A funding."
+          "url": "https://www.constellr.com/article/constellr-secures-eu37-million-series-a-funding-to-deliver-defence-grade-thermal-intelligence",
+          "quote": "has raised €37 million in Series A funding"
         },
         {
           "field": "month",
-          "url": "https://www.deutsche-startups.de/2026/02/11/constellr-sammelt-37-millionen-hades-mining-erhaelt-15-millionen-hrmony-kauft-hellobonnie/",
-          "quote": "Mittwoch, 11. Februar 2026"
+          "url": "https://www.constellr.com/article/constellr-secures-eu37-million-series-a-funding-to-deliver-defence-grade-thermal-intelligence",
+          "quote": "Munich, Germany, February 10, 2026"
         },
         {
           "field": "investors",
-          "url": "https://www.deutsche-startups.de/2026/02/11/constellr-sammelt-37-millionen-hades-mining-erhaelt-15-millionen-hrmony-kauft-hellobonnie/",
-          "quote": "Der Münchner NewSpace-Investor Alpine Space Ventures, Lakestar, Semapa Next, Bayern Kapital, Cardumen Capital, Cooperative Ventures, Kineo Finance, VSquared Ventures, CosmiCapital, Fraunhofer Technologie-Transfer Fonds und EIC Fund investieren 37 Millionen Euro in constellr"
+          "url": "https://www.constellr.com/article/constellr-secures-eu37-million-series-a-funding-to-deliver-defence-grade-thermal-intelligence",
+          "quote": "The significantly oversubscribed financing round was led by Alpine Space Ventures, with co-lead Lakestar, and participation from Semapa Next, Bayern Kapital, Cardumen Capital, Cooperative Ventures, Kineo Finance, and strong continued support from existing shareholders, including Vsquared, CosmiCapital, Fraunhofer Technologie-Transfer Fonds, and EIC Fund."
         }
       ]
     }

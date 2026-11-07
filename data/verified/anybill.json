@@ -1,0 +1,119 @@
+{
+  "id": "anybill",
+  "name": "anybill",
+  "aliases": ["Anybill", "anybill techreach GmbH"],
+  "domain": "anybill.de",
+  "country": "DE",
+  "city": "Regensburg",
+  "founded": 2019,
+  "sectors": ["fintech", "saas"],
+  "status": "private",
+  "unicorn": false,
+  "founders": ["Lea Frank", "Tobias Gubo", "Patrick Göttler"],
+  "difficulty": 5,
+  "programs": [{ "id": "start-munich" }],
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.anybill.de/ueber-uns",
+      "quote": "Ein Jahr später, im Dezember 2019, gründen sie als Studenten anybill in Regensburg."
+    },
+    {
+      "field": "founded",
+      "url": "https://www.anybill.de/ueber-uns",
+      "quote": "Ein Jahr später, im Dezember 2019, gründen sie als Studenten anybill in Regensburg."
+    },
+    {
+      "field": "founded",
+      "url": "https://www.digitale-oberpfalz.de/news-events/news/detail/28/10/2021/anybill-erhaelt-seed-finanzierung-von-19-mio-euro",
+      "quote": "anybill wurde im Dezember 2019 von Lea Frank, Tobias Gubo und Patrick Göttler gegründet"
+    },
+    {
+      "field": "founders",
+      "url": "https://www.digitale-oberpfalz.de/news-events/news/detail/28/10/2021/anybill-erhaelt-seed-finanzierung-von-19-mio-euro",
+      "quote": "anybill wurde im Dezember 2019 von Lea Frank, Tobias Gubo und Patrick Göttler gegründet"
+    },
+    {
+      "field": "sectors",
+      "url": "https://financefwd.com/de/anybill-funding/",
+      "quote": "Das 2019 von Lea Frank, Tobias Gubo und Patrick Göttler gegründete Fintech fokussiert sich auf den digitalen Kassenbon"
+    },
+    {
+      "field": "status",
+      "url": "https://www.anybill.de/ueber-uns",
+      "quote": "Sechs Jahre später laufen über 100 Millionen Belege pro Monat über anybill."
+    },
+    {
+      "field": "unicorn",
+      "url": "https://www.anybill.de/ueber-uns",
+      "quote": "Seed (1,9 Mio. €) und Extension (5 Mio. €)"
+    },
+    {
+      "field": "programs",
+      "url": "https://www.startmunich.de/api/startups",
+      "quote": "\"name\":\"Anybill\",\"website\":\"www.anybill.de/de\""
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "seed",
+      "month": "2021-10",
+      "amountEur": 1900000,
+      "amountOriginal": 1900000,
+      "currency": "EUR",
+      "investors": ["High-Tech Gründerfonds", "Ilavska Vuillermoz Capital", "Jan Kanieß", "Carl Frederic Zitscher"],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.digitale-oberpfalz.de/news-events/news/detail/28/10/2021/anybill-erhaelt-seed-finanzierung-von-19-mio-euro",
+          "quote": "Das Tech-Unternehmen anybill hat eine Seed-Finanzierung von 1,9 Millionen Euro erhalten"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.digitale-oberpfalz.de/news-events/news/detail/28/10/2021/anybill-erhaelt-seed-finanzierung-von-19-mio-euro",
+          "quote": "Das Tech-Unternehmen anybill hat eine Seed-Finanzierung von 1,9 Millionen Euro erhalten"
+        },
+        {
+          "field": "month",
+          "url": "https://www.digitale-oberpfalz.de/news-events/news/detail/28/10/2021/anybill-erhaelt-seed-finanzierung-von-19-mio-euro",
+          "quote": "München/Regensburg – 27. Oktober 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.digitale-oberpfalz.de/news-events/news/detail/28/10/2021/anybill-erhaelt-seed-finanzierung-von-19-mio-euro",
+          "quote": "mit an Bord sind der High-Tech Gründerfonds und Ilavska Vuillermoz Capital sowie weitere Business Angels, darunter auch die PAYONE Gründer Jan Kanieß und Carl Frederic Zitscher"
+        }
+      ]
+    },
+    {
+      "stage": "seed",
+      "month": "2022-08",
+      "amountEur": 3000000,
+      "amountOriginal": 3000000,
+      "currency": "EUR",
+      "investors": ["Mutschler Ventures", "Wenvest", "Auxxo Female Catalyst Fund"],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://financefwd.com/de/anybill-funding-auxxo/",
+          "quote": "Mit einer Finanzierungsrunde von rund drei Millionen Euro finanziert Anybill das weitere Wachstum."
+        },
+        {
+          "field": "stage",
+          "url": "https://www.anybill.de/ueber-uns",
+          "quote": "Seed (1,9 Mio. €) und Extension (5 Mio. €)"
+        },
+        {
+          "field": "month",
+          "url": "https://financefwd.com/de/anybill-funding-auxxo/",
+          "quote": "08.08.2022 Caspar Tobias Schlenk"
+        },
+        {
+          "field": "investors",
+          "url": "https://financefwd.com/de/anybill-funding-auxxo/",
+          "quote": "In der neuen Finanzierung sind Mutschler Ventures, Wenvest und der Auxxo Female Catalyst Fund eingestiegen."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "id": "deepset",
+  "name": "deepset",
+  "aliases": [
+    "deepset AI"
+  ],
+  "domain": "deepset.ai",
+  "country": "DE",
+  "city": "Berlin",
+  "founded": 2018,
+  "sectors": [
+    "ai",
+    "saas"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Milos Rusic",
+    "Malte Pietsch",
+    "Timo Möller"
+  ],
+  "difficulty": 4,
+  "programs": [
+    {
+      "id": "start-munich"
+    }
+  ],
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/Deepset",
+      "quote": "It was founded in 2018 in Berlin by Milos Rusic, Malte Pietsch, and Timo Möller"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Deepset",
+      "quote": "It was founded in 2018 in Berlin by Milos Rusic, Malte Pietsch, and Timo Möller"
+    },
+    {
+      "field": "founded",
+      "url": "https://techcrunch.com/2022/04/28/deepset-raises-14m-to-help-companies-build-nlp-apps/",
+      "quote": "CEO Milos Rusic co-founded Deepset with Malte Pietsch and Timo Möller in 2018"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Deepset",
+      "quote": "It was founded in 2018 in Berlin by Milos Rusic, Malte Pietsch, and Timo Möller"
+    },
+    {
+      "field": "sectors",
+      "url": "https://techcrunch.com/2023/08/09/deepset-secures-30m-to-expand-its-llm-focused-mlops-offerings/",
+      "quote": "a platform for building enterprise apps powered by large language models"
+    },
+    {
+      "field": "status",
+      "url": "https://techcrunch.com/2023/08/09/deepset-secures-30m-to-expand-its-llm-focused-mlops-offerings/",
+      "quote": "today announced that it raised $30 million in a funding round led by Balderton Capital with participation from GV and Harpoon Ventures"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://techcrunch.com/2023/08/09/deepset-secures-30m-to-expand-its-llm-focused-mlops-offerings/",
+      "quote": "today announced that it raised $30 million in a funding round led by Balderton Capital with participation from GV and Harpoon Ventures"
+    },
+    {
+      "field": "programs",
+      "url": "https://www.startmunich.de/api/startups",
+      "quote": "\"name\":\"deepset AI\",\"website\":\"www.deepset.ai/\""
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "pre-seed",
+      "month": "2021-03",
+      "amountEur": 1348390,
+      "amountOriginal": 1600000,
+      "currency": "USD",
+      "investors": [
+        "System.One",
+        "Lunar Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://en.wikipedia.org/wiki/Deepset",
+          "quote": "A previous pre-seed investment round of $1.6 million on March 8, 2021, was led by System.One and Lunar Ventures"
+        },
+        {
+          "field": "stage",
+          "url": "https://en.wikipedia.org/wiki/Deepset",
+          "quote": "A previous pre-seed investment round of $1.6 million on March 8, 2021, was led by System.One and Lunar Ventures"
+        },
+        {
+          "field": "month",
+          "url": "https://en.wikipedia.org/wiki/Deepset",
+          "quote": "A previous pre-seed investment round of $1.6 million on March 8, 2021, was led by System.One and Lunar Ventures"
+        },
+        {
+          "field": "investors",
+          "url": "https://en.wikipedia.org/wiki/Deepset",
+          "quote": "A previous pre-seed investment round of $1.6 million on March 8, 2021, was led by System.One and Lunar Ventures"
+        }
+      ]
+    },
+    {
+      "stage": "series-a",
+      "month": "2022-04",
+      "amountEur": 13352408,
+      "amountOriginal": 14000000,
+      "currency": "USD",
+      "investors": [
+        "GV",
+        "Harpoon Ventures",
+        "System.One",
+        "Lunar Ventures",
+        "Acequia Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2022/04/28/deepset-raises-14m-to-help-companies-build-nlp-apps/",
+          "quote": "today announced that it raised $14 million in a Series A investment led by GV with participation from Harpoon Ventures, System.One, Lunar Ventures and Acequia Capital"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2022/04/28/deepset-raises-14m-to-help-companies-build-nlp-apps/",
+          "quote": "today announced that it raised $14 million in a Series A investment led by GV with participation from Harpoon Ventures, System.One, Lunar Ventures and Acequia Capital"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2022/04/28/deepset-raises-14m-to-help-companies-build-nlp-apps/",
+          "quote": "April 28, 2022"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2022/04/28/deepset-raises-14m-to-help-companies-build-nlp-apps/",
+          "quote": "today announced that it raised $14 million in a Series A investment led by GV with participation from Harpoon Ventures, System.One, Lunar Ventures and Acequia Capital"
+        }
+      ]
+    },
+    {
+      "stage": "series-b",
+      "month": "2023-08",
+      "amountEur": 27352298,
+      "amountOriginal": 30000000,
+      "currency": "USD",
+      "investors": [
+        "Balderton Capital",
+        "GV",
+        "Harpoon Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2023/08/09/deepset-secures-30m-to-expand-its-llm-focused-mlops-offerings/",
+          "quote": "today announced that it raised $30 million in a funding round led by Balderton Capital with participation from GV and Harpoon Ventures"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2023/08/09/deepset-secures-30m-to-expand-its-llm-focused-mlops-offerings/",
+          "quote": "August 9, 2023"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2023/08/09/deepset-secures-30m-to-expand-its-llm-focused-mlops-offerings/",
+          "quote": "today announced that it raised $30 million in a funding round led by Balderton Capital with participation from GV and Harpoon Ventures"
+        },
+        {
+          "field": "stage",
+          "url": "https://en.wikipedia.org/wiki/Deepset",
+          "quote": "deepset announced a Series B investment round of $30 million led by Balderton Capital"
+        }
+      ]
+    }
+  ]
+}

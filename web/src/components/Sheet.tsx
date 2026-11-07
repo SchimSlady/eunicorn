@@ -30,7 +30,7 @@ export function Sheet({ title, onClose, children }: { title: string; onClose: ()
         aria-label={title}
         tabIndex={-1}
         onClick={(e) => e.stopPropagation()}
-        className="relative max-h-[90dvh] w-full max-w-md animate-pop space-y-5 overflow-y-auto rounded-t-3xl border border-border bg-background p-5 pb-8 outline-none sm:rounded-3xl"
+        className="sheet-panel relative max-h-[90dvh] w-full max-w-md animate-pop space-y-5 overflow-y-auto rounded-t-3xl border border-border bg-background p-5 pb-8 outline-none sm:rounded-3xl"
       >
         <button
           type="button"
