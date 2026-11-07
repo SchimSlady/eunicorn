@@ -5,7 +5,7 @@ import { USD_TO_EUR, countryName, formatMonth, formatUsdAsEur, sectorLabel } fro
 import { distinctAnswers } from "../grid";
 import { TOP10_QUESTIONS, type Top10Question } from "./top10-questions";
 import { metricValue, monthIndex, type HLMetric, type WebHigherLowerPuzzle } from "../higherLower";
-import { LOCAL_MODES, REGIONS, type Region } from "../regions";
+import { REGIONS, isLocalGame, type Region } from "../regions";
 
 /**
  * Builds the day's puzzle from the verified Supabase dataset when no approved puzzle exists
@@ -57,12 +57,12 @@ const LOCAL_EXTRAS_FROM = "2026-11-07";
 const LOCAL_PROGRAMS_FROM = "2026-11-08";
 
 /**
- * A Local game: Top 10 or Higher or Lower with only the region's companies. Its own random stream
- * per region, so Munich and Berlin don't share a chain. Higher or Lower has no theme days here (the
- * region is the theme). Same puzzle number as the day's daily games.
+ * A Local game: one of the region's games (lib/regions.ts) with only the region's companies. Its own
+ * random stream per region, so Munich and Berlin don't share a chain. Higher or Lower has no theme
+ * days here (the region is the theme). Same puzzle number as the day's daily games.
  */
 function localPuzzle(mode: PlayMode, date: string, data: Dataset, region: Region): AnyPuzzle | null {
-  if (!LOCAL_MODES.includes(mode)) return null;
+  if (!isLocalGame(region, mode)) return null;
   const rng = seeded(`${date}:${mode}:${region}`);
   const base = { date, number: puzzleNumber(date), hints: [] as Hint[] };
   const companies = data.companies.filter((c) => c.european && REGIONS[region].test(c));
@@ -70,6 +70,8 @@ function localPuzzle(mode: PlayMode, date: string, data: Dataset, region: Region
     const metrics: HLMetric[] | undefined = date >= LOCAL_EXTRAS_FROM ? [...HL_METRICS, "lastRoundMonth"] : undefined;
     return higherLower(base, date, companies, rng, false, metrics);
   }
+  // Germany's Impostor: the same categories as the daily game but the country (everyone shares it).
+  if (mode === "impostor") return impostor(base, companies, rng, true);
   return localTop10(base, date, region, companies, data, rng);
 }
 
@@ -824,9 +826,13 @@ function impostorCount(rng: Rng): number {
   return r < 0.6 ? 1 : r < 0.9 ? 2 : 3;
 }
 
-function impostor(base: Base, companies: Company[], rng: Rng): (ImpostorPuzzle & { variants: ImpostorVariants }) | null {
+/**
+ * local: a Local game, whose companies all come from one country, so there are no country categories,
+ * and the impostors come from the same companies ("Based in Munich" with impostors from Berlin).
+ */
+function impostor(base: Base, companies: Company[], rng: Rng, local = false): (ImpostorPuzzle & { variants: ImpostorVariants }) | null {
   const groups: Group[] = [];
-  for (const code of unique(companies.map((c) => c.country))) {
+  for (const code of local ? [] : unique(companies.map((c) => c.country))) {
     groups.push({
       members: (c) => c.country === code,
       prompt: `From ${countryName(code)}`,

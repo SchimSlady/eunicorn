@@ -2,7 +2,7 @@ import type { PlayMode } from "@/lib/top10";
 
 import { getPuzzle } from "@/lib/server/supabase";
 import { msUntilNextPuzzle, todayKey } from "@/lib/daily";
-import { LOCAL_MODES, isRegion } from "@/lib/regions";
+import { isLocalGame, isRegion } from "@/lib/regions";
 
 const MODES: PlayMode[] = ["who-raised-this", "unicorn-grid", "higher-lower", "impostor", "top-10"];
 
@@ -14,9 +14,9 @@ const MODES: PlayMode[] = ["who-raised-this", "unicorn-grid", "higher-lower", "i
 export async function GET(req: Request, { params }: { params: Promise<{ mode: string }> }) {
   const { mode } = await params;
   if (!MODES.includes(mode as PlayMode)) return new Response(null, { status: 404 });
-  // ?region=munich: the Local tab's game for that region (Top 10 and Higher or Lower only).
+  // ?region=munich: the Local tab's game for that region (only the games the region offers, lib/regions.ts).
   const region = new URL(req.url).searchParams.get("region");
-  if (region !== null && (!isRegion(region) || !LOCAL_MODES.includes(mode as PlayMode))) return new Response(null, { status: 404 });
+  if (region !== null && (!isRegion(region) || !isLocalGame(region, mode))) return new Response(null, { status: 404 });
   const puzzle = await getPuzzle(mode as PlayMode, todayKey(), region ?? undefined);
   if (!puzzle) return new Response(null, { status: 204 });
   // The day's puzzle is the same for everyone, so the edge serves it without running this again,

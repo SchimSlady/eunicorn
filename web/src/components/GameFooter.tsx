@@ -6,14 +6,14 @@ import { usePathname } from "next/navigation";
 import { ArrowLeft, ArrowRight } from "lucide-react";
 import { getTodayResult } from "@/lib/daily";
 import { LIVE_MODES, MODE_INFO, type ModeInfo } from "@/lib/modes";
-import { LOCAL_MODES, isRegion, localPath, slotOf } from "@/lib/regions";
+import { isRegion, localModes, localPath, slotOf } from "@/lib/regions";
 import { ShareButton } from "./ShareButton";
 import { Countdown } from "./Countdown";
 
 /**
  * Share + countdown to the next puzzle, then straight on to the next live game not played today
  * (in home-page order after this one); "More games" once every game is done. After a Local game,
- * the other local game of the same region, then back to the Local tab.
+ * the next local game of the same region, then back to the Local tab.
  */
 export function GameFooter({ share, score, maxScore }: { share: string; score?: number; maxScore?: number }) {
   const pathname = usePathname();
@@ -24,7 +24,7 @@ export function GameFooter({ share, score, maxScore }: { share: string; score?: 
 
   useEffect(() => {
     if (region) {
-      const other = LOCAL_MODES.find((m) => pathname !== localPath(region, m) && !getTodayResult(slotOf(m, region)));
+      const other = localModes(region).find((m) => pathname !== localPath(region, m) && !getTodayResult(slotOf(m, region)));
       setNext(other ? { info: MODE_INFO[other], href: localPath(region, other) } : null);
       return;
     }
