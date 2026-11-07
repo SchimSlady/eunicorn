@@ -101,6 +101,11 @@ export interface Company {
   lastValuationUsd?: number;
   employees?: number;
   careersUrl?: string;
+  /**
+   * What the company does, in one short neutral sentence ("Online bank for freelancers and small
+   * businesses."), for the company overview after a game. Written by us from the company's own site.
+   */
+  tagline?: string;
   /** One-liner for the "Built in Europe" end card. */
   funFact?: string;
   /** 1 = everyone knows it, 5 = insider. Drives the Mon→Sun difficulty curve. */
