@@ -2,9 +2,10 @@
 
 import type { PlayMode } from "@/lib/top10";
 
-import { useEffect, useRef, useState } from "react";
-import { ChevronDown, ChevronUp, Lock, VenetianMask } from "lucide-react";
+import { useEffect, useLayoutEffect, useRef, useState } from "react";
+import { ArrowDown, ArrowUp, Lock, VenetianMask } from "lucide-react";
 
+import type { Region } from "@/lib/regions";
 import { Flag } from "./Flag";
 
 /** Illustrations are drawn on a fixed canvas and scaled to whatever width the card has. */
@@ -15,14 +16,49 @@ const CANVAS_H = 180;
  * Small illustration of how each mode plays, for the home cards and intro screens.
  * Decorative only: hidden from screen readers, the card text says what the mode is.
  */
-export function ModePreview({ mode }: { mode: PlayMode }) {
+export function ModePreview({ mode, region }: { mode: PlayMode; region?: Region }) {
   const Preview = PREVIEWS[mode];
   return (
     <PreviewFrame>
-      <Preview />
+      <Preview local={region ? LOCAL[region] : undefined} />
     </PreviewFrame>
   );
 }
+
+/**
+ * What a Local game's card shows instead of the Europe-wide example, so a Munich card shows Munich
+ * startups. Illustrations, not today's answers, but true to our data (Nov 2026): the Top 10 rows
+ * follow the region's last valuations, the Higher or Lower figure is the company's last valuation.
+ */
+type LocalPreview = {
+  label: string;
+  top: [string, string][];
+  hl: { prev: [string, string, string]; next: [string, string] };
+  impostor: { prompt: string; logos: string[] };
+};
+const LOCAL: Record<Region, LocalPreview> = {
+  munich: {
+    label: "Top 10 · Munich",
+    top: [["helsing.png", "Helsing"], ["personio.svg", "Personio"]],
+    hl: { prev: ["celonis.png", "Celonis", "€12.8bn"], next: ["personio.svg", "Personio"] },
+    impostor: { prompt: "Based in Munich", logos: ["celonis.png", "personio.svg", "n26.svg", "helsing.png", "flix.svg"] },
+  },
+  berlin: {
+    label: "Top 10 · Berlin",
+    top: [["trade-republic.svg", "Trade Republic"], ["n26.svg", "N26"]],
+    hl: { prev: ["n26.svg", "N26", "€7.8bn"], next: ["trade-republic.svg", "Trade Republic"] },
+    impostor: { prompt: "Based in Berlin", logos: ["n26.svg", "trade-republic.svg", "celonis.png", "delivery-hero.svg", "gorillas.svg"] },
+  },
+  germany: {
+    label: "Top 10 · Germany",
+    top: [["helsing.png", "Helsing"], ["trade-republic.svg", "Trade Republic"]],
+    hl: { prev: ["n26.svg", "N26", "€7.8bn"], next: ["celonis.png", "Celonis"] },
+    impostor: { prompt: "Based in Munich", logos: ["celonis.png", "personio.svg", "n26.svg", "helsing.png", "flix.svg"] },
+  },
+};
+
+/** useLayoutEffect in the browser, useEffect on the server (where layout effects warn). */
+const useIsomorphicLayoutEffect = typeof window === "undefined" ? useEffect : useLayoutEffect;
 
 /** The blue card canvas the previews are drawn on, scaled to the card's width. */
 export function PreviewFrame({ children }: { children: React.ReactNode }) {
@@ -30,9 +66,12 @@ export function PreviewFrame({ children }: { children: React.ReactNode }) {
   // null until measured, so the unscaled canvas never flashes on first paint.
   const [scale, setScale] = useState<number | null>(null);
 
-  useEffect(() => {
+  // Measured before the first paint in the browser (no empty blue card while a ResizeObserver
+  // callback is pending), then kept up to date as the card resizes.
+  useIsomorphicLayoutEffect(() => {
     const el = ref.current;
     if (!el) return;
+    setScale(el.getBoundingClientRect().width / CANVAS_W);
     const observer = new ResizeObserver(([entry]) => setScale(entry.contentRect.width / CANVAS_W));
     observer.observe(el);
     return () => observer.disconnect();
@@ -147,45 +186,48 @@ function UnicornGridPreview() {
   );
 }
 
-function HigherLowerPreview() {
+function HigherLowerPreview({ local }: { local?: LocalPreview }) {
+  const [prevLogo, prevName, prevValue] = local?.hl.prev ?? ["n26.svg", "N26", "€7.8bn"];
+  const [nextLogo, nextName] = local?.hl.next ?? ["personio.svg", "Personio"];
   return (
     <div className="w-full max-w-[220px] text-[12px]">
       <div className="flex items-center gap-2 rounded-lg bg-white/10 p-2">
-        <Tile logo="n26.svg" size={30} />
+        <Tile logo={prevLogo} size={30} />
         <span className="flex-1">
           <span className="block text-[10px] text-white/70">Previous</span>
-          <span className="font-semibold">N26</span>
+          <span className="font-semibold">{prevName}</span>
         </span>
-        <span className="font-display text-sm font-bold">€7.8bn</span>
+        <span className="font-display text-sm font-bold">{prevValue}</span>
       </div>
       <p className="py-0.5 text-center text-[10px] font-semibold text-white/60">then</p>
       <div className="flex items-center gap-2 rounded-lg border-2 border-white/80 bg-white/10 p-2">
-        <Tile logo="personio.svg" size={30} />
+        <Tile logo={nextLogo} size={30} />
         <span className="flex-1">
           <span className="block text-[10px] text-white/70">Next</span>
-          <span className="font-semibold">Personio</span>
+          <span className="font-semibold">{nextName}</span>
         </span>
         <span className="font-display text-sm font-bold text-eu-yellow">?</span>
       </div>
+      {/* Arrows only, like the game's buttons: their words change with the day's question (more / less, earlier / later). */}
       <div className="mt-2 grid grid-cols-2 gap-2">
-        <span className="flex items-center justify-center gap-1 rounded-full bg-eu-yellow py-1 text-[11px] font-bold text-eu-blue">
-          <ChevronUp size={14} /> Higher
+        <span className="flex items-center justify-center rounded-full border-2 border-white/80 py-1 text-eu-yellow">
+          <ArrowUp size={14} strokeWidth={2.5} />
         </span>
-        <span className="flex items-center justify-center gap-1 rounded-full bg-eu-yellow py-1 text-[11px] font-bold text-eu-blue">
-          <ChevronDown size={14} /> Lower
+        <span className="flex items-center justify-center rounded-full border-2 border-white/80 py-1 text-eu-yellow">
+          <ArrowDown size={14} strokeWidth={2.5} />
         </span>
       </div>
     </div>
   );
 }
 
-function ImpostorPreview() {
+function ImpostorPreview({ local }: { local?: LocalPreview }) {
   // Five tiles on a circle around the category; one is the impostor.
-  const logos = ["revolut.svg", "klarna.svg", "spotify.svg", "n26.svg", "monzo.svg"];
+  const logos = local?.impostor.logos ?? ["revolut.svg", "klarna.svg", "spotify.svg", "n26.svg", "monzo.svg"];
   return (
     <div className="relative h-36 w-36">
       <span className="absolute inset-0 m-auto flex h-14 w-20 items-center justify-center rounded-lg bg-white/10 px-1 text-center text-[11px] font-semibold leading-tight">
-        European fintechs
+        {local?.impostor.prompt ?? "European fintechs"}
       </span>
       {logos.map((logo, i) => {
         const a = -Math.PI / 2 + (i * 2 * Math.PI) / logos.length;
@@ -207,18 +249,19 @@ function ImpostorPreview() {
   );
 }
 
-function Top10Preview() {
+function Top10Preview({ local }: { local?: LocalPreview }) {
   // Ranks with some found (logo + name) and some still open; Europe by valuation in our data.
+  const [first, third] = local?.top ?? [["revolut.svg", "Revolut"], ["mistral-ai.svg", "Mistral AI"]];
   const rows: Array<{ n: number; logo?: string; name?: string }> = [
-    { n: 1, logo: "revolut.svg", name: "Revolut" },
+    { n: 1, logo: first[0], name: first[1] },
     { n: 2 },
-    { n: 3, logo: "mistral-ai.svg", name: "Mistral AI" },
+    { n: 3, logo: third[0], name: third[1] },
     { n: 4 },
     { n: 5 },
   ];
   return (
     <div className="w-full max-w-[200px] text-[11px]">
-      <p className="mb-1.5 text-center text-[10px] font-semibold uppercase tracking-wide text-eu-yellow">Most valuable in Europe</p>
+      <p className="mb-1.5 text-center text-[10px] font-semibold uppercase tracking-wide text-eu-yellow">{local?.label ?? "Most valuable in Europe"}</p>
       <div className="space-y-1">
         {rows.map(({ n, logo, name }) => (
           <div key={n} className={`flex h-6 items-center gap-2 rounded-md px-1.5 ${name ? "bg-white/15" : "border border-dashed border-white/30"}`}>
@@ -232,7 +275,7 @@ function Top10Preview() {
   );
 }
 
-const PREVIEWS: Record<PlayMode, () => React.JSX.Element> = {
+const PREVIEWS: Record<PlayMode, (props: { local?: LocalPreview }) => React.JSX.Element> = {
   "top-10": Top10Preview,
   "who-raised-this": WhoRaisedThisPreview,
   "unicorn-grid": UnicornGridPreview,

@@ -17,6 +17,7 @@
     "James Meekings",
     "Andrew Mullinger"
   ],
+  "funFact": "Funding Circle's founders, friends from Oxford, first discussed the idea of a peer-to-peer lending marketplace in a pub in 2008.",
   "difficulty": 2,
   "techeuId": "a91121cf-25f2-47d0-91b7-8c835c2b471e",
   "exit": {
@@ -58,6 +59,11 @@
       "field": "valuation",
       "url": "https://techcrunch.com/2018/09/28/funding-circle-ipo/",
       "quote": "gives the company a market cap of £1.504 billion"
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://en.wikipedia.org/wiki/Funding_Circle",
+      "quote": "Samir Desai, James Meekings and Andrew Mullinger, friends from University of Oxford , first discussed the idea of a peer-to-peer lending marketplace in a public house in 2008."
     },
     {
       "field": "exit",

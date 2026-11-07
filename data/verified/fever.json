@@ -20,6 +20,7 @@
     "Ignacio Bachiller",
     "Pep Gomez"
   ],
+  "funFact": "Fever's Candlelight concert series began in Madrid in 2019 and had spread to over 100 cities by 2023.",
   "difficulty": 2,
   "techeuId": "dafe610c-c4e6-4c69-a9c2-ae1f4b8a9488",
   "sources": [
@@ -57,6 +58,11 @@
       "field": "valuation",
       "url": "https://ga-p.com/en/news/gomez-acebo-pombo-advises-eqt-on-its-250m-investment-in-fever/",
       "quote": "approximately $5.2 billion (€4.5 billion)"
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://calgaryjournal.ca/2023/03/14/candlelight-concerts-light-up-the-city/",
+      "quote": "The first Candlelight Concert took place in Madrid in 2019, but it has since spread to over 100 cities across the globe, including in Calgary in 2020."
     }
   ],
   "rounds": [

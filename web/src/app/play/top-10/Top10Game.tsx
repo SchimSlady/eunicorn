@@ -103,6 +103,7 @@ export function Top10Game({ region }: { region?: Region } = {}) {
         mode={MODE}
         subtitle={subtitle}
         back={back}
+        region={region}
         onStart={(d) => {
           saveDifficulty(d);
           const fresh: Progress = { difficulty: d, guesses: [], hintsUsed: 0, gaveUp: false };
