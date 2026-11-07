@@ -20,7 +20,7 @@
     "Lukas Heinzmann",
     "Till Wagner"
   ],
-  "difficulty": 5,
+  "difficulty": 3,
   "programs": [
     {
       "id": "y-combinator"
