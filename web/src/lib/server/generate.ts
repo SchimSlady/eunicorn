@@ -853,17 +853,16 @@ function optionCount(rng: Rng): number {
 
 /** How many impostors: mostly one, now and then two or three. */
 /**
- * From this day on a big circle hides more impostors (one in nine was too easy to spot): six or seven
- * options mostly one or two, eight or nine mostly two or three. Earlier days keep their puzzle.
+ * From this day on every circle hides at least two impostors (one was too easy to spot): six or seven
+ * options two, eight two or three, nine mostly three. Earlier days keep their puzzle.
  */
 const IMPOSTOR_SCALED_FROM = "2026-11-08";
 
 function impostorsFor(options: number, rng: Rng): number {
   const r = rng();
-  if (options <= 6) return r < 0.6 ? 1 : 2;
-  if (options === 7) return r < 0.3 ? 1 : 2;
+  if (options <= 7) return 2;
   if (options === 8) return r < 0.6 ? 2 : 3;
-  return r < 0.4 ? 2 : 3;
+  return r < 0.35 ? 2 : 3;
 }
 
 function impostorCount(rng: Rng): number {
@@ -949,14 +948,20 @@ function impostor(base: Base, companies: Company[], rng: Rng, local = false): (I
       for (const g of shuffle(groups, rng)) {
         const fits = pool.filter(g.members);
         // As many options as the wish, or as many as this category can fill (but at least six).
-        const options = Math.min(wanted, fits.length + n);
+        let options = Math.min(wanted, fits.length + n);
+        // A small category shrinks the circle; on six or seven, two impostors (not three of six).
+        let k = n;
+        if (scaled && options <= 7 && n > 2) {
+          k = 2;
+          options = Math.min(wanted, fits.length + k);
+        }
         if (options < IMPOSTOR_MIN_OPTIONS) continue;
         // The impostors are from the tier too; a category the whole tier shares (e.g. all unicorns) takes anyone else.
         const inTier = pool.filter((c) => !g.members(c));
-        const outsiders = inTier.length >= n ? inTier : companies.filter((c) => !g.members(c));
-        if (outsiders.length < n) continue;
-        const fit = pickN(fits, options - n, rng);
-        const imps = pickN(outsiders, n, rng);
+        const outsiders = inTier.length >= k ? inTier : companies.filter((c) => !g.members(c));
+        if (outsiders.length < k) continue;
+        const fit = pickN(fits, options - k, rng);
+        const imps = pickN(outsiders, k, rng);
         const first = imps[0];
         return {
           prompt: `${g.prompt}: Find the impostors`, // never how many: the game ends when all are found

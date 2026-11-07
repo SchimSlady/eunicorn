@@ -211,16 +211,69 @@ export async function getDataset(): Promise<(Omit<Dataset, "rounds"> & { rounds:
 export async function getPuzzle(mode: PlayMode, date: string, region?: Region): Promise<AnyPuzzle | null> {
   // Top 10 is web-only for now: the puzzles table's mode enum doesn't know it, so it's always generated.
   // Local games (one region's startups) are always generated too: approved puzzles are the daily ones.
-  if (mode === "top-10" || region) {
-    const data = await getDataset();
-    return data ? generatePuzzle(mode, date, data, region) : null;
-  }
+  if (mode === "top-10" || region) return generatedPuzzle(mode, date, region);
   const rows = await select<{ payload: Puzzle }>(
     `puzzles?select=payload&mode=eq.${encodeURIComponent(mode)}&date=eq.${encodeURIComponent(date)}&limit=1`,
   );
   if (rows?.[0]?.payload) return rows[0].payload;
+  return generatedPuzzle(mode, date);
+}
+
+/**
+ * A generated puzzle, frozen for the day (supabase/migrations/*_daily_puzzles.sql): the first request
+ * stores what the generator made, every later one reads that back, so data loaded during the day can't
+ * swap the board under players who already started. Without the table or the secret key (local
+ * development) it simply generates, as before.
+ */
+async function generatedPuzzle(mode: PlayMode, date: string, region?: Region): Promise<AnyPuzzle | null> {
+  const stored = await readFrozen(mode, date, region);
+  if (stored) return stored;
   const data = await getDataset();
-  return data ? generatePuzzle(mode, date, data) : null;
+  const puzzle = data ? generatePuzzle(mode, date, data, region) : null;
+  if (!puzzle) return null;
+  // Two first requests at once: both write, the database keeps the first, and both return what it kept.
+  if (await writeFrozen(mode, date, region, puzzle)) return (await readFrozen(mode, date, region)) ?? puzzle;
+  return puzzle;
+}
+
+const frozenWhere = (mode: PlayMode, date: string, region?: Region) =>
+  `date=eq.${encodeURIComponent(date)}&mode=eq.${encodeURIComponent(mode)}&region=eq.${encodeURIComponent(region ?? "")}`;
+
+async function readFrozen(mode: PlayMode, date: string, region?: Region): Promise<AnyPuzzle | null> {
+  const url = process.env.SUPABASE_URL;
+  const key = process.env.SUPABASE_PUBLISHABLE_KEY;
+  if (!url || !key) return null;
+  try {
+    // Not cached: a puzzle frozen a second ago must be found, or it would be generated (and differ) again.
+    const res = await fetch(`${url}/rest/v1/daily_puzzles?select=payload&${frozenWhere(mode, date, region)}&limit=1`, {
+      headers: { apikey: key },
+      cache: "no-store",
+    });
+    if (!res.ok) return null; // e.g. the table isn't there yet
+    const rows = (await res.json()) as { payload: AnyPuzzle }[];
+    return rows[0]?.payload ?? null;
+  } catch {
+    return null;
+  }
+}
+
+async function writeFrozen(mode: PlayMode, date: string, region: Region | undefined, payload: AnyPuzzle): Promise<boolean> {
+  const url = process.env.SUPABASE_URL;
+  const key = process.env.SUPABASE_SECRET_KEY;
+  if (!url || !key) return false;
+  try {
+    const res = await fetch(`${url}/rest/v1/daily_puzzles?on_conflict=date,mode,region`, {
+      method: "POST",
+      headers: { apikey: key, Authorization: `Bearer ${key}`, "Content-Type": "application/json", Prefer: "resolution=ignore-duplicates,return=minimal" },
+      body: JSON.stringify({ date, mode, region: region ?? "", payload }),
+      cache: "no-store",
+    });
+    if (!res.ok) console.error(`Freezing ${mode}${region ? `@${region}` : ""} ${date}: ${res.status} ${await res.text()}`);
+    return res.ok;
+  } catch (err) {
+    console.error(`Freezing ${mode} ${date}:`, err);
+    return false;
+  }
 }
 
 /* ---------- anonymous play counter (supabase/migrations/*_play_stats.sql) ---------- */

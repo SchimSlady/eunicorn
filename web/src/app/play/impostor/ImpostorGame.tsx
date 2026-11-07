@@ -97,7 +97,7 @@ export function ImpostorGame({ region }: { region?: Region } = {}) {
     loadGame<Puzzle>(MODE, region).then(({ puzzle: p, data: d }) => {
       setData(d);
       setPuzzle(p);
-      if (p) setProgress(normalise(loadProgress<Progress>(slot, p.date)));
+      if (p) setProgress(normalise(loadProgress<Progress>(slot, p.date, p)));
     });
   }, [region, slot]);
 
@@ -176,9 +176,9 @@ export function ImpostorGame({ region }: { region?: Region } = {}) {
       />
 
       {/* The companies on a circle around the category; click the ones that don't belong; each click is judged at once. */}
-      <div className="relative mx-auto aspect-square w-full max-w-[420px]">
+      <div className="relative mx-auto aspect-square w-full max-w-[460px]">
         <span aria-hidden className="absolute inset-[13%] rounded-full border-2 border-dashed border-border" />
-        <p className="absolute inset-[29%] flex items-center justify-center rounded-full bg-eu-blue p-3 text-center font-display text-sm font-bold leading-snug text-white sm:text-base">
+        <p className="absolute inset-[30%] flex items-center justify-center rounded-full bg-eu-blue p-3 text-center font-display text-sm font-bold leading-snug text-white sm:text-base">
           {play.prompt}
         </p>
         <ul>
@@ -202,7 +202,7 @@ export function ImpostorGame({ region }: { region?: Region } = {}) {
             const face = (
               <>
               <span className={`relative rounded-[22%] ring-[3px] transition ${ring}`}>
-                <CompanyLogo company={c} size={many ? 46 : 60} />
+                <CompanyLogo company={c} size={many ? 58 : 72} />
                 {(done || picked || cleared.has(id)) && (
                   <span
                     className={`absolute -right-2 -top-2 flex h-6 w-6 items-center justify-center rounded-full ${
@@ -228,7 +228,7 @@ export function ImpostorGame({ region }: { region?: Region } = {}) {
             return (
               <li
                 key={id}
-                className={`absolute -translate-x-1/2 -translate-y-1/2 ${many ? "w-[22%]" : "w-[30%]"}`}
+                className={`absolute -translate-x-1/2 -translate-y-1/2 ${many ? "w-[24%]" : "w-[30%]"}`}
                 style={{ left: `${50 + r * Math.cos(a)}%`, top: `${50 + r * Math.sin(a)}%` }}
               >
                 {done ? (
