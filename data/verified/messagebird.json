@@ -16,6 +16,11 @@
   "lastValuationEur": 3148301574,
   "founders": [],
   "difficulty": 3,
+  "programs": [
+    {
+      "id": "y-combinator"
+    }
+  ],
   "techeuId": "DE34BA9F-8C55-4B9D-8616-4981EF5AA7BA",
   "sources": [
     {
@@ -42,6 +47,11 @@
       "field": "valuation",
       "url": "https://www.cnbc.com/2021/04/28/messagebird-acquires-us-email-startup-sparkpost-to-take-on-twilio.html",
       "quote": "gives the company a valuation of $3.8 billion."
+    },
+    {
+      "field": "programs",
+      "url": "https://tech.eu/2021/04/28/amsterdams-messagebird-extends-series-c-round-raises-1-billion-snaps-up-us-based-sparkpost-for-600-million/",
+      "quote": "The transaction was financed by Eurazeo , Tiger Global , BlackRock , and Owl Rock . Existing investors including Atomico , Accel , Spark Capital , and Y Combinator all participated."
     }
   ],
   "rounds": [

@@ -18,6 +18,11 @@
     "Tobias Kemkes"
   ],
   "difficulty": 5,
+  "programs": [
+    {
+      "id": "y-combinator"
+    }
+  ],
   "techeuId": "FBA2128F-F4E2-4286-A8E5-CB07B281D136",
   "sources": [
     {
@@ -49,6 +54,11 @@
       "field": "unicorn",
       "url": "https://siliconangle.com/2024/04/19/langdock-reels-3m-llm-agnostic-enterprise-chatbot/",
       "quote": "has raised $3 million in seed funding"
+    },
+    {
+      "field": "programs",
+      "url": "https://codelabsacademy.com/en/news/langdock-secures-dollar3m-funding-to-improve-ai-usage-in-the-corporate-world-2024-4-24",
+      "quote": "raised seed money recently from Y Combinator, La Famiglia, and a number of well-known German businessmen, including Rolf Schrömgens (Trivago) and Hanno Renner (Personio)"
     }
   ],
   "rounds": [

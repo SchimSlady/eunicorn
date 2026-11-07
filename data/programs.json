@@ -1,0 +1,9 @@
+{
+  "_note": "Programs a company can have gone through (data/verified/<id>.json -> programs). kind: accelerator | fellowship | university. A university program (CDTM) means the company was founded by its alumni. Loaded into Supabase by data/scripts/load-verified.ts.",
+  "programs": [
+    { "id": "y-combinator", "name": "Y Combinator", "kind": "accelerator", "url": "https://www.ycombinator.com" },
+    { "id": "antler", "name": "Antler", "kind": "accelerator", "url": "https://www.antler.co" },
+    { "id": "ewor", "name": "EWOR", "kind": "fellowship", "url": "https://www.ewor.com" },
+    { "id": "cdtm", "name": "CDTM", "kind": "university", "url": "https://www.cdtm.com" }
+  ]
+}

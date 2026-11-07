@@ -20,6 +20,11 @@
     "Fabian Rothfuß"
   ],
   "difficulty": 5,
+  "programs": [
+    {
+      "id": "y-combinator"
+    }
+  ],
   "techeuId": "83A77D6E-1919-482E-B35D-F2D9F5E01447",
   "sources": [
     {
@@ -46,6 +51,11 @@
       "field": "unicorn",
       "url": "https://www.invest-in.berlin/n/kombo-raises-25m-to-fix-hr-data-fragmentation/",
       "quote": "That brings total funding to $30M since the company launched in 2022."
+    },
+    {
+      "field": "programs",
+      "url": "https://www.invest-in.berlin/n/kombo-raises-25m-to-fix-hr-data-fragmentation/",
+      "quote": "with continued backing from Acadian Ventures, 468 Capital, and Y Combinator"
     }
   ],
   "rounds": [
