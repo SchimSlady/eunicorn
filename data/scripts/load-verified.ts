@@ -68,6 +68,11 @@ const logoPath = (id: string) => {
 const programs = (JSON.parse(readFileSync(join(import.meta.dirname, "../programs.json"), "utf8")) as {
   programs: { id: string; name: string; kind: string; url?: string }[];
 }).programs;
+// Program logo: /logos/programs/<id>.svg|png when the file exists, else null.
+const programLogo = (id: string) => {
+  const file = ["svg", "png"].map((ext) => `${id}.${ext}`).find((f) => existsSync(join(logosDir, "programs", f)));
+  return file ? `/logos/programs/${file}` : null;
+};
 
 const only = process.argv[2];
 const files = readdirSync(dir).filter((f) => f.endsWith(".json") && (!only || f === `${only}.json`));
@@ -76,9 +81,9 @@ let rounds = 0;
 try {
   for (const p of programs) {
     await db.query(
-      `insert into public.programs (id, name, kind, url) values ($1, $2, $3, $4)
-       on conflict (id) do update set name = excluded.name, kind = excluded.kind, url = excluded.url`,
-      [p.id, p.name, p.kind, p.url ?? null]);
+      `insert into public.programs (id, name, kind, url, logo) values ($1, $2, $3, $4, $5)
+       on conflict (id) do update set name = excluded.name, kind = excluded.kind, url = excluded.url, logo = excluded.logo`,
+      [p.id, p.name, p.kind, p.url ?? null, programLogo(p.id)]);
   }
   for (const file of files) {
     const c: VerifiedCompany = JSON.parse(readFileSync(join(dir, file), "utf8"));
