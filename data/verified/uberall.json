@@ -1,0 +1,156 @@
+{
+  "id": "uberall",
+  "name": "Uberall",
+  "aliases": [],
+  "domain": "uberall.com",
+  "country": "DE",
+  "city": "Berlin",
+  "founded": 2013,
+  "sectors": [
+    "saas"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "David Federhen",
+    "Florian Hübner"
+  ],
+  "difficulty": 4,
+  "techeuId": "62A55A49-1A24-48AD-86C2-10A9C5A07282",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.bregal.com/news/location-marketing-saas-champion-uberall-secures-a-115-million-growth-investment-led-by-bregal-milestone/",
+      "quote": "Since its founding in Berlin in 2013 by long time friends and co-founders David Federhen and Florian Hübner"
+    },
+    {
+      "field": "founded",
+      "url": "https://www.bregal.com/news/location-marketing-saas-champion-uberall-secures-a-115-million-growth-investment-led-by-bregal-milestone/",
+      "quote": "Since its founding in Berlin in 2013 by long time friends and co-founders David Federhen and Florian Hübner"
+    },
+    {
+      "field": "founders",
+      "url": "https://www.bregal.com/news/location-marketing-saas-champion-uberall-secures-a-115-million-growth-investment-led-by-bregal-milestone/",
+      "quote": "Since its founding in Berlin in 2013 by long time friends and co-founders David Federhen and Florian Hübner"
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.bregal.com/news/location-marketing-saas-champion-uberall-secures-a-115-million-growth-investment-led-by-bregal-milestone/",
+      "quote": "Uberall, the global 'Near Me' customer experience SaaS platform"
+    },
+    {
+      "field": "status",
+      "url": "https://uberall.com/en-us/company/news-press/uberall-raises-115m-signs-agreement-to-acquire-momentfeed",
+      "quote": "Uberall , a global leader in location marketing solutions announced today it received a capital investment of $115 million"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://uberall.com/en-us/company/news-press/uberall-raises-115m-signs-agreement-to-acquire-momentfeed",
+      "quote": "Uberall , a global leader in location marketing solutions announced today it received a capital investment of $115 million"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-b",
+      "month": "2018-02",
+      "amountEur": 20065816,
+      "amountOriginal": 25000000.0,
+      "currency": "USD",
+      "investors": [
+        "HPE Growth Capital",
+        "Project A",
+        "United Internet"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2018/02/01/uberall/",
+          "quote": "has picked up $25 million in Series B funding. Leading the round is HPE Growth Capital, who join existing investors that include Project A, and United Internet."
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2018/02/01/uberall/",
+          "quote": "has picked up $25 million in Series B funding. Leading the round is HPE Growth Capital, who join existing investors that include Project A, and United Internet."
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2018/02/01/uberall/",
+          "quote": "February 1, 2018"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2018/02/01/uberall/",
+          "quote": "has picked up $25 million in Series B funding. Leading the round is HPE Growth Capital, who join existing investors that include Project A, and United Internet."
+        }
+      ]
+    },
+    {
+      "stage": "series-b",
+      "month": "2018-09",
+      "amountEur": 21488740,
+      "amountOriginal": 25000000.0,
+      "currency": "USD",
+      "investors": [
+        "HPE Growth Capital",
+        "Project A",
+        "United Internet"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2018/09/06/uberall-navads/",
+          "quote": "Uberall has secured an additional $25 million investment as an extension of February's Series B round"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2018/09/06/uberall-navads/",
+          "quote": "Uberall has secured an additional $25 million investment as an extension of February's Series B round"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2018/09/06/uberall-navads/",
+          "quote": "September 6, 2018"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2018/09/06/uberall-navads/",
+          "quote": "Existing investors HPE Growth Capital, Project A, and United Internet all participated in the $25 million extension, which was led by HPE Growth Capital."
+        }
+      ]
+    },
+    {
+      "stage": "series-c",
+      "month": "2021-06",
+      "amountEur": 94463611,
+      "amountOriginal": 115000000.0,
+      "currency": "USD",
+      "investors": [
+        "Bregal Milestone",
+        "Level Equity",
+        "United Internet"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.bregal.com/news/location-marketing-saas-champion-uberall-secures-a-115-million-growth-investment-led-by-bregal-milestone/",
+          "quote": "today announces that it has entered into an agreement to raise a $115 million Series C growth investment led by Bregal Milestone"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.bregal.com/news/location-marketing-saas-champion-uberall-secures-a-115-million-growth-investment-led-by-bregal-milestone/",
+          "quote": "today announces that it has entered into an agreement to raise a $115 million Series C growth investment led by Bregal Milestone"
+        },
+        {
+          "field": "month",
+          "url": "https://www.bregal.com/news/location-marketing-saas-champion-uberall-secures-a-115-million-growth-investment-led-by-bregal-milestone/",
+          "quote": "Berlin, Germany; London, United Kingdom, 10 June 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://uberall.com/en-us/company/news-press/uberall-raises-115m-signs-agreement-to-acquire-momentfeed",
+          "quote": "received a capital investment of $115 million led by Bregal Milestone, Level Equity, United Internet and Uberall management"
+        }
+      ]
+    }
+  ]
+}

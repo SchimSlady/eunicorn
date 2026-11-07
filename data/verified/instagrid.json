@@ -1,0 +1,136 @@
+{
+  "id": "instagrid",
+  "name": "Instagrid",
+  "aliases": [
+    "instagrid"
+  ],
+  "domain": "instagrid.co",
+  "country": "DE",
+  "city": "Ludwigsburg",
+  "founded": 2018,
+  "sectors": [
+    "climate"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Andreas Sedlmayr",
+    "Sebastian Berning"
+  ],
+  "difficulty": 4,
+  "techeuId": "A0699A64-293A-4A69-B4F4-6E1EBBC059E4",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://siliconcanals.com/instagrid-bags-87-4m/",
+      "quote": "Ludwigsburg-based Instagrid , a provider of high-performance portable battery systems, announced that it has secured $95M"
+    },
+    {
+      "field": "founded",
+      "url": "https://siliconcanals.com/instagrid-bags-87-4m/",
+      "quote": "Founded in 2018 by Andreas Sedlmayr and Sebastian Berning, Instagrid specialises in mobile o"
+    },
+    {
+      "field": "founders",
+      "url": "https://siliconcanals.com/instagrid-bags-87-4m/",
+      "quote": "Founded in 2018 by Andreas Sedlmayr and Sebastian Berning"
+    },
+    {
+      "field": "sectors",
+      "url": "https://siliconcanals.com/instagrid-bags-87-4m/",
+      "quote": "Instagrid, offering a sustainable alternative to fossil fuel generators, has shipped nearly 30,000 units of its flagship product to 29 countries"
+    },
+    {
+      "field": "status",
+      "url": "https://siliconcanals.com/instagrid-bags-87-4m/",
+      "quote": "Instagrid claims that its revenues more than doubled in 2023."
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-b",
+      "month": "2022-02",
+      "amountEur": 28858767,
+      "amountOriginal": 33000000,
+      "currency": "USD",
+      "investors": [
+        "Energy Impact Partners",
+        "SET Ventures",
+        "Segnalita Ventures",
+        "blueworld.group",
+        "High-Tech Gründerfonds",
+        "Wille Finance AG",
+        "Pierre-Pascal Urbon"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.htgf.de/en/htgf-financing-instagrid/",
+          "quote": "announced today its Series B financing of approximately $33 million (€29 million)"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.htgf.de/en/htgf-financing-instagrid/",
+          "quote": "announced today its Series B financing of approximately $33 million (€29 million)"
+        },
+        {
+          "field": "month",
+          "url": "https://www.htgf.de/en/htgf-financing-instagrid/",
+          "quote": "Ludwigsburg, 09.02.2022"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.htgf.de/en/htgf-financing-instagrid/",
+          "quote": "All existing investors participated in this financing round, including SET Ventures, Segnalita Ventures, blueworld group, High-Tech Gründerfonds and Wille Finance AG."
+        },
+        {
+          "field": "investors",
+          "url": "https://www.htgf.de/en/htgf-financing-instagrid/",
+          "quote": "The round is being led by Energy Impact Partners (EIP)"
+        }
+      ]
+    },
+    {
+      "stage": "series-c",
+      "month": "2024-01",
+      "amountEur": 87380427,
+      "amountOriginal": 95000000,
+      "currency": "USD",
+      "investors": [
+        "Teachers' Venture Growth",
+        "Morgan Stanley Investment Management",
+        "Energy Impact Partners",
+        "SET Ventures",
+        "blueworld.group",
+        "High-Tech Gründerfonds"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://siliconcanals.com/instagrid-bags-87-4m/",
+          "quote": "announced that it has secured $95M (nearly €87.43M) in a Series C round of funding"
+        },
+        {
+          "field": "stage",
+          "url": "https://siliconcanals.com/instagrid-bags-87-4m/",
+          "quote": "announced that it has secured $95M (nearly €87.43M) in a Series C round of funding"
+        },
+        {
+          "field": "month",
+          "url": "https://siliconcanals.com/instagrid-bags-87-4m/",
+          "quote": "Published Jan 23, 2024"
+        },
+        {
+          "field": "investors",
+          "url": "https://siliconcanals.com/instagrid-bags-87-4m/",
+          "quote": "The investment was led by Teachers’ Venture Growth (TVG) from the Ontario Teachers’ Pension Plan, along with participation from Morgan Stanley Investment Management’s 1GT climate private equity strategy."
+        },
+        {
+          "field": "investors",
+          "url": "https://siliconcanals.com/instagrid-bags-87-4m/",
+          "quote": "Existing investors include Energy Impact Partners, SET Ventures, blueworld.group, Hightech Gründerfonds"
+        }
+      ]
+    }
+  ]
+}

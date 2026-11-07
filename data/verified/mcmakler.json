@@ -1,0 +1,154 @@
+{
+  "id": "mcmakler",
+  "name": "McMakler",
+  "aliases": [],
+  "domain": "mcmakler.de",
+  "country": "DE",
+  "city": "Berlin",
+  "founded": 2015,
+  "sectors": [
+    "proptech"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Hanno Heintzenberg",
+    "Lukas Pieczonka",
+    "Felix Jahn"
+  ],
+  "difficulty": 3,
+  "techeuId": "20510320-762A-4332-BB2F-38F1890EEAE7",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://de.wikipedia.org/wiki/McMakler",
+      "quote": "Gegründet wurde das Unternehmen 2015 in Berlin von Hanno Heintzenberg und Lukas Pieczonka sowie Felix Jahn"
+    },
+    {
+      "field": "founded",
+      "url": "https://de.wikipedia.org/wiki/McMakler",
+      "quote": "Gegründet wurde das Unternehmen 2015 in Berlin von Hanno Heintzenberg und Lukas Pieczonka sowie Felix Jahn"
+    },
+    {
+      "field": "founders",
+      "url": "https://de.wikipedia.org/wiki/McMakler",
+      "quote": "Gegründet wurde das Unternehmen 2015 in Berlin von Hanno Heintzenberg und Lukas Pieczonka sowie Felix Jahn"
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.startbase.de/news/mcmakler-erhaelt-50-millionen-euro/",
+      "quote": "Das Berliner Immobilien-Start-up McMakler"
+    },
+    {
+      "field": "status",
+      "url": "https://www.startbase.de/news/mcmakler-schliesst-20-mio-eur-finanzierungsrunde-ab/",
+      "quote": "Das Immobilienunternehmen McMakler hat eine erfolgreiche Finanzierungsrunde abgeschlossen, angeführt von seinem Bestandsinvestor Baillie Gifford."
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-b",
+      "month": "2017-05",
+      "amountEur": 16000000,
+      "amountOriginal": 16000000,
+      "currency": "EUR",
+      "investors": [
+        "Frog Capital",
+        "Piton Capital",
+        "Mutschler Ventures",
+        "Cavalry Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2017/05/23/mcmakler-raises-funds/",
+          "quote": "has raised €16 million from previous investors, including British investor Frog Capital, Piton Capital, Mutschler Ventures and Cavalry Ventures."
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2017/05/23/mcmakler-raises-funds/",
+          "quote": "23 May 2017"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2017/05/23/mcmakler-raises-funds/",
+          "quote": "has raised €16 million from previous investors, including British investor Frog Capital, Piton Capital, Mutschler Ventures and Cavalry Ventures."
+        }
+      ]
+    },
+    {
+      "stage": "series-d",
+      "month": "2022-01",
+      "amountEur": 50000000,
+      "amountOriginal": 50000000,
+      "currency": "EUR",
+      "investors": [
+        "Baillie Gifford",
+        "Warburg Pincus",
+        "Hollyport Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.startbase.de/news/mcmakler-erhaelt-50-millionen-euro/",
+          "quote": "Das Berliner Immobilien-Start-up McMakler hat laut dem Handelsblatt weitere 50 Millionen Euro eingesammelt."
+        },
+        {
+          "field": "month",
+          "url": "https://www.startbase.de/news/mcmakler-erhaelt-50-millionen-euro/",
+          "quote": "Stuttgart, 10. Januar 2022"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.startbase.de/news/mcmakler-erhaelt-50-millionen-euro/",
+          "quote": "Zu den Investoren gehören die schottische Investment-Management-Firma Baillie Gifford, die neu eingestiegen ist und das US-amerikanische Private-Equity -Unternehmen Warburg Pincus und ein Bestandsinvestor."
+        },
+        {
+          "field": "stage",
+          "url": "https://www.osborneclarke.com/news/osborne-clarke-advises-warburg-pincus-series-d-financing-round-mcmakler",
+          "quote": "Osborne Clarke has advised Warburg Pincus and Hollyport Capital on McMakler's mid-double-digit million Series D financing round."
+        },
+        {
+          "field": "investors",
+          "url": "https://www.osborneclarke.com/news/osborne-clarke-advises-warburg-pincus-series-d-financing-round-mcmakler",
+          "quote": "Osborne Clarke has advised Warburg Pincus and Hollyport Capital on McMakler's mid-double-digit million Series D financing round."
+        }
+      ]
+    },
+    {
+      "stage": "series-e",
+      "month": "2023-07",
+      "amountEur": 20000000,
+      "amountOriginal": 20000000,
+      "currency": "EUR",
+      "investors": [
+        "Baillie Gifford",
+        "Warburg Pincus",
+        "Frog Capital",
+        "IGP Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.startbase.de/news/mcmakler-schliesst-20-mio-eur-finanzierungsrunde-ab/",
+          "quote": "Das Volumen der Finanzierung beläuft sich auf rund 20 Millionen Euro."
+        },
+        {
+          "field": "month",
+          "url": "https://www.startbase.de/news/mcmakler-schliesst-20-mio-eur-finanzierungsrunde-ab/",
+          "quote": "Stuttgart, 03. Juli 2023"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.startbase.de/news/mcmakler-schliesst-20-mio-eur-finanzierungsrunde-ab/",
+          "quote": "angeführt von seinem Bestandsinvestor Baillie Gifford"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.startbase.de/news/mcmakler-schliesst-20-mio-eur-finanzierungsrunde-ab/",
+          "quote": "Auch andere bestehende Investoren wie Warburg Pincus, Frog Capital und IGP Capital beteiligten sich an der Runde."
+        }
+      ]
+    }
+  ]
+}

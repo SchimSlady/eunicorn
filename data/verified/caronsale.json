@@ -1,0 +1,129 @@
+{
+  "id": "caronsale",
+  "name": "CarOnSale",
+  "aliases": [
+    "COS",
+    "Caronsale"
+  ],
+  "domain": "caronsale.com",
+  "country": "DE",
+  "city": "Nuremberg",
+  "founded": 2018,
+  "sectors": [
+    "mobility",
+    "ecommerce"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Tekin Has",
+    "Tom Krüger",
+    "Fabian Roth",
+    "Oguz Özgüler"
+  ],
+  "difficulty": 4,
+  "techeuId": "843C42BB-6736-4912-A652-32F114556E96",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.caronsale.com/about",
+      "quote": "2018, the team opened their first office in the Zollhof Tech Hub in Nürnberg and celebrated their first major deals. 2019 Max joined the CarOnSale Team. 2019 Move from Nürnberg to Berlin."
+    },
+    {
+      "field": "city",
+      "url": "https://www.startbase.com/news/caronsale-bekommt-60-millionen-us-dollar/",
+      "quote": "It is not the first major financing for the company, which once started in Nuremberg."
+    },
+    {
+      "field": "founded",
+      "url": "https://www.startbase.com/news/caronsale-bekommt-60-millionen-us-dollar/",
+      "quote": "Caronsale was founded in 2018 by Tekin Has, Tom Krüger, Fabian Roth and Oguz Özgüler."
+    },
+    {
+      "field": "founders",
+      "url": "https://www.startbase.com/news/caronsale-bekommt-60-millionen-us-dollar/",
+      "quote": "Caronsale was founded in 2018 by Tekin Has, Tom Krüger, Fabian Roth and Oguz Özgüler."
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.hoganlovells.com/en/news/hogan-lovells-beraet-caronsale-bei-einer-eur-70-millionen-series-c-finanzierungsrunde_10072025",
+      "quote": "Based in Berlin, CarOnSale is the leading digital B2B marketplace for professional used car trading in Europe."
+    },
+    {
+      "field": "status",
+      "url": "https://www.hoganlovells.com/en/news/hogan-lovells-beraet-caronsale-bei-einer-eur-70-millionen-series-c-finanzierungsrunde_10072025",
+      "quote": "Based in Berlin, CarOnSale is the leading digital B2B marketplace for professional used car trading in Europe."
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-b",
+      "month": "2021-11",
+      "amountEur": 53022269,
+      "amountOriginal": 60000000,
+      "currency": "USD",
+      "investors": [
+        "Stripes",
+        "HV Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.startbase.com/news/caronsale-bekommt-60-millionen-us-dollar/",
+          "quote": "According to the website German Startups 60 million US dollars."
+        },
+        {
+          "field": "month",
+          "url": "https://www.startbase.com/news/caronsale-bekommt-60-millionen-us-dollar/",
+          "quote": "Stuttgart, 17. November 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.startbase.com/news/caronsale-bekommt-60-millionen-us-dollar/",
+          "quote": "The New York-based venture capital firm Stripes and the Munich-based investor HV Capital, formerly known as Holtzbrinck Ventures, are investing in the car marketplace Caronsale."
+        },
+        {
+          "field": "stage",
+          "url": "https://www.caronsale.com/about",
+          "quote": "2021 Series B led by Stripes and HV Capital"
+        }
+      ]
+    },
+    {
+      "stage": "series-c",
+      "month": "2025-07",
+      "amountEur": 70000000,
+      "amountOriginal": 70000000,
+      "currency": "EUR",
+      "investors": [
+        "Northzone",
+        "HV Capital",
+        "Insight Partners",
+        "Stripes",
+        "Creandum"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.autohaus.de/nachrichten/gw-trends/70-millionen-euro-fuer-wachstum-northzone-steigt-bei-caronsale-ein-3685468",
+          "quote": "CarOnSale hat erfolgreich die Series-C-Finanzierungsrunde über 70 Millionen Euro abgeschlossen"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.autohaus.de/nachrichten/gw-trends/70-millionen-euro-fuer-wachstum-northzone-steigt-bei-caronsale-ein-3685468",
+          "quote": "CarOnSale hat erfolgreich die Series-C-Finanzierungsrunde über 70 Millionen Euro abgeschlossen"
+        },
+        {
+          "field": "month",
+          "url": "https://www.autohaus.de/nachrichten/gw-trends/70-millionen-euro-fuer-wachstum-northzone-steigt-bei-caronsale-ein-3685468",
+          "quote": "07.07.2025 08:01 Uhr"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.hoganlovells.com/en/news/hogan-lovells-beraet-caronsale-bei-einer-eur-70-millionen-series-c-finanzierungsrunde_10072025",
+          "quote": "The round was led by new investor Northzone and existing investor HV Capital, and was further supported by Insight Partners, Stripes, and Creandum."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "id": "vay",
+  "name": "Vay",
+  "aliases": [
+    "Vay Technology"
+  ],
+  "domain": "vay.io",
+  "country": "DE",
+  "city": "Berlin",
+  "founded": 2018,
+  "sectors": [
+    "mobility"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Thomas von der Ohe",
+    "Fabrizio Scelsi",
+    "Bogdan Djukic"
+  ],
+  "difficulty": 4,
+  "techeuId": "696A8ACC-B75F-49A8-9FB2-D5EA917054F6",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://techcrunch.com/2021/12/14/vay-raises-95m-to-bring-teledriven-self-driving-transportation-service-to-hamburg-in-2022/",
+      "quote": "The Berlin-based startup came out of stealth in September after working for the last two years on its teledriven technology"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Vay_(company)",
+      "quote": "Vay was founded in September 2018 by Thomas von der Ohe, Fabrizio Scelsi, and Bogdan Djukic."
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Vay_(company)",
+      "quote": "Vay was founded in September 2018 by Thomas von der Ohe, Fabrizio Scelsi, and Bogdan Djukic."
+    },
+    {
+      "field": "sectors",
+      "url": "https://en.wikipedia.org/wiki/Vay_(company)",
+      "quote": "Vay is a German remote driving company that offers remote-controlled rental cars."
+    },
+    {
+      "field": "status",
+      "url": "https://techcrunch.com/2025/11/10/remote-driving-startup-vay-could-grab-up-to-410m-from-singapores-grab/",
+      "quote": "The Berlin-based startup uses its technology and human operators to remotely drive rental cars to and from customers."
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-b",
+      "month": "2021-12",
+      "amountEur": 84003891,
+      "amountOriginal": 95000000,
+      "currency": "USD",
+      "investors": [
+        "Kinnevik",
+        "Coatue",
+        "Eurazeo",
+        "Atomico",
+        "La Famiglia",
+        "Creandum",
+        "Project A",
+        "Visionaries Club",
+        "Signals"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2021/12/14/vay-raises-95m-to-bring-teledriven-self-driving-transportation-service-to-hamburg-in-2022/",
+          "quote": "has raised a $95 million Series B round"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2021/12/14/vay-raises-95m-to-bring-teledriven-self-driving-transportation-service-to-hamburg-in-2022/",
+          "quote": "has raised a $95 million Series B round"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2021/12/14/vay-raises-95m-to-bring-teledriven-self-driving-transportation-service-to-hamburg-in-2022/",
+          "quote": "December 14, 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2021/12/14/vay-raises-95m-to-bring-teledriven-self-driving-transportation-service-to-hamburg-in-2022/",
+          "quote": "Kinnevik, Coatue and Eurazeo participated in the round alongside existing investors Atomico, La Famiglia and Creandum."
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2021/12/14/vay-raises-95m-to-bring-teledriven-self-driving-transportation-service-to-hamburg-in-2022/",
+          "quote": "Other participants include Project A, Visionaries Club and Signals"
+        }
+      ]
+    },
+    {
+      "stage": "series-c",
+      "month": "2025-11",
+      "amountEur": 51853772,
+      "amountOriginal": 60000000,
+      "currency": "USD",
+      "investors": [
+        "Grab"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2025/11/10/remote-driving-startup-vay-could-grab-up-to-410m-from-singapores-grab/",
+          "quote": "will get $60 million in cash from Singaporean tech heavyweight Grab"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2025/11/10/remote-driving-startup-vay-could-grab-up-to-410m-from-singapores-grab/",
+          "quote": "November 10, 2025"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2025/11/10/remote-driving-startup-vay-could-grab-up-to-410m-from-singapores-grab/",
+          "quote": "will get $60 million in cash from Singaporean tech heavyweight Grab"
+        }
+      ]
+    }
+  ]
+}

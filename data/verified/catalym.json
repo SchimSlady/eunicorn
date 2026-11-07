@@ -1,0 +1,164 @@
+{
+  "id": "catalym",
+  "name": "CatalYm",
+  "aliases": [
+    "Catalym"
+  ],
+  "domain": "catalym.com",
+  "country": "DE",
+  "city": "Munich",
+  "founded": 2016,
+  "sectors": [
+    "biotech"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [],
+  "difficulty": 5,
+  "techeuId": "E861BDD2-B1A7-4D78-95AA-0A878DDA333A",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.catalym.com/catalym-raises-eur50-million-to-advance-gdf-15-antibody-into-clinical-trials-for-checkpoint-inhibitor-refractory-patients/",
+      "quote": "Munich/Germany, November 10th, 2020 – CatalYm GmbH, a biopharmaceutical company developing novel cancer immunotherapies"
+    },
+    {
+      "field": "founded",
+      "url": "https://www.catalym.com/catalym-raises-eur50-million-to-advance-gdf-15-antibody-into-clinical-trials-for-checkpoint-inhibitor-refractory-patients/",
+      "quote": "The Company was founded with initial investments from Forbion and BGV in 2016 as a spin-off from the Julius-Maximilians-University of Würzburg"
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.catalym.com/catalym-raises-eur50-million-to-advance-gdf-15-antibody-into-clinical-trials-for-checkpoint-inhibitor-refractory-patients/",
+      "quote": "CatalYm GmbH, a biopharmaceutical company developing novel cancer immunotherapies"
+    },
+    {
+      "field": "status",
+      "url": "https://www.catalym.com/news-events/",
+      "quote": "CatalYm Appoints Peter Garcia as Chief Financial Officer"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-b",
+      "month": "2020-11",
+      "amountEur": 50000000,
+      "amountOriginal": 50000000,
+      "currency": "EUR",
+      "investors": [
+        "Vesalius Biocapital III",
+        "Novartis Venture Fund",
+        "Wachstumsfonds Bayern",
+        "Coparion",
+        "Forbion",
+        "BioGeneration Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.catalym.com/catalym-raises-eur50-million-to-advance-gdf-15-antibody-into-clinical-trials-for-checkpoint-inhibitor-refractory-patients/",
+          "quote": "today announced the closing of its EUR50 million Series B financing round"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.catalym.com/catalym-raises-eur50-million-to-advance-gdf-15-antibody-into-clinical-trials-for-checkpoint-inhibitor-refractory-patients/",
+          "quote": "today announced the closing of its EUR50 million Series B financing round"
+        },
+        {
+          "field": "month",
+          "url": "https://www.catalym.com/catalym-raises-eur50-million-to-advance-gdf-15-antibody-into-clinical-trials-for-checkpoint-inhibitor-refractory-patients/",
+          "quote": "Munich/Germany, November 10th, 2020"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.catalym.com/catalym-raises-eur50-million-to-advance-gdf-15-antibody-into-clinical-trials-for-checkpoint-inhibitor-refractory-patients/",
+          "quote": "The financing was led by Vesalius Biocapital III and joined by Novartis Venture Fund (NVF), Wachstumsfonds Bayern, coparion and founding investors Forbion and BioGeneration Ventures."
+        }
+      ]
+    },
+    {
+      "stage": "series-c",
+      "month": "2022-11",
+      "amountEur": 50000000,
+      "amountOriginal": 50000000,
+      "currency": "EUR",
+      "investors": [
+        "Brandon Capital",
+        "Jeito Capital",
+        "Forbion",
+        "Novartis Venture Fund",
+        "Vesalius Biocapital III",
+        "Bayern Kapital",
+        "BioGeneration Ventures",
+        "Coparion"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.catalym.com/catalym-closes-eur-50-million-series-c-financing-to-expand-and-accelerate-phase-2-clinical-development-of-visugromab-in-patients-with-solid-tumors/",
+          "quote": "CatalYm today announced the close of a EUR 50 million (USD 49 million) Series C financing round."
+        },
+        {
+          "field": "stage",
+          "url": "https://www.catalym.com/catalym-closes-eur-50-million-series-c-financing-to-expand-and-accelerate-phase-2-clinical-development-of-visugromab-in-patients-with-solid-tumors/",
+          "quote": "CatalYm today announced the close of a EUR 50 million (USD 49 million) Series C financing round."
+        },
+        {
+          "field": "month",
+          "url": "https://www.catalym.com/catalym-closes-eur-50-million-series-c-financing-to-expand-and-accelerate-phase-2-clinical-development-of-visugromab-in-patients-with-solid-tumors/",
+          "quote": "Munich, Germany , November 22, 2022"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.catalym.com/catalym-closes-eur-50-million-series-c-financing-to-expand-and-accelerate-phase-2-clinical-development-of-visugromab-in-patients-with-solid-tumors/",
+          "quote": "The oversubscribed round was co-led by new investors, Brandon Capital and Jeito Capital with participation from existing investors Forbion, Novartis Venture Fund, Vesalius Biocapital III, Bayern Kapital, BioGeneration Ventures and Coparion."
+        }
+      ]
+    },
+    {
+      "stage": "series-d",
+      "month": "2024-07",
+      "amountEur": 137589433,
+      "amountOriginal": 150000000,
+      "currency": "USD",
+      "investors": [
+        "Canaan Partners",
+        "Bioqube Ventures",
+        "Forbion",
+        "Omega Funds",
+        "Gilde Healthcare",
+        "Jeito Capital",
+        "Brandon Capital Partners",
+        "Novartis Venture Fund",
+        "Vesalius Biocapital III"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.catalym.com/catalym-announces-new-financing-of-150m-to-support-broad-phase-2b-development-program-for-visugromab/",
+          "quote": "CatalYm today announced the completion of a $150 million Series D financing."
+        },
+        {
+          "field": "stage",
+          "url": "https://www.catalym.com/catalym-announces-new-financing-of-150m-to-support-broad-phase-2b-development-program-for-visugromab/",
+          "quote": "CatalYm today announced the completion of a $150 million Series D financing."
+        },
+        {
+          "field": "month",
+          "url": "https://www.catalym.com/catalym-announces-new-financing-of-150m-to-support-broad-phase-2b-development-program-for-visugromab/",
+          "quote": "Munich, Germany , July 16, 2024"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.catalym.com/catalym-announces-new-financing-of-150m-to-support-broad-phase-2b-development-program-for-visugromab/",
+          "quote": "The oversubscribed round was led by new investors, Canaan Partners and Bioqube Ventures, and joined by Forbion’s Growth Opportunities Fund (“Forbion Growth”), Omega Funds and Gilde Healthcare."
+        },
+        {
+          "field": "investors",
+          "url": "https://www.catalym.com/catalym-announces-new-financing-of-150m-to-support-broad-phase-2b-development-program-for-visugromab/",
+          "quote": "Existing investors Jeito Capital, Brandon Capital Partners, Novartis Venture Fund and Vesalius Biocapital III also participated in the round."
+        }
+      ]
+    }
+  ]
+}
