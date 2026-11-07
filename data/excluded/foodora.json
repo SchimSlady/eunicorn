@@ -1,0 +1,58 @@
+{
+  "note": "Excluded 2026-11-07: no published equity round of its own with an amount. Founded as Volo GmbH (Munich, 2014), bought by Rocket Internet in April 2015 for an undisclosed sum and sold to Delivery Hero in 2015; Foodora is now a Delivery Hero brand.",
+  "id": "foodora",
+  "name": "foodora",
+  "aliases": [
+    "Volo"
+  ],
+  "domain": "foodora.com",
+  "country": "DE",
+  "city": "Munich",
+  "founded": 2014,
+  "sectors": [
+    "consumer",
+    "quick-commerce"
+  ],
+  "status": "acquired",
+  "unicorn": false,
+  "founders": [
+    "Konstantin Mehl",
+    "Emanuel Pallua",
+    "Manuel Thurner",
+    "Stefan Rothlehner"
+  ],
+  "difficulty": 3,
+  "programs": [
+    {
+      "id": "cdtm"
+    }
+  ],
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/Foodora",
+      "quote": "Foodora was founded under the name Volo GmbH in Munich in February 2014."
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Foodora",
+      "quote": "Foodora was founded under the name Volo GmbH in Munich in February 2014."
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Foodora",
+      "quote": "Konstantin Mehl, Emanuel Pallua, Manuel Thurner, Stefan Rothlehner"
+    },
+    {
+      "field": "status",
+      "url": "https://globalventuring.com/blog/2015/04/21/wayra-exits-as-rocket-takes-away-volo/",
+      "quote": "Internet holding company Rocket Internet has acquired Germany-based food delivery service startup Volo"
+    },
+    {
+      "field": "programs",
+      "url": "https://www.cdtm.com/startups/foodora",
+      "quote": "CDTM founders Konstantin Mehl Class of Spring 2011"
+    }
+  ],
+  "rounds": []
+}

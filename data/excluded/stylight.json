@@ -1,0 +1,55 @@
+{
+  "note": "Excluded 2026-11-07: founded 2008 (stylight.de/About: \"Stylight wurde 2008 gegründet\"), before the 2010 cutoff. Now part of ProSiebenSat.1.",
+  "id": "stylight",
+  "name": "Stylight",
+  "aliases": [],
+  "domain": "stylight.com",
+  "country": "DE",
+  "city": "Munich",
+  "founded": 2008,
+  "sectors": [
+    "consumer"
+  ],
+  "status": "acquired",
+  "unicorn": false,
+  "founders": [
+    "Anselm Bauer",
+    "Benjamin Günther",
+    "Max-Josef Meier",
+    "Sebastian Schuon"
+  ],
+  "difficulty": 4,
+  "programs": [
+    {
+      "id": "cdtm"
+    }
+  ],
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.stylight.de/About/",
+      "quote": "Gegründet 2008 in München."
+    },
+    {
+      "field": "founded",
+      "url": "https://www.stylight.de/About/",
+      "quote": "Stylight wurde 2008 gegründet"
+    },
+    {
+      "field": "founders",
+      "url": "https://www.cdtm.com/startups/stylight",
+      "quote": "CDTM founders Anselm Bauer Class of Fall 2006 Benjamin Günther Class of Fall 2006 Max-Josef Meier Class of Fall 2006 Sebastian Schuon"
+    },
+    {
+      "field": "status",
+      "url": "https://www.cdtm.com/startups/stylight",
+      "quote": "As part of ProSiebenSat.1 Media SE, Stylight is not an online store"
+    },
+    {
+      "field": "programs",
+      "url": "https://www.cdtm.com/startups/stylight",
+      "quote": "CDTM founders Anselm Bauer Class of Fall 2006"
+    }
+  ],
+  "rounds": []
+}

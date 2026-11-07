@@ -24,8 +24,14 @@ const decode = (s: string) =>
   s.replace(/&#x([0-9a-f]+);/gi, (_, h) => String.fromCodePoint(parseInt(h, 16)))
     .replace(/&#(\d+);/g, (_, d) => String.fromCodePoint(Number(d)))
     .replace(/&([a-z]+);/gi, (m, n) => NAMED[n] ?? m);
+// Page descriptions in <meta> tags are visible text for our purposes (the YC company page keeps its
+// "Founded in 2024 by …" line only there), so they are kept before the tags are stripped.
+const metaText = (s: string) =>
+  [...s.matchAll(/<meta[^>]+(?:name|property)=["'](?:description|og:description|twitter:description)["'][^>]*>/gi)]
+    .map((m) => m[0].match(/content="([^"]*)"|content='([^']*)'/i)?.slice(1).find((v) => v != null) ?? "")
+    .join(" ");
 const norm = (s: string) =>
-  decode(s.replace(/<script[\s\S]*?<\/script>|<style[\s\S]*?<\/style>/gi, " ").replace(/<[^>]*>/g, " "))
+  decode((metaText(s) + " " + s).replace(/<script[\s\S]*?<\/script>|<style[\s\S]*?<\/style>/gi, " ").replace(/<[^>]*>/g, " "))
     .replace(/ /g, " ").replace(/[’‘]/g, "'").replace(/[“”«»]/g, '"').replace(/[–—]/g, "-")
     .replace(/\s+/g, " ").toLowerCase();
 

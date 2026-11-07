@@ -1,0 +1,169 @@
+{
+  "id": "outfittery",
+  "name": "Outfittery",
+  "aliases": [
+    "OUTFITTERY"
+  ],
+  "domain": "outfittery.com",
+  "country": "DE",
+  "city": "Berlin",
+  "founded": 2012,
+  "sectors": [
+    "consumer"
+  ],
+  "status": "acquired",
+  "unicorn": false,
+  "founders": [
+    "Julia Bösch",
+    "Anna Alex"
+  ],
+  "difficulty": 3,
+  "programs": [
+    {
+      "id": "cdtm"
+    }
+  ],
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://techcrunch.com/2014/02/17/outfittery/",
+      "quote": "Total funding for the Berlin-based startup is unknown"
+    },
+    {
+      "field": "founded",
+      "url": "https://techcrunch.com/2014/02/17/outfittery/",
+      "quote": "Founded in 2012 by female entrepreneurs Anna Alex and Julia Bosch"
+    },
+    {
+      "field": "founders",
+      "url": "https://techcrunch.com/2014/02/17/outfittery/",
+      "quote": "Founded in 2012 by female entrepreneurs Anna Alex and Julia Bosch"
+    },
+    {
+      "field": "sectors",
+      "url": "https://techcrunch.com/2014/02/17/outfittery/",
+      "quote": "Outfittery , a curated shopping service for men’s clothing, has raised €13 million in new funding"
+    },
+    {
+      "field": "status",
+      "url": "https://fashionunited.com/news/business/spains-lookiero-and-germanys-outfittery-merge-to-lead-the-european-online-personal-shopping-market/2025030664838",
+      "quote": "Shipping boxes from Lookiero and Outfittery, now part of the Lookiero Outfittery Group."
+    },
+    {
+      "field": "unicorn",
+      "url": "https://www.htgf.de/en/outfittery-closes-22m-funding-round/",
+      "quote": "has raised $22 million in new funding"
+    },
+    {
+      "field": "programs",
+      "url": "https://www.cdtm.com/startups/outfittery",
+      "quote": "CDTM founders Julia Bösch Class of Spring 2006"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-a",
+      "month": "2014-02",
+      "amountEur": 13000000,
+      "amountOriginal": 13000000,
+      "currency": "EUR",
+      "investors": [
+        "Highland Capital Partners Europe",
+        "Holtzbrinck Ventures",
+        "Mangrove Capital Partners",
+        "High-Tech Gründerfonds",
+        "RI Digital Ventures",
+        "VC Fonds Kreativwirtschaft Berlin"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2014/02/17/outfittery/",
+          "quote": "has raised €13 million in new funding to expand into other European markets"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2014/02/17/outfittery/",
+          "quote": "February 17, 2014"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2014/02/17/outfittery/",
+          "quote": "The round was led by Germany’s Highland Capital Partners Europe, with participation from existing investors, including Holtzbrinck Ventures, Mangrove Capital Partners, High-Tech Gründerfonds, RI Digital Ventures and Kreativwirtschaft"
+        }
+      ]
+    },
+    {
+      "stage": "series-b",
+      "month": "2015-03",
+      "amountEur": 17814198,
+      "amountOriginal": 20000000,
+      "currency": "USD",
+      "investors": [
+        "Northzone",
+        "Highland Capital Partners",
+        "Holtzbrinck Ventures",
+        "Mangrove Capital Partners"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2015/03/02/if-the-vc-fits/",
+          "quote": "the German startup has added $20 million in new funding led by Northzone"
+        },
+        {
+          "field": "month",
+          "url": "https://www.northzone.com/insights/outfittery-receives-20-million-dollars-from-spotify-investor-northzone",
+          "quote": "Berlin, March 2, 2015."
+        },
+        {
+          "field": "investors",
+          "url": "https://www.northzone.com/insights/outfittery-receives-20-million-dollars-from-spotify-investor-northzone",
+          "quote": "existing investors Highland Capital Partners, Holtzbrinck Ventures and Mangrove Capital Partners have all increased their commitment to OUTFITTERY"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2015/03/02/if-the-vc-fits/",
+          "quote": "the German startup has added $20 million in new funding led by Northzone"
+        }
+      ]
+    },
+    {
+      "stage": "series-c",
+      "month": "2016-08",
+      "amountEur": 19716795,
+      "amountOriginal": 22000000,
+      "currency": "USD",
+      "investors": [
+        "Octopus Ventures",
+        "U-Start Club",
+        "Northzone",
+        "Highland Europe",
+        "Holtzbrinck Ventures",
+        "Mangrove Capital Partners"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.htgf.de/en/outfittery-closes-22m-funding-round/",
+          "quote": "has raised $22 million in new funding"
+        },
+        {
+          "field": "month",
+          "url": "https://www.htgf.de/en/outfittery-closes-22m-funding-round/",
+          "quote": "12 August 2016"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.htgf.de/en/outfittery-closes-22m-funding-round/",
+          "quote": "Existing investors Northzone Capital, Highland Europe, Holtzbrinck Ventures and Mangrove Capital Partners have also joined the round."
+        },
+        {
+          "field": "investors",
+          "url": "https://www.htgf.de/en/outfittery-closes-22m-funding-round/",
+          "quote": "The backing comes from London and New York-based VC firm Octopus Ventures, which is leading the round, as well as the U-Start Club"
+        }
+      ]
+    }
+  ]
+}

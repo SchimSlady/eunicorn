@@ -1,0 +1,169 @@
+{
+  "id": "tanso",
+  "name": "Tanso",
+  "aliases": [
+    "Tanso Technologies"
+  ],
+  "domain": "tanso.de",
+  "country": "DE",
+  "city": "Munich",
+  "founded": 2021,
+  "sectors": [
+    "climate",
+    "saas"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Till Wiechmann",
+    "Gyri Reiersen",
+    "Lorenz Hetzel"
+  ],
+  "difficulty": 5,
+  "programs": [
+    {
+      "id": "cdtm"
+    }
+  ],
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.tanso.de/en/blog/tanso-erhaelt-1-6-mio-pre-seed",
+      "quote": "The Munich-based startup has set itself the goal of making sustainability accounting as transparent, integrated and comprehensible as financial accounting."
+    },
+    {
+      "field": "founded",
+      "url": "https://www.tanso.de/en/blog/tanso-erhaelt-1-6-mio-pre-seed",
+      "quote": "Tanso Technologies was founded in 2021"
+    },
+    {
+      "field": "founders",
+      "url": "https://www.munich-startup.de/en/news/tanso-secures-12-million-euros",
+      "quote": "founding team: Gyri Reiersen, Till Wiechmann and Lorenz Hetzel"
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.tanso.de/en/blog/tanso-sichert-6-5-millionen-euro-zu-dekarbonisierung-der-europaischen-industrie",
+      "quote": "The Munich-based software company offers carbon accounting software for industrial manufacturing companies under pressure to decarbonize their supply chains"
+    },
+    {
+      "field": "status",
+      "url": "https://www.uvcpartners.com/blog/tanso",
+      "quote": "has successfully closed a €12 million Series A funding round"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://www.uvcpartners.com/blog/tanso",
+      "quote": "has successfully closed a €12 million Series A funding round"
+    },
+    {
+      "field": "programs",
+      "url": "https://www.cdtm.com/startups/tanso",
+      "quote": "CDTM founders Gyri Reiersen Class of Spring 2019 Till Wiechmann Class of Fall 2018"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "pre-seed",
+      "month": "2021-09",
+      "amountEur": 1600000,
+      "amountOriginal": 1600000,
+      "currency": "EUR",
+      "investors": [
+        "UVC Partners",
+        "Picus Capital",
+        "Possible Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.tanso.de/en/blog/tanso-erhaelt-1-6-mio-pre-seed",
+          "quote": "The team has received pre-seed financing of €1.6 million, led by UVC Partners, with participation from Picus Capital, Possible Ventures"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.tanso.de/en/blog/tanso-erhaelt-1-6-mio-pre-seed",
+          "quote": "The team has received pre-seed financing of €1.6 million, led by UVC Partners, with participation from Picus Capital, Possible Ventures"
+        },
+        {
+          "field": "month",
+          "url": "https://www.tanso.de/en/blog/tanso-erhaelt-1-6-mio-pre-seed",
+          "quote": "September 16, 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.tanso.de/en/blog/tanso-erhaelt-1-6-mio-pre-seed",
+          "quote": "The team has received pre-seed financing of €1.6 million, led by UVC Partners, with participation from Picus Capital, Possible Ventures"
+        }
+      ]
+    },
+    {
+      "stage": "seed",
+      "month": "2023-04",
+      "amountEur": 4000000,
+      "amountOriginal": 4000000,
+      "currency": "EUR",
+      "investors": [
+        "Capnamic",
+        "UVC Partners"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.tanso.de/en/blog/tanso-sichert-6-5-millionen-euro-zu-dekarbonisierung-der-europaischen-industrie",
+          "quote": "Cologne-based investor Capnamic leads the recent additional €4m Seed funding round, while existing investors such as UVC Partners are expanding their investment"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.tanso.de/en/blog/tanso-sichert-6-5-millionen-euro-zu-dekarbonisierung-der-europaischen-industrie",
+          "quote": "Cologne-based investor Capnamic leads the recent additional €4m Seed funding round, while existing investors such as UVC Partners are expanding their investment"
+        },
+        {
+          "field": "month",
+          "url": "https://www.tanso.de/en/blog/tanso-sichert-6-5-millionen-euro-zu-dekarbonisierung-der-europaischen-industrie",
+          "quote": "April 19, 2023"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.tanso.de/en/blog/tanso-sichert-6-5-millionen-euro-zu-dekarbonisierung-der-europaischen-industrie",
+          "quote": "Cologne-based investor Capnamic leads the recent additional €4m Seed funding round, while existing investors such as UVC Partners are expanding their investment"
+        }
+      ]
+    },
+    {
+      "stage": "series-a",
+      "month": "2025-08",
+      "amountEur": 12000000,
+      "amountOriginal": 12000000,
+      "currency": "EUR",
+      "investors": [
+        "henQ",
+        "Fortino Capital",
+        "Capnamic",
+        "UVC Partners"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.uvcpartners.com/blog/tanso",
+          "quote": "has successfully closed a €12 million Series A funding round. The round was led by international venture capital firms henQ and Fortino Capital, with strong participation from existing investors Capnamic and UVC Partners"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.uvcpartners.com/blog/tanso",
+          "quote": "has successfully closed a €12 million Series A funding round"
+        },
+        {
+          "field": "month",
+          "url": "https://www.uvcpartners.com/blog/tanso",
+          "quote": "Munich, August 5, 2025"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.uvcpartners.com/blog/tanso",
+          "quote": "has successfully closed a €12 million Series A funding round. The round was led by international venture capital firms henQ and Fortino Capital, with strong participation from existing investors Capnamic and UVC Partners"
+        }
+      ]
+    }
+  ]
+}

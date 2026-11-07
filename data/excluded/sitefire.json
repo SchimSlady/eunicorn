@@ -1,0 +1,45 @@
+{
+  "note": "Excluded 2026-11-07: no published equity round with an amount and no quotable founding year or city. Program tags are sourced (CDTM, YC Winter 2026); re-check when a round is announced.",
+  "id": "sitefire",
+  "name": "sitefire",
+  "aliases": [],
+  "domain": "sitefire.ai",
+  "country": "DE",
+  "sectors": [
+    "ai",
+    "saas"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Vincent Jeltsch"
+  ],
+  "difficulty": 5,
+  "programs": [
+    {
+      "id": "cdtm"
+    },
+    {
+      "id": "y-combinator",
+      "batch": "Winter 2026"
+    }
+  ],
+  "sources": [
+    {
+      "field": "programs",
+      "url": "https://www.cdtm.com/startups/sitefire",
+      "quote": "CDTM founders Vincent Jeltsch Class of Fall 2020"
+    },
+    {
+      "field": "programs",
+      "url": "https://yc-oss.github.io/api/batches/winter-2026/sitefire.json",
+      "quote": "\"batch\": \"Winter 2026\""
+    },
+    {
+      "field": "sectors",
+      "url": "https://yc-oss.github.io/api/batches/winter-2026/sitefire.json",
+      "quote": "\"one_liner\": \"Marketing suite for the agentic web\""
+    }
+  ],
+  "rounds": []
+}

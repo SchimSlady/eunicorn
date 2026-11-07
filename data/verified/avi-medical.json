@@ -1,0 +1,146 @@
+{
+  "id": "avi-medical",
+  "name": "Avi Medical",
+  "aliases": [
+    "AVI Medical"
+  ],
+  "domain": "avimedical.com",
+  "country": "DE",
+  "city": "Munich",
+  "founded": 2020,
+  "sectors": [
+    "health"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Vlad Lata",
+    "Christoph Baumeister",
+    "Julian Kley"
+  ],
+  "difficulty": 4,
+  "programs": [
+    {
+      "id": "cdtm"
+    }
+  ],
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.startbase.com/news/285-millionen-euro-fuer-avi-medical-aus-muenchen",
+      "quote": "The Munich-based company has now completed its financing round."
+    },
+    {
+      "field": "founded",
+      "url": "https://www.munich-startup.de/news/avi-medical-series-a",
+      "quote": "Gegründet wurde Avi Medical 2020 von Vlad Lata, Christoph Baumeister und Julian Kley."
+    },
+    {
+      "field": "founders",
+      "url": "https://www.munich-startup.de/news/avi-medical-series-a",
+      "quote": "Gegründet wurde Avi Medical 2020 von Vlad Lata, Christoph Baumeister und Julian Kley."
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.munich-startup.de/news/avi-medical-series-a",
+      "quote": "Mit diesem Ansatz betreibt das Digital-Healthcare-Startup bereits drei eigene Hausarztpraxen."
+    },
+    {
+      "field": "status",
+      "url": "https://tech.eu/2022/04/06/rewriting-the-rulebook-of-doctor-appointments-munich-startup-gets-eur50-million-shot/",
+      "quote": "has now wrapped up €50 million in a Series B funding"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://tech.eu/2022/04/06/rewriting-the-rulebook-of-doctor-appointments-munich-startup-gets-eur50-million-shot/",
+      "quote": "has now wrapped up €50 million in a Series B funding"
+    },
+    {
+      "field": "programs",
+      "url": "https://www.cdtm.com/startups/avi-medical",
+      "quote": "CDTM founders Christoph Baumeister Class of Fall 2007 Vlad Lata Class of Spring 2013"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-a",
+      "month": "2021-06",
+      "amountEur": 28500000,
+      "amountOriginal": 28500000,
+      "currency": "EUR",
+      "investors": [
+        "Heal Capital",
+        "Addition",
+        "Picus Capital",
+        "Vorwerk Ventures",
+        "Idinvest Partners",
+        "3VC"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.startbase.com/news/285-millionen-euro-fuer-avi-medical-aus-muenchen",
+          "quote": "has raised 28.5 million euros"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.munich-startup.de/news/avi-medical-series-a",
+          "quote": "Nun konnten die Münchner eine Series-A-Finanzierungsrunde in Höhe 28,5 Millionen Euro abschließen."
+        },
+        {
+          "field": "month",
+          "url": "https://www.startbase.com/news/285-millionen-euro-fuer-avi-medical-aus-muenchen",
+          "quote": "Stuttgart, 07. June 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.startbase.com/news/285-millionen-euro-fuer-avi-medical-aus-muenchen",
+          "quote": "The round is led by the HealthTech fund Heal Capital and the New York investor Addition."
+        },
+        {
+          "field": "investors",
+          "url": "https://www.munich-startup.de/news/avi-medical-series-a",
+          "quote": "Zudem beteiligen sich noch die Bestandsinvestoren Picus Capital, Vorwerk Ventures, ID Invest, 3VC und Claret Capital Partners."
+        }
+      ]
+    },
+    {
+      "stage": "series-b",
+      "month": "2022-04",
+      "amountEur": 50000000,
+      "amountOriginal": 50000000,
+      "currency": "EUR",
+      "investors": [
+        "Balderton Capital",
+        "Heal Capital",
+        "Addition",
+        "Picus Capital",
+        "Vorwerk Ventures",
+        "Eurazeo",
+        "3VC"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2022/04/06/rewriting-the-rulebook-of-doctor-appointments-munich-startup-gets-eur50-million-shot/",
+          "quote": "has now wrapped up €50 million in a Series B funding"
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2022/04/06/rewriting-the-rulebook-of-doctor-appointments-munich-startup-gets-eur50-million-shot/",
+          "quote": "has now wrapped up €50 million in a Series B funding"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2022/04/06/rewriting-the-rulebook-of-doctor-appointments-munich-startup-gets-eur50-million-shot/",
+          "quote": "06 April 2022"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2022/04/06/rewriting-the-rulebook-of-doctor-appointments-munich-startup-gets-eur50-million-shot/",
+          "quote": "The round was led by Balderton Capital and saw the participation of existing investors"
+        }
+      ]
+    }
+  ]
+}

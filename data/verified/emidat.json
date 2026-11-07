@@ -1,0 +1,101 @@
+{
+  "id": "emidat",
+  "name": "Emidat",
+  "aliases": [],
+  "domain": "emidat.com",
+  "country": "DE",
+  "city": "Munich",
+  "founded": 2023,
+  "sectors": [
+    "climate",
+    "saas"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Lisa Oberaigner",
+    "Florian Fesch"
+  ],
+  "difficulty": 5,
+  "programs": [
+    {
+      "id": "cdtm"
+    }
+  ],
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://tech.eu/2024/10/29/emidat-raises-eur4m-from-general-catalyst-to-help-companies-manage-their-carbon-footprint/",
+      "quote": "Co-founded in Munich by Lisa Oberaigner (CEO) and Florian Fesch (CTO) in 2023"
+    },
+    {
+      "field": "founded",
+      "url": "https://tech.eu/2024/10/29/emidat-raises-eur4m-from-general-catalyst-to-help-companies-manage-their-carbon-footprint/",
+      "quote": "Co-founded in Munich by Lisa Oberaigner (CEO) and Florian Fesch (CTO) in 2023"
+    },
+    {
+      "field": "founded",
+      "url": "https://www.startbase.com/news/emidat-sichert-sich-4-mio-eur-seed/",
+      "quote": "Emidat was founded in 2023"
+    },
+    {
+      "field": "founders",
+      "url": "https://tech.eu/2024/10/29/emidat-raises-eur4m-from-general-catalyst-to-help-companies-manage-their-carbon-footprint/",
+      "quote": "Co-founded in Munich by Lisa Oberaigner (CEO) and Florian Fesch (CTO) in 2023"
+    },
+    {
+      "field": "sectors",
+      "url": "https://tech.eu/2024/10/29/emidat-raises-eur4m-from-general-catalyst-to-help-companies-manage-their-carbon-footprint/",
+      "quote": "a provider of environmental data solutions for the construction industry"
+    },
+    {
+      "field": "status",
+      "url": "https://tech.eu/2024/10/29/emidat-raises-eur4m-from-general-catalyst-to-help-companies-manage-their-carbon-footprint/",
+      "quote": "has raised €4M seed funding in a round led by General Catalyst"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://tech.eu/2024/10/29/emidat-raises-eur4m-from-general-catalyst-to-help-companies-manage-their-carbon-footprint/",
+      "quote": "has raised €4M seed funding in a round led by General Catalyst"
+    },
+    {
+      "field": "programs",
+      "url": "https://www.cdtm.com/startups/emidat",
+      "quote": "CDTM founders Lisa Sophie Oberaigner Class of Fall 2020"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "seed",
+      "month": "2024-10",
+      "amountEur": 4000000,
+      "amountOriginal": 4000000,
+      "currency": "EUR",
+      "investors": [
+        "General Catalyst"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2024/10/29/emidat-raises-eur4m-from-general-catalyst-to-help-companies-manage-their-carbon-footprint/",
+          "quote": "has raised €4M seed funding in a round led by General Catalyst"
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2024/10/29/emidat-raises-eur4m-from-general-catalyst-to-help-companies-manage-their-carbon-footprint/",
+          "quote": "has raised €4M seed funding in a round led by General Catalyst"
+        },
+        {
+          "field": "month",
+          "url": "https://www.startbase.com/news/emidat-sichert-sich-4-mio-eur-seed/",
+          "quote": "Munich, October 29, 2024"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2024/10/29/emidat-raises-eur4m-from-general-catalyst-to-help-companies-manage-their-carbon-footprint/",
+          "quote": "has raised €4M seed funding in a round led by General Catalyst"
+        }
+      ]
+    }
+  ]
+}
