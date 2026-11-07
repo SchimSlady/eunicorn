@@ -27,9 +27,13 @@ export interface Top10Question {
    * valuation is its IPO price, not what it is worth today. Lists that ask for a status keep it.
    */
   privateOnly: boolean;
+  /** First day the question is asked; added questions start here so earlier days keep their list. */
+  from?: string;
 }
 
 const VALUED: Top10Metric = "lastValuationUsd";
+/** The lists built on Company.exit (IPOs, failed startups) start here. */
+const EXITS_FROM = "2026-11-08";
 const RAISED: Top10Metric = "totalRaisedUsd";
 
 const inCountry = (code: string): Top10Check => ({ kind: "country", value: code });
@@ -80,6 +84,9 @@ export const TOP10_QUESTIONS: Top10Question[] = [
   q("medium", "acquired", VALUED, "acquired startups", status("acquired"), true),
   q("medium", "acquired", RAISED, "acquired startups", status("acquired")),
   q("medium", "listed", RAISED, "listed startups", status("public")),
+  // A listed company's valuation is the one at its IPO price (data/LESSONS.md), so this list says so.
+  { ...q("medium", "listed", VALUED, "startups at their IPO", status("public"), true), from: EXITS_FROM },
+  { ...q("medium", "failed", RAISED, "failed startups", status("defunct")), from: EXITS_FROM },
   q("medium", "europe", RAISED, "startups in Europe founded since 2015", since(2015)),
   q("medium", "europe", VALUED, "startups in Europe founded before 2012", before(2012)),
   q("medium", "gb", VALUED, "UK fintech startups", all(inCountry("GB"), inSector("fintech"))),
