@@ -70,6 +70,11 @@
       "field": "logo",
       "url": "https://commons.wikimedia.org/wiki/File:Helsing_Logo_Black.png",
       "quote": "File:Helsing Logo Black.png"
+    },
+    {
+      "field": "tagline",
+      "url": "https://tech.eu/2026/07/13/european-defence-ai-leader-helsing-secures-18b-series-e-at-18b-valuation/",
+      "quote": "Helsing develops AI software and autonomous systems for military and national security applications."
     }
   ],
   "rounds": [
@@ -291,5 +296,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Develops AI software and autonomous systems for military and national security applications."
 }

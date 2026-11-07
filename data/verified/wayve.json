@@ -55,6 +55,11 @@
       "field": "valuation",
       "url": "https://www.just-auto.com/newsletters/wayve-raises-1-2bn-series-d",
       "quote": "UK-based autonomous driving startup Wayve has secured $1.2bn in Series D funding at post-money valuation of $8.6bn."
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Wayve",
+      "quote": "Wayve Technologies Ltd is a British autonomous driving technology company focused on developing self-driving vehicle systems through end-to-end deep learning."
     }
   ],
   "rounds": [
@@ -240,5 +245,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Autonomous driving technology company building self-driving systems with end-to-end deep learning."
 }

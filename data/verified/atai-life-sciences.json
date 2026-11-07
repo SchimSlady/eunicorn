@@ -68,6 +68,11 @@
       "field": "exit",
       "url": "https://en.wikipedia.org/wiki/ATAI_Life_Sciences",
       "quote": "In July 2026, Eli Lilly and Company announced that it would acquire AtaiBeckley for $6.75 per share in cash"
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Atai_Life_Sciences",
+      "quote": "AtaiBeckley Inc. is a clinical-stage biotechnology company developing treatments for mental health disorders, including therapies based on psychedelics, entactogens, and related compounds."
     }
   ],
   "rounds": [
@@ -225,5 +230,6 @@
       ]
     }
   ],
-  "lastValuationEur": 1900000000
+  "lastValuationEur": 1900000000,
+  "tagline": "Clinical-stage biotech developing mental health treatments, including therapies based on psychedelics."
 }

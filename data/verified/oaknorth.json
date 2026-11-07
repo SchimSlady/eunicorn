@@ -50,6 +50,11 @@
       "field": "valuation",
       "url": "https://pymnts.com/news/b2b-payments/2021/uk-commercial-fintech-bank-oaknorth-valued-at-5b",
       "quote": "U.K. commercial FinTech OakNorth was valued at $5 billion following Indiabulls Housing Finance"
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/OakNorth_Bank",
+      "quote": "OakNorth Bank is a British bank for scaling businesses (typically with between £1m–£100m in turnover) that provides loans and both business and personal savings accounts."
     }
   ],
   "rounds": [
@@ -83,5 +88,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "British bank for scaling businesses, providing loans and business and personal savings accounts."
 }

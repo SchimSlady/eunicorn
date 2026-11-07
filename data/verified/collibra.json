@@ -58,6 +58,11 @@
       "field": "fun_fact",
       "url": "https://web.archive.org/web/2023/https://www.collibra.com/us/en/blog/12-things-you-didnt-know-about-collibra",
       "quote": "our founders originally intended to name the company Loqus, but changed it due to the presence of a few other similarly named companies."
+    },
+    {
+      "field": "tagline",
+      "url": "https://www.collibra.com",
+      "quote": "Collibra is the enterprise AI control plane governing context and ensuring control across every source, model and agent."
     }
   ],
   "rounds": [
@@ -189,5 +194,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Enterprise AI control plane for governing context, models and agents across every source."
 }

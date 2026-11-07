@@ -75,6 +75,16 @@
       "field": "exit",
       "url": "https://en.wikipedia.org/wiki/Klarna",
       "quote": "Its ordinary shares began trading on the New York Stock Exchange on 10 September 2025 under the ticker symbol KLAR."
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Klarna",
+      "quote": "Klarna Group plc is a Swedish financial technology company and digital bank."
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Klarna",
+      "quote": "Founded in 2005 in Stockholm, Sweden, Klarna provides digital payments, short-term consumer credit, cards, banking services and merchant tools for online and in-store commerce."
     }
   ],
   "rounds": [
@@ -379,5 +389,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Swedish financial technology company and digital bank offering payments, short-term consumer credit and cards."
 }

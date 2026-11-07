@@ -63,6 +63,16 @@
       "field": "exit",
       "url": "https://en.wikipedia.org/wiki/Babylon_Health",
       "quote": "Babylon Health's American branch filed for bankruptcy in August 2023 and the British branch called in the administrator weeks later."
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Babylon_Health",
+      "quote": "Babylon Health was a health service provider that utilized artificial intelligence and virtual clinical operations."
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Babylon_Health",
+      "quote": "Patients were connected with health care professionals through their web and mobile application."
     }
   ],
   "rounds": [
@@ -138,5 +148,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Health service provider that connected patients with health care professionals through a web and mobile app."
 }

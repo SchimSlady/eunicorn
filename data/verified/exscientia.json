@@ -73,6 +73,11 @@
       "field": "exit",
       "url": "https://chemanager-online.com/en/news/recursion-and-exscientia-merge-create-new-drug-discovery-company",
       "quote": "US-headquartered biotech firm Recursion has announced that it will acquire UK-based pharmatech Exscientia in an all-stock deal."
+    },
+    {
+      "field": "tagline",
+      "url": "https://biopharmatrend.com/post/894-recursion-pharmaceuticals-acquires-exscientia-in-688-million-all-stock-deal",
+      "quote": "Exscientia, headquartered in the UK, operates an AI-driven drug discovery platform and is developing a pipeline targeting immunology and oncology."
     }
   ],
   "rounds": [
@@ -187,5 +192,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "AI-driven drug discovery platform developing a pipeline targeting immunology and oncology."
 }

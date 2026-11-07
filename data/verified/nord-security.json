@@ -56,6 +56,11 @@
       "field": "valuation",
       "url": "https://nordsecurity.com/blog/nord-security-raised-another-100m-investment-round",
       "quote": "Nord Security doubled its valuation to $3B"
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Nord_Security",
+      "quote": "Nord Security is a cybersecurity software company operating within the broader network of Tesonet, a Lithuanian startup accelerator and business incubator."
     }
   ],
   "rounds": [
@@ -134,5 +139,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Cybersecurity software company operating within the Tesonet network."
 }

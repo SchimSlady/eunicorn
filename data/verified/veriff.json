@@ -58,6 +58,16 @@
       "field": "programs",
       "url": "https://tech.eu/2020/07/02/veriff-funding/",
       "quote": "Investors include previous backers Y Combinator and Mosaic Ventures as well as new ones, such NordicNinja VC and Change Ventures."
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Veriff",
+      "quote": "The company offers services for online businesses to mitigate fraud attempts and assisting regulatory compliance."
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Veriff",
+      "quote": "The service is provided to companies as an API"
     }
   ],
   "rounds": [
@@ -207,5 +217,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "API service that helps online businesses mitigate fraud and support regulatory compliance."
 }

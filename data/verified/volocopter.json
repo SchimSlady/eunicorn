@@ -84,6 +84,11 @@
       "field": "exit",
       "url": "https://ainonline.com/aviation-news/futureflight/2025-03-14/wanfengs-diamond-aircraft-absorbs-evtol-developer-volocopter",
       "quote": "By Charles Alcock • Managing Editor March 14, 2025"
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Volocopter_Technologies",
+      "quote": "The company specializes in the design of electric multirotor helicopters in the form of personal air vehicles, designed for air taxi use."
     }
   ],
   "rounds": [
@@ -196,5 +201,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Designs electric multirotor helicopters as personal air vehicles for air taxi use."
 }

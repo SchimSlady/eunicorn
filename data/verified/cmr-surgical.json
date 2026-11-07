@@ -81,6 +81,11 @@
       "field": "logo",
       "url": "https://commons.wikimedia.org/wiki/File:CMR_Surgical_logo.png",
       "quote": "File:CMR Surgical logo.png"
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/CMR_Surgical",
+      "quote": "It produces a robot-assisted surgery system called Versius."
     }
   ],
   "rounds": [
@@ -292,5 +297,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Maker of Versius, a robot-assisted surgery system."
 }

@@ -52,6 +52,11 @@
       "field": "valuation",
       "url": "https://appmaster.io/news/cloud-based-outsystems-valuation-cut-latest-funding-round",
       "quote": "reflecting a post-money valuation of €4.4 billion ($4.3 billion)"
+    },
+    {
+      "field": "tagline",
+      "url": "https://www.outsystems.com/",
+      "quote": "OutSystems is an agentic systems platform that empowers every team to turn ideas into AI-powered applications and agents that drive revenue, efficiency, and customer impact."
     }
   ],
   "rounds": [
@@ -112,5 +117,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Platform that lets teams turn ideas into AI-powered applications and agents."
 }

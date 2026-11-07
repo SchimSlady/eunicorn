@@ -72,6 +72,11 @@
       "field": "fun_fact",
       "url": "https://en.wikipedia.org/wiki/DeepL_Translator",
       "quote": "With the release of DeepL in 2017, Linguee's company name was changed to DeepL GmbH"
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/DeepL_SE",
+      "quote": "DeepL is a German AI research company known for its language AI platform, which includes DeepL Translator and DeepL Voice, and for DeepL Agent, an AI agent capable of planning workflows and using office systems and tools autonomously, in response to natural language instructions."
     }
   ],
   "rounds": [
@@ -129,5 +134,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Language AI platform with translation and voice tools, plus an agent that plans workflows."
 }

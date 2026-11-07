@@ -57,6 +57,11 @@
       "field": "fun_fact",
       "url": "https://corporate.epidemicsound.com/about-us/our-history",
       "quote": "Signs Johnny Marr of the Smiths and electronic music legend Richie Hawtin as artist mentors."
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Epidemic_Sound",
+      "quote": "Epidemic Sound is a royalty-free soundtrack hosting company based in Stockholm, Sweden."
     }
   ],
   "rounds": [
@@ -95,5 +100,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Stockholm-based company hosting royalty-free soundtracks."
 }

@@ -49,6 +49,11 @@
       "field": "unicorn",
       "url": "https://www.leadersleague.com/en/news/exein-raises-270-million-becoming-italian-unicorn-with-1-7-billion-valuation",
       "quote": "Following the transaction, Exein reaches a valuation of $1.7 billion, becoming one of Italy's unicorns."
+    },
+    {
+      "field": "tagline",
+      "url": "https://www.exein.io",
+      "quote": "Exein Runtime is a real-time security platform protecting Physical AI Systems, Linux-based environments, and RTOS-based devices."
     }
   ],
   "rounds": [
@@ -245,5 +250,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Security platform for real-time protection of physical AI systems, Linux environments and RTOS devices."
 }

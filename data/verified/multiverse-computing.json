@@ -50,6 +50,11 @@
       "field": "valuation",
       "url": "https://itbrief.co.uk/story/multiverse-computing-raises-usd-570-million-in-series-c",
       "quote": "valuing the Spanish artificial intelligence company at USD $1.7 billion pre-money"
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Multiverse_Computing",
+      "quote": "The company develops compressed AI models and quantum software."
     }
   ],
   "rounds": [
@@ -122,5 +127,6 @@
       ]
     }
   ],
-  "lastValuationEur": 1496000000
+  "lastValuationEur": 1496000000,
+  "tagline": "Company that develops compressed AI models and quantum software."
 }

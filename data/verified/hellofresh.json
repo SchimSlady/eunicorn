@@ -63,6 +63,11 @@
       "field": "exit",
       "url": "https://en.wikipedia.org/wiki/HelloFresh",
       "quote": "HelloFresh has been listed on the Frankfurt Stock Exchange since its IPO in November 2017."
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/HelloFresh",
+      "quote": "HelloFresh SE is a German multinational meal-kit company based in Berlin."
     }
   ],
   "rounds": [
@@ -158,5 +163,6 @@
       ]
     }
   ],
-  "funFact": "HelloFresh's co-founders Dominik Richter and Thomas Griesel packed and hand-delivered orders to its first 10 customers themselves."
+  "funFact": "HelloFresh's co-founders Dominik Richter and Thomas Griesel packed and hand-delivered orders to its first 10 customers themselves.",
+  "tagline": "Multinational meal-kit company based in Berlin."
 }

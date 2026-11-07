@@ -50,6 +50,11 @@
       "field": "valuation",
       "url": "https://cs.wikipedia.org/wiki/Rohlik.cz",
       "quote": "Valuace skupiny při tomto kole dosáhla 1,65 miliardy EUR."
+    },
+    {
+      "field": "tagline",
+      "url": "https://www.rohlik.group/",
+      "quote": "The Rohlik Group is a European technology leader in e-grocery bringing about a digital revolution whilst accelerating and redefining the retail food industry."
     }
   ],
   "rounds": [
@@ -149,5 +154,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "European technology company in online grocery."
 }

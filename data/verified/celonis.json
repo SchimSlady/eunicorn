@@ -73,6 +73,11 @@
       "field": "logo",
       "url": "https://commons.wikimedia.org/wiki/File:Celonis_Logo.png",
       "quote": "File:Celonis Logo.png - Wikimedia Commons"
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Celonis",
+      "quote": "Celonis SE is a German data processing company that offers software as a service (SaaS) to improve business processes."
     }
   ],
   "rounds": [
@@ -277,5 +282,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "German company offering software as a service to improve business processes."
 }

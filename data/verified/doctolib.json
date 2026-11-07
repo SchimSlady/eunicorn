@@ -72,6 +72,11 @@
       "field": "valuation",
       "url": "https://www.maddyness.com/2026/04/07/doctolib-depasse-les-400-millions-de-revenus-et-fait-entrer-de-nouveaux-investisseurs/",
       "quote": "Cette opération fait ressortir une valorisation de 3,6 milliards d’euros, contre 5,8 milliards lors de sa dernière levée de fonds en 2022"
+    },
+    {
+      "field": "tagline",
+      "url": "https://techcrunch.com/2017/11/27/doctolib-raises-another-42-million-for-its-medical-care-scheduling-service/",
+      "quote": "Doctolib has developed an online booking platform for all medical practitioners."
     }
   ],
   "rounds": [
@@ -271,5 +276,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Online booking platform for all medical practitioners."
 }

@@ -47,6 +47,11 @@
       "field": "valuation",
       "url": "https://tech.eu/2021/12/09/mambu-mambos-on-over-to-e235-million-in-new-raise-at-e4-9-billion-valuation/",
       "quote": "now giving the fintech a €4.9 billion valuation"
+    },
+    {
+      "field": "tagline",
+      "url": "https://www.mambu.com",
+      "quote": "Mambu connects core banking, payments and agentic AI into an Intelligent Core, so financial institutions move faster, operate leaner, and deliver instant, personalised service."
     }
   ],
   "rounds": [
@@ -128,5 +133,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Platform connecting core banking, payments and agentic AI for financial institutions."
 }

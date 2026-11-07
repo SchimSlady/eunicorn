@@ -62,6 +62,11 @@
       "field": "fun_fact",
       "url": "https://techcrunch.com/2023/07/05/egym-the-munich-based-smart-fitness-startup-raises-225m-from-jared-kushners-affinity-partners",
       "quote": "It all started with me being an unsuccessful gym goer"
+    },
+    {
+      "field": "tagline",
+      "url": "https://egym.com/us",
+      "quote": "The Company EGYM is a global fitness technology leader that makes workouts smarter, more efficient, and fun for everyone."
     }
   ],
   "rounds": [
@@ -105,5 +110,6 @@
     {
       "id": "cdtm"
     }
-  ]
+  ],
+  "tagline": "Fitness technology company that aims to make workouts more efficient and fun."
 }

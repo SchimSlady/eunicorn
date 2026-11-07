@@ -64,6 +64,11 @@
       "field": "exit",
       "url": "https://en.wikipedia.org/wiki/Graphcore",
       "quote": "In July 2024, Softbank Group agreed to acquire Graphcore for around $500 million."
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Graphcore",
+      "quote": "Graphcore Limited is a British semiconductor company that develops accelerators for AI and machine learning."
     }
   ],
   "rounds": [
@@ -234,5 +239,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "British semiconductor company developing accelerators for AI and machine learning."
 }

@@ -52,6 +52,16 @@
       "field": "valuation",
       "url": "https://www.handelsblatt.com/finanzen/banken-versicherungen/banken/fintech-solarisbank-steigt-zum-einhorn-auf-und-kauft-britischen-wettbewerber-contis/27453774.html",
       "quote": "Das Berliner Fintech mit Vollbanklizenz wird dabei mit 1,4 Milliarden Euro bewertet"
+    },
+    {
+      "field": "tagline",
+      "url": "https://solarisgroup.com/",
+      "quote": "Solaris is a German technology company with a full banking license, enabling us to seamlessly operate in all financial areas across Europe."
+    },
+    {
+      "field": "tagline",
+      "url": "https://solarisgroup.com/",
+      "quote": "Europe's leading embedded finance platform"
     }
   ],
   "rounds": [
@@ -202,5 +212,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "German technology company with a full banking license for embedded finance across Europe."
 }

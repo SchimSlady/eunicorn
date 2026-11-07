@@ -55,6 +55,16 @@
       "field": "valuation",
       "url": "https://thenextweb.com/news/stark-defence-500-million-sequoia-founders-fund-3-5-billion-valuation",
       "quote": "pushing its valuation past €3.5 billion just two years after founding"
+    },
+    {
+      "field": "tagline",
+      "url": "https://thenextweb.com/news/stark-defence-500-million-sequoia-founders-fund-3-5-billion-valuation",
+      "quote": "Stark builds loitering munitions, the military term for drones that hover over a target area, identify threats autonomously, and destroy them by self-detonating on impact."
+    },
+    {
+      "field": "tagline",
+      "url": "https://thenextweb.com/news/stark-defence-500-million-sequoia-founders-fund-3-5-billion-valuation",
+      "quote": "Stark Defence, the Berlin-based strike drone startup founded in 2024"
     }
   ],
   "rounds": [
@@ -125,5 +135,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Defence company building loitering munitions, drones that self-detonate on impact."
 }

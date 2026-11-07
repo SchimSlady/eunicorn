@@ -84,6 +84,11 @@
       "field": "programs",
       "url": "https://www.startmunich.de/api/startups",
       "quote": "\"name\":\"Trade Republic\",\"website\":\"traderepublic.com/de-de\""
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Trade_Republic",
+      "quote": "Trade Republic Bank GmbH is a German online broker and bank headquartered in Berlin."
     }
   ],
   "rounds": [
@@ -251,5 +256,6 @@
     {
       "id": "start-munich"
     }
-  ]
+  ],
+  "tagline": "Online broker and bank offering brokerage services through a mobile app."
 }

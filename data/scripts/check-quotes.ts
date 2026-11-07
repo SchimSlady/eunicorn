@@ -33,7 +33,11 @@ const metaText = (s: string) =>
 const norm = (s: string) =>
   decode((metaText(s) + " " + s).replace(/<script[\s\S]*?<\/script>|<style[\s\S]*?<\/style>/gi, " ").replace(/<[^>]*>/g, " "))
     .replace(/ /g, " ").replace(/[’‘]/g, "'").replace(/[“”«»]/g, '"').replace(/[–—]/g, "-")
-    .replace(/\s+/g, " ").trim().toLowerCase();
+    .replace(/\s+/g, " ")
+    // Tags become spaces, so a link right before a comma reads "e-commerce , mobile" (Wikipedia): drop
+    // the space before punctuation and after an opening bracket, on the page and the quote alike.
+    .replace(/ ([,.;:!?)\]])/g, "$1").replace(/([(\[]) /g, "$1")
+    .trim().toLowerCase();
 
 const cache = new Map<string, string | null>();
 async function page(url: string): Promise<string | null> {

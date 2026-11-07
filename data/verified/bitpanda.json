@@ -69,6 +69,11 @@
       "field": "logo",
       "url": "https://commons.wikimedia.org/wiki/File:Bitpanda.svg",
       "quote": "File:Bitpanda.svg - Wikimedia Commons"
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Bitpanda",
+      "quote": "Bitpanda provides a cryptocurrency broker, commodities and securities trading, and ETFs via their website and mobile app."
     }
   ],
   "rounds": [
@@ -228,5 +233,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Cryptocurrency broker offering commodities and securities trading and ETFs via website and app."
 }

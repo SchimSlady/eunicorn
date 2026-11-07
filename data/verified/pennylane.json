@@ -47,6 +47,16 @@
       "field": "valuation",
       "url": "https://fr.wikipedia.org/wiki/Pennylane",
       "quote": "Le 20 janvier 2026 , Pennylane annonce une levée de fonds de 175 millions d’euros, menée par le fonds américain TCV, portant sa valorisation à 3,5 milliards d’euros"
+    },
+    {
+      "field": "tagline",
+      "url": "https://pennylane.com/en",
+      "quote": "Pennylane is the AI-native OS built for accountants."
+    },
+    {
+      "field": "tagline",
+      "url": "https://pennylane.com/en",
+      "quote": "One live production platform for bookkeeping, invoicing, VAT, compliance, and beyond."
     }
   ],
   "rounds": [
@@ -314,5 +324,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Platform for bookkeeping, invoicing, VAT and compliance, built for accountants."
 }

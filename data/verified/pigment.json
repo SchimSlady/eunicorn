@@ -48,6 +48,11 @@
       "field": "valuation",
       "url": "https://www.gopigment.com/newsroom/pigment-raises-250m-series-e",
       "quote": "announced a $250 million Series E funding round at a $2.3 billion valuation"
+    },
+    {
+      "field": "tagline",
+      "url": "https://gopigment.com/",
+      "quote": "Prepare for anything with Pigment, the AI platform built for real-time business planning."
     }
   ],
   "rounds": [
@@ -234,5 +239,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "AI platform for real-time business planning."
 }

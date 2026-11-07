@@ -50,6 +50,16 @@
       "field": "valuation",
       "url": "https://en.wikipedia.org/wiki/Scalable_Capital",
       "quote": "As of 2025, Scalable Capital had raised more than €470 million since its founding and was valued at around €1.5 billion."
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Scalable_Capital",
+      "quote": "Scalable Capital is a German digital investment platform and bank based in Munich."
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Scalable_Capital",
+      "quote": "Its services include brokerage, digital wealth management, savings plans, deposit and lending products, and access to selected private equity products."
     }
   ],
   "rounds": [
@@ -243,5 +253,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Digital investment platform and bank offering brokerage, wealth management and savings plans."
 }

@@ -73,6 +73,11 @@
       "field": "exit",
       "url": "https://en.wikipedia.org/wiki/Contentful",
       "quote": "In June 2026, Contentful was acquired [ 12 ] by Salesforce"
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Contentful",
+      "quote": "Contentful is a German-American headless content management system (CMS), founded in 2013 in Berlin, Germany, by Sascha Konietzke and Paolo Negri."
     }
   ],
   "rounds": [
@@ -251,5 +256,6 @@
       ],
       "techeuId": "e9a3a097-63bd-451f-afdd-11892fb8b1dd"
     }
-  ]
+  ],
+  "tagline": "German-American headless content management system (CMS)."
 }

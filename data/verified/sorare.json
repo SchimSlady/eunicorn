@@ -54,6 +54,11 @@
       "field": "fun_fact",
       "url": "https://en.wikipedia.org/wiki/Sorare",
       "quote": "In November 2022, Lionel Messi joined Sorare as an investor and brand ambassador"
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Sorare",
+      "quote": "Sorare is a fantasy sport digital trading card game centered around real-world sports data."
     }
   ],
   "rounds": [
@@ -211,5 +216,6 @@
       ]
     }
   ],
-  "funFact": "Lionel Messi joined Sorare as an investor and brand ambassador in November 2022."
+  "funFact": "Lionel Messi joined Sorare as an investor and brand ambassador in November 2022.",
+  "tagline": "Fantasy sport digital trading card game based on real-world sports data."
 }

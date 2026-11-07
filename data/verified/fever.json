@@ -63,6 +63,16 @@
       "field": "fun_fact",
       "url": "https://calgaryjournal.ca/2023/03/14/candlelight-concerts-light-up-the-city/",
       "quote": "The first Candlelight Concert took place in Madrid in 2019, but it has since spread to over 100 cities across the globe, including in Calgary in 2020."
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Fever_(app)",
+      "quote": "Fever is a live entertainment ticketing platform that provides users access to various cultural and entertainment events on iOS, Android, and the web."
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Fever_(app)",
+      "quote": "Additionally, it offers ticketing, marketing and technology services for event management companies."
     }
   ],
   "rounds": [
@@ -193,5 +203,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Live entertainment ticketing platform for cultural and entertainment events, with services for event companies."
 }

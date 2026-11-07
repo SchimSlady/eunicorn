@@ -50,6 +50,11 @@
       "field": "valuation",
       "url": "https://tech.eu/2021/08/02/gbl-acquires-minority-stake-in-mobile-games-unicorn-voodoo-at-e266-million/",
       "quote": "Valued at €1.7 billion, GBL’s €266 million investment will represent a 16% stake in the company."
+    },
+    {
+      "field": "tagline",
+      "url": "https://www.voodoo.io/company",
+      "quote": "Voodoo is a global tech company that entertains the world through iconic apps and games."
     }
   ],
   "rounds": [
@@ -110,5 +115,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Tech company that makes apps and games for entertainment."
 }

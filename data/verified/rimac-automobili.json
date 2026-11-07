@@ -49,6 +49,11 @@
       "field": "valuation",
       "url": "https://www.rimac-newsroom.com/press-releases/rimac-group/rimac-group-raises-eur-500-million-in-series-d-investment-round-led-by-softbank-v",
       "quote": "valuing the Company at over EUR 2bn"
+    },
+    {
+      "field": "tagline",
+      "url": "https://rimac-automobili.com/about-us/",
+      "quote": "Today, we're a 1300-people strong technology powerhouse focused on designing, engineering and producing electric hypercars and high-performance EV components for the global automotive industry."
     }
   ],
   "rounds": [
@@ -89,5 +94,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Designs and produces electric hypercars and high-performance EV components."
 }

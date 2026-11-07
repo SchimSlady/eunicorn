@@ -52,6 +52,11 @@
       "field": "valuation",
       "url": "https://techcrunch.com/2022/04/26/sonarsource-raises-412m-to-scan-codebases-for-bugs-and-vulnerabilities/",
       "quote": "SonarSource , whose technology detects reliability and vulnerability issues in code, today announced that it raised $412 million in a funding round co-led by Advent International and General Catalyst at a $4.7 billion valuation."
+    },
+    {
+      "field": "tagline",
+      "url": "https://www.sonarsource.com/company/about/",
+      "quote": "Sonar helps developers deliver high quality and secure software by analyzing code they write, AI-generated code, and code leveraged from third parties (like open source libraries)."
     }
   ],
   "rounds": [
@@ -91,5 +96,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Code analysis that helps developers deliver high-quality, secure software."
 }

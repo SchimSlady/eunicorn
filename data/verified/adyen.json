@@ -72,6 +72,11 @@
       "field": "exit",
       "url": "https://en.wikipedia.org/wiki/Adyen",
       "quote": "The IPO took place on 13 June 2018."
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Adyen",
+      "quote": "Adyen is a Dutch payment company with the status of an acquiring bank that allows businesses to accept e-commerce, mobile, and point-of-sale payments."
     }
   ],
   "rounds": [
@@ -112,5 +117,6 @@
       ]
     }
   ],
-  "funFact": "Adyen processed a record $43 billion in payments over the 2025 Black Friday/Cyber Monday weekend."
+  "funFact": "Adyen processed a record $43 billion in payments over the 2025 Black Friday/Cyber Monday weekend.",
+  "tagline": "Dutch payment company letting businesses accept e-commerce, mobile and point-of-sale payments."
 }

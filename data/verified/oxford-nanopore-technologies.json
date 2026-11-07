@@ -65,6 +65,11 @@
       "field": "exit",
       "url": "https://en.wikipedia.org/wiki/Oxford_Nanopore_Technologies",
       "quote": "The company made an initial public offering on the London Stock Exchange on 30 September 2021"
+    },
+    {
+      "field": "tagline",
+      "url": "https://nanoporetech.com/about",
+      "quote": "Oxford Nanopore makes a novel generation of DNA/RNA sequencing technology that provides rich data, is fast, accessible and easy to use."
     }
   ],
   "rounds": [
@@ -100,5 +105,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Develops DNA and RNA sequencing technology that is fast, accessible and easy to use."
 }

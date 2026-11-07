@@ -62,6 +62,11 @@
       "field": "fun_fact",
       "url": "https://en.wikipedia.org/wiki/Flux_(text-to-image_model)",
       "quote": "Grok switched to its own text-to-image model Aurora"
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Flux_(text-to-image_model)",
+      "quote": "Flux is a family of text-to-image and image-to-image models developed by Black Forest Labs (BFL), based in Freiburg im Breisgau, Germany."
     }
   ],
   "rounds": [
@@ -158,5 +163,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "German developer of the Flux text-to-image and image-to-image AI models."
 }

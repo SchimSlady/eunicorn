@@ -67,6 +67,16 @@
       "field": "exit",
       "url": "https://en.wikipedia.org/wiki/Farfetch",
       "quote": "On 18 December 2023, it was announced the firm would be acquired by U.S. tech and online retail company Coupang"
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Farfetch",
+      "quote": "Farfetch is a global luxury marketplace headquartered in London."
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Farfetch",
+      "quote": "It operates as a digital marketplace that sells products from over 1,400 brands, boutiques and department stores from around the world."
     }
   ],
   "rounds": [
@@ -99,5 +109,6 @@
       ]
     }
   ],
-  "funFact": "Farfetch founder José Neves launched his own footwear brand, Swear, at 22 in 1996, before starting Farfetch."
+  "funFact": "Farfetch founder José Neves launched his own footwear brand, Swear, at 22 in 1996, before starting Farfetch.",
+  "tagline": "Global luxury marketplace selling products from over 1,400 brands, boutiques and department stores."
 }

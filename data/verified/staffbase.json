@@ -54,6 +54,11 @@
       "field": "valuation",
       "url": "https://tech.eu/2022/03/15/new-german-unicorn-is-here-chemnitz-based-staffbase-raises-115-million-at-11-billion-valuation-to-drive-innovation-in-employee-communications/",
       "quote": "The company has now reached a valuation of $1.1 billion."
+    },
+    {
+      "field": "tagline",
+      "url": "https://staffbase.com/",
+      "quote": "Staffbase is the AI-powered platform to govern communications, deliver trusted knowledge, and support work at scale."
     }
   ],
   "rounds": [
@@ -161,5 +166,6 @@
       ],
       "techeuId": "4329d649-c010-405b-9d88-194091246268"
     }
-  ]
+  ],
+  "tagline": "AI-powered platform to govern communications, deliver trusted knowledge and support work at scale."
 }

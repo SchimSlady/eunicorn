@@ -78,6 +78,16 @@
       "field": "exit",
       "url": "https://en.wikipedia.org/wiki/Glovo",
       "quote": "In December 2021, Delivery Hero agreed to increase its stake in Glovo and become the majority shareholder."
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Glovo",
+      "quote": "Glovo is a Spanish on-demand delivery company headquartered in Barcelona."
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Glovo",
+      "quote": "It operates a mobile app that connects customers with local businesses and couriers for deliveries of food, groceries and other items."
     }
   ],
   "rounds": [
@@ -345,5 +355,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Spanish on-demand delivery company whose app connects customers with local businesses and couriers."
 }

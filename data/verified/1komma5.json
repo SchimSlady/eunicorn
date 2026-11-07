@@ -49,6 +49,16 @@
       "field": "valuation",
       "url": "https://techfundingnews.com/german-energy-unicorn-1komma5-raises-e70m-at-1-35b-valuation-as-it-eyes-us-expansion-and-ipo/",
       "quote": "Hamburg’s 1KOMMA5° raised €70M at a $1.35B valuation from old and new backers."
+    },
+    {
+      "field": "tagline",
+      "url": "https://www.1komma5.com/en",
+      "quote": "1KOMMA5°’s core technology is Heartbeat AI, our energy intelligence."
+    },
+    {
+      "field": "tagline",
+      "url": "https://www.1komma5.com/en",
+      "quote": "It balances the volatility of renewable energy through intelligent control of generation and consumption and connects customers to the electricity market in real time - creating one of Europe’s largest virtual power plants for residential customers."
     }
   ],
   "rounds": [
@@ -130,5 +140,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Energy intelligence platform that balances renewable power as a virtual power plant for homes."
 }

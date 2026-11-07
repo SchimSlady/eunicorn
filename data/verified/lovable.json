@@ -78,6 +78,16 @@
       "field": "sectors",
       "url": "https://tech.eu/2025/07/17/lovable-annointed-europes-latest-unicorn-following-200m-funding-round/",
       "quote": "which can be described as helping people without specialist coding knowledge build apps and websites"
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Lovable_(company)",
+      "quote": "Lovable is a Swedish vibe coding platform and company."
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Lovable_(company)",
+      "quote": "Founded in Stockholm in 2023, it provides software that allows users to enter prompts to automate software development."
     }
   ],
   "rounds": [
@@ -289,5 +299,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Vibe coding platform where users enter prompts to automate software development."
 }

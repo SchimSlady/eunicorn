@@ -74,6 +74,11 @@
       "field": "exit",
       "url": "https://gocardless.com/en-us/blog/mollie-and-gocardless-combine",
       "quote": "September 1, 2026 — Mollie today announced it has completed its acquisition of GoCardless"
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/GoCardless",
+      "quote": "GoCardless is a British fintech company that specialises in bank payments including recurring payments, Direct Debit processing and Open Banking."
     }
   ],
   "rounds": [
@@ -236,5 +241,6 @@
       "id": "y-combinator",
       "batch": "Summer 2011"
     }
-  ]
+  ],
+  "tagline": "British fintech specialising in bank payments, recurring payments, Direct Debit and Open Banking."
 }

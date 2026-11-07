@@ -46,6 +46,11 @@
       "field": "valuation",
       "url": "https://www.endurancesportswire.com/neko-health-raises-700m-at-nearly-7bn-and-heads-to-new-york/",
       "quote": "The round values the company at nearly $7bn, roughly four times its worth in January 2025."
+    },
+    {
+      "field": "tagline",
+      "url": "https://techcrunch.com/2023/07/05/daniel-eks-neko-health-raises-65m-for-preventative-healthcare-through-full-body-scans",
+      "quote": "Neko Health exited stealth back in February with the lofty promise of preventative healthcare via full-body scans backed by AI software that help doctors detect skin conditions including cancer, cardiovascular disease and diabetes, among other metabolic syndromes."
     }
   ],
   "rounds": [
@@ -135,5 +140,6 @@
     }
   ],
   "aliases": [],
-  "lastValuationEur": 6104000000
+  "lastValuationEur": 6104000000,
+  "tagline": "Preventative healthcare using full-body scans and AI software that helps doctors detect disease."
 }

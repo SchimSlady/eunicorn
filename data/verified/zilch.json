@@ -51,6 +51,11 @@
       "field": "valuation",
       "url": "https://www.cnbc.com/2021/11/10/uk-buy-now-pay-later-start-up-zilch-raises-funds-for-us-expansion.html",
       "quote": "London-based start-up Zilch has raised $110 million in a round of funding that values it at $2 billion"
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Zilch_(company)",
+      "quote": "is a British multi-national direct-to-consumer payments network."
     }
   ],
   "rounds": [
@@ -152,5 +157,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "British multi-national direct-to-consumer payments network."
 }

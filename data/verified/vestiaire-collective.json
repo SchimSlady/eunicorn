@@ -61,6 +61,11 @@
       "field": "fun_fact",
       "url": "https://en.wikipedia.org/wiki/Vestiaire_Collective",
       "quote": "The platform launched with 3,000 pre-owned fashion items sourced from friends and family."
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Vestiaire_Collective",
+      "quote": "Vestiaire Collective is a global platform for buying and selling pre-owned luxury and designer fashion."
     }
   ],
   "rounds": [
@@ -124,5 +129,6 @@
     }
   ],
   "lastValuationEur": 1449398926,
-  "funFact": "Vestiaire Collective launched in 2009 as \"Vestiaire de Copines\" with 3,000 pre-owned items from friends and family."
+  "funFact": "Vestiaire Collective launched in 2009 as \"Vestiaire de Copines\" with 3,000 pre-owned items from friends and family.",
+  "tagline": "Platform for buying and selling pre-owned luxury and designer fashion."
 }

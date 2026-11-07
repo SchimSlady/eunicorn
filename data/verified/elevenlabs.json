@@ -73,6 +73,11 @@
       "field": "valuation",
       "url": "https://www.vestbee.com/insights/articles/eleven-labs-doubles-valuation-to-22-b",
       "quote": "has reached a $22 billion valuation after completing a $300 million employee tender offer"
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/ElevenLabs",
+      "quote": "ElevenLabs Inc. is a software company that specializes in developing natural-sounding speech synthesis software using deep learning."
     }
   ],
   "rounds": [
@@ -292,5 +297,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Software company that develops natural-sounding speech synthesis using deep learning."
 }

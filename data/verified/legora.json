@@ -84,6 +84,11 @@
       "field": "programs",
       "url": "https://tech.eu/2024/07/17/ai-legaltech-startup-leya-secures-25m-series-a-to-boost-lawyer-productivity/",
       "quote": "Redpoint Ventures led the round, with participation from existing investors Benchmark, Y Combinator, and Wayfinder Ventures and the new addition of Alt Capital"
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Legora",
+      "quote": "Founded in Stockholm in 2023 under the name Leya, it makes an artificial intelligence platform used by law firms for contract review, legal research and document drafting."
     }
   ],
   "rounds": [
@@ -432,5 +437,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Artificial intelligence platform used by law firms for contract review, legal research and document drafting."
 }

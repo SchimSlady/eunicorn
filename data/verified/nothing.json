@@ -63,6 +63,16 @@
       "field": "fun_fact",
       "url": "https://en.wikipedia.org/wiki/Nothing_(company)",
       "quote": "a system of LED lighting on the rear of its smartphones"
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Nothing_(technology_company)",
+      "quote": "The company develops smartphones, audio products, and related software, positioning itself as a design-focused challenger brand."
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Nothing_(technology_company)",
+      "quote": "Nothing Technology Limited (stylised as NOTHING) is a British consumer electronics company headquartered in London."
     }
   ],
   "rounds": [
@@ -252,5 +262,6 @@
       ]
     }
   ],
-  "funFact": "Nothing's first product, launched in July 2021, was a pair of transparent wireless earbuds; its phones have an LED Glyph Interface on the back."
+  "funFact": "Nothing's first product, launched in July 2021, was a pair of transparent wireless earbuds; its phones have an LED Glyph Interface on the back.",
+  "tagline": "British consumer electronics company developing smartphones, audio products and related software."
 }

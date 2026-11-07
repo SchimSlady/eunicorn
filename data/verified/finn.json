@@ -60,6 +60,16 @@
       "field": "programs",
       "url": "https://www.cdtm.com/startups/finn-auto",
       "quote": "CDTM founders Max-Josef Meier Class of Fall 2006"
+    },
+    {
+      "field": "tagline",
+      "url": "https://www.finn.com/en-DE",
+      "quote": "FINN (as an Auto Abo provider) sits right in the middle between rental cars and leasing contracts."
+    },
+    {
+      "field": "tagline",
+      "url": "https://www.finn.com/en-DE",
+      "quote": "At FINN, your reliable car subscription provider, we want to take away all the worries about the 'extra costs' that are usually associated with car ownership."
     }
   ],
   "rounds": [
@@ -248,5 +258,6 @@
     {
       "id": "cdtm"
     }
-  ]
+  ],
+  "tagline": "Car subscription provider that sits between rental cars and leasing contracts."
 }

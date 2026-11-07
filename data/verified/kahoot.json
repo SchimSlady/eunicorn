@@ -81,6 +81,16 @@
       "field": "exit",
       "url": "https://kahoot.com/blog/2023/07/13/recommended-voluntary-offer-on-kahoot/",
       "quote": "Eilert Hanoa 13 Jul 2023"
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Kahoot!",
+      "quote": "Kahoot! is a Norwegian online game-based learning platform."
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Kahoot!",
+      "quote": "It has learning games, also known as \"kahoots\", which are user-generated multiple-choice quizzes that can be accessed via a web browser or the Kahoot! app."
     }
   ],
   "rounds": [
@@ -269,5 +279,6 @@
       "techeuId": "6ba4fd91-3258-497f-efe9-08d91092c887"
     }
   ],
-  "funFact": "Kahoot! grew out of 'Lecture Quiz' prototypes that Alf Inge Wang developed at NTNU in 2006."
+  "funFact": "Kahoot! grew out of 'Lecture Quiz' prototypes that Alf Inge Wang developed at NTNU in 2006.",
+  "tagline": "Online game-based learning platform with user-made multiple-choice quizzes."
 }

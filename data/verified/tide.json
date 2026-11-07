@@ -47,6 +47,16 @@
       "field": "valuation",
       "url": "https://www.openbankingexpo.com/news/tide-secures-strategic-investment-from-leading-global-investor-tpg/",
       "quote": "The investment raises Tide’s valuation to $1.5 billion"
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Tide_(financial_service)",
+      "quote": "Tide (Tide Platform Limited) is a UK financial technology company providing mobile-first banking services for small and medium-sized enterprises."
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Tide_(financial_service)",
+      "quote": "It enables businesses to set up a current account and get instant access to various financial services (including automated bookkeeping and integrated invoicing)."
     }
   ],
   "rounds": [
@@ -185,5 +195,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Mobile-first banking for small and medium-sized businesses, with automated bookkeeping and invoicing."
 }

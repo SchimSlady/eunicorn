@@ -74,6 +74,16 @@
       "field": "logo",
       "url": "https://commons.wikimedia.org/wiki/File:N26_logo.svg",
       "quote": "File:N26 logo.svg - Wikimedia Commons"
+    },
+    {
+      "field": "tagline",
+      "url": "https://n26.com/",
+      "quote": "N26 is a fully licensed German bank with deposit protection up to €100,000."
+    },
+    {
+      "field": "tagline",
+      "url": "https://n26.com/",
+      "quote": "N26 is the first 100% mobile bank to be granted and operate with a full German banking license from BaFin."
     }
   ],
   "rounds": [
@@ -355,5 +365,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Fully licensed German bank that operates as a 100% mobile bank."
 }

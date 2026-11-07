@@ -57,6 +57,16 @@
       "field": "valuation",
       "url": "https://thenextweb.com/news/mews-raises-e255m-to-accelerate-ai-and-automation-in-hospitality",
       "quote": "The investment values the company at roughly $2.5 billion."
+    },
+    {
+      "field": "tagline",
+      "url": "https://mews.com/",
+      "quote": "Mews is the operating system built to power modern hotels."
+    },
+    {
+      "field": "tagline",
+      "url": "https://mews.com/",
+      "quote": "Whether you run one property or many, Mews helps you operate more efficiently, serve guests better and grow revenue across every part of your business."
     }
   ],
   "rounds": [
@@ -269,5 +279,6 @@
       ]
     }
   ],
-  "aliases": []
+  "aliases": [],
+  "tagline": "Operating system for modern hotels, covering operations, guest service and revenue."
 }

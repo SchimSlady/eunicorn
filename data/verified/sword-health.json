@@ -48,6 +48,11 @@
       "field": "valuation",
       "url": "https://techcrunch.com/2025/06/17/sword-health-nabs-40m-at-4b-valuation-pushes-ipo-plans-to-at-least-2028",
       "quote": "has raised $40 million at a $4 billion valuation"
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Sword_Health",
+      "quote": "Sword Health is a digital health company that develops physical therapy programs for musculoskeletal (MSK) conditions, pelvic health, and injury prevention."
     }
   ],
   "rounds": [
@@ -289,5 +294,6 @@
       "techeuId": "129bd914-f11a-4d8b-8776-2aeceb6866ec",
       "postMoneyValuationEur": 3457814661
     }
-  ]
+  ],
+  "tagline": "Digital health company offering physical therapy programs for musculoskeletal conditions."
 }
