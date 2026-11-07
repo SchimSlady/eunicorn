@@ -19,6 +19,7 @@
     "Andreas Blattmann",
     "Patrick Esser"
   ],
+  "funFact": "Black Forest Labs' Flux model was built into Elon Musk's Grok chatbot in August 2024, until Grok switched to its own image model, Aurora.",
   "difficulty": 2,
   "techeuId": "88CAAD4C-E3D5-4F9B-9705-026CEE7A8A07",
   "sources": [
@@ -51,6 +52,16 @@
       "field": "valuation",
       "url": "https://bfl.ai/blog/our-300m-series-b",
       "quote": "Today, we're excited to announce our Series B of $300M at a $3.25B post-money valuation."
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://en.wikipedia.org/wiki/Flux_(text-to-image_model)",
+      "quote": "In August 2024, Flux was integrated into Elon Musk's Grok chatbot developed by xAI"
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://en.wikipedia.org/wiki/Flux_(text-to-image_model)",
+      "quote": "Grok switched to its own text-to-image model Aurora"
     }
   ],
   "rounds": [

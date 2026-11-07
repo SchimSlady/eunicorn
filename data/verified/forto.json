@@ -19,6 +19,7 @@
     "Erik Muttersbach",
     "Fabian Heilemann"
   ],
+  "funFact": "Forto started in Berlin as FreightHub, offering ocean freight on the Asia-Germany route, before renaming itself Forto.",
   "difficulty": 3,
   "techeuId": "2B8C9AFA-D80E-4903-8262-6EF724530590",
   "sources": [
@@ -61,6 +62,11 @@
       "field": "programs",
       "url": "https://www.cdtm.com/startups/forto",
       "quote": "CDTM founders Erik Muttersbach Class of Spring 2013"
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://forto.com/en/press-releases/freighthub-becomes-forto/",
+      "quote": "Four years ago, the company started under the name FreightHub in Berlin with just a few employees, and offered transports on the Asia-Germany route by ocean freight."
     }
   ],
   "rounds": [

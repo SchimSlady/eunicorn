@@ -19,6 +19,7 @@
     "Florian Sauter",
     "Philipp Roesch-Schlanderer"
   ],
+  "funFact": "EGYM's co-founder says it all started with him being an unsuccessful gym goer.",
   "difficulty": 3,
   "techeuId": "6617A16D-6DCB-470B-98D2-AE1AB8EFDEB7",
   "sources": [
@@ -56,6 +57,11 @@
       "field": "programs",
       "url": "https://www.cdtm.com/startups/egym",
       "quote": "CDTM founders Florian Sauter Class of Fall 2006"
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://techcrunch.com/2023/07/05/egym-the-munich-based-smart-fitness-startup-raises-225m-from-jared-kushners-affinity-partners",
+      "quote": "It all started with me being an unsuccessful gym goer"
     }
   ],
   "rounds": [
