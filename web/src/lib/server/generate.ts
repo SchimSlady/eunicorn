@@ -58,6 +58,23 @@ const LOCAL_EXTRAS_FROM = "2026-11-07";
 const LOCAL_PROGRAMS_FROM = "2026-11-08";
 
 /**
+ * From this day on the server-made hints are more useful: Who Raised This's third hint says what the company
+ * does (never its city, the clues already name it) and the founding year comes last; the Impostor's
+ * second hint says what the impostor does instead of city and year; and a local game never repeats the
+ * puzzle of the daily game (see localAvoids). Earlier days keep exactly what they had.
+ */
+const HINTS_V2_FROM = "2026-11-08";
+
+/** What the company does as a hint, or undefined when there is no tagline or it gives the name away. */
+function doesHint(c: Company): string | undefined {
+  const t = c.tagline?.trim().replace(/\.$/, "");
+  if (!t) return undefined;
+  const low = t.toLowerCase();
+  if (low.includes(c.name.toLowerCase()) || low.includes(c.name.split(/\s+/)[0].toLowerCase())) return undefined;
+  return t;
+}
+
+/**
  * A Local game: one of the region's games (lib/regions.ts) with only the region's companies. Its own
  * random stream per region, so Munich and Berlin don't share a chain. Higher or Lower has no theme
  * days here (the region is the theme). Same puzzle number as the day's daily games.
@@ -67,12 +84,28 @@ function localPuzzle(mode: PlayMode, date: string, data: Dataset, region: Region
   const rng = seeded(`${date}:${mode}:${region}`);
   const base = { date, number: puzzleNumber(date), hints: [] as Hint[] };
   const companies = data.companies.filter((c) => c.european && REGIONS[region].test(c));
+  const v2 = date >= HINTS_V2_FROM;
   if (mode === "higher-lower") {
-    const metrics: HLMetric[] | undefined = date >= LOCAL_EXTRAS_FROM ? [...HL_METRICS, "lastRoundMonth"] : undefined;
+    let metrics: HLMetric[] | undefined = date >= LOCAL_EXTRAS_FROM ? [...HL_METRICS, "lastRoundMonth"] : undefined;
+    if (v2) {
+      // Never the daily game's number: the local chain asks about another one.
+      const daily = generatePuzzle("higher-lower", date, data) as WebHigherLowerPuzzle | null;
+      const all = metrics ?? [...HL_METRICS];
+      const others = all.filter((m) => m !== daily?.metric);
+      if (others.length) metrics = others;
+    }
     return higherLower(base, date, companies, rng, false, metrics);
   }
   // Germany's Impostor: the same categories as the daily game but the country (everyone shares it).
-  if (mode === "impostor") return impostor(base, companies, rng, true);
+  if (mode === "impostor") {
+    let avoid: Set<string> | undefined;
+    if (v2) {
+      // Never a category the daily Impostor uses today, at any level.
+      const daily = generatePuzzle("impostor", date, data) as (ImpostorPuzzle & { variants?: ImpostorVariants }) | null;
+      avoid = new Set([daily?.prompt, ...DIFFICULTIES.map((l) => daily?.variants?.[l]?.prompt)].filter((p): p is string => !!p).map((p) => p.replace(/: Find the impostors$/, "")));
+    }
+    return impostor(base, companies, rng, true, avoid);
+  }
   return localTop10(base, date, region, companies, data, rng);
 }
 
@@ -173,10 +206,24 @@ function localList(date: string, region: Region, companies: Company[], data: Dat
       const rest = [...order.slice(i + 1), ...order.slice(0, i)];
       real = rest.find((l) => l.tag !== prev!.tag) ?? rest[0];
     }
+    // Never the topic of the daily Top 10 the same day (a local "AI" list next to the global one).
+    const avoid = dailyTags(day, data);
+    if (avoid.has(real.tag)) {
+      const i = order.indexOf(real);
+      const rest = [...order.slice(i + 1), ...order.slice(0, i)].filter((l) => !avoid.has(l.tag));
+      real = rest.find((l) => l.tag !== prev?.tag && l.key !== prev?.key) ?? rest[0] ?? real;
+    }
     if (day === date) return real;
-    if (real === list) return today.list;
     prev = real;
   }
+}
+
+/** The topics of the day's daily Top 10 (all levels), in the local lists' words: the Europe, German, Berlin and Munich lists are the local "all" lists. */
+function dailyTags(day: string, data: Dataset): Set<string> {
+  const tags = new Set<string>();
+  top10({ date: day, number: puzzleNumber(day), hints: [] }, day, data.companies.filter((c) => c.european), seeded(`${day}:top-10`), tags);
+  for (const t of [...tags]) if (["europe", "de", "berlin", "munich"].includes(t)) tags.add("all");
+  return tags;
 }
 
 function dayAfter(date: string): string {
@@ -278,7 +325,7 @@ const TOP10_PRIVATE_VALUATIONS_FROM = "2026-11-03";
  * a row never share a topic. A question the data can't support today (fewer than 12 companies with the
  * number, or a tie at No. 10) is skipped for the next one.
  */
-function top10(base: Base, date: string, companies: Company[], rng: Rng): Top10Puzzle | null {
+function top10(base: Base, date: string, companies: Company[], rng: Rng, tagsOut?: Set<string>): Top10Puzzle | null {
   const day = puzzleNumber(date) - 1;
   const variants: Partial<Record<Difficulty, Top10Round>> = {};
   for (const level of DIFFICULTIES) {
@@ -288,6 +335,7 @@ function top10(base: Base, date: string, companies: Company[], rng: Rng): Top10P
       const round = top10Round(order[(day + i) % order.length], companies, rng, date >= TOP10_PRIVATE_VALUATIONS_FROM, [{ kind: "european" }]);
       if (round) {
         variants[level] = round;
+        tagsOut?.add(order[(day + i) % order.length].tag);
         break;
       }
     }
@@ -381,6 +429,7 @@ function whoRaisedThis(
   const rounds = data.rounds.filter((r) => byId.has(r.companyId) && r.amountUsd > 0 && r.investorIds.filter(known).length >= 1);
   if (!rounds.length) return null;
 
+  const v2 = base.date >= HINTS_V2_FROM;
   const variants: WhoRaisedThisVariants = {};
   for (const level of DIFFICULTIES) {
     const built = forLevel(level, companies, (pool) => {
@@ -402,12 +451,21 @@ function whoRaisedThis(
         { kind: "amount", text: `Raised ${formatUsdAsEur(round.amountUsd)} in a ${STAGE_LABEL[round.stage] ?? round.stage} round` },
         { kind: "year", text: monthYear(round.date) },
         { kind: "sector", text: answer.sectors.map(sectorLabel).join(", ") },
-        { kind: "year", text: `Founded in ${answer.founded}` },
+        ...(v2 ? [] : [{ kind: "year" as const, text: `Founded in ${answer.founded}` }]),
         { kind: "city", text: [answer.city, countryName(answer.country)].filter(Boolean).join(", ") },
         { kind: "investors", text: `Backed by ${list(names.slice(0, 2))}` },
       ];
       if (names.length > 2) clues.push({ kind: "investors", text: `Also: ${list(names.slice(2, 5))}` });
       if (founders.length) clues.push({ kind: "founders", text: `Founded by ${list(founders)}` });
+      if (v2) clues.push({ kind: "year", text: `Founded in ${answer.founded}` });
+      const does = doesHint(answer);
+      const third = v2
+        ? does
+          ? { text: `What it does: ${does}`, cost: 3 }
+          : answer.totalRaisedUsd
+            ? { text: `Has raised ${formatUsdAsEur(answer.totalRaisedUsd)} in total`, cost: 3 }
+            : undefined
+        : { text: `${answer.totalRaisedUsd ? `Has raised ${formatUsdAsEur(answer.totalRaisedUsd)} in total` : `Based in ${answer.city}`}`, cost: 3 };
 
       return {
         answerCompanyId: answer.id,
@@ -416,7 +474,7 @@ function whoRaisedThis(
         hints: [
           { text: `The name has ${letters(answer.name)} letters`, cost: 1 },
           { text: `Starts with ${answer.name[0].toUpperCase()}`, cost: 2 },
-          { text: `${answer.totalRaisedUsd ? `Has raised ${formatUsdAsEur(answer.totalRaisedUsd)} in total` : `Based in ${answer.city}`}`, cost: 3 },
+          ...(third ? [third] : []),
         ],
       };
     });
@@ -874,7 +932,7 @@ function impostorCount(rng: Rng): number {
  * local: a Local game, whose companies all come from one country, so there are no country categories,
  * and the impostors come from the same companies ("Based in Munich" with impostors from Berlin).
  */
-function impostor(base: Base, companies: Company[], rng: Rng, local = false): (ImpostorPuzzle & { variants: ImpostorVariants }) | null {
+function impostor(base: Base, companies: Company[], rng: Rng, local = false, avoid?: Set<string>): (ImpostorPuzzle & { variants: ImpostorVariants }) | null {
   const groups: Group[] = [];
   for (const code of local ? [] : unique(companies.map((c) => c.country))) {
     groups.push({
@@ -945,7 +1003,7 @@ function impostor(base: Base, companies: Company[], rng: Rng, local = false): (I
       const first = scaled ? optionCount(rng) : impostorCount(rng);
       const second = scaled ? impostorsFor(first, rng) : optionCount(rng);
       const [n, wanted] = scaled ? [second, first] : [first, second];
-      for (const g of shuffle(groups, rng)) {
+      for (const g of shuffle(avoid?.size ? groups.filter((x) => !avoid.has(x.prompt)) : groups, rng)) {
         const fits = pool.filter(g.members);
         // As many options as the wish, or as many as this category can fill (but at least six).
         let options = Math.min(wanted, fits.length + n);
@@ -971,7 +1029,9 @@ function impostor(base: Base, companies: Company[], rng: Rng, local = false): (I
           explanation: `${list(imps.map((c) => `${c.name} ${g.odd(c)}`))}. ${list(fit.map((c) => c.name))} ${g.shared}.`,
           hints: [
             { text: `Remove one wrong option (${fit[0].name} fits)`, cost: 1 },
-            { text: `One impostor is based in ${first.city}, founded in ${first.founded}`, cost: 2 },
+            base.date >= HINTS_V2_FROM
+              ? { text: doesHint(first) ? `One impostor: ${doesHint(first)}` : `One impostor is based in ${first.city}`, cost: 2 }
+              : { text: `One impostor is based in ${first.city}, founded in ${first.founded}`, cost: 2 },
           ],
         };
       }
