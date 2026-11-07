@@ -1,0 +1,162 @@
+{
+  "id": "kreditech",
+  "name": "Kreditech",
+  "aliases": ["Monedo"],
+  "domain": "kreditech.com",
+  "country": "DE",
+  "city": "Hamburg",
+  "founded": 2012,
+  "sectors": ["fintech"],
+  "status": "defunct",
+  "unicorn": false,
+  "founders": ["Sebastian Diemer", "Alexander Graubner-Müller"],
+  "funFact": "Kreditech scored loan applicants with a self-learning algorithm that used up to 20,000 data points.",
+  "difficulty": 4,
+  "techeuId": "673C0F43-43EE-47BC-BFC3-6BB5EFC9067F",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://techcrunch.com/2016/12/15/kreditech-adds-rakuten-as-new-investor-raises-another-10m/",
+      "quote": "The Hamburg startup has raised $10.4 million (10 million euros) from Rakuten"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Kreditech",
+      "quote": "Founded in 2012 by Sebastian Diemer and Alexander Graubner-Müller"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Kreditech",
+      "quote": "Founded in 2012 by Sebastian Diemer and Alexander Graubner-Müller"
+    },
+    {
+      "field": "sectors",
+      "url": "https://techcrunch.com/2015/09/28/kreditech-series-c/",
+      "quote": "a German company building a suite of credit and banking products for consumers who have little or no credit history"
+    },
+    {
+      "field": "status",
+      "url": "https://www.biia.com/pioneer-german-fintech-company-kreditech-slipped-into-bankruptcy/",
+      "quote": "Mit Monedo, formerly known as Kreditech, a pioneer of the German fintech market has slipped into bankruptcy."
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://en.wikipedia.org/wiki/Kreditech",
+      "quote": "It calculated an individual's credit score in seconds using up to 20,000 data points."
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-b",
+      "month": "2014-06",
+      "amountEur": 29372889,
+      "amountOriginal": 40000000,
+      "currency": "USD",
+      "investors": ["Värde Partners", "Blumberg Capital", "Point Nine Capital"],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2014/06/24/credit-rating-startup-kreditech-raises-a-40m-series-b-round/",
+          "quote": "has closed a $40 million Series B funding round"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2014/06/24/credit-rating-startup-kreditech-raises-a-40m-series-b-round/",
+          "quote": "has closed a $40 million Series B funding round"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2014/06/24/credit-rating-startup-kreditech-raises-a-40m-series-b-round/",
+          "quote": "June 24, 2014"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2014/06/24/credit-rating-startup-kreditech-raises-a-40m-series-b-round/",
+          "quote": "The lead investor is Värde Partners, a PE fund, which was joined by existing shareholder Blumberg Capital and Point Nine Capital."
+        }
+      ]
+    },
+    {
+      "techeuId": "2d774983-2928-440c-c0ed-08d91092c887",
+      "stage": "series-c",
+      "month": "2015-09",
+      "amountEur": 82500000,
+      "amountOriginal": 82500000,
+      "currency": "EUR",
+      "investors": ["J.C. Flowers & Co.", "Peter Thiel", "Amadeus Capital Partners", "Värde Partners", "HPE Growth Capital", "Blumberg Capital"],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2015/09/28/kreditech-series-c/",
+          "quote": "has raised €82.5 million ($92 million) to continue adding more products and geographies to its platform"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2015/09/28/kreditech-series-c/",
+          "quote": "September 28, 2015"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2015/09/28/kreditech-series-c/",
+          "quote": "is investing in this Series C round"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2015/09/28/kreditech-series-c/",
+          "quote": "Peter Thiel is investing in this Series C round, alongside Amadeus Capital Partners and existing investors Värde Partners, HPE Growth Capital and Blumberg Capital"
+        }
+      ]
+    },
+    {
+      "techeuId": "90971bc9-824e-4c38-c0ef-08d91092c887",
+      "stage": "series-c",
+      "month": "2016-12",
+      "amountEur": 10000000,
+      "amountOriginal": 10000000,
+      "currency": "EUR",
+      "investors": ["Rakuten"],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2016/12/15/kreditech-adds-rakuten-as-new-investor-raises-another-10m/",
+          "quote": "The Hamburg startup has raised $10.4 million (10 million euros) from Rakuten"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2016/12/15/kreditech-adds-rakuten-as-new-investor-raises-another-10m/",
+          "quote": "December 15, 2016"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2016/12/15/kreditech-adds-rakuten-as-new-investor-raises-another-10m/",
+          "quote": "The Hamburg startup has raised $10.4 million (10 million euros) from Rakuten"
+        }
+      ]
+    },
+    {
+      "stage": "series-d",
+      "month": "2019-09",
+      "amountEur": 20000000,
+      "amountOriginal": 20000000,
+      "currency": "EUR",
+      "investors": ["Runa Capital", "HPE Growth Capital", "Amadeus Capital Partners"],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://globalventuring.com/kreditech-tunes-into-runa-capital-for-new-funding",
+          "quote": "raised €20m ($21.9m) in equity funding on Wednesday"
+        },
+        {
+          "field": "month",
+          "url": "https://globalventuring.com/kreditech-tunes-into-runa-capital-for-new-funding",
+          "quote": "Sep 27, 2019"
+        },
+        {
+          "field": "investors",
+          "url": "https://globalventuring.com/kreditech-tunes-into-runa-capital-for-new-funding",
+          "quote": "The round was co-led by venture capital firm Runa Capital and unnamed German individuals, and also featured private equity firm HPE Growth and VC firm Amadeus Capital Partners."
+        }
+      ]
+    }
+  ]
+}

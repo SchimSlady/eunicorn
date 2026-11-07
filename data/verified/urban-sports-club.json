@@ -1,0 +1,93 @@
+{
+  "id": "urban-sports-club",
+  "name": "Urban Sports Club",
+  "aliases": [],
+  "domain": "urbansportsclub.com",
+  "country": "DE",
+  "city": "Berlin",
+  "founded": 2012,
+  "sectors": [
+    "health",
+    "consumer"
+  ],
+  "status": "acquired",
+  "unicorn": false,
+  "founders": [
+    "Moritz Kreppel",
+    "Benjamin Roth"
+  ],
+  "funFact": "Urban Sports Club bootstrapped for two years before taking its first outside financing in 2015.",
+  "difficulty": 3,
+  "techeuId": "AD6C74DE-7601-4EFD-8634-4170AE9F8075",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://urbansportsclub.com/en/press",
+      "quote": "Urban Sports GmbH was founded in 2012 by Moritz Kreppel and Benjamin Roth in Berlin, Germany."
+    },
+    {
+      "field": "founded",
+      "url": "https://urbansportsclub.com/en/press",
+      "quote": "Urban Sports GmbH was founded in 2012 by Moritz Kreppel and Benjamin Roth in Berlin, Germany."
+    },
+    {
+      "field": "founders",
+      "url": "https://urbansportsclub.com/en/press",
+      "quote": "Urban Sports GmbH was founded in 2012 by Moritz Kreppel and Benjamin Roth in Berlin, Germany."
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.ypog.law/en/press/ypog-advises-partech-on-financing-round-of-urban-sports-club",
+      "quote": "has developed into one of Europe's leading providers of sports and wellness services"
+    },
+    {
+      "field": "status",
+      "url": "https://urbansportsclub.com/en/press",
+      "quote": "Wellhub has acquired Urban Sports Club in a $600 million deal"
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://urbansportsclub.com/en/press",
+      "quote": "After two years of bootstrapping, the company secured early-stage financing in 2015"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "390d639a-bf4f-40c9-b44c-41a49bc6382e",
+      "stage": "series-e",
+      "month": "2023-12",
+      "amountEur": 95000000,
+      "amountOriginal": 95000000,
+      "currency": "EUR",
+      "investors": [
+        "Verdane",
+        "HV Capital",
+        "b2venture",
+        "ProSiebenSat.1",
+        "Partech"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://startuprise.co.uk/urban-sports-club-raises-e95-million-in-funding/",
+          "quote": "Berlin-based Urban Sports Club raises €95 million in funding."
+        },
+        {
+          "field": "month",
+          "url": "https://startuprise.co.uk/urban-sports-club-raises-e95-million-in-funding/",
+          "quote": "Dec 15, 2023"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.ypog.law/en/press/ypog-advises-partech-on-financing-round-of-urban-sports-club",
+          "quote": "Series E financing round of Urban Sports Club"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.ypog.law/en/press/ypog-advises-partech-on-financing-round-of-urban-sports-club",
+          "quote": "Existing investors who also participated in this round include VC firm HV Capital, b2venture and"
+        }
+      ]
+    }
+  ]
+}

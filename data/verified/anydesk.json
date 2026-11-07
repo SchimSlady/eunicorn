@@ -1,0 +1,88 @@
+{
+  "id": "anydesk",
+  "name": "AnyDesk",
+  "aliases": [],
+  "domain": "anydesk.com",
+  "country": "DE",
+  "city": "Stuttgart",
+  "founded": 2014,
+  "sectors": [
+    "saas"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "lastValuationEur": 600000000,
+  "founders": [
+    "Philipp Weiser"
+  ],
+  "funFact": "AnyDesk was founded in Stuttgart in 2014 by four former TeamViewer employees.",
+  "difficulty": 3,
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/AnyDesk",
+      "quote": "AnyDesk Software GmbH was founded in 2014 in Stuttgart"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/AnyDesk",
+      "quote": "AnyDesk Software GmbH was founded in 2014 in Stuttgart"
+    },
+    {
+      "field": "founders",
+      "url": "https://techcrunch.com/2018/05/14/anydesk/",
+      "quote": "co-founder and CEO Philipp Weiser"
+    },
+    {
+      "field": "sectors",
+      "url": "https://techcrunch.com/2018/05/14/anydesk/",
+      "quote": "a startup that offers remote desktop software powered by a bespoke video codec"
+    },
+    {
+      "field": "valuation",
+      "url": "https://www.generalatlantic.com/?p=4406",
+      "quote": "AnyDesk's current valuation reaches €600 million"
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://de.wikipedia.org/wiki/AnyDesk",
+      "quote": "Die AnyDesk GmbH wurde 2014 von vier ehemaligen Teamviewer"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-a",
+      "month": "2018-05",
+      "amountEur": 6500000,
+      "amountOriginal": 6500000,
+      "currency": "EUR",
+      "investors": [
+        "EQT Ventures",
+        "Chris Hitchen",
+        "Andreas Burike"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2018/05/14/anydesk/",
+          "quote": "has scored €6.5 million in Series A funding"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2018/05/14/anydesk/",
+          "quote": "has scored €6.5 million in Series A funding"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2018/05/14/anydesk/",
+          "quote": "May 14, 2018"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2018/05/14/anydesk/",
+          "quote": "Leading the round is EQT Ventures, with participation from angel investors, including Chris Hitchen, and previous backer Andreas Burike"
+        }
+      ]
+    }
+  ]
+}

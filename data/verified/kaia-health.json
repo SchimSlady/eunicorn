@@ -1,0 +1,196 @@
+{
+  "id": "kaia-health",
+  "name": "Kaia Health",
+  "aliases": [
+    "Kaia"
+  ],
+  "domain": "kaiahealth.com",
+  "country": "DE",
+  "city": "Munich",
+  "founded": 2015,
+  "sectors": [
+    "health",
+    "ai"
+  ],
+  "status": "acquired",
+  "unicorn": false,
+  "founders": [
+    "Konstantin Mehl",
+    "Manuel Thurner"
+  ],
+  "funFact": "Before Kaia Health, co-founders Konstantin Mehl and Manuel Thurner had built the food delivery startup Foodora together.",
+  "difficulty": 4,
+  "techeuId": "4CC27440-8617-4743-9369-E2A9F630D6E0",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://tech.eu/2020/06/18/kaia-health-series-b/",
+      "quote": "Munich-born Kaia Health secures $26 million in Series B funding"
+    },
+    {
+      "field": "founded",
+      "url": "https://www.tum.de/aktuelles/alle-meldungen/pressemitteilungen/details/auszeichnung-fuer-digitale-therapie-programme",
+      "quote": "Nach der Gründung 2015 konnte das Start-up mehrere Finanzierungsrunden erfolgreich abschließen"
+    },
+    {
+      "field": "founders",
+      "url": "https://www.tum.de/aktuelles/alle-meldungen/pressemitteilungen/details/auszeichnung-fuer-digitale-therapie-programme",
+      "quote": "Die Gründer Konstantin Mehl und Manuel Thurner"
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.prnewswire.com/news-releases/kaia-health-announces-8-million-in-funding-led-by-optum-ventures-300919137.html",
+      "quote": "Kaia Health, a digital therapeutics company, today announced an $8 million funding round"
+    },
+    {
+      "field": "status",
+      "url": "https://www.munich-startup.de/en/news/kaia-health-becomes-part-of-sword-health",
+      "quote": "Kaia Health has been acquired by Sword Health."
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://www.munich-startup.de/24842/portraet-kaia-health/",
+      "quote": "Gemeinsam bauten sie bereits Foodora auf."
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "dc33838e-f51c-4d50-e731-08d91092c887",
+      "stage": "series-a",
+      "month": "2019-01",
+      "amountEur": 8801267,
+      "amountOriginal": 10000000,
+      "currency": "USD",
+      "investors": [
+        "Balderton Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2019/01/21/kaia-health-gets-10m-support-for-ai-powered-management-of-chronic-pain/",
+          "quote": "has pulled in $10 million in Series A funding"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2019/01/21/kaia-health-gets-10m-support-for-ai-powered-management-of-chronic-pain/",
+          "quote": "January 21, 2019"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2019/01/21/kaia-health-gets-10m-support-for-ai-powered-management-of-chronic-pain/",
+          "quote": "has pulled in $10 million in Series A funding"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2019/01/21/kaia-health-gets-10m-support-for-ai-powered-management-of-chronic-pain/",
+          "quote": "The Series A round was led by Balderton Capital"
+        }
+      ]
+    },
+    {
+      "techeuId": "a30dcc68-e34e-4f3c-e732-08d91092c887",
+      "stage": "series-a",
+      "month": "2019-09",
+      "amountEur": 7255578,
+      "amountOriginal": 8000000,
+      "currency": "USD",
+      "investors": [
+        "Optum Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.prnewswire.com/news-releases/kaia-health-announces-8-million-in-funding-led-by-optum-ventures-300919137.html",
+          "quote": "today announced an $8 million funding round, the second significant investment this year"
+        },
+        {
+          "field": "month",
+          "url": "https://www.prnewswire.com/news-releases/kaia-health-announces-8-million-in-funding-led-by-optum-ventures-300919137.html",
+          "quote": "Sept. 17, 2019"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.prnewswire.com/news-releases/kaia-health-announces-8-million-in-funding-led-by-optum-ventures-300919137.html",
+          "quote": "The infusion of capital is led by Optum Ventures."
+        }
+      ]
+    },
+    {
+      "techeuId": "b438c9fe-f371-4c18-e733-08d91092c887",
+      "stage": "series-b",
+      "month": "2020-06",
+      "amountEur": 23168776,
+      "amountOriginal": 26000000,
+      "currency": "USD",
+      "investors": [
+        "Optum Ventures",
+        "Idinvest Partners",
+        "capital300",
+        "Balderton Capital",
+        "Heartcore Capital",
+        "Symphony Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2020/06/18/kaia-health-gets-26m-to-show-it-can-do-more-with-digital-therapeutics/",
+          "quote": "has closed a $26 million Series B funding round"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2020/06/18/kaia-health-gets-26m-to-show-it-can-do-more-with-digital-therapeutics/",
+          "quote": "June 18, 2020"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2020/06/18/kaia-health-gets-26m-to-show-it-can-do-more-with-digital-therapeutics/",
+          "quote": "has closed a $26 million Series B funding round"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2020/06/18/kaia-health-gets-26m-to-show-it-can-do-more-with-digital-therapeutics/",
+          "quote": "The funding was led by Optum Ventures, Idinvest and capital300 with participation from existing investors Balderton Capital and Heartcore Capital, in addition to Symphony Ventures"
+        }
+      ]
+    },
+    {
+      "techeuId": "f78f67b6-7117-4150-a875-4455a207ad41",
+      "stage": "series-c",
+      "month": "2021-04",
+      "amountEur": 62137531,
+      "amountOriginal": 75000000,
+      "currency": "USD",
+      "investors": [
+        "Optum Ventures",
+        "Eurazeo",
+        "3VC",
+        "Balderton Capital",
+        "Heartcore Capital",
+        "Symphony Ventures",
+        "A Round Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2021/04/28/kaia-health-grabs-75m-on-surging-interest-in-its-virtual-therapies-for-chronic-pain-and-copd/",
+          "quote": "has raised a $75 million Series C"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2021/04/28/kaia-health-grabs-75m-on-surging-interest-in-its-virtual-therapies-for-chronic-pain-and-copd/",
+          "quote": "April 28, 2021"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2021/04/28/kaia-health-grabs-75m-on-surging-interest-in-its-virtual-therapies-for-chronic-pain-and-copd/",
+          "quote": "has raised a $75 million Series C"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2021/04/28/kaia-health-grabs-75m-on-surging-interest-in-its-virtual-therapies-for-chronic-pain-and-copd/",
+          "quote": "with support from existing investors, including Optum Ventures, Eurazeo, 3VC, Balderton Capital, Heartcore Capital, Symphony Ventures"
+        }
+      ]
+    }
+  ]
+}

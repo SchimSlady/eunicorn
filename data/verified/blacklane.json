@@ -1,0 +1,118 @@
+{
+  "id": "blacklane",
+  "name": "Blacklane",
+  "aliases": [],
+  "domain": "blacklane.com",
+  "country": "DE",
+  "city": "Berlin",
+  "founded": 2011,
+  "sectors": [
+    "mobility",
+    "travel"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Jens Wohltorf",
+    "Frank Steuer"
+  ],
+  "difficulty": 3,
+  "techeuId": "8949F324-E355-454A-9172-AF540AC2D275",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://techcrunch.com/2018/01/24/blacklane/",
+      "quote": "a Berlin-based business that offers limousines and other high-end cars for airport and other medium-length journeys"
+    },
+    {
+      "field": "founded",
+      "url": "https://www.blacklane.com/de/presse/veroeffentlichungen/5pwPv9qNr6hV7p6SFD6kom/",
+      "quote": "Blacklane kompensiert außerdem alle Fahrten seit der Gründung im Jahr 2011."
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Blacklane",
+      "quote": "Jens Wohltorf and Frank Steuer"
+    },
+    {
+      "field": "sectors",
+      "url": "https://techcrunch.com/2018/01/24/blacklane/",
+      "quote": "a Berlin-based business that offers limousines and other high-end cars for airport and other medium-length journeys"
+    },
+    {
+      "field": "status",
+      "url": "https://www.blacklane.com/de/presse/veroeffentlichungen/blacklane-schliesst-bisher-groesste-finanzierungsrunde-ab/",
+      "quote": "Blacklane, der führende globale Chauffeurdienstleister, gibt heute den erfolgreichen Abschluss seiner bisher größten Finanzierungsrunde bekannt."
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "87a84de8-6526-49e6-f6c0-08d91092c887",
+      "stage": "series-e",
+      "month": "2021-03",
+      "amountEur": 22000000,
+      "amountOriginal": 22000000,
+      "currency": "EUR",
+      "investors": [
+        "Daimler",
+        "ALFAHIM",
+        "btov Partners"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2021/03/24/berlins-blacklane-raises-26m-to-expand-its-high-end-chauffeur-driven-sustainable-car-service/",
+          "quote": "has closed a round of €22 million ($26 million at current rates)"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2021/03/24/berlins-blacklane-raises-26m-to-expand-its-high-end-chauffeur-driven-sustainable-car-service/",
+          "quote": "March 24, 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2021/03/24/berlins-blacklane-raises-26m-to-expand-its-high-end-chauffeur-driven-sustainable-car-service/",
+          "quote": "the investment is coming from existing investors German automotive giant Daimler, the UAE's ALFAHIM Group and btov Partners"
+        }
+      ]
+    },
+    {
+      "techeuId": "278f50e3-57f4-4465-8bde-8567e59cc4e9",
+      "stage": "series-f+",
+      "month": "2024-10",
+      "amountEur": 60000000,
+      "amountOriginal": 60000000,
+      "currency": "EUR",
+      "investors": [
+        "TASARU Mobility Investments",
+        "Mercedes-Benz Mobility",
+        "Gargash Enterprises",
+        "Al Fahim Group",
+        "Alstin Capital",
+        "RI Digital Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.blacklane.com/de/presse/veroeffentlichungen/blacklane-schliesst-bisher-groesste-finanzierungsrunde-ab/",
+          "quote": "Die Serie-G-Runde sichert Blacklane eine Investition von 60 Millionen Euro"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.blacklane.com/de/presse/veroeffentlichungen/blacklane-schliesst-bisher-groesste-finanzierungsrunde-ab/",
+          "quote": "Die Serie-G-Runde sichert Blacklane eine Investition von 60 Millionen Euro"
+        },
+        {
+          "field": "month",
+          "url": "https://www.blacklane.com/de/presse/veroeffentlichungen/blacklane-schliesst-bisher-groesste-finanzierungsrunde-ab/",
+          "quote": "Berlin (Deutschland) und Riad (Saudi-Arabien) – 29. Oktober 2024"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.blacklane.com/en/blog/news/blacklane-secures-largest-financing-round-to-date/",
+          "quote": "We're welcoming TASARU Mobility Investments as a strategic investor and shareholder, alongside our long-time partners Mercedes-Benz Mobility, Gargash Enterprises, Al Fahim Group, Alstin Capital and RI Digital Ventures."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "id": "sonnen",
+  "name": "sonnen",
+  "aliases": [
+    "Sonnenbatterie",
+    "PROSOL Invest Deutschland"
+  ],
+  "domain": "sonnen.de",
+  "country": "DE",
+  "city": "Wildpoldsried",
+  "founded": 2010,
+  "sectors": [
+    "climate"
+  ],
+  "status": "acquired",
+  "unicorn": false,
+  "founders": [
+    "Christoph Ostermann",
+    "Torsten Stiefenhofer"
+  ],
+  "difficulty": 3,
+  "techeuId": "F2CAA849-15D2-4FE2-9237-DB09DFC2C2F8",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://de.wikipedia.org/wiki/Sonnen_(Unternehmen)",
+      "quote": "ist ein Unternehmen in der Energiebranche mit Sitz in Wildpoldsried"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Sonnen_GmbH",
+      "quote": "Christoph Ostermann and Torsten Stiefenhofer founded the company in 2010"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Sonnen_GmbH",
+      "quote": "Christoph Ostermann and Torsten Stiefenhofer founded the company in 2010"
+    },
+    {
+      "field": "sectors",
+      "url": "https://en.wikipedia.org/wiki/Sonnen_GmbH",
+      "quote": "It produces home energy storage systems for private households and small businesses"
+    },
+    {
+      "field": "status",
+      "url": "https://de.wikipedia.org/wiki/Sonnen_(Unternehmen)",
+      "quote": "Im März 2019 wurde Sonnen von Shell für knapp 500 Mio. Euro übernommen"
+    },
+    {
+      "field": "status",
+      "url": "https://de.wikipedia.org/wiki/Sonnen_(Unternehmen)",
+      "quote": "Das Unternehmen hat am 22. Oktober 2026 Antrag auf Insolvenz gestellt"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "1c5d26d2-aa2e-4fee-ba72-08d91092c887",
+      "stage": "series-c",
+      "month": "2016-10",
+      "amountEur": 76000000,
+      "amountOriginal": 76000000,
+      "currency": "EUR",
+      "investors": [
+        "Envision Energy",
+        "Thomas Pütter",
+        "eCAPITAL",
+        "Munich Venture Partners",
+        "SET Ventures",
+        "Inven Capital",
+        "GE Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.solarserver.de/2016/10/17/sonnen-erhaelt-76-millionen-euro-wachstumskapital-und-gewinnt-neue-investoren/",
+          "quote": "76 Millionen Euro abgeschlossen, berichtet der Energiespeicher-Hersteller"
+        },
+        {
+          "field": "month",
+          "url": "https://www.solarserver.de/2016/10/17/sonnen-erhaelt-76-millionen-euro-wachstumskapital-und-gewinnt-neue-investoren/",
+          "quote": "17.10.2016"
+        },
+        {
+          "field": "investors",
+          "url": "https://sonnenusa.com/en/sonnen-secures-85-million-growth-capital-and-gains-new-partners-creating-future-energy",
+          "quote": "existing investors including eCAPITAL, MVP, SET Ventures, Inven Capital and GE Ventures"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.solarserver.de/2016/10/17/sonnen-erhaelt-76-millionen-euro-wachstumskapital-und-gewinnt-neue-investoren/",
+          "quote": "Ganz neu dazugekommen sind der international tätige Technologie-Konzern Envision Energy"
+        }
+      ]
+    },
+    {
+      "techeuId": "6a2c88ba-c459-4ba6-cf23-08d91092c887",
+      "stage": "series-d",
+      "month": "2018-05",
+      "amountEur": 60000000,
+      "amountOriginal": 60000000,
+      "currency": "EUR",
+      "investors": [
+        "Shell Ventures",
+        "eCAPITAL"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://prnewswire.com/news-releases/sonnen-closes-new-60-million-financing-round-and-adds-shell-ventures-as-new-investor-300653253.html",
+          "quote": "closing of its latest financing round of €60 million"
+        },
+        {
+          "field": "month",
+          "url": "https://prnewswire.com/news-releases/sonnen-closes-new-60-million-financing-round-and-adds-shell-ventures-as-new-investor-300653253.html",
+          "quote": "May 23, 2018"
+        },
+        {
+          "field": "investors",
+          "url": "https://prnewswire.com/news-releases/sonnen-closes-new-60-million-financing-round-and-adds-shell-ventures-as-new-investor-300653253.html",
+          "quote": "led by Shell Ventures and significantly supported by all existing investors"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.solarserver.de/2018/05/23/sonnen-gewinnt-shell-ventures-als-investor/",
+          "quote": "eCapital mit dem neuen Fonds IV auch in dieser Runde einen nennenswerten Beitrag geleistet"
+        }
+      ]
+    }
+  ]
+}

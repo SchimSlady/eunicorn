@@ -1,0 +1,124 @@
+{
+  "id": "koro",
+  "name": "KoRo",
+  "aliases": [
+    "KoRo Drogerie",
+    "KoRo Handels GmbH"
+  ],
+  "domain": "korodrogerie.de",
+  "country": "DE",
+  "city": "Berlin",
+  "founded": 2014,
+  "sectors": [
+    "foodtech",
+    "ecommerce"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Constantinos Calios",
+    "Piran Asci"
+  ],
+  "difficulty": 3,
+  "techeuId": "DE9C07C0-905F-4B34-8089-34EB1B86AEE1",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://partechpartners.com/news/koro-raises-50m-series-b-to-continue-its-explosive-growth-as-one-of-europes-fastest-natural-foods-brands",
+      "quote": "KoRo was founded in 2014 in Berlin, Germany and was developed by Constantinos Calios and Piran Asci"
+    },
+    {
+      "field": "founded",
+      "url": "https://partechpartners.com/news/koro-raises-50m-series-b-to-continue-its-explosive-growth-as-one-of-europes-fastest-natural-foods-brands",
+      "quote": "KoRo was founded in 2014 in Berlin, Germany and was developed by Constantinos Calios and Piran Asci"
+    },
+    {
+      "field": "founders",
+      "url": "https://partechpartners.com/news/koro-raises-50m-series-b-to-continue-its-explosive-growth-as-one-of-europes-fastest-natural-foods-brands",
+      "quote": "KoRo was founded in 2014 in Berlin, Germany and was developed by Constantinos Calios and Piran Asci"
+    },
+    {
+      "field": "sectors",
+      "url": "https://partechpartners.com/news/koro-raises-50m-series-b-to-continue-its-explosive-growth-as-one-of-europes-fastest-natural-foods-brands",
+      "quote": "KoRo sells high-quality and long-life food products directly to consumers in 16 countries in Europe"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "71a89a25-2337-46dd-8c0b-352b84644958",
+      "stage": "series-b",
+      "month": "2023-04",
+      "amountEur": 20000000,
+      "amountOriginal": 20000000,
+      "currency": "EUR",
+      "investors": [
+        "SevenVentures",
+        "Associated British Foods",
+        "Haub Legacy Ventures",
+        "HV Capital",
+        "Five Seasons Ventures",
+        "Partech"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://partechpartners.com/news/koro-the-better-for-you-food-brand-successfully-raised-a-20m-extension-that-brought-its-total-series-b-to-75m",
+          "quote": "received a funding of €20m"
+        },
+        {
+          "field": "month",
+          "url": "https://partechpartners.com/news/koro-the-better-for-you-food-brand-successfully-raised-a-20m-extension-that-brought-its-total-series-b-to-75m",
+          "quote": "April 20th, 2023"
+        },
+        {
+          "field": "stage",
+          "url": "https://partechpartners.com/news/koro-the-better-for-you-food-brand-successfully-raised-a-20m-extension-that-brought-its-total-series-b-to-75m",
+          "quote": "KoRo raised a €20M extension that brought its total Series B to €75M"
+        },
+        {
+          "field": "investors",
+          "url": "https://partechpartners.com/news/koro-the-better-for-you-food-brand-successfully-raised-a-20m-extension-that-brought-its-total-series-b-to-75m",
+          "quote": "new shareholders SevenVentures, Associated British Foods and Family Office Haub Legacy participated with existing shareholders HV Capital, Five Seasons Ventures and Partech"
+        }
+      ]
+    },
+    {
+      "techeuId": "bf4147da-425b-445a-ac29-016c13a9c190",
+      "stage": "series-c",
+      "month": "2024-11",
+      "amountEur": 35000000,
+      "amountOriginal": 35000000,
+      "currency": "EUR",
+      "investors": [
+        "Coefficient Capital",
+        "Five Seasons Ventures",
+        "HV Capital",
+        "Partech",
+        "Haub Legacy Ventures",
+        "SevenVentures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.mynewsdesk.com/de/koro-handels-gmbh/pressreleases/koro-secures-35-euro-million-in-series-c-funding-round-to-boost-omnichannel-presence-and-fuel-european-expansion-3355351",
+          "quote": "announced today the successful completion of its oversubscribed €35 million Series C funding round"
+        },
+        {
+          "field": "month",
+          "url": "https://www.mynewsdesk.com/de/koro-handels-gmbh/pressreleases/koro-secures-35-euro-million-in-series-c-funding-round-to-boost-omnichannel-presence-and-fuel-european-expansion-3355351",
+          "quote": "20 November 2024"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.mynewsdesk.com/de/koro-handels-gmbh/pressreleases/koro-secures-35-euro-million-in-series-c-funding-round-to-boost-omnichannel-presence-and-fuel-european-expansion-3355351",
+          "quote": "announced today the successful completion of its oversubscribed €35 million Series C funding round"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.mynewsdesk.com/de/koro-handels-gmbh/pressreleases/koro-secures-35-euro-million-in-series-c-funding-round-to-boost-omnichannel-presence-and-fuel-european-expansion-3355351",
+          "quote": "KoRo raises €35 million in an oversubscribed Series C round led by Coefficient Capital with strong participation from existing investors Five Seasons Ventures, HV Capital, Partech, Haub Legacy Ventures and Seven Ventures"
+        }
+      ]
+    }
+  ]
+}

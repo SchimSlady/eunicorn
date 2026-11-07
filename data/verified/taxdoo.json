@@ -1,0 +1,112 @@
+{
+  "id": "taxdoo",
+  "name": "Taxdoo",
+  "aliases": ["TAXDOO"],
+  "domain": "taxdoo.com",
+  "country": "DE",
+  "city": "Hamburg",
+  "founded": 2016,
+  "sectors": ["fintech", "saas"],
+  "status": "private",
+  "unicorn": false,
+  "founders": ["Matthias Allmendinger", "Roger Gothmann", "Christian Königsheim"],
+  "funFact": "Co-founder Roger Gothmann used to be a tax auditor at Germany's Federal Central Tax Office.",
+  "difficulty": 4,
+  "techeuId": "68201246-10AE-47E0-B586-92B3BF16D01E",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://techcrunch.com/2021/12/16/taxdoo-raises-64m-to-expand-from-tax-compliance-to-a-wider-set-of-financial-tools-for-e-commerce-companies/",
+      "quote": "the Hamburg-based startup will be using to expand further across Europe"
+    },
+    {
+      "field": "founded",
+      "url": "https://techcrunch.com/2020/12/15/taxdoo/",
+      "quote": "Founded in May 2016, after its three founders — Christian Koenigsheim, Matthias Allmendinger, and Roger Gothmann — finished their PhDs in finance at the University of Hamburg."
+    },
+    {
+      "field": "founders",
+      "url": "https://techcrunch.com/2021/12/16/taxdoo-raises-64m-to-expand-from-tax-compliance-to-a-wider-set-of-financial-tools-for-e-commerce-companies/",
+      "quote": "Co-founded by three economics PhDs — Matthias Allmendinger, Roger Gothmann and Christian Königsheim"
+    },
+    {
+      "field": "sectors",
+      "url": "https://techcrunch.com/2021/12/16/taxdoo-raises-64m-to-expand-from-tax-compliance-to-a-wider-set-of-financial-tools-for-e-commerce-companies/",
+      "quote": "which builds API-based tools to help e-commerce companies with tax compliance and other accounting needs"
+    },
+    {
+      "field": "status",
+      "url": "https://www.taxdoo.com/de/ueber-uns/",
+      "quote": "2025 übernimmt TAXDOO accountDigital"
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://www.taxdoo.com/de/ueber-uns/",
+      "quote": "Als ehemaliger Betriebsprüfer und Finanzbeamter beim Bundeszentralamt für Steuern hat er erlebt, wie komplex und träge das System sein kann."
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "f78d6087-51cb-4c0d-f44d-08d91092c887",
+      "stage": "series-a",
+      "month": "2020-12",
+      "amountEur": 17298188,
+      "amountOriginal": 21000000,
+      "currency": "USD",
+      "investors": ["Accel", "Visionaries Club", "20VC", "High-Tech Gründerfonds"],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.htgf.de/en/htgf-financing-round-taxdoo/",
+          "quote": "today announced it has closed a $21 million (€17 million) Series A round of financing led by global venture capital firm Accel"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.htgf.de/en/htgf-financing-round-taxdoo/",
+          "quote": "today announced it has closed a $21 million (€17 million) Series A round of financing led by global venture capital firm Accel"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2020/12/15/taxdoo/",
+          "quote": "December 15, 2020"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.htgf.de/en/htgf-financing-round-taxdoo/",
+          "quote": "with participation from Visionaries Club, 20VC and existing investor High-Tech Gründerfonds (HTGF)"
+        }
+      ]
+    },
+    {
+      "techeuId": "1b862449-29f9-44be-b694-fa8f67c29b9f",
+      "stage": "series-b",
+      "month": "2021-12",
+      "amountEur": 56457304,
+      "amountOriginal": 64000000,
+      "currency": "USD",
+      "investors": ["Tiger Global", "Accel", "Visionaries Club", "20VC"],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.htgf.de/en/htgf-news-taxdoo/",
+          "quote": "today announced a $64M Series B round led by Tiger Global, with participation from existing investors Accel, Visionaries Club, and 20VC"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.htgf.de/en/htgf-news-taxdoo/",
+          "quote": "today announced a $64M Series B round led by Tiger Global, with participation from existing investors Accel, Visionaries Club, and 20VC"
+        },
+        {
+          "field": "month",
+          "url": "https://www.htgf.de/en/htgf-news-taxdoo/",
+          "quote": "Hamburg, Germany, December 16, 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.htgf.de/en/htgf-news-taxdoo/",
+          "quote": "today announced a $64M Series B round led by Tiger Global, with participation from existing investors Accel, Visionaries Club, and 20VC"
+        }
+      ]
+    }
+  ]
+}

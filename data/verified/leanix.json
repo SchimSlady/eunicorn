@@ -1,0 +1,197 @@
+{
+  "id": "leanix",
+  "name": "LeanIX",
+  "aliases": [
+    "SAP LeanIX"
+  ],
+  "domain": "leanix.net",
+  "country": "DE",
+  "city": "Bonn",
+  "founded": 2012,
+  "sectors": [
+    "saas"
+  ],
+  "status": "acquired",
+  "unicorn": false,
+  "founders": [
+    "Jörg Beyer",
+    "André Christ"
+  ],
+  "funFact": "TechCrunch described LeanIX's software as a \"Google Maps for IT architectures\".",
+  "difficulty": 3,
+  "techeuId": "00B03CC3-7C8D-41B8-8BBC-DC7118C21A46",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://en.wikipedia.org/wiki/LeanIX",
+      "quote": "founded on January 10, 2012 by Jörg Beyer and André Christ in Bonn"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/LeanIX",
+      "quote": "founded on January 10, 2012 by Jörg Beyer and André Christ in Bonn"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/LeanIX",
+      "quote": "founded on January 10, 2012 by Jörg Beyer and André Christ in Bonn"
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.leanix.net/en/company/press/20181206-leanix-raises-30-million-in-series-c-founding-round",
+      "quote": "the leading provider of Software-as-a-Service solutions in Enterprise Architecture (EA) Management"
+    },
+    {
+      "field": "status",
+      "url": "https://www.leanix.net/en/company/press/leanix-is-now-part-of-sap",
+      "quote": "today announced it has completed the acquisition of LeanIX"
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://techcrunch.com/2018/12/06/leanix/",
+      "quote": "might well be described as a \"Google Maps for IT architectures.\""
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "748fd25b-cf98-4ffe-f4ed-08d91092c887",
+      "stage": "series-a",
+      "month": "2015-03",
+      "amountEur": 2200000,
+      "amountOriginal": 2200000,
+      "currency": "EUR",
+      "investors": [
+        "Capnamic Ventures",
+        "Iris Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.computerwoche.de/article/2710313/leanix-bekommt-2-2-millionen-euro-wagniskapital.html",
+          "quote": "Leanix bekommt 2,2 Millionen Euro Wagniskapital"
+        },
+        {
+          "field": "month",
+          "url": "https://www.computerwoche.de/article/2710313/leanix-bekommt-2-2-millionen-euro-wagniskapital.html",
+          "quote": "5. März 2015"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.computerwoche.de/article/2710313/leanix-bekommt-2-2-millionen-euro-wagniskapital.html",
+          "quote": "Im Rahmen der Serie-A-Finanzierungsrunde"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.computerwoche.de/article/2710313/leanix-bekommt-2-2-millionen-euro-wagniskapital.html",
+          "quote": "Capnamic Ventures und Iris Capital die weitere Expansion von Leanix"
+        }
+      ]
+    },
+    {
+      "techeuId": "863c46f2-abf5-43ad-f4ee-08d91092c887",
+      "stage": "series-b",
+      "month": "2017-07",
+      "amountEur": 6490697,
+      "amountOriginal": 7500000,
+      "currency": "USD",
+      "investors": [
+        "DTCP",
+        "Capnamic Ventures",
+        "Iris Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.leanix.net/en/company/press/201705718-leanix-7-5-million-series-b",
+          "quote": "has raised USD 7.5 million for ongoing expansion into the US market"
+        },
+        {
+          "field": "month",
+          "url": "https://www.leanix.net/en/company/press/201705718-leanix-7-5-million-series-b",
+          "quote": "July 18, 2017"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.leanix.net/en/company/press/201705718-leanix-7-5-million-series-b",
+          "quote": "The series B financing round is being led by DTCP (Deutsche Telekom Capital Partners)"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.leanix.net/en/company/press/201705718-leanix-7-5-million-series-b",
+          "quote": "Existing investors Capnamic Ventures and Iris Capital are also participating"
+        }
+      ]
+    },
+    {
+      "techeuId": "33af7190-0d52-4ec0-f4ef-08d91092c887",
+      "stage": "series-c",
+      "month": "2018-12",
+      "amountEur": 26429389,
+      "amountOriginal": 30000000,
+      "currency": "USD",
+      "investors": [
+        "Insight Venture Partners",
+        "DTCP",
+        "Capnamic Ventures",
+        "Iris Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.leanix.net/en/company/press/20181206-leanix-raises-30-million-in-series-c-founding-round",
+          "quote": "today announced that it has closed $30 million in Series C funding, led by Insight Venture Partners"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.leanix.net/en/company/press/20181206-leanix-raises-30-million-in-series-c-founding-round",
+          "quote": "today announced that it has closed $30 million in Series C funding, led by Insight Venture Partners"
+        },
+        {
+          "field": "month",
+          "url": "https://www.leanix.net/en/company/press/20181206-leanix-raises-30-million-in-series-c-founding-round",
+          "quote": "Bonn, Germany - December 6, 2018"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.leanix.net/en/company/press/20181206-leanix-raises-30-million-in-series-c-founding-round",
+          "quote": "Previous investors DTCP (Deutsche Telekom Capital Partners), Capnamic Ventures, and Iris Capital also participated in the round"
+        }
+      ]
+    },
+    {
+      "techeuId": "01141b30-cb8c-4687-f4f0-08d91092c887",
+      "stage": "series-d",
+      "month": "2020-07",
+      "amountEur": 70884281,
+      "amountOriginal": 80000000,
+      "currency": "USD",
+      "investors": [
+        "Goldman Sachs Growth",
+        "Insight Partners",
+        "DTCP"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.leanix.net/en/company/press/080720-leanix-raises-80-million-series-d-funding-round-led-by-goldman-sachs",
+          "quote": "today announced that it has closed $80 million in Series D funding led by new investor Goldman Sachs Growth"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.leanix.net/en/company/press/080720-leanix-raises-80-million-series-d-funding-round-led-by-goldman-sachs",
+          "quote": "today announced that it has closed $80 million in Series D funding led by new investor Goldman Sachs Growth"
+        },
+        {
+          "field": "month",
+          "url": "https://www.leanix.net/en/company/press/080720-leanix-raises-80-million-series-d-funding-round-led-by-goldman-sachs",
+          "quote": "Bonn, Germany and Boston, MA - July 8, 2020"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.leanix.net/en/company/press/080720-leanix-raises-80-million-series-d-funding-round-led-by-goldman-sachs",
+          "quote": "Other investors are Insight Partners and DTCP"
+        }
+      ]
+    }
+  ]
+}

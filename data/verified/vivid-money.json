@@ -1,0 +1,172 @@
+{
+  "id": "vivid-money",
+  "name": "Vivid Money",
+  "aliases": [
+    "Vivid"
+  ],
+  "domain": "vivid.money",
+  "country": "DE",
+  "city": "Berlin",
+  "founded": 2019,
+  "sectors": [
+    "fintech"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "lastValuationEur": 775000000,
+  "founders": [
+    "Artem Yamanov",
+    "Alexander Emeshev"
+  ],
+  "difficulty": 3,
+  "techeuId": "72A5AC4C-1B89-4EFB-908A-3599492FA6F8",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://press.vivid.money/press-releases-feed/vivid-money-raises-60-million-euro-series-b-for-further-expansion",
+      "quote": "Vivid Money was founded in 2019 by Artem Yamanov and Alexander Emeshev in Berlin"
+    },
+    {
+      "field": "founded",
+      "url": "https://press.vivid.money/press-releases-feed/vivid-money-raises-60-million-euro-series-b-for-further-expansion",
+      "quote": "Vivid Money was founded in 2019 by Artem Yamanov and Alexander Emeshev in Berlin"
+    },
+    {
+      "field": "founders",
+      "url": "https://press.vivid.money/press-releases-feed/vivid-money-raises-60-million-euro-series-b-for-further-expansion",
+      "quote": "Vivid Money was founded in 2019 by Artem Yamanov and Alexander Emeshev in Berlin"
+    },
+    {
+      "field": "sectors",
+      "url": "https://press.vivid.money/press-releases-feed/vivid-money-raises-60-million-euro-series-b-for-further-expansion",
+      "quote": "Vivid Money, the Berlin-based financial platform"
+    },
+    {
+      "field": "valuation",
+      "url": "https://press.vivid.money/press-releases-feed/vivid-money-raises-100-million-euro-series-c-to-further-transformation-into-financial-superapp",
+      "quote": "today announced a 100 million Euro financing, reaching a valuation of 775 million Euros"
+    }
+  ],
+  "rounds": [
+    {
+      "techeuId": "08e6ad42-5b14-4280-f116-08d91092c887",
+      "stage": "series-a",
+      "month": "2020-11",
+      "amountEur": 15000000,
+      "amountOriginal": 15000000,
+      "currency": "EUR",
+      "postMoneyValuationEur": 100000000,
+      "investors": [
+        "Ribbit Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://press.vivid.money/press-releases-feed/vivid-money-raises-series-a-for-expansion-and-product-development",
+          "quote": "today announced a 15 million Euro financing for expansion and product development, reaching a valuation of 100 million Euro"
+        },
+        {
+          "field": "month",
+          "url": "https://press.vivid.money/press-releases-feed/vivid-money-raises-series-a-for-expansion-and-product-development",
+          "quote": "Berlin, November 5, 2020"
+        },
+        {
+          "field": "stage",
+          "url": "https://press.vivid.money/press-releases-feed/vivid-money-raises-series-a-for-expansion-and-product-development",
+          "quote": "The Series A round was led by Ribbit Capital"
+        },
+        {
+          "field": "investors",
+          "url": "https://press.vivid.money/press-releases-feed/vivid-money-raises-series-a-for-expansion-and-product-development",
+          "quote": "The Series A round was led by Ribbit Capital"
+        },
+        {
+          "field": "valuation",
+          "url": "https://press.vivid.money/press-releases-feed/vivid-money-raises-series-a-for-expansion-and-product-development",
+          "quote": "reaching a valuation of 100 million Euro"
+        }
+      ]
+    },
+    {
+      "techeuId": "71e0e617-2677-4a73-9034-17f1dd8846e7",
+      "stage": "series-b",
+      "month": "2021-04",
+      "amountEur": 60000000,
+      "amountOriginal": 60000000,
+      "currency": "EUR",
+      "postMoneyValuationEur": 360000000,
+      "investors": [
+        "Greenoaks Capital",
+        "Ribbit Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://press.vivid.money/press-releases-feed/vivid-money-raises-60-million-euro-series-b-for-further-expansion",
+          "quote": "today announced a 60 million Euro Investment for expansion and product development"
+        },
+        {
+          "field": "month",
+          "url": "https://press.vivid.money/press-releases-feed/vivid-money-raises-60-million-euro-series-b-for-further-expansion",
+          "quote": "Berlin, April 29, 2021"
+        },
+        {
+          "field": "stage",
+          "url": "https://press.vivid.money/press-releases-feed/vivid-money-raises-60-million-euro-series-b-for-further-expansion",
+          "quote": "The Series B round was led by Greenoaks with participation from existing investor Ribbit Capital"
+        },
+        {
+          "field": "investors",
+          "url": "https://press.vivid.money/press-releases-feed/vivid-money-raises-60-million-euro-series-b-for-further-expansion",
+          "quote": "The Series B round was led by Greenoaks with participation from existing investor Ribbit Capital"
+        },
+        {
+          "field": "valuation",
+          "url": "https://press.vivid.money/press-releases-feed/vivid-money-raises-60-million-euro-series-b-for-further-expansion",
+          "quote": "bringing the company’s valuation to 360 million Euro"
+        }
+      ]
+    },
+    {
+      "techeuId": "45859f67-79ef-4355-a697-745ca1b5f24d",
+      "stage": "series-c",
+      "month": "2022-02",
+      "amountEur": 100000000,
+      "amountOriginal": 100000000,
+      "currency": "EUR",
+      "postMoneyValuationEur": 775000000,
+      "investors": [
+        "Greenoaks Capital",
+        "Ribbit Capital",
+        "SoftBank Vision Fund 2"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://press.vivid.money/press-releases-feed/vivid-money-raises-100-million-euro-series-c-to-further-transformation-into-financial-superapp",
+          "quote": "today announced a 100 million Euro financing, reaching a valuation of 775 million Euros"
+        },
+        {
+          "field": "month",
+          "url": "https://press.vivid.money/press-releases-feed/vivid-money-raises-100-million-euro-series-c-to-further-transformation-into-financial-superapp",
+          "quote": "Berlin, February 08, 2022"
+        },
+        {
+          "field": "stage",
+          "url": "https://press.vivid.money/press-releases-feed/vivid-money-raises-100-million-euro-series-c-to-further-transformation-into-financial-superapp",
+          "quote": "The Series C round was led by Greenoaks Capital with the participation of Ribbit Capital and SoftBank Vision Fund 2"
+        },
+        {
+          "field": "investors",
+          "url": "https://press.vivid.money/press-releases-feed/vivid-money-raises-100-million-euro-series-c-to-further-transformation-into-financial-superapp",
+          "quote": "The Series C round was led by Greenoaks Capital with the participation of Ribbit Capital and SoftBank Vision Fund 2"
+        },
+        {
+          "field": "valuation",
+          "url": "https://press.vivid.money/press-releases-feed/vivid-money-raises-100-million-euro-series-c-to-further-transformation-into-financial-superapp",
+          "quote": "reaching a valuation of 775 million Euros"
+        }
+      ]
+    }
+  ]
+}

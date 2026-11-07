@@ -1,0 +1,57 @@
+{
+  "id": "gunzilla-games",
+  "name": "Gunzilla Games",
+  "aliases": [
+    "Gunzilla"
+  ],
+  "domain": "gunzillagames.com",
+  "country": "DE",
+  "city": "Frankfurt",
+  "founded": 2020,
+  "sectors": [
+    "gaming",
+    "crypto"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Vlad Korolev",
+    "Alexander Zoll"
+  ],
+  "funFact": "Gunzilla bought the video game magazine Game Informer and helped bring it back from the dead.",
+  "difficulty": 4,
+  "techeuId": "18B5508A-8FB4-4C91-811D-FBB2DC53CB34",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://aap.com.au/aapreleases/cision20220809ae35957/",
+      "quote": "Frankfurt, Germany (HQ)"
+    },
+    {
+      "field": "founded",
+      "url": "https://aap.com.au/aapreleases/cision20220809ae35957/",
+      "quote": "Founded in 2020, Gunzilla Games is a fresh, independent AAA developer"
+    },
+    {
+      "field": "founders",
+      "url": "https://siliconcanals.com/germany-gunzilla-games-bags-44-9m/",
+      "quote": "Founded by Vlad Korolev and Alexander Zoll in 2020"
+    },
+    {
+      "field": "sectors",
+      "url": "https://aap.com.au/aapreleases/cision20220809ae35957/",
+      "quote": "Gunzilla Games, a AAA game studio"
+    },
+    {
+      "field": "sectors",
+      "url": "https://aap.com.au/aapreleases/cision20220809ae35957/",
+      "quote": "are using blockchain technology to make this happen"
+    },
+    {
+      "field": "fun_fact",
+      "url": "https://aftermath.site/gunzilla-gunz-gun-off-the-grid-game-informer",
+      "quote": "being the company that bought Game Informer and helped bring the magazine back from the dead"
+    }
+  ],
+  "rounds": []
+}
