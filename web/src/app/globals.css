@@ -81,8 +81,11 @@
   --animate-flip-in: flip-in 0.45s ease-out both;
   --animate-pop: pop 0.25s ease-out;
   --animate-toast: toast 2.6s ease-out both;
-  --animate-hl-to-prev: hl-to-prev 0.5s cubic-bezier(0.22, 1, 0.36, 1) both;
-  --animate-hl-next-in: hl-next-in 0.5s 0.12s cubic-bezier(0.22, 1, 0.36, 1) both;
+  --animate-hl-to-prev: hl-to-prev 0.6s cubic-bezier(0.65, 0, 0.35, 1) both;
+  --animate-hl-next-in: hl-next-in 0.6s cubic-bezier(0.65, 0, 0.35, 1) both;
+  --animate-hl-out: hl-out 0.6s cubic-bezier(0.65, 0, 0.35, 1) both;
+  --animate-hl-vs: hl-vs 0.6s ease-out both;
+  --animate-hl-buttons: hl-buttons 0.3s 0.45s ease-out both;
 
   @keyframes shake {
     0%, 100% { transform: translateX(0); }
@@ -121,16 +124,31 @@
     60% { transform: scale(1.03); }
     100% { transform: scale(1); }
   }
-  /* Higher or Lower moving on: the revealed company slides from the "next" place into the "previous"
-     one (--hl-from-x / --hl-from-y: below on a phone, to the right side by side), changing colour on
-     the way; the new company follows in from the same side. */
+  /* Higher or Lower moving on: a conveyor, one panel wide (--hl-from-x / --hl-from-y: below on a phone, to the
+     right side by side). The old "previous" company leaves, the revealed one moves into its place (changing
+     colour on the way) and the new one comes in behind it, all at the same pace. VS drops out for the move
+     and pops back on the new boundary. */
   @keyframes hl-to-prev {
     from { transform: translate(var(--hl-from-x), var(--hl-from-y)); background-color: #00205e; }
     to { transform: translate(0, 0); }
   }
   @keyframes hl-next-in {
-    from { transform: translate(calc(var(--hl-from-x) * 0.6), calc(var(--hl-from-y) * 0.6)); opacity: 0; }
-    to { transform: translate(0, 0); opacity: 1; }
+    from { transform: translate(var(--hl-from-x), var(--hl-from-y)); }
+    to { transform: translate(0, 0); }
+  }
+  @keyframes hl-out {
+    from { transform: translate(0, 0); }
+    to { transform: translate(calc(var(--hl-from-x) * -1), calc(var(--hl-from-y) * -1)); }
+  }
+  @keyframes hl-vs {
+    0% { scale: 1; opacity: 1; }
+    15% { scale: 0.4; opacity: 0; }
+    70% { scale: 0.4; opacity: 0; }
+    100% { scale: 1; opacity: 1; }
+  }
+  @keyframes hl-buttons {
+    from { opacity: 0; }
+    to { opacity: 1; }
   }
   /* A wrong guess's toast: rises in, stays, fades out (MissToast). */
   @keyframes toast {
