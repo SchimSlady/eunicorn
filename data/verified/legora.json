@@ -22,6 +22,11 @@
   ],
   "funFact": "Legora was founded in Stockholm in 2023 under the name Leya and went from inception to a Series B in under two years.",
   "difficulty": 5,
+  "programs": [
+    {
+      "id": "y-combinator"
+    }
+  ],
   "techeuId": "67D8AC75-8238-445C-81AD-999DF047FC00",
   "wikidataId": "Q138654085",
   "sources": [
@@ -74,6 +79,11 @@
       "field": "fun_fact",
       "url": "https://en.wikipedia.org/wiki/Legora",
       "quote": "Founded in Stockholm in 2023 under the name Leya"
+    },
+    {
+      "field": "programs",
+      "url": "https://tech.eu/2024/07/17/ai-legaltech-startup-leya-secures-25m-series-a-to-boost-lawyer-productivity/",
+      "quote": "Redpoint Ventures led the round, with participation from existing investors Benchmark, Y Combinator, and Wayfinder Ventures and the new addition of Alt Capital"
     }
   ],
   "rounds": [

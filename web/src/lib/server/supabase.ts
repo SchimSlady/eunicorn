@@ -1,7 +1,7 @@
 import type { AnyPuzzle, PlayMode } from "@/lib/top10";
 import "server-only";
 import { fetchAll } from "./paged";
-import type { Company, Dataset, Puzzle, Round } from "@eunicorn/schema";
+import type { Company, Dataset, Program, Puzzle, Round } from "@eunicorn/schema";
 import { USD_TO_EUR } from "@/lib/format";
 import { generatePuzzle } from "./generate";
 import { monthIndex, type HLCompany } from "@/lib/higherLower";
@@ -116,6 +116,19 @@ export async function getDataset(): Promise<(Omit<Dataset, "rounds"> & { rounds:
     select<{ id: string; name: string; domain: string | null; tier?: 1 | 2 | 3 | 4 | null; logo?: string | null }>("investors?select=*&order=id"),
     select<{ id: string; name: string }>("people?select=id,name&order=id"),
   ]);
+  // Programs (Y Combinator, CDTM ...) in their own requests, not embedded in the companies query: until the
+  // programs migration is applied these fail, and the dataset must still load (without programs).
+  const [programRows, companyPrograms] = await Promise.all([
+    select<Program>("programs?select=id,name,kind,url&order=id"),
+    select<{ company_id: string; program_id: string; batch: string | null }>("company_programs?select=company_id,program_id,batch&order=company_id,program_id"),
+  ]);
+  const programById = new Map((programRows ?? []).map((p) => [p.id, p]));
+  const programsOf = new Map<string, NonNullable<Company["programs"]>>();
+  for (const r of companyPrograms ?? []) {
+    const p = programById.get(r.program_id);
+    if (!p) continue;
+    (programsOf.get(r.company_id) ?? programsOf.set(r.company_id, []).get(r.company_id)!).push({ programId: p.id, name: p.name, kind: p.kind, batch: r.batch ?? undefined });
+  }
   if (!companies?.length || !rounds || !investors || !people) return null;
 
   const raised = new Map((totals ?? []).map((t) => [t.company_id, t.total_raised_eur]));
@@ -144,6 +157,7 @@ export async function getDataset(): Promise<(Omit<Dataset, "rounds"> & { rounds:
         lastValuationUsd: eurAsUsd(c.last_valuation_eur),
         biggestRoundUsd: biggest.get(c.id) ? eurAsUsd(biggest.get(c.id)) : undefined,
         lastRoundMonth: latest.get(c.id),
+        programs: programsOf.get(c.id),
         employees: c.employees ?? undefined,
         careersUrl: c.careers_url ?? undefined,
         funFact: c.fun_fact ?? undefined,
@@ -172,6 +186,7 @@ export async function getDataset(): Promise<(Omit<Dataset, "rounds"> & { rounds:
     ),
     investors: investors.map((i) => ({ id: i.id, name: i.name, domain: i.domain ?? undefined, tier: i.tier ?? undefined, logo: i.logo ?? undefined })),
     people,
+    programs: (programRows ?? []).map((p) => ({ id: p.id, name: p.name, kind: p.kind, url: p.url ?? undefined })),
   };
 }
 

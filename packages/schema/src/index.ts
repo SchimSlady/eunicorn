@@ -105,7 +105,22 @@ export interface Company {
   funFact?: string;
   /** 1 = everyone knows it, 5 = insider. Drives the Mon→Sun difficulty curve. */
   difficulty: 1 | 2 | 3 | 4 | 5;
+  /**
+   * Programs the company went through (Y Combinator, Antler, EWOR) or, for a university program
+   * (CDTM), whose alumni founded it. name and kind repeat the program's so the UI needn't look them up.
+   */
+  programs?: { programId: string; name: string; kind: ProgramKind; batch?: string }[];
   verified: boolean;
+}
+
+export type ProgramKind = "accelerator" | "fellowship" | "university";
+
+/** An accelerator, fellowship or university program (data/programs.json). */
+export interface Program {
+  id: string; // "y-combinator"
+  name: string; // "Y Combinator"
+  kind: ProgramKind;
+  url?: string;
 }
 
 export interface Dataset {
@@ -113,6 +128,8 @@ export interface Dataset {
   rounds: Round[];
   investors: Investor[];
   people: Person[];
+  /** Absent in the seed file; filled from Supabase. */
+  programs?: Program[];
 }
 
 /* ---------- Puzzles: one file per mode per day: data/puzzles/<date>/<mode>.json ---------- */
