@@ -11,6 +11,7 @@ import { formatMetric } from "@/lib/format";
 import { shareText as buildShareText } from "@/lib/scoring";
 import { CompanyLogo } from "@/components/CompanyLogo";
 import { BuiltInEuropeCard } from "@/components/BuiltInEuropeCard";
+import { CompanyTap, OverviewProvider } from "@/components/CompanyOverview";
 import { GameIntro } from "@/components/GameIntro";
 import { Flag } from "@/components/Flag";
 import { GameHeader } from "@/components/GameHeader";
@@ -222,6 +223,7 @@ export function HigherLowerGame({ region }: { region?: Region } = {}) {
       .map((id) => data.people.find((p) => p.id === id)?.name)
       .filter((n): n is string => !!n);
     return (
+      <OverviewProvider data={data}>
       <div className="space-y-6">
         <GameHeader title={TITLE} subtitle={subtitle} back={back} mode={MODE} difficulty={progress.difficulty} />
         <ResultArea
@@ -251,6 +253,7 @@ export function HigherLowerGame({ region }: { region?: Region } = {}) {
         />
         <BuiltInEuropeCard company={featured} founders={founders} reason={reason} />
       </div>
+      </OverviewProvider>
     );
   }
 
@@ -391,11 +394,12 @@ function LastRound({
   const said = round.answer === "higher" ? phrase.higher : phrase.lower;
   const truth = round.truth === "higher" ? phrase.higher : phrase.lower;
   const side = (c: Company, strong: boolean) => (
-    <div className="flex min-w-0 flex-col items-center gap-1.5 text-center">
+    // Only rendered after the game, so both companies open their overview.
+    <CompanyTap company={c} active className="flex min-w-0 flex-col items-center gap-1.5 rounded-xl text-center">
       <CompanyLogo company={c} size={44} />
       <span className="max-w-full truncate text-sm font-semibold">{c.name}</span>
       <span className={`font-display text-xl font-bold ${strong ? "text-primary" : "text-muted"}`}>{formatMetric(c, metric)}</span>
-    </div>
+    </CompanyTap>
   );
   return (
     <section className="rounded-2xl border border-border bg-surface p-4" aria-label={ended ? "Where it ended" : "The last round"}>

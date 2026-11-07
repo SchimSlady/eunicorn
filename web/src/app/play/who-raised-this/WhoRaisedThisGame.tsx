@@ -8,6 +8,7 @@ import { saveDifficulty, type Difficulty } from "@/lib/difficulty";
 import { shareText as buildShareText } from "@/lib/scoring";
 import { CompanySearch } from "@/components/CompanySearch";
 import { BuiltInEuropeCard } from "@/components/BuiltInEuropeCard";
+import { OverviewProvider } from "@/components/CompanyOverview";
 import { GameIntro } from "@/components/GameIntro";
 import { GameHeader } from "@/components/GameHeader";
 import { Announce, GameSkeleton, NoPuzzle } from "@/components/Announce";
@@ -128,6 +129,7 @@ export function WhoRaisedThisGame() {
     .filter((n): n is string => !!n);
 
   return (
+    <OverviewProvider data={data}>
     <div className="space-y-6">
       <GameHeader title={TITLE} mode={MODE} difficulty={progress.difficulty} />
       <Announce
@@ -195,5 +197,6 @@ export function WhoRaisedThisGame() {
         </div>
       )}
     </div>
+    </OverviewProvider>
   );
 }

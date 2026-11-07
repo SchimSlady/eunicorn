@@ -14,6 +14,7 @@ import { companyFact, strengthOf } from "@/lib/hints";
 import { RevealButton } from "@/components/RevealButton";
 import { CompanySearch } from "@/components/CompanySearch";
 import { BuiltInEuropeCard } from "@/components/BuiltInEuropeCard";
+import { CompanyTap, OverviewProvider } from "@/components/CompanyOverview";
 import { Flag } from "@/components/Flag";
 import { GameIntro } from "@/components/GameIntro";
 import { GameHeader } from "@/components/GameHeader";
@@ -258,6 +259,7 @@ export function UnicornGridGame() {
     .filter((n): n is string => !!n);
 
   return (
+    <OverviewProvider data={data}>
     <div className="space-y-6">
       <GameHeader title={TITLE} mode={MODE} difficulty={progress.difficulty} />
       <Announce
@@ -288,6 +290,30 @@ export function UnicornGridGame() {
               const c = id ? companies.get(id)! : null;
               const shown = c ?? (done ? reveal(cell) : null);
               const candidate = !!pending && pending.cells.includes(cell);
+              const cls = `relative flex aspect-square flex-col items-stretch justify-center gap-1 rounded-2xl border-2 p-1 transition ${
+                c
+                  ? "animate-pop border-correct bg-correct/10"
+                  : candidate
+                    ? "border-primary bg-primary/15"
+                    : shown
+                      ? "border-dashed border-border bg-surface opacity-60"
+                      : `border-border bg-surface ${pending ? "opacity-40" : ""}`
+              }`;
+              // Only the logo, filling the square (Pablo, 2026-11-02); companies without one show their
+              // initials. The name stays in the square's accessible name. White behind it because many logos are dark.
+              const face = shown && (
+                <div className="min-h-0 flex-1">
+                  <CompanyLogo company={shown} fill />
+                </div>
+              );
+              // Game over: a square with a company opens its overview.
+              if (done && shown) {
+                return (
+                  <CompanyTap key={cell} company={shown} active className={cls}>
+                    {face}
+                  </CompanyTap>
+                );
+              }
               return (
                 <button
                   key={cell}
@@ -295,25 +321,9 @@ export function UnicornGridGame() {
                   disabled={!candidate}
                   onClick={() => place(cell, pending!.company)}
                   aria-label={c ? c.name : candidate ? `Put ${pending!.company.name} in ${squareName(cell)}` : squareName(cell)}
-                  className={`relative flex aspect-square flex-col items-stretch justify-center gap-1 rounded-2xl border-2 p-1 transition ${
-                    c
-                      ? "animate-pop border-correct bg-correct/10"
-                      : candidate
-                        ? "border-primary bg-primary/15"
-                        : shown
-                          ? "border-dashed border-border bg-surface opacity-60"
-                          : `border-border bg-surface ${pending ? "opacity-40" : ""}`
-                  }`}
+                  className={cls}
                 >
-                  {shown && (
-                    <>
-                      {/* Only the logo, filling the square (Pablo, 2026-11-02); companies without one show their
-                          initials. The name stays in the square's accessible name. White behind it because many logos are dark. */}
-                      <div className="min-h-0 flex-1">
-                        <CompanyLogo company={shown} fill />
-                      </div>
-                    </>
-                  )}
+                  {face}
                 </button>
               );
             })}
@@ -382,5 +392,6 @@ export function UnicornGridGame() {
         </div>
       )}
     </div>
+    </OverviewProvider>
   );
 }

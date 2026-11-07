@@ -1,6 +1,7 @@
 import { Banknote, CalendarDays, Handshake, Image as ImageIcon, Lock, MapPin, Tag, Target, Users, type LucideIcon } from "lucide-react";
 import type { Company, Round, WhoRaisedThisPuzzle } from "@eunicorn/schema";
 import { CompanyLogo } from "@/components/CompanyLogo";
+import { CompanyTap } from "@/components/CompanyOverview";
 
 type Clue = WhoRaisedThisPuzzle["clues"][number];
 
@@ -90,10 +91,10 @@ export function DealBoard({
         <p className="mt-2 font-display text-5xl font-bold leading-none text-eu-yellow sm:text-6xl">{amount}</p>
         <div className="mt-5 flex items-center gap-3">
           {done ? (
-            <span className="flex animate-pop items-center gap-3">
+            <CompanyTap company={answer} active className="flex animate-pop items-center gap-3 rounded-xl">
               <CompanyLogo company={answer} size={44} />
               <span className="font-display text-xl font-bold">{answer.name}</span>
-            </span>
+            </CompanyTap>
           ) : (
             <>
               <span className="flex h-11 w-11 items-center justify-center rounded-[22%] border-2 border-dashed border-white/40 font-display text-xl font-bold text-white/60">
