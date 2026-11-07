@@ -3,10 +3,11 @@
   "name": "Bending Spoons",
   "aliases": [],
   "domain": "bendingspoons.com",
-  "country": "DK",
-  "city": "Copenhagen",
+  "country": "IT",
+  "city": "Milan",
   "founded": 2013,
   "sectors": [
+    "saas",
     "consumer"
   ],
   "status": "public",
@@ -44,6 +45,11 @@
       "quote": "Italian tech conglomerate"
     },
     {
+      "field": "sectors",
+      "url": "https://en.wikipedia.org/wiki/Bending_Spoons",
+      "quote": "the company agreed to acquire the Dutch file transfer service WeTransfer"
+    },
+    {
       "field": "status",
       "url": "https://www.iposcoop.com/?p=38749",
       "quote": "priced its IPO at $29.00"
@@ -71,7 +77,7 @@
     {
       "field": "city",
       "url": "https://en.wikipedia.org/wiki/Bending_Spoons",
-      "quote": "which became the seed capital for Bending Spoons in June 2013, also founded in Copenhagen"
+      "quote": "Based in Milan, the company acquires products"
     },
     {
       "field": "valuation",
