@@ -1,0 +1,120 @@
+{
+  "id": "integral",
+  "name": "Integral",
+  "aliases": [],
+  "domain": "integral.de",
+  "country": "DE",
+  "city": "Berlin",
+  "founded": 2024,
+  "sectors": [
+    "fintech",
+    "ai"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Lukas Zörner",
+    "Anil Can Baykal"
+  ],
+  "difficulty": 5,
+  "techeuId": "A4D7F734-73C7-4215-810E-B8B99CF16492",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://tech.eu/2025/02/12/fixing-a-eur45b-problem-integral-secures-eur63m-to-streamline-accounting-taxation-and-payroll-for-smes",
+      "quote": "Berlin-based fintech Integral , today announced a €6.3 million funding raise"
+    },
+    {
+      "field": "founded",
+      "url": "https://tech.eu/2025/02/12/fixing-a-eur45b-problem-integral-secures-eur63m-to-streamline-accounting-taxation-and-payroll-for-smes",
+      "quote": "Integral was founded in 2024 by Lukas Zörner and Anil Can Baykal"
+    },
+    {
+      "field": "founders",
+      "url": "https://tech.eu/2025/02/12/fixing-a-eur45b-problem-integral-secures-eur63m-to-streamline-accounting-taxation-and-payroll-for-smes",
+      "quote": "Integral was founded in 2024 by Lukas Zörner and Anil Can Baykal"
+    },
+    {
+      "field": "sectors",
+      "url": "https://tech.eu/2026/09/16/integral-lands-eur18m-series-a-for-ai-native-accounting-and-tax-services",
+      "quote": "Berlin-based accounting technology company Integral has raised €18 million in a Series A round to expand its AI-powered accounting, tax and payroll services"
+    },
+    {
+      "field": "status",
+      "url": "https://tech.eu/2026/09/16/integral-lands-eur18m-series-a-for-ai-native-accounting-and-tax-services",
+      "quote": "Berlin-based accounting technology company Integral has raised €18 million in a Series A round"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://tech.eu/2026/09/16/integral-lands-eur18m-series-a-for-ai-native-accounting-and-tax-services",
+      "quote": "Berlin-based accounting technology company Integral has raised €18 million in a Series A round"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "seed",
+      "month": "2025-02",
+      "amountEur": 6300000,
+      "amountOriginal": 6300000.0,
+      "currency": "EUR",
+      "investors": [
+        "General Catalyst",
+        "Cherry Ventures",
+        "Puzzle Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2025/02/12/fixing-a-eur45b-problem-integral-secures-eur63m-to-streamline-accounting-taxation-and-payroll-for-smes",
+          "quote": "Berlin-based fintech Integral , today announced a €6.3 million funding raise"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2025/02/12/fixing-a-eur45b-problem-integral-secures-eur63m-to-streamline-accounting-taxation-and-payroll-for-smes",
+          "quote": "12 February 2025"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2025/02/12/fixing-a-eur45b-problem-integral-secures-eur63m-to-streamline-accounting-taxation-and-payroll-for-smes",
+          "quote": "General Catalyst and Cherry Ventures led the funding, with participation from Puzzle Ventures"
+        }
+      ]
+    },
+    {
+      "stage": "series-a",
+      "month": "2026-09",
+      "amountEur": 18000000,
+      "amountOriginal": 18000000.0,
+      "currency": "EUR",
+      "investors": [
+        "Mosaic Ventures",
+        "Reid Hoffman",
+        "Cherry Ventures",
+        "General Catalyst",
+        "Puzzle Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2026/09/16/integral-lands-eur18m-series-a-for-ai-native-accounting-and-tax-services",
+          "quote": "Integral has raised €18 million in a Series A round"
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2026/09/16/integral-lands-eur18m-series-a-for-ai-native-accounting-and-tax-services",
+          "quote": "Integral has raised €18 million in a Series A round"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2026/09/16/integral-lands-eur18m-series-a-for-ai-native-accounting-and-tax-services",
+          "quote": "16 September 2026"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2026/09/16/integral-lands-eur18m-series-a-for-ai-native-accounting-and-tax-services",
+          "quote": "The round was co-led by Mosaic Ventures and Reid Hoffman , with participation from existing investors Cherry Ventures , General Catalyst and Puzzle Ventures"
+        }
+      ]
+    }
+  ]
+}

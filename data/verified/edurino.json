@@ -1,0 +1,170 @@
+{
+  "id": "edurino",
+  "name": "Edurino",
+  "aliases": [
+    "EDURINO"
+  ],
+  "domain": "edurino.com",
+  "country": "DE",
+  "city": "Munich",
+  "founded": 2021,
+  "sectors": [
+    "edtech",
+    "consumer"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Irene Klemm",
+    "Franziska Meyer"
+  ],
+  "difficulty": 3,
+  "techeuId": "9B33EEC9-9426-49D4-B68A-66F3B8F54EC4",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.munich-startup.de/en/131820/edurino-secures-17-million-euros/",
+      "quote": "Edurino was founded in Munich in 2021 by Irene Klemm and Franziska Meyer"
+    },
+    {
+      "field": "founded",
+      "url": "https://www.munich-startup.de/en/131820/edurino-secures-17-million-euros/",
+      "quote": "Edurino was founded in Munich in 2021 by Irene Klemm and Franziska Meyer"
+    },
+    {
+      "field": "founders",
+      "url": "https://www.munich-startup.de/en/131820/edurino-secures-17-million-euros/",
+      "quote": "Edurino was founded in Munich in 2021 by Irene Klemm and Franziska Meyer"
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.munich-startup.de/en/131820/edurino-secures-17-million-euros/",
+      "quote": "Munich-based edtech startup Edurino secures 17 million euros"
+    },
+    {
+      "field": "status",
+      "url": "https://www.munich-startup.de/en/131820/edurino-secures-17-million-euros/",
+      "quote": "Edurino has completed a Series B financing round of 17 million euros"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://www.munich-startup.de/en/131820/edurino-secures-17-million-euros/",
+      "quote": "Edurino has completed a Series B financing round of 17 million euros"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "seed",
+      "month": "2022-02",
+      "amountEur": 3500000,
+      "amountOriginal": 3500000.0,
+      "currency": "EUR",
+      "investors": [
+        "btov Partners",
+        "Verena Pausder",
+        "Jens Begemann"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.businessinsider.de/gruenderszene/technologie/edurino-zwei-grunderinnen-toniebox-e/",
+          "quote": "Mittlerweile hat Edurino seine Seed-Finanzierungsrunde in Höhe von 3,5 Millionen Euro abgeschlossen"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.businessinsider.de/gruenderszene/technologie/edurino-zwei-grunderinnen-toniebox-e/",
+          "quote": "Mittlerweile hat Edurino seine Seed-Finanzierungsrunde in Höhe von 3,5 Millionen Euro abgeschlossen"
+        },
+        {
+          "field": "month",
+          "url": "https://www.businessinsider.de/gruenderszene/technologie/edurino-zwei-grunderinnen-toniebox-e/",
+          "quote": "Update vom 16. Februar 2022"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.businessinsider.de/gruenderszene/technologie/edurino-zwei-grunderinnen-toniebox-e/",
+          "quote": "Angeführt wird die Runde von Btov Partners, erneut beteiligten sich außerdem der Fonds der Heilemann-Brüder, genauso wie die Unternehmer Verena Pausder und Jens Begemann"
+        }
+      ]
+    },
+    {
+      "stage": "series-a",
+      "month": "2023-03",
+      "amountEur": 10500000,
+      "amountOriginal": 10500000.0,
+      "currency": "EUR",
+      "investors": [
+        "DN Capital",
+        "FJ Labs",
+        "Tengelmann Ventures",
+        "Jens Begemann",
+        "btov Partners",
+        "Emerge Education"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2023/03/01/edurino",
+          "quote": "Munich's Edurino raised €10.5 million in series A funds"
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2023/03/01/edurino",
+          "quote": "Munich's Edurino raised €10.5 million in series A funds"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2023/03/01/edurino",
+          "quote": "01 March 2023"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2023/03/01/edurino",
+          "quote": "The round was led by DN Capital with participation from FJ Labs and Tengelmann Ventures"
+        }
+      ]
+    },
+    {
+      "stage": "series-b",
+      "month": "2025-07",
+      "amountEur": 17000000,
+      "amountOriginal": 17000000.0,
+      "currency": "EUR",
+      "investors": [
+        "Ravensburger Next Ventures",
+        "Summiteer",
+        "DN Capital",
+        "Tengelmann Ventures",
+        "b2venture",
+        "Emerge Education",
+        "FJ Labs",
+        "G-Fund",
+        "Jens Begemann",
+        "Stefan Winners",
+        "Frederik Vollert"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.munich-startup.de/en/131820/edurino-secures-17-million-euros/",
+          "quote": "Edurino has completed a Series B financing round of 17 million euros"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.munich-startup.de/en/131820/edurino-secures-17-million-euros/",
+          "quote": "Edurino has completed a Series B financing round of 17 million euros"
+        },
+        {
+          "field": "month",
+          "url": "https://www.startbase.com/news/edurino-erhaelt-17-millionen-euro-in-series-b/",
+          "quote": "München, 03. July 2025"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.munich-startup.de/en/131820/edurino-secures-17-million-euros/",
+          "quote": "The round is led by Ravensburger Next Ventures as lead investor and Summiteer, the investment vehicle of serial founder Sven Schulz. Existing investors such as DN Capital, Tengelmann Ventures, B2venture, Emerge, FJ Labs, G-Fund, and Jens Begemann are participating again"
+        }
+      ]
+    }
+  ]
+}

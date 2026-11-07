@@ -1,0 +1,136 @@
+{
+  "id": "hades-mining",
+  "name": "Hades Mining",
+  "aliases": [
+    "Hades",
+    "Hades Resources"
+  ],
+  "domain": "hades.com",
+  "country": "DE",
+  "city": "Munich",
+  "founded": 2025,
+  "sectors": [
+    "climate"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Max Werner",
+    "Björn Dressler",
+    "Dan Gengenbach"
+  ],
+  "difficulty": 5,
+  "techeuId": "37E2B5F5-C4B3-424F-9514-66BF9F7734C0",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://tech.eu/2025/08/20/hades-mining-emerges-from-stealth-with-eur55m-pre-seed-funding/",
+      "quote": "Munich-based Hades Mining was founded by serial deeptech entrepreneurs Dr. Max Werner"
+    },
+    {
+      "field": "founded",
+      "url": "https://www.vestbee.com/insights/articles/hades-mining-secures-5-5-m",
+      "quote": "Founded in 2025, Hades Mining develops advanced drilling and subsurface access technologies"
+    },
+    {
+      "field": "founders",
+      "url": "https://pulse2.com/hades-mining-e5-5-million-pre-seed-funding-secured-to-transform-europes-energy-and-mineral-independence/amp/",
+      "quote": "Founded by Dr. Max Werner, Björn Dressler, and Dan Gengenbach"
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.vestbee.com/insights/articles/hades-mining-secures-5-5-m",
+      "quote": "Founded in 2025, Hades Mining develops advanced drilling and subsurface access technologies"
+    },
+    {
+      "field": "status",
+      "url": "https://tech.eu/2025/08/20/hades-mining-emerges-from-stealth-with-eur55m-pre-seed-funding/",
+      "quote": "Munich-based deeptech mining company Hades Mining has emerged from stealth"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://tech.eu/2025/08/20/hades-mining-emerges-from-stealth-with-eur55m-pre-seed-funding/",
+      "quote": "Munich-based deeptech mining company Hades Mining has emerged from stealth"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "pre-seed",
+      "month": "2025-08",
+      "amountEur": 5500000,
+      "amountOriginal": 5500000,
+      "currency": "EUR",
+      "investors": [
+        "Project A",
+        "Visionaries Tomorrow",
+        "Founders Factory"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2025/08/20/hades-mining-emerges-from-stealth-with-eur55m-pre-seed-funding/",
+          "quote": "has raised a €5.5 million pre-seed round led by Project A."
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2025/08/20/hades-mining-emerges-from-stealth-with-eur55m-pre-seed-funding/",
+          "quote": "has raised a €5.5 million pre-seed round led by Project A."
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2025/08/20/hades-mining-emerges-from-stealth-with-eur55m-pre-seed-funding/",
+          "quote": "20 August 2025"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.munich-startup.de/en/news/hades-mining-raises-e5-5-million-in-pre-seed-round",
+          "quote": "The round was led by Project A, with participation from Visionaries Tomorrow, Founders Factory, and a number of strategic angel investors."
+        }
+      ]
+    },
+    {
+      "stage": "seed",
+      "month": "2026-02",
+      "amountEur": 15000000,
+      "amountOriginal": 15000000,
+      "currency": "EUR",
+      "investors": [
+        "HV Capital",
+        "Headline",
+        "Project A",
+        "Visionaries Tomorrow",
+        "Founders Factory",
+        "Viessmann Generations Group",
+        "Interface Capital",
+        "Founder Lake"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.munich-startup.de/en/news/hades-mining-raises-15-million-euros",
+          "quote": "Hades Mining has completed a seed round of 15 million euros. HV Capital and Headline lead the financing."
+        },
+        {
+          "field": "stage",
+          "url": "https://www.munich-startup.de/en/news/hades-mining-raises-15-million-euros",
+          "quote": "Hades Mining has completed a seed round of 15 million euros. HV Capital and Headline lead the financing."
+        },
+        {
+          "field": "month",
+          "url": "https://www.munich-startup.de/en/news/hades-mining-raises-15-million-euros",
+          "quote": "February 17, 2026"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.munich-startup.de/en/news/hades-mining-raises-15-million-euros",
+          "quote": "Hades Mining has completed a seed round of 15 million euros. HV Capital and Headline lead the financing."
+        },
+        {
+          "field": "investors",
+          "url": "https://www.munich-startup.de/en/news/hades-mining-raises-15-million-euros",
+          "quote": "Project A and Visionaries Tomorrow are participating again, with additional support from Founders Factory, Viessmann Generations Group, Interface Capital, and Founder Lake."
+        }
+      ]
+    }
+  ]
+}

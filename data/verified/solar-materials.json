@@ -1,0 +1,43 @@
+{
+  "id": "solar-materials",
+  "name": "SOLAR MATERIALS",
+  "aliases": ["Solar Materials"],
+  "domain": "solar-materials.com",
+  "country": "DE",
+  "city": "Magdeburg",
+  "founded": 2021,
+  "sectors": ["climate"],
+  "status": "private",
+  "unicorn": false,
+  "founders": ["Jan-Philipp Mai", "Jan Bargel", "Fridolin Franke"],
+  "difficulty": 5,
+  "techeuId": "8E1D161D-9846-4D8F-9EA3-D796E1662967",
+  "sources": [
+    { "field": "city", "url": "https://solar-materials.com/presse/", "quote": "Das 2021 in Magdeburg gegründete Unternehmen gewinnt mit einem patentierten thermomechanischen Verfahren wertvolle Rohstoffe wie Silber, Silizium, Aluminium, Kupfer und Glas zurück" },
+    { "field": "founded", "url": "https://solar-materials.com/presse/", "quote": "Das 2021 in Magdeburg gegründete Unternehmen gewinnt mit einem patentierten thermomechanischen Verfahren wertvolle Rohstoffe wie Silber, Silizium, Aluminium, Kupfer und Glas zurück" },
+    { "field": "founders", "url": "https://solar-materials.com/press-release/solar-materials-secures-up-to-eur-20m-growth-financing-for-european-expansion-in-series-b/", "quote": "says Dr. Jan-Philipp Mai, Co-Founder and CEO of SOLAR MATERIALS" },
+    { "field": "founders", "url": "https://solar-materials.com/press-release/solar-materials-secures-up-to-eur-20m-growth-financing-for-european-expansion-in-series-b/", "quote": "Jan Bargel, Co-Founder and CTO of the company" },
+    { "field": "founders", "url": "https://solar-materials.com/press-release/solar-materials-to-build-industrial-scale-recycling-plant-for-solar-panels-to-increase-the-companys-annual-recycling-capacity-to-10000-tons/", "quote": "says co-founder Fridolin Franke" },
+    { "field": "sectors", "url": "https://solar-materials.com/presse/", "quote": "SOLAR MATERIALS entwickelt und betreibt industrielle Recyclinglösungen für ausgediente Solarmodule." },
+    { "field": "status", "url": "https://solar-materials.com/presse/", "quote": "Mit mehr als 70 Mitarbeitenden und einer aktuellen Verarbeitungskapazität von 14.000 Tonnen pro Jahr zählt das Unternehmen zu den technologischen Vorreitern des Solarmodul-Recyclings in Europa." },
+    { "field": "unicorn", "url": "https://solar-materials.com/press-release/solar-materials-secures-up-to-eur-20m-growth-financing-for-european-expansion-in-series-b/", "quote": "SOLAR MATERIALS GmbH secures up to 20M in a 1st Closing of a Series B with a first closing tranche of 15M." },
+    { "field": "employees", "url": "https://solar-materials.com/presse/", "quote": "Mit mehr als 70 Mitarbeitenden und einer aktuellen Verarbeitungskapazität von 14.000 Tonnen pro Jahr" }
+  ],
+  "employees": 70,
+  "rounds": [
+    {
+      "stage": "series-b",
+      "month": "2026-04",
+      "amountEur": 15000000,
+      "amountOriginal": 15000000,
+      "currency": "EUR",
+      "investors": ["EIC Fund", "NOVA by Saint-Gobain", "bmp Ventures", "First Imagine!"],
+      "sources": [
+        { "field": "amount", "url": "https://solar-materials.com/press-release/solar-materials-secures-up-to-eur-20m-growth-financing-for-european-expansion-in-series-b/", "quote": "SOLAR MATERIALS GmbH secures up to 20M in a 1st Closing of a Series B with a first closing tranche of 15M." },
+        { "field": "stage", "url": "https://solar-materials.com/press-release/solar-materials-secures-up-to-eur-20m-growth-financing-for-european-expansion-in-series-b/", "quote": "SOLAR MATERIALS GmbH secures up to 20M in a 1st Closing of a Series B with a first closing tranche of 15M." },
+        { "field": "month", "url": "https://solar-materials.com/press-release/solar-materials-secures-up-to-eur-20m-growth-financing-for-european-expansion-in-series-b/", "quote": "Press Release 22. April 2026 SOLAR MATERIALS Magdeburg" },
+        { "field": "investors", "url": "https://solar-materials.com/press-release/solar-materials-secures-up-to-eur-20m-growth-financing-for-european-expansion-in-series-b/", "quote": "EIC Fund of the European Commission and NOVA by Saint-Gobain are joining as new investors, alongside the existing Investors bmp ventures with their IBG Funds and First Imagine!" }
+      ]
+    }
+  ]
+}

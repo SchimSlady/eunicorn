@@ -1,0 +1,127 @@
+{
+  "id": "procuros",
+  "name": "Procuros",
+  "aliases": [],
+  "domain": "procuros.io",
+  "country": "DE",
+  "city": "Hamburg",
+  "founded": 2021,
+  "sectors": [
+    "saas",
+    "logistics"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Patrick Thelen"
+  ],
+  "difficulty": 5,
+  "techeuId": "8437C4B3-3094-4ECA-A622-27861935298A",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://procuros.io/about-us",
+      "quote": "In 2021, they founded Procuros in Hamburg"
+    },
+    {
+      "field": "founded",
+      "url": "https://procuros.io/about-us",
+      "quote": "In 2021, they founded Procuros in Hamburg"
+    },
+    {
+      "field": "founders",
+      "url": "https://tech.eu/2026/10/06/autonomous-b2b-trade-gets-a-boost-as-procuros-raises-eur20m",
+      "quote": "Patrick Thelen , CEO and co-founder of Procuros"
+    },
+    {
+      "field": "sectors",
+      "url": "https://tech.eu/2026/10/06/autonomous-b2b-trade-gets-a-boost-as-procuros-raises-eur20m",
+      "quote": "Hamburg-based software company Procuros has raised €20 million in a Series A funding round to further develop its AI-native supply chain connectivity platform"
+    },
+    {
+      "field": "status",
+      "url": "https://tech.eu/2026/10/06/autonomous-b2b-trade-gets-a-boost-as-procuros-raises-eur20m",
+      "quote": "Hamburg-based software company Procuros has raised €20 million in a Series A funding round"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://tech.eu/2026/10/06/autonomous-b2b-trade-gets-a-boost-as-procuros-raises-eur20m",
+      "quote": "Hamburg-based software company Procuros has raised €20 million in a Series A funding round"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "seed",
+      "month": "2022-04",
+      "amountEur": 8286530,
+      "amountOriginal": 9000000.0,
+      "currency": "USD",
+      "investors": [
+        "Point Nine",
+        "Creandum",
+        "Paua Ventures",
+        "btov Partners",
+        "Denise Persson",
+        "David Clarke",
+        "Thijn Lamers"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2022/04/12/supply-chain-api-platform-procuros-procures-9-million-of-its-own",
+          "quote": "Hamburg-based Procuros has raised $9 million in a Seed funding round"
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2022/04/12/supply-chain-api-platform-procuros-procures-9-million-of-its-own",
+          "quote": "Hamburg-based Procuros has raised $9 million in a Seed funding round"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2022/04/12/supply-chain-api-platform-procuros-procures-9-million-of-its-own",
+          "quote": "12 April 2022"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2022/04/12/supply-chain-api-platform-procuros-procures-9-million-of-its-own",
+          "quote": "Procuros’ $9 million seed round was led by Point Nine and Creandum with Paua Ventures , with existing investor btov participating"
+        }
+      ]
+    },
+    {
+      "stage": "series-a",
+      "month": "2026-10",
+      "amountEur": 20000000,
+      "amountOriginal": 20000000.0,
+      "currency": "EUR",
+      "investors": [
+        "XAnge",
+        "Point Nine",
+        "Creandum",
+        "b2venture"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2026/10/06/autonomous-b2b-trade-gets-a-boost-as-procuros-raises-eur20m",
+          "quote": "Procuros has raised €20 million in a Series A funding round"
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2026/10/06/autonomous-b2b-trade-gets-a-boost-as-procuros-raises-eur20m",
+          "quote": "Procuros has raised €20 million in a Series A funding round"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2026/10/06/autonomous-b2b-trade-gets-a-boost-as-procuros-raises-eur20m",
+          "quote": "06 October 2026"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2026/10/06/autonomous-b2b-trade-gets-a-boost-as-procuros-raises-eur20m",
+          "quote": "The round was led by XAnge , with existing investors Point Nine, Creandum and b2venture participating alongside several angel investors"
+        }
+      ]
+    }
+  ]
+}

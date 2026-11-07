@@ -1,0 +1,166 @@
+{
+  "id": "trawa",
+  "name": "trawa",
+  "aliases": [
+    "Future Energy Services"
+  ],
+  "domain": "trawa.de",
+  "country": "DE",
+  "city": "Berlin",
+  "founded": 2022,
+  "sectors": [
+    "climate"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "David Budde",
+    "Max Lüddemann",
+    "Robert Quick"
+  ],
+  "difficulty": 5,
+  "techeuId": "78469D26-30AA-4F99-9296-5866A252DB39",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.startbase.com/news/trawa-sichert-sich-10-millionen-euro-fuer-gruenen-und-guenstigen-strom/",
+      "quote": "Berlin-based cleantech startup trawa has raised 10 million euros in a seed financing round led by Balderton Capital"
+    },
+    {
+      "field": "founded",
+      "url": "https://www.startbase.com/news/trawa-sichert-sich-10-millionen-euro-fuer-gruenen-und-guenstigen-strom/",
+      "quote": "The start-up was founded in 2022 by David Budde, Max Lüddemann and Robert Quick."
+    },
+    {
+      "field": "founders",
+      "url": "https://www.startbase.com/news/trawa-sichert-sich-10-millionen-euro-fuer-gruenen-und-guenstigen-strom/",
+      "quote": "The start-up was founded in 2022 by David Budde, Max Lüddemann and Robert Quick."
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.startbase.com/news/24-millionen-euro-series-a-fuer-trawa/",
+      "quote": "The Berlin-based B2B energy startup trawa wants to digitize and decarbonize the power supply for industrial and commercial companies."
+    },
+    {
+      "field": "status",
+      "url": "https://www.startbase.com/news/24-millionen-euro-series-a-fuer-trawa/",
+      "quote": "The energy startup trawa has closed a Series A financing round of 24 million euros."
+    },
+    {
+      "field": "unicorn",
+      "url": "https://www.startbase.com/news/24-millionen-euro-series-a-fuer-trawa/",
+      "quote": "The energy startup trawa has closed a Series A financing round of 24 million euros."
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "pre-seed",
+      "month": "2023-03",
+      "amountEur": 2400000,
+      "amountOriginal": 2400000,
+      "currency": "EUR",
+      "investors": [
+        "Speedinvest",
+        "Magnetic",
+        "TinyVC",
+        "The Delta"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2023/03/07/germany-s-trawa-raises-2-4-million-to-become-the-renewable-energy-supplier/",
+          "quote": "Berlin-based trawa has raised €2.4 million in a pre-seed round"
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2023/03/07/germany-s-trawa-raises-2-4-million-to-become-the-renewable-energy-supplier/",
+          "quote": "Berlin-based trawa has raised €2.4 million in a pre-seed round"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2023/03/07/germany-s-trawa-raises-2-4-million-to-become-the-renewable-energy-supplier/",
+          "quote": "Dan Taylor 07 March 2023"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2023/03/07/germany-s-trawa-raises-2-4-million-to-become-the-renewable-energy-supplier/",
+          "quote": "The pre-seed round was co-led by Speedinvest and Magnetic with TinyVC and The Delta participating."
+        }
+      ]
+    },
+    {
+      "stage": "seed",
+      "month": "2024-05",
+      "amountEur": 10000000,
+      "amountOriginal": 10000000,
+      "currency": "EUR",
+      "investors": [
+        "Balderton Capital",
+        "AENU",
+        "Speedinvest",
+        "Magnetic",
+        "TinyVC"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.startbase.com/news/trawa-sichert-sich-10-millionen-euro-fuer-gruenen-und-guenstigen-strom/",
+          "quote": "Berlin-based cleantech startup trawa has raised 10 million euros in a seed financing round led by Balderton Capital"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.startbase.com/news/trawa-sichert-sich-10-millionen-euro-fuer-gruenen-und-guenstigen-strom/",
+          "quote": "Berlin-based cleantech startup trawa has raised 10 million euros in a seed financing round led by Balderton Capital"
+        },
+        {
+          "field": "month",
+          "url": "https://www.startbase.com/news/trawa-sichert-sich-10-millionen-euro-fuer-gruenen-und-guenstigen-strom/",
+          "quote": "Berlin, May 14, 2024"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.startbase.com/news/trawa-sichert-sich-10-millionen-euro-fuer-gruenen-und-guenstigen-strom/",
+          "quote": "AENU and previous investors such as Speedinvest , Magnetic and TinyVC also participated in the round."
+        }
+      ]
+    },
+    {
+      "stage": "series-a",
+      "month": "2025-05",
+      "amountEur": 24000000,
+      "amountOriginal": 24000000,
+      "currency": "EUR",
+      "investors": [
+        "Headline",
+        "Norrsken VC",
+        "Balderton Capital",
+        "Speedinvest",
+        "AENU",
+        "Magnetic",
+        "TinyVC"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.startbase.com/news/24-millionen-euro-series-a-fuer-trawa/",
+          "quote": "The energy startup trawa has closed a Series A financing round of 24 million euros."
+        },
+        {
+          "field": "stage",
+          "url": "https://www.startbase.com/news/24-millionen-euro-series-a-fuer-trawa/",
+          "quote": "The energy startup trawa has closed a Series A financing round of 24 million euros."
+        },
+        {
+          "field": "month",
+          "url": "https://www.startbase.com/news/24-millionen-euro-series-a-fuer-trawa/",
+          "quote": "Berlin, May 22, 2025"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.startbase.com/news/24-millionen-euro-series-a-fuer-trawa/",
+          "quote": "The round was led by Headline and also included Norrsken VC, the impact fund of the Klarna co-founder, as well as existing investors Balderton Capital, Speedinvest and AENU."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "id": "nelly",
+  "name": "Nelly",
+  "aliases": [
+    "Nelly Solutions"
+  ],
+  "domain": "getnelly.de",
+  "country": "DE",
+  "city": "Berlin",
+  "founded": 2021,
+  "sectors": [
+    "health",
+    "fintech"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Niklas Radner",
+    "Lukas Eicher",
+    "Tobias Heuer",
+    "Rasmus Schults",
+    "Laurids Seibel"
+  ],
+  "difficulty": 4,
+  "techeuId": "18A4FAF7-8456-46A4-8823-F21703D0041D",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://tech.eu/2025/01/15/berlin-s-nelly-raises-50m-series-b-to-free-medical-practices-from-tedious-bureaucracy/",
+      "quote": "Berlin-based health and fintech company Nelly has raised €50 million Series B"
+    },
+    {
+      "field": "founded",
+      "url": "https://osborneclarke.com/node/25323",
+      "quote": "Nelly Solutions, founded in 2021 by Niklas Radner, Lukas Eicher, Dr Tobias Heuer, Rasmus Schults and Laurids Seibel"
+    },
+    {
+      "field": "founders",
+      "url": "https://osborneclarke.com/node/25323",
+      "quote": "Nelly Solutions, founded in 2021 by Niklas Radner, Lukas Eicher, Dr Tobias Heuer, Rasmus Schults and Laurids Seibel"
+    },
+    {
+      "field": "sectors",
+      "url": "https://tech.eu/2025/01/15/berlin-s-nelly-raises-50m-series-b-to-free-medical-practices-from-tedious-bureaucracy/",
+      "quote": "Berlin-based health and fintech company Nelly has raised €50 million Series B"
+    },
+    {
+      "field": "status",
+      "url": "https://tech.eu/2025/01/15/berlin-s-nelly-raises-50m-series-b-to-free-medical-practices-from-tedious-bureaucracy/",
+      "quote": "Berlin-based health and fintech company Nelly has raised €50 million Series B"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://tech.eu/2025/01/15/berlin-s-nelly-raises-50m-series-b-to-free-medical-practices-from-tedious-bureaucracy/",
+      "quote": "Berlin-based health and fintech company Nelly has raised €50 million Series B"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-a",
+      "month": "2023-06",
+      "amountEur": 15000000,
+      "amountOriginal": 15000000,
+      "currency": "EUR",
+      "investors": [
+        "Lakestar",
+        "b2venture",
+        "Motive Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2023/06/15/berlin-s-nelly-raises-12-5-million-to-fully-digitise-medical-admin-and-payments",
+          "quote": "has raised a €15 million Series A funding round"
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2023/06/15/berlin-s-nelly-raises-12-5-million-to-fully-digitise-medical-admin-and-payments",
+          "quote": "has raised a €15 million Series A funding round"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2023/06/15/berlin-s-nelly-raises-12-5-million-to-fully-digitise-medical-admin-and-payments",
+          "quote": "Fiona Alston 15 June 2023"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2023/06/15/berlin-s-nelly-raises-12-5-million-to-fully-digitise-medical-admin-and-payments",
+          "quote": "The Series A round was led by Lakestar and includes b2venture and Motive Ventures"
+        }
+      ]
+    },
+    {
+      "stage": "series-b",
+      "month": "2025-01",
+      "amountEur": 50000000,
+      "amountOriginal": 50000000,
+      "currency": "EUR",
+      "investors": [
+        "Cathay Innovation",
+        "Notion Capital",
+        "b2venture",
+        "Lakestar",
+        "Motive Ventures",
+        "Arc Investors"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2025/01/15/berlin-s-nelly-raises-50m-series-b-to-free-medical-practices-from-tedious-bureaucracy/",
+          "quote": "Berlin-based health and fintech company Nelly has raised €50 million Series B"
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2025/01/15/berlin-s-nelly-raises-50m-series-b-to-free-medical-practices-from-tedious-bureaucracy/",
+          "quote": "Berlin-based health and fintech company Nelly has raised €50 million Series B"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2025/01/15/berlin-s-nelly-raises-50m-series-b-to-free-medical-practices-from-tedious-bureaucracy/",
+          "quote": "Cate Lawrence 15 January 2025"
+        },
+        {
+          "field": "investors",
+          "url": "https://osborneclarke.com/node/25323",
+          "quote": "Led by Cathay Innovation and Notion Capital, a total of more than EUR 50 million was raised in their Series B. Existing investors b2venture, Lakestar, Motive Ventures and Arc Investors also participated."
+        }
+      ]
+    }
+  ]
+}

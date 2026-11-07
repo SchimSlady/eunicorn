@@ -1,0 +1,131 @@
+{
+  "id": "doinstruct",
+  "name": "doinstruct",
+  "aliases": [
+    "Doinstruct"
+  ],
+  "domain": "doinstruct.com",
+  "country": "DE",
+  "city": "Osnabrück",
+  "founded": 2021,
+  "sectors": [
+    "saas",
+    "hrtech"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Charlotte Rothert",
+    "Mona Feder"
+  ],
+  "difficulty": 5,
+  "techeuId": "FC0F8979-C8C8-455E-831A-D735D1EAB02B",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.doinstruct.com/company/about",
+      "quote": "2021 Founded in Osnabrück, Germany"
+    },
+    {
+      "field": "founded",
+      "url": "https://www.doinstruct.com/company/about",
+      "quote": "2021 Founded in Osnabrück, Germany"
+    },
+    {
+      "field": "founders",
+      "url": "https://www.doinstruct.com/company/about",
+      "quote": "Charlotte Rothert Co-Founder & CEO"
+    },
+    {
+      "field": "founders",
+      "url": "https://www.doinstruct.com/company/about",
+      "quote": "Mona Feder Co-founder & CEO, US"
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.htgf.de/en/doinstruct-raises-e16-5m-series-a/",
+      "quote": "doinstruct, an AI-powered platform for frontline compliance training"
+    },
+    {
+      "field": "status",
+      "url": "https://www.htgf.de/en/doinstruct-raises-e16-5m-series-a/",
+      "quote": "doinstruct, an AI-powered platform for frontline compliance training"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://www.htgf.de/en/doinstruct-raises-e16-5m-series-a/",
+      "quote": "doinstruct, an AI-powered platform for frontline compliance training"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "seed",
+      "month": "2024-07",
+      "amountEur": 7600000,
+      "amountOriginal": 7600000,
+      "currency": "EUR",
+      "investors": [
+        "Creandum",
+        "High-Tech Gründerfonds",
+        "D11Z"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.htgf.de/htgf-finanzierung-doinstruct/",
+          "quote": "doinstruct konnte sich eine Finanzierung in Höhe von 7,6 Millionen Euro von Creandum sichern."
+        },
+        {
+          "field": "stage",
+          "url": "https://www.doinstruct.com/company/about",
+          "quote": "2024 €7.6 million seed round"
+        },
+        {
+          "field": "month",
+          "url": "https://www.htgf.de/htgf-finanzierung-doinstruct/",
+          "quote": "Berlin (DE), 16. Juli 2024"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.htgf.de/htgf-finanzierung-doinstruct/",
+          "quote": "Außerdem beteiligten sich die bestehenden Investoren HTGF (High-Tech Gründerfonds) und D11Z"
+        }
+      ]
+    },
+    {
+      "stage": "series-a",
+      "month": "2025-03",
+      "amountEur": 16500000,
+      "amountOriginal": 16500000,
+      "currency": "EUR",
+      "investors": [
+        "HV Capital",
+        "Creandum",
+        "High-Tech Gründerfonds",
+        "D11Z"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.htgf.de/en/doinstruct-raises-e16-5m-series-a/",
+          "quote": "raises a €16.5M Series A led by HV Capital with participation from existing investors including Creandum, HTGF, D11Z and others."
+        },
+        {
+          "field": "stage",
+          "url": "https://www.htgf.de/en/doinstruct-raises-e16-5m-series-a/",
+          "quote": "raises a €16.5M Series A led by HV Capital with participation from existing investors including Creandum, HTGF, D11Z and others."
+        },
+        {
+          "field": "month",
+          "url": "https://www.htgf.de/en/doinstruct-raises-e16-5m-series-a/",
+          "quote": "18 March 2025"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.htgf.de/en/doinstruct-raises-e16-5m-series-a/",
+          "quote": "raises a €16.5M Series A led by HV Capital with participation from existing investors including Creandum, HTGF, D11Z and others."
+        }
+      ]
+    }
+  ]
+}

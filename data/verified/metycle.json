@@ -1,0 +1,67 @@
+{
+  "id": "metycle",
+  "name": "Metycle",
+  "aliases": ["METYCLE"],
+  "domain": "metycle.com",
+  "country": "DE",
+  "city": "Cologne",
+  "founded": 2022,
+  "sectors": ["climate", "logistics"],
+  "status": "private",
+  "unicorn": false,
+  "founders": ["Rafael Suchan", "Sebastian Brenner"],
+  "difficulty": 5,
+  "techeuId": "950A909E-6DD3-44E8-9C83-61B1B1404C12",
+  "sources": [
+    { "field": "city", "url": "https://www.metycle.com/blog/metycle-raises-series-a-investment-round", "quote": "Cologne-based Metycle’s €14.1m Series A was led by 2150" },
+    { "field": "founded", "url": "https://www.metycle.com/blog/metycle-raises-series-a-investment-round", "quote": "Founded in 2022, Metycle has established itself as a secondary metals company, connecting collectors, recyclers and smelters worldwide." },
+    { "field": "founders", "url": "https://tech.eu/2023/12/14/metycle-raises-5m-in-seed-round-to-expand-scrap-metal-trading-platform/", "quote": "With Metycle , co-founders Sebastian Brenner and Rafael Suchan" },
+    { "field": "sectors", "url": "https://www.metycle.com/blog/metycle-raises-series-a-investment-round", "quote": "Metycle is a vertically integrated secondary metals company focused on copper and aluminum." },
+    { "field": "status", "url": "https://www.metycle.com/blog/metycle-secures-150-million-credit-facility-from-rivonia-road-capital", "quote": "COLOGNE, Germany – September 23, 2026 – Metycle , a global supplier of secondary copper and aluminum, has secured a $150 million credit facility" },
+    { "field": "unicorn", "url": "https://www.metycle.com/blog/metycle-raises-series-a-investment-round", "quote": "today announced the successful closure of its EUR 14.1 million (USD 14.7 million) Series A funding round" }
+  ],
+  "rounds": [
+    {
+      "stage": "pre-seed",
+      "month": "2023-03",
+      "amountEur": 1500000,
+      "amountOriginal": 1500000,
+      "currency": "EUR",
+      "investors": ["Market One Capital", "Dutch Founders Fund"],
+      "sources": [
+        { "field": "amount", "url": "https://tech.eu/2023/12/14/metycle-raises-5m-in-seed-round-to-expand-scrap-metal-trading-platform/", "quote": "The €1.5 million pre-seed round was led by Market One Capital and DFF" },
+        { "field": "stage", "url": "https://tech.eu/2023/12/14/metycle-raises-5m-in-seed-round-to-expand-scrap-metal-trading-platform/", "quote": "The €1.5 million pre-seed round was led by Market One Capital and DFF" },
+        { "field": "month", "url": "https://www.fastmarkets.com/insights/scrap-metal-trading-platform-metycle-boost-recycling/", "quote": "March 29, 2023 By Julian Luk" },
+        { "field": "investors", "url": "https://tech.eu/2023/12/14/metycle-raises-5m-in-seed-round-to-expand-scrap-metal-trading-platform/", "quote": "The €1.5 million pre-seed round was led by Market One Capital and DFF" }
+      ]
+    },
+    {
+      "stage": "seed",
+      "month": "2023-12",
+      "amountEur": 4579174,
+      "amountOriginal": 5000000,
+      "currency": "USD",
+      "investors": ["Project A", "Partech", "Market One Capital", "Dutch Founders Fund"],
+      "sources": [
+        { "field": "amount", "url": "https://tech.eu/2023/12/14/metycle-raises-5m-in-seed-round-to-expand-scrap-metal-trading-platform/", "quote": "has announced the successful close of a $5 million in a Seed funding round" },
+        { "field": "stage", "url": "https://tech.eu/2023/12/14/metycle-raises-5m-in-seed-round-to-expand-scrap-metal-trading-platform/", "quote": "has announced the successful close of a $5 million in a Seed funding round" },
+        { "field": "month", "url": "https://tech.eu/2023/12/14/metycle-raises-5m-in-seed-round-to-expand-scrap-metal-trading-platform/", "quote": "Dan Taylor 14 December 2023" },
+        { "field": "investors", "url": "https://tech.eu/2023/12/14/metycle-raises-5m-in-seed-round-to-expand-scrap-metal-trading-platform/", "quote": "Project A led Metycle’s Seed funding round with Partech, and existing investors Market One Capital and Dutch Founders Fund (DFF) participating." }
+      ]
+    },
+    {
+      "stage": "series-a",
+      "month": "2025-02",
+      "amountEur": 14100000,
+      "amountOriginal": 14100000,
+      "currency": "EUR",
+      "investors": ["2150", "Dutch Founders Fund", "Market One Capital", "Partech", "Project A"],
+      "sources": [
+        { "field": "amount", "url": "https://www.metycle.com/blog/metycle-raises-series-a-investment-round", "quote": "today announced the successful closure of its EUR 14.1 million (USD 14.7 million) Series A funding round" },
+        { "field": "stage", "url": "https://www.metycle.com/blog/metycle-raises-series-a-investment-round", "quote": "today announced the successful closure of its EUR 14.1 million (USD 14.7 million) Series A funding round" },
+        { "field": "month", "url": "https://www.metycle.com/blog/metycle-raises-series-a-investment-round", "quote": "February 20, 2025 Metycle raises €14.1m Series A" },
+        { "field": "investors", "url": "https://www.metycle.com/blog/metycle-raises-series-a-investment-round", "quote": "The round was led by 2150 with strong continuous investment from existing investors DFF Ventures, Market One Capital, Partech, and Project A." }
+      ]
+    }
+  ]
+}

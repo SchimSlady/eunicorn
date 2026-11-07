@@ -1,0 +1,90 @@
+{
+  "id": "carbmee",
+  "name": "carbmee",
+  "aliases": [
+    "Carbmee"
+  ],
+  "domain": "carbmee.com",
+  "country": "DE",
+  "city": "Berlin",
+  "founded": 2021,
+  "sectors": [
+    "climate",
+    "saas"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Christian Heinrich",
+    "Robin Spickers"
+  ],
+  "difficulty": 4,
+  "techeuId": "633D5061-93A6-4DF9-A8E1-683B83D0FC37",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.mynewsdesk.com/de/carbmee/pressreleases/enterprise-carbon-management-company-carbmee-secures-20-euro-million-series-a-funding-to-accelerate-innovation-and-international-expansion-3358006",
+      "quote": "Founded in Berlin in 2021 by Christian Heinrich and Robin Spickers"
+    },
+    {
+      "field": "founded",
+      "url": "https://www.mynewsdesk.com/de/carbmee/pressreleases/enterprise-carbon-management-company-carbmee-secures-20-euro-million-series-a-funding-to-accelerate-innovation-and-international-expansion-3358006",
+      "quote": "Founded in Berlin in 2021 by Christian Heinrich and Robin Spickers"
+    },
+    {
+      "field": "founders",
+      "url": "https://www.mynewsdesk.com/de/carbmee/pressreleases/enterprise-carbon-management-company-carbmee-secures-20-euro-million-series-a-funding-to-accelerate-innovation-and-international-expansion-3358006",
+      "quote": "Founded in Berlin in 2021 by Christian Heinrich and Robin Spickers"
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.mynewsdesk.com/de/carbmee/pressreleases/enterprise-carbon-management-company-carbmee-secures-20-euro-million-series-a-funding-to-accelerate-innovation-and-international-expansion-3358006",
+      "quote": "carbmee , a leader in AI-powered carbon management software"
+    },
+    {
+      "field": "status",
+      "url": "https://www.mynewsdesk.com/de/carbmee/pressreleases/enterprise-carbon-management-company-carbmee-secures-20-euro-million-series-a-funding-to-accelerate-innovation-and-international-expansion-3358006",
+      "quote": "carbmee , a leader in AI-powered carbon management software"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://www.mynewsdesk.com/de/carbmee/pressreleases/enterprise-carbon-management-company-carbmee-secures-20-euro-million-series-a-funding-to-accelerate-innovation-and-international-expansion-3358006",
+      "quote": "carbmee , a leader in AI-powered carbon management software"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-a",
+      "month": "2024-12",
+      "amountEur": 20000000,
+      "amountOriginal": 20000000,
+      "currency": "EUR",
+      "investors": [
+        "CommerzVentures",
+        "Fly Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.mynewsdesk.com/de/carbmee/pressreleases/enterprise-carbon-management-company-carbmee-secures-20-euro-million-series-a-funding-to-accelerate-innovation-and-international-expansion-3358006",
+          "quote": "today announced the successful completion of its €20 million funding round"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.mynewsdesk.com/de/carbmee/pressreleases/enterprise-carbon-management-company-carbmee-secures-20-euro-million-series-a-funding-to-accelerate-innovation-and-international-expansion-3358006",
+          "quote": "secures €20 million Series A funding"
+        },
+        {
+          "field": "month",
+          "url": "https://www.mynewsdesk.com/de/carbmee/pressreleases/enterprise-carbon-management-company-carbmee-secures-20-euro-million-series-a-funding-to-accelerate-innovation-and-international-expansion-3358006",
+          "quote": "Berlin, Tuesday 3 December 2024"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.mynewsdesk.com/de/carbmee/pressreleases/enterprise-carbon-management-company-carbmee-secures-20-euro-million-series-a-funding-to-accelerate-innovation-and-international-expansion-3358006",
+          "quote": "The Series A was led by CommerzVentures, with participation from Fly Ventures and several angel investors."
+        }
+      ]
+    }
+  ]
+}

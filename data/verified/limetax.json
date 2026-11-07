@@ -1,0 +1,90 @@
+{
+  "id": "limetax",
+  "name": "Limetax",
+  "aliases": [],
+  "domain": "limetax.de",
+  "country": "DE",
+  "city": "Berlin",
+  "founded": 2026,
+  "sectors": [
+    "ai",
+    "fintech"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Christoph Gamon",
+    "Maximilian Meyer",
+    "Christoph Dansard"
+  ],
+  "difficulty": 5,
+  "techeuId": "A173501C-CB3B-451A-AF3F-CC1AC270D2D2",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.limetax.de/aktuelles/limetax-erhaelt-36-millionen-finanzierung",
+      "quote": "Limetax wurde 2026 von Christoph Gamon, Maximilian Meyer und Christoph Dansard gegründet und hat seinen Sitz in Berlin."
+    },
+    {
+      "field": "founded",
+      "url": "https://www.limetax.de/aktuelles/limetax-erhaelt-36-millionen-finanzierung",
+      "quote": "Limetax wurde 2026 von Christoph Gamon, Maximilian Meyer und Christoph Dansard gegründet und hat seinen Sitz in Berlin."
+    },
+    {
+      "field": "founders",
+      "url": "https://www.limetax.de/aktuelles/limetax-erhaelt-36-millionen-finanzierung",
+      "quote": "Limetax wurde 2026 von Christoph Gamon, Maximilian Meyer und Christoph Dansard gegründet und hat seinen Sitz in Berlin."
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.limetax.de/aktuelles/limetax-erhaelt-36-millionen-finanzierung",
+      "quote": "Das Berliner Technologieunternehmen Limetax vereint moderne Steuerkanzleien in einer Gruppe und implementiert eine eigens entwickelte KI-Plattform."
+    },
+    {
+      "field": "status",
+      "url": "https://www.limetax.de/aktuelles/limetax-erhaelt-36-millionen-finanzierung",
+      "quote": "Limetax hat 36 Millionen Euro Finanzierung eingeworben"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://www.limetax.de/aktuelles/limetax-erhaelt-36-millionen-finanzierung",
+      "quote": "Limetax hat 36 Millionen Euro Finanzierung eingeworben"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "pre-seed",
+      "month": "2026-09",
+      "amountEur": 6000000,
+      "amountOriginal": 6000000,
+      "currency": "EUR",
+      "investors": [
+        "Motive Partners",
+        "Activant",
+        "Heliad"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.limetax.de/aktuelles/limetax-erhaelt-36-millionen-finanzierung",
+          "quote": "sechs Millionen Euro Pre-Seed-Eigenkapital unter Führung von Motive Partners mit Activant und Heliad"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.limetax.de/aktuelles/limetax-erhaelt-36-millionen-finanzierung",
+          "quote": "sechs Millionen Euro Pre-Seed-Eigenkapital unter Führung von Motive Partners mit Activant und Heliad"
+        },
+        {
+          "field": "month",
+          "url": "https://www.limetax.de/aktuelles/limetax-erhaelt-36-millionen-finanzierung",
+          "quote": "Berlin, 9. September 2026"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.limetax.de/aktuelles/limetax-erhaelt-36-millionen-finanzierung",
+          "quote": "sechs Millionen Euro Pre-Seed-Eigenkapital unter Führung von Motive Partners mit Activant und Heliad"
+        }
+      ]
+    }
+  ]
+}

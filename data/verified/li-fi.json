@@ -1,0 +1,131 @@
+{
+  "id": "li-fi",
+  "name": "LI.FI",
+  "aliases": [
+    "LI.FI Protocol",
+    "LIFI",
+    "Li.Fi"
+  ],
+  "domain": "li.fi",
+  "country": "DE",
+  "city": "Berlin",
+  "founded": 2021,
+  "sectors": [
+    "crypto"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Philipp Zentner"
+  ],
+  "difficulty": 5,
+  "techeuId": "0A9418A7-FAA9-4B2B-9ED2-032D33A71EC1",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.invest-in.berlin/n/berlins-lifi-raises-29m-to-unify-crypto-markets/",
+      "quote": "Berlin-based LI.FI has closed a $29 million Series A extension round led by Multicoin and CoinFund"
+    },
+    {
+      "field": "founded",
+      "url": "https://li.fi/knowledge-hub/li-fi-secures-usd29m-in-series-a-extension-led-by-multicoin-and-coinfund-to",
+      "quote": "After being founded in 2021, LI.FI has seen extensive growth globally"
+    },
+    {
+      "field": "founders",
+      "url": "https://li.fi/knowledge-hub/li-fi-secures-usd29m-in-series-a-extension-led-by-multicoin-and-coinfund-to",
+      "quote": "Philipp Zentner, Co-Founder & CEO of LI.FI"
+    },
+    {
+      "field": "sectors",
+      "url": "https://li.fi/knowledge-hub/li-fi-secures-usd29m-in-series-a-extension-led-by-multicoin-and-coinfund-to",
+      "quote": "LI.FI is a non-custodial, open-source protocol that connects decentralized liquidity across multiple blockchain ecosystems."
+    },
+    {
+      "field": "status",
+      "url": "https://www.invest-in.berlin/n/berlins-lifi-raises-29m-to-unify-crypto-markets/",
+      "quote": "Berlin-based LI.FI has closed a $29 million Series A extension round led by Multicoin and CoinFund"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://www.invest-in.berlin/n/berlins-lifi-raises-29m-to-unify-crypto-markets/",
+      "quote": "Berlin-based LI.FI has closed a $29 million Series A extension round led by Multicoin and CoinFund"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-a",
+      "month": "2023-03",
+      "amountEur": 16091954,
+      "amountOriginal": 17500000,
+      "currency": "USD",
+      "investors": [
+        "CoinFund",
+        "Superscrypt",
+        "Bloccelerate",
+        "L1 Digital",
+        "Circle",
+        "Factor",
+        "Perridon",
+        "Theta Capital",
+        "Three Point Capital",
+        "Abra"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://fintech.global/2023/03/31/li-fi-scores-17-5m-in-coinfund-led-series-a/",
+          "quote": "has raised $17.5m in a Series A fundraise co-headed by CoinFund and Superscrypt"
+        },
+        {
+          "field": "stage",
+          "url": "https://fintech.global/2023/03/31/li-fi-scores-17-5m-in-coinfund-led-series-a/",
+          "quote": "has raised $17.5m in a Series A fundraise co-headed by CoinFund and Superscrypt"
+        },
+        {
+          "field": "month",
+          "url": "https://fintech.global/2023/03/31/li-fi-scores-17-5m-in-coinfund-led-series-a/",
+          "quote": "LI.FI scores $17.5m in CoinFund-led Series A March 31, 2023"
+        },
+        {
+          "field": "investors",
+          "url": "https://fintech.global/2023/03/31/li-fi-scores-17-5m-in-coinfund-led-series-a/",
+          "quote": "The round also includes participation from Bloccelerate, L1 Digital, Circle, Factor, Perridon, Theta Capital, Three Point Capital, Abra, and almost 20 angel investors."
+        }
+      ]
+    },
+    {
+      "stage": "series-a",
+      "month": "2025-12",
+      "amountEur": 24756702,
+      "amountOriginal": 29000000,
+      "currency": "USD",
+      "investors": [
+        "Multicoin Capital",
+        "CoinFund"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://li.fi/knowledge-hub/li-fi-secures-usd29m-in-series-a-extension-led-by-multicoin-and-coinfund-to",
+          "quote": "today announced the close of a $29 million Series A extension funding round. The latest round, led by Multicoin and CoinFund"
+        },
+        {
+          "field": "stage",
+          "url": "https://li.fi/knowledge-hub/li-fi-secures-usd29m-in-series-a-extension-led-by-multicoin-and-coinfund-to",
+          "quote": "today announced the close of a $29 million Series A extension funding round. The latest round, led by Multicoin and CoinFund"
+        },
+        {
+          "field": "month",
+          "url": "https://li.fi/knowledge-hub/li-fi-secures-usd29m-in-series-a-extension-led-by-multicoin-and-coinfund-to",
+          "quote": "Berlin, Germany – 11 December 2025"
+        },
+        {
+          "field": "investors",
+          "url": "https://li.fi/knowledge-hub/li-fi-secures-usd29m-in-series-a-extension-led-by-multicoin-and-coinfund-to",
+          "quote": "today announced the close of a $29 million Series A extension funding round. The latest round, led by Multicoin and CoinFund"
+        }
+      ]
+    }
+  ]
+}
