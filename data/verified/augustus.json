@@ -7,7 +7,7 @@
   ],
   "domain": "augustus.com",
   "country": "DE",
-  "city": "Berlin",
+  "city": "Munich",
   "founded": 2021,
   "sectors": [
     "fintech"
@@ -24,8 +24,8 @@
   "sources": [
     {
       "field": "city",
-      "url": "https://invest-in.berlin/n/25-year-old-berliner-becomes-youngest-us-bank-ceo/",
-      "quote": "Berlin-founded fintech Augustus , which is building what it calls the Global Dollar Bank"
+      "url": "https://www.munich-startup.de/news/ivy-seed-finanzierung",
+      "quote": "Das Münchner Fintech Ivy will es Unternehmen ermöglichen"
     },
     {
       "field": "founded",
