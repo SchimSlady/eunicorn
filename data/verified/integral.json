@@ -52,7 +52,7 @@
   ],
   "rounds": [
     {
-      "stage": "seed",
+      "stage": "pre-seed",
       "month": "2025-02",
       "amountEur": 6300000,
       "amountOriginal": 6300000.0,
@@ -77,6 +77,11 @@
           "field": "investors",
           "url": "https://tech.eu/2025/02/12/fixing-a-eur45b-problem-integral-secures-eur63m-to-streamline-accounting-taxation-and-payroll-for-smes",
           "quote": "General Catalyst and Cherry Ventures led the funding, with participation from Puzzle Ventures"
+        },
+        {
+          "field": "stage",
+          "url": "https://siliconcanals.com/integral-secures-e6-3m-in-pre-seed-funding",
+          "quote": "has raised €6.3M in a pre-seed funding round"
         }
       ]
     },

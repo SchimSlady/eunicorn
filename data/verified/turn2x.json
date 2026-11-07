@@ -90,36 +90,41 @@
     },
     {
       "stage": "series-a",
-      "month": "2026-10",
+      "month": "2026-09",
       "amountEur": 20000000,
       "amountOriginal": 20000000.0,
       "currency": "EUR",
       "investors": [
         "Antwerpen Ventures",
         "LEA Partners",
-        "First Momentum Ventures",
-        "Verve Ventures"
+        "Verve Ventures",
+        "First Momentum Ventures"
       ],
       "sources": [
         {
           "field": "amount",
-          "url": "https://www.deutsche-startups.de/2026/10/12/meeting-area-whaaat-ai-gaius-twentyfour-industries-aignostics-turn2x/",
-          "quote": "investieren 20 Millionen Euro (Series A) in Turn2X"
-        },
-        {
-          "field": "stage",
-          "url": "https://www.deutsche-startups.de/2026/10/12/meeting-area-whaaat-ai-gaius-twentyfour-industries-aignostics-turn2x/",
-          "quote": "investieren 20 Millionen Euro (Series A) in Turn2X"
+          "url": "https://www.startup.eu/investments/turn2x-20-m-series-a-09-2026",
+          "quote": "has raised €20 million in a Series A round led by Antwerpen Ventures"
         },
         {
           "field": "month",
-          "url": "https://www.deutsche-startups.de/2026/10/12/meeting-area-whaaat-ai-gaius-twentyfour-industries-aignostics-turn2x/",
-          "quote": "Montag, 12. Oktober 2026"
+          "url": "https://www.startup.eu/investments/turn2x-20-m-series-a-09-2026",
+          "quote": "Startup.eu Editorial Sep 17, 2026"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.startup.eu/investments/turn2x-20-m-series-a-09-2026",
+          "quote": "has raised €20 million in a Series A round led by Antwerpen Ventures"
         },
         {
           "field": "investors",
-          "url": "https://www.deutsche-startups.de/2026/10/12/meeting-area-whaaat-ai-gaius-twentyfour-industries-aignostics-turn2x/",
-          "quote": "Antwerpen Ventures (Kyon Energy-Gründer Florian Antwerpen), LEA Partners , First Momentum Ventures und Verve Ventures investieren 20 Millionen Euro (Series A) in Turn2X"
+          "url": "https://www.startup.eu/investments/turn2x-20-m-series-a-09-2026",
+          "quote": "The round also included LEA Partners, Verve Ventures, First Momentum Ventures, and angel investors"
+        },
+        {
+          "field": "amount",
+          "url": "https://www.eu.vc/p/turn2x-raises-20m-series-a-scale-e-methane-plants",
+          "quote": "has raised €20m in Series A equity funding"
         }
       ]
     }

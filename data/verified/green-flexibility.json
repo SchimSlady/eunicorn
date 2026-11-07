@@ -44,34 +44,5 @@
       "quote": "green flexibility development gmbh"
     }
   ],
-  "rounds": [
-    {
-      "techeuId": "5c8a1fc0-20dc-4f17-a8e5-86a3d4477f5c",
-      "stage": "series-a",
-      "month": "2025-01",
-      "amountEur": 400000000,
-      "amountOriginal": 400000000,
-      "currency": "EUR",
-      "investors": [
-        "Partners Group"
-      ],
-      "sources": [
-        {
-          "field": "amount",
-          "url": "https://tech.eu/2025/01/16/green-flexibility-secures-eur400m-from-partners-group-for-large-scale-battery-storage-systems/",
-          "quote": "has received over €400 million in funding from Partners Group"
-        },
-        {
-          "field": "month",
-          "url": "https://tech.eu/2025/01/16/green-flexibility-secures-eur400m-from-partners-group-for-large-scale-battery-storage-systems/",
-          "quote": "16 January 2025"
-        },
-        {
-          "field": "investors",
-          "url": "https://tech.eu/2025/01/16/green-flexibility-secures-eur400m-from-partners-group-for-large-scale-battery-storage-systems/",
-          "quote": "funding from Partners Group"
-        }
-      ]
-    }
-  ]
+  "rounds": []
 }

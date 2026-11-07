@@ -1,17 +1,31 @@
 {
   "id": "anybill",
   "name": "anybill",
-  "aliases": ["Anybill", "anybill techreach GmbH"],
+  "aliases": [
+    "Anybill",
+    "anybill techreach GmbH"
+  ],
   "domain": "anybill.de",
   "country": "DE",
   "city": "Regensburg",
   "founded": 2019,
-  "sectors": ["fintech", "saas"],
+  "sectors": [
+    "fintech",
+    "saas"
+  ],
   "status": "private",
   "unicorn": false,
-  "founders": ["Lea Frank", "Tobias Gubo", "Patrick Göttler"],
+  "founders": [
+    "Lea Frank",
+    "Tobias Gubo",
+    "Patrick Göttler"
+  ],
   "difficulty": 5,
-  "programs": [{ "id": "start-munich" }],
+  "programs": [
+    {
+      "id": "start-munich"
+    }
+  ],
   "sources": [
     {
       "field": "city",
@@ -61,7 +75,12 @@
       "amountEur": 1900000,
       "amountOriginal": 1900000,
       "currency": "EUR",
-      "investors": ["High-Tech Gründerfonds", "Ilavska Vuillermoz Capital", "Jan Kanieß", "Carl Frederic Zitscher"],
+      "investors": [
+        "High-Tech Gründerfonds",
+        "Ilavska Vuillermoz Capital",
+        "Jan Kanieß",
+        "Carl Frederic Zitscher"
+      ],
       "sources": [
         {
           "field": "amount",
@@ -91,7 +110,11 @@
       "amountEur": 3000000,
       "amountOriginal": 3000000,
       "currency": "EUR",
-      "investors": ["Mutschler Ventures", "Wenvest", "Auxxo Female Catalyst Fund"],
+      "investors": [
+        "Mutschler Ventures",
+        "Wenvest",
+        "Auxxo Female Catalyst Fund"
+      ],
       "sources": [
         {
           "field": "amount",
@@ -100,8 +123,8 @@
         },
         {
           "field": "stage",
-          "url": "https://www.anybill.de/ueber-uns",
-          "quote": "Seed (1,9 Mio. €) und Extension (5 Mio. €)"
+          "url": "https://thepaypers.com/online-mobile-banking/anybill-expands-seed-financing-to-eur-5-million--1257907",
+          "quote": "Germany-based fintech anybill has expanded its seed financing to a total of EUR 5 million."
         },
         {
           "field": "month",

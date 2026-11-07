@@ -22,9 +22,6 @@
   "difficulty": 4,
   "programs": [
     {
-      "id": "manage-and-more"
-    },
-    {
       "id": "start-munich"
     }
   ],
@@ -78,11 +75,6 @@
       "field": "employees",
       "url": "https://www.wemolo.com/en-de/pressemitteilung/munchner-scale-up-wemolo-erreicht-profitabilitat-bei-40-mio-euro-jahresumsatz",
       "quote": "The company currently employs around 250 people"
-    },
-    {
-      "field": "programs",
-      "url": "https://www.manageandmore.de/start-ups/",
-      "quote": "Parkdepot www.park-depot.com"
     },
     {
       "field": "programs",

@@ -43,34 +43,39 @@
       "techeuId": "b751bec5-ccf8-4d63-a715-f7c861879b95",
       "stage": "series-d",
       "month": "2022-04",
-      "amountEur": 300000000,
+      "amountEur": 286123033,
       "amountOriginal": 300000000,
-      "currency": "EUR",
+      "currency": "USD",
       "investors": [
         "Liberty City Ventures",
         "Animoca Brands",
-        "Dapper Labs"
+        "Dapper Labs",
+        "DAH Beteiligungs",
+        "Quiet Capital",
+        "RIT Capital Partners",
+        "Senator Investment Group",
+        "Alsara Investment Group"
       ],
       "sources": [
         {
           "field": "amount",
-          "url": "https://en.wikipedia.org/wiki/OneFootball",
-          "quote": "In April 2022, the company raised €300 million in a Series D funding round led by Liberty City Ventures"
-        },
-        {
-          "field": "stage",
-          "url": "https://en.wikipedia.org/wiki/OneFootball",
-          "quote": "In April 2022, the company raised €300 million in a Series D funding round led by Liberty City Ventures"
+          "url": "https://tech.eu/2022/04/28/what-a-goal-onefootball-kicks-in-300-million-to-create-new-digital-fan-experiences-on-blockchain/",
+          "quote": "OneFootball has raised $300 million in funding"
         },
         {
           "field": "month",
-          "url": "https://en.wikipedia.org/wiki/OneFootball",
-          "quote": "In April 2022, the company raised €300 million in a Series D funding round led by Liberty City Ventures"
+          "url": "https://tech.eu/2022/04/28/what-a-goal-onefootball-kicks-in-300-million-to-create-new-digital-fan-experiences-on-blockchain/",
+          "quote": "Megha Paul 28 April 2022"
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2022/04/28/what-a-goal-onefootball-kicks-in-300-million-to-create-new-digital-fan-experiences-on-blockchain/",
+          "quote": "The Series D round was led by Liberty City Ventures"
         },
         {
           "field": "investors",
-          "url": "https://en.wikipedia.org/wiki/OneFootball",
-          "quote": "led by Liberty City Ventures , with participation from Animoca Brands , Dapper Labs , and others"
+          "url": "https://tech.eu/2022/04/28/what-a-goal-onefootball-kicks-in-300-million-to-create-new-digital-fan-experiences-on-blockchain/",
+          "quote": "led by Liberty City Ventures with participation from Animoca Brands , Dapper Labs , DAH Beteiligungs , Quiet Capital , RIT Capital Partners , Senator Investment Group and Alsara Investment Group"
         }
       ]
     }

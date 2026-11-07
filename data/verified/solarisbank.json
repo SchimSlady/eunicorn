@@ -201,6 +201,106 @@
           "quote": "26.07.2021 - 17:40 Uhr"
         }
       ]
+    },
+    {
+      "stage": "series-e",
+      "month": "2022-06",
+      "amountEur": 40000000,
+      "amountOriginal": 40000000,
+      "currency": "EUR",
+      "investors": [],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.businessinsider.de/gruenderszene/fintech/solarisbank-finanzierung-ueberbrueckung/",
+          "quote": "Die Berliner Solarisbank hat von ihren Bestandsinvestoren die Summe von 40 Millionen Euro erhalten"
+        },
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2023/07/11/solaris-embedded-finance-42-million/",
+          "quote": "it also closed a little-publicized inside round last year of €40 million, a Series E"
+        },
+        {
+          "field": "month",
+          "url": "https://www.businessinsider.de/gruenderszene/fintech/solarisbank-finanzierung-ueberbrueckung/",
+          "quote": "Alex Hofmann 24 Juni 2022"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2023/07/11/solaris-embedded-finance-42-million/",
+          "quote": "it also closed a little-publicized inside round last year of €40 million, a Series E"
+        }
+      ]
+    },
+    {
+      "stage": "series-f+",
+      "month": "2023-07",
+      "amountEur": 38000000,
+      "amountOriginal": 38000000,
+      "currency": "EUR",
+      "investors": [
+        "BBVA",
+        "finleap",
+        "Lakestar",
+        "yabeo",
+        "SBI Group",
+        "Decisive",
+        "HV Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2023/07/11/solaris-embedded-finance-42-million/",
+          "quote": "has picked up €38 million ($41.8 million)"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2023/07/11/solaris-embedded-finance-42-million/",
+          "quote": "July 11, 2023"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2023/07/11/solaris-embedded-finance-42-million/",
+          "quote": "Solaris describes the funding as the first close of its Series F"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2023/07/11/solaris-embedded-finance-42-million/",
+          "quote": "It was an inside round (i.e. all are existing investors) from BBVA, finleap, Lakestar, yabeo, SBI, Decisive and HV Capital"
+        }
+      ]
+    },
+    {
+      "stage": "series-f+",
+      "month": "2024-03",
+      "amountEur": 96000000,
+      "amountOriginal": 96000000,
+      "currency": "EUR",
+      "investors": [
+        "SBI Group"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://newsroom.solarisgroup.com/235904-solaris-raises-eur-96-million-in-funding/",
+          "quote": "The current round consists of EUR 96 million in additional capital"
+        },
+        {
+          "field": "month",
+          "url": "https://newsroom.solarisgroup.com/235904-solaris-raises-eur-96-million-in-funding/",
+          "quote": "Berlin – 19.03.2024"
+        },
+        {
+          "field": "stage",
+          "url": "https://newsroom.solarisgroup.com/235904-solaris-raises-eur-96-million-in-funding/",
+          "quote": "today announced the signing of its Series F round led by SBI Group and other existing investors"
+        },
+        {
+          "field": "investors",
+          "url": "https://newsroom.solarisgroup.com/235904-solaris-raises-eur-96-million-in-funding/",
+          "quote": "today announced the signing of its Series F round led by SBI Group and other existing investors"
+        }
+      ]
     }
   ]
 }
