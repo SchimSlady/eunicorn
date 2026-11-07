@@ -19,6 +19,10 @@
   "difficulty": 1,
   "techeuId": "3C7FFE61-1934-4132-8038-F6147D1DBD7F",
   "wikidataId": "Q689141",
+  "exit": {
+    "kind": "ipo",
+    "month": "2018-04"
+  },
   "sources": [
     {
       "field": "unicorn",
@@ -64,6 +68,11 @@
       "field": "sectors",
       "url": "https://en.wikipedia.org/wiki/Spotify",
       "quote": "is a Swedish freemium music streaming service provider"
+    },
+    {
+      "field": "exit",
+      "url": "https://en.wikipedia.org/wiki/Spotify",
+      "quote": "It became publicly traded on the New York Stock Exchange in April 2018 through a direct public offering"
     }
   ],
   "rounds": [

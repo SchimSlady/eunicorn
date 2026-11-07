@@ -19,6 +19,11 @@
   "difficulty": 3,
   "funFact": "Volocopter filed for insolvency on 30 December 2024 after raising rounds at a pre-money valuation of $1.7 billion.",
   "techeuId": "1C10D232-D509-41E2-A1CB-DB98AFB49FC1",
+  "exit": {
+    "kind": "acquisition",
+    "month": "2025-03",
+    "acquirer": "Diamond Aircraft"
+  },
   "sources": [
     {
       "field": "city",
@@ -69,6 +74,16 @@
       "field": "status",
       "url": "https://ainonline.com/aviation-news/futureflight/2025-03-14/wanfengs-diamond-aircraft-absorbs-evtol-developer-volocopter",
       "quote": "Diamond Aircraft is absorbing eVTOL aircraft developer Volocopter after its Chinese owner Wanfeng agreed to acquire the company’s assets from a court-appointed insolvency administrator."
+    },
+    {
+      "field": "exit",
+      "url": "https://ainonline.com/aviation-news/futureflight/2025-03-14/wanfengs-diamond-aircraft-absorbs-evtol-developer-volocopter",
+      "quote": "Diamond Aircraft is absorbing eVTOL aircraft developer Volocopter after its Chinese owner Wanfeng agreed to acquire the company's assets from a court-appointed insolvency administrator."
+    },
+    {
+      "field": "exit",
+      "url": "https://ainonline.com/aviation-news/futureflight/2025-03-14/wanfengs-diamond-aircraft-absorbs-evtol-developer-volocopter",
+      "quote": "By Charles Alcock • Managing Editor March 14, 2025"
     }
   ],
   "rounds": [

@@ -1,0 +1,102 @@
+{
+  "id": "westwing",
+  "name": "Westwing",
+  "aliases": [
+    "Westwing Group",
+    "Westwing Home & Living"
+  ],
+  "domain": "westwing.com",
+  "country": "DE",
+  "city": "Munich",
+  "founded": 2011,
+  "sectors": [
+    "consumer"
+  ],
+  "status": "public",
+  "unicorn": false,
+  "founders": [
+    "Delia Lachance",
+    "Georg Biersack",
+    "Matthias Siepe",
+    "Stefan Smalla",
+    "Tim Schäfer"
+  ],
+  "difficulty": 2,
+  "exit": {
+    "kind": "ipo",
+    "month": "2018-10"
+  },
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://mondovisione.com/news/westwing-group-ag-new-on-frankfurt-stock-exchange-online-retailer-listed-in-p-2018109",
+      "quote": "The company was founded in 2011, has its headquarters in Munich and is active in eleven European countries."
+    },
+    {
+      "field": "founded",
+      "url": "https://mondovisione.com/news/westwing-group-ag-new-on-frankfurt-stock-exchange-online-retailer-listed-in-p-2018109",
+      "quote": "The company was founded in 2011, has its headquarters in Munich and is active in eleven European countries."
+    },
+    {
+      "field": "founders",
+      "url": "https://de.wikipedia.org/wiki/Westwing",
+      "quote": "Delia Lachance (geborene Fischer)"
+    },
+    {
+      "field": "founders",
+      "url": "https://de.wikipedia.org/wiki/Westwing",
+      "quote": "Georg Biersack, Matthias Siepe, Stefan Smalla und Tim Schäfer"
+    },
+    {
+      "field": "sectors",
+      "url": "https://mondovisione.com/news/westwing-group-ag-new-on-frankfurt-stock-exchange-online-retailer-listed-in-p-2018109",
+      "quote": "According to Westwing, it is the leading online retailer for furniture and home accessories in Europe"
+    },
+    {
+      "field": "status",
+      "url": "https://mondovisione.com/news/westwing-group-ag-new-on-frankfurt-stock-exchange-online-retailer-listed-in-p-2018109",
+      "quote": "Today's listing of the Westwing Group AG (ISIN: DE000A2N4H07 ) is the 16th IPO on the Frankfurt Stock Exchange this year."
+    },
+    {
+      "field": "exit",
+      "url": "https://mondovisione.com/news/westwing-group-ag-new-on-frankfurt-stock-exchange-online-retailer-listed-in-p-2018109",
+      "quote": "Today's listing of the Westwing Group AG (ISIN: DE000A2N4H07 ) is the 16th IPO on the Frankfurt Stock Exchange this year."
+    },
+    {
+      "field": "unicorn",
+      "url": "https://mondovisione.com/news/westwing-group-ag-new-on-frankfurt-stock-exchange-online-retailer-listed-in-p-2018109",
+      "quote": "The issue price was 26.00 Euro."
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-c",
+      "month": "2014-04",
+      "amountEur": 72000000,
+      "amountOriginal": 72000000,
+      "currency": "EUR",
+      "investors": [
+        "Fidelity Worldwide Investment",
+        "Odey",
+        "Tengelmann"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2014/04/03/westwing-rocket-internets-home-design-portal-upsizes-with-another-99m-from-fidelity-and-more/",
+          "quote": "is today announcing a new funding round of €72 million ($99 million) from Rocket Internet regulars Fidelity Worldwide Investment, as well as existing investors Odey and Tengelmann, and others"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2014/04/03/westwing-rocket-internets-home-design-portal-upsizes-with-another-99m-from-fidelity-and-more/",
+          "quote": "April 3, 2014"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2014/04/03/westwing-rocket-internets-home-design-portal-upsizes-with-another-99m-from-fidelity-and-more/",
+          "quote": "is today announcing a new funding round of €72 million ($99 million) from Rocket Internet regulars Fidelity Worldwide Investment, as well as existing investors Odey and Tengelmann, and others"
+        }
+      ]
+    }
+  ]
+}

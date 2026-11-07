@@ -1,0 +1,96 @@
+{
+  "id": "britishvolt",
+  "name": "Britishvolt",
+  "aliases": [
+    "Power by Britishvolt"
+  ],
+  "domain": "britishvolt.com",
+  "country": "GB",
+  "city": "Blyth",
+  "founded": 2019,
+  "sectors": [
+    "climate"
+  ],
+  "status": "defunct",
+  "unicorn": false,
+  "founders": [
+    "Orral Nadjari"
+  ],
+  "difficulty": 3,
+  "lastValuationEur": 881445571,
+  "exit": {
+    "kind": "insolvency",
+    "month": "2023-01"
+  },
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.theguardian.com/business/2022/feb/15/britishvolt-secures-40m-investment-for-electric-vehicle-battery-factory",
+      "quote": "Startup to be based near Blyth is regarded as key to prospects for the UK’s automotive industry"
+    },
+    {
+      "field": "founded",
+      "url": "https://www.theguardian.com/business/2022/feb/15/britishvolt-secures-40m-investment-for-electric-vehicle-battery-factory",
+      "quote": "Britishvolt was founded in 2019 by Orral Nadjari , a former investment banker."
+    },
+    {
+      "field": "founders",
+      "url": "https://www.theguardian.com/business/2022/feb/15/britishvolt-secures-40m-investment-for-electric-vehicle-battery-factory",
+      "quote": "Britishvolt was founded in 2019 by Orral Nadjari , a former investment banker."
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.theguardian.com/business/2022/feb/15/britishvolt-secures-40m-investment-for-electric-vehicle-battery-factory",
+      "quote": "Britishvolt secures £40m investment for electric vehicle battery factory"
+    },
+    {
+      "field": "status",
+      "url": "https://www.bbc.co.uk/news/business-64303149",
+      "quote": "Britishvolt: UK battery start-up collapses into administration"
+    },
+    {
+      "field": "exit",
+      "url": "https://www.bbc.co.uk/news/business-64303149",
+      "quote": "Britishvolt: UK battery start-up collapses into administration"
+    },
+    {
+      "field": "valuation",
+      "url": "https://www.theguardian.com/business/2022/feb/15/britishvolt-secures-40m-investment-for-electric-vehicle-battery-factory",
+      "quote": "The FTSE 100 miner has already invested millions of pounds in Britishvolt in earlier funding rounds that valued the battery company at more than $1bn (£740m)."
+    },
+    {
+      "field": "unicorn",
+      "url": "https://www.theguardian.com/business/2022/feb/15/britishvolt-secures-40m-investment-for-electric-vehicle-battery-factory",
+      "quote": "The FTSE 100 miner has already invested millions of pounds in Britishvolt in earlier funding rounds that valued the battery company at more than $1bn (£740m)."
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-b",
+      "month": "2022-02",
+      "amountEur": 47752641,
+      "amountOriginal": 40000000,
+      "currency": "GBP",
+      "investors": [
+        "Glencore"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.theguardian.com/business/2022/feb/15/britishvolt-secures-40m-investment-for-electric-vehicle-battery-factory",
+          "quote": "The UK startup Britishvolt has gained new investment worth £40m from Glencore"
+        },
+        {
+          "field": "month",
+          "url": "https://www.theguardian.com/business/2022/feb/15/britishvolt-secures-40m-investment-for-electric-vehicle-battery-factory",
+          "quote": "Tue 15 Feb 2022"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.theguardian.com/business/2022/feb/15/britishvolt-secures-40m-investment-for-electric-vehicle-battery-factory",
+          "quote": "The UK startup Britishvolt has gained new investment worth £40m from Glencore"
+        }
+      ]
+    }
+  ]
+}

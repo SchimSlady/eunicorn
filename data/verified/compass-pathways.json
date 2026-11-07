@@ -20,6 +20,10 @@
   ],
   "difficulty": 4,
   "techeuId": "aacdc3fe-4448-4772-b0c3-9c9b65854dd4",
+  "exit": {
+    "kind": "ipo",
+    "month": "2020-09"
+  },
   "sources": [
     {
       "field": "city",
@@ -45,6 +49,16 @@
       "field": "status",
       "url": "https://en.wikipedia.org/wiki/Compass_Pathways",
       "quote": "in 2020, was the first psychedelic medicine company to be listed on the NASDAQ"
+    },
+    {
+      "field": "exit",
+      "url": "https://www.renaissancecapital.com/IPO-Center/News/71310/Can-magic-mushrooms-treat-depression-Biotech-COMPASS-Pathways-prices-upsized",
+      "quote": "Biotech COMPASS Pathways prices upsized US IPO above the range at $17 September 18, 2020"
+    },
+    {
+      "field": "exit",
+      "url": "https://www.renaissancecapital.com/IPO-Center/News/71310/Can-magic-mushrooms-treat-depression-Biotech-COMPASS-Pathways-prices-upsized",
+      "quote": "COMPASS Pathways plans to list on the Nasdaq under the symbol CMPS"
     }
   ],
   "rounds": [

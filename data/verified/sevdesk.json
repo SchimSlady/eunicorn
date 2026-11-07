@@ -21,6 +21,11 @@
   "funFact": "sevDesk was founded in 2013 as SEVENIT GmbH and only took its product's name in 2019.",
   "difficulty": 4,
   "techeuId": "BC68DAB0-8C80-4033-8249-FDDAF47079D1",
+  "exit": {
+    "kind": "acquisition",
+    "month": "2025-01",
+    "acquirer": "Cegid"
+  },
   "sources": [
     {
       "field": "city",
@@ -51,6 +56,16 @@
       "field": "fun_fact",
       "url": "https://sevdesk.de/ueber-uns/",
       "quote": "Gegründet 2013 als SEVENIT GmbH, tragen wir seit 2019 den Namen unseres Produkts"
+    },
+    {
+      "field": "exit",
+      "url": "https://sevdesk.de/presse/cegid-schliesst-eine-endgultige-vereinbarung-zum-erwerb-von-sevdesk-ab/",
+      "quote": "gibt heute bekannt, dass es eine endgültige Vereinbarung zur Übernahme von sevdesk unterzeichnet hat."
+    },
+    {
+      "field": "exit",
+      "url": "https://sevdesk.de/presse/cegid-schliesst-eine-endgultige-vereinbarung-zum-erwerb-von-sevdesk-ab/",
+      "quote": "Paris, 7. Januar 2025 – Cegid"
     }
   ],
   "rounds": [

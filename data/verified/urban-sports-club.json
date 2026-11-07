@@ -19,6 +19,11 @@
   "funFact": "Urban Sports Club bootstrapped for two years before taking its first outside financing in 2015.",
   "difficulty": 3,
   "techeuId": "AD6C74DE-7601-4EFD-8634-4170AE9F8075",
+  "exit": {
+    "kind": "acquisition",
+    "month": "2025-09",
+    "acquirer": "Wellhub"
+  },
   "sources": [
     {
       "field": "city",
@@ -49,6 +54,16 @@
       "field": "fun_fact",
       "url": "https://urbansportsclub.com/en/press",
       "quote": "After two years of bootstrapping, the company secured early-stage financing in 2015"
+    },
+    {
+      "field": "exit",
+      "url": "https://www.invest-in.berlin/n/berlins-urban-sports-club-sold-for-600m-to-wellhub/",
+      "quote": "Berlin-based fitness startup Urban Sports Club (USC) has been acquired by US wellness platform Wellhub for approximately $600 million"
+    },
+    {
+      "field": "exit",
+      "url": "https://www.invest-in.berlin/n/berlins-urban-sports-club-sold-for-600m-to-wellhub/",
+      "quote": "16.09.2025 | Tech and Business News"
     }
   ],
   "rounds": [

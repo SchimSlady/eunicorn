@@ -23,6 +23,11 @@
       "id": "cdtm"
     }
   ],
+  "exit": {
+    "kind": "acquisition",
+    "month": "2025-03",
+    "acquirer": "Lookiero"
+  },
   "sources": [
     {
       "field": "city",
@@ -58,6 +63,16 @@
       "field": "programs",
       "url": "https://www.cdtm.com/startups/outfittery",
       "quote": "CDTM founders Julia Bösch Class of Spring 2006"
+    },
+    {
+      "field": "exit",
+      "url": "https://itbrief.co.uk/story/lookiero-outfittery-merge-to-form-a-european-leader",
+      "quote": "Tue, 11th Mar 2025"
+    },
+    {
+      "field": "exit",
+      "url": "https://itbrief.co.uk/story/lookiero-outfittery-merge-to-form-a-european-leader",
+      "quote": "Lookiero and Outfittery, two prominent entities in the online personal shopping sector, have announced their merger to create a leading force in the European market."
     }
   ],
   "rounds": [

@@ -18,6 +18,11 @@
   ],
   "difficulty": 4,
   "techeuId": "89B03519-D652-4FBA-B1DC-EAB84496CDD1",
+  "exit": {
+    "kind": "acquisition",
+    "month": "2020-09",
+    "acquirer": "OLX Group"
+  },
   "sources": [
     {
       "field": "city",
@@ -48,6 +53,21 @@
       "field": "valuation",
       "url": "https://frontier.ventures/olx-group-invests-up-to-400m-in-used-car-marketplace-frontier-car-group-at-a-700m-valuation/",
       "quote": "OLX Group invests up to $400M in used car marketplace Frontier Car Group at a $700M valuation"
+    },
+    {
+      "field": "exit",
+      "url": "https://www.carey.cl/en/a-chilean-start-up-merges-with-a-dutch-e-commerce-platform",
+      "quote": "As a result of the merger, which took place on 22 September, the net worth of the new entity is understood to be above the US$1 billion"
+    },
+    {
+      "field": "exit",
+      "url": "https://www.carey.cl/en/a-chilean-start-up-merges-with-a-dutch-e-commerce-platform",
+      "quote": "Insights 10/30/2020 A Chilean start-up merges with a Dutch e-commerce platform"
+    },
+    {
+      "field": "exit",
+      "url": "https://www.leadersleague.com/en/news/olx-group-expands-in-latin-america-with-frontier-car-group-merger",
+      "quote": "OLX Group, which operates a number of online trading platforms, has merged with Frontier Car Group"
     }
   ],
   "rounds": [

@@ -23,6 +23,11 @@
   ],
   "difficulty": 4,
   "techeuId": "EC7E6E30-610D-4947-946F-5A58E96A333A",
+  "exit": {
+    "kind": "acquisition",
+    "month": "2026-07",
+    "acquirer": "Eli Lilly"
+  },
   "sources": [
     {
       "field": "city",
@@ -58,6 +63,11 @@
       "field": "unicorn",
       "url": "https://www.cnbc.com/2021/06/18/peter-thiel-backed-psychedelic-start-ups-shares-pop-in-wall-street-debut.html",
       "quote": "raised $225 million at a valuation of $2.3 billion."
+    },
+    {
+      "field": "exit",
+      "url": "https://en.wikipedia.org/wiki/ATAI_Life_Sciences",
+      "quote": "In July 2026, Eli Lilly and Company announced that it would acquire AtaiBeckley for $6.75 per share in cash"
     }
   ],
   "rounds": [

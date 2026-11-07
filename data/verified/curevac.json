@@ -21,6 +21,11 @@
   ],
   "difficulty": 3,
   "techeuId": "91FF558F-2B27-4EF6-A196-D639A7B36A3C",
+  "exit": {
+    "kind": "acquisition",
+    "month": "2025-06",
+    "acquirer": "BioNTech"
+  },
   "sources": [
     {
       "field": "city",
@@ -56,6 +61,16 @@
       "field": "valuation",
       "url": "https://www.foxbusiness.com/markets/coronavirus-vaccine-developer-curevac-raises-213-million-in-ipo",
       "quote": "The IPO gives CureVac a valuation of about $2.8 billion."
+    },
+    {
+      "field": "exit",
+      "url": "https://en.wikipedia.org/wiki/CureVac",
+      "quote": "In June 2025, BioNTech announced its intention to buy CureVac in an all-stock deal valued at US$1.25 billion."
+    },
+    {
+      "field": "exit",
+      "url": "https://en.wikipedia.org/wiki/CureVac",
+      "quote": "BioNTech Completes Acquisition of CureVac with 86.75% Share Tendered"
     }
   ],
   "rounds": [

@@ -17,6 +17,11 @@
   "founders": [],
   "difficulty": 4,
   "techeuId": "409FE652-B77D-4866-AE64-A1FAA75B9C9B",
+  "exit": {
+    "kind": "acquisition",
+    "month": "2023-05",
+    "acquirer": "Ironwood Pharmaceuticals"
+  },
   "sources": [
     {
       "field": "city",
@@ -42,6 +47,11 @@
       "field": "unicorn",
       "url": "https://www.life-sciences-europe.com/index-term/vectivbio-forbion-investment-202305-holding-nasdaq-vect-ironwood-2001-154727.html",
       "quote": "acquisition $1.2b cash tender offer at $17/share"
+    },
+    {
+      "field": "exit",
+      "url": "https://www.life-sciences-europe.com/index-term/vectivbio-forbion-investment-202305-holding-nasdaq-vect-ironwood-2001-154727.html",
+      "quote": "in May 2023, Ironwood Pharmaceuticals agreed to acquire VectivBio for a consideration of approximately $1.2bn"
     }
   ],
   "rounds": [

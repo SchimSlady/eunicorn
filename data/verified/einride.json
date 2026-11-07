@@ -20,6 +20,10 @@
   ],
   "difficulty": 3,
   "techeuId": "B897CD6A-8521-400D-9A55-DED3D844BDCA",
+  "exit": {
+    "kind": "ipo",
+    "month": "2026-06"
+  },
   "sources": [
     {
       "field": "city",
@@ -50,6 +54,11 @@
       "field": "valuation",
       "url": "https://www.ttnews.com/articles/einride-raises-funds",
       "quote": "Einride AB raised about $100 million in funds in a round that values the Swedish driverless truck startup at more than $1 billion"
+    },
+    {
+      "field": "exit",
+      "url": "https://bebeez.eu/2026/06/10/einride-a-global-leader-in-autonomous-and-electric-freight-completes-business-combination-and-will-begin-trading-on-nasdaq-stock-market/",
+      "quote": "are expected to begin trading on Nasdaq under the ticker symbols \"ENRD\" and \"ENRDW\", respectively, on June 10, 2026."
     }
   ],
   "rounds": [

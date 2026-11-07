@@ -19,6 +19,10 @@
   ],
   "difficulty": 2,
   "techeuId": "a91121cf-25f2-47d0-91b7-8c835c2b471e",
+  "exit": {
+    "kind": "ipo",
+    "month": "2018-09"
+  },
   "sources": [
     {
       "field": "city",
@@ -54,6 +58,11 @@
       "field": "valuation",
       "url": "https://techcrunch.com/2018/09/28/funding-circle-ipo/",
       "quote": "gives the company a market cap of £1.504 billion"
+    },
+    {
+      "field": "exit",
+      "url": "https://en.wikipedia.org/wiki/Funding_Circle",
+      "quote": "Funding Circle was listed on the London Stock Exchange in September 2018, raising around £300 million at an initial valuation of £1.5 billion."
     }
   ],
   "rounds": [

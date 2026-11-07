@@ -18,6 +18,10 @@
   ],
   "difficulty": 3,
   "techeuId": "8E0D8C1A-BB31-4586-8F96-5214E589C041",
+  "exit": {
+    "kind": "insolvency",
+    "month": "2023-09"
+  },
   "sources": [
     {
       "field": "city",
@@ -43,6 +47,21 @@
       "field": "status",
       "url": "https://de.wikipedia.org/wiki/Infarm",
       "quote": "Im September 2023 meldete die niederländische Muttergesellschaft Insolvenz an"
+    },
+    {
+      "field": "exit",
+      "url": "https://de.wikipedia.org/wiki/Infarm",
+      "quote": "Im September 2023 meldete die niederländische Muttergesellschaft Insolvenz an."
+    },
+    {
+      "field": "exit",
+      "url": "https://www.faillissementsdossier.nl/de/insolvenz/1758861/infarm-indoor-urban-farming-b-v.aspx",
+      "quote": "Op 18-09-2023 is Infarm - Indoor Urban Farming B.V. te Amstelveen (Noord-Holland) failliet verklaard nadat de surseance beëindigd is."
+    },
+    {
+      "field": "valuation",
+      "url": "https://techcrunch.com/2021/12/16/vertical-farming-startup-infarm-raises-200m-for-international-expansion/",
+      "quote": "placing its valuation “well” north of $1 bililion, earning its place as Europe’s first vertical farming unicorn"
     }
   ],
   "rounds": [
@@ -116,5 +135,6 @@
         }
       ]
     }
-  ]
+  ],
+  "lastValuationEur": 882145378
 }

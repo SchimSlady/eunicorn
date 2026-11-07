@@ -23,6 +23,10 @@
   "difficulty": 3,
   "techeuId": "fee0e21d-1507-4977-a2f1-4a402119f7b1",
   "wikidataId": "Q96314827",
+  "exit": {
+    "kind": "ipo",
+    "month": "2026-07"
+  },
   "sources": [
     {
       "field": "founded",
@@ -73,6 +77,11 @@
       "field": "valuation",
       "url": "https://www.iposcoop.com/?p=38749",
       "quote": "At pricing, Bending Spoons had a market cap of $18.42 billion."
+    },
+    {
+      "field": "exit",
+      "url": "https://www.iposcoop.com/?p=38749",
+      "quote": "Shares of Bending Spoons opened at $31.00 - up $2.00 from their IPO price - for a gain of 6.9 percent in their NASDAQ debut on Wednesday, July 1, 2026."
     }
   ],
   "rounds": [

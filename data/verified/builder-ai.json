@@ -19,6 +19,10 @@
   ],
   "difficulty": 2,
   "techeuId": "FBBA9193-0E63-47F2-BAF6-B43828F07EED",
+  "exit": {
+    "kind": "insolvency",
+    "month": "2025-05"
+  },
   "sources": [
     {
       "field": "city",
@@ -44,6 +48,16 @@
       "field": "status",
       "url": "https://en.wikipedia.org/wiki/Builder.ai",
       "quote": "Defunct May 2025"
+    },
+    {
+      "field": "exit",
+      "url": "https://techcrunch.com/2025/05/20/once-worth-over-1b-microsoft-backed-builder-ai-is-running-out-of-money/",
+      "quote": "AI software company Builder.ai is entering insolvency proceedings, a company spokesperson confirmed to TechCrunch."
+    },
+    {
+      "field": "exit",
+      "url": "https://techcrunch.com/2025/05/20/once-worth-over-1b-microsoft-backed-builder-ai-is-running-out-of-money/",
+      "quote": "May 20, 2025"
     }
   ],
   "rounds": [

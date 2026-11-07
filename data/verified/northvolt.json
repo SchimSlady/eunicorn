@@ -18,6 +18,10 @@
   ],
   "difficulty": 2,
   "techeuId": "F10674BA-AE7A-4A77-B808-106068951967",
+  "exit": {
+    "kind": "insolvency",
+    "month": "2025-03"
+  },
   "sources": [
     {
       "field": "city",
@@ -53,6 +57,11 @@
       "field": "fun_fact",
       "url": "https://en.wikipedia.org/wiki/Northvolt",
       "quote": "It is the largest bankruptcy in modern Swedish industrial history"
+    },
+    {
+      "field": "exit",
+      "url": "https://en.wikipedia.org/wiki/Northvolt",
+      "quote": "It subsequently filed for bankruptcy in Sweden on March 12, 2025."
     }
   ],
   "rounds": [

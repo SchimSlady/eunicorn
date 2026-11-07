@@ -102,7 +102,8 @@ const schemaSrc = readFileSync(join(root, "../packages/schema/src/index.ts"), "u
 const SECTORS = new Set([...schemaSrc.match(/export type Sector =([^;]+);/)![1].matchAll(/"([^"]+)"/g)].map((m) => m[1]));
 const STAGES = new Set(["pre-seed", "seed", "series-a", "series-b", "series-c", "series-d", "series-e", "series-f+"]);
 const STATUSES = new Set(["private", "public", "acquired", "defunct"]);
-const COMPANY_FIELDS = new Set(["city", "founded", "founders", "sectors", "status", "unicorn", "valuation", "employees", "fun_fact", "logo", "programs"]);
+const EXIT_KINDS = new Set(["acquisition", "ipo", "insolvency", "shutdown"]);
+const COMPANY_FIELDS = new Set(["city", "founded", "founders", "sectors", "status", "unicorn", "valuation", "employees", "fun_fact", "logo", "programs", "exit"]);
 const PROGRAMS = new Set(
   (JSON.parse(readFileSync(join(root, "programs.json"), "utf8")) as { programs: { id: string }[] }).programs.map((p) => p.id),
 );
@@ -156,6 +157,18 @@ for (const file of readdirSync(verifiedDir).filter((f) => f.endsWith(".json"))) 
     if (p.batch !== undefined && (typeof p.batch !== "string" || !p.batch)) bad(`program ${p.id}: batch must be a non-empty string`);
   }
   if (seenPrograms.size && !fields.has("programs")) bad("programs without a programs source");
+  // Exit: how the startup story ended (acquisition, IPO, insolvency, shutdown), matching the status.
+  if (c.exit !== undefined) {
+    const e = c.exit;
+    if (!EXIT_KINDS.has(e.kind)) bad(`exit kind must be one of ${[...EXIT_KINDS].join(", ")}`);
+    if (!/^\d{4}-(0[1-9]|1[0-2])$/.test(e.month ?? "")) bad("exit month must be YYYY-MM");
+    else if (e.month > thisMonth) bad("exit month is in the future");
+    if (e.acquirer !== undefined && (e.kind !== "acquisition" || typeof e.acquirer !== "string" || !e.acquirer)) bad("exit acquirer only for an acquisition, as a name");
+    const want = { acquisition: "acquired", ipo: "public", insolvency: "defunct", shutdown: "defunct" }[e.kind as string];
+    // An insolvency followed by a takeover (Volocopter) is stored as the acquisition.
+    if (want && want !== c.status) bad(`exit ${e.kind} does not match status ${c.status}`);
+    if (!fields.has("exit")) bad("exit without an exit source");
+  }
 
   for (const r of c.rounds ?? []) {
     const rw = `round ${r.month} ${r.stage}`;

@@ -20,6 +20,11 @@
   "funFact": "TechCrunch described LeanIX's software as a \"Google Maps for IT architectures\".",
   "difficulty": 3,
   "techeuId": "00B03CC3-7C8D-41B8-8BBC-DC7118C21A46",
+  "exit": {
+    "kind": "acquisition",
+    "month": "2023-09",
+    "acquirer": "SAP"
+  },
   "sources": [
     {
       "field": "city",
@@ -50,6 +55,11 @@
       "field": "fun_fact",
       "url": "https://techcrunch.com/2018/12/06/leanix/",
       "quote": "might well be described as a \"Google Maps for IT architectures.\""
+    },
+    {
+      "field": "exit",
+      "url": "https://en.wikipedia.org/wiki/LeanIX",
+      "quote": "On September 7, 2023 it was announced that SAP has entered into an agreement to acquire LeanIX."
     }
   ],
   "rounds": [
