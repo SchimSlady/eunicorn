@@ -10,11 +10,11 @@ export function Announce({ text }: { text: string }) {
 }
 
 /** No puzzle for today: say so, and offer the other games instead of a dead end. */
-export function NoPuzzle() {
+export function NoPuzzle({ back }: { back?: { href: string; label: string } } = {}) {
   return (
     <div className="space-y-3 text-center">
       <p className="text-muted">No puzzle here today. Check back tomorrow.</p>
-      <Link href="/" className="inline-flex min-h-11 items-center rounded-full border border-border px-5 font-semibold text-primary">
+      <Link href={back?.href ?? "/"} className="inline-flex min-h-11 items-center rounded-full border border-border px-5 font-semibold text-primary">
         Play another game
       </Link>
     </div>

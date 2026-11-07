@@ -1,4 +1,5 @@
 import { IdeaBanner } from "@/components/IdeaBanner";
+import { LocalBanner } from "@/components/LocalBanner";
 import { ModeCards } from "@/components/ModeCards";
 import { UpcomingCards } from "@/components/UpcomingCards";
 
@@ -8,6 +9,9 @@ export default function Home() {
       <h1 className="text-2xl font-bold leading-tight sm:text-[32px]">Daily games about the European startup ecosystem</h1>
       <div className="mt-8">
         <ModeCards />
+      </div>
+      <div className="mt-4">
+        <LocalBanner />
       </div>
       <h2 className="mt-12 text-lg font-bold">Coming soon</h2>
       <div className="mt-4">

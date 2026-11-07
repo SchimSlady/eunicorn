@@ -45,14 +45,21 @@ export const METRIC_META: Record<HLMetric, { question: string; label: string }> 
   founded: { question: "Founded earlier or later?", label: "Founded" },
   employees: { question: "Which has more employees?", label: "Employees" },
   biggestRoundUsd: { question: "Whose biggest round was bigger?", label: "Biggest round" },
+  lastRoundMonth: { question: "Who raised more recently?", label: "Last round" },
 };
 
 export function formatMetric(c: Company, metric: HLMetric): string {
   const v = metricValue(c, metric);
   if (v == null) return "–";
   if (metric === "founded") return String(v);
+  if (metric === "lastRoundMonth") return formatMonth(v);
   if (metric === "employees") return groupThousands(v);
   return formatUsdAsEur(v);
+}
+
+/** A month count (year × 12 + month − 1) as "Mar 2025". */
+export function formatMonth(index: number): string {
+  return new Intl.DateTimeFormat("en-GB", { month: "short", year: "numeric", timeZone: "UTC" }).format(Date.UTC(Math.floor(index / 12), index % 12, 1));
 }
 
 /** Display name of a sector id ("defense" -> "Defence"). */

@@ -17,6 +17,11 @@
     "Janer Gorohhov"
   ],
   "difficulty": 3,
+  "programs": [
+    {
+      "id": "y-combinator"
+    }
+  ],
   "techeuId": "67CA2571-5E2A-4694-9E0F-6D1CF9F792B3",
   "sources": [
     {
@@ -48,6 +53,11 @@
       "field": "valuation",
       "url": "https://www.prnewswire.com/news-releases/veriff-raises-100m-series-c-at-1-5b-valuation-co-led-by-tiger-global-and-alkeon-301469002.html",
       "quote": "This round brings Veriff's total funding to $200M and its valuation to $1.5B"
+    },
+    {
+      "field": "programs",
+      "url": "https://tech.eu/2020/07/02/veriff-funding/",
+      "quote": "Investors include previous backers Y Combinator and Mosaic Ventures as well as new ones, such NordicNinja VC and Change Ventures."
     }
   ],
   "rounds": [

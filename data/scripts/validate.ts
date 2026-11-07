@@ -102,7 +102,10 @@ const schemaSrc = readFileSync(join(root, "../packages/schema/src/index.ts"), "u
 const SECTORS = new Set([...schemaSrc.match(/export type Sector =([^;]+);/)![1].matchAll(/"([^"]+)"/g)].map((m) => m[1]));
 const STAGES = new Set(["pre-seed", "seed", "series-a", "series-b", "series-c", "series-d", "series-e", "series-f+"]);
 const STATUSES = new Set(["private", "public", "acquired", "defunct"]);
-const COMPANY_FIELDS = new Set(["city", "founded", "founders", "sectors", "status", "unicorn", "valuation", "employees", "fun_fact", "logo"]);
+const COMPANY_FIELDS = new Set(["city", "founded", "founders", "sectors", "status", "unicorn", "valuation", "employees", "fun_fact", "logo", "programs"]);
+const PROGRAMS = new Set(
+  (JSON.parse(readFileSync(join(root, "programs.json"), "utf8")) as { programs: { id: string }[] }).programs.map((p) => p.id),
+);
 const ROUND_FIELDS = new Set(["amount", "month", "stage", "investors", "valuation"]);
 const thisMonth = new Date().toISOString().slice(0, 7);
 
@@ -143,6 +146,16 @@ for (const file of readdirSync(verifiedDir).filter((f) => f.endsWith(".json"))) 
   if (c.unicorn && !(c.lastValuationEur >= 1e9)) bad("unicorn without lastValuationEur >= €1bn");
   if (!c.unicorn && c.lastValuationEur >= 1e9) bad(`lastValuationEur ${c.lastValuationEur} >= €1bn but unicorn is false`);
   if (c.lastValuationEur != null && !fields.has("valuation")) bad("lastValuationEur without a valuation source");
+  // Programs (Y Combinator, CDTM ...): known ids from data/programs.json, each once, with a source.
+  if (c.programs !== undefined && !Array.isArray(c.programs)) bad("programs must be a list");
+  const seenPrograms = new Set<string>();
+  for (const p of c.programs ?? []) {
+    if (!PROGRAMS.has(p.id)) bad(`unknown program ${p.id} (add it to data/programs.json)`);
+    if (seenPrograms.has(p.id)) bad(`program ${p.id} listed twice`);
+    seenPrograms.add(p.id);
+    if (p.batch !== undefined && (typeof p.batch !== "string" || !p.batch)) bad(`program ${p.id}: batch must be a non-empty string`);
+  }
+  if (seenPrograms.size && !fields.has("programs")) bad("programs without a programs source");
 
   for (const r of c.rounds ?? []) {
     const rw = `round ${r.month} ${r.stage}`;

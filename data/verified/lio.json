@@ -21,6 +21,11 @@
     "Till Wagner"
   ],
   "difficulty": 5,
+  "programs": [
+    {
+      "id": "y-combinator"
+    }
+  ],
   "techeuId": "A90D0921-C5C2-445F-BEED-79B969DF4446",
   "sources": [
     {
@@ -47,6 +52,11 @@
       "field": "sectors",
       "url": "https://techcrunch.com/2026/03/05/lio-ai-series-a-a16z-30m-raise-automate-enterprise-procurement/",
       "quote": "Lio operates an AI-native platform with agentic infrastructure that completes the entire procurement process."
+    },
+    {
+      "field": "programs",
+      "url": "https://techcrunch.com/2026/03/05/lio-ai-series-a-a16z-30m-raise-automate-enterprise-procurement/",
+      "quote": "SV Angels, Harry Stebbings, and YC also partook in the round"
     }
   ],
   "rounds": [

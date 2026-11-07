@@ -38,6 +38,7 @@ interface VerifiedCompany {
   funFact?: string;
   careersUrl?: string;
   difficulty: number;
+  programs?: { id: string; batch?: string }[]; // ids from data/programs.json, needs a "programs" source
   techeuId?: string;
   wikidataId?: string;
   sources: Source[];
@@ -63,11 +64,22 @@ const logoPath = (id: string) => {
   return file ? `/logos/${file}` : null;
 };
 
+// Accelerators, fellowships and university programs (data/programs.json): upserted before the companies.
+const programs = (JSON.parse(readFileSync(join(import.meta.dirname, "../programs.json"), "utf8")) as {
+  programs: { id: string; name: string; kind: string; url?: string }[];
+}).programs;
+
 const only = process.argv[2];
 const files = readdirSync(dir).filter((f) => f.endsWith(".json") && (!only || f === `${only}.json`));
 const db = await connect();
 let rounds = 0;
 try {
+  for (const p of programs) {
+    await db.query(
+      `insert into public.programs (id, name, kind, url) values ($1, $2, $3, $4)
+       on conflict (id) do update set name = excluded.name, kind = excluded.kind, url = excluded.url`,
+      [p.id, p.name, p.kind, p.url ?? null]);
+  }
   for (const file of files) {
     const c: VerifiedCompany = JSON.parse(readFileSync(join(dir, file), "utf8"));
     if (`${c.id}.json` !== file) throw new Error(`${file}: id ${c.id} does not match the filename`);
@@ -95,6 +107,11 @@ try {
       for (const name of c.founders) {
         await db.query("insert into public.people (id, name) values ($1, $2) on conflict (id) do nothing", [slug(name), name]);
         await db.query("insert into public.company_founders values ($1, $2) on conflict do nothing", [c.id, slug(name)]);
+      }
+      await db.query("delete from public.company_programs where company_id = $1", [c.id]);
+      for (const p of c.programs ?? []) {
+        await db.query("insert into public.company_programs (company_id, program_id, batch) values ($1, $2, $3)",
+          [c.id, p.id, p.batch ?? null]);
       }
       await db.query("delete from public.company_sources where company_id = $1", [c.id]);
       for (const s of c.sources) {

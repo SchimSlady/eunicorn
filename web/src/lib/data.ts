@@ -1,6 +1,7 @@
 import type { AnyPuzzle, PlayMode } from "@/lib/top10";
 import type { Company, Dataset } from "@eunicorn/schema";
 import { loadFilePuzzle, puzzleUrl } from "./daily";
+import type { Region } from "./regions";
 
 async function fetchJson<T>(url: string): Promise<T | null> {
   const res = await fetch(url).catch(() => null);
@@ -10,16 +11,18 @@ async function fetchJson<T>(url: string): Promise<T | null> {
 /**
  * Today's puzzle and the dataset it refers to, always from the same source: Supabase
  * (/api/puzzle + /api/dataset) when it has an approved puzzle for today, otherwise the files
- * synced from /data. Mixing them would break: file puzzles name companies the database lacks.
+ * synced from /data (daily games only; a Local game has no fallback). Mixing them would break: file puzzles name companies the database lacks.
  */
-export async function loadGame<P extends AnyPuzzle>(mode: PlayMode): Promise<{ puzzle: P | null; data: Dataset }> {
+export async function loadGame<P extends AnyPuzzle>(mode: PlayMode, region?: Region): Promise<{ puzzle: P | null; data: Dataset | null }> {
   // Both at once: waiting for the puzzle before asking for the (much larger) dataset doubled the wait.
   const dataset = fetchJson<Dataset>("/api/dataset");
-  const live = await fetchJson<P>(puzzleUrl(mode));
+  const live = await fetchJson<P>(puzzleUrl(mode, region));
   if (live) {
     const data = await dataset;
     if (data) return { puzzle: live, data };
   }
+  // Local games are only generated from the verified data; the files in /data have no local puzzles.
+  if (region) return { puzzle: null, data: await dataset };
   const [puzzle, data] = await Promise.all([loadFilePuzzle<P>(mode), fetchJson<Dataset>("/data/dataset.json")]);
   return { puzzle, data: data! };
 }

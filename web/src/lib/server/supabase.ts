@@ -1,10 +1,11 @@
 import type { AnyPuzzle, PlayMode } from "@/lib/top10";
 import "server-only";
 import { fetchAll } from "./paged";
-import type { Company, Dataset, Puzzle, Round } from "@eunicorn/schema";
+import type { Company, Dataset, Program, Puzzle, Round } from "@eunicorn/schema";
 import { USD_TO_EUR } from "@/lib/format";
 import { generatePuzzle } from "./generate";
-import type { HLCompany } from "@/lib/higherLower";
+import { monthIndex, type HLCompany } from "@/lib/higherLower";
+import type { Region } from "@/lib/regions";
 import logoFiles from "./logos.generated.json";
 
 /**
@@ -115,12 +116,28 @@ export async function getDataset(): Promise<(Omit<Dataset, "rounds"> & { rounds:
     select<{ id: string; name: string; domain: string | null; tier?: 1 | 2 | 3 | 4 | null; logo?: string | null }>("investors?select=*&order=id"),
     select<{ id: string; name: string }>("people?select=id,name&order=id"),
   ]);
+  // Programs (Y Combinator, CDTM ...) in their own requests, not embedded in the companies query: until the
+  // programs migration is applied these fail, and the dataset must still load (without programs).
+  const [programRows, companyPrograms] = await Promise.all([
+    select<Program>("programs?select=id,name,kind,url&order=id"),
+    select<{ company_id: string; program_id: string; batch: string | null }>("company_programs?select=company_id,program_id,batch&order=company_id,program_id"),
+  ]);
+  const programById = new Map((programRows ?? []).map((p) => [p.id, p]));
+  const programsOf = new Map<string, NonNullable<Company["programs"]>>();
+  for (const r of companyPrograms ?? []) {
+    const p = programById.get(r.program_id);
+    if (!p) continue;
+    (programsOf.get(r.company_id) ?? programsOf.set(r.company_id, []).get(r.company_id)!).push({ programId: p.id, name: p.name, kind: p.kind, batch: r.batch ?? undefined });
+  }
   if (!companies?.length || !rounds || !investors || !people) return null;
 
   const raised = new Map((totals ?? []).map((t) => [t.company_id, t.total_raised_eur]));
   // The biggest single round per company, for Higher or Lower's "biggest round" days (web only).
   const biggest = new Map<string, number>();
   for (const r of rounds) biggest.set(r.company_id, Math.max(biggest.get(r.company_id) ?? 0, r.amount_eur ?? 0));
+  // And the month of the latest round, for the Local tab's "who raised more recently?".
+  const latest = new Map<string, number>();
+  for (const r of rounds) if (r.announced_month) latest.set(r.company_id, Math.max(latest.get(r.company_id) ?? 0, monthIndex(r.announced_month)));
   return {
     companies: companies.map(
       (c): HLCompany => ({
@@ -139,6 +156,8 @@ export async function getDataset(): Promise<(Omit<Dataset, "rounds"> & { rounds:
         totalRaisedUsd: eurAsUsd(raised.get(c.id)),
         lastValuationUsd: eurAsUsd(c.last_valuation_eur),
         biggestRoundUsd: biggest.get(c.id) ? eurAsUsd(biggest.get(c.id)) : undefined,
+        lastRoundMonth: latest.get(c.id),
+        programs: programsOf.get(c.id),
         employees: c.employees ?? undefined,
         careersUrl: c.careers_url ?? undefined,
         funFact: c.fun_fact ?? undefined,
@@ -167,6 +186,7 @@ export async function getDataset(): Promise<(Omit<Dataset, "rounds"> & { rounds:
     ),
     investors: investors.map((i) => ({ id: i.id, name: i.name, domain: i.domain ?? undefined, tier: i.tier ?? undefined, logo: i.logo ?? undefined })),
     people,
+    programs: (programRows ?? []).map((p) => ({ id: p.id, name: p.name, kind: p.kind, url: p.url ?? undefined })),
   };
 }
 
@@ -175,11 +195,12 @@ export async function getDataset(): Promise<(Omit<Dataset, "rounds"> & { rounds:
  * wins (RLS hides drafts and future days); without one, the puzzle is generated from the
  * verified data. null only when Supabase is unavailable or the data can't support the mode.
  */
-export async function getPuzzle(mode: PlayMode, date: string): Promise<AnyPuzzle | null> {
+export async function getPuzzle(mode: PlayMode, date: string, region?: Region): Promise<AnyPuzzle | null> {
   // Top 10 is web-only for now: the puzzles table's mode enum doesn't know it, so it's always generated.
-  if (mode === "top-10") {
+  // Local games (one region's startups) are always generated too: approved puzzles are the daily ones.
+  if (mode === "top-10" || region) {
     const data = await getDataset();
-    return data ? generatePuzzle(mode, date, data) : null;
+    return data ? generatePuzzle(mode, date, data, region) : null;
   }
   const rows = await select<{ payload: Puzzle }>(
     `puzzles?select=payload&mode=eq.${encodeURIComponent(mode)}&date=eq.${encodeURIComponent(date)}&limit=1`,
