@@ -123,3 +123,12 @@ Read this before verifying a company. Each rule came from a real problem in the 
 - **Antler:** a listing under "companies we've backed" or an Antler investment is not the residency. Only tag with a source that says residency or program (Peec AI, LangWatch). NetBird and NeoCarbon were left untagged for that reason.
 - **EWOR:** most of its startups are US/non-European or have no disclosed round; 7 European ones with a round so far.
 - **Counts with rounds:** YC 15, CDTM 20, EWOR 7, Antler 2. Antler and EWOR are below the 12 needed for a Top 10.
+
+### Programs, third pass (2026-11-07)
+- **New companies from program lists:** 13 created (YC: Finto, Zeit AI, Invertix, Mercura; CDTM: tanso, Emidat, remberg, IDnow, Marble, Furo, Outfittery, TeleClinic, AVI Medical), 3 excluded with a `note` (Foodora: no own round, now a Delivery Hero brand; Stylight: founded 2008; Sitefire: no round yet). Not created for lack of a published round with amount: Hey Telo, The Robot Learning Company, CoCrafter (YC); dryft (launched from San Francisco, founding place unclear) and Ark Climate (only round mixes in BMBF money with no split).
+- **Companies not on cdtm.com/startups can still be CDTM**, with an explicit statement elsewhere: Furo (its own funding post) and Marble (Startbase: the founders met at CDTM).
+- **YC company pages keep "Founded in 2024 by …" in `<meta name="description">`.** `check-quotes` now reads meta descriptions, so the YC page is a valid source for the founding year (Mercura).
+- **USD-as-EUR again:** Startbase and tech.eu wrote Zeit AI's $5M as €5M; the company's own press page and startupcentrum say $5M (€4.3M). Furo's own post says "4 Millionen Euro" while the press says $4M (kept USD).
+- **Venture-debt lenders show up as round investors** (Claret Capital at AVI Medical): leave them out of an equity round's investors.
+- **Merger of equals = acquired** when the company is now part of a new group (Outfittery into Lookiero Outfittery Group, 2025).
+- **Domains redirect after rebrands:** trymarble.ai → marblecognition.com. Use the target.

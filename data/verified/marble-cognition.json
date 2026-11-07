@@ -1,0 +1,104 @@
+{
+  "id": "marble-cognition",
+  "name": "Marble",
+  "aliases": [
+    "Marble Cognition"
+  ],
+  "domain": "marblecognition.com",
+  "country": "DE",
+  "city": "Munich",
+  "founded": 2025,
+  "sectors": [
+    "ai",
+    "saas"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Felix Rösner",
+    "Christophe Schmit"
+  ],
+  "difficulty": 5,
+  "programs": [
+    {
+      "id": "cdtm"
+    }
+  ],
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.startbase.de/news/marble-erhaelt-375-millionen-dollar/",
+      "quote": "Das Münchner Startup Marble Cognition hat in einer Pre-Seed-Finanzierungsrunde 3,75 Millionen US-Dollar eingesammelt."
+    },
+    {
+      "field": "founded",
+      "url": "https://www.startbase.de/news/marble-erhaelt-375-millionen-dollar/",
+      "quote": "Marble wurde Ende 2025 von Felix Rösner und Christophe Schmit gegründet."
+    },
+    {
+      "field": "founded",
+      "url": "https://www.munich-startup.de/news/marble-cognition-pre-seed-finanzierung",
+      "quote": "Erst Ende 2025 gegründet, kann sich das Münchner KI-Startup Marble Cognition"
+    },
+    {
+      "field": "founders",
+      "url": "https://www.startbase.de/news/marble-erhaelt-375-millionen-dollar/",
+      "quote": "Marble wurde Ende 2025 von Felix Rösner und Christophe Schmit gegründet."
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.startbase.de/news/marble-erhaelt-375-millionen-dollar/",
+      "quote": "Marble entwickelt KI-Agenten, die Arbeitsabläufe in Unternehmen zunächst beobachten und anschließend selbstständig übernehmen können."
+    },
+    {
+      "field": "status",
+      "url": "https://www.startbase.de/news/marble-erhaelt-375-millionen-dollar/",
+      "quote": "Das Münchner Startup Marble Cognition hat in einer Pre-Seed-Finanzierungsrunde 3,75 Millionen US-Dollar eingesammelt."
+    },
+    {
+      "field": "unicorn",
+      "url": "https://www.startbase.de/news/marble-erhaelt-375-millionen-dollar/",
+      "quote": "Das Münchner Startup Marble Cognition hat in einer Pre-Seed-Finanzierungsrunde 3,75 Millionen US-Dollar eingesammelt."
+    },
+    {
+      "field": "programs",
+      "url": "https://www.startbase.de/news/marble-erhaelt-375-millionen-dollar/",
+      "quote": "Kennengelernt haben sich die beiden am Center for Digital Technology and Management (CDTM)."
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "pre-seed",
+      "month": "2026-11",
+      "amountEur": 3343438,
+      "amountOriginal": 3750000,
+      "currency": "USD",
+      "investors": [
+        "Heartcore Capital",
+        "Seedcamp"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.startbase.de/news/marble-erhaelt-375-millionen-dollar/",
+          "quote": "Das Münchner Startup Marble Cognition hat in einer Pre-Seed-Finanzierungsrunde 3,75 Millionen US-Dollar eingesammelt."
+        },
+        {
+          "field": "stage",
+          "url": "https://www.startbase.de/news/marble-erhaelt-375-millionen-dollar/",
+          "quote": "Das Münchner Startup Marble Cognition hat in einer Pre-Seed-Finanzierungsrunde 3,75 Millionen US-Dollar eingesammelt."
+        },
+        {
+          "field": "month",
+          "url": "https://www.startbase.de/news/marble-erhaelt-375-millionen-dollar/",
+          "quote": "München, 02. November 2026"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.startbase.de/news/marble-erhaelt-375-millionen-dollar/",
+          "quote": "Angeführt wird die Runde von Heartcore Capital und Seedcamp."
+        }
+      ]
+    }
+  ]
+}
