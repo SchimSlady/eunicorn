@@ -1,6 +1,7 @@
 "use client";
 
 import { useId, useRef, useState } from "react";
+import { X } from "lucide-react";
 import type { Company } from "@eunicorn/schema";
 import { searchCompanies } from "@/lib/data";
 import { CompanyLogo } from "./CompanyLogo";
@@ -18,6 +19,7 @@ export function CompanySearch({
   onPick,
   tried,
   onTried,
+  onType,
   placeholder = "Type a company…",
   autoFocus = false,
 }: {
@@ -27,6 +29,8 @@ export function CompanySearch({
   /** Wrong guesses so far: id → a few words shown next to the greyed-out name. */
   tried?: Map<string, string>;
   onTried?: (c: Company) => void;
+  /** The player typed (e.g. to put away a toast about the last guess). */
+  onType?: () => void;
   placeholder?: string;
   autoFocus?: boolean;
 }) {
@@ -79,6 +83,7 @@ export function CompanySearch({
         value={query}
         onChange={(e) => {
           setQuery(e.target.value);
+          onType?.();
           setActive(0);
           setOpen(true);
           measure();
@@ -127,10 +132,17 @@ export function CompanySearch({
               onClick={() => pick(c)}
               className={`flex min-h-11 cursor-pointer items-center gap-3 px-4 py-2 ${i === active ? "bg-primary/10" : ""}`}
             >
-              <span className={note !== undefined ? "opacity-40 grayscale" : ""}>
-                <CompanyLogo company={c} size={28} />
+              <span className="relative shrink-0">
+                <span className={note !== undefined ? "block opacity-40 grayscale" : "block"}>
+                  <CompanyLogo company={c} size={28} />
+                </span>
+                {note !== undefined && (
+                  <span className="absolute -bottom-1 -right-1 flex h-4 w-4 items-center justify-center rounded-full bg-wrong text-white ring-2 ring-surface">
+                    <X size={10} strokeWidth={3.5} aria-hidden />
+                  </span>
+                )}
               </span>
-              <span className={`min-w-0 flex-1 truncate font-medium ${note !== undefined ? "text-muted line-through decoration-wrong/60" : ""}`}>{c.name}</span>
+              <span className={`min-w-0 flex-1 truncate font-medium ${note !== undefined ? "text-muted" : ""}`}>{c.name}</span>
               {note !== undefined && <span className="max-w-[55%] shrink-0 truncate text-xs text-muted">{note || "Tried"}</span>}
             </li>
             );

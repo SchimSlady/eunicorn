@@ -80,6 +80,7 @@
   --animate-nudge-b: nudge-b 0.45s ease-out;
   --animate-flip-in: flip-in 0.45s ease-out both;
   --animate-pop: pop 0.25s ease-out;
+  --animate-toast: toast 2.6s ease-out both;
 
   @keyframes shake {
     0%, 100% { transform: translateX(0); }
@@ -117,6 +118,13 @@
     0% { transform: scale(0.96); }
     60% { transform: scale(1.03); }
     100% { transform: scale(1); }
+  }
+  /* A wrong guess's toast: rises in, stays, fades out (MissToast). */
+  @keyframes toast {
+    0% { opacity: 0; transform: translateY(8px) scale(0.97); }
+    8% { opacity: 1; transform: translateY(0) scale(1); }
+    85% { opacity: 1; transform: translateY(0); }
+    100% { opacity: 0; transform: translateY(-4px); }
   }
 }
 

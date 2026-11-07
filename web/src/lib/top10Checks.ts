@@ -1,6 +1,6 @@
 import type { Company, Dataset } from "@eunicorn/schema";
 import { countryName, formatUsdAsEur, sectorLabel } from "./format";
-import { REGIONS, type Region } from "./regions";
+import { REGIONS } from "./regions";
 import type { Top10Check, Top10Round } from "./top10";
 
 /**
@@ -89,8 +89,8 @@ export function explainMiss(c: Company, round: Top10Round, data: Pick<Dataset, "
   const at = round.beyond?.findIndex((b) => b.id === c.id) ?? -1;
   if (at >= 0) {
     const value = round.beyond![at].value;
-    const what = round.values ? `biggest round ${formatUsdAsEur(value)}` : round.metric === "lastValuationUsd" ? `valued at ${formatUsdAsEur(value)}` : `raised ${formatUsdAsEur(value)}`;
-    return { icon: "rank", rank: 11 + at, text: `Fits the list, just ${what}` };
+    const what = round.values ? `a ${formatUsdAsEur(value)} round` : round.metric === "lastValuationUsd" ? `valued at ${formatUsdAsEur(value)}` : `raised ${formatUsdAsEur(value)}`;
+    return { icon: "rank", rank: 11 + at, text: `Fits, but only ${what}` };
   }
   if (!round.checks) return null;
   for (const k of round.checks) {
@@ -102,6 +102,6 @@ export function explainMiss(c: Company, round: Top10Round, data: Pick<Dataset, "
   // Fits every rule but isn't ranked: no figure for it, or further down than the ranks we send.
   const v = round.values ? undefined : c[round.metric];
   if (!round.values && (v == null || v <= 0)) return { icon: "money", text: `We have no ${metricWord} figure for it` };
-  if (v != null) return { icon: "rank", text: `Fits the list, but ${round.metric === "lastValuationUsd" ? "valued at" : "raised"} only ${formatUsdAsEur(v)}` };
-  return { icon: "rank", text: "Fits the list, but its round was smaller" };
+  if (v != null) return { icon: "rank", text: `Fits, but only ${round.metric === "lastValuationUsd" ? "valued at" : "raised"} ${formatUsdAsEur(v)}` };
+  return { icon: "rank", text: "Fits, but its round was smaller" };
 }
