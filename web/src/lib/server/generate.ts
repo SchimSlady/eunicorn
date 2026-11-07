@@ -282,7 +282,7 @@ function top10(base: Base, date: string, companies: Company[], rng: Rng): Top10P
   const day = puzzleNumber(date) - 1;
   const variants: Partial<Record<Difficulty, Top10Round>> = {};
   for (const level of DIFFICULTIES) {
-    const pool = TOP10_QUESTIONS.filter((q) => LEVEL_RANK[q.level] <= LEVEL_RANK[level]);
+    const pool = TOP10_QUESTIONS.filter((q) => LEVEL_RANK[q.level] <= LEVEL_RANK[level] && (!q.from || date >= q.from));
     const order = questionOrder(pool, level, Math.floor(day / pool.length));
     for (let i = 0; i < order.length; i++) {
       const round = top10Round(order[(day + i) % order.length], companies, rng, date >= TOP10_PRIVATE_VALUATIONS_FROM, [{ kind: "european" }]);
@@ -808,6 +808,25 @@ function higherLower(base: Base, date: string, companies: Company[], rng: Rng, t
 
 /* ---------- Impostor ---------- */
 
+/** Impostor's exit categories (acquired, listed, went bust) start here; earlier days keep their puzzle. */
+const IMPOSTOR_EXITS_FROM = "2026-11-08";
+
+/** How a company's story ended, for an Impostor explanation: "was bought by SAP in 2026". */
+function fate(c: Company): string {
+  const year = c.exit?.month.slice(0, 4);
+  const when = year ? ` in ${year}` : "";
+  switch (c.status) {
+    case "acquired":
+      return c.exit?.acquirer ? `was bought by ${c.exit.acquirer}${when}` : `was bought by another company${when}`;
+    case "public":
+      return `went public${when}`;
+    case "defunct":
+      return `went bust${when}`;
+    default:
+      return "is still an independent private company";
+  }
+}
+
 interface Group {
   members: (c: Company) => boolean;
   /** What the group has in common, short, as the prompt opens: "Based in Paris". */
@@ -887,6 +906,27 @@ function impostor(base: Base, companies: Company[], rng: Rng, local = false): (I
     prompt: "Unicorns",
     shared: "have been valued at €1bn or more",
     odd: () => "has never been valued at €1bn or more",
+  });
+  // How the story ended (Company.exit, set for acquired, listed and failed companies), from
+  // IMPOSTOR_EXITS_FROM on; earlier days keep their puzzle. The generator only picks a group when
+  // the day's tier has enough members, so a thin one simply waits.
+  if (base.date >= IMPOSTOR_EXITS_FROM) groups.push({
+    members: (c) => c.status === "acquired",
+    prompt: "Bought by another company",
+    shared: "were bought by another company",
+    odd: fate,
+  });
+  if (base.date >= IMPOSTOR_EXITS_FROM) groups.push({
+    members: (c) => c.status === "public",
+    prompt: "Listed on a stock exchange",
+    shared: "went public",
+    odd: fate,
+  });
+  if (base.date >= IMPOSTOR_EXITS_FROM) groups.push({
+    members: (c) => c.status === "defunct",
+    prompt: "Went bust",
+    shared: "went bust or shut down",
+    odd: fate,
   });
   for (const year of [2012, 2015, 2019]) {
     groups.push({
