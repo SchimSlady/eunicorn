@@ -14,6 +14,7 @@ import { CompanyLogo } from "@/components/CompanyLogo";
 import { Flag } from "@/components/Flag";
 import { CompanySearch } from "@/components/CompanySearch";
 import { BuiltInEuropeCard } from "@/components/BuiltInEuropeCard";
+import { CompanyTap, OverviewProvider } from "@/components/CompanyOverview";
 import { GameIntro } from "@/components/GameIntro";
 import { GameHeader } from "@/components/GameHeader";
 import { Announce, GameSkeleton, NoPuzzle } from "@/components/Announce";
@@ -170,6 +171,7 @@ export function Top10Game({ region }: { region?: Region } = {}) {
   const topFounders = top.founderIds.map((id) => data.people.find((p) => p.id === id)?.name).filter((n): n is string => !!n);
 
   return (
+    <OverviewProvider data={data}>
     <div className="space-y-3">
       <GameHeader title={TITLE} subtitle={subtitle} back={back} mode={MODE} difficulty={progress.difficulty} />
       <Announce
@@ -207,13 +209,13 @@ export function Top10Game({ region }: { region?: Region } = {}) {
             >
               <span className="w-6 text-right font-display text-base font-bold text-primary">{i + 1}</span>
               {shown ? (
-                <>
+                <CompanyTap company={c} active={done} className="flex h-full min-w-0 flex-1 items-center gap-2.5">
                   <CompanyLogo company={c} size={24} />
                   <span className="min-w-0 flex-1 truncate font-semibold">{c.name}</span>
                   <span className="shrink-0 text-sm tabular-nums text-muted">
                     {round.values?.[id] != null ? formatUsdAsEur(round.values[id]) : formatMetric(c, round.metric)}
                   </span>
-                </>
+                </CompanyTap>
               ) : (
                 // Every empty slot shows its country's flag, like Football 11: on a Europe list it narrows things
                 // down, on a Germany or Sweden list every flag is the same and the clue is gone.
@@ -289,5 +291,6 @@ export function Top10Game({ region }: { region?: Region } = {}) {
         </div>
       )}
     </div>
+    </OverviewProvider>
   );
 }

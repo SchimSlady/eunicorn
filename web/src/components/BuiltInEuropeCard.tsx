@@ -1,5 +1,6 @@
 import type { Company } from "@eunicorn/schema";
 import { CompanyLogo } from "./CompanyLogo";
+import { CompanyTap } from "./CompanyOverview";
 import { Flag } from "./Flag";
 
 /**
@@ -29,15 +30,16 @@ export function BuiltInEuropeCard({ company, founders, reason }: { company: Comp
       <p className="text-sm font-semibold text-eu-yellow">
         Built in Europe{reason && <span className="font-normal text-white/70"> · {reason}</span>}
       </p>
-      <div className="mt-3 flex items-center gap-3">
+      {/* Shown only after the game, so tapping it opens the company overview (inside an OverviewProvider). */}
+      <CompanyTap company={company} active className="mt-3 flex w-full items-center gap-3 rounded-xl">
         <CompanyLogo company={company} size={48} />
-        <div>
-          <p className="font-display text-xl font-bold">{company.name}</p>
-          <p className="flex items-center gap-1.5 text-sm text-white/80">
+        <span className="block">
+          <span className="block font-display text-xl font-bold">{company.name}</span>
+          <span className="flex items-center gap-1.5 text-sm text-white/80">
             <Flag country={company.country} size={14} /> {company.city} · founded {company.founded}
-          </p>
-        </div>
-      </div>
+          </span>
+        </span>
+      </CompanyTap>
       {founders.length > 0 && <p className="mt-3 text-sm text-white/80">Founded by {founders.join(", ")}</p>}
       {programLine(company) && <p className="mt-3 text-sm text-white/80">{programLine(company)}</p>}
       {company.funFact && <p className="mt-3 text-sm">{company.funFact}</p>}

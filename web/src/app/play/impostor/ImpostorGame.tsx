@@ -9,6 +9,7 @@ import { saveDifficulty, type Difficulty } from "@/lib/difficulty";
 import { shareText as buildShareText } from "@/lib/scoring";
 import { CompanyLogo } from "@/components/CompanyLogo";
 import { BuiltInEuropeCard } from "@/components/BuiltInEuropeCard";
+import { CompanyTap, OverviewProvider } from "@/components/CompanyOverview";
 import { GameIntro } from "@/components/GameIntro";
 import { Flag } from "@/components/Flag";
 import { GameHeader } from "@/components/GameHeader";
@@ -151,6 +152,7 @@ export function ImpostorGame({ region }: { region?: Region } = {}) {
   }
 
   return (
+    <OverviewProvider data={data}>
     <div className="space-y-6">
       <GameHeader title={TITLE} subtitle={subtitle} back={back} mode={MODE} difficulty={progress.difficulty} />
       <Announce
@@ -189,12 +191,44 @@ export function ImpostorGame({ region }: { region?: Region } = {}) {
             const a = -Math.PI / 2 + (i * 2 * Math.PI) / play.companyIds.length;
             const many = play.companyIds.length > 6;
             const r = many ? 40 : 37;
+            const face = (
+              <>
+              <span className={`relative rounded-[22%] ring-[3px] transition ${ring}`}>
+                <CompanyLogo company={c} size={many ? 46 : 60} />
+                {(done || picked) && (
+                  <span
+                    className={`absolute -right-2 -top-2 flex h-6 w-6 items-center justify-center rounded-full ${
+                      state === "wrong" ? "bg-wrong" : state === "genuine" ? "bg-border" : "bg-correct"
+                    } text-white`}
+                  >
+                    {(state === "found" || state === "impostor") && <VenetianMask size={14} aria-hidden />}
+                    {state === "wrong" && <X size={14} aria-hidden />}
+                    {state === "genuine" && <Check size={14} aria-hidden />}
+                  </span>
+                )}
+              </span>
+              <span className="line-clamp-2 text-xs font-semibold leading-tight">
+                {c.name}
+              </span>
+              {done && (
+                <span className="flex items-center gap-1 text-[10px] text-muted">
+                  <Flag country={c.country} size={10} /> {c.city}
+                </span>
+              )}
+              </>
+            );
             return (
               <li
                 key={id}
                 className={`absolute -translate-x-1/2 -translate-y-1/2 ${many ? "w-[22%]" : "w-[30%]"}`}
                 style={{ left: `${50 + r * Math.cos(a)}%`, top: `${50 + r * Math.sin(a)}%` }}
               >
+                {done ? (
+                  // Game over: each tile opens the company overview instead.
+                  <CompanyTap company={c} active className="group flex w-full flex-col items-center gap-1 text-center">
+                  {face}
+                  </CompanyTap>
+                ) : (
                 <button
                   type="button"
                   disabled={done || picked}
@@ -206,29 +240,9 @@ export function ImpostorGame({ region }: { region?: Region } = {}) {
                   aria-label={`${c.name}${state === "found" || state === "impostor" ? ", an impostor" : state === "wrong" ? ", not an impostor" : ""}`}
                   className={`group flex w-full flex-col items-center gap-1 text-center ${state === "wrong" ? nudgeClass(wrongShake, { ring: false }) : ""}`}
                 >
-                  <span className={`relative rounded-[22%] ring-[3px] transition ${ring}`}>
-                    <CompanyLogo company={c} size={many ? 46 : 60} />
-                    {(done || picked) && (
-                      <span
-                        className={`absolute -right-2 -top-2 flex h-6 w-6 items-center justify-center rounded-full ${
-                          state === "wrong" ? "bg-wrong" : state === "genuine" ? "bg-border" : "bg-correct"
-                        } text-white`}
-                      >
-                        {(state === "found" || state === "impostor") && <VenetianMask size={14} aria-hidden />}
-                        {state === "wrong" && <X size={14} aria-hidden />}
-                        {state === "genuine" && <Check size={14} aria-hidden />}
-                      </span>
-                    )}
-                  </span>
-                  <span className="line-clamp-2 text-xs font-semibold leading-tight">
-                    {c.name}
-                  </span>
-                  {done && (
-                    <span className="flex items-center gap-1 text-[10px] text-muted">
-                      <Flag country={c.country} size={10} /> {c.city}
-                    </span>
-                  )}
+                  {face}
                 </button>
+                )}
               </li>
             );
           })}
@@ -271,5 +285,6 @@ export function ImpostorGame({ region }: { region?: Region } = {}) {
         </div>
       )}
     </div>
+    </OverviewProvider>
   );
 }
