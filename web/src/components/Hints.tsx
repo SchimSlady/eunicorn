@@ -115,7 +115,8 @@ export function Hints({
               className="flex min-h-12 w-full items-center justify-center gap-2 rounded-full bg-primary px-4 font-semibold text-on-primary transition active:scale-[0.98]"
             >
               <Lightbulb size={18} aria-hidden />
-              {total ? `Reveal hint ${revealed.length + 1} of ${total}` : "Reveal a hint"}
+              {/* "Reveal a hint · 2 left" rather than "hint 2 of 3", which read like the hint just shown. */}
+              {total ? `Reveal a hint · ${total - revealed.length} left` : "Reveal a hint"}
             </button>
           ) : (
             revealed.length > 0 && <p className="text-center text-sm text-muted">That&apos;s every hint for this level.</p>

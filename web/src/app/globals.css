@@ -81,6 +81,8 @@
   --animate-flip-in: flip-in 0.45s ease-out both;
   --animate-pop: pop 0.25s ease-out;
   --animate-toast: toast 2.6s ease-out both;
+  --animate-hl-to-prev: hl-to-prev 0.5s cubic-bezier(0.22, 1, 0.36, 1) both;
+  --animate-hl-next-in: hl-next-in 0.5s 0.12s cubic-bezier(0.22, 1, 0.36, 1) both;
 
   @keyframes shake {
     0%, 100% { transform: translateX(0); }
@@ -118,6 +120,17 @@
     0% { transform: scale(0.96); }
     60% { transform: scale(1.03); }
     100% { transform: scale(1); }
+  }
+  /* Higher or Lower moving on: the revealed company slides from the "next" place into the "previous"
+     one (--hl-from-x / --hl-from-y: below on a phone, to the right side by side), changing colour on
+     the way; the new company follows in from the same side. */
+  @keyframes hl-to-prev {
+    from { transform: translate(var(--hl-from-x), var(--hl-from-y)); background-color: #00205e; }
+    to { transform: translate(0, 0); }
+  }
+  @keyframes hl-next-in {
+    from { transform: translate(calc(var(--hl-from-x) * 0.6), calc(var(--hl-from-y) * 0.6)); opacity: 0; }
+    to { transform: translate(0, 0); opacity: 1; }
   }
   /* A wrong guess's toast: rises in, stays, fades out (MissToast). */
   @keyframes toast {

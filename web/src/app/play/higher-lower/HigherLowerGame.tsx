@@ -24,7 +24,9 @@ import { REGIONS, slotOf, type Region } from "@/lib/regions";
 const MODE = "higher-lower";
 const TITLE = "Higher or Lower";
 /** How long a right call stays on screen before the next company comes up. */
-const AUTO_NEXT_MS = 1300;
+const AUTO_NEXT_MS = 1800;
+/** The slide into place (hl-to-prev / hl-next-in in globals.css, 0.5 s plus the next one's delay). */
+const SLIDE_MS = 700;
 
 /**
  * A level changes which companies are in the chain (well known on Easy, insiders on Hard) and
@@ -133,12 +135,21 @@ export function HigherLowerGame({ region }: { region?: Region } = {}) {
   const [progress, setProgress] = useState<Progress | null>(null);
   // After answering, the round stays on screen with both numbers until "Next".
   const [reviewing, setReviewing] = useState(false);
+  // Moving on after a right call: the company just revealed slides into the "previous" place (up on a
+  // phone, left side by side) and the next one comes in behind it, instead of the board just swapping.
+  const [sliding, setSliding] = useState(false);
+  const moveOn = () => {
+    setSliding(true);
+    setReviewing(false);
+    // Off again once the slide is over (a timer rather than animationend, which a hidden tab never fires).
+    setTimeout(() => setSliding(false), SLIDE_MS);
+  };
 
   useEffect(() => {
     loadGame<Puzzle>(MODE, region).then(({ puzzle: p, data: d }) => {
       setData(d);
       setPuzzle(p);
-      if (p) setProgress(loadProgress<Progress>(slot, p.date));
+      if (p) setProgress(loadProgress<Progress>(slot, p.date, p));
     });
   }, [region, slot]);
 
@@ -180,7 +191,7 @@ export function HigherLowerGame({ region }: { region?: Region } = {}) {
   }, [puzzle, progress, reviewing, companies, lastAnswer]);
   useEffect(() => {
     if (!lastRight) return;
-    const t = setTimeout(() => setReviewing(false), AUTO_NEXT_MS);
+    const t = setTimeout(moveOn, AUTO_NEXT_MS);
     return () => clearTimeout(t);
   }, [lastRight, lastAnswer]);
 
@@ -291,13 +302,20 @@ export function HigherLowerGame({ region }: { region?: Region } = {}) {
       </div>
 
       {/* Two panels: side by side on wide screens, top and bottom on phones, VS in the middle. */}
-      <div key={`${round.previous}-${round.next}`} className="grid overflow-hidden rounded-3xl text-white md:grid-cols-2">
-        <Panel company={prev} tone="bg-eu-blue" phone="pb-7 pt-4">
+      <div
+        key={`${round.previous}-${round.next}`}
+        className="grid overflow-hidden rounded-3xl text-white [--hl-from-x:0%] [--hl-from-y:100%] md:grid-cols-2 md:[--hl-from-x:100%] md:[--hl-from-y:0%]"
+      >
+        <Panel
+          company={prev}
+          tone={`bg-eu-blue ${sliding && !reviewing ? "relative z-10 animate-hl-to-prev" : ""}`}
+          phone="pb-7 pt-4"
+        >
           <span className="text-sm text-white/70">{phrase.has}</span>
           <span className="font-display text-3xl font-bold text-eu-yellow sm:text-5xl">{formatMetric(prev, play.metric)}</span>
         </Panel>
 
-        <Panel company={next} tone="relative bg-[#00205e]" phone="pb-4 pt-7">
+        <Panel company={next} tone={`relative bg-[#00205e] ${sliding && !reviewing ? "animate-hl-next-in" : ""}`} phone="pb-4 pt-7">
           {/* On the boundary between the panels: top edge on phones, left edge side by side. */}
           <span className="absolute left-1/2 top-0 z-10 flex h-11 w-11 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full bg-white font-display text-base font-bold text-eu-blue shadow-lg md:left-0 md:top-1/2 md:h-14 md:w-14 md:text-lg">
             VS
@@ -321,7 +339,7 @@ export function HigherLowerGame({ region }: { region?: Region } = {}) {
               <button
                 type="button"
                 autoFocus
-                onClick={() => setReviewing(false)}
+                onClick={() => (done ? setReviewing(false) : moveOn())}
                 className="mt-2 w-full max-w-56 rounded-full bg-primary px-4 py-2.5 font-semibold text-on-primary transition active:scale-[0.98]"
               >
                 {done ? "See result" : "Next company"}
@@ -358,7 +376,9 @@ function Panel({ company, tone, phone, children }: { company: Company; tone: str
   // Side by side, both panels are laid out from the top on the same grid (the name always has room for two
   // lines), so logo, name, city and value line up across them. On a phone each is centred as before.
   return (
-    <div className={`flex flex-col items-center justify-center gap-1 px-4 text-center md:min-h-96 md:justify-start md:gap-1.5 md:px-12 md:pb-8 md:pt-14 ${phone} ${tone}`}>
+    <div
+      className={`flex flex-col items-center justify-center gap-1 px-4 text-center md:min-h-96 md:justify-start md:gap-1.5 md:px-12 md:pb-8 md:pt-14 ${phone} ${tone}`}
+    >
       <CompanyLogo company={company} size={52} />
       <span className={`mt-1 font-display font-bold leading-tight md:mt-2 md:flex md:min-h-[4.5rem] md:items-center md:justify-center ${company.name.length > 16 ? "text-xl sm:text-2xl" : "text-2xl sm:text-3xl"}`}>
         {company.name}
