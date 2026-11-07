@@ -1,0 +1,125 @@
+{
+  "id": "noxtua",
+  "name": "Noxtua",
+  "aliases": [
+    "Xayn",
+    "Xayn AG",
+    "Noxtua SE"
+  ],
+  "domain": "noxtua.com",
+  "country": "DE",
+  "city": "Berlin",
+  "founded": 2017,
+  "sectors": [
+    "ai"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Leif-Nissen Lundbæk"
+  ],
+  "difficulty": 5,
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.noxtua.com/news/press-releases/series-b-noxtua-raises-80-million-euro",
+      "quote": "Berlin-based Legal-Tech startup Xayn (soon to be Noxtua SE) , developer of Europe's first sovereign Legal AI Noxtua, has completed its Series B investment round of approximately € 80.7 million"
+    },
+    {
+      "field": "founded",
+      "url": "https://www.noxtua.com/news/press-releases/series-b-noxtua-raises-80-million-euro",
+      "quote": "Emerging from a 2017 research project by Dr. Leif-Nissen Lundbæk and Professor Dr. Michael Huth at Oxford University and Imperial College London"
+    },
+    {
+      "field": "founders",
+      "url": "https://www.noxtua.com/news/press-releases/series-b-noxtua-raises-80-million-euro",
+      "quote": "Dr Leif-Nissen Lundbæk, CEO & Co-Founder Xayn/Noxtua"
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.noxtua.com/news/press-releases/series-b-noxtua-raises-80-million-euro",
+      "quote": "Berlin-based Legal-Tech startup Xayn (soon to be Noxtua SE) , developer of Europe's first sovereign Legal AI Noxtua, has completed its Series B investment round of approximately € 80.7 million"
+    },
+    {
+      "field": "status",
+      "url": "https://www.noxtua.com/news/press-releases/series-b-noxtua-raises-80-million-euro",
+      "quote": "Berlin-based Legal-Tech startup Xayn (soon to be Noxtua SE) , developer of Europe's first sovereign Legal AI Noxtua, has completed its Series B investment round of approximately € 80.7 million"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://www.noxtua.com/news/press-releases/series-b-noxtua-raises-80-million-euro",
+      "quote": "Berlin-based Legal-Tech startup Xayn (soon to be Noxtua SE) , developer of Europe's first sovereign Legal AI Noxtua, has completed its Series B investment round of approximately € 80.7 million"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-a",
+      "month": "2021-08",
+      "amountEur": 10000000,
+      "amountOriginal": 10000000.0,
+      "currency": "EUR",
+      "investors": [
+        "Global Brain",
+        "KDDI",
+        "Earlybird"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.startbase.com/news/zehn-millionen-euro-und-drei-neuzugaenge-in-der-fuehrungsetage-fuer-xayn/",
+          "quote": "financing round of ten million euros"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2021/08/09/privacy-oriented-search-app-xayn-raises-12m-from-japanese-backers-to-go-into-devices/",
+          "quote": "Xayn has now raised almost $12 million in Series A funding led by the Japanese investors Global Brain and KDDI (a Japanese telecommunications operator), with participation from previous backers, including the Earlybird VC in Berlin."
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2021/08/09/privacy-focused-search-and-discovery-browser-xayn-raises-12-million/",
+          "quote": "09 August 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2021/08/09/privacy-oriented-search-app-xayn-raises-12m-from-japanese-backers-to-go-into-devices/",
+          "quote": "Xayn has now raised almost $12 million in Series A funding led by the Japanese investors Global Brain and KDDI (a Japanese telecommunications operator), with participation from previous backers, including the Earlybird VC in Berlin."
+        }
+      ]
+    },
+    {
+      "stage": "series-b",
+      "month": "2025-04",
+      "amountEur": 80700000,
+      "amountOriginal": 80700000.0,
+      "currency": "EUR",
+      "investors": [
+        "C.H.Beck",
+        "Northern Data",
+        "CMS",
+        "Dentons"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.noxtua.com/news/press-releases/series-b-noxtua-raises-80-million-euro",
+          "quote": "Berlin-based Legal-Tech startup Xayn (soon to be Noxtua SE) , developer of Europe's first sovereign Legal AI Noxtua, has completed its Series B investment round of approximately € 80.7 million"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.noxtua.com/news/press-releases/series-b-noxtua-raises-80-million-euro",
+          "quote": "Berlin-based Legal-Tech startup Xayn (soon to be Noxtua SE) , developer of Europe's first sovereign Legal AI Noxtua, has completed its Series B investment round of approximately € 80.7 million"
+        },
+        {
+          "field": "month",
+          "url": "https://www.noxtua.com/news/press-releases/series-b-noxtua-raises-80-million-euro",
+          "quote": "BERLIN/MUNICH, April 23, 2025"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.noxtua.com/news/press-releases/series-b-noxtua-raises-80-million-euro",
+          "quote": "Additional new investors on board include High-Performance Computing (HPC) specialist Northern Data , Germany’s largest business law firm CMS"
+        }
+      ]
+    }
+  ]
+}

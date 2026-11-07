@@ -1,0 +1,55 @@
+{
+  "id": "eleqtron",
+  "name": "eleQtron",
+  "aliases": [
+    "eleQtron GmbH"
+  ],
+  "domain": "eleqtron.com",
+  "country": "DE",
+  "city": "Siegen",
+  "founded": 2020,
+  "sectors": [
+    "quantum"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Michael Johanning",
+    "Christof Wunderlich",
+    "Jan Leisse"
+  ],
+  "difficulty": 5,
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://thenextweb.com/news/eleqtron-closes-e57m-series-a-one-of-europes-largest-quantum-computing-rounds",
+      "quote": "Founded in 2020 in Siegen by Michael Johanning, Christof Wunderlich, and Jan Leisse"
+    },
+    {
+      "field": "founded",
+      "url": "https://thenextweb.com/news/eleqtron-closes-e57m-series-a-one-of-europes-largest-quantum-computing-rounds",
+      "quote": "Founded in 2020 in Siegen by Michael Johanning, Christof Wunderlich, and Jan Leisse"
+    },
+    {
+      "field": "founders",
+      "url": "https://thenextweb.com/news/eleqtron-closes-e57m-series-a-one-of-europes-largest-quantum-computing-rounds",
+      "quote": "Founded in 2020 in Siegen by Michael Johanning, Christof Wunderlich, and Jan Leisse"
+    },
+    {
+      "field": "sectors",
+      "url": "https://thenextweb.com/news/eleqtron-closes-e57m-series-a-one-of-europes-largest-quantum-computing-rounds",
+      "quote": "the German trapped-ion quantum-computing scale-up eleQtron announced that it has closed a €57m Series A round"
+    },
+    {
+      "field": "status",
+      "url": "https://thenextweb.com/news/eleqtron-closes-e57m-series-a-one-of-europes-largest-quantum-computing-rounds",
+      "quote": "the German trapped-ion quantum-computing scale-up eleQtron announced that it has closed a €57m Series A round"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://thenextweb.com/news/eleqtron-closes-e57m-series-a-one-of-europes-largest-quantum-computing-rounds",
+      "quote": "the German trapped-ion quantum-computing scale-up eleQtron announced that it has closed a €57m Series A round"
+    }
+  ],
+  "rounds": []
+}

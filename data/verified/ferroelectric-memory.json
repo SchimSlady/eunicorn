@@ -1,0 +1,159 @@
+{
+  "id": "ferroelectric-memory",
+  "name": "Ferroelectric Memory Company",
+  "aliases": [
+    "FMC",
+    "Ferroelectric Memory GmbH"
+  ],
+  "domain": "ferroelectric-memory.com",
+  "country": "DE",
+  "city": "Dresden",
+  "founded": 2016,
+  "sectors": [
+    "semiconductors"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Stefan Müller"
+  ],
+  "difficulty": 5,
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://bebeez.eu/2025/11/14/fmc-raises-e100m-for-its-hafnium-oxide-based-memory-chips/",
+      "quote": "Founded in 2016, Dresden-based FMC develops non-volatile memory technology based on thin-film material hafnium oxide."
+    },
+    {
+      "field": "founded",
+      "url": "https://heise.de/-11151026",
+      "quote": "FMC, founded in Dresden in 2016, develops ferroelectric memory chips."
+    },
+    {
+      "field": "sectors",
+      "url": "https://bebeez.eu/2025/11/14/fmc-raises-e100m-for-its-hafnium-oxide-based-memory-chips/",
+      "quote": "Founded in 2016, Dresden-based FMC develops non-volatile memory technology based on thin-film material hafnium oxide."
+    },
+    {
+      "field": "status",
+      "url": "https://bebeez.eu/2025/11/14/fmc-raises-e100m-for-its-hafnium-oxide-based-memory-chips/",
+      "quote": "Of the total raised, €77 million ($89m) resulted from the company’s oversubscribed Series C funding round"
+    },
+    {
+      "field": "founders",
+      "url": "https://scientistfounders.substack.com/p/an-interview-with-stefan-muller-scientist",
+      "quote": "We incorporated The Ferroelectric Memory Company in 2016 in Dresden"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-a",
+      "month": "2018-07",
+      "amountEur": 4600000,
+      "amountOriginal": 4600000.0,
+      "currency": "EUR",
+      "investors": [
+        "eCAPITAL",
+        "High-Tech Gründerfonds"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.electronicspecifier.com/news/analysis/fmc-receives-growth-financing-from-ecapital-and-htgf/",
+          "quote": "Ferroelectric Memory Company (FMC) has announced the successful closing of a €4.6m growth financing led by eCAPITAL entrepreneurial Partners AG under participation of High-Tech Gründerfonds."
+        },
+        {
+          "field": "month",
+          "url": "https://www.electronicspecifier.com/news/analysis/fmc-receives-growth-financing-from-ecapital-and-htgf/",
+          "quote": "Analysis 5 July 2018 by News Desk"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.electronicspecifier.com/news/analysis/fmc-receives-growth-financing-from-ecapital-and-htgf/",
+          "quote": "Ferroelectric Memory Company (FMC) has announced the successful closing of a €4.6m growth financing led by eCAPITAL entrepreneurial Partners AG under participation of High-Tech Gründerfonds."
+        },
+        {
+          "field": "investors",
+          "url": "https://www.electronicspecifier.com/news/analysis/fmc-receives-growth-financing-from-ecapital-and-htgf/",
+          "quote": "Ferroelectric Memory Company (FMC) has announced the successful closing of a €4.6m growth financing led by eCAPITAL entrepreneurial Partners AG under participation of High-Tech Gründerfonds."
+        }
+      ]
+    },
+    {
+      "stage": "series-b",
+      "month": "2020-11",
+      "amountEur": 16903313,
+      "amountOriginal": 20000000.0,
+      "currency": "USD",
+      "investors": [
+        "M Ventures",
+        "imec.xpand",
+        "SK Hynix",
+        "Robert Bosch Venture Capital",
+        "TEL Venture Capital",
+        "eCAPITAL"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.eenewseurope.com/en/ferroelectric-memory-company-raises-20m/",
+          "quote": "Ferroelectric Memory Company raises $20m"
+        },
+        {
+          "field": "month",
+          "url": "https://www.eenewseurope.com/en/ferroelectric-memory-company-raises-20m/",
+          "quote": "November 19, 2020"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.eenewseurope.com/en/ferroelectric-memory-company-raises-20m/",
+          "quote": "The Series B investment in Dresden-based Ferroelectric Memory was led by MVentures and imec.xpand, along with Korean memory maker SK Hynix, Robert Bosch Venture Capital, and TEL Venture Capital."
+        },
+        {
+          "field": "investors",
+          "url": "https://www.eenewseurope.com/en/ferroelectric-memory-company-raises-20m/",
+          "quote": "The Series B investment in Dresden-based Ferroelectric Memory was led by MVentures and imec.xpand, along with Korean memory maker SK Hynix, Robert Bosch Venture Capital, and TEL Venture Capital. Existing investor eCapital also participated in this round"
+        }
+      ]
+    },
+    {
+      "stage": "series-c",
+      "month": "2025-11",
+      "amountEur": 77000000,
+      "amountOriginal": 77000000.0,
+      "currency": "EUR",
+      "investors": [
+        "HV Capital",
+        "DeepTech & Climate Fonds",
+        "Vsquared Ventures",
+        "eCAPITAL",
+        "Bosch Ventures",
+        "Air Liquide Venture Capital",
+        "M Ventures",
+        "Verve Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://bebeez.eu/2025/11/14/fmc-raises-e100m-for-its-hafnium-oxide-based-memory-chips/",
+          "quote": "Of the total raised, €77 million ($89m) resulted from the company’s oversubscribed Series C funding round, with an additional €23 million ($27m) secured through public funding, including the European Innovation Council (EIC)."
+        },
+        {
+          "field": "month",
+          "url": "https://www.htgf.de/fmc-finanzierungsrunde/",
+          "quote": "13. November 2025"
+        },
+        {
+          "field": "stage",
+          "url": "https://bebeez.eu/2025/11/14/fmc-raises-e100m-for-its-hafnium-oxide-based-memory-chips/",
+          "quote": "Of the total raised, €77 million ($89m) resulted from the company’s oversubscribed Series C funding round, with an additional €23 million ($27m) secured through public funding, including the European Innovation Council (EIC)."
+        },
+        {
+          "field": "investors",
+          "url": "https://bebeez.eu/2025/11/14/fmc-raises-e100m-for-its-hafnium-oxide-based-memory-chips/",
+          "quote": "The Series C round was led by HV Capital and the DeepTech & Climate Fonds (DTCF), along with Vsquared Ventures. Returning investors include eCAPITAL, Bosch Ventures, Air Liquide Venture Capital, M Ventures (Merck), and Verve Ventures."
+        }
+      ]
+    }
+  ]
+}

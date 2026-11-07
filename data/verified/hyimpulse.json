@@ -1,0 +1,124 @@
+{
+  "id": "hyimpulse",
+  "name": "HyImpulse",
+  "aliases": [
+    "HyImpulse Technologies"
+  ],
+  "domain": "hyimpulse.de",
+  "country": "DE",
+  "city": "Neuenstadt am Kocher",
+  "founded": 2018,
+  "sectors": [
+    "space"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Christian Schmierer"
+  ],
+  "difficulty": 4,
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://de.wikipedia.org/wiki/HyImpulse",
+      "quote": "HyImpulse Technologies GmbH Logo Rechtsform GmbH Gründung 2018 Sitz Neuenstadt am Kocher"
+    },
+    {
+      "field": "founded",
+      "url": "https://www.satellitetoday.com/finance/2025/10/17/hyimpulse-secures-further-funding-ahead-of-key-2026-launches/",
+      "quote": "The company was formed in 2018."
+    },
+    {
+      "field": "founders",
+      "url": "https://www.startbase.com/news/hyimpulse-sichert-sich-ueber-50-millionen-euro-fuer-europaeische-raketenstarts/",
+      "quote": "Dr. Christian Schmierer, CEO and Co-Founder of HyImpulse"
+    },
+    {
+      "field": "sectors",
+      "url": "https://tech.eu/2026/09/02/hyimpulse-secures-eur50m-to-scale-suborbital-and-orbital-launch-services/",
+      "quote": "HyImpulse develops launch services based on its proprietary hybrid propulsion technology"
+    },
+    {
+      "field": "status",
+      "url": "https://www.startbase.com/news/hyimpulse-sichert-sich-ueber-50-millionen-euro-fuer-europaeische-raketenstarts/",
+      "quote": "The German space tech company HyImpulse Technologies has raised more than 50 million euros in equity as part of its Series A funding round."
+    },
+    {
+      "field": "unicorn",
+      "url": "https://www.startbase.com/news/hyimpulse-sichert-sich-ueber-50-millionen-euro-fuer-europaeische-raketenstarts/",
+      "quote": "According to the company, HyImpulse has now raised a total of more than 125 million euros in equity and public funding."
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-a",
+      "month": "2025-10",
+      "amountEur": 15000000,
+      "amountOriginal": 15000000.0,
+      "currency": "EUR",
+      "investors": [
+        "Campus Founders Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.satellitetoday.com/finance/2025/10/17/hyimpulse-secures-further-funding-ahead-of-key-2026-launches/",
+          "quote": "The company has raised 15 million euros ($17.5 million) in equity capital as part of its Series A funding round"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.satellitetoday.com/finance/2025/10/17/hyimpulse-secures-further-funding-ahead-of-key-2026-launches/",
+          "quote": "The company has raised 15 million euros ($17.5 million) in equity capital as part of its Series A funding round"
+        },
+        {
+          "field": "month",
+          "url": "https://www.satellitetoday.com/finance/2025/10/17/hyimpulse-secures-further-funding-ahead-of-key-2026-launches/",
+          "quote": "Friday, October 17, 2025"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.satellitetoday.com/finance/2025/10/17/hyimpulse-secures-further-funding-ahead-of-key-2026-launches/",
+          "quote": "The round was led by Campus Founders Ventures"
+        }
+      ]
+    },
+    {
+      "stage": "series-a",
+      "month": "2026-09",
+      "amountEur": 50000000,
+      "amountOriginal": 50000000.0,
+      "currency": "EUR",
+      "investors": [
+        "JOIN Capital",
+        "Ace Capital Partners",
+        "North Ventures",
+        "BW-Capital",
+        "Bayern Kapital",
+        "German Aerospace Center (DLR)",
+        "Campus Founders Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.startbase.com/news/hyimpulse-sichert-sich-ueber-50-millionen-euro-fuer-europaeische-raketenstarts/",
+          "quote": "The German space tech company HyImpulse Technologies has raised more than 50 million euros in equity as part of its Series A funding round."
+        },
+        {
+          "field": "stage",
+          "url": "https://www.startbase.com/news/hyimpulse-sichert-sich-ueber-50-millionen-euro-fuer-europaeische-raketenstarts/",
+          "quote": "The German space tech company HyImpulse Technologies has raised more than 50 million euros in equity as part of its Series A funding round."
+        },
+        {
+          "field": "month",
+          "url": "https://www.startbase.com/news/hyimpulse-sichert-sich-ueber-50-millionen-euro-fuer-europaeische-raketenstarts/",
+          "quote": "Neuenstadt am Kocher, 02. September 2026"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2026/09/02/hyimpulse-secures-eur50m-to-scale-suborbital-and-orbital-launch-services/",
+          "quote": "The round was co-led by JOIN Capital and Ace Capital Partners , with participation from new investors North Ventures, BW-Capital, Bayern Kapital and the German Aerospace Center (DLR). Existing shareholder Campus Founders Ventures also participated."
+        }
+      ]
+    }
+  ]
+}

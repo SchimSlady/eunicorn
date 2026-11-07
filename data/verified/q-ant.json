@@ -1,0 +1,92 @@
+{
+  "id": "q-ant",
+  "name": "Q.ANT",
+  "aliases": [
+    "Q.ANT GmbH",
+    "QANT"
+  ],
+  "domain": "qant.com",
+  "country": "DE",
+  "city": "Stuttgart",
+  "founded": 2018,
+  "sectors": [
+    "semiconductors",
+    "quantum"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Michael Förtsch"
+  ],
+  "difficulty": 4,
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://siliconcanals.com/q-ant-raises-e62m/",
+      "quote": "Stuttgart-based Q.ANT has announced a €62M Series A funding round."
+    },
+    {
+      "field": "founded",
+      "url": "https://siliconcanals.com/q-ant-raises-e62m/",
+      "quote": "The company was founded by Michael Förtsch in 2018 as a spin-off from TRUMPF."
+    },
+    {
+      "field": "founders",
+      "url": "https://siliconcanals.com/q-ant-raises-e62m/",
+      "quote": "The company was founded by Michael Förtsch in 2018 as a spin-off from TRUMPF."
+    },
+    {
+      "field": "sectors",
+      "url": "https://siliconcanals.com/q-ant-raises-e62m/",
+      "quote": "Q.ANT is a photonic deeptech scale-up developing light-based processing solutions as an alternative to transistor-based systems."
+    },
+    {
+      "field": "status",
+      "url": "https://siliconcanals.com/q-ant-raises-e62m/",
+      "quote": "Stuttgart-based Q.ANT has announced a €62M Series A funding round."
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-a",
+      "month": "2025-07",
+      "amountEur": 62000000,
+      "amountOriginal": 62000000.0,
+      "currency": "EUR",
+      "investors": [
+        "Cherry Ventures",
+        "UVC Partners",
+        "imec.xpand",
+        "L-Bank",
+        "Verve Ventures",
+        "Grazia Equity",
+        "EXF Alpha of Venionaire Capital",
+        "LEA Partners",
+        "Onsight Ventures",
+        "TRUMPF"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://siliconcanals.com/q-ant-raises-e62m/",
+          "quote": "Stuttgart-based Q.ANT has announced a €62M Series A funding round."
+        },
+        {
+          "field": "month",
+          "url": "https://siliconcanals.com/q-ant-raises-e62m/",
+          "quote": "Published Jul 17, 2025"
+        },
+        {
+          "field": "stage",
+          "url": "https://siliconcanals.com/q-ant-raises-e62m/",
+          "quote": "Stuttgart-based Q.ANT has announced a €62M Series A funding round."
+        },
+        {
+          "field": "investors",
+          "url": "https://siliconcanals.com/q-ant-raises-e62m/",
+          "quote": "The round was co-led by Cherry Ventures , UVC Partners , and imec.xpand , with participation from investors including L-Bank , Verve Ventures , Grazia Equity , EXF Alpha of Venionaire Capital , LEA Partners , Onsight Ventures , and TRUMPF ."
+        }
+      ]
+    }
+  ]
+}

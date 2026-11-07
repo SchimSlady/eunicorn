@@ -1,0 +1,172 @@
+{
+  "id": "atmos-space-cargo",
+  "name": "ATMOS Space Cargo",
+  "aliases": [
+    "ATMOS",
+    "Atmos Space Cargo"
+  ],
+  "domain": "atmos-space-cargo.com",
+  "country": "DE",
+  "city": "Lichtenau",
+  "founded": 2022,
+  "sectors": [
+    "space"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Sebastian Klaus",
+    "Marta Oliveira",
+    "Jeffrey Hendrikse",
+    "Christian Grimm"
+  ],
+  "difficulty": 4,
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://vestbee.com/insights/articles/atmos-space-cargo-secures-25-7-m",
+      "quote": "The company employs more than 70 people and operates from Lichtenau, Germany, and Strasbourg, France"
+    },
+    {
+      "field": "founded",
+      "url": "https://vestbee.com/insights/articles/atmos-space-cargo-secures-25-7-m",
+      "quote": "Founded in 2022 by Sebastian Klaus, Marta Oliveira, Jeffrey Hendrikse, and Christian Grimm"
+    },
+    {
+      "field": "founders",
+      "url": "https://vestbee.com/insights/articles/atmos-space-cargo-secures-25-7-m",
+      "quote": "Founded in 2022 by Sebastian Klaus, Marta Oliveira, Jeffrey Hendrikse, and Christian Grimm"
+    },
+    {
+      "field": "sectors",
+      "url": "https://vestbee.com/insights/articles/atmos-space-cargo-secures-25-7-m",
+      "quote": "a European company developing orbital transport and re-entry vehicles"
+    },
+    {
+      "field": "status",
+      "url": "https://vestbee.com/insights/articles/atmos-space-cargo-secures-25-7-m",
+      "quote": "has closed a €25.7 million Series A financing round led by Balnord and Expansion Ventures"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://vestbee.com/insights/articles/atmos-space-cargo-secures-25-7-m",
+      "quote": "has closed a €25.7 million Series A financing round led by Balnord and Expansion Ventures"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "seed",
+      "month": "2023-06",
+      "amountEur": 4000000,
+      "amountOriginal": 4000000.0,
+      "currency": "EUR",
+      "investors": [
+        "High-Tech Gründerfonds",
+        "Amadeus APEX Technology Fund",
+        "Seraphim",
+        "E2MC",
+        "VENTIS",
+        "another.vc"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://siliconcanals.com/?p=5994",
+          "quote": "announced on Thursday that it has raised €4M in an oversubscribed seed round of funding."
+        },
+        {
+          "field": "stage",
+          "url": "https://siliconcanals.com/?p=5994",
+          "quote": "announced on Thursday that it has raised €4M in an oversubscribed seed round of funding."
+        },
+        {
+          "field": "month",
+          "url": "https://siliconcanals.com/?p=5994",
+          "quote": "Published Jun 22, 2023"
+        },
+        {
+          "field": "investors",
+          "url": "https://siliconcanals.com/?p=5994",
+          "quote": "The investment came from lead investors High-Tech Gründerfonds and the Amadeus APEX Technology Fund"
+        }
+      ]
+    },
+    {
+      "stage": "seed",
+      "month": "2024-02",
+      "amountEur": 1300000,
+      "amountOriginal": 1300000.0,
+      "currency": "EUR",
+      "investors": [
+        "OTB Ventures",
+        "High-Tech Gründerfonds",
+        "Amadeus APEX Technology Fund",
+        "Seraphim",
+        "E2MC",
+        "VENTIS",
+        "another.vc"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://atmos-space-cargo.com/milestones/seed-extension/",
+          "quote": "has raised an additional €1.3M after successfully closing its initial €4M seed funding round in June 2023."
+        },
+        {
+          "field": "stage",
+          "url": "https://atmos-space-cargo.com/milestones/seed-extension/",
+          "quote": "has raised an additional €1.3M after successfully closing its initial €4M seed funding round in June 2023."
+        },
+        {
+          "field": "month",
+          "url": "https://atmos-space-cargo.com/milestones/seed-extension/",
+          "quote": "Lichtenau, Germany – February 07, 2024"
+        },
+        {
+          "field": "investors",
+          "url": "https://atmos-space-cargo.com/milestones/seed-extension/",
+          "quote": "OTB Ventures, leading European SpaceTech investor, is joining the consortium of experienced space tech investors"
+        }
+      ]
+    },
+    {
+      "stage": "series-a",
+      "month": "2026-04",
+      "amountEur": 25700000,
+      "amountOriginal": 25700000.0,
+      "currency": "EUR",
+      "investors": [
+        "Balnord",
+        "Expansion Ventures",
+        "Keen Defence and Security",
+        "European Innovation Council",
+        "OTB Ventures",
+        "High-Tech Gründerfonds",
+        "APEX Ventures",
+        "Seraphim"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://vestbee.com/insights/articles/atmos-space-cargo-secures-25-7-m",
+          "quote": "has closed a €25.7 million Series A financing round led by Balnord and Expansion Ventures"
+        },
+        {
+          "field": "stage",
+          "url": "https://vestbee.com/insights/articles/atmos-space-cargo-secures-25-7-m",
+          "quote": "has closed a €25.7 million Series A financing round led by Balnord and Expansion Ventures"
+        },
+        {
+          "field": "month",
+          "url": "https://vestbee.com/insights/articles/atmos-space-cargo-secures-25-7-m",
+          "quote": "April 22, 2026"
+        },
+        {
+          "field": "investors",
+          "url": "https://vestbee.com/insights/articles/atmos-space-cargo-secures-25-7-m",
+          "quote": "The Series A round was supported by Keen Defence and Security and the European Innovation Council (EIC), alongside investors including OTB Ventures, High-Tech Gründerfonds (HTGF), APEX Ventures, Seraphim"
+        }
+      ]
+    }
+  ]
+}

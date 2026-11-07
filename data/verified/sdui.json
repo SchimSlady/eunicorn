@@ -1,0 +1,92 @@
+{
+  "id": "sdui",
+  "name": "Sdui",
+  "aliases": [
+    "Sdui Group"
+  ],
+  "domain": "sdui.de",
+  "country": "DE",
+  "city": "Koblenz",
+  "founded": 2018,
+  "sectors": [
+    "edtech",
+    "saas"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Daniel Zacharias"
+  ],
+  "difficulty": 4,
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.starting-up.de/news/news-investments/ed-tech-start-up-sdui-erweitert-series-a-finanzierungsrunde-auf-25-mio-euro.html",
+      "quote": "Sdui wurde 2018 in Koblenz gegründet"
+    },
+    {
+      "field": "founded",
+      "url": "https://www.starting-up.de/news/news-investments/ed-tech-start-up-sdui-erweitert-series-a-finanzierungsrunde-auf-25-mio-euro.html",
+      "quote": "Sdui wurde 2018 in Koblenz gegründet"
+    },
+    {
+      "field": "founders",
+      "url": "https://techfundingnews.com/german-edtech-sdui-raises-e25m-series-a-to-transform-communication-in-schools-and-daycares/",
+      "quote": "Founded in 2018 by Daniel Zacharias in Koblenz (Germany)"
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.starting-up.de/news/news-investments/ed-tech-start-up-sdui-erweitert-series-a-finanzierungsrunde-auf-25-mio-euro.html",
+      "quote": "Das Unternehmen vereinfacht Kommunikation und Organisation an Schulen und Kitas."
+    },
+    {
+      "field": "status",
+      "url": "https://www.starting-up.de/news/news-investments/ed-tech-start-up-sdui-erweitert-series-a-finanzierungsrunde-auf-25-mio-euro.html",
+      "quote": "Sdui wurde 2018 in Koblenz gegründet und ist heute als Sdui Group eines der am schnellsten wachsenden Start-ups der deutschen Ed-Tech-Branche."
+    },
+    {
+      "field": "unicorn",
+      "url": "https://www.starting-up.de/news/news-investments/ed-tech-start-up-sdui-erweitert-series-a-finanzierungsrunde-auf-25-mio-euro.html",
+      "quote": "Sduis Bewertung steigt durch die Kapitalerhöhung in den dreistelligen Millionenbereich."
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-a",
+      "month": "2024-07",
+      "amountEur": 21000000,
+      "amountOriginal": 21000000.0,
+      "currency": "EUR",
+      "investors": [
+        "Summiteer",
+        "HV Capital",
+        "Haniel",
+        "Brighteye Ventures",
+        "Michael Hinderer",
+        "High-Tech Gründerfonds"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.startbase.de/news/sdui-kauft-foxeducation-und-sammelt-weitere-21-millionen-euro-ein",
+          "quote": "Zugleich hat Sdui weitere 21 Millionen Euro von Investoren erhalten."
+        },
+        {
+          "field": "stage",
+          "url": "https://vestbee.com/insights/articles/sdui-acquires-fox-education",
+          "quote": "has raised €21 million in a Series A funding round"
+        },
+        {
+          "field": "month",
+          "url": "https://www.startbase.de/news/sdui-kauft-foxeducation-und-sammelt-weitere-21-millionen-euro-ein",
+          "quote": "Koblenz / Wien, 17. Juli 2024"
+        },
+        {
+          "field": "investors",
+          "url": "https://vestbee.com/insights/articles/sdui-acquires-fox-education",
+          "quote": "The investment was led by Summiteer and HV Capital, with participation from Haniel, Brighteye Ventures, Michael Hinderer, and High-Tech Gründerfonds."
+        }
+      ]
+    }
+  ]
+}

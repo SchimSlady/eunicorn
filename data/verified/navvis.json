@@ -1,0 +1,201 @@
+{
+  "id": "navvis",
+  "name": "NavVis",
+  "aliases": [
+    "Navvis"
+  ],
+  "domain": "navvis.com",
+  "country": "DE",
+  "city": "Munich",
+  "founded": 2013,
+  "sectors": [
+    "ai",
+    "saas"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Felix Reinshagen",
+    "Georg Schroth",
+    "Robert Huitl",
+    "Sebastian Hilsenbeck"
+  ],
+  "difficulty": 4,
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://siliconcanals.com/munich-based-startup-navvis-raises-e31m-for-spatial-intelligence/",
+      "quote": "Headquartered in Munich, NavVis was started in 2013 by Felix Reinshagen, Georg Schroth, Robert Huitl and Sebastien Hilsenbeck."
+    },
+    {
+      "field": "founded",
+      "url": "https://tech.eu/2018/12/10/munich-based-spatial-intelligence-navvis-raises-35-5-million/",
+      "quote": "Founded in 2013, NavVis has offices in Munich, New York, and Shanghai."
+    },
+    {
+      "field": "founders",
+      "url": "https://tech.eu/2018/12/10/munich-based-spatial-intelligence-navvis-raises-35-5-million/",
+      "quote": "NavVis founders Robert Huitl, Sebastian Hilsenbeck, Felix Reinshagen, Georg Schroth"
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.startbase.com/news/navvis-holt-sich-85-mio-us-dollar/",
+      "quote": "A Munich-based spatial AI specialist is investing in the data infrastructure for physical AI."
+    },
+    {
+      "field": "status",
+      "url": "https://www.startbase.com/news/navvis-holt-sich-85-mio-us-dollar/",
+      "quote": "The Munich-based deep tech company NavVis has closed a Series D funding round totaling $85 million."
+    },
+    {
+      "field": "unicorn",
+      "url": "https://www.startbase.com/news/navvis-holt-sich-85-mio-us-dollar/",
+      "quote": "The Munich-based deep tech company NavVis has closed a Series D funding round totaling $85 million."
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-b",
+      "month": "2015-12",
+      "amountEur": 7500000,
+      "amountOriginal": 7500000.0,
+      "currency": "EUR",
+      "investors": [
+        "Target Partners",
+        "Don Dodge",
+        "Bayerische Beteiligungsgesellschaft",
+        "MIG Fonds"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2015/12/15/german-indoor-mapping-tech-startup-navvis-funding",
+          "quote": "has raised €7.5 million in funding according to a report from German tech blog Gründerszene"
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2015/12/15/german-indoor-mapping-tech-startup-navvis-funding",
+          "quote": "has raised €7.5 million in funding according to a report from German tech blog Gründerszene"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2015/12/15/german-indoor-mapping-tech-startup-navvis-funding",
+          "quote": "15 December 2015"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2015/12/15/german-indoor-mapping-tech-startup-navvis-funding",
+          "quote": "New investors include VC firm Target Partners and Don Dodge, an angel investor and Internet veteran who worked as startup evangelist for Microsoft and now Google. Prior backers such as Bayerische Beteiligungsgesellschaft and MIG Fonds also participated in the round."
+        }
+      ]
+    },
+    {
+      "stage": "series-c",
+      "month": "2018-12",
+      "amountEur": 31072210,
+      "amountOriginal": 35500000.0,
+      "currency": "USD",
+      "investors": [
+        "Digital+ Partners",
+        "Kozo Keikaku Engineering",
+        "MIG",
+        "Target Partners",
+        "BayBG"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2018/12/10/munich-based-spatial-intelligence-navvis-raises-35-5-million/",
+          "quote": "German indoor spatial intelligence startup NavVis has raised $35.5 million in a Series C funding round led by Digital+ Partners"
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2018/12/10/munich-based-spatial-intelligence-navvis-raises-35-5-million/",
+          "quote": "German indoor spatial intelligence startup NavVis has raised $35.5 million in a Series C funding round led by Digital+ Partners"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2018/12/10/munich-based-spatial-intelligence-navvis-raises-35-5-million/",
+          "quote": "10 December 2018"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2018/12/10/munich-based-spatial-intelligence-navvis-raises-35-5-million/",
+          "quote": "with additional participation from new investor Kozo Keikaku Engineering and existing investors MIG, Target Partners, and BayBG"
+        }
+      ]
+    },
+    {
+      "stage": "series-c",
+      "month": "2021-12",
+      "amountEur": 25000000,
+      "amountOriginal": 25000000.0,
+      "currency": "EUR",
+      "investors": [
+        "Cipio Partners",
+        "BayBG",
+        "MIG",
+        "Target Partners",
+        "Digital+ Partners",
+        "Kozo Keikaku Engineering"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.munich-startup.de/en/78338/navvis-series-c/",
+          "quote": "Das Münchner Hightech-Startup Navvis hat insgesamt 25 Millionen Euro in seiner Series-C-Finanzierungsrunde eingesammelt."
+        },
+        {
+          "field": "stage",
+          "url": "https://www.munich-startup.de/en/78338/navvis-series-c/",
+          "quote": "Das Münchner Hightech-Startup Navvis hat insgesamt 25 Millionen Euro in seiner Series-C-Finanzierungsrunde eingesammelt."
+        },
+        {
+          "field": "month",
+          "url": "https://www.munich-startup.de/en/78338/navvis-series-c/",
+          "quote": "10. Dezember 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.munich-startup.de/en/78338/navvis-series-c/",
+          "quote": "Lead-Investor ist Cipio Ventures, darüber hinaus beteiligen sich die Bestandsinvestoren BayBG Bayerische Beteiligungsgesellschaft, MIG, Target Partners, Digital+ Partners und Kozo Keikaku Engineering an der Finanzierung."
+        }
+      ]
+    },
+    {
+      "stage": "series-d",
+      "month": "2026-08",
+      "amountEur": 73644082,
+      "amountOriginal": 85000000.0,
+      "currency": "USD",
+      "investors": [
+        "The Jordan Company",
+        "Yttrium",
+        "Kozo Keikaku Engineering",
+        "Cipio Partners"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.startbase.com/news/navvis-holt-sich-85-mio-us-dollar/",
+          "quote": "The Munich-based deep tech company NavVis has closed a Series D funding round totaling $85 million."
+        },
+        {
+          "field": "stage",
+          "url": "https://www.startbase.com/news/navvis-holt-sich-85-mio-us-dollar/",
+          "quote": "The Munich-based deep tech company NavVis has closed a Series D funding round totaling $85 million."
+        },
+        {
+          "field": "month",
+          "url": "https://www.startbase.com/news/navvis-holt-sich-85-mio-us-dollar/",
+          "quote": "München, 06. August 2026"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.startbase.com/news/navvis-holt-sich-85-mio-us-dollar/",
+          "quote": "The round is led by the U.S. private equity firm The Jordan Company (TJC). Existing investors Yttrium (together with a consortium of industrial family offices ), KOZO KEIKAKU ENGINEERING (KKE), and Cipio Partners also participated."
+        }
+      ]
+    }
+  ]
+}

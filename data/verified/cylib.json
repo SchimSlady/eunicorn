@@ -1,0 +1,130 @@
+{
+  "id": "cylib",
+  "name": "cylib",
+  "aliases": [
+    "cylib GmbH"
+  ],
+  "domain": "cylib.de",
+  "country": "DE",
+  "city": "Aachen",
+  "founded": 2022,
+  "sectors": [
+    "climate"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Lilian Schwich",
+    "Paul Sabarny",
+    "Gideon Schwich"
+  ],
+  "difficulty": 4,
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://tech.eu/2024/05/17/cylib-raises-eur55m-in-largest-ever-funding-for-european-battery-recycling/",
+      "quote": "cylib was founded in 2022 in Aachen following nearly a decade of research at renowned German technical university, RWTH Aachen University, by: CEO Lilian Schwich"
+    },
+    {
+      "field": "founded",
+      "url": "https://tech.eu/2024/05/17/cylib-raises-eur55m-in-largest-ever-funding-for-european-battery-recycling/",
+      "quote": "cylib was founded in 2022 in Aachen following nearly a decade of research at renowned German technical university, RWTH Aachen University, by: CEO Lilian Schwich"
+    },
+    {
+      "field": "founders",
+      "url": "https://siliconcanals.com/cylib-raises-8m/",
+      "quote": "Founded in 2022 by Lilian Schwich, Gideon Schwich and Paul Sabarny"
+    },
+    {
+      "field": "sectors",
+      "url": "https://tech.eu/2024/05/17/cylib-raises-eur55m-in-largest-ever-funding-for-european-battery-recycling/",
+      "quote": "Sustainable end-to-end battery recycling firm cylib has raised €55 million Series A funding round in equity financing."
+    },
+    {
+      "field": "status",
+      "url": "https://tech.eu/2024/05/17/cylib-raises-eur55m-in-largest-ever-funding-for-european-battery-recycling/",
+      "quote": "Sustainable end-to-end battery recycling firm cylib has raised €55 million Series A funding round in equity financing."
+    },
+    {
+      "field": "unicorn",
+      "url": "https://tech.eu/2024/05/17/cylib-raises-eur55m-in-largest-ever-funding-for-european-battery-recycling/",
+      "quote": "Sustainable end-to-end battery recycling firm cylib has raised €55 million Series A funding round in equity financing."
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "seed",
+      "month": "2023-02",
+      "amountEur": 8000000,
+      "amountOriginal": 8000000.0,
+      "currency": "EUR",
+      "investors": [
+        "World Fund",
+        "10x Founders",
+        "Vsquared Ventures",
+        "Speedinvest"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://siliconcanals.com/cylib-raises-8m/",
+          "quote": "has raised €8M in an extension Seed round of funding"
+        },
+        {
+          "field": "stage",
+          "url": "https://siliconcanals.com/cylib-raises-8m/",
+          "quote": "has raised €8M in an extension Seed round of funding"
+        },
+        {
+          "field": "month",
+          "url": "https://siliconcanals.com/cylib-raises-8m/",
+          "quote": "Published Feb 15, 2023"
+        },
+        {
+          "field": "investors",
+          "url": "https://siliconcanals.com/cylib-raises-8m/",
+          "quote": "Existing investors VSquared Ventures and Speedinvest also joined the round along with business angels Kai Hansen and Karim Jalbout."
+        }
+      ]
+    },
+    {
+      "stage": "series-a",
+      "month": "2024-05",
+      "amountEur": 55000000,
+      "amountOriginal": 55000000.0,
+      "currency": "EUR",
+      "investors": [
+        "World Fund",
+        "Porsche Ventures",
+        "Bosch Ventures",
+        "DeepTech & Climate Fonds",
+        "NRW.Venture",
+        "Vsquared Ventures",
+        "Speedinvest",
+        "10x Founders"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2024/05/17/cylib-raises-eur55m-in-largest-ever-funding-for-european-battery-recycling/",
+          "quote": "Sustainable end-to-end battery recycling firm cylib has raised €55 million Series A funding round in equity financing."
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2024/05/17/cylib-raises-eur55m-in-largest-ever-funding-for-european-battery-recycling/",
+          "quote": "Sustainable end-to-end battery recycling firm cylib has raised €55 million Series A funding round in equity financing."
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2024/05/17/cylib-raises-eur55m-in-largest-ever-funding-for-european-battery-recycling/",
+          "quote": "Cate Lawrence 17 May 2024"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2024/05/17/cylib-raises-eur55m-in-largest-ever-funding-for-european-battery-recycling/",
+          "quote": "Co-led by the leading European climate tech VC World Fund, and Porsche Ventures, the round was joined by Bosch Ventures, DeepTech & Climate Fonds, NRW.Venture, existing investors Vsquared Ventures, Speedinvest, 10x Founders and established business angels."
+        }
+      ]
+    }
+  ]
+}

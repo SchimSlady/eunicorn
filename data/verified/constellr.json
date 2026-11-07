@@ -13,7 +13,11 @@
   ],
   "status": "private",
   "unicorn": false,
-  "founders": [],
+  "founders": [
+    "Max Gulde",
+    "Christian Mittermaier",
+    "Marius Bierdel"
+  ],
   "difficulty": 4,
   "programs": [
     {
@@ -50,6 +54,11 @@
       "field": "programs",
       "url": "https://www.manageandmore.de/start-ups/",
       "quote": "Constellr constellr.com"
+    },
+    {
+      "field": "founders",
+      "url": "https://www.deutsche-startups.de/2026/02/11/constellr-sammelt-37-millionen-hades-mining-erhaelt-15-millionen-hrmony-kauft-hellobonnie/",
+      "quote": "Das Freiburger SpaceTech, 2020 von Max Gulde, Christian Mittermaier und Marius Bierdel gegründet"
     }
   ],
   "rounds": [

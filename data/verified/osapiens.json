@@ -1,0 +1,149 @@
+{
+  "id": "osapiens",
+  "name": "osapiens",
+  "aliases": [
+    "osapiens HUB",
+    "osapiens Holding"
+  ],
+  "domain": "osapiens.com",
+  "country": "DE",
+  "city": "Mannheim",
+  "founded": 2018,
+  "sectors": [
+    "saas",
+    "climate"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Alberto Zamora",
+    "Stefan Wawrzinek",
+    "Matthias Jungblut"
+  ],
+  "difficulty": 4,
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://osapiens.com/en/resources/company-news/2026/osapiens-raises-120-million-funding-round-led-by-growth-equity-at-goldman-sachs-alternatives",
+      "quote": "osapiens was founded in Mannheim, Germany in 2018 by Alberto Zamora, Stefan Wawrzinek and Matthias Jungblut."
+    },
+    {
+      "field": "founded",
+      "url": "https://osapiens.com/en/resources/company-news/2026/osapiens-raises-120-million-funding-round-led-by-growth-equity-at-goldman-sachs-alternatives",
+      "quote": "osapiens was founded in Mannheim, Germany in 2018 by Alberto Zamora, Stefan Wawrzinek and Matthias Jungblut."
+    },
+    {
+      "field": "founders",
+      "url": "https://osapiens.com/en/resources/company-news/2026/osapiens-raises-120-million-funding-round-led-by-growth-equity-at-goldman-sachs-alternatives",
+      "quote": "osapiens was founded in Mannheim, Germany in 2018 by Alberto Zamora, Stefan Wawrzinek and Matthias Jungblut."
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.gettex.de/en/news-overview/newsdetail/eqs-news-osapiens-secures-us-100-million-financing-and-becomes-a-unicorn-with-investment-from-blackrock-and-temasek-founded-decarbonization-partners/",
+      "quote": "osapiens provides enterprise software that enables companies to manage regulatory compliance, sustainability, and operational efficiency across their entire value chain on a single platform."
+    },
+    {
+      "field": "status",
+      "url": "https://www.gettex.de/en/news-overview/newsdetail/eqs-news-osapiens-secures-us-100-million-financing-and-becomes-a-unicorn-with-investment-from-blackrock-and-temasek-founded-decarbonization-partners/",
+      "quote": "osapiens secures US$ 100 million Financing and Becomes a Unicorn with investment from BlackRock- and Temasek-founded Decarbonization Partners"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-a",
+      "month": "2023-09",
+      "amountEur": 25000000,
+      "amountOriginal": 25000000.0,
+      "currency": "EUR",
+      "investors": [
+        "Armira Growth"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.hoganlovells.com/en/news/hogan-lovells-beraet-armira-growth-bei-25-millionen-euro-investment-in-osapiens",
+          "quote": "a €25 million minority investment in ESG software pioneer osapiens"
+        },
+        {
+          "field": "month",
+          "url": "https://nordic9.com/news/osapiens-to-raise-25-million-from-armira-growth/",
+          "quote": "Investments 01 September 2023"
+        },
+        {
+          "field": "stage",
+          "url": "https://osapiens.com/en/resources/company-news/2026/osapiens-raises-120-million-funding-round-led-by-growth-equity-at-goldman-sachs-alternatives",
+          "quote": "Armira Growth, who led the $27m Series A in 2023"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.hoganlovells.com/en/news/hogan-lovells-beraet-armira-growth-bei-25-millionen-euro-investment-in-osapiens",
+          "quote": "Hogan Lovells has advised Armira Growth, part of Munich-based investment holding Armira, on a €25 million minority investment in ESG software pioneer osapiens"
+        }
+      ]
+    },
+    {
+      "stage": "series-b",
+      "month": "2024-07",
+      "amountEur": 110936489,
+      "amountOriginal": 120000000.0,
+      "currency": "USD",
+      "investors": [
+        "Goldman Sachs Alternatives"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://osapiens.com/en/resources/company-news/2026/osapiens-raises-120-million-funding-round-led-by-growth-equity-at-goldman-sachs-alternatives",
+          "quote": "today announced the completion of a $120M Series B financing round led by Growth Equity at Goldman Sachs Alternatives"
+        },
+        {
+          "field": "month",
+          "url": "https://osapiens.com/de/resources/company-news/2026/osapiens-erhaelt-120-millionen-us-dollar-in-finanzierungsrunde-unter-fuehrung-von-goldman-sachs-growth-equity",
+          "quote": "July 29, 2024"
+        },
+        {
+          "field": "stage",
+          "url": "https://osapiens.com/en/resources/company-news/2026/osapiens-raises-120-million-funding-round-led-by-growth-equity-at-goldman-sachs-alternatives",
+          "quote": "today announced the completion of a $120M Series B financing round led by Growth Equity at Goldman Sachs Alternatives"
+        },
+        {
+          "field": "investors",
+          "url": "https://osapiens.com/en/resources/company-news/2026/osapiens-raises-120-million-funding-round-led-by-growth-equity-at-goldman-sachs-alternatives",
+          "quote": "today announced the completion of a $120M Series B financing round led by Growth Equity at Goldman Sachs Alternatives"
+        }
+      ]
+    },
+    {
+      "stage": "series-c",
+      "month": "2026-01",
+      "amountEur": 85829543,
+      "amountOriginal": 100000000.0,
+      "currency": "USD",
+      "investors": [
+        "Decarbonization Partners"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.gettex.de/en/news-overview/newsdetail/eqs-news-osapiens-secures-us-100-million-financing-and-becomes-a-unicorn-with-investment-from-blackrock-and-temasek-founded-decarbonization-partners/",
+          "quote": "to lead a US$ 100 million Series C fundraising round, subject to regulatory approvals"
+        },
+        {
+          "field": "month",
+          "url": "https://www.gettex.de/en/news-overview/newsdetail/eqs-news-osapiens-secures-us-100-million-financing-and-becomes-a-unicorn-with-investment-from-blackrock-and-temasek-founded-decarbonization-partners/",
+          "quote": "MANNHEIM, Germany, Jan. 14, 2026"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.gettex.de/en/news-overview/newsdetail/eqs-news-osapiens-secures-us-100-million-financing-and-becomes-a-unicorn-with-investment-from-blackrock-and-temasek-founded-decarbonization-partners/",
+          "quote": "to lead a US$ 100 million Series C fundraising round, subject to regulatory approvals"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.gettex.de/en/news-overview/newsdetail/eqs-news-osapiens-secures-us-100-million-financing-and-becomes-a-unicorn-with-investment-from-blackrock-and-temasek-founded-decarbonization-partners/",
+          "quote": "to lead a US$ 100 million Series C fundraising round, subject to regulatory approvals"
+        }
+      ]
+    }
+  ]
+}
