@@ -1,0 +1,142 @@
+{
+  "id": "netbird",
+  "name": "NetBird",
+  "aliases": [
+    "Netbird"
+  ],
+  "domain": "netbird.io",
+  "country": "DE",
+  "city": "Berlin",
+  "founded": 2021,
+  "sectors": [
+    "cybersecurity",
+    "saas"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Misha Bragin",
+    "Maycon Santos"
+  ],
+  "difficulty": 5,
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://justentrepreneurs.co.uk/news/netbird-closes-11m-pre-seed-round-to-revolutionise-virtual-private-networks-for-companies",
+      "quote": "NetBird, a Berlin-based open-source private network platform"
+    },
+    {
+      "field": "founded",
+      "url": "https://www.thesaasnews.com/news/netbird-raises-4-million-in-seed-round/",
+      "quote": "Founded in 2021 by Misha Bragin and Maycon Santos"
+    },
+    {
+      "field": "founders",
+      "url": "https://www.thesaasnews.com/news/netbird-raises-4-million-in-seed-round/",
+      "quote": "Founded in 2021 by Misha Bragin and Maycon Santos"
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.thesaasnews.com/news/netbird-raises-4-million-in-seed-round/",
+      "quote": "an open-source network security platform"
+    },
+    {
+      "field": "status",
+      "url": "https://www.ypog.law/en/press/deal-update-antler-lfa8-investments-peak-amberra-join-capital-amadeus-apex-technology-fund-and-sensorberg",
+      "quote": "Series A financing round of Berlin-based cybersec"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "pre-seed",
+      "month": "2023-04",
+      "amountEur": 1100000,
+      "amountOriginal": 1100000,
+      "currency": "EUR",
+      "investors": [
+        "Nauta Capital",
+        "Antler",
+        "Rheingau Founders",
+        "Jan Oberhauser",
+        "Emma Tracey",
+        "Mario Götze"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://justentrepreneurs.co.uk/news/netbird-closes-11m-pre-seed-round-to-revolutionise-virtual-private-networks-for-companies",
+          "quote": "has raised €1.1M in a pre-seed round"
+        },
+        {
+          "field": "month",
+          "url": "https://nordic9.com/news/netbird-in-a-11-million-pre-seed-investment-round-backed-by-nauta-capital-antler-rheingau-founders-and-german-angel-investors/",
+          "quote": "30 April 2023"
+        },
+        {
+          "field": "investors",
+          "url": "https://justentrepreneurs.co.uk/news/netbird-closes-11m-pre-seed-round-to-revolutionise-virtual-private-networks-for-companies",
+          "quote": "with the participation of Nauta Capital, Antler, Rheingau Founders"
+        }
+      ]
+    },
+    {
+      "stage": "seed",
+      "month": "2024-12",
+      "amountEur": 4000000,
+      "amountOriginal": 4000000,
+      "currency": "EUR",
+      "investors": [
+        "InReach Ventures",
+        "Nauta Capital",
+        "Antler"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.thesaasnews.com/news/netbird-raises-4-million-in-seed-round/",
+          "quote": "has raised €4 million in seed funding"
+        },
+        {
+          "field": "month",
+          "url": "https://www.thesaasnews.com/news/netbird-raises-4-million-in-seed-round/",
+          "quote": "Updated December 03, 2024"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.thesaasnews.com/news/netbird-raises-4-million-in-seed-round/",
+          "quote": "The round was co-led by InReach Ventures and Nauta Capital, with support from Antler"
+        }
+      ]
+    },
+    {
+      "stage": "series-a",
+      "month": "2026-01",
+      "amountEur": 8582954,
+      "amountOriginal": 10000000,
+      "currency": "USD",
+      "investors": [
+        "Pace Capital",
+        "Nauta Capital",
+        "InReach Ventures",
+        "Antler"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://capital-riesgo.es/en/articles/netbird-raises-10m-series-a-with-participation-from-nauta-capital-as-the-open-source-replacement-for-traditional-vpns/",
+          "quote": "has announced a $10M Series A round"
+        },
+        {
+          "field": "month",
+          "url": "https://www.ypog.law/en/press/deal-update-antler-lfa8-investments-peak-amberra-join-capital-amadeus-apex-technology-fund-and-sensorberg",
+          "quote": "Berlin, January 14, 2026"
+        },
+        {
+          "field": "investors",
+          "url": "https://capital-riesgo.es/en/articles/netbird-raises-10m-series-a-with-participation-from-nauta-capital-as-the-open-source-replacement-for-traditional-vpns/",
+          "quote": "The round is led by Pace Capital, with participation from Nauta alongside InReach Ventures and Antler."
+        }
+      ]
+    }
+  ]
+}

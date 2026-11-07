@@ -51,6 +51,11 @@
       "field": "fun_fact",
       "url": "https://www.munich-startup.de/24842/portraet-kaia-health/",
       "quote": "Gemeinsam bauten sie bereits Foodora auf."
+    },
+    {
+      "field": "programs",
+      "url": "https://www.cdtm.com/startups/kaia-health",
+      "quote": "CDTM founders Konstantin Mehl Class of Spring 2011"
     }
   ],
   "rounds": [
@@ -191,6 +196,11 @@
           "quote": "with support from existing investors, including Optum Ventures, Eurazeo, 3VC, Balderton Capital, Heartcore Capital, Symphony Ventures"
         }
       ]
+    }
+  ],
+  "programs": [
+    {
+      "id": "cdtm"
     }
   ]
 }

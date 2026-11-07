@@ -55,6 +55,11 @@
       "field": "valuation",
       "url": "https://siliconcanals.com/razor-group-bags-108m/",
       "quote": "has closed a $125M (€108M) funding in a Series B round at a valuation of over $1B."
+    },
+    {
+      "field": "programs",
+      "url": "https://www.cdtm.com/startups/razor-group",
+      "quote": "CDTM founders Jonas Diezun Class of Fall 2012"
     }
   ],
   "rounds": [
@@ -145,5 +150,10 @@
       ]
     }
   ],
-  "lastValuationEur": 874000000
+  "lastValuationEur": 874000000,
+  "programs": [
+    {
+      "id": "cdtm"
+    }
+  ]
 }

@@ -112,7 +112,14 @@ Read this before verifying a company. Each rule came from a real problem in the 
 
 ## Programs (2026-11-07)
 - `programs` on a verified company: accelerators and fellowships it went through (Y Combinator, Antler, EWOR) and university programs whose alumni founded it (CDTM). Ids come from `data/programs.json`; a new program is a new entry there, no migration. Each listed program needs a source with `field: "programs"`.
-- Y Combinator's main fund only invests through its batch, so a source naming "Y Combinator" or "YC" as an investor counts as having gone through YC. **YC Continuity** is the growth fund, not a batch: Monzo and Gigs only have Continuity and are not tagged.
+- Y Combinator's main fund only invests through its batch, so a source naming "Y Combinator" or "YC" as an investor counts as having gone through YC. **YC Continuity** is the growth fund, not a batch: Monzo only has Continuity and is not tagged. (Gigs: the YC directory lists batch W21, so it is tagged.)
 - Batch (`"W21"`, `"2023"`) only with a source that states it; leave it out otherwise.
 - First pass: 6 YC companies from the existing round sources (Langdock, Kombo, Legora, Lio, MessageBird, Veriff). Antler, EWOR and CDTM still need research: the program sites (ycombinator.com, antler.co, ewor.com, cdtm.com) weren't reachable from that session. Peec AI has Antler as an investor, but an Antler investment isn't always its residency program: check before tagging.
 - The games need at least 3 companies per program for a grid heading or an Impostor, at least 12 with a valuation or money raised for a Top 10 list.
+
+### Programs, second pass (2026-11-07)
+- **Program sites are reachable with curl**: cdtm.com/startups (53 companies, one page per company at `/startups/<slug>` naming the CDTM founder and class), ewor.com/our-startups (about 53 companies, page 2 repeats page 1), ycombinator.com and the YC directory mirror `yc-oss.github.io/api/batches/<batch>/<slug>.json` (the YC page itself keeps its data in a `data-page` attribute that `check-quotes` strips, so use the mirror as the source). antler.co/portfolio shows only 4 featured companies.
+- **Match YC by website domain, never by name** (Flip, Finn, Moss, Pitch, Multiverse, Sonar are other companies in the YC list).
+- **Antler:** a listing under "companies we've backed" or an Antler investment is not the residency. Only tag with a source that says residency or program (Peec AI, LangWatch). NetBird and NeoCarbon were left untagged for that reason.
+- **EWOR:** most of its startups are US/non-European or have no disclosed round; 7 European ones with a round so far.
+- **Counts with rounds:** YC 15, CDTM 20, EWOR 7, Antler 2. Antler and EWOR are below the 12 needed for a Top 10.

@@ -55,6 +55,11 @@
       "field": "valuation",
       "url": "https://www.finn.com/de-DE/presse/series-d",
       "quote": "FINN erreicht durch Series-D-Finanzierungsrunde mit knapp 100 Millionen Euro frischem Eigenkapital eine Bewertung von über einer Milliarde Euro."
+    },
+    {
+      "field": "programs",
+      "url": "https://www.cdtm.com/startups/finn-auto",
+      "quote": "CDTM founders Max-Josef Meier Class of Fall 2006"
     }
   ],
   "rounds": [
@@ -237,6 +242,11 @@
           "quote": "Auch SevenVentures, der Investment-Arm des Medienunternehmens ProSiebenSat.1, beteiligt sich über einen Media-for-Equity-Deal an der Runde."
         }
       ]
+    }
+  ],
+  "programs": [
+    {
+      "id": "cdtm"
     }
   ]
 }

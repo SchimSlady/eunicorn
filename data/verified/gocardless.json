@@ -54,6 +54,11 @@
       "field": "status",
       "url": "https://gocardless.com/en-us/blog/mollie-and-gocardless-combine",
       "quote": "Mollie today announced it has completed its acquisition of GoCardless"
+    },
+    {
+      "field": "programs",
+      "url": "https://yc-oss.github.io/api/batches/summer-2011/gocardless.json",
+      "quote": "\"batch\": \"Summer 2011\""
     }
   ],
   "rounds": [
@@ -209,6 +214,12 @@
           "quote": "New investor BlackRock Private Equity Partners also joined the round."
         }
       ]
+    }
+  ],
+  "programs": [
+    {
+      "id": "y-combinator",
+      "batch": "Summer 2011"
     }
   ]
 }

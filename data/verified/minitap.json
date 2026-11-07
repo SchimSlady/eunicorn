@@ -1,0 +1,101 @@
+{
+  "id": "minitap",
+  "name": "Minitap",
+  "aliases": [
+    "minitap"
+  ],
+  "domain": "minitap.ai",
+  "country": "FR",
+  "city": "Paris",
+  "founded": 2025,
+  "sectors": [
+    "ai"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Nicolas Dehandschoewercker",
+    "Luc Mahoux-Nakamura"
+  ],
+  "difficulty": 5,
+  "programs": [
+    {
+      "id": "ewor"
+    }
+  ],
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://startuprise.co.uk/minitap-raises-4-1m-to-speed-up-mobile-development-with-ai/",
+      "quote": "with research labs in San Francisco and Paris"
+    },
+    {
+      "field": "founded",
+      "url": "https://tech.eu/2025/12/01/minitap-secures-41m-to-make-mobile-development-10x-faster-with-ai/",
+      "quote": "Founded in 2025"
+    },
+    {
+      "field": "founders",
+      "url": "https://tech.eu/2025/12/01/minitap-secures-41m-to-make-mobile-development-10x-faster-with-ai/",
+      "quote": "According to Nicolas Dehandschoewercker"
+    },
+    {
+      "field": "founders",
+      "url": "https://tech.eu/2025/12/01/minitap-secures-41m-to-make-mobile-development-10x-faster-with-ai/",
+      "quote": "co-founder Luc Mahoux-Nakamura"
+    },
+    {
+      "field": "sectors",
+      "url": "https://tech.eu/2025/12/01/minitap-secures-41m-to-make-mobile-development-10x-faster-with-ai/",
+      "quote": "an AI-powered mobile development platform"
+    },
+    {
+      "field": "status",
+      "url": "https://tech.eu/2025/12/01/minitap-secures-41m-to-make-mobile-development-10x-faster-with-ai/",
+      "quote": "has raised $4.1 million in seed funding"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://tech.eu/2025/12/01/minitap-secures-41m-to-make-mobile-development-10x-faster-with-ai/",
+      "quote": "has raised $4.1 million in seed funding"
+    },
+    {
+      "field": "programs",
+      "url": "https://www.ewor.com/startups/minitap",
+      "quote": "minitap enables AI agents to reliably operate any mobile app"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "seed",
+      "month": "2025-12",
+      "amountEur": 3520522,
+      "amountOriginal": 4100000,
+      "currency": "USD",
+      "investors": [
+        "Moxxie Ventures",
+        "Mercuri",
+        "EWOR",
+        "Tekton Ventures",
+        "Amigos Venture Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2025/12/01/minitap-secures-41m-to-make-mobile-development-10x-faster-with-ai/",
+          "quote": "has raised $4.1 million in seed funding"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2025/12/01/minitap-secures-41m-to-make-mobile-development-10x-faster-with-ai/",
+          "quote": "01 December 2025"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2025/12/01/minitap-secures-41m-to-make-mobile-development-10x-faster-with-ai/",
+          "quote": "The round was co-led by"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "id": "langwatch",
+  "name": "LangWatch",
+  "aliases": [],
+  "domain": "langwatch.ai",
+  "country": "NL",
+  "city": "Amsterdam",
+  "founded": 2023,
+  "sectors": [
+    "ai",
+    "saas"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Manouk Draisma",
+    "Rogerio Chaves"
+  ],
+  "difficulty": 5,
+  "programs": [
+    {
+      "id": "antler"
+    }
+  ],
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://siliconcanals.com/langwatch-raises-e1m-in-pre-seed-round/",
+      "quote": "Amsterdam-based LangWatch"
+    },
+    {
+      "field": "founded",
+      "url": "https://vestbee.com/blog/articles/lang-watch-raises-1-m",
+      "quote": "Founded in 2023 by Manouk Draisma and Rogerio Chaves"
+    },
+    {
+      "field": "founders",
+      "url": "https://siliconcanals.com/langwatch-raises-e1m-in-pre-seed-round/",
+      "quote": "LangWatch was founded by Rogerio Chaves and Manouk Draisma"
+    },
+    {
+      "field": "sectors",
+      "url": "https://siliconcanals.com/langwatch-raises-e1m-in-pre-seed-round/",
+      "quote": "a startup developing the first LLMOps (Large Language Model Operations) platform"
+    },
+    {
+      "field": "status",
+      "url": "https://www.respan.ai/market-map/langwatch/alternatives",
+      "quote": "LangWatch is an open-source LLMOps platform focused on testing, evaluating, and monitoring AI agents."
+    },
+    {
+      "field": "programs",
+      "url": "https://siliconcanals.com/langwatch-raises-e1m-in-pre-seed-round/",
+      "quote": "who met during an Antler residency in Amsterdam"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "pre-seed",
+      "month": "2025-02",
+      "amountEur": 1000000,
+      "amountOriginal": 1000000,
+      "currency": "EUR",
+      "investors": [
+        "Passion Capital",
+        "Volta Ventures",
+        "Antler"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://siliconcanals.com/langwatch-raises-e1m-in-pre-seed-round/",
+          "quote": "has secured €1M in a pre-seed round of funding"
+        },
+        {
+          "field": "month",
+          "url": "https://siliconcanals.com/langwatch-raises-e1m-in-pre-seed-round/",
+          "quote": "Published Feb 25, 2025"
+        },
+        {
+          "field": "investors",
+          "url": "https://siliconcanals.com/langwatch-raises-e1m-in-pre-seed-round/",
+          "quote": "The round was led by Passion Capital"
+        }
+      ]
+    }
+  ]
+}

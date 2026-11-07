@@ -1,0 +1,147 @@
+{
+  "id": "konux",
+  "name": "KONUX",
+  "aliases": [
+    "Konux"
+  ],
+  "domain": "konux.com",
+  "country": "DE",
+  "city": "Munich",
+  "founded": 2014,
+  "sectors": [
+    "ai",
+    "mobility"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Andreas Loy",
+    "Dennis Humhal",
+    "Vlad Lata",
+    "Maximilian Hasler"
+  ],
+  "difficulty": 4,
+  "programs": [
+    {
+      "id": "cdtm"
+    }
+  ],
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://konux.com/konux-secures-usd-80-million-in-series-c-financing-round/",
+      "quote": "KONUX, the Munich-based AI scale up"
+    },
+    {
+      "field": "founded",
+      "url": "https://en.wikipedia.org/wiki/Konux",
+      "quote": "KONUX was founded in 2014 by Andreas Loy (previously Kunze), Dennis Humhal, Vlad Lata, and Maximilian Hasler"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Konux",
+      "quote": "KONUX was founded in 2014 by Andreas Loy (previously Kunze), Dennis Humhal, Vlad Lata, and Maximilian Hasler"
+    },
+    {
+      "field": "sectors",
+      "url": "https://konux.com/konux-secures-usd-80-million-in-series-c-financing-round/",
+      "quote": "KONUX is building SaaS products, using IIoT devices and machine learning to improve railway network capacity"
+    },
+    {
+      "field": "status",
+      "url": "https://konux.com/konux-secures-usd-80-million-in-series-c-financing-round/",
+      "quote": "KONUX, the Munich-based AI scale up"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://konux.com/konux-secures-usd-80-million-in-series-c-financing-round/",
+      "quote": "has successfully secured a USD 80m Series C financing round"
+    },
+    {
+      "field": "programs",
+      "url": "https://www.cdtm.com/startups/konux",
+      "quote": "CDTM founders Maximilian Hasler Class of Fall 2014"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-b",
+      "month": "2018-04",
+      "amountEur": 16375993,
+      "amountOriginal": 20000000,
+      "currency": "USD",
+      "investors": [
+        "New Enterprise Associates",
+        "MIG Fonds"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.munich-startup.de/en/35530/konux-series-b-financing-round/",
+          "quote": "Das Transaktionsvolumen beläuft sich auf insgesamt 20 Millionen US-Dollar"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.munich-startup.de/en/35530/konux-series-b-financing-round/",
+          "quote": "Erfolgreiche Serie-B-Finanzierungsrunde für KONUX"
+        },
+        {
+          "field": "month",
+          "url": "https://www.munich-startup.de/en/35530/konux-series-b-financing-round/",
+          "quote": "24. April 2018"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.munich-startup.de/en/35530/konux-series-b-financing-round/",
+          "quote": "Angeführt wird diese interne Runde von New Enterprise Associates (NEA)"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.munich-startup.de/en/35530/konux-series-b-financing-round/",
+          "quote": "Die MIG Fonds und alle anderen bestehenden Investoren"
+        }
+      ]
+    },
+    {
+      "stage": "series-c",
+      "month": "2021-01",
+      "amountEur": 65984823,
+      "amountOriginal": 80000000,
+      "currency": "USD",
+      "investors": [
+        "Sanno Capital",
+        "Athos",
+        "DIVC",
+        "New Enterprise Associates",
+        "Dick Kramlich"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://konux.com/konux-secures-usd-80-million-in-series-c-financing-round/",
+          "quote": "has successfully secured a USD 80m Series C financing round"
+        },
+        {
+          "field": "stage",
+          "url": "https://konux.com/konux-secures-usd-80-million-in-series-c-financing-round/",
+          "quote": "has successfully secured a USD 80m Series C financing round"
+        },
+        {
+          "field": "month",
+          "url": "https://konux.com/konux-secures-usd-80-million-in-series-c-financing-round/",
+          "quote": "Jan 14, 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://konux.com/konux-secures-usd-80-million-in-series-c-financing-round/",
+          "quote": "led by impact investor Sanno Capital. New to the round is technology investor Athos"
+        },
+        {
+          "field": "investors",
+          "url": "https://konux.com/konux-secures-usd-80-million-in-series-c-financing-round/",
+          "quote": "including DIVC, and leading Silicon Valley VC New Enterprise Associates (NEA)"
+        }
+      ]
+    }
+  ]
+}

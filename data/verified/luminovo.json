@@ -1,0 +1,105 @@
+{
+  "id": "luminovo",
+  "name": "Luminovo",
+  "aliases": [],
+  "domain": "luminovo.com",
+  "country": "DE",
+  "city": "Munich",
+  "founded": 2020,
+  "sectors": [
+    "saas"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Timon Ruban",
+    "Sebastian Schaal"
+  ],
+  "difficulty": 4,
+  "programs": [
+    {
+      "id": "cdtm"
+    }
+  ],
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.munich-startup.de/en/startups/luminovo-gmbh/",
+      "quote": "Luminovo was founded in Munich"
+    },
+    {
+      "field": "founded",
+      "url": "https://www.munich-startup.de/en/startups/luminovo-gmbh/",
+      "quote": "Luminovo GmbH Founded 2020"
+    },
+    {
+      "field": "founders",
+      "url": "https://www.munich-startup.de/en/139145/luminovo-secures-11-million-euros/",
+      "quote": "The Luminovo founders Timon Ruban and Sebastian Schaal"
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.munich-startup.de/en/139145/luminovo-secures-11-million-euros/",
+      "quote": "Luminovo offers a SaaS solution to digitalize and automate development processes for new electronics products"
+    },
+    {
+      "field": "status",
+      "url": "https://www.munich-startup.de/en/139145/luminovo-secures-11-million-euros/",
+      "quote": "Munich-based startup Luminovo has successfully completed another seed round"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://www.munich-startup.de/en/139145/luminovo-secures-11-million-euros/",
+      "quote": "another seed round worth 11 million euros"
+    },
+    {
+      "field": "programs",
+      "url": "https://www.cdtm.com/startups/luminovo",
+      "quote": "CDTM founders Sebastian Schaal Class of Spring 2014"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "seed",
+      "month": "2022-08",
+      "amountEur": 11000000,
+      "amountOriginal": 11000000,
+      "currency": "EUR",
+      "investors": [
+        "Chalfen Ventures",
+        "Tencent",
+        "Verve Ventures",
+        "Khadjavi Capital Partners",
+        "La Famiglia",
+        "Cherry Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.munich-startup.de/en/139145/luminovo-secures-11-million-euros/",
+          "quote": "another seed round worth 11 million euros"
+        },
+        {
+          "field": "month",
+          "url": "https://www.munich-startup.de/en/139145/luminovo-secures-11-million-euros/",
+          "quote": "August 22, 2022"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.munich-startup.de/en/139145/luminovo-secures-11-million-euros/",
+          "quote": "The lead investor in the now completed 11 million euro financing round is Chalfen Ventures from London"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.munich-startup.de/en/139145/luminovo-secures-11-million-euros/",
+          "quote": "Other investors include Tencent, Verve Ventures, and Khadjavi Capital Partners"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.munich-startup.de/en/139145/luminovo-secures-11-million-euros/",
+          "quote": "Existing investors La Famiglia and Cherry Ventures are also participating in the round"
+        }
+      ]
+    }
+  ]
+}

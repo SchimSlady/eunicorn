@@ -51,6 +51,11 @@
       "field": "valuation",
       "url": "https://techcrunch.com/2021/10/25/tier-scoots-off-with-first-close-of-its-200m-series-d",
       "quote": "Tier said its micromobility business is now valued at $2 billion"
+    },
+    {
+      "field": "programs",
+      "url": "https://www.cdtm.com/startups/tier-mobility",
+      "quote": "CDTM founders Julian Blessin Class of Fall 2004"
     }
   ],
   "rounds": [
@@ -126,5 +131,10 @@
       ]
     }
   ],
-  "lastValuationEur": 1723692149
+  "lastValuationEur": 1723692149,
+  "programs": [
+    {
+      "id": "cdtm"
+    }
+  ]
 }

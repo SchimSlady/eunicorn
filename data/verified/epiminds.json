@@ -1,0 +1,93 @@
+{
+  "id": "epiminds",
+  "name": "Epiminds",
+  "aliases": [],
+  "domain": "epiminds.com",
+  "country": "SE",
+  "city": "Stockholm",
+  "founded": 2025,
+  "sectors": [
+    "ai",
+    "saas"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Elias Malm",
+    "Mo Elkhidir"
+  ],
+  "difficulty": 5,
+  "programs": [
+    {
+      "id": "ewor"
+    }
+  ],
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.startuphub.ai/ai-news/startup-news/2025/google-news-alums-ai-marketing-manager-raises-6-6m/",
+      "quote": "The Stockholm-based company emerged from stealth"
+    },
+    {
+      "field": "founded",
+      "url": "https://techfundingnews.com/swedish-epiminds-secures-6-6m-to-build-ai-powered-marketing-teams-for-the-agency-era/",
+      "quote": "Epiminds was founded in 2025 by Elias Malm"
+    },
+    {
+      "field": "founders",
+      "url": "https://techfundingnews.com/swedish-epiminds-secures-6-6m-to-build-ai-powered-marketing-teams-for-the-agency-era/",
+      "quote": "Epiminds was founded in 2025 by Elias Malm"
+    },
+    {
+      "field": "sectors",
+      "url": "https://techfundingnews.com/swedish-epiminds-secures-6-6m-to-build-ai-powered-marketing-teams-for-the-agency-era/",
+      "quote": "a virtual marketing manager supported by a team of over 20 specialised agents"
+    },
+    {
+      "field": "status",
+      "url": "https://techfundingnews.com/swedish-epiminds-secures-6-6m-to-build-ai-powered-marketing-teams-for-the-agency-era/",
+      "quote": "The Swedish startup has emerged from stealth"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://techfundingnews.com/swedish-epiminds-secures-6-6m-to-build-ai-powered-marketing-teams-for-the-agency-era/",
+      "quote": "The Swedish startup has emerged from stealth"
+    },
+    {
+      "field": "programs",
+      "url": "https://www.ewor.com/startups/epiminds",
+      "quote": "Your fully agentic AI marketing team"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "seed",
+      "month": "2025-10",
+      "amountEur": 5712802,
+      "amountOriginal": 6600000,
+      "currency": "USD",
+      "investors": [
+        "Lightspeed Venture Partners",
+        "EWOR",
+        "Entourage"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techfundingnews.com/swedish-epiminds-secures-6-6m-to-build-ai-powered-marketing-teams-for-the-agency-era/",
+          "quote": "has emerged from stealth with $6.6 million in funding"
+        },
+        {
+          "field": "month",
+          "url": "https://techfundingnews.com/swedish-epiminds-secures-6-6m-to-build-ai-powered-marketing-teams-for-the-agency-era/",
+          "quote": "October 14, 2025"
+        },
+        {
+          "field": "investors",
+          "url": "https://techfundingnews.com/swedish-epiminds-secures-6-6m-to-build-ai-powered-marketing-teams-for-the-agency-era/",
+          "quote": "and leading angels such as the former CMO of Booking.com"
+        }
+      ]
+    }
+  ]
+}

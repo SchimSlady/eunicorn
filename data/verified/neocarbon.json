@@ -1,0 +1,114 @@
+{
+  "id": "neocarbon",
+  "name": "NeoCarbon",
+  "aliases": [
+    "Neo Carbon"
+  ],
+  "domain": "neocarbon.tech",
+  "country": "DE",
+  "city": "Berlin",
+  "founded": 2022,
+  "sectors": [
+    "climate"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "René Haas",
+    "Silvain Toromanoff"
+  ],
+  "difficulty": 5,
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://siliconcanals.com/german-neocarbon-bags-3-2m/",
+      "quote": "Berlin-based NeoCarbon, a cleantech startup that retrofits industrial sites to remove CO2 from the atmosphere"
+    },
+    {
+      "field": "founded",
+      "url": "https://www.startbase.com/news/neo-carbon-sammelt-125-millionen-euro-ein/",
+      "quote": "It was only founded in January 2022 by René Haas and Silvain Toromanoff"
+    },
+    {
+      "field": "founders",
+      "url": "https://www.startbase.com/news/neo-carbon-sammelt-125-millionen-euro-ein/",
+      "quote": "It was only founded in January 2022 by René Haas and Silvain Toromanoff"
+    },
+    {
+      "field": "sectors",
+      "url": "https://siliconcanals.com/german-neocarbon-bags-3-2m/",
+      "quote": "NeoCarbon removes CO2 cost-efficiently from ambient air"
+    },
+    {
+      "field": "status",
+      "url": "https://siliconcanals.com/german-neocarbon-bags-3-2m/",
+      "quote": "Berlin-based NeoCarbon"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "pre-seed",
+      "month": "2022-09",
+      "amountEur": 1250000,
+      "amountOriginal": 1250000,
+      "currency": "EUR",
+      "investors": [
+        "PropTech1 Ventures",
+        "Speedinvest",
+        "Antler",
+        "Anna Alex",
+        "Stefano Bernardi",
+        "Matthias Ernst"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.startbase.com/news/neo-carbon-sammelt-125-millionen-euro-ein/",
+          "quote": "raised 1.25 million euros from investors"
+        },
+        {
+          "field": "month",
+          "url": "https://www.startbase.com/news/neo-carbon-sammelt-125-millionen-euro-ein/",
+          "quote": "Stuttgart, 15. September 2022"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.startbase.com/news/neo-carbon-sammelt-125-millionen-euro-ein/",
+          "quote": "The round was led by PropTech1 and Speedinvest, while existing investor Antler also invested new money in the start-up."
+        }
+      ]
+    },
+    {
+      "stage": "seed",
+      "month": "2023-12",
+      "amountEur": 3200000,
+      "amountOriginal": 3200000,
+      "currency": "EUR",
+      "investors": [
+        "RAISE Seed For Good",
+        "PropTech1 Ventures",
+        "Speedinvest",
+        "Antler",
+        "Christian Vollmann",
+        "Matthias Gotta"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://siliconcanals.com/german-neocarbon-bags-3-2m/",
+          "quote": "it has secured €3.2M in a seed round of funding"
+        },
+        {
+          "field": "month",
+          "url": "https://siliconcanals.com/german-neocarbon-bags-3-2m/",
+          "quote": "Published Dec 12, 2023"
+        },
+        {
+          "field": "investors",
+          "url": "https://siliconcanals.com/german-neocarbon-bags-3-2m/",
+          "quote": "The fund supports Europe’s responsible tech leaders with investment from PT1 – Proptech1 Ventures, Speedinvest, and Antler."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "id": "composo",
+  "name": "Composo",
+  "aliases": [],
+  "domain": "composo.ai",
+  "country": "GB",
+  "city": "London",
+  "founded": 2023,
+  "sectors": [
+    "ai"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Sebastian Fox",
+    "Luke Markham"
+  ],
+  "difficulty": 5,
+  "programs": [
+    {
+      "id": "ewor"
+    }
+  ],
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://techcrunch.com/2025/02/07/composo-helps-enterprises-monitor-how-well-ai-apps-work/",
+      "quote": "London-based startup Composo"
+    },
+    {
+      "field": "founded",
+      "url": "https://entrepreneurplus.co.uk/startups/composo/",
+      "quote": "Based in London Founded 2023"
+    },
+    {
+      "field": "founders",
+      "url": "https://techcrunch.com/2025/02/07/composo-helps-enterprises-monitor-how-well-ai-apps-work/",
+      "quote": "co-founder and CEO, Sebastian Fox"
+    },
+    {
+      "field": "founders",
+      "url": "https://techcrunch.com/2025/02/07/composo-helps-enterprises-monitor-how-well-ai-apps-work/",
+      "quote": "co-founder and CTO Luke Markham"
+    },
+    {
+      "field": "sectors",
+      "url": "https://techcrunch.com/2025/02/07/composo-helps-enterprises-monitor-how-well-ai-apps-work/",
+      "quote": "help enterprises evaluate the accuracy and quality of apps that are powered by LLMs"
+    },
+    {
+      "field": "status",
+      "url": "https://techcrunch.com/2025/02/07/composo-helps-enterprises-monitor-how-well-ai-apps-work/",
+      "quote": "London-based startup Composo"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://techcrunch.com/2025/02/07/composo-helps-enterprises-monitor-how-well-ai-apps-work/",
+      "quote": "it recently raised $2 million in pre-seed funding"
+    },
+    {
+      "field": "programs",
+      "url": "https://techcrunch.com/2025/02/07/composo-helps-enterprises-monitor-how-well-ai-apps-work/",
+      "quote": "EWOR (the latter had backed the startup through its accelerator program)"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "pre-seed",
+      "month": "2025-02",
+      "amountEur": 1927339,
+      "amountOriginal": 2000000,
+      "currency": "USD",
+      "investors": [
+        "Twin Path Ventures",
+        "JVH Ventures",
+        "EWOR"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2025/02/07/composo-helps-enterprises-monitor-how-well-ai-apps-work/",
+          "quote": "it recently raised $2 million in pre-seed funding"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2025/02/07/composo-helps-enterprises-monitor-how-well-ai-apps-work/",
+          "quote": "February 7, 2025"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2025/02/07/composo-helps-enterprises-monitor-how-well-ai-apps-work/",
+          "quote": "British AI pre-seed fund Twin Path Ventures led the seed round"
+        }
+      ]
+    }
+  ]
+}

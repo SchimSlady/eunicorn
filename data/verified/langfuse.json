@@ -1,0 +1,113 @@
+{
+  "id": "langfuse",
+  "name": "Langfuse",
+  "aliases": [],
+  "domain": "langfuse.com",
+  "country": "DE",
+  "city": "Berlin",
+  "founded": 2023,
+  "sectors": [
+    "ai",
+    "devtools"
+  ],
+  "status": "acquired",
+  "unicorn": false,
+  "founders": [
+    "Marc Klingen",
+    "Max Deichmann",
+    "Clemens Rawert"
+  ],
+  "difficulty": 4,
+  "programs": [
+    {
+      "id": "y-combinator",
+      "batch": "Winter 2023"
+    },
+    {
+      "id": "cdtm"
+    }
+  ],
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://langfuse.com/press",
+      "quote": "Headquarters: Berlin, Germany (Product & Engineering)"
+    },
+    {
+      "field": "founded",
+      "url": "https://langfuse.com/press",
+      "quote": "Company Founded: 2023"
+    },
+    {
+      "field": "founders",
+      "url": "https://langfuse.com/press",
+      "quote": "Marc Klingen Co-Founder & CEO"
+    },
+    {
+      "field": "founders",
+      "url": "https://langfuse.com/press",
+      "quote": "Max Deichmann Co-Founder & CTO"
+    },
+    {
+      "field": "founders",
+      "url": "https://langfuse.com/press",
+      "quote": "Clemens Rawert Co-Founder"
+    },
+    {
+      "field": "sectors",
+      "url": "https://langfuse.com/press",
+      "quote": "Langfuse is the open source AI engineering platform"
+    },
+    {
+      "field": "status",
+      "url": "https://langfuse.com/press",
+      "quote": "Acquired by ClickHouse: January 2026"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://langfuse.com/press",
+      "quote": "$4M Seed Round (November 2023)"
+    },
+    {
+      "field": "programs",
+      "url": "https://langfuse.com/press",
+      "quote": "Y Combinator: Winter 2023 batch (W23)"
+    },
+    {
+      "field": "programs",
+      "url": "https://www.cdtm.com/startups/langfuse",
+      "quote": "CDTM founders Marc Klingen Class of Fall 2018"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "seed",
+      "month": "2023-11",
+      "amountEur": 3680530,
+      "amountOriginal": 4000000,
+      "currency": "USD",
+      "investors": [
+        "Lightspeed Venture Partners",
+        "La Famiglia",
+        "Y Combinator"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://langfuse.com/press",
+          "quote": "Raised $4M seed round led by Lightspeed Venture Partners, La Famiglia, and Y Combinator"
+        },
+        {
+          "field": "month",
+          "url": "https://langfuse.com/press",
+          "quote": "$4M Seed Round (November 2023)"
+        },
+        {
+          "field": "investors",
+          "url": "https://langfuse.com/press",
+          "quote": "Raised $4M seed round led by Lightspeed Venture Partners, La Famiglia, and Y Combinator"
+        }
+      ]
+    }
+  ]
+}

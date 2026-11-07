@@ -72,6 +72,11 @@
       "field": "fun_fact",
       "url": "https://www.cnbc.com/2021/11/22/how-personio-ceo-hanno-renner-built-a-6point3-billion-company.html",
       "quote": "As students, they didn't have an office"
+    },
+    {
+      "field": "programs",
+      "url": "https://www.cdtm.com/startups/personio",
+      "quote": "CDTM founders Arseniy Vershinin Class of Spring 2014"
     }
   ],
   "rounds": [
@@ -334,6 +339,11 @@
           "quote": "valued at $8.5 billion"
         }
       ]
+    }
+  ],
+  "programs": [
+    {
+      "id": "cdtm"
     }
   ]
 }

@@ -1,0 +1,97 @@
+{
+  "id": "aeon",
+  "name": "Aeon",
+  "aliases": [
+    "aeon.life"
+  ],
+  "domain": "aeon.life",
+  "country": "CH",
+  "city": "Zurich",
+  "founded": 2023,
+  "sectors": [
+    "health",
+    "ai"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Tim Seithe"
+  ],
+  "difficulty": 5,
+  "programs": [
+    {
+      "id": "ewor"
+    }
+  ],
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://techfundingnews.com/swiss-healthtech-aeon-acquires-germanys-aware-health-as-seed-funding-tops-14m/",
+      "quote": "Zurich-based Aeon wants to change that"
+    },
+    {
+      "field": "founded",
+      "url": "https://techfundingnews.com/swiss-healthtech-aeon-acquires-germanys-aware-health-as-seed-funding-tops-14m/",
+      "quote": "Aeon was founded in 2023 by Tim Seithe"
+    },
+    {
+      "field": "founders",
+      "url": "https://techfundingnews.com/swiss-healthtech-aeon-acquires-germanys-aware-health-as-seed-funding-tops-14m/",
+      "quote": "Aeon was founded in 2023 by Tim Seithe"
+    },
+    {
+      "field": "sectors",
+      "url": "https://startuprise.co.uk/swiss-healthtech-startup-aeon-secures-e8-2m-in-seed-round/",
+      "quote": "Aeon combines full-body MRI scans, advanced blood biomarkers, and genetic data"
+    },
+    {
+      "field": "status",
+      "url": "https://techfundingnews.com/swiss-healthtech-aeon-acquires-germanys-aware-health-as-seed-funding-tops-14m/",
+      "quote": "Zurich-based Aeon wants to change that"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://startuprise.co.uk/swiss-healthtech-startup-aeon-secures-e8-2m-in-seed-round/",
+      "quote": "Swiss health startup Aeon has raised €8.2 million in seed funding"
+    },
+    {
+      "field": "programs",
+      "url": "https://www.ewor.com/startups/aeon-life",
+      "quote": "Aeon combines whole-body MRI with blood and genetic data"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "seed",
+      "month": "2025-06",
+      "amountEur": 8200000,
+      "amountOriginal": 8200000,
+      "currency": "EUR",
+      "investors": [
+        "Concentric",
+        "Calm/Storm Ventures",
+        "GoHub Ventures",
+        "Kadmos Capital",
+        "EWOR",
+        "Daniel Gutenberg"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://startuprise.co.uk/swiss-healthtech-startup-aeon-secures-e8-2m-in-seed-round/",
+          "quote": "Swiss health startup Aeon has raised €8.2 million in seed funding"
+        },
+        {
+          "field": "month",
+          "url": "https://startuprise.co.uk/swiss-healthtech-startup-aeon-secures-e8-2m-in-seed-round/",
+          "quote": "Jun 4, 2025"
+        },
+        {
+          "field": "investors",
+          "url": "https://startuprise.co.uk/swiss-healthtech-startup-aeon-secures-e8-2m-in-seed-round/",
+          "quote": "The funding round was led by VC firm Concentric"
+        }
+      ]
+    }
+  ]
+}

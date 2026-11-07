@@ -1,0 +1,103 @@
+{
+  "id": "alasco",
+  "name": "Alasco",
+  "aliases": [],
+  "domain": "alasco.de",
+  "country": "DE",
+  "city": "Munich",
+  "founded": 2018,
+  "sectors": [
+    "saas",
+    "proptech"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Anselm Bauer",
+    "Benjamin Günther",
+    "Sebastian Schuon"
+  ],
+  "difficulty": 4,
+  "programs": [
+    {
+      "id": "cdtm"
+    }
+  ],
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.thesaasnews.com/news/alasco-raises-40-million-in-series-b/",
+      "quote": "Alasco, a Munich-based company"
+    },
+    {
+      "field": "founded",
+      "url": "https://www.munich-startup.de/en/startups/alasco-gmbh/",
+      "quote": "Alasco GmbH Founded 2018"
+    },
+    {
+      "field": "founders",
+      "url": "https://www.munich-startup.de/en/startups/alasco-gmbh/",
+      "quote": "The company was founded by Anselm Bauer, Benjamin Günther, and Sebastian Schuon"
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.thesaasnews.com/news/alasco-raises-40-million-in-series-b/",
+      "quote": "cloud-based financial management platform for real estate projects"
+    },
+    {
+      "field": "status",
+      "url": "https://www.thesaasnews.com/news/alasco-raises-40-million-in-series-b/",
+      "quote": "Alasco, a Munich-based company"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://www.thesaasnews.com/news/alasco-raises-40-million-in-series-b/",
+      "quote": "announced that it raised $40 million in Series B funding"
+    },
+    {
+      "field": "programs",
+      "url": "https://www.cdtm.com/startups/alasco",
+      "quote": "CDTM founders Anselm Bauer Class of Fall 2006"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-b",
+      "month": "2022-01",
+      "amountEur": 35285815,
+      "amountOriginal": 40000000,
+      "currency": "USD",
+      "investors": [
+        "Insight Partners",
+        "Lightrock"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.thesaasnews.com/news/alasco-raises-40-million-in-series-b/",
+          "quote": "announced that it raised $40 million in Series B funding"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.thesaasnews.com/news/alasco-raises-40-million-in-series-b/",
+          "quote": "announced that it raised $40 million in Series B funding"
+        },
+        {
+          "field": "month",
+          "url": "https://www.munich-startup.de/news/alasco-series-b",
+          "quote": "11. Januar 2022"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.thesaasnews.com/news/alasco-raises-40-million-in-series-b/",
+          "quote": "The round was led by Insight Partners"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.munich-startup.de/news/alasco-series-b",
+          "quote": "Auch die auf nachhaltige Lösungen spezialisierte globale Private Equity-Plattform Lightrock mit Sitz in London investiert in Alasco"
+        }
+      ]
+    }
+  ]
+}

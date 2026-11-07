@@ -1,0 +1,167 @@
+{
+  "id": "deskbird",
+  "name": "deskbird",
+  "aliases": [
+    "DeskBird"
+  ],
+  "domain": "deskbird.com",
+  "country": "CH",
+  "city": "St. Gallen",
+  "founded": 2020,
+  "sectors": [
+    "saas"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Ivan Cossu",
+    "Jonas Hess"
+  ],
+  "difficulty": 4,
+  "programs": [
+    {
+      "id": "cdtm"
+    }
+  ],
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.deskbird.com/press-releases/series-a-funding",
+      "quote": "St. Gallen, Switzerland, 6th of September, 2023"
+    },
+    {
+      "field": "founded",
+      "url": "https://www.deskbird.com/about",
+      "quote": "Founded in 2020, deskbird started as a simple tool to book desks"
+    },
+    {
+      "field": "founders",
+      "url": "https://www.deskbird.com/press-releases/series-a-funding",
+      "quote": "deskbird founders Ivan Cossu, CEO, and Jonas Hess, CPO"
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.deskbird.com/press-releases/series-a-funding",
+      "quote": "a Swiss software-as-a-service (SaaS) workplace management company"
+    },
+    {
+      "field": "status",
+      "url": "https://www.deskbird.com/press-releases/23-million-series-b",
+      "quote": "has raised $23 million in Series B funding"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://www.deskbird.com/press-releases/23-million-series-b",
+      "quote": "has raised $23 million in Series B funding"
+    },
+    {
+      "field": "programs",
+      "url": "https://www.cdtm.com/startups/deskbird",
+      "quote": "CDTM founders Jonas Hess Class of Spring 2012"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "seed",
+      "month": "2022-08",
+      "amountEur": 4999500,
+      "amountOriginal": 5000000,
+      "currency": "USD",
+      "investors": [
+        "Fortyone",
+        "Rivus Capital",
+        "session.vc"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://deskbird.com/press-releases/5-million-for-growth-across-europe",
+          "quote": "announced the closing of a $5 million Pre-Series A financing round"
+        },
+        {
+          "field": "month",
+          "url": "https://deskbird.com/press-releases/5-million-for-growth-across-europe",
+          "quote": "AUGUST 22, 2022"
+        },
+        {
+          "field": "investors",
+          "url": "https://deskbird.com/press-releases/5-million-for-growth-across-europe",
+          "quote": "Investors Fortyone and Rivus Capital as well as existing investor session.vc led the round"
+        }
+      ]
+    },
+    {
+      "stage": "series-a",
+      "month": "2023-09",
+      "amountEur": 12098651,
+      "amountOriginal": 13000000,
+      "currency": "USD",
+      "investors": [
+        "ALSTIN Capital",
+        "AVP",
+        "session.vc",
+        "Rivus Capital",
+        "PortfoLion"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.deskbird.com/press-releases/series-a-funding",
+          "quote": "receives $13 million from ALSTIN Capital and AVP (AXA Venture Partners) in its Series A funding"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.deskbird.com/press-releases/series-a-funding",
+          "quote": "receives $13 million from ALSTIN Capital and AVP (AXA Venture Partners) in its Series A funding"
+        },
+        {
+          "field": "month",
+          "url": "https://www.deskbird.com/press-releases/series-a-funding",
+          "quote": "September 6, 2023"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.deskbird.com/press-releases/series-a-funding",
+          "quote": "with participation from existing investors, such as session.vc , Rivus Capital , and PortfoLion"
+        }
+      ]
+    },
+    {
+      "stage": "series-b",
+      "month": "2025-09",
+      "amountEur": 19564478,
+      "amountOriginal": 23000000,
+      "currency": "USD",
+      "investors": [
+        "Octopus Ventures",
+        "Neva SGR",
+        "AVP",
+        "Alstin Capital",
+        "Session",
+        "PortfoLion"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.deskbird.com/press-releases/23-million-series-b",
+          "quote": "has raised $23 million in Series B funding"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.deskbird.com/press-releases/23-million-series-b",
+          "quote": "has raised $23 million in Series B funding"
+        },
+        {
+          "field": "month",
+          "url": "https://www.deskbird.com/press-releases/23-million-series-b",
+          "quote": "September 24, 2025"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.deskbird.com/press-releases/23-million-series-b",
+          "quote": "The round was led by Octopus Ventures, with co-investments from Neva SGR (Intesa Sanpaolo Bank) and AVP, alongside participation from Alstin Capital, Session, and PortfoLion"
+        }
+      ]
+    }
+  ]
+}

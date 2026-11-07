@@ -45,6 +45,11 @@
       "field": "fun_fact",
       "url": "https://en.wikipedia.org/wiki/Freeletics",
       "quote": "The initial product launch consisted of a YouTube video, a newsletter, and three PDFs."
+    },
+    {
+      "field": "programs",
+      "url": "https://www.cdtm.com/startups/freeletics",
+      "quote": "CDTM founders Joshua Cornelius Class of Fall 2009"
     }
   ],
   "rounds": [
@@ -87,6 +92,11 @@
           "quote": "Dazu kommt der tschechische Finanzinvestor KKCG."
         }
       ]
+    }
+  ],
+  "programs": [
+    {
+      "id": "cdtm"
     }
   ]
 }

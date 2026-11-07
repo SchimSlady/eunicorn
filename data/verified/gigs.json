@@ -43,6 +43,11 @@
       "field": "status",
       "url": "https://tech.eu/2024/12/12/gigs-raises-73m-in-series-b/",
       "quote": "it has raised a $73 million Series B led by Ribbit Capital"
+    },
+    {
+      "field": "programs",
+      "url": "https://yc-oss.github.io/api/batches/winter-2021/gigs.json",
+      "quote": "\"batch\": \"Winter 2021\""
     }
   ],
   "rounds": [
@@ -115,6 +120,12 @@
           "quote": "12 December 2024"
         }
       ]
+    }
+  ],
+  "programs": [
+    {
+      "id": "y-combinator",
+      "batch": "Winter 2021"
     }
   ]
 }

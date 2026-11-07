@@ -1,0 +1,136 @@
+{
+  "id": "telli",
+  "name": "telli",
+  "aliases": [
+    "telli Technologies"
+  ],
+  "domain": "telli.com",
+  "country": "DE",
+  "city": "Berlin",
+  "founded": 2024,
+  "sectors": [
+    "ai",
+    "saas"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Seb Hapte-Selassie",
+    "Philipp Baumanns",
+    "Finn zur Mühlen"
+  ],
+  "difficulty": 5,
+  "programs": [
+    {
+      "id": "y-combinator",
+      "batch": "Fall 2024"
+    }
+  ],
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://vestbee.com/insights/articles/berlin-based-telli-raises-15-m-to-scale-ai-agents-for-customer-facing-operations",
+      "quote": "Berlin-based AI startup telli has raised $15 million in a seed funding round"
+    },
+    {
+      "field": "founded",
+      "url": "https://vestbee.com/insights/articles/berlin-based-telli-raises-15-m-to-scale-ai-agents-for-customer-facing-operations",
+      "quote": "Founded in 2024 by Seb Hapte-Selassie, Philipp Baumanns, and Finn zur Mühlen"
+    },
+    {
+      "field": "founders",
+      "url": "https://vestbee.com/insights/articles/berlin-based-telli-raises-15-m-to-scale-ai-agents-for-customer-facing-operations",
+      "quote": "Founded in 2024 by Seb Hapte-Selassie, Philipp Baumanns, and Finn zur Mühlen"
+    },
+    {
+      "field": "sectors",
+      "url": "https://vestbee.com/insights/articles/berlin-based-telli-raises-15-m-to-scale-ai-agents-for-customer-facing-operations",
+      "quote": "telli develops an AI platform that enables businesses to automate customer-facing operations across voice calls, chat, SMS, WhatsApp, and email"
+    },
+    {
+      "field": "status",
+      "url": "https://vestbee.com/insights/articles/berlin-based-telli-raises-15-m-to-scale-ai-agents-for-customer-facing-operations",
+      "quote": "Berlin-based AI startup telli has raised $15 million in a seed funding round"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://vestbee.com/insights/articles/berlin-based-telli-raises-15-m-to-scale-ai-agents-for-customer-facing-operations",
+      "quote": "The round brings the company's total funding to more than $18.5 million."
+    },
+    {
+      "field": "programs",
+      "url": "https://yc-oss.github.io/api/batches/fall-2024/telli.json",
+      "quote": "\"batch\": \"Fall 2024\""
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "pre-seed",
+      "month": "2025-04",
+      "amountEur": 3179089,
+      "amountOriginal": 3600000.0,
+      "currency": "USD",
+      "investors": [
+        "Cherry Ventures",
+        "Y Combinator"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2025/04/15/telli-a-yc-alum-raises-pre-seed-funding-for-its-an-ai-voice-agents",
+          "quote": "The Berlin-based startup has now raised $3.6 million in a pre-seed funding round led by Berlin’s Cherry Ventures and Y Combinator."
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2025/04/15/telli-a-yc-alum-raises-pre-seed-funding-for-its-an-ai-voice-agents",
+          "quote": "The Berlin-based startup has now raised $3.6 million in a pre-seed funding round led by Berlin’s Cherry Ventures and Y Combinator."
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2025/04/15/telli-a-yc-alum-raises-pre-seed-funding-for-its-an-ai-voice-agents",
+          "quote": "April 15, 2025"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2025/04/15/telli-a-yc-alum-raises-pre-seed-funding-for-its-an-ai-voice-agents",
+          "quote": "The Berlin-based startup has now raised $3.6 million in a pre-seed funding round led by Berlin’s Cherry Ventures and Y Combinator."
+        }
+      ]
+    },
+    {
+      "stage": "seed",
+      "month": "2026-07",
+      "amountEur": 13167135,
+      "amountOriginal": 15000000.0,
+      "currency": "USD",
+      "investors": [
+        "redalpine",
+        "Cherry Ventures",
+        "Y Combinator",
+        "Mutschler Ventures AG"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://vestbee.com/insights/articles/berlin-based-telli-raises-15-m-to-scale-ai-agents-for-customer-facing-operations",
+          "quote": "has raised $15 million in a seed funding round led by redalpine, with participation from Cherry Ventures, Y Combinator, Mutschler Ventures AG, and several angel investors"
+        },
+        {
+          "field": "stage",
+          "url": "https://vestbee.com/insights/articles/berlin-based-telli-raises-15-m-to-scale-ai-agents-for-customer-facing-operations",
+          "quote": "has raised $15 million in a seed funding round led by redalpine, with participation from Cherry Ventures, Y Combinator, Mutschler Ventures AG, and several angel investors"
+        },
+        {
+          "field": "month",
+          "url": "https://vestbee.com/insights/articles/berlin-based-telli-raises-15-m-to-scale-ai-agents-for-customer-facing-operations",
+          "quote": "July 23, 2026"
+        },
+        {
+          "field": "investors",
+          "url": "https://vestbee.com/insights/articles/berlin-based-telli-raises-15-m-to-scale-ai-agents-for-customer-facing-operations",
+          "quote": "has raised $15 million in a seed funding round led by redalpine, with participation from Cherry Ventures, Y Combinator, Mutschler Ventures AG, and several angel investors"
+        }
+      ]
+    }
+  ]
+}

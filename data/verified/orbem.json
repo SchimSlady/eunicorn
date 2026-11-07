@@ -56,6 +56,11 @@
       "field": "fun_fact",
       "url": "https://siliconcanals.com/orbem-raises-30m/",
       "quote": "determine the sex of an egg in a completely contactless and non-invasive manner, delivering results in just one second per egg"
+    },
+    {
+      "field": "programs",
+      "url": "https://www.cdtm.com/startups/orbem",
+      "quote": "CDTM founders Pedro Gómez Class of Spring 2014"
     }
   ],
   "rounds": [
@@ -147,6 +152,11 @@
           "quote": "led by European Deep tech investors Innovation Industries and joined by Supernova Invest as well as existing investors."
         }
       ]
+    }
+  ],
+  "programs": [
+    {
+      "id": "cdtm"
     }
   ]
 }

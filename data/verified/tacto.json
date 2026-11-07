@@ -37,6 +37,11 @@
       "field": "sectors",
       "url": "https://www.indexventures.com/perspectives/tacto-secures-50m-to-tackle-disruptions-and-bureaucracy-in-industrial-supply-chains/",
       "quote": "Tacto is an AI-based supply-chain operating system tailored specifically to the needs of mid-sized industrial companies."
+    },
+    {
+      "field": "programs",
+      "url": "https://www.cdtm.com/startups/tacto",
+      "quote": "CDTM founders André Petry Class of Fall 2017"
     }
   ],
   "rounds": [
@@ -115,6 +120,11 @@
           "quote": "December 12, 2023"
         }
       ]
+    }
+  ],
+  "programs": [
+    {
+      "id": "cdtm"
     }
   ]
 }
