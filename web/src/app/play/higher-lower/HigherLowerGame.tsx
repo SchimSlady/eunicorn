@@ -360,10 +360,8 @@ export function HigherLowerGame({ region }: { region?: Region } = {}) {
             </>
           ) : (
             <>
-              {/* Same line as the left panel's "has raised €7.8bn", so it is clear what the buttons compare. */}
-              <span className="text-sm text-white/70">
-                {phrase.has} <span className="font-display font-bold text-eu-yellow">?</span>
-              </span>
+              {/* Same label as the left panel's "has raised €7.8bn", so it is clear what the buttons compare. */}
+              <span className="text-sm text-white/70">{phrase.has}</span>
               <div className={`mt-1 grid w-full grid-cols-2 gap-2 sm:max-w-56 sm:grid-cols-1 ${moving ? "animate-hl-buttons" : ""}`}>
                 {(TIME_METRICS.includes(play.metric) ? (["lower", "higher"] as const) : (["higher", "lower"] as const)).map((call) => (
                   <button
