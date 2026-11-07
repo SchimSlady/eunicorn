@@ -1,0 +1,166 @@
+{
+  "id": "wemolo",
+  "name": "Wemolo",
+  "aliases": [
+    "Parkdepot"
+  ],
+  "domain": "wemolo.com",
+  "country": "DE",
+  "city": "Munich",
+  "founded": 2019,
+  "sectors": [
+    "mobility",
+    "ai"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Bastian Pieper",
+    "Jakob Bodenmüller",
+    "Yukio Iwamoto"
+  ],
+  "difficulty": 4,
+  "programs": [
+    {
+      "id": "manage-and-more"
+    },
+    {
+      "id": "start-munich"
+    }
+  ],
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.wemolo.com/en-de/pressemitteilung/munchner-scale-up-wemolo-erreicht-profitabilitat-bei-40-mio-euro-jahresumsatz",
+      "quote": "the Munich-based company Wemolo"
+    },
+    {
+      "field": "founded",
+      "url": "https://www.munich-startup.de/en/news/parking-startup-wemolo-secures-funding",
+      "quote": "Founded in 2019, the company now employs more than 230 employees in Munich"
+    },
+    {
+      "field": "founded",
+      "url": "https://www.wemolo.com/en-de/pressemitteilung/munchner-scale-up-wemolo-erreicht-profitabilitat-bei-40-mio-euro-jahresumsatz",
+      "quote": "Originally created in July 2019 from a project by UnternehmerTUM"
+    },
+    {
+      "field": "founders",
+      "url": "https://www.wemolo.com/en-de/about-us",
+      "quote": "The founding team Bastian Pieper"
+    },
+    {
+      "field": "founders",
+      "url": "https://www.munich-startup.de/87781/parkdepot-series-a/",
+      "quote": "Jakob Bodenmüller , Gründer und Co-CEO von Parkdepot"
+    },
+    {
+      "field": "founders",
+      "url": "https://www.munich-startup.de/87781/parkdepot-series-a/",
+      "quote": "Yukio Iwamoto , Gründer und Co-CEO von Parkdepot"
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.wemolo.com/en-de/pressemitteilung/munchner-scale-up-wemolo-erreicht-profitabilitat-bei-40-mio-euro-jahresumsatz",
+      "quote": "Wemolo now operates AI-based camera systems for license plate recognition and billing"
+    },
+    {
+      "field": "status",
+      "url": "https://www.wemolo.com/en-de/pressemitteilung/munchner-scale-up-wemolo-erreicht-profitabilitat-bei-40-mio-euro-jahresumsatz",
+      "quote": "Munich-based scale-up Wemolo achieves profitability with annual revenue of 40 million euros"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://www.wemolo.com/en-de/pressemitteilung/munchner-scale-up-wemolo-erreicht-profitabilitat-bei-40-mio-euro-jahresumsatz",
+      "quote": "After several rounds of financing totaling around €30 million"
+    },
+    {
+      "field": "employees",
+      "url": "https://www.wemolo.com/en-de/pressemitteilung/munchner-scale-up-wemolo-erreicht-profitabilitat-bei-40-mio-euro-jahresumsatz",
+      "quote": "The company currently employs around 250 people"
+    },
+    {
+      "field": "programs",
+      "url": "https://www.manageandmore.de/start-ups/",
+      "quote": "Parkdepot www.park-depot.com"
+    },
+    {
+      "field": "programs",
+      "url": "https://www.startmunich.de/api/startups",
+      "quote": "\"name\":\"Wemolo\",\"website\":\"www.wemolo.com/\""
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "seed",
+      "month": "2021-03",
+      "amountEur": 4200000,
+      "amountOriginal": 4200000,
+      "currency": "EUR",
+      "investors": [
+        "henQ"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2021/03/31/munich-based-parkdepot-raises-e4-2-million-in-seed-round",
+          "quote": "has raised €4.2 million in a recent seed round. Led by Amsterdam-based henQ"
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2021/03/31/munich-based-parkdepot-raises-e4-2-million-in-seed-round",
+          "quote": "has raised €4.2 million in a recent seed round. Led by Amsterdam-based henQ"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2021/03/31/munich-based-parkdepot-raises-e4-2-million-in-seed-round",
+          "quote": "31 March 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2021/03/31/munich-based-parkdepot-raises-e4-2-million-in-seed-round",
+          "quote": "has raised €4.2 million in a recent seed round. Led by Amsterdam-based henQ"
+        }
+      ]
+    },
+    {
+      "stage": "series-a",
+      "month": "2022-12",
+      "amountEur": 15000000,
+      "amountOriginal": 15000000,
+      "currency": "EUR",
+      "investors": [
+        "Surplus Equity Partners",
+        "Armira Growth",
+        "henQ"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2022/12/09/with-its-computer-vision-powered-parking-solutions-munichs-parkdepot-raises-a-fresh-eur15-million/",
+          "quote": "Parkdepot is keeping the transmission in drive with a €15 million Series A round"
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2022/12/09/with-its-computer-vision-powered-parking-solutions-munichs-parkdepot-raises-a-fresh-eur15-million/",
+          "quote": "Parkdepot is keeping the transmission in drive with a €15 million Series A round"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2022/12/09/with-its-computer-vision-powered-parking-solutions-munichs-parkdepot-raises-a-fresh-eur15-million/",
+          "quote": "Dan Taylor 09 December 2022"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2022/12/09/with-its-computer-vision-powered-parking-solutions-munichs-parkdepot-raises-a-fresh-eur15-million/",
+          "quote": "The €15 million Series A round was provided by Surplus Equity Partners , Armira Growth , and existing investor henQ"
+        },
+        {
+          "field": "amount",
+          "url": "https://www.wemolo.com/en-de/pressemitteilung/munchner-scale-up-wemolo-erreicht-profitabilitat-bei-40-mio-euro-jahresumsatz",
+          "quote": "€15 million Series A"
+        }
+      ]
+    }
+  ]
+}

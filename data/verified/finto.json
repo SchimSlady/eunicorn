@@ -11,7 +11,7 @@
   "unicorn": false,
   "founders": ["Jonas Morgner", "Linus Boehm", "Lorenz Neuner"],
   "difficulty": 5,
-  "programs": [{ "id": "y-combinator", "batch": "Summer 2025" }],
+  "programs": [{ "id": "y-combinator", "batch": "Summer 2025" }, { "id": "start-munich" }],
   "sources": [
     { "field": "city", "url": "https://www.munich-startup.de/en/news/just-under-3-million-euros-for-finto", "quote": "Munich startup Finto has completed seed financing of 2.98 million euros (3.4 million dollars)" },
     { "field": "founded", "url": "https://tech.eu/2026/07/08/y-combinator-backed-german-startup-finto-raises-34m-says-chose-munich-over-the-valley/", "quote": "Finto, founded in 2025, builds AI agents that autonomously handle core accounting tasks" },
@@ -19,7 +19,8 @@
     { "field": "sectors", "url": "https://tech.eu/2026/07/08/y-combinator-backed-german-startup-finto-raises-34m-says-chose-munich-over-the-valley/", "quote": "A German startup building AI agents for accounting" },
     { "field": "status", "url": "https://www.munich-startup.de/en/news/just-under-3-million-euros-for-finto", "quote": "Munich startup Finto has completed seed financing of 2.98 million euros (3.4 million dollars)" },
     { "field": "unicorn", "url": "https://www.munich-startup.de/en/news/just-under-3-million-euros-for-finto", "quote": "Munich startup Finto has completed seed financing of 2.98 million euros (3.4 million dollars)" },
-    { "field": "programs", "url": "https://yc-oss.github.io/api/batches/summer-2025/finto-de.json", "quote": "\"batch\": \"Summer 2025\"" }
+    { "field": "programs", "url": "https://yc-oss.github.io/api/batches/summer-2025/finto-de.json", "quote": "\"batch\": \"Summer 2025\"" },
+    { "field": "programs", "url": "https://www.startmunich.de/api/startups", "quote": "\"name\":\"Finto\",\"website\":\"www.gofinto.com/\"" }
   ],
   "rounds": [
     {

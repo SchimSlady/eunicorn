@@ -22,6 +22,11 @@
   ],
   "difficulty": 5,
   "techeuId": "2D4D31E9-2388-4CA7-A169-080869AE3674",
+  "programs": [
+    {
+      "id": "manage-and-more"
+    }
+  ],
   "sources": [
     {
       "field": "city",
@@ -52,6 +57,11 @@
       "field": "unicorn",
       "url": "https://www.munich-startup.de/en/news/fernride-secures-additional-18-million-euros",
       "quote": "The Munich startup"
+    },
+    {
+      "field": "programs",
+      "url": "https://www.manageandmore.de/start-ups/",
+      "quote": "Fernride www.fernride.com"
     }
   ],
   "rounds": [

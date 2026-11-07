@@ -132,3 +132,13 @@ Read this before verifying a company. Each rule came from a real problem in the 
 - **Venture-debt lenders show up as round investors** (Claret Capital at AVI Medical): leave them out of an equity round's investors.
 - **Merger of equals = acquired** when the company is now part of a new group (Outfittery into Lookiero Outfittery Group, 2025).
 - **Domains redirect after rebrands:** trymarble.ai → marblecognition.com. Use the target.
+
+### Munich programs (2026-11-07)
+- **Two new programs:** `manage-and-more` (fellowship, UnternehmerTUM) and `start-munich` (university, student club). Sources:
+  - Manage and More: https://www.manageandmore.de/start-ups/ lists name + website as plain text; quote "<Name> <website>" ("Tado www.tado.com"). Lio is only in a founder testimonial on that page ("G35 Alumni Founder of Lio").
+  - START Munich: the startups page loads its list from https://www.startmunich.de/api/startups (JSON with website, foundingYear, founders and their semester). Quote the compact fragment `"name":"…","website":"…"`. The semester ("WS19") is a founder's, not a batch: no batch.
+- **Match by domain**, and watch substrings: helsing.ai only appears as a buyer ("Acquisition by Helsing.ai"), nscale.com matches inside moonscale.com.
+- **Only the better-known names** from these lists are added as new companies (Tim, 2026-11-07), not all ~90 + ~50.
+- **Renames hide duplicates:** Parkdepot is Wemolo (both lists use different names). Check new ids against aliases and domains before handing them to agents.
+- **check-quotes bug fixed:** the meta-text prefix gave every normalized quote a leading space, so quotes starting right after `{` or `,` (JSON) never matched. `norm` now trims.
+- Not created (no equity round with amount): Feldwerke (only a €12M credit facility), scaile (Hamburg HQ, no round), KYON Energy (project debt only; TotalEnergies bought it in 2024), Beam AI (possibly New York), Spherecast (YC S24, CDTM; SF location, aggregator amounts only).

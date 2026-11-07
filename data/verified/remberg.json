@@ -22,6 +22,9 @@
   "programs": [
     {
       "id": "cdtm"
+    },
+    {
+      "id": "start-munich"
     }
   ],
   "sources": [
@@ -64,6 +67,11 @@
       "field": "programs",
       "url": "https://www.cdtm.com/startups/remberg",
       "quote": "CDTM founders Cecil Wöbker Class of Fall 2016 David Hahn Class of Spring 2016 Hagen Schmidtchen Class of Spring 2016"
+    },
+    {
+      "field": "programs",
+      "url": "https://www.startmunich.de/api/startups",
+      "quote": "\"name\":\"Remberg\",\"website\":\"remberg.com/de\""
     }
   ],
   "rounds": [

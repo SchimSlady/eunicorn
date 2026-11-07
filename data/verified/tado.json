@@ -24,6 +24,11 @@
   "funFact": "Since launching in 2011, tado° has put about 3 million smart thermostats into European homes and commercial spaces.",
   "difficulty": 5,
   "techeuId": "E0328018-8CDF-4C39-82D2-A55599FBF00D",
+  "programs": [
+    {
+      "id": "manage-and-more"
+    }
+  ],
   "sources": [
     {
       "field": "city",
@@ -54,6 +59,11 @@
       "field": "fun_fact",
       "url": "https://tech.eu/2023/01/26/sleek",
       "quote": "Last year, sales of tado° smart thermostats doubled and there's currently 3 million of them in European homes and commercial spaces."
+    },
+    {
+      "field": "programs",
+      "url": "https://www.manageandmore.de/start-ups/",
+      "quote": "Tado www.tado.com"
     }
   ],
   "rounds": [

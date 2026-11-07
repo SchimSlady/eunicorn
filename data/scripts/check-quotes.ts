@@ -33,7 +33,7 @@ const metaText = (s: string) =>
 const norm = (s: string) =>
   decode((metaText(s) + " " + s).replace(/<script[\s\S]*?<\/script>|<style[\s\S]*?<\/style>/gi, " ").replace(/<[^>]*>/g, " "))
     .replace(/ /g, " ").replace(/[’‘]/g, "'").replace(/[“”«»]/g, '"').replace(/[–—]/g, "-")
-    .replace(/\s+/g, " ").toLowerCase();
+    .replace(/\s+/g, " ").trim().toLowerCase();
 
 const cache = new Map<string, string | null>();
 async function page(url: string): Promise<string | null> {

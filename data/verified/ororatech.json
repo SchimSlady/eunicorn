@@ -15,6 +15,11 @@
   "funFact": "OroraTech began as a university spin-off at the Technical University of Munich, with its core idea developed during the MOVE-II CubeSat project.",
   "difficulty": 4,
   "techeuId": "E533C383-FCEE-4837-9525-6F8AEA1663B8",
+  "programs": [
+    {
+      "id": "manage-and-more"
+    }
+  ],
   "sources": [
     {
       "field": "city",
@@ -40,6 +45,11 @@
       "field": "fun_fact",
       "url": "https://en.wikipedia.org/wiki/OroraTech",
       "quote": "OroraTech's key idea had been developed during the MOVE-II CubeSat project and WARR at the Technical University of Munich (TUM)."
+    },
+    {
+      "field": "programs",
+      "url": "https://www.manageandmore.de/start-ups/",
+      "quote": "Orora Technologies www.ororatech.com"
     }
   ],
   "rounds": [

@@ -22,6 +22,12 @@
   "programs": [
     {
       "id": "cdtm"
+    },
+    {
+      "id": "manage-and-more"
+    },
+    {
+      "id": "start-munich"
     }
   ],
   "sources": [
@@ -64,6 +70,16 @@
       "field": "programs",
       "url": "https://www.cdtm.com/startups/idnow",
       "quote": "CDTM founders Armin Bauer Class of Spring 2004"
+    },
+    {
+      "field": "programs",
+      "url": "https://www.manageandmore.de/start-ups/",
+      "quote": "IDnow www.idnow.io"
+    },
+    {
+      "field": "programs",
+      "url": "https://www.startmunich.de/api/startups",
+      "quote": "\"name\":\"IDNow\",\"website\":\"www.idnow.io/de/\""
     }
   ],
   "rounds": [

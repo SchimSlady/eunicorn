@@ -24,6 +24,12 @@
   "programs": [
     {
       "id": "y-combinator"
+    },
+    {
+      "id": "manage-and-more"
+    },
+    {
+      "id": "start-munich"
     }
   ],
   "techeuId": "A90D0921-C5C2-445F-BEED-79B969DF4446",
@@ -57,6 +63,16 @@
       "field": "programs",
       "url": "https://techcrunch.com/2026/03/05/lio-ai-series-a-a16z-30m-raise-automate-enterprise-procurement/",
       "quote": "SV Angels, Harry Stebbings, and YC also partook in the round"
+    },
+    {
+      "field": "programs",
+      "url": "https://www.manageandmore.de/start-ups/",
+      "quote": "G35 Alumni Founder of Lio"
+    },
+    {
+      "field": "programs",
+      "url": "https://www.startmunich.de/api/startups",
+      "quote": "\"name\":\"Lio\",\"website\":\"www.asklio.ai/\""
     }
   ],
   "rounds": [

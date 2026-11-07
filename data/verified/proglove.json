@@ -1,0 +1,161 @@
+{
+  "id": "proglove",
+  "name": "ProGlove",
+  "aliases": [],
+  "domain": "proglove.com",
+  "country": "DE",
+  "city": "Munich",
+  "founded": 2014,
+  "sectors": [
+    "logistics"
+  ],
+  "status": "acquired",
+  "unicorn": false,
+  "founders": [
+    "Alexander Grots",
+    "Jonas Girardet",
+    "Paul Günther",
+    "Thomas Kirchner"
+  ],
+  "difficulty": 4,
+  "programs": [
+    {
+      "id": "manage-and-more"
+    }
+  ],
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.munich-startup.de/82145/nordic-capital-uebernimmt-mehrheit-an-proglove/",
+      "quote": "Das 2014 gegründete Unternehmen Proglove beschäftigt mehr als 250 MitarbeiterInnen in München, Chicago und Belgrad."
+    },
+    {
+      "field": "founded",
+      "url": "https://www.munich-startup.de/82145/nordic-capital-uebernimmt-mehrheit-an-proglove/",
+      "quote": "Das 2014 gegründete Unternehmen Proglove beschäftigt mehr als 250 MitarbeiterInnen in München, Chicago und Belgrad."
+    },
+    {
+      "field": "founders",
+      "url": "https://siliconcanals.com/german-startup-proglove-secures-e36m/",
+      "quote": "Founded by Alexander Grots, Jonas Girardet, Paul Günther, and Thomas Kirchner in 2014"
+    },
+    {
+      "field": "sectors",
+      "url": "https://siliconcanals.com/german-startup-proglove-secures-e36m/",
+      "quote": "ProGlove develops smart gloves that enable manufacturing and logistics staff to work faster, safer, and more comfortable."
+    },
+    {
+      "field": "status",
+      "url": "https://www.munich-startup.de/82145/nordic-capital-uebernimmt-mehrheit-an-proglove/",
+      "quote": "Der schwedische Private-Equity-Investor Nordic Capital übernimmt eine Mehrheitsbeteiligung am IoT-Startup Proglove."
+    },
+    {
+      "field": "unicorn",
+      "url": "https://www.munich-startup.de/82145/nordic-capital-uebernimmt-mehrheit-an-proglove/",
+      "quote": "Der schwedische Private-Equity-Investor Nordic Capital übernimmt eine Mehrheitsbeteiligung am IoT-Startup Proglove."
+    },
+    {
+      "field": "programs",
+      "url": "https://www.manageandmore.de/start-ups/",
+      "quote": "Proglove proglove.com"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "seed",
+      "month": "2016-05",
+      "amountEur": 2000000,
+      "amountOriginal": 2000000,
+      "currency": "EUR",
+      "investors": [
+        "Bayern Kapital",
+        "Intel Capital",
+        "Gettylab"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.munich-startup.de/en/11169/proglove-brings-bayern-kapital-on-board/",
+          "quote": "hat seine erste Finanzierungsrunde über 2 Millionen Euro abgeschlossen."
+        },
+        {
+          "field": "stage",
+          "url": "https://www.munich-startup.de/en/11169/proglove-brings-bayern-kapital-on-board/",
+          "quote": "hat seine erste Finanzierungsrunde über 2 Millionen Euro abgeschlossen."
+        },
+        {
+          "field": "month",
+          "url": "https://www.munich-startup.de/en/11169/proglove-brings-bayern-kapital-on-board/",
+          "quote": "30. Mai 2016"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.munich-startup.de/en/11169/proglove-brings-bayern-kapital-on-board/",
+          "quote": "Investoren dieser Finanzierungsrunde sind neben Bayern Kapital die Unternehmen Intel Capital und GETTYLAB."
+        }
+      ]
+    },
+    {
+      "stage": "series-a",
+      "month": "2018-04",
+      "amountEur": 5500000,
+      "amountOriginal": 5500000,
+      "currency": "EUR",
+      "investors": [
+        "Intel Capital",
+        "Gettylab",
+        "DIVC",
+        "Bayern Kapital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.munich-startup.de/en/35474/proglove-investment/",
+          "quote": "Insgesamt kamen 5,5 Millionen Euro zusammen."
+        },
+        {
+          "field": "stage",
+          "url": "https://www.munich-startup.de/en/35474/proglove-investment/",
+          "quote": "Das Münchner Industrie-Startup ProGlove hat seine zweite Finanzierungsrunde erfolgreich abgeschlossen."
+        },
+        {
+          "field": "month",
+          "url": "https://www.munich-startup.de/en/35474/proglove-investment/",
+          "quote": "23. April 2018"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.munich-startup.de/en/35474/proglove-investment/",
+          "quote": "Neben den amerikanischen Geldgebern Intel Capital und Gettylab schießen auch DIVC und Bayern Kapital Geld in das Münchner Startup."
+        }
+      ]
+    },
+    {
+      "stage": "series-b",
+      "month": "2019-09",
+      "amountEur": 36353722,
+      "amountOriginal": 40000000.0,
+      "currency": "USD",
+      "investors": [
+        "Summit Partners"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.sce.de/en/news-details/proglove-erhaelt-40-millionen-dollar-wachstumskapital.html",
+          "quote": "Proglove, founded in 2014, is receiving a $40 million investment from U.S. private equity firm Summit Partners."
+        },
+        {
+          "field": "month",
+          "url": "https://siliconcanals.com/german-startup-proglove-secures-e36m/",
+          "quote": "Published Sep 11, 2019"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.sce.de/en/news-details/proglove-erhaelt-40-millionen-dollar-wachstumskapital.html",
+          "quote": "Proglove, founded in 2014, is receiving a $40 million investment from U.S. private equity firm Summit Partners."
+        }
+      ]
+    }
+  ]
+}

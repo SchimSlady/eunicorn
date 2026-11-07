@@ -19,6 +19,11 @@
   ],
   "difficulty": 5,
   "techeuId": "707250F1-5DE5-41AB-A865-DA7D2C1701AC",
+  "programs": [
+    {
+      "id": "manage-and-more"
+    }
+  ],
   "sources": [
     {
       "field": "city",
@@ -39,6 +44,11 @@
       "field": "sectors",
       "url": "https://www.munich-startup.de/en/news/kertos-secures-14-million-euros",
       "quote": "Kertos develops an AI-native platform that automates the entire compliance process"
+    },
+    {
+      "field": "programs",
+      "url": "https://www.manageandmore.de/start-ups/",
+      "quote": "kertos www.kertos.io"
     }
   ],
   "rounds": [

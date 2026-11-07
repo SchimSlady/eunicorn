@@ -79,6 +79,11 @@
       "field": "programs",
       "url": "https://www.cdtm.com/startups/trade-republic",
       "quote": "CDTM founders Thomas Pischke Class of Spring 2014"
+    },
+    {
+      "field": "programs",
+      "url": "https://www.startmunich.de/api/startups",
+      "quote": "\"name\":\"Trade Republic\",\"website\":\"traderepublic.com/de-de\""
     }
   ],
   "rounds": [
@@ -242,6 +247,9 @@
   "programs": [
     {
       "id": "cdtm"
+    },
+    {
+      "id": "start-munich"
     }
   ]
 }
