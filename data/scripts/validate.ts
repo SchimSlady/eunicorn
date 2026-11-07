@@ -103,7 +103,7 @@ const SECTORS = new Set([...schemaSrc.match(/export type Sector =([^;]+);/)![1].
 const STAGES = new Set(["pre-seed", "seed", "series-a", "series-b", "series-c", "series-d", "series-e", "series-f+"]);
 const STATUSES = new Set(["private", "public", "acquired", "defunct"]);
 const EXIT_KINDS = new Set(["acquisition", "ipo", "insolvency", "shutdown"]);
-const COMPANY_FIELDS = new Set(["city", "founded", "founders", "sectors", "status", "unicorn", "valuation", "employees", "fun_fact", "logo", "programs", "exit"]);
+const COMPANY_FIELDS = new Set(["city", "founded", "founders", "sectors", "status", "unicorn", "valuation", "employees", "fun_fact", "logo", "programs", "exit", "tagline"]);
 const PROGRAMS = new Set(
   (JSON.parse(readFileSync(join(root, "programs.json"), "utf8")) as { programs: { id: string }[] }).programs.map((p) => p.id),
 );
@@ -168,6 +168,13 @@ for (const file of readdirSync(verifiedDir).filter((f) => f.endsWith(".json"))) 
     // An insolvency followed by a takeover (Volocopter) is stored as the acquisition.
     if (want && want !== c.status) bad(`exit ${e.kind} does not match status ${c.status}`);
     if (!fields.has("exit")) bad("exit without an exit source");
+  }
+
+  // Tagline: one short sentence on what the company does (10–160 characters, like the DB check), with a source.
+  if (c.tagline !== undefined) {
+    if (typeof c.tagline !== "string" || c.tagline.length < 10 || c.tagline.length > 160) bad("tagline must be 10–160 characters");
+    else if (!/[.!]$/.test(c.tagline)) bad("tagline must be one sentence ending in a full stop");
+    if (!fields.has("tagline")) bad("tagline without a tagline source");
   }
 
   for (const r of c.rounds ?? []) {
