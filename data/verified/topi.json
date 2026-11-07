@@ -12,7 +12,7 @@
     "fintech",
     "ecommerce"
   ],
-  "status": "private",
+  "status": "acquired",
   "unicorn": false,
   "founders": [
     "Estelle Merle",
@@ -45,6 +45,16 @@
       "field": "unicorn",
       "url": "https://www.trendingtopics.eu/topi-45-mio-dollar-fuer-berliner-abo-fintech-oesterreicher-mit-an-bord/",
       "quote": "Mit so genanntem Hardware as a Service will das Startup als B2B-Partner im E-Commerce fungieren"
+    },
+    {
+      "field": "status",
+      "url": "https://legacy.elfaonline.org/news-and-publications/industry-news/read/2025/08/27/peac-solutions-acquires-it-subscription-and-rental-platform-provider-topi",
+      "quote": "PEAC Solutions announced that it has acquired topi"
+    },
+    {
+      "field": "exit",
+      "url": "https://legacy.elfaonline.org/news-and-publications/industry-news/read/2025/08/27/peac-solutions-acquires-it-subscription-and-rental-platform-provider-topi",
+      "quote": "PEAC Solutions announced that it has acquired topi"
     }
   ],
   "rounds": [
@@ -126,5 +136,10 @@
         }
       ]
     }
-  ]
+  ],
+  "exit": {
+    "kind": "acquisition",
+    "month": "2025-08",
+    "acquirer": "PEAC Solutions"
+  }
 }
