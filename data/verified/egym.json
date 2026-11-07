@@ -12,7 +12,7 @@
     "health",
     "consumer"
   ],
-  "status": "private",
+  "status": "acquired",
   "unicorn": true,
   "lastValuationEur": 1072002859,
   "founders": [
@@ -62,6 +62,21 @@
       "field": "fun_fact",
       "url": "https://techcrunch.com/2023/07/05/egym-the-munich-based-smart-fitness-startup-raises-225m-from-jared-kushners-affinity-partners",
       "quote": "It all started with me being an unsuccessful gym goer"
+    },
+    {
+      "field": "status",
+      "url": "https://uk.egym.com/en-gb/playlist-egym-merger",
+      "quote": "With the transaction now complete, EGYM will become a subsidiary of Playlist alongside Mindbody, Booker, and ClassPass."
+    },
+    {
+      "field": "exit",
+      "url": "https://uk.egym.com/en-gb/playlist-egym-merger",
+      "quote": "With the transaction now complete, EGYM will become a subsidiary of Playlist alongside Mindbody, Booker, and ClassPass."
+    },
+    {
+      "field": "exit",
+      "url": "https://www.playlist.com/press/playlist-and-egym-announce-agreement-merge-and-785-million-new-equity-investments-bringing",
+      "quote": "January 15, 2026"
     }
   ],
   "rounds": [
@@ -105,5 +120,10 @@
     {
       "id": "cdtm"
     }
-  ]
+  ],
+  "exit": {
+    "kind": "acquisition",
+    "month": "2026-01",
+    "acquirer": "Playlist"
+  }
 }
