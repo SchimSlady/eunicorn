@@ -272,6 +272,9 @@ export function HigherLowerGame({ region }: { region?: Region } = {}) {
   const round = rounds[reviewing ? roundIndex - 1 : roundIndex];
   const prev = companies.get(round.previous)!;
   const next = companies.get(round.next)!;
+  // Mid-move: the board is a one-panel-wide conveyor (see globals.css, hl-to-prev).
+  const moving = sliding && !reviewing;
+  const gone = moving && roundIndex > 0 ? companies.get(rounds[roundIndex - 1].previous) : undefined;
 
   return (
     <div className="space-y-5">
@@ -306,9 +309,16 @@ export function HigherLowerGame({ region }: { region?: Region } = {}) {
         key={`${round.previous}-${round.next}`}
         className="grid overflow-hidden rounded-3xl text-white [--hl-from-x:0%] [--hl-from-y:100%] md:grid-cols-2 md:[--hl-from-x:100%] md:[--hl-from-y:0%]"
       >
+        {moving && gone && (
+          // The company that was "previous" a moment ago, leaving on the side the revealed one came from.
+          <Panel company={gone} tone="col-start-1 row-start-1 bg-eu-blue animate-hl-out" phone="pb-7 pt-4" aria-hidden>
+            <span className="text-sm text-white/70">{phrase.has}</span>
+            <span className="font-display text-3xl font-bold text-eu-yellow sm:text-5xl">{formatMetric(gone, play.metric)}</span>
+          </Panel>
+        )}
         <Panel
           company={prev}
-          tone={`col-start-1 row-start-1 bg-eu-blue ${sliding && !reviewing ? "relative z-10 animate-hl-to-prev" : ""}`}
+          tone={`col-start-1 row-start-1 bg-eu-blue ${moving ? "animate-hl-to-prev" : ""}`}
           phone="pb-7 pt-4"
         >
           <span className="text-sm text-white/70">{phrase.has}</span>
@@ -317,7 +327,7 @@ export function HigherLowerGame({ region }: { region?: Region } = {}) {
 
         <Panel
           company={next}
-          tone={`relative col-start-1 row-start-2 bg-[#00205e] md:col-start-2 md:row-start-1 ${sliding && !reviewing ? "animate-hl-next-in" : ""}`}
+          tone={`relative col-start-1 row-start-2 bg-[#00205e] md:col-start-2 md:row-start-1 ${moving ? "animate-hl-next-in" : ""}`}
           phone="pb-4 pt-7"
         >
           {reviewing ? (
@@ -348,7 +358,7 @@ export function HigherLowerGame({ region }: { region?: Region } = {}) {
           ) : (
             <>
               <span aria-hidden className="hidden h-5 md:block" />
-              <div className="mt-1 grid w-full grid-cols-2 gap-2 sm:max-w-56 sm:grid-cols-1">
+              <div className={`mt-1 grid w-full grid-cols-2 gap-2 sm:max-w-56 sm:grid-cols-1 ${moving ? "animate-hl-buttons" : ""}`}>
                 {(["higher", "lower"] as const).map((call) => (
                   <button
                     key={call}
@@ -370,7 +380,7 @@ export function HigherLowerGame({ region }: { region?: Region } = {}) {
           On the boundary between the panels: top edge on phones, left edge side by side.
         */}
         <div aria-hidden className="pointer-events-none relative z-20 col-start-1 row-start-2 md:col-start-2 md:row-start-1">
-          <span className="absolute left-1/2 top-0 flex h-11 w-11 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full bg-white font-display text-base font-bold text-eu-blue shadow-lg md:left-0 md:top-1/2 md:h-14 md:w-14 md:text-lg">
+          <span className={`absolute left-1/2 top-0 flex h-11 w-11 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full bg-white font-display text-base font-bold text-eu-blue shadow-lg md:left-0 md:top-1/2 md:h-14 md:w-14 md:text-lg ${moving ? "animate-hl-vs" : ""}`}>
             VS
           </span>
         </div>
@@ -383,11 +393,12 @@ export function HigherLowerGame({ region }: { region?: Region } = {}) {
 }
 
 /** One half of the board: the company big, then whatever the round shows below it. */
-function Panel({ company, tone, phone, children }: { company: Company; tone: string; phone: string; children: React.ReactNode }) {
+function Panel({ company, tone, phone, children, ...rest }: { company: Company; tone: string; phone: string; children: React.ReactNode } & React.HTMLAttributes<HTMLDivElement>) {
   // Side by side, both panels are laid out from the top on the same grid (the name always has room for two
   // lines), so logo, name, city and value line up across them. On a phone each is centred as before.
   return (
     <div
+      {...rest}
       className={`flex flex-col items-center justify-center gap-1 px-4 text-center md:min-h-96 md:justify-start md:gap-1.5 md:px-12 md:pb-8 md:pt-14 ${phone} ${tone}`}
     >
       <CompanyLogo company={company} size={52} />
