@@ -17,13 +17,12 @@ export default function LocalPage() {
       <Link href="/" className="inline-flex items-center gap-1 text-sm font-medium text-muted hover:text-primary">
         <ArrowLeft size={16} aria-hidden /> Daily games
       </Link>
-      <h1 className="mt-4 text-2xl font-bold leading-tight sm:text-[32px]">Play with local startups only</h1>
-      <p className="mt-2 flex items-center gap-1.5 text-muted">
-        Munich, Berlin or Germany
+      <h1 className="mt-4 flex items-center gap-2 text-2xl font-bold leading-tight sm:text-[32px]">
+        Play with local startups only
         <InfoTip label="About local games">
-          A new game for each region every day, on top of the daily games. It doesn&apos;t count towards your streak.
+          Munich, Berlin or Germany. A new game for each region every day, on top of the daily games. It doesn&apos;t count towards your streak.
         </InfoTip>
-      </p>
+      </h1>
       <div className="mt-6">
         <LocalCards />
       </div>
