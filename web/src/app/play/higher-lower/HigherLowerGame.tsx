@@ -308,18 +308,18 @@ export function HigherLowerGame({ region }: { region?: Region } = {}) {
       >
         <Panel
           company={prev}
-          tone={`bg-eu-blue ${sliding && !reviewing ? "relative z-10 animate-hl-to-prev" : ""}`}
+          tone={`col-start-1 row-start-1 bg-eu-blue ${sliding && !reviewing ? "relative z-10 animate-hl-to-prev" : ""}`}
           phone="pb-7 pt-4"
         >
           <span className="text-sm text-white/70">{phrase.has}</span>
           <span className="font-display text-3xl font-bold text-eu-yellow sm:text-5xl">{formatMetric(prev, play.metric)}</span>
         </Panel>
 
-        <Panel company={next} tone={`relative bg-[#00205e] ${sliding && !reviewing ? "animate-hl-next-in" : ""}`} phone="pb-4 pt-7">
-          {/* On the boundary between the panels: top edge on phones, left edge side by side. */}
-          <span className="absolute left-1/2 top-0 z-10 flex h-11 w-11 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full bg-white font-display text-base font-bold text-eu-blue shadow-lg md:left-0 md:top-1/2 md:h-14 md:w-14 md:text-lg">
-            VS
-          </span>
+        <Panel
+          company={next}
+          tone={`relative col-start-1 row-start-2 bg-[#00205e] md:col-start-2 md:row-start-1 ${sliding && !reviewing ? "animate-hl-next-in" : ""}`}
+          phone="pb-4 pt-7"
+        >
           {reviewing ? (
             <>
               {/* Same label as the left panel (side by side), so the two values sit on one line. */}
@@ -363,6 +363,17 @@ export function HigherLowerGame({ region }: { region?: Region } = {}) {
             </>
           )}
         </Panel>
+
+        {/*
+          VS sits in the same grid cell as the second panel but outside it, above both panels (z-20). Inside the
+          panel it stayed under the first panel (z-10) while the slide ran and only jumped to the front afterwards.
+          On the boundary between the panels: top edge on phones, left edge side by side.
+        */}
+        <div aria-hidden className="pointer-events-none relative z-20 col-start-1 row-start-2 md:col-start-2 md:row-start-1">
+          <span className="absolute left-1/2 top-0 flex h-11 w-11 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full bg-white font-display text-base font-bold text-eu-blue shadow-lg md:left-0 md:top-1/2 md:h-14 md:w-14 md:text-lg">
+            VS
+          </span>
+        </div>
 
       </div>
 
