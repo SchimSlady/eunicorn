@@ -35,6 +35,7 @@ interface VerifiedCompany {
   lastValuationEur?: number;
   employees?: number;
   founders: string[];
+  tagline?: string;
   funFact?: string;
   careersUrl?: string;
   difficulty: number;
@@ -94,9 +95,9 @@ try {
       await db.query(
         `insert into public.companies (id, name, aliases, domain, country, city, founded, sectors, status, unicorn,
            last_valuation_eur, employees, careers_url, fun_fact, difficulty, techeu_id, wikidata_id, logo,
-           exit_kind, exit_month, exit_acquirer, verified, verified_at, verified_by)
+           exit_kind, exit_month, exit_acquirer, tagline, verified, verified_at, verified_by)
          values ($1, $2, $3, $4, $5, $6, $7, $8::public.sector[], $9, $10, $11, $12, $13, $14, $15, $16, $17, $18,
-           $19, $20, $21, true, now(), 'data/verified')
+           $19, $20, $21, $22, true, now(), 'data/verified')
          on conflict (id) do update set
            name = excluded.name, aliases = excluded.aliases, domain = excluded.domain, country = excluded.country,
            city = excluded.city, founded = excluded.founded, sectors = excluded.sectors, status = excluded.status,
@@ -104,11 +105,11 @@ try {
            employees = excluded.employees, careers_url = excluded.careers_url, fun_fact = excluded.fun_fact,
            difficulty = excluded.difficulty, techeu_id = excluded.techeu_id, wikidata_id = excluded.wikidata_id,
            logo = excluded.logo, exit_kind = excluded.exit_kind, exit_month = excluded.exit_month,
-           exit_acquirer = excluded.exit_acquirer, verified = true, verified_at = now(), verified_by = excluded.verified_by`,
+           exit_acquirer = excluded.exit_acquirer, tagline = excluded.tagline, verified = true, verified_at = now(), verified_by = excluded.verified_by`,
         [c.id, c.name, c.aliases ?? [], c.domain, c.country, c.city, c.founded, c.sectors, c.status, c.unicorn,
          c.lastValuationEur ?? null, c.employees ?? null, c.careersUrl ?? null, c.funFact ?? null, c.difficulty,
          c.techeuId ?? null, c.wikidataId ?? null, logoPath(c.id),
-         c.exit?.kind ?? null, c.exit ? `${c.exit.month}-01` : null, c.exit?.acquirer ?? null],
+         c.exit?.kind ?? null, c.exit ? `${c.exit.month}-01` : null, c.exit?.acquirer ?? null, c.tagline ?? null],
       );
 
       await db.query("delete from public.company_founders where company_id = $1", [c.id]);
