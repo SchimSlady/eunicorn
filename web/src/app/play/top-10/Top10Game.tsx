@@ -166,7 +166,16 @@ export function Top10Game({ region }: { region?: Region } = {}) {
         }
       />
 
-      <p className="rounded-2xl bg-eu-blue px-3 py-2 text-center font-display text-base font-bold leading-snug text-white">{round.title}</p>
+      <div className="flex items-center gap-2 rounded-2xl bg-eu-blue px-3 py-2">
+        <p className="min-w-0 flex-1 text-center font-display text-base font-bold leading-snug text-white">{round.title}</p>
+        {/* A program's list ("CDTM startups in Munich"): its official logo, unmodified, on a white tile. */}
+        {round.program?.logo && (
+          <span className="flex h-11 shrink-0 items-center rounded-lg bg-white px-1 py-0.5">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src={round.program.logo} alt={round.program.name} className="h-full w-auto max-w-20 object-contain" />
+          </span>
+        )}
+      </div>
 
       {/* The rows share the screen height left over (about 24rem is taken by the rest), so the whole game fits without scrolling. svh (the height with the browser bars shown) instead of dvh: rows keep their opening size when the phone hides its address bar on scroll. */}
       <ol className="space-y-[3px]">

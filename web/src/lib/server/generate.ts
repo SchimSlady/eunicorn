@@ -49,6 +49,14 @@ export function generatePuzzle(mode: PlayMode, date: string, data: Dataset, regi
 const LOCAL_EXTRAS_FROM = "2026-11-07";
 
 /**
+ * From this day on a Local Top 10 can be about one program's startups ("the 10 CDTM startups in Munich
+ * that raised the most", "the 10 German YC startups ..."), with the program's logo in the title bar.
+ * Like every local list it only comes up where the region has 12 such companies (today: CDTM in Munich
+ * and Germany, YC in Germany). Earlier days keep exactly the puzzle they had.
+ */
+const LOCAL_PROGRAMS_FROM = "2026-11-08";
+
+/**
  * A Local game: Top 10 or Higher or Lower with only the region's companies. Its own random stream
  * per region, so Munich and Berlin don't share a chain. Higher or Lower has no theme days here (the
  * region is the theme). Same puzzle number as the day's daily games.
@@ -68,8 +76,10 @@ function localPuzzle(mode: PlayMode, date: string, data: Dataset, region: Region
 const hasSector = (s: string) => (c: Company) => c.sectors.includes(s as Company["sectors"][number]);
 const DEEP_TECH = ["ai", "robotics", "defense", "space"];
 
+const inProgram = (id: string) => (c: Company) => !!c.programs?.some((p) => p.programId === id);
+
 /** What a local list can ask; each needs 12 companies with the number in the region, so a small region asks fewer. */
-const LOCAL_TOP10: { tag: string; metric: Top10Metric; kind?: string; founded?: string; filter: (c: Company) => boolean; from?: string }[] = [
+const LOCAL_TOP10: { tag: string; metric: Top10Metric; kind?: string; founded?: string; program?: string; filter: (c: Company) => boolean; from?: string }[] = [
   { tag: "all", metric: "lastValuationUsd", filter: () => true },
   { tag: "all", metric: "totalRaisedUsd", filter: () => true },
   { tag: "young", metric: "totalRaisedUsd", founded: "founded since 2015", filter: (c) => c.founded >= 2015 },
@@ -82,18 +92,19 @@ const LOCAL_TOP10: { tag: string; metric: Top10Metric; kind?: string; founded?: 
   { tag: "mobility", metric: "totalRaisedUsd", kind: "mobility", filter: hasSector("mobility") },
   // Munich's profile: AI, robotics, defence and space together (Helsing, Quantum Systems, Isar ...).
   { tag: "deeptech", metric: "totalRaisedUsd", kind: "deep tech", filter: (c) => c.sectors.some((s) => DEEP_TECH.includes(s)), from: LOCAL_EXTRAS_FROM },
+  // Programs: by total raised only (too few of them have a known valuation).
+  { tag: "cdtm", metric: "totalRaisedUsd", kind: "CDTM", program: "cdtm", filter: inProgram("cdtm"), from: LOCAL_PROGRAMS_FROM },
+  { tag: "yc", metric: "totalRaisedUsd", kind: "YC", program: "y-combinator", filter: inProgram("y-combinator"), from: LOCAL_PROGRAMS_FROM },
 ];
 
-/** A local list: what it's about (two days running never share a tag) and how to build it from the data. */
-type LocalList = { tag: string; build: (rng: Rng) => Top10Round | null };
-
 /**
- * One list for the day, the same at every level: a region has too few companies to split them by
- * fame, so a level only changes the hints on offer. The lists go round in a shuffled order per cycle
- * (like the daily Top 10), never the same list two days running; a list the region's data can't make
- * (fewer than 12, a tie at No. 10) is skipped.
+ * A local list: what it's about (two days running never share a tag), which list it is (key, the same
+ * from day to day) and how to build it from the data.
  */
-function localTop10(base: Base, date: string, region: Region, companies: Company[], data: Dataset, rng: Rng): Top10Puzzle | null {
+type LocalList = { tag: string; key: string; build: (rng: Rng) => Top10Round | null };
+
+/** The lists the region's data can make on a day (12 companies with the number, no tie at No. 10). */
+function localUsable(date: string, region: Region, companies: Company[], data: Dataset): LocalList[] {
   const lists: LocalList[] = LOCAL_TOP10.filter((x) => !x.from || date >= x.from).map((x) => {
     const who = [REGIONS[region].who(x.kind), x.founded].filter(Boolean).join(" ");
     const q: Top10Question = {
@@ -104,19 +115,85 @@ function localTop10(base: Base, date: string, region: Region, companies: Company
       filter: x.filter,
       privateOnly: x.metric === "lastValuationUsd",
     };
-    return { tag: x.tag, build: (r: Rng) => top10Round(q, companies, r, true) };
+    const p = x.program ? data.programs?.find((p) => p.id === x.program) : undefined;
+    const program = p && { id: p.id, name: p.name, ...(p.logo ? { logo: p.logo } : {}) };
+    return {
+      tag: x.tag,
+      key: `${x.tag}:${x.metric}:${x.founded ?? ""}`,
+      build: (r: Rng) => {
+        const round = top10Round(q, companies, r, true);
+        return round && program ? { ...round, program } : round;
+      },
+    };
   });
   if (date >= LOCAL_EXTRAS_FROM) lists.push(...recentLists(date, region, companies, data));
-  const usable = lists.filter((l) => l.build(seeded("check")));
-  if (!usable.length) return null;
-  // Walk the days from day 1, so that "never twice running" also holds across a cycle boundary,
-  // where a new order can start with the list the old one ended on (a small region has only a few).
+  return lists.filter((l) => l.build(seeded("check")));
+}
+
+/**
+ * Walk the days from day 1 through a set of lists, so that "never the same list twice running" also
+ * holds across a cycle boundary, where a new order can start with the list the old one ended on (a
+ * small region has only a few). Returns the day's list and that cycle's order.
+ */
+function walkLists(usable: LocalList[], date: string, region: Region): { list: LocalList; order: LocalList[] } {
   let list: LocalList | undefined;
+  let order: LocalList[] = [];
   for (let d = 0; d < puzzleNumber(date); d++) {
-    const order = questionOrder(usable, "easy", Math.floor(d / usable.length), `top-10:${region}`);
+    order = questionOrder(usable, "easy", Math.floor(d / usable.length), `top-10:${region}`);
     const i = d % order.length;
     list = order[i] === list && order.length > 1 ? order[(i + 1) % order.length] : order[i];
   }
+  return { list: list!, order };
+}
+
+/** The region's list for a day (see localTop10), or null when the data can't make any. */
+function localList(date: string, region: Region, companies: Company[], data: Dataset): LocalList | null {
+  const usable = localUsable(date, region, companies, data);
+  if (!usable.length) return null;
+  const today = walkLists(usable, date, region);
+  if (date < LOCAL_PROGRAMS_FROM) return today.list;
+  // The walk only knows one day's set of lists, and the program lists change the set from
+  // LOCAL_PROGRAMS_FROM on: that day's walk can land on the list the day before had. So from there,
+  // day by day, a list that repeats yesterday's gives way to the next one in that day's order (on
+  // another topic if there is one). Once a day keeps the walk's list, every later day does too.
+  const before = localUsable(dayBefore(LOCAL_PROGRAMS_FROM), region, companies, data);
+  let prev = before.length ? walkLists(before, dayBefore(LOCAL_PROGRAMS_FROM), region).list : undefined;
+  for (let day = LOCAL_PROGRAMS_FROM; ; day = dayAfter(day)) {
+    const u = day === date ? usable : localUsable(day, region, companies, data);
+    if (!u.length) {
+      prev = undefined;
+      continue;
+    }
+    const { list, order } = day === date ? today : walkLists(u, day, region);
+    let real = list;
+    if (prev && list.key === prev.key && order.length > 1) {
+      const i = order.indexOf(list);
+      const rest = [...order.slice(i + 1), ...order.slice(0, i)];
+      real = rest.find((l) => l.tag !== prev!.tag) ?? rest[0];
+    }
+    if (day === date) return real;
+    if (real === list) return today.list;
+    prev = real;
+  }
+}
+
+function dayAfter(date: string): string {
+  return new Date(Date.parse(date) + 86_400_000).toISOString().slice(0, 10);
+}
+
+function dayBefore(date: string): string {
+  return new Date(Date.parse(date) - 86_400_000).toISOString().slice(0, 10);
+}
+
+/**
+ * One list for the day, the same at every level: a region has too few companies to split them by
+ * fame, so a level only changes the hints on offer. The lists go round in a shuffled order per cycle
+ * (like the daily Top 10), never the same list two days running; a list the region's data can't make
+ * (fewer than 12, a tie at No. 10) is skipped.
+ */
+function localTop10(base: Base, date: string, region: Region, companies: Company[], data: Dataset, rng: Rng): Top10Puzzle | null {
+  const list = localList(date, region, companies, data);
+  if (!list) return null;
   const round = list!.build(rng);
   if (!round) return null;
   return { ...base, mode: "top-10", ...round, variants: { easy: round, medium: round, hard: round } };
@@ -144,10 +221,11 @@ function recentLists(date: string, region: Region, companies: Company[], data: D
   const active = new Set(rounds.filter((r) => monthIndex(r.date) > now - 12).map((r) => r.companyId));
 
   return [
-    { tag: "recent", build: (rng) => rankedRound(`The 10 ${who} with the biggest rounds of ${year}`, "roundUsd", biggestSince(year), rng) },
-    { tag: "recent", build: (rng) => rankedRound(`The 10 ${who} with the biggest rounds since ${year - 1}`, "roundUsd", biggestSince(year - 1), rng) },
+    { tag: "recent", key: "recent:year", build: (rng) => rankedRound(`The 10 ${who} with the biggest rounds of ${year}`, "roundUsd", biggestSince(year), rng) },
+    { tag: "recent", key: "recent:since", build: (rng) => rankedRound(`The 10 ${who} with the biggest rounds since ${year - 1}`, "roundUsd", biggestSince(year - 1), rng) },
     {
       tag: "hot",
+      key: "hot",
       build: (rng) =>
         rankedRound(
           `Active in the last 12 months: the 10 ${who} that raised the most`,

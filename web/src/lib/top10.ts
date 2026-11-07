@@ -22,6 +22,11 @@ export interface Top10Round {
    * shows the company's `metric`.
    */
   values?: Record<string, number>;
+  /**
+   * A list of one program's startups (a Local "CDTM startups in Munich" day): the program, whose
+   * official logo the game shows in the title bar. Only inside the game, never in the share text.
+   */
+  program?: { id: string; name: string; logo?: string };
   hints: Hint[];
 }
 
