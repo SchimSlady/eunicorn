@@ -137,7 +137,7 @@ export function UnicornGridGame() {
     loadGame<Puzzle>(MODE).then(({ puzzle: p, data: d }) => {
       setData(d);
       setDaily(p);
-      if (p) setProgress(loadProgress<Progress>(MODE, p.date));
+      if (p) setProgress(loadProgress<Progress>(MODE, p.date, p));
     });
   }, []);
 

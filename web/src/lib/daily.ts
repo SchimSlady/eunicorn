@@ -55,12 +55,34 @@ export function msUntilNextPuzzle(now = new Date()): number {
 
 /* ---------- in-progress state, so a reload doesn't reset (or re-roll) today's game ---------- */
 
-export function loadProgress<T>(mode: Slot, date: string): T | null {
+/**
+ * The day's saved progress. With `puzzle`, it only counts if it was made on that same puzzle: a game
+ * started on a board that has since changed (data loaded during the day, before puzzles were frozen)
+ * starts afresh instead of laying old hints and answers onto a new board. Progress saved before this
+ * check carries no fingerprint and is kept.
+ */
+export function loadProgress<T>(mode: Slot, date: string, puzzle?: unknown): T | null {
   try {
-    return JSON.parse(localStorage.getItem(`eunicorn:${mode}:progress:${date}`) ?? "null");
+    const key = `eunicorn:${mode}:progress:${date}`;
+    const printKey = `eunicorn:${mode}:puzzle:${date}`;
+    if (puzzle !== undefined) {
+      const print = fingerprint(puzzle);
+      const saved = localStorage.getItem(printKey);
+      if (saved && saved !== print) localStorage.removeItem(key);
+      localStorage.setItem(printKey, print);
+    }
+    return JSON.parse(localStorage.getItem(key) ?? "null");
   } catch {
     return null;
   }
+}
+
+/** A short hash of a puzzle (its JSON), to tell whether saved progress belongs to it. */
+export function fingerprint(puzzle: unknown): string {
+  const text = JSON.stringify(puzzle);
+  let h = 5381;
+  for (let i = 0; i < text.length; i++) h = ((h << 5) + h + text.charCodeAt(i)) | 0;
+  return (h >>> 0).toString(36);
 }
 
 export function saveProgress<T>(mode: Slot, date: string, state: T): void {

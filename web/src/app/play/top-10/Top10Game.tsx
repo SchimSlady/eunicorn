@@ -89,7 +89,7 @@ export function Top10Game({ region }: { region?: Region } = {}) {
     loadGame<Top10Puzzle>(MODE, region).then(({ puzzle: p, data: d }) => {
       setData(d);
       setPuzzle(p);
-      if (p) setProgress(loadProgress<Progress>(slot, p.date));
+      if (p) setProgress(loadProgress<Progress>(slot, p.date, p));
     });
   }, [region, slot]);
 
