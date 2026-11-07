@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
-import { X } from "lucide-react";
+import { Banknote, BadgeCheck, CalendarDays, GraduationCap, MapPin, Tag, TrendingDown, X, type LucideIcon } from "lucide-react";
 import type { Company, Dataset } from "@eunicorn/schema";
 import { indexById, loadGame } from "@/lib/data";
 import { getTodayResult, loadProgress, saveProgress, saveResult } from "@/lib/daily";
@@ -24,6 +24,7 @@ import { RevealButton } from "@/components/RevealButton";
 import { StatsPanel } from "@/components/StatsPanel";
 import { recordFinish, recordStart } from "@/lib/stats";
 import { REGIONS, slotOf, type Region } from "@/lib/regions";
+import { explainMiss, type MissIcon, type MissReason } from "@/lib/top10Checks";
 
 const MODE = "top-10";
 const TITLE = "Top 10";
@@ -77,7 +78,8 @@ export function Top10Game({ region }: { region?: Region } = {}) {
   const [puzzle, setPuzzle] = useState<Top10Puzzle | null | undefined>(undefined);
   const [data, setData] = useState<Dataset | null>(null);
   const [progress, setProgress] = useState<Progress | null>(null);
-  const [miss, setMiss] = useState<{ name: string; n: number } | null>(null);
+  // The wrong guess whose reason is shown (the last one, or an earlier one the player tapped); n: shakes.
+  const [miss, setMiss] = useState<{ id: string; n: number } | null>(null);
 
   useEffect(() => {
     loadGame<Top10Puzzle>(MODE, region).then(({ puzzle: p, data: d }) => {
@@ -111,6 +113,10 @@ export function Top10Game({ region }: { region?: Region } = {}) {
 
   const round = atLevel(puzzle, progress.difficulty);
   const { found, wrong, done, score } = evaluate(round, progress);
+  // Wrong guesses, latest first, and why the selected one isn't on the list.
+  const misses = progress.guesses.filter((id) => !round.companyIds.includes(id)).reverse().map((id) => companies.get(id)!).filter(Boolean);
+  const missed = miss ? companies.get(miss.id) : undefined;
+  const missReason = missed ? explainMiss(missed, round, data) : null;
 
   function update(next: Progress) {
     setProgress(next);
@@ -143,7 +149,7 @@ export function Top10Game({ region }: { region?: Region } = {}) {
 
   function guess(c: Company) {
     const hit = round.companyIds.includes(c.id);
-    setMiss(hit ? null : { name: c.name, n: (miss?.n ?? 0) + 1 });
+    setMiss(hit ? null : { id: c.id, n: (miss?.n ?? 0) + 1 });
     update({ ...progress!, guesses: [...progress!.guesses, c.id] });
   }
 
@@ -160,8 +166,8 @@ export function Top10Game({ region }: { region?: Region } = {}) {
       <GameHeader title={TITLE} subtitle={subtitle} back={back} mode={MODE} difficulty={progress.difficulty} />
       <Announce
         text={
-          miss && !done
-            ? `${miss.name} is not in the list.`
+          missed && !done
+            ? `${missed.name} is not on the list. ${missReason?.text ?? ""}`
             : `${found.length} of 10 found.`
         }
       />
@@ -177,7 +183,7 @@ export function Top10Game({ region }: { region?: Region } = {}) {
         )}
       </div>
 
-      {/* The rows share the screen height left over (about 24rem is taken by the rest), so the whole game fits without scrolling. svh (the height with the browser bars shown) instead of dvh: rows keep their opening size when the phone hides its address bar on scroll. */}
+      {/* The rows share the screen height left over (about 24rem is taken by the rest, 30rem with a wrong guess's card), so the whole game fits without scrolling. svh (the height with the browser bars shown) instead of dvh: rows keep their opening size when the phone hides its address bar on scroll. */}
       <ol className="space-y-[3px]">
         {round.companyIds.map((id, i) => {
           const c = companies.get(id)!;
@@ -186,7 +192,7 @@ export function Top10Game({ region }: { region?: Region } = {}) {
           return (
             <li
               key={id}
-              style={{ height: "clamp(28px, calc((100svh - 392px) / 10), 44px)" }}
+              style={{ height: `clamp(28px, calc((100svh - ${misses.length && !done ? 480 : 392}px) / 10), 44px)` }}
               className={`flex items-center gap-2.5 rounded-xl border px-2.5 ${
                 got ? "animate-flip-in border-correct bg-correct/20" : shown ? "border-border bg-surface/40 opacity-60" : "border-muted/40 bg-surface"
               }`}
@@ -216,11 +222,23 @@ export function Top10Game({ region }: { region?: Region } = {}) {
 
       {!done ? (
         <div className="space-y-2">
-          {miss && (
-            <p className="flex items-center justify-center gap-1.5 text-sm font-semibold text-wrong">
-              <X size={16} aria-hidden /> {miss.name} isn&apos;t in this top 10
-            </p>
+          {misses.length > 0 && (
+            <div className="flex flex-wrap items-center gap-1.5" aria-label="Wrong guesses">
+              {misses.map((m) => (
+                <button
+                  key={m.id}
+                  type="button"
+                  onClick={() => setMiss({ id: m.id, n: miss?.n ?? 0 })}
+                  aria-label={`${m.name}: why it isn't on the list`}
+                  aria-pressed={miss?.id === m.id}
+                  className={`relative rounded-[22%] transition ${miss?.id === m.id ? "ring-2 ring-wrong" : "opacity-50 grayscale hover:opacity-100 hover:grayscale-0"}`}
+                >
+                  <CompanyLogo company={m} size={30} />
+                </button>
+              ))}
+            </div>
           )}
+          {missed && <MissCard company={missed} reason={missReason} key={`${missed.id}-${miss!.n}`} />}
           <div className="flex items-start gap-2">
             <div className={`min-w-0 flex-1 rounded-2xl ${nudgeClass(miss?.n)}`}>
               <CompanySearch companies={data.companies} exclude={new Set(progress.guesses)} onPick={guess} />
@@ -231,6 +249,7 @@ export function Top10Game({ region }: { region?: Region } = {}) {
               revealed={hintTexts.map((text) => ({ text, cost: 0 }))}
               next={hintTexts.length < hintCap && unfound.length ? { text: "", cost: 0 } : undefined}
               onReveal={revealHint}
+              total={hintCap}
             />
           </div>
           <RevealButton label="Show the list" onConfirm={() => update({ ...progress, gaveUp: true })} />
@@ -258,6 +277,55 @@ export function Top10Game({ region }: { region?: Region } = {}) {
           <BuiltInEuropeCard company={top} founders={topFounders} reason={topReason} />
         </div>
       )}
+    </div>
+  );
+}
+
+const MISS_ICON: Record<MissIcon, LucideIcon> = {
+  place: MapPin,
+  sector: Tag,
+  founded: CalendarDays,
+  status: BadgeCheck,
+  program: GraduationCap,
+  money: Banknote,
+  rank: TrendingDown,
+};
+
+/**
+ * Why a guess isn't on the list: its logo and name, the reason with an icon, and for a company that
+ * fits but has too little, where it would rank: ten places, a gap, and its own place in red.
+ */
+function MissCard({ company, reason }: { company: Company; reason: MissReason | null }) {
+  const Icon = reason ? MISS_ICON[reason.icon] : X;
+  const rank = reason?.rank;
+  return (
+    <div className="flex animate-pop items-center gap-3 rounded-2xl border border-wrong/40 bg-wrong/10 p-3">
+      <CompanyLogo company={company} size={44} />
+      <div className="min-w-0 flex-1">
+        <p className="flex flex-wrap items-baseline gap-x-2 font-semibold leading-tight">
+          <span className="truncate">{company.name}</span>
+          <span className="text-sm font-bold text-wrong">{rank ? `No. ${rank}` : "Not on this list"}</span>
+        </p>
+        <p className="mt-0.5 flex items-start gap-1.5 text-sm leading-snug text-muted">
+          <Icon size={15} className="mt-0.5 shrink-0" aria-hidden />
+          {reason?.text ?? "Not in this top 10"}
+        </p>
+        {rank && (
+          <div className="mt-2 flex items-center gap-[3px]" aria-hidden>
+            {Array.from({ length: 10 }, (_, i) => (
+              <span key={i} className="h-1.5 flex-1 rounded-full bg-correct/70" />
+            ))}
+            <span className="w-1.5" />
+            {/* Its own place in red; past No. 16 the gap is cut short. */}
+            {Array.from({ length: Math.min(rank - 10, 6) }, (_, i) => (
+              <span
+                key={`b${i}`}
+                className={`h-1.5 flex-1 rounded-full ${i === Math.min(rank - 10, 6) - 1 ? "bg-wrong" : "bg-border"} ${i === 4 && rank > 16 ? "opacity-40" : ""}`}
+              />
+            ))}
+          </div>
+        )}
+      </div>
     </div>
   );
 }

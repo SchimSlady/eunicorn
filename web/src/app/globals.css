@@ -149,3 +149,8 @@ h1, h2, h3 {
   outline: 2px solid var(--primary);
   outline-offset: 2px;
 }
+
+/* An open sheet takes focus itself so the keyboard starts inside it; the panel is no control, so no ring around it. */
+.sheet-panel:focus-visible {
+  outline: none;
+}

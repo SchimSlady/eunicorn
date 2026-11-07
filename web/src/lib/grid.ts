@@ -1,3 +1,6 @@
+import type { Company, Dataset, GridCriterion } from "@eunicorn/schema";
+import { USD_TO_EUR } from "./format";
+
 /**
  * Fills the open squares of a Startup Grid so that no company appears twice on the board.
  *
@@ -32,4 +35,43 @@ export function distinctAnswers(
     return false;
   };
   return place(0) ? result : null;
+}
+
+/**
+ * Whether a company meets a grid heading, worked out in the browser from the dataset, so a wrong
+ * guess can show which headings it meets (✓) and which not (✗). Mirrors gridCriteria in
+ * lib/server/generate.ts: "Founded 2015+" is founded-after 2014, "Founded 2014 or earlier" is
+ * founded-before 2015, "Valued over €5bn" compares the last valuation in euros.
+ */
+export function meetsCriterion(c: Company, k: GridCriterion, investorsOf: (companyId: string) => Set<string>): boolean {
+  const v = k.value as unknown;
+  switch (k.kind as GridCriterion["kind"] | "valuation-over") {
+    case "country":
+      return c.country === v;
+    case "city":
+      return c.city === v;
+    case "sector":
+      return c.sectors.includes(v as Company["sectors"][number]);
+    case "unicorn":
+      return c.unicorn;
+    case "status":
+      return c.status === v;
+    case "founded-after":
+      return c.founded > (v as number);
+    case "founded-before":
+      return c.founded > 0 && c.founded < (v as number);
+    case "investor":
+      return investorsOf(c.id).has(v as string);
+    case "valuation-over":
+      return c.lastValuationUsd != null && c.lastValuationUsd * USD_TO_EUR >= (v as number) * 1e9;
+  }
+  return false;
+}
+
+/** The investors of each company, from the rounds. */
+export function investorIndex(data: Dataset): (companyId: string) => Set<string> {
+  const by = new Map<string, Set<string>>();
+  for (const r of data.rounds) for (const id of r.investorIds) (by.get(r.companyId) ?? by.set(r.companyId, new Set()).get(r.companyId)!).add(id);
+  const none = new Set<string>();
+  return (companyId) => by.get(companyId) ?? none;
 }
