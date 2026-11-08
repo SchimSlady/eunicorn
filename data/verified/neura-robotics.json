@@ -47,6 +47,11 @@
       "field": "status",
       "url": "https://en.wikipedia.org/wiki/Neura_Robotics",
       "quote": "Type Private"
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Neura_Robotics",
+      "quote": "The company develops collaborative robots, autonomous mobile robots, and humanoid robots designed to operate alongside humans."
     }
   ],
   "rounds": [
@@ -124,5 +129,6 @@
       ]
     }
   ],
-  "aliases": []
+  "aliases": [],
+  "tagline": "Maker of collaborative, autonomous mobile and humanoid robots designed to work alongside humans."
 }

@@ -42,6 +42,11 @@
       "field": "valuation",
       "url": "https://finovate.com/?p=89114",
       "quote": "According to Bloomberg, the recent round reportedly values TrueLayer at $700 million, which is notably lower than the $1 billion valuation the company received during its 2021 Series E round."
+    },
+    {
+      "field": "tagline",
+      "url": "https://truelayer.com",
+      "quote": "By joining TrueLayer’s Pay by Bank network, merchants are future proofing their payment tech and bringing operational costs back down to earth."
     }
   ],
   "rounds": [
@@ -308,5 +313,6 @@
       ]
     }
   ],
-  "lastValuationEur": 635000000
+  "lastValuationEur": 635000000,
+  "tagline": "Pay by Bank network for merchants."
 }

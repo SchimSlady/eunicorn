@@ -1,25 +1,72 @@
 {
   "id": "zeit-ai",
   "name": "Zeit AI",
-  "aliases": ["ZeitMind", "Cascada AI"],
+  "aliases": [
+    "ZeitMind",
+    "Cascada AI"
+  ],
   "domain": "zeit-ai.com",
   "country": "DE",
   "city": "Munich",
   "founded": 2024,
-  "sectors": ["ai", "saas"],
+  "sectors": [
+    "ai",
+    "saas"
+  ],
   "status": "private",
   "unicorn": false,
-  "founders": ["Leopold von Waldthausen", "Marvin Bornstein"],
+  "founders": [
+    "Leopold von Waldthausen",
+    "Marvin Bornstein"
+  ],
   "difficulty": 5,
-  "programs": [{ "id": "y-combinator", "batch": "Summer 2024" }],
+  "programs": [
+    {
+      "id": "y-combinator",
+      "batch": "Summer 2024"
+    }
+  ],
   "sources": [
-    { "field": "city", "url": "https://media.startupcentrum.com/en/investment-zeit-ao-raises-e4-3-million/", "quote": "Founded in 2024 by Palantir alumni Leopold von Waldthausen and Marvin Bornstein in Munich" },
-    { "field": "founded", "url": "https://www.startbase.com/news/zeit-ai-sammelt-fuenf-millionen-euro-fuer-ki-datenplattform-ein/", "quote": "Zeit AI was founded in 2024." },
-    { "field": "founders", "url": "https://www.startbase.com/news/zeit-ai-sammelt-fuenf-millionen-euro-fuer-ki-datenplattform-ein/", "quote": "Founded in 2024 by Leopold von Waldthausen and Marvin Bornstein, the company is developing ZeitMind, an AI agent for corporate data." },
-    { "field": "sectors", "url": "https://www.startbase.com/news/zeit-ai-sammelt-fuenf-millionen-euro-fuer-ki-datenplattform-ein/", "quote": "Founded in 2024 by Leopold von Waldthausen and Marvin Bornstein, the company is developing ZeitMind, an AI agent for corporate data." },
-    { "field": "status", "url": "https://media.startupcentrum.com/en/investment-zeit-ao-raises-e4-3-million/", "quote": "announced it has closed a €4.3 million ($5 million) funding round" },
-    { "field": "unicorn", "url": "https://media.startupcentrum.com/en/investment-zeit-ao-raises-e4-3-million/", "quote": "announced it has closed a €4.3 million ($5 million) funding round" },
-    { "field": "programs", "url": "https://yc-oss.github.io/api/batches/summer-2024/zeit-ai.json", "quote": "\"batch\": \"Summer 2024\"" }
+    {
+      "field": "city",
+      "url": "https://media.startupcentrum.com/en/investment-zeit-ao-raises-e4-3-million/",
+      "quote": "Founded in 2024 by Palantir alumni Leopold von Waldthausen and Marvin Bornstein in Munich"
+    },
+    {
+      "field": "founded",
+      "url": "https://www.startbase.com/news/zeit-ai-sammelt-fuenf-millionen-euro-fuer-ki-datenplattform-ein/",
+      "quote": "Zeit AI was founded in 2024."
+    },
+    {
+      "field": "founders",
+      "url": "https://www.startbase.com/news/zeit-ai-sammelt-fuenf-millionen-euro-fuer-ki-datenplattform-ein/",
+      "quote": "Founded in 2024 by Leopold von Waldthausen and Marvin Bornstein, the company is developing ZeitMind, an AI agent for corporate data."
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.startbase.com/news/zeit-ai-sammelt-fuenf-millionen-euro-fuer-ki-datenplattform-ein/",
+      "quote": "Founded in 2024 by Leopold von Waldthausen and Marvin Bornstein, the company is developing ZeitMind, an AI agent for corporate data."
+    },
+    {
+      "field": "status",
+      "url": "https://media.startupcentrum.com/en/investment-zeit-ao-raises-e4-3-million/",
+      "quote": "announced it has closed a €4.3 million ($5 million) funding round"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://media.startupcentrum.com/en/investment-zeit-ao-raises-e4-3-million/",
+      "quote": "announced it has closed a €4.3 million ($5 million) funding round"
+    },
+    {
+      "field": "programs",
+      "url": "https://yc-oss.github.io/api/batches/summer-2024/zeit-ai.json",
+      "quote": "\"batch\": \"Summer 2024\""
+    },
+    {
+      "field": "tagline",
+      "url": "https://www.zeit-ai.com",
+      "quote": "ZeitMind connects SAP, your ERP, CRM, HRIS and 600+ source systems, prepares messy data, and turns everyday business questions into live dashboards, reports and applications, all in natural language."
+    }
   ],
   "rounds": [
     {
@@ -28,13 +75,41 @@
       "amountEur": 4304778,
       "amountOriginal": 5000000,
       "currency": "USD",
-      "investors": ["Y Combinator", "Oxford Seed Fund", "Hasso Plattner VC", "Sequoia Capital Scout Fund", "ACE Ventures", "Christian Lindner", "Mario Götze", "Charlie Songhurst", "Martin Schoeller", "Robert Fink"],
+      "investors": [
+        "Y Combinator",
+        "Oxford Seed Fund",
+        "Hasso Plattner VC",
+        "Sequoia Capital Scout Fund",
+        "ACE Ventures",
+        "Christian Lindner",
+        "Mario Götze",
+        "Charlie Songhurst",
+        "Martin Schoeller",
+        "Robert Fink"
+      ],
       "sources": [
-        { "field": "amount", "url": "https://media.startupcentrum.com/en/investment-zeit-ao-raises-e4-3-million/", "quote": "announced it has closed a €4.3 million ($5 million) funding round" },
-        { "field": "month", "url": "https://www.startbase.com/news/zeit-ai-sammelt-fuenf-millionen-euro-fuer-ki-datenplattform-ein/", "quote": "München, 03. September 2026" },
-        { "field": "investors", "url": "https://www.startbase.com/news/zeit-ai-sammelt-fuenf-millionen-euro-fuer-ki-datenplattform-ein/", "quote": "Investors include Y Combinator, the Oxford Seed Fund, Hasso Plattner VC, the Sequoia Capital Scout Fund, and ACE Ventures." },
-        { "field": "investors", "url": "https://www.startbase.com/news/zeit-ai-sammelt-fuenf-millionen-euro-fuer-ki-datenplattform-ein/", "quote": "Also participating are business angels Christian Lindner, Mario Götze, Charlie Songhurst, Martin Schoeller, and Robert Fink." }
+        {
+          "field": "amount",
+          "url": "https://media.startupcentrum.com/en/investment-zeit-ao-raises-e4-3-million/",
+          "quote": "announced it has closed a €4.3 million ($5 million) funding round"
+        },
+        {
+          "field": "month",
+          "url": "https://www.startbase.com/news/zeit-ai-sammelt-fuenf-millionen-euro-fuer-ki-datenplattform-ein/",
+          "quote": "München, 03. September 2026"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.startbase.com/news/zeit-ai-sammelt-fuenf-millionen-euro-fuer-ki-datenplattform-ein/",
+          "quote": "Investors include Y Combinator, the Oxford Seed Fund, Hasso Plattner VC, the Sequoia Capital Scout Fund, and ACE Ventures."
+        },
+        {
+          "field": "investors",
+          "url": "https://www.startbase.com/news/zeit-ai-sammelt-fuenf-millionen-euro-fuer-ki-datenplattform-ein/",
+          "quote": "Also participating are business angels Christian Lindner, Mario Götze, Charlie Songhurst, Martin Schoeller, and Robert Fink."
+        }
       ]
     }
-  ]
+  ],
+  "tagline": "Platform that turns business questions asked in natural language into live dashboards and reports."
 }

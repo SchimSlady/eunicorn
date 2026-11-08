@@ -55,6 +55,11 @@
       "field": "exit",
       "url": "https://en.wikipedia.org/wiki/AppLovin",
       "quote": "In February 2021, AppLovin announced the acquisition of mobile app measurement company Adjust."
+    },
+    {
+      "field": "tagline",
+      "url": "https://tech.eu/brief/berlin-founded-mobile-analytics-startup-adjust-raises-227-million/",
+      "quote": "Adjust is a SaaS business that provides ad measurement and fraud prevention tools for mobile apps."
     }
   ],
   "rounds": [
@@ -117,5 +122,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Provides ad measurement and fraud prevention tools for mobile apps."
 }

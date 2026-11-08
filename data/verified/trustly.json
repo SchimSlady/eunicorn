@@ -11,7 +11,11 @@
   ],
   "status": "private",
   "unicorn": false,
-  "founders": [],
+  "founders": [
+    "Carl Wilson",
+    "Joel Jakobsson",
+    "Lukas Gratte"
+  ],
   "difficulty": 3,
   "techeuId": "4CD12211-BE2F-479C-8DE1-A8DEB8F8BE0C",
   "sources": [
@@ -29,6 +33,21 @@
       "field": "sectors",
       "url": "https://en.wikipedia.org/wiki/Trustly",
       "quote": "is a Swedish fintech company founded in 2008"
+    },
+    {
+      "field": "founders",
+      "url": "https://en.wikipedia.org/wiki/Trustly",
+      "quote": "Founders Carl Wilson, Joel Jakobsson, Lukas Gratte"
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Trustly",
+      "quote": "Trustly AB (publ), known as Trustly, is a Swedish fintech company founded in 2008 that specializes in open banking payment solutions."
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Trustly",
+      "quote": "Trustly enables customers to conduct transactions directly from their bank accounts, offering an alternative to traditional card-based payment systems."
     }
   ],
   "rounds": [
@@ -88,5 +107,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Open banking payment solutions that let customers pay directly from their bank accounts."
 }

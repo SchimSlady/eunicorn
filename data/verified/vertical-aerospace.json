@@ -55,6 +55,16 @@
       "field": "exit",
       "url": "https://en.wikipedia.org/wiki/Vertical_Aerospace",
       "quote": "In December 2021, following the SPAC merger with Broadstone Acquisition Corp."
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Vertical_Aerospace",
+      "quote": "Vertical Aerospace Ltd. is an aerospace manufacturer based in Bristol , England."
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Vertical_Aerospace",
+      "quote": "Vertical Aerospace says that the VX4 is a piloted, zero emissions electric vertical take off and landing (eVTOL) vehicle with an expected range of over 100 miles (160.9 km) , capacity for 4 passengers and a pilot, and runs quieter than a helicopter."
     }
   ],
   "rounds": [
@@ -86,5 +96,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Aerospace manufacturer developing the VX4, a piloted zero-emission eVTOL aircraft."
 }

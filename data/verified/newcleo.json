@@ -45,6 +45,11 @@
       "field": "sectors",
       "url": "https://www.world-nuclear-news.org/articles/Newcleo-focus-on-Europe-with-HQ-move-from-UK-to-France",
       "quote": "the developer of small modular lead-cooled fast reactors"
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Newcleo",
+      "quote": "newcleo is a European nuclear energy company developing small modular lead-cooled fast reactors using mixed oxide fuel (MOX)."
     }
   ],
   "rounds": [
@@ -104,5 +109,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "European nuclear energy company developing small modular lead-cooled fast reactors."
 }

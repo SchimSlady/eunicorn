@@ -56,6 +56,11 @@
       "field": "programs",
       "url": "https://www.cdtm.com/startups/luminovo",
       "quote": "CDTM founders Sebastian Schaal Class of Spring 2014"
+    },
+    {
+      "field": "tagline",
+      "url": "https://www.luminovo.com/",
+      "quote": "Monitor, quote, and procure PCBAs on one electronics procurement platform, built with the people who buy and build electronics every day."
     }
   ],
   "rounds": [
@@ -101,5 +106,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Electronics procurement platform to monitor, quote and procure PCBAs."
 }

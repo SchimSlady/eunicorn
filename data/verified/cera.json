@@ -38,6 +38,11 @@
       "field": "sectors",
       "url": "https://tech.eu/2022/08/04/reducing-hospital-waiting-time-and-keeping-patients-out-of-hospitals-land-320-million-for-cera",
       "quote": "UK-based digital-first home healthcare platform Cera has raised $320 million in funding."
+    },
+    {
+      "field": "tagline",
+      "url": "https://www.ceracare.co.uk/about-us",
+      "quote": "We are helping move more healthcare services out of hospitals and into people’s own homes, enabling individuals to live longer, healthier and more independent lives."
     }
   ],
   "rounds": [
@@ -96,5 +101,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Moves healthcare services out of hospitals and into people's own homes."
 }

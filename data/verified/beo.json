@@ -1,15 +1,23 @@
 {
   "id": "beo",
   "name": "BEO",
-  "aliases": ["Co-Power", "Co-Power Energy"],
+  "aliases": [
+    "Co-Power",
+    "Co-Power Energy"
+  ],
   "domain": "beo.energy",
   "country": "DE",
   "city": "Munich",
   "founded": 2024,
-  "sectors": ["climate"],
+  "sectors": [
+    "climate"
+  ],
   "status": "private",
   "unicorn": false,
-  "founders": ["Jan Krüger", "Kilian Zedelius"],
+  "founders": [
+    "Jan Krüger",
+    "Kilian Zedelius"
+  ],
   "difficulty": 5,
   "sources": [
     {
@@ -46,6 +54,11 @@
       "field": "unicorn",
       "url": "https://www.munich-startup.de/en/110498/co-power-seed/",
       "quote": "Co-Power has completed a seed financing round of €6.4 million."
+    },
+    {
+      "field": "tagline",
+      "url": "https://beo.energy",
+      "quote": "BEO finanziert, installiert und betreibt Batteriespeichersysteme direkt an Ihrem Unternehmensstandort."
     }
   ],
   "rounds": [
@@ -55,7 +68,12 @@
       "amountEur": 6400000,
       "amountOriginal": 6400000,
       "currency": "EUR",
-      "investors": ["Cherry Ventures", "Abacon Capital", "Aurum Impact", "Flixfounders"],
+      "investors": [
+        "Cherry Ventures",
+        "Abacon Capital",
+        "Aurum Impact",
+        "Flixfounders"
+      ],
       "sources": [
         {
           "field": "amount",
@@ -79,5 +97,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Finances, installs and operates battery storage systems directly at business sites."
 }

@@ -84,6 +84,11 @@
       "field": "exit",
       "url": "https://stadt-bremerhaven.de/elektroroller-unu-hat-einen-neuen-besitzer",
       "quote": "30. Apr. 2024"
+    },
+    {
+      "field": "tagline",
+      "url": "https://unumotors.com",
+      "quote": "Ob du dich für den Kauf, das Firmenleasing oder das Serviceleasing von Elektrorollern entscheidest, wir bieten dir flexible Optionen für deine Bedürfnisse an."
     }
   ],
   "rounds": [
@@ -122,5 +127,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Purchase, company leasing and service leasing of electric scooters."
 }

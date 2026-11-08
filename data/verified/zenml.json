@@ -65,6 +65,11 @@
       "field": "programs",
       "url": "https://www.cdtm.com/startups/zenml",
       "quote": "CDTM founders Hamza Tahir Class of Fall 2017"
+    },
+    {
+      "field": "tagline",
+      "url": "https://docs.zenml.io",
+      "quote": "ZenML is an open-source framework for orchestrating production ML and LLM pipelines, including pipelines that run agentic workloads."
     }
   ],
   "rounds": [
@@ -139,5 +144,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Open-source framework for orchestrating production ML and LLM pipelines, including agentic workloads."
 }

@@ -54,6 +54,11 @@
       "field": "exit",
       "url": "https://en.wikipedia.org/wiki/Eutelsat_OneWeb",
       "quote": "The merger of OneWeb with France's Eutelsat S.A. – an operator of geostationary satellites – was announced in July 2022."
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/OneWeb",
+      "quote": "Eutelsat OneWeb is a subsidiary of the French group Eutelsat providing broadband satellite Internet services in low Earth orbit (LEO)."
     }
   ],
   "rounds": [
@@ -116,5 +121,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Broadband satellite internet provider in low Earth orbit, a subsidiary of Eutelsat."
 }

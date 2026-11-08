@@ -62,6 +62,11 @@
       "field": "programs",
       "url": "https://www.cdtm.com/startups/emidat",
       "quote": "CDTM founders Lisa Sophie Oberaigner Class of Fall 2020"
+    },
+    {
+      "field": "tagline",
+      "url": "https://emidat.com",
+      "quote": "AI backoffice for industrial manufacturers Get back to manufacturing – we take care of the rest."
     }
   ],
   "rounds": [
@@ -97,5 +102,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "AI back office for industrial manufacturers."
 }

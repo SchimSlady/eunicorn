@@ -43,6 +43,11 @@
       "field": "fun_fact",
       "url": "https://skill-sprinters.de/blog/news/microagi-muenchen-groesste-ki-seed-runde-2026/",
       "quote": "microagi baut weder eigene Roboter noch eigene Grundmodelle"
+    },
+    {
+      "field": "tagline",
+      "url": "https://www.munich-startup.de/en/news/microagi-no-robots-of-its-own-but-55-million-dollars",
+      "quote": "is a Munich-based AI startup founded in 2025 that trains robots for industrial applications."
     }
   ],
   "rounds": [
@@ -85,5 +90,6 @@
     }
   ],
   "status": "private",
-  "unicorn": false
+  "unicorn": false,
+  "tagline": "AI startup that trains robots for industrial applications."
 }

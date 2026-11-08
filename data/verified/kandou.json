@@ -45,6 +45,16 @@
       "field": "valuation",
       "url": "https://thenextweb.com/news/kandou-ai-225m-copper-interconnect-ai-infrastructure",
       "quote": "The round values the company at $400 million."
+    },
+    {
+      "field": "tagline",
+      "url": "https://kandou.ai",
+      "quote": "We are building revolutionary AI systems powered by breakthrough connectivity for AI Inference, CXL memory platforms, and ultra-high-speed scale-up and scale-out networking."
+    },
+    {
+      "field": "tagline",
+      "url": "https://kandou.ai",
+      "quote": "Kandou AI's fully compliant Regli PCIe retimer operates at ultra-low latency (under 13 nanoseconds)."
     }
   ],
   "rounds": [
@@ -86,5 +96,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Connectivity and networking platforms for AI inference, including PCIe retimers."
 }

@@ -48,6 +48,16 @@
       "field": "valuation",
       "url": "https://tech.eu/2022/02/09/switzerlands-scandit",
       "quote": "Scandit has raised $150 million in a Series D funding round, now providing the company with a valuation north of $1 billion."
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Scandit",
+      "quote": "Scandit AG, commonly referred to as Scandit, is a Swiss technology company that provides smart data capture software."
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Scandit",
+      "quote": "Their technology allows any smart device equipped with a camera to scan barcodes, IDs and text and to perform additional functions using augmented reality and advanced analytics."
     }
   ],
   "rounds": [
@@ -200,5 +210,6 @@
       "techeuId": "988536b5-5933-44c4-88ed-1dbf3a429569"
     }
   ],
-  "lastValuationEur": 875000000
+  "lastValuationEur": 875000000,
+  "tagline": "Swiss company providing software that lets any camera-equipped device scan barcodes, IDs and text."
 }

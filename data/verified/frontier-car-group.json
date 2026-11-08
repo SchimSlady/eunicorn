@@ -68,6 +68,11 @@
       "field": "exit",
       "url": "https://www.leadersleague.com/en/news/olx-group-expands-in-latin-america-with-frontier-car-group-merger",
       "quote": "OLX Group, which operates a number of online trading platforms, has merged with Frontier Car Group"
+    },
+    {
+      "field": "tagline",
+      "url": "https://tech.eu/2019/11/11/olx-group-will-pay-400-million-to-acquire-berlin-based-frontier-car-group/",
+      "quote": "The company provides a used car marketplace for emerging economies."
     }
   ],
   "rounds": [
@@ -177,5 +182,6 @@
       ]
     }
   ],
-  "lastValuationEur": 634000000
+  "lastValuationEur": 634000000,
+  "tagline": "Used car marketplace for emerging economies."
 }

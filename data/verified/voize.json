@@ -61,6 +61,11 @@
       "field": "programs",
       "url": "https://yc-oss.github.io/api/batches/winter-2022/voize.json",
       "quote": "\"batch\": \"Winter 2022\""
+    },
+    {
+      "field": "tagline",
+      "url": "https://voize.de",
+      "quote": "voize lässt Pflegekräfte ihre Dokumentation einfach einsprechen und die KI überträgt alles strukturiert und automatisch ins Pflegesystem."
     }
   ],
   "rounds": [
@@ -134,5 +139,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "AI that lets care workers dictate documentation and transfers it automatically into care systems."
 }

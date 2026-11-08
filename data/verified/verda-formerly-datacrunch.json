@@ -44,6 +44,16 @@
       "field": "valuation",
       "url": "https://thenextweb.com/news/finnish-ai-cloud-company-verda-raises-189m-and-it-is-now-the-latest-unicorn-in-europe",
       "quote": "Verda is now worth at least $1 billion"
+    },
+    {
+      "field": "tagline",
+      "url": "https://verda.com",
+      "quote": "The full-stack AI cloud, purpose-built for practitioners’ requirements across the full AI lifecycle."
+    },
+    {
+      "field": "tagline",
+      "url": "https://verda.com",
+      "quote": "One platform for the full AI lifecycle — from rapid prototyping to foundation training and scalable inference."
     }
   ],
   "rounds": [
@@ -99,5 +109,6 @@
       ]
     }
   ],
-  "lastValuationEur": 867000000
+  "lastValuationEur": 867000000,
+  "tagline": "Full-stack AI cloud platform for the full AI lifecycle, from prototyping to inference."
 }

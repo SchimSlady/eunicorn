@@ -74,6 +74,11 @@
       "field": "exit",
       "url": "https://www.munich-startup.de/news/teleclinic-von-zur-rose-gruppe-uebernommen",
       "quote": "23. Juli 2020"
+    },
+    {
+      "field": "tagline",
+      "url": "https://teleclinic.com",
+      "quote": "Mit TeleClinic haben Sie die Möglichkeit online mit Ärztinnen und Ärzte aus ganz Deutschland per Video zu sprechen"
     }
   ],
   "rounds": [
@@ -145,5 +150,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Online video consultations with doctors from all over Germany."
 }

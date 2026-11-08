@@ -59,6 +59,11 @@
       "field": "programs",
       "url": "https://codelabsacademy.com/en/news/langdock-secures-dollar3m-funding-to-improve-ai-usage-in-the-corporate-world-2024-4-24",
       "quote": "raised seed money recently from Y Combinator, La Famiglia, and a number of well-known German businessmen, including Rolf Schrömgens (Trivago) and Hanno Renner (Personio)"
+    },
+    {
+      "field": "tagline",
+      "url": "https://www.langdock.com/",
+      "quote": "Langdock enables you to roll out AI across your entire organization in a safe and flexible way."
     }
   ],
   "rounds": [
@@ -101,5 +106,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Platform for rolling out AI across an organization safely and flexibly."
 }

@@ -56,6 +56,11 @@
       "field": "exit",
       "url": "https://tubulis.com/news/gilead-to-acquire-tubulis-adding-potentially-best-in-class-antibody-drug-conjugate-and-next-generation-platform-to-further-strengthen-oncology-pipeline/",
       "quote": "Foster City, Calif., and Munich, Germany – April 7, 2026 – Gilead Sciences, Inc. (Nasdaq: GILD) today announced it has entered into a definitive agreement to acquire Tubulis GmbH"
+    },
+    {
+      "field": "tagline",
+      "url": "https://tubulis.com",
+      "quote": "Tubulis generates uniquely matched antibody-drug conjugates with superior biophysical properties that have demonstrated durable on-tumor delivery and long-lasting anti-tumor activity in preclinical models."
     }
   ],
   "rounds": [
@@ -200,5 +205,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Develops uniquely matched antibody-drug conjugates."
 }

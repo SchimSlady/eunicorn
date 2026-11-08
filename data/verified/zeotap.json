@@ -44,6 +44,11 @@
       "field": "status",
       "url": "https://www.startbase.com/organization/zeotap/",
       "quote": "Umsatz von Zeotap steigt auf 15,1 Millionen"
+    },
+    {
+      "field": "tagline",
+      "url": "https://web.archive.org/web/2025/https://zeotap.com/",
+      "quote": "Zeotap redefines what a Customer Data Platform is with unmatched time-to-value, inherent flexibility, superior match rates, and AI-driven decision-making"
     }
   ],
   "rounds": [
@@ -216,5 +221,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Customer Data Platform provider using AI-driven decision-making."
 }

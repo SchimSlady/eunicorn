@@ -12,7 +12,12 @@
   "status": "acquired",
   "unicorn": true,
   "lastValuationEur": 1405810684,
-  "founders": [],
+  "founders": [
+    "Nicole Eagan",
+    "Poppy Gustafsson",
+    "Jack Stockdale",
+    "Emily Orton"
+  ],
   "difficulty": 2,
   "techeuId": "773779E6-3964-40E9-8027-86A4C16935BF",
   "exit": {
@@ -70,6 +75,21 @@
       "field": "exit",
       "url": "https://en.wikipedia.org/wiki/Darktrace",
       "quote": "In April 2024, the private equity business, Thoma Bravo , offered to acquire the company for $5.3 billion."
+    },
+    {
+      "field": "founders",
+      "url": "https://www.darktrace.com/fr/people/nicole-eagan",
+      "quote": "Nicole Eagan is Co-Founder & Strategic Advisor at Darktrace"
+    },
+    {
+      "field": "founders",
+      "url": "https://moneyinc.com/darktrace/",
+      "quote": "Poppy Gustafsson, a co-founder and CEO, Jack Stockdale, co-founder and CTO"
+    },
+    {
+      "field": "founders",
+      "url": "https://moneyinc.com/darktrace/",
+      "quote": "Emily Orton, co-founder, and chief marketing officer"
     }
   ],
   "rounds": [

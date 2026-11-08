@@ -54,6 +54,11 @@
       "field": "valuation",
       "url": "https://techcrunch.com/2021/12/07/lydia-grabs-another-100-million-for-its-european-financial-super-app",
       "quote": "it is currently valued at more than $1 billion"
+    },
+    {
+      "field": "tagline",
+      "url": "https://www.sumeria.eu/",
+      "quote": "Sumeria est le compte bancaire qui vous aide à garder vos finances en ordre, sans prise de tête, pour vivre plus sereinement."
     }
   ],
   "rounds": [
@@ -230,5 +235,6 @@
       ]
     }
   ],
-  "lastValuationEur": 888000000
+  "lastValuationEur": 888000000,
+  "tagline": "Bank account that helps people keep their finances in order without hassle."
 }

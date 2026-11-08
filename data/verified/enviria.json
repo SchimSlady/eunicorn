@@ -43,6 +43,16 @@
       "field": "status",
       "url": "https://tech.eu/2024/02/29/germanys-enviria-targets-commercial-solar-energy-market-with-200m-blackrock-funding/",
       "quote": "has secured over $200 million in a Series B funding round provided by the world's largest asset manager, BlackRock."
+    },
+    {
+      "field": "tagline",
+      "url": "https://enviria.energy",
+      "quote": "Profitieren Sie von planbaren Energiekosten und zusätzlichen Einnahmen mit PV, Batteriespeichern, Ladeinfrastruktur, Grünstrom, CPPAs und Energie-Management - ohne Aufwand und Investition."
+    },
+    {
+      "field": "tagline",
+      "url": "https://enviria.energy",
+      "quote": "Wir übernehmen die gesamte solare Wertschöpfungskette"
     }
   ],
   "rounds": [
@@ -81,5 +91,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Solar value chain provider with PV, battery storage, charging infrastructure, green power and energy management."
 }

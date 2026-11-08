@@ -64,8 +64,14 @@
       "field": "exit",
       "url": "https://en.wikipedia.org/wiki/Google_DeepMind",
       "quote": "On 26 January 2014, Google confirmed its acquisition of DeepMind for a price reportedly ranging between $400 million and $650 million."
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Google_DeepMind",
+      "quote": "DeepMind Technologies Limited, trading as Google DeepMind or simply DeepMind, is a British-American artificial intelligence (AI) research laboratory which is a subsidiary of Alphabet Inc."
     }
   ],
   "rounds": [],
-  "funFact": "DeepMind's founder Demis Hassabis said the company began its AI work by teaching software to play 1970s and 80s Atari games like Breakout, Pong and Space Invaders."
+  "funFact": "DeepMind's founder Demis Hassabis said the company began its AI work by teaching software to play 1970s and 80s Atari games like Breakout, Pong and Space Invaders.",
+  "tagline": "British-American artificial intelligence research laboratory, a subsidiary of Alphabet Inc."
 }

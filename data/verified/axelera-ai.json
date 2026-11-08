@@ -11,7 +11,9 @@
   ],
   "status": "private",
   "unicorn": false,
-  "founders": [],
+  "founders": [
+    "Fabrizio Del Maffeo"
+  ],
   "difficulty": 4,
   "techeuId": "9307EA77-D889-46C3-A3FD-CA15525926E9",
   "sources": [
@@ -29,6 +31,16 @@
       "field": "sectors",
       "url": "https://axelera.ai/news/axelera-ai-secures-more-than-250-million-funding-on-global-commercial-growth",
       "quote": "Axelera AI, the European leader in AI acceleration hardware"
+    },
+    {
+      "field": "founders",
+      "url": "https://www.imec-int.com/en/articles/start-story-axelera-ai",
+      "quote": "Fabrizio Del Maffeo is the CEO and co-founder of Axelera AI"
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Axelera_AI",
+      "quote": "It develops AI processing units (AIPU) for robots and drones, as well as cars, medical devices, and security cameras."
     }
   ],
   "rounds": [
@@ -182,5 +194,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Develops AI processing units for robots, drones, cars, medical devices and security cameras."
 }

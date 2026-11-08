@@ -60,6 +60,11 @@
       "field": "exit",
       "url": "https://en.wikipedia.org/wiki/LeanIX",
       "quote": "On September 7, 2023 it was announced that SAP has entered into an agreement to acquire LeanIX."
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/LeanIX",
+      "quote": "LeanIX is a German software company, founded on January 10, 2012 by Jörg Beyer and André Christ in Bonn, Germany. LeanIX is known for its enterprise architecture solutions."
     }
   ],
   "rounds": [
@@ -203,5 +208,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "German software company known for enterprise architecture solutions."
 }

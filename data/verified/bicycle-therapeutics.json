@@ -13,7 +13,9 @@
   ],
   "status": "public",
   "unicorn": false,
-  "founders": [],
+  "founders": [
+    "Gregory Winter"
+  ],
   "difficulty": 4,
   "techeuId": "6BD8727A-CBC0-459C-9F92-656E6E823683",
   "exit": {
@@ -55,6 +57,16 @@
       "field": "exit",
       "url": "https://www.biocentury.com/article/302274",
       "quote": "A pair of newly listed biotechs trended in opposite directions during first-day trading Thursday."
+    },
+    {
+      "field": "founders",
+      "url": "https://www.biospace.com/bicycle-therapeutics-founder-sir-gregory-winter-awarded-nobel-prize-in-chemistry",
+      "quote": "its founder and Board member, Sir Gregory Winter"
+    },
+    {
+      "field": "tagline",
+      "url": "https://www.bicycletherapeutics.com",
+      "quote": "Bicycle is developing precision-guided therapeutics, to penetrate deep into tissues and target intractable cancers."
     }
   ],
   "rounds": [
@@ -170,5 +182,6 @@
       ]
     }
   ],
-  "lastValuationEur": 221000000
+  "lastValuationEur": 221000000,
+  "tagline": "Develops precision-guided therapeutics that penetrate deep into tissues to target intractable cancers."
 }

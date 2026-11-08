@@ -50,6 +50,16 @@
       "field": "fun_fact",
       "url": "https://agfundernews.com/formo-nets-50m-for-animal-free-cheese-fermented-from-microbes",
       "quote": "Founded in 2018, it was originally named Legendairy Foods before a rebranding exercise earlier this year."
+    },
+    {
+      "field": "tagline",
+      "url": "https://formo.bio",
+      "quote": "So we put precision fermentation to work making Enhanced Casein without the cow."
+    },
+    {
+      "field": "tagline",
+      "url": "https://formo.bio",
+      "quote": "Unlocking new levels of protein functionality with Enhanced Casein, made through precision fermentation."
     }
   ],
   "rounds": [
@@ -138,5 +148,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Makes Enhanced Casein protein through precision fermentation, without the cow."
 }

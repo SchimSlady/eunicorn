@@ -88,6 +88,11 @@
       "field": "programs",
       "url": "https://www.startmunich.de/api/startups",
       "quote": "\"name\":\"Wemolo\",\"website\":\"www.wemolo.com/\""
+    },
+    {
+      "field": "tagline",
+      "url": "https://wemolo.com",
+      "quote": "Wemolo bietet ein KI-gestütztes, schrankenloses Parkraummanagement mit automatischer Kennzeichenerkennung."
     }
   ],
   "rounds": [
@@ -162,5 +167,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "AI-powered, barrier-free parking management with automatic number plate recognition."
 }

@@ -95,6 +95,11 @@
       "field": "exit",
       "url": "https://www.munich-startup.de/en/news/idnow-sold-to-american-investment-firm",
       "quote": "March 12, 2025"
+    },
+    {
+      "field": "tagline",
+      "url": "https://www.idnow.io",
+      "quote": "with IDnow’s scalable identity platform, combining adaptive compliance, real-time fraud prevention and end-to-end trust."
     }
   ],
   "rounds": [
@@ -125,5 +130,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Identity platform combining compliance checks with real-time fraud prevention."
 }

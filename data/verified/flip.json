@@ -45,6 +45,11 @@
       "field": "fun_fact",
       "url": "https://www.getflip.com/newsroom/press-releases/flip-secures-28-million-series-a-extension-to-expand-new-ai-powered-capabilities-for-deskless-workers/",
       "quote": "Founded inside Porsche by then-trainee Benedikt Brand"
+    },
+    {
+      "field": "tagline",
+      "url": "https://getflip.com",
+      "quote": "One branded app that connects your entire workforce from head office to the shop floor."
     }
   ],
   "rounds": [
@@ -191,5 +196,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Branded app that connects a company's entire workforce, from head office to the shop floor."
 }

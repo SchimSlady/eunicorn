@@ -44,6 +44,11 @@
       "field": "unicorn",
       "url": "https://invest-in.berlin/n/berlin-fintech-payrails-lands-32m-funding-round/",
       "quote": "Founded by former fintech leaders from Delivery Hero"
+    },
+    {
+      "field": "tagline",
+      "url": "https://www.payrails.com/blog/payrails-series-a",
+      "quote": "With the continued backing of leading technology investors, Payrails is strengthening its position as a category-defining payment platform for large enterprises."
     }
   ],
   "rounds": [
@@ -158,5 +163,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Payment platform aimed at large enterprises."
 }

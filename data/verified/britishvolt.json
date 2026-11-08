@@ -62,6 +62,11 @@
       "field": "unicorn",
       "url": "https://www.theguardian.com/business/2022/feb/15/britishvolt-secures-40m-investment-for-electric-vehicle-battery-factory",
       "quote": "The FTSE 100 miner has already invested millions of pounds in Britishvolt in earlier funding rounds that valued the battery company at more than $1bn (£740m)."
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Britishvolt",
+      "quote": "Power by Britishvolt Limited, trading as Britishvolt, was a UK startup manufacturer of lithium-ion batteries."
     }
   ],
   "rounds": [
@@ -92,5 +97,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "UK startup that manufactured lithium-ion batteries."
 }

@@ -56,6 +56,11 @@
       "field": "valuation",
       "url": "https://tech.eu/2026/06/09/led-by-20vc-fonioai-raises-17m-for-omnichannel-ai-platform/",
       "quote": "has raised $17 million in seed funding at a $140 million valuation"
+    },
+    {
+      "field": "tagline",
+      "url": "https://fonio.ai",
+      "quote": "Our AI phone assistant adapts flexibly to your needs and seamlessly integrates with systems like calendar tools and CRMs."
     }
   ],
   "rounds": [
@@ -119,5 +124,6 @@
       ]
     }
   ],
-  "lastValuationEur": 121000000
+  "lastValuationEur": 121000000,
+  "tagline": "AI phone assistant that integrates with calendar tools and CRMs."
 }

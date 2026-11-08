@@ -41,6 +41,16 @@
       "field": "sectors",
       "url": "https://techcrunch.com/2018/04/24/clark-robo-advisor",
       "quote": "offering something akin to a digital insurance brokerage all delivered through a convenient mobile app"
+    },
+    {
+      "field": "tagline",
+      "url": "https://www.clark.de/de/ueber-uns",
+      "quote": "Deswegen haben wir den digitalen Versicherungsmanager entwickelt."
+    },
+    {
+      "field": "tagline",
+      "url": "https://www.clark.de/de/ueber-uns",
+      "quote": "Mit vereinter Expertise beraten wir dich unabhängig und persönlich zu allen Versicherungs- und Vorsorge-Themen."
     }
   ],
   "rounds": [
@@ -122,5 +132,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Digital insurance manager giving independent, personal advice on insurance and provision topics."
 }

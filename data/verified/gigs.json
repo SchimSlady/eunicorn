@@ -48,6 +48,16 @@
       "field": "programs",
       "url": "https://yc-oss.github.io/api/batches/winter-2021/gigs.json",
       "quote": "\"batch\": \"Winter 2021\""
+    },
+    {
+      "field": "tagline",
+      "url": "https://gigs.com",
+      "quote": "With Gigs OS, any tech brand can be a mobile provider."
+    },
+    {
+      "field": "tagline",
+      "url": "https://gigs.com",
+      "quote": "Discover Gigs OS, the operating system for embedded mobile services."
     }
   ],
   "rounds": [
@@ -127,5 +137,6 @@
       "id": "y-combinator",
       "batch": "Winter 2021"
     }
-  ]
+  ],
+  "tagline": "Operating system for embedded mobile services that lets tech brands become mobile providers."
 }

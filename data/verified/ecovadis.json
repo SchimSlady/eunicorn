@@ -41,6 +41,11 @@
       "field": "valuation",
       "url": "https://www.esgtoday.com/value-chain-focused-sustainability-ratings-provider-ecovadis-raises-500-million/",
       "quote": "The deal values the company at well over $1 billion"
+    },
+    {
+      "field": "tagline",
+      "url": "https://ecovadis.com/about-us/",
+      "quote": "Since our founding in 2007, EcoVadis has grown into a globally trusted provider of business sustainability ratings with a network of more than 150,000+ rated companies."
     }
   ],
   "rounds": [
@@ -76,5 +81,6 @@
       ]
     }
   ],
-  "lastValuationEur": 957000000
+  "lastValuationEur": 957000000,
+  "tagline": "Provider of business sustainability ratings for companies."
 }

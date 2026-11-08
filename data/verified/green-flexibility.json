@@ -42,6 +42,11 @@
       "field": "status",
       "url": "https://www.green-flexibility.com/",
       "quote": "green flexibility development gmbh"
+    },
+    {
+      "field": "tagline",
+      "url": "https://www.green-flexibility.com",
+      "quote": "Wir projektieren, bauen und betreiben Großbatteriespeicher langfristig und übernehmen alle Projektschritte – von der Flächenidentifizierung über den Bau bis hin zu Betrieb und Vermarktung."
     }
   ],
   "rounds": [
@@ -73,5 +78,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Plans, builds, operates and markets large-scale battery storage systems."
 }

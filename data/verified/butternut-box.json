@@ -37,6 +37,11 @@
       "field": "sectors",
       "url": "https://en.wikipedia.org/wiki/Butternut_Box",
       "quote": "Butternut Box is a dog food subscription service"
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Butternut_Box",
+      "quote": "Butternut Box is a dog food subscription service founded in 2016."
     }
   ],
   "rounds": [
@@ -107,5 +112,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Dog food subscription service."
 }

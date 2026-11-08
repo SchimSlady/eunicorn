@@ -44,6 +44,11 @@
       "field": "unicorn",
       "url": "https://www.spacewar.com/reports/LiveEO_raises_25M_to_leverage_AI_powered_satellite_data_for_infrastructure_and_climate_risk_management_999.html",
       "quote": "takes the total raised by the Berlin-based firm to 51.6 million"
+    },
+    {
+      "field": "tagline",
+      "url": "https://www.live-eo.com/",
+      "quote": "LiveEO delivers AI-powered Earth Observation insights that help organizations stay ahead of critical risks."
     }
   ],
   "rounds": [
@@ -208,5 +213,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "AI-powered Earth observation insights to help organizations monitor critical risks."
 }

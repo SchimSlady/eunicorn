@@ -49,6 +49,11 @@
       "field": "unicorn",
       "url": "https://mercomindia.com/terra-one-secures-in-seed-financing",
       "quote": "secured $7.5 million in seed funding"
+    },
+    {
+      "field": "tagline",
+      "url": "https://terra.one",
+      "quote": "Terra One ist ein Technologieunternehmen, das AI-Modelle entwickelt, um Batteriespeicher automatisiert zu steuern und das europäische Stromnetz zu stabilisieren."
     }
   ],
   "rounds": [
@@ -87,5 +92,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "AI models that automatically control battery storage to stabilize the European power grid."
 }

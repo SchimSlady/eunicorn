@@ -56,6 +56,16 @@
       "field": "logo",
       "url": "https://commons.wikimedia.org/wiki/File:Picnic_logo.svg",
       "quote": "File:Picnic logo.svg"
+    },
+    {
+      "field": "tagline",
+      "url": "https://picnic.app/de/ueber-picnic/",
+      "quote": "Wir wollen dir deinen Wocheneinkauf so einfach wie möglich machen."
+    },
+    {
+      "field": "tagline",
+      "url": "https://picnic.app/de/ueber-picnic/",
+      "quote": "Deswegen liefern wir dir Lebensmittel stressfrei bis an die Haustür."
     }
   ],
   "rounds": [
@@ -229,5 +239,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Grocery delivery service that brings the weekly shop to customers' front doors."
 }

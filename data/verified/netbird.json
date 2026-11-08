@@ -44,6 +44,11 @@
       "field": "status",
       "url": "https://www.ypog.law/en/press/deal-update-antler-lfa8-investments-peak-amberra-join-capital-amadeus-apex-technology-fund-and-sensorberg",
       "quote": "Series A financing round of Berlin-based cybersec"
+    },
+    {
+      "field": "tagline",
+      "url": "https://netbird.io/",
+      "quote": "IT and Engineering teams securely connect remote users, hybrid-cloud, and edge in minutes with NetBird, replacing traditional VPNs with one identity-based ZTNA platform."
     }
   ],
   "rounds": [
@@ -138,5 +143,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Identity-based ZTNA platform that replaces traditional VPNs for remote users, hybrid cloud and edge."
 }

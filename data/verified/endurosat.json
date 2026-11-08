@@ -53,6 +53,11 @@
       "field": "fun_fact",
       "url": "https://en.wikipedia.org/wiki/EnduroSat",
       "quote": "May 21, 2018 EnduroSat One First Bulgarian CubeSat mission."
+    },
+    {
+      "field": "tagline",
+      "url": "https://endurosat.com/space-service",
+      "quote": "The Solution Standardized satellites and operations enable highly profitable space data businesses"
     }
   ],
   "rounds": [
@@ -171,5 +176,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Standardized satellites and operations that enable space data businesses."
 }

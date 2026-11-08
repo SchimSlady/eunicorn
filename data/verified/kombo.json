@@ -56,6 +56,11 @@
       "field": "programs",
       "url": "https://www.invest-in.berlin/n/kombo-raises-25m-to-fix-hr-data-fragmentation/",
       "quote": "with continued backing from Acadian Ventures, 468 Capital, and Y Combinator"
+    },
+    {
+      "field": "tagline",
+      "url": "https://www.kombo.dev/",
+      "quote": "Integrate Kombo once – offer hundreds of HRIS, ATS, Assessment, Payroll, and LMS integrations off-the-shelf to your customers."
     }
   ],
   "rounds": [
@@ -95,5 +100,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Integration platform for HRIS, ATS, payroll and LMS systems that products can offer to customers."
 }

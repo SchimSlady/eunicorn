@@ -42,6 +42,11 @@
       "field": "programs",
       "url": "https://www.cdtm.com/startups/tacto",
       "quote": "CDTM founders André Petry Class of Fall 2017"
+    },
+    {
+      "field": "tagline",
+      "url": "https://tacto.ai",
+      "quote": "Technologieführer Industrial AI für den Einkauf der produzierenden Industrie."
     }
   ],
   "rounds": [
@@ -126,5 +131,6 @@
     {
       "id": "cdtm"
     }
-  ]
+  ],
+  "tagline": "Industrial AI for procurement in the manufacturing industry."
 }

@@ -62,6 +62,16 @@
       "field": "programs",
       "url": "https://www.manageandmore.de/start-ups/",
       "quote": "Fernride www.fernride.com"
+    },
+    {
+      "field": "tagline",
+      "url": "https://fernride.com",
+      "quote": "Improve productivity, safety and sustainability with logistics automation solutions for moving cargo in container terminals, manufacturing facilities and distribution centers."
+    },
+    {
+      "field": "tagline",
+      "url": "https://fernride.com",
+      "quote": "Optimizing yards with autonomous, electric trucking solutions."
     }
   ],
   "rounds": [
@@ -191,5 +201,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Logistics automation for moving cargo with autonomous, electric trucks in terminals and distribution centers."
 }

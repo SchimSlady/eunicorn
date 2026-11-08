@@ -32,6 +32,11 @@
       "field": "sectors",
       "url": "https://bebeez.eu/2024/10/18/swedish-startup-gains-e63-million-investment-to-combat-fossil-fuel-dependency-in-european-households/",
       "quote": "Aira develops intelligent heat pumps"
+    },
+    {
+      "field": "tagline",
+      "url": "https://airahome.com",
+      "quote": "With heat pumps at the heart, our home energy solutions are helping Europe switch to cleaner, cheaper energy."
     }
   ],
   "rounds": [
@@ -144,5 +149,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Home energy solutions built around heat pumps."
 }

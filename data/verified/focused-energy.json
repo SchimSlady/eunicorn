@@ -52,6 +52,16 @@
       "field": "status",
       "url": "https://www.focused-energy.co/news-release/focused-energy-sets-a-new-benchmark-240-million-for-the-largest-series-a-financing-in-the-global-fusion-industry",
       "quote": "Focused Energy, the world's leading laser fusion company, has raised $240 million in a Series A financing round"
+    },
+    {
+      "field": "tagline",
+      "url": "https://focused-energy.co",
+      "quote": "Focused Energy is commercializing that breakthrough with the scientists who got us to ignition and the engineers who will deliver fusion energy to the world."
+    },
+    {
+      "field": "tagline",
+      "url": "https://focused-energy.co",
+      "quote": "Direct-drive laser fusion."
     }
   ],
   "rounds": [
@@ -96,5 +106,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Commercializing direct-drive laser fusion to deliver fusion energy."
 }

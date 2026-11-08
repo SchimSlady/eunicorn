@@ -51,6 +51,11 @@
       "field": "fun_fact",
       "url": "https://www.trendingtopics.eu/reverion-series-b-175-million-megafactory/",
       "quote": "The figure Reverion leads with: 74.2 percent electrical efficiency, measured in live customer operation with the first pre-series units."
+    },
+    {
+      "field": "tagline",
+      "url": "https://www.reverion.com",
+      "quote": "Für Biogasanlagen, Energieversorger und Rechenzentren: wo Strom, Speichergas oder beides im Wechsel gebraucht wird, liefert unser reversibles Kraftwerk der Reverion M Serie bedarfsgerecht – mit Weltrekord-Effizienz."
     }
   ],
   "rounds": [
@@ -204,5 +209,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Reversible power plant that switches between electricity and storage gas as demand requires."
 }

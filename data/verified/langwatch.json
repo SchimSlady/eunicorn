@@ -52,6 +52,11 @@
       "field": "programs",
       "url": "https://siliconcanals.com/langwatch-raises-e1m-in-pre-seed-round/",
       "quote": "who met during an Antler residency in Amsterdam"
+    },
+    {
+      "field": "tagline",
+      "url": "https://langwatch.ai/",
+      "quote": "The LLM engineering platform for teams that ship AI to production."
     }
   ],
   "rounds": [
@@ -84,5 +89,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "LLM engineering platform for teams shipping AI to production."
 }

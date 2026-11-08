@@ -66,6 +66,11 @@
       "field": "programs",
       "url": "https://www.cdtm.com/startups/demodesk",
       "quote": "CDTM founders Alexander Popp Class of Spring 2014"
+    },
+    {
+      "field": "tagline",
+      "url": "https://www.demodesk.com",
+      "quote": "Demodesk is an AI sales agent platform that records conversations, updates CRMs, coaches reps, and rescues at-risk deals."
     }
   ],
   "rounds": [
@@ -133,5 +138,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "AI sales agent platform that records conversations, updates CRMs, coaches reps and rescues at-risk deals."
 }

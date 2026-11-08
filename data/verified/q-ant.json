@@ -44,6 +44,16 @@
       "field": "status",
       "url": "https://siliconcanals.com/q-ant-raises-e62m/",
       "quote": "Stuttgart-based Q.ANT has announced a €62M Series A funding round."
+    },
+    {
+      "field": "tagline",
+      "url": "https://qant.com",
+      "quote": "The Q.ANT Native Processing Server NPS, the first commercial photonic processor, sets a new era going beyond traditional computing."
+    },
+    {
+      "field": "tagline",
+      "url": "https://qant.com",
+      "quote": "Photonic computing for fast and sustainable AI and HPC in data centers - deployed at LRZ and Jülich today."
     }
   ],
   "rounds": [
@@ -88,5 +98,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Photonic processors for fast and sustainable AI and HPC in data centers."
 }

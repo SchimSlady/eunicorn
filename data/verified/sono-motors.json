@@ -63,6 +63,11 @@
       "field": "exit",
       "url": "https://sono-solar.com/sono-motors-gmbh-opens-insolvency-proceedings/",
       "quote": "Munich, August 3, 2026 - Sono Motors GmbH is ceasing its operational business effective July 31, 2026, and initiating insolvency proceedings."
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Sono_Motors",
+      "quote": "Sono Motors GmbH is a German company that developed electric solar car technology; the company went bankrupt in Q3 2026."
     }
   ],
   "rounds": [
@@ -109,5 +114,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "German company that developed electric solar car technology."
 }

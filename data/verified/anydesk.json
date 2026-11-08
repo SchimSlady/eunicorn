@@ -47,6 +47,16 @@
       "field": "fun_fact",
       "url": "https://de.wikipedia.org/wiki/AnyDesk",
       "quote": "Die AnyDesk GmbH wurde 2014 von vier ehemaligen Teamviewer"
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/AnyDesk",
+      "quote": "AnyDesk is a remote desktop application distributed by AnyDesk Software GmbH."
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/AnyDesk",
+      "quote": "It offers remote control, file transfer, and VPN functionality."
     }
   ],
   "rounds": [
@@ -84,5 +94,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Remote desktop application offering remote control, file transfer and VPN functionality."
 }

@@ -41,6 +41,11 @@
       "field": "valuation",
       "url": "https://satnews.com/2026/09/14/open-cosmos-reaches-1b-unicorn-valuation-following-348m-series-c-round/",
       "quote": "establishing the company as Europe’s newest space unicorn with a valuation exceeding $1 billion."
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Open_Cosmos",
+      "quote": "Open Cosmos is a satellite mission provider and microsatellite manufacturer, focusing on Earth Observation and satellite communication missions."
     }
   ],
   "rounds": [
@@ -101,5 +106,6 @@
     }
   ],
   "aliases": [],
-  "lastValuationEur": 867000000
+  "lastValuationEur": 867000000,
+  "tagline": "Satellite mission provider and microsatellite manufacturer focused on Earth observation and satellite communication."
 }

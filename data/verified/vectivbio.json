@@ -52,6 +52,11 @@
       "field": "exit",
       "url": "https://www.life-sciences-europe.com/index-term/vectivbio-forbion-investment-202305-holding-nasdaq-vect-ironwood-2001-154727.html",
       "quote": "in May 2023, Ironwood Pharmaceuticals agreed to acquire VectivBio for a consideration of approximately $1.2bn"
+    },
+    {
+      "field": "tagline",
+      "url": "https://www.biospace.com/vectivbio-announces-closing-of-54-million-aggregate-financing",
+      "quote": "VectivBio is a global clinical-stage biotechnology company focused on transforming and improving the lives of patients with severe rare conditions."
     }
   ],
   "rounds": [
@@ -126,5 +131,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Clinical-stage biotech company focused on patients with severe rare conditions."
 }

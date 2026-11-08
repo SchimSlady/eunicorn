@@ -43,6 +43,11 @@
       "field": "valuation",
       "url": "https://techcrunch.com/2022/02/28/payhawk-becomes-a-unicorn-as-it-extends-its-series-b/",
       "quote": "The startup confirms that it has reached a post-money valuation of $1 billion"
+    },
+    {
+      "field": "tagline",
+      "url": "https://www.prnewswire.com/news-releases/payhawk-unveils-ai-office-of-the-cfo---bringing-enterprise-ready-ai-to-finance-operations-302417941.html",
+      "quote": "Payhawk is a leading spend management platform that's transforming how global businesses handle company spending."
     }
   ],
   "rounds": [
@@ -203,5 +208,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Spend management platform for how global businesses handle company spending."
 }

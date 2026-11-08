@@ -42,6 +42,11 @@
       "field": "status",
       "url": "https://roboticsandautomationnews.com/2026/04/27/sereact-raises-110-million-investment-to-advance-its-world-model-for-robotics-and-ai/101043/",
       "quote": "Sereact has raised a $110 million Series B round led by Headline"
+    },
+    {
+      "field": "tagline",
+      "url": "https://sereact.ai",
+      "quote": "Sereact's Vision Language Action Model (VLAM) is trained on millions of real-world picks, making it the first production-ready AI brain for robots."
     }
   ],
   "rounds": [
@@ -150,5 +155,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "AI software for robots, trained on millions of real-world picks."
 }

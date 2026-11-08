@@ -44,6 +44,11 @@
       "field": "status",
       "url": "https://siliconcanals.com/instagrid-bags-87-4m/",
       "quote": "Instagrid claims that its revenues more than doubled in 2023."
+    },
+    {
+      "field": "tagline",
+      "url": "https://www.instagrid.co",
+      "quote": "Innovative, tragbare Stromspeicher, die neue Maßstäbe setzen. Nie wieder Generatoren, sondern nur noch leistungsstarke, nachhaltige und zuverlässige Energieversorgung nach deinen Bedürfnissen."
     }
   ],
   "rounds": [
@@ -132,5 +137,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Portable electricity storage units that replace generators."
 }

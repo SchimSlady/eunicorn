@@ -39,6 +39,11 @@
       "field": "sectors",
       "url": "https://techcrunch.com/2021/09/09/scalapay-raises-155m-at-a-700m-valuation-as-buy-now-pay-later-services-continue-to-boom/",
       "quote": "Scalapay , a buy now, pay later (BNPL) technology provider"
+    },
+    {
+      "field": "tagline",
+      "url": "https://www.scalapay.com",
+      "quote": "Shop in your favourite stores and pay in three convenient, interest-free instalments."
     }
   ],
   "rounds": [
@@ -114,5 +119,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Lets shoppers pay in three interest-free instalments at participating stores."
 }

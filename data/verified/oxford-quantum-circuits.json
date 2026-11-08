@@ -49,6 +49,16 @@
       "field": "sectors",
       "url": "https://en.wikipedia.org/wiki/Oxford_Quantum_Circuits",
       "quote": "is a British company that develops superconducting quantum computers"
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Oxford_Quantum_Circuits",
+      "quote": "is a British company that develops superconducting quantum computers."
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Oxford_Quantum_Circuits",
+      "quote": "OQC sells access to its machines as a service and places them in partner data centres."
     }
   ],
   "rounds": [
@@ -141,5 +151,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "British company developing superconducting quantum computers that it sells as a service."
 }

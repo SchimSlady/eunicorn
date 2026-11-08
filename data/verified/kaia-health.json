@@ -71,6 +71,16 @@
       "field": "exit",
       "url": "https://www.munich-startup.de/en/news/kaia-health-becomes-part-of-sword-health",
       "quote": "Kaia Health has been acquired by Sword Health."
+    },
+    {
+      "field": "tagline",
+      "url": "https://prnewswire.com/news-releases/kaia-health-becomes-worlds-most-broadly-covered-back-pain-offering-after-gaining-approval-for-prescription-in-germany-301760920.html",
+      "quote": "Kaia Health is the world's largest digital therapeutics company on a mission to empower millions of people to live their healthiest life."
+    },
+    {
+      "field": "tagline",
+      "url": "https://prnewswire.com/news-releases/kaia-health-becomes-worlds-most-broadly-covered-back-pain-offering-after-gaining-approval-for-prescription-in-germany-301760920.html",
+      "quote": "Our evidence-based treatments, covering a range of conditions, including MSK and COPD, are powered by proprietary motion analysis technology and clinical expertise."
     }
   ],
   "rounds": [
@@ -217,5 +227,6 @@
     {
       "id": "cdtm"
     }
-  ]
+  ],
+  "tagline": "Digital therapeutics for conditions including musculoskeletal issues and COPD, based on motion analysis."
 }

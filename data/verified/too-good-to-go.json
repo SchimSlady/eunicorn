@@ -53,6 +53,11 @@
       "field": "fun_fact",
       "url": "https://en.wikipedia.org/wiki/Too_Good_To_Go",
       "quote": "whose contents they determine; the user cannot choose"
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Too_Good_To_Go",
+      "quote": "Too Good To Go is a service with a mobile application that connects customers to restaurants and stores that have surplus unsold food."
     }
   ],
   "rounds": [
@@ -123,5 +128,6 @@
       ]
     }
   ],
-  "funFact": "Too Good To Go's surprise bags are packed by the shop, so buyers cannot choose what goes in them."
+  "funFact": "Too Good To Go's surprise bags are packed by the shop, so buyers cannot choose what goes in them.",
+  "tagline": "Mobile app that connects customers with restaurants and stores that have surplus unsold food."
 }

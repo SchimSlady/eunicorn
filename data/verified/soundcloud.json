@@ -42,6 +42,11 @@
       "field": "fun_fact",
       "url": "https://en.wikipedia.org/wiki/SoundCloud",
       "quote": "It was originally intended to allow musicians to collaborate by facilitating the sharing and discussion of recordings"
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/SoundCloud",
+      "quote": "The service allows its users to upload, promote, and share audio."
     }
   ],
   "rounds": [
@@ -188,5 +193,6 @@
       ]
     }
   ],
-  "funFact": "SoundCloud was first meant to help musicians collaborate by sharing and discussing recordings, before it became a tool for music distribution."
+  "funFact": "SoundCloud was first meant to help musicians collaborate by sharing and discussing recordings, before it became a tool for music distribution.",
+  "tagline": "Audio streaming service that lets users upload, promote and share audio."
 }

@@ -37,6 +37,11 @@
       "field": "sectors",
       "url": "https://siliconcanals.com/black-semiconductor-secures-254-4m/",
       "quote": "Black Semiconductor is a deep tech company developing a new generation of chip technology through graphene technology."
+    },
+    {
+      "field": "tagline",
+      "url": "https://blacksemi.com",
+      "quote": "Our technology integrates high-speed graphene photonics directly onto any electronic chip, inspiring innovators to rethink compute architectures."
     }
   ],
   "rounds": [
@@ -81,5 +86,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Integrates high-speed graphene photonics directly onto any electronic chip."
 }

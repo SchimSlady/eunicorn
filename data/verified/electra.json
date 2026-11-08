@@ -44,6 +44,16 @@
       "field": "sectors",
       "url": "https://techcrunch.com/2024/01/16/ev-charging-startup-electra-secures-330-million/",
       "quote": "Electra is an electric vehicle charging company building a network of charging stations in France and other European countries."
+    },
+    {
+      "field": "tagline",
+      "url": "https://go-electra.com/en/",
+      "quote": "Ultra-fast, reliable, effortless charging, designed to make every stop as simple and pleasant as possible."
+    },
+    {
+      "field": "tagline",
+      "url": "https://go-electra.com/en/",
+      "quote": "Fast charging stations and a revolutionary experience"
     }
   ],
   "rounds": [
@@ -124,5 +134,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Operator of ultra-fast charging stations."
 }

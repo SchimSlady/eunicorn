@@ -43,6 +43,11 @@
       "field": "sectors",
       "url": "https://en.wikipedia.org/wiki/Owkin",
       "quote": "Agentic AI platform for biopharma, AI drug discovery, AI drug development"
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Owkin",
+      "quote": "is a French-American artificial intelligence and biotech company that builds agentic AI to analyze data, identify new treatments, optimize clinical trials and develop AI diagnostics."
     }
   ],
   "rounds": [
@@ -183,5 +188,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Biotech company building agentic AI to analyze data, find treatments and optimize clinical trials."
 }

@@ -1,15 +1,24 @@
 {
   "id": "taxdoo",
   "name": "Taxdoo",
-  "aliases": ["TAXDOO"],
+  "aliases": [
+    "TAXDOO"
+  ],
   "domain": "taxdoo.com",
   "country": "DE",
   "city": "Hamburg",
   "founded": 2016,
-  "sectors": ["fintech", "saas"],
+  "sectors": [
+    "fintech",
+    "saas"
+  ],
   "status": "private",
   "unicorn": false,
-  "founders": ["Matthias Allmendinger", "Roger Gothmann", "Christian Königsheim"],
+  "founders": [
+    "Matthias Allmendinger",
+    "Roger Gothmann",
+    "Christian Königsheim"
+  ],
   "funFact": "Co-founder Roger Gothmann used to be a tax auditor at Germany's Federal Central Tax Office.",
   "difficulty": 4,
   "techeuId": "68201246-10AE-47E0-B586-92B3BF16D01E",
@@ -43,6 +52,11 @@
       "field": "fun_fact",
       "url": "https://www.taxdoo.com/de/ueber-uns/",
       "quote": "Als ehemaliger Betriebsprüfer und Finanzbeamter beim Bundeszentralamt für Steuern hat er erlebt, wie komplex und träge das System sein kann."
+    },
+    {
+      "field": "tagline",
+      "url": "https://taxdoo.com",
+      "quote": "unsere KI-gestützte Software und spezialisierte Onlinehandel Buchhalter liefern deine Finanz- und Lohnbuchhaltung."
     }
   ],
   "rounds": [
@@ -53,7 +67,12 @@
       "amountEur": 17298188,
       "amountOriginal": 21000000,
       "currency": "USD",
-      "investors": ["Accel", "Visionaries Club", "20VC", "High-Tech Gründerfonds"],
+      "investors": [
+        "Accel",
+        "Visionaries Club",
+        "20VC",
+        "High-Tech Gründerfonds"
+      ],
       "sources": [
         {
           "field": "amount",
@@ -84,7 +103,12 @@
       "amountEur": 56457304,
       "amountOriginal": 64000000,
       "currency": "USD",
-      "investors": ["Tiger Global", "Accel", "Visionaries Club", "20VC"],
+      "investors": [
+        "Tiger Global",
+        "Accel",
+        "Visionaries Club",
+        "20VC"
+      ],
       "sources": [
         {
           "field": "amount",
@@ -108,5 +132,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "AI-powered software and accountants that handle financial and payroll accounting for online retailers."
 }

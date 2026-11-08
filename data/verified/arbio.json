@@ -51,6 +51,11 @@
       "field": "fun_fact",
       "url": "https://proptechconnect.com/arbio-raises-36m-series-a-to-redefine-property-management/",
       "quote": "Arbio emerged from a personal pain point during travels through Mexico where inconsistent Airbnb experiences revealed gaps in property management."
+    },
+    {
+      "field": "tagline",
+      "url": "https://arbio.com",
+      "quote": "Komplette Verwaltung deiner Ferienimmobilie. Operations, Gäste, Pricing, Buchhaltung, Reporting und vieles mehr mit Arbio als Partner."
     }
   ],
   "rounds": [
@@ -94,5 +99,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Full management of holiday properties, covering operations, guests, pricing, accounting and reporting."
 }

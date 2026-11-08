@@ -55,6 +55,16 @@
       "field": "unicorn",
       "url": "https://www.revel8.ai/blog/revel8-secures-eu7-million-to-fight-ai-powered-cyberattacks",
       "quote": "has raised a €5.7 million seed round"
+    },
+    {
+      "field": "tagline",
+      "url": "https://revel8.ai",
+      "quote": "Humans make mistakes. revel8 helps employees spot threats your tools miss and delivers insights to strengthen security."
+    },
+    {
+      "field": "tagline",
+      "url": "https://revel8.ai",
+      "quote": "revel8 mirrors real attackers with role-specific simulations."
     }
   ],
   "rounds": [
@@ -97,5 +107,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Platform that helps employees spot threats through role-specific simulations of real attackers."
 }

@@ -56,6 +56,11 @@
       "field": "exit",
       "url": "https://thequantuminsider.com/2026/07/01/iqm-completes-raaq-business-combination/",
       "quote": "Trading of IQM's American Depositary Shares (ADSs) under the ticker IQMX and IQM Warrants under IQMX WS will begin on July 2, 2026."
+    },
+    {
+      "field": "tagline",
+      "url": "https://meetiqm.com",
+      "quote": "IQM builds full-stack superconducting quantum computers for HPCs, researchers, and enterprises."
     }
   ],
   "rounds": [
@@ -202,5 +207,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Maker of full-stack superconducting quantum computers for HPCs, researchers and enterprises."
 }

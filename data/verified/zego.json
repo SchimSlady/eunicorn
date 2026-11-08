@@ -49,6 +49,11 @@
       "field": "valuation",
       "url": "https://tech.eu/2021/03/10/london-based-insurtech-zego-raises-150-million-joins-the-unicorn-ranks-with-1-1-billion-valuation/",
       "quote": "which now places them at a $1.1 billion valuation"
+    },
+    {
+      "field": "tagline",
+      "url": "https://www.zego.com/about-us/",
+      "quote": "Zego is a UK motor insurance provider for car drivers, van drivers, taxi drivers and delivery riders."
     }
   ],
   "rounds": [
@@ -199,5 +204,6 @@
       ]
     }
   ],
-  "lastValuationEur": 925000000
+  "lastValuationEur": 925000000,
+  "tagline": "UK motor insurance provider for car drivers, van drivers, taxi drivers and delivery riders."
 }

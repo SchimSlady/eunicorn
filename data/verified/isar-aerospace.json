@@ -40,6 +40,11 @@
       "field": "sectors",
       "url": "https://spacenews.com/space-company-isar-aerospace-secures-series-c-funding-round-of-usd-165m-to-meet-global-demand-for-access-to-space/",
       "quote": "develops and builds launch vehicles for transporting small and medium-sized satellites"
+    },
+    {
+      "field": "tagline",
+      "url": "https://www.isaraerospace.com",
+      "quote": "As a launch service provider for small and medium-sized satellites and constellations we pave the way to a new space industry by making space scalable."
     }
   ],
   "rounds": [
@@ -158,5 +163,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Launch service provider for small and medium-sized satellites and constellations."
 }

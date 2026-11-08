@@ -41,6 +41,16 @@
       "field": "sectors",
       "url": "https://siliconcanals.com/gropyus-raises-100m/",
       "quote": "a company specialised in creating affordable and sustainable timber-hybrid buildings"
+    },
+    {
+      "field": "tagline",
+      "url": "https://www.gropyus.com",
+      "quote": "GROPYUS realisiert Wohnprojekte – von der Planung bis zur Übergabe."
+    },
+    {
+      "field": "tagline",
+      "url": "https://www.gropyus.com",
+      "quote": "Schlüsselfertige Mehrfamilienhäuser aus automatisierter Fertigung"
     }
   ],
   "rounds": [
@@ -134,5 +144,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Turnkey apartment buildings from automated production, delivered from planning to handover."
 }

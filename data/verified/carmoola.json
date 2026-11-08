@@ -38,6 +38,11 @@
       "field": "sectors",
       "url": "https://fintech.global/2023/02/22/car-finance-startup-carmoola-nets-over-100m-in-debt-and-equity/",
       "quote": "UK car finance FinTech Carmoola"
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Carmoola",
+      "quote": "Carmoola is a British financial technology company that provides car finance through a mobile app."
     }
   ],
   "rounds": [
@@ -149,5 +154,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "British financial technology company that provides car finance through a mobile app."
 }

@@ -49,6 +49,16 @@
       "field": "unicorn",
       "url": "https://techcrunch.com/2021/02/08/nexthink-nabs-180m-series-d-on-1-1b-valuation/",
       "quote": "announced a $180 million Series D today on a healthy $1.1 billion valuation"
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Nexthink",
+      "quote": "Nexthink is a Swiss software company specializing in digital employee experience (DEX) management."
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Nexthink",
+      "quote": "Founded in 2004, the company provides IT teams with real-time analytics, automation, and employee feedback tools to monitor and enhance the digital workplace experience."
     }
   ],
   "rounds": [
@@ -151,5 +161,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Swiss software for managing digital employee experience, with analytics and automation for IT teams."
 }

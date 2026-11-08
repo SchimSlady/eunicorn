@@ -57,6 +57,11 @@
       "field": "exit",
       "url": "https://en.wikipedia.org/wiki/Energy_Vault",
       "quote": "In February 2022, Energy Vault Holdings, Inc. began trading on the New York Stock Exchange following the business combination with Novus Capital Corporation II"
+    },
+    {
+      "field": "tagline",
+      "url": "https://energyvault.com",
+      "quote": "Energy Vault is an energy infrastructure company delivering power and resilience through three complementary businesses: AI & Data Center Infrastructure, Utility Services, and Energy Storage."
     }
   ],
   "rounds": [
@@ -141,5 +146,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Energy infrastructure company with AI and data center infrastructure, utility services and energy storage."
 }

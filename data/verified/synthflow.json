@@ -51,6 +51,11 @@
       "field": "unicorn",
       "url": "https://tech.eu/2025/06/24/synthflow-ai-raises-20m-to-transform-the-global-conversational-ai-market/",
       "quote": "bringing the total funding to $30 million"
+    },
+    {
+      "field": "tagline",
+      "url": "https://synthflow.ai",
+      "quote": "Synthflow’s AI voice agents answer and make phone calls for contact centers, BPOs and multi‑location brands."
     }
   ],
   "rounds": [
@@ -118,5 +123,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "AI voice agents that answer and make phone calls for contact centers and multi-location brands."
 }

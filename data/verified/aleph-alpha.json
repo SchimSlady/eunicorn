@@ -37,6 +37,11 @@
       "field": "sectors",
       "url": "https://en.wikipedia.org/wiki/Aleph_Alpha",
       "quote": "is a German artificial intelligence (AI) startup developing large language models (LLMs)"
+    },
+    {
+      "field": "tagline",
+      "url": "https://aleph-alpha.com",
+      "quote": "Unser spezialisiertes souveränes großes Sprachmodell für geschäftskritische Umgebungen."
     }
   ],
   "rounds": [
@@ -139,5 +144,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Sovereign large language model for business-critical environments."
 }

@@ -37,6 +37,16 @@
       "field": "sectors",
       "url": "https://vestbee.com/insights/articles/oviva-raises-200-m",
       "quote": "Oviva, which delivers digital therapy for weight-related and metabolic conditions"
+    },
+    {
+      "field": "tagline",
+      "url": "https://www.oviva.com",
+      "quote": "Die App hält dich auf Kurs, und bei Bedarf steht dir eine qualifizierte Ernährungsfachkraft zur Seite."
+    },
+    {
+      "field": "tagline",
+      "url": "https://www.oviva.com",
+      "quote": "Oviva zeigt dir die Muster, die dein Gewicht wirklich bestimmen."
     }
   ],
   "rounds": [
@@ -84,5 +94,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "App-based weight management with access to qualified nutrition specialists."
 }

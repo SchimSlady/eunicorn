@@ -59,6 +59,11 @@
       "field": "exit",
       "url": "https://en.wikipedia.org/wiki/Freetrade",
       "quote": "In January 2025, IG Group agreed to acquire Freetrade for £160 million"
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Freetrade",
+      "quote": "It operates a mobile trading platform for retail investors in the UK, allowing users to trade equities and ETFs through iOS and Android applications."
     }
   ],
   "rounds": [
@@ -142,5 +147,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Mobile trading platform for retail investors in the UK to trade equities and ETFs."
 }

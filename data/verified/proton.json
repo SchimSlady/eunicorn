@@ -47,6 +47,11 @@
       "field": "sectors",
       "url": "https://proton.me/blog/protonmail-has-raised-2m-usd-to-protect-online-privacy",
       "quote": "a fully functioning encrypted email service"
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Proton_AG",
+      "quote": "Proton Mail was released as a public beta on 16 May 2014 [ 3 ] as an end-to-end encrypted email service after a year of crowdfunding."
     }
   ],
   "rounds": [
@@ -79,5 +84,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Company behind Proton Mail, an end-to-end encrypted email service."
 }

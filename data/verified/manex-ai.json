@@ -66,6 +66,16 @@
       "field": "programs",
       "url": "https://www.startmunich.de/api/startups",
       "quote": "\"name\":\"Manex AI\",\"website\":\"www.manex.ai/en\""
+    },
+    {
+      "field": "tagline",
+      "url": "https://www.manex.ai/",
+      "quote": "Capture your Tacit Knowledge in an autonomous system that powers your value chain."
+    },
+    {
+      "field": "tagline",
+      "url": "https://www.manex.ai/",
+      "quote": "The First Production System for Autonomous Manufacturing."
     }
   ],
   "rounds": [
@@ -104,5 +114,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Autonomous production system for manufacturing that captures tacit knowledge."
 }

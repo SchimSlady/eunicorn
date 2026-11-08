@@ -41,6 +41,11 @@
       "field": "fun_fact",
       "url": "https://www.pipedrive.com/en/about",
       "quote": "Our story began in an Estonian garage in 2010."
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Pipedrive",
+      "quote": "The company develops the Pipedrive sales CRM application for web and mobile devices."
     }
   ],
   "rounds": [
@@ -199,5 +204,6 @@
       ]
     }
   ],
-  "funFact": "Pipedrive's story began in an Estonian garage in 2010, when co-founders who were salespeople built the CRM they needed."
+  "funFact": "Pipedrive's story began in an Estonian garage in 2010, when co-founders who were salespeople built the CRM they needed.",
+  "tagline": "Sales CRM application for web and mobile devices."
 }

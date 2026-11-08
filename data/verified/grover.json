@@ -43,6 +43,11 @@
       "field": "unicorn",
       "url": "https://techcrunch.com/2022/04/06/grover-grabs-330m-to-double-down-on-the-circular-economy-with-consumer-electronics-subscriptions/",
       "quote": "The round values Grover at over $1 billion, the company confirmed."
+    },
+    {
+      "field": "tagline",
+      "url": "https://grover.com",
+      "quote": "Miete deine Lieblingsgeräte: Handys, Laptops, Kameras und mehr. Kostenlose Lieferung, 14 Tage kostenlose Kündigung, Garantie inklusive."
     }
   ],
   "rounds": [
@@ -200,5 +205,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Device rental for phones, laptops, cameras and more, with free delivery."
 }

@@ -45,6 +45,11 @@
       "field": "status",
       "url": "https://techcrunch.com/2025/11/10/remote-driving-startup-vay-could-grab-up-to-410m-from-singapores-grab/",
       "quote": "The Berlin-based startup uses its technology and human operators to remotely drive rental cars to and from customers."
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Vay_(company)",
+      "quote": "Vay is a German remote driving company that offers remote-controlled rental cars."
     }
   ],
   "rounds": [
@@ -120,5 +125,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Remote driving company that offers remote-controlled rental cars."
 }

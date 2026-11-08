@@ -45,6 +45,11 @@
       "field": "unicorn",
       "url": "https://www.trendingtopics.eu/topi-45-mio-dollar-fuer-berliner-abo-fintech-oesterreicher-mit-an-bord/",
       "quote": "Mit so genanntem Hardware as a Service will das Startup als B2B-Partner im E-Commerce fungieren"
+    },
+    {
+      "field": "tagline",
+      "url": "https://topi.eu",
+      "quote": "Mit topi mieten Unternehmen flexibel Laptops, Smartphones und IT, die ihre Teams wirklich brauchen - zu einem einfachen monatlichen Preis."
     }
   ],
   "rounds": [
@@ -126,5 +131,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Rental of laptops, smartphones and IT for companies at a monthly price."
 }

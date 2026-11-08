@@ -40,6 +40,16 @@
       "field": "sectors",
       "url": "https://www.lbofrance.com/en/impress-european-leader-in-invisible-orthodontics-raises-125m-in-series-b-to-support-its-global-growth/",
       "quote": "the next-generation invisible orthodontics chain"
+    },
+    {
+      "field": "tagline",
+      "url": "https://smile2impress.com",
+      "quote": "Impress Behandlungen erfolgen mit Invisalign®-Zahnschienen, denen weltweit bereits über 22 Mio. Patient*innen vertrauen."
+    },
+    {
+      "field": "tagline",
+      "url": "https://smile2impress.com",
+      "quote": "Mit unsichtbaren Zahnschienen zu geraderen Zähnen"
     }
   ],
   "rounds": [
@@ -126,5 +136,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Invisible aligner treatment for straighter teeth, using Invisalign aligners."
 }

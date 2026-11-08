@@ -51,6 +51,11 @@
       "field": "exit",
       "url": "https://en.wikipedia.org/wiki/Depop",
       "quote": "In June 2021, Depop was acquired by Etsy for $1.6 billion in cash"
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Depop",
+      "quote": "The company operates an online marketplace that allows users to buy and sell primarily second-hand, vintage, and designer clothing through a social media-style platform."
     }
   ],
   "rounds": [
@@ -157,5 +162,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Social marketplace for buying and selling mainly second-hand, vintage and designer clothing."
 }

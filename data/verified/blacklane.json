@@ -43,6 +43,11 @@
       "field": "status",
       "url": "https://www.blacklane.com/de/presse/veroeffentlichungen/blacklane-schliesst-bisher-groesste-finanzierungsrunde-ab/",
       "quote": "Blacklane, der führende globale Chauffeurdienstleister, gibt heute den erfolgreichen Abschluss seiner bisher größten Finanzierungsrunde bekannt."
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Blacklane",
+      "quote": "Blacklane GmbH is a provider of premium global chauffeur services, which provides a chauffeur portal connecting people to professional chauffeurs via their mobile app, website and hotline."
     }
   ],
   "rounds": [
@@ -114,5 +119,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Premium global chauffeur services connecting people to professional chauffeurs via app, website and hotline."
 }

@@ -59,6 +59,11 @@
       "field": "founders",
       "url": "https://www.deutsche-startups.de/2026/02/11/constellr-sammelt-37-millionen-hades-mining-erhaelt-15-millionen-hrmony-kauft-hellobonnie/",
       "quote": "Das Freiburger SpaceTech, 2020 von Max Gulde, Christian Mittermaier und Marius Bierdel gegründet"
+    },
+    {
+      "field": "tagline",
+      "url": "https://constellr.com",
+      "quote": "We build and operate custom satellites to deliver an end-to-end thermal intelligence system."
     }
   ],
   "rounds": [
@@ -179,5 +184,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Builds and operates custom satellites for an end-to-end thermal intelligence system."
 }

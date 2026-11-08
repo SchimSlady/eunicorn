@@ -48,6 +48,11 @@
       "field": "unicorn",
       "url": "https://tech.eu/2026/09/18/arcos-secures-eur55m-to-protect-critical-infrastructure-from-physical-threats/",
       "quote": "German security technology company Arcos has raised €5.5 million in seed funding"
+    },
+    {
+      "field": "tagline",
+      "url": "https://arcos.eu",
+      "quote": "Arcos combines monitoring expertise with a modern platform to assess alarms, filter false positives, and document incidents."
     }
   ],
   "rounds": [
@@ -87,5 +92,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Platform to assess monitoring alarms, filter false positives and document incidents."
 }

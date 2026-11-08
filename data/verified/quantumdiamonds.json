@@ -45,6 +45,11 @@
       "field": "status",
       "url": "https://tech.eu/2026/07/09/semiconductor-equipment-startup-quantumdiamonds-raises-eur15m-in-equity-funding/",
       "quote": "The €15 million equity round was led by climatetech investor World Fund, a new investor."
+    },
+    {
+      "field": "tagline",
+      "url": "https://qd-st.com",
+      "quote": "QuantumDiamonds develops and deploys next-gen semiconductor testing tools for the advanced packaging era, while offering in-house failure analysis with quantum sensing as a service."
     }
   ],
   "rounds": [
@@ -124,5 +129,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Semiconductor testing tools for advanced packaging, plus quantum-sensing failure analysis as a service."
 }

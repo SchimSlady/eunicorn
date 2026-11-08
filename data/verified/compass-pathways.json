@@ -59,6 +59,11 @@
       "field": "exit",
       "url": "https://www.renaissancecapital.com/IPO-Center/News/71310/Can-magic-mushrooms-treat-depression-Biotech-COMPASS-Pathways-prices-upsized",
       "quote": "COMPASS Pathways plans to list on the Nasdaq under the symbol CMPS"
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Compass_Pathways",
+      "quote": "Compass Pathways, or COMPASS Pathways, is a British pharmaceutical company developing psychedelics as potential medicines."
     }
   ],
   "rounds": [
@@ -101,5 +106,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "British pharmaceutical company developing psychedelics as potential medicines."
 }

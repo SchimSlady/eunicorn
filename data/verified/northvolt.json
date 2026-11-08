@@ -62,6 +62,11 @@
       "field": "exit",
       "url": "https://en.wikipedia.org/wiki/Northvolt",
       "quote": "It subsequently filed for bankruptcy in Sweden on March 12, 2025."
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Northvolt",
+      "quote": "Northvolt AB was a Swedish battery developer and manufacturer, interested in lithium-ion technology for electric vehicles."
     }
   ],
   "rounds": [
@@ -110,5 +115,6 @@
       ]
     }
   ],
-  "funFact": "Northvolt began as SGF Energy in 2015, and its bankruptcy was the largest in modern Swedish industrial history."
+  "funFact": "Northvolt began as SGF Energy in 2015, and its bankruptcy was the largest in modern Swedish industrial history.",
+  "tagline": "Swedish battery maker that focused on lithium-ion technology for electric vehicles."
 }

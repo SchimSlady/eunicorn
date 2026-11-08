@@ -51,6 +51,11 @@
       "field": "unicorn",
       "url": "https://thenextweb.com/news/synera-40m-series-b-agentic-ai-engineering",
       "quote": "The Series B brings total funding to approximately $58 million."
+    },
+    {
+      "field": "tagline",
+      "url": "https://synera.ai",
+      "quote": "Frost & Sullivan’s best practice analysis of Synera describes how we solve engineering siloes with a single platform that integrates more than 80+ CAx and PLM tools and breaks the cost-speed barrier in engineering."
     }
   ],
   "rounds": [
@@ -94,5 +99,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Single platform that integrates CAx and PLM tools to solve engineering silos."
 }

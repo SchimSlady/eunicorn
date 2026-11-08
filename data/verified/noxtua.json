@@ -49,6 +49,11 @@
       "field": "unicorn",
       "url": "https://www.noxtua.com/news/press-releases/series-b-noxtua-raises-80-million-euro",
       "quote": "Berlin-based Legal-Tech startup Xayn (soon to be Noxtua SE) , developer of Europe's first sovereign Legal AI Noxtua, has completed its Series B investment round of approximately € 80.7 million"
+    },
+    {
+      "field": "tagline",
+      "url": "https://www.noxtua.com/",
+      "quote": "Rigorous research, precise analysis, and thorough drafting for the legal profession, grounded in Europe's legal knowledge and built with Europe's largest network of legal publishers"
     }
   ],
   "rounds": [
@@ -121,5 +126,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Research, analysis and drafting tools for the legal profession, built on European legal knowledge."
 }

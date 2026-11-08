@@ -42,6 +42,11 @@
       "field": "unicorn",
       "url": "https://www.munich-startup.de/en/news/50-million-euros-for-reflex-aerospace",
       "quote": "It is the largest series A to date in the European"
+    },
+    {
+      "field": "tagline",
+      "url": "https://reflexaerospace.com",
+      "quote": "Reflex Aerospace excels in the rapid design and assembly of adaptable satellite platforms, offering scalable solutions."
     }
   ],
   "rounds": [
@@ -140,5 +145,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Designs and assembles adaptable satellite platforms."
 }

@@ -69,6 +69,11 @@
       "field": "exit",
       "url": "https://www.catalannews.com/business/item/south-koreas-naver-completes-acquisition-of-wallapop",
       "quote": "Naver received all regulatory approvals on Friday and completed the acquisition of Wallapop."
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Wallapop",
+      "quote": "Wallapop is a Spanish company founded in 2014 that is used to exchange used goods, similar to Craigslist as a classified listings website."
     }
   ],
   "rounds": [
@@ -112,5 +117,6 @@
       ]
     }
   ],
-  "funFact": "In 2015 Wallapop was named Spain's startup with the highest revenues, with $1 billion of transactions through its app."
+  "funFact": "In 2015 Wallapop was named Spain's startup with the highest revenues, with $1 billion of transactions through its app.",
+  "tagline": "Spanish platform for exchanging used goods, similar to a classified listings website."
 }

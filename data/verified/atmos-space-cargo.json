@@ -51,6 +51,11 @@
       "field": "unicorn",
       "url": "https://vestbee.com/insights/articles/atmos-space-cargo-secures-25-7-m",
       "quote": "has closed a €25.7 million Series A financing round led by Balnord and Expansion Ventures"
+    },
+    {
+      "field": "tagline",
+      "url": "https://atmos-space-cargo.com",
+      "quote": "ATMOS Space Cargo builds reusable spacecraft and return logistics that turn spaceflight into circular infrastructure."
     }
   ],
   "rounds": [
@@ -168,5 +173,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Builds reusable spacecraft and return logistics that turn spaceflight into circular infrastructure."
 }

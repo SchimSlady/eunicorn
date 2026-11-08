@@ -57,6 +57,16 @@
       "field": "programs",
       "url": "https://www.ewor.com/startups/epiminds",
       "quote": "Your fully agentic AI marketing team"
+    },
+    {
+      "field": "tagline",
+      "url": "https://epiminds.com",
+      "quote": "Lucy coordinates 20+ autonomous agents that collaborate across data, creative, and strategy."
+    },
+    {
+      "field": "tagline",
+      "url": "https://epiminds.com",
+      "quote": "Each agent is built for a specific marketing discipline — reporting, optimization, bidding, creative analysis, and more."
     }
   ],
   "rounds": [
@@ -89,5 +99,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Autonomous AI agents for marketing, coordinated by Lucy across data, creative and strategy."
 }

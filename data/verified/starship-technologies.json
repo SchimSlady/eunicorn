@@ -44,6 +44,11 @@
       "field": "status",
       "url": "https://en.wikipedia.org/wiki/Starship_Technologies",
       "quote": "Type Private"
+    },
+    {
+      "field": "tagline",
+      "url": "https://www.starship.xyz",
+      "quote": "Starship partners with grocery retailers, delivery apps and industrial sites to provide a cost-effective, sustainable delivery solution."
     }
   ],
   "rounds": [
@@ -266,5 +271,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Delivery service for grocery retailers, delivery apps and industrial sites."
 }

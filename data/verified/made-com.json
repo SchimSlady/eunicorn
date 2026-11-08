@@ -65,6 +65,11 @@
       "field": "unicorn",
       "url": "https://techcrunch.com/2022/11/01/16-months-after-its-ipo-uk-online-retailer-made-com-prepares-for-administration/",
       "quote": "Made.com priced its shares initially at 200 pence, giving it a valuation of around £775 million ($894 million)"
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Made.com",
+      "quote": "Made.com was a British e-commerce company based in London that designed and sold furniture and home accessories online."
     }
   ],
   "rounds": [
@@ -186,5 +191,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "British online retailer that designs and sells furniture and home accessories."
 }

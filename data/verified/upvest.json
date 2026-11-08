@@ -36,6 +36,11 @@
       "field": "sectors",
       "url": "https://www.financialit.net/node/62964",
       "quote": "Upvest, Europe’s leading investment infrastructure provider, has raised a €100 million Series C funding round"
+    },
+    {
+      "field": "tagline",
+      "url": "https://upvest.co",
+      "quote": "From brokerage to wealth to pensions, Upvest provides the infrastructure so you can focus on launching winning investment products."
     }
   ],
   "rounds": [
@@ -260,5 +265,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Infrastructure for brokerage, wealth and pensions to launch investment products."
 }

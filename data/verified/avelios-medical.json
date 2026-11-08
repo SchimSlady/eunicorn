@@ -45,6 +45,11 @@
       "field": "fun_fact",
       "url": "https://www.htgf.de/?p=119446",
       "quote": "Avelios' three founders built an entire HIS from scratch"
+    },
+    {
+      "field": "tagline",
+      "url": "https://www.avelios.com",
+      "quote": "Behandlungsorientiert, modular, KI-nativ: Avelios erschließt das Potenzial strukturierter klinischer Daten für nahtlose Versorgungsabläufe und eine bessere Patientenversorgung."
     }
   ],
   "rounds": [
@@ -119,5 +124,6 @@
     }
   ],
   "status": "private",
-  "unicorn": false
+  "unicorn": false,
+  "tagline": "Software that makes structured clinical data usable for care processes."
 }

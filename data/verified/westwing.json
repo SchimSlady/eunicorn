@@ -66,6 +66,11 @@
       "field": "unicorn",
       "url": "https://mondovisione.com/news/westwing-group-ag-new-on-frankfurt-stock-exchange-online-retailer-listed-in-p-2018109",
       "quote": "The issue price was 26.00 Euro."
+    },
+    {
+      "field": "tagline",
+      "url": "https://de.wikipedia.org/wiki/Westwing",
+      "quote": "Westwing ist ein deutsches Unternehmen mit Hauptsitz in München , das Internethandel rund um Home & Living betreibt."
     }
   ],
   "rounds": [
@@ -98,5 +103,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "German online retailer of home and living products."
 }

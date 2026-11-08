@@ -50,6 +50,16 @@
       "field": "fun_fact",
       "url": "https://en.wikipedia.org/wiki/Omio",
       "quote": "The company adopted the Omio name in 2019 as part of an expansion beyond its original European market."
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Omio",
+      "quote": "Omio is a German online travel agency and multimodal travel booking platform headquartered in Berlin."
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Omio",
+      "quote": "it enables users to search, compare and book rail, bus and coach, air and ferry travel."
     }
   ],
   "rounds": [
@@ -216,5 +226,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Online travel platform to search, compare and book rail, bus, coach, air and ferry travel."
 }

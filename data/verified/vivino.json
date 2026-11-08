@@ -37,6 +37,11 @@
       "field": "sectors",
       "url": "https://techcrunch.com/2021/02/03/vivino-raises-155-million-for-wine-recommendation-and-marketplace-app/",
       "quote": "the startup has raised $155 million with its Series D round"
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Vivino",
+      "quote": "Vivino is an online wine marketplace and wine app, which has been downloaded more than 60 million times."
     }
   ],
   "rounds": [
@@ -176,5 +181,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Online wine marketplace and wine app."
 }

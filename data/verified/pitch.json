@@ -56,6 +56,16 @@
       "field": "fun_fact",
       "url": "https://pitch.com/blog/pitch-raises-19-million-from-index-slack-and-more",
       "quote": "Our founding team built the to-do app Wunderlist (acquired by Microsoft in 2015)"
+    },
+    {
+      "field": "tagline",
+      "url": "https://pitch.com",
+      "quote": "Rather than prompting AI individually, Pitch brings your team together into one workspace, to collaborate on slides that matter."
+    },
+    {
+      "field": "tagline",
+      "url": "https://pitch.com",
+      "quote": "From prompt to presentation, 4M+ teams create and deliver winning slides together in Pitch."
     }
   ],
   "rounds": [
@@ -163,5 +173,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Workspace where teams collaborate on slides, from prompt to presentation."
 }

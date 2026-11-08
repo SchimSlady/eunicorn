@@ -59,6 +59,16 @@
       "field": "exit",
       "url": "https://bebeez.eu/2026/06/10/einride-a-global-leader-in-autonomous-and-electric-freight-completes-business-combination-and-will-begin-trading-on-nasdaq-stock-market/",
       "quote": "are expected to begin trading on Nasdaq under the ticker symbols \"ENRD\" and \"ENRDW\", respectively, on June 10, 2026."
+    },
+    {
+      "field": "tagline",
+      "url": "https://einride.tech",
+      "quote": "The end-to-end solution for Electric and Autonomous road freight."
+    },
+    {
+      "field": "tagline",
+      "url": "https://einride.tech",
+      "quote": "Autonomous and electric trucks, smart charging, and software—all connected through one platform."
     }
   ],
   "rounds": [
@@ -144,5 +154,6 @@
       ]
     }
   ],
-  "lastValuationEur": 851000000
+  "lastValuationEur": 851000000,
+  "tagline": "Autonomous and electric trucks, smart charging and software for road freight, connected on one platform."
 }
