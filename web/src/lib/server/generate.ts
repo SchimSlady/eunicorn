@@ -733,9 +733,22 @@ function gridCriteria(data: Dataset, companies: Company[], date: string): Criter
 /** Consecutive values are at least this far apart (bigger / smaller): no coin flips on estimated figures. */
 const HL_MIN_GAP = 1.3;
 
+/**
+ * From this day on a step between two companies in a money chain has a size per level (ratio of the bigger to
+ * the smaller): Easy clear steps, Medium moderate ones (no jump from a small startup to a giant), Hard close
+ * ones. Before, every level only had the minimum of 1.3 and no cap, so Medium could jump by a billion.
+ * Earlier days keep their chain.
+ */
+const HL_GAPS_FROM = "2026-11-09";
+const HL_GAPS: Record<Difficulty, { min: number; max: number }> = {
+  easy: { min: 1.5, max: Infinity },
+  medium: { min: 1.3, max: 3 },
+  hard: { min: 1.2, max: 2 },
+};
+
 /** A Higher or Lower chain whose every step is a clear gap; null if the data can't make one. */
 /** At most 15 rounds (16 companies); a thinner tier gets a shorter chain. */
-function hlChain(cs: Company[], metric: HLMetric, rng: Rng, length = 16): Company[] | null {
+function hlChain(cs: Company[], metric: HLMetric, rng: Rng, length = 16, gap?: { min: number; max: number }): Company[] | null {
   const v = (c: Company) => metricValue(c, metric)!;
   // Founding years only need to differ (no ties); money needs a clear ratio.
   const fits =
@@ -744,7 +757,10 @@ function hlChain(cs: Company[], metric: HLMetric, rng: Rng, length = 16): Compan
       : metric === "lastRoundMonth"
         ? // At least three months apart: two rounds a month apart are a coin flip.
           (a: Company, b: Company) => Math.abs(v(a) - v(b)) >= 3
-      : (a: Company, b: Company) => Math.max(v(a), v(b)) / Math.min(v(a), v(b)) >= HL_MIN_GAP;
+      : (a: Company, b: Company) => {
+          const ratio = Math.max(v(a), v(b)) / Math.min(v(a), v(b));
+          return ratio >= (gap?.min ?? HL_MIN_GAP) && ratio <= (gap?.max ?? Infinity);
+        };
   let best: Company[] = [];
   for (let attempt = 0; attempt < 200 && best.length < length; attempt++) {
     const chain = [pick(cs, rng)];
@@ -775,7 +791,26 @@ const HL_THEME_MIN_PER_LEVEL = 14;
 const HL_THEME_MIN_CHAIN = 11;
 const HL_METRICS: HLMetric[] = ["totalRaisedUsd", "lastValuationUsd", "founded", "biggestRoundUsd"];
 
-type HLTheme = { label: string; test: (c: Company) => boolean };
+type HLTheme = {
+  label: string;
+  test: (c: Company) => boolean;
+  /** Fewer startups per fame level than usual (a young theme is mostly obscure companies); the level then widens its tier. */
+  minPerLevel?: number;
+  /** A shorter chain is enough on this theme day (young startups are few); default HL_THEME_MIN_CHAIN. */
+  minChain?: number;
+  /** Metrics this theme makes no sense with (founding year in "founded in the last 5 years"). */
+  skipMetrics?: HLMetric[];
+};
+
+/** From this day on "Founded 2015 or later" is "Founded in the last 5 years" (2015 isn't special any more). Same place in the rotation. */
+const HL_YOUNG_FROM = "2026-11-09";
+const HL_OLD_YOUNG_LABEL = "Founded 2015 or later";
+const hlYoung = (date: string): HLTheme => {
+  const from = Number(date.slice(0, 4)) - 4;
+  return { label: "Founded in the last 5 years", test: (c) => c.founded >= from, minPerLevel: 0, minChain: 8, skipMetrics: ["founded"] };
+};
+/** The themes as they are on a day: the same list and order, the young theme swapped in from HL_YOUNG_FROM. */
+const hlThemeOn = (theme: HLTheme, date: string): HLTheme => (theme.label === HL_OLD_YOUNG_LABEL && date >= HL_YOUNG_FROM ? hlYoung(date) : theme);
 
 /** Mostly broad themes, just for variety; a few specific ones for fun. */
 const HL_THEMES: HLTheme[] = [
@@ -800,9 +835,11 @@ function nextDay(day: string): string {
 
 /** Enough companies with this metric overall and in every level's fame tier. */
 function hlThemeFits(theme: HLTheme, metric: HLMetric, companies: Company[]): boolean {
+  if (theme.skipMetrics?.includes(metric)) return false;
   const pool = companies.filter((c) => (metricValue(c, metric) ?? 0) > 0 && theme.test(c));
   if (pool.length < HL_THEME_MIN) return false;
-  return DIFFICULTIES.every((l) => pool.filter((c) => c.difficulty >= FAME_TIERS[l].min && c.difficulty <= FAME_TIERS[l].max).length >= HL_THEME_MIN_PER_LEVEL);
+  const per = theme.minPerLevel ?? HL_THEME_MIN_PER_LEVEL;
+  return DIFFICULTIES.every((l) => pool.filter((c) => c.difficulty >= FAME_TIERS[l].min && c.difficulty <= FAME_TIERS[l].max).length >= per);
 }
 
 /**
@@ -819,13 +856,13 @@ function hlThemeFor(date: string, companies: Company[]): HLTheme | undefined {
     const metric = HL_METRICS[puzzleNumber(d) % HL_METRICS.length];
     for (let step = 1; step <= order.length; step++) {
       const i = (last + step) % order.length;
-      if (hlThemeFits(order[i], metric, companies)) {
+      if (hlThemeFits(hlThemeOn(order[i], d), metric, companies)) {
         last = i;
         break;
       }
     }
   }
-  return last >= 0 ? order[last] : undefined;
+  return last >= 0 ? hlThemeOn(order[last], date) : undefined;
 }
 
 function higherLower(base: Base, date: string, companies: Company[], rng: Rng, themes = true, only?: HLMetric[]): WebHigherLowerPuzzle | null {
@@ -853,7 +890,7 @@ function higherLower(base: Base, date: string, companies: Company[], rng: Rng, t
       const variants: HigherLowerVariants = {};
       for (const level of DIFFICULTIES) {
         const built = forLevel(level, pool, (tier) => {
-          const chain = hlChain(tier, metric, chainRng);
+          const chain = hlChain(tier, metric, chainRng, 16, date >= HL_GAPS_FROM ? HL_GAPS[level] : undefined);
           if (!chain) return null;
           const [a, b] = pickN(chain.slice(1), 2, chainRng);
           return {
@@ -872,7 +909,7 @@ function higherLower(base: Base, date: string, companies: Company[], rng: Rng, t
     // Only on the metric the theme was chosen for (the day's first); a fallback metric plays without.
     if (theme && metric === metrics[start] && usable.some(theme.test)) {
       const variants = build(usable.filter(theme.test), seeded(`${date}:higher-lower:${theme.label}`));
-      const full = DIFFICULTIES.every((l) => (variants[l]?.companyIds.length ?? 0) >= HL_THEME_MIN_CHAIN);
+      const full = DIFFICULTIES.every((l) => (variants[l]?.companyIds.length ?? 0) >= (theme.minChain ?? HL_THEME_MIN_CHAIN));
       const main = mainOf(variants);
       if (full && main) return { ...base, mode: "higher-lower", metric, theme: theme.label, companyIds: main.companyIds, hints: main.hints, variants };
     }
