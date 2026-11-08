@@ -5,7 +5,7 @@ import { sectorLabel } from "./format";
  * Hints (Pablo, 2026-11-02; facts reworked 2026-11-07): worked out while playing, one startup per hint,
  * getting stronger with each hint used. Three strengths, from soft to strong, each a ladder of facts
  * that help a player who hasn't recognised the company yet:
- *   0. sector and city, e.g. "Fintech · based in Berlin"
+ *   0. sector and city, e.g. "Fintech · based in Berlin" (sector only in a Local game, where everyone shares the region)
  *   1. a well-known investor, a program it went through, who bought it, then (last) a founder
  *   2. what it does, then first letter and length, then the founding year as a last resort
  * A hint never repeats what the board already shows (the caller passes the sectors, investor and programs
@@ -29,6 +29,8 @@ export interface HintContext {
   hideSectors?: Set<string>;
   /** An investor the board already names ("Backed by Index"), so it isn't the hint. */
   hideInvestor?: string;
+  /** A Local game (Munich, Berlin, Germany): every startup is from the region, so where it is based is no clue. */
+  hideCity?: boolean;
   /** Programs every company of the board shares (a "YC startups" list), so they aren't a clue. */
   hidePrograms?: Set<string>;
   /** Facts (as returned, lower case) already given for this company, so none is given twice. */
@@ -39,7 +41,11 @@ export interface HintContext {
 function ladders(c: Company, ctx: HintContext): [string[], string[], string[]] {
   const soft: string[] = [];
   const sector = c.sectors.find((s) => !ctx.hideSectors?.has(s));
-  soft.push(sector ? `${sectorLabel(sector)} · based in ${c.city}` : `based in ${c.city}`);
+  if (ctx.hideCity) {
+    if (sector) soft.push(`${sectorLabel(sector)} startup`);
+  } else {
+    soft.push(sector ? `${sectorLabel(sector)} · based in ${c.city}` : `based in ${c.city}`);
+  }
 
   const mid: string[] = [];
   // Only investors players can know (tier 1-2), the best known first.
