@@ -7,7 +7,7 @@
   ],
   "domain": "augustus.com",
   "country": "DE",
-  "city": "Munich",
+  "city": "Berlin",
   "founded": 2021,
   "sectors": [
     "fintech"
@@ -24,8 +24,8 @@
   "sources": [
     {
       "field": "city",
-      "url": "https://www.munich-startup.de/news/ivy-seed-finanzierung",
-      "quote": "Das Münchner Fintech Ivy will es Unternehmen ermöglichen"
+      "url": "https://www.boersen-zeitung.de/banken-finanzen/deutsches-fintech-augustus-zieht-grosse-finanzierung-an-land",
+      "quote": "das Berliner Startup Augustus"
     },
     {
       "field": "founded",

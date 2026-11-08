@@ -108,6 +108,38 @@
           "quote": "New York-based Left Lane Capital is co-investing, along with Lars Fjeldsoe-Nielsen"
         }
       ]
+    },
+    {
+      "stage": "series-a",
+      "month": "2021-10",
+      "amountEur": 13790726,
+      "amountOriginal": 16000000.0,
+      "currency": "USD",
+      "investors": [
+        "Goodwater Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.studysmarter.co.uk/newsroom/studysmarter-doubles-its-series-a-investment-to-accelerate-international-growth/",
+          "quote": "via a $16m Series A extension"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.studysmarter.co.uk/newsroom/studysmarter-doubles-its-series-a-investment-to-accelerate-international-growth/",
+          "quote": "via a $16m Series A extension"
+        },
+        {
+          "field": "month",
+          "url": "https://www.studysmarter.co.uk/newsroom/studysmarter-doubles-its-series-a-investment-to-accelerate-international-growth/",
+          "quote": "Investor Relations October 15, 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.studysmarter.co.uk/newsroom/studysmarter-doubles-its-series-a-investment-to-accelerate-international-growth/",
+          "quote": "StudySmarter brings on board a leading consumer tech venture capital fund, Goodwater Capital"
+        }
+      ]
     }
   ]
 }

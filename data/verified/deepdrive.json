@@ -1,0 +1,161 @@
+{
+  "id": "deepdrive",
+  "name": "DeepDrive",
+  "aliases": [
+    "Deepdrive"
+  ],
+  "domain": "deepdrive.tech",
+  "country": "DE",
+  "city": "Munich",
+  "founded": 2021,
+  "sectors": [
+    "mobility"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Stefan Ender",
+    "Felix Poernbacher"
+  ],
+  "difficulty": 4,
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://neon.law/new-stuff/neon-advises-uvc-partners-on-e-4-3-million-financing-round-of-deepdrive",
+      "quote": "financing round of Munich-based e-mobility startup Deepdrive"
+    },
+    {
+      "field": "founded",
+      "url": "https://neon.law/new-stuff/neon-advises-uvc-partners-on-e-4-3-million-financing-round-of-deepdrive",
+      "quote": "Deepdrive, founded in 2021 by Stefan Ender and Felix Poernbacher"
+    },
+    {
+      "field": "founders",
+      "url": "https://neon.law/new-stuff/neon-advises-uvc-partners-on-e-4-3-million-financing-round-of-deepdrive",
+      "quote": "Deepdrive, founded in 2021 by Stefan Ender and Felix Poernbacher"
+    },
+    {
+      "field": "sectors",
+      "url": "https://neon.law/new-stuff/neon-advises-uvc-partners-on-e-4-3-million-financing-round-of-deepdrive",
+      "quote": "e-mobility startup Deepdrive"
+    },
+    {
+      "field": "status",
+      "url": "https://neon.law/news/neon-advises-deepdrive-on-e-30-million-series-b-financing-round",
+      "quote": "NEON has successfully advised DeepDrive, a high-tech innovator specializing in the development of cutting-edge electric motors"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://neon.law/news/neon-advises-deepdrive-on-e-30-million-series-b-financing-round",
+      "quote": "in their impressive €30 million Series B financing round"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "seed",
+      "month": "2022-02",
+      "amountEur": 4300000,
+      "amountOriginal": 4300000,
+      "currency": "EUR",
+      "investors": [
+        "UVC Partners",
+        "Bayern Kapital",
+        "Jonas Rieke",
+        "Peter Mertens"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://neon.law/new-stuff/neon-advises-uvc-partners-on-e-4-3-million-financing-round-of-deepdrive",
+          "quote": "on the € 4.3 million financing round"
+        },
+        {
+          "field": "month",
+          "url": "https://neon.law/new-stuff/neon-advises-uvc-partners-on-e-4-3-million-financing-round-of-deepdrive",
+          "quote": "17 February 2022"
+        },
+        {
+          "field": "investors",
+          "url": "https://neon.law/new-stuff/neon-advises-uvc-partners-on-e-4-3-million-financing-round-of-deepdrive",
+          "quote": "In addition to UVC Partners, Bayern Kapital with the Wachstumsfonds Bayern and the experienced business angels Jonas Rieke (COO Personio) and Peter Mertens"
+        }
+      ]
+    },
+    {
+      "stage": "series-a",
+      "month": "2023-03",
+      "amountEur": 15000000,
+      "amountOriginal": 15000000,
+      "currency": "EUR",
+      "investors": [
+        "BMW i Ventures",
+        "Continental Corporate Venture Capital",
+        "UVC Partners",
+        "Bayern Kapital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.startbase.com/news/deepdrive-schliesst-series-a-in-hoehe-von-15-mio-euro-ab/",
+          "quote": "has raised 15 million euros in its Series A financing round"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.startbase.com/news/deepdrive-schliesst-series-a-in-hoehe-von-15-mio-euro-ab/",
+          "quote": "has raised 15 million euros in its Series A financing round"
+        },
+        {
+          "field": "month",
+          "url": "https://www.startbase.com/news/deepdrive-schliesst-series-a-in-hoehe-von-15-mio-euro-ab/",
+          "quote": "March 2023"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.startbase.com/news/deepdrive-schliesst-series-a-in-hoehe-von-15-mio-euro-ab/",
+          "quote": "The VC firms BMW i Ventures and the Continental Corporate VC Unit have invested in DeepDrive"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.startbase.com/news/deepdrive-schliesst-series-a-in-hoehe-von-15-mio-euro-ab/",
+          "quote": "Existing investors UVC Partners and Bayern Kapital also participated in the financing."
+        }
+      ]
+    },
+    {
+      "stage": "series-b",
+      "month": "2024-09",
+      "amountEur": 30000000,
+      "amountOriginal": 30000000,
+      "currency": "EUR",
+      "investors": [
+        "Leitmotif",
+        "BMW i Ventures",
+        "Continental Corporate Venture Capital",
+        "UVC Partners",
+        "Bayern Kapital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://neon.law/news/neon-advises-deepdrive-on-e-30-million-series-b-financing-round",
+          "quote": "in their impressive €30 million Series B financing round"
+        },
+        {
+          "field": "stage",
+          "url": "https://neon.law/news/neon-advises-deepdrive-on-e-30-million-series-b-financing-round",
+          "quote": "in their impressive €30 million Series B financing round"
+        },
+        {
+          "field": "month",
+          "url": "https://neon.law/news/neon-advises-deepdrive-on-e-30-million-series-b-financing-round",
+          "quote": "19 September 2024"
+        },
+        {
+          "field": "investors",
+          "url": "https://neon.law/news/neon-advises-deepdrive-on-e-30-million-series-b-financing-round",
+          "quote": "The round was led by Leitmotif, an independent venture capital fund focused on decarbonization, with participation from all existing investors, including BMW i Ventures, the corporate venture unit of Continental, UVC Partners, and Bayern Kapital via the Growth Fund Bayern."
+        }
+      ]
+    }
+  ]
+}

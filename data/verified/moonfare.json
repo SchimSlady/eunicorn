@@ -108,9 +108,14 @@
           "quote": "Vitruvian Partners (“Vitruvian”) is partnering with Moonfare, investing $35 million in the company's unique business model."
         },
         {
+          "field": "amount",
+          "url": "https://news.bloomberglaw.com/mergers-and-acquisitions/private-equity-platform-moonfare-gets-backing-from-vitruvian",
+          "quote": "Vitruvian Partners has invested $35 million into Moonfare to help finance the Berlin-based firm"
+        },
+        {
           "field": "month",
           "url": "https://www.moonfare.com/blog/vitruvian-joins-moonfare-shareholder-partner",
-          "quote": "Moonfare’s Assets under Management as of March 2022 are €1.6 billion"
+          "quote": "March 29, 2022"
         },
         {
           "field": "investors",
@@ -127,29 +132,28 @@
       "amountOriginal": 15000000,
       "currency": "USD",
       "investors": [
-        "Insight Partners",
         "7 Global Capital"
       ],
       "sources": [
         {
           "field": "amount",
-          "url": "https://www.finsmes.com/2023/02/moonfare-raises-15m-extension-of-series-c-financing.html",
-          "quote": "has capped the extension of its Series C financing round at c.a. $15m."
+          "url": "https://pulse2.com/?p=239800",
+          "quote": "capped the extension of its Series C financing round at c.a. $15 million"
         },
         {
           "field": "month",
-          "url": "https://www.finsmes.com/2023/02/moonfare-raises-15m-extension-of-series-c-financing.html",
-          "quote": "Moonfare Raises $15M Extension of Series C Financing"
+          "url": "https://pulse2.com/?p=239800",
+          "quote": "Feb 13, 2023"
         },
         {
           "field": "investors",
-          "url": "https://www.finsmes.com/2023/02/moonfare-raises-15m-extension-of-series-c-financing.html",
-          "quote": "With the extension of the Series C financing round, 7 Global Capital joined as an investor."
+          "url": "https://pulse2.com/?p=239800",
+          "quote": "Moonfare now welcomes 7 Global Capital (7GC) as an additional institutional investor"
         },
         {
           "field": "stage",
-          "url": "https://www.finsmes.com/2023/02/moonfare-raises-15m-extension-of-series-c-financing.html",
-          "quote": "Moonfare Raises $15M Extension of Series C Financing"
+          "url": "https://pulse2.com/?p=239800",
+          "quote": "capped the extension of its Series C financing round at c.a. $15 million"
         }
       ]
     }

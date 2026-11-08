@@ -1,0 +1,66 @@
+{
+  "id": "ecoplanet",
+  "name": "ecoplanet",
+  "aliases": ["Ecoplanet", "EcoPlanet Green Operations"],
+  "domain": "ecoplanet.tech",
+  "country": "DE",
+  "city": "Munich",
+  "founded": 2022,
+  "sectors": ["climate", "saas"],
+  "status": "private",
+  "unicorn": false,
+  "founders": ["Henry Keppler", "Maximilian Dekorsy"],
+  "difficulty": 5,
+  "techeuId": "7E04D04A-ABA7-45AE-8B49-46130E868129",
+  "sources": [
+    { "field": "city", "url": "https://www.munich-startup.de/en/107223/ecoplanet-series-a/", "quote": "Munich tech company Ecoplanet has secured €16 million in a Series A round led by EQT Ventures." },
+    { "field": "founded", "url": "https://www.munich-startup.de/en/107223/ecoplanet-series-a/", "quote": "The company was founded in 2022 by Henry Keppler and Maximilian Dekorsy." },
+    { "field": "founders", "url": "https://www.munich-startup.de/en/107223/ecoplanet-series-a/", "quote": "The company was founded in 2022 by Henry Keppler and Maximilian Dekorsy." },
+    { "field": "sectors", "url": "https://www.munich-startup.de/en/107223/ecoplanet-series-a/", "quote": "The winner of the “Munich Startup Special Prize” 2024 enables companies to optimize their electricity consumption." },
+    { "field": "status", "url": "https://www.munich-startup.de/en/107223/ecoplanet-series-a/", "quote": "Munich tech company Ecoplanet has secured €16 million in a Series A round led by EQT Ventures." },
+    { "field": "unicorn", "url": "https://www.munich-startup.de/en/107223/ecoplanet-series-a/", "quote": "Munich tech company Ecoplanet has secured €16 million in a Series A round led by EQT Ventures." }
+  ],
+  "rounds": [
+    {
+      "stage": "seed",
+      "month": "2023-04",
+      "amountEur": 2600000,
+      "amountOriginal": 2600000,
+      "currency": "EUR",
+      "investors": ["HV Capital"],
+      "sources": [
+        { "field": "amount", "url": "https://www.munich-startup.de/en/news/e3-5-million-for-ecoplanet", "quote": "In a seed round in April 2023 , Ecoplanet already secured €2.6 million." },
+        { "field": "stage", "url": "https://www.munich-startup.de/en/news/e3-5-million-for-ecoplanet", "quote": "In a seed round in April 2023 , Ecoplanet already secured €2.6 million." },
+        { "field": "month", "url": "https://www.munich-startup.de/en/news/e3-5-million-for-ecoplanet", "quote": "In a seed round in April 2023 , Ecoplanet already secured €2.6 million." },
+        { "field": "investors", "url": "https://www.munich-startup.de/en/news/e3-5-million-for-ecoplanet", "quote": "HV Capital led the financing of the B2B energy platform, with several angel investors participating" }
+      ]
+    },
+    {
+      "stage": "seed",
+      "month": "2024-04",
+      "amountEur": 3500000,
+      "amountOriginal": 3500000,
+      "currency": "EUR",
+      "investors": ["HV Capital"],
+      "sources": [
+        { "field": "amount", "url": "https://www.munich-startup.de/en/news/e3-5-million-for-ecoplanet", "quote": "Ecoplanet, founded in 2022 by Maximilian Dekorsy and Henry Keppler, raised €3.5 million in its latest funding round." },
+        { "field": "month", "url": "https://www.munich-startup.de/en/news/e3-5-million-for-ecoplanet", "quote": "April 2, 2024 2 min. read time" },
+        { "field": "investors", "url": "https://www.munich-startup.de/en/news/e3-5-million-for-ecoplanet", "quote": "And HV Capital is also leading the current round." }
+      ]
+    },
+    {
+      "stage": "series-a",
+      "month": "2025-01",
+      "amountEur": 16000000,
+      "amountOriginal": 16000000,
+      "currency": "EUR",
+      "investors": ["EQT Ventures", "HV Capital"],
+      "sources": [
+        { "field": "amount", "url": "https://www.munich-startup.de/en/107223/ecoplanet-series-a/", "quote": "Munich tech company Ecoplanet has secured €16 million in a Series A round led by EQT Ventures." },
+        { "field": "stage", "url": "https://www.munich-startup.de/en/107223/ecoplanet-series-a/", "quote": "Munich tech company Ecoplanet has secured €16 million in a Series A round led by EQT Ventures." },
+        { "field": "month", "url": "https://www.munich-startup.de/en/107223/ecoplanet-series-a/", "quote": "January 21, 2025 3 min. read time" },
+        { "field": "investors", "url": "https://www.munich-startup.de/en/107223/ecoplanet-series-a/", "quote": "In addition to EQT, HV Capital has also invested in the Munich company again and expanded its support further." }
+      ]
+    }
+  ]
+}

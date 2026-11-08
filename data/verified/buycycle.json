@@ -1,0 +1,81 @@
+{
+  "id": "buycycle",
+  "name": "buycycle",
+  "aliases": [
+    "Buycycle"
+  ],
+  "domain": "buycycle.com",
+  "country": "DE",
+  "city": "Munich",
+  "founded": 2021,
+  "sectors": [
+    "ecommerce",
+    "consumer"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Theo Golditchuk"
+  ],
+  "difficulty": 4,
+  "techeuId": "B23257FB-0D33-4289-AB04-5B6568C17E7D",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://tech.eu/2024/08/27/european-startup-buycycle-shows-how-us-expansion/",
+      "quote": "The company was founded in Munich in 2021 in response to the challenge of acquiring affordable beginner bikes"
+    },
+    {
+      "field": "founded",
+      "url": "https://tech.eu/2024/08/27/european-startup-buycycle-shows-how-us-expansion/",
+      "quote": "The company was founded in Munich in 2021 in response to the challenge of acquiring affordable beginner bikes"
+    },
+    {
+      "field": "founders",
+      "url": "https://tech.eu/2023/08/30/buycycles-expansion-addressing-the-us-markets-demand-for-affordable-pre-owned-bikes/",
+      "quote": "CEO and Co-Founder Theo Golditchuk explains"
+    },
+    {
+      "field": "sectors",
+      "url": "https://tech.eu/2023/08/30/buycycles-expansion-addressing-the-us-markets-demand-for-affordable-pre-owned-bikes/",
+      "quote": "A Munich-founded marketplace for high-value, pre-owned bikes, buycycle is expanding its business to the US market."
+    },
+    {
+      "field": "status",
+      "url": "https://tech.eu/2024/08/27/european-startup-buycycle-shows-how-us-expansion/",
+      "quote": "Today, the company offers over 20,000 pre-owned and refurbished bikes listed on its platform"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://tech.eu/2024/08/27/european-startup-buycycle-shows-how-us-expansion/",
+      "quote": "Today, the company offers over 20,000 pre-owned and refurbished bikes listed on its platform"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "seed",
+      "month": "2023-07",
+      "amountEur": 3000000,
+      "amountOriginal": 3000000,
+      "currency": "EUR",
+      "investors": [],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2023/08/30/buycycles-expansion-addressing-the-us-markets-demand-for-affordable-pre-owned-bikes/",
+          "quote": "The company raised €3 million in seed funding in July this year."
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2023/08/30/buycycles-expansion-addressing-the-us-markets-demand-for-affordable-pre-owned-bikes/",
+          "quote": "The company raised €3 million in seed funding in July this year."
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2023/08/30/buycycles-expansion-addressing-the-us-markets-demand-for-affordable-pre-owned-bikes/",
+          "quote": "The company raised €3 million in seed funding in July this year."
+        }
+      ]
+    }
+  ]
+}

@@ -56,8 +56,8 @@
     {
       "stage": "seed",
       "month": "2023-11",
-      "amountEur": 3000000,
-      "amountOriginal": 3000000.0,
+      "amountEur": 7000000,
+      "amountOriginal": 7000000,
       "currency": "EUR",
       "investors": [
         "IQ Capital",
@@ -94,7 +94,7 @@
       "stage": "series-a",
       "month": "2026-07",
       "amountEur": 15000000,
-      "amountOriginal": 15000000.0,
+      "amountOriginal": 15000000,
       "currency": "EUR",
       "investors": [
         "World Fund",

@@ -12,7 +12,7 @@
     "health",
     "consumer"
   ],
-  "status": "private",
+  "status": "acquired",
   "unicorn": true,
   "lastValuationEur": 1072002859,
   "founders": [
@@ -64,6 +64,21 @@
       "quote": "It all started with me being an unsuccessful gym goer"
     },
     {
+      "field": "status",
+      "url": "https://uk.egym.com/en-gb/playlist-egym-merger",
+      "quote": "With the transaction now complete, EGYM will become a subsidiary of Playlist alongside Mindbody, Booker, and ClassPass."
+    },
+    {
+      "field": "exit",
+      "url": "https://uk.egym.com/en-gb/playlist-egym-merger",
+      "quote": "With the transaction now complete, EGYM will become a subsidiary of Playlist alongside Mindbody, Booker, and ClassPass."
+    },
+    {
+      "field": "exit",
+      "url": "https://www.playlist.com/press/playlist-and-egym-announce-agreement-merge-and-785-million-new-equity-investments-bringing",
+      "quote": "January 15, 2026"
+    },
+    {
       "field": "tagline",
       "url": "https://egym.com/us",
       "quote": "The Company EGYM is a global fitness technology leader that makes workouts smarter, more efficient, and fun for everyone."
@@ -111,5 +126,10 @@
       "id": "cdtm"
     }
   ],
+  "exit": {
+    "kind": "acquisition",
+    "month": "2026-01",
+    "acquirer": "Playlist"
+  },
   "tagline": "Fitness technology company that aims to make workouts more efficient and fun."
 }

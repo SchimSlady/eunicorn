@@ -137,7 +137,7 @@ export function UnicornGridGame() {
     loadGame<Puzzle>(MODE).then(({ puzzle: p, data: d }) => {
       setData(d);
       setDaily(p);
-      if (p) setProgress(loadProgress<Progress>(MODE, p.date));
+      if (p) setProgress(loadProgress<Progress>(MODE, p.date, p));
     });
   }, []);
 
@@ -247,7 +247,7 @@ export function UnicornGridGame() {
       hideSectors: new Set(crit.filter((k) => k.kind === "sector").map((k) => String(k.value))),
       hideInvestor: crit.find((k) => k.kind === "investor")?.value as string | undefined,
     });
-    update({ ...progress!, hints: [...boardHints, { cell: nextCell, text: `${squareName(nextCell)}: one answer ${fact.startsWith("starts") ? "" : "was "}${fact}` }] });
+    update({ ...progress!, hints: [...boardHints, { cell: nextCell, text: `${squareName(nextCell)}: one answer: ${fact}` }] });
   }
 
   const usedCompanies = progress.cells.filter((id): id is string => !!id).map((id) => companies.get(id)!);

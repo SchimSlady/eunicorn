@@ -13,7 +13,7 @@
     "robotics",
     "mobility"
   ],
-  "status": "private",
+  "status": "acquired",
   "unicorn": false,
   "founders": [
     "Hendrik Kramer",
@@ -49,11 +49,6 @@
       "quote": "offers scalable automation solutions for yard trucking"
     },
     {
-      "field": "status",
-      "url": "https://www.munich-startup.de/en/news/fernride-secures-additional-18-million-euros",
-      "quote": "The Munich startup"
-    },
-    {
       "field": "unicorn",
       "url": "https://www.munich-startup.de/en/news/fernride-secures-additional-18-million-euros",
       "quote": "The Munich startup"
@@ -62,6 +57,16 @@
       "field": "programs",
       "url": "https://www.manageandmore.de/start-ups/",
       "quote": "Fernride www.fernride.com"
+    },
+    {
+      "field": "status",
+      "url": "https://nordic9.com/news/quantum-systems-acquired-munich-based-driverless-truck-startup-fernride",
+      "quote": "Quantum Systems acquired Munich-based driverless truck startup Fernride."
+    },
+    {
+      "field": "exit",
+      "url": "https://nordic9.com/news/quantum-systems-acquired-munich-based-driverless-truck-startup-fernride",
+      "quote": "Quantum Systems acquired Munich-based driverless truck startup Fernride."
     },
     {
       "field": "tagline",
@@ -202,5 +207,10 @@
       ]
     }
   ],
+  "exit": {
+    "kind": "acquisition",
+    "month": "2025-12",
+    "acquirer": "Quantum Systems"
+  },
   "tagline": "Logistics automation for moving cargo with autonomous, electric trucks in terminals and distribution centers."
 }

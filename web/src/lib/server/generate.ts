@@ -58,6 +58,26 @@ const LOCAL_EXTRAS_FROM = "2026-11-07";
 const LOCAL_PROGRAMS_FROM = "2026-11-08";
 
 /**
+ * From this day on the server-made hints are more useful: Who Raised This's third hint says what the company
+ * does (never its city, the clues already name it) and the founding year comes last; the Impostor's
+ * second hint says what the impostor does instead of city and year; and a local game never repeats the
+ * puzzle of the daily game (see localAvoids). Earlier days keep exactly what they had.
+ */
+const HINTS_V2_FROM = "2026-11-08";
+
+/** From this day on, the Local "active in the last 12 months" list ranks by each startup's latest round in that window instead of its total raised. */
+const LOCAL_HOT_LATEST_FROM = "2026-11-09";
+
+/** What the company does as a hint, or undefined when there is no tagline or it gives the name away. */
+function doesHint(c: Company): string | undefined {
+  const t = c.tagline?.trim().replace(/\.$/, "");
+  if (!t) return undefined;
+  const low = t.toLowerCase();
+  if (low.includes(c.name.toLowerCase()) || low.includes(c.name.split(/\s+/)[0].toLowerCase())) return undefined;
+  return t;
+}
+
+/**
  * A Local game: one of the region's games (lib/regions.ts) with only the region's companies. Its own
  * random stream per region, so Munich and Berlin don't share a chain. Higher or Lower has no theme
  * days here (the region is the theme). Same puzzle number as the day's daily games.
@@ -67,12 +87,28 @@ function localPuzzle(mode: PlayMode, date: string, data: Dataset, region: Region
   const rng = seeded(`${date}:${mode}:${region}`);
   const base = { date, number: puzzleNumber(date), hints: [] as Hint[] };
   const companies = data.companies.filter((c) => c.european && REGIONS[region].test(c));
+  const v2 = date >= HINTS_V2_FROM;
   if (mode === "higher-lower") {
-    const metrics: HLMetric[] | undefined = date >= LOCAL_EXTRAS_FROM ? [...HL_METRICS, "lastRoundMonth"] : undefined;
+    let metrics: HLMetric[] | undefined = date >= LOCAL_EXTRAS_FROM ? [...HL_METRICS, "lastRoundMonth"] : undefined;
+    if (v2) {
+      // Never the daily game's number: the local chain asks about another one.
+      const daily = generatePuzzle("higher-lower", date, data) as WebHigherLowerPuzzle | null;
+      const all = metrics ?? [...HL_METRICS];
+      const others = all.filter((m) => m !== daily?.metric);
+      if (others.length) metrics = others;
+    }
     return higherLower(base, date, companies, rng, false, metrics);
   }
   // Germany's Impostor: the same categories as the daily game but the country (everyone shares it).
-  if (mode === "impostor") return impostor(base, companies, rng, true);
+  if (mode === "impostor") {
+    let avoid: Set<string> | undefined;
+    if (v2) {
+      // Never a category the daily Impostor uses today, at any level.
+      const daily = generatePuzzle("impostor", date, data) as (ImpostorPuzzle & { variants?: ImpostorVariants }) | null;
+      avoid = new Set([daily?.prompt, ...DIFFICULTIES.map((l) => daily?.variants?.[l]?.prompt)].filter((p): p is string => !!p).map((p) => p.replace(/: Find the impostors$/, "")));
+    }
+    return impostor(base, companies, rng, true, avoid);
+  }
   return localTop10(base, date, region, companies, data, rng);
 }
 
@@ -173,10 +209,24 @@ function localList(date: string, region: Region, companies: Company[], data: Dat
       const rest = [...order.slice(i + 1), ...order.slice(0, i)];
       real = rest.find((l) => l.tag !== prev!.tag) ?? rest[0];
     }
+    // Never the topic of the daily Top 10 the same day (a local "AI" list next to the global one).
+    const avoid = dailyTags(day, data);
+    if (avoid.has(real.tag)) {
+      const i = order.indexOf(real);
+      const rest = [...order.slice(i + 1), ...order.slice(0, i)].filter((l) => !avoid.has(l.tag));
+      real = rest.find((l) => l.tag !== prev?.tag && l.key !== prev?.key) ?? rest[0] ?? real;
+    }
     if (day === date) return real;
-    if (real === list) return today.list;
     prev = real;
   }
+}
+
+/** The topics of the day's daily Top 10 (all levels), in the local lists' words: the Europe, German, Berlin and Munich lists are the local "all" lists. */
+function dailyTags(day: string, data: Dataset): Set<string> {
+  const tags = new Set<string>();
+  top10({ date: day, number: puzzleNumber(day), hints: [] }, day, data.companies.filter((c) => c.european), seeded(`${day}:top-10`), tags);
+  for (const t of [...tags]) if (["europe", "de", "berlin", "munich"].includes(t)) tags.add("all");
+  return tags;
 }
 
 function dayAfter(date: string): string {
@@ -223,6 +273,16 @@ function recentLists(date: string, region: Region, companies: Company[], data: D
     return [...best].map(([id, v]) => ({ c: byId.get(id)!, v }));
   };
   const active = new Set(rounds.filter((r) => monthIndex(r.date) > now - 12).map((r) => r.companyId));
+  // Each active company with its most recent round in the window (amount of that one round, not its total).
+  const latestInWindow = () => {
+    const latest = new Map<string, { date: string; v: number }>();
+    for (const r of rounds) {
+      if (monthIndex(r.date) <= now - 12) continue;
+      const cur = latest.get(r.companyId);
+      if (!cur || r.date > cur.date) latest.set(r.companyId, { date: r.date, v: r.amountUsd });
+    }
+    return [...latest].map(([id, x]) => ({ c: byId.get(id)!, v: x.v }));
+  };
 
   return [
     { tag: "recent", key: "recent:year", build: (rng) => rankedRound(`The 10 ${who} with the biggest rounds of ${year}`, "roundUsd", biggestSince(year), rng, [...place, { kind: "round-since", value: `${year}-01`, label: `in ${year}` }]) },
@@ -231,13 +291,21 @@ function recentLists(date: string, region: Region, companies: Company[], data: D
       tag: "hot",
       key: "hot",
       build: (rng) =>
-        rankedRound(
-          `Active in the last 12 months: the 10 ${who} that raised the most`,
-          "totalRaisedUsd",
-          companies.filter((c) => active.has(c.id)).map((c) => ({ c, v: c.totalRaisedUsd ?? 0 })),
-          rng,
-          [...place, { kind: "round-since", value: monthOf(now - 11), label: "in the last 12 months" }],
-        ),
+        date >= LOCAL_HOT_LATEST_FROM
+          ? rankedRound(
+              `Active in the last 12 months: the 10 ${who} with the biggest latest round`,
+              "roundUsd",
+              latestInWindow(),
+              rng,
+              [...place, { kind: "round-since", value: monthOf(now - 11), label: "in the last 12 months" }],
+            )
+          : rankedRound(
+              `Active in the last 12 months: the 10 ${who} that raised the most`,
+              "totalRaisedUsd",
+              companies.filter((c) => active.has(c.id)).map((c) => ({ c, v: c.totalRaisedUsd ?? 0 })),
+              rng,
+              [...place, { kind: "round-since", value: monthOf(now - 11), label: "in the last 12 months" }],
+            ),
     },
   ];
 }
@@ -278,16 +346,17 @@ const TOP10_PRIVATE_VALUATIONS_FROM = "2026-11-03";
  * a row never share a topic. A question the data can't support today (fewer than 12 companies with the
  * number, or a tie at No. 10) is skipped for the next one.
  */
-function top10(base: Base, date: string, companies: Company[], rng: Rng): Top10Puzzle | null {
+function top10(base: Base, date: string, companies: Company[], rng: Rng, tagsOut?: Set<string>): Top10Puzzle | null {
   const day = puzzleNumber(date) - 1;
   const variants: Partial<Record<Difficulty, Top10Round>> = {};
   for (const level of DIFFICULTIES) {
-    const pool = TOP10_QUESTIONS.filter((q) => LEVEL_RANK[q.level] <= LEVEL_RANK[level]);
+    const pool = TOP10_QUESTIONS.filter((q) => LEVEL_RANK[q.level] <= LEVEL_RANK[level] && (!q.from || date >= q.from));
     const order = questionOrder(pool, level, Math.floor(day / pool.length));
     for (let i = 0; i < order.length; i++) {
       const round = top10Round(order[(day + i) % order.length], companies, rng, date >= TOP10_PRIVATE_VALUATIONS_FROM, [{ kind: "european" }]);
       if (round) {
         variants[level] = round;
+        tagsOut?.add(order[(day + i) % order.length].tag);
         break;
       }
     }
@@ -381,6 +450,7 @@ function whoRaisedThis(
   const rounds = data.rounds.filter((r) => byId.has(r.companyId) && r.amountUsd > 0 && r.investorIds.filter(known).length >= 1);
   if (!rounds.length) return null;
 
+  const v2 = base.date >= HINTS_V2_FROM;
   const variants: WhoRaisedThisVariants = {};
   for (const level of DIFFICULTIES) {
     const built = forLevel(level, companies, (pool) => {
@@ -402,12 +472,21 @@ function whoRaisedThis(
         { kind: "amount", text: `Raised ${formatUsdAsEur(round.amountUsd)} in a ${STAGE_LABEL[round.stage] ?? round.stage} round` },
         { kind: "year", text: monthYear(round.date) },
         { kind: "sector", text: answer.sectors.map(sectorLabel).join(", ") },
-        { kind: "year", text: `Founded in ${answer.founded}` },
+        ...(v2 ? [] : [{ kind: "year" as const, text: `Founded in ${answer.founded}` }]),
         { kind: "city", text: [answer.city, countryName(answer.country)].filter(Boolean).join(", ") },
         { kind: "investors", text: `Backed by ${list(names.slice(0, 2))}` },
       ];
       if (names.length > 2) clues.push({ kind: "investors", text: `Also: ${list(names.slice(2, 5))}` });
       if (founders.length) clues.push({ kind: "founders", text: `Founded by ${list(founders)}` });
+      if (v2) clues.push({ kind: "year", text: `Founded in ${answer.founded}` });
+      const does = doesHint(answer);
+      const third = v2
+        ? does
+          ? { text: `What it does: ${does}`, cost: 3 }
+          : answer.totalRaisedUsd
+            ? { text: `Has raised ${formatUsdAsEur(answer.totalRaisedUsd)} in total`, cost: 3 }
+            : undefined
+        : { text: `${answer.totalRaisedUsd ? `Has raised ${formatUsdAsEur(answer.totalRaisedUsd)} in total` : `Based in ${answer.city}`}`, cost: 3 };
 
       return {
         answerCompanyId: answer.id,
@@ -416,7 +495,7 @@ function whoRaisedThis(
         hints: [
           { text: `The name has ${letters(answer.name)} letters`, cost: 1 },
           { text: `Starts with ${answer.name[0].toUpperCase()}`, cost: 2 },
-          { text: `${answer.totalRaisedUsd ? `Has raised ${formatUsdAsEur(answer.totalRaisedUsd)} in total` : `Based in ${answer.city}`}`, cost: 3 },
+          ...(third ? [third] : []),
         ],
       };
     });
@@ -654,9 +733,22 @@ function gridCriteria(data: Dataset, companies: Company[], date: string): Criter
 /** Consecutive values are at least this far apart (bigger / smaller): no coin flips on estimated figures. */
 const HL_MIN_GAP = 1.3;
 
+/**
+ * From this day on a step between two companies in a money chain has a size per level (ratio of the bigger to
+ * the smaller): Easy clear steps, Medium moderate ones (no jump from a small startup to a giant), Hard close
+ * ones. Before, every level only had the minimum of 1.3 and no cap, so Medium could jump by a billion.
+ * Earlier days keep their chain.
+ */
+const HL_GAPS_FROM = "2026-11-09";
+const HL_GAPS: Record<Difficulty, { min: number; max: number }> = {
+  easy: { min: 1.5, max: Infinity },
+  medium: { min: 1.3, max: 3 },
+  hard: { min: 1.2, max: 2 },
+};
+
 /** A Higher or Lower chain whose every step is a clear gap; null if the data can't make one. */
 /** At most 15 rounds (16 companies); a thinner tier gets a shorter chain. */
-function hlChain(cs: Company[], metric: HLMetric, rng: Rng, length = 16): Company[] | null {
+function hlChain(cs: Company[], metric: HLMetric, rng: Rng, length = 16, gap?: { min: number; max: number }): Company[] | null {
   const v = (c: Company) => metricValue(c, metric)!;
   // Founding years only need to differ (no ties); money needs a clear ratio.
   const fits =
@@ -665,7 +757,10 @@ function hlChain(cs: Company[], metric: HLMetric, rng: Rng, length = 16): Compan
       : metric === "lastRoundMonth"
         ? // At least three months apart: two rounds a month apart are a coin flip.
           (a: Company, b: Company) => Math.abs(v(a) - v(b)) >= 3
-      : (a: Company, b: Company) => Math.max(v(a), v(b)) / Math.min(v(a), v(b)) >= HL_MIN_GAP;
+      : (a: Company, b: Company) => {
+          const ratio = Math.max(v(a), v(b)) / Math.min(v(a), v(b));
+          return ratio >= (gap?.min ?? HL_MIN_GAP) && ratio <= (gap?.max ?? Infinity);
+        };
   let best: Company[] = [];
   for (let attempt = 0; attempt < 200 && best.length < length; attempt++) {
     const chain = [pick(cs, rng)];
@@ -696,7 +791,26 @@ const HL_THEME_MIN_PER_LEVEL = 14;
 const HL_THEME_MIN_CHAIN = 11;
 const HL_METRICS: HLMetric[] = ["totalRaisedUsd", "lastValuationUsd", "founded", "biggestRoundUsd"];
 
-type HLTheme = { label: string; test: (c: Company) => boolean };
+type HLTheme = {
+  label: string;
+  test: (c: Company) => boolean;
+  /** Fewer startups per fame level than usual (a young theme is mostly obscure companies); the level then widens its tier. */
+  minPerLevel?: number;
+  /** A shorter chain is enough on this theme day (young startups are few); default HL_THEME_MIN_CHAIN. */
+  minChain?: number;
+  /** Metrics this theme makes no sense with (founding year in "founded in the last 5 years"). */
+  skipMetrics?: HLMetric[];
+};
+
+/** From this day on "Founded 2015 or later" is "Founded in the last 5 years" (2015 isn't special any more). Same place in the rotation. */
+const HL_YOUNG_FROM = "2026-11-09";
+const HL_OLD_YOUNG_LABEL = "Founded 2015 or later";
+const hlYoung = (date: string): HLTheme => {
+  const from = Number(date.slice(0, 4)) - 4;
+  return { label: "Founded in the last 5 years", test: (c) => c.founded >= from, minPerLevel: 0, minChain: 8, skipMetrics: ["founded"] };
+};
+/** The themes as they are on a day: the same list and order, the young theme swapped in from HL_YOUNG_FROM. */
+const hlThemeOn = (theme: HLTheme, date: string): HLTheme => (theme.label === HL_OLD_YOUNG_LABEL && date >= HL_YOUNG_FROM ? hlYoung(date) : theme);
 
 /** Mostly broad themes, just for variety; a few specific ones for fun. */
 const HL_THEMES: HLTheme[] = [
@@ -721,9 +835,11 @@ function nextDay(day: string): string {
 
 /** Enough companies with this metric overall and in every level's fame tier. */
 function hlThemeFits(theme: HLTheme, metric: HLMetric, companies: Company[]): boolean {
+  if (theme.skipMetrics?.includes(metric)) return false;
   const pool = companies.filter((c) => (metricValue(c, metric) ?? 0) > 0 && theme.test(c));
   if (pool.length < HL_THEME_MIN) return false;
-  return DIFFICULTIES.every((l) => pool.filter((c) => c.difficulty >= FAME_TIERS[l].min && c.difficulty <= FAME_TIERS[l].max).length >= HL_THEME_MIN_PER_LEVEL);
+  const per = theme.minPerLevel ?? HL_THEME_MIN_PER_LEVEL;
+  return DIFFICULTIES.every((l) => pool.filter((c) => c.difficulty >= FAME_TIERS[l].min && c.difficulty <= FAME_TIERS[l].max).length >= per);
 }
 
 /**
@@ -740,13 +856,13 @@ function hlThemeFor(date: string, companies: Company[]): HLTheme | undefined {
     const metric = HL_METRICS[puzzleNumber(d) % HL_METRICS.length];
     for (let step = 1; step <= order.length; step++) {
       const i = (last + step) % order.length;
-      if (hlThemeFits(order[i], metric, companies)) {
+      if (hlThemeFits(hlThemeOn(order[i], d), metric, companies)) {
         last = i;
         break;
       }
     }
   }
-  return last >= 0 ? order[last] : undefined;
+  return last >= 0 ? hlThemeOn(order[last], date) : undefined;
 }
 
 function higherLower(base: Base, date: string, companies: Company[], rng: Rng, themes = true, only?: HLMetric[]): WebHigherLowerPuzzle | null {
@@ -774,7 +890,7 @@ function higherLower(base: Base, date: string, companies: Company[], rng: Rng, t
       const variants: HigherLowerVariants = {};
       for (const level of DIFFICULTIES) {
         const built = forLevel(level, pool, (tier) => {
-          const chain = hlChain(tier, metric, chainRng);
+          const chain = hlChain(tier, metric, chainRng, 16, date >= HL_GAPS_FROM ? HL_GAPS[level] : undefined);
           if (!chain) return null;
           const [a, b] = pickN(chain.slice(1), 2, chainRng);
           return {
@@ -793,7 +909,7 @@ function higherLower(base: Base, date: string, companies: Company[], rng: Rng, t
     // Only on the metric the theme was chosen for (the day's first); a fallback metric plays without.
     if (theme && metric === metrics[start] && usable.some(theme.test)) {
       const variants = build(usable.filter(theme.test), seeded(`${date}:higher-lower:${theme.label}`));
-      const full = DIFFICULTIES.every((l) => (variants[l]?.companyIds.length ?? 0) >= HL_THEME_MIN_CHAIN);
+      const full = DIFFICULTIES.every((l) => (variants[l]?.companyIds.length ?? 0) >= (theme.minChain ?? HL_THEME_MIN_CHAIN));
       const main = mainOf(variants);
       if (full && main) return { ...base, mode: "higher-lower", metric, theme: theme.label, companyIds: main.companyIds, hints: main.hints, variants };
     }
@@ -807,6 +923,25 @@ function higherLower(base: Base, date: string, companies: Company[], rng: Rng, t
 }
 
 /* ---------- Impostor ---------- */
+
+/** Impostor's exit categories (acquired, listed, went bust) start here; earlier days keep their puzzle. */
+const IMPOSTOR_EXITS_FROM = "2026-11-08";
+
+/** How a company's story ended, for an Impostor explanation: "was bought by SAP in 2026". */
+function fate(c: Company): string {
+  const year = c.exit?.month.slice(0, 4);
+  const when = year ? ` in ${year}` : "";
+  switch (c.status) {
+    case "acquired":
+      return c.exit?.acquirer ? `was bought by ${c.exit.acquirer}${when}` : `was bought by another company${when}`;
+    case "public":
+      return `went public${when}`;
+    case "defunct":
+      return `went bust${when}`;
+    default:
+      return "is still an independent private company";
+  }
+}
 
 interface Group {
   members: (c: Company) => boolean;
@@ -834,17 +969,16 @@ function optionCount(rng: Rng): number {
 
 /** How many impostors: mostly one, now and then two or three. */
 /**
- * From this day on a big circle hides more impostors (one in nine was too easy to spot): six or seven
- * options mostly one or two, eight or nine mostly two or three. Earlier days keep their puzzle.
+ * From this day on every circle hides at least two impostors (one was too easy to spot): six or seven
+ * options two, eight two or three, nine mostly three. Earlier days keep their puzzle.
  */
 const IMPOSTOR_SCALED_FROM = "2026-11-08";
 
 function impostorsFor(options: number, rng: Rng): number {
   const r = rng();
-  if (options <= 6) return r < 0.6 ? 1 : 2;
-  if (options === 7) return r < 0.3 ? 1 : 2;
+  if (options <= 7) return 2;
   if (options === 8) return r < 0.6 ? 2 : 3;
-  return r < 0.4 ? 2 : 3;
+  return r < 0.35 ? 2 : 3;
 }
 
 function impostorCount(rng: Rng): number {
@@ -856,7 +990,7 @@ function impostorCount(rng: Rng): number {
  * local: a Local game, whose companies all come from one country, so there are no country categories,
  * and the impostors come from the same companies ("Based in Munich" with impostors from Berlin).
  */
-function impostor(base: Base, companies: Company[], rng: Rng, local = false): (ImpostorPuzzle & { variants: ImpostorVariants }) | null {
+function impostor(base: Base, companies: Company[], rng: Rng, local = false, avoid?: Set<string>): (ImpostorPuzzle & { variants: ImpostorVariants }) | null {
   const groups: Group[] = [];
   for (const code of local ? [] : unique(companies.map((c) => c.country))) {
     groups.push({
@@ -888,6 +1022,27 @@ function impostor(base: Base, companies: Company[], rng: Rng, local = false): (I
     shared: "have been valued at €1bn or more",
     odd: () => "has never been valued at €1bn or more",
   });
+  // How the story ended (Company.exit, set for acquired, listed and failed companies), from
+  // IMPOSTOR_EXITS_FROM on; earlier days keep their puzzle. The generator only picks a group when
+  // the day's tier has enough members, so a thin one simply waits.
+  if (base.date >= IMPOSTOR_EXITS_FROM) groups.push({
+    members: (c) => c.status === "acquired",
+    prompt: "Bought by another company",
+    shared: "were bought by another company",
+    odd: fate,
+  });
+  if (base.date >= IMPOSTOR_EXITS_FROM) groups.push({
+    members: (c) => c.status === "public",
+    prompt: "Listed on a stock exchange",
+    shared: "went public",
+    odd: fate,
+  });
+  if (base.date >= IMPOSTOR_EXITS_FROM) groups.push({
+    members: (c) => c.status === "defunct",
+    prompt: "Went bust",
+    shared: "went bust or shut down",
+    odd: fate,
+  });
   for (const year of [2012, 2015, 2019]) {
     groups.push({
       members: (c) => c.founded >= year,
@@ -906,17 +1061,23 @@ function impostor(base: Base, companies: Company[], rng: Rng, local = false): (I
       const first = scaled ? optionCount(rng) : impostorCount(rng);
       const second = scaled ? impostorsFor(first, rng) : optionCount(rng);
       const [n, wanted] = scaled ? [second, first] : [first, second];
-      for (const g of shuffle(groups, rng)) {
+      for (const g of shuffle(avoid?.size ? groups.filter((x) => !avoid.has(x.prompt)) : groups, rng)) {
         const fits = pool.filter(g.members);
         // As many options as the wish, or as many as this category can fill (but at least six).
-        const options = Math.min(wanted, fits.length + n);
+        let options = Math.min(wanted, fits.length + n);
+        // A small category shrinks the circle; on six or seven, two impostors (not three of six).
+        let k = n;
+        if (scaled && options <= 7 && n > 2) {
+          k = 2;
+          options = Math.min(wanted, fits.length + k);
+        }
         if (options < IMPOSTOR_MIN_OPTIONS) continue;
         // The impostors are from the tier too; a category the whole tier shares (e.g. all unicorns) takes anyone else.
         const inTier = pool.filter((c) => !g.members(c));
-        const outsiders = inTier.length >= n ? inTier : companies.filter((c) => !g.members(c));
-        if (outsiders.length < n) continue;
-        const fit = pickN(fits, options - n, rng);
-        const imps = pickN(outsiders, n, rng);
+        const outsiders = inTier.length >= k ? inTier : companies.filter((c) => !g.members(c));
+        if (outsiders.length < k) continue;
+        const fit = pickN(fits, options - k, rng);
+        const imps = pickN(outsiders, k, rng);
         const first = imps[0];
         return {
           prompt: `${g.prompt}: Find the impostors`, // never how many: the game ends when all are found
@@ -926,7 +1087,9 @@ function impostor(base: Base, companies: Company[], rng: Rng, local = false): (I
           explanation: `${list(imps.map((c) => `${c.name} ${g.odd(c)}`))}. ${list(fit.map((c) => c.name))} ${g.shared}.`,
           hints: [
             { text: `Remove one wrong option (${fit[0].name} fits)`, cost: 1 },
-            { text: `One impostor is based in ${first.city}, founded in ${first.founded}`, cost: 2 },
+            base.date >= HINTS_V2_FROM
+              ? { text: doesHint(first) ? `One impostor: ${doesHint(first)}` : `One impostor is based in ${first.city}`, cost: 2 }
+              : { text: `One impostor is based in ${first.city}, founded in ${first.founded}`, cost: 2 },
           ],
         };
       }

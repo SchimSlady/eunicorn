@@ -162,6 +162,43 @@
           "quote": "Among the participants in the round is the NATO Innovation Fund"
         }
       ]
+    },
+    {
+      "stage": "series-d",
+      "month": "2026-06",
+      "amountEur": 270000000,
+      "amountOriginal": 270000000,
+      "currency": "EUR",
+      "investors": [
+        "Island Green Capital",
+        "Molten Ventures",
+        "HV Capital",
+        "Lakestar",
+        "UVC Partners",
+        "KfW Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://vestbee.com/insights/articles/isar-aerospace-lands-270-m-to-scale-global-launch-capabilities-and-expand-sovereign-space-infrastructure",
+          "quote": "has raised €270 million in a Series D round"
+        },
+        {
+          "field": "month",
+          "url": "https://vestbee.com/insights/articles/isar-aerospace-lands-270-m-to-scale-global-launch-capabilities-and-expand-sovereign-space-infrastructure",
+          "quote": "June 9, 2026"
+        },
+        {
+          "field": "stage",
+          "url": "https://vestbee.com/insights/articles/isar-aerospace-lands-270-m-to-scale-global-launch-capabilities-and-expand-sovereign-space-infrastructure",
+          "quote": "has raised €270 million in a Series D round"
+        },
+        {
+          "field": "investors",
+          "url": "https://vestbee.com/insights/articles/isar-aerospace-lands-270-m-to-scale-global-launch-capabilities-and-expand-sovereign-space-infrastructure",
+          "quote": "The round includes new investors Island Green Capital and Molten Ventures, alongside existing backers HV Capital, Lakestar, UVC Partners, and KfW Capital"
+        }
+      ]
     }
   ],
   "tagline": "Launch service provider for small and medium-sized satellites and constellations."

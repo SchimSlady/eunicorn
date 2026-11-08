@@ -144,6 +144,43 @@
       ]
     },
     {
+      "stage": "series-b",
+      "month": "2021-09",
+      "amountEur": 67699078,
+      "amountOriginal": 80000000,
+      "currency": "USD",
+      "investors": [
+        "Draper Esprit",
+        "RTP Global",
+        "HV Capital",
+        "signals Venture Capital",
+        "Partech",
+        "Speedinvest"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.coachhub.com/en/news-media/coachhub-secures-80m-to-democratise-coaching",
+          "quote": "has raised 80 million in Series B2 funding, increasing total Series B capital to $110 million"
+        },
+        {
+          "field": "month",
+          "url": "https://www.coachhub.com/en/news-media/coachhub-secures-80m-to-democratise-coaching",
+          "quote": "BERLIN (SEPTEMBER 01, 2021)"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.coachhub.com/en/news-media/coachhub-secures-80m-to-democratise-coaching",
+          "quote": "has raised 80 million in Series B2 funding, increasing total Series B capital to $110 million"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.coachhub.com/en/news-media/coachhub-secures-80m-to-democratise-coaching",
+          "quote": "Draper Esprit, RTPGlobal, HV Capital, Signals Venture Capital, Partech, and Speedinvest were all part of this latest round"
+        }
+      ]
+    },
+    {
       "stage": "series-c",
       "month": "2022-06",
       "amountEur": 191350938,

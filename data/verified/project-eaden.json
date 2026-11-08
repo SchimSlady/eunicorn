@@ -1,0 +1,167 @@
+{
+  "id": "project-eaden",
+  "name": "Project Eaden",
+  "aliases": [
+    "Eaden",
+    "LEKKA"
+  ],
+  "domain": "projecteaden.com",
+  "country": "DE",
+  "city": "Berlin",
+  "founded": 2022,
+  "sectors": [
+    "foodtech",
+    "climate"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "David Schmelzeisen",
+    "Hubertus Bessau",
+    "Jan Wilmking"
+  ],
+  "difficulty": 4,
+  "techeuId": "C80FCD8A-46F0-4DA1-826C-0EB5CBB99C3E",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://tech.eu/2022/06/30/project-eaden-a-creator-of-new-earthly-pleasures-raises-eur8-million",
+      "quote": "Berlin-based Project Eaden has raised €8 million in a seed round led by Creandum"
+    },
+    {
+      "field": "founded",
+      "url": "https://siliconcanals.com/project-eaden-in-8m/",
+      "quote": "Founded in 2022 by David Schmelzeisen, Hubertus Bessau and Jan Wilmking"
+    },
+    {
+      "field": "founders",
+      "url": "https://siliconcanals.com/project-eaden-in-8m/",
+      "quote": "Founded in 2022 by David Schmelzeisen, Hubertus Bessau and Jan Wilmking"
+    },
+    {
+      "field": "sectors",
+      "url": "https://tech.eu/2025/01/22/scaling-the-future-of-meat-project-eaden-raises-eur15m-to-launch-ultra-realistic-plant-based-products-in-europe",
+      "quote": "Foodtech startup Project Eaden , creator of ultra-realistic plant-based meats using proprietary fibre spinning technology"
+    },
+    {
+      "field": "status",
+      "url": "https://tech.eu/2025/01/22/scaling-the-future-of-meat-project-eaden-raises-eur15m-to-launch-ultra-realistic-plant-based-products-in-europe",
+      "quote": "has closed an oversubscribed €15 million Series A funding, bringing the company’s funding to €27 million"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://tech.eu/2025/01/22/scaling-the-future-of-meat-project-eaden-raises-eur15m-to-launch-ultra-realistic-plant-based-products-in-europe",
+      "quote": "has closed an oversubscribed €15 million Series A funding, bringing the company’s funding to €27 million"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "seed",
+      "month": "2022-06",
+      "amountEur": 8000000,
+      "amountOriginal": 8000000.0,
+      "currency": "EUR",
+      "investors": [
+        "Creandum",
+        "Magnetic",
+        "FoodLabs",
+        "Shio Capital",
+        "Trellis Road"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2022/06/30/project-eaden-a-creator-of-new-earthly-pleasures-raises-eur8-million",
+          "quote": "Berlin-based Project Eaden has raised €8 million in a seed round led by Creandum"
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2022/06/30/project-eaden-a-creator-of-new-earthly-pleasures-raises-eur8-million",
+          "quote": "Berlin-based Project Eaden has raised €8 million in a seed round led by Creandum"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2022/06/30/project-eaden-a-creator-of-new-earthly-pleasures-raises-eur8-million",
+          "quote": "30 June 2022"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2022/06/30/project-eaden-a-creator-of-new-earthly-pleasures-raises-eur8-million",
+          "quote": "Project Eaden’s $8 million seed round saw the participation of Magnetic , Food Labs , Shio Capital , Trellis Road"
+        }
+      ]
+    },
+    {
+      "stage": "seed",
+      "month": "2023-01",
+      "amountEur": 2100000,
+      "amountOriginal": 2100000.0,
+      "currency": "EUR",
+      "investors": [
+        "Creandum",
+        "Magnetic",
+        "FoodLabs"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2023/01/11/project-eaden-fiber-technology-plant-based-meat/",
+          "quote": "adding €2.1 million (about $2.3 million) of additional funding to a previous seed round"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2023/01/11/project-eaden-fiber-technology-plant-based-meat/",
+          "quote": "adding €2.1 million (about $2.3 million) of additional funding to a previous seed round"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2023/01/11/project-eaden-fiber-technology-plant-based-meat/",
+          "quote": "January 11, 2023"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2023/01/11/project-eaden-fiber-technology-plant-based-meat/",
+          "quote": "The new portion of capital was driven by Creandum, Magnetic and FoodLabs"
+        }
+      ]
+    },
+    {
+      "stage": "series-a",
+      "month": "2025-01",
+      "amountEur": 15000000,
+      "amountOriginal": 15000000.0,
+      "currency": "EUR",
+      "investors": [
+        "Planet A Ventures",
+        "REWE Group",
+        "DeepTech & Climate Fonds",
+        "Happiness Capital",
+        "AgriFoodTech Venture Alliance",
+        "Creandum",
+        "FoodLabs"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2025/01/22/scaling-the-future-of-meat-project-eaden-raises-eur15m-to-launch-ultra-realistic-plant-based-products-in-europe",
+          "quote": "has closed an oversubscribed €15 million Series A funding"
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2025/01/22/scaling-the-future-of-meat-project-eaden-raises-eur15m-to-launch-ultra-realistic-plant-based-products-in-europe",
+          "quote": "has closed an oversubscribed €15 million Series A funding"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2025/01/22/scaling-the-future-of-meat-project-eaden-raises-eur15m-to-launch-ultra-realistic-plant-based-products-in-europe",
+          "quote": "22 January 2025"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2025/01/22/scaling-the-future-of-meat-project-eaden-raises-eur15m-to-launch-ultra-realistic-plant-based-products-in-europe",
+          "quote": "Planet A and REWE Group led the round, with participation from DeepTech & Climate Fonds (DTCF). Happiness Capital, AgriFoodTech Venture Alliance, and existing investors Creandum and FoodLabs also joined the A round"
+        }
+      ]
+    }
+  ]
+}

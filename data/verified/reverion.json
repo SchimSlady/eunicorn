@@ -5,7 +5,7 @@
   "domain": "reverion.com",
   "country": "DE",
   "city": "Munich",
-  "founded": 2020,
+  "founded": 2022,
   "sectors": [
     "climate"
   ],
@@ -29,8 +29,8 @@
     },
     {
       "field": "founded",
-      "url": "https://www.munich-startup.de/en/news/8-5-million-euros-for-cleantech-startup-reverion",
-      "quote": "the startup, which was founded only in 2020"
+      "url": "https://www.tum.de/en/innovation/entrepreneurship/for-alumni-corporates/entrepreneurs-of-excellence",
+      "quote": "Founded in 2022 as a spin-off from the TUM ecosystem"
     },
     {
       "field": "founders",
@@ -129,46 +129,6 @@
           "field": "stage",
           "url": "https://www.uvcpartners.com/blog/reverion-raises-eur-8-5-million-to-enter-series-production-of-power-plants-of-the-future",
           "quote": "The company's upcoming Series A fundraise"
-        }
-      ]
-    },
-    {
-      "techeuId": "6386F928-731A-4709-BDFA-E711252823CA",
-      "stage": "series-a",
-      "month": "2024-09",
-      "amountEur": 55951629,
-      "amountOriginal": 62000000,
-      "currency": "USD",
-      "investors": [
-        "Energy Impact Partners",
-        "Honda",
-        "European Innovation Council Fund",
-        "UVC Partners",
-        "Extantia Capital",
-        "Green Generation Fund",
-        "Doral Energy-Tech Ventures",
-        "Possible Ventures"
-      ],
-      "sources": [
-        {
-          "field": "amount",
-          "url": "https://siliconcanals.com/munich-reverion-secures-56m/",
-          "quote": "it has secured $62M (approximately €56M) in an oversubscribed Series A funding round, including non-dilutive funding"
-        },
-        {
-          "field": "month",
-          "url": "https://siliconcanals.com/munich-reverion-secures-56m/",
-          "quote": "announced on Friday that it has secured $62M"
-        },
-        {
-          "field": "investors",
-          "url": "https://siliconcanals.com/munich-reverion-secures-56m/",
-          "quote": "The funding round was led by Energy Impact Partners (EIP) with Honda and the European Innovation Council Fund (EIC Fund) participation."
-        },
-        {
-          "field": "stage",
-          "url": "https://siliconcanals.com/munich-reverion-secures-56m/",
-          "quote": "oversubscribed Series A funding round"
         }
       ]
     },

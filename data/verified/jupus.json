@@ -1,0 +1,66 @@
+{
+  "id": "jupus",
+  "name": "JUPUS",
+  "aliases": ["Jupus"],
+  "domain": "jupus.de",
+  "country": "DE",
+  "city": "Cologne",
+  "founded": 2022,
+  "sectors": ["legaltech", "ai"],
+  "status": "private",
+  "unicorn": false,
+  "founders": ["René Fergen", "Jannis Gebauer"],
+  "difficulty": 5,
+  "techeuId": "E67DE79F-DE52-42F3-9294-8E6FABF4355D",
+  "sources": [
+    { "field": "city", "url": "https://www.htgf.de/jupus-schliesst-seed-runde-ab/", "quote": "Das Kölner Legal Tech Startup JUPUS hat 6,5 Millionen Euro eingesammelt." },
+    { "field": "founded", "url": "https://www.htgf.de/jupus-sichert-sich-13-millionen-euro-in-series-a/", "quote": "JUPUS wurde 2022 vom Diplom-Juristen René Fergen (CEO) und Jannis Gebauer (CTO) gegründet." },
+    { "field": "founders", "url": "https://www.htgf.de/jupus-sichert-sich-13-millionen-euro-in-series-a/", "quote": "JUPUS wurde 2022 vom Diplom-Juristen René Fergen (CEO) und Jannis Gebauer (CTO) gegründet." },
+    { "field": "sectors", "url": "https://www.htgf.de/jupus-sichert-sich-13-millionen-euro-in-series-a/", "quote": "JUPUS entwickelte Europas erstes KI-Sekretariat speziell für Anwaltskanzleien." },
+    { "field": "status", "url": "https://www.htgf.de/jupus-sichert-sich-13-millionen-euro-in-series-a/", "quote": "Das Legal-Tech-Start-up JUPUS (Köln) hat 13 Millionen Euro in einer A-Finanzierungsrunde eingesammelt." },
+    { "field": "unicorn", "url": "https://www.htgf.de/jupus-sichert-sich-13-millionen-euro-in-series-a/", "quote": "Das Legal-Tech-Start-up JUPUS (Köln) hat 13 Millionen Euro in einer A-Finanzierungsrunde eingesammelt." }
+  ],
+  "rounds": [
+    {
+      "stage": "seed",
+      "month": "2024-05",
+      "amountEur": 1300000,
+      "amountOriginal": 1300000,
+      "currency": "EUR",
+      "investors": ["High-Tech Gründerfonds", "Combination VC"],
+      "sources": [
+        { "field": "amount", "url": "https://www.startbase.de/news/legal-tech-startup-jupus-erhaelt-13-millionen-euro/", "quote": "Legal Tech Startup JUPUS erhält 1,3 Millionen Euro" },
+        { "field": "month", "url": "https://www.startbase.de/news/legal-tech-startup-jupus-erhaelt-13-millionen-euro/", "quote": "Stuttgart, 28. Mai 2024" },
+        { "field": "investors", "url": "https://www.startbase.de/news/legal-tech-startup-jupus-erhaelt-13-millionen-euro/", "quote": "Angeführt wird die Runde vom High Tech Gründerfonds ( HTGF ) sowie dem Combination VC" }
+      ]
+    },
+    {
+      "stage": "seed",
+      "month": "2025-05",
+      "amountEur": 6500000,
+      "amountOriginal": 6500000,
+      "currency": "EUR",
+      "investors": ["Acton Capital", "High-Tech Gründerfonds"],
+      "sources": [
+        { "field": "amount", "url": "https://www.htgf.de/jupus-schliesst-seed-runde-ab/", "quote": "JUPUS schließt erfolgreiche Seed-Runde über 6,5 Millionen Euro ab – Acton Capital als Lead Investor" },
+        { "field": "stage", "url": "https://www.htgf.de/jupus-schliesst-seed-runde-ab/", "quote": "JUPUS schließt erfolgreiche Seed-Runde über 6,5 Millionen Euro ab – Acton Capital als Lead Investor" },
+        { "field": "month", "url": "https://www.htgf.de/jupus-schliesst-seed-runde-ab/", "quote": "20. Mai 2025 JUPUS schließt erfolgreiche Seed-Runde" },
+        { "field": "investors", "url": "https://www.htgf.de/jupus-schliesst-seed-runde-ab/", "quote": "Die Seed-Finanzierungsrunde wurde von Acton Capital und bestehenden Investoren wie dem High- Tech-Gründerfonds und Business Angels geführt." }
+      ]
+    },
+    {
+      "stage": "series-a",
+      "month": "2026-06",
+      "amountEur": 13000000,
+      "amountOriginal": 13000000,
+      "currency": "EUR",
+      "investors": ["Semapa Next", "NRW.BANK", "Acton Capital", "High-Tech Gründerfonds"],
+      "sources": [
+        { "field": "amount", "url": "https://www.htgf.de/jupus-sichert-sich-13-millionen-euro-in-series-a/", "quote": "Das Legal-Tech-Start-up JUPUS (Köln) hat 13 Millionen Euro in einer A-Finanzierungsrunde eingesammelt." },
+        { "field": "stage", "url": "https://www.htgf.de/jupus-sichert-sich-13-millionen-euro-in-series-a/", "quote": "Das Legal-Tech-Start-up JUPUS (Köln) hat 13 Millionen Euro in einer A-Finanzierungsrunde eingesammelt." },
+        { "field": "month", "url": "https://www.htgf.de/jupus-sichert-sich-13-millionen-euro-in-series-a/", "quote": "23. Juni 2026 JUPUS sichert sich 13 Millionen Euro in Series A" },
+        { "field": "investors", "url": "https://www.htgf.de/jupus-sichert-sich-13-millionen-euro-in-series-a/", "quote": "Semapa Next führt die Runde als Lead-Investor an, die NRW.BANK beteiligt sich über ihren Venture-Capital-Fonds NRW.Venture als Co-Investorin. Bestandsinvestoren Acton Capital und der High-Tech Gründerfonds (HTGF) investieren erneut." }
+      ]
+    }
+  ]
+}

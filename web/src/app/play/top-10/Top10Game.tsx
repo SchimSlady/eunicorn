@@ -89,7 +89,7 @@ export function Top10Game({ region }: { region?: Region } = {}) {
     loadGame<Top10Puzzle>(MODE, region).then(({ puzzle: p, data: d }) => {
       setData(d);
       setPuzzle(p);
-      if (p) setProgress(loadProgress<Progress>(slot, p.date));
+      if (p) setProgress(loadProgress<Progress>(slot, p.date, p));
     });
   }, [region, slot]);
 
@@ -151,7 +151,11 @@ export function Top10Game({ region }: { region?: Region } = {}) {
     if (!id || hintTexts.length >= hintCap) return;
     const listed = round.companyIds.map((x) => companies.get(x)!);
     const shared = new Set(listed[0].sectors.filter((s) => listed.every((c) => c.sectors.includes(s))));
-    const fact = companyFact(companies.get(id)!, strengthOf(hintTexts.length, hintCap), { data: data!, hideSectors: shared });
+    const sharedPrograms = new Set((listed[0].programs ?? []).map((p) => p.programId).filter((pid) => listed.every((c) => c.programs?.some((p) => p.programId === pid))));
+    // Facts already given for this startup (any case), so a second hint about it never repeats one.
+    const prefix = `No. ${round.companyIds.indexOf(id) + 1}: `;
+    const used = new Set(hintTexts.filter((t) => t.startsWith(prefix)).map((t) => t.slice(prefix.length).toLowerCase()));
+    const fact = companyFact(companies.get(id)!, strengthOf(hintTexts.length, hintCap), { data: data!, hideSectors: shared, hidePrograms: sharedPrograms, hideCity: !!region, used });
     const texts = [...hintTexts, `No. ${round.companyIds.indexOf(id) + 1}: ${fact[0].toUpperCase()}${fact.slice(1)}`];
     update({ ...progress!, hintTexts: texts, hintIds: [...(progress!.hintIds ?? []), id], hintsUsed: texts.length });
   }

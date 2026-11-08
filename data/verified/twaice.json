@@ -1,0 +1,220 @@
+{
+  "id": "twaice",
+  "name": "TWAICE",
+  "aliases": [
+    "Twaice",
+    "TWAICE Technologies"
+  ],
+  "domain": "twaice.com",
+  "country": "DE",
+  "city": "Munich",
+  "founded": 2018,
+  "sectors": [
+    "climate",
+    "saas"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Stephan Rohr",
+    "Michael Baumann"
+  ],
+  "difficulty": 5,
+  "techeuId": "2F1D16DA-7060-4E8B-9AD8-81F4C3BD6C16",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://tech.eu/2018/09/18/german-battery-analytics-startup-twaice-raises-e1-2-million",
+      "quote": "Munich-based e-vehicle battery analytics startup TWAICE Technologies has landed a €1.2 million seed funding round"
+    },
+    {
+      "field": "founded",
+      "url": "https://tech.eu/2021/05/19/munich-based-battery-analytics-company-twaice-powers-up-with-26-million-in-series-b-round/",
+      "quote": "Founded in 2018 by Michael Baumann and Stephan Rohr , TWAICE provides predictive analytics software that optimises the development and operation of lithium-ion batteries."
+    },
+    {
+      "field": "founders",
+      "url": "https://tech.eu/2021/05/19/munich-based-battery-analytics-company-twaice-powers-up-with-26-million-in-series-b-round/",
+      "quote": "Founded in 2018 by Michael Baumann and Stephan Rohr , TWAICE provides predictive analytics software that optimises the development and operation of lithium-ion batteries."
+    },
+    {
+      "field": "sectors",
+      "url": "https://tech.eu/2021/05/19/munich-based-battery-analytics-company-twaice-powers-up-with-26-million-in-series-b-round/",
+      "quote": "Founded in 2018 by Michael Baumann and Stephan Rohr , TWAICE provides predictive analytics software that optimises the development and operation of lithium-ion batteries."
+    },
+    {
+      "field": "status",
+      "url": "https://www.munich-startup.de/en/startups-and-ecosystem/twaice",
+      "quote": "TWAICE offers predictive analytics software that optimizes both the development and operation of lithium-ion batteries."
+    },
+    {
+      "field": "unicorn",
+      "url": "https://www.munich-startup.de/en/startups-and-ecosystem/twaice",
+      "quote": "TWAICE offers predictive analytics software that optimizes both the development and operation of lithium-ion batteries."
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "seed",
+      "month": "2018-09",
+      "amountEur": 1200000,
+      "amountOriginal": 1200000.0,
+      "currency": "EUR",
+      "investors": [
+        "UVC Partners",
+        "Speedinvest"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2018/09/18/german-battery-analytics-startup-twaice-raises-e1-2-million",
+          "quote": "has landed a €1.2 million seed funding round from Unternehmertum Venture Capital Partners and Speedinvest"
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2018/09/18/german-battery-analytics-startup-twaice-raises-e1-2-million",
+          "quote": "has landed a €1.2 million seed funding round from Unternehmertum Venture Capital Partners and Speedinvest"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2018/09/18/german-battery-analytics-startup-twaice-raises-e1-2-million",
+          "quote": "Andrii Degeler 18 September 2018"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2018/09/18/german-battery-analytics-startup-twaice-raises-e1-2-million",
+          "quote": "has landed a €1.2 million seed funding round from Unternehmertum Venture Capital Partners and Speedinvest"
+        }
+      ]
+    },
+    {
+      "stage": "seed",
+      "month": "2019-05",
+      "amountEur": 2000000,
+      "amountOriginal": 2000000.0,
+      "currency": "EUR",
+      "investors": [
+        "Cherry Ventures",
+        "UVC Partners",
+        "Speedinvest"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2019/05/29/twaice/",
+          "quote": "has raised €2 million in additional seed funding"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2019/05/29/twaice/",
+          "quote": "has raised €2 million in additional seed funding"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2019/05/29/twaice/",
+          "quote": "May 29, 2019"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2019/05/29/twaice/",
+          "quote": "The round is led by Berlin's Cherry Ventures, with participation by existing investors UVC Partners and Speedinvest"
+        }
+      ]
+    },
+    {
+      "stage": "series-a",
+      "month": "2020-03",
+      "amountEur": 11000000,
+      "amountOriginal": 11000000.0,
+      "currency": "EUR",
+      "investors": [
+        "Creandum",
+        "Cherry Ventures",
+        "UVC Partners",
+        "Speedinvest"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2020/03/25/battery-analytics-software-startup-twaice-raises-e11m-series-a-led-by-creandum/",
+          "quote": "has raised €11 million in Series A funding"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2020/03/25/battery-analytics-software-startup-twaice-raises-e11m-series-a-led-by-creandum/",
+          "quote": "has raised €11 million in Series A funding"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2020/03/25/battery-analytics-software-startup-twaice-raises-e11m-series-a-led-by-creandum/",
+          "quote": "March 25, 2020"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2020/03/25/battery-analytics-software-startup-twaice-raises-e11m-series-a-led-by-creandum/",
+          "quote": "Leading the round is European early-stage venture capital firm Creandum, with participation from existing investors Cherry Ventures, UVC Partners and Speedinvest"
+        }
+      ]
+    },
+    {
+      "stage": "series-b",
+      "month": "2021-05",
+      "amountEur": 21290534,
+      "amountOriginal": 26000000.0,
+      "currency": "USD",
+      "investors": [
+        "Energize Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2021/05/19/twaice-raised-26m-to-scale-its-battery-analytics-software/",
+          "quote": "it announced Wednesday that it has raised $26 million in Series B funding led by Chicago-based Energize Ventures"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2021/05/19/twaice-raised-26m-to-scale-its-battery-analytics-software/",
+          "quote": "it announced Wednesday that it has raised $26 million in Series B funding led by Chicago-based Energize Ventures"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2021/05/19/twaice-raised-26m-to-scale-its-battery-analytics-software/",
+          "quote": "May 19, 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2021/05/19/twaice-raised-26m-to-scale-its-battery-analytics-software/",
+          "quote": "it announced Wednesday that it has raised $26 million in Series B funding led by Chicago-based Energize Ventures"
+        }
+      ]
+    },
+    {
+      "stage": "series-b",
+      "month": "2022-04",
+      "amountEur": 28105677,
+      "amountOriginal": 30000000,
+      "currency": "USD",
+      "investors": [
+        "Coatue",
+        "Lip-Bu Tan"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://uvcpartners.com/blog/battery-analytics-platform-twaice-announces-30-million-funding-led-by-coatue",
+          "quote": "announces $30 million funding led by Coatue"
+        },
+        {
+          "field": "month",
+          "url": "https://uvcpartners.com/blog/battery-analytics-platform-twaice-announces-30-million-funding-led-by-coatue",
+          "quote": "Munich/New York City, 26 April 2022"
+        },
+        {
+          "field": "investors",
+          "url": "https://uvcpartners.com/blog/battery-analytics-platform-twaice-announces-30-million-funding-led-by-coatue",
+          "quote": "announces $30 million funding led by Coatue"
+        }
+      ]
+    }
+  ]
+}

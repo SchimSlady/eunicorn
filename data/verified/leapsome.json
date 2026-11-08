@@ -1,0 +1,89 @@
+{
+  "id": "leapsome",
+  "name": "Leapsome",
+  "aliases": [],
+  "domain": "leapsome.com",
+  "country": "DE",
+  "city": "Berlin",
+  "founded": 2016,
+  "sectors": [
+    "hrtech",
+    "saas"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Kajetan von Armansperg",
+    "Jenny von Podewils"
+  ],
+  "difficulty": 4,
+  "techeuId": "28B764A6-5A3A-470D-8342-F7887D57FCAE",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://tech.eu/2022/03/24/berlins-leapsome-welcomes-60-million-in-first-ever-funding-round/",
+      "quote": "Bootstrapped since 2016, Berllin-based \"People Enablement\" platform Leapsome has raised $60 million"
+    },
+    {
+      "field": "founded",
+      "url": "https://www.leapsome.com/newsroom",
+      "quote": "Leapsome was founded in 2016 by Kajetan Armansperg and Jenny Podewils."
+    },
+    {
+      "field": "founders",
+      "url": "https://tech.eu/2022/03/24/berlins-leapsome-welcomes-60-million-in-first-ever-funding-round/",
+      "quote": "Co-founded in 2016 and bootstrapped ever since, by Kajetan von Armansperg and Jenny von Podewils"
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.leapsome.com/newsroom",
+      "quote": "The platform offers an integrated suite of tools for Goal Setting & OKRs, Performance Reviews and 360s"
+    },
+    {
+      "field": "status",
+      "url": "https://www.leapsome.com/newsroom",
+      "quote": "The platform offers an integrated suite of tools for Goal Setting & OKRs, Performance Reviews and 360s"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://tech.eu/2022/03/24/berlins-leapsome-welcomes-60-million-in-first-ever-funding-round/",
+      "quote": "Helping companies retain staff and stave off The Great Resignation, Berlin-based Leapsome has raised $60 million in a Series A funding round."
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "series-a",
+      "month": "2022-03",
+      "amountEur": 54654764,
+      "amountOriginal": 60000000.0,
+      "currency": "USD",
+      "investors": [
+        "Insight Partners",
+        "Creandum",
+        "Visionaries Club"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2022/03/24/berlins-leapsome-welcomes-60-million-in-first-ever-funding-round/",
+          "quote": "Berlin-based Leapsome has raised $60 million in a Series A funding round."
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2022/03/24/berlins-leapsome-welcomes-60-million-in-first-ever-funding-round/",
+          "quote": "Berlin-based Leapsome has raised $60 million in a Series A funding round."
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2022/03/24/berlins-leapsome-welcomes-60-million-in-first-ever-funding-round/",
+          "quote": "Dan Taylor 24 March 2022"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2022/03/24/berlins-leapsome-welcomes-60-million-in-first-ever-funding-round/",
+          "quote": "Leapsome's first-ever external investment round was led by Insight Partners with Creandum and Visionaries Club participating."
+        }
+      ]
+    }
+  ]
+}

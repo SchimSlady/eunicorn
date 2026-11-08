@@ -1,0 +1,153 @@
+{
+  "id": "mondu",
+  "name": "Mondu",
+  "aliases": [],
+  "domain": "mondu.ai",
+  "country": "DE",
+  "city": "Berlin",
+  "founded": 2021,
+  "sectors": [
+    "fintech"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Malte Huffmann",
+    "Philipp Povel",
+    "Gil Danziger"
+  ],
+  "difficulty": 4,
+  "techeuId": "8CB96CB2-204D-4708-8787-8156C2F27EC0",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.mondu.ai/press/",
+      "quote": "Mondu GmbH was founded in Berlin in 2021 by entrepreneurs Malte Huffmann, Philipp Povel and Gil Danziger"
+    },
+    {
+      "field": "founded",
+      "url": "https://www.mondu.ai/press/",
+      "quote": "Mondu GmbH was founded in Berlin in 2021 by entrepreneurs Malte Huffmann, Philipp Povel and Gil Danziger"
+    },
+    {
+      "field": "founders",
+      "url": "https://www.mondu.ai/press/",
+      "quote": "Mondu GmbH was founded in Berlin in 2021 by entrepreneurs Malte Huffmann, Philipp Povel and Gil Danziger"
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.mondu.ai/press/",
+      "quote": "Mondu is changing the B2B payments ecosystem, providing payment solutions that enable any B2B company to grow quickly and safely."
+    },
+    {
+      "field": "status",
+      "url": "https://www.mondu.ai/press/",
+      "quote": "Mondu is changing the B2B payments ecosystem, providing payment solutions that enable any B2B company to grow quickly and safely."
+    },
+    {
+      "field": "unicorn",
+      "url": "https://www.mondu.ai/press/",
+      "quote": "Mondu is changing the B2B payments ecosystem, providing payment solutions that enable any B2B company to grow quickly and safely."
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "seed",
+      "month": "2021-10",
+      "amountEur": 12115967,
+      "amountOriginal": 14000000.0,
+      "currency": "USD",
+      "investors": [
+        "FinTech Collective",
+        "Cherry Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2021/10/12/new-b2b-payments-player-mondu-raises-14-million-in-seed-round",
+          "quote": "Berlin-based B2B payments fintech Mondu has raised $14 million in seed funding"
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2021/10/12/new-b2b-payments-player-mondu-raises-14-million-in-seed-round",
+          "quote": "Berlin-based B2B payments fintech Mondu has raised $14 million in seed funding"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2021/10/12/new-b2b-payments-player-mondu-raises-14-million-in-seed-round",
+          "quote": "Dan Taylor 12 October 2021"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2021/10/12/new-b2b-payments-player-mondu-raises-14-million-in-seed-round",
+          "quote": "FinTech Collective and Cherry Ventures led the seed round"
+        }
+      ]
+    },
+    {
+      "stage": "series-a",
+      "month": "2022-05",
+      "amountEur": 39947975,
+      "amountOriginal": 43000000.0,
+      "currency": "USD",
+      "investors": [
+        "Valar Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2022/05/29/2326877/",
+          "quote": "Berlin-based B2B BNPL platform Mondu raises $43M Series A led by Valar in the US"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2022/05/29/2326877/",
+          "quote": "Berlin-based B2B BNPL platform Mondu raises $43M Series A led by Valar in the US"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2022/05/29/2326877/",
+          "quote": "May 29, 2022"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2022/05/29/2326877/",
+          "quote": "Berlin-based B2B BNPL platform Mondu raises $43M Series A led by Valar in the US"
+        }
+      ]
+    },
+    {
+      "stage": "series-a",
+      "month": "2023-01",
+      "amountEur": 12068325,
+      "amountOriginal": 13000000.0,
+      "currency": "USD",
+      "investors": [
+        "Valar Ventures",
+        "FinTech Collective"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2023/01/12/mondu-raises-13-million-in-series-a-extension",
+          "quote": "the timing of today's announcement of a $13 million extension to its Series A round"
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2023/01/12/mondu-raises-13-million-in-series-a-extension",
+          "quote": "the timing of today's announcement of a $13 million extension to its Series A round"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2023/01/12/mondu-raises-13-million-in-series-a-extension",
+          "quote": "Dan Taylor 12 January 2023"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2023/01/12/mondu-raises-13-million-in-series-a-extension",
+          "quote": "Led by Valar Ventures, with participation from FinTech Collective"
+        }
+      ]
+    }
+  ]
+}

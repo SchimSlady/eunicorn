@@ -95,45 +95,6 @@
       ]
     },
     {
-      "techeuId": "940A837D-B8D1-4145-964D-355B06BEA29D",
-      "stage": "series-a",
-      "month": "2022-11",
-      "amountEur": 15000000,
-      "amountOriginal": 15000000,
-      "currency": "EUR",
-      "investors": [
-        "Edaphon",
-        "Findus Venture",
-        "Ananda Impact Ventures",
-        "Wachstumsfonds Bayern 2",
-        "ConActivity",
-        "APEX Ventures",
-        "SpaceTec Capital"
-      ],
-      "sources": [
-        {
-          "field": "amount",
-          "url": "https://ororatech.com/ororatech-raises-15-million-euro-to-launch-second-thermal-infrared-camera/",
-          "quote": "has extended its Series A round with €15M from private investors and public sector co-funding."
-        },
-        {
-          "field": "month",
-          "url": "https://ororatech.com/ororatech-raises-15-million-euro-to-launch-second-thermal-infrared-camera/",
-          "quote": "November 30, 2022, Munich, Germany"
-        },
-        {
-          "field": "stage",
-          "url": "https://ororatech.com/ororatech-raises-15-million-euro-to-launch-second-thermal-infrared-camera/",
-          "quote": "The Series A extension was led by Belgium-based climate impact fund, Edaphon alongside existing investors and industry experts."
-        },
-        {
-          "field": "investors",
-          "url": "https://ororatech.com/ororatech-raises-15-million-euro-to-launch-second-thermal-infrared-camera/",
-          "quote": "The investment round was led by Edaphon, a Belgium-based climate impact fund, alongside existing investors Findus Venture, Ananda Impact Ventures, Wachstumsfonds Bayern 2, ConActivity, APEX Ventures, SpaceTec Capital"
-        }
-      ]
-    },
-    {
       "techeuId": "54110A16-28A0-47D7-93ED-7E2482DB3BE6",
       "stage": "series-b",
       "month": "2024-10",

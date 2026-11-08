@@ -52,7 +52,7 @@ Read this before verifying a company. Each rule came from a real problem in the 
 ## Famous-companies batch (2026-11-01)
 - **Why famous names were missing:** 15 aren't in Tech.eu's data at all (Zalando, Booking.com, Just Eat, Trivago, Gymshark, King, Mojang, Shazam, Skype, Criteo, Zendesk, Unity, Talkdesk, DeepMind, BioNTech), and the rest sat below the equity cutoff we reached (~€290M). Tech.eu misses early rounds and bootstrapped companies, so cross-check famous names by hand.
 - **Batch cutoff (Pablo):** pioneers added by hand must be founded in 2010 or later. Not added for that reason: Booking.com, Skype, Shazam, Just Eat, King, Skyscanner, Rovio, Bitdefender, Criteo, Trivago, Unity; verified but then removed: Zalando, BioNTech, Zendesk, Trustpilot, Deezer, Tricentis, Babbel, Truecaller, Skeleton Technologies (2007–2009), and ResearchGate (also started in Boston). A 2015 cutoff was considered and rejected: it would cut 149 of 302 companies (Spotify, Klarna, Adyen, Wise, Celonis, N26 …).
-- **Excluded with a reason:** Gymshark (no source says General Atlantic's 2020 stake was new shares), Mojang (bootstrapped, no equity round), Talkdesk (no source for where it was founded), Intercom (founded in California), Smartly.io (only a secondary sale), Idealista (buyouts only), Xentral (same company as embedded projects GmbH, registered 2009, Augsburg HRB 23930; the "founded 2017" on its own site is the rename).
+- **Excluded with a reason:** Gymshark (no source says General Atlantic's 2020 stake was new shares), Mojang (bootstrapped, no equity round), Talkdesk (no source for where it was founded), Intercom (founded in California), Smartly.io (only a secondary sale), Idealista (buyouts only), Auxmoney (founded 2007 in Hilden, before the 2010 cutoff; Tim, 2026-11-07), Xentral (same company as embedded projects GmbH, registered 2009, Augsburg HRB 23930; the "founded 2017" on its own site is the rename).
 - **Companies with no rounds are allowed** when the company facts are sourced but no round amount is (Zalando, DeepMind). They work in company-level games, not round-based puzzles.
 
 ## German batch (2026-11-01)
@@ -69,6 +69,10 @@ Read this before verifying a company. Each rule came from a real problem in the 
 - **Check the file:** the logo must be the latest branding, not a wordmark from an old rebrand. Check the file is not a favicon. Prefer SVG, then large PNG.
 - **Symbol-only or small rasters** are acceptable only if no better file exists. Flag them.
 - **Save to** `web/public/logos/<id>.svg|png`. Don't add a logo source to the company file unless asked.
+- **Check contrast on a white tile before saving** (2026-11-07): render the file in a headless browser (an `<img>`, so `currentColor` turns black) and look at it on white, also at game size (~34 px). Mixed files exist: plancraft's header SVG had a dark symbol and a white wordmark, so only the symbol showed.
+- **Where dark versions hide:** login pages and legal pages (plancraft `/login`, beo `/impressum` with `dark-logo.svg`), subpages with a light header (PhysicsX `/resources` renders the header SVG in `rgb(30,30,30)`), press kits behind a "Downloads" link (cylib: Google Drive folder, `embeddedfolderview?id=` lists the files, `uc?export=download&id=` fetches one), and Commons files that were updated (Neura's Commons SVG is black now).
+- **Framer sites** draw the logo as `<svg><use href="#svg-…">`: read the referenced symbol and replace its `var(--token…, rgb(…))` fill with the fallback colour (Legora).
+- **Press portals that need a terms click** (NEURA's pixx.io portal) and press kits hosted on brandfetch.com (Legora) are off limits.
 
 ## Process
 - **Validate before loading:** `npm run validate` and `npm run load:verified -- <id>` for each company.
@@ -157,3 +161,13 @@ Read this before verifying a company. Each rule came from a real problem in the 
 - **Insolvency followed by a takeover of the business = acquisition** (Volocopter → Diamond/Wanfeng, unu → Emco, Made.com → Next, Volta Trucks → Luxor). An asset sale out of a bankruptcy estate where the company itself ends is still insolvency (Northvolt → Lyten, Britishvolt). Majority stakes count as acquisitions (IDnow/Corsair, ProGlove/Nordic Capital, Ebury/Santander).
 - **All 74 non-private companies now have an exit**, plus 5 new ones (Prior Labs → SAP, Made.com, Britishvolt, Pollen, Westwing IPO). unu's status changed from defunct to acquired.
 - **Quotes from Wikipedia links:** check-quotes strips tags into spaces, so the page text reads "getir , a competitor" and "acquired [ 12 ] by salesforce". Copy quotes from the normalized text (or cut them before link boundaries); agents that compare with their own normalization miss this.
+
+## German batch 8: young startups (2026-11-07)
+- **Tim's rule for this wave: founded 2021 or later**, from the Tech.eu gap list (€20–100M, last round 2022+), plus exceptions he named (Knowunity 2019, Twaice 2018, Leapsome 2016). Founding year is checked first; 13 of 46 were older (Sastrify, Kittl, Aignostics, Lanes & Planes, Buena, Eterno, one.five, Flexvelop, Patronus, Foodji, NeoTaste …).
+- **Mixed equity + debt again:** MYNE (both rounds), Tapline (revenue-based financing), Hallo Theo's €25M Series A (BlackRock debt), Solar Materials' Series A (EIC grant), Limetax's €30M acquisition line (split given: only €6M equity kept).
+- **AI roll-ups** (Limetax, Theo, Integral buy whole firms with their staff) are kept as VC-backed startups, unlike PE buy-and-build platforms (Ortivity); flagged for Tim.
+- **Aggregators only = no round:** buycycle's 2024 Series A existed only on nordic9 (with a different USD figure); dropped.
+- **Many young-company sites block curl** (twaice.com, midas.app, deutsche-startups.de for some agents). check-quotes may still reach them with its own user agent; when it doesn't, swap in investor or press pages (UVC, Insight, invest-in.berlin, munich-startup).
+
+### Tim's calls on mixed rounds (2026-11-07)
+- **Kept although the equity share is not split:** Neura Robotics Series C (announced as "up to $1.4 billion"), Flix Series G ("mix of equity and debt", more than $650M) and Atmos Space Cargo Series A (EUR 25.7M with EIC blended grant and equity). They stay in `rounds` with the announced amount; later audits should not flag them again. Treat their amounts as headline figures, not pure equity.

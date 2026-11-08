@@ -98,8 +98,8 @@
       "techeuId": "BABF79C7-405A-4AE0-BAA3-DFD9A5159C4F",
       "stage": "series-a",
       "month": "2022-08",
-      "amountEur": 19000000,
-      "amountOriginal": 19000000,
+      "amountEur": 17000000,
+      "amountOriginal": 17000000,
       "currency": "EUR",
       "investors": [
         "MMC Ventures",
@@ -108,15 +108,13 @@
         "Matterwave Ventures",
         "Motu Ventures",
         "Segenia Capital",
-        "Hannover Digital Investments",
-        "European Commission",
-        "Investitionsbank Berlin"
+        "Hannover Digital Investments"
       ],
       "sources": [
         {
           "field": "amount",
           "url": "https://www.newswire.com/news/liveeo-secures-19m-to-bring-space-data-insights-to-industry-4-0-21788323",
-          "quote": "has secured €19M in funding"
+          "quote": "includes €17M of venture capital"
         },
         {
           "field": "month",
@@ -204,7 +202,7 @@
         {
           "field": "month",
           "url": "https://thenextweb.com/news/liveeo-28m-funding-civil-infrastructure-defence-twinspector",
-          "quote": "This article was published on"
+          "quote": "This article was published on May 6, 2026"
         },
         {
           "field": "investors",

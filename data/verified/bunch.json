@@ -1,0 +1,170 @@
+{
+  "id": "bunch",
+  "name": "bunch",
+  "aliases": [
+    "Bunch",
+    "bunch capital"
+  ],
+  "domain": "bunch.capital",
+  "country": "DE",
+  "city": "Berlin",
+  "founded": 2021,
+  "sectors": [
+    "fintech"
+  ],
+  "status": "private",
+  "unicorn": false,
+  "founders": [
+    "Enrico Ohnemüller",
+    "Levent Altunel"
+  ],
+  "difficulty": 5,
+  "techeuId": "267C1CA8-CD2D-45CB-8E6F-383B6344E6A1",
+  "sources": [
+    {
+      "field": "city",
+      "url": "https://www.bunch.capital/blog-posts/press-release-01",
+      "quote": "Berlin, Germany — July 26, 2022 — bunch, a tech platform enabling investors to syndicate deals across private markets"
+    },
+    {
+      "field": "founded",
+      "url": "https://www.bunch.capital/blog-posts/bunch-raises-15-5m-series-a-to-build-the-backbone-of-private-markets",
+      "quote": "Founded in late 2021 by Levent Altunel and Enrico Ohnemüller"
+    },
+    {
+      "field": "founders",
+      "url": "https://www.bunch.capital/blog-posts/bunch-raises-15-5m-series-a-to-build-the-backbone-of-private-markets",
+      "quote": "Founded in late 2021 by Levent Altunel and Enrico Ohnemüller"
+    },
+    {
+      "field": "sectors",
+      "url": "https://www.bunch.capital/blog-posts/bunch-raises-35m-series-b",
+      "quote": "bunch, the AI-native fund operations platform for private markets, today announced the close of its $35 million Series B"
+    },
+    {
+      "field": "status",
+      "url": "https://www.bunch.capital/blog-posts/bunch-raises-35m-series-b",
+      "quote": "bunch, the AI-native fund operations platform for private markets, today announced the close of its $35 million Series B"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://www.bunch.capital/blog-posts/bunch-raises-35m-series-b",
+      "quote": "bunch, the AI-native fund operations platform for private markets, today announced the close of its $35 million Series B"
+    }
+  ],
+  "rounds": [
+    {
+      "stage": "seed",
+      "month": "2022-07",
+      "amountEur": 7300000,
+      "amountOriginal": 7300000.0,
+      "currency": "EUR",
+      "investors": [
+        "Cherry Ventures",
+        "embedded/capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.bunch.capital/blog-posts/press-release-01",
+          "quote": "has raised a €7.3 million seed round led by European early-stage fund Cherry Ventures"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.bunch.capital/blog-posts/press-release-01",
+          "quote": "has raised a €7.3 million seed round led by European early-stage fund Cherry Ventures"
+        },
+        {
+          "field": "month",
+          "url": "https://www.bunch.capital/blog-posts/press-release-01",
+          "quote": "Berlin, Germany — July 26, 2022"
+        },
+        {
+          "field": "month",
+          "url": "https://techgistafrica.com/world-regional-news/europe/berlin-based-bunch-bags-e7-3-million",
+          "quote": "07/27/2022"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.bunch.capital/blog-posts/press-release-01",
+          "quote": "has raised a €7.3 million seed round led by European early-stage fund Cherry Ventures. embedded/capital, who led bunch's previously undisclosed pre-seed round, also participated."
+        }
+      ]
+    },
+    {
+      "stage": "series-a",
+      "month": "2024-07",
+      "amountEur": 14284398,
+      "amountOriginal": 15500000.0,
+      "currency": "USD",
+      "investors": [
+        "FinTech Collective",
+        "Cherry Ventures",
+        "Motive Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.bunch.capital/blog-posts/bunch-raises-15-5m-series-a-to-build-the-backbone-of-private-markets",
+          "quote": "bunch has successfully closed its $15.5 million Series A, led by global investor FinTech Collective, with participation from existing investors Cherry Ventures, Motive Ventures and angels."
+        },
+        {
+          "field": "stage",
+          "url": "https://www.bunch.capital/blog-posts/bunch-raises-15-5m-series-a-to-build-the-backbone-of-private-markets",
+          "quote": "bunch has successfully closed its $15.5 million Series A, led by global investor FinTech Collective, with participation from existing investors Cherry Ventures, Motive Ventures and angels."
+        },
+        {
+          "field": "month",
+          "url": "https://www.bunch.capital/blog-posts/bunch-raises-15-5m-series-a-to-build-the-backbone-of-private-markets",
+          "quote": "Berlin, Germany – 25th of July"
+        },
+        {
+          "field": "month",
+          "url": "https://www.bunch.capital/blog-posts/bunch-raises-15-5m-series-a-to-build-the-backbone-of-private-markets",
+          "quote": "July 25, 2024"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.bunch.capital/blog-posts/bunch-raises-15-5m-series-a-to-build-the-backbone-of-private-markets",
+          "quote": "bunch has successfully closed its $15.5 million Series A, led by global investor FinTech Collective, with participation from existing investors Cherry Ventures, Motive Ventures and angels."
+        }
+      ]
+    },
+    {
+      "stage": "series-b",
+      "month": "2026-05",
+      "amountEur": 30120482,
+      "amountOriginal": 35000000.0,
+      "currency": "USD",
+      "investors": [
+        "Portage",
+        "Illuminate Financial",
+        "Motive Partners",
+        "Cherry Ventures",
+        "FinTech Collective"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.bunch.capital/blog-posts/bunch-raises-35m-series-b",
+          "quote": "today announced the close of its $35 million Series B"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.bunch.capital/blog-posts/bunch-raises-35m-series-b",
+          "quote": "today announced the close of its $35 million Series B"
+        },
+        {
+          "field": "month",
+          "url": "https://www.bunch.capital/blog-posts/bunch-raises-35m-series-b",
+          "quote": "BERLIN & LONDON — May 19, 2026"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.bunch.capital/blog-posts/bunch-raises-35m-series-b",
+          "quote": "The round was led by Portage, with participation from Illuminate Financial , significant follow-on investment from existing investors Motive Partners, Cherry Ventures, Fintech Collective and additional angel investors."
+        }
+      ]
+    }
+  ]
+}
