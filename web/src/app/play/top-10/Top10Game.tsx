@@ -155,7 +155,7 @@ export function Top10Game({ region }: { region?: Region } = {}) {
     // Facts already given for this startup (any case), so a second hint about it never repeats one.
     const prefix = `No. ${round.companyIds.indexOf(id) + 1}: `;
     const used = new Set(hintTexts.filter((t) => t.startsWith(prefix)).map((t) => t.slice(prefix.length).toLowerCase()));
-    const fact = companyFact(companies.get(id)!, strengthOf(hintTexts.length, hintCap), { data: data!, hideSectors: shared, hidePrograms: sharedPrograms, used });
+    const fact = companyFact(companies.get(id)!, strengthOf(hintTexts.length, hintCap), { data: data!, hideSectors: shared, hidePrograms: sharedPrograms, hideCity: !!region, used });
     const texts = [...hintTexts, `No. ${round.companyIds.indexOf(id) + 1}: ${fact[0].toUpperCase()}${fact.slice(1)}`];
     update({ ...progress!, hintTexts: texts, hintIds: [...(progress!.hintIds ?? []), id], hintsUsed: texts.length });
   }
