@@ -65,6 +65,9 @@ const LOCAL_PROGRAMS_FROM = "2026-11-08";
  */
 const HINTS_V2_FROM = "2026-11-08";
 
+/** From this day on, the Local "active in the last 12 months" list ranks by each startup's latest round in that window instead of its total raised. */
+const LOCAL_HOT_LATEST_FROM = "2026-11-09";
+
 /** What the company does as a hint, or undefined when there is no tagline or it gives the name away. */
 function doesHint(c: Company): string | undefined {
   const t = c.tagline?.trim().replace(/\.$/, "");
@@ -270,6 +273,16 @@ function recentLists(date: string, region: Region, companies: Company[], data: D
     return [...best].map(([id, v]) => ({ c: byId.get(id)!, v }));
   };
   const active = new Set(rounds.filter((r) => monthIndex(r.date) > now - 12).map((r) => r.companyId));
+  // Each active company with its most recent round in the window (amount of that one round, not its total).
+  const latestInWindow = () => {
+    const latest = new Map<string, { date: string; v: number }>();
+    for (const r of rounds) {
+      if (monthIndex(r.date) <= now - 12) continue;
+      const cur = latest.get(r.companyId);
+      if (!cur || r.date > cur.date) latest.set(r.companyId, { date: r.date, v: r.amountUsd });
+    }
+    return [...latest].map(([id, x]) => ({ c: byId.get(id)!, v: x.v }));
+  };
 
   return [
     { tag: "recent", key: "recent:year", build: (rng) => rankedRound(`The 10 ${who} with the biggest rounds of ${year}`, "roundUsd", biggestSince(year), rng, [...place, { kind: "round-since", value: `${year}-01`, label: `in ${year}` }]) },
@@ -278,13 +291,21 @@ function recentLists(date: string, region: Region, companies: Company[], data: D
       tag: "hot",
       key: "hot",
       build: (rng) =>
-        rankedRound(
-          `Active in the last 12 months: the 10 ${who} that raised the most`,
-          "totalRaisedUsd",
-          companies.filter((c) => active.has(c.id)).map((c) => ({ c, v: c.totalRaisedUsd ?? 0 })),
-          rng,
-          [...place, { kind: "round-since", value: monthOf(now - 11), label: "in the last 12 months" }],
-        ),
+        date >= LOCAL_HOT_LATEST_FROM
+          ? rankedRound(
+              `Active in the last 12 months: the 10 ${who} with the biggest latest round`,
+              "roundUsd",
+              latestInWindow(),
+              rng,
+              [...place, { kind: "round-since", value: monthOf(now - 11), label: "in the last 12 months" }],
+            )
+          : rankedRound(
+              `Active in the last 12 months: the 10 ${who} that raised the most`,
+              "totalRaisedUsd",
+              companies.filter((c) => active.has(c.id)).map((c) => ({ c, v: c.totalRaisedUsd ?? 0 })),
+              rng,
+              [...place, { kind: "round-since", value: monthOf(now - 11), label: "in the last 12 months" }],
+            ),
     },
   ];
 }
