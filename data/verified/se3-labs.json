@@ -45,6 +45,11 @@
       "field": "status",
       "url": "https://thesaasnews.com/news/se3-labs-raises-5-5m-seed",
       "quote": "Munich-based SE3 Labs raises €5.5M in funding led by Lakestar to expand its spatial AI platform for autonomous defense systems."
+    },
+    {
+      "field": "tagline",
+      "url": "https://se3.ai",
+      "quote": "We build AI to enable machines to perceive, reason, and act autonomously in the physical world."
     }
   ],
   "rounds": [
@@ -85,5 +90,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "AI that enables machines to perceive, reason and act autonomously in the physical world."
 }

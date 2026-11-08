@@ -74,6 +74,11 @@
       "field": "logo",
       "url": "https://commons.wikimedia.org/wiki/File:Nscale_logo.png",
       "quote": "File:Nscale logo.png"
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Nscale",
+      "quote": "Nscale is a British technology company that operates data centres and GPU cloud infrastructure."
     }
   ],
   "rounds": [
@@ -224,5 +229,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "British technology company that operates data centres and GPU cloud infrastructure."
 }

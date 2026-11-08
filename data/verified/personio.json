@@ -77,6 +77,11 @@
       "field": "programs",
       "url": "https://www.cdtm.com/startups/personio",
       "quote": "CDTM founders Arseniy Vershinin Class of Spring 2014"
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Personio",
+      "quote": "Personio is a European software company headquartered in Munich, Germany that develops cloud-based human resource management software for small and medium-sized businesses operating internationally."
     }
   ],
   "rounds": [
@@ -345,5 +350,6 @@
     {
       "id": "cdtm"
     }
-  ]
+  ],
+  "tagline": "Cloud-based HR management software for small and medium-sized international businesses."
 }

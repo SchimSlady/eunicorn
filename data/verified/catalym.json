@@ -36,6 +36,11 @@
       "field": "status",
       "url": "https://www.catalym.com/news-events/",
       "quote": "CatalYm Appoints Peter Garcia as Chief Financial Officer"
+    },
+    {
+      "field": "tagline",
+      "url": "https://www.catalym.com",
+      "quote": "CatalYm has identified GDF-15 as a key cancer therapy resistance mechanism and is developing a safe and efficacious immune therapy for solid tumors."
     }
   ],
   "rounds": [
@@ -160,5 +165,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Company developing an immune therapy for solid tumors."
 }

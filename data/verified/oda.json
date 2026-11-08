@@ -49,6 +49,11 @@
       "field": "valuation",
       "url": "https://techcrunch.com/2022/12/06/oda-the-norwegian-grocery-delivery-startup-raises-a-fresh-151m-but-at-a-lowered-valuation-of-353m",
       "quote": "The investment gives Oda a post-money valuation of NOK3.5 billion, or $353 million."
+    },
+    {
+      "field": "tagline",
+      "url": "https://oda.com/no/about",
+      "quote": "Oda er Norges største lavpris matbutikk på nett. Vi leverer matvarer på døren din, når det passer for deg."
     }
   ],
   "rounds": [
@@ -110,5 +115,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Low-price online grocery store in Norway with home delivery."
 }

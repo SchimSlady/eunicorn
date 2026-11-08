@@ -52,6 +52,16 @@
       "field": "valuation",
       "url": "https://www.reinsurancene.ws/wefox-closes-400m-series-d-round-taking-valuation-to-4-5bn/",
       "quote": "wefox, the Berlin-based digital insurer, has seen its post-money valuation increase to $4.5 billion"
+    },
+    {
+      "field": "tagline",
+      "url": "https://wefox.com",
+      "quote": "The European insurance platform combining smart distribution and MGA services."
+    },
+    {
+      "field": "tagline",
+      "url": "https://wefox.com",
+      "quote": "Austria's leading all-in-one digital distribution platform for insurance brokers and multi-agents."
     }
   ],
   "rounds": [
@@ -138,5 +148,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Insurance platform combining smart distribution and MGA services for brokers and multi-agents."
 }

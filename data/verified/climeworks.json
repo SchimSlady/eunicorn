@@ -37,6 +37,11 @@
       "field": "sectors",
       "url": "https://esgpost.com/climeworks-secures-162-million-in-largest-carbon-removal-investment-of-2025/",
       "quote": "Climeworks, a Swiss-based pioneer in direct air capture (DAC) technology"
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Climeworks",
+      "quote": "Climeworks AG is a Swiss company specializing in direct air capture and sequestration (DACCS) technology."
     }
   ],
   "rounds": [
@@ -104,5 +109,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Swiss company specializing in direct air capture and sequestration technology."
 }

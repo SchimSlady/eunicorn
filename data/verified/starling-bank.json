@@ -59,6 +59,11 @@
       "field": "valuation",
       "url": "https://www.ibtimes.co.uk/starling-anne-boden-final-stake-valuation-1827030",
       "quote": "valuation has been pegged at about £1.7 billion after founder Anne Boden quietly sold her remaining shares"
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Starling_Bank",
+      "quote": "is a British bank, occasionally referred to as a digital challenger bank or neobank, providing current and business bank accounts in the United Kingdom."
     }
   ],
   "rounds": [
@@ -131,5 +136,6 @@
       ]
     }
   ],
-  "funFact": "Starling also runs Engine, its own banking software, which it plans to white-label to other firms."
+  "funFact": "Starling also runs Engine, its own banking software, which it plans to white-label to other firms.",
+  "tagline": "Digital challenger bank providing current and business accounts in the United Kingdom."
 }

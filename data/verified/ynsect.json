@@ -80,6 +80,11 @@
       "field": "exit",
       "url": "https://en.wikipedia.org/wiki/Ynsect",
       "quote": "On February 17, 2025, the application deadline, no takeover or investment offers had been submitted to the commercial court"
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Ynsect",
+      "quote": "Ÿnsect was a company that produces insect-based proteins and natural fertilizers, founded in 2011 in Paris ."
     }
   ],
   "rounds": [
@@ -274,5 +279,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Company that produced insect-based proteins and natural fertilizers."
 }

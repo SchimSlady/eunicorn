@@ -51,6 +51,11 @@
       "field": "unicorn",
       "url": "https://www.htgf.de/ineratec-series-b-2/",
       "quote": "INERATEC, ein Pionier in der Entwicklung und Produktion synthetischer Kraftstoffe, hat in einer Finanzierungsrunde 118 Mio. € eingesammelt."
+    },
+    {
+      "field": "tagline",
+      "url": "https://www.ineratec.de/en",
+      "quote": "INERATEC systems turn CO₂ into a raw material"
     }
   ],
   "rounds": [
@@ -137,5 +142,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Systems that turn CO₂ into a raw material."
 }

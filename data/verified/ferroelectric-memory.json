@@ -43,6 +43,11 @@
       "field": "founders",
       "url": "https://scientistfounders.substack.com/p/an-interview-with-stefan-muller-scientist",
       "quote": "We incorporated The Ferroelectric Memory Company in 2016 in Dresden"
+    },
+    {
+      "field": "tagline",
+      "url": "https://ferroelectric-memory.com",
+      "quote": "FMC’s ferroelectric memory delivers DRAM-class speed with flash-class persistence"
     }
   ],
   "rounds": [
@@ -155,5 +160,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Ferroelectric memory with DRAM-class speed and flash-class persistence."
 }

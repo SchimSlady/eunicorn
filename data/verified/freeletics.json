@@ -55,6 +55,11 @@
       "field": "programs",
       "url": "https://www.startmunich.de/api/startups",
       "quote": "\"name\":\"Freeletics\",\"website\":\"www.freeletics.com/en/\""
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Freeletics",
+      "quote": "Freeletics is a fitness app developed and published by Freeletics GmbH, based in Munich, Germany."
     }
   ],
   "rounds": [
@@ -106,5 +111,6 @@
     {
       "id": "start-munich"
     }
-  ]
+  ],
+  "tagline": "Fitness app developed and published in Munich, Germany."
 }

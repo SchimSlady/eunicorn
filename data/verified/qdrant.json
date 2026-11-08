@@ -54,6 +54,16 @@
       "field": "fun_fact",
       "url": "https://techcrunch.com/2023/04/19/qdrant-an-open-source-vector-database-startup-wants-to-help-ai-developers-leverage-unstructured-data/",
       "quote": "received its first term sheet on the second day after sending out its deck"
+    },
+    {
+      "field": "tagline",
+      "url": "https://qdrant.tech",
+      "quote": "Ship high performance, full-feature vector search at any scale and with any deployment model."
+    },
+    {
+      "field": "tagline",
+      "url": "https://qdrant.tech",
+      "quote": "Open-source DNA with enterprise-grade security and flexibility — run on-prem, hybrid, edge, or move seamlessly to Qdrant Cloud."
     }
   ],
   "rounds": [
@@ -160,5 +170,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Open-source vector search that runs on-prem, hybrid, edge or in Qdrant Cloud."
 }

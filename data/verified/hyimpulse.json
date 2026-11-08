@@ -47,6 +47,11 @@
       "field": "unicorn",
       "url": "https://www.startbase.com/news/hyimpulse-sichert-sich-ueber-50-millionen-euro-fuer-europaeische-raketenstarts/",
       "quote": "According to the company, HyImpulse has now raised a total of more than 125 million euros in equity and public funding."
+    },
+    {
+      "field": "tagline",
+      "url": "https://www.hyimpulse.de",
+      "quote": "Hylmpulse is developing cutting-edge launcher and spacecraft technology, including its disruptive and defining hybrid rocket technology, combining safety, efficiency, and performance for the next generation of space missions."
     }
   ],
   "rounds": [
@@ -120,5 +125,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Develops launcher and spacecraft technology, including hybrid rocket technology."
 }

@@ -58,6 +58,16 @@
       "field": "programs",
       "url": "https://yc-oss.github.io/api/batches/summer-2020/taktile.json",
       "quote": "\"batch\": \"Summer 2020\""
+    },
+    {
+      "field": "tagline",
+      "url": "https://taktile.com",
+      "quote": "The world's top banks and insurers scale AI with Taktile—and continuously iterate to stay ahead."
+    },
+    {
+      "field": "tagline",
+      "url": "https://taktile.com",
+      "quote": "Automate routine work, get agentic support on complex cases, and continuously improve outcomes."
     }
   ],
   "rounds": [
@@ -197,5 +207,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Software that helps banks and insurers scale AI and automate routine work."
 }

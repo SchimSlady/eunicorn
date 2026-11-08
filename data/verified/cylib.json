@@ -49,6 +49,11 @@
       "field": "unicorn",
       "url": "https://tech.eu/2024/05/17/cylib-raises-eur55m-in-largest-ever-funding-for-european-battery-recycling/",
       "quote": "Sustainable end-to-end battery recycling firm cylib has raised €55 million Series A funding round in equity financing."
+    },
+    {
+      "field": "tagline",
+      "url": "https://cylib.de",
+      "quote": "We are powering the green energy transition with a climate-friendly and fully integrated recycling solution that keeps battery materials in the loop."
     }
   ],
   "rounds": [
@@ -126,5 +131,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Integrated recycling solution that keeps battery materials in the loop."
 }

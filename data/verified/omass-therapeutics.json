@@ -44,6 +44,11 @@
       "field": "sectors",
       "url": "https://www.omass.com/2022/04/28/omass-therapeutics-raises-100-million-in-series-b-financing-to-progress-drug-pipeline-in-immunology-and-rare-diseases/",
       "quote": "a biotechnology company that identifies medicines against highly validated target ecosystems"
+    },
+    {
+      "field": "tagline",
+      "url": "https://www.biospace.com/press-releases/omass-therapeutics-enters-into-exclusive-collaboration-and-license-agreement-with-genentech-to-develop-and-commercialize-therapies-for-inflammatory-bowel-disease",
+      "quote": "OMass Therapeutics (‘OMass’ or ‘the Company’), a biotechnology company identifying medicines against highly validated target ecosystems such as membrane proteins or intracellular complexes"
     }
   ],
   "rounds": [
@@ -239,5 +244,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Biotechnology company finding medicines for target ecosystems such as membrane proteins or intracellular complexes."
 }

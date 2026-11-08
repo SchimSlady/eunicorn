@@ -44,6 +44,11 @@
       "field": "status",
       "url": "https://www.startbase.com/organization/inkitt/",
       "quote": "Digital-Verlag Inkitt wächst rasant auf 35,5 Millionen Umsatz"
+    },
+    {
+      "field": "tagline",
+      "url": "https://techcrunch.com/2021/10/04/inkitt-inks-a-59m-investment-wants-to-turn-its-data-driven-self-publishing-platform-into-a-multi-media-powerhouse",
+      "quote": "the startup that operates a free, popular platform of the same name for anyone to write and publish stories"
     }
   ],
   "rounds": [
@@ -198,5 +203,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Free platform for anyone to write and publish stories."
 }

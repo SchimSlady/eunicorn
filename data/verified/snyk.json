@@ -54,6 +54,11 @@
       "field": "valuation",
       "url": "https://snyk.io/news/snyk-closes-196-5-million-series-g-funding-at-7-4-billion-valuation",
       "quote": "Snyk Closes $196.5 Million Series G Funding at $7.4 Billion Valuation"
+    },
+    {
+      "field": "tagline",
+      "url": "https://snyk.io/",
+      "quote": "The AI Security Platform secures the code AI writes, the agents it runs, and the applications it builds — from inception to production."
     }
   ],
   "rounds": [
@@ -221,5 +226,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Security platform for AI-written code, agents and applications, from inception to production."
 }

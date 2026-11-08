@@ -40,6 +40,11 @@
       "field": "sectors",
       "url": "https://en.wikipedia.org/wiki/Pragmatic_Semiconductor",
       "quote": "Pragmatic Semiconductor is a UK-based flexible microchip maker"
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Pragmatic_Semiconductor",
+      "quote": "Pragmatic designs and manufactures FlexICs – ultra-thin, physically flexible microchips based on thin-film transistor (TFT) technology."
     }
   ],
   "rounds": [
@@ -83,5 +88,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Designs and manufactures ultra-thin, flexible microchips based on thin-film transistor technology."
 }

@@ -42,6 +42,11 @@
       "field": "unicorn",
       "url": "https://www.coachhub.com/news-media/coachhub-raises-200m-series-c",
       "quote": "closed a $200M Series C funding round"
+    },
+    {
+      "field": "tagline",
+      "url": "https://www.coachhub.com",
+      "quote": "CoachHub is the global leader in digital coaching and corporate coaching, trusted by over 1,000 organizations worldwide."
     }
   ],
   "rounds": [
@@ -214,5 +219,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Digital and corporate coaching for organizations."
 }

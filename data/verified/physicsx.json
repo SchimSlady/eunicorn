@@ -59,6 +59,11 @@
       "field": "valuation",
       "url": "https://www.cooley.com/news/coverage/2026/2026-06-08-physicsx-raises-$300-million-series-c",
       "quote": "at a valuation of approximately $2.4 billion."
+    },
+    {
+      "field": "tagline",
+      "url": "https://physicsx.ai/",
+      "quote": "We're bringing frontier AI to industrial engineering, transforming how the world's most complex products and systems are designed, built, and operated."
     }
   ],
   "rounds": [
@@ -213,5 +218,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "AI for designing, building and operating complex industrial products and systems."
 }

@@ -69,6 +69,11 @@
       "field": "sectors",
       "url": "https://www.mollie.com/en/about",
       "quote": "Mollie is a financial technology group providing a broad range of financial services and technical products across Europe"
+    },
+    {
+      "field": "tagline",
+      "url": "https://www.mollie.com/",
+      "quote": "Mollie is a financial technology group providing a broad range of financial services and technical products across Europe and the UK as part of our mission to make payments and money management effortless for every business."
     }
   ],
   "rounds": [
@@ -182,5 +187,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Financial technology group offering payments and money management services to businesses in Europe and the UK."
 }

@@ -48,6 +48,11 @@
       "field": "valuation",
       "url": "https://tech.eu/2022/01/13/flipdish-orders-up-100-million-now-valued-at-1-25-billion/",
       "quote": "becomes a card-carrying member of the unicorn club, with a valuation placed at $1.25 billion"
+    },
+    {
+      "field": "tagline",
+      "url": "https://www.flipdish.com",
+      "quote": "Flipdish restaurant management system is the all-in-one platform built for modern restaurants and takeaways."
     }
   ],
   "rounds": [
@@ -156,5 +161,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "All-in-one restaurant management platform for modern restaurants and takeaways."
 }

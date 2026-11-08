@@ -43,6 +43,16 @@
       "field": "valuation",
       "url": "https://www.unquote.com/cee/news/3024909/docplanner-raises-finance-valuing-business-at-usd-1bn",
       "quote": "has completed an undisclosed round at a unicorn valuation"
+    },
+    {
+      "field": "tagline",
+      "url": "https://docplanner.com",
+      "quote": "Docplanner is creating a healthcare ecosystem that seamlessly connects patients with doctors while integrating smart tools to provide quicker, more precise diagnoses and treatments, with the goal of supporting 1 billion patient visits annually within the next decade."
+    },
+    {
+      "field": "tagline",
+      "url": "https://docplanner.com",
+      "quote": "We also help doctors to better manage their practice and build their online reputation."
     }
   ],
   "rounds": [
@@ -205,5 +215,6 @@
       ]
     }
   ],
-  "lastValuationEur": 843000000
+  "lastValuationEur": 843000000,
+  "tagline": "Platform that connects patients with doctors and helps doctors manage their practice and online reputation."
 }

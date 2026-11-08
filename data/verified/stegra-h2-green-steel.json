@@ -37,6 +37,11 @@
       "field": "status",
       "url": "https://www.gic.com.sg/newsroom/all/h2-green-steel-raises-e1-5-billion-in-equity-to-build-the-worlds-first-green-steel-plant/",
       "quote": "In the largest private placement in Europe this year"
+    },
+    {
+      "field": "tagline",
+      "url": "https://www.stegra.com",
+      "quote": "By swapping coal for green hydrogen, we refine iron ore into green iron, emitting steam – just plain water."
     }
   ],
   "rounds": [
@@ -195,5 +200,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Makes green iron from iron ore using green hydrogen instead of coal."
 }

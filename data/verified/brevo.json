@@ -71,6 +71,11 @@
       "field": "logo",
       "url": "https://commons.wikimedia.org/wiki/File:Brevo-Logo.png",
       "quote": "File:Brevo-Logo.png - Wikimedia Commons"
+    },
+    {
+      "field": "tagline",
+      "url": "https://www.brevo.com/about/",
+      "quote": "Send real-time email, SMS, & WhatsApp messages triggered via SMTP relay and API."
     }
   ],
   "rounds": [
@@ -177,5 +182,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Platform for sending real-time email, SMS and WhatsApp messages via SMTP relay and API."
 }

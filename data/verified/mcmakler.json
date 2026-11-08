@@ -43,6 +43,16 @@
       "field": "status",
       "url": "https://www.startbase.de/news/mcmakler-schliesst-20-mio-eur-finanzierungsrunde-ab/",
       "quote": "Das Immobilienunternehmen McMakler hat eine erfolgreiche Finanzierungsrunde abgeschlossen, angeführt von seinem Bestandsinvestor Baillie Gifford."
+    },
+    {
+      "field": "tagline",
+      "url": "https://de.wikipedia.org/wiki/McMakler",
+      "quote": "McMakler GmbH ist ein deutscher Immobilienmakler mit Sitz in Berlin."
+    },
+    {
+      "field": "tagline",
+      "url": "https://de.wikipedia.org/wiki/McMakler",
+      "quote": "McMaklers Kerngeschäft liegt in der Vermittlung von Wohn- und Gewerbeimmobilien."
     }
   ],
   "rounds": [
@@ -150,5 +160,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Real estate broker for residential and commercial property."
 }

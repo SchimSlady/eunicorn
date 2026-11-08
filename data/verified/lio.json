@@ -73,6 +73,16 @@
       "field": "programs",
       "url": "https://www.startmunich.de/api/startups",
       "quote": "\"name\":\"Lio\",\"website\":\"www.asklio.ai/\""
+    },
+    {
+      "field": "tagline",
+      "url": "https://www.lio.ai/",
+      "quote": "World’s first multi-agent system for direct and indirect Procurement ."
+    },
+    {
+      "field": "tagline",
+      "url": "https://www.lio.ai/",
+      "quote": "With Lio you are deploying a virtual procurement department, fundamentally transforming how indirect and direct Procurement works today."
     }
   ],
   "rounds": [
@@ -112,5 +122,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Multi-agent system that works as a virtual procurement department."
 }

@@ -66,6 +66,11 @@
       "field": "programs",
       "url": "https://www.startmunich.de/api/startups",
       "quote": "\"name\":\"Anybill\",\"website\":\"www.anybill.de/de\""
+    },
+    {
+      "field": "tagline",
+      "url": "https://anybill.de",
+      "quote": "Der Data-Layer, der POS-Daten in Echtzeit verfügbar und nutzbar macht."
     }
   ],
   "rounds": [
@@ -138,5 +143,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Data layer that makes point-of-sale data available and usable in real time."
 }

@@ -40,6 +40,11 @@
       "field": "sectors",
       "url": "https://techcrunch.com/2019/02/05/raisin-raises-114m-for-its-pan-european-marketplace-for-savings-and-investment-products/",
       "quote": "the pan-European fintech marketplace for savings and investment products"
+    },
+    {
+      "field": "tagline",
+      "url": "https://www.raisin.com/",
+      "quote": "Als Pionier für Spar-, Investment- und Altersvorsorgeprodukte ermöglichen wir Privatkunden einen unkomplizierten Zugang zu globalen Einlagen- und Kapitalmärkten – ein Vorteil, der auch Finanzinstitute stärkt."
     }
   ],
   "rounds": [
@@ -201,5 +206,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Savings, investment and retirement products giving private customers access to global markets."
 }

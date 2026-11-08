@@ -14,7 +14,10 @@
   "status": "private",
   "unicorn": true,
   "lastValuationEur": 3148301574,
-  "founders": [],
+  "founders": [
+    "Robert Vis",
+    "Adriaan Mol"
+  ],
   "difficulty": 3,
   "programs": [
     {
@@ -52,6 +55,11 @@
       "field": "programs",
       "url": "https://tech.eu/2021/04/28/amsterdams-messagebird-extends-series-c-round-raises-1-billion-snaps-up-us-based-sparkpost-for-600-million/",
       "quote": "The transaction was financed by Eurazeo , Tiger Global , BlackRock , and Owl Rock . Existing investors including Atomico , Accel , Spark Capital , and Y Combinator all participated."
+    },
+    {
+      "field": "founders",
+      "url": "https://www.computable.nl/?p=268901",
+      "quote": "Messagebird werd in 2011 opgericht door Robert Vis en Adriaan Mol"
     }
   ],
   "rounds": [

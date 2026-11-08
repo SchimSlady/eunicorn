@@ -69,6 +69,11 @@
       "field": "exit",
       "url": "https://www.di.se/digital/mathem-far-ny-agare-lovar-lagre-matpriser/",
       "quote": "Publicerad: 16 november 2023"
+    },
+    {
+      "field": "tagline",
+      "url": "https://www.mathem.se/se/about/om-mathem/",
+      "quote": "Vi är en tech-driven supermarket som erbjuder en smidig e-handelstjänst för bland annat dagligvaror, köksprodukter, heminredning och apoteksvaror."
     }
   ],
   "rounds": [
@@ -192,5 +197,6 @@
       ]
     }
   ],
-  "lastValuationEur": 216000000
+  "lastValuationEur": 216000000,
+  "tagline": "Tech-driven online supermarket for groceries, kitchen products, home furnishings and pharmacy goods."
 }

@@ -37,6 +37,11 @@
       "field": "sectors",
       "url": "https://en.wikipedia.org/wiki/Booksy",
       "quote": "Booksy is a software-as-a-service and marketplace platform company operating in the beauty and wellness industry"
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Booksy",
+      "quote": "Its namesake platform provides appointment scheduling software, client management tools, and payment processing services for hair salons, barbershops, beauty salons, and wellness service providers."
     }
   ],
   "rounds": [
@@ -238,5 +243,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Appointment scheduling, client management and payment software for salons, barbershops and wellness providers."
 }

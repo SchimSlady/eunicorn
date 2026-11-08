@@ -61,6 +61,11 @@
       "field": "exit",
       "url": "https://www.bankingdive.com/news/adyen-acquire-talon-one-customer-identity-in-store-online-price-promotion-payments/818853/",
       "quote": "Published April 28, 2026"
+    },
+    {
+      "field": "tagline",
+      "url": "https://talon.one",
+      "quote": "Talon.One powers the world’s most advanced loyalty and promotion strategies, helping brands grow faster, delight customers, and maximize revenue."
     }
   ],
   "rounds": [
@@ -93,5 +98,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Platform for loyalty and promotion programmes for brands."
 }

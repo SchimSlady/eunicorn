@@ -52,6 +52,16 @@
       "field": "valuation",
       "url": "https://invest-in.berlin/n/moss-becomes-berlins-newest-fintech-unicorn/",
       "quote": "investors have valued the company at one billion euros for the first time"
+    },
+    {
+      "field": "tagline",
+      "url": "https://getmoss.com/",
+      "quote": "Cards, invoices, and employee reimbursements in one platform."
+    },
+    {
+      "field": "tagline",
+      "url": "https://getmoss.com/",
+      "quote": "Set budgets, automate approvals, and sync with your ERP."
     }
   ],
   "rounds": [
@@ -173,5 +183,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "One platform for cards, invoices and employee reimbursements, with budgets and approvals."
 }

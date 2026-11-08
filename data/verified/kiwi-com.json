@@ -39,6 +39,16 @@
       "field": "sectors",
       "url": "https://en.wikipedia.org/wiki/Kiwi.com",
       "quote": "Kiwi.com is an international online travel agency"
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Kiwi.com",
+      "quote": "Kiwi.com is an international online travel agency headquartered in the Czech Republic."
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Kiwi.com",
+      "quote": "Kiwi.com provides booking for airline tickets and its ticket search features virtual interlining, an innovation that combines airlines in a single itinerary."
     }
   ],
   "rounds": [
@@ -70,5 +80,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Online travel agency for airline tickets."
 }

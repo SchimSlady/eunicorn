@@ -48,6 +48,11 @@
       "field": "valuation",
       "url": "https://techcrunch.com/2021/07/05/manomano-raises-355-million-for-its-home-improvement-e-commerce-platform/",
       "quote": "the company has reached a valuation of $2.6 billion"
+    },
+    {
+      "field": "tagline",
+      "url": "https://techcrunch.com/2021/07/05/manomano-raises-355-million-for-its-home-improvement-e-commerce-platform",
+      "quote": "The company operates an e-commerce platform focused on DIY, home improvement and gardening products."
     }
   ],
   "rounds": [
@@ -207,5 +212,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "E-commerce platform focused on DIY, home improvement and gardening products."
 }

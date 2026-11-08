@@ -50,6 +50,11 @@
       "field": "status",
       "url": "https://www.ottonova.de/unternehmen/ueber-uns",
       "quote": "Wir sind ein vollständig regulierter deutscher Krankenversicherer mit BaFin-Lizenz."
+    },
+    {
+      "field": "tagline",
+      "url": "https://www.ottonova.de",
+      "quote": "ottonova ist rund um den Gedanken aufgebaut, die PKV zu einem modernen, appbasierten Service zu machen, der seinen Versicherten wirkliche Vorteile bieten kann."
     }
   ],
   "rounds": [
@@ -163,5 +168,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Private health insurance (PKV) rebuilt as a modern, app-based service."
 }

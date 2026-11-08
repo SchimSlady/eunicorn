@@ -73,6 +73,11 @@
       "field": "exit",
       "url": "https://itbrief.co.uk/story/lookiero-outfittery-merge-to-form-a-european-leader",
       "quote": "Lookiero and Outfittery, two prominent entities in the online personal shopping sector, have announced their merger to create a leading force in the European market."
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Outfittery",
+      "quote": "is a German online personal shopping service founded by Julia Bösch."
     }
   ],
   "rounds": [
@@ -180,5 +185,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Online personal shopping service from Germany."
 }

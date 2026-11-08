@@ -48,6 +48,11 @@
       "field": "unicorn",
       "url": "https://www.starting-up.de/news/news-investments/ed-tech-start-up-sdui-erweitert-series-a-finanzierungsrunde-auf-25-mio-euro.html",
       "quote": "Sduis Bewertung steigt durch die Kapitalerhöhung in den dreistelligen Millionenbereich."
+    },
+    {
+      "field": "tagline",
+      "url": "https://sdui.de",
+      "quote": "Als Sdui App für Schulen und Kitas begonnen und jetzt Teil von Seven Education – einer innovativen, vernetzten Bildungsplattform für die digitale Verwaltung, Organisation und Kommunikation in Bildungseinrichtungen."
     }
   ],
   "rounds": [
@@ -88,5 +93,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Digital platform for administration, organisation and communication in schools and kindergartens."
 }

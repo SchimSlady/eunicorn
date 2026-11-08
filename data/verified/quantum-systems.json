@@ -77,6 +77,11 @@
       "field": "fun_fact",
       "url": "https://en.wikipedia.org/wiki/Quantum-Systems",
       "quote": "In May 2025, Quantum Systems became Europe's first dual-use unicorn and third defense unicorn"
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Quantum_Systems",
+      "quote": "The company specializes in the development, design and production of small unmanned aircraft vehicles (UAV), commonly known as drones."
     }
   ],
   "rounds": [
@@ -336,5 +341,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Develops, designs and produces small unmanned aircraft vehicles, commonly known as drones."
 }

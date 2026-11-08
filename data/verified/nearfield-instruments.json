@@ -52,6 +52,16 @@
       "field": "valuation",
       "url": "https://pulse2.com/nearfield-instruments-raises-380-million-series-d-at-1-6-billion-valuation/",
       "quote": "The financing values the company at $1.6 billion."
+    },
+    {
+      "field": "tagline",
+      "url": "https://www.nearfieldinstruments.com/",
+      "quote": "NFI delivers daringly innovative metrology solutions to process control challenges in the high-end nano-electronics industry"
+    },
+    {
+      "field": "tagline",
+      "url": "https://www.nearfieldinstruments.com/",
+      "quote": "NFI Nearfield Instruments (NFI) brings together the most creative minds in science and technology to develop a revolutionary high throughput atomic force microscopy system enabling atom-scale resolution 3D metrology at industry-level throughput, based on three pillars."
     }
   ],
   "rounds": [
@@ -125,5 +135,6 @@
       ]
     }
   ],
-  "aliases": []
+  "aliases": [],
+  "tagline": "Develops high-throughput atomic force microscopy systems for 3D metrology in nano-electronics."
 }

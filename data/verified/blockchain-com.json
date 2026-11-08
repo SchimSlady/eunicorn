@@ -62,6 +62,16 @@
       "field": "fun_fact",
       "url": "https://en.wikipedia.org/wiki/Blockchain.com",
       "quote": "bitcoin investor Roger Ver provided initial funding"
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Blockchain.com",
+      "quote": "Blockchain.com (formerly Blockchain.info) is a cryptocurrency financial services company."
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Blockchain.com",
+      "quote": "It also operates a cryptocurrency brokerage and provides institutional markets lending business and data, charts, and analytics."
     }
   ],
   "rounds": [
@@ -179,5 +189,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Cryptocurrency financial services company with a brokerage and institutional lending business."
 }

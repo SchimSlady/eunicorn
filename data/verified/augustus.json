@@ -51,6 +51,11 @@
       "field": "unicorn",
       "url": "https://www.boersen-zeitung.de/banken-finanzen/deutsches-fintech-augustus-zieht-grosse-finanzierung-an-land",
       "quote": "Im Rahmen einer Series B nimmt die KI-Neobank 180 Mill. Dollar auf und erreicht mit einer Bewertung von 1 Mrd. Dollar den Status als Einhorn."
+    },
+    {
+      "field": "tagline",
+      "url": "https://pulse2.com/augustus-raises-180-million-series-b-at-1-billion-valuation-to-expand-global-dollar-banking-platform/",
+      "quote": "Augustus is building a federally regulated clearing bank intended to give international fintech companies and banks direct access to U.S. dollar accounts and payment systems."
     }
   ],
   "rounds": [
@@ -153,5 +158,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Federally regulated clearing bank giving international fintechs and banks direct access to U.S. dollar accounts."
 }

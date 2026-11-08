@@ -59,6 +59,11 @@
       "field": "sectors",
       "url": "https://mfn.se/cis/a/voitechnology/voi-closes-financing-round-following-a-record-year-in-revenue-and-profitability-ac7aeebd",
       "quote": "Voi is a Swedish micromobility company"
+    },
+    {
+      "field": "tagline",
+      "url": "https://mfn.se/a/voitechnology/voi-technology-publishes-2024-sustainability-report-77-emission-intensity-since-2019-and-targeting-net-zero-by-2035",
+      "quote": "Founded in 2018, Voi is a Swedish micromobility company offering e-scooter and e-bike sharing in partnership with towns, cities and local communities."
     }
   ],
   "rounds": [
@@ -325,5 +330,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Swedish micromobility company offering e-scooter and e-bike sharing with towns and cities."
 }

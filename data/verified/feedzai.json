@@ -61,6 +61,11 @@
       "field": "fun_fact",
       "url": "https://edp.com/en/media/edp-stories/feedzai-how-build-unicorn",
       "quote": "They tried utilities, telecoms, and even health – until they came up with fraud detection."
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Feedzai",
+      "quote": "Feedzai is a data science company that develops real-time machine learning tools to identify fraudulent payment transactions and minimize risk in the financial services, retail, and e-commerce industries."
     }
   ],
   "rounds": [
@@ -163,5 +168,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Data science company building real-time machine learning tools to identify fraudulent payment transactions."
 }

@@ -56,6 +56,11 @@
       "field": "fun_fact",
       "url": "https://siliconcanals.com/founder-in-focus-jelte-vrijhoef-deliverect/",
       "quote": "Our first office was a shared desk — we got a desk for 2 persons at a startup incubator."
+    },
+    {
+      "field": "tagline",
+      "url": "https://www.deliverect.com/en",
+      "quote": "Deliverect Restaurants acts as a hub, centralizing order management and menu management into one streamlined platform while giving you access to all sales, performance, and third-party delivery data."
     }
   ],
   "rounds": [
@@ -199,5 +204,6 @@
       ],
       "techeuId": "2865b200-1d99-4a65-a40f-b573a8ac5a75"
     }
-  ]
+  ],
+  "tagline": "Restaurant platform that centralizes order management, menu management and sales data."
 }

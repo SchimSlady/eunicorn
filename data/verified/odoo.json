@@ -76,6 +76,11 @@
       "field": "unicorn",
       "url": "https://thenextweb.com/news/odoo-tops-7-billion-valuation",
       "quote": "Odoo tops €7 billion valuation as General Atlantic increases stake"
+    },
+    {
+      "field": "tagline",
+      "url": "https://www.odoo.com/",
+      "quote": "Odoo is a suite of open source business apps that cover all your company needs: CRM, eCommerce, accounting, inventory, point of sale, project management, etc."
     }
   ],
   "rounds": [
@@ -109,5 +114,6 @@
       ]
     }
   ],
-  "lastValuationEur": 7000000000
+  "lastValuationEur": 7000000000,
+  "tagline": "Suite of open source business apps covering CRM, eCommerce, accounting, inventory and project management."
 }

@@ -59,6 +59,11 @@
       "field": "programs",
       "url": "https://www.cdtm.com/startups/avi-medical",
       "quote": "CDTM founders Christoph Baumeister Class of Fall 2007 Vlad Lata Class of Spring 2013"
+    },
+    {
+      "field": "tagline",
+      "url": "https://www.munich-startup.de/en/76789/avi-medical-this-startup-modernizes-the-family-doctor/",
+      "quote": "Avi Medical baut moderne, technologieunterstützte Arztpraxen auf."
     }
   ],
   "rounds": [
@@ -142,5 +147,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Builds modern, technology-supported doctors' practices."
 }

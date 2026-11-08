@@ -72,6 +72,16 @@
       "field": "fun_fact",
       "url": "https://www.insightpartners.com/ideas/checkout-com-raises-230m-in-record-european-series-a/",
       "quote": "having raised $230m in what is Europe's largest fintech Series A round ever"
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Checkout.com",
+      "quote": "Checkout.com (legally incorporated as Checkout Ltd.) is a financial technology company headquartered in London, United Kingdom."
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Checkout.com",
+      "quote": "It provides payment processing services, operating as a payment gateway, acquirer, and processor for enterprise clients in sectors such as e-commerce, technology, and media."
     }
   ],
   "rounds": [
@@ -239,5 +249,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Financial technology company offering payment processing to enterprise clients in sectors such as e-commerce."
 }

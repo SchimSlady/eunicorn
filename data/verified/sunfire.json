@@ -29,6 +29,11 @@
       "field": "sectors",
       "url": "https://sunfire.de/en/news/sunfire-secures-more-than-eur-500-million-to-accelerate-its-growth/",
       "quote": "Sunfire is a global leader in the manufacture of industrial electrolysers"
+    },
+    {
+      "field": "tagline",
+      "url": "https://www.sunfire.de/en/about",
+      "quote": "With our bold commitment to green hydrogen, long before its breakthrough, Sunfire is a driving force of the electrolyzer and hydrogen industry."
     }
   ],
   "rounds": [
@@ -78,5 +83,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Company in the electrolyzer and green hydrogen industry."
 }

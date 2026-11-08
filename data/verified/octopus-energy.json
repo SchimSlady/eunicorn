@@ -59,6 +59,11 @@
       "field": "valuation",
       "url": "https://uk.news.yahoo.com/al-gore-fund-boosts-octopus-091300538.html",
       "quote": "Octopus Energy has cemented its status as one of Britain's most significant private companies after a series of share trades valuing it at $9bn (£7.2bn)."
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Octopus_Energy",
+      "quote": "Octopus Energy Group Limited (formerly Octopus Energy Limited and Octopus Energy Holdings Limited), known as Octopus Energy, is a British company operating in the fields of energy generation and supply."
     }
   ],
   "rounds": [
@@ -214,5 +219,6 @@
       ]
     }
   ],
-  "funFact": "Octopus Energy had become Britain's largest household energy supplier by the end of 2024."
+  "funFact": "Octopus Energy had become Britain's largest household energy supplier by the end of 2024.",
+  "tagline": "British company operating in energy generation and supply."
 }

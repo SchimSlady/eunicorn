@@ -52,6 +52,11 @@
       "field": "valuation",
       "url": "https://blocksandfiles.com/2022/07/28/backup-security-is-hot-insititutional-investors-splash-more-cash-on-acronis/",
       "quote": "After this additional funding round, the company is valued at over $3.5 billion."
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Acronis",
+      "quote": "Acronis International GmbH is a Swiss global technology company specializing in cybersecurity and data protection software."
     }
   ],
   "rounds": [
@@ -112,5 +117,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Swiss technology company offering cybersecurity and data protection software."
 }

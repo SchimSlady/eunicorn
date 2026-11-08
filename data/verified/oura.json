@@ -66,6 +66,16 @@
       "field": "fun_fact",
       "url": "https://en.wikipedia.org/wiki/Oura_Health",
       "quote": "Oura introduced the first-generation ring via a Kickstarter campaign"
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Oura_Ring",
+      "quote": "The company develops Ōura, a line of smart rings capable of monitoring heart rate, respiration, physical activity, and temperature."
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Oura_Ring",
+      "quote": "Oura Health Ltd (natively Oura Health Oy) is a consumer electronics company founded in 2013."
     }
   ],
   "rounds": [
@@ -259,5 +269,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Consumer electronics maker of smart rings that monitor heart rate, respiration, physical activity and temperature."
 }

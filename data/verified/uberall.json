@@ -47,6 +47,11 @@
       "field": "unicorn",
       "url": "https://uberall.com/en-us/company/news-press/uberall-raises-115m-signs-agreement-to-acquire-momentfeed",
       "quote": "Uberall , a global leader in location marketing solutions announced today it received a capital investment of $115 million"
+    },
+    {
+      "field": "tagline",
+      "url": "https://uberall.com/en-us/about-us",
+      "quote": "Our multi-location marketing platform helps you keep up with how your brand shows up on search, AI and beyond."
     }
   ],
   "rounds": [
@@ -152,5 +157,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Multi-location marketing platform that manages how brands appear in search and AI."
 }

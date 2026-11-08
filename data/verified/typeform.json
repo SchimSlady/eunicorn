@@ -48,6 +48,16 @@
       "field": "valuation",
       "url": "https://techcrunch.com/2022/03/10/typeform-series-c/",
       "quote": "Typeform is also disclosing its post-money valuation after this financing round is $935 million."
+    },
+    {
+      "field": "tagline",
+      "url": "https://typeform.com/about",
+      "quote": "Typeform is a refreshingly different form builder."
+    },
+    {
+      "field": "tagline",
+      "url": "https://typeform.com/about",
+      "quote": "We help over 150,000 businesses collect the data they need with forms, surveys, and quizzes that people enjoy."
     }
   ],
   "rounds": [
@@ -235,5 +245,6 @@
       "techeuId": "17f7fc73-da97-419b-8b6a-523cfbc6be16",
       "postMoneyValuationEur": 843558282
     }
-  ]
+  ],
+  "tagline": "Form builder for surveys and quizzes that helps businesses collect data."
 }

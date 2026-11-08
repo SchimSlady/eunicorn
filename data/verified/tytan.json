@@ -43,6 +43,11 @@
       "field": "fun_fact",
       "url": "https://heise.de/-11189328",
       "quote": "whose procurement office commissioned the company in the fall of 2025 to develop an AI-based drone defense solution for Bundeswehr sites."
+    },
+    {
+      "field": "tagline",
+      "url": "https://tytan-technologies.com",
+      "quote": "From short-range, mass-deployment swarms to long-endurance deep-area interception - built and tested in Europe for the threats already in the sky."
     }
   ],
   "rounds": [
@@ -88,5 +93,6 @@
     }
   ],
   "status": "private",
-  "unicorn": false
+  "unicorn": false,
+  "tagline": "Short-range swarms and long-endurance interception systems, built and tested in Europe."
 }

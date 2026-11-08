@@ -49,7 +49,18 @@
       "field": "unicorn",
       "url": "https://thenextweb.com/news/eleqtron-closes-e57m-series-a-one-of-europes-largest-quantum-computing-rounds",
       "quote": "the German trapped-ion quantum-computing scale-up eleQtron announced that it has closed a €57m Series A round"
+    },
+    {
+      "field": "tagline",
+      "url": "https://eleqtron.com",
+      "quote": "We build quantum computers designed to scale ."
+    },
+    {
+      "field": "tagline",
+      "url": "https://eleqtron.com",
+      "quote": "Our quantum computers are based on trapped ions and our proprietary MAGIC technology (Magnetic Gradient Induced Coupling)."
     }
   ],
-  "rounds": []
+  "rounds": [],
+  "tagline": "Builds trapped-ion quantum computers designed to scale."
 }

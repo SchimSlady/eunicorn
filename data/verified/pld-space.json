@@ -60,6 +60,11 @@
       "field": "fun_fact",
       "url": "https://en.wikipedia.org/wiki/PLD_Space",
       "quote": "It was the first time a liquid rocket engine was tested in Spain, and the first time a private company in Europe tested a liquid rocket engine on its own facilities."
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/PLD_Space",
+      "quote": "is a Spanish company developing two partially-reusable launch vehicles called Miura 1 and Miura 5."
     }
   ],
   "rounds": [
@@ -219,5 +224,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Spanish company developing two partially reusable launch vehicles."
 }

@@ -49,6 +49,11 @@
       "field": "valuation",
       "url": "https://techcrunch.com/2025/04/14/marshmallow-the-uk-insurance-startup-for-migrants-raises-90m-at-a-2b-valuation",
       "quote": "it is coming at a valuation of just over $2 billion"
+    },
+    {
+      "field": "tagline",
+      "url": "https://www.marshmallow.com/about-us",
+      "quote": "We create quality insurance and financial products for people that move to the UK."
     }
   ],
   "rounds": [
@@ -147,5 +152,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Insurance and financial products for people who move to the UK."
 }

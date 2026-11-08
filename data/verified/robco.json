@@ -61,6 +61,11 @@
       "field": "programs",
       "url": "https://www.cdtm.com/startups/robco",
       "quote": "CDTM founders Roman Hölzl Class of Fall 2017"
+    },
+    {
+      "field": "tagline",
+      "url": "https://rob.co",
+      "quote": "Co-develop your own robotics product on RobCo’s field-validated hardware and AI stack — from prototype to series production."
     }
   ],
   "rounds": [
@@ -183,5 +188,6 @@
     {
       "id": "cdtm"
     }
-  ]
+  ],
+  "tagline": "Hardware and AI stack for developing robotics products, from prototype to series production."
 }

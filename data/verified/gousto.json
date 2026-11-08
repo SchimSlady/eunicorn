@@ -48,6 +48,16 @@
       "field": "valuation",
       "url": "https://en.wikipedia.org/wiki/Gousto",
       "quote": "from its valuation of £1.4bn in 2022"
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Gousto",
+      "quote": "Gousto, a trading name of SCA Investments Limited, is a British meal kit retailer, headquartered in Shepherd's Bush, London, founded by Timo Boldt and James Carter."
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Gousto",
+      "quote": "Gousto supplies subscribers with recipe kit boxes which include ready-measured, fresh ingredients and easily followed recipes."
     }
   ],
   "rounds": [
@@ -171,5 +181,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "British meal kit retailer supplying subscribers with recipe boxes of ready-measured, fresh ingredients."
 }

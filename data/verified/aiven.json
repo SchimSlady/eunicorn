@@ -52,6 +52,16 @@
       "field": "valuation",
       "url": "https://www.helpnetsecurity.com/2022/05/13/aiven-series-d/",
       "quote": "Aiven announced it raised $210M in its Series D at a pre-money valuation of $3B."
+    },
+    {
+      "field": "tagline",
+      "url": "https://aiven.io",
+      "quote": "Aiven is an open data platform for production AI."
+    },
+    {
+      "field": "tagline",
+      "url": "https://aiven.io",
+      "quote": "It includes a suite of managed open source data services that lets your team deploy and run databases, streaming pipelines, search engines, and analytics services, without managing the underlying infrastructure."
     }
   ],
   "rounds": [
@@ -247,5 +257,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Open data platform for production AI, offering managed open source databases, streaming and analytics."
 }

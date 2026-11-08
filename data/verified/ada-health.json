@@ -46,6 +46,11 @@
       "field": "status",
       "url": "https://about.ada.com/press/220210-ada-health-extends-series-b-to-120-million/",
       "quote": "Ada Health GmbH ('Ada'), the Berlin-based digital health company, today announces that it has closed its Series B round at $120 million"
+    },
+    {
+      "field": "tagline",
+      "url": "https://ada.com/about",
+      "quote": "Combining medical expertise with advanced AI, we empower people worldwide to understand their health and make informed decisions."
     }
   ],
   "rounds": [
@@ -150,5 +155,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Combines medical expertise with AI to help people understand their health and make informed decisions."
 }

@@ -30,6 +30,11 @@
       "field": "sectors",
       "url": "https://verdivabio.com/",
       "quote": "Transforming lives by accelerating innovation in cardiometabolic health"
+    },
+    {
+      "field": "tagline",
+      "url": "https://verdivabio.com",
+      "quote": "Verdiva Bio is developing next-generation medicines with the goal of helping people living with obesity, cardiometabolic diseases, and related conditions achieve better health outcomes through more convenient and patient-friendly treatments."
     }
   ],
   "rounds": [
@@ -76,5 +81,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Developer of next-generation medicines for obesity and cardiometabolic diseases."
 }

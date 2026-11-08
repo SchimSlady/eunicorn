@@ -60,6 +60,11 @@
       "field": "fun_fact",
       "url": "https://en.wikipedia.org/wiki/Qonto",
       "quote": "Alexandre Prot is the son of Baudouin Prot , the former chairman of BNP Paribas ."
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Qonto",
+      "quote": "Qonto is a French financial technology company that provides financial and accounting services to freelancers and SMEs."
     }
   ],
   "rounds": [
@@ -223,5 +228,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Financial and accounting services for freelancers and SMEs."
 }

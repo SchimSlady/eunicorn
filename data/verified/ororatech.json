@@ -50,6 +50,11 @@
       "field": "programs",
       "url": "https://www.manageandmore.de/start-ups/",
       "quote": "Orora Technologies www.ororatech.com"
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/OroraTech",
+      "quote": "OroraTech is a German aerospace start-up company providing wildfire monitoring with a network of around 35 thermal imaging satellites."
     }
   ],
   "rounds": [
@@ -166,5 +171,6 @@
   ],
   "aliases": [],
   "status": "private",
-  "unicorn": false
+  "unicorn": false,
+  "tagline": "German aerospace start-up providing wildfire monitoring with a network of thermal imaging satellites."
 }

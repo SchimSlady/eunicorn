@@ -60,6 +60,11 @@
       "field": "programs",
       "url": "https://www.cdtm.com/startups/tanso",
       "quote": "CDTM founders Gyri Reiersen Class of Spring 2019 Till Wiechmann Class of Fall 2018"
+    },
+    {
+      "field": "tagline",
+      "url": "https://tanso.de",
+      "quote": "Tanso ist die ESG- und CO₂-Bilanzierungssoftware, auf die Industrieunternehmen in der DACH-Region vertrauen, um wettbewerbsfähig und compliant zu bleiben."
     }
   ],
   "rounds": [
@@ -165,5 +170,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "ESG and CO₂ accounting software for industrial companies in the DACH region."
 }

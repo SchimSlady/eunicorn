@@ -29,6 +29,11 @@
       "field": "sectors",
       "url": "https://startupticker.ch/en/news/cequr-announces-100-million-series-c-financing",
       "quote": "a leader in simple insulin infusion for people with diabetes"
+    },
+    {
+      "field": "tagline",
+      "url": "https://www.newswise.com/articles/cequr-closes-100-million-series-e-backed-by-commercial-momentum-and-growing-demand-for-cequr-simplicity",
+      "quote": "CeQur commercializes advanced, simple-to-use insulin-delivery devices that make it easier for people living with diabetes to adhere to therapy and stay in control of their disease."
     }
   ],
   "rounds": [
@@ -118,5 +123,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Maker of insulin-delivery devices for people living with diabetes."
 }

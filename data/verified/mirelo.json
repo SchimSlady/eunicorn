@@ -55,6 +55,11 @@
       "field": "fun_fact",
       "url": "https://tech.eu/2025/12/15/ai-sound-generator-startup-mirelo-grabs-41m-seed-round-led-by-index-and-a16z/",
       "quote": "who met as AI researchers at Amazon"
+    },
+    {
+      "field": "tagline",
+      "url": "https://mirelo.ai/about",
+      "quote": "The frontier AI research lab building audio models for videos."
     }
   ],
   "rounds": [
@@ -89,5 +94,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "AI research lab building audio models for videos."
 }

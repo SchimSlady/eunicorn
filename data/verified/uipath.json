@@ -68,6 +68,16 @@
       "field": "exit",
       "url": "https://en.wikipedia.org/wiki/UiPath",
       "quote": "In April 2021, UiPath raised $1.3 billion in an initial public offering on the New York Stock Exchange"
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/UiPath",
+      "quote": "UiPath Inc. is a Romanian-American multinational software company that develops artificial intelligence (AI) and agentic automation and orchestration software."
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/UiPath",
+      "quote": "The company's software enables the building and orchestration of AI agents to automate complex processes and workflows."
     }
   ],
   "rounds": [
@@ -289,5 +299,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Software for building and orchestrating AI agents to automate complex processes and workflows."
 }

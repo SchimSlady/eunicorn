@@ -47,6 +47,11 @@
       "field": "valuation",
       "url": "https://techcrunch.com/2022/01/11/gostudent-raises-340m-series-d-funding-round-as-it-pushes-into-international-markets/",
       "quote": "notional $3.5 billion"
+    },
+    {
+      "field": "tagline",
+      "url": "https://www.gostudent.org/en-gb/about-us",
+      "quote": "At its core, GoStudent is an online tutoring provider, but we have increased our offering over recent years with the acquisition of AI-based content platform Seneca Learning; tutoring marketplace Tus Media; and offline tutoring company Studienkreis."
     }
   ],
   "rounds": [
@@ -198,5 +203,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Online tutoring provider that has added AI-based learning content and a tutoring marketplace."
 }

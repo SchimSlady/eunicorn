@@ -41,6 +41,16 @@
       "field": "founded",
       "url": "https://ippjournal.com/company/return-energy",
       "quote": "Founded in 2021, Return focuses on owning and operating large-scale battery energy storage systems"
+    },
+    {
+      "field": "tagline",
+      "url": "https://return.energy",
+      "quote": "Return is the leading independent energy storage provider across Europe, committed to helping revolutionize the energy sector."
+    },
+    {
+      "field": "tagline",
+      "url": "https://return.energy",
+      "quote": "We focus on infrastructure, enabling our customers to access our network of large-scale energy storage solutions that we build, own, and operate, so we can deliver storage-as-a-service."
     }
   ],
   "rounds": [
@@ -111,5 +121,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Builds, owns and operates large-scale energy storage across Europe as storage-as-a-service."
 }

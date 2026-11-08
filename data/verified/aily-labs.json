@@ -38,6 +38,11 @@
       "field": "sectors",
       "url": "https://www.adnkronos.com/immediapress/eng/aily-labs-raises-80-million-to-scale-ai-that-drives-performance-across-fortune-500-companies_3sSrznrREDbLXCrBxr9oJG",
       "quote": "creator of the first AI-native Decision Intelligence platform for global enterprises"
+    },
+    {
+      "field": "tagline",
+      "url": "https://ailylabs.com",
+      "quote": "The only AI decision-making platform that connects siloed data to deliver instant, actionable insights and recommendations"
     }
   ],
   "rounds": [
@@ -104,5 +109,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "AI decision-making platform that connects siloed data into insights and recommendations."
 }

@@ -43,6 +43,11 @@
       "field": "valuation",
       "url": "https://techcrunch.com/2016/02/17/mindmaze-maker-of-a-neural-virtual-reality-platform-raises-100m-at-a-1b-valuation",
       "quote": "Raises $100M At A $1B Valuation"
+    },
+    {
+      "field": "tagline",
+      "url": "https://www.mindmazetherapeutics.com/",
+      "quote": "The immersive experience platform for brain recovery and learning"
     }
   ],
   "rounds": [
@@ -75,5 +80,6 @@
       ]
     }
   ],
-  "lastValuationEur": 894000000
+  "lastValuationEur": 894000000,
+  "tagline": "Immersive experience platform for brain recovery and learning."
 }

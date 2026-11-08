@@ -47,6 +47,11 @@
       "field": "valuation",
       "url": "https://tech.eu/2022/05/19/thought-machine-dreams-big-with-160-million-in-temasek-led-round/",
       "quote": "Thought Machine is now valued at $2.7 billion"
+    },
+    {
+      "field": "tagline",
+      "url": "https://thoughtmachine.net/about-us",
+      "quote": "We replace legacy banking infrastructure with a unified, cloud-native core and payments platform."
     }
   ],
   "rounds": [
@@ -160,5 +165,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Cloud-native core and payments platform that replaces legacy banking infrastructure."
 }

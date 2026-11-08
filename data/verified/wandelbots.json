@@ -47,6 +47,16 @@
       "field": "status",
       "url": "https://www.wandelbots.com/about-us",
       "quote": "We are a Physical AI company. We bring intelligence to production, enabling AI to govern the physical world."
+    },
+    {
+      "field": "tagline",
+      "url": "https://www.wandelbots.com",
+      "quote": "The Physical AI Platform for Your Real-World Operations From digital twin to live production."
+    },
+    {
+      "field": "tagline",
+      "url": "https://www.wandelbots.com",
+      "quote": "One system that enables your robot fleet to solve complex problems reliably, across every site and operation you run."
     }
   ],
   "rounds": [
@@ -155,5 +165,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Physical AI platform for robot fleets, from digital twin to live production."
 }

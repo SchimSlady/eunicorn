@@ -72,6 +72,11 @@
       "field": "programs",
       "url": "https://www.startmunich.de/api/startups",
       "quote": "\"name\":\"Remberg\",\"website\":\"remberg.com/de\""
+    },
+    {
+      "field": "tagline",
+      "url": "https://remberg.com",
+      "quote": "The next generation of maintenance software takes over up to 70% of the administrative work in planning, scheduling and documenting, so your technicians get their time back to keep the world running."
     }
   ],
   "rounds": [
@@ -145,5 +150,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Maintenance software that takes over administrative work in planning, scheduling and documenting."
 }

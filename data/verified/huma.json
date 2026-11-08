@@ -39,6 +39,11 @@
       "field": "sectors",
       "url": "https://en.wikipedia.org/wiki/Medopad",
       "quote": "is a British healthcare technology company"
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Huma_(company)",
+      "quote": "Huma (previously known as Medopad) is a British healthcare technology company based in London, UK. It produces applications that integrate health data from existing hospital databases as well as patient wearables and other mobile devices and securely transmits it for use by doctors."
     }
   ],
   "rounds": [
@@ -128,5 +133,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Apps that combine health data from hospital databases and wearables for doctors."
 }

@@ -46,6 +46,11 @@
       "field": "programs",
       "url": "https://yc-oss.github.io/api/batches/summer-2021/planet-a-foods.json",
       "quote": "\"batch\": \"Summer 2021\""
+    },
+    {
+      "field": "tagline",
+      "url": "https://planet-a-foods.com",
+      "quote": "We turn locally available crops into a growing portfolio of ingredients for food manufacturers – powered by one scalable fermentation platform."
     }
   ],
   "rounds": [
@@ -137,5 +142,6 @@
       "id": "y-combinator",
       "batch": "Summer 2021"
     }
-  ]
+  ],
+  "tagline": "Ingredients for food manufacturers, made from locally available crops by fermentation."
 }

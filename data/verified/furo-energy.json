@@ -61,6 +61,11 @@
       "field": "programs",
       "url": "https://www.furoenergy.com/blog/furo-funding",
       "quote": "Gegründet wurde Furo von Lena Sophia Voß, Leonie Wagner und Simon Wittner, die sich im gemeinsamen Masterprogramm am Center for Digital Technology and Management (CDTM) der LMU München und der Technischen Universität München kennenlernten."
+    },
+    {
+      "field": "tagline",
+      "url": "https://furoenergy.com",
+      "quote": "Furo ist die erste Software, die industrielle Batteriespeicher nahtlos von der Planung über den Betrieb in die Vermarktung bringt."
     }
   ],
   "rounds": [
@@ -104,5 +109,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Software that takes industrial battery storage from planning through operation to marketing."
 }

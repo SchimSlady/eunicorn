@@ -52,6 +52,11 @@
       "field": "valuation",
       "url": "https://retailtechinnovationhub.com/home/2022/2/17/relex-solutions-raises-500-million-at-5-billion-valuation",
       "quote": "RELEX Solutions has announced a €500 million funding round led by funds managed by Blackstone Growth (BXG), Blackstone’s growth equity investing business. This puts its valuation at €5 billion"
+    },
+    {
+      "field": "tagline",
+      "url": "https://relexsolutions.com/",
+      "quote": "RELEX provides a unified, AI-native platform that retailers, manufacturers, and wholesalers use to improve forecast accuracy, optimize inventory, pricing, merchandising, and production, and plan seamlessly end-to-end"
     }
   ],
   "rounds": [
@@ -83,5 +88,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Platform for retailers, manufacturers and wholesalers to improve forecast accuracy and planning."
 }

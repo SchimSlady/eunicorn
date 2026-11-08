@@ -77,6 +77,11 @@
       "field": "exit",
       "url": "https://www.playlist.com/press/playlist-and-egym-announce-agreement-merge-and-785-million-new-equity-investments-bringing",
       "quote": "January 15, 2026"
+    },
+    {
+      "field": "tagline",
+      "url": "https://egym.com/us",
+      "quote": "The Company EGYM is a global fitness technology leader that makes workouts smarter, more efficient, and fun for everyone."
     }
   ],
   "rounds": [
@@ -125,5 +130,6 @@
     "kind": "acquisition",
     "month": "2026-01",
     "acquirer": "Playlist"
-  }
+  },
+  "tagline": "Fitness technology company that aims to make workouts more efficient and fun."
 }

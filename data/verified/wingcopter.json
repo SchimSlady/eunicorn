@@ -45,6 +45,11 @@
       "field": "fun_fact",
       "url": "https://en.wikipedia.org/wiki/Wingcopter",
       "quote": "set the Guinness world speed record for remote-controlled tilt-rotor aircraft in 2018"
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Wingcopter",
+      "quote": "Wingcopter GmbH is a German aerospace company that designs and manufactures unmanned eVTOL delivery drones capable of providing last-mile delivery as well as mapping , surveying , and inspection."
     }
   ],
   "rounds": [
@@ -122,5 +127,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "German aerospace company making unmanned eVTOL drones for last-mile delivery, mapping and inspection."
 }

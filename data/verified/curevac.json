@@ -77,6 +77,11 @@
       "field": "exit",
       "url": "https://en.wikipedia.org/wiki/CureVac",
       "quote": "BioNTech Completes Acquisition of CureVac with 86.75% Share Tendered"
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/CureVac",
+      "quote": "CureVac is a biopharmaceutical company based in Tübingen, Germany that develops therapies based on messenger RNA (mRNA)."
     }
   ],
   "rounds": [
@@ -108,5 +113,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Biopharmaceutical company developing therapies based on messenger RNA (mRNA)."
 }

@@ -69,6 +69,11 @@
       "field": "exit",
       "url": "https://en.wikipedia.org/wiki/Funding_Circle",
       "quote": "Funding Circle was listed on the London Stock Exchange in September 2018, raising around £300 million at an initial valuation of £1.5 billion."
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Funding_Circle",
+      "quote": "Funding Circle is a British financial technology company specialising in providing loans and financial services to small and medium-sized enterprises (SMEs)."
     }
   ],
   "rounds": [
@@ -200,5 +205,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Financial technology company that provides loans and financial services to small and medium-sized enterprises."
 }

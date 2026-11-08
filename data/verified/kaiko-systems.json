@@ -77,6 +77,16 @@
       "field": "exit",
       "url": "https://invest-in.berlin/n/unisea-acquires-berlin-ai-startup-kaiko-systems/",
       "quote": "Berlin-based maritime tech company Kaiko Systems has been acquired by Norwegian fleet management software provider UniSea"
+    },
+    {
+      "field": "tagline",
+      "url": "https://techcrunch.com/2022/09/21/berlins-kaiko-systems-nets-e2m-to-help-maritime-technical-operations-go-paperless/",
+      "quote": "Kaiko Systems is a Berlin-based startup trying to digitize operations on commercial vessels."
+    },
+    {
+      "field": "tagline",
+      "url": "https://techcrunch.com/2022/09/21/berlins-kaiko-systems-nets-e2m-to-help-maritime-technical-operations-go-paperless/",
+      "quote": "Kaiko Systems, which Fussek founded in 2020 with Eddy del Valle, the former CTO of freight-forwarding unicorn Sennder , provides a smartphone-based tool for front-line workers and inspectors to collect operational data onboard."
     }
   ],
   "rounds": [
@@ -149,5 +159,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Smartphone tool that digitizes operations on commercial vessels."
 }

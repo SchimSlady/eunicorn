@@ -62,6 +62,11 @@
       "field": "exit",
       "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.17981.html",
       "quote": "--(BUSINESS WIRE)--Jun. 24, 2021--"
+    },
+    {
+      "field": "tagline",
+      "url": "https://tink.com",
+      "quote": "Payment services and data enrichment, trusted by world-leading businesses"
     }
   ],
   "rounds": [
@@ -206,5 +211,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Payment services and data enrichment for businesses."
 }

@@ -57,6 +57,11 @@
       "field": "unicorn",
       "url": "https://thenextweb.com/news/sap-prior-labs-acquisition-tabular-foundation-model",
       "quote": "The terms are not disclosed"
+    },
+    {
+      "field": "tagline",
+      "url": "https://priorlabs.ai",
+      "quote": "Pre-trained tabular foundation models for making predictions on structured data."
     }
   ],
   "rounds": [
@@ -96,5 +101,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Pre-trained tabular foundation models that make predictions on structured data."
 }

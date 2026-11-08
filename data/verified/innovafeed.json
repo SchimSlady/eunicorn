@@ -41,6 +41,11 @@
       "field": "sectors",
       "url": "https://en.ain.ua/2020/11/25/french-biotech-startup-innovafeed-receives-167-million",
       "quote": "produces a new source of protein from insect rearing for animal feed and aquaculture"
+    },
+    {
+      "field": "tagline",
+      "url": "https://www.feedandadditive.com/innovafeed-secures-e51m-funding-to-scale-insect-protein-operations/",
+      "quote": "Innovafeed, a producer of insect-based ingredients (Hermetia illucens) for animal nutrition, pet food and agriculture"
     }
   ],
   "rounds": [
@@ -81,5 +86,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Produces insect-based ingredients for animal nutrition, pet food and agriculture."
 }

@@ -49,6 +49,11 @@
       "field": "fun_fact",
       "url": "https://www.prnewswire.com/news-releases/moonfare-raises-125m-in-series-c-led-by-insight-partners-to-accelerate-global-growth-301413603.html",
       "quote": "In September, Moonfare exceeded €1 billion assets under management, doubling its assets in only 8 months."
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Moonfare",
+      "quote": "Moonfare is a digital investment platform that secures allocations in private equity and venture capital funds that generally have very high minimum investments or are offered only to institutional investors."
     }
   ],
   "rounds": [
@@ -152,5 +157,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Digital platform for investing in private equity and venture capital funds."
 }

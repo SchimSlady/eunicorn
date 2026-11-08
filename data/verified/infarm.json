@@ -62,6 +62,11 @@
       "field": "valuation",
       "url": "https://techcrunch.com/2021/12/16/vertical-farming-startup-infarm-raises-200m-for-international-expansion/",
       "quote": "placing its valuation “well” north of $1 bililion, earning its place as Europe’s first vertical farming unicorn"
+    },
+    {
+      "field": "tagline",
+      "url": "https://techcrunch.com/2017/06/26/infarm",
+      "quote": "Infarm place farms not in offsite warehouses but in customer-facing city locations, such as grocery stores, restaurants, shopping malls, and schools"
     }
   ],
   "rounds": [
@@ -136,5 +141,6 @@
       ]
     }
   ],
-  "lastValuationEur": 882145378
+  "lastValuationEur": 882145378,
+  "tagline": "Placed farms in customer-facing city locations such as grocery stores and restaurants."
 }

@@ -44,6 +44,11 @@
       "field": "programs",
       "url": "https://www.cdtm.com/startups/marvel-fusion",
       "quote": "CDTM founders Pasha Shabalin Class of Fall 2004"
+    },
+    {
+      "field": "tagline",
+      "url": "https://www.marvelfusion.com/",
+      "quote": "Marvel Fusion is pursuing inertial laser-driven fusion, with breakthrough innovations in lasers, targets, and power plant technology."
     }
   ],
   "rounds": [
@@ -180,5 +185,6 @@
     {
       "id": "cdtm"
     }
-  ]
+  ],
+  "tagline": "Company pursuing inertial laser-driven fusion power plant technology."
 }

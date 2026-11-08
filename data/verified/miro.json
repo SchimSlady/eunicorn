@@ -70,6 +70,11 @@
       "field": "exit",
       "url": "https://en.wikipedia.org/wiki/Miro_(collaboration_platform)",
       "quote": "In September 2026, the Italian software company Bending Spoons agreed to acquire Miro."
+    },
+    {
+      "field": "tagline",
+      "url": "https://miro.com/about/",
+      "quote": "Miro is the collaborative layer for working with AI, where teams of any size come together to dream, design, and build the future together."
     }
   ],
   "rounds": [
@@ -189,5 +194,6 @@
       ]
     }
   ],
-  "funFact": "Miro began in 2011 as RealtimeBoard and took its current name in 2019 from the Catalan artist Joan Miró."
+  "funFact": "Miro began in 2011 as RealtimeBoard and took its current name in 2019 from the Catalan artist Joan Miró.",
+  "tagline": "Collaborative platform for working with AI, where teams design and build together."
 }

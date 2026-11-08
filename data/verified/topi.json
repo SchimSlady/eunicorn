@@ -55,6 +55,11 @@
       "field": "exit",
       "url": "https://legacy.elfaonline.org/news-and-publications/industry-news/read/2025/08/27/peac-solutions-acquires-it-subscription-and-rental-platform-provider-topi",
       "quote": "PEAC Solutions announced that it has acquired topi"
+    },
+    {
+      "field": "tagline",
+      "url": "https://topi.eu",
+      "quote": "Mit topi mieten Unternehmen flexibel Laptops, Smartphones und IT, die ihre Teams wirklich brauchen - zu einem einfachen monatlichen Preis."
     }
   ],
   "rounds": [
@@ -141,5 +146,6 @@
     "kind": "acquisition",
     "month": "2025-08",
     "acquirer": "PEAC Solutions"
-  }
+  },
+  "tagline": "Rental of laptops, smartphones and IT for companies at a monthly price."
 }

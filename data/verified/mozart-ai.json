@@ -60,6 +60,11 @@
       "field": "programs",
       "url": "https://www.ewor.com/startups/mozart-ai",
       "quote": "Mozart AI is a music creation platform"
+    },
+    {
+      "field": "tagline",
+      "url": "https://www.uktechnews.info/2025/07/01/mozart-ai-secures-530k-pre-seed-investment-led-by-ewor/",
+      "quote": "Mozart AI is an intelligent DAW that understands natural language through text and voice, and converts user instructions to high quality musical output."
     }
   ],
   "rounds": [
@@ -95,5 +100,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Digital audio workstation that turns text and voice instructions into musical output."
 }

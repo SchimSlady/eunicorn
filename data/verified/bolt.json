@@ -64,6 +64,11 @@
       "field": "fun_fact",
       "url": "https://en.wikipedia.org/wiki/Bolt_(company)",
       "quote": "then a 19-year-old high-school student"
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Bolt_(company)",
+      "quote": "Bolt (official name Bolt Technology OÜ) is an Estonian multinational mobility company that offers ride-hailing, micromobility rental, food and grocery delivery (via the Bolt Food app), and carsharing services."
     }
   ],
   "rounds": [
@@ -147,5 +152,6 @@
       ]
     }
   ],
-  "funFact": "Bolt started as Taxify in 2013, built by a 19-year-old high-school student who recruited drivers on the streets of Tallinn."
+  "funFact": "Bolt started as Taxify in 2013, built by a 19-year-old high-school student who recruited drivers on the streets of Tallinn.",
+  "tagline": "Estonian mobility company offering ride-hailing, micromobility, food and grocery delivery and carsharing."
 }

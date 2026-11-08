@@ -11,7 +11,9 @@
   ],
   "status": "private",
   "unicorn": false,
-  "founders": [],
+  "founders": [
+    "Lukas Jeker"
+  ],
   "difficulty": 5,
   "techeuId": "a6f6fadc-67fd-4d94-a6fc-d9313ba2cdb0",
   "sources": [
@@ -29,6 +31,16 @@
       "field": "sectors",
       "url": "https://www.cimeio.com/news/page/2/",
       "quote": "announced the debut of Cimeio Therapeutics, a biotechnology company developing a novel approach to cell therapies."
+    },
+    {
+      "field": "founders",
+      "url": "https://baselaunch.ch/portfolio/success-story-cimeio/",
+      "quote": "Professor Lukas Jeker – one of the co-founders of the company"
+    },
+    {
+      "field": "tagline",
+      "url": "https://www.biospace.com/cimeio-therapeutics-presents-data-for-its-cd52-shielding-variant-at-asgct",
+      "quote": "Cimeio is the leader of the field of epitope shielding and is developing a portfolio of Shielded-Cell & Immunotherapy Pairs™ (SCIP), novel immunotherapies which have the potential to transform treatment of hematologic diseases."
     }
   ],
   "rounds": [
@@ -65,5 +77,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Developing novel immunotherapies for hematologic diseases."
 }

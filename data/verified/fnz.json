@@ -71,6 +71,11 @@
       "field": "logo",
       "url": "https://commons.wikimedia.org/wiki/File:FNZ_Logo.svg",
       "quote": "File:FNZ Logo.svg - Wikimedia Commons"
+    },
+    {
+      "field": "tagline",
+      "url": "https://www.fnz.com",
+      "quote": "So we provide a global, end-to-end wealth management platform that integrates modern technology, business and investment operations."
     }
   ],
   "rounds": [
@@ -244,5 +249,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "End-to-end wealth management platform combining technology, business and investment operations."
 }

@@ -6,21 +6,78 @@
   "country": "DE",
   "city": "Munich",
   "founded": 2025,
-  "sectors": ["fintech", "ai"],
+  "sectors": [
+    "fintech",
+    "ai"
+  ],
   "status": "private",
   "unicorn": false,
-  "founders": ["Jonas Morgner", "Linus Boehm", "Lorenz Neuner"],
+  "founders": [
+    "Jonas Morgner",
+    "Linus Boehm",
+    "Lorenz Neuner"
+  ],
   "difficulty": 5,
-  "programs": [{ "id": "y-combinator", "batch": "Summer 2025" }, { "id": "start-munich" }],
+  "programs": [
+    {
+      "id": "y-combinator",
+      "batch": "Summer 2025"
+    },
+    {
+      "id": "start-munich"
+    }
+  ],
   "sources": [
-    { "field": "city", "url": "https://www.munich-startup.de/en/news/just-under-3-million-euros-for-finto", "quote": "Munich startup Finto has completed seed financing of 2.98 million euros (3.4 million dollars)" },
-    { "field": "founded", "url": "https://tech.eu/2026/07/08/y-combinator-backed-german-startup-finto-raises-34m-says-chose-munich-over-the-valley/", "quote": "Finto, founded in 2025, builds AI agents that autonomously handle core accounting tasks" },
-    { "field": "founders", "url": "https://www.munich-startup.de/en/news/just-under-3-million-euros-for-finto", "quote": "For Finto founders Jonas Morgner, Linus Boehm, and Lorenz Neuner" },
-    { "field": "sectors", "url": "https://tech.eu/2026/07/08/y-combinator-backed-german-startup-finto-raises-34m-says-chose-munich-over-the-valley/", "quote": "A German startup building AI agents for accounting" },
-    { "field": "status", "url": "https://www.munich-startup.de/en/news/just-under-3-million-euros-for-finto", "quote": "Munich startup Finto has completed seed financing of 2.98 million euros (3.4 million dollars)" },
-    { "field": "unicorn", "url": "https://www.munich-startup.de/en/news/just-under-3-million-euros-for-finto", "quote": "Munich startup Finto has completed seed financing of 2.98 million euros (3.4 million dollars)" },
-    { "field": "programs", "url": "https://yc-oss.github.io/api/batches/summer-2025/finto-de.json", "quote": "\"batch\": \"Summer 2025\"" },
-    { "field": "programs", "url": "https://www.startmunich.de/api/startups", "quote": "\"name\":\"Finto\",\"website\":\"www.gofinto.com/\"" }
+    {
+      "field": "city",
+      "url": "https://www.munich-startup.de/en/news/just-under-3-million-euros-for-finto",
+      "quote": "Munich startup Finto has completed seed financing of 2.98 million euros (3.4 million dollars)"
+    },
+    {
+      "field": "founded",
+      "url": "https://tech.eu/2026/07/08/y-combinator-backed-german-startup-finto-raises-34m-says-chose-munich-over-the-valley/",
+      "quote": "Finto, founded in 2025, builds AI agents that autonomously handle core accounting tasks"
+    },
+    {
+      "field": "founders",
+      "url": "https://www.munich-startup.de/en/news/just-under-3-million-euros-for-finto",
+      "quote": "For Finto founders Jonas Morgner, Linus Boehm, and Lorenz Neuner"
+    },
+    {
+      "field": "sectors",
+      "url": "https://tech.eu/2026/07/08/y-combinator-backed-german-startup-finto-raises-34m-says-chose-munich-over-the-valley/",
+      "quote": "A German startup building AI agents for accounting"
+    },
+    {
+      "field": "status",
+      "url": "https://www.munich-startup.de/en/news/just-under-3-million-euros-for-finto",
+      "quote": "Munich startup Finto has completed seed financing of 2.98 million euros (3.4 million dollars)"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://www.munich-startup.de/en/news/just-under-3-million-euros-for-finto",
+      "quote": "Munich startup Finto has completed seed financing of 2.98 million euros (3.4 million dollars)"
+    },
+    {
+      "field": "programs",
+      "url": "https://yc-oss.github.io/api/batches/summer-2025/finto-de.json",
+      "quote": "\"batch\": \"Summer 2025\""
+    },
+    {
+      "field": "programs",
+      "url": "https://www.startmunich.de/api/startups",
+      "quote": "\"name\":\"Finto\",\"website\":\"www.gofinto.com/\""
+    },
+    {
+      "field": "tagline",
+      "url": "https://gofinto.com",
+      "quote": "Finto is an AI finance platform - built for enterprises."
+    },
+    {
+      "field": "tagline",
+      "url": "https://gofinto.com",
+      "quote": "Finto's AI agents handle everything in between - automatically."
+    }
   ],
   "rounds": [
     {
@@ -29,13 +86,34 @@
       "amountEur": 2981410,
       "amountOriginal": 3400000,
       "currency": "USD",
-      "investors": ["Y Combinator", "Gradient", "Lightspeed"],
+      "investors": [
+        "Y Combinator",
+        "Gradient",
+        "Lightspeed"
+      ],
       "sources": [
-        { "field": "amount", "url": "https://www.munich-startup.de/en/news/just-under-3-million-euros-for-finto", "quote": "Munich startup Finto has completed seed financing of 2.98 million euros (3.4 million dollars)" },
-        { "field": "stage", "url": "https://www.munich-startup.de/en/news/just-under-3-million-euros-for-finto", "quote": "Munich startup Finto has completed seed financing of 2.98 million euros (3.4 million dollars)" },
-        { "field": "month", "url": "https://tech.eu/2026/07/08/y-combinator-backed-german-startup-finto-raises-34m-says-chose-munich-over-the-valley/", "quote": "08 July 2026" },
-        { "field": "investors", "url": "https://www.munich-startup.de/en/news/just-under-3-million-euros-for-finto", "quote": "With capital from Y Combinator, Gradient, and Lightspeed" }
+        {
+          "field": "amount",
+          "url": "https://www.munich-startup.de/en/news/just-under-3-million-euros-for-finto",
+          "quote": "Munich startup Finto has completed seed financing of 2.98 million euros (3.4 million dollars)"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.munich-startup.de/en/news/just-under-3-million-euros-for-finto",
+          "quote": "Munich startup Finto has completed seed financing of 2.98 million euros (3.4 million dollars)"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2026/07/08/y-combinator-backed-german-startup-finto-raises-34m-says-chose-munich-over-the-valley/",
+          "quote": "08 July 2026"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.munich-startup.de/en/news/just-under-3-million-euros-for-finto",
+          "quote": "With capital from Y Combinator, Gradient, and Lightspeed"
+        }
       ]
     }
-  ]
+  ],
+  "tagline": "AI finance platform for enterprises, where AI agents handle the work automatically."
 }

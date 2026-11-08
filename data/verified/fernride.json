@@ -67,6 +67,16 @@
       "field": "exit",
       "url": "https://nordic9.com/news/quantum-systems-acquired-munich-based-driverless-truck-startup-fernride",
       "quote": "Quantum Systems acquired Munich-based driverless truck startup Fernride."
+    },
+    {
+      "field": "tagline",
+      "url": "https://fernride.com",
+      "quote": "Improve productivity, safety and sustainability with logistics automation solutions for moving cargo in container terminals, manufacturing facilities and distribution centers."
+    },
+    {
+      "field": "tagline",
+      "url": "https://fernride.com",
+      "quote": "Optimizing yards with autonomous, electric trucking solutions."
     }
   ],
   "rounds": [
@@ -201,5 +211,6 @@
     "kind": "acquisition",
     "month": "2025-12",
     "acquirer": "Quantum Systems"
-  }
+  },
+  "tagline": "Logistics automation for moving cargo with autonomous, electric trucks in terminals and distribution centers."
 }

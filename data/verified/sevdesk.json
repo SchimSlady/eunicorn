@@ -66,6 +66,16 @@
       "field": "exit",
       "url": "https://sevdesk.de/presse/cegid-schliesst-eine-endgultige-vereinbarung-zum-erwerb-von-sevdesk-ab/",
       "quote": "Paris, 7. Januar 2025 – Cegid"
+    },
+    {
+      "field": "tagline",
+      "url": "https://www.sevdesk.de",
+      "quote": "Führe deine Buchhaltung einfach und rechtskonform, überzeuge mit professionellen Rechnungen, erfülle deine Steuerpflichten und behalte dein Business das ganze Jahr im Blick."
+    },
+    {
+      "field": "tagline",
+      "url": "https://www.sevdesk.de",
+      "quote": "Starte direkt mit digitaler Buchhaltung in deine Selbstständigkeit."
     }
   ],
   "rounds": [
@@ -111,5 +121,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Digital accounting for self-employed people, with professional invoices and tax compliance."
 }

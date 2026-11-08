@@ -49,6 +49,16 @@
       "field": "valuation",
       "url": "https://en.10minhotel.com/2025/10/22/hostaway-becomes-worlds-first-short-term-rental-property-management-software-unicorn-with-new-1-billion-valuation/",
       "quote": "with new $1 billion valuation"
+    },
+    {
+      "field": "tagline",
+      "url": "https://www.hostaway.com",
+      "quote": "Save time and scale faster with Hostaway's award-winning platform: combining advanced AI, the industry's most reliable channel manager, and 24/7 local support."
+    },
+    {
+      "field": "tagline",
+      "url": "https://www.hostaway.com",
+      "quote": "Everything you need to automate and scale your vacation rental business"
     }
   ],
   "rounds": [
@@ -116,5 +126,6 @@
       ]
     }
   ],
-  "lastValuationEur": 863036161
+  "lastValuationEur": 863036161,
+  "tagline": "Channel manager and automation platform for vacation rental businesses."
 }

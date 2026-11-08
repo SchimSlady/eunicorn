@@ -61,6 +61,11 @@
       "field": "fun_fact",
       "url": "https://en.wikipedia.org/wiki/GetYourGuide",
       "quote": "they sensed a market for local tour guides"
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/GetYourGuide",
+      "quote": "GetYourGuide is a German online marketplace for tour guides, excursions, travel-related activities, and tickets to tourist attractions."
     }
   ],
   "rounds": [
@@ -176,5 +181,6 @@
       ]
     }
   ],
-  "funFact": "GetYourGuide grew out of a 2009 Beijing trip where co-founder Johannes Reck, struggling to get around, was shown the city by a friend and they spotted a market for local guides."
+  "funFact": "GetYourGuide grew out of a 2009 Beijing trip where co-founder Johannes Reck, struggling to get around, was shown the city by a friend and they spotted a market for local guides.",
+  "tagline": "German online marketplace for tours, excursions, travel activities and tourist attraction tickets."
 }

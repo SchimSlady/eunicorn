@@ -50,6 +50,16 @@
       "field": "fun_fact",
       "url": "https://www.giga.green/en/news/giga-green-growth-financing",
       "quote": "Giga.green's mission is to partner with its customers to save one gigaton (one billion tons) of CO2."
+    },
+    {
+      "field": "tagline",
+      "url": "https://giga.green",
+      "quote": "Wir übernehmen die Projektierung, Finanzierung, Installation und den Betrieb der Solaranlage."
+    },
+    {
+      "field": "tagline",
+      "url": "https://giga.green",
+      "quote": "Gewerbedächer verpachten und bis zu 60% Stromkosten sparen"
     }
   ],
   "rounds": [
@@ -81,5 +91,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Plans, finances, installs and operates solar systems on commercial roofs it leases."
 }

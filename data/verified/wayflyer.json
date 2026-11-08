@@ -48,6 +48,11 @@
       "field": "valuation",
       "url": "https://www.siliconrepublic.com/start-ups/wayflyer-unicorn-ireland-funding-financing-platform",
       "quote": "Dublin-based Wayflyer has raised $150m in Series B funding, valuing the start-up at $1.6bn."
+    },
+    {
+      "field": "tagline",
+      "url": "https://wayflyer.com/en",
+      "quote": "Wayflyer ist ein Finanzierungspartner für schnell wachsende Unternehmen in den Bereichen E-Commerce, Einzelhandel, Software & Services."
     }
   ],
   "rounds": [
@@ -167,5 +172,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Financing partner for fast-growing companies in e-commerce, retail, software and services."
 }

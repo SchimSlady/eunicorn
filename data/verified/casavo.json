@@ -36,6 +36,11 @@
       "field": "sectors",
       "url": "https://blog.casavo.com/en/articoli/a-new-capital-raise-to-change-the-way-people-sell-live-and-buy-homes-in-europe",
       "quote": "to change the way people sell, live and buy homes in Europe"
+    },
+    {
+      "field": "tagline",
+      "url": "https://www.casavo.com/en",
+      "quote": "We help you find the solution best suited to your needs, through an agent-led experience or by selling immediately with our instant offer."
     }
   ],
   "rounds": [
@@ -186,5 +191,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Service that helps people sell through an agent-led experience or an instant offer."
 }

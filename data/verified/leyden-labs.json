@@ -46,6 +46,16 @@
       "field": "sectors",
       "url": "https://leydenlabs.com/20250003-news-item-leyden-labs-secures-e30-million-from-european-innovation-council-fund-and-invest-nl",
       "quote": "Founded in 2020, a clinical-stage biotechnology company based in the Netherlands."
+    },
+    {
+      "field": "tagline",
+      "url": "https://www.leydenlabs.com/",
+      "quote": "Leyden Labs is fundamentally changing how we protect people from airborne viruses by building a new class of Mucosal Protection Products designed to protect at the site of respiratory infection—the airway mucosa."
+    },
+    {
+      "field": "tagline",
+      "url": "https://www.leydenlabs.com/",
+      "quote": "Our nasal sprays are designed to provide unmatched breadth of protection in the airway and overcome major limitations of vaccine-based protection."
     }
   ],
   "rounds": [
@@ -210,5 +220,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Maker of nasal sprays that protect the airway mucosa against airborne viruses."
 }

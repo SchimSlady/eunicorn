@@ -40,6 +40,16 @@
       "field": "fun_fact",
       "url": "https://www.ess-news.com/2026/03/26/entrix-secures-e43-million-investment-eyes-growth-for-flexibility-services-in-iberian-market/",
       "quote": "operates one of Germany's first large-scale battery systems"
+    },
+    {
+      "field": "tagline",
+      "url": "https://entrixenergy.com",
+      "quote": "We maximize your battery’s performance and ensure reliable returns – powered by leading AI technology and a true end-to-end service approach."
+    },
+    {
+      "field": "tagline",
+      "url": "https://entrixenergy.com",
+      "quote": "We combine AI technology with live operations expertise, deep market knowledge, and full-service support – making us the reliable partner for maximum performance and sustainable returns."
     }
   ],
   "rounds": [
@@ -81,5 +91,6 @@
   ],
   "aliases": [],
   "status": "private",
-  "unicorn": false
+  "unicorn": false,
+  "tagline": "Full-service battery optimization that combines AI technology with live operations expertise."
 }

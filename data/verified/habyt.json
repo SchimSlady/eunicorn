@@ -44,6 +44,11 @@
       "field": "status",
       "url": "https://habyt.com/press",
       "quote": "Habyt Launches Leaze, a New Asset-Light Brand for the Next Generation of Co-Living"
+    },
+    {
+      "field": "tagline",
+      "url": "https://www.habyt.com/about",
+      "quote": "Habyt is a new category of living for people in motion. With welcoming spaces, reliable service, and the flexibility to adapt as plans change, we make it easier to settle in, wherever life takes you."
     }
   ],
   "rounds": [
@@ -125,5 +130,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Flexible living arrangements for people on the move."
 }

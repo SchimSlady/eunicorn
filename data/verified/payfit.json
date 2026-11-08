@@ -52,6 +52,11 @@
       "field": "valuation",
       "url": "https://payfit.com/payfit-becomes-a-unicorn/",
       "quote": "This round now makes us a unicorn with a valuation of €1.82 billion"
+    },
+    {
+      "field": "tagline",
+      "url": "https://techcrunch.com/2021/03/17/payfit-raises-107-million-for-its-payroll-and-hr-platform",
+      "quote": "PayFit has been building a payroll and HR software-as-a-service platform."
     }
   ],
   "rounds": [
@@ -211,5 +216,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Software-as-a-service platform for payroll and HR."
 }

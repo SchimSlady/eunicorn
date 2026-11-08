@@ -42,6 +42,11 @@
       "field": "status",
       "url": "https://invest-in.berlin/n/ostrom-raises-eur20m-series-b-for-smart-energy-platform/",
       "quote": "Berlin-based digital energy provider Ostrom has closed a €20 million Series B funding round"
+    },
+    {
+      "field": "tagline",
+      "url": "https://www.ostrom.de/",
+      "quote": "Wir machen Ökostrom einfach und günstig für alle. Strom zu fairen Preisen, ohne versteckte Kosten."
     }
   ],
   "rounds": [
@@ -159,5 +164,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Green electricity provider with no hidden costs."
 }

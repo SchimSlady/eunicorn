@@ -49,6 +49,11 @@
       "field": "unicorn",
       "url": "https://tech.eu/2026/03/10/yann-lecun-s-paris-based-ai-world-model-startup-raises-more-than-1bn/",
       "quote": "AMI Labs raised $1.03bn at a $3.5bn valuation"
+    },
+    {
+      "field": "tagline",
+      "url": "https://amilabs.xyz",
+      "quote": "We are enabling the next AI revolution, by building a new breed of AI systems that (1) understand the real world, (2) have persistent memory, (3) can reason and plan, (4) are controllable and safe."
     }
   ],
   "rounds": [
@@ -88,5 +93,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Builds AI systems designed to understand the real world, keep persistent memory, and reason and plan."
 }

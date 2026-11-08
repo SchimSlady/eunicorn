@@ -59,6 +59,11 @@
       "field": "exit",
       "url": "https://fintech.global/2019/11/04/santander-becomes-majority-stakeholder-in-ebury-after-350m-deal/",
       "quote": "Santander becomes majority stakeholder in Ebury after £350m deal November 4, 2019"
+    },
+    {
+      "field": "tagline",
+      "url": "https://ebury.com",
+      "quote": "Multi-currency accounts, hedging, financing, and APIs: everything you need to pay, get paid, and manage currency risk internationally."
     }
   ],
   "rounds": [
@@ -91,5 +96,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Multi-currency accounts, hedging and financing for paying, getting paid and managing currency risk internationally."
 }

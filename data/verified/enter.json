@@ -41,6 +41,11 @@
       "field": "sectors",
       "url": "https://www.startuphub.ai/news/enter-secures-20-million-series-b-funding",
       "quote": "providing a comprehensive platform for energy efficiency renovations in the real estate sector"
+    },
+    {
+      "field": "tagline",
+      "url": "https://www.enter.de/ueber-uns",
+      "quote": "Enter ist ein bundesweit tätiger Anbieter von Wärmepumpen, Solaranlagen (Photovoltaik) mit Stromspeicher, Wallboxen und Energiemanagement-Systemen für Eigenheimbesitzer in Deutschland."
     }
   ],
   "rounds": [
@@ -119,5 +124,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Provider of heat pumps, solar systems, wallboxes and energy management for homeowners in Germany."
 }

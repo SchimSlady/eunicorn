@@ -60,6 +60,11 @@
       "field": "founded",
       "url": "https://find-and-update.company-information.service.gov.uk/search/companies?q=recursive+superintelligence",
       "quote": "16937077 - Incorporated on 31 December 2025"
+    },
+    {
+      "field": "tagline",
+      "url": "https://recursive.com/",
+      "quote": "We’re building the Eureka Machine, the first self-improving superintelligence that automates the scientific method."
     }
   ],
   "rounds": [
@@ -94,5 +99,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Building a self-improving AI system meant to automate the scientific method."
 }

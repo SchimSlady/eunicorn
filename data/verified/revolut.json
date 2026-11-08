@@ -70,6 +70,11 @@
       "field": "valuation",
       "url": "https://www.cityam.com/revolut-secures-115bn-price-tag-after-string-of-licence-wins/",
       "quote": "The digital banking giant confirmed on Wednesday its price tag has swelled by over 50 per cent to $115bn after a transaction led by Glade Brook Capital Partners, Coatue and Durable Capital Partners."
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Revolut",
+      "quote": "The company offers free and subscription‑based digital banking services, primarily through a mobile app."
     }
   ],
   "rounds": [
@@ -369,5 +374,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Digital banking services offered primarily through a mobile app."
 }

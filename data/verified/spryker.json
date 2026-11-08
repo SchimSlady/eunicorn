@@ -50,6 +50,11 @@
       "field": "unicorn",
       "url": "https://techcrunch.com/2020/12/17/spryker-raises-130m-at-a-500m-valuation-to-provide-b2bs-with-agile-e-commerce-tools/",
       "quote": "We understand that this latest funding values Berlin-based Spryker at more than $500 million."
+    },
+    {
+      "field": "tagline",
+      "url": "https://www.spryker.com",
+      "quote": "Spryker offers out-of-the-box, industry-leading, composable commerce capabilities that let businesses build their ideal use case, ensuring flexibility, scalability, and innovation at every step."
     }
   ],
   "rounds": [
@@ -115,5 +120,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Composable commerce platform for businesses."
 }

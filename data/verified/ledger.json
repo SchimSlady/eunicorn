@@ -52,6 +52,11 @@
       "field": "fun_fact",
       "url": "https://fr.wikipedia.org/wiki/Ledger_(entreprise)",
       "quote": "premier Portefeuille de crypto-monnaies à obtenir la certification de sécurité de premier niveau"
+    },
+    {
+      "field": "tagline",
+      "url": "https://www.ledger.com",
+      "quote": "All Ledger crypto wallets are powered by an industry-leading Secure Element chip, together with Ledger’s proprietary OS that protects your crypto & NFTs from sophisticated hacks."
     }
   ],
   "rounds": [
@@ -147,5 +152,6 @@
       ]
     }
   ],
-  "funFact": "Ledger became the first crypto wallet to earn France's first-level security certification (CSPN) from the ANSSI agency."
+  "funFact": "Ledger became the first crypto wallet to earn France's first-level security certification (CSPN) from the ANSSI agency.",
+  "tagline": "Hardware crypto wallets with a Secure Element chip that protects crypto and NFTs."
 }

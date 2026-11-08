@@ -54,6 +54,11 @@
       "field": "fun_fact",
       "url": "https://en.wikipedia.org/wiki/Bunq",
       "quote": "WhatsApp for Banking\" by Dutch newspaper NRC"
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Bunq",
+      "quote": "Bunq offers both personal and business bank accounts, and a public API."
     }
   ],
   "rounds": [
@@ -122,5 +127,6 @@
       ]
     }
   ],
-  "funFact": "When bunq launched in 2015, the Dutch newspaper NRC dubbed it \"WhatsApp for Banking\"."
+  "funFact": "When bunq launched in 2015, the Dutch newspaper NRC dubbed it \"WhatsApp for Banking\".",
+  "tagline": "Bank offering personal and business accounts and a public API."
 }

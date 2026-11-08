@@ -61,6 +61,11 @@
       "field": "fun_fact",
       "url": "https://www.delltechnologiescapital.com/exotec-robotics/",
       "quote": "We pulled it by a string."
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Exotec",
+      "quote": "Exotec is a warehouse automation company that designs and manufactures automated storage and retrieval systems powered by proprietary mobile robots, and grew into a vertical integrator of automated warehouse technologies."
     }
   ],
   "rounds": [
@@ -99,5 +104,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Warehouse automation company making storage and retrieval systems with proprietary mobile robots."
 }

@@ -58,6 +58,11 @@
       "field": "exit",
       "url": "https://truckandbusbuilder.com/article/2023/12/11/volta-trucks-uk-assets-bought-by-new-york-based-investment-firm",
       "quote": "the erstwhile manufacturer of electric trucks based in Stockholm, Sweden which filed for bankruptcy in October, have been acquired by Luxor Capital Group LP of New York City, USA"
+    },
+    {
+      "field": "tagline",
+      "url": "https://www.voltatrucks.com",
+      "quote": "The Volta Zero is the world's first purpose-built 16-tonne electric truck, revolutionising commercial vehicle operations and delivering a next-generation driving experience."
     }
   ],
   "rounds": [
@@ -163,5 +168,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Maker of the Volta Zero, a purpose-built 16-tonne electric truck."
 }

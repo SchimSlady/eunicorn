@@ -48,6 +48,11 @@
       "field": "valuation",
       "url": "https://it.wikipedia.org/wiki/Satispay",
       "quote": "superando la valutazione di 1 miliardo di euro"
+    },
+    {
+      "field": "tagline",
+      "url": "https://techcrunch.com/2022/09/28/italys-satispay-raises-e320m-at-a-e1b-valuation-with-backing-from-block-tencent-and-more-for-its-indy-payment-network",
+      "quote": "Satispay — which operates an independent payment network that bypasses big banks and credit companies and promises lower transactions fees plus other benefits like better budget control to its users"
     }
   ],
   "rounds": [
@@ -116,5 +121,6 @@
       ]
     }
   ],
-  "lastValuationEur": 1000000000
+  "lastValuationEur": 1000000000,
+  "tagline": "Independent payment network that bypasses big banks and credit companies."
 }

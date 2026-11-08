@@ -36,6 +36,11 @@
       "field": "sectors",
       "url": "https://ccstartup.com/blog/2021/12/06/berlins-everphone-raises-200m-in-debt-and-series-c-equity-techcrunch/",
       "quote": "smartphones and tablets) for enterprises customers"
+    },
+    {
+      "field": "tagline",
+      "url": "https://everphone.com",
+      "quote": "Der DaaS-Vorreiter für Smartphones, Tablets und Workplace: Einkauf und IT sparen Kosten und Aufwand bei internationalen Geräteflotten"
     }
   ],
   "rounds": [
@@ -149,5 +154,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "DaaS provider for smartphones and tablets across international device fleets."
 }

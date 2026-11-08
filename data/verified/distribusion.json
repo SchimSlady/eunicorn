@@ -14,7 +14,9 @@
   ],
   "status": "private",
   "unicorn": false,
-  "founders": [],
+  "founders": [
+    "Johannes Thunert"
+  ],
   "difficulty": 4,
   "techeuId": "A9E393DE-6098-4C90-821F-6A05C537AFC7",
   "sources": [
@@ -37,6 +39,16 @@
       "field": "status",
       "url": "https://tech.eu/2024/09/26/berlin-based-distribusion-secures-80m-for-global-ground-transport-accessibility/",
       "quote": "Distribusion operates globally with a presence in 70 markets, with the majority now outside Europe."
+    },
+    {
+      "field": "founders",
+      "url": "https://distribusion.com/about-us",
+      "quote": "Johannes Thunert Founder & CBO"
+    },
+    {
+      "field": "tagline",
+      "url": "https://distribusion.com",
+      "quote": "We are your technology company for ground transportation"
     }
   ],
   "rounds": [
@@ -137,5 +149,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Technology company for ground transportation."
 }

@@ -37,6 +37,11 @@
       "field": "sectors",
       "url": "https://tech.eu/2020/09/10/zolar-series-b/",
       "quote": "Zolar , a Berlin-based startup that develops solar panel systems for consumers"
+    },
+    {
+      "field": "tagline",
+      "url": "https://zolar.de",
+      "quote": "Wir vernetzen dich mit den passenden Expert:innen für Photovoltaikanlagen, Balkonkraftwerke, Wallboxen und Solarspeicher aus ganz Deutschland."
     }
   ],
   "rounds": [
@@ -157,5 +162,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Connects people with experts for photovoltaic systems, balcony power plants, wallboxes and solar storage in Germany."
 }

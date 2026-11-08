@@ -49,6 +49,16 @@
       "field": "unicorn",
       "url": "https://www.munich-startup.de/en/news/limehome-secures-75-million-euros",
       "quote": "Limehome recently expanded its market presence significantly."
+    },
+    {
+      "field": "tagline",
+      "url": "https://www.limehome.com/",
+      "quote": "Limehome is on a mission to make every stay effortless, enjoyable, and designed around you."
+    },
+    {
+      "field": "tagline",
+      "url": "https://www.limehome.com/",
+      "quote": "Stylish apartments Thoughtfully designed, fully equipped and ready to relax in."
     }
   ],
   "rounds": [
@@ -86,5 +96,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Rents out stylish, fully equipped apartments."
 }

@@ -49,6 +49,11 @@
       "field": "programs",
       "url": "https://www.manageandmore.de/start-ups/",
       "quote": "kertos www.kertos.io"
+    },
+    {
+      "field": "tagline",
+      "url": "https://kertos.io",
+      "quote": "Kertos ist der europäische Compliance-Partner, der Unternehmen zur Zertifizierung führt und sie dauerhaft compliant hält."
     }
   ],
   "rounds": [
@@ -165,5 +170,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "European compliance partner that guides companies through certification and keeps them compliant."
 }

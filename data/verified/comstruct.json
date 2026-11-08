@@ -48,6 +48,16 @@
       "field": "unicorn",
       "url": "https://www.munich-startup.de/en/news/comstruct-raises-e12-5-million",
       "quote": "Comstruct successfully closes its funding round of €12.5 million"
+    },
+    {
+      "field": "tagline",
+      "url": "https://comstruct.com",
+      "quote": "comstruct automatisiert Ihren gesamten Beschaffungsprozess vom Leistungsverzeichnis bis zur fertig geprüften Rechnung."
+    },
+    {
+      "field": "tagline",
+      "url": "https://comstruct.com",
+      "quote": "KI-Agenten für den Bau"
     }
   ],
   "rounds": [
@@ -119,5 +129,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "AI agents that automate construction procurement, from service specification to checked invoice."
 }

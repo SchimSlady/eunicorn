@@ -68,6 +68,11 @@
       "field": "fun_fact",
       "url": "https://www.satelliteevolution.com/post/tekever-signs-contract-to-provide-inter-satellite-links-for-world-first-planetary-defence-mission",
       "quote": "to assess the aftermath of the collision between NASA’s DART spacecraft and Dimorphos"
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Tekever",
+      "quote": "Tekever is an IT, aerospace, defence and security technologies company based in the Lisbon region and UK."
     }
   ],
   "rounds": [
@@ -211,5 +216,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Technology company active in aerospace, defence, IT and security."
 }

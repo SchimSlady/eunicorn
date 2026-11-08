@@ -62,6 +62,11 @@
       "field": "exit",
       "url": "https://en.wikipedia.org/wiki/Cazoo",
       "quote": "On 21 May 2024, Cazoo went into administration putting 208 remaining jobs at risk of redundancy."
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Cazoo",
+      "quote": "Cazoo is a British automotive online marketplace and classified advertising business based in Richmond, London."
     }
   ],
   "rounds": [
@@ -168,5 +173,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "British automotive online marketplace and classified advertising business that was based in London."
 }

@@ -55,6 +55,11 @@
       "field": "programs",
       "url": "https://www.ewor.com/startups/tumbleweed",
       "quote": "Space access, as easy as mailing a package."
+    },
+    {
+      "field": "tagline",
+      "url": "https://team-tumbleweed.com",
+      "quote": "We built a completely novel way to ship things to Low-Earth Orbit so you can innovate in microgravity without becoming a space company."
     }
   ],
   "rounds": [
@@ -88,5 +93,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Shipping service to Low-Earth Orbit for innovating in microgravity."
 }

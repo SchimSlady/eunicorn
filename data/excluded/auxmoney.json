@@ -38,6 +38,11 @@
       "field": "sectors",
       "url": "https://de.wikipedia.org/wiki/Auxmoney",
       "quote": "Es ist auf die Vermittlung von Verbraucherkrediten spezialisiert."
+    },
+    {
+      "field": "tagline",
+      "url": "https://de.wikipedia.org/wiki/Auxmoney",
+      "quote": "Auxmoney GmbH ist ein europäisches Unternehmen der Finanzindustrie mit Hauptsitz in Düsseldorf. Es ist auf die Vermittlung von Verbraucherkrediten spezialisiert."
     }
   ],
   "rounds": [
@@ -74,5 +79,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "European financial services company specialised in brokering consumer loans."
 }

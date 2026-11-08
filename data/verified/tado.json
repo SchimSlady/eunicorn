@@ -64,6 +64,11 @@
       "field": "programs",
       "url": "https://www.manageandmore.de/start-ups/",
       "quote": "Tado www.tado.com"
+    },
+    {
+      "field": "tagline",
+      "url": "https://tado.com",
+      "quote": "Set individual temperatures and schedules for each room to fit your routines."
     }
   ],
   "rounds": [
@@ -282,5 +287,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Room temperature control with individual schedules for each room."
 }

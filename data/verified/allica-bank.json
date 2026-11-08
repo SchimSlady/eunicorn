@@ -39,6 +39,16 @@
       "field": "unicorn",
       "url": "https://tech.eu/2026/02/24/allica-bank-to-become-uk-s-latest-fintech-unicorn-following-155m-funding-round-according-to-report/",
       "quote": "Allica is expected to announce tomorrow that its new valuation will hit $1.2bn (£890m), following the Series D round, Sky News says."
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Allica_Bank",
+      "quote": "Allica Bank is a British challenger bank and fintech headquartered in London and Milton Keynes."
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Allica_Bank",
+      "quote": "It offers a range of lending, savings and current account products to established small and medium-sized businesses (SMEs) in the UK."
     }
   ],
   "rounds": [
@@ -173,5 +183,6 @@
       ]
     }
   ],
-  "lastValuationEur": 1018000000
+  "lastValuationEur": 1018000000,
+  "tagline": "British challenger bank offering lending, savings and current accounts to UK SMEs."
 }

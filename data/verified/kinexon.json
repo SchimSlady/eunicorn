@@ -49,6 +49,16 @@
       "field": "status",
       "url": "https://kinexon.com/about-us/",
       "quote": "Dr. Alexander Hüttenbrink Co-founder & Co-CEO Dr. Oliver Trinchera Co-founder & Co-CEO"
+    },
+    {
+      "field": "tagline",
+      "url": "https://www.kinexon.com/",
+      "quote": "KINEXON provides real-time intelligence for production-critical operations, trusted in installations worldwide."
+    },
+    {
+      "field": "tagline",
+      "url": "https://www.kinexon.com/",
+      "quote": "Capturing every movement in real time and with 10 centimeter-level accuracy, our platform provides the data backbone required to deploy Physical AI."
     }
   ],
   "rounds": [
@@ -86,5 +96,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Real-time location platform that captures every movement in production-critical operations."
 }

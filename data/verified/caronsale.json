@@ -53,6 +53,11 @@
       "field": "status",
       "url": "https://www.hoganlovells.com/en/news/hogan-lovells-beraet-caronsale-bei-einer-eur-70-millionen-series-c-finanzierungsrunde_10072025",
       "quote": "Based in Berlin, CarOnSale is the leading digital B2B marketplace for professional used car trading in Europe."
+    },
+    {
+      "field": "tagline",
+      "url": "https://www.caronsale.com/de/ueber-uns",
+      "quote": "Wir sind ein führender paneuropäischer B2B-Marktplatz für Gebrauchtwagen und dominieren den Händler-zu-Händler-Sektor in Deutschland; uns streben an, in den kommenden Jahren weiteres stark zu wachsen."
     }
   ],
   "rounds": [
@@ -125,5 +130,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Pan-European B2B marketplace for used cars, serving dealer-to-dealer trade."
 }

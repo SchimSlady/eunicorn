@@ -67,6 +67,11 @@
       "field": "exit",
       "url": "https://en.wikipedia.org/wiki/Wolt",
       "quote": "In November 2021, it was announced that Wolt was being merged into DoorDash through an exchange of shares"
+    },
+    {
+      "field": "tagline",
+      "url": "https://wolt.com/en/about",
+      "quote": "Wolt develops a local commerce platform that connects people looking to order food, groceries, and other goods with people interested in selling and delivering them."
     }
   ],
   "rounds": [
@@ -217,5 +222,6 @@
       ]
     }
   ],
-  "lastValuationEur": 1000000000
+  "lastValuationEur": 1000000000,
+  "tagline": "Local commerce platform connecting people who order food and goods with people who sell and deliver them."
 }

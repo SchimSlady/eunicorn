@@ -63,6 +63,16 @@
       "field": "programs",
       "url": "https://www.ewor.com/startups/minitap",
       "quote": "minitap enables AI agents to reliably operate any mobile app"
+    },
+    {
+      "field": "tagline",
+      "url": "https://minitap.ai/",
+      "quote": "The AI QA agent for mobile and web apps"
+    },
+    {
+      "field": "tagline",
+      "url": "https://minitap.ai/",
+      "quote": "mini writes, runs and maintains your regression tests."
     }
   ],
   "rounds": [
@@ -97,5 +107,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "AI QA agent that writes, runs and maintains regression tests for mobile and web apps."
 }

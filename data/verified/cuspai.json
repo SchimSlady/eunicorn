@@ -48,6 +48,11 @@
       "field": "unicorn",
       "url": "https://www.lw.com/en/news/2026/07/latham-advises-kleiner-perkins-and-nea-on-cuspai-series-b",
       "quote": "The round values the company at US$2.6 billion."
+    },
+    {
+      "field": "tagline",
+      "url": "https://www.cusp.ai",
+      "quote": "The AI Materials Foundry brings NVIDIA accelerated computing infrastructure together with world-class chemistry and materials expertise to help power the next generation of materials discovery."
     }
   ],
   "rounds": [
@@ -170,5 +175,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "AI materials foundry combining accelerated computing with chemistry and materials expertise."
 }

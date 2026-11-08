@@ -59,6 +59,11 @@
       "field": "programs",
       "url": "https://www.ewor.com/startups/deeplify",
       "quote": "deeplify is an AI-powered, end-to-end inspection platform"
+    },
+    {
+      "field": "tagline",
+      "url": "https://deeplify.de",
+      "quote": "Deeplify connects inspection findings, asset history, maintenance, engineering, and operational data into one intelligence layer, quality-checked and ready."
     }
   ],
   "rounds": [
@@ -91,5 +96,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Connects inspection, asset, maintenance and operational data into one intelligence layer."
 }

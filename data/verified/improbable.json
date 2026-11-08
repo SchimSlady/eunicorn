@@ -43,6 +43,11 @@
       "field": "sectors",
       "url": "https://gamedeveloper.com/business/improbable-nets-20m-to-keep-developing-virtual-world-tech",
       "quote": "develop better technology for creating and operating virtual worlds"
+    },
+    {
+      "field": "tagline",
+      "url": "https://improbable.io",
+      "quote": "We are a venture builder - our model combines the agility of a startup and the strength of a corporation, advancing the frontier ecosystems of AI, Web3 and the metaverse."
     }
   ],
   "rounds": [
@@ -114,5 +119,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Venture builder advancing ecosystems in AI, Web3 and the metaverse."
 }

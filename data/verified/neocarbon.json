@@ -43,6 +43,11 @@
       "field": "status",
       "url": "https://siliconcanals.com/german-neocarbon-bags-3-2m/",
       "quote": "Berlin-based NeoCarbon"
+    },
+    {
+      "field": "tagline",
+      "url": "https://www.neocarbon.tech/",
+      "quote": "NeoCarbon upgrades the industrial infrastructure the world already runs on. Our patented Hollow Fiber platform uses low-grade waste heat to cool data centers efficiently while capturing carbon and water directly from the air."
     }
   ],
   "rounds": [
@@ -110,5 +115,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Platform that uses low-grade waste heat to cool data centers while capturing carbon and water from air."
 }

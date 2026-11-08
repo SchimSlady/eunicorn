@@ -87,6 +87,16 @@
       "field": "exit",
       "url": "https://langfuse.com/press",
       "quote": "Acquired by ClickHouse: January 2026"
+    },
+    {
+      "field": "tagline",
+      "url": "https://langfuse.com/",
+      "quote": "Langfuse is the most widely adopted open-source LLM engineering platform."
+    },
+    {
+      "field": "tagline",
+      "url": "https://langfuse.com/",
+      "quote": "Developers who value open-source and control over their data build production grade agents and LLM applications with Langfuse."
     }
   ],
   "rounds": [
@@ -119,5 +129,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Open-source LLM engineering platform for building production AI agents and applications."
 }

@@ -45,6 +45,11 @@
       "field": "status",
       "url": "https://www.iomx.com/company/news/",
       "quote": "iOmx Therapeutics Appoints Rüdiger Wolff as New Chief Financial Officer October 1, 2026"
+    },
+    {
+      "field": "tagline",
+      "url": "https://www.iomx.com",
+      "quote": "iOmx is a clinical-stage biotech company that harnesses deep tumor immunology insights to generate novel treatments for the most prevalent solid tumor indications."
     }
   ],
   "rounds": [
@@ -119,5 +124,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Clinical-stage biotech developing treatments for common solid tumors."
 }

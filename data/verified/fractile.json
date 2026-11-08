@@ -38,6 +38,16 @@
       "field": "sectors",
       "url": "https://fortune.com/2024/07/26/fractile-ai-chip-startup-nvidia-15-million-funding-seed-round/",
       "quote": "AI chip startup Fractile"
+    },
+    {
+      "field": "tagline",
+      "url": "https://fractile.ai",
+      "quote": "We are a chip-first frontier AI company"
+    },
+    {
+      "field": "tagline",
+      "url": "https://fractile.ai",
+      "quote": "Building hardware to advance AI’s underlying capabilities and push the frontier forward."
     }
   ],
   "rounds": [
@@ -126,5 +136,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Builds chips and hardware to advance AI's underlying capabilities."
 }

@@ -64,6 +64,16 @@
       "field": "exit",
       "url": "https://www.invest-in.berlin/n/berlins-urban-sports-club-sold-for-600m-to-wellhub/",
       "quote": "16.09.2025 | Tech and Business News"
+    },
+    {
+      "field": "tagline",
+      "url": "https://urbansportsclub.com",
+      "quote": "Das vielfältigste Sport- und Wellnessangebot in Europa - in nur einer Mitgliedschaft!"
+    },
+    {
+      "field": "tagline",
+      "url": "https://urbansportsclub.com",
+      "quote": "Entdecke über 50 Sportarten, entspanne beim Wellness und werde aktiv, wann und wo du willst: indoor, outdoor und online."
     }
   ],
   "rounds": [
@@ -104,5 +114,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Sports and wellness offering in one membership, indoor, outdoor and online."
 }

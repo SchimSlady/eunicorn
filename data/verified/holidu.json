@@ -50,6 +50,11 @@
       "field": "fun_fact",
       "url": "https://siliconcanals.com/holidu-raises-37-1m/",
       "quote": "It was founded by the duo following a frustrating experience while booking a vacation rental for a surfing trip to Portugal."
+    },
+    {
+      "field": "tagline",
+      "url": "https://support.nextpax.com/about-holidu",
+      "quote": "Holidu is a leading vacation rental search engine, simplifying travel planning by comparing millions of properties worldwide, headquartered out of Munich, Germany."
     }
   ],
   "rounds": [
@@ -243,5 +248,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Vacation rental search engine that compares properties worldwide."
 }

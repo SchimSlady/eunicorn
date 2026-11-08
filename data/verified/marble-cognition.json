@@ -64,6 +64,16 @@
       "field": "programs",
       "url": "https://www.startbase.de/news/marble-erhaelt-375-millionen-dollar/",
       "quote": "Kennengelernt haben sich die beiden am Center for Digital Technology and Management (CDTM)."
+    },
+    {
+      "field": "tagline",
+      "url": "https://www.marblecognition.com/",
+      "quote": "In a few weeks, Marble shows how your team really works and which work to hand over first."
+    },
+    {
+      "field": "tagline",
+      "url": "https://www.marblecognition.com/",
+      "quote": "Identify and automate work that shouldn’t be done by humans."
     }
   ],
   "rounds": [
@@ -100,5 +110,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Software that shows how teams really work and which work to hand over first."
 }

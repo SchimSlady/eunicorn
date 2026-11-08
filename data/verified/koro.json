@@ -41,6 +41,11 @@
       "field": "sectors",
       "url": "https://partechpartners.com/news/koro-raises-50m-series-b-to-continue-its-explosive-growth-as-one-of-europes-fastest-natural-foods-brands",
       "quote": "KoRo sells high-quality and long-life food products directly to consumers in 16 countries in Europe"
+    },
+    {
+      "field": "tagline",
+      "url": "https://www.korodrogerie.de/ueber-uns",
+      "quote": "Wir machen richtig gute Snacks zum neuen Standard – mit kurzer Zutatenliste, ohne Kompromisse, aber mit ganz viel Geschmack."
     }
   ],
   "rounds": [
@@ -152,5 +157,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Snacks made with short ingredient lists."
 }

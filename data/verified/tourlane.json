@@ -47,6 +47,11 @@
       "field": "unicorn",
       "url": "https://techcrunch.com/2024/11/14/tourlane-the-german-travel-startup-raises-26m-led-by-sequoia/",
       "quote": "has raised a fresh €25 million ($26 million) in funding in hopes of capitalizing on those trends. The Series D, led by Sequoia Capital"
+    },
+    {
+      "field": "tagline",
+      "url": "https://tourlane.com",
+      "quote": "As your personal travel expert, we’ll help plan an unforgettable tailor-made trip."
     }
   ],
   "rounds": [
@@ -190,5 +195,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Tailor-made trip planning with personal travel experts."
 }

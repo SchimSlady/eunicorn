@@ -58,6 +58,11 @@
       "field": "programs",
       "url": "https://www.cdtm.com/startups/alasco",
       "quote": "CDTM founders Anselm Bauer Class of Fall 2006"
+    },
+    {
+      "field": "tagline",
+      "url": "https://alasco.de",
+      "quote": "Alasco bringt in Immobilienprojekten alle Beteiligten auf eine gemeinsame Datenbasis - auf der Teams und KI wirksam zusammenarbeiten."
     }
   ],
   "rounds": [
@@ -99,5 +104,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Puts all parties in real estate projects on one shared data basis."
 }

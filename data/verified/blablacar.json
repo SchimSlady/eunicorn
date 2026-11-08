@@ -71,6 +71,16 @@
       "field": "logo",
       "url": "https://commons.wikimedia.org/wiki/File:BlaBlaCar_logo.svg",
       "quote": "File:BlaBlaCar logo.svg - Wikimedia Commons"
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/BlaBlaCar",
+      "quote": "BlaBlaCar is a French ridesharing company headquartered in Paris."
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/BlaBlaCar",
+      "quote": "It also operates BlaBlaCar Bus, an intercity bus service."
     }
   ],
   "rounds": [
@@ -246,5 +256,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "French ridesharing company that also operates BlaBlaCar Bus, an intercity bus service."
 }

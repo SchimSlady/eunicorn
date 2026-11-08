@@ -41,6 +41,16 @@
       "field": "fun_fact",
       "url": "https://planqc.eu",
       "quote": "planqc spun off from the Max Planck Institute of Quantum Optics as Munich Quantum Valley's first startup."
+    },
+    {
+      "field": "tagline",
+      "url": "https://planqc.eu",
+      "quote": "We develop full stack quantum solutions from the ground up and top down: from highly scalable, high-quality hardware to tailored algorithms and quantum software."
+    },
+    {
+      "field": "tagline",
+      "url": "https://planqc.eu",
+      "quote": "Our quantum computers use neutral atoms as qubits, the most promising path to fault-tolerant systems."
     }
   ],
   "rounds": [
@@ -119,5 +129,6 @@
   ],
   "aliases": [],
   "status": "private",
-  "unicorn": false
+  "unicorn": false,
+  "tagline": "Quantum computers using neutral atoms as qubits, plus tailored algorithms and software."
 }

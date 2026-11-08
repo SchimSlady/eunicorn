@@ -47,6 +47,11 @@
       "field": "status",
       "url": "https://techcrunch.com/2021/10/18/zopa-raises-300m-at-a-1b-valuation-to-expand-its-p2p-lending-and-savings-neobank-in-the-uk/",
       "quote": "Zopa describes this as a “pre-IPO” round"
+    },
+    {
+      "field": "tagline",
+      "url": "https://www.zopa.com/about",
+      "quote": "Combining the reliability of a high street bank with the ease of app-based banking, we aim to offer our customers more value than both."
     }
   ],
   "rounds": [
@@ -142,5 +147,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Bank that combines a high street bank model with app-based banking."
 }

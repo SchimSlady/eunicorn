@@ -36,6 +36,16 @@
       "field": "sectors",
       "url": "https://en.wikipedia.org/wiki/OneFootball",
       "quote": "OneFootball is a Berlin-based football media and technology company."
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/OneFootball",
+      "quote": "OneFootball is a Berlin-based football media and technology company."
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/OneFootball",
+      "quote": "Its platform combines live scores, statistics, and news from over 200 leagues in multiple languages through its newsroom in Berlin."
     }
   ],
   "rounds": [
@@ -79,5 +89,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Football media and technology company with live scores, statistics and news."
 }

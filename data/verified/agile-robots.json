@@ -57,6 +57,11 @@
       "field": "valuation",
       "url": "https://www.startbase.com/news/agile-robots-wird-zum-einhorn/",
       "quote": "the robot start-up Agile Robots broke through the one billion US dollar valuation mark with the conclusion of its Series C financing round"
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Agile_Robots",
+      "quote": "The company develops industrial robots and automation systems for manufacturing and logistics applications."
     }
   ],
   "rounds": [
@@ -129,5 +134,6 @@
       ]
     }
   ],
-  "lastValuationEur": 846000000
+  "lastValuationEur": 846000000,
+  "tagline": "Develops industrial robots and automation systems for manufacturing and logistics applications."
 }

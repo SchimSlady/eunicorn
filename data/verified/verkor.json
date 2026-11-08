@@ -42,6 +42,11 @@
       "field": "sectors",
       "url": "https://siliconcanals.com/verkor-raises-100m/",
       "quote": "founded with a mission to fast-track low‑carbon battery production in France"
+    },
+    {
+      "field": "tagline",
+      "url": "https://www.verkor.com/en/about-us",
+      "quote": "Our mission? To produce low-carbon batteries for automotive applications, other mobility and stationary storage."
     }
   ],
   "rounds": [
@@ -153,5 +158,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Produces low-carbon batteries for automotive, mobility and stationary storage applications."
 }

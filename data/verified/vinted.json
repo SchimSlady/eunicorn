@@ -53,6 +53,11 @@
       "field": "valuation",
       "url": "https://thenextweb.com/news/vinted-8-billion-valuation-secondary-share-sale",
       "quote": "Vinted, the Lithuanian second-hand marketplace that has become one of Europe’s largest consumer-to-consumer platforms, has reached a valuation of €8 billion (approximately $9.4 billion) through an €880 million secondary share sale."
+    },
+    {
+      "field": "tagline",
+      "url": "https://en.wikipedia.org/wiki/Vinted",
+      "quote": "Vinted is the leading second-hand fashion marketplace in Europe."
     }
   ],
   "rounds": [
@@ -128,5 +133,6 @@
       ]
     }
   ],
-  "funFact": "Vinted was formerly called Mano Drabužiai, Lithuanian for \"my clothing\"."
+  "funFact": "Vinted was formerly called Mano Drabužiai, Lithuanian for \"my clothing\".",
+  "tagline": "Second-hand fashion marketplace in Europe."
 }

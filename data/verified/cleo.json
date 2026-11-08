@@ -43,6 +43,16 @@
       "field": "valuation",
       "url": "https://www.uktech.news/fintech/gen-z-cleo-series-c-20220629",
       "quote": "has raised $80m (£65.8m) at a $500m valuation"
+    },
+    {
+      "field": "tagline",
+      "url": "https://www.bolsamania.com/nota-de-prensa/mercados/cleo-brings-ai-powered-money-management-back-to-the-uk--21616424.html",
+      "quote": "Cleo is the world's first AI financial assistant who transforms the complexity of money into simple, honest conversations."
+    },
+    {
+      "field": "tagline",
+      "url": "https://www.bolsamania.com/nota-de-prensa/mercados/cleo-brings-ai-powered-money-management-back-to-the-uk--21616424.html",
+      "quote": "She remembers spending patterns, predicts needs, and delivers radically personalized guidance through budgeting, saving, credit-building, and intelligent money coaching."
     }
   ],
   "rounds": [
@@ -233,5 +243,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "AI financial assistant for budgeting, saving, credit-building and money coaching."
 }

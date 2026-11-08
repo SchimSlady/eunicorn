@@ -34,6 +34,11 @@
       "field": "valuation",
       "url": "https://pulse2.com/ppro-180-million-funding-and-valuation-of-over-1-billion",
       "quote": "Now PPRO’s valuation is over $1 billion."
+    },
+    {
+      "field": "tagline",
+      "url": "https://thepaypers.com/payments/company-information/ppro",
+      "quote": "PPRO is a fintech that provides digital payment solutions to businesses and banks so they can scale local payment services through one connection."
     }
   ],
   "rounds": [
@@ -131,5 +136,6 @@
       ]
     }
   ],
-  "lastValuationEur": 824000000
+  "lastValuationEur": 824000000,
+  "tagline": "Fintech providing digital payment solutions to businesses and banks."
 }

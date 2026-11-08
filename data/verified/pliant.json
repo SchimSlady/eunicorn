@@ -11,7 +11,12 @@
   ],
   "status": "private",
   "unicorn": false,
-  "founders": [],
+  "founders": [
+    "Dean Sheppard",
+    "Bill DeGrado",
+    "Hal Chapman",
+    "Bradley Backes"
+  ],
   "difficulty": 4,
   "techeuId": "A5308401-83B7-4940-8439-F28FC311F370",
   "sources": [
@@ -29,6 +34,16 @@
       "field": "sectors",
       "url": "https://getpliant.com/en/press/series-b",
       "quote": "a European fintech specializing in B2B payment solutions"
+    },
+    {
+      "field": "founders",
+      "url": "https://www.biocentury.com/article/271432/third-rock-fibrosis-play-debuts-with-45m",
+      "quote": "Pliant's four founders are professors at the University of California San Francisco. They include Dean Sheppard, Bill DeGrado, Hal Chapman and Bradley Backes."
+    },
+    {
+      "field": "tagline",
+      "url": "https://www.getpliant.com",
+      "quote": "Pliant ist die Kreditkartenplattform, die es Unternehmen ermöglicht, ihre Zahlungsprozesse zu optimieren"
     }
   ],
   "rounds": [
@@ -203,5 +218,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tagline": "Credit card platform that enables companies to optimize their payment processes."
 }

@@ -61,6 +61,11 @@
       "field": "programs",
       "url": "https://www.cdtm.com/startups/orbem",
       "quote": "CDTM founders Pedro Gómez Class of Spring 2014"
+    },
+    {
+      "field": "tagline",
+      "url": "https://orbem.ai/about",
+      "quote": "We use AI-powered MRI to provide innovators with actionable intelligence."
     }
   ],
   "rounds": [
@@ -158,5 +163,6 @@
     {
       "id": "cdtm"
     }
-  ]
+  ],
+  "tagline": "Company that uses AI-powered MRI technology."
 }
