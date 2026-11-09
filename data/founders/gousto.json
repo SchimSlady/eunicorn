@@ -1,0 +1,31 @@
+{
+  "id": "gousto",
+  "founders": [
+    {
+      "name": "Timo Boldt",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Rothschild",
+          "orgCanonical": "Rothschild & Co",
+          "source": "https://startups.co.uk/news/the-story-of-gousto-meal-kits/",
+          "quote": "as an analyst for financial advisory group Rothschild",
+          "role": "Analyst"
+        },
+        {
+          "kind": "employer",
+          "org": "Petrus Advisers",
+          "orgCanonical": "Petrus Advisers",
+          "source": "https://startups.co.uk/news/the-story-of-gousto-meal-kits/",
+          "quote": "a VP position at hedge fund, Petrus Advisers",
+          "role": "VP"
+        }
+      ]
+    },
+    {
+      "name": "James Carter",
+      "note": "no public background found",
+      "stations": []
+    }
+  ]
+}

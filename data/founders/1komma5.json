@@ -1,0 +1,34 @@
+{
+  "id": "1komma5",
+  "founders": [
+    {
+      "name": "Philipp Schröder",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Tesla",
+          "orgCanonical": "Tesla",
+          "role": "Country Manager Germany and Austria",
+          "source": "https://www.boersen-zeitung.de/personen/philipp-schroeder-denkt-gross-mit-1komma5",
+          "quote": "nach einer zweijährigen Tätigkeit als Country Manager bei Tesla in Deutschland und Österreich"
+        },
+        {
+          "kind": "employer",
+          "org": "Sonnen",
+          "orgCanonical": "sonnen",
+          "source": "https://www.boersen-zeitung.de/personen/philipp-schroeder-denkt-gross-mit-1komma5",
+          "quote": "Batteriespeicherhersteller Sonnen"
+        },
+        {
+          "kind": "education",
+          "org": "Universität St. Gallen",
+          "orgCanonical": "University of St. Gallen",
+          "role": "Renewable Energy Management",
+          "years": "2012-2014",
+          "source": "https://www.boersen-zeitung.de/personen/philipp-schroeder-denkt-gross-mit-1komma5",
+          "quote": "an der Universität St. Gallen einen Abschluss in Renewable Energy Management erwarb"
+        }
+      ]
+    }
+  ]
+}

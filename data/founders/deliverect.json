@@ -1,0 +1,33 @@
+{
+  "id": "deliverect",
+  "founders": [
+    {
+      "name": "Zhong Xu",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "EVS Broadcast",
+          "orgCanonical": "EVS Broadcast",
+          "role": "Senior engineer",
+          "source": "https://foodondemand.com/09112024/zhong-xu-ceo-co-founder-deliverect/",
+          "quote": "Zhong later served as a senior engineer at EVS Broadcast"
+        }
+      ]
+    },
+    {
+      "name": "Jan Hollez",
+      "note": "no public background found in non-aggregator sources",
+      "stations": []
+    },
+    {
+      "name": "Jelte Vrijhoef",
+      "note": "no public background found in non-aggregator sources",
+      "stations": []
+    },
+    {
+      "name": "Jerome Laredo",
+      "note": "no public background found in non-aggregator sources",
+      "stations": []
+    }
+  ]
+}

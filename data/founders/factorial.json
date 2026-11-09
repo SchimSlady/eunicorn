@@ -1,0 +1,27 @@
+{
+  "id": "factorial",
+  "founders": [
+    {
+      "name": "Jordi Romero",
+      "stations": [
+        {
+          "kind": "founded",
+          "org": "Teambox",
+          "orgCanonical": "Teambox",
+          "source": "https://techround.co.uk/interviews/meet-jordi-romero-co-founder-and-ceo-at-hr-software-factorial/",
+          "quote": "In 2013, I founded my first startup, Teambox"
+        }
+      ]
+    },
+    {
+      "name": "Pau Ramon",
+      "note": "no public background found",
+      "stations": []
+    },
+    {
+      "name": "Bernat Farrero",
+      "note": "Itnig mentioned only in third-party text; pages with bio unreachable",
+      "stations": []
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "payhawk",
+  "founders": [
+    {
+      "name": "Boyko Karadzhov",
+      "note": "Telerik only in search snippets, no fetched page confirmed it",
+      "stations": []
+    },
+    {
+      "name": "Hristo Borisov",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Telerik",
+          "orgCanonical": "Telerik",
+          "role": "Software Developer to Director of Product Management",
+          "source": "https://albaniatech.org/payhawk-is-officially-bulgarias-first-unicorn/",
+          "quote": "Borisov spent more than 10 years in the software company for developer tools Telerik"
+        }
+      ]
+    }
+  ]
+}

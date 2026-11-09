@@ -1,0 +1,50 @@
+{
+  "id": "arrival",
+  "founders": [
+    {
+      "name": "Denis Sverdlov",
+      "stations": [
+        {
+          "kind": "founded",
+          "org": "IT Vision",
+          "orgCanonical": "IT Vision",
+          "source": "https://en.wikipedia.org/wiki/Denis_Sverdlov",
+          "quote": "Sverdlov founded IT Vision"
+        },
+        {
+          "kind": "founded",
+          "org": "Korus Consulting",
+          "orgCanonical": "Korus Consulting",
+          "years": "2003-2007",
+          "source": "https://en.wikipedia.org/wiki/Denis_Sverdlov",
+          "quote": "co-founder and managing partner of Korus Consulting"
+        },
+        {
+          "kind": "exit",
+          "org": "Yota",
+          "orgCanonical": "Yota",
+          "role": "Co-founder and CEO; acquirer MegaFon",
+          "years": "2012",
+          "source": "https://en.wikipedia.org/wiki/Denis_Sverdlov",
+          "quote": "until its acquisition by MegaFon in 2012"
+        },
+        {
+          "kind": "employer",
+          "org": "Russian Ministry of Digital Development, Communications and Mass Media",
+          "orgCanonical": "Russian Ministry of Communications",
+          "role": "Deputy minister",
+          "years": "2012-2013",
+          "source": "https://en.wikipedia.org/wiki/Denis_Sverdlov",
+          "quote": "he was Russia's deputy minister for communications and mass media"
+        },
+        {
+          "kind": "education",
+          "org": "Saint Petersburg State University of Engineering and Economics",
+          "orgCanonical": "Saint Petersburg State University of Engineering and Economics",
+          "source": "https://en.wikipedia.org/wiki/Denis_Sverdlov",
+          "quote": "He has a degree in economics from Saint Petersburg State University of Engineering and Economics"
+        }
+      ]
+    }
+  ]
+}

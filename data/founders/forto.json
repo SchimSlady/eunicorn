@@ -1,0 +1,28 @@
+{
+  "id": "forto",
+  "founders": [
+    {
+      "name": "Michael Wax",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "BMW",
+          "orgCanonical": "BMW",
+          "role": "Trainee",
+          "source": "https://omr.com/de/daily/michael-wax",
+          "quote": "den Weg vom BMW-Trainee zum Logistik-Gründer"
+        }
+      ]
+    },
+    {
+      "name": "Erik Muttersbach",
+      "note": "no public background found",
+      "stations": []
+    },
+    {
+      "name": "Fabian Heilemann",
+      "note": "no public background found",
+      "stations": []
+    }
+  ]
+}

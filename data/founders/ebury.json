@@ -1,0 +1,46 @@
+{
+  "id": "ebury",
+  "founders": [
+    {
+      "name": "Juan Lobato",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "McKinsey & Company",
+          "orgCanonical": "McKinsey",
+          "source": "https://huffingtonpost.co.uk/author/juan-lobato",
+          "quote": "Juan started off his career at the London office of global management consultancy McKinsey & Company"
+        },
+        {
+          "kind": "founded",
+          "org": "BEAM.TV",
+          "orgCanonical": "BEAM.TV",
+          "source": "https://huffingtonpost.co.uk/author/juan-lobato",
+          "quote": "Juan built and managed BEAM.TV, a digital distribution network for advertising"
+        },
+        {
+          "kind": "exit",
+          "org": "BEAM.TV",
+          "orgCanonical": "BEAM.TV",
+          "role": "Sold to Carlyle European Technology Fund",
+          "years": "2008",
+          "source": "https://huffingtonpost.co.uk/author/juan-lobato",
+          "quote": "was sold to the Carlyle European Technology Fund in early 2008"
+        },
+        {
+          "kind": "employer",
+          "org": "BaseKit",
+          "orgCanonical": "BaseKit",
+          "role": "CEO",
+          "source": "https://huffingtonpost.co.uk/author/juan-lobato",
+          "quote": "Juan Lobato, CEO of BaseKit"
+        }
+      ]
+    },
+    {
+      "name": "Salvador García Andres",
+      "note": "no public background found in non-aggregator sources",
+      "stations": []
+    }
+  ]
+}

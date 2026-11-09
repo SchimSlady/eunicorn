@@ -1,0 +1,31 @@
+{
+  "id": "coachhub",
+  "founders": [
+    {
+      "name": "Matti Niebelschuetz",
+      "note": "No employer or education station found in fetchable non-aggregator sources",
+      "stations": [
+        {
+          "kind": "founded",
+          "org": "MyParfum",
+          "orgCanonical": "MyParfum",
+          "source": "https://www.deutsche-startups.de/2019/09/04/coachhub-mitarbeiter/",
+          "quote": "den Seriengründern Yannis und Matti Niebelschütz (MyParfüm)"
+        }
+      ]
+    },
+    {
+      "name": "Yannis Niebelschuetz",
+      "note": "No employer or education station found",
+      "stations": [
+        {
+          "kind": "founded",
+          "org": "MyParfum",
+          "orgCanonical": "MyParfum",
+          "source": "https://www.deutsche-startups.de/2019/09/04/coachhub-mitarbeiter/",
+          "quote": "den Seriengründern Yannis und Matti Niebelschütz (MyParfüm)"
+        }
+      ]
+    }
+  ]
+}

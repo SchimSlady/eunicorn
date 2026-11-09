@@ -1,0 +1,43 @@
+{
+  "id": "climeworks",
+  "founders": [
+    {
+      "name": "Jan Wurzbacher",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "ETH Zurich",
+          "orgCanonical": "ETH Zurich",
+          "source": "https://en.wikipedia.org/wiki/Climeworks",
+          "quote": "Climeworks was founded as a spin-off from ETH Zurich."
+        },
+        {
+          "kind": "education",
+          "org": "University of New South Wales",
+          "orgCanonical": "UNSW",
+          "source": "https://helena.org/members/christoph-gebald-and-jan-wurzbacher",
+          "quote": "Jan attended the University of New South Wales"
+        }
+      ]
+    },
+    {
+      "name": "Christoph Gebald",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "ETH Zurich",
+          "orgCanonical": "ETH Zurich",
+          "source": "https://helena.org/members/christoph-gebald-and-jan-wurzbacher",
+          "quote": "before receiving an MSc with distinction and a Ph.D. from ETH Zürich"
+        },
+        {
+          "kind": "education",
+          "org": "UC Berkeley",
+          "orgCanonical": "UC Berkeley",
+          "source": "https://helena.org/members/christoph-gebald-and-jan-wurzbacher",
+          "quote": "Christoph attended UC Berkeley"
+        }
+      ]
+    }
+  ]
+}

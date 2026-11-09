@@ -1,0 +1,91 @@
+{
+  "id": "bending-spoons",
+  "founders": [
+    {
+      "name": "Luca Ferrari",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "McKinsey & Co",
+          "orgCanonical": "McKinsey",
+          "role": "Associate",
+          "source": "https://www.thestar.com.my/business/business-news/2026/07/11/from-college-pals-to-billionaires",
+          "quote": "Ferrari briefly worked as an associate at McKinsey & Co to help pay the bills"
+        },
+        {
+          "kind": "education",
+          "org": "Technical University of Denmark",
+          "orgCanonical": "DTU",
+          "role": "MSc Telecommunications Engineering",
+          "source": "https://www.thestar.com.my/business/business-news/2026/07/11/from-college-pals-to-billionaires",
+          "quote": "The four Italians all hold Master of Science degrees in Telecommunications Engineering from the Technical University of Denmark"
+        },
+        {
+          "kind": "founded",
+          "org": "Evertale",
+          "orgCanonical": "Evertale",
+          "source": "https://www.thestar.com.my/business/business-news/2026/07/11/from-college-pals-to-billionaires",
+          "quote": "Their self-writing diary called Evertale failed a couple of years later."
+        }
+      ]
+    },
+    {
+      "name": "Francesco Patarnello",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "Technical University of Denmark",
+          "orgCanonical": "DTU",
+          "role": "MSc Telecommunications Engineering",
+          "source": "https://www.thestar.com.my/business/business-news/2026/07/11/from-college-pals-to-billionaires",
+          "quote": "The four Italians all hold Master of Science degrees in Telecommunications Engineering from the Technical University of Denmark"
+        },
+        {
+          "kind": "founded",
+          "org": "Evertale",
+          "orgCanonical": "Evertale",
+          "source": "https://www.thestar.com.my/business/business-news/2026/07/11/from-college-pals-to-billionaires",
+          "quote": "Their self-writing diary called Evertale failed a couple of years later."
+        }
+      ]
+    },
+    {
+      "name": "Matteo Danieli",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "Technical University of Denmark",
+          "orgCanonical": "DTU",
+          "role": "MSc Telecommunications Engineering",
+          "source": "https://www.thestar.com.my/business/business-news/2026/07/11/from-college-pals-to-billionaires",
+          "quote": "The four Italians all hold Master of Science degrees in Telecommunications Engineering from the Technical University of Denmark"
+        },
+        {
+          "kind": "founded",
+          "org": "Evertale",
+          "orgCanonical": "Evertale",
+          "source": "https://www.thestar.com.my/business/business-news/2026/07/11/from-college-pals-to-billionaires",
+          "quote": "Their self-writing diary called Evertale failed a couple of years later."
+        }
+      ]
+    },
+    {
+      "name": "Luca Querella",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "Technical University of Denmark",
+          "orgCanonical": "DTU",
+          "role": "MSc Telecommunications Engineering",
+          "source": "https://www.thestar.com.my/business/business-news/2026/07/11/from-college-pals-to-billionaires",
+          "quote": "The four Italians all hold Master of Science degrees in Telecommunications Engineering from the Technical University of Denmark"
+        }
+      ]
+    },
+    {
+      "name": "Tomasz Greber",
+      "note": "Named only as an early team member, not a shareholder; no public background found",
+      "stations": []
+    }
+  ]
+}

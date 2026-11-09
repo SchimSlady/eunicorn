@@ -1,0 +1,51 @@
+{
+  "id": "made-com",
+  "founders": [
+    {
+      "name": "Ning Li",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "HEC",
+          "orgCanonical": "HEC Paris",
+          "source": "https://hecstories.fr/en/ning-li-h-06-itineraire-dun-business-man/",
+          "quote": "he joined the preparatory classes at Lycée Louis-le-Grand before entering HEC"
+        },
+        {
+          "kind": "founded",
+          "org": "MyFab",
+          "orgCanonical": "MyFab",
+          "source": "https://hecstories.fr/en/ning-li-h-06-itineraire-dun-business-man/",
+          "quote": "together with Stéphane Setbon (H.01), he co-founded MyFab, a flash-sales website inspired by Venteprivée.com"
+        }
+      ]
+    },
+    {
+      "name": "Brent Hoberman",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "New College, Oxford",
+          "orgCanonical": "University of Oxford",
+          "source": "https://en.wikipedia.org/wiki/Brent_Hoberman",
+          "quote": "He subsequently read Modern Languages at New College, Oxford"
+        },
+        {
+          "kind": "founded",
+          "org": "lastminute.com",
+          "orgCanonical": "lastminute.com",
+          "source": "https://en.wikipedia.org/wiki/Brent_Hoberman",
+          "quote": "he co-founded lastminute.com with Martha Lane Fox in 1998, where he was CEO from its inception"
+        },
+        {
+          "kind": "exit",
+          "org": "lastminute.com",
+          "orgCanonical": "lastminute.com",
+          "role": "sold to Sabre",
+          "source": "https://en.wikipedia.org/wiki/Brent_Hoberman",
+          "quote": "before selling the business to Sabre in 2005 for $1.1bn"
+        }
+      ]
+    }
+  ]
+}

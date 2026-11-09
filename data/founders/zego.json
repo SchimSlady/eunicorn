@@ -1,0 +1,56 @@
+{
+  "id": "zego",
+  "founders": [
+    {
+      "name": "Harry Franks",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Onefinestay",
+          "orgCanonical": "onefinestay",
+          "source": "https://insurtechdigital.com/articles/sten-saar-the-entrepreneur-who-built-a-us-1bn-insurtech",
+          "quote": "All three had previously been at Onefinestay together."
+        },
+        {
+          "kind": "employer",
+          "org": "Deliveroo",
+          "orgCanonical": "Deliveroo",
+          "role": "Global Head of Procurement",
+          "source": "https://insurtechdigital.com/articles/sten-saar-the-entrepreneur-who-built-a-us-1bn-insurtech",
+          "quote": "Franks had also made the move across from Deliveroo, leaving his role as Global Head of Procurement"
+        }
+      ]
+    },
+    {
+      "name": "Sten Saar",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Onefinestay",
+          "orgCanonical": "onefinestay",
+          "source": "https://insurtechdigital.com/articles/sten-saar-the-entrepreneur-who-built-a-us-1bn-insurtech",
+          "quote": "All three had previously been at Onefinestay together."
+        },
+        {
+          "kind": "employer",
+          "org": "Deliveroo",
+          "orgCanonical": "Deliveroo",
+          "source": "https://insurtechdigital.com/articles/sten-saar-the-entrepreneur-who-built-a-us-1bn-insurtech",
+          "quote": "He got the idea for Zego while working at Deliveroo during its searing growth."
+        }
+      ]
+    },
+    {
+      "name": "Stuart Kelly",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Onefinestay",
+          "orgCanonical": "onefinestay",
+          "source": "https://insurtechdigital.com/articles/sten-saar-the-entrepreneur-who-built-a-us-1bn-insurtech",
+          "quote": "All three had previously been at Onefinestay together."
+        }
+      ]
+    }
+  ]
+}

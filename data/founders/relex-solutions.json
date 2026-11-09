@@ -1,0 +1,48 @@
+{
+  "id": "relex-solutions",
+  "founders": [
+    {
+      "name": "Mikko Kärkkäinen",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Helsinki University of Technology",
+          "orgCanonical": "Aalto University",
+          "source": "https://www.relexsolutions.com/news/relex-receives-the-internationalisation-award-of-the-president-of-the-republic-of-finland/",
+          "quote": "founded in 2005 by three researchers at the Helsinki University of Technology, Michael Falck, Mikko Kärkkäinen, and Johanna Småros"
+        }
+      ]
+    },
+    {
+      "name": "Johanna Småros",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Helsinki University of Technology",
+          "orgCanonical": "Aalto University",
+          "source": "https://www.relexsolutions.com/people/johanna-smaros",
+          "quote": "starting her career as a researches at Helsinki University of Technology"
+        }
+      ]
+    },
+    {
+      "name": "Michael Falck",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "Helsinki University of Technology",
+          "orgCanonical": "Aalto University",
+          "source": "https://www.relexsolutions.com/people/michael-falck",
+          "quote": "where he also holds an M.Sc. in Industrial Engineering"
+        },
+        {
+          "kind": "employer",
+          "org": "Helsinki University of Technology",
+          "orgCanonical": "Aalto University",
+          "source": "https://www.relexsolutions.com/news/relex-receives-the-internationalisation-award-of-the-president-of-the-republic-of-finland/",
+          "quote": "founded in 2005 by three researchers at the Helsinki University of Technology, Michael Falck, Mikko Kärkkäinen, and Johanna Småros"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "parloa",
+  "founders": [
+    {
+      "name": "Malte Kosub",
+      "stations": [
+        {
+          "kind": "founded",
+          "org": "Future of Voice",
+          "orgCanonical": "Future of Voice",
+          "years": "2016",
+          "source": "https://pulse2.com/parloa-profile-malte-kosub-interview/",
+          "quote": "In 2016, I co-founded Future of Voice, a conversational AI consulting agency, with Stefan Ostwald"
+        }
+      ]
+    },
+    {
+      "name": "Stefan Ostwald",
+      "stations": [
+        {
+          "kind": "founded",
+          "org": "Future of Voice",
+          "orgCanonical": "Future of Voice",
+          "years": "2016",
+          "source": "https://pulse2.com/parloa-profile-malte-kosub-interview/",
+          "quote": "In 2016, I co-founded Future of Voice, a conversational AI consulting agency, with Stefan Ostwald"
+        }
+      ]
+    }
+  ]
+}

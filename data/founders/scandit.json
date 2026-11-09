@@ -1,0 +1,87 @@
+{
+  "id": "scandit",
+  "founders": [
+    {
+      "name": "Samuel Mueller",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "ETH Zurich",
+          "orgCanonical": "ETH Zurich",
+          "source": "https://en.wikipedia.org/wiki/Scandit",
+          "quote": "met as doctoral students studying at ETH Zurich"
+        },
+        {
+          "kind": "education",
+          "org": "University of Zurich",
+          "orgCanonical": "University of Zurich",
+          "source": "https://pulse2.com/scandit-profile-samuel-mueller-interview/amp/",
+          "quote": "two master’s degrees in Computer Science and Financial Economics, respectively, from the University of Zurich"
+        },
+        {
+          "kind": "employer",
+          "org": "Swiss Airlines",
+          "orgCanonical": "Swiss Airlines",
+          "role": "management consultant and project leader",
+          "source": "https://pulse2.com/scandit-profile-samuel-mueller-interview/amp/",
+          "quote": "I worked as a management consultant and project leader for Swiss Airlines and Swiss Re"
+        },
+        {
+          "kind": "employer",
+          "org": "Swiss Re",
+          "orgCanonical": "Swiss Re",
+          "role": "management consultant and project leader",
+          "source": "https://pulse2.com/scandit-profile-samuel-mueller-interview/amp/",
+          "quote": "I worked as a management consultant and project leader for Swiss Airlines and Swiss Re"
+        },
+        {
+          "kind": "employer",
+          "org": "IBM Zurich Research Lab",
+          "orgCanonical": "IBM Research",
+          "role": "researcher",
+          "source": "https://pulse2.com/scandit-profile-samuel-mueller-interview/amp/",
+          "quote": "researcher at the IBM Zurich Research Lab"
+        }
+      ]
+    },
+    {
+      "name": "Christian Floerkemeier",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "ETH Zurich",
+          "orgCanonical": "ETH Zurich",
+          "source": "https://en.wikipedia.org/wiki/Scandit",
+          "quote": "met as doctoral students studying at ETH Zurich"
+        },
+        {
+          "kind": "employer",
+          "org": "MIT Auto-ID Lab",
+          "orgCanonical": "MIT",
+          "role": "Associate Director",
+          "source": "https://www.scandit.com/authors/christian-floerkemeier/",
+          "quote": "Before founding Scandit, Christian was the Associate Director of the Auto-ID Lab at MIT"
+        },
+        {
+          "kind": "founded",
+          "org": "Fosstrak",
+          "orgCanonical": "Fosstrak",
+          "source": "https://www.scandit.com/authors/christian-floerkemeier/",
+          "quote": "He also co-founded Fosstrak, the leading open-source RFID software platform."
+        }
+      ]
+    },
+    {
+      "name": "Christof Roduner",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "ETH Zurich",
+          "orgCanonical": "ETH Zurich",
+          "source": "https://en.wikipedia.org/wiki/Scandit",
+          "quote": "met as doctoral students studying at ETH Zurich"
+        }
+      ]
+    }
+  ]
+}

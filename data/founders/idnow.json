@@ -1,0 +1,81 @@
+{
+  "id": "idnow",
+  "founders": [
+    {
+      "name": "Felix Haas",
+      "stations": [
+        {
+          "kind": "founded",
+          "org": "amiando",
+          "orgCanonical": "amiando",
+          "source": "https://www.munich-startup.de/30225/portraet-idnow/",
+          "quote": "ihre 2006 gegründete Ticketing-Firma amiando hatten sie 2011 für mehr als 10 Millionen Euro an Xing verkauft."
+        },
+        {
+          "kind": "exit",
+          "org": "amiando (sold to Xing)",
+          "orgCanonical": "amiando",
+          "source": "https://www.munich-startup.de/30225/portraet-idnow/",
+          "quote": "ihre 2006 gegründete Ticketing-Firma amiando hatten sie 2011 für mehr als 10 Millionen Euro an Xing verkauft."
+        }
+      ]
+    },
+    {
+      "name": "Armin Bauer",
+      "stations": [
+        {
+          "kind": "founded",
+          "org": "amiando",
+          "orgCanonical": "amiando",
+          "source": "https://www.munich-startup.de/30225/portraet-idnow/",
+          "quote": "ihre 2006 gegründete Ticketing-Firma amiando hatten sie 2011 für mehr als 10 Millionen Euro an Xing verkauft."
+        },
+        {
+          "kind": "exit",
+          "org": "amiando (sold to Xing)",
+          "orgCanonical": "amiando",
+          "source": "https://www.munich-startup.de/30225/portraet-idnow/",
+          "quote": "ihre 2006 gegründete Ticketing-Firma amiando hatten sie 2011 für mehr als 10 Millionen Euro an Xing verkauft."
+        }
+      ]
+    },
+    {
+      "name": "Dennis von Ferenczy",
+      "stations": [
+        {
+          "kind": "founded",
+          "org": "amiando",
+          "orgCanonical": "amiando",
+          "source": "https://www.munich-startup.de/30225/portraet-idnow/",
+          "quote": "ihre 2006 gegründete Ticketing-Firma amiando hatten sie 2011 für mehr als 10 Millionen Euro an Xing verkauft."
+        },
+        {
+          "kind": "exit",
+          "org": "amiando (sold to Xing)",
+          "orgCanonical": "amiando",
+          "source": "https://www.munich-startup.de/30225/portraet-idnow/",
+          "quote": "ihre 2006 gegründete Ticketing-Firma amiando hatten sie 2011 für mehr als 10 Millionen Euro an Xing verkauft."
+        }
+      ]
+    },
+    {
+      "name": "Sebastian Bärhold",
+      "stations": [
+        {
+          "kind": "founded",
+          "org": "amiando",
+          "orgCanonical": "amiando",
+          "source": "https://www.munich-startup.de/30225/portraet-idnow/",
+          "quote": "ihre 2006 gegründete Ticketing-Firma amiando hatten sie 2011 für mehr als 10 Millionen Euro an Xing verkauft."
+        },
+        {
+          "kind": "exit",
+          "org": "amiando (sold to Xing)",
+          "orgCanonical": "amiando",
+          "source": "https://www.munich-startup.de/30225/portraet-idnow/",
+          "quote": "ihre 2006 gegründete Ticketing-Firma amiando hatten sie 2011 für mehr als 10 Millionen Euro an Xing verkauft."
+        }
+      ]
+    }
+  ]
+}

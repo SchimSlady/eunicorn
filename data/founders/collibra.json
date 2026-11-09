@@ -1,0 +1,32 @@
+{
+  "id": "collibra",
+  "founders": [
+    {
+      "name": "Felix Van de Maele",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Vrije Universiteit Brussel (STARLab)",
+          "orgCanonical": "Vrije Universiteit Brussel",
+          "role": "Researcher",
+          "source": "https://live.worldbank.org/experts/felix-van-de-maele",
+          "quote": "he served as a researcher at the Semantics Technology and Applications Research Laboratory (STARLab) at the Vrije Universiteit Brussels"
+        },
+        {
+          "kind": "education",
+          "org": "Vrije Universiteit Brussel",
+          "orgCanonical": "Vrije Universiteit Brussel",
+          "source": "https://live.worldbank.org/experts/felix-van-de-maele",
+          "quote": "He holds a master’s in Computer Science and Software Engineering from the Vrije Universiteit Brussel"
+        },
+        {
+          "kind": "education",
+          "org": "Vlerick Business School",
+          "orgCanonical": "Vlerick Business School",
+          "source": "https://live.worldbank.org/experts/felix-van-de-maele",
+          "quote": "a master's in General Management from the Vlerick Business School"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "marvel-fusion",
+  "founders": [
+    {
+      "name": "Moritz von der Linden",
+      "stations": [
+        {
+          "kind": "founded",
+          "org": "360 Treasury Systems",
+          "orgCanonical": "360 Treasury Systems",
+          "source": "https://www.marvelfusion.com/about-us/",
+          "quote": "Founded 360 Treasury Systems AG (acquired by Deutsche Börse, 2015)."
+        },
+        {
+          "kind": "exit",
+          "org": "360 Treasury Systems",
+          "orgCanonical": "360 Treasury Systems",
+          "role": "acquired by Deutsche Börse",
+          "years": "2015",
+          "source": "https://www.marvelfusion.com/about-us/",
+          "quote": "Founded 360 Treasury Systems AG (acquired by Deutsche Börse, 2015)."
+        },
+        {
+          "kind": "founded",
+          "org": "CRX Markets",
+          "orgCanonical": "CRX Markets",
+          "source": "https://www.marvelfusion.com/about-us/",
+          "quote": "Co-founded CRX Markets, Europe's leading working capital marketplace."
+        }
+      ]
+    },
+    {
+      "name": "Karl-Georg Schlesinger",
+      "note": "no company-page bio found",
+      "stations": []
+    },
+    {
+      "name": "Georg Korn",
+      "note": "no company-page bio found",
+      "stations": []
+    },
+    {
+      "name": "Pasha Shabalin",
+      "note": "no company-page bio found",
+      "stations": []
+    }
+  ]
+}

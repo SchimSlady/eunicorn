@@ -1,0 +1,34 @@
+{
+  "id": "satispay",
+  "founders": [
+    {
+      "name": "Alberto Dalmasso",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "Università di Torino",
+          "orgCanonical": "University of Turin",
+          "source": "https://quifinanza.it/personaggi/alberto-dalmasso/",
+          "quote": "Dopo la laurea in Economia all’Università di Torino"
+        },
+        {
+          "kind": "employer",
+          "org": "Ersel",
+          "orgCanonical": "Ersel",
+          "source": "https://quifinanza.it/personaggi/alberto-dalmasso/",
+          "quote": "Successivamente entra in Ersel (private banking e asset management), occupandosi per tre anni di Marketing & Business Development"
+        }
+      ]
+    },
+    {
+      "name": "Dario Brignone",
+      "note": "no public background found in checkable sources",
+      "stations": []
+    },
+    {
+      "name": "Samuele Pinta",
+      "note": "no public background found in checkable sources",
+      "stations": []
+    }
+  ]
+}

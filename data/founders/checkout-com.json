@@ -1,0 +1,39 @@
+{
+  "id": "checkout-com",
+  "founders": [
+    {
+      "name": "Guillaume Pousaz",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "École Polytechnique Fédérale de Lausanne",
+          "orgCanonical": "EPFL",
+          "source": "https://en.wikipedia.org/wiki/Guillaume_Pousaz",
+          "quote": "studied mathematical engineering at École Polytechnique Fédérale de Lausanne"
+        },
+        {
+          "kind": "education",
+          "org": "HEC Lausanne",
+          "orgCanonical": "HEC Lausanne",
+          "source": "https://en.wikipedia.org/wiki/Guillaume_Pousaz",
+          "quote": "enrolling in an economics bachelor's degree at HEC Lausanne"
+        },
+        {
+          "kind": "employer",
+          "org": "International Payments Consultants",
+          "orgCanonical": "International Payments Consultants",
+          "years": "2006",
+          "source": "https://en.wikipedia.org/wiki/Guillaume_Pousaz",
+          "quote": "In 2006, Pousaz joined payments company International Payments Consultants (IPC)."
+        },
+        {
+          "kind": "founded",
+          "org": "NetMerchant",
+          "orgCanonical": "NetMerchant",
+          "source": "https://en.wikipedia.org/wiki/Guillaume_Pousaz",
+          "quote": "He then co-founded NetMerchant, a US to Europe money transfer service, with IPC's head of sales."
+        }
+      ]
+    }
+  ]
+}

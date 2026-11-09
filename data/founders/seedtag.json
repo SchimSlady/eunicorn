@@ -1,0 +1,46 @@
+{
+  "id": "seedtag",
+  "founders": [
+    {
+      "name": "Albert Nieto",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Google",
+          "orgCanonical": "Google",
+          "source": "https://www.xataka.com/pro/que-seedtag-empresa-espanola-fundada-dos-ex-google-que-acaba-recibir-40-millones-financiacion",
+          "quote": "Fundada por dos ex Google"
+        }
+      ]
+    },
+    {
+      "name": "Jorge Poyatos",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Sacyr",
+          "orgCanonical": "Sacyr",
+          "source": "https://events.ie.edu/other-events/event/brainfood-madrid-con-jorge-poyatos",
+          "quote": "went on to work for an oil refinery with Sacyr"
+        },
+        {
+          "kind": "employer",
+          "org": "Oliver Wyman",
+          "orgCanonical": "Oliver Wyman",
+          "role": "management consultant",
+          "source": "https://events.ie.edu/other-events/event/brainfood-madrid-con-jorge-poyatos",
+          "quote": "before joining Oliver Wyman as management consultant"
+        },
+        {
+          "kind": "employer",
+          "org": "Google",
+          "orgCanonical": "Google",
+          "role": "analyst",
+          "years": "2012-",
+          "source": "https://events.ie.edu/other-events/event/brainfood-madrid-con-jorge-poyatos",
+          "quote": "In 2012 Jorge joined the analyst team at Google"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "picnic",
+  "founders": [
+    {
+      "name": "Michiel Muller",
+      "note": "no public background found",
+      "stations": []
+    },
+    {
+      "name": "Joris Beckers",
+      "stations": [
+        {
+          "kind": "founded",
+          "org": "Fredhopper",
+          "orgCanonical": "Fredhopper",
+          "role": "owner",
+          "source": "https://nl.wikipedia.org/wiki/Picnic_%28supermarkt%29",
+          "quote": "internetondernemers Joris Beckers en Frederik Nieuwenhuys, die eigenaren waren van het bedrijf Fredhopper"
+        }
+      ]
+    },
+    {
+      "name": "Frederik Nieuwenhuys",
+      "stations": [
+        {
+          "kind": "founded",
+          "org": "Fredhopper",
+          "orgCanonical": "Fredhopper",
+          "role": "owner",
+          "source": "https://nl.wikipedia.org/wiki/Picnic_%28supermarkt%29",
+          "quote": "internetondernemers Joris Beckers en Frederik Nieuwenhuys, die eigenaren waren van het bedrijf Fredhopper"
+        }
+      ]
+    },
+    {
+      "name": "Bas Verheijen",
+      "note": "no public background found",
+      "stations": []
+    }
+  ]
+}

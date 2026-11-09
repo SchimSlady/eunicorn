@@ -1,0 +1,34 @@
+{
+  "id": "electra",
+  "founders": [
+    {
+      "name": "Aurélien de Meaux",
+      "stations": [
+        {
+          "kind": "founded",
+          "org": "Cheerz",
+          "orgCanonical": "Cheerz",
+          "source": "https://www.automobile-propre.com/articles/borne-charge-rapide-electra-ambitions-2027-aurelien-de-meaux/",
+          "quote": "Avant Electra, Aurélien de Meaux a cofondé Cheerz, une application d'impression photo lancée en 2012."
+        },
+        {
+          "kind": "exit",
+          "org": "Cheerz (80% sold to CEWE)",
+          "orgCanonical": "Cheerz",
+          "source": "https://www.automobile-propre.com/articles/borne-charge-rapide-electra-ambitions-2027-aurelien-de-meaux/",
+          "quote": "en cédant Cheerz au groupe allemand CEWE, qui en a racheté 80 % en 2018"
+        }
+      ]
+    },
+    {
+      "name": "Augustin Derville",
+      "note": "no public background found",
+      "stations": []
+    },
+    {
+      "name": "Julien Belliato",
+      "note": "only described as coming from the infrastructure world; no named employer found",
+      "stations": []
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "perk-formerly-travelperk",
+  "founders": [
+    {
+      "name": "Avi Meir",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Booking.com",
+          "orgCanonical": "Booking.com",
+          "source": "https://citybizlist.com/article/358814/spark-capital-leads-7m-series-a-for-travelperk/",
+          "quote": "co-founders Meir and Javier Suarez and their team previously worked at Booking.com, Hotel Ninjas (acquired by Booking.com), SkyScanner, and El Al Airlines"
+        }
+      ]
+    },
+    {
+      "name": "Javier Suarez",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Booking.com",
+          "orgCanonical": "Booking.com",
+          "source": "https://citybizlist.com/article/358814/spark-capital-leads-7m-series-a-for-travelperk/",
+          "quote": "co-founders Meir and Javier Suarez and their team previously worked at Booking.com, Hotel Ninjas (acquired by Booking.com), SkyScanner, and El Al Airlines"
+        }
+      ]
+    },
+    {
+      "name": "Ron Levin",
+      "note": "no public background found in allowed sources",
+      "stations": []
+    }
+  ]
+}

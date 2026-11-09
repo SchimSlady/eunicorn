@@ -1,0 +1,66 @@
+{
+  "id": "babylon",
+  "founders": [
+    {
+      "name": "Ali Parsa",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "University College London",
+          "orgCanonical": "UCL",
+          "source": "https://en.wikipedia.org/wiki/Ali_Parsa",
+          "quote": "he attended University College London (UCL), where he studied civil and environmental engineering"
+        },
+        {
+          "kind": "founded",
+          "org": "Victoria & Gilan",
+          "orgCanonical": "Victoria & Gilan",
+          "source": "https://en.wikipedia.org/wiki/Ali_Parsa",
+          "quote": "Parsa co-founded Victoria & Gilan (V&G)"
+        },
+        {
+          "kind": "exit",
+          "org": "Victoria & Gilan",
+          "orgCanonical": "Victoria & Gilan",
+          "years": "1995",
+          "source": "https://en.wikipedia.org/wiki/Ali_Parsa",
+          "quote": "Parsa sold V&G in 1995"
+        },
+        {
+          "kind": "employer",
+          "org": "Credit Suisse First Boston",
+          "orgCanonical": "Credit Suisse",
+          "role": "Investment banker",
+          "years": "1995-1997",
+          "source": "https://en.wikipedia.org/wiki/Ali_Parsa",
+          "quote": "to join Credit Suisse First Boston as an investment banker"
+        },
+        {
+          "kind": "employer",
+          "org": "Merrill Lynch",
+          "orgCanonical": "Merrill Lynch",
+          "years": "1997-1999",
+          "source": "https://en.wikipedia.org/wiki/Ali_Parsa",
+          "quote": "In 1997, he moved to Merrill Lynch"
+        },
+        {
+          "kind": "employer",
+          "org": "Goldman Sachs",
+          "orgCanonical": "Goldman Sachs",
+          "role": "Executive director",
+          "years": "1999-2001",
+          "source": "https://en.wikipedia.org/wiki/Ali_Parsa",
+          "quote": "Parsa continued at Goldman Sachs , where he was an executive director"
+        },
+        {
+          "kind": "founded",
+          "org": "Circle Health",
+          "orgCanonical": "Circle Health",
+          "years": "2004",
+          "source": "https://en.wikipedia.org/wiki/Ali_Parsa",
+          "quote": "Parsa set up Circle Health in 2004"
+        }
+      ]
+    }
+  ]
+}

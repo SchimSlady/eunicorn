@@ -1,0 +1,27 @@
+{
+  "id": "energy-vault",
+  "founders": [
+    {
+      "name": "Robert Piconi",
+      "note": "earlier healthcare imaging company mentioned but not named in a fetchable source",
+      "stations": []
+    },
+    {
+      "name": "Bill Gross",
+      "stations": [
+        {
+          "kind": "founded",
+          "org": "Idealab",
+          "orgCanonical": "Idealab",
+          "source": "https://www.swissinfo.ch/eng/climate-adaptation/high-oil-prices-could-boost-renewables-says-energy-vault-ceo/91272129",
+          "quote": "Bill Gross — founder of California-based Idealab"
+        }
+      ]
+    },
+    {
+      "name": "Andrea Pedretti",
+      "note": "no primary source fetched for earlier career (Airlight Energy only seen in aggregator snippets)",
+      "stations": []
+    }
+  ]
+}

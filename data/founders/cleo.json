@@ -1,0 +1,19 @@
+{
+  "id": "cleo",
+  "founders": [
+    {
+      "name": "Barnaby Hussey-Yeo",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Wonga",
+          "orgCanonical": "Wonga",
+          "role": "Data scientist",
+          "source": "https://zinancial.beehiiv.com/p/the-sassiest-fintech-ever",
+          "quote": "He previously used to work at Wonga",
+          "weakSource": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "backbase",
+  "founders": [
+    {
+      "name": "Jouk Pleiter",
+      "stations": [
+        {
+          "kind": "founded",
+          "org": "Tridion",
+          "orgCanonical": "Tridion",
+          "source": "https://www.cmswire.com/author/jouk-pleiter/",
+          "quote": "Mr. Pleiter was president and co-founder of Tridion"
+        },
+        {
+          "kind": "founded",
+          "org": "Twinspark Consultancy",
+          "orgCanonical": "Twinspark",
+          "source": "https://www.cmswire.com/author/jouk-pleiter/",
+          "quote": "Mr. Pleiter co-founded Twinspark Consultancy"
+        },
+        {
+          "kind": "education",
+          "org": "University of Groningen",
+          "orgCanonical": "University of Groningen",
+          "source": "https://www.cmswire.com/author/jouk-pleiter/",
+          "quote": "Master of Business Administration degree from the University of Groningen"
+        }
+      ]
+    },
+    {
+      "name": "Gerbert Kaandorp",
+      "stations": [
+        {
+          "kind": "founded",
+          "org": "Chaos Contained",
+          "orgCanonical": "Chaos Contained",
+          "role": "Director and founder",
+          "source": "https://www.computable.nl/?p=121086",
+          "quote": "Hij was directeur van het zelf opgerichte Chaos Contained"
+        }
+      ]
+    }
+  ]
+}

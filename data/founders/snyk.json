@@ -1,0 +1,103 @@
+{
+  "id": "snyk",
+  "founders": [
+    {
+      "name": "Guy Podjarny",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Akamai",
+          "orgCanonical": "Akamai",
+          "role": "CTO",
+          "source": "https://openuk.uk/profiles/guy-podjarny/",
+          "quote": "Guy was previously CTO at Akamai"
+        },
+        {
+          "kind": "founded",
+          "org": "Blaze.io",
+          "orgCanonical": "Blaze.io",
+          "source": "https://openuk.uk/profiles/guy-podjarny/",
+          "quote": "co-founded Blaze.io (acq by Akamai)"
+        },
+        {
+          "kind": "exit",
+          "org": "Blaze.io",
+          "orgCanonical": "Blaze.io",
+          "role": "acquired by Akamai",
+          "source": "https://openuk.uk/profiles/guy-podjarny/",
+          "quote": "co-founded Blaze.io (acq by Akamai)"
+        },
+        {
+          "kind": "employer",
+          "org": "Watchfire",
+          "orgCanonical": "Watchfire",
+          "source": "https://openuk.uk/profiles/guy-podjarny/",
+          "quote": "was acquired by Watchfire and then IBM when building the first AppSec products"
+        },
+        {
+          "kind": "employer",
+          "org": "IBM",
+          "orgCanonical": "IBM",
+          "source": "https://openuk.uk/profiles/guy-podjarny/",
+          "quote": "was acquired by Watchfire and then IBM when building the first AppSec products"
+        }
+      ]
+    },
+    {
+      "name": "Danny Grander",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Unit 8200",
+          "orgCanonical": "Unit 8200",
+          "source": "https://en.wikipedia.org/wiki/Snyk",
+          "quote": "coming from Unit 8200, a SIGINT unit of the Israel Defense Forces"
+        },
+        {
+          "kind": "employer",
+          "org": "Gita",
+          "orgCanonical": "Gita",
+          "role": "CTO and head of research",
+          "source": "https://www.heavybit.com/community/danny-grander",
+          "quote": "Danny was CTO and headed research at Gita"
+        },
+        {
+          "kind": "employer",
+          "org": "Skybox Security",
+          "orgCanonical": "Skybox Security",
+          "role": "developer",
+          "source": "https://www.heavybit.com/community/danny-grander",
+          "quote": "a developer for Skybox Security and Collactive"
+        }
+      ]
+    },
+    {
+      "name": "Assaf Hefetz",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Unit 8200",
+          "orgCanonical": "Unit 8200",
+          "source": "https://en.wikipedia.org/wiki/Snyk",
+          "quote": "coming from Unit 8200, a SIGINT unit of the Israel Defense Forces"
+        },
+        {
+          "kind": "employer",
+          "org": "Supercom",
+          "orgCanonical": "Supercom",
+          "role": "Director of Innovation",
+          "source": "https://www.heavybit.com/community/assaf-hefetz",
+          "quote": "Assaf was previously Director of Innovation at Supercom"
+        },
+        {
+          "kind": "employer",
+          "org": "Skycure",
+          "orgCanonical": "Skycure",
+          "role": "senior developer",
+          "source": "https://www.heavybit.com/community/assaf-hefetz",
+          "quote": "a senior developer at Skycure"
+        }
+      ]
+    }
+  ]
+}

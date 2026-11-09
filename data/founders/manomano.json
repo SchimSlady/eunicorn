@@ -1,0 +1,39 @@
+{
+  "id": "manomano",
+  "founders": [
+    {
+      "name": "Christian Raisson",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Smartbox Group",
+          "orgCanonical": "Smartbox",
+          "role": "manager of Gault&Millau",
+          "source": "https://www.retailgazette.co.uk/blog/2017/07/5-minutes-christian-raisson-manomano/",
+          "quote": "when I joined Smartbox group to manage Gault&Millau"
+        },
+        {
+          "kind": "education",
+          "org": "EDHEC",
+          "orgCanonical": "EDHEC",
+          "years": "1994",
+          "source": "https://alumni.edhec.edu/en/article/interview-with-philippe-de-chanville-and-christian-raisson-edhec-master-2003-and-1994-the-2023-edhec-persons-of-the-year/09/06/2023/23592",
+          "quote": "respectively EDHEC Grande École graduates of 2003 and 1994"
+        }
+      ]
+    },
+    {
+      "name": "Philippe de Chanville",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "EDHEC",
+          "orgCanonical": "EDHEC",
+          "years": "2003",
+          "source": "https://alumni.edhec.edu/en/article/interview-with-philippe-de-chanville-and-christian-raisson-edhec-master-2003-and-1994-the-2023-edhec-persons-of-the-year/09/06/2023/23592",
+          "quote": "respectively EDHEC Grande École graduates of 2003 and 1994"
+        }
+      ]
+    }
+  ]
+}

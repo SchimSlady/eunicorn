@@ -1,0 +1,81 @@
+{
+  "id": "graphcore",
+  "founders": [
+    {
+      "name": "Simon Knowles",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Inmos",
+          "orgCanonical": "Inmos",
+          "source": "https://www.wired.com/story/graphcore-ai-intelligence-processing-unit/",
+          "quote": "Knowles first came to Bristol in 1989 to work for Inmos.",
+          "years": "1989"
+        },
+        {
+          "kind": "employer",
+          "org": "Element 14",
+          "orgCanonical": "Element 14",
+          "source": "https://www.wired.com/story/graphcore-ai-intelligence-processing-unit/",
+          "quote": "who had worked with Knowles at chip company Element 14"
+        },
+        {
+          "kind": "founded",
+          "org": "Icera",
+          "orgCanonical": "Icera",
+          "source": "https://www.wired.com/story/graphcore-ai-intelligence-processing-unit/",
+          "quote": "the pair went on to found Icera in 2002 with Toon"
+        },
+        {
+          "kind": "exit",
+          "org": "Icera (sold to NVIDIA)",
+          "orgCanonical": "Icera",
+          "source": "https://www.wired.com/story/graphcore-ai-intelligence-processing-unit/",
+          "quote": "they'd sold their previous semiconductor company Icera to NVIDIA for $435 million"
+        }
+      ]
+    },
+    {
+      "name": "Nigel Toon",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Altera",
+          "orgCanonical": "Altera",
+          "source": "https://riseof.ai/?p=1330",
+          "quote": "SVP/GM at Altera"
+        },
+        {
+          "kind": "employer",
+          "org": "XMOS",
+          "orgCanonical": "XMOS",
+          "source": "https://riseof.ai/?p=1330",
+          "quote": "CEO at two successful VC-backed processor companies XMOS and Picochip",
+          "role": "CEO"
+        },
+        {
+          "kind": "employer",
+          "org": "Picochip",
+          "orgCanonical": "Picochip",
+          "source": "https://riseof.ai/?p=1330",
+          "quote": "CEO at two successful VC-backed processor companies XMOS and Picochip",
+          "role": "CEO"
+        },
+        {
+          "kind": "founded",
+          "org": "Icera",
+          "orgCanonical": "Icera",
+          "source": "https://www.graphcore.ai/nigel-toon",
+          "quote": "co-founder and board director at Icera, a 3G cellular modem chip company"
+        },
+        {
+          "kind": "exit",
+          "org": "Icera (sold to NVIDIA)",
+          "orgCanonical": "Icera",
+          "source": "https://www.graphcore.ai/nigel-toon",
+          "quote": "which was sold to NVIDIA in 2011 for $435M"
+        }
+      ]
+    }
+  ]
+}

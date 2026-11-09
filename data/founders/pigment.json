@@ -1,0 +1,39 @@
+{
+  "id": "pigment",
+  "founders": [
+    {
+      "name": "Eléonore Crespo",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Google",
+          "orgCanonical": "Google",
+          "role": "data analyst",
+          "source": "https://tech.eu/brief/pigment-series-a/",
+          "quote": "a former data analyst at Google and investor at Index Ventures"
+        },
+        {
+          "kind": "employer",
+          "org": "Index Ventures",
+          "orgCanonical": "Index Ventures",
+          "role": "investor",
+          "source": "https://tech.eu/brief/pigment-series-a/",
+          "quote": "a former data analyst at Google and investor at Index Ventures"
+        }
+      ]
+    },
+    {
+      "name": "Romain Niccoli",
+      "stations": [
+        {
+          "kind": "founded",
+          "org": "Criteo",
+          "orgCanonical": "Criteo",
+          "role": "CTO and co-founder",
+          "source": "https://tech.eu/brief/pigment-series-a/",
+          "quote": "the former CTO and co-founder of Criteo"
+        }
+      ]
+    }
+  ]
+}

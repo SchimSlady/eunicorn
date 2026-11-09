@@ -1,0 +1,51 @@
+{
+  "id": "finn",
+  "founders": [
+    {
+      "name": "Max-Josef Meier",
+      "stations": [
+        {
+          "kind": "founded",
+          "org": "Stylight",
+          "orgCanonical": "Stylight",
+          "source": "https://www.munich-startup.de/68728/finn-auto-7-fragen/",
+          "quote": "war Mitgründer von Stylight"
+        },
+        {
+          "kind": "education",
+          "org": "LMU München / CDTM",
+          "orgCanonical": "CDTM",
+          "source": "https://www.munich-startup.de/68728/finn-auto-7-fragen/",
+          "quote": "Max-Josef Meier (35, LMU, CDTM)"
+        }
+      ]
+    },
+    {
+      "name": "Maximilian Wühr",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Kaia Health",
+          "orgCanonical": "Kaia Health",
+          "role": "Business Development",
+          "source": "https://www.munich-startup.de/68728/finn-auto-7-fragen/",
+          "quote": "Business Development bei Kaia Health sowie Picus Capital"
+        },
+        {
+          "kind": "employer",
+          "org": "Picus Capital",
+          "orgCanonical": "Picus Capital",
+          "source": "https://www.munich-startup.de/68728/finn-auto-7-fragen/",
+          "quote": "Business Development bei Kaia Health sowie Picus Capital"
+        },
+        {
+          "kind": "education",
+          "org": "LMU München / CDTM",
+          "orgCanonical": "CDTM",
+          "source": "https://www.munich-startup.de/68728/finn-auto-7-fragen/",
+          "quote": "Maximilian Wühr (25, LMU, CDTM)"
+        }
+      ]
+    }
+  ]
+}

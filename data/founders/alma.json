@@ -1,0 +1,22 @@
+{
+  "id": "alma",
+  "founders": [
+    {
+      "name": "Louis Chatriot",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Stripe",
+          "orgCanonical": "Stripe",
+          "source": "https://www.frenchweb.fr/fintech-alma-leve-125-millions-deuros-pour-surfer-sur-la-vague-du-paiement-en-plusieurs-fois/395605",
+          "quote": "ancien cadre de chez Stripe"
+        }
+      ]
+    },
+    {
+      "name": "Guillaume Desloges",
+      "note": "no public background found",
+      "stations": []
+    }
+  ]
+}

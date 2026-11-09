@@ -1,0 +1,46 @@
+{
+  "id": "scalapay",
+  "founders": [
+    {
+      "name": "Simone Mancini",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Prospa",
+          "orgCanonical": "Prospa",
+          "source": "https://en.wikipedia.org/wiki/Scalapay",
+          "quote": "with Mancini at fintech firm Prospa and Mitrevski at Qantas and the Commonwealth Bank of Australia"
+        }
+      ]
+    },
+    {
+      "name": "Johnny Mitrevski",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Qantas",
+          "orgCanonical": "Qantas",
+          "source": "https://en.wikipedia.org/wiki/Scalapay",
+          "quote": "Mitrevski at Qantas and the Commonwealth Bank of Australia"
+        },
+        {
+          "kind": "employer",
+          "org": "Commonwealth Bank of Australia",
+          "orgCanonical": "Commonwealth Bank",
+          "source": "https://en.wikipedia.org/wiki/Scalapay",
+          "quote": "Mitrevski at Qantas and the Commonwealth Bank of Australia"
+        }
+      ]
+    },
+    {
+      "name": "Raffaele Terrone",
+      "note": "no public background found in checkable sources",
+      "stations": []
+    },
+    {
+      "name": "Daniele Tessari",
+      "note": "no public background found in checkable sources",
+      "stations": []
+    }
+  ]
+}

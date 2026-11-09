@@ -1,0 +1,57 @@
+{
+  "id": "dataiku",
+  "founders": [
+    {
+      "name": "Florian Douetteau",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Exalead",
+          "orgCanonical": "Exalead",
+          "years": "from 2000",
+          "source": "https://moneyinc.com/florian-douetteau/",
+          "quote": "In 2000, Douetteau began his career at the search engine technology company, Exalead",
+          "weakSource": true
+        },
+        {
+          "kind": "education",
+          "org": "École normale supérieure",
+          "orgCanonical": "ENS",
+          "source": "https://moneyinc.com/florian-douetteau/",
+          "quote": "completing his education at Ecole Normale Superieure",
+          "weakSource": true
+        }
+      ]
+    },
+    {
+      "name": "Clément Stenac",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Exalead",
+          "orgCanonical": "Exalead",
+          "role": "Head of product development",
+          "source": "https://www.dataiku.com/blog/the-dataiku-story",
+          "quote": "Clément was previously head of product development at Exalead"
+        },
+        {
+          "kind": "education",
+          "org": "École Centrale Paris",
+          "orgCanonical": "CentraleSupélec",
+          "source": "https://em360tech.com/tech-articles/cxo-week-co-founder-and-cto-dataiku-clement-stenac",
+          "quote": "Following a master's degree from École Centrale Paris in IT"
+        }
+      ]
+    },
+    {
+      "name": "Thomas Cabrol",
+      "note": "no public background found in non-aggregator sources",
+      "stations": []
+    },
+    {
+      "name": "Marc Batty",
+      "note": "no public background found in non-aggregator sources",
+      "stations": []
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "id": "freeletics",
+  "founders": [
+    {
+      "name": "Mehmet Yilmaz",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "CDTM",
+          "orgCanonical": "CDTM",
+          "source": "https://cdtm.com/startups/freeletics",
+          "quote": "Mehmet Yilmaz Class of Spring 2010"
+        },
+        {
+          "kind": "education",
+          "org": "TU München",
+          "orgCanonical": "TUM",
+          "source": "https://www.business-punk.com/work/freeletics/",
+          "quote": "Studium an der TU München kennengelernt"
+        },
+        {
+          "kind": "education",
+          "org": "Columbia University",
+          "orgCanonical": "Columbia University",
+          "source": "https://www.business-punk.com/work/freeletics/",
+          "quote": "Alle drei studierten an der Columbia University in New York"
+        }
+      ]
+    },
+    {
+      "name": "Joshua Cornelius",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "CDTM",
+          "orgCanonical": "CDTM",
+          "source": "https://cdtm.com/startups/freeletics",
+          "quote": "Joshua Cornelius Class of Fall 2009"
+        },
+        {
+          "kind": "education",
+          "org": "TU München",
+          "orgCanonical": "TUM",
+          "source": "https://www.business-punk.com/work/freeletics/",
+          "quote": "Studium an der TU München kennengelernt"
+        },
+        {
+          "kind": "education",
+          "org": "Columbia University",
+          "orgCanonical": "Columbia University",
+          "source": "https://www.business-punk.com/work/freeletics/",
+          "quote": "Alle drei studierten an der Columbia University in New York"
+        }
+      ]
+    },
+    {
+      "name": "Andrej Matijczak",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "Columbia University",
+          "orgCanonical": "Columbia University",
+          "source": "https://www.business-punk.com/work/freeletics/",
+          "quote": "Alle drei studierten an der Columbia University in New York"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "zilch",
+  "founders": [
+    {
+      "name": "Philip Belamant",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "RAU University",
+          "orgCanonical": "University of Johannesburg (RAU)",
+          "source": "https://www.zilch.com/leadership/philip-belamant/",
+          "quote": "Philip graduated cum laude from RAU University"
+        }
+      ]
+    },
+    {
+      "name": "Serge Belamant",
+      "stations": [
+        {
+          "kind": "founded",
+          "org": "Net1 UEPS Technologies",
+          "orgCanonical": "Net1 UEPS",
+          "source": "https://en.wikipedia.org/wiki/Serge_Belamant",
+          "quote": "In the same year, he founded NET1 UEPS Technologies Inc., serving as its CEO and Director."
+        },
+        {
+          "kind": "employer",
+          "org": "Control Data Corporation",
+          "orgCanonical": "Control Data",
+          "role": "systems analyst",
+          "source": "https://en.wikipedia.org/wiki/Serge_Belamant",
+          "quote": "Belamant worked for Control Data Corporation as a systems analyst for a decade"
+        },
+        {
+          "kind": "employer",
+          "org": "SASWITCH",
+          "orgCanonical": "SASWITCH",
+          "source": "https://en.wikipedia.org/wiki/Serge_Belamant",
+          "quote": "joining SASWITCH Ltd in 1985"
+        }
+      ]
+    },
+    {
+      "name": "Sean O’Connor",
+      "stations": [
+        {
+          "kind": "founded",
+          "org": "Launchpad Homes",
+          "orgCanonical": "Launchpad Homes",
+          "source": "https://www.zilch.com/leadership/sean-oconnor/",
+          "quote": "co-founding Launchpad Homes a UK first private rent to buy product"
+        },
+        {
+          "kind": "education",
+          "org": "Northumbria University",
+          "orgCanonical": "Northumbria University",
+          "source": "https://www.zilch.com/leadership/sean-oconnor/",
+          "quote": "Sean graduated with a 1st Class Honours in Sports Management from Northumbria University"
+        }
+      ]
+    }
+  ]
+}

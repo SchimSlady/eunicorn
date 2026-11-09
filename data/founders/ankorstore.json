@@ -1,0 +1,50 @@
+{
+  "id": "ankorstore",
+  "founders": [
+    {
+      "name": "Nicolas Cohen",
+      "stations": [
+        {
+          "kind": "founded",
+          "org": "A Little Market",
+          "orgCanonical": "A Little Market",
+          "source": "https://www.journaldunet.com/retail/1489201-pierre-louis-lacoste-ankorstore/",
+          "quote": "Nicolas d'Audiffret et Nicolas Cohen (fondateurs de A Little Market)"
+        }
+      ]
+    },
+    {
+      "name": "Pierre-Louis Lacoste",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Etsy",
+          "orgCanonical": "Etsy",
+          "role": "Country manager France",
+          "source": "https://www.journaldunet.com/retail/1489201-pierre-louis-lacoste-ankorstore/",
+          "quote": "ancien country manager chez Etsy France"
+        },
+        {
+          "kind": "employer",
+          "org": "Lolë",
+          "orgCanonical": "Lolë",
+          "role": "VP Europe",
+          "source": "https://www.journaldunet.com/retail/1489201-pierre-louis-lacoste-ankorstore/",
+          "quote": "vice-président Europe chez Lolë"
+        }
+      ]
+    },
+    {
+      "name": "Nicolas d’Audiffret",
+      "stations": [
+        {
+          "kind": "founded",
+          "org": "A Little Market",
+          "orgCanonical": "A Little Market",
+          "source": "https://www.journaldunet.com/retail/1489201-pierre-louis-lacoste-ankorstore/",
+          "quote": "Nicolas d'Audiffret et Nicolas Cohen (fondateurs de A Little Market)"
+        }
+      ]
+    }
+  ]
+}

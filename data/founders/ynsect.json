@@ -1,0 +1,54 @@
+{
+  "id": "ynsect",
+  "founders": [
+    {
+      "name": "Antoine Hubert",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "AgroCampus-Ouest / AgroParisTech",
+          "orgCanonical": "AgroParisTech",
+          "source": "https://www.eit.europa.eu/innoveit/speakers/antoine-hubert",
+          "quote": "He is an agronomy engineer graduate from AgroCampus-Ouest and AgroParisTech."
+        }
+      ]
+    },
+    {
+      "name": "Jean-Gabriel Levon",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "École polytechnique",
+          "orgCanonical": "École Polytechnique",
+          "source": "https://www.privatebanking.societegenerale.com/en/insights/jean-gabriel-levon-the-pioneering-spirit",
+          "quote": "École polytechnique, HEC Paris"
+        },
+        {
+          "kind": "education",
+          "org": "HEC Paris",
+          "orgCanonical": "HEC Paris",
+          "source": "https://www.privatebanking.societegenerale.com/en/insights/jean-gabriel-levon-the-pioneering-spirit",
+          "quote": "École polytechnique, HEC Paris"
+        },
+        {
+          "kind": "employer",
+          "org": "Schlumberger",
+          "orgCanonical": "Schlumberger",
+          "role": "consultant",
+          "source": "https://www.privatebanking.societegenerale.com/en/insights/jean-gabriel-levon-the-pioneering-spirit",
+          "quote": "His first work experience as a consultant at Schlumberger"
+        }
+      ]
+    },
+    {
+      "name": "Fabrice Berro",
+      "note": "no public professional background found (only: high school friend of co-founders)",
+      "stations": []
+    },
+    {
+      "name": "Alexis Angot",
+      "note": "no public professional background found (only: high school friend of co-founders)",
+      "stations": []
+    }
+  ]
+}

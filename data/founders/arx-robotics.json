@@ -1,0 +1,44 @@
+{
+  "id": "arx-robotics",
+  "founders": [
+    {
+      "name": "Marc Wietfeld",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Bundeswehr",
+          "orgCanonical": "Bundeswehr",
+          "role": "Officer",
+          "source": "https://munich-startup.de/news/arx-robotics-erhoehung-series-a",
+          "quote": "Die GründerInnen sind ehemalige Offiziere der Bundeswehr"
+        }
+      ]
+    },
+    {
+      "name": "Maximilian Wied",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Bundeswehr",
+          "orgCanonical": "Bundeswehr",
+          "role": "Officer",
+          "source": "https://munich-startup.de/news/arx-robotics-erhoehung-series-a",
+          "quote": "Die GründerInnen sind ehemalige Offiziere der Bundeswehr"
+        }
+      ]
+    },
+    {
+      "name": "Stefan Roebel",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Bundeswehr",
+          "orgCanonical": "Bundeswehr",
+          "role": "Officer",
+          "source": "https://munich-startup.de/news/arx-robotics-erhoehung-series-a",
+          "quote": "Die GründerInnen sind ehemalige Offiziere der Bundeswehr"
+        }
+      ]
+    }
+  ]
+}

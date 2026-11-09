@@ -1,0 +1,78 @@
+{
+  "id": "multiverse-computing",
+  "founders": [
+    {
+      "name": "Enrique Lizaso",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Unnim Bank",
+          "orgCanonical": "Unnim",
+          "role": "Deputy CEO",
+          "source": "https://londontechweek.com/speakers/enrique-lizaso-olmos",
+          "quote": "Former Deputy CEO of Unnim Bank"
+        },
+        {
+          "kind": "education",
+          "org": "IESE",
+          "orgCanonical": "IESE Business School",
+          "source": "https://londontechweek.com/speakers/enrique-lizaso-olmos",
+          "quote": "MBA (IESE)"
+        },
+        {
+          "kind": "education",
+          "org": "University of Barcelona",
+          "orgCanonical": "University of Barcelona",
+          "source": "https://londontechweek.com/speakers/enrique-lizaso-olmos",
+          "quote": "Bachelor in Mathematics (University of Barcelona)"
+        },
+        {
+          "kind": "founded",
+          "org": "BlockTAC",
+          "orgCanonical": "BlockTAC",
+          "source": "https://www.analyticsinsight.net/biography/enrique-lizaso-olmos",
+          "quote": "From Deputy CEO at Unnim Bank to founding BlockTAC and leading Omnixhealth"
+        }
+      ]
+    },
+    {
+      "name": "Román Orús",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "University of Barcelona",
+          "orgCanonical": "University of Barcelona",
+          "source": "https://en.wikipedia.org/wiki/Rom%C3%A1n_Or%C3%BAs",
+          "quote": "Román Orús studied physics at the University of Barcelona and was awarded his PhD from the same university in 2006"
+        },
+        {
+          "kind": "employer",
+          "org": "Max Planck Institute of Quantum Optics",
+          "orgCanonical": "Max Planck Society",
+          "role": "Marie Curie Fellow",
+          "source": "https://en.wikipedia.org/wiki/Multiverse_Computing",
+          "quote": "former Marie Curie Fellow at the Max Planck Institute of Quantum Optics"
+        },
+        {
+          "kind": "employer",
+          "org": "Johannes Gutenberg University Mainz",
+          "orgCanonical": "Johannes Gutenberg University Mainz",
+          "role": "Junior Professor",
+          "years": "2013",
+          "source": "https://en.wikipedia.org/wiki/Rom%C3%A1n_Or%C3%BAs",
+          "quote": "Junior Professor of Condensed Matter Physics at Johannes Gutenberg University"
+        }
+      ]
+    },
+    {
+      "name": "Alfonso Rubio-Manzanares",
+      "note": "no public bio found",
+      "stations": []
+    },
+    {
+      "name": "Sam Mugel",
+      "note": "no public bio found",
+      "stations": []
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "oneweb",
+  "founders": [
+    {
+      "name": "Greg Wyler",
+      "stations": [
+        {
+          "kind": "founded",
+          "org": "O3b Networks",
+          "orgCanonical": "O3b Networks",
+          "years": "2007",
+          "source": "https://en.wikipedia.org/wiki/Greg_Wyler",
+          "quote": "In 2007, Wyler founded O3b Networks, Ltd."
+        },
+        {
+          "kind": "exit",
+          "org": "O3b Networks",
+          "orgCanonical": "O3b Networks",
+          "role": "sold to SES, 2016",
+          "source": "https://en.wikipedia.org/wiki/Greg_Wyler",
+          "quote": "On 1 August 2016, satellite operator SES S.A. completed the acquisition of O3b Networks"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "id": "quantexa",
+  "founders": [
+    {
+      "name": "Vishal Marria",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Detica (BAE Systems)",
+          "orgCanonical": "BAE Systems",
+          "source": "https://pulse2.com/quantexa-vishal-marria-profile/",
+          "quote": "After working for some of the biggest players in the industry, including Detica, NetReveal (BAE Systems), SAS, and EY"
+        },
+        {
+          "kind": "employer",
+          "org": "SAS",
+          "orgCanonical": "SAS",
+          "source": "https://pulse2.com/quantexa-vishal-marria-profile/",
+          "quote": "After working for some of the biggest players in the industry, including Detica, NetReveal (BAE Systems), SAS, and EY"
+        },
+        {
+          "kind": "employer",
+          "org": "EY",
+          "orgCanonical": "EY",
+          "source": "https://pulse2.com/quantexa-vishal-marria-profile/",
+          "quote": "After working for some of the biggest players in the industry, including Detica, NetReveal (BAE Systems), SAS, and EY"
+        }
+      ]
+    },
+    {
+      "name": "Jamie Hutton",
+      "note": "no public background found in allowed sources",
+      "stations": []
+    },
+    {
+      "name": "Imam Hoque",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "BAE Systems Detica NetReveal",
+          "orgCanonical": "BAE Systems",
+          "role": "CTO",
+          "source": "https://www.quantexa.com/about/leadership/imam-hoque/",
+          "quote": "Formerly the CTO, Founder, and Board Director for BAE Systems Detica NetReveal"
+        },
+        {
+          "kind": "employer",
+          "org": "SAS",
+          "orgCanonical": "SAS",
+          "source": "https://www.quantexa.com/about/leadership/imam-hoque/",
+          "quote": "Prior to Quantexa, Imam led the SAS’ EMEA/AP Financial Crime and graph analytics practice"
+        }
+      ]
+    },
+    {
+      "name": "Felix Hoddinott",
+      "note": "no public background found in allowed sources",
+      "stations": []
+    }
+  ]
+}

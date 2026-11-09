@@ -1,0 +1,50 @@
+{
+  "id": "truelayer",
+  "founders": [
+    {
+      "name": "Francesco Simoneschi",
+      "stations": [
+        {
+          "kind": "founded",
+          "org": "Staq",
+          "orgCanonical": "Staq",
+          "source": "https://sxswlondon.com/partners/francesco-simoneschi-8f566297",
+          "quote": "founded the analytics platform Staq.io, later acquired by PlayHaven"
+        },
+        {
+          "kind": "exit",
+          "org": "Staq",
+          "orgCanonical": "Staq",
+          "source": "https://sxswlondon.com/partners/francesco-simoneschi-8f566297",
+          "quote": "later acquired by PlayHaven"
+        },
+        {
+          "kind": "employer",
+          "org": "DomainsBot",
+          "orgCanonical": "DomainsBot",
+          "source": "https://sxswlondon.com/partners/francesco-simoneschi-8f566297",
+          "quote": "He also held leadership roles at Upsight and DomainsBot"
+        },
+        {
+          "kind": "employer",
+          "org": "Upsight",
+          "orgCanonical": "Upsight",
+          "source": "https://sxswlondon.com/partners/francesco-simoneschi-8f566297",
+          "quote": "He also held leadership roles at Upsight and DomainsBot"
+        }
+      ]
+    },
+    {
+      "name": "Luca Martinetti",
+      "stations": [
+        {
+          "kind": "exit",
+          "org": "Staq",
+          "orgCanonical": "Staq",
+          "source": "https://northzone.com/insights/truelayer-portrait",
+          "quote": "With another successful exit under their belts"
+        }
+      ]
+    }
+  ]
+}

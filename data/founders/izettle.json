@@ -1,0 +1,47 @@
+{
+  "id": "izettle",
+  "founders": [
+    {
+      "name": "Jacob de Geer",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "Stockholm School of Economics",
+          "orgCanonical": "Stockholm School of Economics",
+          "source": "https://en.wikipedia.org/wiki/Jacob_de_Geer",
+          "quote": "De Geer graduated with a Master of Science in Business Administration from the Stockholm School of Economics in 1999",
+          "years": "1999"
+        },
+        {
+          "kind": "employer",
+          "org": "TradeDoubler",
+          "orgCanonical": "TradeDoubler",
+          "source": "https://en.wikipedia.org/wiki/Jacob_de_Geer",
+          "quote": "In 1999, de Geer became the first employee of TradeDoubler",
+          "years": "1999-2007"
+        },
+        {
+          "kind": "founded",
+          "org": "Ameibo",
+          "orgCanonical": "Ameibo",
+          "source": "https://en.wikipedia.org/wiki/Jacob_de_Geer",
+          "quote": "co-founded a media agency, Tre Kronor, and film sharing service, Ameibo",
+          "years": "2007"
+        },
+        {
+          "kind": "founded",
+          "org": "Tre Kronor",
+          "orgCanonical": "Tre Kronor",
+          "source": "https://en.wikipedia.org/wiki/Jacob_de_Geer",
+          "quote": "co-founded a media agency, Tre Kronor, and film sharing service, Ameibo",
+          "years": "2007"
+        }
+      ]
+    },
+    {
+      "name": "Magnus Nilsson",
+      "note": "no verifiable background found in fetchable sources",
+      "stations": []
+    }
+  ]
+}

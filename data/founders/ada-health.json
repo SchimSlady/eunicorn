@@ -1,0 +1,55 @@
+{
+  "id": "ada-health",
+  "founders": [
+    {
+      "name": "Claire Novorol",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "University of Bristol",
+          "orgCanonical": "University of Bristol",
+          "source": "https://about.ada.com/team/",
+          "quote": "She earned a degree in both pathology and medicine from the University of Bristol"
+        },
+        {
+          "kind": "education",
+          "org": "University of Cambridge",
+          "orgCanonical": "University of Cambridge",
+          "source": "https://about.ada.com/team/",
+          "quote": "a PhD in neuroscience from the University of Cambridge"
+        }
+      ]
+    },
+    {
+      "name": "Daniel Nathrath",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Boston Consulting Group",
+          "orgCanonical": "BCG",
+          "source": "https://about.ada.com/team/",
+          "quote": "Daniel worked at Boston Consulting Group before starting his entrepreneurial journey"
+        },
+        {
+          "kind": "education",
+          "org": "University of Houston",
+          "orgCanonical": "University of Houston",
+          "source": "https://about.ada.com/team/",
+          "quote": "After studying law as a Fulbright Scholar at the University of Houston"
+        },
+        {
+          "kind": "education",
+          "org": "University of Chicago",
+          "orgCanonical": "University of Chicago",
+          "source": "https://about.ada.com/team/",
+          "quote": "he earned his Master of Business Administration at the University of Chicago"
+        }
+      ]
+    },
+    {
+      "name": "Martin Hirsch",
+      "note": "Team page names no employer or university; only a PhD in neuroscience and a first venture without a name.",
+      "stations": []
+    }
+  ]
+}

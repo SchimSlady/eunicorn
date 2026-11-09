@@ -1,0 +1,80 @@
+{
+  "id": "oxford-nanopore-technologies",
+  "founders": [
+    {
+      "name": "Hagan Bayley",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "Balliol College, Oxford",
+          "orgCanonical": "University of Oxford",
+          "source": "https://en.wikipedia.org/wiki/Hagan_Bayley",
+          "quote": "before going to Balliol College, Oxford in 1970"
+        },
+        {
+          "kind": "education",
+          "org": "Harvard University",
+          "orgCanonical": "Harvard University",
+          "source": "https://en.wikipedia.org/wiki/Hagan_Bayley",
+          "quote": "Harvard University , where he was awarded a Ph.D. in 1979"
+        },
+        {
+          "kind": "employer",
+          "org": "Massachusetts Institute of Technology",
+          "orgCanonical": "MIT",
+          "role": "postdoctoral researcher",
+          "source": "https://en.wikipedia.org/wiki/Hagan_Bayley",
+          "quote": "Bayley completed postdoctoral research at Massachusetts Institute of Technology"
+        },
+        {
+          "kind": "employer",
+          "org": "Columbia University",
+          "orgCanonical": "Columbia University",
+          "source": "https://en.wikipedia.org/wiki/Hagan_Bayley",
+          "quote": "He previously held appointments at Columbia University"
+        },
+        {
+          "kind": "employer",
+          "org": "University of Oxford",
+          "orgCanonical": "University of Oxford",
+          "years": "2003-",
+          "source": "https://en.wikipedia.org/wiki/Hagan_Bayley",
+          "quote": "Bayley has been based at the University of Oxford since 2003"
+        }
+      ]
+    },
+    {
+      "name": "Gordon Sanghera",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "MediSense",
+          "orgCanonical": "MediSense",
+          "role": "VP Worldwide Marketing, Research Director, Manufacturing Process Development Director",
+          "source": "https://nanoporetech.com/about/events/conferences/lc25/speakers/gordon-sanghera",
+          "quote": "a career at MediSense"
+        }
+      ]
+    },
+    {
+      "name": "Spike Willcocks",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "University of Oxford",
+          "orgCanonical": "University of Oxford",
+          "source": "https://www.convergentresearch.org/team/spike-willcocks",
+          "quote": "After studying Chemistry at the University of Oxford and completing a DPhil in Biochemistry"
+        },
+        {
+          "kind": "employer",
+          "org": "IP Group",
+          "orgCanonical": "IP Group",
+          "years": "2001-2005",
+          "source": "https://www.convergentresearch.org/team/spike-willcocks",
+          "quote": "started working for the intellectual property investment business “IP Group” in 2001"
+        }
+      ]
+    }
+  ]
+}

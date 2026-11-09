@@ -1,0 +1,39 @@
+{
+  "id": "wonderful",
+  "founders": [
+    {
+      "name": "Bar Winkler",
+      "stations": [
+        {
+          "kind": "founded",
+          "org": "Approve.com",
+          "orgCanonical": "Approve.com",
+          "source": "https://londontechweek.com/speakers/bar-winkler",
+          "quote": "Before starting Wonderful, Bar founded Approve.com"
+        },
+        {
+          "kind": "exit",
+          "org": "Approve.com (acquired by Tipalti)",
+          "orgCanonical": "Approve.com",
+          "source": "https://londontechweek.com/speakers/bar-winkler",
+          "quote": "Approve.com, which was acquired by Tipalti"
+        },
+        {
+          "kind": "employer",
+          "org": "Tipalti",
+          "orgCanonical": "Tipalti",
+          "role": "General Manager",
+          "source": "https://londontechweek.com/speakers/bar-winkler",
+          "quote": "where he went on to serve as General Manager"
+        },
+        {
+          "kind": "employer",
+          "org": "ironSource",
+          "orgCanonical": "ironSource",
+          "source": "https://londontechweek.com/speakers/bar-winkler",
+          "quote": "he was one of the first employees at ironSource"
+        }
+      ]
+    }
+  ]
+}

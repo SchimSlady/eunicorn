@@ -1,0 +1,31 @@
+{
+  "id": "moneybox",
+  "founders": [
+    {
+      "name": "Ben Stanway",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Fidelity",
+          "orgCanonical": "Fidelity Investments",
+          "source": "https://www.terrapinn.com/conference/wealth2/speaker-ben-STANWAY.stm",
+          "quote": "first at Fidelity"
+        },
+        {
+          "kind": "employer",
+          "org": "Habrok Capital",
+          "orgCanonical": "Habrok Capital",
+          "source": "https://www.terrapinn.com/conference/wealth2/speaker-ben-STANWAY.stm",
+          "quote": "then as part of the founding team of Habrok Capital, a $2bn global equity hedge fund"
+        },
+        {
+          "kind": "founded",
+          "org": "Bloom & Wild",
+          "orgCanonical": "Bloom & Wild",
+          "source": "https://www.terrapinn.com/conference/wealth2/speaker-ben-STANWAY.stm",
+          "quote": "Prior to Moneybox he co-founded Bloom & Wild"
+        }
+      ]
+    }
+  ]
+}

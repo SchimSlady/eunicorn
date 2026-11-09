@@ -1,0 +1,30 @@
+{
+  "id": "outfittery",
+  "founders": [
+    {
+      "name": "Julia Bösch",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Zalando",
+          "orgCanonical": "Zalando",
+          "role": "Head of International Business Development",
+          "source": "https://en.wikipedia.org/wiki/Outfittery",
+          "quote": "previously worked as Head of International Business Development at Zalando"
+        }
+      ]
+    },
+    {
+      "name": "Anna Alex",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Rocket Internet",
+          "orgCanonical": "Rocket Internet",
+          "source": "https://www.thelocal.de/20150223/outfittery-showing-men-how-they-ought-to-dress",
+          "quote": "I was working for Rocket Internet"
+        }
+      ]
+    }
+  ]
+}

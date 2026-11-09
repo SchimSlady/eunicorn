@@ -1,0 +1,45 @@
+{
+  "id": "agile-robots",
+  "founders": [
+    {
+      "name": "Zhaopeng Chen",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "German Aerospace Center (DLR)",
+          "orgCanonical": "DLR",
+          "role": "Doctorate; deputy director of Modular Dexterous Robotics Laboratory",
+          "source": "https://agile-robots.com/en/about-us/our-story",
+          "quote": "he completed his doctorate at the German Aerospace Center (DLR)"
+        },
+        {
+          "kind": "founded",
+          "org": "Wessling Robotics",
+          "orgCanonical": "Wessling Robotics",
+          "source": "https://agile-robots.com/en/about-us/our-story",
+          "quote": "his first spin-off with Agile Robots' co-founder Peter Meusel, Wessling Robotics"
+        }
+      ]
+    },
+    {
+      "name": "Peter Meusel",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "German Aerospace Center (DLR)",
+          "orgCanonical": "DLR",
+          "role": "Robotics researcher",
+          "source": "https://de.wikipedia.org/wiki/Agile_Robots",
+          "quote": "von den DLR-Roboterforschern Zhaopeng Chen und Peter Meusel"
+        },
+        {
+          "kind": "founded",
+          "org": "Wessling Robotics",
+          "orgCanonical": "Wessling Robotics",
+          "source": "https://agile-robots.com/en/about-us/our-story",
+          "quote": "his first spin-off with Agile Robots' co-founder Peter Meusel, Wessling Robotics"
+        }
+      ]
+    }
+  ]
+}

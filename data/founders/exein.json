@@ -1,0 +1,33 @@
+{
+  "id": "exein",
+  "founders": [
+    {
+      "name": "Gianni Cuozzo",
+      "stations": [
+        {
+          "kind": "founded",
+          "org": "Prism Warfare",
+          "orgCanonical": "Prism Warfare",
+          "source": "https://www.economyup.it/startup/exein-tutto-sulla-scaleup-italiana-della-cybersecurity-diventata-un-unicorno/",
+          "quote": "Nel 2014, a Malmö (Svezia), ha fondato Prism Warfare"
+        },
+        {
+          "kind": "founded",
+          "org": "Aspisec",
+          "orgCanonical": "Aspisec",
+          "source": "https://www.economyup.it/startup/exein-tutto-sulla-scaleup-italiana-della-cybersecurity-diventata-un-unicorno/",
+          "quote": "Nel maggio 2016, ha fondato in Italia “Aspisec”"
+        },
+        {
+          "kind": "employer",
+          "org": "Senato della Repubblica",
+          "orgCanonical": "Senato della Repubblica",
+          "role": "Economic consultant",
+          "years": "2015-2016",
+          "source": "https://www.economyup.it/startup/exein-tutto-sulla-scaleup-italiana-della-cybersecurity-diventata-un-unicorno/",
+          "quote": "Dal 2015 al 2016 ha prestato consulenza economica presso il Senato della Repubblica"
+        }
+      ]
+    }
+  ]
+}

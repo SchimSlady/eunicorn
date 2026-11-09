@@ -1,0 +1,88 @@
+{
+  "id": "proxima-fusion",
+  "founders": [
+    {
+      "name": "Francesco Sciortino",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "Massachusetts Institute of Technology",
+          "orgCanonical": "MIT",
+          "role": "PhD",
+          "source": "https://www.1e9.community/speakers/francesco-sciortino/92287e08-2335-4afa-bc24-db928aee1f6a",
+          "quote": "during his PhD in plasma physics and fusion energy at MIT"
+        },
+        {
+          "kind": "employer",
+          "org": "Max Planck Institute for Plasma Physics",
+          "orgCanonical": "Max Planck Institute for Plasma Physics",
+          "source": "https://www.1e9.community/speakers/francesco-sciortino/92287e08-2335-4afa-bc24-db928aee1f6a",
+          "quote": "later at the Max Planck Institute for Plasma Physics (IPP), where he also acted as one of the European coordinators for tokamak research"
+        }
+      ]
+    },
+    {
+      "name": "Lucio Milanese",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "Imperial College London",
+          "orgCanonical": "Imperial College London",
+          "source": "https://eic.ec.europa.eu/lucio-milanese_en",
+          "quote": "Lucio studied at Imperial College London, the California Institute of Technology, and EPFL before joining the Nuclear Science and Engineering department at MIT"
+        },
+        {
+          "kind": "education",
+          "org": "California Institute of Technology",
+          "orgCanonical": "Caltech",
+          "source": "https://eic.ec.europa.eu/lucio-milanese_en",
+          "quote": "Lucio studied at Imperial College London, the California Institute of Technology, and EPFL before joining the Nuclear Science and Engineering department at MIT"
+        },
+        {
+          "kind": "education",
+          "org": "EPFL",
+          "orgCanonical": "EPFL",
+          "source": "https://eic.ec.europa.eu/lucio-milanese_en",
+          "quote": "Lucio studied at Imperial College London, the California Institute of Technology, and EPFL before joining the Nuclear Science and Engineering department at MIT"
+        },
+        {
+          "kind": "education",
+          "org": "Massachusetts Institute of Technology",
+          "orgCanonical": "MIT",
+          "source": "https://eic.ec.europa.eu/lucio-milanese_en",
+          "quote": "before joining the Nuclear Science and Engineering department at MIT"
+        },
+        {
+          "kind": "education",
+          "org": "Tsinghua University",
+          "orgCanonical": "Tsinghua University",
+          "source": "https://eic.ec.europa.eu/lucio-milanese_en",
+          "quote": "He then pursued a Master of Management in Global Affairs at Tsinghua University in Beijing"
+        }
+      ]
+    },
+    {
+      "name": "Jorrit Lion",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "Max Planck Institute for Plasma Physics",
+          "orgCanonical": "Max Planck Institute for Plasma Physics",
+          "role": "doctoral researcher",
+          "source": "https://www.mpg.de/25464702/proxima-fusion-on-the-home-stretch-to-fusion-power",
+          "quote": "completed his doctoral thesis at the Max Planck Institute for Plasma Physics in Greifswald"
+        }
+      ]
+    },
+    {
+      "name": "Jonathan Schilling",
+      "note": "no individual public background found; Wikipedia only states the founders collectively came from MPI for Plasma Physics, MIT and X Development",
+      "stations": []
+    },
+    {
+      "name": "Martin Kubie",
+      "note": "no verifiable individual background (Sifted bio page unreachable)",
+      "stations": []
+    }
+  ]
+}

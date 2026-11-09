@@ -1,0 +1,47 @@
+{
+  "id": "cera",
+  "founders": [
+    {
+      "name": "Ben Maruthappu",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "University of Cambridge",
+          "orgCanonical": "University of Cambridge",
+          "source": "https://en.wikipedia.org/wiki/Mahiben_Maruthappu",
+          "quote": "He studied preclinical medicine at Selwyn College, Cambridge"
+        },
+        {
+          "kind": "education",
+          "org": "University of Oxford",
+          "orgCanonical": "University of Oxford",
+          "source": "https://en.wikipedia.org/wiki/Mahiben_Maruthappu",
+          "quote": "He then studied clinical medicine at Green Templeton College, Oxford"
+        },
+        {
+          "kind": "education",
+          "org": "Harvard University",
+          "orgCanonical": "Harvard University",
+          "source": "https://en.wikipedia.org/wiki/Mahiben_Maruthappu",
+          "quote": "He was also a Kennedy Scholar in Global Health at Harvard University"
+        },
+        {
+          "kind": "founded",
+          "org": "United Kingdom Medical Students' Association",
+          "orgCanonical": "UKMSA",
+          "source": "https://en.wikipedia.org/wiki/Mahiben_Maruthappu",
+          "quote": "founded the United Kingdom Medical Students' Association (UKMSA)"
+        },
+        {
+          "kind": "employer",
+          "org": "NHS England",
+          "orgCanonical": "NHS England",
+          "role": "Senior Fellow to the CEO",
+          "years": "2014",
+          "source": "https://en.wikipedia.org/wiki/Mahiben_Maruthappu",
+          "quote": "became the first appointed Senior Fellow to the Chief Executive Officer of NHS England, Simon Stevens"
+        }
+      ]
+    }
+  ]
+}

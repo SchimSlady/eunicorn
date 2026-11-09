@@ -1,0 +1,52 @@
+{
+  "id": "isomorphic-labs",
+  "founders": [
+    {
+      "name": "Demis Hassabis",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Bullfrog Productions",
+          "orgCanonical": "Bullfrog",
+          "source": "https://en.wikipedia.org/wiki/Demis_Hassabis",
+          "quote": "Hassabis began his computer games career at Bullfrog Productions"
+        },
+        {
+          "kind": "education",
+          "org": "University of Cambridge (Queens' College)",
+          "orgCanonical": "University of Cambridge",
+          "source": "https://en.wikipedia.org/wiki/Demis_Hassabis",
+          "quote": "completed the Computer Science Tripos and graduated in 1997 with a double first"
+        },
+        {
+          "kind": "employer",
+          "org": "Lionhead Studios",
+          "orgCanonical": "Lionhead",
+          "source": "https://en.wikipedia.org/wiki/Demis_Hassabis",
+          "quote": "After graduating from Cambridge, Hassabis worked at Lionhead Studios"
+        },
+        {
+          "kind": "founded",
+          "org": "Elixir Studios",
+          "orgCanonical": "Elixir Studios",
+          "source": "https://en.wikipedia.org/wiki/Demis_Hassabis",
+          "quote": "Hassabis left Lionhead in 1998 to found Elixir Studios"
+        },
+        {
+          "kind": "education",
+          "org": "UCL",
+          "orgCanonical": "UCL",
+          "source": "https://en.wikipedia.org/wiki/Demis_Hassabis",
+          "quote": "obtain his PhD in cognitive neuroscience from UCL Queen Square Institute of Neurology in 2009"
+        },
+        {
+          "kind": "founded",
+          "org": "DeepMind",
+          "orgCanonical": "DeepMind",
+          "source": "https://en.wikipedia.org/wiki/Isomorphic_Labs",
+          "quote": "DeepMind, which Hassabis co-founded and chairs"
+        }
+      ]
+    }
+  ]
+}

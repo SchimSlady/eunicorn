@@ -1,0 +1,24 @@
+{
+  "id": "casavo",
+  "founders": [
+    {
+      "name": "Giorgio Tinacci",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "Bocconi University",
+          "orgCanonical": "Bocconi",
+          "source": "https://www.unibocconi.it/it/news/limprenditore-del-mattone",
+          "quote": "laureato triennale in Economia aziendale in Bocconi con specialistica in International management"
+        },
+        {
+          "kind": "employer",
+          "org": "Boston Consulting Group",
+          "orgCanonical": "BCG",
+          "source": "https://www.unibocconi.it/it/news/limprenditore-del-mattone",
+          "quote": "poco dopo la mia uscita da Boston Consulting Group"
+        }
+      ]
+    }
+  ]
+}

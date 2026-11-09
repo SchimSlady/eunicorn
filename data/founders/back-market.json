@@ -1,0 +1,28 @@
+{
+  "id": "back-market",
+  "founders": [
+    {
+      "name": "Thibaud Hug de Larauze",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "IÉSEG School of Management",
+          "orgCanonical": "IÉSEG",
+          "years": "2006",
+          "source": "https://business-cool.com/entreprendre/entrepreneurs-inspirants/thibaud-hug-larauze-cofondateur-back-market/",
+          "quote": "Thibaud Hug de Larauze intègre l’IÉSEG en 2006"
+        }
+      ]
+    },
+    {
+      "name": "Vianney Vaute",
+      "note": "no public background found",
+      "stations": []
+    },
+    {
+      "name": "Quentin Le Brouster",
+      "note": "no public background found",
+      "stations": []
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "oviva",
+  "founders": [
+    {
+      "name": "Kai Eberhardt",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "McKinsey & Company",
+          "orgCanonical": "McKinsey",
+          "source": "https://swisspreneur.org/podcast/kai-eberhardt-ep256",
+          "quote": "previously worked for McKinsey and Groupon"
+        },
+        {
+          "kind": "employer",
+          "org": "Groupon",
+          "orgCanonical": "Groupon",
+          "source": "https://swisspreneur.org/podcast/kai-eberhardt-ep256",
+          "quote": "previously worked for McKinsey and Groupon"
+        },
+        {
+          "kind": "education",
+          "org": "ETH Zürich",
+          "orgCanonical": "ETH Zurich",
+          "source": "https://www.moneycab.com/person/kai-eberhardt/",
+          "quote": "hat an der ETH Zürich studiert und doktoriert"
+        }
+      ]
+    },
+    {
+      "name": "Manuel Baumann",
+      "note": "no public background found",
+      "stations": []
+    }
+  ]
+}

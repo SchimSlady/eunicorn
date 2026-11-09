@@ -1,0 +1,86 @@
+{
+  "id": "lovable",
+  "founders": [
+    {
+      "name": "Anton Osika",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Sana Labs",
+          "orgCanonical": "Sana Labs",
+          "source": "https://en.wikipedia.org/wiki/Anton_Osika",
+          "quote": "He was an early engineer at Sana Labs"
+        },
+        {
+          "kind": "founded",
+          "org": "Depict.ai",
+          "orgCanonical": "Depict",
+          "source": "https://en.wikipedia.org/wiki/Anton_Osika",
+          "quote": "He later co-founded Depict.ai"
+        },
+        {
+          "kind": "employer",
+          "org": "CERN",
+          "orgCanonical": "CERN",
+          "source": "https://en.wikipedia.org/wiki/Anton_Osika",
+          "quote": "including work related to the ATLAS experiment at CERN"
+        },
+        {
+          "kind": "education",
+          "org": "KTH Royal Institute of Technology",
+          "orgCanonical": "KTH",
+          "source": "https://en.wikipedia.org/wiki/Anton_Osika",
+          "quote": "completed a Master of Science in Engineering Physics and Applied Mathematics at KTH Royal Institute of Technology"
+        },
+        {
+          "kind": "education",
+          "org": "Hong Kong University of Science and Technology",
+          "orgCanonical": "HKUST",
+          "source": "https://en.wikipedia.org/wiki/Anton_Osika",
+          "quote": "He earned a Bachelor of Science in Physics from the Hong Kong University of Science and Technology"
+        }
+      ]
+    },
+    {
+      "name": "Fabian Hedin",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "KTH",
+          "orgCanonical": "KTH",
+          "source": "https://sv.wikipedia.org/wiki/Fabian_Hedin",
+          "quote": "Han studerade senare industriell ekonomi vid Kungliga Tekniska högskolan (KTH) i Stockholm"
+        },
+        {
+          "kind": "founded",
+          "org": "TenFast",
+          "orgCanonical": "TenFast",
+          "source": "https://sv.wikipedia.org/wiki/Fabian_Hedin",
+          "quote": "grundade proptech-bolaget TenFast"
+        },
+        {
+          "kind": "exit",
+          "org": "TenFast",
+          "orgCanonical": "TenFast",
+          "source": "https://sv.wikipedia.org/wiki/Fabian_Hedin",
+          "quote": "Hedin sålde senare bolaget"
+        },
+        {
+          "kind": "employer",
+          "org": "ABB",
+          "orgCanonical": "ABB",
+          "source": "https://sv.wikipedia.org/wiki/Fabian_Hedin",
+          "quote": "arbetade han bland annat med robotik hos ABB"
+        },
+        {
+          "kind": "employer",
+          "org": "Depict",
+          "orgCanonical": "Depict",
+          "source": "https://sv.wikipedia.org/wiki/Fabian_Hedin",
+          "quote": "frontend-chef (Frontend Lead) på AI- och e-handelsbolaget Depict",
+          "role": "Frontend Lead"
+        }
+      ]
+    }
+  ]
+}

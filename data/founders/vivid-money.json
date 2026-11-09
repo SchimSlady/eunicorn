@@ -1,0 +1,31 @@
+{
+  "id": "vivid-money",
+  "founders": [
+    {
+      "name": "Artem Yamanov",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Tinkoff Bank",
+          "orgCanonical": "Tinkoff",
+          "role": "executive",
+          "source": "https://coverager.com/fintech-startup-vivid-money-raises-17-6m/",
+          "quote": "previously worked as executives for Russian bank Tinkoff Bank"
+        }
+      ]
+    },
+    {
+      "name": "Alexander Emeshev",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Tinkoff Bank",
+          "orgCanonical": "Tinkoff",
+          "role": "executive",
+          "source": "https://coverager.com/fintech-startup-vivid-money-raises-17-6m/",
+          "quote": "previously worked as executives for Russian bank Tinkoff Bank"
+        }
+      ]
+    }
+  ]
+}

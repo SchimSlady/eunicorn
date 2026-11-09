@@ -1,0 +1,17 @@
+{
+  "id": "swile",
+  "founders": [
+    {
+      "name": "Loïc Soubeyrand",
+      "stations": [
+        {
+          "kind": "founded",
+          "org": "Teads",
+          "orgCanonical": "Teads",
+          "source": "https://fr.wikipedia.org/wiki/Swile",
+          "quote": "Loïc Soubeyrand, également cofondateur de Teads"
+        }
+      ]
+    }
+  ]
+}

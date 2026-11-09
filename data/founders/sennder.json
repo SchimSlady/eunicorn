@@ -1,0 +1,44 @@
+{
+  "id": "sennder",
+  "founders": [
+    {
+      "name": "David Nothacker",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Roland Berger",
+          "orgCanonical": "Roland Berger",
+          "source": "https://moneyinc.com/david-nothacker/",
+          "quote": "he mainly worked for Roland Berger",
+          "weakSource": true
+        },
+        {
+          "kind": "education",
+          "org": "INSEAD",
+          "orgCanonical": "INSEAD",
+          "source": "https://moneyinc.com/david-nothacker/",
+          "quote": "a masters’ degree in business administration from INSEAD",
+          "weakSource": true
+        },
+        {
+          "kind": "education",
+          "org": "London School of Economics and Political Science",
+          "orgCanonical": "London School of Economics",
+          "source": "https://moneyinc.com/david-nothacker/",
+          "quote": "a masters’ degree in management from the London School of Economics and Political Science",
+          "weakSource": true
+        }
+      ]
+    },
+    {
+      "name": "Julius Köhler",
+      "note": "no public background found in checkable sources",
+      "stations": []
+    },
+    {
+      "name": "Nicolaus Schefenacker",
+      "note": "no public background found in checkable sources",
+      "stations": []
+    }
+  ]
+}

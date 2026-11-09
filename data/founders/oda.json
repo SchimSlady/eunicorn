@@ -1,0 +1,25 @@
+{
+  "id": "oda",
+  "founders": [
+    {
+      "name": "Karl Munthe-Kaas",
+      "stations": [
+        {
+          "kind": "founded",
+          "org": "Nabobil.no",
+          "orgCanonical": "Nabobil",
+          "source": "https://coverager.com/getaround-acquires-norwegian-car-rental-platform-nabobil/",
+          "quote": "Founded in 2015 by Jacob Tveraabak, Karl Munthe-Kaas, Christian Hager"
+        },
+        {
+          "kind": "exit",
+          "org": "Nabobil.no",
+          "orgCanonical": "Nabobil",
+          "role": "sold to Getaround, 2019",
+          "source": "https://www.pymnts.com/partnerships/2019/getaround-acquires-nabobil-for-12m/",
+          "quote": "carsharing platform has acquired Nabobil"
+        }
+      ]
+    }
+  ]
+}

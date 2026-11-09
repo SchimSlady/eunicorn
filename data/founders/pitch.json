@@ -1,0 +1,60 @@
+{
+  "id": "pitch",
+  "founders": [
+    {
+      "name": "Vanessa Stock",
+      "note": "no public background found in allowed sources beyond team membership",
+      "stations": []
+    },
+    {
+      "name": "Marvin Labod",
+      "note": "no public background found in allowed sources beyond team membership",
+      "stations": []
+    },
+    {
+      "name": "Adam Renklint",
+      "note": "no public background found in allowed sources beyond team membership",
+      "stations": []
+    },
+    {
+      "name": "Charlette Prevot",
+      "note": "no public background found in allowed sources beyond team membership",
+      "stations": []
+    },
+    {
+      "name": "Jan Martin",
+      "note": "no public background found in allowed sources beyond team membership",
+      "stations": []
+    },
+    {
+      "name": "Eric Labod",
+      "note": "no public background found in allowed sources beyond team membership",
+      "stations": []
+    },
+    {
+      "name": "Misha Karpenko",
+      "note": "no public background found in allowed sources beyond team membership",
+      "stations": []
+    },
+    {
+      "name": "Christian Reber",
+      "stations": [
+        {
+          "kind": "founded",
+          "org": "Wunderlist",
+          "orgCanonical": "Wunderlist",
+          "role": "founder",
+          "source": "https://techcrunch.com/2018/10/09/pitch-from-the-founders-of-wunderlist-raises-19m-to-take-on-powerpoint-in-presentations",
+          "quote": "It’s being built by the same founders who created Wunderlist"
+        },
+        {
+          "kind": "exit",
+          "org": "Wunderlist (sold to Microsoft)",
+          "orgCanonical": "Microsoft",
+          "source": "https://techcrunch.com/2018/10/09/pitch-from-the-founders-of-wunderlist-raises-19m-to-take-on-powerpoint-in-presentations",
+          "quote": "a popular to-do app that — coincidentally — Microsoft acquired"
+        }
+      ]
+    }
+  ]
+}

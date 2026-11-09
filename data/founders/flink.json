@@ -1,0 +1,30 @@
+{
+  "id": "flink",
+  "founders": [
+    {
+      "name": "Christoph Cordes",
+      "note": "no fetchable non-aggregator source",
+      "stations": []
+    },
+    {
+      "name": "Oliver Merkel",
+      "note": "no fetchable non-aggregator source",
+      "stations": []
+    },
+    {
+      "name": "Julian Dames",
+      "note": "no fetchable non-aggregator source",
+      "stations": []
+    },
+    {
+      "name": "Saad Saeed",
+      "note": "no fetchable non-aggregator source",
+      "stations": []
+    },
+    {
+      "name": "Nikolas Bullwinkel",
+      "note": "no fetchable non-aggregator source",
+      "stations": []
+    }
+  ]
+}

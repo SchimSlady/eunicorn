@@ -1,0 +1,38 @@
+{
+  "id": "ineffable-intelligence",
+  "founders": [
+    {
+      "name": "David Silver",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "University of Cambridge (Christ's College)",
+          "orgCanonical": "University of Cambridge",
+          "source": "https://en.wikipedia.org/wiki/David_Silver_(computer_scientist)",
+          "quote": "He studied at Christ's College, Cambridge"
+        },
+        {
+          "kind": "education",
+          "org": "University of Alberta",
+          "orgCanonical": "University of Alberta",
+          "source": "https://en.wikipedia.org/wiki/David_Silver_(computer_scientist)",
+          "quote": "Silver returned to academia in 2004 at the University of Alberta to study for a PhD on reinforcement learning"
+        },
+        {
+          "kind": "founded",
+          "org": "Elixir Studios",
+          "orgCanonical": "Elixir Studios",
+          "source": "https://en.wikipedia.org/wiki/David_Silver_(computer_scientist)",
+          "quote": "Silver co-founded the video games company Elixir Studios"
+        },
+        {
+          "kind": "employer",
+          "org": "DeepMind",
+          "orgCanonical": "DeepMind",
+          "source": "https://en.wikipedia.org/wiki/David_Silver_(computer_scientist)",
+          "quote": "Silver consulted for DeepMind from 2010, and joined in 2013 as a full-time employee"
+        }
+      ]
+    }
+  ]
+}

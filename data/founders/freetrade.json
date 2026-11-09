@@ -1,0 +1,43 @@
+{
+  "id": "freetrade",
+  "founders": [
+    {
+      "name": "Adam Dodds",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "KPMG",
+          "orgCanonical": "KPMG",
+          "role": "Manager, Fintech department, London",
+          "source": "https://forbes.it/2017/11/03/libero-trading-in-libero-mercato",
+          "quote": "Lì ha incontrato Adam Dodds, anche lui manager nel dipartimento Fintech della prestigiosa società di consulenza."
+        }
+      ]
+    },
+    {
+      "name": "Davide Fioranelli",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "Luiss",
+          "orgCanonical": "Luiss",
+          "source": "https://forbes.it/2017/11/03/libero-trading-in-libero-mercato",
+          "quote": "Dopo essersi laureato alla Luiss di Roma"
+        },
+        {
+          "kind": "employer",
+          "org": "KPMG",
+          "orgCanonical": "KPMG",
+          "years": "from 2014",
+          "source": "https://forbes.it/2017/11/03/libero-trading-in-libero-mercato",
+          "quote": "Una scelta che lo ha portato alla sede londinese di Kpmg nel 2014."
+        }
+      ]
+    },
+    {
+      "name": "André Mohamed",
+      "note": "earlier employer not found in fetchable sources",
+      "stations": []
+    }
+  ]
+}

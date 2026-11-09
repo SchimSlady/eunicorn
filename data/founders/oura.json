@@ -1,0 +1,65 @@
+{
+  "id": "oura",
+  "founders": [
+    {
+      "name": "Petteri Lahtela",
+      "note": "Nokia/Polar quote is a collective statement about all three founders",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Polar",
+          "orgCanonical": "Polar",
+          "source": "https://ouraring.com/blog/history-of-oura/",
+          "quote": "including Polar and Nokia"
+        },
+        {
+          "kind": "employer",
+          "org": "Nokia",
+          "orgCanonical": "Nokia",
+          "source": "https://ouraring.com/blog/history-of-oura/",
+          "quote": "including Polar and Nokia"
+        }
+      ]
+    },
+    {
+      "name": "Kari Kivelä",
+      "note": "Nokia/Polar quote is a collective statement about all three founders",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Polar",
+          "orgCanonical": "Polar",
+          "source": "https://ouraring.com/blog/history-of-oura/",
+          "quote": "including Polar and Nokia"
+        },
+        {
+          "kind": "employer",
+          "org": "Nokia",
+          "orgCanonical": "Nokia",
+          "source": "https://ouraring.com/blog/history-of-oura/",
+          "quote": "including Polar and Nokia"
+        }
+      ]
+    },
+    {
+      "name": "Markku Koskela",
+      "note": "Nokia/Polar quote is a collective statement about all three founders",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Polar",
+          "orgCanonical": "Polar",
+          "source": "https://ouraring.com/blog/history-of-oura/",
+          "quote": "including Polar and Nokia"
+        },
+        {
+          "kind": "employer",
+          "org": "Nokia",
+          "orgCanonical": "Nokia",
+          "source": "https://ouraring.com/blog/history-of-oura/",
+          "quote": "including Polar and Nokia"
+        }
+      ]
+    }
+  ]
+}

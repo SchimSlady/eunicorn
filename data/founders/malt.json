@@ -1,0 +1,27 @@
+{
+  "id": "malt",
+  "founders": [
+    {
+      "name": "Vincent Huguet",
+      "stations": [
+        {
+          "kind": "founded",
+          "org": "Dromadaire / Aventers Group",
+          "orgCanonical": "Dromadaire",
+          "source": "https://www.businessage.com/post/my-big-idea-freelance-management-platform-malt",
+          "quote": "I co-founded the Aventers Group and became its COO, where we built Dromadaire, a popular European site, and Ooprint, an online printing platform"
+        }
+      ]
+    },
+    {
+      "name": "Hugo Lassiège",
+      "note": "no public background found in fetchable sources",
+      "stations": []
+    },
+    {
+      "name": "Jean-Baptiste Lemée",
+      "note": "no public background found (FrenchWeb profile only names Hopwork/Malt)",
+      "stations": []
+    }
+  ]
+}

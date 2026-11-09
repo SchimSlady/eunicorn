@@ -1,0 +1,48 @@
+{
+  "id": "staffbase",
+  "founders": [
+    {
+      "name": "Frank Wolf",
+      "note": "no public background found in checkable sources",
+      "stations": []
+    },
+    {
+      "name": "Martin Böhringer",
+      "stations": [
+        {
+          "kind": "founded",
+          "org": "Hojoki",
+          "orgCanonical": "Hojoki",
+          "source": "https://www.tu-chemnitz.de/tu/pressestelle/aktuell/7605",
+          "quote": "haben vor Staffbase bereits das Startup Hojoki gegründet"
+        },
+        {
+          "kind": "education",
+          "org": "TU Chemnitz",
+          "orgCanonical": "TU Chemnitz",
+          "source": "https://www.tu-chemnitz.de/tu/pressestelle/aktuell/11254",
+          "quote": "Martin Böhringer und Lutz Gerlach haben an der TU Chemnitz studiert und wurden dort auch promoviert."
+        }
+      ]
+    },
+    {
+      "name": "Lutz Gerlach",
+      "stations": [
+        {
+          "kind": "founded",
+          "org": "Hojoki",
+          "orgCanonical": "Hojoki",
+          "source": "https://www.tu-chemnitz.de/tu/pressestelle/aktuell/7605",
+          "quote": "haben vor Staffbase bereits das Startup Hojoki gegründet"
+        },
+        {
+          "kind": "education",
+          "org": "TU Chemnitz",
+          "orgCanonical": "TU Chemnitz",
+          "source": "https://www.tu-chemnitz.de/tu/pressestelle/aktuell/11254",
+          "quote": "Martin Böhringer und Lutz Gerlach haben an der TU Chemnitz studiert und wurden dort auch promoviert."
+        }
+      ]
+    }
+  ]
+}

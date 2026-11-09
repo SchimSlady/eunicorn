@@ -1,0 +1,29 @@
+{
+  "id": "infobip",
+  "founders": [
+    {
+      "name": "Silvio Kutić",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "University of Zagreb (FER)",
+          "orgCanonical": "University of Zagreb",
+          "source": "https://www.infobip.com/silvio-kutic-infobip-ceo",
+          "quote": "After finishing his M.Sc. at the University of Zagreb, Faculty of Electrical Engineering and Computing"
+        },
+        {
+          "kind": "founded",
+          "org": "Virtual Community",
+          "orgCanonical": "Virtual Community",
+          "source": "https://www.infobip.com/silvio-kutic-infobip-ceo",
+          "quote": "creating his first project Virtual Community"
+        }
+      ]
+    },
+    {
+      "name": "Izabel Jelenić",
+      "note": "no public background found",
+      "stations": []
+    }
+  ]
+}

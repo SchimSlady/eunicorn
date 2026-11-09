@@ -1,0 +1,40 @@
+{
+  "id": "iqm",
+  "founders": [
+    {
+      "name": "Jan Goetz",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "Technical University of Munich",
+          "orgCanonical": "TUM",
+          "source": "https://quantumzeitgeist.com/jan-goetz/",
+          "quote": "pursued his doctorate on superconducting quantum circuits at the Technical University of Munich"
+        }
+      ]
+    },
+    {
+      "name": "Juha Vartiainen",
+      "note": "no public background found",
+      "stations": []
+    },
+    {
+      "name": "Kuan Yen Tan",
+      "note": "no public background found",
+      "stations": []
+    },
+    {
+      "name": "Mikko Möttönen",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Aalto University",
+          "orgCanonical": "Aalto University",
+          "source": "https://www.classiq.io/insights/mikko-mottonen",
+          "quote": "I'm also a professor of quantum technology at Aalto University",
+          "role": "Professor"
+        }
+      ]
+    }
+  ]
+}

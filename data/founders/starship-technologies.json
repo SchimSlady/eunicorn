@@ -1,0 +1,74 @@
+{
+  "id": "starship-technologies",
+  "founders": [
+    {
+      "name": "Ahti Heinla",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Skype",
+          "orgCanonical": "Skype",
+          "role": "developer",
+          "source": "https://en.wikipedia.org/wiki/Ahti_Heinla",
+          "quote": "He is one of the developers of Skype"
+        },
+        {
+          "kind": "education",
+          "org": "University of Tartu",
+          "orgCanonical": "University of Tartu",
+          "source": "https://en.wikipedia.org/wiki/Ahti_Heinla",
+          "quote": "studied physics at the University of Tartu for two years"
+        }
+      ]
+    },
+    {
+      "name": "Janus Friis",
+      "stations": [
+        {
+          "kind": "founded",
+          "org": "Kazaa",
+          "orgCanonical": "Kazaa",
+          "source": "https://en.wikipedia.org/wiki/Janus_Friis",
+          "quote": "best known for co-founding the file-sharing application Kazaa"
+        },
+        {
+          "kind": "founded",
+          "org": "Skype",
+          "orgCanonical": "Skype",
+          "source": "https://en.wikipedia.org/wiki/Janus_Friis",
+          "quote": "In September 2005, he and his business partner Niklas Zennström sold Skype to eBay for US$2.6 billion."
+        },
+        {
+          "kind": "exit",
+          "org": "Skype",
+          "orgCanonical": "Skype",
+          "role": "sold to eBay",
+          "years": "2005",
+          "source": "https://en.wikipedia.org/wiki/Janus_Friis",
+          "quote": "In September 2005, he and his business partner Niklas Zennström sold Skype to eBay for US$2.6 billion."
+        },
+        {
+          "kind": "founded",
+          "org": "Rdio",
+          "orgCanonical": "Rdio",
+          "source": "https://en.wikipedia.org/wiki/Janus_Friis",
+          "quote": "Friis founded the online music streaming service Rdio with Zennström in 2010"
+        },
+        {
+          "kind": "founded",
+          "org": "Wire",
+          "orgCanonical": "Wire",
+          "source": "https://en.wikipedia.org/wiki/Janus_Friis",
+          "quote": "In 2012, Friis co-founded Wire"
+        },
+        {
+          "kind": "employer",
+          "org": "Tele2",
+          "orgCanonical": "Tele2",
+          "source": "https://en.wikipedia.org/wiki/Janus_Friis",
+          "quote": "Zennström headed Tele2 in Denmark, and Friis was hired to run its customer support"
+        }
+      ]
+    }
+  ]
+}

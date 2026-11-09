@@ -1,0 +1,25 @@
+{
+  "id": "ecovadis",
+  "founders": [
+    {
+      "name": "Frederic Trinel",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "MrTed (now Cornerstone)",
+          "orgCanonical": "Cornerstone",
+          "role": "COO",
+          "source": "https://www.ecovadis.com/team",
+          "quote": "Frédéric led MrTed’s (now Cornerstone) Technology & Operations as COO"
+        },
+        {
+          "kind": "education",
+          "org": "ICAD Business School",
+          "orgCanonical": "ICAD Business School",
+          "source": "https://www.ecovadis.com/team",
+          "quote": "Frédéric holds a degree in International Business from ICAD Business School in Paris"
+        }
+      ]
+    }
+  ]
+}

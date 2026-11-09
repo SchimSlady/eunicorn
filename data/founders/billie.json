@@ -1,0 +1,71 @@
+{
+  "id": "billie",
+  "founders": [
+    {
+      "name": "Aiga Senftleben",
+      "note": "only Zencap/Billie found; earlier employers not verified",
+      "stations": [
+        {
+          "kind": "founded",
+          "org": "Zencap",
+          "orgCanonical": "Zencap",
+          "source": "https://www.billie.io/en/about-us",
+          "quote": "Thanks to their experience and close ties from building fintech startup Zencap (later Funding Circle)"
+        },
+        {
+          "kind": "exit",
+          "org": "Funding Circle",
+          "orgCanonical": "Funding Circle",
+          "role": "Zencap acquired by Funding Circle",
+          "years": "2015",
+          "source": "https://en.wikipedia.org/wiki/Funding_Circle",
+          "quote": "In October 2015, Funding Circle acquired Zencap"
+        }
+      ]
+    },
+    {
+      "name": "Christian Grobe",
+      "note": "only Zencap/Billie found; earlier employers not verified",
+      "stations": [
+        {
+          "kind": "founded",
+          "org": "Zencap",
+          "orgCanonical": "Zencap",
+          "source": "https://www.billie.io/en/about-us",
+          "quote": "Thanks to their experience and close ties from building fintech startup Zencap (later Funding Circle)"
+        },
+        {
+          "kind": "exit",
+          "org": "Funding Circle",
+          "orgCanonical": "Funding Circle",
+          "role": "Zencap acquired by Funding Circle",
+          "years": "2015",
+          "source": "https://en.wikipedia.org/wiki/Funding_Circle",
+          "quote": "In October 2015, Funding Circle acquired Zencap"
+        }
+      ]
+    },
+    {
+      "name": "Matthias Knecht",
+      "note": "only Zencap/Billie found; earlier employers not verified",
+      "stations": [
+        {
+          "kind": "founded",
+          "org": "Zencap",
+          "orgCanonical": "Zencap",
+          "source": "https://www.billie.io/en/about-us",
+          "quote": "Thanks to their experience and close ties from building fintech startup Zencap (later Funding Circle)"
+        },
+        {
+          "kind": "exit",
+          "org": "Funding Circle",
+          "orgCanonical": "Funding Circle",
+          "role": "Zencap acquired by Funding Circle",
+          "years": "2015",
+          "source": "https://en.wikipedia.org/wiki/Funding_Circle",
+          "quote": "In October 2015, Funding Circle acquired Zencap"
+        }
+      ]
+    }
+  ]
+}

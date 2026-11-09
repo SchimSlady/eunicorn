@@ -1,0 +1,32 @@
+{
+  "id": "tink",
+  "founders": [
+    {
+      "name": "Daniel Kjellén",
+      "stations": [
+        {
+          "kind": "founded",
+          "org": "Prodocon",
+          "orgCanonical": "Prodocon",
+          "source": "https://parisfintechforum.com/PFF2018/speakers/kjellen-daniel-tink",
+          "quote": "In 2001 Mr. Kjellén founded corporate domain name company Prodocon AB"
+        },
+        {
+          "kind": "exit",
+          "org": "Prodocon",
+          "orgCanonical": "Prodocon",
+          "source": "https://parisfintechforum.com/PFF2018/speakers/kjellen-daniel-tink",
+          "quote": "In 2008 the company was divested to a competitor and is now a part of NetNames Group"
+        },
+        {
+          "kind": "employer",
+          "org": "Carnegie",
+          "orgCanonical": "Carnegie",
+          "role": "Investment Banking",
+          "source": "https://parisfintechforum.com/PFF2018/speakers/kjellen-daniel-tink",
+          "quote": "joined the Investment Banking Division of Carnegie, the leading Investment Bank in the Nordics"
+        }
+      ]
+    }
+  ]
+}

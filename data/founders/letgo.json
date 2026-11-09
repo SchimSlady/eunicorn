@@ -1,0 +1,69 @@
+{
+  "id": "letgo",
+  "founders": [
+    {
+      "name": "Alec Oxenford",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Boston Consulting Group",
+          "orgCanonical": "BCG",
+          "source": "https://en.wikipedia.org/wiki/Alec_Oxenford",
+          "quote": "He previously worked for the Boston Consulting Group"
+        },
+        {
+          "kind": "exit",
+          "org": "DeRemate.com",
+          "orgCanonical": "DeRemate.com",
+          "source": "https://en.wikipedia.org/wiki/Alec_Oxenford",
+          "quote": "was the CEO of DeRemate.com, an online trading platform in Latin America, which sold to eBay"
+        },
+        {
+          "kind": "founded",
+          "org": "OLX",
+          "orgCanonical": "OLX",
+          "source": "https://en.wikipedia.org/wiki/Alec_Oxenford",
+          "quote": "Oxenford and Fabrice Grinda co-founded OLX"
+        },
+        {
+          "kind": "exit",
+          "org": "OLX",
+          "orgCanonical": "OLX",
+          "source": "https://en.wikipedia.org/wiki/Alec_Oxenford",
+          "quote": "a majority of the company was acquired by the South African group Naspers"
+        },
+        {
+          "kind": "education",
+          "org": "Harvard University",
+          "orgCanonical": "Harvard University",
+          "source": "https://en.wikipedia.org/wiki/Alec_Oxenford",
+          "quote": "an MBA from Harvard University"
+        },
+        {
+          "kind": "education",
+          "org": "Pontifical Catholic University of Argentina",
+          "orgCanonical": "UCA Argentina",
+          "source": "https://en.wikipedia.org/wiki/Alec_Oxenford",
+          "quote": "a BA in Business Administration from the Pontifical Catholic University of Argentina"
+        }
+      ]
+    },
+    {
+      "name": "Jordi Castello",
+      "note": "no public background found",
+      "stations": []
+    },
+    {
+      "name": "Enrique Linares",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "IESE Business School",
+          "orgCanonical": "IESE Business School",
+          "source": "https://www.iese.edu/standout/enrique-linares-success-stories/",
+          "quote": "IESE MBA 2006"
+        }
+      ]
+    }
+  ]
+}

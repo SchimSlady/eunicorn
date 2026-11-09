@@ -1,0 +1,48 @@
+{
+  "id": "wefox",
+  "founders": [
+    {
+      "name": "Julian Teicke",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "Universität St. Gallen",
+          "orgCanonical": "University of St. Gallen",
+          "source": "https://de.wikipedia.org/wiki/Julian_Teicke",
+          "quote": "wo er 2010 an der Universität St. Gallen einen Abschluss in Betriebswirtschaftslehre machte"
+        },
+        {
+          "kind": "employer",
+          "org": "Groupon (UK)",
+          "orgCanonical": "Groupon",
+          "source": "https://de.wikipedia.org/wiki/Julian_Teicke",
+          "quote": "Später wechselte er zu Groupon (UK), wo er die europäischen Verkaufsaktivitäten leitete."
+        },
+        {
+          "kind": "founded",
+          "org": "DeinDeal",
+          "orgCanonical": "DeinDeal",
+          "source": "https://de.wikipedia.org/wiki/Julian_Teicke",
+          "quote": "Im selben Jahr war er Mitbegründer der E-Commerce-Plattform DeinDeal in der Schweiz."
+        },
+        {
+          "kind": "exit",
+          "org": "DeinDeal (verkauft an Ringier)",
+          "orgCanonical": "DeinDeal",
+          "source": "https://de.wikipedia.org/wiki/Julian_Teicke",
+          "quote": "bis das Unternehmen 2015 für eine ungenannte Summe an den Medienverlag Ringier verkauft wurde"
+        }
+      ]
+    },
+    {
+      "name": "Fabian Wesemann",
+      "note": "no public background found",
+      "stations": []
+    },
+    {
+      "name": "Dario Fazlic",
+      "note": "no public background found",
+      "stations": []
+    }
+  ]
+}
