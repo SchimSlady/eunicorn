@@ -4,6 +4,7 @@ import type { Company, Dataset, GridCriterion, Hint, ImpostorPuzzle, UnicornGrid
 import { CATEGORY_LEVEL_MAX, DIFFICULTIES, FAME_TIERS, INVESTOR_TIER_MAX, type Difficulty } from "../difficulty";
 import { USD_TO_EUR, countryName, formatMonth, formatUsdAsEur, sectorLabel } from "../format";
 import { distinctAnswers } from "../grid";
+import { backgroundFacts } from "../hints";
 import { TOP10_QUESTIONS, type Top10Question } from "./top10-questions";
 import { metricValue, monthIndex, type HLMetric, type WebHigherLowerPuzzle } from "../higherLower";
 import { REGIONS, isLocalGame, type Region } from "../regions";
@@ -67,6 +68,12 @@ const HINTS_V2_FROM = "2026-11-08";
 
 /** From this day on, the Local "active in the last 12 months" list ranks by each startup's latest round in that window instead of its total raised. */
 const LOCAL_HOT_LATEST_FROM = "2026-11-09";
+
+/**
+ * From this day on, Who Raised This has a hint about what the founders did before ("a founder worked at McKinsey")
+ * right after the letter count, when we know something (founder_stations). Earlier days keep their hints.
+ */
+const FOUNDER_HINTS_FROM = "2026-11-10";
 
 /** What the company does as a hint, or undefined when there is no tagline or it gives the name away. */
 function doesHint(c: Company): string | undefined {
@@ -494,6 +501,9 @@ function whoRaisedThis(
         clues,
         hints: [
           { text: `The name has ${letters(answer.name)} letters`, cost: 1 },
+          ...(base.date >= FOUNDER_HINTS_FROM && backgroundFacts(answer)[0]
+            ? [{ text: backgroundFacts(answer)[0].replace(/^./, (ch) => ch.toUpperCase()), cost: 2 }]
+            : []),
           { text: `Starts with ${answer.name[0].toUpperCase()}`, cost: 2 },
           ...(third ? [third] : []),
         ],

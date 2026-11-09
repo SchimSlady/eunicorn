@@ -1,12 +1,13 @@
 import type { Company, Dataset } from "@eunicorn/schema";
 import { sectorLabel } from "./format";
+import type { HLCompany } from "./higherLower";
 
 /**
  * Hints (Pablo, 2026-11-02; facts reworked 2026-11-07): worked out while playing, one startup per hint,
  * getting stronger with each hint used. Three strengths, from soft to strong, each a ladder of facts
  * that help a player who hasn't recognised the company yet:
  *   0. sector and city, e.g. "Fintech · based in Berlin" (sector only in a Local game, where everyone shares the region)
- *   1. a well-known investor, a program it went through, who bought it, then (last) a founder
+ *   1. a well-known investor, a program it went through, who bought it, what the founders did before (employer, university), then (last) a founder's name
  *   2. what it does, then first letter and length, then the founding year as a last resort
  * A hint never repeats what the board already shows (the caller passes the sectors, investor and programs
  * to leave out) and never repeats a fact already given for the same company (ctx.used).
@@ -37,6 +38,26 @@ export interface HintContext {
   used?: Set<string>;
 }
 
+/**
+ * What the founders did before, as hint texts, best known first: employers, then companies they started or
+ * sold, then universities. The company's own name never counts (a founder "at Skype" for Skype).
+ */
+export function backgroundFacts(c: Company): string[] {
+  const stations = (c as HLCompany).stations ?? [];
+  const one = c.founderIds.length === 1;
+  const who = one ? "the founder" : "a founder";
+  const own = c.name.toLowerCase();
+  const by = (k: string) => stations.filter((s) => s.kind === k && s.org.toLowerCase() !== own);
+  // A company a founder both started and sold is told once, as sold.
+  const sold = new Set(by("exit").map((s) => s.org));
+  return [
+    ...by("employer").map((s) => `${who} worked at ${s.org}`),
+    ...by("founded").filter((s) => !sold.has(s.org)).map((s) => `${who} started ${s.org} before`),
+    ...by("exit").map((s) => `${who} sold ${s.org} before`),
+    ...by("education").map((s) => `${who} studied at ${s.org}`),
+  ].map((t) => t.replace(/^./, (ch) => ch.toLowerCase()));
+}
+
 /** The facts on offer for a company, per strength, best first. */
 function ladders(c: Company, ctx: HintContext): [string[], string[], string[]] {
   const soft: string[] = [];
@@ -60,6 +81,7 @@ function ladders(c: Company, ctx: HintContext): [string[], string[], string[]] {
     mid.push(p.kind === "university" ? `founded by ${p.name} alumni` : `went through ${p.name}`);
   }
   if (c.exit?.kind === "acquisition" && c.exit.acquirer) mid.push(`acquired by ${c.exit.acquirer}`);
+  mid.push(...backgroundFacts(c));
   const founders = c.founderIds.map((id) => ctx.data.people.find((p) => p.id === id)?.name).filter((n): n is string => !!n);
   if (founders.length) mid.push(`${founders.length > 1 ? "co-founded" : "founded"} by ${founders[0]}`);
 

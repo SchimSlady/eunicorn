@@ -8,8 +8,13 @@ import type { Difficulty } from "./difficulty";
  */
 export type HLMetric = HigherLowerMetric | "biggestRoundUsd" | "lastRoundMonth";
 
+/** One station of a founder's background; weak sources are left out when loading. */
+export type FounderStation = { kind: "employer" | "education" | "founded" | "exit"; org: string };
+
 /** A company as the web dataset carries it: the schema fields plus the derived biggest round. */
 export type HLCompany = Company & {
+  /** What the founders did before: employers, universities, companies they started or sold (founder_stations, web only). */
+  stations?: FounderStation[];
   biggestRoundUsd?: number;
   /** When the latest round was announced, as a month count (year × 12 + month − 1): later is higher. */
   lastRoundMonth?: number;
