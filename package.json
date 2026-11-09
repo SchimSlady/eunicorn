@@ -12,7 +12,8 @@
     "validate": "tsx data/scripts/validate.ts",
     "import:techeu": "tsx data/scripts/import-techeu.ts",
     "select:candidates": "tsx data/scripts/select-candidates.ts",
-    "load:verified": "tsx data/scripts/load-verified.ts"
+    "load:verified": "tsx data/scripts/load-verified.ts",
+    "load:founders": "tsx data/scripts/load-founders.ts"
   },
   "devDependencies": {
     "@types/pg": "^8.23.1",

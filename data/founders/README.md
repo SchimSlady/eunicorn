@@ -19,29 +19,8 @@ Names match `founders` in `data/verified/<id>.json`. Nothing here is loaded into
 ## Tools
 `npx tsx data/scripts/founder-groups.ts [min]` lists organisations shared by founders of `min`+ different companies (default 3).
 
-## Proposal for the database (not applied, for Pablo)
-Two tables next to `people`/`company_founders`; the loader would read `data/founders/*.json`:
-
-```sql
-create table public.organisations (
-  id text primary key,            -- slug of orgCanonical
-  name text not null,
-  kind text check (kind in ('company','university','other'))
-);
-create table public.founder_stations (
-  person_id text not null references public.people(id) on delete cascade,
-  company_id text not null references public.companies(id) on delete cascade,
-  kind text not null check (kind in ('employer','education','founded','exit')),
-  organisation_id text not null references public.organisations(id),
-  role text, years text, source_url text not null, quote text not null,
-  primary key (person_id, company_id, kind, organisation_id)
-);
-alter table public.organisations enable row level security;
-alter table public.founder_stations enable row level security;
--- read policies like company_founders: only for verified companies
-```
-
-Open questions: do we want `kind` on organisations (needed to tell universities from employers in a game), and should `check-quotes` also cover these files?
+## Database
+Migration `20261109120000_founder_stations.sql` adds `organisations` (kind: company, university or other, derived from the stations) and `founder_stations` (one row per station with source URL, quote and `weak_source`). Load with `npm run load:founders` (after `load:verified`; safe to re-run, a company's stations are replaced).
 
 ## Known weak spots
 Wikipedia is the only source for many stations. Some stations share one quote (e.g. several universities from one bio). Founders without any citable source stay empty (about a quarter).
