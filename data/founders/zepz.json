@@ -1,0 +1,48 @@
+{
+  "id": "zepz",
+  "founders": [
+    {
+      "name": "Ismail Ahmed",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "United Nations Development Programme",
+          "orgCanonical": "UNDP",
+          "source": "https://en.wikipedia.org/wiki/Ismail_Ahmed_(businessman)",
+          "quote": "before moving on to work for the United Nations Development Programme (UNDP)"
+        },
+        {
+          "kind": "employer",
+          "org": "World Bank agricultural development project",
+          "orgCanonical": "World Bank",
+          "source": "https://en.wikipedia.org/wiki/Ismail_Ahmed_(businessman)",
+          "quote": "Ahmed worked for a World Bank agricultural development project in Hargeisa"
+        },
+        {
+          "kind": "education",
+          "org": "University of London",
+          "orgCanonical": "University of London",
+          "source": "https://en.wikipedia.org/wiki/Ismail_Ahmed_(businessman)",
+          "quote": "Ahmed has a PhD in economics from the University of London"
+        },
+        {
+          "kind": "education",
+          "org": "London Business School",
+          "orgCanonical": "London Business School",
+          "source": "https://en.wikipedia.org/wiki/Ismail_Ahmed_(businessman)",
+          "quote": "an MBA from London Business School"
+        }
+      ]
+    },
+    {
+      "name": "Catherine Wines",
+      "note": "prior firm sold to Travelex Money Transfer/Coinstar per WorldRemit bio, but employer not named; omitted",
+      "stations": []
+    },
+    {
+      "name": "Richard Igoe",
+      "note": "no public background found",
+      "stations": []
+    }
+  ]
+}

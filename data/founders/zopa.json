@@ -1,0 +1,62 @@
+{
+  "id": "zopa",
+  "founders": [
+    {
+      "name": "Richard Duvall",
+      "note": "team-level source: \"a team from Egg Banking\" founded Zopa; individual attribution from press leads, only team quote verified",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Egg Banking",
+          "orgCanonical": "Egg",
+          "source": "https://en.wikipedia.org/wiki/Zopa",
+          "quote": "founded in Buckinghamshire in 2004 by a team from the internet banking company Egg Banking"
+        }
+      ]
+    },
+    {
+      "name": "James Alexander",
+      "note": "team-level source: \"a team from Egg Banking\" founded Zopa; individual attribution from press leads, only team quote verified",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Egg Banking",
+          "orgCanonical": "Egg",
+          "source": "https://en.wikipedia.org/wiki/Zopa",
+          "quote": "founded in Buckinghamshire in 2004 by a team from the internet banking company Egg Banking"
+        }
+      ]
+    },
+    {
+      "name": "Giles Andrews",
+      "note": "team-level source: \"a team from Egg Banking\" founded Zopa; individual attribution from press leads, only team quote verified",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Egg Banking",
+          "orgCanonical": "Egg",
+          "source": "https://en.wikipedia.org/wiki/Zopa",
+          "quote": "founded in Buckinghamshire in 2004 by a team from the internet banking company Egg Banking"
+        }
+      ]
+    },
+    {
+      "name": "David Nicholson",
+      "note": "team-level source: \"a team from Egg Banking\" founded Zopa; individual attribution from press leads, only team quote verified",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Egg Banking",
+          "orgCanonical": "Egg",
+          "source": "https://en.wikipedia.org/wiki/Zopa",
+          "quote": "founded in Buckinghamshire in 2004 by a team from the internet banking company Egg Banking"
+        }
+      ]
+    },
+    {
+      "name": "Tim Parlett",
+      "note": "no public background found",
+      "stations": []
+    }
+  ]
+}

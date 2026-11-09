@@ -1,0 +1,31 @@
+{
+  "id": "acronis",
+  "founders": [
+    {
+      "name": "Serguei Beloussov",
+      "stations": [
+        {
+          "kind": "founded",
+          "org": "SWsoft",
+          "orgCanonical": "SWsoft",
+          "source": "https://en.wikipedia.org/wiki/Serguei_Beloussov",
+          "quote": "In 2000, Bell founded SWsoft"
+        },
+        {
+          "kind": "founded",
+          "org": "Solomon Software SEA",
+          "orgCanonical": "Solomon Software SEA",
+          "source": "https://en.wikipedia.org/wiki/Serguei_Beloussov",
+          "quote": "Bell founded and co-owned Solomon Software SEA"
+        },
+        {
+          "kind": "education",
+          "org": "Moscow Institute of Physics and Technology",
+          "orgCanonical": "MIPT",
+          "source": "https://en.wikipedia.org/wiki/Serguei_Beloussov",
+          "quote": "graduating in 1992 with a bachelor's degree in physics"
+        }
+      ]
+    }
+  ]
+}

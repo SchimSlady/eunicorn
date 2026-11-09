@@ -1,0 +1,72 @@
+{
+  "id": "vestiaire-collective",
+  "founders": [
+    {
+      "name": "Fanny Moizant",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "NEOMA Business School",
+          "orgCanonical": "NEOMA Business School",
+          "years": "2001",
+          "source": "https://fashionfilmfestivalmilano.com/2022-fanny-moizant/",
+          "quote": "graduated with a degree in marketing from the NEOMA Business School"
+        },
+        {
+          "kind": "employer",
+          "org": "John Galliano",
+          "orgCanonical": "John Galliano",
+          "source": "https://fashionfilmfestivalmilano.com/2022-fanny-moizant/",
+          "quote": "work for several fashion and apparel brands such as John Galliano and Mexx"
+        },
+        {
+          "kind": "employer",
+          "org": "Mexx",
+          "orgCanonical": "Mexx",
+          "source": "https://fashionfilmfestivalmilano.com/2022-fanny-moizant/",
+          "quote": "work for several fashion and apparel brands such as John Galliano and Mexx"
+        },
+        {
+          "kind": "employer",
+          "org": "Venilia",
+          "orgCanonical": "Venilia",
+          "source": "https://fashionfilmfestivalmilano.com/2022-fanny-moizant/",
+          "quote": "taking a position with the French interior company, Venilia"
+        },
+        {
+          "kind": "education",
+          "org": "Institut Francais de la Mode",
+          "orgCanonical": "Institut Français de la Mode",
+          "years": "2007",
+          "source": "https://fashionfilmfestivalmilano.com/2022-fanny-moizant/",
+          "quote": "degree in Fashion and Luxury Management at the Institut Francais de la Mode"
+        }
+      ]
+    },
+    {
+      "name": "Sophie Hersan",
+      "note": "no quotable background found in fetchable sources",
+      "stations": []
+    },
+    {
+      "name": "Sébastien Fabre",
+      "note": "no quotable background found in fetchable sources",
+      "stations": []
+    },
+    {
+      "name": "Alexandre Cognard",
+      "note": "no quotable background found in fetchable sources",
+      "stations": []
+    },
+    {
+      "name": "Henrique Fernandes",
+      "note": "no public background found",
+      "stations": []
+    },
+    {
+      "name": "Christian Jorge",
+      "note": "no quotable background found in fetchable sources",
+      "stations": []
+    }
+  ]
+}

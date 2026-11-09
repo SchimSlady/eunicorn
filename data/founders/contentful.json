@@ -1,0 +1,52 @@
+{
+  "id": "contentful",
+  "founders": [
+    {
+      "name": "Sascha Konietzke",
+      "stations": [
+        {
+          "kind": "founded",
+          "org": "Tagcrumbs",
+          "orgCanonical": "Tagcrumbs",
+          "source": "https://www.heavybit.com/press/heavybit-welcomes-new-member-contentful",
+          "quote": "he founded Tagcrumbs – a geolocation based bookmarking service"
+        },
+        {
+          "kind": "employer",
+          "org": "HP",
+          "orgCanonical": "HP",
+          "source": "https://www.heavybit.com/press/heavybit-welcomes-new-member-contentful",
+          "quote": "worked for HP across a number of departments"
+        }
+      ]
+    },
+    {
+      "name": "Paolo Negri",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Forward",
+          "orgCanonical": "Forward Internet Group",
+          "source": "https://www.heavybit.com/press/heavybit-welcomes-new-member-contentful",
+          "quote": "He led the bid management development team at Forward"
+        },
+        {
+          "kind": "employer",
+          "org": "Autoscout24",
+          "orgCanonical": "AutoScout24",
+          "source": "https://www.heavybit.com/press/heavybit-welcomes-new-member-contentful",
+          "quote": "later helped to scale the website of Autoscout24"
+        },
+        {
+          "kind": "employer",
+          "org": "Wooga",
+          "orgCanonical": "Wooga",
+          "role": "Engineer",
+          "years": "2010-2012",
+          "source": "https://www.heavybit.com/press/heavybit-welcomes-new-member-contentful",
+          "quote": "In 2010, Paolo joined the social gaming company Wooga"
+        }
+      ]
+    }
+  ]
+}

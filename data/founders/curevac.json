@@ -1,0 +1,60 @@
+{
+  "id": "curevac",
+  "founders": [
+    {
+      "name": "Ingmar Hoerr",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "University of Tübingen",
+          "orgCanonical": "University of Tübingen",
+          "source": "https://de.wikipedia.org/wiki/Ingmar_Hoerr",
+          "quote": "Von 1990 bis 1996 studierte er Biologie an der Eberhard Karls Universität Tübingen"
+        }
+      ]
+    },
+    {
+      "name": "Steve Pascolo",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "École normale supérieure",
+          "orgCanonical": "ENS",
+          "source": "https://de.wikipedia.org/wiki/Steve_Pascolo",
+          "quote": "Er erhielt seinen M.S. in Biologie an der École normale supérieure in Paris"
+        }
+      ]
+    },
+    {
+      "name": "Florian von der Mülbe",
+      "note": "no public background found",
+      "stations": []
+    },
+    {
+      "name": "Günther Jung",
+      "note": "no public background found",
+      "stations": []
+    },
+    {
+      "name": "Hans-Georg Rammensee",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "University of Tübingen",
+          "orgCanonical": "University of Tübingen",
+          "source": "https://de.wikipedia.org/wiki/Hans-Georg_Rammensee",
+          "quote": "Rammensee studierte 1974 bis 1980 Biologie an der Universität Tübingen"
+        },
+        {
+          "kind": "employer",
+          "org": "Deutsches Krebsforschungszentrum",
+          "orgCanonical": "DKFZ",
+          "role": "Head of tumor virus immunology department",
+          "years": "1993-1996",
+          "source": "https://de.wikipedia.org/wiki/Hans-Georg_Rammensee",
+          "quote": "am Deutschen Krebsforschungszentrum in Heidelberg"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": "gorillas",
+  "founders": [
+    {
+      "name": "Kağan Sümer",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Bain & Company",
+          "orgCanonical": "Bain",
+          "source": "https://productmint.com/?p=2686",
+          "quote": "He then joined consulting powerhouse Bain"
+        },
+        {
+          "kind": "employer",
+          "org": "Rocket Internet",
+          "orgCanonical": "Rocket Internet",
+          "source": "https://productmint.com/?p=2686",
+          "quote": "joining Rocket Internet to launch a business together with them"
+        },
+        {
+          "kind": "founded",
+          "org": "Kuru",
+          "orgCanonical": "Kuru",
+          "source": "https://productmint.com/?p=2686",
+          "quote": "Kuru, a platform matching customers to dry cleaning shops"
+        },
+        {
+          "kind": "founded",
+          "org": "Lyght Living",
+          "orgCanonical": "Lyght Living",
+          "source": "https://productmint.com/?p=2686",
+          "quote": "That business became Lyght Living"
+        }
+      ]
+    },
+    {
+      "name": "Jörg Kattner",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Rocket Internet",
+          "orgCanonical": "Rocket Internet",
+          "source": "https://de.wikipedia.org/wiki/Gorillas_(Unternehmen)",
+          "quote": "Dieser hatte zuvor bei Rocket Internet gearbeitet"
+        },
+        {
+          "kind": "employer",
+          "org": "HelloFresh",
+          "orgCanonical": "HelloFresh",
+          "role": "Country Manager Switzerland, COO",
+          "source": "https://productmint.com/?p=2686",
+          "quote": "first as a country manager for Switzerland and then as its COO"
+        },
+        {
+          "kind": "employer",
+          "org": "Jumia",
+          "orgCanonical": "Jumia",
+          "source": "https://productmint.com/?p=2686",
+          "quote": "Kattner helped build up Jumia"
+        }
+      ]
+    },
+    {
+      "name": "Jeff Hester",
+      "note": "no public background found",
+      "stations": []
+    },
+    {
+      "name": "Ronny Shibley",
+      "note": "no public background found",
+      "stations": []
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "sumup",
+  "founders": [
+    {
+      "name": "Daniel Klein",
+      "stations": [
+        {
+          "kind": "founded",
+          "org": "Skrill (Moneybookers)",
+          "orgCanonical": "Skrill",
+          "source": "https://parisfintechforum.com/2017/speakers/klein-daniel-sumup",
+          "quote": "Prior to co-founding SumUp, Daniel successfully founded and ran several companies, including the e-money and payment service provider Skrill (Moneybookers)"
+        },
+        {
+          "kind": "employer",
+          "org": "NATO Programming Centre",
+          "orgCanonical": "NATO",
+          "source": "https://parisfintechforum.com/2017/speakers/klein-daniel-sumup",
+          "quote": "Daniel started his career at the NATO Programming Centre in Belgium"
+        },
+        {
+          "kind": "education",
+          "org": "WHU Otto Beisheim School of Management",
+          "orgCanonical": "WHU",
+          "source": "https://parisfintechforum.com/2017/speakers/klein-daniel-sumup",
+          "quote": "He studied at the WHU Otto Beisheim School of Management in Vallendar."
+        }
+      ]
+    },
+    {
+      "name": "Marc-Alexander Christ",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Groupon",
+          "orgCanonical": "Groupon",
+          "source": "https://parisfintechforum.com/PFF2019/speakers/christ-marc-alexander-sumup",
+          "quote": "he previously founded an eCommerce platform and led the Groupon sales team"
+        },
+        {
+          "kind": "employer",
+          "org": "JP Morgan",
+          "orgCanonical": "JPMorgan",
+          "role": "Vice President",
+          "source": "https://parisfintechforum.com/PFF2019/speakers/christ-marc-alexander-sumup",
+          "quote": "Marc moved on to become Vice President at JP Morgan in London and Frankfurt"
+        },
+        {
+          "kind": "employer",
+          "org": "European Investors",
+          "orgCanonical": "European Investors",
+          "source": "https://parisfintechforum.com/PFF2019/speakers/christ-marc-alexander-sumup",
+          "quote": "Beginning his career in investment banking at European Investors in New York"
+        },
+        {
+          "kind": "education",
+          "org": "University of Maastricht",
+          "orgCanonical": "Maastricht University",
+          "source": "https://parisfintechforum.com/PFF2019/speakers/christ-marc-alexander-sumup",
+          "quote": "Marc holds an MA in International Business as well as a Doctorandus de Bedrijfswetenschappen from the University of Maastricht."
+        }
+      ]
+    }
+  ]
+}

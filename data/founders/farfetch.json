@@ -1,0 +1,47 @@
+{
+  "id": "farfetch",
+  "founders": [
+    {
+      "name": "José Neves",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "University of Porto",
+          "orgCanonical": "University of Porto",
+          "source": "https://en.wikipedia.org/wiki/Jos%C3%A9_Neves",
+          "quote": "He studied economics at the University of Porto"
+        },
+        {
+          "kind": "founded",
+          "org": "Grey Matter",
+          "orgCanonical": "Grey Matter",
+          "source": "https://en.wikipedia.org/wiki/Jos%C3%A9_Neves",
+          "quote": "Neves founded his first tech company, Grey Matter, while studying at university"
+        },
+        {
+          "kind": "founded",
+          "org": "Platforme",
+          "orgCanonical": "Platforme",
+          "years": "1996",
+          "source": "https://en.wikipedia.org/wiki/Jos%C3%A9_Neves",
+          "quote": "he founded a software firm called Platforme for small fashion brands in 1996"
+        },
+        {
+          "kind": "founded",
+          "org": "Swear",
+          "orgCanonical": "Swear",
+          "source": "https://en.wikipedia.org/wiki/Jos%C3%A9_Neves",
+          "quote": "he launched a footwear brand named Swear, and opened a store in London"
+        },
+        {
+          "kind": "founded",
+          "org": "bstore",
+          "orgCanonical": "bstore",
+          "years": "2001",
+          "source": "https://en.wikipedia.org/wiki/Jos%C3%A9_Neves",
+          "quote": "He started a retail fashion store named bstore on Savile Row in London in 2001"
+        }
+      ]
+    }
+  ]
+}

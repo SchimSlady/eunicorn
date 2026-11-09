@@ -1,0 +1,31 @@
+{
+  "id": "productboard",
+  "founders": [
+    {
+      "name": "Hubert Palan",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "GoodData",
+          "orgCanonical": "GoodData",
+          "role": "VP of product management",
+          "source": "https://www.destinationcrm.com/Authors/9076-Hubert-Palan--.htm",
+          "quote": "Before Productboard, Palan was VP of product management at GoodData and a management consultant at Accenture"
+        },
+        {
+          "kind": "employer",
+          "org": "Accenture",
+          "orgCanonical": "Accenture",
+          "role": "management consultant",
+          "source": "https://www.destinationcrm.com/Authors/9076-Hubert-Palan--.htm",
+          "quote": "Before Productboard, Palan was VP of product management at GoodData and a management consultant at Accenture"
+        }
+      ]
+    },
+    {
+      "name": "Daniel Hejl",
+      "note": "no public background found",
+      "stations": []
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "stark",
+  "founders": [
+    {
+      "name": "Florian Seibel",
+      "stations": [
+        {
+          "kind": "founded",
+          "org": "Quantum Systems",
+          "orgCanonical": "Quantum Systems",
+          "source": "https://thenextweb.com/news/stark-defence-300-million-raise-drone-unicorn-berlin",
+          "quote": "who previously founded rival German drone maker Quantum Systems"
+        }
+      ]
+    }
+  ]
+}

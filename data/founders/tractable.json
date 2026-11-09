@@ -1,0 +1,43 @@
+{
+  "id": "tractable",
+  "founders": [
+    {
+      "name": "Alexandre Dalyac",
+      "note": "no quotable pre-Tractable station found",
+      "stations": []
+    },
+    {
+      "name": "Razvan Ranca",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "University of Cambridge",
+          "orgCanonical": "University of Cambridge",
+          "role": "machine learning researcher",
+          "source": "https://pipedot.org/5MDGX",
+          "quote": "He was doing machine learning research at Cambridge"
+        }
+      ]
+    },
+    {
+      "name": "Adrien Cohen",
+      "stations": [
+        {
+          "kind": "founded",
+          "org": "Lazada",
+          "orgCanonical": "Lazada",
+          "source": "https://pipedot.org/5MDGX",
+          "quote": "Adrien had previously co-founded Lazada"
+        },
+        {
+          "kind": "exit",
+          "org": "Lazada",
+          "orgCanonical": "Lazada",
+          "role": "sold to Alibaba",
+          "source": "https://pipedot.org/5MDGX",
+          "quote": "which sold to Alibaba for $1.5 billion"
+        }
+      ]
+    }
+  ]
+}

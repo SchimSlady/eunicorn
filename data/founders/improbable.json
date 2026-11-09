@@ -1,0 +1,49 @@
+{
+  "id": "improbable",
+  "founders": [
+    {
+      "name": "Herman Narula",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "University of Cambridge (Girton College)",
+          "orgCanonical": "University of Cambridge",
+          "source": "https://en.wikipedia.org/wiki/Herman_Narula",
+          "quote": "Girton College, Cambridge, where he studied computer science"
+        }
+      ]
+    },
+    {
+      "name": "Rob Whitehead",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "University of Cambridge (Robinson College)",
+          "orgCanonical": "University of Cambridge",
+          "source": "https://en.wikipedia.org/wiki/Improbable_(company)",
+          "quote": "Rob Whitehead obtained computer science degrees from Cambridge University at Girton and Robinson Colleges, respectively"
+        }
+      ]
+    },
+    {
+      "name": "Peter Lipka",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "Imperial College London",
+          "orgCanonical": "Imperial College London",
+          "source": "https://imperial.ac.uk/news/179329/imperial-graduates-startup-valued-billion",
+          "quote": "graduated with a 1st class honours MEng in Computing from Imperial in 2011",
+          "years": "2011"
+        },
+        {
+          "kind": "employer",
+          "org": "Goldman Sachs",
+          "orgCanonical": "Goldman Sachs",
+          "source": "https://imperial.ac.uk/news/179329/imperial-graduates-startup-valued-billion",
+          "quote": "before working at Goldman Sachs"
+        }
+      ]
+    }
+  ]
+}

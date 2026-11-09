@@ -1,0 +1,66 @@
+{
+  "id": "spendesk",
+  "founders": [
+    {
+      "name": "Rodolphe Ardant",
+      "stations": [
+        {
+          "kind": "founded",
+          "org": "Wozaik",
+          "orgCanonical": "Wozaik",
+          "source": "https://www.spendesk.com/blog/author/rodolphe-ardant/",
+          "quote": "founder of Wozaik, a digital advertising startup acquired by Solocal Group in 2013"
+        },
+        {
+          "kind": "exit",
+          "org": "Wozaik",
+          "orgCanonical": "Wozaik",
+          "role": "acquired by Solocal Group",
+          "years": "2013",
+          "source": "https://www.spendesk.com/blog/author/rodolphe-ardant/",
+          "quote": "founder of Wozaik, a digital advertising startup acquired by Solocal Group in 2013"
+        },
+        {
+          "kind": "employer",
+          "org": "Drivy",
+          "orgCanonical": "Drivy",
+          "role": "COO",
+          "source": "https://www.spendesk.com/blog/author/rodolphe-ardant/",
+          "quote": "COO for the car rental startup Drivy"
+        },
+        {
+          "kind": "employer",
+          "org": "eFounders",
+          "orgCanonical": "eFounders",
+          "role": "founder in residence",
+          "source": "https://www.spendesk.com/blog/author/rodolphe-ardant/",
+          "quote": "founder in residence at startup studio eFounders"
+        },
+        {
+          "kind": "education",
+          "org": "École Polytechnique",
+          "orgCanonical": "École Polytechnique",
+          "source": "https://parisfintechforum.com/PFF2020/speakers/ardant-rodolphe-spendesk",
+          "quote": "immediately after graduating from École Polytechnique and Columbia University"
+        },
+        {
+          "kind": "education",
+          "org": "Columbia University",
+          "orgCanonical": "Columbia University",
+          "source": "https://parisfintechforum.com/PFF2020/speakers/ardant-rodolphe-spendesk",
+          "quote": "immediately after graduating from École Polytechnique and Columbia University"
+        }
+      ]
+    },
+    {
+      "name": "Guilhem Bellion",
+      "note": "no public background found in checkable sources",
+      "stations": []
+    },
+    {
+      "name": "Jordane Giuly",
+      "note": "no public background found in checkable sources",
+      "stations": []
+    }
+  ]
+}

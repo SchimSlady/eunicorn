@@ -1,0 +1,42 @@
+{
+  "id": "bitpanda",
+  "founders": [
+    {
+      "name": "Eric Demuth",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Hapag-Lloyd",
+          "orgCanonical": "Hapag-Lloyd",
+          "role": "Ship mechanic",
+          "source": "https://www.boersen-zeitung.de/personen/kryptoboerse-bitpanda-ordnet-vor-moeglichem-ipo-die-fuehrung-neu",
+          "quote": "arbeitete mehrere Jahre auf Containerschiffen der Reederei Hapag-Lloyd"
+        },
+        {
+          "kind": "education",
+          "org": "Wirtschaftsuniversität Wien",
+          "orgCanonical": "WU Wien",
+          "source": "https://www.boersen-zeitung.de/personen/kryptoboerse-bitpanda-ordnet-vor-moeglichem-ipo-die-fuehrung-neu",
+          "quote": "Studium der Betriebswirtschaftslehre mit Schwerpunkt Banking und Finance an der Wirtschaftsuniversität Wien"
+        },
+        {
+          "kind": "education",
+          "org": "London School of Economics",
+          "orgCanonical": "London School of Economics",
+          "source": "https://www.boersen-zeitung.de/personen/kryptoboerse-bitpanda-ordnet-vor-moeglichem-ipo-die-fuehrung-neu",
+          "quote": "sowie an der London School of Economics"
+        }
+      ]
+    },
+    {
+      "name": "Paul Klanschek",
+      "note": "no verifiable public background found",
+      "stations": []
+    },
+    {
+      "name": "Christian Trummer",
+      "note": "no verifiable public background found",
+      "stations": []
+    }
+  ]
+}

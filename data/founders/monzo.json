@@ -1,0 +1,76 @@
+{
+  "id": "monzo",
+  "founders": [
+    {
+      "name": "Tom Blomfield",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "University of Oxford",
+          "orgCanonical": "University of Oxford",
+          "role": "Law",
+          "source": "https://en.wikipedia.org/wiki/Tom_Blomfield",
+          "quote": "He earned a degree in law (jurisprudence) from the University of Oxford."
+        },
+        {
+          "kind": "founded",
+          "org": "Boso.com",
+          "orgCanonical": "Boso.com",
+          "source": "https://en.wikipedia.org/wiki/Tom_Blomfield",
+          "quote": "Named Boso.com, it expanded to 50 universities across the UK"
+        },
+        {
+          "kind": "exit",
+          "org": "Boso.com",
+          "orgCanonical": "Boso.com",
+          "role": "sold to an unnamed Canadian company",
+          "source": "https://en.wikipedia.org/wiki/Tom_Blomfield",
+          "quote": "The business was sold to a Canadian company"
+        },
+        {
+          "kind": "employer",
+          "org": "OC&C Strategy Consultants",
+          "orgCanonical": "OC&C",
+          "role": "Associate consultant",
+          "source": "https://en.wikipedia.org/wiki/Tom_Blomfield",
+          "quote": "he first worked as an associate consultant at OC&C Strategy Consultants"
+        },
+        {
+          "kind": "founded",
+          "org": "GoCardless",
+          "orgCanonical": "GoCardless",
+          "years": "2011",
+          "source": "https://en.wikipedia.org/wiki/Tom_Blomfield",
+          "quote": "Blomfield co-founded the UK-based company GoCardless in January 2011"
+        },
+        {
+          "kind": "employer",
+          "org": "Starling Bank",
+          "orgCanonical": "Starling Bank",
+          "source": "https://en.wikipedia.org/wiki/Tom_Blomfield",
+          "quote": "Blomfield joined Boden at her company Starling Bank"
+        }
+      ]
+    },
+    {
+      "name": "Jason Bates",
+      "note": "no usable public source fetched (speaker pages blocked or non-specific)",
+      "stations": []
+    },
+    {
+      "name": "Jonas Huckestein",
+      "note": "Monzo blog bio has no prior employers",
+      "stations": []
+    },
+    {
+      "name": "Paul Rippon",
+      "note": "no public background found in fetched sources",
+      "stations": []
+    },
+    {
+      "name": "Gary Dolman",
+      "note": "no public background found in fetched sources",
+      "stations": []
+    }
+  ]
+}

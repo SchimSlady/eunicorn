@@ -1,0 +1,79 @@
+{
+  "id": "starling-bank",
+  "founders": [
+    {
+      "name": "Anne Boden",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "Swansea University",
+          "orgCanonical": "Swansea University",
+          "years": "1981",
+          "source": "https://en.wikipedia.org/wiki/Anne_Boden",
+          "quote": "graduated from Swansea University in 1981"
+        },
+        {
+          "kind": "education",
+          "org": "Middlesex University",
+          "orgCanonical": "Middlesex University",
+          "years": "1990",
+          "source": "https://en.wikipedia.org/wiki/Anne_Boden",
+          "quote": "Boden earned her MBA from Middlesex University in 1990"
+        },
+        {
+          "kind": "employer",
+          "org": "Lloyds Banking Group",
+          "orgCanonical": "Lloyds",
+          "source": "https://en.wikipedia.org/wiki/Anne_Boden",
+          "quote": "accepted a job as a graduate trainee with Lloyds Banking Group"
+        },
+        {
+          "kind": "employer",
+          "org": "Standard Chartered",
+          "orgCanonical": "Standard Chartered",
+          "source": "https://en.wikipedia.org/wiki/Anne_Boden",
+          "quote": "She went on to work at Standard Chartered, UBS, and as Chief Information Officer at Aon."
+        },
+        {
+          "kind": "employer",
+          "org": "UBS",
+          "orgCanonical": "UBS",
+          "source": "https://en.wikipedia.org/wiki/Anne_Boden",
+          "quote": "She went on to work at Standard Chartered, UBS, and as Chief Information Officer at Aon."
+        },
+        {
+          "kind": "employer",
+          "org": "Aon",
+          "orgCanonical": "Aon",
+          "role": "Chief Information Officer",
+          "source": "https://en.wikipedia.org/wiki/Anne_Boden",
+          "quote": "She went on to work at Standard Chartered, UBS, and as Chief Information Officer at Aon."
+        },
+        {
+          "kind": "employer",
+          "org": "ABN AMRO",
+          "orgCanonical": "ABN AMRO",
+          "source": "https://en.wikipedia.org/wiki/Anne_Boden",
+          "quote": "Boden later joined ABN AMRO and Royal Bank of Scotland Group, serving as Head of EMEA and as head of Global Transaction Banking."
+        },
+        {
+          "kind": "employer",
+          "org": "Royal Bank of Scotland Group",
+          "orgCanonical": "Royal Bank of Scotland",
+          "role": "Head of Global Transaction Banking",
+          "source": "https://en.wikipedia.org/wiki/Anne_Boden",
+          "quote": "Boden later joined ABN AMRO and Royal Bank of Scotland Group, serving as Head of EMEA and as head of Global Transaction Banking."
+        },
+        {
+          "kind": "employer",
+          "org": "Allied Irish Banks",
+          "orgCanonical": "Allied Irish Banks",
+          "role": "Chief Operating Officer",
+          "years": "2012",
+          "source": "https://en.wikipedia.org/wiki/Anne_Boden",
+          "quote": "She joined Allied Irish Banks in 2012 as Chief Operating Officer"
+        }
+      ]
+    }
+  ]
+}

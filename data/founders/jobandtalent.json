@@ -1,0 +1,36 @@
+{
+  "id": "jobandtalent",
+  "founders": [
+    {
+      "name": "Juan Urdiales",
+      "stations": [
+        {
+          "kind": "founded",
+          "org": "Pluscuamperfecto",
+          "orgCanonical": "Pluscuamperfecto",
+          "source": "https://novobrief.com/?p=4399",
+          "quote": "few months after Urdiales sold its first startup, online clothing store Pluscuamperfecto"
+        },
+        {
+          "kind": "exit",
+          "org": "Pluscuamperfecto",
+          "orgCanonical": "Pluscuamperfecto",
+          "source": "https://novobrief.com/?p=4399",
+          "quote": "few months after Urdiales sold its first startup, online clothing store Pluscuamperfecto"
+        }
+      ]
+    },
+    {
+      "name": "Felipe Navio",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Tuenti",
+          "orgCanonical": "Tuenti",
+          "source": "https://novobrief.com/?p=4399",
+          "quote": "when Felipe Navío was working at Tuenti"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "black-forest-labs",
+  "founders": [
+    {
+      "name": "Robin Rombach",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Stability AI",
+          "orgCanonical": "Stability AI",
+          "source": "https://en.wikipedia.org/wiki/Black_Forest_Labs",
+          "quote": "Robin Rombach, Andreas Blattmann, and Patrick Esser, former employees of Stability AI"
+        },
+        {
+          "kind": "employer",
+          "org": "LMU Munich",
+          "orgCanonical": "LMU Munich",
+          "source": "https://en.wikipedia.org/wiki/Black_Forest_Labs",
+          "quote": "had previously researched the artificial intelligence image generation at LMU Munich as research assistants under Björn Ommer"
+        }
+      ]
+    },
+    {
+      "name": "Andreas Blattmann",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Stability AI",
+          "orgCanonical": "Stability AI",
+          "source": "https://en.wikipedia.org/wiki/Black_Forest_Labs",
+          "quote": "Robin Rombach, Andreas Blattmann, and Patrick Esser, former employees of Stability AI"
+        },
+        {
+          "kind": "employer",
+          "org": "LMU Munich",
+          "orgCanonical": "LMU Munich",
+          "source": "https://en.wikipedia.org/wiki/Black_Forest_Labs",
+          "quote": "had previously researched the artificial intelligence image generation at LMU Munich as research assistants under Björn Ommer"
+        }
+      ]
+    },
+    {
+      "name": "Patrick Esser",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Stability AI",
+          "orgCanonical": "Stability AI",
+          "source": "https://en.wikipedia.org/wiki/Black_Forest_Labs",
+          "quote": "Robin Rombach, Andreas Blattmann, and Patrick Esser, former employees of Stability AI"
+        },
+        {
+          "kind": "employer",
+          "org": "LMU Munich",
+          "orgCanonical": "LMU Munich",
+          "source": "https://en.wikipedia.org/wiki/Black_Forest_Labs",
+          "quote": "had previously researched the artificial intelligence image generation at LMU Munich as research assistants under Björn Ommer"
+        }
+      ]
+    }
+  ]
+}

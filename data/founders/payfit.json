@@ -1,0 +1,27 @@
+{
+  "id": "payfit",
+  "founders": [
+    {
+      "name": "Firmin Zocchetto",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "ESCP Business School",
+          "orgCanonical": "ESCP",
+          "source": "https://www.leadersleague.com/es/news/firmin-zocchetto-payfit-entrepreneurship-is-a-marathon-that-you-have-to-run-at-full-tilt",
+          "quote": "dropped out of ESCP business school to found PayFit"
+        }
+      ]
+    },
+    {
+      "name": "Ghislain de Fontenay",
+      "note": "no public background found in fetchable sources",
+      "stations": []
+    },
+    {
+      "name": "Florian Fournier",
+      "note": "no public background found in fetchable sources",
+      "stations": []
+    }
+  ]
+}

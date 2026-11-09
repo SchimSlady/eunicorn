@@ -1,0 +1,53 @@
+{
+  "id": "elevenlabs",
+  "founders": [
+    {
+      "name": "Mati Staniszewski",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Palantir Technologies",
+          "orgCanonical": "Palantir",
+          "role": "Deployment Strategist",
+          "source": "https://www.sxswlondon.com/speakers/mati-staniszewski-8c2f7242",
+          "quote": "Before starting ElevenLabs, Mati worked as a Deployment Strategist at Palantir"
+        },
+        {
+          "kind": "employer",
+          "org": "BlackRock",
+          "orgCanonical": "BlackRock",
+          "source": "https://www.sxswlondon.com/speakers/mati-staniszewski-8c2f7242",
+          "quote": "at BlackRock, he helped develop product models and launch the Aladdin Wealth platform"
+        },
+        {
+          "kind": "employer",
+          "org": "Opera Software",
+          "orgCanonical": "Opera",
+          "source": "https://www.sxswlondon.com/speakers/mati-staniszewski-8c2f7242",
+          "quote": "He began his career at Opera Software"
+        },
+        {
+          "kind": "education",
+          "org": "Imperial College London",
+          "orgCanonical": "Imperial College London",
+          "source": "https://en.wikipedia.org/wiki/Mati_Staniszewski",
+          "quote": "He graduated from Imperial College in London with a degree in mathematics"
+        }
+      ]
+    },
+    {
+      "name": "Piotr Dąbkowski",
+      "note": "quote from Wikipedia; page text renders a link between \"ex-\" and \"Google\"",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Google",
+          "orgCanonical": "Google",
+          "role": "machine learning engineer",
+          "source": "https://en.wikipedia.org/wiki/ElevenLabs",
+          "quote": "an ex- Google machine learning engineer"
+        }
+      ]
+    }
+  ]
+}

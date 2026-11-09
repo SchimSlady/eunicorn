@@ -1,0 +1,31 @@
+{
+  "id": "gostudent",
+  "founders": [
+    {
+      "name": "Felix Ohswald",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "University of Vienna",
+          "orgCanonical": "University of Vienna",
+          "source": "https://www.pictet.com/ch/en/insights/passing-on-a-passion-for-education",
+          "quote": "Graduates from the University of Vienna with a BA Mathematics"
+        },
+        {
+          "kind": "education",
+          "org": "University of Cambridge",
+          "orgCanonical": "University of Cambridge",
+          "source": "https://www.pictet.com/ch/en/insights/passing-on-a-passion-for-education",
+          "quote": "Completes a BA (Hons) Mathematics at the University of Cambridge"
+        },
+        {
+          "kind": "education",
+          "org": "ETH Zürich",
+          "orgCanonical": "ETH Zurich",
+          "source": "https://www.pictet.com/ch/en/insights/passing-on-a-passion-for-education",
+          "quote": "was studying a Masters in Quantitative Finance at ETH Zürich"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "onefootball",
+  "founders": [
+    {
+      "name": "Lucas von Cranach",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "EM.TV",
+          "orgCanonical": "EM.TV",
+          "source": "https://milkeninstitute.org/events/middle-east-and-africa-summit-2022/speakers/lucas-von-cranach",
+          "quote": "Prior to OneFootball, von Cranach worked at EM.TV, Bertelsmann Venture Capital, Siemens S.A., Golding Capital Partners and the Horstmann Group."
+        },
+        {
+          "kind": "employer",
+          "org": "Bertelsmann Venture Capital",
+          "orgCanonical": "Bertelsmann",
+          "source": "https://milkeninstitute.org/events/middle-east-and-africa-summit-2022/speakers/lucas-von-cranach",
+          "quote": "Prior to OneFootball, von Cranach worked at EM.TV, Bertelsmann Venture Capital, Siemens S.A., Golding Capital Partners and the Horstmann Group."
+        },
+        {
+          "kind": "employer",
+          "org": "Siemens S.A.",
+          "orgCanonical": "Siemens",
+          "source": "https://milkeninstitute.org/events/middle-east-and-africa-summit-2022/speakers/lucas-von-cranach",
+          "quote": "Prior to OneFootball, von Cranach worked at EM.TV, Bertelsmann Venture Capital, Siemens S.A., Golding Capital Partners and the Horstmann Group."
+        },
+        {
+          "kind": "employer",
+          "org": "Golding Capital Partners",
+          "orgCanonical": "Golding Capital Partners",
+          "source": "https://milkeninstitute.org/events/middle-east-and-africa-summit-2022/speakers/lucas-von-cranach",
+          "quote": "Prior to OneFootball, von Cranach worked at EM.TV, Bertelsmann Venture Capital, Siemens S.A., Golding Capital Partners and the Horstmann Group."
+        },
+        {
+          "kind": "employer",
+          "org": "Horstmann Group",
+          "orgCanonical": "Horstmann Group",
+          "source": "https://milkeninstitute.org/events/middle-east-and-africa-summit-2022/speakers/lucas-von-cranach",
+          "quote": "Prior to OneFootball, von Cranach worked at EM.TV, Bertelsmann Venture Capital, Siemens S.A., Golding Capital Partners and the Horstmann Group."
+        },
+        {
+          "kind": "education",
+          "org": "UC Berkeley",
+          "orgCanonical": "UC Berkeley",
+          "source": "https://milkeninstitute.org/events/middle-east-and-africa-summit-2022/speakers/lucas-von-cranach",
+          "quote": "studied economics and business administration at UC Berkeley, the London School of Economics and the Technical University of Berlin"
+        },
+        {
+          "kind": "education",
+          "org": "London School of Economics",
+          "orgCanonical": "London School of Economics",
+          "source": "https://milkeninstitute.org/events/middle-east-and-africa-summit-2022/speakers/lucas-von-cranach",
+          "quote": "studied economics and business administration at UC Berkeley, the London School of Economics and the Technical University of Berlin"
+        },
+        {
+          "kind": "education",
+          "org": "Technical University of Berlin",
+          "orgCanonical": "TU Berlin",
+          "source": "https://milkeninstitute.org/events/middle-east-and-africa-summit-2022/speakers/lucas-von-cranach",
+          "quote": "studied economics and business administration at UC Berkeley, the London School of Economics and the Technical University of Berlin"
+        }
+      ]
+    }
+  ]
+}

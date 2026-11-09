@@ -1,0 +1,27 @@
+{
+  "id": "grover",
+  "founders": [
+    {
+      "name": "Michael Cassau",
+      "note": "source is a secondary profile site; roles/dates not stated",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Goldman Sachs",
+          "orgCanonical": "Goldman Sachs",
+          "source": "https://moneyinc.com/michael-cassau/",
+          "quote": "he went to work for the prestigious and notorious Goldman Sachs private equity firm at the London, England branch",
+          "weakSource": true
+        },
+        {
+          "kind": "employer",
+          "org": "Rocket Internet",
+          "orgCanonical": "Rocket Internet",
+          "source": "https://moneyinc.com/michael-cassau/",
+          "quote": "Michael left Goldman Sachs to work for Rocket Internet",
+          "weakSource": true
+        }
+      ]
+    }
+  ]
+}

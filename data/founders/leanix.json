@@ -1,0 +1,23 @@
+{
+  "id": "leanix",
+  "founders": [
+    {
+      "name": "Jörg Beyer",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "DHL",
+          "orgCanonical": "DHL",
+          "source": "https://blog.leanix.net/en/leanix-startup-success-story",
+          "quote": "Jörg Beyer, former CIO at DHL and in charge of the IT strategy of the logistics division",
+          "role": "CIO"
+        }
+      ]
+    },
+    {
+      "name": "André Christ",
+      "note": "only \"managing consultant\" without employer found",
+      "stations": []
+    }
+  ]
+}

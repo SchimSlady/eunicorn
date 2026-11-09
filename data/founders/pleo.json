@@ -1,0 +1,29 @@
+{
+  "id": "pleo",
+  "founders": [
+    {
+      "name": "Jeppe Rindom",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Tradeshift",
+          "orgCanonical": "Tradeshift",
+          "source": "https://www.pleo.io/en/about",
+          "quote": "Both were early members of start-up success Tradeshift"
+        }
+      ]
+    },
+    {
+      "name": "Niccolo Perra",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Tradeshift",
+          "orgCanonical": "Tradeshift",
+          "source": "https://www.pleo.io/en/about",
+          "quote": "Both were early members of start-up success Tradeshift"
+        }
+      ]
+    }
+  ]
+}

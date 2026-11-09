@@ -1,0 +1,33 @@
+{
+  "id": "bought-by-many",
+  "founders": [
+    {
+      "name": "Steven Mendel",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "McKinsey & Co",
+          "orgCanonical": "McKinsey",
+          "role": "Actuary and management consultant",
+          "source": "https://www.moltenventures.com/people/steven-mendel",
+          "quote": "He began his career as an actuary and management consultant at McKinsey & Co."
+        },
+        {
+          "kind": "employer",
+          "org": "Close Brothers",
+          "orgCanonical": "Close Brothers",
+          "role": "Head of Wealth Management",
+          "source": "https://www.moltenventures.com/people/steven-mendel",
+          "quote": "Prior to founding ManyPets, Steven served as Head of Wealth Management at Close Brothers."
+        },
+        {
+          "kind": "education",
+          "org": "University of Leeds",
+          "orgCanonical": "University of Leeds",
+          "source": "https://www.moltenventures.com/people/steven-mendel",
+          "quote": "Steven is a graduate of the University of Leeds."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": "carmoola",
+  "founders": [
+    {
+      "name": "Aidan Rushby",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Movebubble",
+          "orgCanonical": "Movebubble",
+          "source": "https://ca.sports.yahoo.com/news/jaguar-land-rover-backs-carmoola-084231374.html",
+          "quote": "former Movebubble execs Aidan Rushby, Roman Sumnikov and Igor Gordiichuk",
+          "weakSource": true
+        },
+        {
+          "kind": "founded",
+          "org": "Movebubble",
+          "orgCanonical": "Movebubble",
+          "role": "Co-founder",
+          "source": "https://en.wikipedia.org/wiki/Carmoola",
+          "quote": "Carmoola was founded in London in 2021 by Movebubble co-founder, Aidan Rushby"
+        }
+      ]
+    },
+    {
+      "name": "Roman Sumnikov",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Movebubble",
+          "orgCanonical": "Movebubble",
+          "source": "https://ca.sports.yahoo.com/news/jaguar-land-rover-backs-carmoola-084231374.html",
+          "quote": "former Movebubble execs Aidan Rushby, Roman Sumnikov and Igor Gordiichuk",
+          "weakSource": true
+        }
+      ]
+    },
+    {
+      "name": "Igor Gordiichuk",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Movebubble",
+          "orgCanonical": "Movebubble",
+          "source": "https://ca.sports.yahoo.com/news/jaguar-land-rover-backs-carmoola-084231374.html",
+          "quote": "former Movebubble execs Aidan Rushby, Roman Sumnikov and Igor Gordiichuk",
+          "weakSource": true
+        }
+      ]
+    }
+  ]
+}

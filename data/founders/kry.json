@@ -1,0 +1,39 @@
+{
+  "id": "kry",
+  "founders": [
+    {
+      "name": "Johannes Schildt",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Stardoll",
+          "orgCanonical": "Stardoll",
+          "source": "https://sv.wikipedia.org/wiki/Johannes_Schildt",
+          "quote": "började han 2006 att arbeta på spelföretaget Stardoll"
+        },
+        {
+          "kind": "education",
+          "org": "Stockholms universitet",
+          "orgCanonical": "Stockholm University",
+          "source": "https://sv.wikipedia.org/wiki/Johannes_Schildt",
+          "quote": "Schildt studerade företagsekonomi vid Stockholms universitet mellan 2009 och 2011, men tog inte ut en examen"
+        }
+      ]
+    },
+    {
+      "name": "Fredrik Jung Abbou",
+      "note": "no checkable public background found",
+      "stations": []
+    },
+    {
+      "name": "Josefin Landgård",
+      "note": "no public background found",
+      "stations": []
+    },
+    {
+      "name": "Joachim Hedenius",
+      "note": "no public background found",
+      "stations": []
+    }
+  ]
+}

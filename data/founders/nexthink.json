@@ -1,0 +1,41 @@
+{
+  "id": "nexthink",
+  "founders": [
+    {
+      "name": "Pedro Bados",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "EPFL",
+          "orgCanonical": "EPFL",
+          "source": "https://swiss.tech/news/epfl-spin-nexthink-next-swiss-unicorn",
+          "quote": "EPFL alumni Pedro Bados, Patrick Hertzog and Vincent Bieri developed the first real-time end-user monitoring technology for computer systems during their studies in electrical engineering and computer science in Lausanne"
+        }
+      ]
+    },
+    {
+      "name": "Patrick Hertzog",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "EPFL",
+          "orgCanonical": "EPFL",
+          "source": "https://swiss.tech/news/epfl-spin-nexthink-next-swiss-unicorn",
+          "quote": "EPFL alumni Pedro Bados, Patrick Hertzog and Vincent Bieri developed the first real-time end-user monitoring technology for computer systems during their studies in electrical engineering and computer science in Lausanne"
+        }
+      ]
+    },
+    {
+      "name": "Vincent Bieri",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "EPFL",
+          "orgCanonical": "EPFL",
+          "source": "https://swiss.tech/news/epfl-spin-nexthink-next-swiss-unicorn",
+          "quote": "EPFL alumni Pedro Bados, Patrick Hertzog and Vincent Bieri developed the first real-time end-user monitoring technology for computer systems during their studies in electrical engineering and computer science in Lausanne"
+        }
+      ]
+    }
+  ]
+}

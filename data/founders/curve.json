@@ -1,0 +1,24 @@
+{
+  "id": "curve",
+  "founders": [
+    {
+      "name": "Shachar Bialick",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "INSEAD",
+          "orgCanonical": "INSEAD",
+          "source": "https://about.me/shacharb",
+          "quote": "I hold an MBA from INSEAD"
+        },
+        {
+          "kind": "education",
+          "org": "Tel-Aviv University",
+          "orgCanonical": "Tel Aviv University",
+          "source": "https://about.me/shacharb",
+          "quote": "an LLb. in Law and Economics from Tel-Aviv University"
+        }
+      ]
+    }
+  ]
+}

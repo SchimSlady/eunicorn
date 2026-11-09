@@ -1,0 +1,31 @@
+{
+  "id": "edurino",
+  "founders": [
+    {
+      "name": "Irene Klemm",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Boston Consulting Group",
+          "orgCanonical": "BCG",
+          "role": "Consultant",
+          "source": "https://www.startbase.de/news/edurino-erhaelt-335-millionen-euro/",
+          "quote": "Vor der Gründung arbeiteten Klemm und Meyer als Unternehmensberaterinnen bei der Boston Consulting Group"
+        }
+      ]
+    },
+    {
+      "name": "Franziska Meyer",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Boston Consulting Group",
+          "orgCanonical": "BCG",
+          "role": "Consultant",
+          "source": "https://www.startbase.de/news/edurino-erhaelt-335-millionen-euro/",
+          "quote": "Vor der Gründung arbeiteten Klemm und Meyer als Unternehmensberaterinnen bei der Boston Consulting Group"
+        }
+      ]
+    }
+  ]
+}

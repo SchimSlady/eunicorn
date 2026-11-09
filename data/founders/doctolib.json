@@ -1,0 +1,39 @@
+{
+  "id": "doctolib",
+  "founders": [
+    {
+      "name": "Stanislas Niox-Chateau",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "HEC Paris",
+          "orgCanonical": "HEC Paris",
+          "source": "https://www.journaldunet.com/management/emploi-cadres/1550529-rv1-stanislas-niox-chateau/",
+          "quote": "il intègre HEC Paris en 2006"
+        },
+        {
+          "kind": "founded",
+          "org": "Otium Capital",
+          "orgCanonical": "Otium Capital",
+          "source": "https://www.journaldunet.com/management/emploi-cadres/1550529-rv1-stanislas-niox-chateau/",
+          "quote": "il confonde Otium Capital, un investisseur privé qui accompagne les entrepreneurs"
+        }
+      ]
+    },
+    {
+      "name": "Jessy Bernal",
+      "note": "no public professional background found in permitted sources",
+      "stations": []
+    },
+    {
+      "name": "Ivan Schneider",
+      "note": "no public professional background found in permitted sources",
+      "stations": []
+    },
+    {
+      "name": "Steve Abou-Rjeily",
+      "note": "no public professional background found in permitted sources",
+      "stations": []
+    }
+  ]
+}

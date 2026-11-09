@@ -1,0 +1,19 @@
+{
+  "id": "britishvolt",
+  "founders": [
+    {
+      "name": "Orral Nadjari",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Jool Capital Partner",
+          "orgCanonical": "Jool Capital Partner",
+          "role": "Investment banker",
+          "source": "https://uk.finance.yahoo.com/news/shock-therapy-turmoil-engulfs-britishvolt-060029121.html",
+          "quote": "spent most of his career at corporate bond seller Jool Capital Partner",
+          "weakSource": true
+        }
+      ]
+    }
+  ]
+}

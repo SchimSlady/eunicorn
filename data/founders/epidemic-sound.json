@@ -1,0 +1,59 @@
+{
+  "id": "epidemic-sound",
+  "founders": [
+    {
+      "name": "Peer Åström",
+      "note": "songwriter/producer; no checkable employer station",
+      "stations": []
+    },
+    {
+      "name": "David Stenmarck",
+      "note": "no public background found",
+      "stations": []
+    },
+    {
+      "name": "Oscar Höglund",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "The Boston Consulting Group",
+          "orgCanonical": "BCG",
+          "role": "Management consultant",
+          "source": "https://www.musicbusinessworldwide.com/people/oscar-hoglund/",
+          "quote": "took a management consultancy gig at The Boston Consulting Group"
+        },
+        {
+          "kind": "employer",
+          "org": "Zodiak Media",
+          "orgCanonical": "Zodiak",
+          "source": "https://www.musicbusinessworldwide.com/people/oscar-hoglund/",
+          "quote": "In 2006, Hoglund began working at the French production company Zodiak Media."
+        },
+        {
+          "kind": "education",
+          "org": "Wharton",
+          "orgCanonical": "Wharton",
+          "source": "https://www.musicbusinessworldwide.com/people/oscar-hoglund/",
+          "quote": "After spending one year at Wharton in pursuit of his MBA, Oscar Höglund dropped out of school"
+        }
+      ]
+    },
+    {
+      "name": "Hjalmar Winbladh",
+      "stations": [
+        {
+          "kind": "founded",
+          "org": "Rebtel",
+          "orgCanonical": "Rebtel",
+          "source": "https://en.wikipedia.org/wiki/Rebtel",
+          "quote": "Rebtel was founded in 2006 by Swedish serial entrepreneurs Hjalmar Winbladh and Jonas Lindroth"
+        }
+      ]
+    },
+    {
+      "name": "Jan Zachrisson",
+      "note": "no public background found",
+      "stations": []
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "aleph-alpha",
+  "founders": [
+    {
+      "name": "Jonas Andrulis",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "Karlsruher Institut für Technologie",
+          "orgCanonical": "KIT",
+          "source": "https://de.wikipedia.org/wiki/Jonas_Andrulis",
+          "quote": "Diplomstudium des Wirtschaftsingenieurwesens am Karlsruher Institut für Technologie"
+        },
+        {
+          "kind": "employer",
+          "org": "SAP",
+          "orgCanonical": "SAP",
+          "source": "https://de.wikipedia.org/wiki/Jonas_Andrulis",
+          "quote": "Ab 2006 war Andrulis in der Entwicklungs- und Forschungssparte von SAP tätig"
+        },
+        {
+          "kind": "employer",
+          "org": "Deloitte",
+          "orgCanonical": "Deloitte",
+          "years": "2012-2014",
+          "source": "https://de.wikipedia.org/wiki/Jonas_Andrulis",
+          "quote": "von 2012 bis 2014 für Deloitte tätig"
+        },
+        {
+          "kind": "founded",
+          "org": "Pallas Ludens",
+          "orgCanonical": "Pallas Ludens",
+          "source": "https://de.wikipedia.org/wiki/Jonas_Andrulis",
+          "quote": "2014 gründete er die Pallas Ludens GmbH"
+        },
+        {
+          "kind": "exit",
+          "org": "Pallas Ludens",
+          "orgCanonical": "Pallas Ludens",
+          "role": "Acquired by Apple",
+          "source": "https://de.wikipedia.org/wiki/Jonas_Andrulis",
+          "quote": "Nachdem Pallas Ludens 2016 von Apple aufgekauft worden war"
+        },
+        {
+          "kind": "employer",
+          "org": "Apple",
+          "orgCanonical": "Apple",
+          "years": "2016-2019",
+          "source": "https://de.wikipedia.org/wiki/Jonas_Andrulis",
+          "quote": "leitete Andrulis dort von 2016 bis 2019 Teams für Sonderprojekte"
+        }
+      ]
+    },
+    {
+      "name": "Samuel Weinbach",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Deloitte",
+          "orgCanonical": "Deloitte",
+          "role": "Manager",
+          "source": "https://de.wikipedia.org/wiki/Jonas_Andrulis",
+          "quote": "dem einstigen Deloitte-Manager Samuel Weinbach"
+        }
+      ]
+    }
+  ]
+}

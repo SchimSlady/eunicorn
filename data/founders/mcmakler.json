@@ -1,0 +1,34 @@
+{
+  "id": "mcmakler",
+  "founders": [
+    {
+      "name": "Hanno Heintzenberg",
+      "note": "no pre-McMakler background found (later co-founded MAYD)",
+      "stations": []
+    },
+    {
+      "name": "Lukas Pieczonka",
+      "note": "no pre-McMakler background found (later co-founded MAYD)",
+      "stations": []
+    },
+    {
+      "name": "Felix Jahn",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Rocket Internet",
+          "orgCanonical": "Rocket Internet",
+          "source": "https://omr.com/de/daily/felix-jahn-mcmakler-omr-podcast",
+          "quote": "Felix Jahn hat bei Rocket Internet gearbeitet"
+        },
+        {
+          "kind": "founded",
+          "org": "Home24",
+          "orgCanonical": "Home24",
+          "source": "https://de.wikipedia.org/wiki/McMakler",
+          "quote": "Felix Jahn, der zuvor bereits Home24 mitgründete"
+        }
+      ]
+    }
+  ]
+}

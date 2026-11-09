@@ -1,0 +1,20 @@
+{
+  "id": "neo4j",
+  "founders": [
+    {
+      "name": "Emil Eifrem",
+      "note": "only aggregator sources (Windh, Linköping) found; not usable",
+      "stations": []
+    },
+    {
+      "name": "Johan Svensson",
+      "note": "no public bio found",
+      "stations": []
+    },
+    {
+      "name": "Peter Neubauer",
+      "note": "no public bio found",
+      "stations": []
+    }
+  ]
+}

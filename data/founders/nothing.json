@@ -1,0 +1,88 @@
+{
+  "id": "nothing",
+  "founders": [
+    {
+      "name": "Carl Pei",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "Stockholm School of Economics",
+          "orgCanonical": "Stockholm School of Economics",
+          "years": "2008-2011",
+          "source": "https://en.wikipedia.org/wiki/Carl_Pei",
+          "quote": "He pursued a Bachelor of Science degree in 2008 at the Stockholm School of Economics"
+        },
+        {
+          "kind": "employer",
+          "org": "Nokia",
+          "orgCanonical": "Nokia",
+          "source": "https://en.wikipedia.org/wiki/Carl_Pei",
+          "quote": "Pei interned at Nokia in 2010"
+        },
+        {
+          "kind": "employer",
+          "org": "Meizu",
+          "orgCanonical": "Meizu",
+          "source": "https://en.wikipedia.org/wiki/Carl_Pei",
+          "quote": "Pei started working in Meizu's marketing team in 2011"
+        },
+        {
+          "kind": "employer",
+          "org": "Oppo",
+          "orgCanonical": "Oppo",
+          "role": "international markets manager",
+          "source": "https://en.wikipedia.org/wiki/Carl_Pei",
+          "quote": "he joined Oppo as its international markets manager"
+        },
+        {
+          "kind": "founded",
+          "org": "OnePlus",
+          "orgCanonical": "OnePlus",
+          "source": "https://en.wikipedia.org/wiki/Carl_Pei",
+          "quote": "He co-founded OnePlus along with Pete Lau in 2013"
+        }
+      ]
+    },
+    {
+      "name": "Akis Evangelidis",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Universal Pictures",
+          "orgCanonical": "Universal Pictures",
+          "source": "https://www.storyboard18.com/brand-makers/nothings-co-founder-akis-evangelidis-to-lead-india-operations-as-president-57797.htm",
+          "quote": "Akis Evangelidis began his career at Universal Pictures and went on to work across Sony Electronics, and OnePlus."
+        },
+        {
+          "kind": "employer",
+          "org": "Sony Electronics",
+          "orgCanonical": "Sony",
+          "source": "https://www.storyboard18.com/brand-makers/nothings-co-founder-akis-evangelidis-to-lead-india-operations-as-president-57797.htm",
+          "quote": "Akis Evangelidis began his career at Universal Pictures and went on to work across Sony Electronics, and OnePlus."
+        },
+        {
+          "kind": "employer",
+          "org": "OnePlus",
+          "orgCanonical": "OnePlus",
+          "source": "https://www.storyboard18.com/brand-makers/nothings-co-founder-akis-evangelidis-to-lead-india-operations-as-president-57797.htm",
+          "quote": "Akis Evangelidis began his career at Universal Pictures and went on to work across Sony Electronics, and OnePlus."
+        }
+      ]
+    },
+    {
+      "name": "David Sanmartín García",
+      "note": "no public background found",
+      "stations": []
+    },
+    {
+      "name": "Steven Gao",
+      "note": "no public background found",
+      "stations": []
+    },
+    {
+      "name": "Levi Li",
+      "note": "only a contact-database profile (RocketReach) mentions realme/OPPO; not an allowed/quotable source",
+      "stations": []
+    }
+  ]
+}

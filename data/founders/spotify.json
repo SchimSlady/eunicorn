@@ -1,0 +1,82 @@
+{
+  "id": "spotify",
+  "founders": [
+    {
+      "name": "Daniel Ek",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Tradera",
+          "orgCanonical": "Tradera",
+          "source": "https://en.wikipedia.org/wiki/Daniel_Ek",
+          "quote": "Ek had a senior role at Nordic auction company Tradera, which was acquired by eBay in 2006."
+        },
+        {
+          "kind": "employer",
+          "org": "Stardoll",
+          "orgCanonical": "Stardoll",
+          "role": "CTO",
+          "source": "https://en.wikipedia.org/wiki/Daniel_Ek",
+          "quote": "He was also the CTO of the browser-based game and fashion community Stardoll"
+        },
+        {
+          "kind": "founded",
+          "org": "Advertigo",
+          "orgCanonical": "Advertigo",
+          "source": "https://en.wikipedia.org/wiki/Daniel_Ek",
+          "quote": "later started Advertigo, an online advertising company"
+        },
+        {
+          "kind": "exit",
+          "org": "Advertigo",
+          "orgCanonical": "Advertigo",
+          "years": "2006",
+          "source": "https://en.wikipedia.org/wiki/Daniel_Ek",
+          "quote": "Advertigo was sold to TradeDoubler in 2006"
+        },
+        {
+          "kind": "employer",
+          "org": "μTorrent",
+          "orgCanonical": "μTorrent",
+          "role": "CEO",
+          "source": "https://en.wikipedia.org/wiki/Daniel_Ek",
+          "quote": "Ek briefly became the CEO of μTorrent"
+        },
+        {
+          "kind": "education",
+          "org": "KTH Royal Institute of Technology",
+          "orgCanonical": "KTH",
+          "source": "https://en.wikipedia.org/wiki/Daniel_Ek",
+          "quote": "studied engineering at the KTH Royal Institute of Technology for 8 weeks before dropping out"
+        }
+      ]
+    },
+    {
+      "name": "Martin Lorentzon",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "Chalmers University of Technology",
+          "orgCanonical": "Chalmers",
+          "source": "https://en.wikipedia.org/wiki/Martin_Lorentzon",
+          "quote": "he studied industrial economics and later finished with a Master of Science and engineering degree"
+        },
+        {
+          "kind": "employer",
+          "org": "AltaVista",
+          "orgCanonical": "AltaVista",
+          "source": "https://en.wikipedia.org/wiki/Martin_Lorentzon",
+          "quote": "He moved to San Francisco and worked in the AltaVista office there."
+        },
+        {
+          "kind": "founded",
+          "org": "Tradedoubler",
+          "orgCanonical": "Tradedoubler",
+          "years": "1999",
+          "source": "https://en.wikipedia.org/wiki/Martin_Lorentzon",
+          "quote": "In September 1999, Lorentzon and Hagnö founded Netstrategy, which would later become the leading European marketplace Tradedoubler."
+        }
+      ]
+    }
+  ]
+}

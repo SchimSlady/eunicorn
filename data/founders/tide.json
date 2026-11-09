@@ -1,0 +1,42 @@
+{
+  "id": "tide",
+  "founders": [
+    {
+      "name": "George Bevis",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Capital One",
+          "orgCanonical": "Capital One",
+          "role": "started career",
+          "source": "https://growthbusiness.co.uk/?p=18263",
+          "quote": "I worked as product director at Zopa, business strategy director and digital products director at Barclaycard, head of innovation at RBS, and started my career at Capital One"
+        },
+        {
+          "kind": "employer",
+          "org": "Barclaycard",
+          "orgCanonical": "Barclays",
+          "role": "business strategy director and digital products director",
+          "source": "https://growthbusiness.co.uk/?p=18263",
+          "quote": "I worked as product director at Zopa, business strategy director and digital products director at Barclaycard, head of innovation at RBS, and started my career at Capital One"
+        },
+        {
+          "kind": "employer",
+          "org": "Zopa",
+          "orgCanonical": "Zopa",
+          "role": "product director",
+          "source": "https://growthbusiness.co.uk/?p=18263",
+          "quote": "I worked as product director at Zopa, business strategy director and digital products director at Barclaycard, head of innovation at RBS, and started my career at Capital One"
+        },
+        {
+          "kind": "employer",
+          "org": "RBS",
+          "orgCanonical": "Royal Bank of Scotland",
+          "role": "head of innovation",
+          "source": "https://growthbusiness.co.uk/?p=18263",
+          "quote": "I worked as product director at Zopa, business strategy director and digital products director at Barclaycard, head of innovation at RBS, and started my career at Capital One"
+        }
+      ]
+    }
+  ]
+}

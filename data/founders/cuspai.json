@@ -1,0 +1,75 @@
+{
+  "id": "cuspai",
+  "founders": [
+    {
+      "name": "Chad Edwards",
+      "stations": [
+        {
+          "kind": "founded",
+          "org": "Cambridge Quantum Computing",
+          "orgCanonical": "Cambridge Quantum Computing",
+          "source": "https://gbxglobal.org/cuspais-dr-chad-edwards-on-building-two-unicorns-before-turning-35/",
+          "quote": "As commercial co-founder at Cambridge Quantum Computing"
+        },
+        {
+          "kind": "employer",
+          "org": "Quantinuum",
+          "orgCanonical": "Quantinuum",
+          "source": "https://gbxglobal.org/cuspais-dr-chad-edwards-on-building-two-unicorns-before-turning-35/",
+          "quote": "in 2021 played a significant role in the merger with Honeywell, which created Quantinuum"
+        }
+      ]
+    },
+    {
+      "name": "Max Welling",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "Utrecht University",
+          "orgCanonical": "Utrecht University",
+          "source": "https://en.wikipedia.org/wiki/Max_Welling",
+          "quote": "Education Utrecht University"
+        },
+        {
+          "kind": "employer",
+          "org": "University of Amsterdam",
+          "orgCanonical": "University of Amsterdam",
+          "source": "https://en.wikipedia.org/wiki/Max_Welling",
+          "quote": "machine learning at the University of Amsterdam"
+        },
+        {
+          "kind": "founded",
+          "org": "Scyfer",
+          "orgCanonical": "Scyfer",
+          "source": "https://en.wikipedia.org/wiki/Max_Welling",
+          "quote": "Welling co-founded Scyfer BV"
+        },
+        {
+          "kind": "exit",
+          "org": "Scyfer",
+          "orgCanonical": "Scyfer",
+          "role": "Sold to Qualcomm",
+          "years": "2017",
+          "source": "https://en.wikipedia.org/wiki/Max_Welling",
+          "quote": "In August 2017, Scyfer was acquired by Qualcomm"
+        },
+        {
+          "kind": "employer",
+          "org": "Qualcomm",
+          "orgCanonical": "Qualcomm",
+          "role": "Vice President of Technology",
+          "source": "https://en.wikipedia.org/wiki/Max_Welling",
+          "quote": "served as a Vice President of Technology at Qualcomm Netherlands"
+        },
+        {
+          "kind": "employer",
+          "org": "Microsoft Research",
+          "orgCanonical": "Microsoft",
+          "role": "Distinguished Scientist",
+          "source": "https://en.wikipedia.org/wiki/Max_Welling",
+          "quote": "Welling was a Distinguished Scientist at Microsoft Research AI4Science"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "bolt",
+  "founders": [
+    {
+      "name": "Markus Villig",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "University of Tartu",
+          "orgCanonical": "University of Tartu",
+          "role": "Computer science, left after first semester",
+          "source": "https://en.wikipedia.org/wiki/Markus_Villig",
+          "quote": "he enrolled at the University of Tartu to study computer science"
+        }
+      ]
+    }
+  ]
+}

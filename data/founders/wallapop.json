@@ -1,0 +1,44 @@
+{
+  "id": "wallapop",
+  "founders": [
+    {
+      "name": "Miguel Vicente",
+      "stations": [
+        {
+          "kind": "founded",
+          "org": "LetsBonus",
+          "orgCanonical": "LetsBonus",
+          "years": "2009",
+          "source": "https://startupgrind.com/events/details/startup-grind-barcelona-presents-miguel-vicente-wallapop-antai-venture-builder",
+          "quote": "Miguel Vicente founded LetsBonus.com in 2009"
+        },
+        {
+          "kind": "exit",
+          "org": "LetsBonus",
+          "orgCanonical": "LetsBonus",
+          "role": "sold to LivingSocial",
+          "years": "2012",
+          "source": "https://startupgrind.com/events/details/startup-grind-barcelona-presents-miguel-vicente-wallapop-antai-venture-builder",
+          "quote": "In January 2012, LetsBonus was sold to LivingSocial"
+        }
+      ]
+    },
+    {
+      "name": "Agustín Gómez",
+      "note": "no notable prior station found in fetchable sources",
+      "stations": []
+    },
+    {
+      "name": "Gerard Olivé",
+      "stations": [
+        {
+          "kind": "founded",
+          "org": "BeRepublic",
+          "orgCanonical": "BeRepublic",
+          "source": "https://marketing4ecommerce.net/historia-wallapop-la-app-espanola-lider-de-segunda-mano/",
+          "quote": "Gerard Olivé (fundador de BeRepublic)"
+        }
+      ]
+    }
+  ]
+}

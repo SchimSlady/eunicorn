@@ -1,0 +1,30 @@
+{
+  "id": "uipath",
+  "founders": [
+    {
+      "name": "Daniel Dines",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "University of Bucharest",
+          "orgCanonical": "University of Bucharest",
+          "source": "https://en.wikipedia.org/wiki/Daniel_Dines",
+          "quote": "Dines earned a degree from the University of Bucharest"
+        },
+        {
+          "kind": "employer",
+          "org": "Microsoft",
+          "orgCanonical": "Microsoft",
+          "years": "2000-2005",
+          "source": "https://en.wikipedia.org/wiki/Daniel_Dines",
+          "quote": "Dines worked for Microsoft in Seattle"
+        }
+      ]
+    },
+    {
+      "name": "Marius Tîrcă",
+      "note": "no verifiable public background found",
+      "stations": []
+    }
+  ]
+}

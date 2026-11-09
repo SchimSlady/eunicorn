@@ -1,0 +1,67 @@
+{
+  "id": "soundcloud",
+  "founders": [
+    {
+      "name": "Alexander Ljung",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "Royal Institute of Technology (KTH)",
+          "orgCanonical": "KTH",
+          "source": "https://mic.com/articles/121431/the-man-behind-soundcloud-has-a-powerful-vision-for-how-music-can-bring-people-together",
+          "quote": "While studying engineering at the Royal Institute of Technology in Stockholm, Soundcloud founder and CEO Alexander Ljung met his future business partner, Eric Wahlforss."
+        },
+        {
+          "kind": "education",
+          "org": "Stockholm University",
+          "orgCanonical": "Stockholm University",
+          "years": "2001-2004",
+          "source": "https://europeanceo.com/?p=7143",
+          "quote": "He attended Stockholm University from 2001 to 2004"
+        },
+        {
+          "kind": "founded",
+          "org": "akryl.p",
+          "orgCanonical": "akryl.p",
+          "years": "2002-2007",
+          "source": "https://europeanceo.com/?p=7143",
+          "quote": "From 2002 until 2007 Alexander founded and ran akryl.p, a media productions agency."
+        }
+      ]
+    },
+    {
+      "name": "Eric Wahlforss",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "Stockholm School of Economics",
+          "orgCanonical": "Stockholm School of Economics",
+          "source": "https://archive.ctm-festival.de/index.php?id=7055",
+          "quote": "Eric Wahlforss graduated in Marketing from the Stockholm School of Economics"
+        },
+        {
+          "kind": "education",
+          "org": "Royal Institute of Technology (KTH)",
+          "orgCanonical": "KTH",
+          "source": "https://archive.ctm-festival.de/index.php?id=7055",
+          "quote": "gained a Master's in Industrial Economics and Engineering at the Royal Institute of Technology, Stockholm"
+        },
+        {
+          "kind": "founded",
+          "org": "Strategy & Interaction",
+          "orgCanonical": "Strategy & Interaction",
+          "source": "https://mediamatic.net/de/id/35134",
+          "quote": "he co-founded web consultancy network Strategy & Interaction in Stockholm"
+        },
+        {
+          "kind": "employer",
+          "org": "gate5",
+          "orgCanonical": "gate5",
+          "role": "interaction designer",
+          "source": "https://mediamatic.net/de/id/35134",
+          "quote": "Earlier he worked as an interaction designer for location-based services company gate5"
+        }
+      ]
+    }
+  ]
+}

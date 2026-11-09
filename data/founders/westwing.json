@@ -1,0 +1,38 @@
+{
+  "id": "westwing",
+  "founders": [
+    {
+      "name": "Delia Lachance",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "ELLE Magazine / ELLE Decoration Germany",
+          "orgCanonical": "Elle",
+          "role": "editor",
+          "source": "https://www.westwing.com/company",
+          "quote": "Prior to Westwing, Delia worked as an editor at ELLE Magazine and ELLE Decoration Germany"
+        }
+      ]
+    },
+    {
+      "name": "Georg Biersack",
+      "note": "press leads (deutsche-startups.de) were not fetchable; no verified background",
+      "stations": []
+    },
+    {
+      "name": "Matthias Siepe",
+      "note": "press leads not fetchable; no verified background",
+      "stations": []
+    },
+    {
+      "name": "Stefan Smalla",
+      "note": "press leads not fetchable; no verified background",
+      "stations": []
+    },
+    {
+      "name": "Tim Schäfer",
+      "note": "press leads not fetchable; no verified background",
+      "stations": []
+    }
+  ]
+}

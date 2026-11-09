@@ -1,0 +1,31 @@
+{
+  "id": "vivino",
+  "founders": [
+    {
+      "name": "Heini Zachariassen",
+      "stations": [
+        {
+          "kind": "founded",
+          "org": "Virus112",
+          "orgCanonical": "Virus112",
+          "years": "1999",
+          "source": "https://en.wikipedia.org/wiki/Heini_Zachariassen",
+          "quote": "In 1999, Zachariassen co-founded the security firm Virus112 and served as its CTO"
+        },
+        {
+          "kind": "founded",
+          "org": "BullGuard",
+          "orgCanonical": "BullGuard",
+          "years": "2002-2008",
+          "source": "https://en.wikipedia.org/wiki/Heini_Zachariassen",
+          "quote": "In 2002, he co-founded the antivirus software company BullGuard and served as its CEO until 2008"
+        }
+      ]
+    },
+    {
+      "name": "Theis Søndergaard",
+      "note": "no verifiable public background found",
+      "stations": []
+    }
+  ]
+}

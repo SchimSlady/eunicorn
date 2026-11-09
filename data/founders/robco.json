@@ -1,0 +1,41 @@
+{
+  "id": "robco",
+  "founders": [
+    {
+      "name": "Roman Hölzl",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "Technical University of Munich",
+          "orgCanonical": "TUM",
+          "source": "https://www.miragenews.com/robco-is-tums-24th-unicorn-1756167/",
+          "quote": "Founded six years ago by three former robotics students from the TUM Chair of Robotics, Artificial Intelligence and Real-Time Systems"
+        }
+      ]
+    },
+    {
+      "name": "Paul Maroldt",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "Technical University of Munich",
+          "orgCanonical": "TUM",
+          "source": "https://www.miragenews.com/robco-is-tums-24th-unicorn-1756167/",
+          "quote": "Founded six years ago by three former robotics students from the TUM Chair of Robotics, Artificial Intelligence and Real-Time Systems"
+        }
+      ]
+    },
+    {
+      "name": "Constantin Dresel",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "Technical University of Munich",
+          "orgCanonical": "TUM",
+          "source": "https://www.miragenews.com/robco-is-tums-24th-unicorn-1756167/",
+          "quote": "Founded six years ago by three former robotics students from the TUM Chair of Robotics, Artificial Intelligence and Real-Time Systems"
+        }
+      ]
+    }
+  ]
+}

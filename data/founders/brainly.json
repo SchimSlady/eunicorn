@@ -1,0 +1,27 @@
+{
+  "id": "brainly",
+  "founders": [
+    {
+      "name": "Michał Borkowski",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "Warsaw School of Economics",
+          "orgCanonical": "SGH Warsaw School of Economics",
+          "source": "https://impactcee.com/impact/2023/speaker-2/?spk=3188",
+          "quote": "heading to Warsaw to study corporate finance at the acclaimed Warsaw School of Economics"
+        }
+      ]
+    },
+    {
+      "name": "Tomasz Kraus",
+      "note": "no public background found",
+      "stations": []
+    },
+    {
+      "name": "Łukasz Haluch",
+      "note": "no public background found",
+      "stations": []
+    }
+  ]
+}

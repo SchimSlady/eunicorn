@@ -1,0 +1,49 @@
+{
+  "id": "adjust",
+  "founders": [
+    {
+      "name": "Christian Henschel",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Madvertise",
+          "orgCanonical": "Madvertise",
+          "years": "2009",
+          "source": "https://www.business-punk.com/?p=99614",
+          "quote": "Henschel wechselt zu Madvertise, einem Startup"
+        }
+      ]
+    },
+    {
+      "name": "Paul H. Müller",
+      "stations": [
+        {
+          "kind": "founded",
+          "org": "rapidrabbit",
+          "orgCanonical": "rapidrabbit",
+          "source": "https://www.pocketgamer.biz/people/787/paul-mueller/profile/feature/60621/top-games-soft-launch/",
+          "quote": "The first of which he founded at the age of 23"
+        },
+        {
+          "kind": "founded",
+          "org": "Müller & Wulff GmbH",
+          "orgCanonical": "Müller & Wulff",
+          "source": "https://www.pocketgamer.biz/people/787/paul-mueller/profile/feature/60621/top-games-soft-launch/",
+          "quote": "Müller & Wulff GmbH was founded in 2010"
+        },
+        {
+          "kind": "education",
+          "org": "Ernst-Moritz-Arndt-Universität Greifswald",
+          "orgCanonical": "University of Greifswald",
+          "source": "https://www.pocketgamer.biz/people/787/paul-mueller/profile/feature/60621/top-games-soft-launch/",
+          "quote": "Paul studied physics in at Ernst-Moritz-Arndt-Universität in Greifswald"
+        }
+      ]
+    },
+    {
+      "name": "Manuel Kniep",
+      "note": "no public background found in reliable sources",
+      "stations": []
+    }
+  ]
+}

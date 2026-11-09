@@ -1,0 +1,41 @@
+{
+  "id": "pld-space",
+  "founders": [
+    {
+      "name": "Raúl Torres",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "Universidad de Alicante",
+          "orgCanonical": "University of Alicante",
+          "source": "https://elreferente.es/actualidad/endeavor-espana-selecciona-a-los-emprendedores-de-pld-space/",
+          "quote": "Raúl Torres es Licenciado en Ciencias Biológicas por la Universidad de Alicante"
+        },
+        {
+          "kind": "education",
+          "org": "Universidad Politécnica de Valencia",
+          "orgCanonical": "Universitat Politècnica de València",
+          "source": "https://elreferente.es/actualidad/endeavor-espana-selecciona-a-los-emprendedores-de-pld-space/",
+          "quote": "con estudios en Ingeniería Aeroespacial por la Universidad Politécnica de Valencia"
+        }
+      ]
+    },
+    {
+      "name": "Raúl Verdú",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "Universidad Miguel Hernández",
+          "orgCanonical": "Universidad Miguel Hernández de Elche",
+          "source": "https://elreferente.es/actualidad/endeavor-espana-selecciona-a-los-emprendedores-de-pld-space/",
+          "quote": "Raúl Verdú tiene formación en Ingeniería Industrial por la Universidad Miguel Hernández"
+        }
+      ]
+    },
+    {
+      "name": "José Enrique Martínez",
+      "note": "no public background found",
+      "stations": []
+    }
+  ]
+}

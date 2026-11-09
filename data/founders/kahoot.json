@@ -1,0 +1,41 @@
+{
+  "id": "kahoot",
+  "founders": [
+    {
+      "name": "Morten Versvik",
+      "note": "no public background found in fetched sources",
+      "stations": []
+    },
+    {
+      "name": "Johan Brand",
+      "stations": [
+        {
+          "kind": "founded",
+          "org": "We Are Human",
+          "orgCanonical": "We Are Human",
+          "role": "London behaviour-design company",
+          "source": "https://new.startupguide.com/startup-spotlight-oslo-kahoot-johan-brand",
+          "quote": "Johan later founded the company We Are Human with Jamie, who would become one of Kahoot!’s founders."
+        }
+      ]
+    },
+    {
+      "name": "Jamie Brooker",
+      "stations": [
+        {
+          "kind": "founded",
+          "org": "We Are Human",
+          "orgCanonical": "We Are Human",
+          "role": "co-founded with Johan Brand",
+          "source": "https://new.startupguide.com/startup-spotlight-oslo-kahoot-johan-brand",
+          "quote": "Johan later founded the company We Are Human with Jamie, who would become one of Kahoot!’s founders."
+        }
+      ]
+    },
+    {
+      "name": "Åsmund Furuseth",
+      "note": "no public background found in fetched sources",
+      "stations": []
+    }
+  ]
+}

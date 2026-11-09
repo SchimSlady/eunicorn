@@ -1,0 +1,22 @@
+{
+  "id": "sonnen",
+  "founders": [
+    {
+      "name": "Christoph Ostermann",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "University of Bayreuth",
+          "orgCanonical": "University of Bayreuth",
+          "source": "https://ecapital.vc/?p=1010",
+          "quote": "Christoph Ostermann studied business administration at the University of Bayreuth"
+        }
+      ]
+    },
+    {
+      "name": "Torsten Stiefenhofer",
+      "note": "no public background found in checkable sources",
+      "stations": []
+    }
+  ]
+}

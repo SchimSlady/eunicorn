@@ -1,0 +1,65 @@
+{
+  "id": "multiverse",
+  "founders": [
+    {
+      "name": "Euan Blair",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "University of Bristol",
+          "orgCanonical": "University of Bristol",
+          "role": "BA Ancient History",
+          "years": "2005",
+          "source": "https://en.wikipedia.org/wiki/Euan_Blair",
+          "quote": "Blair graduated with a B.A. in ancient history from the University of Bristol in 2005"
+        },
+        {
+          "kind": "education",
+          "org": "Yale University",
+          "orgCanonical": "Yale University",
+          "role": "MA International Relations",
+          "years": "2008",
+          "source": "https://en.wikipedia.org/wiki/Euan_Blair",
+          "quote": "he graduated from Yale University's MacMillan Center with an M.A. in international relations"
+        }
+      ]
+    },
+    {
+      "name": "Sophie Adelman",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Hired.com",
+          "orgCanonical": "Hired",
+          "role": "EMEA GM & Head of Sales",
+          "source": "https://www.uktech.news/news/founder-interviews/whitehats-co-founders-on-using-tech-to-democratise-the-world-of-work-20180924",
+          "quote": "Before WhiteHat I was EMEA GM & Head of Sales for a US tech startup in the recruitment space called Hired.com."
+        },
+        {
+          "kind": "education",
+          "org": "University of Cambridge",
+          "orgCanonical": "University of Cambridge",
+          "role": "Geography",
+          "source": "https://www.swansea.ac.uk/founders-of-the-future/sophie-adelman/",
+          "quote": "I went to university in Cambridge and studied geography"
+        },
+        {
+          "kind": "founded",
+          "org": "One Garden",
+          "orgCanonical": "One Garden",
+          "source": "https://www.swansea.ac.uk/founders-of-the-future/sophie-adelman/",
+          "quote": "After leaving Multiverse, Sophie co-founded One Garden"
+        },
+        {
+          "kind": "exit",
+          "org": "One Garden",
+          "orgCanonical": "One Garden",
+          "role": "acquired by Saga PLC",
+          "years": "2023",
+          "source": "https://www.swansea.ac.uk/founders-of-the-future/sophie-adelman/",
+          "quote": "One Garden was acquired by Saga PLC in 2023."
+        }
+      ]
+    }
+  ]
+}

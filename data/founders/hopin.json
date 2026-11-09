@@ -1,0 +1,18 @@
+{
+  "id": "hopin",
+  "founders": [
+    {
+      "name": "Johnny Boufarhat",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "University of Manchester",
+          "orgCanonical": "University of Manchester",
+          "role": "Mechanical engineering",
+          "source": "https://en.wikipedia.org/wiki/Johnny_Boufarhat",
+          "quote": "enrolling at the University of Manchester where he studied mechanical engineering and graduated in 2016"
+        }
+      ]
+    }
+  ]
+}

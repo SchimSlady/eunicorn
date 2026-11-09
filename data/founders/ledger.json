@@ -1,0 +1,60 @@
+{
+  "id": "ledger",
+  "founders": [
+    {
+      "name": "Éric Larchevêque",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "ESIEE Paris",
+          "orgCanonical": "ESIEE Paris",
+          "years": "1996",
+          "source": "https://fr.wikipedia.org/wiki/Éric_Larchevêque",
+          "quote": "En 1996, Il obtient un diplôme d'ingénieur de l'ESIEE Paris"
+        },
+        {
+          "kind": "founded",
+          "org": "Montorgueil SAS",
+          "orgCanonical": "Montorgueil",
+          "years": "1998",
+          "source": "https://fr.wikipedia.org/wiki/Éric_Larchevêque",
+          "quote": "En 1998, il crée Montorgueil SAS"
+        },
+        {
+          "kind": "exit",
+          "org": "Montorgueil SAS",
+          "orgCanonical": "Montorgueil",
+          "role": "sold to Rentabiliweb",
+          "years": "2007",
+          "source": "https://fr.wikipedia.org/wiki/Éric_Larchevêque",
+          "quote": "qui est revendu en 2007 à Rentabiliweb pour 22 M€"
+        },
+        {
+          "kind": "founded",
+          "org": "Prixing",
+          "orgCanonical": "Prixing",
+          "years": "2011",
+          "source": "https://fr.wikipedia.org/wiki/Éric_Larchevêque",
+          "quote": "En 2011, il crée le comparateur de prix de produits de grande consommation Prixing"
+        },
+        {
+          "kind": "exit",
+          "org": "Prixing",
+          "orgCanonical": "Prixing",
+          "role": "sold to HighCo",
+          "years": "2014",
+          "source": "https://fr.wikipedia.org/wiki/Éric_Larchevêque",
+          "quote": "Le projet est ensuite vendu au groupe HighCo en 2014"
+        },
+        {
+          "kind": "founded",
+          "org": "La Maison du Bitcoin",
+          "orgCanonical": "La Maison du Bitcoin",
+          "years": "2014",
+          "source": "https://fr.wikipedia.org/wiki/Éric_Larchevêque",
+          "quote": "La Maison du Bitcoin est ouverte la même année"
+        }
+      ]
+    }
+  ]
+}

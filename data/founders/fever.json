@@ -1,0 +1,102 @@
+{
+  "id": "fever",
+  "founders": [
+    {
+      "name": "Alexandre Perez Casares",
+      "note": "source spells \"Goldaman Sachs\" (typo)",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "McKinsey & Company",
+          "orgCanonical": "McKinsey",
+          "role": "analista de negocio",
+          "years": "2006-2009",
+          "source": "https://valenciaplaza.com/valenciaplaza/pep-gomez-ignacio-bachiller-alexandre-perez-y-francisco-hein-los-nombres-que-estan-detras-del-exito-de-fever",
+          "quote": "se incorporó a McKinsey & Company donde estuvo como analista de negocio los siguientes 3 años"
+        },
+        {
+          "kind": "employer",
+          "org": "Goldman Sachs",
+          "orgCanonical": "Goldman Sachs",
+          "source": "https://valenciaplaza.com/valenciaplaza/pep-gomez-ignacio-bachiller-alexandre-perez-y-francisco-hein-los-nombres-que-estan-detras-del-exito-de-fever",
+          "quote": "pasó por Goldaman Sachs en Nueva York"
+        },
+        {
+          "kind": "employer",
+          "org": "KKR",
+          "orgCanonical": "KKR",
+          "source": "https://valenciaplaza.com/valenciaplaza/pep-gomez-ignacio-bachiller-alexandre-perez-y-francisco-hein-los-nombres-que-estan-detras-del-exito-de-fever",
+          "quote": "el fondo de inversión KKR"
+        },
+        {
+          "kind": "education",
+          "org": "Universidad de Valladolid",
+          "orgCanonical": "University of Valladolid",
+          "source": "https://valenciaplaza.com/valenciaplaza/pep-gomez-ignacio-bachiller-alexandre-perez-y-francisco-hein-los-nombres-que-estan-detras-del-exito-de-fever",
+          "quote": "licenciado en Ingeniería Industrial por la Universidad de Valladolid"
+        }
+      ]
+    },
+    {
+      "name": "Francisco Hein",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "happn",
+          "orgCanonical": "happn",
+          "years": "2013-2014",
+          "source": "https://valenciaplaza.com/valenciaplaza/pep-gomez-ignacio-bachiller-alexandre-perez-y-francisco-hein-los-nombres-que-estan-detras-del-exito-de-fever",
+          "quote": "director de desarrollo de negocio y expansión de happn"
+        },
+        {
+          "kind": "education",
+          "org": "ISEG (Institut Supérieur Européen de Gestion)",
+          "orgCanonical": "ISEG",
+          "source": "https://valenciaplaza.com/valenciaplaza/pep-gomez-ignacio-bachiller-alexandre-perez-y-francisco-hein-los-nombres-que-estan-detras-del-exito-de-fever",
+          "quote": "graduado en Business School por el Institut Supérieur Européen de Gestion de París"
+        }
+      ]
+    },
+    {
+      "name": "Ignacio Bachiller",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "McKinsey & Company",
+          "orgCanonical": "McKinsey",
+          "role": "analista de negocio",
+          "years": "2014",
+          "source": "https://valenciaplaza.com/valenciaplaza/pep-gomez-ignacio-bachiller-alexandre-perez-y-francisco-hein-los-nombres-que-estan-detras-del-exito-de-fever",
+          "quote": "En 2014, empezó a trabajar en McKinsey & Company como analista de negocio"
+        },
+        {
+          "kind": "education",
+          "org": "Massachusetts Institute of Technology",
+          "orgCanonical": "MIT",
+          "source": "https://valenciaplaza.com/valenciaplaza/pep-gomez-ignacio-bachiller-alexandre-perez-y-francisco-hein-los-nombres-que-estan-detras-del-exito-de-fever",
+          "quote": "Su carrera académica la ha desarrollado en el prestigioso Massachusetts Institute of Technology (MIT)"
+        }
+      ]
+    },
+    {
+      "name": "Pep Gomez",
+      "stations": [
+        {
+          "kind": "founded",
+          "org": "Reby",
+          "orgCanonical": "Reby",
+          "years": "2018",
+          "source": "https://valenciaplaza.com/valenciaplaza/pep-gomez-ignacio-bachiller-alexandre-perez-y-francisco-hein-los-nombres-que-estan-detras-del-exito-de-fever",
+          "quote": "En 2018, se dispuso a lanzar un nuevo proyecto en el campo de la movilidad y fundaba Reby"
+        },
+        {
+          "kind": "founded",
+          "org": "The Collider",
+          "orgCanonical": "The Collider",
+          "source": "https://valenciaplaza.com/valenciaplaza/pep-gomez-ignacio-bachiller-alexandre-perez-y-francisco-hein-los-nombres-que-estan-detras-del-exito-de-fever",
+          "quote": "cofundador de la incubadora de negocios"
+        }
+      ]
+    }
+  ]
+}

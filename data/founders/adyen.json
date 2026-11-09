@@ -1,0 +1,62 @@
+{
+  "id": "adyen",
+  "founders": [
+    {
+      "name": "Pieter van der Does",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "ING Netherlands",
+          "orgCanonical": "ING",
+          "role": "operational manager",
+          "years": "1995",
+          "source": "https://en.wikipedia.org/wiki/Pieter_van_der_Does_(businessman)",
+          "quote": "Van der Does started his career at ING Netherlands as an operational manager in 1995"
+        },
+        {
+          "kind": "employer",
+          "org": "Elsevier",
+          "orgCanonical": "Elsevier",
+          "source": "https://en.wikipedia.org/wiki/Pieter_van_der_Does_(businessman)",
+          "quote": "before leaving for Elsevier a year later"
+        },
+        {
+          "kind": "founded",
+          "org": "Bibit Global Payment Services",
+          "orgCanonical": "Bibit",
+          "source": "https://en.wikipedia.org/wiki/Pieter_van_der_Does_(businessman)",
+          "quote": "In 1999, Van der Does co-founded Bibit Global Payment Services"
+        },
+        {
+          "kind": "exit",
+          "org": "Bibit Global Payment Services",
+          "orgCanonical": "Bibit",
+          "role": "chief commerce officer",
+          "source": "https://en.wikipedia.org/wiki/Pieter_van_der_Does_(businessman)",
+          "quote": "until it was bought by Royal Bank of Scotland in 2004"
+        },
+        {
+          "kind": "education",
+          "org": "University of Amsterdam",
+          "orgCanonical": "University of Amsterdam",
+          "source": "https://en.wikipedia.org/wiki/Pieter_van_der_Does_(businessman)",
+          "quote": "He earned a master's degree in economics from the University of Amsterdam"
+        }
+      ]
+    },
+    {
+      "name": "Arnout Schuijff",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Bibit Global Payment Services",
+          "orgCanonical": "Bibit",
+          "role": "systems architect",
+          "years": "1997-2004",
+          "source": "https://en.wikipedia.org/wiki/Arnout_Schuijff",
+          "quote": "From 1997 to 2004, Schuijff was systems architect at Bibit Global Payment Services"
+        }
+      ]
+    }
+  ]
+}

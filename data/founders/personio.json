@@ -1,0 +1,67 @@
+{
+  "id": "personio",
+  "founders": [
+    {
+      "name": "Hanno Renner",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "TU Munich",
+          "orgCanonical": "TUM",
+          "source": "https://siliconcanals.com/hanno-renner-ceo-personio-hr-tech-startup/",
+          "quote": "Hanno holds degrees in Industrial Engineering and Technology Management from TU Munich and CDTM, studying abroad at Columbia University in New York."
+        },
+        {
+          "kind": "education",
+          "org": "CDTM",
+          "orgCanonical": "CDTM",
+          "source": "https://siliconcanals.com/hanno-renner-ceo-personio-hr-tech-startup/",
+          "quote": "Hanno holds degrees in Industrial Engineering and Technology Management from TU Munich and CDTM, studying abroad at Columbia University in New York."
+        },
+        {
+          "kind": "education",
+          "org": "Columbia University",
+          "orgCanonical": "Columbia University",
+          "source": "https://siliconcanals.com/hanno-renner-ceo-personio-hr-tech-startup/",
+          "quote": "Hanno holds degrees in Industrial Engineering and Technology Management from TU Munich and CDTM, studying abroad at Columbia University in New York."
+        }
+      ]
+    },
+    {
+      "name": "Ignaz Forstmeier",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "CDTM",
+          "orgCanonical": "CDTM",
+          "source": "https://t3n.de/news/personio-koepfe-erfolgs-startup-1246332/",
+          "quote": "Kennengelernt hat sich das Gründerteam am Münchener Center for Digital Technology and Management (CDTM), einem Verbundinstitut der LMU und der TU München."
+        }
+      ]
+    },
+    {
+      "name": "Roman Schumacher",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "CDTM",
+          "orgCanonical": "CDTM",
+          "source": "https://t3n.de/news/personio-koepfe-erfolgs-startup-1246332/",
+          "quote": "Kennengelernt hat sich das Gründerteam am Münchener Center for Digital Technology and Management (CDTM), einem Verbundinstitut der LMU und der TU München."
+        }
+      ]
+    },
+    {
+      "name": "Arseniy Vershinin",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "CDTM",
+          "orgCanonical": "CDTM",
+          "source": "https://t3n.de/news/personio-koepfe-erfolgs-startup-1246332/",
+          "quote": "Kennengelernt hat sich das Gründerteam am Münchener Center for Digital Technology and Management (CDTM), einem Verbundinstitut der LMU und der TU München."
+        }
+      ]
+    }
+  ]
+}

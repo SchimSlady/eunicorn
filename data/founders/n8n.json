@@ -1,0 +1,25 @@
+{
+  "id": "n8n",
+  "founders": [
+    {
+      "name": "Jan Oberhauser",
+      "note": "VFX career stated but employers not named in fetched sources",
+      "stations": [
+        {
+          "kind": "founded",
+          "org": "showreel.tv",
+          "orgCanonical": "showreel.tv",
+          "source": "https://www.bitsandpretzels.com/speaker/jan-oberhauser-442560261346",
+          "quote": "He also founded the showreel-hosting platform showreel.tv"
+        },
+        {
+          "kind": "founded",
+          "org": "link.fish",
+          "orgCanonical": "link.fish",
+          "source": "https://www.bitsandpretzels.com/speaker/jan-oberhauser-442560261346",
+          "quote": "the web data extraction platform link.fish"
+        }
+      ]
+    }
+  ]
+}

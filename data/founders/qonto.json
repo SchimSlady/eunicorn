@@ -1,0 +1,57 @@
+{
+  "id": "qonto",
+  "founders": [
+    {
+      "name": "Alexandre Prot",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "HEC Paris",
+          "orgCanonical": "HEC Paris",
+          "source": "https://members.parisfintechforum.com/speaker/538422c6-c79c-ed11-994c-000d3a469307",
+          "quote": "After graduating from HEC and INSEAD"
+        },
+        {
+          "kind": "education",
+          "org": "INSEAD",
+          "orgCanonical": "INSEAD",
+          "source": "https://members.parisfintechforum.com/speaker/538422c6-c79c-ed11-994c-000d3a469307",
+          "quote": "After graduating from HEC and INSEAD"
+        },
+        {
+          "kind": "employer",
+          "org": "Goldman Sachs",
+          "orgCanonical": "Goldman Sachs",
+          "source": "https://members.parisfintechforum.com/speaker/538422c6-c79c-ed11-994c-000d3a469307",
+          "quote": "Alexandre started his career with Goldman Sachs and McKinsey & Company"
+        },
+        {
+          "kind": "employer",
+          "org": "McKinsey & Company",
+          "orgCanonical": "McKinsey",
+          "source": "https://members.parisfintechforum.com/speaker/538422c6-c79c-ed11-994c-000d3a469307",
+          "quote": "Alexandre started his career with Goldman Sachs and McKinsey & Company"
+        },
+        {
+          "kind": "founded",
+          "org": "Smok.io",
+          "orgCanonical": "Smok.io",
+          "source": "https://members.parisfintechforum.com/speaker/538422c6-c79c-ed11-994c-000d3a469307",
+          "quote": "In 2013, he founded Smok.io together with Steve Anavi"
+        }
+      ]
+    },
+    {
+      "name": "Steve Anavi",
+      "stations": [
+        {
+          "kind": "founded",
+          "org": "Smok.io",
+          "orgCanonical": "Smok.io",
+          "source": "https://members.parisfintechforum.com/speaker/538422c6-c79c-ed11-994c-000d3a469307",
+          "quote": "In 2013, he founded Smok.io together with Steve Anavi"
+        }
+      ]
+    }
+  ]
+}

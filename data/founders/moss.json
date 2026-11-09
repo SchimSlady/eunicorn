@@ -1,0 +1,55 @@
+{
+  "id": "moss",
+  "founders": [
+    {
+      "name": "Ante Spittler",
+      "note": "no public background found",
+      "stations": []
+    },
+    {
+      "name": "Anton Rummel",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Groupon",
+          "orgCanonical": "Groupon",
+          "source": "https://www.bitsandpretzels.com/speaker/anton-rummel",
+          "quote": "Prior to Moss, Anton gained extensive founding and start-up experience through Move24, Quandoo, and Groupon"
+        },
+        {
+          "kind": "employer",
+          "org": "Quandoo",
+          "orgCanonical": "Quandoo",
+          "source": "https://www.bitsandpretzels.com/speaker/anton-rummel",
+          "quote": "Prior to Moss, Anton gained extensive founding and start-up experience through Move24, Quandoo, and Groupon"
+        },
+        {
+          "kind": "employer",
+          "org": "Move24",
+          "orgCanonical": "Move24",
+          "role": "founding/start-up experience (source wording)",
+          "source": "https://www.bitsandpretzels.com/speaker/anton-rummel",
+          "quote": "Prior to Moss, Anton gained extensive founding and start-up experience through Move24, Quandoo, and Groupon"
+        },
+        {
+          "kind": "employer",
+          "org": "Global Founders Capital",
+          "orgCanonical": "Global Founders Capital",
+          "role": "Investment Partner",
+          "source": "https://www.bitsandpretzels.com/speaker/anton-rummel",
+          "quote": "he worked as an Investment Partner at the venture capital fund Global Founders Capital (GFC) in Berlin and San Francisco"
+        }
+      ]
+    },
+    {
+      "name": "Ferdinand Meyer",
+      "note": "no public background found",
+      "stations": []
+    },
+    {
+      "name": "Stephan Haslebacher",
+      "note": "no public background found",
+      "stations": []
+    }
+  ]
+}

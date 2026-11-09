@@ -1,0 +1,43 @@
+{
+  "id": "tourlane",
+  "founders": [
+    {
+      "name": "Julian Stiefel",
+      "stations": [
+        {
+          "kind": "founded",
+          "org": "accoleo",
+          "orgCanonical": "accoleo",
+          "source": "https://www.starting-up.de/geschaeftsideen/unternehmer-typen/die-tourlane-story.html",
+          "quote": "Stiefel verkaufte seine erste Firma accoleo"
+        },
+        {
+          "kind": "exit",
+          "org": "accoleo",
+          "orgCanonical": "accoleo",
+          "source": "https://www.starting-up.de/geschaeftsideen/unternehmer-typen/die-tourlane-story.html",
+          "quote": "im Jahr 2011 an eben diese amerikanische Buchungsplattform"
+        },
+        {
+          "kind": "employer",
+          "org": "Airbnb",
+          "orgCanonical": "Airbnb",
+          "source": "https://www.starting-up.de/geschaeftsideen/unternehmer-typen/die-tourlane-story.html",
+          "quote": "zog dann nach San Francisco"
+        }
+      ]
+    },
+    {
+      "name": "Julian Weselek",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Rocket Internet",
+          "orgCanonical": "Rocket Internet",
+          "source": "https://www.starting-up.de/geschaeftsideen/unternehmer-typen/die-tourlane-story.html",
+          "quote": "Mehr als drei Jahre lang war er bei Rocket Internet tätig, baute dort u.a. das Start-up Helpling mit auf"
+        }
+      ]
+    }
+  ]
+}

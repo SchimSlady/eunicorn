@@ -1,0 +1,29 @@
+{
+  "id": "butternut-box",
+  "founders": [
+    {
+      "name": "David Nolan",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Goldman Sachs",
+          "orgCanonical": "Goldman Sachs",
+          "source": "https://en.wikipedia.org/wiki/Butternut_Box",
+          "quote": "They began working on the business at weekends whilst working at their jobs at Goldman Sachs during the week."
+        }
+      ]
+    },
+    {
+      "name": "Kevin Glynn",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Goldman Sachs",
+          "orgCanonical": "Goldman Sachs",
+          "source": "https://en.wikipedia.org/wiki/Butternut_Box",
+          "quote": "They began working on the business at weekends whilst working at their jobs at Goldman Sachs during the week."
+        }
+      ]
+    }
+  ]
+}

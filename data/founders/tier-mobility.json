@@ -1,0 +1,61 @@
+{
+  "id": "tier-mobility",
+  "founders": [
+    {
+      "name": "Lawrence Leuschner",
+      "stations": [
+        {
+          "kind": "founded",
+          "org": "Trade-a-game GmbH (later ReBuy)",
+          "orgCanonical": "ReBuy",
+          "years": "2004",
+          "source": "https://de.wikipedia.org/wiki/Lawrence_Leuschner",
+          "quote": "gründete er im Jahr 2004 gemeinsam mit Freunden die Trade-a-game GmbH"
+        }
+      ]
+    },
+    {
+      "name": "Matthias Laug",
+      "stations": [
+        {
+          "kind": "founded",
+          "org": "Lieferando",
+          "orgCanonical": "Lieferando",
+          "role": "co-founder, technical director",
+          "source": "https://de.wikipedia.org/wiki/Tier_Mobility",
+          "quote": "Mitgründer und Technischer Direktor von Lieferando"
+        },
+        {
+          "kind": "exit",
+          "org": "Lieferando",
+          "orgCanonical": "Lieferando",
+          "role": "CTO; acquired by Takeaway.com",
+          "years": "2009-2014",
+          "source": "https://moneyinc.com/tier-mobility/",
+          "quote": "Matthias was chief technology officer (CTO) from 2009 until it was acquired by Takeaway.com in 2014",
+          "weakSource": true
+        }
+      ]
+    },
+    {
+      "name": "Julian Blessin",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "BCG Digital Ventures",
+          "orgCanonical": "BCG Digital Ventures",
+          "source": "https://de.wikipedia.org/wiki/Tier_Mobility",
+          "quote": "Julian Blessin (Mitarbeiter von BCG-Digital Ventures)"
+        },
+        {
+          "kind": "founded",
+          "org": "Coup",
+          "orgCanonical": "Coup",
+          "role": "Venture Build & Head of Growth",
+          "source": "https://techcrunch.com/?p=1735669",
+          "quote": "Blessin was instrumental in setting up electric roadside scooter rental company Coup"
+        }
+      ]
+    }
+  ]
+}

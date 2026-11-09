@@ -1,0 +1,47 @@
+{
+  "id": "rohlik",
+  "founders": [
+    {
+      "name": "Tomáš Čupr",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "Brno University of Technology",
+          "orgCanonical": "Brno University of Technology",
+          "source": "https://en.wikipedia.org/wiki/Tom%C3%A1%C5%A1_%C4%8Cupr",
+          "quote": "He studied at Brno University of Technology but left without graduating."
+        },
+        {
+          "kind": "founded",
+          "org": "Slevomat",
+          "orgCanonical": "Slevomat",
+          "source": "https://en.wikipedia.org/wiki/Tom%C3%A1%C5%A1_%C4%8Cupr",
+          "quote": "Čupr launched Slevomat in 2010"
+        },
+        {
+          "kind": "exit",
+          "org": "Slevomat",
+          "orgCanonical": "Slevomat",
+          "role": "sold to Secret Escapes",
+          "source": "https://en.wikipedia.org/wiki/Tom%C3%A1%C5%A1_%C4%8Cupr",
+          "quote": "He sold his stake in Slevomat in 2017, when the company was acquired by the British travel business Secret Escapes."
+        },
+        {
+          "kind": "founded",
+          "org": "Dáme jídlo",
+          "orgCanonical": "Dáme jídlo",
+          "source": "https://en.wikipedia.org/wiki/Tom%C3%A1%C5%A1_%C4%8Cupr",
+          "quote": "His next venture, Dáme jídlo, launched in 2012"
+        },
+        {
+          "kind": "exit",
+          "org": "Dáme jídlo",
+          "orgCanonical": "Dáme jídlo",
+          "role": "sold to Delivery Hero",
+          "source": "https://en.wikipedia.org/wiki/Tom%C3%A1%C5%A1_%C4%8Cupr",
+          "quote": "was acquired by Delivery Hero in 2015"
+        }
+      ]
+    }
+  ]
+}

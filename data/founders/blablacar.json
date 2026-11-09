@@ -1,0 +1,105 @@
+{
+  "id": "blablacar",
+  "founders": [
+    {
+      "name": "Frédéric Mazzella",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "École Normale Supérieure",
+          "orgCanonical": "ENS",
+          "source": "https://newsroom.blablacar.com/about-us/founders",
+          "quote": "a Master’s degree in Physics from the École Normale Supérieure (ENS Ulm)"
+        },
+        {
+          "kind": "education",
+          "org": "Stanford University",
+          "orgCanonical": "Stanford University",
+          "source": "https://newsroom.blablacar.com/about-us/founders",
+          "quote": "a Master’s in Computer Science from Stanford University (USA)"
+        },
+        {
+          "kind": "education",
+          "org": "INSEAD",
+          "orgCanonical": "INSEAD",
+          "source": "https://newsroom.blablacar.com/about-us/founders",
+          "quote": "and an MBA from INSEAD"
+        },
+        {
+          "kind": "employer",
+          "org": "NASA",
+          "orgCanonical": "NASA",
+          "role": "scientific researcher",
+          "source": "https://newsroom.blablacar.com/about-us/founders",
+          "quote": "he worked as a scientific researcher for NASA in the USA and NTT in Japan"
+        },
+        {
+          "kind": "employer",
+          "org": "NTT",
+          "orgCanonical": "NTT",
+          "role": "scientific researcher",
+          "source": "https://newsroom.blablacar.com/about-us/founders",
+          "quote": "he worked as a scientific researcher for NASA in the USA and NTT in Japan"
+        }
+      ]
+    },
+    {
+      "name": "Francis Nappez",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Free",
+          "orgCanonical": "Free",
+          "source": "https://newsroom.blablacar.com/about-us/founders",
+          "quote": "including Free and Meetic"
+        },
+        {
+          "kind": "employer",
+          "org": "Meetic",
+          "orgCanonical": "Meetic",
+          "source": "https://newsroom.blablacar.com/about-us/founders",
+          "quote": "including Free and Meetic"
+        },
+        {
+          "kind": "education",
+          "org": "Joseph Fourier University",
+          "orgCanonical": "Université Grenoble Alpes",
+          "source": "https://newsroom.blablacar.com/about-us/founders",
+          "quote": "He holds a degree in Technology and Communications Research from Joseph Fourier University"
+        }
+      ]
+    },
+    {
+      "name": "Nicolas Brusson",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Amadeus Capital Partners",
+          "orgCanonical": "Amadeus Capital Partners",
+          "role": "venture capitalist",
+          "source": "https://newsroom.blablacar.com/about-us/founders",
+          "quote": "venture capitalist (VC) in London at Amadeus Capital Partners"
+        },
+        {
+          "kind": "education",
+          "org": "INSEAD",
+          "orgCanonical": "INSEAD",
+          "source": "https://newsroom.blablacar.com/about-us/founders",
+          "quote": "Nicolas holds an MBA from INSEAD"
+        },
+        {
+          "kind": "education",
+          "org": "École Supérieure d’Optique",
+          "orgCanonical": "Institut d'Optique",
+          "source": "https://newsroom.blablacar.com/about-us/founders",
+          "quote": "a Master’s degree in Optics from the École Supérieure d’Optique"
+        }
+      ]
+    },
+    {
+      "name": "Nicolas Deroche",
+      "note": "no public background found in the BlaBlaCar founders page or other allowed sources",
+      "stations": []
+    }
+  ]
+}

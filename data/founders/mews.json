@@ -1,0 +1,22 @@
+{
+  "id": "mews",
+  "founders": [
+    {
+      "name": "Richard Valtr",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "University College London",
+          "orgCanonical": "UCL",
+          "source": "https://en.wikipedia.org/wiki/Richard_Valtr",
+          "quote": "Valtr moved to London at the age of 19 to study philosophy at University College London"
+        }
+      ]
+    },
+    {
+      "name": "Matthijs Welle",
+      "note": "no named prior employer on Mews about page",
+      "stations": []
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "veriff",
+  "founders": [
+    {
+      "name": "Kaarel Kotkas",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Wise",
+          "orgCanonical": "Wise",
+          "source": "https://en.wikipedia.org/wiki/Veriff",
+          "quote": "After a short spell of working on the verification operations at Wise"
+        }
+      ]
+    },
+    {
+      "name": "Janer Gorohhov",
+      "note": "only generic bio (full-stack developer) found",
+      "stations": []
+    }
+  ]
+}

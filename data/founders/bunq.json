@@ -1,0 +1,31 @@
+{
+  "id": "bunq",
+  "founders": [
+    {
+      "name": "Ali Niknam",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "Delft University of Technology",
+          "orgCanonical": "TU Delft",
+          "source": "https://en.wikipedia.org/wiki/Ali_Niknam",
+          "quote": "received a bachelor's degree in technical informatics from the Delft University of Technology"
+        },
+        {
+          "kind": "founded",
+          "org": "TransIP",
+          "orgCanonical": "TransIP",
+          "source": "https://en.wikipedia.org/wiki/Ali_Niknam",
+          "quote": "Niknam founded TransIP, a company that specialized in domain name registration and web hosting"
+        },
+        {
+          "kind": "founded",
+          "org": "The Datacenter Group",
+          "orgCanonical": "The Datacenter Group",
+          "source": "https://en.wikipedia.org/wiki/Ali_Niknam",
+          "quote": "he founded a data center company The Datacenter Group"
+        }
+      ]
+    }
+  ]
+}

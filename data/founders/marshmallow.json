@@ -1,0 +1,28 @@
+{
+  "id": "marshmallow",
+  "founders": [
+    {
+      "name": "Alexander Kent-Braham",
+      "note": "no quotable background page found (aggregators only)",
+      "stations": []
+    },
+    {
+      "name": "Oliver Kent-Braham",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Investec",
+          "orgCanonical": "Investec",
+          "source": "https://au.finance.yahoo.com/news/entrepreneurs-tech-twins-behind-marshmallow-113830484.html",
+          "quote": "whose stint as a banker at Investec lasted six months before he ventured out on his own",
+          "weakSource": true
+        }
+      ]
+    },
+    {
+      "name": "David Goate",
+      "note": "no public background found",
+      "stations": []
+    }
+  ]
+}

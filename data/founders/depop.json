@@ -1,0 +1,24 @@
+{
+  "id": "depop",
+  "founders": [
+    {
+      "name": "Simon Beckerman",
+      "stations": [
+        {
+          "kind": "founded",
+          "org": "PIG Magazine",
+          "orgCanonical": "PIG Magazine",
+          "source": "https://www.maddyness.com/uk/entreprise/depop",
+          "quote": "Depop was founded by co-founder of PIG magazine and RETROSUPERFUTURE sunglasses, Simon Beckerman"
+        },
+        {
+          "kind": "founded",
+          "org": "Retrosuperfuture",
+          "orgCanonical": "Retrosuperfuture",
+          "source": "https://www.maddyness.com/uk/entreprise/depop",
+          "quote": "Depop was founded by co-founder of PIG magazine and RETROSUPERFUTURE sunglasses, Simon Beckerman"
+        }
+      ]
+    }
+  ]
+}

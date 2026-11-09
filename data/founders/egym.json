@@ -1,0 +1,36 @@
+{
+  "id": "egym",
+  "founders": [
+    {
+      "name": "Florian Sauter",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "Technical University of Munich",
+          "orgCanonical": "TUM",
+          "source": "https://www.tum.de/aktuelles/alle-meldungen/pressemitteilungen/details/milliardenbewertung-fuer-start-up-egym",
+          "quote": "Florian Sauter, der Elektro- und Informationstechnik an der TUM studierte"
+        },
+        {
+          "kind": "education",
+          "org": "CDTM",
+          "orgCanonical": "CDTM",
+          "source": "https://www.tum.de/aktuelles/alle-meldungen/pressemitteilungen/details/milliardenbewertung-fuer-start-up-egym",
+          "quote": "lernten sich am Center for Digital Technology and Management (CDTM) kennen"
+        }
+      ]
+    },
+    {
+      "name": "Philipp Roesch-Schlanderer",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "CDTM",
+          "orgCanonical": "CDTM",
+          "source": "https://www.tum.de/aktuelles/alle-meldungen/pressemitteilungen/details/milliardenbewertung-fuer-start-up-egym",
+          "quote": "lernten sich am Center for Digital Technology and Management (CDTM) kennen"
+        }
+      ]
+    }
+  ]
+}

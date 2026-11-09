@@ -1,0 +1,91 @@
+{
+  "id": "helsing",
+  "founders": [
+    {
+      "name": "Torsten Reil",
+      "stations": [
+        {
+          "kind": "founded",
+          "org": "NaturalMotion",
+          "orgCanonical": "NaturalMotion",
+          "source": "https://siliconcanals.com/german-defence-ai-startup-helsing-secures-e450m/",
+          "quote": "Torsten Reil, co-founder and co-CEO of Helsing, is a former biologist who founded NaturalMotion"
+        },
+        {
+          "kind": "exit",
+          "org": "NaturalMotion",
+          "orgCanonical": "NaturalMotion",
+          "role": "sold to Zynga",
+          "source": "https://siliconcanals.com/german-defence-ai-startup-helsing-secures-e450m/",
+          "quote": "founded NaturalMotion, acquired by Zynga for $527M"
+        },
+        {
+          "kind": "education",
+          "org": "University of Oxford",
+          "orgCanonical": "University of Oxford",
+          "role": "BA Biological Sciences, MSc Artificial Intelligence",
+          "source": "https://siliconcanals.com/german-defence-ai-startup-helsing-secures-e450m/",
+          "quote": "Reil holds a BA in Biological Sciences and a Masters in Artificial Intelligence from Oxford"
+        }
+      ]
+    },
+    {
+      "name": "Gundbert Scherf",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "McKinsey & Company",
+          "orgCanonical": "McKinsey",
+          "role": "Partner",
+          "source": "https://siliconcanals.com/german-defence-ai-startup-helsing-secures-e450m/",
+          "quote": "previously served as a partner at McKinsey & Company"
+        },
+        {
+          "kind": "employer",
+          "org": "German Federal Ministry of Defence",
+          "orgCanonical": "German Federal Ministry of Defence",
+          "role": "Special representative",
+          "years": "2014-2016",
+          "source": "https://siliconcanals.com/german-defence-ai-startup-helsing-secures-e450m/",
+          "quote": "From 2014 to 2016, he was a special representative in the German Federal Ministry of Defence"
+        },
+        {
+          "kind": "education",
+          "org": "University of Cambridge",
+          "orgCanonical": "University of Cambridge",
+          "role": "Marie Curie Fellow",
+          "source": "https://siliconcanals.com/german-defence-ai-startup-helsing-secures-e450m/",
+          "quote": "advanced academic credentials from the University of Cambridge (Marie Curie Fellow), Freie Universität Berlin, and Sciences Po Paris"
+        },
+        {
+          "kind": "education",
+          "org": "Freie Universität Berlin",
+          "orgCanonical": "Freie Universität Berlin",
+          "source": "https://siliconcanals.com/german-defence-ai-startup-helsing-secures-e450m/",
+          "quote": "advanced academic credentials from the University of Cambridge (Marie Curie Fellow), Freie Universität Berlin, and Sciences Po Paris"
+        },
+        {
+          "kind": "education",
+          "org": "Sciences Po Paris",
+          "orgCanonical": "Sciences Po",
+          "source": "https://siliconcanals.com/german-defence-ai-startup-helsing-secures-e450m/",
+          "quote": "advanced academic credentials from the University of Cambridge (Marie Curie Fellow), Freie Universität Berlin, and Sciences Po Paris"
+        }
+      ]
+    },
+    {
+      "name": "Niklas Köhler",
+      "note": "Also co-founded an unnamed AI firm per source (org not named, left out).",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "Ludwig-Maximilians-University Munich",
+          "orgCanonical": "LMU Munich",
+          "role": "Physics degree",
+          "source": "https://siliconcanals.com/german-defence-ai-startup-helsing-secures-e450m/",
+          "quote": "He holds a physics degree from Ludwig-Maximilians-University Munich"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "mollie",
+  "founders": [
+    {
+      "name": "Adriaan Mol",
+      "stations": [
+        {
+          "kind": "founded",
+          "org": "NovaHost",
+          "orgCanonical": "NovaHost",
+          "source": "https://nl.wikipedia.org/wiki/Adriaan_Mol",
+          "quote": "begon de toen 17-jarige Mol samen met ondernemer en The Next Web-oprichter Boris Veldhuijzen Van Zanten een hostingbedrijf genaamd NovaHost"
+        },
+        {
+          "kind": "exit",
+          "org": "NovaHost",
+          "orgCanonical": "NovaHost",
+          "role": "sold, buyer not stated",
+          "source": "https://nl.wikipedia.org/wiki/Adriaan_Mol",
+          "quote": "Al een jaar later werd het bedrijf van de hand gedaan voor een onbekend bedrag"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "_comment": "Maps organisation spellings to one canonical name (orgCanonical). Add a line when two spellings mean the same organisation.",
+  "Stanford": "Stanford University",
+  "LSE": "London School of Economics",
+  "RBS": "Royal Bank of Scotland",
+  "TU München": "TUM",
+  "Technical University of Munich": "TUM",
+  "Harvard": "Harvard University",
+  "ENS Paris": "ENS",
+  "IESE": "IESE Business School",
+  "McKinsey & Company": "McKinsey",
+  "Helsinki University of Technology": "Aalto University",
+  "Swiss": "Swiss Airlines"
+}

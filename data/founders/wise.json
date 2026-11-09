@@ -1,0 +1,49 @@
+{
+  "id": "wise",
+  "founders": [
+    {
+      "name": "Kristo Käärmann",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Deloitte",
+          "orgCanonical": "Deloitte",
+          "role": "management consultant",
+          "source": "https://en.wikipedia.org/wiki/Kristo_K%C3%A4%C3%A4rmann",
+          "quote": "Kristo Käärmann, a Deloitte management consultant"
+        },
+        {
+          "kind": "employer",
+          "org": "PricewaterhouseCoopers",
+          "orgCanonical": "PwC",
+          "role": "consultant",
+          "source": "https://et.wikipedia.org/wiki/Kristo_K%C3%A4%C3%A4rmann",
+          "quote": "EGeen ja PricewaterhouseCoopers"
+        },
+        {
+          "kind": "education",
+          "org": "Tartu Ülikool",
+          "orgCanonical": "University of Tartu",
+          "role": "Master, informatics",
+          "years": "2006",
+          "source": "https://et.wikipedia.org/wiki/Kristo_K%C3%A4%C3%A4rmann",
+          "quote": "Tartu Ülikooli magistriõppe informaatika erialal"
+        }
+      ]
+    },
+    {
+      "name": "Taavet Hinrikus",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Skype",
+          "orgCanonical": "Skype",
+          "role": "first employee, strategy director",
+          "years": "2002-2008",
+          "source": "https://et.wikipedia.org/wiki/Taavet_Hinrikus",
+          "quote": "Oli Skype'i esimene palgaline töötaja 2002 ja strateegiadirektor aastani 2008"
+        }
+      ]
+    }
+  ]
+}

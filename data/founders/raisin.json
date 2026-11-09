@@ -1,0 +1,41 @@
+{
+  "id": "raisin",
+  "founders": [
+    {
+      "name": "Tamaz Georgadze",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "McKinsey",
+          "orgCanonical": "McKinsey",
+          "source": "https://www.raisin.com/de-de/presse/70-partnerbank-live-zinsportal-weltsparen-signal-iduna-bauspar/",
+          "quote": "wurde 2012 von den drei ehemaligen McKinsey-Beratern Dr. Tamaz Georgadze (CEO), Dr. Frank Freund (CFO) und Michael Stephan (COO) gegründet"
+        }
+      ]
+    },
+    {
+      "name": "Frank Freund",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "McKinsey",
+          "orgCanonical": "McKinsey",
+          "source": "https://www.raisin.com/de-de/presse/70-partnerbank-live-zinsportal-weltsparen-signal-iduna-bauspar/",
+          "quote": "wurde 2012 von den drei ehemaligen McKinsey-Beratern Dr. Tamaz Georgadze (CEO), Dr. Frank Freund (CFO) und Michael Stephan (COO) gegründet"
+        }
+      ]
+    },
+    {
+      "name": "Michael Stephan",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "McKinsey",
+          "orgCanonical": "McKinsey",
+          "source": "https://www.raisin.com/de-de/presse/70-partnerbank-live-zinsportal-weltsparen-signal-iduna-bauspar/",
+          "quote": "wurde 2012 von den drei ehemaligen McKinsey-Beratern Dr. Tamaz Georgadze (CEO), Dr. Frank Freund (CFO) und Michael Stephan (COO) gegründet"
+        }
+      ]
+    }
+  ]
+}

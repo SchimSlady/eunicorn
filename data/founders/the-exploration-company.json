@@ -1,0 +1,46 @@
+{
+  "id": "the-exploration-company",
+  "founders": [
+    {
+      "name": "Hélène Huby",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "École normale supérieure",
+          "orgCanonical": "ENS",
+          "source": "https://fr.wikipedia.org/wiki/H%C3%A9l%C3%A8ne_Huby",
+          "quote": "avant d'intégrer l' École normale supérieure par le concours B/L en 1999"
+        },
+        {
+          "kind": "education",
+          "org": "ENA",
+          "orgCanonical": "ENA",
+          "source": "https://fr.wikipedia.org/wiki/H%C3%A9l%C3%A8ne_Huby",
+          "quote": "puis est admise à l' ENA dans la promotion 2004-2006"
+        },
+        {
+          "kind": "employer",
+          "org": "Fabernovel",
+          "orgCanonical": "FaberNovel",
+          "source": "https://fr.wikipedia.org/wiki/H%C3%A9l%C3%A8ne_Huby",
+          "quote": "Elle rejoint ensuite l'entreprise Fabernovel en Allemagne"
+        },
+        {
+          "kind": "employer",
+          "org": "Airbus",
+          "orgCanonical": "Airbus",
+          "years": "2013-2021",
+          "source": "https://fr.wikipedia.org/wiki/H%C3%A9l%C3%A8ne_Huby",
+          "quote": "Elle intègre Airbus Group en 2013"
+        },
+        {
+          "kind": "employer",
+          "org": "ArianeGroup",
+          "orgCanonical": "ArianeGroup",
+          "source": "https://fr.wikipedia.org/wiki/H%C3%A9l%C3%A8ne_Huby",
+          "quote": "directrice de programme chez ArianeGroup"
+        }
+      ]
+    }
+  ]
+}

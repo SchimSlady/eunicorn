@@ -1,0 +1,73 @@
+{
+  "id": "revolut",
+  "founders": [
+    {
+      "name": "Nik Storonsky",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "Moscow Institute of Physics and Technology",
+          "orgCanonical": "MIPT",
+          "source": "https://en.wikipedia.org/wiki/Nik_Storonsky",
+          "quote": "He completed a master's degree in general and applied physics at the Moscow Institute of Physics and Technology in 2007"
+        },
+        {
+          "kind": "education",
+          "org": "New Economic School",
+          "orgCanonical": "New Economic School",
+          "source": "https://en.wikipedia.org/wiki/Nik_Storonsky",
+          "quote": "he also earned a master's degree in applied economics and finance from the New Economic School"
+        },
+        {
+          "kind": "employer",
+          "org": "Lehman Brothers",
+          "orgCanonical": "Lehman Brothers",
+          "role": "Equity derivatives trader",
+          "source": "https://en.wikipedia.org/wiki/Nik_Storonsky",
+          "quote": "to begin his career as an equity derivatives trader at Lehman Brothers in London"
+        },
+        {
+          "kind": "employer",
+          "org": "Credit Suisse",
+          "orgCanonical": "Credit Suisse",
+          "source": "https://en.wikipedia.org/wiki/Nik_Storonsky",
+          "quote": "and later joined Credit Suisse"
+        }
+      ]
+    },
+    {
+      "name": "Vlad Yatsenko",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Comarch",
+          "orgCanonical": "Comarch",
+          "source": "https://en.wikipedia.org/wiki/Vlad_Yatsenko",
+          "quote": "Yatsenko worked as a developer in the Kraków office of Polish company Comarch"
+        },
+        {
+          "kind": "employer",
+          "org": "UBS",
+          "orgCanonical": "UBS",
+          "role": "Senior developer",
+          "source": "https://en.wikipedia.org/wiki/Vlad_Yatsenko",
+          "quote": "to become a senior developer at UBS"
+        },
+        {
+          "kind": "employer",
+          "org": "Deutsche Bank",
+          "orgCanonical": "Deutsche Bank",
+          "source": "https://en.wikipedia.org/wiki/Vlad_Yatsenko",
+          "quote": "He later worked at Deutsche Bank and Credit Suisse"
+        },
+        {
+          "kind": "employer",
+          "org": "Credit Suisse",
+          "orgCanonical": "Credit Suisse",
+          "source": "https://en.wikipedia.org/wiki/Vlad_Yatsenko",
+          "quote": "He later worked at Deutsche Bank and Credit Suisse"
+        }
+      ]
+    }
+  ]
+}

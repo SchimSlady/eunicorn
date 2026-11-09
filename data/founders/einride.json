@@ -1,0 +1,42 @@
+{
+  "id": "einride",
+  "founders": [
+    {
+      "name": "Robert Falck",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Volvo GTO Powertrain",
+          "orgCanonical": "Volvo",
+          "role": "Director of manufacturing engineering assembly",
+          "source": "https://brilliantminds.co/speaker/2019-robert-falck",
+          "quote": "Before founding Einride in 2016, Mr. Falck was a director of manufacturing engineering assembly at Volvo GTO Powertrain."
+        },
+        {
+          "kind": "founded",
+          "org": "Vnu",
+          "orgCanonical": "Vnu",
+          "source": "https://brilliantminds.co/speaker/2019-robert-falck",
+          "quote": "he is a co-founder of Vnu, a nightclub business intelligence solution"
+        },
+        {
+          "kind": "founded",
+          "org": "The Great Wild",
+          "orgCanonical": "The Great Wild",
+          "source": "https://brilliantminds.co/speaker/2019-robert-falck",
+          "quote": "The Great Wild, a hunting app"
+        }
+      ]
+    },
+    {
+      "name": "Filip Lilja",
+      "note": "no public background found in fetchable sources",
+      "stations": []
+    },
+    {
+      "name": "Linnéa Kornehed",
+      "note": "no public background found in fetchable sources",
+      "stations": []
+    }
+  ]
+}
