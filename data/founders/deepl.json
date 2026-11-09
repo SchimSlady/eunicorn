@@ -1,0 +1,32 @@
+{
+  "id": "deepl",
+  "founders": [
+    {
+      "name": "Jaroslaw Kutylowski",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "Universität Paderborn",
+          "orgCanonical": "University of Paderborn",
+          "source": "https://omr.com/de/daily/deepl-im-omr-podcast",
+          "quote": "in Paderborn im Fach Informatik promoviert"
+        },
+        {
+          "kind": "employer",
+          "org": "Vodafone",
+          "orgCanonical": "Vodafone",
+          "source": "https://omr.com/de/daily/deepl-im-omr-podcast",
+          "quote": "Seine Karriere beginnt er bei Vodafone"
+        },
+        {
+          "kind": "employer",
+          "org": "Linguee",
+          "orgCanonical": "Linguee",
+          "role": "Chief Technology Officer",
+          "source": "https://omr.com/de/daily/deepl-im-omr-podcast",
+          "quote": "Beim Onlinewörterbuch Linguee, dem Vorgängerunternehmen von DeepL, startet er als Chief Technology Officer"
+        }
+      ]
+    }
+  ]
+}

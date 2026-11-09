@@ -1,0 +1,70 @@
+{
+  "id": "getyourguide",
+  "founders": [
+    {
+      "name": "Johannes Reck",
+      "note": "quote is CEO Reck speaking about the co-founders",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "ETH Zurich",
+          "orgCanonical": "ETH Zurich",
+          "source": "https://www.top100startups.swiss/GetYourGuide-From-ETH-Zurich-Spinoff-to-Global-Travel-Platform",
+          "quote": "Our co-founders were classmates at ETH Zurich"
+        }
+      ]
+    },
+    {
+      "name": "Tao Tao",
+      "note": "quote is CEO Reck speaking about the co-founders",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "ETH Zurich",
+          "orgCanonical": "ETH Zurich",
+          "source": "https://www.top100startups.swiss/GetYourGuide-From-ETH-Zurich-Spinoff-to-Global-Travel-Platform",
+          "quote": "Our co-founders were classmates at ETH Zurich"
+        }
+      ]
+    },
+    {
+      "name": "Tobias Rein",
+      "note": "quote is CEO Reck speaking about the co-founders",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "ETH Zurich",
+          "orgCanonical": "ETH Zurich",
+          "source": "https://www.top100startups.swiss/GetYourGuide-From-ETH-Zurich-Spinoff-to-Global-Travel-Platform",
+          "quote": "Our co-founders were classmates at ETH Zurich"
+        }
+      ]
+    },
+    {
+      "name": "Martin Sieber",
+      "note": "quote is CEO Reck speaking about the co-founders",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "ETH Zurich",
+          "orgCanonical": "ETH Zurich",
+          "source": "https://www.top100startups.swiss/GetYourGuide-From-ETH-Zurich-Spinoff-to-Global-Travel-Platform",
+          "quote": "Our co-founders were classmates at ETH Zurich"
+        }
+      ]
+    },
+    {
+      "name": "Pascal Mathis",
+      "note": "quote is CEO Reck speaking about the co-founders",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "ETH Zurich",
+          "orgCanonical": "ETH Zurich",
+          "source": "https://www.top100startups.swiss/GetYourGuide-From-ETH-Zurich-Spinoff-to-Global-Travel-Platform",
+          "quote": "Our co-founders were classmates at ETH Zurich"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "sorare",
+  "founders": [
+    {
+      "name": "Nicolas Julia",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Stratumn",
+          "orgCanonical": "Stratumn",
+          "role": "Vice President of Operations",
+          "source": "https://cryptovalleyjournal.com/focus/blockchain/soccercards-on-blockchain-with-sorare/",
+          "quote": "Nicolas Julia was Vice President of Operations at the French blockchain company Stratumn."
+        }
+      ]
+    },
+    {
+      "name": "Adrien Montfort",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Stratumn",
+          "orgCanonical": "Stratumn",
+          "role": "led crypto-engineering team",
+          "source": "https://cryptovalleyjournal.com/focus/blockchain/soccercards-on-blockchain-with-sorare/",
+          "quote": "Adrien Montfort, who was leading a crypto-engineering team at Stratumn at that time."
+        }
+      ]
+    }
+  ]
+}

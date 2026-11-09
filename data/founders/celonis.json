@@ -1,0 +1,41 @@
+{
+  "id": "celonis",
+  "founders": [
+    {
+      "name": "Alexander Rinke",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "Technical University of Munich",
+          "orgCanonical": "TUM",
+          "source": "https://technologist.eu/the-first-unicorn-from-tum",
+          "quote": "During their time at TUM, Bastian Nominacher, Martin Klenk and Alexander Rinke"
+        }
+      ]
+    },
+    {
+      "name": "Bastian Nominacher",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "Technical University of Munich",
+          "orgCanonical": "TUM",
+          "source": "https://technologist.eu/the-first-unicorn-from-tum",
+          "quote": "During their time at TUM, Bastian Nominacher, Martin Klenk and Alexander Rinke"
+        }
+      ]
+    },
+    {
+      "name": "Martin Klenk",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "Technical University of Munich",
+          "orgCanonical": "TUM",
+          "source": "https://technologist.eu/the-first-unicorn-from-tum",
+          "quote": "During their time at TUM, Bastian Nominacher, Martin Klenk and Alexander Rinke"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "hellofresh",
+  "founders": [
+    {
+      "name": "Dominik Richter",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "WHU - Otto Beisheim School of Management",
+          "orgCanonical": "WHU",
+          "source": "https://www.gruender.de/verzeichnis/hellofresh-gruender/",
+          "quote": "Dominik Richter hat zunächst seinen Bachelor in International Business Administration an der WHU-Otto Beisheim gemacht"
+        },
+        {
+          "kind": "education",
+          "org": "London School of Economics and Political Science",
+          "orgCanonical": "London School of Economics",
+          "source": "https://www.gruender.de/verzeichnis/hellofresh-gruender/",
+          "quote": "Master in Finance, Accounting und Mathematics an der London School of Economics & Political Science"
+        }
+      ]
+    },
+    {
+      "name": "Thomas Griesel",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "WHU - Otto Beisheim School of Management",
+          "orgCanonical": "WHU",
+          "source": "https://www.gruender.de/verzeichnis/hellofresh-gruender/",
+          "quote": "Thomas Griesel hat ebenfalls seinen Bachelor in International Business Administration an der WHU-Otto Beisheim gemacht"
+        },
+        {
+          "kind": "education",
+          "org": "London Business School",
+          "orgCanonical": "London Business School",
+          "source": "https://www.gruender.de/verzeichnis/hellofresh-gruender/",
+          "quote": "Den Master in Management hat er daraufhin an der London Business School gemacht"
+        }
+      ]
+    },
+    {
+      "name": "Jessica Nilsson",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "Stockholm School of Economics",
+          "orgCanonical": "Stockholm School of Economics",
+          "source": "https://www.gruender.de/verzeichnis/hellofresh-gruender/",
+          "quote": "Jessica Nilsson hat ihren Master in Economics and Business an der Stockholm School of Economics gemacht"
+        }
+      ]
+    }
+  ]
+}

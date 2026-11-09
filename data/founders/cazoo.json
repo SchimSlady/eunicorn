@@ -1,0 +1,55 @@
+{
+  "id": "cazoo",
+  "founders": [
+    {
+      "name": "Alex Chesterman",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "University College London",
+          "orgCanonical": "UCL",
+          "source": "https://en.wikipedia.org/wiki/Alex_Chesterman",
+          "quote": "has a bachelor's degree in economics from University College London"
+        },
+        {
+          "kind": "employer",
+          "org": "Planet Hollywood",
+          "orgCanonical": "Planet Hollywood",
+          "role": "Executive vice president",
+          "source": "https://en.wikipedia.org/wiki/Alex_Chesterman",
+          "quote": "was the executive vice president of Planet Hollywood until 1998"
+        },
+        {
+          "kind": "founded",
+          "org": "ScreenSelect / LoveFilm",
+          "orgCanonical": "LoveFilm",
+          "source": "https://en.wikipedia.org/wiki/Alex_Chesterman",
+          "quote": "He founded ScreenSelect (later LoveFilm), which was subsequently sold to Amazon for £200 million"
+        },
+        {
+          "kind": "exit",
+          "org": "ScreenSelect / LoveFilm",
+          "orgCanonical": "LoveFilm",
+          "role": "Sold to Amazon",
+          "source": "https://en.wikipedia.org/wiki/Alex_Chesterman",
+          "quote": "He founded ScreenSelect (later LoveFilm), which was subsequently sold to Amazon for £200 million"
+        },
+        {
+          "kind": "founded",
+          "org": "Zoopla",
+          "orgCanonical": "Zoopla",
+          "source": "https://en.wikipedia.org/wiki/Alex_Chesterman",
+          "quote": "In 2007, he founded Zoopla"
+        },
+        {
+          "kind": "exit",
+          "org": "Zoopla (ZPG)",
+          "orgCanonical": "Zoopla",
+          "role": "Sold to Silver Lake",
+          "source": "https://en.wikipedia.org/wiki/Alex_Chesterman",
+          "quote": "In 2018, ZPG was sold to US private equity group Silver Lake for £2.2bn"
+        }
+      ]
+    }
+  ]
+}

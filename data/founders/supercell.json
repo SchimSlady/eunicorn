@@ -1,0 +1,99 @@
+{
+  "id": "supercell",
+  "founders": [
+    {
+      "name": "Ilkka Paananen",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Sumea",
+          "orgCanonical": "Sumea",
+          "role": "CEO",
+          "years": "2000",
+          "source": "https://en.wikipedia.org/wiki/Supercell_(company)",
+          "quote": "Paananen was hired as the company's CEO in 2000."
+        },
+        {
+          "kind": "employer",
+          "org": "Digital Chocolate",
+          "orgCanonical": "Digital Chocolate",
+          "role": "European manager",
+          "source": "https://en.wikipedia.org/wiki/Supercell_(company)",
+          "quote": "made it the company's Finnish headquarters and Paananen the European manager"
+        },
+        {
+          "kind": "employer",
+          "org": "Lifeline Ventures",
+          "orgCanonical": "Lifeline Ventures",
+          "source": "https://en.wikipedia.org/wiki/Supercell_(company)",
+          "quote": "Paananen moved to a venture capital company Lifeline Ventures"
+        }
+      ]
+    },
+    {
+      "name": "Mikko Kodisoja",
+      "stations": [
+        {
+          "kind": "founded",
+          "org": "Sumea",
+          "orgCanonical": "Sumea",
+          "years": "1999",
+          "source": "https://en.wikipedia.org/wiki/Supercell_(company)",
+          "quote": "Kodisoja co-founded Sumea in 1999"
+        },
+        {
+          "kind": "exit",
+          "org": "Sumea",
+          "orgCanonical": "Sumea",
+          "years": "2004",
+          "source": "https://en.wikipedia.org/wiki/Supercell_(company)",
+          "quote": "the American Digital Chocolate bought Sumea"
+        },
+        {
+          "kind": "employer",
+          "org": "Digital Chocolate",
+          "orgCanonical": "Digital Chocolate",
+          "role": "Creative director",
+          "source": "https://en.wikipedia.org/wiki/Supercell_(company)",
+          "quote": "Kodisoja, the firm's creative director, left the company in 2010"
+        }
+      ]
+    },
+    {
+      "name": "Petri Styrman",
+      "note": "no public background found in allowed sources",
+      "stations": []
+    },
+    {
+      "name": "Lassi Leppinen",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Sumea",
+          "orgCanonical": "Sumea",
+          "role": "Chief programmer",
+          "source": "https://en.wikipedia.org/wiki/Supercell_(company)",
+          "quote": "Lassi Leppinen was the chief programmer at Sumea and Digital Chocolate"
+        },
+        {
+          "kind": "employer",
+          "org": "Digital Chocolate",
+          "orgCanonical": "Digital Chocolate",
+          "role": "Chief programmer",
+          "source": "https://en.wikipedia.org/wiki/Supercell_(company)",
+          "quote": "Lassi Leppinen was the chief programmer at Sumea and Digital Chocolate"
+        }
+      ]
+    },
+    {
+      "name": "Visa Forstén",
+      "note": "no public background found in allowed sources",
+      "stations": []
+    },
+    {
+      "name": "Niko Derome",
+      "note": "no public background found in allowed sources",
+      "stations": []
+    }
+  ]
+}

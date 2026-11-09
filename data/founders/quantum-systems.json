@@ -1,0 +1,32 @@
+{
+  "id": "quantum-systems",
+  "founders": [
+    {
+      "name": "Florian Seibel",
+      "note": "Munich Startup says he studied at Technische Universität München instead; sources conflict",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Bundeswehr",
+          "orgCanonical": "Bundeswehr",
+          "role": "Offizier",
+          "years": "1999-2016",
+          "source": "https://www.munich-startup.de/news/quantum-systems-gruender-wird-bdli-startup-beauftragter",
+          "quote": "Zuvor diente Seibel von 1999 bis 2016 als Offizier bei der Bundeswehr."
+        },
+        {
+          "kind": "education",
+          "org": "Universität der Bundeswehr München",
+          "orgCanonical": "Bundeswehr University Munich",
+          "source": "https://www.kfw.de/stories/quantum_systems.html",
+          "quote": "absolvierte an der Bundeswehr-Universität in München das Studium zum Luft- und Raumfahrtingenieur"
+        }
+      ]
+    },
+    {
+      "name": "Armin Busse",
+      "note": "no public background found",
+      "stations": []
+    }
+  ]
+}

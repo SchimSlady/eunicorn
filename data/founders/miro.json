@@ -1,0 +1,30 @@
+{
+  "id": "miro",
+  "founders": [
+    {
+      "name": "Andrey Khusid",
+      "stations": [
+        {
+          "kind": "founded",
+          "org": "Vitamin Group",
+          "orgCanonical": "Vitamin Group",
+          "source": "https://londontechweek.com/speakers/andrey-khusid",
+          "quote": "Prior to Miro, Andrey was the Founder of Vitamin Group, an award winning creative agency."
+        },
+        {
+          "kind": "education",
+          "org": "Higher School of Economics (Perm)",
+          "orgCanonical": "HSE University",
+          "role": "Bachelor's and Master's",
+          "source": "https://productschool.com/product-leaders/Andrey-Khusid",
+          "quote": "a Master’s from the Higher School of Economics in Perm"
+        }
+      ]
+    },
+    {
+      "name": "Oleg Shardin",
+      "note": "no public background found in fetched sources",
+      "stations": []
+    }
+  ]
+}

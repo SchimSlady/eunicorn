@@ -1,0 +1,57 @@
+{
+  "id": "lilium",
+  "founders": [
+    {
+      "name": "Daniel Wiegand",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "Technical University of Munich",
+          "orgCanonical": "TUM",
+          "role": "Studied or doctorate, Faculty of Mechanical Engineering",
+          "source": "https://www.tum.de/aktuelles/alle-meldungen/pressemitteilungen/details/34032",
+          "quote": "Die Gründer Daniel Wiegand, Sebastian Born, Matthias Meiner und Patrick Nathen haben an der Fakultät Maschinenwesen der TUM studiert oder promoviert."
+        }
+      ]
+    },
+    {
+      "name": "Sebastian Born",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "Technical University of Munich",
+          "orgCanonical": "TUM",
+          "role": "Studied or doctorate, Faculty of Mechanical Engineering",
+          "source": "https://www.tum.de/aktuelles/alle-meldungen/pressemitteilungen/details/34032",
+          "quote": "Die Gründer Daniel Wiegand, Sebastian Born, Matthias Meiner und Patrick Nathen haben an der Fakultät Maschinenwesen der TUM studiert oder promoviert."
+        }
+      ]
+    },
+    {
+      "name": "Matthias Meiner",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "Technical University of Munich",
+          "orgCanonical": "TUM",
+          "role": "Studied or doctorate, Faculty of Mechanical Engineering",
+          "source": "https://www.tum.de/aktuelles/alle-meldungen/pressemitteilungen/details/34032",
+          "quote": "Die Gründer Daniel Wiegand, Sebastian Born, Matthias Meiner und Patrick Nathen haben an der Fakultät Maschinenwesen der TUM studiert oder promoviert."
+        }
+      ]
+    },
+    {
+      "name": "Patrick Nathen",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "Technical University of Munich",
+          "orgCanonical": "TUM",
+          "role": "Studied or doctorate, Faculty of Mechanical Engineering",
+          "source": "https://www.tum.de/aktuelles/alle-meldungen/pressemitteilungen/details/34032",
+          "quote": "Die Gründer Daniel Wiegand, Sebastian Born, Matthias Meiner und Patrick Nathen haben an der Fakultät Maschinenwesen der TUM studiert oder promoviert."
+        }
+      ]
+    }
+  ]
+}

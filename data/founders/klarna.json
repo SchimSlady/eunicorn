@@ -1,0 +1,34 @@
+{
+  "id": "klarna",
+  "founders": [
+    {
+      "name": "Sebastian Siemiatkowski",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "Stockholm School of Economics",
+          "orgCanonical": "Stockholm School of Economics",
+          "source": "https://en.wikipedia.org/wiki/Sebastian_Siemiatkowski",
+          "quote": "He holds a master's degree from the Stockholm School of Economics"
+        }
+      ]
+    },
+    {
+      "name": "Niklas Adalberth",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "Stockholm School of Economics",
+          "orgCanonical": "Stockholm School of Economics",
+          "source": "https://en.wikipedia.org/wiki/Niklas_Adalberth",
+          "quote": "He graduated from the Stockholm School of Economics"
+        }
+      ]
+    },
+    {
+      "name": "Victor Jacobsson",
+      "note": "No pre-Klarna background found in permitted sources.",
+      "stations": []
+    }
+  ]
+}

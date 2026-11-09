@@ -1,0 +1,69 @@
+{
+  "id": "mistral-ai",
+  "founders": [
+    {
+      "name": "Arthur Mensch",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "DeepMind",
+          "orgCanonical": "DeepMind",
+          "source": "https://www.polytechnique.edu/en/news/mistral-ai-french-ai-nugget-co-founded-two-x-alumni-raised-eu500-mlns-2023",
+          "quote": "spent nearly three years at DeepMind, Google's AI laboratory"
+        },
+        {
+          "kind": "education",
+          "org": "École Polytechnique",
+          "orgCanonical": "École Polytechnique",
+          "source": "https://www.polytechnique.edu/en/news/mistral-ai-french-ai-nugget-co-founded-two-x-alumni-raised-eu500-mlns-2023",
+          "quote": "Arthur Mensch and Guillaume Lample (both X2011)"
+        },
+        {
+          "kind": "education",
+          "org": "Télécom Paris",
+          "orgCanonical": "Télécom Paris",
+          "source": "https://en.wikipedia.org/wiki/Arthur_Mensch",
+          "quote": "He studied at the École Polytechnique (2011) and Télécom Paris"
+        }
+      ]
+    },
+    {
+      "name": "Guillaume Lample",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Meta",
+          "orgCanonical": "Meta",
+          "source": "https://www.polytechnique.edu/en/news/mistral-ai-french-ai-nugget-co-founded-two-x-alumni-raised-eu500-mlns-2023",
+          "quote": "is one of the creators of the LLaMA language model unveiled by Meta"
+        },
+        {
+          "kind": "education",
+          "org": "École Polytechnique",
+          "orgCanonical": "École Polytechnique",
+          "source": "https://www.polytechnique.edu/en/news/mistral-ai-french-ai-nugget-co-founded-two-x-alumni-raised-eu500-mlns-2023",
+          "quote": "Arthur Mensch and Guillaume Lample (both X2011)"
+        }
+      ]
+    },
+    {
+      "name": "Timothée Lacroix",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Meta",
+          "orgCanonical": "Meta",
+          "source": "https://www.polytechnique.edu/en/news/mistral-ai-french-ai-nugget-co-founded-two-x-alumni-raised-eu500-mlns-2023",
+          "quote": "Timothée Lacroix, technical director of Mistral AI, was a researcher at Meta"
+        },
+        {
+          "kind": "education",
+          "org": "École Normale Supérieure",
+          "orgCanonical": "ENS",
+          "source": "https://www.polytechnique.edu/en/news/mistral-ai-french-ai-nugget-co-founded-two-x-alumni-raised-eu500-mlns-2023",
+          "quote": "Timothée Lacroix (École Normale Supérieure)"
+        }
+      ]
+    }
+  ]
+}

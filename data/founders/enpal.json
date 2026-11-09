@@ -1,0 +1,51 @@
+{
+  "id": "enpal",
+  "founders": [
+    {
+      "name": "Mario Kohle",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "WHU - Otto Beisheim School of Management",
+          "orgCanonical": "WHU",
+          "source": "https://de.wikipedia.org/wiki/Mario_Kohle",
+          "quote": "studierte er Betriebswirtschaftslehre an der WHU – Otto Beisheim School of Management"
+        },
+        {
+          "kind": "founded",
+          "org": "Käuferportal",
+          "orgCanonical": "Aroundhome",
+          "years": "2008",
+          "source": "https://de.wikipedia.org/wiki/Mario_Kohle",
+          "quote": "gründete Kohle gemeinsam mit Robin Behlau im Jahr 2008 die Firma Käuferportal"
+        },
+        {
+          "kind": "exit",
+          "org": "Käuferportal",
+          "orgCanonical": "Aroundhome",
+          "years": "2016",
+          "source": "https://de.wikipedia.org/wiki/Mario_Kohle",
+          "quote": "Kohle verkaufte Käuferportal im Jahr 2016 an ProSiebenSat.1 und General Atlantic"
+        }
+      ]
+    },
+    {
+      "name": "Jochen Ziervogel",
+      "note": "no checkable background found in permitted sources",
+      "stations": []
+    },
+    {
+      "name": "Viktor Wingert",
+      "note": "prior consulting years (unnamed firms) omitted",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "WHU Business School",
+          "orgCanonical": "WHU",
+          "source": "https://corporate.enpal.com/team/viktor-wingert",
+          "quote": "Er absolvierte einen Master in Business Administration an der WHU Business School."
+        }
+      ]
+    }
+  ]
+}

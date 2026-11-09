@@ -1,0 +1,66 @@
+{
+  "id": "wolt",
+  "founders": [
+    {
+      "name": "Miki Kuusi",
+      "stations": [
+        {
+          "kind": "founded",
+          "org": "Slush",
+          "orgCanonical": "Slush",
+          "role": "co-founder and first CEO",
+          "years": "2011-2015",
+          "source": "https://fi.wikipedia.org/wiki/Miki_Kuusi",
+          "quote": "Kuusi tunnetaan yhtenä kasvuyritystapahtuma Slushin perustajista"
+        },
+        {
+          "kind": "employer",
+          "org": "Supercell",
+          "orgCanonical": "Supercell",
+          "role": "business analyst",
+          "source": "https://fi.wikipedia.org/wiki/Miki_Kuusi",
+          "quote": "Kuusi on työskennellyt muun muassa peliyhtiö Supercellillä liiketoiminta-analyytikkona"
+        },
+        {
+          "kind": "education",
+          "org": "Aalto University School of Business",
+          "orgCanonical": "Aalto University",
+          "source": "https://fi.wikipedia.org/wiki/Miki_Kuusi",
+          "quote": "opiskeli tämän jälkeen rahoitusta Aalto-yliopiston kauppakorkeakoulussa"
+        }
+      ]
+    },
+    {
+      "name": "Elias Aalto",
+      "stations": [
+        {
+          "kind": "founded",
+          "org": "Qvik",
+          "orgCanonical": "Qvik",
+          "source": "https://arctic15.com/?p=7450",
+          "quote": "also a co-founder of Qvik"
+        }
+      ]
+    },
+    {
+      "name": "Mika Matikainen",
+      "note": "no verified pre-Wolt background found",
+      "stations": []
+    },
+    {
+      "name": "Oskari Pétas",
+      "note": "no verified pre-Wolt background found",
+      "stations": []
+    },
+    {
+      "name": "Lauri Andler",
+      "note": "no verified pre-Wolt background found",
+      "stations": []
+    },
+    {
+      "name": "Juhani Mykkänen",
+      "note": "no verified pre-Wolt background found",
+      "stations": []
+    }
+  ]
+}

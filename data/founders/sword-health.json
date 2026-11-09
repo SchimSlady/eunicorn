@@ -1,0 +1,23 @@
+{
+  "id": "sword-health",
+  "founders": [
+    {
+      "name": "Virgílio Bento",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "Universidade de Aveiro",
+          "orgCanonical": "University of Aveiro",
+          "role": "Electrical engineering degree and PhD",
+          "source": "https://eco.sapo.pt/especiais/virgilio-bento-do-drama-familiar-ao-unicornio-portugues-que-quer-revolucionar-a-fisioterapia/",
+          "quote": "licenciou-se em Engenharia Eletrotécnica e concluiu o doutoramento na Universidade de Aveiro"
+        }
+      ]
+    },
+    {
+      "name": "Márcio Colunas",
+      "note": "no public background found (only unverified aggregator data)",
+      "stations": []
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "advanced-machine-intelligence-ami",
+  "founders": [
+    {
+      "name": "Yann LeCun",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "ESIEE Paris",
+          "orgCanonical": "ESIEE Paris",
+          "source": "https://en.wikipedia.org/wiki/Yann_LeCun",
+          "quote": "He received a Diplôme d'Ingénieur from the ESIEE Paris in 1983"
+        },
+        {
+          "kind": "education",
+          "org": "Université Pierre et Marie Curie",
+          "orgCanonical": "Sorbonne University",
+          "source": "https://en.wikipedia.org/wiki/Yann_LeCun",
+          "quote": "a PhD in computer science from Université Pierre et Marie Curie"
+        },
+        {
+          "kind": "employer",
+          "org": "University of Toronto",
+          "orgCanonical": "University of Toronto",
+          "source": "https://en.wikipedia.org/wiki/Yann_LeCun",
+          "quote": "was briefly a postdoctoral researcher under Geoffrey Hinton at the University of Toronto"
+        },
+        {
+          "kind": "employer",
+          "org": "Bell Labs",
+          "orgCanonical": "Bell Labs",
+          "source": "https://en.wikipedia.org/wiki/Yann_LeCun",
+          "quote": "LeCun led the development of the LeNet convolutional neural networks for optical character recognition at Bell Labs"
+        },
+        {
+          "kind": "employer",
+          "org": "New York University",
+          "orgCanonical": "NYU",
+          "source": "https://en.wikipedia.org/wiki/Yann_LeCun",
+          "quote": "In 2003, LeCun joined NYU"
+        },
+        {
+          "kind": "employer",
+          "org": "Facebook / Meta",
+          "orgCanonical": "Meta",
+          "role": "Chief AI Scientist",
+          "source": "https://en.wikipedia.org/wiki/Yann_LeCun",
+          "quote": "In 2013, LeCun joined Facebook Artificial Intelligence Research"
+        }
+      ]
+    }
+  ]
+}

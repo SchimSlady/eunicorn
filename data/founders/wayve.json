@@ -1,0 +1,31 @@
+{
+  "id": "wayve",
+  "founders": [
+    {
+      "name": "Amar Shah",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "University of Cambridge",
+          "orgCanonical": "University of Cambridge",
+          "role": "machine learning PhD",
+          "source": "https://en.wikipedia.org/wiki/Wayve",
+          "quote": "two machine learning PhD students at the University of Cambridge"
+        }
+      ]
+    },
+    {
+      "name": "Alex Kendall",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "University of Cambridge",
+          "orgCanonical": "University of Cambridge",
+          "role": "machine learning PhD",
+          "source": "https://en.wikipedia.org/wiki/Wayve",
+          "quote": "two machine learning PhD students at the University of Cambridge"
+        }
+      ]
+    }
+  ]
+}

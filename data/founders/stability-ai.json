@@ -1,0 +1,53 @@
+{
+  "id": "stability-ai",
+  "founders": [
+    {
+      "name": "Emad Mostaque",
+      "note": "Oxford degree is stated by Wikipedia but was disputed in 2023 press reporting; hedge-fund career not stated with a named employer in allowed sources",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "University of Oxford",
+          "orgCanonical": "University of Oxford",
+          "source": "https://en.wikipedia.org/wiki/Emad_Mostaque",
+          "quote": "He earned an MA in mathematics and computer science from the University of Oxford."
+        },
+        {
+          "kind": "founded",
+          "org": "Symmitree",
+          "orgCanonical": "Symmitree",
+          "years": "2019",
+          "source": "https://en.wikipedia.org/wiki/Emad_Mostaque",
+          "quote": "In 2019 Mostaque founded Symmitree, a startup that aimed to reduce the cost of technology for individuals living in poverty"
+        }
+      ]
+    },
+    {
+      "name": "Cyrus Hodes",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "Sciences Po Paris",
+          "orgCanonical": "Sciences Po",
+          "source": "https://oecd.ai/en/wonk/contributors/cyrus-hodes",
+          "quote": "Educated at Sciences Po Paris, MA (Hons) Paris II University, M.P.A. Harvard."
+        },
+        {
+          "kind": "education",
+          "org": "Harvard",
+          "orgCanonical": "Harvard University",
+          "role": "M.P.A.",
+          "source": "https://oecd.ai/en/wonk/contributors/cyrus-hodes",
+          "quote": "Educated at Sciences Po Paris, MA (Hons) Paris II University, M.P.A. Harvard."
+        },
+        {
+          "kind": "founded",
+          "org": "The Future Society",
+          "orgCanonical": "The Future Society",
+          "source": "https://oecd.ai/en/wonk/contributors/cyrus-hodes",
+          "quote": "Cyrus co-founded The Future Society"
+        }
+      ]
+    }
+  ]
+}

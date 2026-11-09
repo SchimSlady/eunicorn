@@ -1,0 +1,44 @@
+{
+  "id": "isar-aerospace",
+  "founders": [
+    {
+      "name": "Daniel Metzler",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "Technical University of Munich",
+          "orgCanonical": "TUM",
+          "role": "Aerospace",
+          "source": "https://www.tum.de/en/news-and-events/all-news/press-releases/details/tum-spin-off-launches-first-rocket",
+          "quote": "The founders Daniel Metzler, Josef Fleischmann and Markus Brandl studied aerospace at TUM."
+        }
+      ]
+    },
+    {
+      "name": "Markus Brandl",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "Technical University of Munich",
+          "orgCanonical": "TUM",
+          "role": "Aerospace",
+          "source": "https://www.tum.de/en/news-and-events/all-news/press-releases/details/tum-spin-off-launches-first-rocket",
+          "quote": "The founders Daniel Metzler, Josef Fleischmann and Markus Brandl studied aerospace at TUM."
+        }
+      ]
+    },
+    {
+      "name": "Josef Peter Fleischmann",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "Technical University of Munich",
+          "orgCanonical": "TUM",
+          "role": "Aerospace",
+          "source": "https://www.tum.de/en/news-and-events/all-news/press-releases/details/tum-spin-off-launches-first-rocket",
+          "quote": "The founders Daniel Metzler, Josef Fleischmann and Markus Brandl studied aerospace at TUM."
+        }
+      ]
+    }
+  ]
+}

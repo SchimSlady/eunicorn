@@ -1,0 +1,44 @@
+{
+  "id": "funding-circle",
+  "founders": [
+    {
+      "name": "Samir Desai",
+      "note": "prior employers only in aggregator sources, omitted",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "University of Oxford",
+          "orgCanonical": "University of Oxford",
+          "source": "https://en.wikipedia.org/wiki/Funding_Circle",
+          "quote": "Samir Desai, James Meekings and Andrew Mullinger, friends from University of Oxford"
+        }
+      ]
+    },
+    {
+      "name": "James Meekings",
+      "note": "prior employers only in aggregator sources, omitted",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "University of Oxford",
+          "orgCanonical": "University of Oxford",
+          "source": "https://en.wikipedia.org/wiki/Funding_Circle",
+          "quote": "Samir Desai, James Meekings and Andrew Mullinger, friends from University of Oxford"
+        }
+      ]
+    },
+    {
+      "name": "Andrew Mullinger",
+      "note": "prior employers only in aggregator sources, omitted",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "University of Oxford",
+          "orgCanonical": "University of Oxford",
+          "source": "https://en.wikipedia.org/wiki/Funding_Circle",
+          "quote": "Samir Desai, James Meekings and Andrew Mullinger, friends from University of Oxford"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "blockchain-com",
+  "founders": [
+    {
+      "name": "Peter Smith",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "University of London",
+          "orgCanonical": "University of London",
+          "source": "https://research.contrary.com/report/blockchain.com",
+          "quote": "Smith completed his graduate degree abroad at the University of London"
+        },
+        {
+          "kind": "employer",
+          "org": "Credit Suisse",
+          "orgCanonical": "Credit Suisse",
+          "source": "https://research.contrary.com/report/blockchain.com",
+          "quote": "worked at companies like Oxbridge Holdings and Credit Suisse"
+        }
+      ]
+    },
+    {
+      "name": "Benjamin Reeves",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "Newcastle University",
+          "orgCanonical": "Newcastle University",
+          "source": "https://research.contrary.com/report/blockchain.com",
+          "quote": "Master’s degree in Computer Science from Newcastle University in 2010"
+        }
+      ]
+    },
+    {
+      "name": "Nicolas Cary",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "University of Puget Sound",
+          "orgCanonical": "University of Puget Sound",
+          "source": "https://research.contrary.com/report/blockchain.com",
+          "quote": "Bachelor’s degree in Business from the University of Puget Sound in 2007"
+        },
+        {
+          "kind": "employer",
+          "org": "PipelineDeals",
+          "orgCanonical": "PipelineDeals",
+          "years": "2007-2013",
+          "source": "https://research.contrary.com/report/blockchain.com",
+          "quote": "worked as a Partner and Manager of Customer Operations at CRM company PipelineDeals from 2007 to 2013"
+        }
+      ]
+    }
+  ]
+}

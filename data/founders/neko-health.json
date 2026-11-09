@@ -1,0 +1,78 @@
+{
+  "id": "neko-health",
+  "founders": [
+    {
+      "name": "Daniel Ek",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Tradera",
+          "orgCanonical": "Tradera",
+          "source": "https://en.wikipedia.org/wiki/Daniel_Ek",
+          "quote": "Ek had a senior role at Nordic auction company Tradera, which was acquired by eBay in 2006"
+        },
+        {
+          "kind": "employer",
+          "org": "Stardoll",
+          "orgCanonical": "Stardoll",
+          "role": "CTO",
+          "source": "https://en.wikipedia.org/wiki/Daniel_Ek",
+          "quote": "He was also the CTO of the browser-based game and fashion community Stardoll"
+        },
+        {
+          "kind": "founded",
+          "org": "Advertigo",
+          "orgCanonical": "Advertigo",
+          "source": "https://en.wikipedia.org/wiki/Daniel_Ek",
+          "quote": "later started Advertigo, an online advertising company"
+        },
+        {
+          "kind": "exit",
+          "org": "Advertigo",
+          "orgCanonical": "Advertigo",
+          "role": "sold to TradeDoubler",
+          "years": "2006",
+          "source": "https://en.wikipedia.org/wiki/Daniel_Ek",
+          "quote": "Advertigo was sold to TradeDoubler in 2006"
+        },
+        {
+          "kind": "employer",
+          "org": "μTorrent",
+          "orgCanonical": "μTorrent",
+          "role": "CEO",
+          "source": "https://en.wikipedia.org/wiki/Daniel_Ek",
+          "quote": "briefly became the CEO of μTorrent"
+        },
+        {
+          "kind": "education",
+          "org": "KTH Royal Institute of Technology",
+          "orgCanonical": "KTH",
+          "role": "Engineering, dropped out after 8 weeks",
+          "source": "https://en.wikipedia.org/wiki/Daniel_Ek",
+          "quote": "studied engineering at the KTH Royal Institute of Technology for 8 weeks before dropping out"
+        }
+      ]
+    },
+    {
+      "name": "Hjalmar Nilsonne",
+      "stations": [
+        {
+          "kind": "founded",
+          "org": "Watty",
+          "orgCanonical": "Watty",
+          "role": "co-founder and CEO",
+          "source": "https://brilliantminds.co/speaker/2026-hjalmar-nilsonne",
+          "quote": "co-founded and served as CEO of Watty, an energy data company"
+        },
+        {
+          "kind": "exit",
+          "org": "Watty",
+          "orgCanonical": "Watty",
+          "role": "acquired by Assa Abloy",
+          "source": "https://brilliantminds.co/speaker/2026-hjalmar-nilsonne",
+          "quote": "later acquired by Assa Abloy"
+        }
+      ]
+    }
+  ]
+}

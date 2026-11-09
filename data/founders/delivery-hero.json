@@ -1,0 +1,111 @@
+{
+  "id": "delivery-hero",
+  "founders": [
+    {
+      "name": "Niklas Östberg",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "Royal Institute of Technology Stockholm & ETH Zurich",
+          "orgCanonical": "KTH",
+          "years": "2000-2005",
+          "source": "https://corporate.zalando.com/sites/default/files/media-download/Zalando-SE_AGM-2021_Cirruculum_Vitae_Niklas_Oestberg.pdf",
+          "quote": "Royal Institute of Technology Stockholm & ETH Zurich"
+        },
+        {
+          "kind": "employer",
+          "org": "Oliver Wyman",
+          "orgCanonical": "Oliver Wyman",
+          "role": "Project Manager",
+          "years": "2005-2010",
+          "source": "https://corporate.zalando.com/sites/default/files/media-download/Zalando-SE_AGM-2021_Cirruculum_Vitae_Niklas_Oestberg.pdf",
+          "quote": "Oliver Wyman, Zurich – Project Manager"
+        },
+        {
+          "kind": "founded",
+          "org": "OnlinePizza.se/pizza.nu",
+          "orgCanonical": "OnlinePizza",
+          "years": "2007-2011",
+          "source": "https://corporate.zalando.com/sites/default/files/media-download/Zalando-SE_AGM-2021_Cirruculum_Vitae_Niklas_Oestberg.pdf",
+          "quote": "OnlinePizza.se/pizza.nu – Co-Founder and Chairman"
+        }
+      ]
+    },
+    {
+      "name": "Kolja Hebenstreit",
+      "note": "no verifiable pre-Delivery Hero background found on allowed sources",
+      "stations": []
+    },
+    {
+      "name": "Markus Fuhrmann",
+      "note": "Education from thyssenkrupp nucera supervisory-board bio; no pre-Lieferheld employer found.",
+      "stations": []
+    },
+    {
+      "name": "Lukasz Gadowski",
+      "note": "Removed brands4friends exit: de.wikipedia says only 'Gründungen und Beteiligungen' and press (deutsche-startups.de) names Constantin Bisanz, Christian Heitmeyer, Nicolas Speeck, Mario Zimmermann as founders and Gadowski as investor.",
+      "stations": [
+        {
+          "kind": "founded",
+          "org": "Spreadshirt",
+          "orgCanonical": "Spreadshirt",
+          "years": "2001",
+          "source": "https://de.wikipedia.org/wiki/Lukasz_Gadowski",
+          "quote": "gründete Gadowski 2001 die Firma Spreadshirt"
+        },
+        {
+          "kind": "founded",
+          "org": "studiVZ",
+          "orgCanonical": "studiVZ",
+          "years": "2005",
+          "source": "https://de.wikipedia.org/wiki/Lukasz_Gadowski",
+          "quote": "2005 beteiligte sich Gadowski als Mitgründer am sozialen Netzwerk studiVZ"
+        },
+        {
+          "kind": "exit",
+          "org": "studiVZ",
+          "orgCanonical": "studiVZ",
+          "years": "2007",
+          "source": "https://de.wikipedia.org/wiki/Lukasz_Gadowski",
+          "quote": "das Anfang 2007 für geschätzte 85 Millionen Euro an Holtzbrinck verkauft wurde"
+        },
+        {
+          "kind": "founded",
+          "org": "Team Europe Ventures",
+          "orgCanonical": "Team Europe",
+          "years": "2008",
+          "source": "https://de.wikipedia.org/wiki/Lukasz_Gadowski",
+          "quote": "gründete er 2008 gemeinsam mit mehreren Partnern Team Europe Ventures"
+        },
+        {
+          "kind": "education",
+          "org": "Universität Paderborn",
+          "orgCanonical": "University of Paderborn",
+          "source": "https://de.wikipedia.org/wiki/Lukasz_Gadowski",
+          "quote": "studierte Wirtschaftsinformatik und Wirtschaft an der Universität Paderborn, der Universität Mannheim, der Georgia Tech in Atlanta und der Handelshochschule Leipzig"
+        },
+        {
+          "kind": "education",
+          "org": "Universität Mannheim",
+          "orgCanonical": "University of Mannheim",
+          "source": "https://de.wikipedia.org/wiki/Lukasz_Gadowski",
+          "quote": "studierte Wirtschaftsinformatik und Wirtschaft an der Universität Paderborn, der Universität Mannheim, der Georgia Tech in Atlanta und der Handelshochschule Leipzig"
+        },
+        {
+          "kind": "education",
+          "org": "Georgia Tech",
+          "orgCanonical": "Georgia Tech",
+          "source": "https://de.wikipedia.org/wiki/Lukasz_Gadowski",
+          "quote": "studierte Wirtschaftsinformatik und Wirtschaft an der Universität Paderborn, der Universität Mannheim, der Georgia Tech in Atlanta und der Handelshochschule Leipzig"
+        },
+        {
+          "kind": "education",
+          "org": "Handelshochschule Leipzig",
+          "orgCanonical": "HHL Leipzig",
+          "source": "https://de.wikipedia.org/wiki/Lukasz_Gadowski",
+          "quote": "studierte Wirtschaftsinformatik und Wirtschaft an der Universität Paderborn, der Universität Mannheim, der Georgia Tech in Atlanta und der Handelshochschule Leipzig"
+        }
+      ]
+    }
+  ]
+}

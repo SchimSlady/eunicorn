@@ -1,0 +1,57 @@
+{
+  "id": "flix",
+  "founders": [
+    {
+      "name": "André Schwämmlein",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "Universität Erlangen-Nürnberg",
+          "orgCanonical": "University of Erlangen-Nuremberg",
+          "source": "https://www.Scout24.com/media/scout24/Investor_Relations/Finanz-Termine/Hauptversammlung/Hauptversammlung_2019/Tagesordnungspunkt_6/CV__Andr__Schwaemmlein_DE.pdf",
+          "quote": "Herr Schwämmlein studierte Wirtschaftsingenieurwesen an der Universität Erlangen - Nürnberg"
+        },
+        {
+          "kind": "employer",
+          "org": "Boston Consulting Group",
+          "orgCanonical": "BCG",
+          "role": "Strategieberater",
+          "years": "2007-2010",
+          "source": "https://www.Scout24.com/media/scout24/Investor_Relations/Finanz-Termine/Hauptversammlung/Hauptversammlung_2019/Tagesordnungspunkt_6/CV__Andr__Schwaemmlein_DE.pdf",
+          "quote": "Von 2007 bis 2010 war er als Strategieberater bei der Boston Consulting Group tätig."
+        }
+      ]
+    },
+    {
+      "name": "Jochen Engert",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "Universität Stuttgart",
+          "orgCanonical": "University of Stuttgart",
+          "source": "https://de.wikipedia.org/wiki/Jochen_Engert",
+          "quote": "studierte er Technische Betriebswirtschaftslehre an der Universität Stuttgart"
+        },
+        {
+          "kind": "employer",
+          "org": "Boston Consulting Group",
+          "orgCanonical": "BCG",
+          "source": "https://de.wikipedia.org/wiki/Jochen_Engert",
+          "quote": "arbeitete Engert bei der Unternehmensberatungsgesellschaft Boston Consulting Group"
+        },
+        {
+          "kind": "education",
+          "org": "WHU - Otto Beisheim School of Management",
+          "orgCanonical": "WHU",
+          "source": "https://de.wikipedia.org/wiki/Jochen_Engert",
+          "quote": "um an der WHU Otto Beisheim School of Management eine Promotion im Thema „Industrial Service Pricing“ zu verfassen"
+        }
+      ]
+    },
+    {
+      "name": "Daniel Krauss",
+      "note": "No named employer or university found in permitted sources (only that he studied business informatics and co-founded an unnamed IT startup with Schwämmlein).",
+      "stations": []
+    }
+  ]
+}

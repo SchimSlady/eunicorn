@@ -1,0 +1,122 @@
+{
+  "id": "deepmind",
+  "founders": [
+    {
+      "name": "Demis Hassabis",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Bullfrog Productions",
+          "orgCanonical": "Bullfrog",
+          "source": "https://en.wikipedia.org/wiki/Demis_Hassabis",
+          "quote": "began his computer games career at Bullfrog Productions"
+        },
+        {
+          "kind": "education",
+          "org": "Queens' College, Cambridge",
+          "orgCanonical": "University of Cambridge",
+          "source": "https://en.wikipedia.org/wiki/Demis_Hassabis",
+          "quote": "Hassabis left Bullfrog to study at Queens' College, Cambridge"
+        },
+        {
+          "kind": "employer",
+          "org": "Lionhead Studios",
+          "orgCanonical": "Lionhead",
+          "role": "lead AI programmer",
+          "source": "https://en.wikipedia.org/wiki/Demis_Hassabis",
+          "quote": "Hassabis worked at Lionhead Studios"
+        },
+        {
+          "kind": "founded",
+          "org": "Elixir Studios",
+          "orgCanonical": "Elixir Studios",
+          "years": "1998",
+          "source": "https://en.wikipedia.org/wiki/Demis_Hassabis",
+          "quote": "Hassabis left Lionhead in 1998 to found Elixir Studios"
+        },
+        {
+          "kind": "education",
+          "org": "UCL",
+          "orgCanonical": "UCL",
+          "source": "https://en.wikipedia.org/wiki/Demis_Hassabis",
+          "quote": "PhD in cognitive neuroscience from UCL Queen Square Institute of Neurology in 2009"
+        }
+      ]
+    },
+    {
+      "name": "Shane Legg",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "Waikato University",
+          "orgCanonical": "University of Waikato",
+          "source": "https://en.wikipedia.org/wiki/Shane_Legg",
+          "quote": "He completed his undergraduate studies at Waikato University in 1996"
+        },
+        {
+          "kind": "education",
+          "org": "University of Auckland",
+          "orgCanonical": "University of Auckland",
+          "source": "https://en.wikipedia.org/wiki/Shane_Legg",
+          "quote": "MSc degree with a thesis entitled \"Solomonoff Induction\", with Cristian S. Calude at the University of Auckland"
+        },
+        {
+          "kind": "employer",
+          "org": "Adaptive Intelligence",
+          "orgCanonical": "Adaptive Intelligence",
+          "source": "https://en.wikipedia.org/wiki/Shane_Legg",
+          "quote": "big data firm Adaptive Intelligence"
+        },
+        {
+          "kind": "employer",
+          "org": "WebMind",
+          "orgCanonical": "WebMind",
+          "source": "https://en.wikipedia.org/wiki/Shane_Legg",
+          "quote": "the startup WebMind founded by Ben Goertzel"
+        },
+        {
+          "kind": "education",
+          "org": "IDSIA",
+          "orgCanonical": "IDSIA",
+          "source": "https://en.wikipedia.org/wiki/Shane_Legg",
+          "quote": "Legg later obtained a PhD at the Dalle Molle Institute for Artificial Intelligence Research (IDSIA)"
+        }
+      ]
+    },
+    {
+      "name": "Mustafa Suleyman",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "University of Oxford",
+          "orgCanonical": "University of Oxford",
+          "source": "https://en.wikipedia.org/wiki/Mustafa_Suleyman",
+          "quote": "enrolled to study philosophy and theology at the University of Oxford"
+        },
+        {
+          "kind": "founded",
+          "org": "Muslim Youth Helpline",
+          "orgCanonical": "Muslim Youth Helpline",
+          "years": "2001",
+          "source": "https://en.wikipedia.org/wiki/Mustafa_Suleyman",
+          "quote": "helped Mohammed Mamdani establish a telephone counselling service called the Muslim Youth Helpline"
+        },
+        {
+          "kind": "employer",
+          "org": "Mayor of London",
+          "orgCanonical": "Mayor of London",
+          "role": "policy officer",
+          "source": "https://en.wikipedia.org/wiki/Mustafa_Suleyman",
+          "quote": "worked as a policy officer on human rights for Ken Livingstone, the Mayor of London"
+        },
+        {
+          "kind": "founded",
+          "org": "Reos Partners",
+          "orgCanonical": "Reos Partners",
+          "source": "https://en.wikipedia.org/wiki/Mustafa_Suleyman",
+          "quote": "before going on to start Reos Partners"
+        }
+      ]
+    }
+  ]
+}

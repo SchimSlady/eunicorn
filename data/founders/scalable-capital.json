@@ -1,0 +1,109 @@
+{
+  "id": "scalable-capital",
+  "founders": [
+    {
+      "name": "Erik Podzuweit",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Goldman Sachs",
+          "orgCanonical": "Goldman Sachs",
+          "role": "Executive Director",
+          "source": "https://de.scalable.capital/en/about-us",
+          "quote": "Previously, Erik worked for seven years as an Executive Director at Goldman Sachs in London and Frankfurt."
+        },
+        {
+          "kind": "employer",
+          "org": "Westwing Home & Living",
+          "orgCanonical": "Westwing",
+          "role": "Co-CEO Germany",
+          "source": "https://de.scalable.capital/en/about-us",
+          "quote": "He was most recently responsible for the German business of Westwing Home & Living as Co-CEO."
+        },
+        {
+          "kind": "education",
+          "org": "Kiel and Warwick",
+          "orgCanonical": "Kiel University",
+          "source": "https://de.scalable.capital/en/about-us",
+          "quote": "Erik studied business administration and economics in Kiel and Warwick"
+        },
+        {
+          "kind": "education",
+          "org": "Kiel and Warwick",
+          "orgCanonical": "University of Warwick",
+          "source": "https://de.scalable.capital/en/about-us",
+          "quote": "Erik studied business administration and economics in Kiel and Warwick"
+        }
+      ]
+    },
+    {
+      "name": "Florian Prucker",
+      "note": "Added from Trending Topics profile (June 2021).",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "TU München",
+          "orgCanonical": "TUM",
+          "source": "https://www.trendingtopics.eu/gruender-der-woche-vom-jungen-neobroker-zum-unicorn-status/",
+          "quote": "Der Gründer hat Betriebswirtschaft und Elektronik an der TU München studiert."
+        },
+        {
+          "kind": "employer",
+          "org": "Goldman Sachs",
+          "orgCanonical": "Goldman Sachs",
+          "role": "Executive Director, securities trading",
+          "source": "https://www.trendingtopics.eu/gruender-der-woche-vom-jungen-neobroker-zum-unicorn-status/",
+          "quote": "Als Executive Director im Wertpapierhandel von Goldman Sachs begleitete er den Aufbau einer paneuropäischen digitalen Handelsplattform für Privatanleger."
+        }
+      ]
+    },
+    {
+      "name": "Adam French",
+      "note": "Only a one-line Goldman Sachs colleague mention found (Trending Topics); no education or role stated in allowed sources.",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Goldman Sachs",
+          "orgCanonical": "Goldman Sachs",
+          "source": "https://www.trendingtopics.eu/gruender-der-woche-vom-jungen-neobroker-zum-unicorn-status/",
+          "quote": "seinem Goldman Sachs-Kollegen Adam French"
+        }
+      ]
+    },
+    {
+      "name": "Stefan Mittnik",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "Technische Universität Berlin",
+          "orgCanonical": "TU Berlin",
+          "source": "https://en.wikipedia.org/wiki/Stefan_Mittnik",
+          "quote": "Mittnik earned a degree in industrial engineering from Technische Universität Berlin in 1981"
+        },
+        {
+          "kind": "education",
+          "org": "Washington University in St. Louis",
+          "orgCanonical": "Washington University in St. Louis",
+          "source": "https://en.wikipedia.org/wiki/Stefan_Mittnik",
+          "quote": "He received a PhD in economics and applied mathematics from Washington University in St. Louis in 1987."
+        },
+        {
+          "kind": "employer",
+          "org": "LMU Munich",
+          "orgCanonical": "LMU Munich",
+          "role": "Professor of financial econometrics",
+          "source": "https://en.wikipedia.org/wiki/Stefan_Mittnik",
+          "quote": "In 2003, Mittnik moved to LMU Munich as professor of financial econometrics"
+        },
+        {
+          "kind": "employer",
+          "org": "Kiel University",
+          "orgCanonical": "Kiel University",
+          "role": "Chair in statistics and empirical economics",
+          "source": "https://en.wikipedia.org/wiki/Stefan_Mittnik",
+          "quote": "In 1994, he moved to Kiel University, where he held the chair in statistics and empirical economics"
+        }
+      ]
+    }
+  ]
+}

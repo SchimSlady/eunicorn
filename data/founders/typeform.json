@@ -1,0 +1,30 @@
+{
+  "id": "typeform",
+  "founders": [
+    {
+      "name": "Robert Muñoz",
+      "stations": [
+        {
+          "kind": "founded",
+          "org": "Pulpolab",
+          "orgCanonical": "PulpoLab",
+          "years": "2008-",
+          "source": "https://startupguide.com/typeform-the-barcelona-based-startup-turning-customer-interactions-into-meaningful-conversations",
+          "quote": "Robert ran his own digital agency called Pulpolab in Barcelona, which he launched in 2008"
+        }
+      ]
+    },
+    {
+      "name": "David Okuniev",
+      "stations": [
+        {
+          "kind": "founded",
+          "org": "Fat-Man-Collective",
+          "orgCanonical": "Fat Man Collective",
+          "source": "https://eu.entrepreneur.com/author/david-okuniev",
+          "quote": "Okuniev founding the design studio Fat-Man-Collective"
+        }
+      ]
+    }
+  ]
+}

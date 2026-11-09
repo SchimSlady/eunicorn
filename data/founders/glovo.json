@@ -1,0 +1,45 @@
+{
+  "id": "glovo",
+  "founders": [
+    {
+      "name": "Oscar Pierre",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "Georgia Tech",
+          "orgCanonical": "Georgia Tech",
+          "source": "https://techcrunch.com/2019/08/28/glovo-founder-oscar-pierre-comes-to-disrupt-berlin",
+          "quote": "he moved to Georgia Tech, in United States"
+        },
+        {
+          "kind": "employer",
+          "org": "Airbus",
+          "orgCanonical": "Airbus",
+          "role": "aerodynamics engineer",
+          "source": "https://techcrunch.com/2019/08/28/glovo-founder-oscar-pierre-comes-to-disrupt-berlin",
+          "quote": "began his professional career as aerodynamics engineer at Airbus"
+        },
+        {
+          "kind": "founded",
+          "org": "Zikkomo",
+          "orgCanonical": "Zikkomo",
+          "source": "https://techcrunch.com/2019/08/28/glovo-founder-oscar-pierre-comes-to-disrupt-berlin",
+          "quote": "Pierre had already founded Zikkomo.com"
+        },
+        {
+          "kind": "founded",
+          "org": "LoveItLocal.es",
+          "orgCanonical": "LoveItLocal",
+          "years": "2014",
+          "source": "https://techcrunch.com/2019/08/28/glovo-founder-oscar-pierre-comes-to-disrupt-berlin",
+          "quote": "LoveItLocal.es in 2014"
+        }
+      ]
+    },
+    {
+      "name": "Sacha Michaud",
+      "note": "no checkable background found in permitted sources",
+      "stations": []
+    }
+  ]
+}

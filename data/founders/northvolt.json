@@ -1,0 +1,61 @@
+{
+  "id": "northvolt",
+  "founders": [
+    {
+      "name": "Peter Carlsson",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Tesla Motors",
+          "orgCanonical": "Tesla",
+          "role": "CPO and Head of Supply Chain",
+          "source": "https://brilliantminds.co/speaker/2022-peter-carlsson",
+          "quote": "He left the position as CPO and Head of Supply Chain at Tesla Motors in the end of 2015"
+        },
+        {
+          "kind": "employer",
+          "org": "NXP",
+          "orgCanonical": "NXP",
+          "role": "CPO",
+          "source": "https://brilliantminds.co/speaker/2022-peter-carlsson",
+          "quote": "Before joining Tesla, Peter was the CPO for NXP (former Philips Semiconductors)"
+        },
+        {
+          "kind": "employer",
+          "org": "Sony Ericsson",
+          "orgCanonical": "Ericsson",
+          "role": "CPO",
+          "source": "https://brilliantminds.co/speaker/2022-peter-carlsson",
+          "quote": "Before starting at NXP, Peter was CPO at Sony Ericsson since 2005"
+        },
+        {
+          "kind": "employer",
+          "org": "Ericsson",
+          "orgCanonical": "Ericsson",
+          "source": "https://brilliantminds.co/speaker/2022-peter-carlsson",
+          "quote": "Peter had a total of 13 years’ experience from different roles with Ericsson and Sony Ericsson"
+        },
+        {
+          "kind": "education",
+          "org": "Luleå Technical University",
+          "orgCanonical": "Luleå University of Technology",
+          "source": "https://brilliantminds.co/speaker/2022-peter-carlsson",
+          "quote": "He has a Master’s degree with specialization in production and quality control at Luleå Technical University in Sweden."
+        }
+      ]
+    },
+    {
+      "name": "Paolo Cerruti",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Tesla Motors",
+          "orgCanonical": "Tesla",
+          "role": "supply chain operation planning",
+          "source": "https://electrek.co/?p=38955",
+          "quote": "another former Tesla supply chain executive, Paolo Cerruti"
+        }
+      ]
+    }
+  ]
+}

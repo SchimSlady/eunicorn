@@ -1,0 +1,18 @@
+{
+  "id": "pipedrive",
+  "founders": [
+    {
+      "name": "Timo Rein",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Southwestern Company",
+          "orgCanonical": "Southwestern Company",
+          "role": "Door-to-door salesman",
+          "source": "https://www.entrepreneur.com/author/timo-rein",
+          "quote": "he was among the top one percent door-to-door salesmen with Southwestern Company"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "exscientia",
+  "founders": [
+    {
+      "name": "Andrew Hopkins",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Pfizer",
+          "orgCanonical": "Pfizer",
+          "source": "https://royalsociety.org/people/andrew-hopkins-36248/",
+          "quote": "he spent a decade at Pfizer leading various informatics groups"
+        },
+        {
+          "kind": "employer",
+          "org": "University of Dundee",
+          "orgCanonical": "University of Dundee",
+          "role": "Professor",
+          "years": "2007-",
+          "source": "https://en.wikipedia.org/wiki/Andrew_Hopkins",
+          "quote": "became a professor at the University of Dundee in 2007"
+        },
+        {
+          "kind": "education",
+          "org": "University of Oxford",
+          "orgCanonical": "University of Oxford",
+          "source": "https://en.wikipedia.org/wiki/Andrew_Hopkins",
+          "quote": "a DPhil in biophysics from the University of Oxford"
+        },
+        {
+          "kind": "education",
+          "org": "University of Manchester",
+          "orgCanonical": "University of Manchester",
+          "source": "https://en.wikipedia.org/wiki/Andrew_Hopkins",
+          "quote": "first-class degree in chemistry from the University of Manchester"
+        }
+      ]
+    }
+  ]
+}

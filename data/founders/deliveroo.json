@@ -1,0 +1,45 @@
+{
+  "id": "deliveroo",
+  "founders": [
+    {
+      "name": "Will Shu",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "Northwestern University",
+          "orgCanonical": "Northwestern University",
+          "source": "https://en.wikipedia.org/wiki/Will_Shu",
+          "quote": "Shu earned a bachelor's degree from Northwestern University"
+        },
+        {
+          "kind": "employer",
+          "org": "Morgan Stanley",
+          "orgCanonical": "Morgan Stanley",
+          "role": "Investment banking analyst",
+          "source": "https://en.wikipedia.org/wiki/Will_Shu",
+          "quote": "His first job was with Morgan Stanley in London as an investment banking analyst"
+        },
+        {
+          "kind": "employer",
+          "org": "S.A.C. Capital Advisors",
+          "orgCanonical": "S.A.C. Capital Advisors",
+          "source": "https://en.wikipedia.org/wiki/Will_Shu",
+          "quote": "worked as an analyst for S.A.C. Capital Advisors and ESO Capital"
+        },
+        {
+          "kind": "education",
+          "org": "Wharton School, University of Pennsylvania",
+          "orgCanonical": "Wharton",
+          "role": "MBA",
+          "source": "https://en.wikipedia.org/wiki/Will_Shu",
+          "quote": "Master of Business Administration from the Wharton School of the University of Pennsylvania"
+        }
+      ]
+    },
+    {
+      "name": "Greg Orlowski",
+      "note": "no public pre-Deliveroo employer found in a fetchable source",
+      "stations": []
+    }
+  ]
+}

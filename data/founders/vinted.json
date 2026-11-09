@@ -1,0 +1,23 @@
+{
+  "id": "vinted",
+  "founders": [
+    {
+      "name": "Milda Mitkute",
+      "note": "Education from NBR interview (interviewer statement, confirmed by Mitkute in her answer). No employer found.",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "Vilnius University (Kaunas Faculty)",
+          "orgCanonical": "Vilnius University",
+          "source": "https://www.nbforum.com/?p=15841",
+          "quote": "After the graduation from secondary school, you enrolled Vilnius University’s Kaunas Faculty, where you studied Culture Management."
+        }
+      ]
+    },
+    {
+      "name": "Justas Janauskas",
+      "note": "no public background found in allowed sources; retried Wikipedia, press search (only an aggregator lists a Vilnius University degree, not used)",
+      "stations": []
+    }
+  ]
+}

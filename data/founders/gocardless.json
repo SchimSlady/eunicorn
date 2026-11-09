@@ -1,0 +1,103 @@
+{
+  "id": "gocardless",
+  "founders": [
+    {
+      "name": "Tom Blomfield",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "University of Oxford",
+          "orgCanonical": "University of Oxford",
+          "source": "https://en.wikipedia.org/wiki/Tom_Blomfield",
+          "quote": "He earned a degree in law (jurisprudence) from the University of Oxford"
+        },
+        {
+          "kind": "founded",
+          "org": "Boso.com",
+          "orgCanonical": "Boso.com",
+          "years": "2004-2006",
+          "source": "https://en.wikipedia.org/wiki/Tom_Blomfield",
+          "quote": "Blomfield ran the company from 2004 until 2006"
+        },
+        {
+          "kind": "exit",
+          "org": "Boso.com",
+          "orgCanonical": "Boso.com",
+          "years": "2006",
+          "source": "https://en.wikipedia.org/wiki/Tom_Blomfield",
+          "quote": "The business was sold to a Canadian company"
+        },
+        {
+          "kind": "employer",
+          "org": "OC&C Strategy Consultants",
+          "orgCanonical": "OC&C",
+          "role": "associate consultant",
+          "source": "https://en.wikipedia.org/wiki/Tom_Blomfield",
+          "quote": "worked as an associate consultant at OC&C Strategy Consultants"
+        },
+        {
+          "kind": "employer",
+          "org": "Grouper",
+          "orgCanonical": "Grouper",
+          "role": "Head of Growth",
+          "source": "https://en.wikipedia.org/wiki/Tom_Blomfield",
+          "quote": "work for dating site Grouper social club as their Head of Growth"
+        },
+        {
+          "kind": "employer",
+          "org": "Starling Bank",
+          "orgCanonical": "Starling Bank",
+          "source": "https://en.wikipedia.org/wiki/Tom_Blomfield",
+          "quote": "joined Boden at her company Starling Bank"
+        },
+        {
+          "kind": "founded",
+          "org": "Monzo",
+          "orgCanonical": "Monzo",
+          "years": "2015",
+          "source": "https://en.wikipedia.org/wiki/Tom_Blomfield",
+          "quote": "In 2015, he founded challenger bank Monzo"
+        }
+      ]
+    },
+    {
+      "name": "Hiroki Takeuchi",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "University of Oxford",
+          "orgCanonical": "University of Oxford",
+          "source": "https://en.wikipedia.org/wiki/GoCardless",
+          "quote": "who were students at Oxford University at the time"
+        },
+        {
+          "kind": "employer",
+          "org": "McKinsey & Company",
+          "orgCanonical": "McKinsey",
+          "source": "https://notion.vc/resources/hiroki-takeuchi-founder-story",
+          "quote": "went to work at McKinsey for a few years"
+        }
+      ]
+    },
+    {
+      "name": "Matt Robinson",
+      "note": "McKinsey inferred from Takeuchi interview (\"There\" = McKinsey)",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "University of Oxford",
+          "orgCanonical": "University of Oxford",
+          "source": "https://en.wikipedia.org/wiki/GoCardless",
+          "quote": "who were students at Oxford University at the time"
+        },
+        {
+          "kind": "employer",
+          "org": "McKinsey & Company",
+          "orgCanonical": "McKinsey",
+          "source": "https://notion.vc/resources/hiroki-takeuchi-founder-story",
+          "quote": "There I met with Matt Robinson"
+        }
+      ]
+    }
+  ]
+}

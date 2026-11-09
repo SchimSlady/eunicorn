@@ -1,0 +1,42 @@
+{
+  "id": "about-you",
+  "founders": [
+    {
+      "name": "Tarek Müller",
+      "stations": [
+        {
+          "kind": "founded",
+          "org": "NetImpact Framework GmbH",
+          "orgCanonical": "NetImpact",
+          "source": "https://de.wikipedia.org/wiki/Tarek_M%C3%BCller",
+          "quote": "Zu den im Rahmen dieser Aktivitäten von Müller gegründeten Firmen gehörten die NetImpact Framework GmbH, die eTribes Framework GmbH"
+        },
+        {
+          "kind": "exit",
+          "org": "NetImpact Framework GmbH",
+          "orgCanonical": "NetImpact",
+          "source": "https://de.wikipedia.org/wiki/Tarek_M%C3%BCller",
+          "quote": "Die NetImpact Framework GmbH wurde 2013 von der Otto Group übernommen"
+        }
+      ]
+    },
+    {
+      "name": "Sebastian Betz",
+      "note": "no named earlier employer found in a fetchable source (only 'independent entrepreneur whose former company was acquired by Otto Group')",
+      "stations": []
+    },
+    {
+      "name": "Hannes Wiese",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "Otto Group",
+          "orgCanonical": "Otto Group",
+          "role": "Head of strategy department",
+          "source": "https://en.wikipedia.org/wiki/About_You_(company)",
+          "quote": "Hannes Wiese was the former head of the Otto Group"
+        }
+      ]
+    }
+  ]
+}

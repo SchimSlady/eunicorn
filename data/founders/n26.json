@@ -1,0 +1,67 @@
+{
+  "id": "n26",
+  "founders": [
+    {
+      "name": "Valentin Stalf",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "University of St. Gallen",
+          "orgCanonical": "University of St. Gallen",
+          "role": "Accounting and finance",
+          "source": "https://en.wikipedia.org/wiki/Valentin_Stalf",
+          "quote": "Stalf studied accounting and finance at the University of St. Gallen (HSG) in Switzerland"
+        },
+        {
+          "kind": "employer",
+          "org": "Deutsche Bank",
+          "orgCanonical": "Deutsche Bank",
+          "role": "Investment banking (M&A), while a student",
+          "source": "https://en.wikipedia.org/wiki/Valentin_Stalf",
+          "quote": "Stalf worked at the investment banking division of Deutsche Bank"
+        },
+        {
+          "kind": "employer",
+          "org": "Roland Berger",
+          "orgCanonical": "Roland Berger",
+          "source": "https://en.wikipedia.org/wiki/Valentin_Stalf",
+          "quote": "in strategy consulting at Roland Berger"
+        },
+        {
+          "kind": "employer",
+          "org": "Rocket Internet",
+          "orgCanonical": "Rocket Internet",
+          "role": "Entrepreneur-in-residence",
+          "source": "https://en.wikipedia.org/wiki/Valentin_Stalf",
+          "quote": "he joined the German internet incubator Rocket Internet as an entrepreneur-in-residence"
+        }
+      ]
+    },
+    {
+      "name": "Maximilian Tayenthal",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "CMS",
+          "orgCanonical": "CMS",
+          "source": "https://parisfintechforum.com/PFF2019/speakers/tayenthal-maximilian-n26",
+          "quote": "including CMS and Booz & Company"
+        },
+        {
+          "kind": "employer",
+          "org": "Booz & Company",
+          "orgCanonical": "Booz & Company",
+          "source": "https://parisfintechforum.com/PFF2019/speakers/tayenthal-maximilian-n26",
+          "quote": "including CMS and Booz & Company"
+        },
+        {
+          "kind": "education",
+          "org": "University of Vienna",
+          "orgCanonical": "University of Vienna",
+          "source": "https://parisfintechforum.com/PFF2019/speakers/tayenthal-maximilian-n26",
+          "quote": "Max holds bachelor’s and master’s degrees in economics and business administration from the University of Vienna"
+        }
+      ]
+    }
+  ]
+}

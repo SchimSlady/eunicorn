@@ -1,0 +1,39 @@
+{
+  "id": "octopus-energy",
+  "founders": [
+    {
+      "name": "Greg Jackson",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "Pembroke College, Cambridge",
+          "orgCanonical": "University of Cambridge",
+          "source": "https://en.wikipedia.org/wiki/Greg_Jackson_(businessman)",
+          "quote": "before attending Pembroke College , Cambridge"
+        },
+        {
+          "kind": "founded",
+          "org": "C360",
+          "orgCanonical": "C360",
+          "source": "https://en.wikipedia.org/wiki/Greg_Jackson_(businessman)",
+          "quote": "Jackson founded companies including e-commerce firm C360 and Consultant Connect"
+        },
+        {
+          "kind": "founded",
+          "org": "Consultant Connect",
+          "orgCanonical": "Consultant Connect",
+          "source": "https://en.wikipedia.org/wiki/Greg_Jackson_(businessman)",
+          "quote": "Jackson founded companies including e-commerce firm C360 and Consultant Connect"
+        },
+        {
+          "kind": "employer",
+          "org": "Zopa",
+          "orgCanonical": "Zopa",
+          "role": "director",
+          "source": "https://en.wikipedia.org/wiki/Greg_Jackson_(businessman)",
+          "quote": "was a director of several businesses, including Zopa"
+        }
+      ]
+    }
+  ]
+}

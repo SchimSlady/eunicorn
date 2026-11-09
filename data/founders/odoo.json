@@ -1,0 +1,17 @@
+{
+  "id": "odoo",
+  "founders": [
+    {
+      "name": "Fabien Pinckaers",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "UCLouvain",
+          "orgCanonical": "UCLouvain",
+          "source": "https://fr.wikipedia.org/wiki/Fabien_Pinckaers",
+          "quote": "études d' ingénieur civil informaticien à l' UCLouvain"
+        }
+      ]
+    }
+  ]
+}

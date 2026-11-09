@@ -1,0 +1,42 @@
+{
+  "id": "proton",
+  "founders": [
+    {
+      "name": "Andy Yen",
+      "stations": [
+        {
+          "kind": "employer",
+          "org": "CERN",
+          "orgCanonical": "CERN",
+          "years": "since 2009",
+          "source": "https://home.cern/news/news/computing/cern-inspires-entrepreneurs-email-encryption",
+          "quote": "Computer scientist Andy Yen has been working at CERN since 2009 through his home institutes CalTech and Harvard University in the US."
+        },
+        {
+          "kind": "education",
+          "org": "Caltech",
+          "orgCanonical": "Caltech",
+          "source": "https://home.cern/news/news/computing/cern-inspires-entrepreneurs-email-encryption",
+          "quote": "Computer scientist Andy Yen has been working at CERN since 2009 through his home institutes CalTech and Harvard University in the US."
+        },
+        {
+          "kind": "education",
+          "org": "Harvard University",
+          "orgCanonical": "Harvard University",
+          "source": "https://home.cern/news/news/computing/cern-inspires-entrepreneurs-email-encryption",
+          "quote": "Computer scientist Andy Yen has been working at CERN since 2009 through his home institutes CalTech and Harvard University in the US."
+        }
+      ]
+    },
+    {
+      "name": "Jason Stockman",
+      "note": "CERN link: page names the three co-founders in a photo caption and says the founders all worked on the LHC (CERN)",
+      "stations": []
+    },
+    {
+      "name": "Wei Sun",
+      "note": "CERN link: page names the three co-founders in a photo caption and says the founders all worked on the LHC (CERN)",
+      "stations": []
+    }
+  ]
+}

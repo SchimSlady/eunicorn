@@ -1,0 +1,24 @@
+{
+  "id": "rimac-automobili",
+  "founders": [
+    {
+      "name": "Mate Rimac",
+      "stations": [
+        {
+          "kind": "education",
+          "org": "VERN University of Applied Science",
+          "orgCanonical": "VERN University",
+          "source": "https://en.wikipedia.org/wiki/Mate_Rimac",
+          "quote": "Rimac attended the VERN University of Applied Science from 2007."
+        },
+        {
+          "kind": "founded",
+          "org": "Greyp Bikes",
+          "orgCanonical": "Greyp Bikes",
+          "source": "https://en.wikipedia.org/wiki/Mate_Rimac",
+          "quote": "He also founded Greyp Bikes"
+        }
+      ]
+    }
+  ]
+}
