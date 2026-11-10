@@ -4,7 +4,7 @@ import { fetchAll } from "./paged";
 import type { Company, Dataset, ExitKind, Program, Puzzle, Round } from "@eunicorn/schema";
 import { USD_TO_EUR } from "@/lib/format";
 import { generatePuzzle } from "./generate";
-import { monthIndex, type HLCompany } from "@/lib/higherLower";
+import { monthIndex, type FounderStation, type HLCompany } from "@/lib/higherLower";
 import type { Region } from "@/lib/regions";
 import logoFiles from "./logos.generated.json";
 
@@ -133,6 +133,16 @@ export async function getDataset(): Promise<(Omit<Dataset, "rounds"> & { rounds:
     select<Program>("programs?select=id,name,kind,url,logo&order=id"),
     select<{ company_id: string; program_id: string; batch: string | null }>("company_programs?select=company_id,program_id,batch&order=company_id,program_id"),
   ]);
+  // Founder stations (what founders did before), also in their own request so the dataset loads without them.
+  const stationRows = await select<{ company_id: string; kind: FounderStation["kind"]; organisations: { name: string } | null }>(
+    "founder_stations?select=company_id,kind,organisations(name)&weak_source=eq.false&order=company_id,id",
+  );
+  const stationsOf = new Map<string, FounderStation[]>();
+  for (const r of stationRows ?? []) {
+    if (!r.organisations) continue;
+    const list = stationsOf.get(r.company_id) ?? stationsOf.set(r.company_id, []).get(r.company_id)!;
+    if (!list.some((s) => s.kind === r.kind && s.org === r.organisations!.name)) list.push({ kind: r.kind, org: r.organisations.name });
+  }
   const programById = new Map((programRows ?? []).map((p) => [p.id, p]));
   const programsOf = new Map<string, NonNullable<Company["programs"]>>();
   for (const r of companyPrograms ?? []) {
@@ -169,6 +179,7 @@ export async function getDataset(): Promise<(Omit<Dataset, "rounds"> & { rounds:
         biggestRoundUsd: biggest.get(c.id) ? eurAsUsd(biggest.get(c.id)) : undefined,
         lastRoundMonth: latest.get(c.id),
         programs: programsOf.get(c.id),
+        stations: stationsOf.get(c.id),
         exit: exitOf(c),
         employees: c.employees ?? undefined,
         careersUrl: c.careers_url ?? undefined,
