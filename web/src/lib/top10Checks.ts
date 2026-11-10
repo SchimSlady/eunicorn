@@ -19,7 +19,7 @@ export function passes(c: Company, k: Top10Check): boolean {
     case "region":
       return REGIONS[k.value].test(c);
     case "sector":
-      return k.values.some((s) => c.sectors.includes(s as Company["sectors"][number]));
+      return k.values.some((s) => c.sectors.includes(s as Company["sectors"][number])) || !!k.ids?.includes(c.id);
     case "founded-from":
       return c.founded >= k.value;
     case "founded-before":

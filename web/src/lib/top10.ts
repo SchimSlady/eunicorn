@@ -42,7 +42,7 @@ export type Top10Check =
   | { kind: "city"; value: string }
   | { kind: "region"; value: Region }
   /** Any of these sectors; label names them together ("deep tech"). */
-  | { kind: "sector"; values: string[]; label?: string }
+  | { kind: "sector"; values: string[]; label?: string; /** Companies that count although none of their sectors does (fusion is "climate" in our data). */ ids?: string[] }
   | { kind: "founded-from"; value: number }
   | { kind: "founded-before"; value: number }
   | { kind: "status"; value: CompanyStatus }
