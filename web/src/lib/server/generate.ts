@@ -121,9 +121,24 @@ function localPuzzle(mode: PlayMode, date: string, data: Dataset, region: Region
 
 const sector = (s: string): Top10Check => ({ kind: "sector", values: [s] });
 const DEEP_TECH = ["ai", "robotics", "defense", "space"];
+/**
+ * From this day deep tech also counts quantum and semiconductors, and science-heavy energy hardware that our data
+ * files under "climate" (fusion, nuclear, direct air capture, electrolysers, batteries) and eVTOL aircraft filed under mobility: Proxima Fusion and Quantum Diamonds
+ * were missing. Climate as a whole is far too broad (solar installers, battery operators), so those are listed.
+ */
+const DEEP_TECH_V2_FROM = "2026-11-11";
+const DEEP_TECH_V2 = ["ai", "robotics", "defense", "space", "quantum", "semiconductors"];
+const DEEP_TECH_EXTRA = [
+  // fusion, nuclear, direct air capture, electrolysers
+  "proxima-fusion", "marvel-fusion", "focused-energy", "newcleo", "climeworks", "sunfire",
+  // battery cells and recycling, green steel, CO2 to raw material, storage technology
+  "northvolt", "verkor", "britishvolt", "stegra-h2-green-steel", "ineratec", "cylib", "energy-vault",
+  // eVTOL aircraft (filed under mobility)
+  "lilium", "volocopter", "vertical-aerospace",
+];
 
 /** What a local list can ask; each needs 12 companies with the number in the region, so a small region asks fewer. */
-const LOCAL_TOP10: { tag: string; metric: Top10Metric; kind?: string; founded?: string; program?: string; checks: Top10Check[]; from?: string }[] = [
+const LOCAL_TOP10: { tag: string; metric: Top10Metric; kind?: string; founded?: string; program?: string; checks: Top10Check[]; from?: string; until?: string }[] = [
   { tag: "all", metric: "lastValuationUsd", checks: [] },
   { tag: "all", metric: "totalRaisedUsd", checks: [] },
   { tag: "young", metric: "totalRaisedUsd", founded: "founded since 2015", checks: [{ kind: "founded-from", value: 2015 }] },
@@ -134,8 +149,9 @@ const LOCAL_TOP10: { tag: string; metric: Top10Metric; kind?: string; founded?: 
   { tag: "saas", metric: "totalRaisedUsd", kind: "SaaS", checks: [sector("saas")] },
   { tag: "climate", metric: "totalRaisedUsd", kind: "climate", checks: [sector("climate")] },
   { tag: "mobility", metric: "totalRaisedUsd", kind: "mobility", checks: [sector("mobility")] },
-  // Munich's profile: AI, robotics, defence and space together (Helsing, Quantum Systems, Isar ...).
-  { tag: "deeptech", metric: "totalRaisedUsd", kind: "deep tech", checks: [{ kind: "sector", values: DEEP_TECH, label: "deep tech" }], from: LOCAL_EXTRAS_FROM },
+  // Munich's profile: AI, robotics, defence, space, quantum and chips together (Helsing, Quantum Systems, Isar ...); see DEEP_TECH_V2_FROM.
+  { tag: "deeptech", metric: "totalRaisedUsd", kind: "deep tech", checks: [{ kind: "sector", values: DEEP_TECH, label: "deep tech" }], from: LOCAL_EXTRAS_FROM, until: DEEP_TECH_V2_FROM },
+  { tag: "deeptech", metric: "totalRaisedUsd", kind: "deep tech", checks: [{ kind: "sector", values: DEEP_TECH_V2, label: "deep tech", ids: DEEP_TECH_EXTRA }], from: DEEP_TECH_V2_FROM },
   // Programs: by total raised only (too few of them have a known valuation).
   { tag: "cdtm", metric: "totalRaisedUsd", kind: "CDTM", program: "cdtm", checks: [{ kind: "program", value: "cdtm", name: "CDTM" }], from: LOCAL_PROGRAMS_FROM },
   { tag: "yc", metric: "totalRaisedUsd", kind: "YC", program: "y-combinator", checks: [{ kind: "program", value: "y-combinator", name: "YC" }], from: LOCAL_PROGRAMS_FROM },
@@ -149,7 +165,7 @@ type LocalList = { tag: string; key: string; build: (rng: Rng) => Top10Round | n
 
 /** The lists the region's data can make on a day (12 companies with the number, no tie at No. 10). */
 function localUsable(date: string, region: Region, companies: Company[], data: Dataset): LocalList[] {
-  const lists: LocalList[] = LOCAL_TOP10.filter((x) => !x.from || date >= x.from).map((x) => {
+  const lists: LocalList[] = LOCAL_TOP10.filter((x) => (!x.from || date >= x.from) && (!x.until || date < x.until)).map((x) => {
     const who = [REGIONS[region].who(x.kind), x.founded].filter(Boolean).join(" ");
     const q: Top10Question = {
       level: "easy",
