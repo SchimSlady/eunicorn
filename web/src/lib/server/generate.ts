@@ -123,12 +123,19 @@ const sector = (s: string): Top10Check => ({ kind: "sector", values: [s] });
 const DEEP_TECH = ["ai", "robotics", "defense", "space"];
 /**
  * From this day deep tech also counts quantum and semiconductors, and science-heavy energy hardware that our data
- * files under "climate" (fusion, nuclear, direct air capture, electrolysers): Proxima Fusion and Quantum Diamonds
+ * files under "climate" (fusion, nuclear, direct air capture, electrolysers, batteries) and eVTOL aircraft filed under mobility: Proxima Fusion and Quantum Diamonds
  * were missing. Climate as a whole is far too broad (solar installers, battery operators), so those are listed.
  */
 const DEEP_TECH_V2_FROM = "2026-11-11";
 const DEEP_TECH_V2 = ["ai", "robotics", "defense", "space", "quantum", "semiconductors"];
-const DEEP_TECH_ENERGY = ["proxima-fusion", "marvel-fusion", "focused-energy", "newcleo", "climeworks", "sunfire"];
+const DEEP_TECH_EXTRA = [
+  // fusion, nuclear, direct air capture, electrolysers
+  "proxima-fusion", "marvel-fusion", "focused-energy", "newcleo", "climeworks", "sunfire",
+  // battery cells and recycling, green steel, CO2 to raw material, storage technology
+  "northvolt", "verkor", "britishvolt", "stegra-h2-green-steel", "ineratec", "cylib", "energy-vault",
+  // eVTOL aircraft (filed under mobility)
+  "lilium", "volocopter", "vertical-aerospace",
+];
 
 /** What a local list can ask; each needs 12 companies with the number in the region, so a small region asks fewer. */
 const LOCAL_TOP10: { tag: string; metric: Top10Metric; kind?: string; founded?: string; program?: string; checks: Top10Check[]; from?: string; until?: string }[] = [
@@ -144,7 +151,7 @@ const LOCAL_TOP10: { tag: string; metric: Top10Metric; kind?: string; founded?: 
   { tag: "mobility", metric: "totalRaisedUsd", kind: "mobility", checks: [sector("mobility")] },
   // Munich's profile: AI, robotics, defence, space, quantum and chips together (Helsing, Quantum Systems, Isar ...); see DEEP_TECH_V2_FROM.
   { tag: "deeptech", metric: "totalRaisedUsd", kind: "deep tech", checks: [{ kind: "sector", values: DEEP_TECH, label: "deep tech" }], from: LOCAL_EXTRAS_FROM, until: DEEP_TECH_V2_FROM },
-  { tag: "deeptech", metric: "totalRaisedUsd", kind: "deep tech", checks: [{ kind: "sector", values: DEEP_TECH_V2, label: "deep tech", ids: DEEP_TECH_ENERGY }], from: DEEP_TECH_V2_FROM },
+  { tag: "deeptech", metric: "totalRaisedUsd", kind: "deep tech", checks: [{ kind: "sector", values: DEEP_TECH_V2, label: "deep tech", ids: DEEP_TECH_EXTRA }], from: DEEP_TECH_V2_FROM },
   // Programs: by total raised only (too few of them have a known valuation).
   { tag: "cdtm", metric: "totalRaisedUsd", kind: "CDTM", program: "cdtm", checks: [{ kind: "program", value: "cdtm", name: "CDTM" }], from: LOCAL_PROGRAMS_FROM },
   { tag: "yc", metric: "totalRaisedUsd", kind: "YC", program: "y-combinator", checks: [{ kind: "program", value: "y-combinator", name: "YC" }], from: LOCAL_PROGRAMS_FROM },
