@@ -217,6 +217,42 @@
           "quote": "The financing round is led by Illuminate Financial and Speedinvest, with existing investors including PayPal Ventures and Motive Ventures participating."
         }
       ]
+    },
+    {
+      "month": "2026-11",
+      "stage": "series-c",
+      "amountEur": 71003816,
+      "amountOriginal": 80000000,
+      "currency": "USD",
+      "investors": [
+        "Seaya Nova",
+        "Speedinvest",
+        "Illuminate Financial",
+        "Motive Partners",
+        "Molten Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://thepaypers.com/payments/news/pliant-raises-usd-80-mln-series-c-led-by-seaya-nova-and-speedinvest",
+          "quote": "Germany-based B2B payments company Pliant has raised USD 80 million in a Series C funding round led by Seaya Nova and Speedinvest"
+        },
+        {
+          "field": "month",
+          "url": "https://thepaypers.com/payments/news/pliant-raises-usd-80-mln-series-c-led-by-seaya-nova-and-speedinvest",
+          "quote": "05 Nov 2026"
+        },
+        {
+          "field": "stage",
+          "url": "https://thepaypers.com/payments/news/pliant-raises-usd-80-mln-series-c-led-by-seaya-nova-and-speedinvest",
+          "quote": "Pliant has raised USD 80 million in a Series C funding round"
+        },
+        {
+          "field": "investors",
+          "url": "https://thepaypers.com/payments/news/pliant-raises-usd-80-mln-series-c-led-by-seaya-nova-and-speedinvest",
+          "quote": "with participation from Illuminate Financial, Motive Partners, and Molten Ventures"
+        }
+      ]
     }
   ],
   "tagline": "Credit card platform that enables companies to optimize their payment processes."

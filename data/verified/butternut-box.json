@@ -111,6 +111,39 @@
           "quote": "latest funding round was led by private equity firm L Catterton , with existing investors White Star Capital , Five Seasons Ventures , and Passion Capital also"
         }
       ]
+    },
+    {
+      "month": "2023-09",
+      "stage": "series-c",
+      "amountEur": 327400000,
+      "amountOriginal": 280000000,
+      "currency": "GBP",
+      "investors": [
+        "General Atlantic",
+        "L Catterton"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2023/09/05/butternut-box-ps280m-investment/",
+          "quote": "Butternut Box has raised £280 million in its latest funding round"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2023/09/05/butternut-box-ps280m-investment/",
+          "quote": "05 September 2023"
+        },
+        {
+          "field": "stage",
+          "url": "https://tech.eu/2023/09/05/butternut-box-ps280m-investment/",
+          "quote": "Butternut Box has raised £280 million in its latest funding round"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2023/09/05/butternut-box-ps280m-investment/",
+          "quote": "New investor General Atlantic led the round with existing investor private equity firm L Catterton participating"
+        }
+      ]
     }
   ],
   "tagline": "Dog food subscription service."

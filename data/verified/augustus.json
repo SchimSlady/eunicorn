@@ -56,6 +56,11 @@
       "field": "tagline",
       "url": "https://pulse2.com/augustus-raises-180-million-series-b-at-1-billion-valuation-to-expand-global-dollar-banking-platform/",
       "quote": "Augustus is building a federally regulated clearing bank intended to give international fintech companies and banks direct access to U.S. dollar accounts and payment systems."
+    },
+    {
+      "field": "valuation",
+      "url": "https://thepaypers.com/fintech/news/augustus-raises-usd-180-mln-series-b-led-by-tiger-global",
+      "quote": "valuing the US-based bank at USD 1 billion"
     }
   ],
   "rounds": [
@@ -159,5 +164,6 @@
       ]
     }
   ],
-  "tagline": "Federally regulated clearing bank giving international fintechs and banks direct access to U.S. dollar accounts."
+  "tagline": "Federally regulated clearing bank giving international fintechs and banks direct access to U.S. dollar accounts.",
+  "lastValuationEur": 876577840
 }

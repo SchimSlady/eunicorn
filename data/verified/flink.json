@@ -88,6 +88,34 @@
           "quote": "The whopping $750 million funding round was led by US-based Doordash and existing investor Mubadala Capital"
         }
       ]
+    },
+    {
+      "month": "2026-03",
+      "stage": "series-c",
+      "amountEur": 86162330,
+      "amountOriginal": 100000000,
+      "currency": "USD",
+      "investors": [
+        "Prosus",
+        "Btomorrow Ventures"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.prosus.com/news-insights/2026/prosus-leads-us-dollars-100-million-funding-round-in-flink",
+          "quote": "has secured around US$100 million in new growth capital"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2026/03/03/flink-lands-100m-to-advance-targeted-expansion/",
+          "quote": "03 March 2026"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.prosus.com/news-insights/2026/prosus-leads-us-dollars-100-million-funding-round-in-flink",
+          "quote": "The financing round is led by Prosus and other existing investors, with Btomorrow Ventures, the corporate venture arm of BAT, joining the investor group"
+        }
+      ]
     }
   ]
 }

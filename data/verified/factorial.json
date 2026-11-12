@@ -13,7 +13,7 @@
   ],
   "status": "private",
   "unicorn": true,
-  "lastValuationEur": 2200000000,
+  "lastValuationEur": 2152574000,
   "founders": [
     "Jordi Romero",
     "Pau Ramon",
@@ -56,6 +56,11 @@
       "field": "tagline",
       "url": "https://en.wikipedia.org/wiki/Factorial_(company)",
       "quote": "Factorial is a Spanish software company based in Barcelona that develops cloud-based human resources software."
+    },
+    {
+      "field": "valuation",
+      "url": "https://tools.prnewswire.com/en-us/live/20823/release/20260603EN74006",
+      "quote": "closing of a $150 million Series D funding round at a valuation of $2.5 billion"
     }
   ],
   "rounds": [
@@ -110,6 +115,40 @@
           "field": "month",
           "url": "https://en.wikipedia.org/wiki/Factorial_(company)",
           "quote": "followed in September 2021"
+        }
+      ]
+    },
+    {
+      "month": "2026-06",
+      "stage": "series-d",
+      "amountEur": 129154469,
+      "amountOriginal": 150000000,
+      "currency": "USD",
+      "investors": [
+        "General Catalyst",
+        "Atomico",
+        "Four Rivers"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tools.prnewswire.com/en-us/live/20823/release/20260603EN74006",
+          "quote": "closing of a $150 million Series D funding round at a valuation of $2.5 billion"
+        },
+        {
+          "field": "month",
+          "url": "https://tools.prnewswire.com/en-us/live/20823/release/20260603EN74006",
+          "quote": "BARCELONA, Spain , June 3, 2026"
+        },
+        {
+          "field": "stage",
+          "url": "https://tools.prnewswire.com/en-us/live/20823/release/20260603EN74006",
+          "quote": "closing of a $150 million Series D funding round"
+        },
+        {
+          "field": "investors",
+          "url": "https://tools.prnewswire.com/en-us/live/20823/release/20260603EN74006",
+          "quote": "joined by other investors including Atomico and Four Rivers"
         }
       ]
     }
