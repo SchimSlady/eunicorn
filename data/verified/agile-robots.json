@@ -14,7 +14,7 @@
     "ai"
   ],
   "status": "private",
-  "unicorn": false,
+  "unicorn": true,
   "founders": [
     "Zhaopeng Chen",
     "Peter Meusel"
@@ -62,6 +62,16 @@
       "field": "tagline",
       "url": "https://en.wikipedia.org/wiki/Agile_Robots",
       "quote": "The company develops industrial robots and automation systems for manufacturing and logistics applications."
+    },
+    {
+      "field": "valuation",
+      "url": "https://www.handelsblatt.com/technik/ki/robotik-agile-robots-jetzt-mit-85-milliarden-dollar-bewertet/100265688.html",
+      "quote": "hat in einer neuen Finanzierungsrunde eine Bewertung von 8,5 Milliarden Dollar erzielt"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://www.handelsblatt.com/technik/ki/robotik-agile-robots-jetzt-mit-85-milliarden-dollar-bewertet/100265688.html",
+      "quote": "hat in einer neuen Finanzierungsrunde eine Bewertung von 8,5 Milliarden Dollar erzielt"
     }
   ],
   "rounds": [
@@ -132,8 +142,37 @@
           "quote": "This is FII’s second strategic investment in Agile Robots."
         }
       ]
+    },
+    {
+      "stage": "series-d",
+      "month": "2026-11",
+      "amountEur": 449357419,
+      "amountOriginal": 500000000,
+      "currency": "USD",
+      "investors": [
+        "SoftBank Group",
+        "NVIDIA",
+        "Hitachi"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.handelsblatt.com/technik/ki/robotik-agile-robots-jetzt-mit-85-milliarden-dollar-bewertet/100265688.html",
+          "quote": "Angeführt von der Softbank Group aus Japan stecken unter anderem der Chipkonzern Nvidia und die Hitachi-Gruppe 500 Millionen Dollar in den Spezialisten für humanoide Roboter"
+        },
+        {
+          "field": "month",
+          "url": "https://www.handelsblatt.com/technik/ki/robotik-agile-robots-jetzt-mit-85-milliarden-dollar-bewertet/100265688.html",
+          "quote": "12.11.2026 - 07:10 Uhr"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.handelsblatt.com/technik/ki/robotik-agile-robots-jetzt-mit-85-milliarden-dollar-bewertet/100265688.html",
+          "quote": "Angeführt von der Softbank Group aus Japan stecken unter anderem der Chipkonzern Nvidia und die Hitachi-Gruppe 500 Millionen Dollar in den Spezialisten für humanoide Roboter"
+        }
+      ]
     }
   ],
-  "lastValuationEur": 846000000,
+  "lastValuationEur": 7639076121,
   "tagline": "Develops industrial robots and automation systems for manufacturing and logistics applications."
 }
