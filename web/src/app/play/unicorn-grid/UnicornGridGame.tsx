@@ -192,9 +192,21 @@ export function UnicornGridGame() {
     setMiss(null);
   }
 
-  /** A pick from the search: into the one open square it fits, a choice between several, or a wrong guess. */
+  /**
+   * A pick from the search: into the one open square it fits, a choice between several, or a wrong guess.
+   * Only squares that leave the rest of the board solvable with distinct companies count (Pablo,
+   * 2026-11-12): if Improbable fits A and B but is the only answer left for B, it goes into B by
+   * itself, so the solution never has an empty square. If no square keeps the board solvable (rare),
+   * every square it fits is offered.
+   */
   function pick(c: Company) {
-    const fits = [0, 1, 2, 3, 4, 5, 6, 7, 8].filter((cell) => !progress!.cells[cell] && puzzle.validAnswers[cell].includes(c.id));
+    const all = [0, 1, 2, 3, 4, 5, 6, 7, 8].filter((cell) => !progress!.cells[cell] && puzzle.validAnswers[cell].includes(c.id));
+    const solvable = all.filter((cell) => {
+      const cells = [...progress!.cells];
+      cells[cell] = c.id;
+      return distinctAnswers(puzzle.validAnswers, cells) !== null;
+    });
+    const fits = solvable.length ? solvable : all;
     if (fits.length === 1) return place(fits[0], c);
     if (fits.length > 1) {
       setPending({ company: c, cells: fits });
