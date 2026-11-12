@@ -49,7 +49,12 @@
     {
       "field": "tagline",
       "url": "https://se3.ai",
-      "quote": "We build AI to enable machines to perceive, reason, and act autonomously in the physical world."
+      "quote": "We build the foundational spatial intelligence technology that defines the next generation of autonomous systems."
+    },
+    {
+      "field": "tagline",
+      "url": "https://se3.ai",
+      "quote": "the ability to perceive, reason, and act in three dimensions becomes the defining capability"
     }
   ],
   "rounds": [
@@ -89,7 +94,42 @@
           "quote": "The round was led by Lakestar, with participation from Seedcamp, EWOR, the Sequoia Scout Fund, Plug and Play, and TwinTrack."
         }
       ]
+    },
+    {
+      "stage": "series-a",
+      "month": "2026-11",
+      "amountEur": 27073369,
+      "amountOriginal": 30000000.0,
+      "currency": "USD",
+      "investors": [
+        "Accel",
+        "Keen Venture Partners",
+        "Lakestar",
+        "Seedcamp"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://thenextweb.com/news/se3-30m-series-a-accel-spatial-intelligence-drones",
+          "quote": "SE3, the Munich startup building spatial intelligence software for autonomous systems, has raised a $30M Series A led by Accel, with Keen, Lakestar, and Seedcamp participating."
+        },
+        {
+          "field": "month",
+          "url": "https://thenextweb.com/news/se3-30m-series-a-accel-spatial-intelligence-drones",
+          "quote": "November 12, 2026"
+        },
+        {
+          "field": "stage",
+          "url": "https://thenextweb.com/news/se3-30m-series-a-accel-spatial-intelligence-drones",
+          "quote": "SE3, the Munich startup building spatial intelligence software for autonomous systems, has raised a $30M Series A led by Accel, with Keen, Lakestar, and Seedcamp participating."
+        },
+        {
+          "field": "investors",
+          "url": "https://thenextweb.com/news/se3-30m-series-a-accel-spatial-intelligence-drones",
+          "quote": "SE3, the Munich startup building spatial intelligence software for autonomous systems, has raised a $30M Series A led by Accel, with Keen, Lakestar, and Seedcamp participating."
+        }
+      ]
     }
   ],
-  "tagline": "AI that enables machines to perceive, reason and act autonomously in the physical world."
+  "tagline": "Spatial intelligence software that lets autonomous systems perceive, reason and act in three dimensions."
 }
