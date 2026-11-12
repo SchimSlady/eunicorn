@@ -7,7 +7,7 @@ import { getTodayResult, loadProgress, saveProgress, saveResult } from "@/lib/da
 import { hintLimit, saveDifficulty, type Difficulty } from "@/lib/difficulty";
 import { shareText as buildShareText } from "@/lib/scoring";
 import { CompanyLogo } from "@/components/CompanyLogo";
-import { distinctAnswers, gridMissReason, investorIndex } from "@/lib/grid";
+import { bestDistinctAnswers, distinctAnswers, gridMissReason, investorIndex } from "@/lib/grid";
 import { MissToast, type MissIcon } from "@/components/MissToast";
 import { nudgeClass } from "@/lib/nudge";
 import { companyFact, strengthOf } from "@/lib/hints";
@@ -192,9 +192,21 @@ export function UnicornGridGame() {
     setMiss(null);
   }
 
-  /** A pick from the search: into the one open square it fits, a choice between several, or a wrong guess. */
+  /**
+   * A pick from the search: into the one open square it fits, a choice between several, or a wrong guess.
+   * Only squares that leave the rest of the board solvable with distinct companies count (Pablo,
+   * 2026-11-12): if Improbable fits A and B but is the only answer left for B, it goes into B by
+   * itself, so the solution never has an empty square. If no square keeps the board solvable (rare),
+   * every square it fits is offered.
+   */
   function pick(c: Company) {
-    const fits = [0, 1, 2, 3, 4, 5, 6, 7, 8].filter((cell) => !progress!.cells[cell] && puzzle.validAnswers[cell].includes(c.id));
+    const all = [0, 1, 2, 3, 4, 5, 6, 7, 8].filter((cell) => !progress!.cells[cell] && puzzle.validAnswers[cell].includes(c.id));
+    const solvable = all.filter((cell) => {
+      const cells = [...progress!.cells];
+      cells[cell] = c.id;
+      return distinctAnswers(puzzle.validAnswers, cells) !== null;
+    });
+    const fits = solvable.length ? solvable : all;
     if (fits.length === 1) return place(fits[0], c);
     if (fits.length > 1) {
       setPending({ company: c, cells: fits });
@@ -215,12 +227,11 @@ export function UnicornGridGame() {
   }
 
   // Answers shown in squares the player left empty: the best-known valid ones such that, like
-  // for the player, every company appears only once on the board.
+  // for the player, every company appears only once on the board, counting the player's own picks
+  // (Pablo, 2026-11-12). If the player's picks leave a square without a free answer, it stays empty.
   const byWorth = (_: number, ids: string[]) => [...ids].sort((a, b) => worth(a) - worth(b));
-  const fill = distinctAnswers(puzzle.validAnswers, progress.cells, byWorth);
-  const revealed: (Company | null)[] = progress.cells.map((placed, cell) =>
-    placed ? null : companies.get(fill?.[cell] ?? byWorth(cell, puzzle.validAnswers[cell])[0])!,
-  );
+  const fill = bestDistinctAnswers(puzzle.validAnswers, progress.cells, byWorth);
+  const revealed: (Company | null)[] = fill.map((id) => (id ? companies.get(id) ?? null : null));
   const reveal = (cell: number) => revealed[cell] ?? companies.get(puzzle.validAnswers[cell][0])!;
 
   const strip = (s: string) => s.replace(/\p{Regional_Indicator}/gu, "").trim();
@@ -288,7 +299,7 @@ export function UnicornGridGame() {
               const cell = ri * 3 + ci;
               const id = progress.cells[cell];
               const c = id ? companies.get(id)! : null;
-              const shown = c ?? (done ? reveal(cell) : null);
+              const shown = c ?? (done ? revealed[cell] : null);
               const candidate = !!pending && pending.cells.includes(cell);
               const cls = `relative flex aspect-square flex-col items-stretch justify-center gap-1 rounded-2xl border-2 p-1 transition ${
                 c

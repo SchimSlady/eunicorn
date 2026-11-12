@@ -38,6 +38,43 @@ export function distinctAnswers(
 }
 
 /**
+ * Like distinctAnswers, but never fails: when the placed companies leave no full distinct fill
+ * (e.g. the player put a company in one square that was the only answer for another), it fills as
+ * many open squares as possible and leaves the rest null. No company ever appears twice on the
+ * board, counting what the player placed. Maximum bipartite matching (augmenting paths).
+ */
+export function bestDistinctAnswers(
+  validAnswers: string[][],
+  fixed: (string | null)[],
+  order: (cell: number, ids: string[]) => string[] = (_, ids) => ids,
+): (string | null)[] {
+  const full = distinctAnswers(validAnswers, fixed, order);
+  if (full) return full.map((id, cell) => (fixed[cell] ? null : id));
+
+  const placed = new Set(fixed.filter((id): id is string => !!id));
+  const options = validAnswers.map((ids, cell) => (fixed[cell] ? [] : order(cell, ids).filter((id) => !placed.has(id))));
+  const owner = new Map<string, number>(); // company id -> open square it is shown in
+  const augment = (cell: number, seen: Set<string>): boolean => {
+    for (const id of options[cell]) {
+      if (seen.has(id)) continue;
+      seen.add(id);
+      const other = owner.get(id);
+      if (other === undefined || augment(other, seen)) {
+        owner.set(id, cell);
+        return true;
+      }
+    }
+    return false;
+  };
+  // Most constrained squares first, as in distinctAnswers.
+  const cells = options.map((ids, cell) => ({ cell, n: ids.length })).filter(({ n }) => n > 0).sort((a, b) => a.n - b.n);
+  for (const { cell } of cells) augment(cell, new Set());
+  const result: (string | null)[] = validAnswers.map(() => null);
+  for (const [id, cell] of owner) result[cell] = id;
+  return result;
+}
+
+/**
  * Whether a company meets a grid heading, worked out in the browser from the dataset, so a wrong
  * guess can show which headings it meets (✓) and which not (✗). Mirrors gridCriteria in
  * lib/server/generate.ts: "Founded 2015+" is founded-after 2014, "Founded 2014 or earlier" is
