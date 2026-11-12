@@ -9,7 +9,7 @@
   "sectors": [
     "logistics"
   ],
-  "status": "private",
+  "status": "acquired",
   "unicorn": true,
   "lastValuationEur": 1000000000,
   "founders": [
@@ -49,6 +49,16 @@
       "field": "valuation",
       "url": "https://www.unquote.com/southern-europe/official-record/3026030/softbank-vision-fund-leads-eur-200m-series-d-for-paack",
       "quote": "The round values Paack at EUR 1bn."
+    },
+    {
+      "field": "exit",
+      "url": "https://www.freightwaves.com/news/ceva-logistics-poised-to-acquire-european-final-mile-courier-paack",
+      "quote": "Ceva Logistics has agreed to acquire parcel delivery service Paack’s operating units in France, Spain and Portugal"
+    },
+    {
+      "field": "status",
+      "url": "https://www.freightwaves.com/?p=583497",
+      "quote": "acquired Paack in early August to expand its last-mile delivery business in Europe"
     }
   ],
   "rounds": [
@@ -101,5 +111,10 @@
         }
       ]
     }
-  ]
+  ],
+  "exit": {
+    "kind": "acquisition",
+    "month": "2026-07",
+    "acquirer": "Ceva Logistics"
+  }
 }

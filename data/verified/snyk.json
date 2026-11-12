@@ -225,6 +225,50 @@
           "quote": "Existing investors Accel , Addition , Alkeon , Atlassian Ventures , funds managed by BlackRock , Boldstart Ventures , Canaan Partners , Coatue , Franklin Templeton , Geodesic Capital , Salesforce Ventures , and Temasek"
         }
       ]
+    },
+    {
+      "stage": "series-f+",
+      "month": "2022-12",
+      "amountEur": 186344239,
+      "amountOriginal": 196500000,
+      "currency": "USD",
+      "postMoneyValuationEur": 7017543860,
+      "investors": [
+        "Qatar Investment Authority",
+        "Evolution Equity Partners",
+        "G Squared",
+        "Irving Investors",
+        "Boldstart Ventures",
+        "Sands Capital",
+        "Tiger Global"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://snyk.io/news/snyk-closes-196-5-million-series-g-funding-at-7-4-billion-valuation",
+          "quote": "Snyk Closes $196.5 Million Series G Funding at $7.4 Billion Valuation"
+        },
+        {
+          "field": "stage",
+          "url": "https://snyk.io/news/snyk-closes-196-5-million-series-g-funding-at-7-4-billion-valuation",
+          "quote": "Snyk Closes $196.5 Million Series G Funding at $7.4 Billion Valuation"
+        },
+        {
+          "field": "month",
+          "url": "https://snyk.io/news/snyk-closes-196-5-million-series-g-funding-at-7-4-billion-valuation",
+          "quote": "December 13, 2022"
+        },
+        {
+          "field": "investors",
+          "url": "https://snyk.io/news/snyk-closes-196-5-million-series-g-funding-at-7-4-billion-valuation",
+          "quote": "The round was led by QIA (Qatar Investment Authority) and included participation from new investors Evolution Equity Partners, G Squared and Irving Investors as well as existing investors boldstart ventures, Sands Capital and Tiger Global."
+        },
+        {
+          "field": "valuation",
+          "url": "https://snyk.io/news/snyk-closes-196-5-million-series-g-funding-at-7-4-billion-valuation",
+          "quote": "Snyk Closes $196.5 Million Series G Funding at $7.4 Billion Valuation"
+        }
+      ]
     }
   ],
   "tagline": "Security platform for AI-written code, agents and applications, from inception to production."

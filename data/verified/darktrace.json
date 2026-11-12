@@ -11,7 +11,7 @@
   ],
   "status": "acquired",
   "unicorn": true,
-  "lastValuationEur": 1405810684,
+  "lastValuationEur": 1957104866,
   "founders": [
     "Nicole Eagan",
     "Poppy Gustafsson",
@@ -52,11 +52,6 @@
       "quote": "In April 2021, Darktrace listed on the London Stock Exchange with a market value of circa £2.5 billion."
     },
     {
-      "field": "valuation",
-      "url": "https://techcrunch.com/2018/09/26/darktrace-raises-50-million-new-funding/",
-      "quote": "putting the company’s valuation at $1.65 billion"
-    },
-    {
       "field": "fun_fact",
       "url": "https://en.wikipedia.org/wiki/Darktrace",
       "quote": "In April 2021, Darktrace listed on the London Stock Exchange with a market value of circa £2.5 billion."
@@ -90,6 +85,11 @@
       "field": "founders",
       "url": "https://moneyinc.com/darktrace/",
       "quote": "Emily Orton, co-founder, and chief marketing officer"
+    },
+    {
+      "field": "valuation",
+      "url": "https://ir.darktrace.com/regulatory-news/2021/4/30/1473404",
+      "quote": "Based on the Offer Price, the market capitalisation of the Company will be approximately £1.7 billion at the commencement of conditional dealings on the Main Market of the London Stock Exchange."
     }
   ],
   "rounds": [
