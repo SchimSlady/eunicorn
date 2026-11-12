@@ -128,6 +128,43 @@
           "quote": "Existing investors Atomico, DN, Infravia, Kibo, and Quadrille also participated in the round."
         }
       ]
+    },
+    {
+      "month": "2025-04",
+      "stage": "series-f+",
+      "amountEur": 92000000,
+      "amountOriginal": 92000000,
+      "currency": "EUR",
+      "investors": [
+        "Atomico",
+        "BlackRock",
+        "DN Capital",
+        "InfraVia",
+        "Kibo Ventures",
+        "Kinnevik"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.jobandtalent.com/news/series-f",
+          "quote": "securing EUR 92 million in equity financing"
+        },
+        {
+          "field": "month",
+          "url": "https://www.jobandtalent.com/news/series-f",
+          "quote": "Madrid, 10 April 2025"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.jobandtalent.com/news/series-f",
+          "quote": "Series F fundraising round"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.jobandtalent.com/news/series-f",
+          "quote": "Atomico, BlackRock, DN Capital, Hercules, Infravia, Kibo, and Kinnevik among others"
+        }
+      ]
     }
   ],
   "tagline": "AI-powered platform for hiring workers."

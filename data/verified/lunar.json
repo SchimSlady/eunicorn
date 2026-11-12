@@ -143,6 +143,35 @@
           "quote": "March 11, 2022"
         }
       ]
+    },
+    {
+      "month": "2026-01",
+      "stage": "series-e",
+      "amountEur": 46000000,
+      "amountOriginal": 46000000,
+      "currency": "EUR",
+      "investors": [
+        "100A",
+        "Heartland",
+        "Orbit Alliance"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://pulse2.com/lunar-e46-million-closed-to-scale-nordic-business-banking-build-lending-and-expand-into-norway-and-finland",
+          "quote": "completed a €46 million capital increase"
+        },
+        {
+          "field": "month",
+          "url": "https://pulse2.com/lunar-e46-million-closed-to-scale-nordic-business-banking-build-lending-and-expand-into-norway-and-finland",
+          "quote": "By Amit Chowdhry Jan 30, 2026"
+        },
+        {
+          "field": "investors",
+          "url": "https://pulse2.com/lunar-e46-million-closed-to-scale-nordic-business-banking-build-lending-and-expand-into-norway-and-finland",
+          "quote": "added 100A, a London-based fintech investor focused on Series A and beyond, as a new backer alongside existing shareholders Heartland and Orbit Alliance"
+        }
+      ]
     }
   ]
 }

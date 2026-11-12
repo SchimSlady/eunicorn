@@ -122,6 +122,51 @@
           "quote": "joined by Tandem Diabetes Care, Inc., Ypsomed Group, Federated Hermes Kaufmann Funds, Kingdon Capital, and GMS Capital"
         }
       ]
+    },
+    {
+      "month": "2025-01",
+      "stage": "series-d",
+      "amountEur": 115462330,
+      "amountOriginal": 120000000,
+      "currency": "USD",
+      "investors": [],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://endeavourvision.com/cequr-closes-a-120m-equity-financing-to-drive-commercial-growth/",
+          "quote": "CeQur Closes a $120M Equity Financing"
+        },
+        {
+          "field": "month",
+          "url": "https://endeavourvision.com/cequr-closes-a-120m-equity-financing-to-drive-commercial-growth/",
+          "quote": "January 7, 2025"
+        }
+      ]
+    },
+    {
+      "month": "2026-06",
+      "stage": "series-e",
+      "amountEur": 86408019,
+      "amountOriginal": 100000000,
+      "currency": "USD",
+      "investors": [],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.newswise.com/articles/cequr-closes-100-million-series-e-backed-by-commercial-momentum-and-growing-demand-for-cequr-simplicity",
+          "quote": "announced the close of a $100 million Series E financing round"
+        },
+        {
+          "field": "month",
+          "url": "https://www.newswise.com/articles/cequr-closes-100-million-series-e-backed-by-commercial-momentum-and-growing-demand-for-cequr-simplicity",
+          "quote": "9-Jun-2026"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.newswise.com/articles/cequr-closes-100-million-series-e-backed-by-commercial-momentum-and-growing-demand-for-cequr-simplicity",
+          "quote": "announced the close of a $100 million Series E financing round"
+        }
+      ]
     }
   ],
   "tagline": "Maker of insulin-delivery devices for people living with diabetes."

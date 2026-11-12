@@ -14,7 +14,7 @@
   ],
   "status": "private",
   "unicorn": true,
-  "lastValuationEur": 10228000000,
+  "lastValuationEur": 10280000000,
   "founders": [
     "Guillaume Pousaz"
   ],
@@ -82,6 +82,11 @@
       "field": "tagline",
       "url": "https://en.wikipedia.org/wiki/Checkout.com",
       "quote": "It provides payment processing services, operating as a payment gateway, acquirer, and processor for enterprise clients in sectors such as e-commerce, technology, and media."
+    },
+    {
+      "field": "valuation",
+      "url": "https://www.checkout.com/newsroom/checkout-com-accelerates-towards-full-year-profitability-and-announces-employee-share-buy-back-and-a-new-12bn-valuation",
+      "quote": "The programme is based on a new valuation of $12 billion."
     }
   ],
   "rounds": [

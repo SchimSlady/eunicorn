@@ -97,6 +97,38 @@
           "quote": "Other participants include Project A, Visionaries Club and Signals"
         }
       ]
+    },
+    {
+      "month": "2025-11",
+      "stage": "series-c",
+      "amountEur": 51835853,
+      "amountOriginal": 60000000,
+      "currency": "USD",
+      "investors": [
+        "Grab"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://finance.yahoo.com/news/grab-invest-60m-remote-driving-190009562.html",
+          "quote": "Grab is investing $60m in cash for a minority position"
+        },
+        {
+          "field": "month",
+          "url": "https://finance.yahoo.com/news/grab-invest-60m-remote-driving-190009562.html",
+          "quote": "November 11, 2025"
+        },
+        {
+          "field": "stage",
+          "url": "https://finance.yahoo.com/news/grab-invest-60m-remote-driving-190009562.html",
+          "quote": "Grab will hold a minority equity stake at finalisation"
+        },
+        {
+          "field": "investors",
+          "url": "https://finance.yahoo.com/news/grab-invest-60m-remote-driving-190009562.html",
+          "quote": "Grab to invest $60m in remote driving company Vay"
+        }
+      ]
     }
   ],
   "tagline": "Remote driving company that offers remote-controlled rental cars."

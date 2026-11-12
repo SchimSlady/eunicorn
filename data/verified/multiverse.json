@@ -135,6 +135,44 @@
           "quote": "Lightspeed Venture Partners and General Catalyst all co-led this round, with Founders Circle Capital and past backers Audacious Ventures, BOND, D1 Capital Partners, GV and Index Ventures all also participating."
         }
       ]
+    },
+    {
+      "month": "2026-05",
+      "stage": "series-e",
+      "amountEur": 60199518,
+      "amountOriginal": 70000000,
+      "currency": "USD",
+      "investors": [
+        "Schroders Capital",
+        "General Catalyst",
+        "Lightspeed Venture Partners",
+        "D1 Capital Partners",
+        "Index Ventures",
+        "Bond",
+        "StepStone Group"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.multiverse.io/blog/multiverse-raises-70-million-europes-ai-adoption-platform",
+          "quote": "today announced it has raised $70 million in primary funding"
+        },
+        {
+          "field": "month",
+          "url": "https://www.multiverse.io/blog/multiverse-raises-70-million-europes-ai-adoption-platform",
+          "quote": "15 May 2026"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.multiverse.io/blog/multiverse-raises-70-million-europes-ai-adoption-platform",
+          "quote": "Strategic investment led by Schroders Capital, at increased valuation of $2.1 billion"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.multiverse.io/blog/multiverse-raises-70-million-europes-ai-adoption-platform",
+          "quote": "The funding was led by Schroders Capital, with participation from existing investors including General Catalyst, Lightspeed Venture Partners, D1 Capital Partners, Index Ventures, Bond, and StepStone Group."
+        }
+      ]
     }
   ]
 }

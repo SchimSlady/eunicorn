@@ -108,6 +108,41 @@
           "quote": "Monday, 30 September 2024"
         }
       ]
+    },
+    {
+      "month": "2026-02",
+      "stage": "series-b",
+      "amountEur": 71912014,
+      "amountOriginal": 85000000,
+      "currency": "USD",
+      "investors": [
+        "Kairos",
+        "Indaco Ventures",
+        "Azimut Investments",
+        "CERN pension fund",
+        "Walter Tosto",
+        "Danieli",
+        "Cementir Holding",
+        "Orion Valves (Ecoline)",
+        "NextChem"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://pulse2.com/newcleo-85-million-raised-for-advanced-nuclear-developer-platform/amp/",
+          "quote": "announced it has closed an $85 million financing round"
+        },
+        {
+          "field": "month",
+          "url": "https://www.nucnet.org/news/european-nuclear-company-newcleo-closes-latest-funding-round-of-usd85-million-2-3-2026",
+          "quote": "4 February 2026"
+        },
+        {
+          "field": "investors",
+          "url": "https://pulse2.com/newcleo-85-million-raised-for-advanced-nuclear-developer-platform/amp/",
+          "quote": "including venture firms Kairos and Indaco Ventures, asset manager Azimut Investments, the CERN pension fund, and industrial components manufacturer Walter Tosto"
+        }
+      ]
     }
   ],
   "tagline": "European nuclear energy company developing small modular lead-cooled fast reactors."

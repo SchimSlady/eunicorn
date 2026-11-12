@@ -119,6 +119,35 @@
           "quote": "guidato da Addition"
         }
       ]
+    },
+    {
+      "month": "2024-11",
+      "stage": "series-e",
+      "amountEur": 60000000,
+      "amountOriginal": 60000000,
+      "currency": "EUR",
+      "investors": [
+        "Addition",
+        "Greyhound",
+        "Lightrock"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://tech.eu/2024/11/12/italian-unicorn-satispay-raises-60m/",
+          "quote": "has raised a new €60M round"
+        },
+        {
+          "field": "month",
+          "url": "https://tech.eu/2024/11/12/italian-unicorn-satispay-raises-60m/",
+          "quote": "12 November 2024"
+        },
+        {
+          "field": "investors",
+          "url": "https://tech.eu/2024/11/12/italian-unicorn-satispay-raises-60m/",
+          "quote": "previous investors Addition, Greyhound, and Lightrock"
+        }
+      ]
     }
   ],
   "lastValuationEur": 1000000000,

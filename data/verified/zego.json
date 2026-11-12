@@ -202,6 +202,33 @@
           "quote": "including Wise’s Taavet Hinrikus, who is also on the Zego board, and Target Global, Balderton Capital and Latitude"
         }
       ]
+    },
+    {
+      "month": "2026-04",
+      "stage": "series-d",
+      "amountEur": 23767442,
+      "amountOriginal": 28000000,
+      "currency": "USD",
+      "investors": [
+        "Sompo Holdings"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://fintech.global/2026/04/16/sompo-partners-with-zego-in-28m-funding-round/",
+          "quote": "has secured $28m (approximately £20.6m) in a new funding round"
+        },
+        {
+          "field": "month",
+          "url": "https://fintech.global/2026/04/16/sompo-partners-with-zego-in-28m-funding-round/",
+          "quote": "April 16, 2026"
+        },
+        {
+          "field": "investors",
+          "url": "https://fintech.global/2026/04/16/sompo-partners-with-zego-in-28m-funding-round/",
+          "quote": "with Japanese insurance giant Sompo Holdings joining existing investors"
+        }
+      ]
     }
   ],
   "lastValuationEur": 925000000,

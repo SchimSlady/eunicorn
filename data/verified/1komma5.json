@@ -139,6 +139,87 @@
           "quote": "G2VP as its new lead investor"
         }
       ]
+    },
+    {
+      "month": "2024-12",
+      "stage": "series-c",
+      "amountEur": 150000000,
+      "amountOriginal": 150000000,
+      "currency": "EUR",
+      "investors": [
+        "CalSTRS",
+        "G2 Venture Partners",
+        "2150",
+        "Norrsken VC",
+        "Hamilton Lane",
+        "b2venture",
+        "Eurazeo",
+        "eCAPITAL"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://1komma5.com/en/press/press-releases/1komma5-raises-pre-ipo-round-of-150-million-euro/",
+          "quote": "has secured €150 million in its pre-IPO financing round"
+        },
+        {
+          "field": "month",
+          "url": "https://1komma5.com/en/press/press-releases/1komma5-raises-pre-ipo-round-of-150-million-euro/",
+          "quote": "Hamburg, Germany – Dec 20, 2024"
+        },
+        {
+          "field": "stage",
+          "url": "https://1komma5.com/en/press/press-releases/1komma5-raises-pre-ipo-round-of-150-million-euro/",
+          "quote": "has secured €150 million in its pre-IPO financing round"
+        },
+        {
+          "field": "investors",
+          "url": "https://1komma5.com/en/press/press-releases/1komma5-raises-pre-ipo-round-of-150-million-euro/",
+          "quote": "The round was co-led by G2 Venture Partners, followed by 2150, Norrsken, Hamilton Lane, b2venture, Eurazeo, and eCAPITAL"
+        },
+        {
+          "field": "investors",
+          "url": "https://1komma5.com/en/press/press-releases/1komma5-raises-pre-ipo-round-of-150-million-euro/",
+          "quote": "The largest investor and new shareholder in the round is CalSTRS"
+        }
+      ]
+    },
+    {
+      "month": "2026-10",
+      "stage": "series-d",
+      "amountEur": 70000000,
+      "amountOriginal": 70000000,
+      "currency": "EUR",
+      "investors": [
+        "b2venture",
+        "Marunouchi Innovation Partners",
+        "CalSTRS",
+        "eCapital",
+        "G2 Venture Partners",
+        "Eurazeo"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://1komma5.com/en/press/press-releases/1komma5-secures-new-funding-for-its-energy-ai-at-a-35-percent-higher-valuation",
+          "quote": "Around 70 million euros come from a new financing round"
+        },
+        {
+          "field": "month",
+          "url": "https://1komma5.com/en/press/press-releases/1komma5-secures-new-funding-for-its-energy-ai-at-a-35-percent-higher-valuation",
+          "quote": "Hamburg, October 13, 2026"
+        },
+        {
+          "field": "investors",
+          "url": "https://1komma5.com/en/press/press-releases/1komma5-secures-new-funding-for-its-energy-ai-at-a-35-percent-higher-valuation",
+          "quote": "The round is led by b2venture with Marunouchi Innovation Partners (MIP), one of Japan's leading cleantech growth funds, joining as a new shareholder"
+        },
+        {
+          "field": "investors",
+          "url": "https://1komma5.com/en/press/press-releases/1komma5-secures-new-funding-for-its-energy-ai-at-a-35-percent-higher-valuation",
+          "quote": "Existing shareholders, including CalSTRS, eCapital, G2 Venture Partners and Eurazeo, are participating"
+        }
+      ]
     }
   ],
   "tagline": "Energy intelligence platform that balances renewable power as a virtual power plant for homes."
