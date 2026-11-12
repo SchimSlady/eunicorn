@@ -296,6 +296,38 @@
           "quote": "Also, existing investors, including LGT and its affiliate impact investing platform Lightrock, Watrium, Cambridge Innovation Capital, PFM Health Sciences and GE Healthcare, also invested in the round."
         }
       ]
+    },
+    {
+      "stage": "series-e",
+      "month": "2026-10",
+      "amountEur": 357749754,
+      "amountOriginal": 400000000,
+      "currency": "USD",
+      "investors": [
+        "Stryker"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.cambridgenetwork.co.uk/news/stryker-and-cmr-surgical-announce-strategic-alliance-advance-robotic-assisted-surgery",
+          "quote": "Stryker will make an approximately $400 million (£300 million) preferred equity investment in CMR Surgical"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.cambridgenetwork.co.uk/news/stryker-and-cmr-surgical-announce-strategic-alliance-advance-robotic-assisted-surgery",
+          "quote": "Stryker will make an approximately $400 million (£300 million) preferred equity investment in CMR Surgical"
+        },
+        {
+          "field": "month",
+          "url": "https://www.cambridgenetwork.co.uk/news/stryker-and-cmr-surgical-announce-strategic-alliance-advance-robotic-assisted-surgery",
+          "quote": "12 October 2026"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.cambridgenetwork.co.uk/news/stryker-and-cmr-surgical-announce-strategic-alliance-advance-robotic-assisted-surgery",
+          "quote": "Stryker will make an approximately $400 million (£300 million) preferred equity investment in CMR Surgical"
+        }
+      ]
     }
   ],
   "tagline": "Maker of Versius, a robot-assisted surgery system."

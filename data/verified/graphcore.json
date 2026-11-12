@@ -238,6 +238,40 @@
           "quote": "Existing investors also contributing to the Series D include Amadeus Capital Partners, Robert Bosch Venture Capital, C4 Ventures, Dell Technologies Capital, Draper Esprit, Foundation Capital, Pitango, Samsung and Sequoia Capital."
         }
       ]
+    },
+    {
+      "stage": "series-e",
+      "month": "2020-12",
+      "amountEur": 181091443,
+      "amountOriginal": 222000000,
+      "currency": "USD",
+      "investors": [
+        "Ontario Teachers' Pension Plan",
+        "Fidelity International",
+        "Schroders"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.graphcore.ai/posts/graphcore-raises-222-million-in-series-e-funding-round",
+          "quote": "Graphcore raises $222 million in Series E Funding Round"
+        },
+        {
+          "field": "stage",
+          "url": "https://www.graphcore.ai/posts/graphcore-raises-222-million-in-series-e-funding-round",
+          "quote": "Graphcore raises $222 million in Series E Funding Round"
+        },
+        {
+          "field": "month",
+          "url": "https://www.graphcore.ai/posts/graphcore-raises-222-million-in-series-e-funding-round",
+          "quote": "Dec 29, 2020"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.graphcore.ai/posts/graphcore-raises-222-million-in-series-e-funding-round",
+          "quote": "The Series E funding round is led by Ontario Teachers’ Pensions Plan Board and adds funds managed by Fidelity International and Schroders as new investors."
+        }
+      ]
     }
   ],
   "tagline": "British semiconductor company developing accelerators for AI and machine learning."

@@ -9,7 +9,7 @@
   "sectors": [
     "climate"
   ],
-  "status": "private",
+  "status": "defunct",
   "unicorn": false,
   "founders": [
     "Alex Melzer",
@@ -42,6 +42,16 @@
       "field": "tagline",
       "url": "https://zolar.de",
       "quote": "Wir vernetzen dich mit den passenden Expert:innen für Photovoltaikanlagen, Balkonkraftwerke, Wallboxen und Solarspeicher aus ganz Deutschland."
+    },
+    {
+      "field": "status",
+      "url": "https://taiyangnews.info/business/zolar-files-self-administration-restructuring",
+      "quote": "zolar GmbH has filed for self-administration with the district court in Berlin-Charlottenburg to continue its restructuring efforts to transition as a B2B business."
+    },
+    {
+      "field": "exit",
+      "url": "https://taiyangnews.info/business/zolar-files-self-administration-restructuring",
+      "quote": "zolar GmbH has filed for self-administration with the district court in Berlin-Charlottenburg to continue its restructuring efforts to transition as a B2B business."
     }
   ],
   "rounds": [
@@ -163,5 +173,9 @@
       ]
     }
   ],
-  "tagline": "Connects people with experts for photovoltaic systems, balcony power plants, wallboxes and solar storage in Germany."
+  "tagline": "Connects people with experts for photovoltaic systems, balcony power plants, wallboxes and solar storage in Germany.",
+  "exit": {
+    "kind": "insolvency",
+    "month": "2025-06"
+  }
 }
