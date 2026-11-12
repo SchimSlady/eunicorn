@@ -7,7 +7,7 @@ import { getTodayResult, loadProgress, saveProgress, saveResult } from "@/lib/da
 import { hintLimit, saveDifficulty, type Difficulty } from "@/lib/difficulty";
 import { shareText as buildShareText } from "@/lib/scoring";
 import { CompanyLogo } from "@/components/CompanyLogo";
-import { distinctAnswers, gridMissReason, investorIndex } from "@/lib/grid";
+import { bestDistinctAnswers, distinctAnswers, gridMissReason, investorIndex } from "@/lib/grid";
 import { MissToast, type MissIcon } from "@/components/MissToast";
 import { nudgeClass } from "@/lib/nudge";
 import { companyFact, strengthOf } from "@/lib/hints";
@@ -215,12 +215,11 @@ export function UnicornGridGame() {
   }
 
   // Answers shown in squares the player left empty: the best-known valid ones such that, like
-  // for the player, every company appears only once on the board.
+  // for the player, every company appears only once on the board, counting the player's own picks
+  // (Pablo, 2026-11-12). If the player's picks leave a square without a free answer, it stays empty.
   const byWorth = (_: number, ids: string[]) => [...ids].sort((a, b) => worth(a) - worth(b));
-  const fill = distinctAnswers(puzzle.validAnswers, progress.cells, byWorth);
-  const revealed: (Company | null)[] = progress.cells.map((placed, cell) =>
-    placed ? null : companies.get(fill?.[cell] ?? byWorth(cell, puzzle.validAnswers[cell])[0])!,
-  );
+  const fill = bestDistinctAnswers(puzzle.validAnswers, progress.cells, byWorth);
+  const revealed: (Company | null)[] = fill.map((id) => (id ? companies.get(id) ?? null : null));
   const reveal = (cell: number) => revealed[cell] ?? companies.get(puzzle.validAnswers[cell][0])!;
 
   const strip = (s: string) => s.replace(/\p{Regional_Indicator}/gu, "").trim();
@@ -288,7 +287,7 @@ export function UnicornGridGame() {
               const cell = ri * 3 + ci;
               const id = progress.cells[cell];
               const c = id ? companies.get(id)! : null;
-              const shown = c ?? (done ? reveal(cell) : null);
+              const shown = c ?? (done ? revealed[cell] : null);
               const candidate = !!pending && pending.cells.includes(cell);
               const cls = `relative flex aspect-square flex-col items-stretch justify-center gap-1 rounded-2xl border-2 p-1 transition ${
                 c
