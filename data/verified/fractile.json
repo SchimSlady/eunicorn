@@ -11,7 +11,7 @@
     "ai"
   ],
   "status": "private",
-  "unicorn": false,
+  "unicorn": true,
   "founders": [
     "Walter Goodwin"
   ],
@@ -48,6 +48,16 @@
       "field": "tagline",
       "url": "https://fractile.ai",
       "quote": "Building hardware to advance AI’s underlying capabilities and push the frontier forward."
+    },
+    {
+      "field": "valuation",
+      "url": "https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips/",
+      "quote": "According to the British government, the valuation was “over £5 billion”"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips/",
+      "quote": "According to the British government, the valuation was “over £5 billion”"
     }
   ],
   "rounds": [
@@ -135,7 +145,55 @@
           "quote": "The round was co-led by Accel, Factorial Funds and Founders Fund, and saw the participation of Conviction, Gigascale, O1A, Felicis, Buckley Ventures, 8VC and existing backers."
         }
       ]
+    },
+    {
+      "stage": "series-c",
+      "month": "2026-11",
+      "amountEur": 647074683,
+      "amountOriginal": 720000000,
+      "currency": "USD",
+      "postMoneyValuationEur": 5979573776,
+      "investors": [
+        "Thrive Capital",
+        "Founders Fund",
+        "Lightspeed Venture Partners",
+        "Redpoint",
+        "Sovereign AI Fund"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips/",
+          "quote": "Fractile , a British startup developing AI chips, has raised a $720 million Series C backed by Britain’s Sovereign AI Fund"
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips/",
+          "quote": "Fractile , a British startup developing AI chips, has raised a $720 million Series C backed by Britain’s Sovereign AI Fund"
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips/",
+          "quote": "November 11, 2026"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips/",
+          "quote": "its latest round led by Thrive Capital, Founders Fund, Lightspeed Venture Partners, and Redpoint was priced accordingly"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips/",
+          "quote": "Fractile , a British startup developing AI chips, has raised a $720 million Series C backed by Britain’s Sovereign AI Fund"
+        },
+        {
+          "field": "valuation",
+          "url": "https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips/",
+          "quote": "According to the British government, the valuation was “over £5 billion”"
+        }
+      ]
     }
   ],
-  "tagline": "Builds chips and hardware to advance AI's underlying capabilities."
+  "tagline": "Builds chips and hardware to advance AI's underlying capabilities.",
+  "lastValuationEur": 5979573776
 }
