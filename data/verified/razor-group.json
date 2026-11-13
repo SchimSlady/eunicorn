@@ -153,6 +153,38 @@
           "quote": "Jebsen Capital also participated in this latest round led by consumer-focused investment firm L Catterton"
         }
       ]
+    },
+    {
+      "stage": "series-d",
+      "month": "2024-03",
+      "amountEur": 92199889,
+      "amountOriginal": 100000000,
+      "currency": "USD",
+      "investors": [
+        "Presight Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://techcrunch.com/2024/03/04/razor-and-perch-merge-raise-100m-on-a-1-7b-valuation-as-more-roll-ups-consolidate",
+          "quote": "Berlin’s Razor Group has acquired U.S.-based Perch, and on top of this it has raised just over $100 million led by Presight Capital with other undisclosed investors participating."
+        },
+        {
+          "field": "stage",
+          "url": "https://techcrunch.com/2024/03/04/razor-and-perch-merge-raise-100m-on-a-1-7b-valuation-as-more-roll-ups-consolidate",
+          "quote": "Berlin’s Razor Group has acquired U.S.-based Perch, and on top of this it has raised just over $100 million led by Presight Capital with other undisclosed investors participating."
+        },
+        {
+          "field": "month",
+          "url": "https://techcrunch.com/2024/03/04/razor-and-perch-merge-raise-100m-on-a-1-7b-valuation-as-more-roll-ups-consolidate",
+          "quote": "March 4, 2024"
+        },
+        {
+          "field": "investors",
+          "url": "https://techcrunch.com/2024/03/04/razor-and-perch-merge-raise-100m-on-a-1-7b-valuation-as-more-roll-ups-consolidate",
+          "quote": "Berlin’s Razor Group has acquired U.S.-based Perch, and on top of this it has raised just over $100 million led by Presight Capital with other undisclosed investors participating."
+        }
+      ]
     }
   ],
   "lastValuationEur": 874000000,

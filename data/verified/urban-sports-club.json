@@ -21,7 +21,7 @@
   "techeuId": "AD6C74DE-7601-4EFD-8634-4170AE9F8075",
   "exit": {
     "kind": "acquisition",
-    "month": "2025-09",
+    "month": "2025-03",
     "acquirer": "Wellhub"
   },
   "sources": [
@@ -56,16 +56,6 @@
       "quote": "After two years of bootstrapping, the company secured early-stage financing in 2015"
     },
     {
-      "field": "exit",
-      "url": "https://www.invest-in.berlin/n/berlins-urban-sports-club-sold-for-600m-to-wellhub/",
-      "quote": "Berlin-based fitness startup Urban Sports Club (USC) has been acquired by US wellness platform Wellhub for approximately $600 million"
-    },
-    {
-      "field": "exit",
-      "url": "https://www.invest-in.berlin/n/berlins-urban-sports-club-sold-for-600m-to-wellhub/",
-      "quote": "16.09.2025 | Tech and Business News"
-    },
-    {
       "field": "tagline",
       "url": "https://urbansportsclub.com",
       "quote": "Das vielfältigste Sport- und Wellnessangebot in Europa - in nur einer Mitgliedschaft!"
@@ -74,6 +64,16 @@
       "field": "tagline",
       "url": "https://urbansportsclub.com",
       "quote": "Entdecke über 50 Sportarten, entspanne beim Wellness und werde aktiv, wann und wo du willst: indoor, outdoor und online."
+    },
+    {
+      "field": "exit",
+      "url": "https://www.leisureopportunities.co.uk/news/Wellhub-broadens-reach-in-Europe-with-acquisition-of-Urban-Sports-Club/355395",
+      "quote": "Wellhub announces acquisition of employee benefits provider, Urban Sports Club"
+    },
+    {
+      "field": "exit",
+      "url": "https://www.leisureopportunities.co.uk/news/Wellhub-broadens-reach-in-Europe-with-acquisition-of-Urban-Sports-Club/355395",
+      "quote": "26 Mar 2025"
     }
   ],
   "rounds": [

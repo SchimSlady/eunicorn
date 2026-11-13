@@ -125,6 +125,39 @@
           "quote": "Additional new investors on board include High-Performance Computing (HPC) specialist Northern Data , Germany’s largest business law firm CMS"
         }
       ]
+    },
+    {
+      "stage": "series-c",
+      "month": "2026-09",
+      "amountEur": 100000000,
+      "amountOriginal": 100000000,
+      "currency": "EUR",
+      "investors": [
+        "C.H.Beck",
+        "Manz"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://nordic9.com/news/noxtua-closed-a-series-c-round-of-100-million/",
+          "quote": "Noxtua closed a Series C round of €100 million led by C.H.BECK, joined by MANZ."
+        },
+        {
+          "field": "stage",
+          "url": "https://nordic9.com/news/noxtua-closed-a-series-c-round-of-100-million/",
+          "quote": "Noxtua closed a Series C round of €100 million led by C.H.BECK, joined by MANZ."
+        },
+        {
+          "field": "month",
+          "url": "https://nordic9.com/news/noxtua-closed-a-series-c-round-of-100-million/",
+          "quote": "21 September 2026"
+        },
+        {
+          "field": "investors",
+          "url": "https://nordic9.com/news/noxtua-closed-a-series-c-round-of-100-million/",
+          "quote": "Noxtua closed a Series C round of €100 million led by C.H.BECK, joined by MANZ."
+        }
+      ]
     }
   ],
   "tagline": "Research, analysis and drafting tools for the legal profession, built on European legal knowledge."

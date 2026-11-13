@@ -93,6 +93,38 @@
           "quote": "The existing investors Albion, Earlybird , Eight Roads Ventures, F-Prime Capital, Mtip and several angel investors also contributed money."
         }
       ]
+    },
+    {
+      "stage": "series-d",
+      "month": "2026-01",
+      "amountEur": 170852554,
+      "amountOriginal": 200000000,
+      "currency": "USD",
+      "investors": [
+        "Kinnevik"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.venturelab.swiss/USD-200M-in-Series-D-Funding-for-the-digital-health-leader-Oviva",
+          "quote": "Kinnevik led the USD 200 million Series D round with a USD 100 million investment, becoming Oviva’s largest shareholder."
+        },
+        {
+          "field": "stage",
+          "url": "https://www.venturelab.swiss/USD-200M-in-Series-D-Funding-for-the-digital-health-leader-Oviva",
+          "quote": "Kinnevik led the USD 200 million Series D round with a USD 100 million investment, becoming Oviva’s largest shareholder."
+        },
+        {
+          "field": "month",
+          "url": "https://www.venturelab.swiss/USD-200M-in-Series-D-Funding-for-the-digital-health-leader-Oviva",
+          "quote": "22.01.2026"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.venturelab.swiss/USD-200M-in-Series-D-Funding-for-the-digital-health-leader-Oviva",
+          "quote": "Kinnevik led the USD 200 million Series D round with a USD 100 million investment, becoming Oviva’s largest shareholder."
+        }
+      ]
     }
   ],
   "tagline": "App-based weight management with access to qualified nutrition specialists."
