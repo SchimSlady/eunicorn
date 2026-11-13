@@ -10,7 +10,7 @@
     "saas"
   ],
   "status": "private",
-  "unicorn": false,
+  "unicorn": true,
   "founders": [
     "François Cazor",
     "Jean Maynier"
@@ -53,6 +53,16 @@
       "field": "tagline",
       "url": "https://www.kpler.com/",
       "quote": "The foundational data layer for global trade."
+    },
+    {
+      "field": "valuation",
+      "url": "https://maritime-executive.com/article/kpler-secures-1-billion-investment-from-sixth-street",
+      "quote": "The deal values Kpler at nearly $4 billion"
+    },
+    {
+      "field": "unicorn",
+      "url": "https://maritime-executive.com/article/kpler-secures-1-billion-investment-from-sixth-street",
+      "quote": "The deal values Kpler at nearly $4 billion"
     }
   ],
   "rounds": [
@@ -91,5 +101,6 @@
       ]
     }
   ],
-  "tagline": "Real-time data and insights on global trade and markets."
+  "tagline": "Real-time data and insights on global trade and markets.",
+  "lastValuationEur": 3185810229
 }

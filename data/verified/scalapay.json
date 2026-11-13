@@ -118,6 +118,49 @@
           "quote": "Tiger Global is leading this round, with new backers Baleen Capital and Woodson Capital also participating, alongside Fasanara Capital and Ithaca Investments"
         }
       ]
+    },
+    {
+      "stage": "series-b",
+      "month": "2022-02",
+      "amountEur": 438117066,
+      "amountOriginal": 497000000,
+      "currency": "USD",
+      "investors": [
+        "Tencent",
+        "Willoughby Capital",
+        "Tiger Global",
+        "Gangwal",
+        "Moore Capital",
+        "Deimos",
+        "Fasanara Capital"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://siliconcanals.com/scalapay-raises-497m/",
+          "quote": "The startup announced on Wednesday that it has raised $497M (approx €441.68M) in its Series B round of funding led by Tencent and Willoughby Capital."
+        },
+        {
+          "field": "stage",
+          "url": "https://siliconcanals.com/scalapay-raises-497m/",
+          "quote": "The startup announced on Wednesday that it has raised $497M (approx €441.68M) in its Series B round of funding led by Tencent and Willoughby Capital."
+        },
+        {
+          "field": "month",
+          "url": "https://siliconcanals.com/scalapay-raises-497m/",
+          "quote": "Feb 24, 2022"
+        },
+        {
+          "field": "investors",
+          "url": "https://siliconcanals.com/scalapay-raises-497m/",
+          "quote": "The startup announced on Wednesday that it has raised $497M (approx €441.68M) in its Series B round of funding led by Tencent and Willoughby Capital."
+        },
+        {
+          "field": "investors",
+          "url": "https://siliconcanals.com/scalapay-raises-497m/",
+          "quote": "The round also saw participation from Tiger Global, Gangwal, Moore Capital, Deimos, and Fasanara Capital."
+        }
+      ]
     }
   ],
   "tagline": "Lets shoppers pay in three interest-free instalments at participating stores."

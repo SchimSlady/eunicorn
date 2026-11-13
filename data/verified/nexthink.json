@@ -9,7 +9,7 @@
   "sectors": [
     "saas"
   ],
-  "status": "private",
+  "status": "acquired",
   "unicorn": false,
   "lastValuationEur": 914760915,
   "founders": [
@@ -59,6 +59,21 @@
       "field": "tagline",
       "url": "https://en.wikipedia.org/wiki/Nexthink",
       "quote": "Founded in 2004, the company provides IT teams with real-time analytics, automation, and employee feedback tools to monitor and enhance the digital workplace experience."
+    },
+    {
+      "field": "status",
+      "url": "https://www.aap.com.au/aapreleases/cision20251027ae07367/",
+      "quote": "Vista Equity Partners to Make Majority Investment in Nexthink, Valuing the Company at approximately $3 Billion"
+    },
+    {
+      "field": "exit",
+      "url": "https://www.aap.com.au/aapreleases/cision20251027ae07367/",
+      "quote": "Vista Equity Partners to Make Majority Investment in Nexthink, Valuing the Company at approximately $3 Billion"
+    },
+    {
+      "field": "exit",
+      "url": "https://www.aap.com.au/aapreleases/cision20251027ae07367/",
+      "quote": "October 27, 2025"
     }
   ],
   "rounds": [
@@ -162,5 +177,10 @@
       ]
     }
   ],
-  "tagline": "Swiss software for managing digital employee experience, with analytics and automation for IT teams."
+  "tagline": "Swiss software for managing digital employee experience, with analytics and automation for IT teams.",
+  "exit": {
+    "kind": "acquisition",
+    "month": "2025-10",
+    "acquirer": "Vista Equity Partners"
+  }
 }

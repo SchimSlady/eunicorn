@@ -11,7 +11,7 @@
   "sectors": [
     "health"
   ],
-  "status": "private",
+  "status": "public",
   "unicorn": false,
   "founders": [
     "Tej Tadi"
@@ -48,6 +48,21 @@
       "field": "tagline",
       "url": "https://www.mindmazetherapeutics.com/",
       "quote": "The immersive experience platform for brain recovery and learning"
+    },
+    {
+      "field": "status",
+      "url": "https://www.venturekick.ch/MindMaze-enters-the-public-market-through-a-reverse-merger",
+      "quote": "Swiss neurotechnology company MindMaze entered the public market in late 2025 through a reverse merger with Relief Therapeutics, creating MindMaze Therapeutics Holding SA listed on SIX Swiss Exchange under the ticker MMTX."
+    },
+    {
+      "field": "exit",
+      "url": "https://www.venturekick.ch/MindMaze-enters-the-public-market-through-a-reverse-merger",
+      "quote": "Swiss neurotechnology company MindMaze entered the public market in late 2025 through a reverse merger with Relief Therapeutics, creating MindMaze Therapeutics Holding SA listed on SIX Swiss Exchange under the ticker MMTX."
+    },
+    {
+      "field": "exit",
+      "url": "https://www.venturekick.ch/MindMaze-enters-the-public-market-through-a-reverse-merger",
+      "quote": "15.12.2025"
     }
   ],
   "rounds": [
@@ -81,5 +96,9 @@
     }
   ],
   "lastValuationEur": 894000000,
-  "tagline": "Immersive experience platform for brain recovery and learning."
+  "tagline": "Immersive experience platform for brain recovery and learning.",
+  "exit": {
+    "kind": "ipo",
+    "month": "2025-12"
+  }
 }

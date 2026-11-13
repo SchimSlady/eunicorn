@@ -85,6 +85,43 @@
           "quote": "The Series D round for Innovafeed was led by Qatar Investment Authority (QIA), with other participants including existing investors, Creadev and Temasek, and new strategic and financial backers: ADM and Cargill"
         }
       ]
+    },
+    {
+      "stage": "series-e",
+      "month": "2026-06",
+      "amountEur": 51000000,
+      "amountOriginal": 51000000,
+      "currency": "EUR",
+      "investors": [
+        "Creadev",
+        "Qatar Investment Authority",
+        "Temasek",
+        "Future French Champions",
+        "ABC Impact",
+        "ADM"
+      ],
+      "sources": [
+        {
+          "field": "amount",
+          "url": "https://www.maddyness.com/2026/06/05/innovafeed-leve-51-millions-deuros-mais-supprime-une-soixantaine-de-postes/",
+          "quote": "vient de boucler une levée de fonds de 51 millions d’euros auprès de ses investisseurs historiques, parmi lesquels Creadev, QIA, Temasek, Future French Champions, ABC Impact et ADM."
+        },
+        {
+          "field": "stage",
+          "url": "https://www.maddyness.com/2026/06/05/innovafeed-leve-51-millions-deuros-mais-supprime-une-soixantaine-de-postes/",
+          "quote": "vient de boucler une levée de fonds de 51 millions d’euros auprès de ses investisseurs historiques, parmi lesquels Creadev, QIA, Temasek, Future French Champions, ABC Impact et ADM."
+        },
+        {
+          "field": "month",
+          "url": "https://www.maddyness.com/2026/06/05/innovafeed-leve-51-millions-deuros-mais-supprime-une-soixantaine-de-postes/",
+          "quote": "5 juin 2026"
+        },
+        {
+          "field": "investors",
+          "url": "https://www.maddyness.com/2026/06/05/innovafeed-leve-51-millions-deuros-mais-supprime-une-soixantaine-de-postes/",
+          "quote": "vient de boucler une levée de fonds de 51 millions d’euros auprès de ses investisseurs historiques, parmi lesquels Creadev, QIA, Temasek, Future French Champions, ABC Impact et ADM."
+        }
+      ]
     }
   ],
   "tagline": "Produces insect-based ingredients for animal nutrition, pet food and agriculture."
